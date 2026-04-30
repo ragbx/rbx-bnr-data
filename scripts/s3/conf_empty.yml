@@ -1,0 +1,13 @@
+---
+s3_conf:
+    user_ro:
+        aws_access_key_id: aws_access_key_id
+        aws_secret_access_key: aws_secret_access_key
+    user_rw:
+        aws_access_key_id: aws_access_key_id
+        aws_secret_access_key: aws_secret_access_key
+    user_test:
+        aws_access_key_id: aws_access_key_id
+        aws_secret_access_key: aws_secret_access_key
+    endpoint_url: https://s3
+    region_name: rbx-archive
