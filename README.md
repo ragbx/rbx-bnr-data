@@ -2,7 +2,7 @@
 
 Ce dépôt a vocation à rassembler l'ensemble des données et métadonnées liées à la bn-r.
 
-Pour les objectifs et les résultats, voir la partie [documentation](../doc/documentation.md).
+Pour les objectifs et les résultats, voir la partie [documentation](doc/documentation.md).
 
 ## Organisation du dépôt :
 
