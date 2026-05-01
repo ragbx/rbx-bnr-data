@@ -178,4 +178,5 @@ for f in rfiles:
 r_df = pd.concat(rfiles_df)
 
 df = r_df.merge(i_df, on="identifier", how='outer')
+df['osiros_id'] = df['identifier'].str.replace("oai:bn-r.fr:", "BNR")
 df.to_csv(join("data", "oai", f"oai_records_{date}.csv.gz"), index=False)
