@@ -74,7 +74,7 @@ for prefix in [
             )
             metadata_df.to_csv(
                 join(
-                    "results",
+                    "data",
                     "s3",
                     f"listing3-mediatheque-patarch-communicable_{prefix_path}_{j}.csv.gz"
                 ),
@@ -95,7 +95,7 @@ for prefix in [
     )
     metadata_df.to_csv(
         join(
-            "results",
+            "data",
             "s3",
             f"listing3-mediatheque-patarch-communicable_{prefix_path}_{j}.csv.gz"
         ),

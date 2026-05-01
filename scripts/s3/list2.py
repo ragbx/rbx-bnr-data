@@ -61,7 +61,7 @@ for prefix in ["CSV", "LAI", "LAR", "MDF", "MUS", "OBS", "PAR", "TCG"]:
             )
             metadata_df.to_csv(
                 join(
-                    "results",
+                    "data",
                     "s3",
                     f"listing2-mediatheque-patarch-communicable_{prefix}_{j}.csv.gz",
                 ),
@@ -82,7 +82,7 @@ for prefix in ["CSV", "LAI", "LAR", "MDF", "MUS", "OBS", "PAR", "TCG"]:
     )
     metadata_df.to_csv(
         join(
-            "results",
+            "data",
             "s3",
             f"listing2-mediatheque-patarch-communicable_{prefix}_{j}.csv.gz",
         ),

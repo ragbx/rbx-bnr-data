@@ -61,7 +61,7 @@ for prefix in ["AMR/AMR_EC"]:
             )
             metadata_df.to_csv(
                 join(
-                    "results",
+                    "data",
                     "s3",
                     f"listing6-mediatheque-patarch-incommunicable_{prefix_path}_{j}.csv.gz"
                 ),
@@ -82,7 +82,7 @@ for prefix in ["AMR/AMR_EC"]:
     )
     metadata_df.to_csv(
         join(
-            "results",
+            "data",
             "s3",
             f"listing6-mediatheque-patarch-incommunicable_{prefix_path}_{j}.csv.gz"
         ),
