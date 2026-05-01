@@ -63,7 +63,7 @@ for prefix in ["AMR/AMR_EC"]:
                 join(
                     "results",
                     "s3",
-                    f"listing6-mediatheque-patarch-communicable_{prefix_path}_{j}.csv.gz"
+                    f"listing6-mediatheque-patarch-incommunicable_{prefix_path}_{j}.csv.gz"
                 ),
                 index=False
             )
@@ -84,7 +84,7 @@ for prefix in ["AMR/AMR_EC"]:
         join(
             "results",
             "s3",
-            f"listing6-mediatheque-patarch-communicable_{prefix_path}_{j}.csv.gz"
+            f"listing6-mediatheque-patarch-incommunicable_{prefix_path}_{j}.csv.gz"
         ),
         index=False
     )
