@@ -157,7 +157,7 @@ class Azrael2list:
             if "filename" in new_checksum_df:
                 new_checksum_df = new_checksum_df.drop(columns=["filename"])
             new_checksum_df.to_csv(
-                join("data", f"{new_checksum_file_name}_{j}.csv.gz"), index=False
+                join("data", "az", f"{new_checksum_file_name}_{j}.csv.gz"), index=False
             )
 
             i += n
