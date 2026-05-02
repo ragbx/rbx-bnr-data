@@ -16,9 +16,11 @@ Le dépôt contient 4 répertoires principaux :
 - *data* : données sources utilisées dans les différents travaux,
 - *scripts* : scripts qui permettent d'obtenir, manipuler ou analyser les différentes sources,
 - *results* : ensemble des analyses ou des transformations effectuées sur les données sources :
-- *documentaion* : documentation du projet
+- *documentation* : documentation du projet
 
 ## Aspects techniques
+pour cloner le dépôt, il est nécessaire de disposer de *git lfs*.
+
 TODO : requirements
 
 Pour lancer un script, se placer toujours à la racine du projet.
