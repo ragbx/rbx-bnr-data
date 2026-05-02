@@ -27,5 +27,5 @@ Pour lancer un script, se placer toujours à la racine du projet.
 
 Par exemple :
 ```bash
-bash scripts/ead/dao_extraction.sh
+$ bash scripts/ead/dao_extraction.sh
 ```

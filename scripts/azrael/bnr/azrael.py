@@ -113,8 +113,8 @@ class Azrael2list:
                 file_data["size"] = getsize(file_path)
                 if checksum_md5:
                     file_data["checksum_md5"] = get_md5hash(file_path)
-                file_data["last_content_modification_date"] = getctime(file_path)
-                file_data["last_metadata_modification_date"] = getmtime(file_path)
+                file_data["last_content_modification_date"] = getmtime(file_path)
+                file_data["last_metadata_modification_date"] = getctime(file_path)
                 list_results.append(file_data)
         self.az = pd.DataFrame(list_results).sort_values(by=["path", "name"])
 
