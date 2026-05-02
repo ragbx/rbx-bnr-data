@@ -1,24 +1,29 @@
-# Données de la bn-r
+# Métadonnées et fichiers de la bn-r
 
-Ce dépôt a vocation à rassembler l'ensemble des données et métadonnées liées à la bn-r.
+## But du dépôt
 
-Pour les objectifs et les résultats, voir la partie [documentation](doc/documentation.md).
+Ce dépôt a vocation à rassembler l'ensemble des travaux menés sur les métadonnées et fichiers de la bn-r.
+
+Par métadonnées, on entend principalement les descriptions encodées en EAD.
+
+Par fichiers, on entend les fichiers produits au cours des différentes campagnes de numérisation. 
+
+Les objectifs, méthodes et résultats sont détaillés dans la partie [documentation](documentation/acceuil.md).
 
 ## Organisation du dépôt :
 
-### data
-Stockage des différentes sources de données :
-- az : liste des fichiers présents sur le serveur historique bnr (dit "Azraël"))
-- s3 : liste des fichiers présents sur le serveur s3
-- ead : instruments de recherches en xml EAD, un répertoire pour chacune des sources
-- oai : ensemble des notices bnr au format csv.
+Le dépôt contient 4 répertoires principaux :
+- *data* : données sources utilisées dans les différents travaux,
+- *scripts* : scripts qui permettent d'obtenir, manipuler ou analyser les différentes sources,
+- *results* : ensemble des analyses ou des transformations effectuées sur les données sources :
+- *documentaion* : documentation du projet
 
-### scripts
-Scripts qui permettent d'obtenir, manipuler ou analyser les différentes sources
+## Aspects techniques
+TODO : requirements
 
-### results
-Répertoire qui comprend l'ensemble des analyses ou des transformations effectuées sur les données sources :
-- ref : fichier de référence cd ../
+Pour lancer un script, se placer toujours à la racine du projet.
 
-## doc
-Répertoire qui comprend la documentation du projet
+Par exemple :
+```bash
+bash scripts/ead/dao_extraction.sh
+```
