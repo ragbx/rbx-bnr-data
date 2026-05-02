@@ -8,7 +8,7 @@ Par métadonnées, on entend principalement les descriptions encodées en EAD.
 
 Par fichiers, on entend les fichiers produits au cours des différentes campagnes de numérisation. 
 
-Les objectifs, méthodes et résultats sont détaillés dans la partie [documentation](documentation/acceuil.md).
+Les objectifs, méthodes et résultats sont détaillés dans la partie [documentation](documentation/accueil.md).
 
 ## Organisation du dépôt :
 
@@ -19,7 +19,7 @@ Le dépôt contient 4 répertoires principaux :
 - *documentation* : documentation du projet
 
 ## Aspects techniques
-pour cloner le dépôt, il est nécessaire de disposer de *git lfs*.
+pour cloner le dépôt, il est nécessaire de disposer de [Git LFS](https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
 
 TODO : requirements
 
