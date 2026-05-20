@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_MDF_01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collectes de la mémoire des travailleurs du textile</titleproper>
+        <subtitle>Inventaire numérique</subtitle>
+        <author>Cet inventaire a été réalisé par Charlotte Saison-Pouly</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2015">janvier 2015</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <p>Ce catalogue a été saisi en EAD par Charlotte Saison-Pouly et Camille Douay en 2015.</p>
+      </creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>MDF_MTX</unitid>
+      <unittitle>Collectes de la mémoire des travailleurs du textile</unittitle>
+      <unitdate normal="2013">entretiens en 2012 et 2014</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <physdesc>
+        <p>Captation vidéo d'entretiens individuels.</p>
+      </physdesc>
+      <repository>MDF</repository>
+    </did>
+    <scopecontent>
+      <p><p>Entretiens réalisés dans le cadre du projet de collecte de mémoire mené par la Manufacture, musée de la mémoire et de la création textile.</p>
+
+<p>Depuis 2012, « la Manufacture, musée de la Mémoire et de la création textile » a entrepris de recueillir la parole de travailleurs du textile, dans le cadre d’un travail de collecte de mémoire toujours en cours. A ce jour, ce projet a concerné une vingtaine de travailleurs du textile, ayant cessé leur activité professionnelle ou l’exerçant toujours, qui illustrent plusieurs types de métiers à différentes périodes. Ils sont ouvriers, patrons, tisserands, bobineuses, créatrices textiles… Ces hommes et ces femmes du textile racontent leur métier, leur vie à l’usine, les moments forts de leur carrière, et livrent leurs souvenirs personnels de la grande aventure textile…</p>
+
+<p>De 2012 à 2014, le protocole de collecte est resté inchangé : questionnaire écrit, entretien oral (non filmé) puis entretien filmé. Les personnes ayant intégré ce projet avaient été contactées par le musée après avoir répondu à un appel aux travailleurs du textile diffusé dans la presse et au musée.</p>
+
+<p>Les témoins :</p>
+
+<p>Alexandra Bizouerne, Michel Brion, Thierry Bonte, Pierre Cornard, Henri Deleporte, Armelle Duquesnoy, Karim Feddal, Simon Ferrante, Sabine Grangé, Jacqueline Guidez Bleuset, Liliane Lesaffre, Jean Marie Pliez, Claude Sénéchal, Gérard Tiberghien, Louis Uberti, Jeanine Van Hullebusch, Francis Vanlierde, Jean marc Vienot.</p></p>
+    </scopecontent>
+    <controlaccess>
+      <genreform>Vidéos</genreform>
+      <persname>Douay, Camille</persname>
+      <subject source="chrono">Après 1989</subject>
+      <subject source="theme">Manufacture et industrie textile </subject>
+      <subject source="Rameau">Industries textiles - Personnel</subject>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>MTX_2014</unitid>
+          <unittitle type="">Paroles textiles 2014</unittitle>
+          <unitdate normal="2014">janvier et septembre 2014</unitdate>
+          <physdesc>
+            <p>15 films.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Ces vidéos tournées en studio (aux Archives Nationales du Monde du Travail ou à la Condition Publique à Roubaix) ont été réalisées par François Engrand (association Nayra). Ces vidéos ont quant à elles servies à la réalisation du projet « Paroles textiles » visant à rassembler ces quinze témoignages dans 7 vidéos thématiques (de 7 à 10 minutes) consultables en accès libre à la Manufacture des Flandres. Les thèmes évoqués sont : le premier jour à l'usine, une vocation textile ?, les conditions de travail, les rapports humains au travail, cesser le travail ou l'avenir du textile etc.</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <persname>Engrand, François</persname>
+          <persname>Nayra</persname>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D01</unitid>
+            <unittitle type="">Entretien avec Karim Feddal</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 38 minutes et 11 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Karim Feddal a été cardeur. Il est actuellement slammeur et artiste.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_1409_D01.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D01.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D02</unitid>
+            <unittitle type="">Entretien avec Sabine Grangé</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 31 minutes et 40 secondes</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Sabine Grangé est créatrice textile. Elle a lancé sa marque en 2009 après plusieurs expériences professionnelles dans l’univers de la mode et de la haute couture comme chez Betty de Paris, Sophie Vendura ou Alain MAnoukian.</p>
+            </p>
+          </scopecontent>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D02.mp4" role="mp4"/>
+          <dao href="RBX_MDF_MTX_2014_D02.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D03</unitid>
+            <unittitle type="">Entretien avec Pierre Cornard</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 57 minutes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Pierre Cornard a été tapisseur, tisserand puis technico-commercial. Il est aujourd'hui à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D03.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D03.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D04</unitid>
+            <unittitle type="">Entretien avec Henri Deleporte</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 56 minutes et 45 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Henri Deleporte a été créateur de tissu d’habillement. Syndicaliste. Ses différences expériences professionnelles nous éclairent sur le fonctionnement des grandes entreprises françaises et sur les évolutions au cours des années.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D04.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D04.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D05</unitid>
+            <unittitle type="">Entretien avec Simon Ferrante</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 59 minutes et 31 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Simon Ferrante est détaillant en/de tissus.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D05.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D05.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D06</unitid>
+            <unittitle type="">Entretien avec Michel Brion</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 1 heure 8 minutes et 8 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Michel Brion est ouvrier du textile, aujourd’hui à la recherche d’un emploi. Noueur, monteur et tisserand, il a du s’adapter et devenir polyvalent pour différentes entreprises en pleine crise du textile. Il a travaillé 20 ans pour l’entreprise Craye.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D06.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D06.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D07</unitid>
+            <unittitle type="">Entretien avec Jeanine Van Hullebusch</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 39 minutes et 47 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Jeanine Van Hullebusch a été canneteuse, bobineuse, garnisseuse, ourdisseuse et ouvrière de filature. Elle est désormais à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D07.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D07.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D08</unitid>
+            <unittitle type="">Entretien avec Francis Vanlierde</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 44 minutes et 29 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Francis Vanlierde était employé à la comptabilité d'une usine textile. Il est aujourd'hui à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D08.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D08.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D09</unitid>
+            <unittitle type="">Entretien avec Jean-Marc Vienot</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 53 minutes et 47 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Jean-Marc Vienot est dirigeant d'une entreprise textile, Directeur général de Clubtex. Il est toujours en activité.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D09.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D09.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D10</unitid>
+            <unittitle type="">Entretien avec Armelle Duquesnoy</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 18 minutes et 10 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Armelle Duquesnoy était employée de la VPC à La Redoute. Elle est désormais à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D10.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D10.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D11</unitid>
+            <unittitle type="">Entretien avec Alexandra Bizouerne</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 1 heure 14 minutes et 13 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Alexandra Bizouerne est dirigeante d'une société de vente de produits textiles. </p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D11.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D11.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D12</unitid>
+            <unittitle type="">Entretien avec Liliane Lesaffre</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 39 minutes et 39 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Liliane Lesaffre était couturière en confection. Elle est aujoud'hui à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D12.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D12.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D13</unitid>
+            <unittitle type="">Entretien avec Gérard Tiberghien</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 1 heure 5 minutes et 6 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Gérard Tiberghien était Directeur d'une entreprise textile. Il est actuellement à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D13.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D13.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D14</unitid>
+            <unittitle type="">Entretien avec Jean-Marie Pliez</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 53 minutes et 30 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Jean-Marie Pliez a été mécanicien à l'entretien des machines, agent de maîtrise polyvalent (chargé de la production, maintenance et qualité), superviseur de production et responsable de production. Il est actuellement à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D14.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D14.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D15</unitid>
+            <unittitle type="">Entretien avec Monsieur Castain</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 1 heure 9 minutes et 56 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>M. Castain était professeur à l'E.N.S.A.I.T. et arbitre dans les conflits entre les entreprises textiles, il est aujourd'hui à la retraite.Cette vidéo, à la différence des autres à été tournée chez M. Castain.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D15.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D15.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2014_D16</unitid>
+            <unittitle type="">Entretien avec Jacqueline Guidez Bleuset</unittitle>
+            <unitdate normal="2014">2014</unitdate>
+            <physdesc>
+              <p>1 film de 48 minutes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Mme. Guidez Bleuset était apprentie tisserande / vendeuse en confection. Elle est désormais à la retraite.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2014_D16.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D16.mp4" role="mp4"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MTX_2012</unitid>
+          <unittitle type="">Paroles textiles 2012</unittitle>
+          <unitdate normal="2012">15 et 16 septembre 2012</unitdate>
+          <physdesc>
+            <p>3 films.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Cette première partie des vidéos, filmées à la manufacture des Flandres, a été tournée dans le cadre de « rencontres témoignages » organisées lors des journées du patrimoine en septembre 2012. Il s'agissait de créer un temps de rencontre et d'échange entre les travailleurs du textile et le grand public dans le cadre du musée. Ces entretiens ont été filmés par Maxime Huyghe (association Nayra).</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <persname>Huyghe, Maxime</persname>
+          <persname>Nayra</persname>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>MTX_2012_D01</unitid>
+            <unittitle type="">Entretien avec Claude Sénéchal</unittitle>
+            <unitdate normal="2012">15 et 16 septembre 2012</unitdate>
+            <physdesc>
+              <p>1 film de 45 minutes et 29 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p><p>Monsieur Sénéchal a travaillé dans le  textile de 1960 à 2000 en tant que responsable qualité et ingénieur façon (responsable de la fabrication des produits).</p>
+
+<p>Il a connu les débuts des centrales d’achat et leur développement : Promod (il n’existait alors que 6 magasins en France), Pimkie, la Redoute. Il a beaucoup changé d’entreprise au grès des fluctuations du marché.</p></p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2012_D01.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D01.mp4" role="mp4"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2012_D02</unitid>
+            <unittitle type="">Entretien avec Thierry Bonte</unittitle>
+            <unitdate normal="2012">15 et 16 septembre 2012</unitdate>
+            <physdesc>
+              <p>1 film de 33 minutes et 18 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Thierry Bonte est directeur du tissage Bergerot à Cysoing, une entreprise familiale qu’il a d’abord dirigé avec son père à la suite d’études textiles à Roubaix.</p>
+            </p>
+          </scopecontent>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D02.mp4" role="mp4"/>
+          <dao href="RBX_MDF_MTX_2012_D02.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MTX_2012_D03</unitid>
+            <unittitle type="">Entretien avec Louis Uberti</unittitle>
+            <unitdate normal="2012">15 et 16 septembre 2012</unitdate>
+            <physdesc>
+              <p>1 film de 31 minutes et 59 secondes.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Louis Uberti a été fabricant de pièces pour les machines textiles. Arrivé d’Italie en 1950, il a rencontré sa femme et a créé son entreprise à Roubaix qui sera par la suite revendue à la Lainière. Il a travaillé pour de nombreuses usines textiles roubaisiennes.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MDF_MTX_2012_D03.jpg" role="image"/>
+          <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D03.mp4" role="mp4"/>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

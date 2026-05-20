@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_MED_27</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Radio à La Grand-Plage</titleproper>
+        <subtitle>Inventaire numérique</subtitle>
+        <author>Cet inventaire a été réalisé par Lucas Chirlias.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2023">2023</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <p style="text-align: justify;">Cet inventaire a été réalisé par Lucas Chirlias en 2023, suite à la première session du projet radio en 2022.</p>
+      </creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>MED_RAD</unitid>
+      <unittitle>Radio à La Grand-Plage</unittitle>
+      <unitdate normal="2022">Première diffusion 2022</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <repository>MED</repository>
+    </did>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>RAD_S01</unitid>
+          <unittitle type="">Session 2022</unittitle>
+          <unitdate normal="2022">Première diffusion décembre 2022</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D01</unitid>
+            <unittitle type="">Jingle de l'émission Radio La Grand-Plage</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D02</unitid>
+            <unittitle type="">Micro-trottoir : Qu'est-ce que vous aimez lire ?</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D04</unitid>
+            <unittitle type="">Portrait de Anne-Sophie Dutertre</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D03</unitid>
+            <unittitle type="">Interview de Benjamin Flao</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D05</unitid>
+            <unittitle type="">Reportage sur le Zèbre</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D06</unitid>
+            <unittitle type="">Portrait de Nordine Fiouane</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D07</unitid>
+            <unittitle type="">Interview de Shéhérazade (Association Saphirmer)</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D08</unitid>
+            <unittitle type="">Interview de Louiza (écrivaine publique)</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D09</unitid>
+            <unittitle type="">Reportage sur la Journée des Oiseaux</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D10</unitid>
+            <unittitle type="">Micro-trottoire : Pourquoi la médiathèque s'appelle La Grand Plage ?</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>RAD_S01_D11</unitid>
+            <unittitle type="">Micro-trottoire : Pourquoi la médiathèque s'appelle La Grand Plage ? (réponse d'Esther De Climmer)</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>RAD S02</unitid>
+          <unittitle type="">Session 2024</unittitle>
+          <unitdate normal=""/>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

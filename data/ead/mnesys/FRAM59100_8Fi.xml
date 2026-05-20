@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead audience="external">
+    <eadheader findaidstatus="unverified-partial-draft">
+        <eadid>FRAM59100_8Fi</eadid>
+        <filedesc><titlestmt><titleproper>Inventaire des plaques de verre des archives</titleproper></titlestmt>
+        
+            
+            <publicationstmt>
+                <publisher>Archives de la ville de Roubaix</publisher>
+                
+                
+                <date normal="2022">2022</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned le <date type="creation">13/09/2022</date></creation>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="subseries" id="a011663052217SOwyZG" altrender="">
+        
+        <did>
+            
+            <repository>Archives de la ville de Roubaix</repository>
+            
+            
+            
+            
+            
+        </did>
+        
+        <note type="mnesysinternal"><p/></note>
+        <dsc type="in-depth"><c id="a011663052412XLT6CI" level="subfonds"><did><unittitle>Une vue depuis la Grand Place sur la rue de la Gare (actuellement avenue Jean Lebas) avec le Café de l'Europe et le café restaurant Restaurant de l'Univers situés sur la Grand Place.</unittitle><unitdate certainty="approximative" normal="1882-01-01/1900-12-31" type="inclusive">1882-1900</unitdate><physdesc>1 plaque au gélatino-bromure d'argent de 18 x 13 cm </physdesc><unitid identifier="8FI/1">8Fi1</unitid></did><note type="mnesysinternal"><p/></note><controlaccess><geogname>Grand Place</geogname><subject source="thesaurus--SLASH--thesaurus_w.xml">COMMERCE</subject><geogname>Jean Lebas, avenue</geogname><geogname>Gare, rue de la</geogname></controlaccess><daogrp><daoloc href="Photographies 8-9 Fi/RBX_AMR_PV_8Fi_00001.jpg"/></daogrp><accessrestrict type="formate"><p>NC Consultable sur microfilm ou sous forme numérisée (plaque de verre trop fragile. Seule la numérisation est consultable.)</p></accessrestrict></c><c id="a011663071854BpSlAB" level="item"><did><unittitle>Une vue sur les tramways sur la Grand Place et sur l'église Saint Martin avec l'inscription sur la façade : République Française, Liberté Égalité Fraternité.</unittitle><unitdate normal="1882-01-01/1900-12-31" type="inclusive">1882-1900</unitdate><physdesc>1 plaque au gélatino-bromure d'argent de 18 x 13 cm </physdesc><unitid identifier="8FI/2">8Fi2</unitid></did><note type="mnesysinternal"><p/></note><controlaccess><geogname>Grand Place</geogname><subject source="thesaurus--SLASH--thesaurus_w.xml">EDIFICE CULTUEL</subject><subject source="thesaurus--SLASH--thesaurus_w.xml">TRANSPORT EN COMMUN</subject></controlaccess><daogrp><daoloc href="Photographies 8-9 Fi/RBX_AMR_PV_8Fi_00002.jpg"/></daogrp><accessrestrict type="formate"><p>NC Consultable sur microfilm ou sous forme numérisée (plaque de verre trop fragile. Seule la numérisation est consultable.)</p></accessrestrict></c>
+            
+        </dsc>
+    </archdesc>
+</ead>

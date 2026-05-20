@@ -1,0 +1,1298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_AMR_004</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection de photographies des archives municipales</titleproper>
+        <subtitle>Répertoire numérique</subtitle>
+        <author>Cet inventaire a été réalisé par Olivier Leclercq et Marie Bouquet.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal=""/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <p>Le présent répertoire a été rédigé par Olivier Leclercq, agent des Archives et Marie Bouquet, responsable des Archives, en 2014.</p>
+      </creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>AMR_PHO</unitid>
+      <unittitle>Photographies des archives municipales</unittitle>
+      <unitdate normal="1995">1990-2000</unitdate>
+      <langmaterial>
+        <language langcode=""/>
+      </langmaterial>
+      <repository>AMR</repository>
+    </did>
+    <acqinfo>
+      <p>
+        <p>Photographies issues des versements des services de la Ville de Roubaix</p>
+      </p>
+    </acqinfo>
+    <controlaccess>
+      <genreform>Images</genreform>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>PHO_COM</unitid>
+          <unittitle type="">Photographies du service de la communication de la Ville de Roubaix</unittitle>
+          <unitdate normal="1995">1990-2000</unitdate>
+          <physdesc>
+            <p>41 pochettes de photographies, pour un total de 1265 photographies couleurs.</p>
+          </physdesc>
+          <repository>AMR</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Photographies prises dans le cadre des campagnes de communication de la Ville et pour le journal municipal. </p>
+          </p>
+        </scopecontent>
+        <acqinfo>
+          <p>
+            <p>Versement du service communication de la Ville de Roubaix</p>
+          </p>
+        </acqinfo>
+        <controlaccess>
+          <subject source="theme">Urbanisme </subject>
+          <subject source="chrono">Après 1989</subject>
+        </controlaccess>
+        <c level="subseries">
+          <did>
+            <unitid>PHO_COM_AMR1</unitid>
+            <unittitle type="">Chantiers de rénovation</unittitle>
+            <unitdate normal=""/>
+            <repository>AMR</repository>
+          </did>
+          <otherfindaid>
+            <extref href="http://grandstravauxroubaix.bn-r.fr">Grands travaux à Roubaix</extref>
+          </otherfindaid>
+          <scopecontent>
+            <p>
+              <p>Clichés numérisés à l’occasion de l’exposition virtuelle Grands Travaux à Roubaix – 1980-2010.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Images</genreform>
+          </controlaccess>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D01</unitid>
+              <unittitle type="">Visite de la Piscine de la rue des Champs, en cours de rénovation</unittitle>
+              <unitdate normal="1997">novembre 1997-octobre 1998</unitdate>
+              <physdesc>
+                <p>36 photographies. Cote physique : 310 W 3.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Visite de la Piscine rue des champs, en cours de transformation en musée, par René Vandierendonck maire de Roubaix et Françoise Cachin, directrice des Musées de France, dans le cadre de l'opération « Invitation au Musée », novembre 1997.<br/>Visite du chantier en présence de Bruno Gaudichon, directeur du musée, octobre 1998.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <persname>Vandierendonck, René</persname>
+              <geogname source="rue" coord="[ 50.6927143, 3.1666447 ]">Champs, rue des</geogname>
+              <persname>Gaudichon, Bruno</persname>
+              <subject source="theme">Sports </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de la Piscine de la rue des Champs, en cours de rénovation</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0036.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D02</unitid>
+              <unittitle type="">Démolition du centre commercial Roubaix 2000 (futur chantier Mac Arthur Glen)</unittitle>
+              <unitdate normal="1997">octobre-décembre 1997</unitdate>
+              <physdesc>
+                <p>20 photographies. Cote physique : 310 W 8.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier de démolition du centre commercial Roubaix 2000 (futur centre Mac Arthur Glen), octobre-décembre 1997.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Démolition du centre commercial Roubaix 2000 (futur chantier Mc Arthur Glen)</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0037.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0056.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D03</unitid>
+              <unittitle type="">Visite de Pierre Mauroy sur le chantier du futur centre commercial Mac Arthur Glen</unittitle>
+              <unitdate normal="1998">septembre 1998</unitdate>
+              <physdesc>
+                <p>18 photographies. Cote physique : 310 W 13.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Présentation du projet et visite des chantiers Mc Arthur Glen et Eurotéléport avec M. Vandierendonck,  maire de Roubaix, Pierre Mauroy, Jean-Pierre Balduyck, Michel Carnois et Alain Faugaret</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Transports </subject>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <persname>Vandierendonck, René</persname>
+              <persname>Mauroy, Pierre</persname>
+              <persname>Balduyck, Jean-Pierre</persname>
+              <persname>Carnois, Michel</persname>
+              <persname>Faugaret, Alain</persname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de Pierre Mauroy sur le chantier du futur centre commercial Mc Arthur Glen</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0057.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0075.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D04</unitid>
+              <unittitle type="">Salle Wattremez, en cours de rénovation</unittitle>
+              <unitdate normal="1998">février 1993  septembre 1998</unitdate>
+              <physdesc>
+                <p>23 photographies. Cote physique : 310 W 35.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier de rénovation de la salle Wattremez, rue de l'Hospice, février 1993.<br/>Intérieur de la salle Wattremez, août 1998.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <geogname source="rue" coord="[ 50.6921388, 3.1704496 ]">Hospice, rue de l\'</geogname>
+              <subject source="theme">Fêtes et cérémonies </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Salle Wattremez, en cours de rénovation</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0076.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0098.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D05</unitid>
+              <unittitle type="">Salle Wattremez, en cours de rénovation et Inauguration</unittitle>
+              <unitdate normal="1998">février 1993  septembre 1998</unitdate>
+              <physdesc>
+                <p>38 photographies. Cote physique : 310 W 36.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier de rénovation de la salle Wattremez, rue de l'Hospice, février 1993 et septembre 1998.<br/>Spectacle d'inauguration avec M. Vandierendonck, maire de Roubaix, septembre 1998.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <persname>Vandierendonck, René</persname>
+              <geogname source="rue" coord="[ 50.6921388, 3.1704496 ]">Hospice, rue de l\'</geogname>
+              <subject source="theme">Fêtes et cérémonies </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Salle Wattremez, en cours de rénovation et Inauguration</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0099.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0137.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D07</unitid>
+              <unittitle type="">Démolition du pont du Sartel</unittitle>
+              <unitdate normal="1999">janvier 1999</unitdate>
+              <physdesc>
+                <p>13 photographies. Cote physique : 310 W 56.</p>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>
+                <p>Démolition de l'ancien pont du Sartel (actuel pont Albert 1er, Wattrelos).</p>
+              </p>
+            </acqinfo>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.689341, 3.2108979 ]">Leers, rue de</geogname>
+              <geogname source="rue" coord="[ 50.692916, 3.1978111 ]">Sartel, quai du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Démolition du pont du Sartel</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0153.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0165.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D08</unitid>
+              <unittitle type="">Travaux avant l'installation du nouveau pont du Sartel</unittitle>
+              <unitdate normal="1999">janvier 1999</unitdate>
+              <physdesc>
+                <p>9 photographies. Cote physique : 310 W 57.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Travaux pour l'installation future du pont du Sartel (actuel Pont Albert 1er, Wattrelos).</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.689341, 3.2108979 ]">Leers, rue de</geogname>
+              <geogname source="rue" coord="[ 50.692916, 3.1978111 ]">Sartel, quai du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Travaux avant l'installation du nouveau pont du Sartel</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0166.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0174.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D09</unitid>
+              <unittitle type="">Le nouveau pont du Sartel</unittitle>
+              <unitdate normal="1999">janvier et juin 1999</unitdate>
+              <physdesc>
+                <p>36 photographies. Cote physique : 310 W 58.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Installation et visite du pont du Sartel (actuel pont Albert 1er, Wattrelos) avec M. Vandierendonck, maire de Roubaix, M. Derosier, Bernard, président du Conseil Général,  janvier 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <persname>Vandierendonck, René</persname>
+              <persname>Derosier, Bernard</persname>
+              <geogname source="rue" coord="[ 50.689341, 3.2108979 ]">Leers, rue de</geogname>
+              <geogname source="rue" coord="[ 50.692916, 3.1978111 ]">Sartel, quai du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Le nouveau pont du Sartel</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0175.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0210.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D10</unitid>
+              <unittitle type="">Visite de la rue de l'Epeule rénovée</unittitle>
+              <unitdate normal="1999">août 1988 - avril 1999</unitdate>
+              <physdesc>
+                <p>38 photographies. Cote physique : 310 W 62.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Visite d'élus de Roubaix après la rénovation de la rue de l'Epeule</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Rues et places </subject>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.6893549, 3.1601969 ]">Epeule, rue de l\'</geogname>
+              <persname>Zarouri, Zohra</persname>
+              <persname>Paoli, Jacky-Henri</persname>
+              <persname>De Ochandiano, Jean-Philippe</persname>
+              <persname>Chehih, Raouti</persname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de la rue de l'Epeule rénovée</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0211.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0252.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D11</unitid>
+              <unittitle type="">Visite de la Piscine de la rue des Champs, en cours de rénovation</unittitle>
+              <unitdate normal="1999">avril 1999 à mai 2000</unitdate>
+              <physdesc>
+                <p>68 photographies. Cote physique : 310 W 66.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Loubry, Arnaud</name>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>M. Vandierendonck, maire de Roubaix en visite à la piscine lors de la rénovation, vues intérieures et extérieures, juillet 1999.<br/>Visite par des particuliers de la piscine lors de sa rénovation, avril 1999.<br/>Vitrail de la piscine, mai 2000.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <persname>Vandierendonck, René</persname>
+              <subject source="theme">Sports </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de la Piscine de la rue des Champs, en cours de rénovation</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0253.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0320.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D12</unitid>
+              <unittitle type="">Transformation de l'usine Lepoutre</unittitle>
+              <unitdate normal="1999">janvier 1998 à avril 1999</unitdate>
+              <physdesc>
+                <p>46 photographies. Cote physique : 310 W 67.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+                <name normal="" role="photographe">Laribi, Nadia</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Travaux de rénovation de l'usine Lepoutre, rue Cuvelle, vues extérieures, janvier 1998.<br/>Différentes vues du bâtiment extérieur et intérieur, septembre et octobre 1998.<br/>Salle de fabrication textile, octobre 1998. <br/>Inauguration de l'hôtel d'entreprise avec M. Vandierendonck, avril 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments industriels </subject>
+              <subject source="theme">Vie économique </subject>
+              <persname>Vandierendonck, René</persname>
+              <geogname source="rue" coord="[ 50.6983953, 3.1732548 ]">Cuvelle, rue</geogname>
+              <subject source="theme">Manufacture et industrie textile </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Transformation de l'usine Lepoutre</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0321.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0367.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D13</unitid>
+              <unittitle type="">Bâtiment Parabole IV, boulevard du Maréchal Leclerc</unittitle>
+              <unitdate normal="1999">janvier 1994 à juin 1999</unitdate>
+              <physdesc>
+                <p>15 photographies. Cote physique : 310 W 72.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+                <name normal="" role="photographe">Laribi, Nadia</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Différentes vues sur le bâtiment Parabole IV.<br/>Vues de nuit sur les Archives Nationales du Monde du Travail, anciennement Motte-Bossut, entrée des lecteurs.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Autres industries </subject>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <subject source="theme">Manufacture et industrie textile </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Bâtiment Parabole IV, boulevard du Maréchal Leclerc</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0368.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0382.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D16</unitid>
+              <unittitle type="">Réunion et visite du futur centre commercial Mac Arthur Glen</unittitle>
+              <unitdate normal="1999">avril à septembre 1999</unitdate>
+              <physdesc>
+                <p>32 photographies. Cote physique : 310 W 77.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>M. Vandierendonck, maire de Roubaix avec « Action Roubaix Centre » devant les habitants aux Archives Nationales du Monde du Travail, anciennement l'usine Motte-Bossut.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Vandierendonck, René</persname>
+              <subject source="theme">Manufacture et industrie textile </subject>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Réunion et visite du futur centre commercial Mc Arthur Glen</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0503.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0534.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D17</unitid>
+              <unittitle type="">Visite du chantier du futur centre commercial Mac Arthur Glen et concertation</unittitle>
+              <unitdate normal="1999">février à juin 1999</unitdate>
+              <physdesc>
+                <p>39 photographies. Cote physique : 310 W 78_02.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Visite du chantier du futur centre commercial Mc Arthur Glen, février 1999.<br/>Concertation avec les habitants du quartier centre, septembre 1998.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite du chantier du futur centre commercial Mc Arthur Glen et concertation</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0535.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0578.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D18</unitid>
+              <unittitle type="">Visite du chantier du futur centre commercial Mac Arthur Glen</unittitle>
+              <unitdate normal="1999">avril 1999</unitdate>
+              <physdesc>
+                <p>39 photographies. Cote physique : 310 W 78_03.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>M. Vandierendonck, maire de Roubaix en visite sur le chantier du futur centre commercial Mc Arthur Glen.<br/>Présentation et discours autour de la maquette du centre commercial Mc Arthur Glen dans la salle Pierre de Roubaix de l'hôtel de ville avec M. Vandierendonck, maire de Roubaix.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Bâtiments publics </subject>
+              <persname>Vandierendonck, René</persname>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite du chantier du futur centre commercial Mc Arthur Glen</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0579.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0617.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D19</unitid>
+              <unittitle type="">Visite du chantier du futur centre commercial Mac Arthur Glen et inauguration</unittitle>
+              <unitdate normal="1999">décembre 1998 à août 1999</unitdate>
+              <physdesc>
+                <p>39 photographies. Cote physique : 310 W 78_04.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier du futur centre commercial Mc Arthur Glen, visite du chantier, 1999.<br/>Inauguration de Mc Arthur Glen, 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite du chantier du futur centre commercial Mc Arthur Glen et inauguration</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0618.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0658.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D20</unitid>
+              <unittitle type="">Inauguration du centre commerical Mac Arthur Glen</unittitle>
+              <unitdate normal="1999">août 1999</unitdate>
+              <physdesc>
+                <p>40 photographies – 310 W 78_05</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Inauguration du centre commercial Mc Arthur Glen avec M. Vandierendonck, maire de Roubaix et M. Pierre Mauroy</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <persname>Vandierendonck, René</persname>
+              <persname>Mauroy, Pierre</persname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Inauguration du centre commerical Mc Arthur Glen</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0659.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0698.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D22</unitid>
+              <unittitle type="">Vues diverses de Roubaix</unittitle>
+              <unitdate normal="1999">février 1999  avril 1999</unitdate>
+              <physdesc>
+                <p>17 photographies – 310 W 80</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Bâtiments et parc de Roubaix vues du sol ou en hauteur.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <subject source="theme">Parcs, jardins et monuments </subject>
+              <geogname source="rue" coord="[ 50.6744893, 3.1837779 ]">Fourmies, boulevard de</geogname>
+              <geogname source="rue" coord="[ 50.692974, 3.1741722 ]">Curé, rue du</geogname>
+              <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
+              <geogname source="rue" coord="[ 50.6889646, 3.1641144 ]">Arts, rue des</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vues diverses de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0712.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0728.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D23</unitid>
+              <unittitle type="">Travaux du métro et du tramway</unittitle>
+              <unitdate normal="1998">août 1988  juin 1999</unitdate>
+              <physdesc>
+                <p>48 photographies. Cote physique : 310 W 82.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Travaux du métro Grand Place, vues intérieures et extérieures, 1998.<br/>Travaux du métro et du tramway, place de la Liberté, 1998.<br/>Parcours musical dans le métro, juin 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <subject source="theme">Transports </subject>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Travaux du métro et du tramway</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0762.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0810.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D24</unitid>
+              <unittitle type="">Parc du Brondeloire</unittitle>
+              <unitdate normal="1999">mai 1999</unitdate>
+              <physdesc>
+                <p>15 photographies. Cote physique : 310 W 120.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Vues sous plusieurs angles du Parc du Brondeloire.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Parcs, jardins et monuments </subject>
+              <geogname source="rue" coord="[ 50.6900438, 3.1591256 ]">Brondeloire, rue du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Parc du Brondeloire</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0811.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0825.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D25</unitid>
+              <unittitle type="">Travaux du métro Eurotéléport</unittitle>
+              <unitdate normal="1999">Juin 1999</unitdate>
+              <physdesc>
+                <p>25 photographies. Cote physique : 310 W 122.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+                <name normal="" role="photographe">Laribi, Nadia</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Vues en hauteur des travaux du métro Eurotéléport.<br/>Vue en hauteur du bâtiment Eurotéléport.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Transports </subject>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+              <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Travaux du métro Eurotéléport</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0826.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0851.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D26</unitid>
+              <unittitle type="">Démolition du centre commercial Roubaix 2000 (futur chantier Mac Arthur Glen)</unittitle>
+              <unitdate normal="1997">juillet 1997</unitdate>
+              <physdesc>
+                <p>40 photographies. Cote physique : 310 W 127.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier de démolition du centre commercial Roubaix 2000 (futur centre Mac Arthur Glen), octobre 1997.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <geogname source="rue" coord="[ 50.6898351, 3.1853235 ]">Belfort, boulevard de</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Démolition du centre commercial Roubaix 2000 (futur chantier Mc Arthur Glen)</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0852.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0852.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D29</unitid>
+              <unittitle type="">Enseignes commerçantes, rues de Lannoy et de l'Epeule</unittitle>
+              <unitdate normal="1998">août 1998</unitdate>
+              <physdesc>
+                <p>19 photographies. Cote physique : 310 W 163.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Enseignes commerçantes dans le centre de Roubaix, notamment rue de Lannoy et rue de l'Epeule.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <geogname source="rue" coord="[ 50.6894042, 3.1737939 ]">Maréchal Foch, rue du</geogname>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <geogname source="rue" coord="[ 50.6893549, 3.1601969 ]">Epeule, rue de l\'</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Enseignes commerçantes, rues de Lannoy et de l'Epeule</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0927.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0947.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D32</unitid>
+              <unittitle type="">Inauguration du centre commercial Mac Arthur Glen</unittitle>
+              <unitdate normal="1999">novembre 1999</unitdate>
+              <physdesc>
+                <p>45 photographies. Cote physique : 310 W 200.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Inauguration du centre commercial Mac Arthur Glen avec M. Vandierendonck, maire de Roubaix, M. Pierre Mauroy et André Diligent.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+              <persname>Vandierendonck, René</persname>
+              <persname>Mauroy, Pierre</persname>
+              <persname>Diligent, André</persname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Inauguration du centre commercial Mc Arthur Glen</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1005.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1052.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D33</unitid>
+              <unittitle type="">Parc du Nouveau Monde</unittitle>
+              <unitdate normal="2000">décembre 1999 - mai 2000</unitdate>
+              <physdesc>
+                <p>33 photographies. Cote physique : 310 W 224.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Vues d'ensemble et vues en détail du parc du Nouveau Monde.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Parcs, jardins et monuments </subject>
+              <geogname source="rue" coord="[ 50.6982323, 3.178133 ]">Nouveau monde, rue du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Parc du Nouveau Monde</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1053.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1085.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D34</unitid>
+              <unittitle type="">Inauguration du Parc du Nouveau Monde</unittitle>
+              <unitdate normal="2000">mai 2000</unitdate>
+              <physdesc>
+                <p>53 photographies. Cote physique : 310 W 255.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Inauguration du Parc du Nouveau Monde avec M. Vandierendonck, maire de Roubaix.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Parcs, jardins et monuments </subject>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <persname>Vandierendonck, René</persname>
+              <geogname source="rue" coord="[ 50.6982323, 3.178133 ]">Nouveau monde, rue du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Inauguration du Parc du Nouveau Monde</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1086.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1134.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D35</unitid>
+              <unittitle type="">Les statues du Musée La Piscine</unittitle>
+              <unitdate normal="2001">novembre 2001</unitdate>
+              <physdesc>
+                <p>23 photographies. Cote physique : 310 W 280.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Statues le long du bassin au Musée La Piscine : vues d'ensembles et vues rapprochées sous des angles différents.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <geogname source="rue" coord="[ 50.6927143, 3.1666447 ]">Champs, rue des</geogname>
+              <subject source="theme">Sports </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Les statues du Musée La Piscine</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1135.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1157.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D36</unitid>
+              <unittitle type="">Visite de l'ancienne usine Roussel</unittitle>
+              <unitdate normal="2001">mai 2001</unitdate>
+              <physdesc>
+                <p>32 photographies. Cote physique : 310 W 282.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Visite de l'usine Roussel, rue des Arts avec M. Vandierendonck, maire de Roubaix et Claude Bartolone, ministre de la ville. Prise de vue en intérieur, vue du sol.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments industriels </subject>
+              <geogname source="rue" coord="[ 50.6889646, 3.1641144 ]">Arts, rue des</geogname>
+              <persname>Vandierendonck, René</persname>
+              <persname>Bartolone, Claude</persname>
+              <subject source="theme">Manufacture et industrie textile </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de l'ancienne usine Roussel</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1158.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1190.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D37</unitid>
+              <unittitle type="">Inauguration du musée La Piscine</unittitle>
+              <unitdate normal="2002">janvier 2002</unitdate>
+              <physdesc>
+                <p>34 photographies. Cote physique : 310 W 298.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Inauguration du Musée La Piscine avec M. Vandierendonck, maire de Roubaix.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Bâtiments publics </subject>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <geogname source="rue" coord="[ 50.6927143, 3.1666447 ]">Champs, rue des</geogname>
+              <persname>Vandierendonck, René</persname>
+              <subject source="theme">Sports </subject>
+              <subject source="theme">Equipements culturels</subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Inauguration du musée La Piscine</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1191.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1224.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D38</unitid>
+              <unittitle type="">Autour du centre de Roubaix</unittitle>
+              <unitdate normal="1999">juin 1997 à mai 1999</unitdate>
+              <physdesc>
+                <p>34 photographies. Cote physique : 310 W 313.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Grand'Place, vue en hauteur, 1997.<br/>Les magasins de la Grand Rue, vue du sol, juin 1997.<br/>L'hôtel de ville pris sous différents angles, mai 1999.<br/>Colonne aux baisers, ensemble et détails, février 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Rues et places </subject>
+              <subject source="theme">Commerces </subject>
+              <subject source="theme">Bâtiments publics </subject>
+              <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Autour du centre de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1225.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1258.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D39</unitid>
+              <unittitle type="">Travaux à la gare de Roubaix</unittitle>
+              <unitdate normal="1997">octobre 1997</unitdate>
+              <physdesc>
+                <p>4 photographies. Cote physique : 310 W 316.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Laribi, Nadia</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Vues sur la construction du métro devant la gare de Roubaix</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Transports </subject>
+              <subject source="theme">Rues et places </subject>
+              <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+              <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
+              <subject source="theme">Bâtiments publics </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Travaux à la gare de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1259.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1262.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D40</unitid>
+              <unittitle type="">Inauguration de l'Espace Grand'Rue</unittitle>
+              <unitdate normal="1996">septembre 1996</unitdate>
+              <physdesc>
+                <p>4 photographies. Cote physique : 310 W 319.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Laribi, Nadia</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>René Vandierendonck, maire de Roubaix et Pierre Mauroy lors de l'inauguration de l'Espace Grand'Rue</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Commerces </subject>
+              <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue </geogname>
+              <persname>Vandierendonck, René</persname>
+              <persname>Mauroy, Pierre</persname>
+              <subject source="theme">Fêtes et cérémonies </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Inauguration de l'Espace Grand'Rue</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1263.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1266.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D14</unitid>
+              <unittitle type="">Chantier du métro et rénovation du centre-ville de Roubaix</unittitle>
+              <unitdate normal="1999">Février à septembre 1999</unitdate>
+              <physdesc>
+                <p>45 photographies. Cote physique : 310 W 72.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <acqinfo>
+              <p><p>Construction du métro sur la Grand Place et nouveaux aménagements, face à la médiathèque et la Grand Place, février, septembre 1999.</p>
+
+<p>Avancement des travaux du métro, place de la Liberté, juillet 1999.</p></p>
+            </acqinfo>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <subject source="theme">Transports </subject>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Chantier du métro et rénovation du centre-ville de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0383.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0430.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D06</unitid>
+              <unittitle type="">Visite de la mairie de quartier centre</unittitle>
+              <unitdate normal="1998">novembre à décembre 1998 </unitdate>
+              <physdesc>
+                <p>15 photographies. Cote physique : 310 W 38.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Visite de la mairie du quartier centre de Roubaix avec M. Vandierendonck, maire de Roubaix.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Administration municipale </subject>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <persname>Vandierendonck, René</persname>
+              <subject source="theme">Bâtiments publics </subject>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Visite de la mairie de quartier centre</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0138.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0152.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D15</unitid>
+              <unittitle type="">Chantier du métro et rénovation du centre ville de Roubaix</unittitle>
+              <unitdate normal="1999">janvier 1998 à septembre 1999</unitdate>
+              <physdesc>
+                <p>59 photographies. Cote physique : 310 W 75_2.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier du métro dans le centre de Roubaix, janvier 1998 et avril 1999.<br/>Nouveau aménagement de la place, face à la Médiathèque, avril 1999.<br/>Nouveaux quais de bus à Eurotéléport et inauguration du métro Eurotéléport, septembre 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <subject source="theme">Fêtes et cérémonies </subject>
+              <subject source="theme">Transports </subject>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Chantier du métro et rénovation du centre ville de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0431.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0502.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D21</unitid>
+              <unittitle type="">Vues diverses de Roubaix</unittitle>
+              <unitdate normal="1998">août 1988  mars 1999</unitdate>
+              <physdesc>
+                <p>13 photographies. Cote physique : 310 W 79.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Cimetière de Roubaix, novembre 1998.<br/>Vue sur le futur parking de Mc Arthur Glen.<br/>La gare vue de l'avenue Jean Lebas.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+              <geogname source="rue" coord="[ 50.6900438, 3.1591256 ]">Brondeloire, rue du</geogname>
+              <geogname source="rue" coord="[ 50.688661, 3.180874 ]">Winston Churchill, rue </geogname>
+              <geogname>Chaptal, Place</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vues diverses de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0699.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0711.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D27</unitid>
+              <unittitle type="">Chantiers divers</unittitle>
+              <unitdate normal="1999">mars 1999</unitdate>
+              <physdesc>
+                <p>11 photographies. Cote physique : 310 W 130.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Chantier du futur parc du Nouveau Monde, 1999<br/>Différents chantiers, 1999.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.6982323, 3.178133 ]">Nouveau monde, rue du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Chantiers divers</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0892.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0902.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D28</unitid>
+              <unittitle type="">Façades et bâtiments de Roubaix</unittitle>
+              <unitdate normal="1999">novembre 1998  novembre  1999</unitdate>
+              <physdesc>
+                <p>24 photographies. Cote physique : 310 W 151.</p>
+              </physdesc>
+              <origination>
+                <name normal="" role="photographe">Jarry, Sébastien</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Façades et bâtiments anciens de Roubaix.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <subject source="theme">Urbanisme </subject>
+              <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+              <geogname source="rue" coord="[ 50.6894042, 3.1737939 ]">Maréchal Foch, rue du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Façades et bâtiments de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0903.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0926.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D30</unitid>
+              <unittitle type="">Vues aériennes de Roubaix</unittitle>
+              <unitdate normal="1999">mars 1999  juin 1999</unitdate>
+              <physdesc>
+                <p>21 photographies. Cote physique : 310 W 178.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Différentes vues aériennes de Roubaix</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+              <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6870834, 3.1803658 ]">Coq français, rue du</geogname>
+              <geogname source="rue" coord="[ 50.6929756, 3.1816836 ]">Notre-Dame des victoires, rue </geogname>
+              <geogname source="rue" coord="[ 50.6892511, 3.187849 ]">Jacques Prevert, rue </geogname>
+              <geogname source="rue" coord="[ 50.6871362, 3.1796378 ]">Saint-Jean, rue</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vues aériennes de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0948.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0968.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>PHO_COM_AMR1_D31</unitid>
+              <unittitle type="">Vues aériennes de Roubaix</unittitle>
+              <unitdate normal="1999">février 1999  juillet 1999</unitdate>
+              <physdesc>
+                <p>36 photographies. Cote physique : 310 W 179.</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Différentes vues aériennes de Roubaix</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+              <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+              <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+              <geogname source="rue" coord="[ 50.6892511, 3.187849 ]">Jacques Prevert, rue </geogname>
+              <geogname source="rue" coord="[ 50.6901597, 3.189109 ]">Monge, rue </geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vues aériennes de Roubaix</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_0969.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_PHO_COM_AMR1_1004.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

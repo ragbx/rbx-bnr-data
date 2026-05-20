@@ -1,0 +1,1534 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FRAM59100_000054</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection famille Lebas</titleproper>
+        <subtitle/>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives de la ville de Roubaix</publisher>
+        <date normal=""/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation><p style="text-align: justify;">Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned le 22/08/2018.</p>
+
+<p style="text-align: justify;"><strong>Alerte mise en ligne :</strong> il me semble que la méthode "FTP V1" reste inopérante pour la raison suivante : les images sont envoyées vers la base dans le dossier rbxamramr et non dans le dossier rbxamrleb comme il se devrait. Voir la copie ci-dessous d'un extrait du log relatif à l'export des images à partir de l'EAD (le bouton en regard de la collection) :</p>
+
+<p style="text-align: justify;">NOTICE DSC_ID = 48621<br/>/data/media/images/RBX_AMR_LEB/original/RBX_AMR_LEB_11J01_1.jpg -&gt; ftp/RBX/rbxrbxamr/JPEG/LEB_11J1/LEB_11J1_1.jpg<br/>/data/media/images/RBX_AMR_LEB/original/RBX_AMR_LEB_11J01_2.jpg -&gt; ftp/RBX/rbxrbxamr/JPEG/LEB_11J1/LEB_11J1_2.jpg<br/>/data/media/images/RBX_AMR_LEB/original/RBX_AMR_LEB_11J02_1.jpg -&gt; ftp/RBX/rbxrbxamr/JPEG/11J2/11J2_1.jpg<br/>/data/media/images/RBX_AMR_LEB/original/RBX_AMR_LEB_11J02_2.jpg -&gt; ftp/RBX/rbxrbxamr/JPEG/11J2/11J2_2.jpg<br/>/data/media/images/RBX_AMR_LEB/original/RBX_AMR_LEB_11J03_1.jpg -&gt; ftp/RBX/rbxrbxamr/JPEG/11J3/11J3_1.jpg</p>
+
+<p style="text-align: justify;">Je n'ai pas trouvé de solution "manuelle" à ce problème de direction, ni dans l'interface EAD ni dans Osiros. Pour réussir la mise en ligne de ce jour, j'ai utilisé la méthode "FTP V2". Elise L. le 29/07/2022.</p></creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>RBX_AMR_LEB</unitid>
+      <unittitle>Collection famille Lebas</unittitle>
+      <unitdate normal="1898">1898-1963</unitdate>
+      <langmaterial>
+        <language langcode=""/>
+      </langmaterial>
+      <repository>AMR</repository>
+    </did>
+    <scopecontent>
+      <p>
+        <p style="text-align: justify;">Les documents laissent à voir le quotidien d'une famille entre 1914 et 1963. Aux documents administratifs, financiers ou officiels se mêlent les souvenirs, objets, lettres et photos d'une famille au destin chamboulé par la succession de deux guerres et des responsabilités politiques. Cette collection offre un regard nouveau sur la famille Lebas, famille qui a profondément marqué la ville de Roubaix et son histoire. Cette collection comporte à la fois des objets, des photographies, des documents sur support papier. Parmi les documents les plus emblématiques, citons un ensemble de lettres manuscrites et autographes de Jean Lebas à sa femme pendant sa période de déportation au cours de la Seconde Guerre mondiale.</p>
+      </p>
+    </scopecontent>
+    <acqinfo>
+      <p>
+        <p style="text-align: justify;">Dons de Marcelle Lebas, Messieurs Demeurie, Alphonse Verbeurgt complétés par des documents d'origines inconnues et des documents publics.</p>
+      </p>
+    </acqinfo>
+    <controlaccess>
+      <genreform>Objets</genreform>
+      <genreform>Documents d\'archives</genreform>
+      <genreform>Manuscrits</genreform>
+      <subject source="chrono">1914-1918</subject>
+      <subject source="chrono">1919-1938</subject>
+      <subject source="chrono">1939-1945</subject>
+      <subject source="chrono">1946-1959</subject>
+      <subject source="chrono">1960-1969</subject>
+      <subject source="theme">Guerres </subject>
+      <subject source="theme">Vie politique </subject>
+    </controlaccess>
+    <dsc>
+      <c level="file">
+        <did>
+          <unitid>11J1-106</unitid>
+          <unittitle type="">Documents d'origine privée</unittitle>
+          <unitdate normal="1898">1898-1963</unitdate>
+        </did>
+        <c level="subfile">
+          <did>
+            <unitid>11J1-15</unitid>
+            <unittitle type="">Lettres manuscrites et autographes de Jean Lebas à sa femme Angèle durant ses emprisonnements de Loos à Hambourg lors de la Seconde Guerre mondiale</unittitle>
+            <unitdate normal="1941">Entre le 11 juin 1941 et le 27 janvier 1942</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>11J1</unitid>
+              <unittitle type="">11 juin 1941</unittitle>
+              <unitdate normal="1941">11 juin 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Le 11 juin 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle, J'ai reçu aujourd'hui ta lettre qui m'a donné de la joie. Oui je reçois bien régulièrement tes colis et je ne sais comment t'en remercier ; ils contribuent évidemment au maintien de ma santé et fortifient aussi mon moral. J'espère que toi aussi tu conserves ta santé ainsi que Marcelle ; il le faut en effet pour demain. Dis à mes amis que ma pensée va souvent vers eux, même dans mes rêves. Henriette a dû avoir bien du tracas avec son déménagement opéré au moment du départ de Raymond. Je souhaite qu'elle se plaise dans sa nouvelle demeure. Je te demande de ne pas attendre d'avoir des soucis d'argent pour m'en informer. Alors je te dirai à qui tu devras t'adresser si je ne pourrais écrire moi-même. Veux-tu m'envoyer dans un prochain colis une bande Velpeau pour ma jambe, quelques aiguilles et du fil noir et blanc dont je puis avoir besoin. Tu pourras y joindre un tube de Cuscutine. Ma chère Angèle, je t'embrasse bien tendrement ainsi que Marcelle qui reste vaillante sans aucun doute, Henriette, notre petite Thérèse et toute notre famille. A mes amis, une affectueuse accolade. J. Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Lieu inconnu, 11 juin 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J01_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J01_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J2</unitid>
+              <unittitle type="">24 juin 1941</unittitle>
+              <unitdate normal="1941">1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">mardi 24 juin</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Je viens de recevoir ton colis et t'en remercie bien. Désormais je t'écrirai chaque semaine, même si je n'avais que très peu de choses à te dire. Je parle d'abord de ce dont j'ai besoin. Il me faudrait une paire de chaussettes, celle que j'ai aura été portée 15 jours lundi prochain. Au prochain colis, mets aussi une chemise au moins et retourne moi tout le linge lavé. Mais avant de l'envoyer, vérifie s'il n'y a pas de reprise à faire et de boutons à mettre. Excuse moi de te faire ces petites recommandations qui ont pour moi, ici, de l'importance. Et maintenant, parlons de toi, de Marcelle et de la famille. Comment vous portez-vous ? Bien j'espère. Ces jours-ci ont enfin apporté l'été et le beau temps. J'en jouis très peu, mais par la pensée je m'évade de la prison et j'arrive chez nous, rue Dammartin. Comme il doit y faire beau et bon ! Tu dois dans la journée, surtout le soir, te rendre dans le jardin, sous nos trois grands arbres ; il y fait frais, à l'abri du soleil. Et notre intérieur, est-il toujours le même ? C'est maintenant que je l'estime à sa véritable valeur, par ses commodités et ses avantages. Je t'ai dit que je lis le journal ? Il est en ce moment très intéressant, tu sais pourquoi. Si tu peux me donner bientôt des nouvelles de la famille et de mes amis, cela me fera le plus grand plaisir. Ma chère Angèle, je t'embrasse bien fort ainsi que Marcelle, Henriette, notre petite Thérèse et toute la famille. Mon souvenir affectueux à mes amis.</p>
+
+<p style="text-align: justify;">J. Lebas</p>
+
+<p style="text-align: justify;">Tu dois te donner beaucoup de mal pour me ravitailler. Mais toi et Marcelle, comment vivez-vous ? Envoie-moi quelques enveloppes, je n'en ai plus qu'une.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>24 juin 1941</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J02_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J02_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J3</unitid>
+              <unittitle type="">Loos, 2 juillet 1941</unittitle>
+              <unitdate normal="1941">1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Mercredi 2 juillet 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Je t'écris ce mot immédiatement après avoir reçu ton colis qui ne le cède en rien aux précédents et je t'en remercie beaucoup. J'ai apprécié particulièrement le contenu du pot cartonné. Dis à l'ami Vano que je l'en remercie vivement et je me joins à toi pour lui dire que je n'oublierai jamais le service qu'il te rend en ce moment en t'amenant jusqu'à Loos. J'avais bien deviné que c'était lui qui m'apportait les colis mais je ne croyais pas que tu venais aussi. J'en déduis que tu te portes bien, ce dont je suis heureux. Je suis aussi très content que tu reçoives la visite des parents et de mes amis. Je pense souvent à eux, tu voudras bien le leur dire. Presque toutes mes nuits je les passe, en rêve, à la maison, ou avec les amis à Roubaix, ou avec des personnalités ; ainsi ma vie d'avant l'occupation se continue. Mais au réveil la réalité me ramène où je suis. Toutefois il y a eu une exception : j'ai lu dans la presse le compte-rendu dela dernière séance du Conseil municipal et j'ai eu le plaisir de constater que nos décisions précédentes avaient été suivies d'effet puisque Tourcoing a pris des des délibérations analogues aux nôtres. J'ignore encore ce que fera Lille, mais je m'en préoccupe peu. Je suis extrêmement content de savoir, ainsi que tu l'écris, qu'à la maison « tout va bien ». Tant mieux ! Tant mieux ! Tu as bien fait de répondre à Alfred et d'écrire à Victor pour les tenir au courant de ma situation. Tu peux leur dire que je la supporte patiemment et avec confiance. J'espère que Marcelle aussi se porte bien. Je me suis aperçu que c'est elle qui écrit l'étiquette placée avec le colis. Un dernier mot à mon sujet : je te prie de m'envoyer la prochaine fois une petit tube de pommade Méta-Titane, pour ma jambe, à la vérité elle se porte bien, mais je pourrais avoir besoin de ce produit pharmaceutique. Tu as sans doute, par Henriette, des nouvelles de Raymond. J'ai toutes raisons de croire qu'il se porte bien lui aussi. Ma chère Angèle, je t'embrasse bien tendrement ainsi que Marcelle, Henriette, notre petite Thérèse et toute notre famille. Et à mes chers amis mes sentiments affectueusement dévoués.</p>
+
+<p style="text-align: justify;">J. Lebas</p>
+
+<p style="text-align: justify;">Dans le prochain colis ne mets pas de sucre, j'en ai encore suffisamment.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Loos, 2 juillet 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J03_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J03_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J4</unitid>
+              <unittitle type="">16 juillet 1941</unittitle>
+              <unitdate normal="1941">16 juillet 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Le 16 juillet 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Je suis sûr que tu as été très surprise de ne pas recevoir ma lettre la semaine dernière. Je n'en suis pas la cause. J'ai écrit ma lettre et l'ai remise mercredi dernier mais elle me fut rendue vendredi. Je crois que les détenus ne peuvent envoyer qu'une lettre tous les 15 jours. Par contre j'ai reçu tes deux dernières lettres et te remercie de m'avoir rassuré au sujet de Marcelle, Henriette et l'ami Théo, car j'étais dans la plus grande inquiétude. Dis-lui - à Théo que j'ai eu le plaisir de lire sa lettre samedi 5 courant. J'en ai été très heureux et je l'en remercie vivement. Nous n'oublierons pas les services qu'il nous rend dans la situation présente. Il m'apprend, ainsi que toi un fait que j'ignorais ; je ne savais pas en effet, que Fleuris avait passé ici quelques jours. J'en devine le motif après avoir lu la presse. Ton colis est toujours accueilli avec plaisir, celui d'hier le fut comme les précédents. Voici ce que je te demande : Dans le linge je n'ai trouvé qu'une serviette et pas de caleçon d'été. Or le caleçon que je porte commence à se salir, je l'ai depuis bientôt 3 semaines et je n'en ai pas de rechange. Je voudrais aussi avoir deux serviettes. Le linge que contenait ma valise m'a été remis en plusieurs fois. Encore une petite chose ; je te demande de m'envoyer un petit crayon porte-mines. Je t'écris avec un bout de crayon de trois centimètres et je ne puis pas le tailler car il est interdit d'avoir un canif. Raymond a tout à fait raison de se laisser vivre ; actuellement et dans notre situation, c'est la seule bonne attitude à prendre raisonnablement. Je fais comme lui et tu m'y aides efficacement. Ma chère Angèle, je compte sur toi pour remercier l'ami Vano et sa femme, dire à mes amis du Conseil municipal que je suis très content de savoir que grâce à leur accord tout va aussi bien que possible, que je leur adresse mes amicales félicitations, et je t'embrasse bien tendrement ainsi que Marcelle, Henriette, notre petite Thérèse et nos parents.</p>
+
+<p style="text-align: justify;">J. Lebas</p>
+
+<p style="text-align: justify;">Et Maria, et Céline, comment vont-elles ?</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Lieu inconnu, 16 juillet 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J04_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J04_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J5</unitid>
+              <unittitle type="">Bruxelles, 14 août 1941</unittitle>
+              <unitdate normal="1941">14 août 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Bruxelles St Gilles 14 août 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Je t'écris enfin ma première lettre depuis que je suis ici. Tout à l'heure j'ai reçu la lettre de Marcelle, elle m'a fait vivement plaisir, d'abord parce qu'elle est écrite par elle, puis pour ce qu'elle y dit. Elle me renseigne sur le pouvoir timbré présenté à ma signature le 5 août et qui doit lui permettre de retirer des fonds de la Société générale. Je n'ai pas hésité à signer. Je en savais pas que Marcelle attendait à la prison ce pouvoir. J'ai maintenant l'explication de l'envoi du colis qui m'a été remis le 6 août ; je sais qu'elle est venue à Bruxelles avec l'ami Vano. Quelle reconnaissance je lui dois ! Comment m'acquiterrai-je envers lui d'une dette contractée pour les nombreux services qu'il nous a rendus dans les moments de malheur ? C'est ce que nous verrons plus tard. En tout cas jamais je n'oublierai l'aide qu'il nous apporte. Suivant l'indication que me donne Marcelle, j'aurai un paquet de linge sale prêt pour le 19 courant. Que te dirai-je sur ma vie ici ? Les jours se suivent et se ressemblent, monotones. Seul dans ma cellule je puis cependant réagir contre l'abattement grâce à la lecture. On me passe des romans de la bibliothèque de la prison, ce qui me permet de tuer le temps. Et maintenant, autre chose. Surtout, dans ta prochaine lettre donne moi des nouvelles de ta santé et de celle de Marcelle. Si j'en juge par sa lettre, Marcelle va aussi bien que possible ; tant mieux ! Et toi ? Il m'arrive parfois d'être inquiet à votre sujet. Tranquillise moi par un mot. En ce qui me concerne, je vais bien. Il est certain que tes colis y sont pour beaucoup. Celui du 6ct était complet et je devine que pour sa confection, tu dois te donner bien du mal. Dans le prochain mets un petit paquet de sel ! Et la famille, comment va-t-elle ? Et mes amis, comment se portent-ils, les vois-tu de temps en temps ? Dis leur que par la pensée je suis souvent avec eux. Il paraît que l'indemnité parlementaire sera supprimée à partir du 1er octobre prochain. Ma pension devra donc être liquidée au chiffre de 29.000 frs environ si j'ai bonne mémoire. S'il le faut, Marcelle utilisera son pouvoir pour la vente des titres. Mais je sais que tu ne fais pas de dépenses inutiles. Ma chère Angèle je t'embrasse bien fort ainsi que Marcelle, Henriette, notre petite Thérèse et toute la famille. Mon souvenir affectueux à Théo et à mes amis.</p>
+
+<p style="text-align: justify;">J. Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Bruxelles, 14 août 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J05_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J05_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J6</unitid>
+              <unittitle type="">Bruxelles, 29 août 1941</unittitle>
+              <unitdate normal="1941">29 août 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Vendredi 29 août 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Au moment d'écrire cette lettre je n'ai pas encore reçu la tienne. Mais je n'attends pas plus longtemps pour te donner de mes nouvelles, car je sais que si j'aime de recevoir les tiennes, tu attends impatiemment les miennes. Elles ne varient pas mes nouvelles, elles sont toujours les mêmes ; elles se résument ainsi : ma santé est bonne, elle se maintiendra dans la vie monotone qui est la mienne depuis plus de 3 mois. Je te redis que c'est toujours avec joie que je reçois tes colis et je te pris de bien vouloir remercier en mon nom mon ami Vano et sa femme pour les bonnes choses qu'ils m'ont envoyées. Je me rends bien compte que ces simples remerciements ne suffisent pas et que plus tard ma reconnaissance devra se manifester autrement. Jusqu'à maintenant, dans tes lettres, tu n'as pas parlé de ce que nous devons aux entrepreneurs, mais il va de soi qu'avec le pouvoir que j'ai donné à Marcelle elle pourra retirer les fonds nécessaires aux paiements. Toutefois il est probable qu'à un certain moment il faudra vendre des titres. Je te demande de me tenir au courant. Dans la prochaine lettre veux-tu me dire quelques mots de la maison ? As-tu eu l'occasion d'aller t'abriter sous mes trois beaux arbres ? Il est vrai que cet été n'a pas été très chaud, mais je suis mal placé pour en parler, le soleil me faisant rarement visite. Dans ta lettre que je recevrai peut-être dans quelques heures, sans doute me donnes-tu des nouvelles de mes amis. Quand tu les verras, dis leur que je suis en bonne santé physique et morale et je souhaite qu'ils se trouvent tous dans le même état. Veux-tu recommander à Marcelle quand elle vient le mardi apporter un colis, de toujours réclamer mon paquet de linge sale ? Je le fais déposer ce jour là. Ma bonne et chère Angèle, je t'embrasse bien tendrement ainsi que Marcelle. Embrasse pour moi Henriette, notre petite Thérèse et toute la famille. Mes amitiés affectueuses à mes chers camarades.</p>
+
+<p style="text-align: justify;">J. Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Loos [?], 29 août 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J06_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J06_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J7</unitid>
+              <unittitle type="">Bruxelles, 27 septembre 1941</unittitle>
+              <unitdate normal="1941">27 septembre 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Brüssel, 27 7bre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">J'espère que tu as reçu ma dernière lettre du 14 de ce mois, mais moi je n'ai pas reçu de tes nouvelles depuis le 30 août, date de réception de ta lettre du 21. Sans doute m'as-tu écrit depuis ; patience, je pourrais recevoir ton billet bientôt. Merci pour ton dernier colis. J'y ai trouvé notamment une chemise couleur qui me convient tout à fait et une cravate qui me plaît. Je ne parle pas du ravitaillement qui me donne pleine satisfaction. Au sujet des citrons, si tu avais du mal à en trouver inutile d'en acheter pour moi, j'en détiens à la cantine. Nous voici déjà fin septembre et quoique le temps soit magnifique, je songe à l'approche de l'hiver. Comme linge d'hiver j'ai deux caleçons jersey mais un seul maillot. Le second maillot doit être à la maison, voudrais-tu me l'envoyer ? Je te pris aussi de mettre dans un prochain colis un tube de pilulescuscutine. Il m'en reste, mais je tiens à avoir une petite réserve. J'espère que maintenant Marcelle retire la paquet de linge sale quand elle vient , le mardi, déposer moncolis. C'est ainsi que ce matin j'ai remis mon linge sale qu'elle prendre mardi prochain. Je ne te répéterai pas ce que je t'ai écrit dans ma dernière lettre soit pour le colis, soit pour Alfred et Dubolpaire ; parce que je crois fort que tu l'as reçue. D'ailleurs, sans le savoir tu m'as donné satisfaction puisque le pain n'est plus coupé et que la quantité de pâté très bon n'est plus aussi abondante. Mais j'ai une chose à te demander qui t'étonnera et te fera sourire. Pour combattre l'ennui que je connais parfois, la lecture du journal Le Soir est tout à fait insuffisante, et je voudrai revoir la grammaire française. S'il n'y en a pas à la maison, tu en trouverais certainement une chez un vieux bouquiniste. Merci d'avance excuse moi pour ce nouveau dérangement. Je me porte aussi bien que possible, c'est tout ce que je puis dire sur ma santé. Et toi, et Marcelle, et toute la famille, comment allez-vous ? C'est ce que je voudrais bien savoir sans retard. De même je compte avoir des nouvelles de mes chers amis à qui tu voudras bien présenter mes sentiments amicaux les plus forts. Ma chère Angèle je t'embrasse bien tendrement ainsi que Marcelle. Embrasse pour moi Henriette, Thérèse et toute notre famille.</p>
+
+<p style="text-align: justify;">Jean Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Bruxelles, 27 septembre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J07_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J07_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J8</unitid>
+              <unittitle type="">Bruxelles, 11 octobre 1941</unittitle>
+              <unitdate normal="1941">11 octobre 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Brüssel, 11 octobre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">C'est avec une grande joie que j'ai lu, le 8ct, c'est-à-dire mercredi dernier, ta lettre du 29 7bre. Le lendemain, 30 7bre j'avais le bonheur, pour la première fois, de voir Marcelle et Henriette et de pouvoir leur parler quelques minutes. N'ayant pas été avisé de leur visite je n'ai pas dit à Marcelle tout ce que j'aurais voulu lui dire. J'étais si heureux de la revoir en très bonne santé. Mais ma lettre précédente contenait l'essentiel de ce que te demande. Au cas où tu ne l'aurais pas reçue, voici ce que je désirerais recevoir : je n'ai qu'un maillot-jersey que je porte, j'en voudrais un second ; une bande de Velpeau avec grande épingle de sûreté ; une chemise de nuit (je n'en ai plus depuis 15 jours) ; une paire de lacets pour chaussures ; 2 citrons si tu en trouves ; 1 boîte de sardines ou de thon si le prix n'en est pas excessif, car je pourrais m'en passer ; du papier à lettre. J'ai dit à Marcelle de me faire remettre une grammaire, bien entendu si la direction de la prison le permet. Enfin je te demande de dire à Alfred qu'il peut retourner mon colis en le remettant à Dubolpaire que Marcelle avertira. Et maintenant, je réponds à ta lettre. Les nouvelles que tu me donnes me remplissent de contentement puisque toute la famille se porte bien et que tu reçois les visites de nos parents et amis. J'approuve absolument les achats que tu as faits pour la maison, car il est certain que tu n'auras pas la quantité de charbon nécessaire à ton chauffage cet hiver.Tu sais que je suis très satisfait du contenu de tes colis, mais je ne croyais pas que tu les confectionnais sans trop de difficultés, grâce aux gestes d'amis dévoués. Je te prie donc de remercier vivement pour moi la maman de la petite Ginette et ce cher ami Henri, je ne parle pas l'ami Vano dont le dévouement pour nous est constant. Tu fais bien de répondre à mes parents de Normandie et à Maria. J'espère qu'elle se porte bien ainsi que son mari. J'allais oublier de te dire que j'ai reçu les 2 petits tubes de pilules. Merci. Quant à mon état il est toujours le même : je me porte bien, grâce à toi... Mes souvenirs affectueux à mes amis, et pour toi et Marcelle, ma Chère Angèle, mes baisers tendres. Embrasse pour moi Henriette, notre petite Thérèse et toute la famille.</p>
+
+<p style="text-align: justify;">J. Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Bruxelles, 11 octobre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J08_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J08_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J9</unitid>
+              <unittitle type="">Bruxelles, 25 octobre 1941</unittitle>
+              <unitdate normal=""/>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Brüssel, 25 octobre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">J'ai reçu ta lettre du 13 courant que j'ai lue avec plaisir, excepté sur un point qui m'a étonné et peiné. En effet tu m'apprends qu'à sa venue le mardi 30 7bre, il fut répondu à Marcelle que je n'avais pas déposé mon paquet de linge sale. Or, ainsi que je le fais chaque quinzaine, le samedi 27 7bre j'ai remis au personnel de la prison mon paquet de linge avec l'étiquette portant mon nom bien visible. Ce que j'ai encore fait ce matin. Cette disparition de mon linge me chagrine, car si elle se répète assez fréquemment tu seras obligée d'en acheter souvent, ou je serai amené à le laver ici, ce qui n'est pas pratique. Enfin Marcelle ou toi vous pouvez certifier, chaque fois que vous venez, qu'il y a un paquet de linge sale à mon nom. J'ai été extrêmement heureux de te voir l'autre mardi. J'ai constaté que tu es bien portante. Tu as paru très impressionnée par mon amaigrissement ; il ne faut pas en être affecté. Je me porte bien aussi puisque je ne souffre pas physiquement. D'ailleurs je crois que tout détenu maigrit plus ou moins. Je tiens à répéter que tes colis me donnent pleine satisfaction et il ne me faut pas plus que la quantité que tu m'envoies habituellement. Voici cependant ce que je désirerais recevoir bientôt : un peu de sucre, je n'en ai plus ; une boîte de sardines ou de thon ; ma paire de gants de laine ; un tube de pilules. Tu as bien fait de ne pas couper le pain en petites tranches, en le laissant en entier il se conserve mieux. La nouvelle de la venue des parents et amis, à tour de rôle, me fait le plus vif plaisir, tu voudras bien le leur dire. J'allais oublier de t'apprendre que le lendemain de ta visite, j'ai reçu celle de l'avocat que tu as choisi, m'a t-il dit, pour me défendre ainsi que Raymond. Sans doute as-tu fait ton choix sur des renseignements qui t'ont été donnés. J'espère que notre affaire ne traînera plus longtemps. Assure mes amis de mon affection indéfectible ; remercie le jeune Roger Vano pour ses sucres de baptême ; embrasse Henriette, Thérèse et nos parents pour moi et je t'embrasse, ma chère Angèle, ainqique Marcelle, avec toute ma tendresse. J. Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>25 octobre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J09_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J09_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J10</unitid>
+              <unittitle type="">Bruxelles, 9 novembre 1941</unittitle>
+              <unitdate normal="1941">1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Brüssel, 9 9bre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,Ce matin j'ai reçu ta lettre du 28 8bre et sa lecture, comme toujours, m'a fait plaisir. Dans ma précédente lettre je t'ai dit que mon amaigrissement n'a rien d'inquiétant ; je me porte bien, je ne souffre nullement. D'ailleurs j'ai l'impression que maintenant je ne perds plus de poids. Une fois encore je te dis que tes colis me donnent satisfaction. Cependant j'ai une petite remarque à faire au sujet du gâteau du dernier colis (mardi 28 8bre). Il dégageait une si forte odeur d'anis qu'il en était mauvais. J'ai fait effort pour le manger. A l'avenir ne prend plus de gâteau ayant cette odeur, je préfère m'en passer. Par contre pain et biscuits étaient excellents. J'espère que le colis que tu apporteras mardi contiendra un peu de sucre que j'ai demandé dans ma dernière lettre, ainsi que des pilules. Tu fais justement remarquer que je remets peu de linge sale. C'est vrai, mais j'en déduis tout de suite que tu as donc retiré mes paquets de linge sale. Cela me tranquillise un peu et c'est précisément parce que hier matin, ignorant encore si mon linge t'avait été remis, que j'ai fait un paquet contenant peu de choses ; ainsi je n'ai pas changé de chemise, celle que j'ai n'est pas sale. Pour répondre à ta lettre, voici le linge que j'ai dans ma valise : 1 chemise couleur dont je suis très content, je n'ai plus besoin ici de chemises blanches, 3 serviettes ; 1 gilet flanelle ; 1 chemise de nuit ; 1 caleçon d'hiver et 1 maillot ; 1caleçon d'été ; 3 paires de chaussettes de laine et les 2 pyjamas. Bien entendu dans ce linge je ne compte pas celui que je porte, ni celui que j'ai rendu hier et que tu devras prendre mardi si tu viens, ce que j'espère. Inutile de m'envoyer le pyjama de moleton. J'oubliais de te demander du fil blanc. Mais surtout laisse pendre le bout du fil afin que je le voie. Je ne te parle pas argent puisque tu n'en dis rien. Je suis content de savoir que tu peux chauffer la maison, c'est heureux. Quand y reviendrais-je ? Je l'ignore et l'affaire traîne au point que je doute que ce soit prochainement. Je patiente donc, c'est tout ce que je puis faire. Dis surtout à nos parents et amis que je les remercie de venir te voir de temps en temps. Dis leur que je pense souvent à eux. Assure mes amis de ma confiance et de mon affection ; embrasse bien Henriette,Thérèse et nos parents et je t'embrasse de tout mon coeur, Ma chère Angèle, ainsi que Marcelle.</p>
+
+<p style="text-align: justify;">Jean Lebas</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Bruxelles, 9 novembre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J10_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J10_4.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J11</unitid>
+              <unittitle type="">Bruxelles, 22 novembre 1941</unittitle>
+              <unitdate normal="1941">1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Brüssel, 22 9bre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">J'ai bien reçu ta lettre du 12 ct et sa lecture m'a intéressé et fait plaisir. J'ai beaucoup regretté de ne pas t'avoir vue ainsi que mes deux amis le 11 9bre ; je te prie de leur dire. Par contre j'ai reçu ton colis dont le contenant m'a pleinement satisfait. Précisément parce que tu me dis que le colis de mardi prochain contiendra caleçon et maillot de laine, j'ai mis ce matin dans le paquet de linge sale que tu devras prendre mardi prochain caleçon et maillot. J'y ai mis aussi mon pardessus de demi-saison dont je n'ai pas besoin en hiver. Je suis de ton avis : je crois que notre jugement aura lieu bientôt, j'en ai été informé par un officier le 12de ce mois. Mais, il se peut que nous soyons jugés à Berlin et la peine qui pourrait nous être infligée serait purgée à la prison de Lille puisque nous sommes français et suivant ce que m'a dit l'officier. Par conséquent nous n'avons plus que patience à prendre. Je suis toujours très heureux quand tu m'écris que tu te portes bien ainsi que Marcelle et nos parents. Ma santé est bonne et j'ai le plaisir de t'apprendre que cette semaine j'ai été pesé et on a enregistré le poids de 61 kos. Ce poids est celui d'il y a un peu plus un mois, mais cette fois je n'avais pas mon paletot qui est lourd. J'en conclus que j'ai gagné plus de 1 ko, ce qui est mieux que de perdre 1 ko. J'ai éprouvé un sentiment de joie quand j'ai appris, par ta lettre, que tu avais reçu la visite de Mr Salembier. Lui non plus ne nous oublie pas, c'est bien et je ne veux pas ajouter autre chose. Je compte sur toi pour assurer mes amis de toute mon affection et je t'embrasse, Ma chère Angèle, ainsi que Marcelle, bien tendrement. De ma part tu embrasseras Henriette, Thérèse et toute la famille. Lebas Jean BteCellule 112.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Bruxelles, 22 novembre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J11_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J11_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J12</unitid>
+              <unittitle type="">Hambourg, 10 décembre 1941</unittitle>
+              <unitdate normal="1941">10 décembre 1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">Hambourg, le 10 Xbre 1941</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Au bout de huit jours de détention à la prison de Hambourg, nous sommes autorisés à écrire à notrefamille. J'en profite pour te donner de mes nouvelles. Je me porte bien physiquement et moralement. Par conséquent, pour ma santé, tu n'as pas à être inquiète. En ce qui concerne le régime qui nous est fait, je dois reconnaître qu'il n'est pas inférieur à ceux que nous avons connu à St-Gilles et à Loos. Toutefois, la modification que constitue l'absence de colis se fera sentir avec le temps ; mais précisément on peut se demander pendant combien de mois nous resterons ici. Je ne crois pas à un long séjour, car notre mise en jugement ne tardera pas j'espère. Une chose qui pour moi n'est pas à négliger et qui est de nature à influer sur notre moral est la vie en commun que Raymond et moi connaissons. J'en suis heureux et lui aussi. Tu voudras bien donner de mes nouvelles à mes amis et leur dire que je continue de penser à eux. Si tu as l'autorisation de m'écrire je te demande de le faire le plus vite possible afin que j'aie de tes nouvelles. Ma chère Angèle, je t'embrasse bien fort ainsi que Marcelle et toute notre famille.</p>
+
+<p style="text-align: justify;">J. Lebas - Prison de Hambourg - Fuhlsbuttel-Sukrenkamp 98.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Hambourg, 10 décembre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J12_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J12_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J13</unitid>
+              <unittitle type="">Hambourg, 11 décembre 1941</unittitle>
+              <unitdate normal="1941">1941</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">11. Dez. 1941 Lebas 3i/4i Btm 190</p>
+
+<p style="text-align: justify;">Ma chère Angèle, Je puis de nouveau t'écrire et j'en profite avec empressement. Ma santé se maintient et avec le régime que nous connaissons ici il ne faut pas craindre un amaigrissement exagéré. De toutes les prisons faites, celle de Hambourg est celle où la cellule est la plus hygiénique et la plus commode pour le prisonnier. Assurément une chose nous manquera : le colis qui nous apportait un complément et des aliments agréables. Mais je dois reconnaître qu'ici le colis ne s'impose pas autant parce que les rations sont abondantes. Enfin la vie commune que Raymond et moi vivons ici est de nature à conserver à notre moral sa solidité. Tu le vois tu n'as pas à t'inquiéter de ma situation. Toutefois il va de soi que notre désir est d'être fixés le plus vite possible sur notre sort par un jugement qui, j'espère, ne tardera pas. S'il en était autrement nous le regretterions beaucoup, mais nous attendrions avec patience et confiance. Voilà tout ce que je puis te dire aujourd'hui. J'espère recevoir bientôt de tes nouvelles car je ne doute pas que tu sois autorisée à m'écrire. Tu voudras bien dire à mes amis qu'ici comme à Loos et à Bruxelles je suis souvent avec eux par la pensée ou le rêve. Ma chère Angèle, je t'embrasse bien tendrement ainsi que Marcelle. Tu embrasseras pour moi Henriette, Thérèse et toute notre famille.</p>
+
+<p style="text-align: justify;">J. Lebas - Hambourg - Fuhlsbuttel-Sukrenkamp 98.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Hambourg, 11 décembre 1941.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J13_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J13_2.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J14</unitid>
+              <unittitle type="">Hambourg, 13 janvier 1942</unittitle>
+              <unitdate normal="1942">1942</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">13 jan 1942</p>
+
+<p style="text-align: justify;">Lebas 3i/4i Btm/190</p>
+
+<p style="text-align: justify;">Ma chère Angèle,</p>
+
+<p style="text-align: justify;">Je n'attends pas ta réponse à ma première lettre envoyée d'ici il y a un peu plus d'un mois, pour t'écrire. Car je tiens à te présenter mes meilleurs voeux de bonne année ainsi qu'à Marcelle. Je suis sur que je réponds aux tiens en souhaitant d'abord notre libération et notre retour au foyer familial. Je te prie de souhaiter, en mon nom, à Henriette, à Thérèse, Maria, Céline, Georges, à tous les membres de la famille, une bonne année et surtout une bonne santé. De même, tu voudras bien présenter mes voeux fraternels à tous mes chers amis que je ne nomme pasparce que la place me manque. Je tiens à te tranquilliser au sujet de ma santé : je me porte bien, très bien. Une chose est certaine, j'ai cessé de maigrir et je crois fort que je reprends un peu de poids. Que te dirai-je de l'existence menée ici ? Simplement ceci : les jours se suivent et se ressemblent avec cette remarque que le froid, depuis plusieurs jours, a fait son apparition. Mais nous n'en souffrons pas car notre cellule est chauffée. Je pense, en ce début d'hiver, au sort fait à la population de Roubaix et du Nord par suite du rationnement trop réduit du charbon. J'ai aussi réfléchi à la vie qui t'est faite par suite de la suppression de mon indemnité parlementaire. Comment vis-tu avec Marcelle ? Je crains que tes ressources soient aujourd'hui réduites à très peu de chose. Et alors, que faire ? Dans cette situation tu ne dois pas hésiter, tu dois vendre une partie de mes valeurs se trouvant à Paris. Un dernier mot : nous n'avons pas encore été jugés. Quand le serons-nous ? J'attends patiemment et sans me décourager. Ma chère Angèle, je t'embrasse bien tendrement ainsi que Marcelle et toute la famille. Mes amitiés affectueuses à mes chers amis.</p>
+
+<p style="text-align: justify;">J. LebasPrison de Hambourg Fuhlsbuttel-Sukrenkamp 98.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Hambourg, 13 janvier 1942.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J14_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J14_4.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J15</unitid>
+              <unittitle type="">Hambourg, 27 janvier 1942</unittitle>
+              <unitdate normal="1942">1942</unitdate>
+            </did>
+            <scopecontent>
+              <p><p style="text-align: justify;">27 jan 1942 Lebas, Jean 3i/4i Btm / 190</p>
+
+<p style="text-align: justify;">Ma chère Angèle,Nous venons d'êtres informés par l'Administration de la prison que les détenus d'ici, Norvégiens, Belges et Français ne peuvent plus correspondre avec leurs familles. Jusqu'à maintenant je n'ai reçu de toi aucune lettre ; je suis convaincu cependant que tu m'as écrit, tandis que je t'ai adressé trois ou quatre lettres ; celle-ci est donc la dernière. Par conséquent il est inutile de m'écrire puisque ta lettre ne me serait pas remise. De mon côté je ne pourrai plus te donner de mes nouvelles, à moins que la mesure qui est, nous a-t-ondit provisoire, ne soit rapportée. S'il en était ainsi tu sais avec quelle hâte je t'écrirais. Pour le moment je continue d'aller bien et j'attends la décision prochaine du Tribunal de Berlin. J'espère que tu continues de te bien porter ainsi que Marcelle et tous les nôtres. Assure mes amis de toute mon affection et je t'embrasse, Ma chère Angèle ainsi que Marcelle de tout mon coeur. Embrasse pour moi Henriette, Thérèse et toute notre famille.</p>
+
+<p style="text-align: justify;">Jean Lebas Prison de Hambourg,Fuhlsbuttel-Sukrenkamp 98.</p></p>
+            </scopecontent>
+            <daogrp>
+              <daodesc>
+                <p>Hambourg, 27 janvier 1942.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_LEB_11J15_1.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_LEB_11J15_4.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J16</unitid>
+            <unittitle type="">Lettre de Raymond Lebas à sa femme Henriette depuis la prison de Luckau</unittitle>
+            <unitdate normal="1942">4 février 1942</unitdate>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">5/2/42</p>
+
+<p style="text-align: justify;">Ma chère Henriette</p>
+
+<p style="text-align: justify;">Il m'est enfin permis de t'écrire, après un silence de 6 mois. Comme je n'ai jamais reçu de nouvelles de toi, depuis mon transfert en Allemagne, j'ignore si tu as reçu les quatre lettres que je t'ai adressées de Hambourg au cours des mois de Décembre et janvier derniers. Voici en quelques mots ce que je suis devenu depuis notre dernière entrevue à la prison de St Gilles. Le 2 Décembre j'arrivais à Hambourg ou je suis resté jusqu'au 9 Avril, le 10 j'étais transféré dans une prison de Berlin en vue de notre passage devant le tribunal, qui eut lieu le 21 Avril. En voici le résultat, je suis condamné à 2 ans de travaux forcés papa à 3 ans et demie, Laure a 1 an et 3 mois et le jeune homme à 3 ans. Le jour du jugement nous avions exactement 11 mois d'arrestation préventive ; mais il a été tenu compte que de huit mois. Je suis donc libérable le 21 août 1943. Toutefois il nous a été promis que sur une demande de notre part nous obtiendrions une réduction depeine de quelques mois. Comme tu le sais et contrairement à nos espoirs de l'année dernière l'affaire a été jugé sévèrement. Bien mieux le procureur réclamait pour nous quatre la peine de mort mais le tribunal s'en est tenu à aux peines citées plus haut. Le fameux Charlie était présent pour réitérer ses accusation contre nous. Mais rassure toi la prison de travaux forcés ne diffère guère des autres prisons par où j'ai passé. Je suis en effet depuis huit jours à la prison de travaux forcés de Luckau pas loin de Berlin et m'y habitue très bien. Le temps passe vite, je suis avec 2 belges, le travail n'est pas fatigant et la nourriture est bonne. Nous avons de la lecture. Malheureusement je ne puis t'écrire qu'une fois tous les six mois et d'autre part ; pour la 1ère fois papa ne m'a pas accompagné dans ma nouvelle prison. J'ignore s'il viendra me rejoindre. Ma chère Henriette, j'espère que toi et toute la famille continuez d'aller bien.</p>
+
+<p style="text-align: justify;">Raymond Lebas - Prison de Luckau Klasterstrasse 1 - Allemagne</p></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Lettre manuscrite et autographe de Raymond à sa femme Henriette depuis la prison de Luckau.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J16_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J16_2.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J17</unitid>
+            <unittitle type="">Lettre manuscrite et autographe de Jean Lebas concernant le remboursement d'un arriéré</unittitle>
+            <unitdate normal="1930">mercredi 26 février 1930</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J18</unitid>
+            <unittitle type="">Une lettre manuscrite et autographe de Jean Lebas au trésorier de la Chambre des députés au sujet du virement de son indemnité parlementaire</unittitle>
+            <unitdate normal="1940">samedi 26 octobre 1940</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J19</unitid>
+            <unittitle type="">Lettre tapuscrite et autographe non remise écrite par Jean Lebas au soldat Albert Hernou concernant les évacuations de la population de Roubaix et des activités du service installé à la Guerche-de-Bretagne</unittitle>
+            <unitdate normal="1940">mardi 11 juin 1940</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Lettre tapuscrite et autographe non remise écrite par Jean Lebas au soldat Albert Hernou concernant les évacuations de la population de Roubaix et des activités du service installé à la Guerche-de-Bretagne.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J19_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J19_3.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J20</unitid>
+            <unittitle type="">Brouillon manuscrit du premier discours prononcé par Jean Lebas lors du premier conseil municipal après la proclamation de l'état de guerre en 1939</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>8 feuillets.</p>
+            </physdesc>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Brouillon manuscrit du premier discours prononcé par Jean Lebas lors du premier conseil municipal après la proclamation de l'état de guerre en 1939 (8 feuillets).</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J20_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J20_8.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J21</unitid>
+            <unittitle type="">Lettre de Léo Lagrange à Jean Lebas</unittitle>
+            <unitdate normal="1939">samedi 18 novembre 1939</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Lettre manuscrite et autographe de Léo Lagrange à Jean Lebas.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J21_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J21_2.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J22</unitid>
+            <unittitle type="">Lettre tapuscrite et autographe du secrétaire général de la mairie de Roubaix à Jean Lebas et note manuscrite et autographe de Marcelle Lebas concernant l'exonération de l'impôt foncier du 17 rue Dammartin</unittitle>
+            <unitdate normal="1940">mardi 20 février 1940</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J23</unitid>
+            <unittitle type="">Lettre de l'inspecteur de Justice de l'armée allemande annonçant le départ de Jean et Raymond Lebas</unittitle>
+            <unitdate normal="1942">vendredi 09 janvier 1942</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J24</unitid>
+            <unittitle type="">Photographie d'une petite fille non identifiée</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J25</unitid>
+            <unittitle type="">Une photographie de M. Georges Hennion, père de Laure Dubar-Hennion</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J25_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J26</unitid>
+            <unittitle type="">Une photographie de Raymond Lebas enfant, fils de Jean et Angèle Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J26_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J27</unitid>
+            <unittitle type="">Une photographie de Valentine Lebas, fille de Jean et Angèle Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J27_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J28</unitid>
+            <unittitle type="">Mme Angèle Lebas-Hennion, juin 1946</unittitle>
+            <unitdate normal="1946">juin 1946</unitdate>
+            <physdesc>
+              <p>Deux photographies identiques.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J28_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J29</unitid>
+            <unittitle type="">Mademoiselle Céline Haelsbergh, professeur de violon, nièce de Jean Lebas, cousine de Marcelle et Raymond</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>1 photographie.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J29_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J30</unitid>
+            <unittitle type="">Marcelle Lebas, fille de Jean et Angèle Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>Une photographie.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J30_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J31</unitid>
+            <unittitle type="">Trois photographies de Marcelle Lebas</unittitle>
+            <unitdate normal="1951">juillet 1951</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J31_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J32</unitid>
+            <unittitle type="">Un timbre du R.I.D. (Résistants internés et déportés), famille Lebas, guerre 39-44</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J33</unitid>
+            <unittitle type="">Portrait de Marcelle Lebas</unittitle>
+            <unitdate normal=""/>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Portrait de Marcelle Lebas.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J33_01.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J33_02.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J34</unitid>
+            <unittitle type="">Photocopie de l'arrêté de nomination de Jean Lebas en tant qu'officier de l'Ordre de la Couronne par le roi des Belges Albert</unittitle>
+            <unitdate normal="1921">samedi 7 mai 1921</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J35</unitid>
+            <unittitle type="">Photocopie de l'arrêté de nomination de Jean Lebas en tant qu'officier de l'Ordre de Léopold par le roi des Belges Albert</unittitle>
+            <unitdate normal="1926">samedi 1er mai 1926</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J36</unitid>
+            <unittitle type="">Photocopie de l'arrêté de nomination de Jean Lebas, à titre posthume, en tant que commandeur de l'ordre de Léopold II avec palme et attribution de la croix de guerre 1940 avec palme et décoré de la médaille de la résistance</unittitle>
+            <unitdate normal="1948">samedi 26 juin 1948</unitdate>
+          </did>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>11J37-39</unitid>
+            <unittitle type="">Dossiers du bureau militaire de Roubaix pour la demande d'attribution de la qualité de déporté résistant de Jean Lebas pour les deux guerres mondiales et organisation de ses funérailles : notes sur le parcours et la vie de Jean Lebas, cartes de déportés</unittitle>
+            <unitdate normal="1951">1951-1957</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>11J37</unitid>
+              <unittitle type="">1914-1918</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J38</unitid>
+              <unittitle type="">1939-1945</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J39</unitid>
+              <unittitle type="">Dossier de protocole des funérailles</unittitle>
+              <unitdate normal="1951">1951</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J47</unitid>
+            <unittitle type="">Photocopie du diplôme de remise de la médaille d'honneur départementale et communale en vermeil à titre posthume à M. Jean-Baptiste Lebas en récompense de ses bons services et dévouement dont il a fait preuve dans l'exercice de ses fonctions</unittitle>
+            <unitdate normal="1947">jeudi 1er mai 1947</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J48</unitid>
+            <unittitle type="">Extrait du journal Nord-Matin, article de Jean Piat sur le 19 mai 1912, élection de Jean Lebas en tant que maire. La photo de presse serait une des dernières de Jean Lebas</unittitle>
+            <unitdate normal="1962">1962</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J49</unitid>
+            <unittitle type="">Dossier Raymond Lebas pour la demande de pension d'ascendant : certificats, extrait d'état-civil, attestations, notes sur sa vie</unittitle>
+            <unitdate normal="1948">1948</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J50</unitid>
+            <unittitle type="">Un original de « l'Homme libre », journal résistant</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J51</unitid>
+            <unittitle type="">Documents financiers de Marcelle Lebas et de son père : déclarations d'impôts, relevés de comptes, demandes de dégrèvement, gestion de l'indemnité parlementaire, fiches de contributions TSF, abonnement à la société d'éclairage par le gaz et l'électricité</unittitle>
+            <unitdate normal="1939">1939-1950</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J52</unitid>
+            <unittitle type="">Dossier comprenant la liste des titres appartenant à Jean Lebas et remis à M. Alfred Lampe sur sa demande et copie de la reconnaissance de M. Lampe</unittitle>
+            <unitdate normal="1937">1937</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J59</unitid>
+            <unittitle type="">Deux listes des noms des Feldgendarmes relevés d'après les étiquettes des vestiaires-armoires de la Feldgendarmerie de la rue du Manège à Roubaix, guerre 1939-1944</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J62</unitid>
+            <unittitle type="">Un télégramme de Jouhaux à Lebas au sujet des rapports avec les Allemands</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J63</unitid>
+            <unittitle type="">Dossier personnel. - correspondance avec la Caisse de pensions pour les anciens Députés, leurs veuves et leurs orphelins mineurs (1928-1930) ; lettre de Victor Provo à Angèle et Marcelle Lebas accompagnant la copie de son discours</unittitle>
+            <unitdate normal="1916">1916-1951</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J64</unitid>
+            <unittitle type="">Livret militaire de Jean-Baptiste Lebas (don de Marcelle Lebas pour le musée de Roubaix le 10 mars 1972)</unittitle>
+            <unitdate normal="1898">1898</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Livret militaire de Jean-Baptiste Lebas (don de Marcelle Lebas pour le musée de Roubaix le 10 mars 1972).</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J64_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J64_3.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J65</unitid>
+            <unittitle type="">Carte de membre de Jean Lebas des Résistants internés et déportés (R.I.D)</unittitle>
+            <unitdate normal="1963">1963</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J66</unitid>
+            <unittitle type="">Une attestation de Marcelle Lebas pour recevoir l'indemnité des biens détenus par son père lors de son arrestation et de son transfert à la prison de Loos</unittitle>
+            <unitdate normal="1952">1952</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J67</unitid>
+            <unittitle type="">Onze copies de devoirs scolaires de Valentine Lebas, première fille de Jean et Angèle Lebas</unittitle>
+            <unitdate normal="1915">1915</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J68</unitid>
+            <unittitle type="">Une photographie d'Angèle, Raymond, Valentine et Marcelle</unittitle>
+            <unitdate normal="1914">1914-1915</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J68_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J69</unitid>
+            <unittitle type="">Une photocopie d'un diplôme de reconnaissance de l'armée anglaise à Jean-Baptiste Lebas</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J70</unitid>
+            <unittitle type="">Une enveloppe de l'armée anglaise adressée à Mme Veuve Lebas concernant Raymond</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J71</unitid>
+            <unittitle type="">Une photocopie d'une attestation de Louis-Philippe, secrétaire du syndicat des employés de commerce et d'industrie de Lille et environs, certifiant que Jean Lebas est à jour dans ses cotisations</unittitle>
+            <unitdate normal="1909">samedi 14 août 1909</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J72</unitid>
+            <unittitle type="">Lettre à Angèle Lebas lui annonçant que son mari et son fils sont en Allemagne</unittitle>
+            <unitdate normal="1942">vendredi 9 janvier 1942</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J72_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J73</unitid>
+            <unittitle type="">Portrait de Marcelle Lebas</unittitle>
+            <unitdate normal="1959">juillet 1959</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J73_1.jpg" role="image"/>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>11J74</unitid>
+            <unittitle type="">Photographies de Thérèse Lebas</unittitle>
+            <unitdate normal=""/>
+            <physdesc>
+              <p>5 photographies.</p>
+            </physdesc>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Photographies de Thérèse Lebas.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J074_01.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J074_05.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J75</unitid>
+            <unittitle type="">Une photographie de Marcelle Lebas, vers 1968</unittitle>
+            <unitdate normal="1968">1968</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J75_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J76</unitid>
+            <unittitle type="">Portrait de Jean Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Un portrait de Jean Lebas avec texte biographique au dos, accompagnée de la carte de visite d'Eugène Thomas, secrétaire d'Etat aux Postes, Télégraphes et Téléphones.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J76_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J77</unitid>
+            <unittitle type="">Raymond Lebas à 20 ans</unittitle>
+            <unitdate normal="1921">1921-1922</unitdate>
+            <physdesc>
+              <p>Une photographie.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J77_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J78</unitid>
+            <unittitle type="">Bulletin de naissance de Joël Chevalier, demi-frère de Thérèse, né le 10 février 1947</unittitle>
+            <unitdate normal="1947">jeudi 20 mars 1947</unitdate>
+          </did>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>11J79-80</unitid>
+            <unittitle type="">Deux extrait du journal Nord-Eclair sur la mort de Marcelle Lebas</unittitle>
+            <unitdate normal="1972">1972</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>11J79</unitid>
+              <unittitle type="">Extrait du 22 mars 1972</unittitle>
+              <unitdate normal="1972">mercredi 22 mars 1972</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J80</unitid>
+              <unittitle type="">Extrait du 23 mars 1972</unittitle>
+              <unitdate normal="1972">jeudi 23 mars 1972</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J81</unitid>
+            <unittitle type="">Un extrait du journal Nord-Eclair sur la mort de Thérèse Lebas</unittitle>
+            <unitdate normal="1971">jeudi 30 septembre 1971</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J82</unitid>
+            <unittitle type="">Un extrait du journal La Voix du Nord sur la carrière de Jean Lebas</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>11J83-88</unitid>
+            <unittitle type="">6 lettres manuscrites et autographes échangées entre Thérèse Lebas et sa marraine Marcelle Lebas du 13 janvier au 26 juillet 1963</unittitle>
+            <unitdate normal="1963">1963</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>11J83</unitid>
+              <unittitle type="">13 janvier 1963</unittitle>
+              <unitdate normal="1963">dimanche 13 janvier 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Mougins le 13 janvier 1963 Chère Grand mère Chère Marraine Je m'excuse avant tout, d'avoir attendu si longtemps, pour répondre aux gentilles lettres et aux si jolies cartes de Marraine, mais j'ai passé un très mauvais mois de Décembre et je préférais ne pas vous donner de nouvelles, plutôt que d'écrire des lettres démoralisantes. A présent tout est arrangé et je m'explique. Nous nous sommes aperçus que nous ne pourrons pas continuer le commerce en travaillant si peu et en ayant par contre autant de frais ; (c'est ce que je craignais depuis le début, du reste) nous nous enfoncions de plus en plus. J'étais très contrariée et très soucieuse également. Je me suis jurée de ne jamais plus rien accepter à contre coeur. Les financiers (nos amis de [']) ont été tout ce qu'il y a de plus honnêtes. Ils nous ont répondu que si nous estimions la fermeture nécessaire, nous n'avions qu'à mettre le projet à exécution et que de toutes façons, ils prenaient les intérêts à leur charge, (le capital étant couvert par la villa) car ils s'estimaient aussi responsables que nous dans cette affaire. C'était déjà rassurant ; mais j'ai été tout à fait satisfaite lorsque nous leur avons trouvé un acheteur, (un heureux hasard) qui est un monsieur de mes clients, très intéressé par la maison pour en faire également un restaurant mais d'une façon bien plus importante et en société, ce qui atténuera bien des frais. En attendant que l'affaire soit faite nous habitons toujours la villa, et y serons encore pour quelques temps. Il est évident que cette fameuse licence est inutile à présent. A ce sujet : j'ai reçu une lettre de Monsieur Provo me signalant qu'il avait écrit au maire de Mougins, pour prier ce dernier d'appuyer ma demande, et Monsieur Bellet (Maire de Mougins) a répondu qu'il ferait tout ce qui était en son pouvoir pour cela ; je n'avais qu'à le contacter. Nous sommes allés le voir pour le remercier et lui dire, qu'à présent, ça n'était plus utile ; le brave homme était navré d'apprendre notre fermeture. Entre nous je ne pense pas que sa pression sur les contributions indirectes eut été suffisante pour faire délivrer une licence de 4ème catégorie ; mais c'était quand même très gentil d'essayer. Je suppose que c'est Raoul qui a demandé à Monsieur Provo de tenter cette démarche. J'enverrai un mot de remerciements à Monsieur Provo, ainsi qu'à Raoul (dont je désirerais connaître l'adresse). J'en reviens encore à moi : je me suis mise à chercher du travail et j'ai trouvé une personne qui donne du travail à domicile ; c'est à dire de la couture, du prêt à porter, ce qui est tout à fait dans mes goûts. Les modèles sont très simples, mais très soigneusement exécutés, avec bien des détails cousus à la main ; j'en suis ravie, car de la confection pure, ou tout se fait à la machine, n'est pas ma spécialité. Je devrai sans doute faire de longues journées, en plein été, c'est le moment ou on travaille le plus ; mais j'aime tellement cette couture que cela m'est indifférent.J'ai reçu Vendredi dernier, le ravissant porte feuille rouge (ma couleur préférée). Ce cadeau me fait infiniment plaisir ; je n'ai jamais eu de porte feuille aussi joli et je remercie beaucoup Marraine. Lorsque j'ai reçu la dernière lettre de Marraine, j'ai demandé au facteur de se renseigner et j'ai eu le paquet quelques jours plus tard. Il y a eu beaucoup de retard pour deux raisons : le mauvais temps et cette gréve du triage au moment des fêtes. En parlant de mauvais temps, je me fais du soucis pour vous et Maman ; ce n'est pas une existence de vivre toujours dans le froid, la neige et la pluie. J'ai entendu à la radio que la vague de froid reprenait, c'est vraiment démoralisant. Sur la Côte nous en subissons la répercussion, mais de façon très atténuée. J'espère que vous n'en souffrez pas trop, car, hélas, le mauvais temps n'amène rien de bon pour la santé. Vous pouvez toujours m'écrire à La Chaumière de font Merle ; je vous avertirai bien à l'avance lorsque je changerai d'adresse. Je termine ma lettre en vous remerciant encore pour ce si joli cadeau et en vous embrassant toutes deux, bien affectueusement. Thérèse</p>
+              </p>
+            </scopecontent>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J84</unitid>
+              <unittitle type="">18 janvier 1963</unittitle>
+              <unitdate normal="1963">vendredi 18 janvier 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Roubaix le 18 janvier 1963 Ma chère Thérèse Je viens de recevoir ta lettre du 13 janvier qui nous donnait les renseignements concernant votre commerce et la nécessité de céder le fond avant qu'il ne soit trop tard pour tenir honnêtement vos engagements ; nous avons été bien émues maman et moi en lisant ta lettre ; mais j'ai pu voir que tu en prenais ton parti avec une grande force de caractère et je t'en félicite ; tu as 30 ans c'est le plus bel âge dans la vie d'une femme et aimant ton métier comme tu l'aimes tu pourras arriver à te faire une situation stable et intéressante dans l'avenir. C'est quand même une chance d'avoir trouvé un acheteur intéressé à cette partie ; tu vois qu'il ne faut pas toujours désespérer et que cette arrangement se terminera à votre avantage. Je te donne par la même occasion l'adresse de Raoul. « Mr Raoul Broutin 26 avenue Barois - Marcq-en-Baroeul ». Merci aussi de penser à nous par ce temps toujours aussi froid et quand cessera-t-il ? La maison est bien chauffée et je m'emploie à prendre le plus soin possible de maman cette température étant très dangereuse pour les malades et les vieillards ; mais ne sortant pas il y a moins de dangers pour les accidents. Je t'enverrai pour ce trimestre la pension militaire de maman par mandat en date du 26 janvier ; je tiens donc à t'avertir au cas où tu serais obligée de voyager pour des causes nécessaires à votre situation. Au revoir donc ma chère Thérèse nous te souhaitons du courage, un bon moral et de bons baisers de Grand-mère et marraine. Marcelle</p>
+              </p>
+            </scopecontent>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J85</unitid>
+              <unittitle type="">27 avril 1963</unittitle>
+              <unitdate normal="1963">samedi 27 avril 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Cannes le 27 avril 1964 Chère Grand mère Chère Marraine J'ai été désolée d'apprendre la mort de Camille ; j'ai bien reconnu son visage sur la photo du journal ; tel que je le voyais étant petite. Malheureusement je pense qu'il avait du beaucoup changé ces dernières années. Je comprends fort bien que sa disparition vous ait beaucoup affecté. Je vous remercie pour le mandat que j'ai reçu Samedi à la ville ; même dans vos moments les plus pénibles vous pensez à moi. Hier Dimanche il a fait une journée magnifique et je suis allée en pique nique dans les Basses Alpes avec des camarades de travail, dont faisait partie la dame qui est avec moi sur les photos ; ainsi que sa jeune fille et son mari ; nous étions une dizaine de personnes ; j'ai passé un Dimanche agréable et j'ai pu admirer des paysages grandioses tout à fait différents de la Côte d'azur. Je vous joints quelques cartes postales pour vous donner une idée des aspects différents de ce pays. Nous étions à une centaine de kilomètres de Cannes et comme vous pouvez vous rendre compte on ne trouve plus ici les villas luxueuses de la Côte, mais de charmantes et vieilles maisons rustiques groupées autour de l'église. Les rues sont étroites et on respirait une odeur de foin très agréable qui nous a fait oublier un moment, l'essence et la fumée qui se mêlent à l'air de la ville. Je vous quitte en vous remerciant encore une fois et vous embrasse de tout mon coeur toutes deux. Thérèse</p>
+              </p>
+            </scopecontent>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J86</unitid>
+              <unittitle type="">28 juin 1963</unittitle>
+              <unitdate normal="1963">vendredi 28 juin 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Vendredi 28 juin 1963 Chère Grand mère Chère Marraine Je n'ai toujours pas trouvé de livre sur Grasse mais par contre je vous en ai envoyé un qui, je l'espère vous plaira : « Cathédrales de France ». J'ai lu les critiques de ce livre et vous ne serez pas déçues. Pour l'instant je n'ai pas du tout le temps de lire car je travaille en ville et pars le matin à 7h30 pour rentrer le soir à 8 heures.Je travaille dans un atelier de meubles de jardin et je fais des coussins et des matelas, (tout au moins ce qui recouvre le matelas) des parasols, des stores ; c'est tout à fait différent des robes et des chemisiers mais beaucoup moins saisonnier ; j'aurais donc en principe du travail toute l'année ; excepté au mois d'Octobre, ou l'atelier ferme pour les congés annuels et j'en profiterai pour venir dans le Nord. Cette fois-ci la villa est vraiment vendue, les acheteurs ont mis une option de millions (anciens) et la prendront définitivement à la fin de l'année, ils commencent déjà à faire la jardin ; ils veulent faire un jardin anglais et les jardiniers viennent tous les jours pour planter et arroser. Je puis rester dans la villa jusqu'en Décembre mais je cherche un logement en ville car ici c'est vraiment trop loin et je n'ai pas le temps de rentrer à midi ; je vais donc déjeuner dans un restaurant, que tiennent des amis que je connais depuis longtemps et vous pouvez m'y adresser le courrier, en attendant ma nouvelle adresse, car les acheteurs de la villa qui représentent une importante agence immobilière, et qui achètent cette villa pour la revendre, avec un bénéfice important bine entendu, risquent de trouver eux-même un acheteur avant la fin de l'année ; je préfère donc ne pas être prise au dépourvu pour me loger. Je vous donne l'adresse :T. Lebas 4 rue Emile Négrin Cannes (A 11). Mon nom est sur une boite aux lettres qui m'appartient, les lettres ne risquent pas de s'égarer, tandis qu'ici avec les gens qui visitent la maison lorsque je ne m'y trouve pas, je n'ai pas confiance. J'espère que vous êtes en bonne santé toutes deux malgré ce vilain temps que vous subissez encore en ce moment. Je vous quitte en vous embrassant bien affectueusement. Thérèse</p>
+              </p>
+            </scopecontent>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J87</unitid>
+              <unittitle type="">2 juillet 1963</unittitle>
+              <unitdate normal="1963">mardi 02 juillet 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Roubaix le 2 juillet 1963 Ma chère Thérèse En commençant ma lettre je veux d'abord te remercier pour le superbe livre « Cathédrales de France » que tu nous a envoyé et arrivé le Samedi 29 juin ; c'est vraiment trop nous gâter et tu ne dois pas trop sacrifier de ton aisance pour offrir des cadeaux de tel prix. Malheureusement tout s'enchaîne je t'ai adressé le 28 juin une lettre à ton adresse de Mougins et elle contenait des renseignements sérieux concernant l'indemnité aux Internés et Déportés ; je te demandais en plus ce que je devais faire ; en plus j'ai une carte de ton père tant que Déporté Politique qu'il va te falloir signer comme ayant cause car il faut en retourner une partie signée de ta main ; car on me la réclamera peut-être avant Octobre ; si tu as une adresse sûre donne la moi et je te l'enverrai en Recommandé mais tâche quand même d'avoir celle que je t'ai posté sur Mougins.Je te félicite beaucoup pour ton courage et vente de la propriété ; j'arrête ma lettre ici nous causerons de tout cela un peu plus tard je voudrais poster ma lettre ce soir. J'espère que ta santé n'en souffre pas trop quand même ; je tâcherai si ta maman ne vient pas d'aller lui rendre visite ; elle doit être quand même accablée par les soucis qui arrivent toujours quand il y a un décès dans la famille. Au revoir donc ma chère Thérèse dans la prochaine lettre je parlerai plus de ton travail journalier et de nos santés. En te remerciant encore reçois nos plus tendres baisers. Marcelle</p>
+              </p>
+            </scopecontent>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J88</unitid>
+              <unittitle type="">26 juillet 1963</unittitle>
+              <unitdate normal="1963">vendredi 26 juillet 1963</unitdate>
+            </did>
+            <scopecontent>
+              <p>
+                <p style="text-align: justify;">Roubaix le 26 juillet 1963 Ma chère Thérèse Tu m'excuseras de ne pas t'avoir donné de nos nouvelles concernant notre santé comme je te l'avais promis dans ma lettre du 2 juillet ; mais il ne m'était pas possible d'écrire venant de subir encore une nouvelle crise d'arthrose à la colonne vertébrale ce qui m'a fait souffrir atrocement et dans l'incapacité de me remuer ; cela s'est déclaré le 7 qui était un Dimanche et grand'mère a dû demander à la voisine de téléphoner au médecin de service ; n'étant plus capable elle-même de sortir ! Heureusement tout s'est arrangé mais il m'a fallu subir un traitement de piqûres et médicaments en proportion ; maintenant je couche sur une planche qui soutient le matelas et je fais une gymnastique d'élongation pour essayer de remettre les vertèbres en place ; ce qu'il faudra faire journellement pendant une très longue durée ; cette pauvre grand'mère n'aura vraiment plus de repos jusqu'à ses derniers jours. Assez parlé de maladie venons-en un peu à toi ; ta maman est venue nous rendre visite dans l'après-midi de ce triste Dimanche et le Jeudi suivant ; je lui ai dons remis la carte bleue pour te l'envoyer afin que tu la signes en double ! Une partie étant à retourner le plus vite possible au « Service des Déportés et Victimes de guerre » à Lille ; je tenais à savoir si cela était fait ; n'ayant plus rencontré ta maman depuis. Je profite donc par le même courrier de te prévenir qu'il te sera fait l'envoi Lundi 29 au plus tard par mandat de la pension militaire de grand'père que nous avons l'habitude de t'offrir avec toute notre affection. Au revoir donc ma chère Thérèse ; j'espère que pour toi la santé est toujours bonne et reçois de nous deux nos plus tendres baisers. Grand'mère et marraine M. Lebas</p>
+              </p>
+            </scopecontent>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J89</unitid>
+            <unittitle type="">Une copie d'une lettre du lieutenant de gendarmerie de Tours M. Laurent, pour signaler la mort de Jean et Raymond Lebas</unittitle>
+            <unitdate normal="1945">vendredi 8 juin 1945</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J90</unitid>
+            <unittitle type="">Une copie du manuscrit de Léon Blum en hommage à Jean Lebas</unittitle>
+            <unitdate normal="1945">1945</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J91</unitid>
+            <unittitle type="">10 exemplaires du journal résistant « Le Populaire »</unittitle>
+            <unitdate normal="1943">mai 1943</unitdate>
+          </did>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>11J92-106</unitid>
+            <unittitle type="">Objets ayant appartenu à Jean Lebas</unittitle>
+            <unitdate normal="1913">1913-1940</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>11J92</unitid>
+              <unittitle type="">Écharpe de maire de Jean Lebas.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J93</unitid>
+              <unittitle type="">Carte de député de Jean Lebas, député du Nord, pour la législation 1936-1940.</unittitle>
+              <unitdate normal="1936">1936-1940</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J94</unitid>
+              <unittitle type="">Une épingle à cravate sertie d'une perle.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J95</unitid>
+              <unittitle type="">Une stylo plume Morrison's.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J96</unitid>
+              <unittitle type="">Un stylo plume.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J97</unitid>
+              <unittitle type="">Un rasoir Valet.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J98</unitid>
+              <unittitle type="">Un trousseau de deux clés.</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J99</unitid>
+              <unittitle type="">Une plaque de bronze représentant le profil droit de Jean Lebas signée ER Lecaillon (Tourcoing).</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J100</unitid>
+              <unittitle type="">Médaille commémorative de l'anniversaire de « La Flandre » compagnie française d'assurances.</unittitle>
+              <unitdate normal="1938">1938</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J101</unitid>
+              <unittitle type="">Médaille de la Chambre des députés personnalisée « Lebas Nord ».</unittitle>
+              <unitdate normal="1919">1919</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J102</unitid>
+              <unittitle type="">Médaille de l'Assemblée nationale commémorant l'élection du président de la République Paul Deschannel personnalisée « Lebas député ».</unittitle>
+              <unitdate normal="1920">samedi 17 janvier 1920</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J103</unitid>
+              <unittitle type="">Médaille de l'Assemblée nationale commémorant l'élection du président de la République Alexandre Millerand.</unittitle>
+              <unitdate normal="1920">jeudi 23 septembre 1920</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J104</unitid>
+              <unittitle type="">Médaille de l'Assemblée nationale commémorant l'élection du président de la République Raymond Poincaré.</unittitle>
+              <unitdate normal="1913">vendredi 17 janvier 1913</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J105</unitid>
+              <unittitle type="">Médaille de l'Assemblée nationale commémorant l'élection du président de la République Gaston Doumergue.</unittitle>
+              <unitdate normal="1924">vendredi 13 juin 1924</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>11J106</unitid>
+              <unittitle type="">Un sous-main</unittitle>
+              <unitdate normal=""/>
+            </did>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J53</unitid>
+            <unittitle type="">Laure Dubar-Hennion (Flore)</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>Une photographie.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J53_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J54</unitid>
+            <unittitle type="">M. Joseph Dubar-Hennion</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>Une photographie.</p>
+            </physdesc>
+          </did>
+          <dao href="RBX_AMR_LEB_11J54_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J55</unitid>
+            <unittitle type="">Carte de visite de M. Joseph Dubar</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>Une carte.</p>
+            </physdesc>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J56</unitid>
+            <unittitle type="">Photographie de Jean Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+            <physdesc>
+              <p>Une photographie.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Photographie prise le jour de l'inauguration de la nouvelle construction de l'école Léon Marlot - Linné à Roubaix.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_AMR_LEB_11J56_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J60</unitid>
+            <unittitle type="">Photographie de Léon Blum et du docteur Marcel Guislain</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Photographie prise devant la maison natale de Jean Lebas rue de Denain à Roubaix.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_AMR_LEB_11J60_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J61</unitid>
+            <unittitle type="">Photographies de Jean Lebas</unittitle>
+            <unitdate normal="">Sans date</unitdate>
+          </did>
+          <dao href="RBX_AMR_LEB_11J61_1.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J40</unitid>
+            <unittitle type="">Lettre manuscrite et autographe du 14 novembre 1941 de Laure à ses parents lors de son séjour à la prison de St-Gilles, Bruxelles</unittitle>
+            <unitdate normal="1941">14 novembre 1941</unitdate>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Hamburg-Fuhlsbüttel</p>
+
+<p style="text-align: justify;">Suhrenkamp 98 Brief-u.</p>
+
+<p style="text-align: justify;">Besuchskontrolle</p>
+
+<p style="text-align: justify;">Absender : Dubar Flroe 18/41</p>
+
+<p style="text-align: justify;">Empfänger : illisible</p>
+
+<p style="text-align: justify;">Absendung richterlich genehmigt : Georges Hennion 30 rue Meissonier, Roubaix, France</p>
+
+<p style="text-align: justify;">le 7 décembre</p>
+
+<p style="text-align: justify;">Chers Parents</p>
+
+<p style="text-align: justify;">Je suis heureuse de pouvoir vous donnez de mes nouvelles ma santé est très bonne j'espère que pour vous tout va bien aussi. Je suis plus loin de vous mais je suis très bien j'ai une cellule claire et propre pour le manger j'en ai largement assez, du bon et du propre surtout, pour le moment je ne puis recevoir de colis, mais de toute façon je n'ai absolument rien besoin surtout pour manger vous pouvez êtes également tranquille pour mon estomac car si je n'ai plus mes pains de régime dans mes colis ici j'ai du pain blanc sur simple demande au docteur parce que nous sommes habitué, le plus gros ennui c'est que je ne comprend pas un mot d'Allemand mais enfin je m'explique par geste et les gardiennes pleines de bonne volonté arrivent tout de même à me comprendre c'est le principal. J'ignore tous les combien de temps on peut écrire, ne vous faites surtout pas de chagrin pour moi ayez du courage, je veux vous revoir tous les deux en bonne santé, je suis tout de même contente d'avoir eu au moins une visite de papa à la prison, cela a été juste. Bonjour à toute la famille aux Amis et voisins. Et surtout pas de chagrin Je vous embrasse bien fort tous les deux</p>
+
+<p style="text-align: justify;">Flore</p></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Lettre manuscrite et autographe du 14 novembre 1941 de Laure à ses parents lors de son séjour à la prison de St-Gilles, Bruxelles.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J40_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J40_4.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J41</unitid>
+            <unittitle type="">Lettre manuscrite et autographe du 7 décembre 1941 de Laure à ses parents lors de son séjour à la prison de Hambourg</unittitle>
+            <unitdate normal="1941">dimanche 7 décembre 1941</unitdate>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Brüssel, 14 novembre 1941</p>
+
+<p style="text-align: justify;">reçu le 25 novembre</p>
+
+<p style="text-align: justify;">Chers Parents</p>
+
+<p style="text-align: justify;">J'espère que ma lettre vous trouvera en bonne santé tous les deux pour moi elle est toujours très bonne ainsi que le moral. J'ai reçu mon colis, je vous en remercie, ne me mettez plus du paté j'ai du tout manger tout de suite il n'aurai pas conserver. J'espère que vous travaillez toujours un peu. Je suis contente d'avoir toujours du bon pain ainsi que du beurre, de la confiture, fruits dans le prochain colis mettez du savon, du café, des ciseaux, des cartes un jeu de 52 cartes, je voudrai avoir aussi une capuche pour pouvoir me couvrir la tête quand il pleut pour la promenade, demandez à Marcelle, elle ira l'acheter pour moi. J'espère que papa continu son élevage de lapins, il doit y avoir eu des nouvelles familles depuis bientôt 6 mois et le jardin vous a-t-il raporter quelques choses ? Avez eu des pommes deterre ? De Georges avez des nouvelles ? J'espère que son coeur va mieux et Madeleine travaille-t-elle toujours un peu dites lui de dire bonjour à ses parents pour moi ainsi qu'a sa soeur. Dites bien bonjour pour moi à Georges quand vous le verrez. Je pense que vous avez été au cimetière pour moi et que vous avez mis des fleurs sur la tombe de Jeanne pour moi. J'ai oublié de vous dire dans ma dernière lettre que j'ai encore eu un colis de la Croix-Rouge Belge avec des sardines, du sucre, du miel, du chocolat, cela fait toujours plaisir. Je ne vois plus rien à vous dire pour le moment j'espère voir papa à mon prochaine visite. Remerciez ceux de [illisible]. Bonjour a toute la famille, aux Amis et voisins. Bons baisers</p>
+
+<p style="text-align: justify;">LaureLaure Dubar-Hennion</p>
+
+<p style="text-align: justify;">Cellule 477 - Prison St-Gilles Bruxelles</p></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Lettre manuscrite et autographe du 7 décembre 1941 de Laure à ses parents lors de son séjour à la prison de Hambourg.</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_LEB_11J41_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_LEB_11J41_2.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J42</unitid>
+            <unittitle type="">Photocopie de notes de Jean Lebas sur la tenue politique du Parti socialiste</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J43</unitid>
+            <unittitle type="">Photocopie des pages 189-190 du livre Mes prisons et mes bagnes, de Jean-Marie de Radiguès (1952) racontant la rencontre de l'auteur avec Jean Lebas à Sonnenburg</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J44</unitid>
+            <unittitle type="">Photocopie de l'article « La Cagoule au pouvoir ! L'assassinat de Max Dormoy » par le Comité d'Action Socialiste en août 1941</unittitle>
+            <unitdate normal="1941">août 1941</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J45</unitid>
+            <unittitle type="">Photocopie d'un document en allemand désignant les accusés Jean-Baptiste Lebas, Yves Jean Theodor Henno, Raymond Lebas, Victoria Paulet ép. Dossche, Lore Dubar, ép. Hennion 2 avril 1942</unittitle>
+            <unitdate normal="1942">jeudi 2 avril 1942</unitdate>
+          </did>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J46</unitid>
+            <unittitle type="">Photocopie de l'ordre de mise en accusation 14 janvier 1942</unittitle>
+            <unitdate normal="1942">mercredi 14 janvier 1942</unitdate>
+          </did>
+        </c>
+      </c>
+      <c level="subseries">
+        <did>
+          <unitid>11J107-139</unitid>
+          <unittitle type="">Documents d'origine publique</unittitle>
+          <unitdate normal="1912">1912-1937</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>11J107-138</unitid>
+            <unittitle type="">Doubles de lettres envoyées par Jean Lebas durant ses différentes fonctions de maire, député du Nord ou ministre</unittitle>
+            <unitdate normal="1912">1912-1937</unitdate>
+          </did>
+          <c level="subfile">
+            <did>
+              <unitid>11J107-109</unitid>
+              <unittitle type="">Ministre du Travail, gouvernement Blum I</unittitle>
+              <unitdate normal="1936">1936-1937</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>11J107</unitid>
+                <unittitle type="">10 mars 1936 au 6 août 1936</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J108</unitid>
+                <unittitle type="">6 août 1936 au 1er févier 1937</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J109</unitid>
+                <unittitle type="">1er février 1937 au 20 avril 1937</unittitle>
+                <unitdate normal="1937">1937</unitdate>
+              </did>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>11J110-129</unitid>
+              <unittitle type="">Député du Nord</unittitle>
+              <unitdate normal="1919">1919-1935</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>11J110</unitid>
+                <unittitle type="">6 décembre 1919 au 20 septembre 1920</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J111</unitid>
+                <unittitle type="">20 septembre 1920 au 20 juillet 1921.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J112</unitid>
+                <unittitle type="">20 juillet 1920 au 31 août 1922.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J113</unitid>
+                <unittitle type="">1er septembre 1922 au 9 octobre 1923.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J114</unitid>
+                <unittitle type="">12 octobre 1923 au 22 décembre 1924.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J115</unitid>
+                <unittitle type="">24 août 1924 au 10 mars 1926.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J116</unitid>
+                <unittitle type="">22 décembre 1924 au 7 mai 1925.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J117</unitid>
+                <unittitle type="">7 mai 1925 au 9 novembre 1925.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J118</unitid>
+                <unittitle type="">9 novembre 1925 au 17 mai 1926.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J119</unitid>
+                <unittitle type="">17 mai 1926 au 15 décembre 1926.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J120</unitid>
+                <unittitle type="">10 décembre 1926 au 24 mai 1927.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J121</unitid>
+                <unittitle type="">24 mai 1927 au 6 décembre 1927.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J122</unitid>
+                <unittitle type="">6 décembre 1927 au 19 mars 1929.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J123</unitid>
+                <unittitle type="">3 juin 1932 au 30 septembre 1932.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J124</unitid>
+                <unittitle type="">30 septembre 1932 au 11 février 1933.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J125</unitid>
+                <unittitle type="">11 février 1933 au 26 juin 1933.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J126</unitid>
+                <unittitle type="">27 juin 1933 au 12 décembre 1933.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J127</unitid>
+                <unittitle type="">12 décembre 1933 au 18 septembre 1934.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J128</unitid>
+                <unittitle type="">15 septembre 1934 au 28 février 1935.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J129</unitid>
+                <unittitle type="">27 février 1935 au 24 août 1935.</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>11J130-138</unitid>
+              <unittitle type="">Maire de Roubaix</unittitle>
+              <unitdate normal="1912">1912-1936</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>11J130</unitid>
+                <unittitle type="">6 juillet 1912 au 19 octobre 1920</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J131</unitid>
+                <unittitle type="">26 octobre 1920 au 3 mai 1923</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J132</unitid>
+                <unittitle type="">3 mai 1923 au 9 août 1927</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J133</unitid>
+                <unittitle type="">10 août 1927 au 27 décembre 1928</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J134</unitid>
+                <unittitle type="">27 décembre 1928 au 22 octobre 1929</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J135</unitid>
+                <unittitle type="">22 octobre 1929 au 5 août 1930</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J136</unitid>
+                <unittitle type="">3 août 1930 au 29 mai 1931</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J137</unitid>
+                <unittitle type="">29 mai 1931 au 29 février 1932</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>11J138</unitid>
+                <unittitle type="">8 juin 1935 au 23 décembre 1936</unittitle>
+                <unitdate normal=""/>
+              </did>
+            </c>
+          </c>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>11J139</unitid>
+            <unittitle type="">Doubles de lettres envoyées par M. Florimond Fray, secrétaire général de la mairie de Roubaix, du 9 décembre 1918 au 5 février 1923</unittitle>
+            <unitdate normal="1918">1918-1923</unitdate>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

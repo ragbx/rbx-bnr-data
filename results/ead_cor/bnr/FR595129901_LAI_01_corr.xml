@@ -1,0 +1,1364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_LAI_01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection des Amis de la Lainière et du Textile</titleproper>
+        <subtitle/>
+      </titlestmt>
+      <publicationstmt>
+        <date normal=""/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation/>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>RBX_LAI</unitid>
+      <unittitle>Collection des Amis de la Lainière et du Textile</unittitle>
+      <unitdate normal=""/>
+      <langmaterial>
+        <language langcode=""/>
+      </langmaterial>
+      <repository>LAI</repository>
+    </did>
+    <scopecontent>
+      <p>
+        <p style="text-align: justify;">Créée en 2010, sise à Wattrelos, l’association <strong>Les Amis de la Lainière et du Textile </strong>a pour objectif de promouvoir la mémoire textile, notamment celle de La Lainière de Roubaix. Cette filature fondée en 1911 par Jean Prouvost, petit-fils du fondateur du peignage Amédée Prouvost, a été fermée en 2000. L’association défend l’idée que le bâtiment encore debout sur le site puisse devenir un lieu consacré à la mémoire textile et à ses réalisations contemporaines.</p>
+      </p>
+    </scopecontent>
+    <acqinfo>
+      <p>
+        <p style="text-align: justify;">Tous les documents de cette collection ont été prétés à la Médiathèque de Roubaix par l'association Les Amis de la Lainière et du Textile pour être numérisés et mis en ligne.</p>
+      </p>
+    </acqinfo>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>LAI_D01</unitid>
+          <unittitle type="">Brochures de la Lainière</unittitle>
+          <unitdate normal="1965">De 1951 à 1983</unitdate>
+          <physdesc>
+            <p>9 brochures et monographies.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Documents essentiellement destinés à la communication externe de l'entreprise dans un but de promotion.</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <genreform>Livres et revues</genreform>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_001</unitid>
+            <unittitle type="">Peignage Amédée Prouvost &amp; Cie - 1851-1951</unittitle>
+            <unitdate normal="1951">1951</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">70 pages : illustrations en noir et en couleur ; 32 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Amédée Prouvost &amp; Cie</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Document reprenant les principaux épisodes de la célébration du centenaire de l'entreprise, le 24 juin 1951 : messe : allocution par le cardinal Liénart ; vin d'honneur et déjeuner : discours de M. Albert Prouvost (historique), de M. Cyrille Moulin et de M. Albert Duforest + photos des médaillés du travail et des anciens collaborateurs ; visite détaillée et en images : du Peignage (arrivée des laines, le triage, le stockage des laines triées, le lavage, le cardage, le peignage, le gillboxage et le lissage) et de La Lainière (historique des 40 ans et photos des différentes étapes) ; contribution de l'entreprise dans l'amélioration des conditions de vie avec exemples en photos.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Peignage Amédée Prouvost &amp; Cie</corpname>
+            <subject source="chrono">1946-1959</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Peignage Amédée Prouvost &amp; Cie - 1851-1951</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_001_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_001_038.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_002</unitid>
+            <unittitle type="">La Lainière de Roubaix de 1912 à 1962 </unittitle>
+            <unitdate normal="1962">vers 1962</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">42 pages : illustrations en noir et en couleur ; 30 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="éditeur">Lainière de Roubaix</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Retour et anecdotes sur les débuts de l'entreprise à l'occasion de son cinquantenaire. Contient : des photos nominatives de collaborateurs (en outre M. Hus) ; une photo de l'un des premiers magasins Pingouin ; une liste des dates-clés ; une photo de  la visite du Président Khrouchtchev en mars 1960 ; quelques graphiques sur la production ; la reproduction des annonces publicitaires avec la garantie des 3 navettes "Qualité Prouvost fil".          </p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Prouvost &amp; Cie</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La lainière de Roubaix - 1912-1962 </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_002_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_002_045.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_003</unitid>
+            <unittitle type="">La Lainière de Roubaix fête son cinquantenaire</unittitle>
+            <unitdate normal="1962">vers 1962</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">26 pages : illustrations en noir et blanc ; 28 cm.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le 7 décembre 1961 : visite de La Lainière (photos des personnalités présentes et des installations) ; grand déjeuner avec allocution de M. Jean Prouvost (photos et discours) ; visite de La Lainière de Cambrai ; défilé de mannequins pour le retour vers Paris (photo de 4 réalisations). Le 9 décembre 1961 : banquet avec les 1500 personnes employées à La Lainière ; M. Jean Prouvost revient en détails sur la journée du 7 décembre ; photos du banquet : Mmes Marie Delaplace et Maria Leclercq, chant du "Vivat".                   </p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La Lainière de Roubaix fête son cinquantenaire</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_003_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_003_029.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_004</unitid>
+            <unittitle type="">Laines du Pingouin </unittitle>
+            <unitdate normal="1956">1956</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">32 pages : illustrations en noir et blanc ; 32 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Prouvost, Jacques</name>
+              <name normal="" role="auteur">Bourguignon, Philippe</name>
+              <name normal="" role="auteur">Varnerot, Pierre</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Trentième anniversaire : visite des concessionnaires aux usines de Roubaix en juin 1956 (discours de bienvenue de M. Jacques Prouvost). Visite du Peignage et de la Filature (photo et liste des commerciaux et des directeurs régionaux). Contient un article sur la fabrication des chaussettes Stemm.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Laines du Pingouin</corpname>
+            <subject source="chrono">1946-1959</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p> Laines du Pingouin </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_004_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_004_036.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_005</unitid>
+            <unittitle type="">La visite de Sa Majesté la Reine Elisabeth II </unittitle>
+            <unitdate normal="1957">1957</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">64 pages : illustrations en noir et en couleurs, couverture illustrée en couleurs ; 35 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="éditeur">Paris-Match</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Album souvenir de la visite du Peignage Amédée Prouvost et de La Lainière par la reine Elisabeth II d'Angleterre en avril 1957.</p>
+
+<p style="text-align: justify;">Discours de bienvenue d'Albert-E. Prouvost et commentaires de Jean Farran. Photos de son passage en mairie de Roubaix, en présence de Victor Provo, et de son arrivée dans l'ensemble textile Prouvost. Photos et listes de membres du personnel. Traversée du quartier de la Mousserie et photo de la Maison de l'Enfance.</p></p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Elisabeth II</persname>
+            <corpname>Peignage Amédée Prouvost</corpname>
+            <corpname>La Lainière</corpname>
+            <subject source="chrono">1946-1959</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La visite de Sa Majesté la Reine Elisabeth II </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_005_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_005_067.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_006</unitid>
+            <unittitle type="">La Lainière de Roubaix </unittitle>
+            <unitdate normal="1983">vers 1983</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 dépliant de 6 pages.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+              <name normal="" role="éditeur">Groupe Prouvost</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Dépliant revenant sur son historique et sur sa politique de qualité et de service. Contient une carte de son implantation dans le monde. </p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>La Lainière</corpname>
+            <subject source="chrono">1980-1989</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La Lainière de Roubaix </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_006_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_006_005.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_007</unitid>
+            <unittitle type="">Das Pingouin-Haus der INTERGARN GMBH</unittitle>
+            <unitdate normal="1963">1963</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">12 pages : illustrations en noir et blanc.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="éditeur">Buch und Zeitungsdruckerei H. Kollen</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;"> Köln : zur Erinnerung an die Hause-inweihung un den Presseempfang 3. mai 1963.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Das Pingouin-Haus der INTERGARN GMBH</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_007_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_007_007.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_009</unitid>
+            <unittitle type="">Menu offert par les Laines du Pingouin aux concessionnaires de la marque</unittitle>
+            <unitdate normal="1956">1956</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">4 pages : illustrations en noir et en couleurs ; 27 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="Pingouin" role="auteur">Pingouin</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Déjeuner du lundi 11 juin 1956 dans leurs usines de Roubaix. Illustration se composant d'une locomotive conduite par un pingouin et d'une table avec pour convives et pour serviteurs des pingouins.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Pingouin</corpname>
+            <subject source="chrono">1946-1959</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Menu</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_009_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_009_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_008</unitid>
+            <unittitle type="">Pingouin informations </unittitle>
+            <unitdate normal="1965">Autour des années 1960</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">16 pages : illustrations en noir et blanc, couverture illustrée ; 45 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="S.N.I.P" role="éditeur">S.N.I.P</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Revue professionnelle de la marque Pingouin : historique, exposé sur le peignage et la filature, quelques mots sur l'oeuvre du C.I.L. (Comité Interprofessionnel du Logement de Roubaix-Tourcoing) et sur les chaussettes Stemm. Evocation de la retraite et de la Mutualité. Souvenirs de la belle époque par Ch.-H. Martin, ancien directeur commercial. Contient aussi des articles de R. Celarié, A. Malmasson C. Delmer, Jean Debaere et de M. Van Elstraete (avec portrait).</p>
+
+<p> </p></p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Pingouin</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Pingouin informations </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_008_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_008_016.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_010</unitid>
+            <unittitle type="">Cinquante années de Travail, Jubilé d'activité de Messieurs Albert Prouvost Jean Prouvost</unittitle>
+            <unitdate normal="1955">1955</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">67 p. : illustrations en noir et en couleurs.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient un historique avec les dates-clés du peignage A. Prouvost. Le jubilé a eu lieu le 6 octobre 1955 et les personnes présentes y sont listées. On y retrouve les discours de Francis Lefebvre, Marc Midol, Georges Florin, Albert Prouvost ainsi que de Jean Prouvost. Document contenant de nombreux portraits ainsi que des photos de groupes.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Cinquante années de Travail, Jubilé d'activité de Messieurs Albert Prouvost Jean Prouvost</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_010_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_010_069.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_011</unitid>
+            <unittitle type="">Prouvost</unittitle>
+            <unitdate normal="1987">1987</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">24 pages : illustré en noir et blanc et en couleurs, couverture illustrée en couleurs.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Présentation de la laine, de l'entreprise et de sa présence dans le monde entier. Reprend les évènements-clés de l'année 1986 et fait un exposé des différentes branches et activités. Contient 1 diagramme du groupe et une carte de ses activités dans le monde ainsi que le portrait de Christian Derveloy. Document rédigé en anglais. </p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Prouvost</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_011_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_011_014.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_012</unitid>
+            <unittitle type="">Mini Guide pour une grande visite Portes ouvertes Lainière de Roubaix</unittitle>
+            <unitdate normal="1970">1970</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">11 pages, couv. ill.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Cette visite concerne plus particulièrement la fabrication des fils texturés et des fils à tricoter. 5 fiches viennent éclairer les 5 salles présentées : la salle de texturation, la salle des mélanges, la salle de filature, la salle de pelotonnage et le hall des expéditions.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Mini Guide pour une grande visite Portes ouvertes Lainière de Roubaix</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_012_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_012_005.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_013</unitid>
+            <unittitle type="">Au chaud pour pas cher, Avec Pingostar, Pingoland, Pingofrance et Pingofine</unittitle>
+            <unitdate normal="1981">1981</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuille de planche de 2 pages : illustrée en couleurs.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Affiche publicitaire pour le catalogue Pingouin : le numéro 15 faisant office d'illustration. Au dos de cette dernière, on peut lire quelques mots sur les 4 fils cités : Pingostar, Pingofine, Pingoland et Pingofrance.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Au chaud pour pas cher, Avec Pingostar, Pingoland, Pingofrance et Pingofine</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_013_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_013_002.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_014</unitid>
+            <unittitle type="">Le Nouveau catalogue Pinguin</unittitle>
+            <unitdate normal="nd">nd</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">11 pages : illustrations en couleurs, couverture illustrée en couleurs.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Numéro spécial "Le froid et la mode". Contient l'illustration et les explications de 6 modèles différents.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Le Nouveau catalogue Pinguin</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_014_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_014_007.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_015</unitid>
+            <unittitle type="">Franchise export divertification rigueur, la politique qui nous a permis de faire face à la crise</unittitle>
+            <unitdate normal="1975">1975</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">43 pages : illustrations en noir et en couleurs, couverture illustrée en couleur.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient les portraits des membres du Conseil d'administration. Document multipliant les exemples concrets autour de la politique de variété des produits et de dynamisme de la distribution. Sont évoqués le procédé de Sublistatic, l'effort de mondialisation, la participation croissante chez Christory et les magasins franchisés. Evocation des éditions de l'Alma. De nombreux tableaux et chiffres viennent compléter cet exposé qui s'achève sur les 5 résolutions de l'Assemblée générale.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Franchise export divertification rigueur, la politique qui nous a permis de faire face à la crise</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_015_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_015_044.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D01_016</unitid>
+            <unittitle type="">Lainière de Roubaix Prouvost Masurel</unittitle>
+            <unitdate normal="1972">1972</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">24 pages : illustré en noir et blanc.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Cette brochure est en fait une fiche d'identité, elle a pour but d'informer le public sur les activités en mai 1972. Les différents thèmes abordés sont les filatures, les bonneteries, les tissages, Sublistatic, les franchises et l'implantation à l'étranger. On y retrouve aussi une vue aérienne de l'usine. </p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Lainière de Roubaix Prouvost Masurel</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D01_016_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D01_016_015.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>LAI_D02</unitid>
+          <unittitle type="">Documents administratifs de la Lainière</unittitle>
+          <unitdate normal="1946">De 1914 à 1978</unitdate>
+          <physdesc>
+            <p>13 documents.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Documents de travail et de gestion.</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <genreform>Documents d'archives</genreform>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_001</unitid>
+            <unittitle type="">Attestation officielle de protection en Autriche</unittitle>
+            <unitdate normal="1930">1930</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Office international de Berne</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Vienne, le 18 décembre 1930. Protection concernant la Compagnie Franco-Australienne de Laines Filées. Il est fait mention d'un transfert au 140 rue d'Oran à Roubaix.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Compagnie Franco-Australienne de Laines Filées</corpname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_001_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_002</unitid>
+            <unittitle type="">Attestation officielle </unittitle>
+            <unitdate normal="1930">1930</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Vienne, le 17 décembre 1930. Protection en Autriche de "His &amp; Cie Société anonyme, à Murgenthal".</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>His &amp; Cie </corpname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_002_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_003</unitid>
+            <unittitle type="">Filatures Prouvost &amp; Cie </unittitle>
+            <unitdate normal="1956">1956</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">4 feuillets volants.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+              <name normal="" role="auteur">Laurain, Jean</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Historique en chiffres (personnel, heures de travail, apprentissage, rémunération.., etc.) de la Lainière de Roubaix en prévision d’une visite clients. Premier document signé Jean Laurain. Contient quelques mots sur différents services offerts : colonie de vacances, camps de vacances, service médical, restaurant, pouponnière, caisse de secours et d'entr'aide, caisse de retraite, coopérative.</p>
+
+<p> </p>
+
+<p> </p></p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Filatures Prouvost &amp; Cie </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_003_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_003_004.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_004</unitid>
+            <unittitle type="">Note dinformation sur la Lainière de Roubaix</unittitle>
+            <unitdate normal="1971">vers 1971</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">6 feuillets.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient un bref historique (avec quelques chiffres-clés), une énumération des différentes activités industrielles et commerciales, une liste des différentes filiales et principales participations.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+            <subject source="chrono">1970-1979</subject>
+            <corpname>Filatures Prouvost &amp; Cie</corpname>
+            <corpname>Etablissements François Masurel frères</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Note dinformation sur la « Lainière de Roubaix » </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_004_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_004_006.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_005</unitid>
+            <unittitle type="">Parcours de visite des Filatures Prouvost &amp; Cie</unittitle>
+            <unitdate normal="1978">vers 1978</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">4 feuillets dont 2 plans.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+              <name normal="" role="auteur">Filatures Prouvost-Masurel &amp; Cie</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient un circuit détaillé et quelques chiffres (surface, nombre d'employés, consommation d'énergie). Le premier plan date de 1973.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+            <corpname>Filatures Prouvost-Masurel &amp; Cie</corpname>
+            <subject source="chrono">1970-1979</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Parcours de la visite </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_005_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_005_004.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_006</unitid>
+            <unittitle type="">Les Filatures de Neugedein</unittitle>
+            <unitdate normal="1921">1er juillet 1921</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Filatures de Neugedein</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Certificat d'actions nominatives de cinq cents francs. Trois cent actions à Monsieur Edmond Lefebvre.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Filatures de Neugedein</corpname>
+            <persname>Lefebvre, Edmond</persname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Les Filatures de Neugedein, certificat dactions nominatives de cinq cents francs </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_006_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_006_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_007</unitid>
+            <unittitle type="">Certificat nominatif dactions de 1.500 frs</unittitle>
+            <unitdate normal="1920">XXe siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Filatures Prouvost &amp; Cie</name>
+              <name normal="" role="auteur">Lainière de Roubaix</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">A pour en-tête " Filatures Prouvost &amp; Cie, la Lainière de Roubaix". Titre vierge.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Filatures Prouvost &amp; Cie</corpname>
+            <corpname>Lainière de Roubaix</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Certificat nominatif dactions de 1.500 frs</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_007_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_007_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_008</unitid>
+            <unittitle type="">Actions de l'Industrielle lainière</unittitle>
+            <unitdate normal="1924">vers 1924</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Industrielle lainière</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Actions de 500 francs au porteur.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Industrielle lainière</corpname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_008_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_009</unitid>
+            <unittitle type="">Actions des Filatures Prouvost &amp; Cie</unittitle>
+            <unitdate normal="1937">vers 1937</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Filatures Prouvost &amp; Cie</name>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">La Lainière de Roubaix. Actions de 500 francs au porteur.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Filatures Prouvost &amp; Cie</corpname>
+            <corpname>Lainière de Roubaix</corpname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_009_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_010</unitid>
+            <unittitle type="">Plan d'ensemble</unittitle>
+            <unitdate normal="1960">XXe siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Propriétés de la Lainière de Roubaix et des anciens établissements Amédée Prouvost et Cie.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+            <corpname>Etablissements Amédée Prouvost &amp; Cie</corpname>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_010_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_011</unitid>
+            <unittitle type="">Lettre de change</unittitle>
+            <unitdate normal="1914">8 mars 1914</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">2 feuillets : illustration en couleurs.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">A. &amp; K. Tscherepanoff et P. Winogradoff doivent payer 900 roubles à la Lainière de Roubaix. Document en russe provenant de Moscou. Contient aussi une traduction complète.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Lettre de change</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_011_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_011_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_012</unitid>
+            <unittitle type="">Un sachet en carton</unittitle>
+            <unitdate normal="1975">autour des années 1970</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 emballage cartonné : illustration.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Pingouin</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Sachet publicitaire de la marque "Pingouin".</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Pingouin</corpname>
+            <subject source="chrono">1970-1979</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_012_001.jpg" audience="internal" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_013</unitid>
+            <unittitle type="">Laine Prima</unittitle>
+            <unitdate normal="1935">18 mai 1935</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">1 feuillet.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Laine Prima</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Mandat de 1430 francs à Madame Lesieur.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Laine Prima</corpname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <dao href="RBX_LAI_D02_013_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_015</unitid>
+            <unittitle type="">Nadine Fournier à l'ensemble du personnel</unittitle>
+            <unitdate normal="1991">1991</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">12 feuillets.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Bilan annuel détaillé et chiffré (contient plusieurs tableaux) concernant le personnel licencié en janvier 1990. Parle des reclassements et des congés de conversion et donne une liste d'entreprises ayant recruté des personnels.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Nadine Fournier à l'ensemble du personnel</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_015_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_015_012.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_014</unitid>
+            <unittitle type="">Bienvenue à La Lainière de Roubaix</unittitle>
+            <unitdate normal="1987">1987</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">47 feuillets.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Livre d'accueil pour le personnel. Les informations données concernent aussi bien la vie professionnelle que la vie privée : salaires, réglement intérieur, chômage et sécurité, mais aussi logement, mutuelle et formation. Le document commence par une présentation globale du groupe et en particulier de l'établissement de Roubaix.    </p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Bienvenue à La Lainière de Roubaix</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_014_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_014_047.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_016</unitid>
+            <unittitle type="">Informations Intérieures</unittitle>
+            <unitdate normal="1987">1987</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Informations Interieures</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_016_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_016_032.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_018</unitid>
+            <unittitle type="">Info Lainière, La Lainière fait peau neuve !</unittitle>
+            <unitdate normal="1991">1991</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Info Lainière, La Lainière fait peau neuve !</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_018_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_018_003.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_019</unitid>
+            <unittitle type="">Info-encadrement n°8</unittitle>
+            <unitdate normal="1984">1984</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Info-encadrement n°8</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_019_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_019_002.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_022</unitid>
+            <unittitle type="">Groupe VEV infos</unittitle>
+            <unitdate normal="1991">1991</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Groupe VEV infos</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_022_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_022_016.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_023</unitid>
+            <unittitle type="">Note d'information, Assemblée générale extraordinaire </unittitle>
+            <unitdate normal="1973">21 décembre 1973</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Note d'information, Assemblée générale extraordinaire </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_023_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_023_019.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_024</unitid>
+            <unittitle type="">Note d'information sur les filatures Prouvost Masurel &amp; Cie </unittitle>
+            <unitdate normal="nd">nd</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Note d'information sur les filatures Prouvost Masurel &amp; Cie </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_024_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_024_007.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_026</unitid>
+            <unittitle type="">Lettres à en-tête</unittitle>
+            <unitdate normal="nd">nd</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Lettres à en-tête</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_026_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_026_005.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_027</unitid>
+            <unittitle type="">Dossier de l'Assemblée générale du 24 juin 1982</unittitle>
+            <unitdate normal="1982">1982</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Dossier de l'Assemblée générale du 24 juin 1982</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_027_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_027_020.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_030</unitid>
+            <unittitle type="">Lainière de Roubaix : explication technique sur les fils textiles</unittitle>
+            <unitdate normal="nd">nd</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Lainière de Roubaix : explication technique sur les fils textiles</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_030_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_030_041.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_017</unitid>
+            <unittitle type="">Informations Intérieures</unittitle>
+            <unitdate normal="1978">1978</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Informations Interieures</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_017_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_017_019.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_020</unitid>
+            <unittitle type="">Informations Intérieures</unittitle>
+            <unitdate normal="1972">1972</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Informations Interieures</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_020_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_020_007.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_021</unitid>
+            <unittitle type="">Informations Intérieures</unittitle>
+            <unitdate normal="1972">1972</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Informations Interieures</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_021_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_021_010.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_025</unitid>
+            <unittitle type="">Informations Intérieures</unittitle>
+            <unitdate normal="1984">1984</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Informations Interieures</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_025_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_025_020.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_029</unitid>
+            <unittitle type="">Dossier de l'Assemblée générale du 28 juin 1984</unittitle>
+            <unitdate normal="1984">1984</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Dossier de l'Assemblée générale du 28 juin 1984</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_029_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_029_026.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_028</unitid>
+            <unittitle type="">Dossier de l'Assemblée générale du 29 juin 1983</unittitle>
+            <unitdate normal="1983">1983</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Dossier de l'Assemblée générale du 29 juin 1983</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_028_001.jpg" audience="internal" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_028_005.jpg" audience="internal" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D02_031</unitid>
+            <unittitle type="">Note d'information sur la </unittitle>
+            <unitdate normal="nd">nd</unitdate>
+          </did>
+          <daogrp>
+            <daodesc>
+              <p>Note d'information sur la "Lainière de Roubaix" Prouvost Masurel</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D02_031_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D02_031_006.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>LAI_D03</unitid>
+          <unittitle type="">Journaux de la Lainière</unittitle>
+          <unitdate normal="1959">De 1957 à 1961</unitdate>
+        </did>
+        <scopecontent>
+          <p>
+            <p style="text-align: justify;">Le périodique <em>Contact</em> serait un mensuel. Ce périodique aurait eu pour public les boutiques franchisées qui commercialisaient la laine Pingouin. Georges Dubois, président des Amis de la Lainière, explique au sujet des magasins franchisés : "<em>le commerçant paie son fond de commerce, l'agencement de son magasin aux couleurs de l'enseigne et de la marchandise. L'enseigne lui fait profiter de la notoriété de la marque. Elle forme les commerçants à la vente, la comptabilité et au juridique, ceci dans l'entreprise et dans le magasin-type. L'enseigne s'occupe aussi de la publicité et de la création. En contrepartie, elle réclame des royalties au commerçant.</em>"</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <genreform>Livres et revues</genreform>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>LAI_D03_001</unitid>
+            <unittitle type="">Contact, la mercerie pratique - n°95</unittitle>
+            <unitdate normal="1957">mai 1957</unitdate>
+            <physdesc>
+              <p>43 pages : illustrations en noir et blanc : 31 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Vervaeke, Albert</name>
+              <name normal="Pingouin" role="auteur">Pingouin</name>
+              <name normal="" role="auteur">Thomassin, J.</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Ce numéro contient : un article d'Albert Vervaeke sur la laine et sa consommation mondiale ; un reportage sur la visite de la reine Elisabeth II au Peignage Amédée Prouvost et à la Lainière de Roubaix ; trois pages sur les chaussettes Stemm ; quelques emplois des cartons perforés fabriqué par Publi-Nel ; une enquête sur le tricot à l'école ; un article sur l'industrie lainière en Chine.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Laine</corpname>
+            <corpname>Peignage Amédée Prouvost</corpname>
+            <corpname>Lainière de Roubaix</corpname>
+            <corpname>Chaussettes Stemm</corpname>
+            <corpname>Tricot à l'école</corpname>
+            <corpname>Pingouin</corpname>
+            <subject source="chrono">1946-1959</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Contact </p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D03_001_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D03_001_044.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D03_002</unitid>
+            <unittitle type="">Contact, la mercerie pratique - n°128</unittitle>
+            <unitdate normal="1960">mai 1960</unitdate>
+            <physdesc>
+              <p>31 p. : illustrations en noir et blanc : 31 cm.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Ce numéro traite de : la reconstruction de bâtiments sinistrés appartenant à la revue ; la visite par le président Khrouchtchev et par l'abbé Fulbert Youlou, président de la République congolaise, aux Laines du Pingouin (Mme Vercruysse décorée du Mérite congolais et photo de M. Nicod.) ; la concurrence de machines et de laines à tricoter ; la politique d'implantation des magasins Pingouin Stemm ; la collection de bas de Nylon et des techniques commerciales pour les vendre ; Stemm, les chaussettes et les cravates.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Laines du Pingouin</corpname>
+            <corpname>Stemm</corpname>
+            <subject source="chrono">1960-1969</subject>
+            <subject source="Rameau">Métiers à tricoter</subject>
+            <subject source="Rameau">Vente</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Mensuel Contact</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D03_002_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D03_002_032.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D03_003</unitid>
+            <unittitle type="">Contact, la mercerie pratique - n°138</unittitle>
+            <unitdate normal="1961">avril 1961</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">32 p. : illustrations en noir et en couleurs : 31 cm.</p>
+            </physdesc>
+            <origination>
+              <name normal="" role="auteur">Thomassin, Jacques</name>
+              <name normal="" role="auteur">Laines du Pingouin</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Ce numéro contient / traite de : un rappel de Jacques Thomassin sur l'importance des ventes des "classiques Pingouin" ; une assurance, la "Standard Pingouin Stemm" et les références de Messieurs Jean et Philippe Blouin de Lille ; un document sur la publicité sur le lieu de vente ; deux pages sur les nouveaux magasins Pingouin Stemm (Monsieur et madame Bausier, 3 rue Pierre Motte à Roubaix), avec photographie des vitrines ; un article sur la vente des chaussettes noires Stemm et leur lancement dans la presse ; le succès de la machine à tricoter Pingouin : aux arts ménagers, chez le concessionnaire, chez le spécialiste et pour la clientèle ; la situation de l'industrie textile pour l'année écoulée.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Laines du Pingouin</corpname>
+            <subject source="chrono">1960-1969</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+            <subject source="Rameau">Publicité</subject>
+            <subject source="Rameau">Métiers à tricoter</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Contact, la mercerie pratique</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D03_003_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D03_003_032.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D03_004</unitid>
+            <unittitle type="">Contact, la mercerie pratique - n°142</unittitle>
+            <unitdate normal="1961">Septembre 1961</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">31 p. : illustrations en noir et blanc : 31 cm.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Ce numéro traite notamment : du déplacement du dépôt de Lyon ; de l'opération publicitaire liant le groupe musical <em>Les chaussettes noires</em> et la marque de chaussettes Stemm ; de la transformation à venir des villes ; de la mise en vente de présentoirs à chaussettes et de cadeaux publicitaires.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>La revue Contact</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D03_004_001.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D03_004_032.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>LAI_D04</unitid>
+          <unittitle type="">Images de la Lainière</unittitle>
+          <unitdate normal=""/>
+        </did>
+        <controlaccess>
+          <genreform>Images</genreform>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>LAI_D04_001</unitid>
+            <unittitle type="">Affiche - Expofil</unittitle>
+            <unitdate normal="1990">juin 1990</unitdate>
+            <physdesc>
+              <p>1 affiche : illustrations en couleurs.</p>
+            </physdesc>
+            <origination>
+              <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+              <name normal="" role="illustrateur">Studio Daniel Penez</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">13, 14, 15 juin 1990 : stand 95 ; Hall TERNES : créer entre les hommes des liens de compétences. Lainière de Roubaix.</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>Lainière de Roubaix</corpname>
+            <corpname>Exposition</corpname>
+            <corpname>Compétence</corpname>
+          </controlaccess>
+          <dao href="RBX_LAI_D04_001_001.jpg" audience="internal" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D04_002</unitid>
+            <unittitle type="">Diapositives - La Solving</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D04_003</unitid>
+            <unittitle type="">Diapositives - Les bâtiments de la Lainière</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D04_004</unitid>
+            <unittitle type="">Diapositives - L'apprentissage du travail</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D04_005</unitid>
+            <unittitle type="">Diapositives - La sécurité</unittitle>
+            <unitdate normal=""/>
+          </did>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>LAI_D05</unitid>
+          <unittitle type="">Agendas La Lainière</unittitle>
+          <unitdate normal=""/>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>LAI_D05_001</unitid>
+            <unittitle type="">Agenda La Lainière de 1928</unittitle>
+            <unitdate normal="1928">1928</unitdate>
+            <physdesc>
+              <p style="text-align: justify;"> 456 p. : illustrations en noir et blanc.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient une liste de bureaux et agences des filatures Prouvost &amp; Cie en France et à l'étranger ainsi qu'un écrit de Paul Reboux avec des illustrations parfois signées Ray Bret Koch.Ce dernier évoque la mode. Il en fait un historique et explique comment elle naît.    </p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Documents d\'archives</genreform>
+            <subject source="theme">Manufacture et industrie textile </subject>
+            <subject source="chrono">1919-1938</subject>
+            <corpname>La Lainière</corpname>
+            <subject source="Rameau">Industries textiles</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Agenda La Lainière de 1928</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D05_001_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D05_001_127.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>LAI_D05_002</unitid>
+            <unittitle type="">Agenda La Lainière de 1930</unittitle>
+            <unitdate normal="1930">1930</unitdate>
+            <physdesc>
+              <p style="text-align: justify;"> 1 agenda : illustrations en noir et blanc.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Contient une liste de bureaux et agences des filatures Prouvost &amp; Cie en France et à l'étranger ainsi qu'un écrit de Paul Reboux avec de nombreuses photos. Les trois premiers chapitres expliquent en détails le traitement de la laine, de la bergerie aux usines. Le quatrième et dernier chapitre détaille une visite des filatures Prouvost. L'agenda en lui-même est parsemé de dessins montrant des scènes d'usine.  </p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>La Lainière</corpname>
+            <genreform>Documents d\'archives</genreform>
+            <subject source="Rameau">Industries textiles</subject>
+            <subject source="chrono">1919-1938</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Agenda La Lainière de 1930</p>
+            </daodesc>
+            <daoloc href="RBX_LAI_D05_002_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAI_D05_002_150.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_AMR_006</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Plans cadastraux</titleproper>
+        <subtitle/>
+      </titlestmt>
+      <publicationstmt>
+        <date normal=""/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation/>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>AMR_CAD</unitid>
+      <unittitle>Cadastre</unittitle>
+      <unitdate normal=""/>
+      <langmaterial>
+        <language langcode=""/>
+      </langmaterial>
+      <repository>AMR</repository>
+    </did>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>CAD_1804</unitid>
+          <unittitle type="">Cadastre de 1804</unittitle>
+          <unitdate normal="1804">1804</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>CAD_1804_D01</unitid>
+            <unittitle type="">Plan cadastral de 1804</unittitle>
+            <unitdate normal="1804">1804</unitdate>
+            <physdesc><p class="Standard">Papier, 106 x 98 cm. Cote Archives : 1 G 7.</p>
+
+<p class="Standard">Ce plan cadastral n'est pas encore numérisé ; il sera mis en ligne courant 2021.</p></physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p class="Standard">Plan cadastral de la commune de Roubaix levé en exécution de l’arrêté du gouvernement du 12 brumaire de l’an II, terminé le 25 vendémiaire de l’an XIII par le citoyen Robin, géomètre en chef et le citoyen Coget, arpenteur (papier, 106 x 98 cm).</p>
+            </p>
+          </scopecontent>
+          <dao href="non-numerise.jpg" role="image"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>CAD_1826</unitid>
+          <unittitle type="">Cadastre de 1826</unittitle>
+          <unitdate normal="1826">1826</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>CAD_1826_D01</unitid>
+            <unittitle type="">Plan cadastral de 1826</unittitle>
+            <unitdate normal="1826">19 octobre 1826</unitdate>
+            <physdesc>
+              <p>Papier, 70 x 55 cm et 70 x 110 cm. Cote Archives : 1 G 1000.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain le 19 octobre 1826, sous l'administration de M. le Baron de Murat, Préfet, M. Boyaval Roussel, Maire, et sous la direction de M. Pigalle, Directeur des Contributions, M. Vachier, Géomètre en chef, par M. Barbotin, Géomètre 1ère classe, échelle de 1 à 10000 pour le tableau d’assemblage et de 1 à 2500 pour les planches, (papier, 70 x 55 cm et 70 x 110 cm).</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Plan cadastral de 1826</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1826_1G1000_01.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1826_1G1000_09.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>CAD_1819</unitid>
+          <unittitle type="">Cadastre de 1819</unittitle>
+          <unitdate normal="1819">1819</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>Cadastre de 1819</p>
+          </daodesc>
+          <daoloc href="RBX_AMR_PLA_1G1001_1.jpg" role="image:first"/>
+          <daoloc href="RBX_AMR_PLA_1G1001_20.jpg" role="image:last"/>
+        </daogrp>
+        <c level="file">
+          <did>
+            <unitid>CAD_1819_D01</unitid>
+            <unittitle type="">Plan cadastral de 1819</unittitle>
+            <unitdate normal="1819">1819</unitdate>
+            <physdesc>
+              <p>Papier, 61 x 40.5 cm. Cote Archives : 1 G 1001.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p><p>Plan dit “atlas portatif” : plan préparatoire du plan cadastral de 1826, 20 planches collées sur papier,</p>
+
+<p>(61 x 40.5 cm).</p></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Plan cadastral de 1819</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_PLA_1G1001_1.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_PLA_1G1001_20.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>CAD_1847</unitid>
+          <unittitle type="">Cadastre 1847</unittitle>
+          <unitdate normal="1847">1847-1867</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>CAD_1847_D01</unitid>
+            <unittitle type="">Plan cadastral de 1847</unittitle>
+            <unitdate normal="1847">1847</unitdate>
+            <physdesc><p>Papier, 68 x 50 cm et 68 x 100 cm. Cote Archives : 1 G 1002/1.</p>
+
+<p>Ce plan cadastral n'est pas encore numérisé ; il sera mis en ligne courant 2021.</p></physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1847, sous l'administration de M. Duval, Préfet, et sous la direction de M. D'Astis, Directeur des Contributions directes, M. Lefranc, Géomètre en chef du Cadastre, échelle de 1 à 10000 pour le tableau d’assemblage et de 1 à 1000 pour les planches, (papier, 68 x 50 cm et 68 x 100 cm).</p>
+            </p>
+          </scopecontent>
+          <dao href="non-numerise.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1847_D02</unitid>
+            <unittitle type="">Copie du plan cadastral de 1847 (1867)</unittitle>
+            <unitdate normal="1847">1867</unitdate>
+            <physdesc>
+              <p>Papier, 70 x 55 cm et 70 x 110 cm. Cote Archives : 1 G 1002/2.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Copie certifiée conforme au plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1847, sous l'administration de M. Duval, Préfet, et sous la direction de M. D'Astis, Directeur des Contributions directes, M. Lefranc, Géomètre en chef du Cadastre, échelle de 1 à 10000 pour le tableau d’assemblage et de 1 à 1000 pour les planches, (papier, 68 x 50 cm et 68 x 100 cm), en date du 15 janvier 1867.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Copie du plan cadastral de 1847 (1867)</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1867_1G1002_2_01" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1867_1G1002_2_20" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>CAD_1884</unitid>
+          <unittitle type="">Plan cadastral de 1884, en vigueur jusqu'en 1973</unittitle>
+          <unitdate normal="1884">1884-1885</unitdate>
+          <physdesc>
+            <p>1 tableau d'assemblage et 10 atlas. Cotes Archives : 1 G 1028 à 1 G 1038.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>La recherche dans les plans cadastraux de1884 se présente de la façon suivante : repérer dans le tableau d'assemblage la section recherchée (de section A à section K) et le numéro de la feuille ; consulter ensuite l'atlas de la section et consulter la feuille recherchée.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D01</unitid>
+            <unittitle type="">Tableau d'assemblage</unittitle>
+            <unitdate normal="1885">1884-1885</unitdate>
+            <physdesc>
+              <p>Papier, 72 x 100,5 cm. Cote archives : 1 G 1028.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M.  Imbert, Géomètre en chef, par MM. Dégeorges, Guillon, Harlez, Raviart, Lefèvre, Géomètres de 1ère classe : Tableau d'assemblage, échelle de 1 à 10000, (papier, 72 x 100,5 cm), le 30 juin 1885.</p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_AMR_CAD_1884_1G1028_TA.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D02</unitid>
+            <unittitle type="">Section A, feuilles 1 à 8</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72 x 100,5 cm. Cote archives : 1 G 1029.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Dégeorges, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section A, dite de la Basse Masure en 17 feuilles, feuilles 1 à 8, échelle de 1 à 500, (papier, 72 x 100,5cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section A, feuilles 1 à 8</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1029_1_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1029_1_08.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D03</unitid>
+            <unittitle type="">Section A, feuilles 9 à 17</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc><p>Papier, 72 x 100,5 cm. Cote archives : 1 G 1029.</p>
+
+<p>La feuille 13 n'est pas encore numérisée; elle sera mise en ligne courant 2021.</p></physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Dégeorges, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section A, dite de la Basse Masure en 17 feuilles, feuilles 9 à 17, échelle de 1 à 500, (papier, 72 x 100,5cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section A, feuilles 9 à 17</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1029_2_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1029_2_17.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D04</unitid>
+            <unittitle type="">Section B, feuilles 1 à 15</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100,5 cm. Cote Archives : 1 G 1030.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Guillon, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Foulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section B, dite du Collège en 15 feuilles, échelle de 1 à 500, (papier, 72.5 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section B; feuilles 1 à 15</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1030_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1030_15.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D05</unitid>
+            <unittitle type="">Section C, feuilles 1 à 15</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1031.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Harlez, Guillon, Raviart et Dégeorges, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section C, dite du Pile en 15 feuilles, échelle de 1 à 500, (papier, 72,5 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section C, feuilles 1 à 15</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1031_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1031_15.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D06</unitid>
+            <unittitle type="">Section D, feuilles 1 à 10</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1032.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Harlez, Guillon et Dégeorges, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section D, dite des Trois Ponts en 20 feuilles, feuilles 1 à 10, échelle de 1 à 500, (papier, 72,5 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section D, feuilles 1 à 9</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1032_1_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1032_1_10.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D07</unitid>
+            <unittitle type="">Section D, feuilles 11 à 20</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1032.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Harlez, Guillon et Dégeorges, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section D, dite des Trois Ponts en 20 feuilles, feuilles 11 à 20, échelle de 1 à 500, (papier, 72,5 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section D, feuilles 11 à 20</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1032_2_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1032_2_20.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D08</unitid>
+            <unittitle type="">Section E, feuilles 1 à 15</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1033.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Raviart et Lefèvre, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section E, dite de la Potennerie en 29 feuilles, feuilles 1 à 15, échelle de 1 à 500, (papier, 72 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section E, feuilles 1 à 15</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1033_1_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1033_1_15.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D09</unitid>
+            <unittitle type="">Section E, feuilles 16 à 29</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1033.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Raviart et Lefèvre, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section E, dite de la Potennerie en 29 feuilles, feuilles 16 à 29, échelle de 1 à 500, (papier, 72 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section E, feuilles 16 à 29</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1033_2_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1033_2_29.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D10</unitid>
+            <unittitle type="">Section F, feuilles 1 à 11</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1034.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Harlez, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section F, dite du Moulin de Roubaix en 21 feuilles, feuilles 1 à 11, échelle de 1 à 500, (papier, 72 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section F, feuilles 1 à 11</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1034_1_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1034_1_11.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D11</unitid>
+            <unittitle type="">Section F, feuilles 12 à 22</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1034.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Harlez, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section F, dite du Moulin de Roubaix en 21 feuilles, feuilles 12 à 22, échelle de 1 à 500, (papier, 72 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section F, feuilles 12 à 22</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1034_2_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1034_2_22.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D12</unitid>
+            <unittitle type="">Section G, feuilles 1 à 9</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1035.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Lefèvre, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section G, dite de l'Epeule en 9 feuilles, échelle de 1 à 500, (papier, 72,5 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section G, feuilles 1 à 9</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1035_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1035_09.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D13</unitid>
+            <unittitle type="">Section H, feuilles 1 à 15</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc><p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1036. </p>
+
+<p>Les feuilles 6 à 15 ne sont pas encore numérisées; elles seront mises en ligne courant 2021.</p></physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Raviart, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section H, dite du Fresnoy en 15 feuilles, échelle de 1 à 500, (papier, 72 x 100 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section H, feuilles 1 à 15</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1036_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1036_05.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D14</unitid>
+            <unittitle type="">Section I, feuilles 1 à 6</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1037.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Raviart, Lefèvre et Dégeorges, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section I, dite de Notre Dame en 6 feuilles, échelle de 1 à 500, (papier, 72 x 100.5cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section I, feuilles 1 à 6</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1037_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1037_1_06.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D15</unitid>
+            <unittitle type="">Section J, feuilles 1 à 6</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1037.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par MM Raviart, Lefèvre et Dégeorges, Géomètres de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section J, dite du Trichon en 6 feuilles, échelle de 1 à 500, (papier, 72 x 100.5cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section J, feuilles 1 à 6</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1037_2_01.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1037_2_06.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>CAD_1884_D16</unitid>
+            <unittitle type="">Section K, feuilles 1 à 5</unittitle>
+            <unitdate normal="1884">1884</unitdate>
+            <physdesc>
+              <p>Papier, 72,5 x 100.5 cm. Cote Archives : 1 G 1038.</p>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Plan cadastral parcellaire en couleur de la commune de Roubaix, terminé sur le terrain en 1884, par M. Guillon, Géomètre de 1ère classe, sous l'administration de M. Jules Cambon, Préfet, de M. Julien Lagache, Maire, sous la direction de M. Boulard, Directeur des Contributions directes, M. Imbert, Géomètre en chef : Section K, dite de l'Hôtel de Ville en 5 feuilles, échelle de 1 à 500, (papier, 72 x 100.5 cm), 1884.</p>
+            </p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Section K, feuilles 1 à 5</p>
+            </daodesc>
+            <daoloc href="RBX_AMR_CAD_1884_1G1038_00.jpg" role="image:first"/>
+            <daoloc href="RBX_AMR_CAD_1884_1G1038_05.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

@@ -1,0 +1,3411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FRAC512_1F_01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Population (An VIII [1800]-1990)</titleproper>
+        <subtitle>Répertoire numérique détaillé de la sous-série 1 F</subtitle>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Ville de Roubaix</publisher>
+        <address>Roubaix</address>
+        <date normal=""/>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Le fichier XML a été encodé par la société Fontaine et Fils Archives Services avec Ates Encoding developpé par la société IRIUS.</creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>La norme ISAD(G), norme générale et internationale de description archivistique a été suivie pour la réalisation de cet instrument de recherche.</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>AMR_AMF</unitid>
+      <unittitle>Population de la ville de Roubaix</unittitle>
+      <unitdate normal="1800">an VIII-1990</unitdate>
+      <langmaterial>
+        <language langcode="fre"/>
+      </langmaterial>
+      <physdesc>
+        <p>15,65 ml</p>
+      </physdesc>
+      <repository>AMR</repository>
+    </did>
+    <scopecontent>
+      <p>
+        <p style="text-align: justify;">La sous-série 1 F concerne la démographie de la commune entre 1800 et 1990. Elle comprend l'enregistrement des mouvements de la population roubaisienne tant en entrée (par naissance, arrivée d'autres communes ou de l'étranger) ; qu'en sortie (par décès ou départ vers l'étranger). On y trouve donc les informations relatives aux dénombrements de population ainsi qu'aux mouvements de population (changements d'adresse...)</p>
+      </p>
+    </scopecontent>
+    <acqinfo>
+      <p>
+        <p>Versements successifs des services municipaux de la ville de Roubaix.</p>
+      </p>
+    </acqinfo>
+    <dsc>
+      <c level="subseries">
+        <did>
+          <unitid>1_F_1-221</unitid>
+          <unittitle type="titre">Recensement.</unittitle>
+          <unitdate normal="1800">An VIII-1990</unitdate>
+        </did>
+        <c level="file">
+          <did>
+            <unitid>1_F_1-208</unitid>
+            <unittitle type="titre">Registres de recensement.</unittitle>
+            <unitdate normal="1800">An VIII-1990</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>1_F_1</unitid>
+              <unittitle type="">Recensement de population (an VIII), par section puis par ménage.</unittitle>
+              <unitdate normal="1800">An VIII</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (an VIII), par section puis par m'nage.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1799_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1799_01_216.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_2</unitid>
+              <unittitle type="">Recensement de population (an XI), par section puis par ménage.</unittitle>
+              <unitdate normal="1803">An XI</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (an XI), par section puis par m'nage.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1802_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1802_01_220.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_3</unitid>
+              <unittitle type="">Recensement de population (1806), par section puis par ménage.</unittitle>
+              <unitdate normal="1806">1806</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (1806), par section puis par m'nage.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1806_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1806_01_211.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_4-5</unitid>
+              <unittitle type="">Recensement de population 1820, par section puis par ménage.</unittitle>
+              <unitdate normal="1820">1820</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_4</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1820">1820</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population 1820, par section puis par m'nage. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1820_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1820_01_211.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_5</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1820">1820</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population 1820, par section puis par m'nage. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1820_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1820_02_198.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_6-14</unitid>
+              <unittitle type="">Recensement de population (1831), par rue puis par ménage.</unittitle>
+              <unitdate normal="1831">1831</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_6</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_01_388.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_7</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_02_388.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_8</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_03_394.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_9</unitid>
+                <unittitle type="">Quatrième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Quatri'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_04_307.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_10</unitid>
+                <unittitle type="">Cinquième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Cinqui'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_05_356.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_11</unitid>
+                <unittitle type="">Sixième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Sixi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_06_331.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_12</unitid>
+                <unittitle type="">Septième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Septi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_07_394.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_13</unitid>
+                <unittitle type="">Huitième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Huiti'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_08_382.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_14</unitid>
+                <unittitle type="">Neuvième partie.</unittitle>
+                <unitdate normal="1831">1831</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1831), par rue puis par m'nage. Neuvi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1831_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1831_09_194.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_15</unitid>
+              <unittitle type="">Registre recoté en 1 F 226.</unittitle>
+              <unitdate normal="1800">s.d.</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_16</unitid>
+              <unittitle type="">Recensement de population (1836), par adresse.</unittitle>
+              <unitdate normal="1836">1836</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (1836), par adresse.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1836_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1836_01_788.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_17</unitid>
+              <unittitle type="">Recensement de population (1841), par adresse.</unittitle>
+              <unitdate normal="1841">1841</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (1841), par adresse.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1841_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1841_01_910.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_18</unitid>
+              <unittitle type="">Recensement de population (1846), par adresse.</unittitle>
+              <unitdate normal="1846">1846</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Recensement. Registres de recensement. Recensement de population (1846), par adresse.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1846_01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1846_01_1081.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_19-21</unitid>
+              <unittitle type="">Recensement de population (1851), par adresse.</unittitle>
+              <unitdate normal="1851">1851</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_19</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1851">1851</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1851), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1851_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1851_01_392.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_20</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1851">1851</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1851), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1851_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1851_02_392.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_21</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1851">1851</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1851), par adresse. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1851_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1851_03_377.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_22-23</unitid>
+              <unittitle type="">Recensement de population (1856), par adresse.</unittitle>
+              <unitdate normal="1856">1856</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_22</unitid>
+                <unittitle type="">Première partie</unittitle>
+                <unitdate normal="1856">1856</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1856), par adresse. Premi're partie</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1856_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1856_01_661.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_23</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1856">1856</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1856), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1856_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1856_02_655.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_24-25</unitid>
+              <unittitle type="">Recensement de population (1861), par adresse.</unittitle>
+              <unitdate normal="1861">1861</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_24</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1861">1861</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1861), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1861_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1861_01_794.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_25</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1861">1861</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1861), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1861_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1861_02_840.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_26-28</unitid>
+              <unittitle type="">Recensement de population (1866), par adresse.</unittitle>
+              <unitdate normal="1866">1866</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_26</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1866">1866</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1866), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1866_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1866_01_717.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_27</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1866">1866</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1866), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1866_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1866_02_722.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_28</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1866">1866</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1866), par adresse. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1866_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1866_03_744.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_29-32</unitid>
+              <unittitle type="">Recensement de population (1872), par adresse.</unittitle>
+              <unitdate normal="1872">1872</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_29</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1872">1872</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1872), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1872_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1872_01_482.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_30</unitid>
+                <unittitle type="">Première partie bis.</unittitle>
+                <unitdate normal="1872">1872</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1872), par adresse. Premi're partie bis.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1872_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1872_02_517.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_31</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1872">1872</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1872), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1872_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1872_03_774.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_32</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1872">1872</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1872), par adresse. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1872_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1872_04_750.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_33-36</unitid>
+              <unittitle type="">Recensement de population (1876), par adresse.</unittitle>
+              <unitdate normal="1876">1876</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_33</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1876">1876</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1876), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1876_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1876_01_778.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_34</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1876">1876</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1876), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1876_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1876_02_872.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_35</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1876">1876</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1876), par adresse. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1876_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1876_03_675.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_36</unitid>
+                <unittitle type="">Quatrième partie.</unittitle>
+                <unitdate normal="1876">1876</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1876), par adresse. Quatri'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1876_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1876_04_460.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_37-40</unitid>
+              <unittitle type="">Recensement de population (1881), par adresse.</unittitle>
+              <unitdate normal="1881">1881</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_37</unitid>
+                <unittitle type="">Première partie.</unittitle>
+                <unitdate normal="1881">1881</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1881), par adresse. Premi're partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1881_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1881_01_723.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_38</unitid>
+                <unittitle type="">Deuxième partie.</unittitle>
+                <unitdate normal="1881">1881</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1881), par adresse. Deuxi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1881_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1881_02_740.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_39</unitid>
+                <unittitle type="">Troisième partie.</unittitle>
+                <unitdate normal="1881">1881</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1881), par adresse. Troisi'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1881_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1881_03_803.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_40</unitid>
+                <unittitle type="">Quatrième partie.</unittitle>
+                <unitdate normal="1881">1881</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1881), par adresse. Quatri'me partie.</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1881_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1881_04_827.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_41-44</unitid>
+              <unittitle type="">Recensement de population (1886), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1886">1886</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_41</unitid>
+                <unittitle type="">De AGACHE à GOUBEH</unittitle>
+                <unitdate normal="1886">1886</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1886), par ordre alphab'tique des noms de personne. De AGACHE ' GOUBEH</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1886_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1886_01_633.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_42</unitid>
+                <unittitle type="">De GOUBEH à ZSSIEFEL</unittitle>
+                <unitdate normal="1886">1886</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1886), par ordre alphab'tique des noms de personne. De GOUBEH ' ZSSIEFEL</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1886_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1886_02_728.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_43</unitid>
+                <unittitle type="">De ABINAL à HALLUIN</unittitle>
+                <unitdate normal="1886">1886</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1886), par ordre alphab'tique des noms de personne. De ABINAL ' HALLUIN</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1886_03_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1886_03_1004.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_44</unitid>
+                <unittitle type="">De HAVENE à WATTIEZ</unittitle>
+                <unitdate normal="1886">1886</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1886), par ordre alphab'tique des noms de personne. De HAVENE ' WATTIEZ</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1886_04_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1886_04_1027.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_45-50</unitid>
+              <unittitle type="">Recensement de population (1891), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1891">1891</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_45</unitid>
+                <unittitle type="">De ABEL à CARDON</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarques : Omission : CACHEUX</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De ABEL ' CARDON</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_01_399.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_46</unitid>
+                <unittitle type="">De CARDON à DEGRAET</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De CARDON ' DEGRAET</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_02_401.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_47</unitid>
+                <unittitle type="">De DEGRAEVE à DESMULIER</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De DEGRAEVE ' DESMULIER</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_03_401.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_48</unitid>
+                <unittitle type="">De DESMULLIER à DUTOIT</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarques : Omission : DUPRIEZ, ERGIBO</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De DESMULLIER ' DUTOIT</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_04_343.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_49</unitid>
+                <unittitle type="">De DUTHOIT à LECLERCQ</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De DUTHOIT ' LECLERCQ</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_05_603.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_50</unitid>
+                <unittitle type="">De LECLERCQ à PARET</unittitle>
+                <unitdate normal="1891">1891</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1891), par ordre alphab'tique des noms de personne. De LECLERCQ ' PARET</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1891_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1891_06_601.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_51-65</unitid>
+              <unittitle type="">Recensement de population (1896), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1896">1896</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_51</unitid>
+                <unittitle type="">De AALBRECHT à BERLIN</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De AALBRECHT ' BERLIN</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_01_191.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_52</unitid>
+                <unittitle type="">De BERLEZ à CARPENTIER</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De BERLEZ ' CARPENTIER</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_02_298.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_53</unitid>
+                <unittitle type="">De CARPENTIER à CROISEZ</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De CARPENTIER ' CROISEZ</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_03_247.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_54</unitid>
+                <unittitle type="">De DABATIA à DEFYVES</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DABATIA ' DEFYVES</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_04_170.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_55</unitid>
+                <unittitle type="">De DEFYVES à DELESCLUSE</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DEFYVES ' DELESCLUSE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_05_152.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_56</unitid>
+                <unittitle type="">De DELESPAUL à DEPAPE</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DELESPAUL ' DEPAPE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_06_158.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_57</unitid>
+                <unittitle type="">De DEPAPE à DESREUMIEUX</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DEPAPE ' DESREUMIEUX</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_07_165.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_58</unitid>
+                <unittitle type="">De DESREUMIEUX à DUBAR</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DESREUMIEUX ' DUBAR</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_08_169.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_59</unitid>
+                <unittitle type="">De DUBAR à DYMONT</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De DUBAR ' DYMONT</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_09_198.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_60</unitid>
+                <unittitle type="">De ECKOUT à LAZODE</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De ECKOUT ' LAZODE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_10_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_10_610.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_61</unitid>
+                <unittitle type="">De LEANGER à OVERBERGHE (OVERBERGNE)</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De LEANGER ' OVERBERGHE (OVERBERGNE)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_11_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_11_673.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_62</unitid>
+                <unittitle type="">De PACCOU à ROUSSEAUX</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De PACCOU ' ROUSSEAUX</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_12_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_12_321.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_63</unitid>
+                <unittitle type="">De ROUSSEAU à UYTTERHOVEN</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De ROUSSEAU ' UYTTERHOVEN</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_13_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_13_307.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_64</unitid>
+                <unittitle type="">De VAAL à VANZULPELE</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De VAAL ' VANZULPELE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_14_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_14_305.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_65</unitid>
+                <unittitle type="">De VARALVE à WYTTEBOLE</unittitle>
+                <unitdate normal="1896">1896</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1896), par ordre alphab'tique des noms de personne. De VARALVE ' WYTTEBOLE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1896_15_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1896_15_260.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_66-72</unitid>
+              <unittitle type="">Recensement de population (1901), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1901">1901</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_66</unitid>
+                <unittitle type="">De ABAES à CYPERS</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : CREPIN-CROES</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De ABAES ' CYPERS</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_01_863.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_67</unitid>
+                <unittitle type="">De DABATIA à DEPOORTERE</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De DABATIA ' DEPOORTERE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_02_585.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_68</unitid>
+                <unittitle type="">De DEPOORTERE à DYVERS</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : DUMALIN</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De DEPOORTERE ' DYVERS</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_03_626.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_69</unitid>
+                <unittitle type="">De EBO-FOUCAERT à KYNDT</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : De KERTZMANN à KIMPE</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De EBO-FOUCAERT ' KYNDT</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_04_648.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_70</unitid>
+                <unittitle type="">De LABACRE à OZIERS</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarques : Omission : de OTHON à OROO</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De LABACRE ' OZIERS</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_05_900.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_71</unitid>
+                <unittitle type="">De PACCOU à UYTTERHOEVEN</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De PACCOU ' UYTTERHOEVEN</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_06_753.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_72</unitid>
+                <unittitle type="">De VAAL à WOINET</unittitle>
+                <unitdate normal="1901">1901</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1901), par ordre alphab'tique des noms de personne. De VAAL ' WOINET</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1901_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1901_07_683.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_73-78</unitid>
+              <unittitle type="">Recensement de population (1906), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1906">1906</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_73</unitid>
+                <unittitle type="">De AAREN à DAGUE</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De AAREN ' DAGUE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_01_705.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_74</unitid>
+                <unittitle type="">De DAGUE à DETOURNAY</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De DAGUE ' DETOURNAY</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_02_658.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_75</unitid>
+                <unittitle type="">De DETOURNAY à HALSBERGHE</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De DETOURNAY ' HALSBERGHE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_03_616.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_76</unitid>
+                <unittitle type="">De HAMAIDE à MARCHAND</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De HAMAIDE ' MARCHAND</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_04_664.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_77</unitid>
+                <unittitle type="">De MARCHAND à SIMON</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De MARCHAND ' SIMON</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_05_704.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_78</unitid>
+                <unittitle type="">De SIMON à WITTEBOLLE</unittitle>
+                <unitdate normal="1906">1906</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1906), par ordre alphab'tique des noms de personne. De SIMON ' WITTEBOLLE</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1906_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1906_06_745.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_79-91</unitid>
+              <unittitle type="">Recensement de population (1911), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1911">1911</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_79</unitid>
+                <unittitle type="">De AARENS (Elise) à BROCKART (née DEVERNAY Marie)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De AARENS (Elise) ' BROCKART (n'e DEVERNAY Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_01_434.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_80</unitid>
+                <unittitle type="">De BROCKART (Louis) à DANGUIEN (née DELPORTE, Valentine)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De BROCKART (Louis) ' DANGUIEN (n'e DELPORTE, Valentine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_02_460.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_81</unitid>
+                <unittitle type="">De DANGUIEN (née RIGOLE, Sophie) à DELCOURTE (Louise)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De DANGUIEN (n'e RIGOLE, Sophie) ' DELCOURTE (Louise)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_03_338.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_82</unitid>
+                <unittitle type="">De DELCROIX (née SEGARD, Adélaïde) à DESMIS (Zoé)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De DELCROIX (n'e SEGARD, Ad'la'de) ' DESMIS (Zo')</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_04_419.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_83</unitid>
+                <unittitle type="">De DESMONS (née DISDAL, Henriette) à DUPUREUR (née DELATTRE, Elisa)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De DESMONS (n'e DISDAL, Henriette) ' DUPUREUR (n'e DELATTRE, Elisa)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_05_419.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_84</unitid>
+                <unittitle type="">De DUPUREUR (Edouard) à HALUIN (Berthe)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De DUPUREUR (Edouard) ' HALUIN (Berthe)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_06_433.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_85</unitid>
+                <unittitle type="">De HAMARIDE (Adelaïde) à KYNDT (Marie)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <scopecontent>
+                <p>A noter : le cahier de TREKELS à UYTTEHAEGEN qui devrait se trouver en 1 F 90, se trouve ici après HAZEVELD. Il s'agit probablement d'une erreur de reliure.</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De HAMARIDE (Adela'de) ' KYNDT (Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_07_284.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_86</unitid>
+                <unittitle type="">De LABALETTE (née WILLOT, Angèle) à MAES (Julien)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De LABALETTE (n'e WILLOT, Ang'le) ' MAES (Julien)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_08_510.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_87</unitid>
+                <unittitle type="">De MAES-MEURISSE (Isaë) à MOULARD (Célina)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De MAES-MEURISSE (Isa') ' MOULARD (C'lina)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_09_279.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_88</unitid>
+                <unittitle type="">De MOULARD (née LECLERCQ, Juliette) à PIVION (née LESVYN, Adèle)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De MOULARD (n'e LECLERCQ, Juliette) ' PIVION (n'e LESVYN, Ad'le)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_10_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_10_242.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_89</unitid>
+                <unittitle type="">De PLACE (Josué) à RONSSE (née BOURGOIS, Eulalie)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De PLACE (Josu') ' RONSSE (n'e BOURGOIS, Eulalie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_11_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_11_244.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_90</unitid>
+                <unittitle type="">De ROOBIER (Felix) à UYTTERHAEGHEN (Pierre)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <scopecontent>
+                <p>
+                  <p>A noter : le cahier de TREKELS à UYTTEHAEGEN se trouve en 1 F 85, après HAZEVELD. Il s'agit probablement d'une erreur de reliure.</p>
+                </p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De ROOBIER (Felix) ' TREHOUT (Emile)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_12_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_12_386.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_91</unitid>
+                <unittitle type="">De VAAL (Pierre) à ZWINPOORT (née LEFEBVRE, Virginie)</unittitle>
+                <unitdate normal="1911">1911</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1911), par ordre alphab'tique des noms de personne. De VAAL (Pierre) ' ZWINPOORT (n'e LEFEBVRE, Virginie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1911_13_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1911_13_682.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_92-104</unitid>
+              <unittitle type="">Recensement de population (1921), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1921">1921</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_92</unitid>
+                <unittitle type="">De AARENS (Ivan Julien) à BROWERS (née SIX, Juliette)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De AARENS (Ivan Julien) ' BROWERS (n'e SIX, Juliette)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_01_436.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_93</unitid>
+                <unittitle type="">De BRUANT (née MOREL, Clémence Constantine) à DAELE (née DACHY, Jeanne)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De BRUANT (n'e MOREL, Cl'mence Constantine) ' DAELE (n'e DACHY, Jeanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_02_427.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_94</unitid>
+                <unittitle type="">De DAELEMAN (Augustin) à DELECOLLE (Louis)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De DAELEMAN (Augustin) ' DELECOLLE (Louis)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_03_351.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_95</unitid>
+                <unittitle type="">De DELECOURT (Louis) à DESMARAITS (née DELOBETTE, Marie)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De DELECOURT (Louis) ' DESMARAITS (n'e DELOBETTE, Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_04_351.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_96</unitid>
+                <unittitle type="">De DESMARCHELIER (Edouard) à DUBREUCQ (née DELBETE, Louise)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De DESMARESEAUX (Julie) ' DUBREUCQ (n'e DELBETE, Louise)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_05_316.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_97</unitid>
+                <unittitle type="">De DUBREUIL (née MEURIPE, Louise) à GHESQUIER (Jeanne-Marie)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De DUBREUIL (n'e MEURIPE, Louise) ' GHESQUIER (Jeanne-Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_06_431.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_98</unitid>
+                <unittitle type="">De GHESQUIERE (Gustave) à LEROUGE (Louis)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De GHESQUIERE (Gustave) ' LEROUGE (Louis)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_07_762.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_99</unitid>
+                <unittitle type="">De LEROULLE (née DECOTTIGNIES, Céline) à MESPLONT (née DIVIN, Augustine)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De LEROULLE (n'e DECOTTIGNIES, C'line) ' MESPLONT (n'e DIVIN, Augustine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_08_315.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_100</unitid>
+                <unittitle type="">De MESPOUILLE (Ferdinand) à PLOMMION (Charles)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De MESPOUILLE (Ferdinand) ' PLOMMION (Charles)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_09_367.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_101</unitid>
+                <unittitle type="">De PLOUVIER (née CHEMBRE, Marie-Louise) à SCHEVELINK (née VAN HECKE, Marie)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De PLOUVIER (n'e CHEMBRE, Marie-Louise) ' SCHEVELINK (n'e VAN HECKE, Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_10_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_10_313.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_102</unitid>
+                <unittitle type="">De SCHEPENS (Richard) à VAN BOXELAER (Rosalie)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De SCHEPENS (Richard) ' VAN BOXELAER (Rosalie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_11_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_11_308.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_103</unitid>
+                <unittitle type="">De VANBRABANT (née VERSPIREN, Gabrielle) à VANSTEENKISTE (Julienne)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De VANBRABANT (n'e VERSPIREN, Gabrielle) ' VANSTEENKISTE (Julienne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_12_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_12_319.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_104</unitid>
+                <unittitle type="">De VANSTEENKISSE (Maurice) à ZWIFFEL (née BREVIERE, Jeanne)</unittitle>
+                <unitdate normal="1921">1921</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1921), par ordre alphab'tique des noms de personne. De VANSTEENKISSE (Maurice) ' ZWIFFEL (n'e BREVIERE, Jeanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1921_13_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1921_13_324.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_105-117</unitid>
+              <unittitle type="">Recensement de population (1926), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1926">1926</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_105</unitid>
+                <unittitle type="">De AARENS (née DESURMONT, Élisabeth) à CALLENS (née DHAESE, Gabrielle)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De AARENS (n'e DESURMONT, 'lisabeth) ' CALLENS (n'e DHAESE, Gabrielle)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_01_504.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_106</unitid>
+                <unittitle type="">De CALLENS (Gaspar) à DECARPENTRIE (née VANDENBULCKE, Léopoldine)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De CALLENS (Gaspar) ' DECARPENTRIE (n'e VANDENBULCKE, L'opoldine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_02_474.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_107</unitid>
+                <unittitle type="">De DECARPENTRIE (Marguerite) à DELSAUTE (Eugène)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De DECARPENTRIE (Marguerite) ' DELSAUTE (Eug'ne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_03_360.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_108</unitid>
+                <unittitle type="">De DELSAUTE (née FARVAQUE, Marie) à DEWAELE (née MORELLS, Fernande)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De DELSAUTE (n'e FARVAQUE, Marie) ' DEWAELE (n'e MORELLS, Fernande)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_04_360.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_109</unitid>
+                <unittitle type="">De DEWAELE (Albert, Maurice) à EGGERMONT (née DE VASCK, Alphonsine)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De DEWAELE (Albert, Maurice) ' EGGERMONT (n'e DE VASCK, Alphonsine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_05_363.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_110</unitid>
+                <unittitle type="">De EGGERMONT (née TROCH, Céleste) à GRAS (née VANDEMERCH, Marie)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De EGGERMONT (n'e TROCH, C'leste) ' GRAS (n'e VANDEMERCH, Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_06_300.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_111</unitid>
+                <unittitle type="">De GRAS (née VANHOUTER, Marie) à JOUNIAUX (née DELILLE, Suzanne)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De GRAS (n'e VANHOUTER, Marie) ' JOUNIAUX (n'e DELILLE, Suzanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_07_301.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_112</unitid>
+                <unittitle type="">De JOUNIAUX (René) à LELONG (Rosalie)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De JOUNIAUX (Ren') ' LELONG (Rosalie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_08_300.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_113</unitid>
+                <unittitle type="">De LELONG (née DEBOSSEHERE,Yvonne) à MAHON (née DELCROIX, Fernande)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De LELONG (n'e DEBOSSEHERE,Yvonne) ' MAHON (n'e DELCROIX, Fernande)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_09_257.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_114</unitid>
+                <unittitle type="">De MAHON (Roger) à PETIT (née DUMONT, Laure)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De MAHON (Roger) ' PETIT (n'e DUMONT, Laure)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_10_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_10_464.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_115</unitid>
+                <unittitle type="">De PETIT (Léonard) à SURGERS (née VIGIN Zulma)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De PETIT (L'onard) ' SURGERS (n'e VIGIN Zulma)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_11_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_11_540.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_116</unitid>
+                <unittitle type="">De SURIN (Edouard) à VAN HERZIEL (Robert)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : VAN HERZEELE (Gaston)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De SURIN (Edouard) ' VAN HERZIEL (Robert)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_12_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_12_364.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_117</unitid>
+                <unittitle type="">De VANHELSTRAETE (Paul) à ZWOLAK (Bluzej)</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par ordre alphab'tique des noms de personne. De VANHELSTRAETE (Paul) ' ZWOLAK (Bluzej)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_13_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_13_447.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_118-120</unitid>
+              <unittitle type="">Recensement de population (1926), par adresse.</unittitle>
+              <unitdate normal="1926">1926</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_118</unitid>
+                <unittitle type="">ROUBAIX EST</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par adresse. ROUBAIX EST</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_14_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_14_1716.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_119</unitid>
+                <unittitle type="">ROUBAIX NORD</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par adresse. ROUBAIX NORD</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_15_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_15_1424.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_120</unitid>
+                <unittitle type="">ROUBAIX OUEST</unittitle>
+                <unitdate normal="1926">1926</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1926), par adresse. ROUBAIX OUEST</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1926_16_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1926_16_734.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_121-136</unitid>
+              <unittitle type="">Recensement de population (1931), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1931">1931</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_121</unitid>
+                <unittitle type="">De AARENS (née DESURMONT, Elise) à BETLE (née THELIER, Reine)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De AARENS (n'e DESURMONT, Elise) ' BETLE (n'e THELIER, Reine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_01_234.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_122</unitid>
+                <unittitle type="">De BETREMA (Georges) à BYUK (Louise)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De BETREMA (Georges) ' BRACQ (Marie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_02_265.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_123</unitid>
+                <unittitle type="">De CAALS (François) à CZYZYKOWSKA (Héléna)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : CAMBIER (André)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De CAALS (Fran'ois) ' CZYZYKOWSKA (H'l'na)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_03_373.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_124</unitid>
+                <unittitle type="">De DABATIA (née POPPE, Florence) à DELAHAYE (née MOIMIE, Mireille)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De DABATIA (n'e POPPE, Florence) ' DELAHAYE (n'e MOIMIE, Mireille)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_04_261.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_125</unitid>
+                <unittitle type="">De DELAHAYE (née MAHIEU, Marguerite) à DENDUYTS (Alice)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De DELAHAYE (n'e MAHIEU, Marguerite) ' DENDUYTS (Alice)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_05_280.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_126</unitid>
+                <unittitle type="">De DENCKER (née DELVAR, Adèle) à DHAVÉE (née DUJARDIN, Clémence)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De DENCKER (n'e DELVAR, Ad'le) ' DHAV'E (n'e DUJARDIN, Cl'mence)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_06_321.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_127</unitid>
+                <unittitle type="">De DHAVELONS (Emile) à DZINBINSKA (Wladyslawa)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : DELGRANDE (Arthur)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De DHAVELONS (Emile) ' DZINBINSKA (Wladyslawa)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_07_317.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_128</unitid>
+                <unittitle type="">De EANAS (Stanislawa) à FYNE (née DUHAMEL, Virginie)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : FARVAQUE (Célina)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De EANAS (Stanislawa) ' FYNE (n'e DUHAMEL, Virginie)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_08_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_08_186.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_129</unitid>
+                <unittitle type="">De GAAL (Gaspard) à HENNION (Léon)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De GAAL (Gaspard) ' HENNION (L'on)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_09_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_09_258.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_130</unitid>
+                <unittitle type="">De HENNION (née VERDOUCK, Suzanne) à KYEZESANY (Jean)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : KIVASMIEJSKI (Michel)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De HENNION (n'e VERDOUCK, Suzanne) ' KYEZESANY (Jean)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_10_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_10_249.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_131</unitid>
+                <unittitle type="">De LABAISSE (née KIQUE Maria) à LEMAN (née DESMETHER, Zulma)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De LABAISSE (n'e KIQUE Maria) ' LEMAN (n'e DESMETHER, Zulma)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_11_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_11_280.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_132</unitid>
+                <unittitle type="">De LEMANSK (Wanzgi) à LYZON (née BOBIVAS, Laurence)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De LEMANSK (Wanzgi) ' LYZON (n'e BOBIVAS, Laurence)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_12_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_12_213.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_133</unitid>
+                <unittitle type="">De MABELLE (née BAUSSENS, Marguerite) à PYZONKA (Geneviève)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : PIESSET (Roland)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De MABELLE (n'e BAUSSENS, Marguerite) ' PYZONKA (Genevi've)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_13_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_13_688.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_134</unitid>
+                <unittitle type="">De QUABAGEUR (née CORBELIN, Bertha) à UZIEMBLO (née MORVINSKI, Sevilla)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De QUABAGEUR (n'e CORBELIN, Bertha) ' UZIEMBLO (n'e MORVINSKI, Sevilla)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_14_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_14_528.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_135</unitid>
+                <unittitle type="">De VAAL (DESRUMAUX, Marcelle) à VAZON (Jeanne)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De VAAL (DESRUMAUX, Marcelle) ' VAZON (Jeanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_15_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_15_360.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_136</unitid>
+                <unittitle type="">De VEAUOY (Magloire) à ZYSZONSKA (Jeanne)</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par ordre alphab'tique des noms de personne. De VEAUOY (Magloire) ' ZYSZONSKA (Jeanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_16_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_16_317.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_137-139</unitid>
+              <unittitle type="">Recensement de population (1931), par adresse.</unittitle>
+              <unitdate normal="1931">1931</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_137</unitid>
+                <unittitle type="">ROUBAIX EST</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par adresse. ROUBAIX EST</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_17_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_17_1789.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_138</unitid>
+                <unittitle type="">ROUBAIX NORD</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par adresse. ROUBAIX NORD</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_18_0001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_18_1386.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_139</unitid>
+                <unittitle type="">ROUBAIX OUEST</unittitle>
+                <unitdate normal="1931">1931</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1931), par adresse. ROUBAIX OUEST</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1931_19_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1931_19_696.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_140-146</unitid>
+              <unittitle type="">Recensement de population (1936), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1936">1936</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_140</unitid>
+                <unittitle type="">De ACK (VANDEVEL, Marie) à CYFFERS (Charles)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : CARRETTE (Antoine)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De ACK (VANDEVEL, Marie) ' CYFFERS (Charles)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_01_610.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_141</unitid>
+                <unittitle type="">De DABE (STEENWERCHERS, Célina) à DERUME (Jules)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De DABE (STEENWERCHERS, C'lina) ' DERUME (Jules)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_02_437.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_142</unitid>
+                <unittitle type="">De DERUWEZ (Albert) à ESPINONS (Charles)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De DERUWEZ (Albert) ' ESPINONS (Charles)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_03_401.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_143</unitid>
+                <unittitle type="">De ESPINONS (née CALONNE Aurélia) à KYNOLT (Jeanne)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : KOWALSKI (Jean)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De ESPINONS (n'e CALONNE Aur'lia) ' KYNOLT (Jeanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_04_467.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_144</unitid>
+                <unittitle type="">De LABAISSE (née GUIGUE, Maria) à MYSKA (Olga)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : MAGINEL (née DEVAUX, Flore)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De LABAISSE (n'e GUIGUE, Maria) ' MYSKA (Olga)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_05_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_05_579.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_145</unitid>
+                <unittitle type="">De NABIALEK (Jean) à TYGAT (François)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : ULLA (née MOUEZKA, Sevilla)</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De NABIALEK (Jean) ' TYGAT (Fran'ois)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_06_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_06_598.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_146</unitid>
+                <unittitle type="">De VAAL (Louis) à ZYZIK (Stanislawa)</unittitle>
+                <unitdate normal="1936">1936</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1936), par ordre alphab'tique des noms de personne. De VAAL (Louis) ' ZYZIK (Stanislawa)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1936_07_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1936_07_470.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_147-150</unitid>
+              <unittitle type="">Recensement de population (1946), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1946">1946</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_147</unitid>
+                <unittitle type="">De AARENS (née CARBON, Aldegonde) à DERYNCK (Claude)</unittitle>
+                <unitdate normal="1946">1946</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1946), par ordre alphab'tique des noms de personne. De AARENS (n'e CARBON, Aldegonde) ' DERYNCK (Claude)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1946_01_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1946_01_810.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_148</unitid>
+                <unittitle type="">De DERYNCK (CUSSEAN, Irma) à KYTS (née SARRAZIN, Pauline)</unittitle>
+                <unitdate normal="1946">1946</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1946), par ordre alphab'tique des noms de personne. De DERYNCK (CUSSEAN, Irma) ' KYTS (n'e SARRAZIN, Pauline)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1946_02_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1946_02_633.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_149</unitid>
+                <unittitle type="">De LAANERS (née HUVENNE, Alfreda) à PICQUET (née ODOU Pauline)</unittitle>
+                <unitdate normal="1946">1946</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1946), par ordre alphab'tique des noms de personne. De LAANERS (n'e HUVENNE, Alfreda) ' PICQUET (n'e ODOU Pauline)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1946_03_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1946_03_551.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_150</unitid>
+                <unittitle type="">De PICQUET (Robert) à ZYZIK (née SLABY, Stanislawa)</unittitle>
+                <unitdate normal="1946">1946</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1946), par ordre alphab'tique des noms de personne. De PICQUET (Robert) ' ZYZIK (n'e SLABY, Stanislawa)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1946_04_001.jpg" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1946_04_696.jpg" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_151-156</unitid>
+              <unittitle type="">Recensement de population (1954), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1954">1954</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_151</unitid>
+                <unittitle type="">De ABAJTEK (Sophie) à COLOMBIER (DUBAR, Yvette)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De ABAJTEK (Sophie) ' COLOMBIER (DUBAR, Yvette)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_01_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_01_541.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_152</unitid>
+                <unittitle type="">De COLPAERD (née DASPREZ, Jeanne) à DERUEL (Paul)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De COLPAERD (n'e DASPREZ, Jeanne) ' DERUEL (Paul)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_02_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_02_505.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_153</unitid>
+                <unittitle type="">De DERUELLE (Christian) à GODYN (née VERSTRAETE, Charlotte)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De DERUELLE (Christian) ' GODYN (n'e VERSTRAETE, Charlotte)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_03_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_03_552.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_154</unitid>
+                <unittitle type="">De GODZOWSKI (née AUDIGE, Josepha) à LOQUET (née DOURDIN, Suzanne)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De GODZOWSKI (n'e AUDIGE, Josepha) ' LOQUET (n'e DOURDIN, Suzanne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_04_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_04_604.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_155</unitid>
+                <unittitle type="">De LORANT (née DUSAUSOY, Marie) à SADY (Alexandre)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De LORANT (n'e DUSAUSOY, Marie) ' SADY (Alexandre)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_05_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_05_624.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_156</unitid>
+                <unittitle type="">De SADYS (Victoria) à ZYWCZOK (née SOJKA, Gertrude)</unittitle>
+                <unitdate normal="1954">1954</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1954), par ordre alphab'tique des noms de personne. De SADYS (Victoria) ' ZYWCZOK (n'e SOJKA, Gertrude)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1954_06_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1954_06_685.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_157-159</unitid>
+              <unittitle type="">Recensement de population (1962), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1962">1962</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_157</unitid>
+                <unittitle type="">De ABASSI (Habiba) à DZIWICKI (Anisa)</unittitle>
+                <unitdate normal="1962">1962</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1962), par ordre alphab'tique des noms de personne. De ABASSI (Habiba) ' DZIWICKI (Anisa)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1962_01_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1962_01_789.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_158</unitid>
+                <unittitle type="">De FABRIZI (Angela) à PHLYPO (Marie-Henriette)</unittitle>
+                <unitdate normal="1962">1962</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1962), par ordre alphab'tique des noms de personne. De FABRIZI (Angela) ' PHLYPO (Marie-Henriette)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1962_02_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1962_02_660.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_159</unitid>
+                <unittitle type="">De PIADE (Rahamim) à ZYVERT (née MONCZKA, Irène)</unittitle>
+                <unitdate normal="1962">1962</unitdate>
+              </did>
+              <scopecontent>
+                <p>Remarque : Omission : de ALGO à ZONAKRI</p>
+              </scopecontent>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1962), par ordre alphab'tique des noms de personne. De PIADE (Rahamim) ' ZYVERT (n'e MONCZKA, Ir'ne)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1962_03_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1962_03_520.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_160-163</unitid>
+              <unittitle type="">Recensement de population (1968), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1968">1968</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_160</unitid>
+                <unittitle type="">De ABAD (Amar) à DEPOOTER (Michel)</unittitle>
+                <unitdate normal="1968">1968</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1968), par ordre alphab'tique des noms de personne. De ABAD (Amar) ' DEPOOTER (Michel)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1968_01_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1968_01_597.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_161</unitid>
+                <unittitle type="">De DEPRAETERE (née AVENNE, Madeleine) à JUVENET (Lucien)</unittitle>
+                <unitdate normal="1968">1968</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1968), par ordre alphab'tique des noms de personne. De DEPRAETERE (n'e AVENNE, Madeleine) ' JUVENET (Lucien)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1968_02_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1968_02_466.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_162</unitid>
+                <unittitle type="">De KAB (née BAKA, Fatma) à QWERBES (née DESCHAMPS, Janine)</unittitle>
+                <unitdate normal="1968">1968</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1968), par ordre alphab'tique des noms de personne. De KAB (n'e BAKA, Fatma) ' QWERBES (n'e DESCHAMPS, Janine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1968_03_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1968_03_516.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_163</unitid>
+                <unittitle type="">De RAAB (Mohamed) à ZYSEK (Ronan)</unittitle>
+                <unitdate normal="1968">1968</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1968), par ordre alphab'tique des noms de personne. De RAAB (Mohamed) ' ZYSEK (Ronan)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1968_04_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1968_04_448.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_164-167</unitid>
+              <unittitle type="">Recensement de population (1975), par ordre alphabétique des noms de personne.</unittitle>
+              <unitdate normal="1975">1975</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_164</unitid>
+                <unittitle type="">de ABAD (Ali) à (4 derniers noms illisibles) DELEBARRE (Sandrine)</unittitle>
+                <unitdate normal="1975">1975</unitdate>
+              </did>
+              <phystech>
+                <p>7 premiers noms illisibles.</p>
+              </phystech>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1975), par ordre alphab'tique des noms de personne. de ABAD (Ali) ' (4 derniers noms illisibles) DELEBARRE (Sandrine)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1975_01_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1975_01_589.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_165</unitid>
+                <unittitle type="">De DELCOURT (Jacky) à HYTRY (née BALOT, Eve)</unittitle>
+                <unitdate normal="1975">1975</unitdate>
+              </did>
+              <phystech>
+                <p>2 pages photocopiés ' 2 premiers noms illisibles.</p>
+              </phystech>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1975), par ordre alphab'tique des noms de personne. De DELCOURT (Jacky) ' HYTRY (n'e BALOT, Eve)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1975_02_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1975_02_612.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_166</unitid>
+                <unittitle type="">De IABLONSKI (née KROL, Hélène) à PYTLEROSKI (née LUBIENSKI, Thérèse)</unittitle>
+                <unitdate normal="1975">1975</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1975), par ordre alphab'tique des noms de personne. De IABLONSKI (n'e KROL, H'l'ne) ' PYTLEROSKI (n'e LUBIENSKI, Th'r'se)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1975_03_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1975_03_603.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_167</unitid>
+                <unittitle type="">De QUAEGEBEUR (Alain) à ZYSEK (Jean)</unittitle>
+                <unitdate normal="1975">1975</unitdate>
+              </did>
+              <daogrp>
+                <daodesc>
+                  <p>Registres de recensement. Recensement de population (1975), par ordre alphab'tique des noms de personne. De QUAEGEBEUR (Alain) ' ZYSEK (Jean)</p>
+                </daodesc>
+                <daoloc href="RBX_AMR_POP_1975_04_001.jpg" audience="internal" role="image:first"/>
+                <daoloc href="RBX_AMR_POP_1975_04_499.jpg" audience="internal" role="image:last"/>
+              </daogrp>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_168-188</unitid>
+              <unittitle type="">Recensement de population (1982), par ordre alphabétique des rues.</unittitle>
+              <unitdate normal="1982">1982</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_168</unitid>
+                <unittitle type="">De Acacias (square d') à Avelghem (rue d')</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_169</unitid>
+                <unittitle type="">De Avenir (rue de l') à Bonnard (allée Pierre)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_170</unitid>
+                <unittitle type="">De Bon rasoir (rue du) à Campagne (rue Ma)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_171</unitid>
+                <unittitle type="">De Carette (rue Henri) à Cogghe (Remy</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_172</unitid>
+                <unittitle type="">De Cohem (rue de) à Dame (rue Notre)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_173</unitid>
+                <unittitle type="">De Dammartin (rue) à Demulter (rue)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_174</unitid>
+                <unittitle type="">De Denain (rue de) à Espierre (rue de l')</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_175</unitid>
+                <unittitle type="">De Estaing (rue d') à Fresnoy (rue du)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_176</unitid>
+                <unittitle type="">De Delespaul « Groupe Fromé » (rue) à Guynemer (square)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_177</unitid>
+                <unittitle type="">De Halle (rue de la) à Isly (rue d')</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_178</unitid>
+                <unittitle type="">De Italie (rue d') à Lagrange ' Tour F (rue Léo)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_179</unitid>
+                <unittitle type="">De Lainière (rue de la) à Lille (rue de)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_180</unitid>
+                <unittitle type="">De Linné (avenue) à Metz (boulevard de)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_181</unitid>
+                <unittitle type="">De Meyerbeer (rue) à Musset (rue Alfred de)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_182</unitid>
+                <unittitle type="">De Nabuchodonosor (rue) à Pellart (rue)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_183</unitid>
+                <unittitle type="">De Perche (rue de la) à Récollets (rue des)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_184</unitid>
+                <unittitle type="">De Regnault (rue Henri) à Rouen (quai de)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_185</unitid>
+                <unittitle type="">De Rouget de l'Isle (rue) à Schweitzer (rue du docteur Albert)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_186</unitid>
+                <unittitle type="">De Scrépel (rue Achille) à Tunis (rue de)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_187</unitid>
+                <unittitle type="">De Turenne (rue de) à Wagram ' prolongée (rue)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_188</unitid>
+                <unittitle type="">De Wante (rue Paul) à Zola (rue Emile)</unittitle>
+                <unitdate normal="1982">1982</unitdate>
+              </did>
+            </c>
+          </c>
+          <c level="subfile">
+            <did>
+              <unitid>1_F_189-208</unitid>
+              <unittitle type="">Recensement de population (1990), par ordre alphabétique des rues.</unittitle>
+              <unitdate normal="1990">1990</unitdate>
+            </did>
+            <c level="item">
+              <did>
+                <unitid>1_F_189</unitid>
+                <unittitle type="">De Acacias (square de) à Avocat (rue de l')</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_190</unitid>
+                <unittitle type="">De Babylone (rue de) à Boucher de Perthes (rue)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_191</unitid>
+                <unittitle type="">De Boucicaut (rue) à Cartigny (rue de)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_192</unitid>
+                <unittitle type="">De Cassel (rue de) à Colomb (rue Christophe)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_193</unitid>
+                <unittitle type="">De Communauté Urbaine (rue de la) à Cuvier (rue)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_194</unitid>
+                <unittitle type="">De Daguesseau (rue) à Delorme (rue Philibert)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_195</unitid>
+                <unittitle type="">De Delory (avenue Gustave) à Duquesne (rue de l'Amiral)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_196</unitid>
+                <unittitle type="">De Edison (rue Thomas) à Fourmies (boulevard de)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_197</unitid>
+                <unittitle type="">De Fragonard (rue Honoré) à Grimonpont (quai du)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_198</unitid>
+                <unittitle type="">De Guesde (rue Jules) à Isly (rue d')</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_199</unitid>
+                <unittitle type="">De Italie (rue d') à Lannes (rue)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_200</unitid>
+                <unittitle type="">De Lannoy (rue de) à Lys (rue de la)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_201</unitid>
+                <unittitle type="">De Ma campagne (rue) à Monge (rue)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_202</unitid>
+                <unittitle type="">De Mons (rue de) à Nouveau Monde (rue du)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_203</unitid>
+                <unittitle type="">De 11 Novembre ' résidence « Les hauts du parc » - Entrée C (avenue du) à Prouvost (avenue Amédée)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_204</unitid>
+                <unittitle type="">De Providence (rue de la) à Roubaix (rue Isabeau de)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_205</unitid>
+                <unittitle type="">De Roubaix (allée Pierre de) à Sainte-Thérèse (rue)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_206</unitid>
+                <unittitle type="">De Salengro (avenue Roger) à Tisserands (rue des)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_207</unitid>
+                <unittitle type="">De Tortue (rue de la) à Verdun (avenue de)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+            <c level="item">
+              <did>
+                <unitid>1_F_208</unitid>
+                <unittitle type="">De Vernet (rue Horace) à Zola (rue Emile)</unittitle>
+                <unitdate normal="1990">1990</unitdate>
+              </did>
+            </c>
+          </c>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>1_F_209-214</unitid>
+            <unittitle type="titre">Pièces annexes des recensements.</unittitle>
+            <unitdate normal="1800">An VIII-1906</unitdate>
+          </did>
+          <scopecontent>
+            <p>Dossiers de recensement, correspondance, actes préfectoraux, affiches annonçant le recensement, limites de l'agglomération, sommes payées aux employés chargés du recensement, statistiques complémentaires (découpage de la population par tranches d'âge, mortalité infantile, causes de décès, taux d'aliénés, d'aveugles, de sourds-muets), bulletins de ménages.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>1_F_209</unitid>
+              <unittitle type="">An VIII-1872.</unittitle>
+              <unitdate normal="1800">An VIII-1872</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_210</unitid>
+              <unittitle type="">1873-1886.</unittitle>
+              <unitdate normal="1873">1873-1886</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_211</unitid>
+              <unittitle type="">1891.</unittitle>
+              <unitdate normal="1891">1891</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_212</unitid>
+              <unittitle type="">1893-1900.</unittitle>
+              <unitdate normal="1893">1893-1900</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_213</unitid>
+              <unittitle type="">1901.</unittitle>
+              <unitdate normal="1901">1901</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_214</unitid>
+              <unittitle type="">1906.</unittitle>
+              <unitdate normal="1906">1906</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>1_F_215-221</unitid>
+            <unittitle type="titre">Brochures d'exploitation des résultats de recensement.</unittitle>
+            <unitdate normal="1968">1968-1975</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>1_F_215</unitid>
+              <unittitle type="">INSEE, Recensement de 1968, population légale et statistiques communales complémentaires, Paris, 1969.</unittitle>
+              <unitdate normal="1968">1968</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_216</unitid>
+              <unittitle type="">INSEE, Recensement général de la population de 1968, résultats du sondage au ¼, Paris, 1971.</unittitle>
+              <unitdate normal="1968">1968</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_217</unitid>
+              <unittitle type="">INSEE, Recensement général de la population de 1968, résultat du sondage au ¼, Paris, 1972.</unittitle>
+              <unitdate normal="1968">1968</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_218</unitid>
+              <unittitle type="">INSEE, Recensement 1975, premières exploitations statistiques de la ville de Roubaix.</unittitle>
+              <unitdate normal="1975">1975</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_219</unitid>
+              <unittitle type="">INSEE, Recensement 1975, chiffres et résultats.</unittitle>
+              <unitdate normal="1975">1975</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_220</unitid>
+              <unittitle type="">INSEE, Recensement général de la population de 1975, population du département du Nord.</unittitle>
+              <unitdate normal="1975">1975</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_221</unitid>
+              <unittitle type="">INSEE, La situation démographique des zones du Nord-Pas-de-Calais au 1er janvier 1980.</unittitle>
+              <unitdate normal="1800">s.d.</unitdate>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c level="file">
+        <did>
+          <unitid>1_F_222-266</unitid>
+          <unittitle type="titre">Mouvement de population.</unittitle>
+          <unitdate normal="1817">1817-1941</unitdate>
+        </did>
+        <c level="subfile">
+          <did>
+            <unitid>1_F_222-256</unitid>
+            <unittitle type="titre">Registres d'inscription des personnes arrivées à Roubaix.</unittitle>
+            <unitdate normal="1828">1828-1941</unitdate>
+          </did>
+          <scopecontent>
+            <p>A noter : Jusqu'en 1842, les inscriptions se font par date d'arrivée. A partir de 1848, la recherche se fait par ordre alphabétique du nom puis par dates d'arrivée.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>1_F_222</unitid>
+              <unittitle type="">1817-1822 ; 1828-1831.</unittitle>
+              <unitdate normal="1817">1817-1831</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_223</unitid>
+              <unittitle type="">1828-1833.</unittitle>
+              <unitdate normal="1828">1828-1833</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_224</unitid>
+              <unittitle type="">1831-1833.</unittitle>
+              <unitdate normal="1831">1831-1833</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_225</unitid>
+              <unittitle type="">1833-1836.</unittitle>
+              <unitdate normal="1833">1833-1836</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_226</unitid>
+              <unittitle type="">1836-1837.</unittitle>
+              <unitdate normal="1836">1836-1837</unitdate>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Mouvement de population. Registres d'inscription des personnes arriv'es ' Roubaix. 1836-1837.</p>
+              </daodesc>
+              <daoloc href="RBX_AMR_POP_1831_10_001.jpg" role="image:first"/>
+              <daoloc href="RBX_AMR_POP_1831_10_098.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_227</unitid>
+              <unittitle type="">1836-1839.</unittitle>
+              <unitdate normal="1836">1836-1839</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_228</unitid>
+              <unittitle type="">1837-1839.</unittitle>
+              <unitdate normal="1837">1837-1839</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_229</unitid>
+              <unittitle type="">1839-1841.</unittitle>
+              <unitdate normal="1839">1839-1841</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_230</unitid>
+              <unittitle type="">1841-1842.</unittitle>
+              <unitdate normal="1841">1841-1842</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_231</unitid>
+              <unittitle type="">1848-1864.</unittitle>
+              <unitdate normal="1848">1848-1864</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_232</unitid>
+              <unittitle type="">1852.</unittitle>
+              <unitdate normal="1852">1852</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_233</unitid>
+              <unittitle type="">1853-1855.</unittitle>
+              <unitdate normal="1853">1853-1855</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_234</unitid>
+              <unittitle type="">1856-1857.</unittitle>
+              <unitdate normal="1856">1856-1857</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_235</unitid>
+              <unittitle type="">1857-1858.</unittitle>
+              <unitdate normal="1857">1857-1858</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_236</unitid>
+              <unittitle type="">1859-1860.</unittitle>
+              <unitdate normal="1859">1859-1860</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_237</unitid>
+              <unittitle type="">1860-1861.</unittitle>
+              <unitdate normal="1860">1860-1861</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_238</unitid>
+              <unittitle type="">1862-1863.</unittitle>
+              <unitdate normal="1862">1862-1863</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_239</unitid>
+              <unittitle type="">1864-1865.</unittitle>
+              <unitdate normal="1864">1864-1865</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_240</unitid>
+              <unittitle type="">1865-1866.</unittitle>
+              <unitdate normal="1865">1865-1866</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_241</unitid>
+              <unittitle type="">1867-1869.</unittitle>
+              <unitdate normal="1867">1867-1869</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_242</unitid>
+              <unittitle type="">1869-1872.</unittitle>
+              <unitdate normal="1869">1869-1872</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_243</unitid>
+              <unittitle type="">1872-1875.</unittitle>
+              <unitdate normal="1872">1872-1875</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_244</unitid>
+              <unittitle type="">1875-1877.</unittitle>
+              <unitdate normal="1875">1875-1877</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_245</unitid>
+              <unittitle type="">1877-1880.</unittitle>
+              <unitdate normal="1877">1877-1880</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_246</unitid>
+              <unittitle type="">1881-1884.</unittitle>
+              <unitdate normal="1881">1881-1884</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_247</unitid>
+              <unittitle type="">1885-1888.</unittitle>
+              <unitdate normal="1885">1885-1888</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_248</unitid>
+              <unittitle type="">1889-1896.</unittitle>
+              <unitdate normal="1889">1889-1896</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_249</unitid>
+              <unittitle type="">1905-1908.</unittitle>
+              <unitdate normal="1905">1905-1908</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_250</unitid>
+              <unittitle type="">1909-1912.</unittitle>
+              <unitdate normal="1909">1909-1912</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_251</unitid>
+              <unittitle type="">1912-1919.</unittitle>
+              <unitdate normal="1912">1912-1919</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_252</unitid>
+              <unittitle type="">1920-1922.</unittitle>
+              <unitdate normal="1920">1920-1922</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_253</unitid>
+              <unittitle type="">1922-1925.</unittitle>
+              <unitdate normal="1922">1922-1925</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_254</unitid>
+              <unittitle type="">1926-1930.</unittitle>
+              <unitdate normal="1926">1926-1930</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_255</unitid>
+              <unittitle type="">1930-1934.</unittitle>
+              <unitdate normal="1930">1930-1934</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_256</unitid>
+              <unittitle type="">1935-1941.</unittitle>
+              <unitdate normal="1935">1935-1941</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>1_F_257-262</unitid>
+            <unittitle type="titre">Registres d'inscription des personnes quittant Roubaix.</unittitle>
+            <unitdate normal="1817">1817-1904</unitdate>
+          </did>
+          <scopecontent>
+            <p>A noter : Les recherches se font par ordre alphabétique du nom, puis par date de départ.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>1_F_257</unitid>
+              <unittitle type="">1817-1841.</unittitle>
+              <unitdate normal="1817">1817-1841</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_258</unitid>
+              <unittitle type="">1847-1851.</unittitle>
+              <unitdate normal="1847">1847-1851</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_259</unitid>
+              <unittitle type="">1848-1884.</unittitle>
+              <unitdate normal="1848">1848-1884</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_260</unitid>
+              <unittitle type="">1857-1882.</unittitle>
+              <unitdate normal="1857">1857-1882</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_261</unitid>
+              <unittitle type="">1883-1904.</unittitle>
+              <unitdate normal="1883">1883-1904</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_262</unitid>
+              <unittitle type="">1885-1897.</unittitle>
+              <unitdate normal="1885">1885-1897</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="subfile">
+          <did>
+            <unitid>1_F_263-266</unitid>
+            <unittitle type="titre">Registres d'inscription des déclarations d'arrivées et de départs.</unittitle>
+            <unitdate normal="1924">1924-1935</unitdate>
+          </did>
+          <scopecontent>
+            <p>A noter : donnent peu d'informations sur les personnes mise à part la date des départs des déclarations.</p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>1_F_263</unitid>
+              <unittitle type="">1924-1927.</unittitle>
+              <unitdate normal="1924">1924-1927</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_264</unitid>
+              <unittitle type="">1927-1930.</unittitle>
+              <unitdate normal="1927">1927-1930</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_265</unitid>
+              <unittitle type="">1930-1932.</unittitle>
+              <unitdate normal="1930">1930-1932</unitdate>
+            </did>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>1_F_266</unitid>
+              <unittitle type="">1932-1935.</unittitle>
+              <unitdate normal="1932">1932-1935</unitdate>
+            </did>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

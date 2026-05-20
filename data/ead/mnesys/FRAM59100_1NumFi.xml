@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead audience="external">
+    <eadheader findaidstatus="unverified-partial-draft">
+        <eadid>FRAM59100_000081</eadid>
+        <filedesc>
+        
+            <titlestmt>
+                <titleproper>Petits dons de numérisation de documents figurés </titleproper>
+                <subtitle>1NumFi</subtitle>
+                
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Archives de la ville de Roubaix</publisher>
+                
+                
+                <date normal="2023">2023</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned le <date type="creation">21/10/2023</date></creation>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="subseries" id="a011697881333VAXy0s" altrender="">
+        <runner>Petits prêts pour numérisation</runner>
+        <did>
+            <unittitle>Petits dons de numérisation de documents figurés </unittitle>
+            <repository>Archives de la ville de Roubaix</repository><unitid identifier="1NUMFI">1NumFi</unitid><physdesc>Les originaux papier sont des planches cartonnées d'environ 29,7 x 42 cm. Les dates sont estimées en fonction des années d'exercice de l'architecte.</physdesc>
+            
+            
+            
+            
+            
+        </did>
+        
+        <note type="mnesysinternal"><p/></note><scopecontent><p>Cet inventaire décrit les fichiers reçus en don de la part de personnes privées. Il s'agit de numérisations de plans, de photographies et autres documents figurés :&#160;les numérisations ont été&#160;effectuées soit par le donateur soit par les archivistes lors d'un prêt pour numérisation. Les documents physiques ne sont pas détenus par les Archives municipales de Roubaix.</p>
+
+<p>&#160;</p>
+</scopecontent>
+        <dsc type="in-depth"><c id="a011697881371YnDQe8" level="file"><did><unittitle>Maisons de l'architecte Elie Derveaux (1867-1957)  " La maison pour tous : petites villas de 3000 à 10000 francs  : maisons jumelles et maisons entre murs mitoyens à Roubaix,  " (pas de localisation précise) : plans intérieur, plans de coupe, plan de façade.</unittitle><origination>Don de M. Massonnet, lecteur des Archives municipales de Roubaix, le 21 octobre 2023, qui a souhaité conservé les documents originaux sous forme papier. La numérisation a été faite par les Archives municipales.&#160;&#160;Il s'agit probablement d'extraits d'une revue d'architecture mais la provenance exacte n'est pas connue.</origination><unitid identifier="1NUMFI/1-1NUMFI/6">1NumFi1-6</unitid><unitdate certainty="approximative" normal="1887-01-01/1957-12-31" type="inclusive">1887-1957</unitdate><physdesc><extent/>Les originaux papier sont des planches cartonnées d'environ 29,7 x 42 cm. Les dates sont estimées en fonction des années d'exercice de l'architecte.</physdesc></did><note type="mnesysinternal"><p/></note><controlaccess><subject source="thesaurus--SLASH--thesaurus_w.xml">ARCHITECTURE</subject><subject source="thesaurus--SLASH--thesaurus_w.xml">LOGEMENT</subject></controlaccess><scopecontent><p>Précisions de Xavier Lepoutre, lecteur des Archives, le 28/12/2023 : " La " Maison pour tous " a été fondée en 1927. C'était une Société coopérative de location attribution. Elle existe toujours en 2023 mais a été englobée dans des Sociétés d'H.L.M. Elie Derveaux lui a proposé des modèles de maisons individuelles comme il l'avait fait pour l'Office public d'H.B.M. de Roubaix. "<lb/>
+&#160;</p>
+</scopecontent><daogrp><daoloc href="1NumFi/RBX_AMR_1NumFi_001.jpg"/><daoloc href="1NumFi/RBX_AMR_1NumFi_002.jpg"/><daoloc href="1NumFi/RBX_AMR_1NumFi_003.jpg"/><daoloc href="1NumFi/RBX_AMR_1NumFi_004.jpg"/><daoloc href="1NumFi/RBX_AMR_1NumFi_005.jpg"/><daoloc href="1NumFi/RBX_AMR_1NumFi_006.jpg"/></daogrp></c>
+            
+        </dsc>
+    </archdesc>
+</ead>

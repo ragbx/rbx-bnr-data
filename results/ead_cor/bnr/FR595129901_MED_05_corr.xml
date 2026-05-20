@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_MED_05</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection de journaux</titleproper>
+        <subtitle>Catalogue numérique</subtitle>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation/>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>MED_JOU</unitid>
+      <unittitle>Journaux </unittitle>
+      <unitdate normal="1900">19e-20e siècles</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <physdesc>Journaux sous forme papier, microfilms et microfiches</physdesc>
+      <repository>MED</repository>
+    </did>
+    <controlaccess>
+      <genreform>Livres et revues</genreform>
+      <subject source="theme">Presse </subject>
+      <subject source="theme">Vie politique </subject>
+      <subject source="Rameau">Presse locale </subject>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>P50117</unitid>
+          <unittitle type="">Le panorama de la guerre 1914-1918</unittitle>
+          <unitdate normal="1917">1914-1919</unitdate>
+          <physdesc>Périodique mensuel. 
+
+A paru de 1914 à 1919.
+
+Etat de collection : n°138 à n°148, n°150, n°154 à n°158.
+
+Les documents sont en assez mauvais état.
+
+</physdesc>
+        </did>
+        <scopecontent>
+          <p>Chaque numéro est un fascicule particulier concernant un militaire avec une photographie le représentant.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="chrono">1914-1918</subject>
+          <subject source="theme">Guerres </subject>
+          <subject source="Rameau">Officiers</subject>
+        </controlaccess>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>P50134</unitid>
+          <unittitle type="">La construction moderne </unittitle>
+          <unitdate normal="1930">19e-20e siècles</unitdate>
+          <physdesc>Périodique hebdomadaire.
+
+Paraît depuis 1885.
+
+Etat de collection : 1928(n°26), 1929(n°38), 1932(n°43), 1939(n°7-38)
+
+</physdesc>
+          <repository>MED</repository>
+        </did>
+        <scopecontent>
+          <p>Contient des reproductions de photographies en noir et blanc et des plans.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="chrono">1871-1913</subject>
+          <subject source="chrono">1914-1918</subject>
+          <subject source="chrono">1919-1938</subject>
+          <subject source="chrono">1939-1945</subject>
+          <subject source="Rameau">Architecture</subject>
+          <subject source="theme">Urbanisme </subject>
+        </controlaccess>
+        <c level="item">
+          <did>
+            <unitid>P50134_26_305-310</unitid>
+            <unittitle type="">Le pavillon des sports </unittitle>
+            <unitdate normal="1928">20e siècle</unitdate>
+            <physdesc>6 pages : illustrations et plans</physdesc>
+          </did>
+          <scopecontent>
+            <p>Le pavillon des sports du stade Amédée Prouvost à Roubaix / par M. Albert Bouvy fils, architecte</p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Bouvy, Albert</persname>
+            <corpname>Stade Amédée Prouvost</corpname>
+            <subject source="theme">Sports </subject>
+            <subject source="chrono">1919-1938</subject>
+            <subject source="Rameau">Stade Amédée Prouvost</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Le pavillon des sports du stade Amédée Prouvost à Roubaix / par M. A. Bouvy fils, architecte</p>
+            </daodesc>
+            <daoloc href="RBX_MED_JOU_P50134_26_305.jpg" role="image:first"/>
+            <daoloc href="RBX_MED_JOU_P50134_26_310.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

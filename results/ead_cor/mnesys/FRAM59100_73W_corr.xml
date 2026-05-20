@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead audience="external">
+	<eadheader>
+		<eadid>FRAM59100_73W</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Comptabilité Générale - versement 1987</titleproper>
+				
+				
+				
+			</titlestmt>
+			
+			<publicationstmt>
+				<publisher>Archives de la ville de Roubaix</publisher>
+				
+				
+				<date normal="2015-02-24">24/02/2015</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation>Instrument de recherche produit au moyen du logiciel Mnesys classement de la société Naoned Systèmes</creation>
+			<langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+			
+		</profiledesc>
+	</eadheader>
+	<archdesc id="a011424792402TLnmSF" level="subseries">
+		<runner/>
+		<did>
+			<unittitle>Comptabilité Générale - versement 1987</unittitle>
+			<unitid identifier="73w">73W</unitid>
+			
+			<unitdate type="inclusive" normal="1984-01-01/1985-12-31">1984-1985</unitdate>
+			<origination>Comptabilité Générale</origination>
+
+			
+			
+			
+			
+			<physdesc>
+				
+				<extent>0,2 ml, 2 article(s)</extent>
+
+				
+				
+				
+				
+				
+				
+			</physdesc>
+		</did>
+				<acqinfo><p>Type d'entrée : versement</p><p>Date d'entrée : 24/02/2015</p></acqinfo>
+ 	 																													
+		
+
+		<dsc type="in-depth">
+			<c id="a0114247924025RWXmj" level="subfile">
+				<did>
+					<unittitle>Bordereaux des mandats Années 1984<lb/>1er Trimestre<lb/>2ème Trimestre<lb/>3ème Trimestre<lb/>4ème Trimestre<lb/>Journée complémentaire 84</unittitle>
+					<unitid identifier="73W/1-73W/5">73W/1-5</unitid>
+					<unitdate type="inclusive" normal="1984-01-01/1984-12-31">1984</unitdate>
+					<physdesc>						papier
+					</physdesc>
+			
+					
+
+				</did>
+				<appraisal><p>conservation</p></appraisal><note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</c>
+			<c id="a011424792402i8lRPe" level="subfile">
+				<did>
+					<unittitle>Bordereaux des mandats Années 1985<lb/>1er Trimestre<lb/>2ème Trimestre<lb/>3ème Trimestre<lb/>4ème Trimestre<lb/>Journée complémentaire 85</unittitle>
+					<unitid identifier="73W/6-73W/10">73W/6-10</unitid>
+					<unitdate type="inclusive" normal="1985-01-01/1985-12-31">1985</unitdate>
+					<physdesc>						papier
+					</physdesc>
+			
+					
+
+				</did>
+				<appraisal><p>conservation</p></appraisal><note type="mnesysinternal"><p/></note>
+
+				
+
+
+				</c>
+		</dsc>
+	</archdesc>
+</ead>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead audience="external">
+    <eadheader>
+        <eadid>FRAM59100_000029</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Maison des Associations. - Réhabilitation partielle (2014) : dossiers des ouvrages exécutés (DOE).</titleproper>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Archives de la ville de Roubaix</publisher>
+                
+                
+                <date normal="2016">2016</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="fonds" id="a011471530973CsvCd9">
+        <runner>Maison des Associations. - Réhabilitation partielle (2014) : dossiers des ouvrages exécutés (DOE).</runner>
+        <did>
+            <unittitle>Maison des Associations. - Réhabilitation partielle (2014) : dossiers des ouvrages exécutés (DOE).</unittitle>
+            <repository>Archives de la ville de Roubaix</repository>
+            <unitid>374W</unitid>
+            <origination>Grands Projets</origination>
+            <unitdate normal="2014-01-01/2014-12-31">2014</unitdate>
+            <physdesc>
+                <extent>
+                    0.3 ml, 2 article(s)
+                </extent>
+                
+            </physdesc>
+            
+        </did>
+        
+        
+        
+        
+        <acqinfo><p>Type d'entrée : versement</p><p>Date d'entrée : 18/08/2016</p></acqinfo>
+        
+        
+        <controlaccess>
+            
+        </controlaccess>
+        <dsc type="in-depth">
+            <c level="item" id="a011471530973n8HZEg">
+	<did>
+		<unittitle>Dossier d'ouvrages executés alarme, désamiantage, fondations, VRD, gros œuvre, charpente, couverture, carrelage, serrurerie, menuiseries, platrerie, élévateur.</unittitle>
+		<unitid identifier="374W/1">374W/1</unitid>
+		
+		<unitdate normal="2014-01-01/2014-12-31" type="inclusive">2014 - 2014</unitdate>
+		<physdesc><physfacet>papier</physfacet>
+			
+		</physdesc>
+		
+	</did>
+	
+	<accessrestrict type="formate"><p>Communicable</p></accessrestrict>
+	
+	
+	
+	
+	
+	
+	
+	
+</c><c level="item" id="a011471530973QC0xUu">
+	<did>
+		<unittitle>Dossier d'ouvrages executés éclairage, électricité, chauffage, ventilation, plomberie sanitaire.</unittitle>
+		<unitid identifier="374W/2">374W/2</unitid>
+		
+		<unitdate normal="2014-01-01/2014-12-31" type="inclusive">2014 - 2014</unitdate>
+		<physdesc><physfacet>papier</physfacet>
+			
+		</physdesc>
+		
+	</did>
+	
+	<accessrestrict type="formate"><p>Communicable</p></accessrestrict>
+	
+	
+	
+	
+	
+	
+	
+	
+</c>
+        </dsc>
+    </archdesc>
+</ead>

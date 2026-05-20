@@ -1,0 +1,2460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_MUS_01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection d'archives du Musée La Piscine</titleproper>
+        <subtitle>Catalogue numérique</subtitle>
+        <author>Cet inventaire a été réalisé par Amandine Delcourt.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2007">2007</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation><p style="text-align: justify;">Cet inventaire a été saisi en EAD par Solenn Bihan en 2007.</p>
+
+<p style="text-align: justify;">Des compléments ont été ajoutés par Marion Frémeaux et Elise Laviéville en 2020. Concernant les nommages des visuels associés aux notices déjà existantes, il a été décidé de continuer le nommage en cours dans les series-subseries. Pour les series-subseries nouvellement créées, il a été décidé de calquer le nommage des visuels sur le nommage des notices, en ajoutant systématiquement les numéros de vues.</p></creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>MUS_ARC</unitid>
+      <unittitle>Archives du Musée La Piscine</unittitle>
+      <unitdate normal="1900">19e-20e siècles</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <repository>MUS</repository>
+    </did>
+    <scopecontent>
+      <p>
+        <p style="text-align: justify;">Outre ses collections temporaires et permanentes, le Musée La Piscine a collectionné au fil du temps des documents divers (photographies, affiches, plans, croquis, dessins, etc.), qui ont rejoint son fonds d'archives. Ces documents ont souvent un intérêt graphique ou historique, mais ils ne relèvent pas de l'exposition permanente du musée. Aussi est-ce l'occasion de les présenter ici, sous une forme numérique.</p>
+      </p>
+    </scopecontent>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_PIS</unitid>
+          <unittitle type="">Les bains roubaisiens</unittitle>
+          <unitdate normal="1930">19e-20e siècles</unitdate>
+        </did>
+        <controlaccess>
+          <geogname>Roubaix</geogname>
+          <subject source="theme">Sports </subject>
+          <subject source="theme">Bâtiments publics </subject>
+          <subject source="theme">Santé publique </subject>
+          <subject source="Rameau">Bains publics</subject>
+          <subject source="Rameau">Piscines</subject>
+          <subject source="Rameau">Hygiène</subject>
+        </controlaccess>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_PIS1</unitid>
+            <unittitle type="">Piscine - Rue des Champs</unittitle>
+            <unitdate normal=""/>
+            <repository>MUS</repository>
+            <origination>
+              <name normal="" role="auteur">Baert, Albert</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>Construite entre 1927 et 1932 dans le style art déco par l'architecte lillois Albert Baert et à l'initiative du maire Jean Lebas, les bains roubaisiens offraient à la population de Roubaix un service sportif et hygiénique de qualité, doué d'un fonctionnement social innovant qui présentait l'image d'une équipe municipale issue du monde ouvrier et capable de promouvoir des projets d'exception et de prestige.</p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Lebas, Jean-Baptiste (1878-1944)</persname>
+            <geogname source="rue">Champs, rue des</geogname>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_001</unitid>
+              <unittitle type="">Photographie de la piscine</unittitle>
+              <unitdate normal="">sans date</unitdate>
+              <physdesc>1 photographie : noir et blanc
+
+N° inventaire  : 20023910</physdesc>
+            </did>
+            <scopecontent>
+              <p>Photographie prise par la Compagnie générale d'hygiène.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_20023910.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_003</unitid>
+              <unittitle type="">Vue du bassin en cours de construction</unittitle>
+              <unitdate normal="1932">avant 1932</unitdate>
+              <physdesc>Photographie argentique</physdesc>
+              <origination>
+                <name normal="" role="photographe">Fievet, Emile</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Emile Fievet.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_003.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_004</unitid>
+              <unittitle type="">Vue de la salle des machines</unittitle>
+              <unitdate normal="1932">avant 1932</unitdate>
+              <physdesc>Photographie. Épreuve papier</physdesc>
+              <origination>
+                <name normal="" role="photographe">Fievet, Emile</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Émile Fievet.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_004.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_002</unitid>
+              <unittitle type="">Brevet scolaire de natation</unittitle>
+              <unitdate normal="1937">6 juillet 1937</unitdate>
+              <physdesc>N° inventaire : 988712</physdesc>
+            </did>
+            <scopecontent>
+              <p>Ce brevet de natation a été décerné à Marguerite Gallois le 6 juillet 1937.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_988712.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_005</unitid>
+              <unittitle type="">Salle des filtres en construction</unittitle>
+              <unitdate normal="1932">avant 1932</unitdate>
+              <physdesc>Photographie. Épreuve papier</physdesc>
+              <origination>
+                <name normal="" role="photographe">Fievet, Emile</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Émile Fievet.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_005.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_006</unitid>
+              <unittitle type="">Vue de l'entrée de la rue des Champs</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>
+                <p>2 photographies argentique</p>
+              </physdesc>
+              <origination>
+                <name normal="Fievet, Maurice" role="photographe">Fievet, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Cliché Maurice Fievet.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vue de l'entrée de la rue des Champs</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_006.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_007.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_008</unitid>
+              <unittitle type="">Section masculine de natation du sport ouvrier roubaisien</unittitle>
+              <unitdate normal="1935">vers 1935</unitdate>
+              <physdesc>Photographie. Épreuve papier</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_008.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_009</unitid>
+              <unittitle type="">Section féminine de natation du sport ouvrier roubaisien</unittitle>
+              <unitdate normal="1935">vers 1935</unitdate>
+              <physdesc>Photographie. Épreuve papier</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_009.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_010</unitid>
+              <unittitle type="">L'entrée de la rue des Champs</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_010.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_011</unitid>
+              <unittitle type="">Galerie des machines </unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>
+                <p>4 cartes postales</p>
+              </physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Clichés Maurice Rucquois.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Galerie des machines </p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_011.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_014.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_015</unitid>
+              <unittitle type="">Le grand plongeoir</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_015.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_016</unitid>
+              <unittitle type="">Hall de la rue intérieure</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_016.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_017</unitid>
+              <unittitle type="">Le jardin anglais</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_017.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_018</unitid>
+              <unittitle type="">La piscine : éclairage nocturne</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>
+                <p>2 cartes postales</p>
+              </physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Cliché Maurice Rucquois.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>La piscine : éclairage nocturne</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_018.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_019.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_020</unitid>
+              <unittitle type="">Nageurs dans le bassin</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_020.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_021</unitid>
+              <unittitle type="">La buvette</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_021.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_022</unitid>
+              <unittitle type="">Vestibule d'entrée</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_022.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_023</unitid>
+              <unittitle type="">Jardin français, restaurant, salle de repos</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_023.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_024</unitid>
+              <unittitle type="">Baignoire du 1er étage</unittitle>
+              <unitdate normal="1932">vers 1932</unitdate>
+              <physdesc>1 carte postale</physdesc>
+              <origination>
+                <name normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Cliché Maurice Rucquois.</p>
+            </scopecontent>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_024.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_025</unitid>
+              <unittitle type="">Carton d'invitation à l'inauguration</unittitle>
+              <unitdate normal="1932">1932</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_PIS1_988711.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_026</unitid>
+              <unittitle type="">Projet de construction des établissements de bains</unittitle>
+              <unitdate normal="1925">vers 1925</unitdate>
+              <physdesc>
+                <p>Plans aquarellés 5 vues</p>
+              </physdesc>
+            </did>
+            <daogrp>
+              <daodesc>
+                <p>Projet de construction des établissements de bains</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_988713.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_988717.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS1_031</unitid>
+              <unittitle type="">Vues de la piscine sur plaque de cuivre</unittitle>
+              <unitdate normal="1931">vers 1931</unitdate>
+              <physdesc>
+                <p>Plaque de cuivre - Matrice. 2 vues</p>
+              </physdesc>
+            </did>
+            <controlaccess>
+              <genreform>Images</genreform>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Vues de la piscine sur plaque de cuivre</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_988718.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_988719.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_PIS2</unitid>
+            <unittitle type="">Piscine - rue Pierre Motte</unittitle>
+            <unitdate normal="1895">vers 1895</unitdate>
+            <physdesc>1 dossier</physdesc>
+            <origination>
+              <name normal="" role="architecte">Bouvy, Albert</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>En 1894 fut déposée une demande d'autorisation pour la construction d'un établissement de bains et d'une école de natation. Conçu par l'architecte Albert Bouvy, ce bâtiment fait partie de l'histoire roubaisienne. Durant les guerres 1914-1918 et 1939-1945, l'armée allemande d'occupation en fit une prison pour les otages et les résistants arrêtés. L'établissement fut démoli en 1966.</p>
+          </scopecontent>
+          <controlaccess>
+            <geogname source="rue">Pierre Motte, rue</geogname>
+            <subject source="chrono">1871-1913</subject>
+            <subject source="Rameau">Prisons</subject>
+            <genreform>Images</genreform>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_PIS2_001</unitid>
+              <unittitle type="">Les bains roubaisiens</unittitle>
+              <unitdate normal="1922">1922</unitdate>
+              <physdesc>1 carte postale</physdesc>
+            </did>
+            <scopecontent>
+              <p>La piscine de la rue Pierre Motte.</p>
+            </scopecontent>
+            <dao href="RBX_MUS_ARC_PIS2_988720.jpg" role="image"/>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_COR</unitid>
+          <unittitle type="">Les corridas à Roubaix</unittitle>
+          <unitdate normal="1900">vers 1900</unitdate>
+          <physdesc>Impression sur papier</physdesc>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>A partir de 1893, la corrida connaît une mode éphémère dans le Nord, et surtout à Roubaix, où des compétitions sont organisées. Plus qu'une tradition remontant aux souverains espagnols qui régnèrent sur le nord de la France, il faut y voir un effet de la mode du particularisme et de l'Ibérie en vogue à la fin du XIXe siècle. Les combats d'animaux sont aussi une passion des régions septentrionales.
+
+Les corridas se déroulaient dans des arènes, aujourd'hui disparues, qui avait été érigées en 1888 rue Pergolèse, à côté de l'actuel vélodrome.</p>
+        </scopecontent>
+        <controlaccess>
+          <genreform>Images</genreform>
+          <subject source="chrono">1871-1913</subject>
+          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Sports </subject>
+          <geogname source="rue">Pergolèse, rue</geogname>
+        </controlaccess>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_COR_001</unitid>
+            <unittitle type="">Gran corrida espanola</unittitle>
+            <unitdate normal="1901">28 et 29 juillet 1901</unitdate>
+            <physdesc>
+              <p>1 affiche N° inventaire : 2004-24-1</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Affiche annonçant une corrida à Roubaix les 28 et 29 juillet 1901. M. Tiberghien commente : "<span>Ma grand-mère a assisté à ce spectacle ; elle devait avoir une petite vingtaine d'années. C'était un vieux lion, qui n'a pas combattu contre le taureau. Une chanson populaire est née : "C'est le lion Goliath qui ne tient plus sur ses pattes". Ce spectacle a eu lieu au torodrome, qui était en même temps le vélodrome. Sur le même site, il y eut la Clinique du Parc, démolie pour laisser place au nouveau bâtiment de la banque ONEY, qui faisait partie du groupe Mulliez. L'arrêt du tramway Mongy en face, dénommé "Vélodrome", s'est appelé "Clinique du Parc" et est actuellement l'arrêt "Villa Cavrois"."</span></p>
+            </p>
+          </scopecontent>
+          <dao href="RBX_MUS_ARC_COR_2004241.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_COR_002</unitid>
+            <unittitle type="">Plaza de Toros de Roubaix</unittitle>
+            <unitdate normal="1899">18 juin 1899</unitdate>
+            <physdesc>1 affiche
+
+N° inventaire : 988701</physdesc>
+          </did>
+          <scopecontent>
+            <p>Affiche annonçant une corrida à Roubaix le dimanche 18 juin 1899 à 15h30. Les matadores se nomment : Don Luis Mazzantini et Francisco Bonar y Casado Bonarillo. Corrida de 6 toros.</p>
+          </scopecontent>
+          <dao href="RBX_MUS_ARC_COR_988701.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_COR_003</unitid>
+            <unittitle type="">Photographie d'une corrida</unittitle>
+            <unitdate normal="1901">1901</unitdate>
+            <physdesc>1 photographie
+
+N° inventaire : 988702</physdesc>
+          </did>
+          <scopecontent>
+            <p>Photographie d'une corrida organisée en 1901 à Roubaix. Vue du taurodrome.</p>
+          </scopecontent>
+          <dao href="RBX_MUS_ARC_COR_988702.jpg" role="image"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_FDT</unitid>
+          <unittitle type="">Fête du Travail</unittitle>
+          <unitdate normal="1924">août 1924</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>Lorigine de la fête du travail à Roubaix en août 1924 reste encore un peu mystérieuse. Cette événement est-il isolé ou y a-t-il eu d'autres éditions ? Est-il relié aux manifestations du premier mai ?
+
+La manifestation du premier mai remonte à une résolution du Congrès Socialiste International de 1889, qui a pour exigence de mettre « les pouvoirs publics en demeure de réduire légalement à huit heures la journée de travail ». Après la répression sanglante de la manifestation du 1er mai 1891 à Fourmies dans le Nord, le 1er mai devient un moment fort d'expression de la lutte des classes. Mise en sommeil pendant la Grande Guerre, la revendication pressante du monde ouvrier aboutit en France dès 1919 à l'adoption d'une loi fixant la règle des huit heures de travail. Mais la crise économique qui sévit depuis 1922, la montée de l'extrême droite et les entraves multiples à la loi des huit heures par un patronat abusant de dérogations, maintiennent un mécontentement élevé qui continue de sexprimer lors de la mobilisation du 1er mai.
+
+
+
+A Roubaix, la mairie a été conquise par les socialistes et c'est Jean Lebas (1922-1931) qui a été élu maire de la ville. C'est dans un contexte de renouveau économique, après un redémarrage très difficile en 1919, que se situe l'action municipale. La priorité de Lebas est la transformation radicale des conditions de vie des travailleurs et de leurs enfants. Un ambitieux programme en témoigne : nouvelles écoles, colonies scolaires, centres aérés et logements sociaux sont autant darmes contre les maladies infantiles, la malnutrition, linsalubrité et la misère. 
+
+Jean Lebas prend à contre-pied le contexte social défavorable pour célébrer avec faste la Fête du Travail. Ce sera  en 1924 le « Couronnement de la Muse du Peuple » lors des « Fêtes du Travail »  où  les réjouissances chorales seront très présentes.
+
+
+
+Bibliographie :
+
+Jean Lebas : de la Belle Epoque à la Résistance / Jean Piat.- Roubaix : Maison du livre, 1994
+
+Histoire de Roubaix / sous la direction de Yves-Marie Hilaire.- Dunkerque : ed. des Beffrois, 1984
+
+Evénements mémorables de Roubaix : son histoire, ses hommes / Jean Piat.  Le Coteau : ed. Horvath, 1984
+
+Histoire du premier mai / Maurice Dommanget.- Paris : Société universitaire déditions et de librairie, 1953
+
+Roubaix : 15, 16, 17août 1924 : couronnement de la Muse du Peuple : fêtes du travail : programme officiel.-  [Roubaix (Nord) : Journal de Roubaix, 1924
+
+</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname>Roubaix</geogname>
+          <persname>Charpentier, Gustave</persname>
+          <subject source="chrono">1919-1938</subject>
+          <subject source="theme">Fêtes et cérémonies </subject>
+        </controlaccess>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_FDT_D01</unitid>
+            <unittitle type="">Programme officiel de la fête du travail</unittitle>
+            <unitdate normal="1924">1924</unitdate>
+            <physdesc>1 livret
+
+Seule la couverture est numérisée pour le moment.</physdesc>
+            <origination>
+              <name normal="" role="auteur">Desbarbieux, H.</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>Programme officiel des festivités organisées les 15, 16 et 17 août 1924 à Roubaix pour la célébration de la fête du travail. Publié par l'imprimerie du Journal de Roubaix sous la forme d'un livret, ce document informatif et publicitaire détaille le déroulement de ces trois jours de fête. La couverture du livret reprend en réduction l'affiche de la manifestation, qui a été réalisée par H. Desbarbieux.</p>
+          </scopecontent>
+          <acqinfo>
+            <p>Collection de M. Thiebaut.</p>
+          </acqinfo>
+          <controlaccess>
+            <genreform>Livres et revues</genreform>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Programme officiel de la fête du travail</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_FDT_D01_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_FDT_D01_054.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_FDT_D02</unitid>
+            <unittitle type="">Projets d'affiches de la fête du travail</unittitle>
+            <unitdate normal="1924">1924</unitdate>
+            <physdesc>21 affiches
+
+Techniques diverses sur papier. N° inventaires : 988537 à 988583
+
+
+
+</physdesc>
+          </did>
+          <scopecontent>
+            <p>21 projets d'affiche pour la fête du travail qui s'est déroulée à Roubaix les 15, 16 et 17 août 1924. Ces affiches sont les propositions de divers artistes ayant répondu au concours lancé pour la réalisation de l'affiche publicitaire de l'événement. Le thème imposé par la commission organisatrice était "le couronnement de la Muse du Peuple", apothéose musicale composée par Gustave Charpentier, et qui devait clore les festivités.
+
+L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581).</p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Images</genreform>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Projets d'affiches de la fête du travail</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_FDT_D02_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_FDT_D02_021.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_EINF</unitid>
+          <unittitle type="">Exposition Internationale du Nord de la France -  Roubaix 1911</unittitle>
+          <unitdate normal="1911">29 avril 1911</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Exposition Internationale du Nord de la France - Roubaix 1911 ; 29 avril 1911. En 1911, la ville de Roubaix organisa une importante exposition internationale, sur le modèle des expositions universelles qui avaient connu grand succès, à Paris notamment dans la seconde moitié du XIXe siècle et en 1900. Un village éphémère, constitué de pavillons parfois spectaculaires, fut créé de toutes pièces, à cette occasion, en bordure du Parc de Barbieux et l’Hôtel de Ville, conçu par Victor Laloux, fut bâti pour affirmer devant les nombreux visiteurs attendus la richesse de Roubaix, capitale mondiale de la laine peignée. D'une superficie de 34 hectares, l'exposition comprenait le grand Palais des Industries Textiles, le palais des Machines, le palais des Industries Diverses, le palais de l'Économie et de l'Hygiène Sociale, le palais de la Chambre de Commerce de Roubaix, le palais des Mines, le palais de la Chasse et de la Pêche etc. On a pu y admirer un Luna Park pittoresque, ainsi qu’un Village Sénégalais et un Village Flamand. Elle fut inaugurée le 29 avril en présence du ministre du commerce Massé et du maire de Roubaix Motte. Le grand public y accède le lendemain. Il lui est donné de voir différents palais et attractions qui éveillent la curiosité de tous. Ainsi, les dioramas des fourrures Révillon permettent aux Roubaisiens et aux populations qui travaillent dans le textile de voir le cheminement des fourrures à travers monts et lacs lointains jusqu’à l’usine de fabrication finale. L’Australie, grande puissance textile, est présente avec ses présentations de laines diverses mais aussi ses vins et ses céréales. Les visiteurs peuvent s’encanailler dans un grand casino qui se trouve dans l’enceinte de l’exposition, ils peuvent reposer leurs pieds en empruntant le train miniature qui leur offre sans s’épuiser un parcours dans l’exposition, ils peuvent aussi se distraire en découvrant le Village flamand typique reconstitué ou en s’amusant dans le Luna Park remplit d’attractions inédites. Le président Armand Fallières vient visiter l’exposition de Roubaix le 9 juillet 1911. Il est accueilli avec les honneurs dus à son rang et avec la liesse des Roubaisiens dans les rues. Une chorale chante même au président un petit hymne de circonstance : « Hourra au président et pour la vie. En ce grand jour les Roubaisiens. Jurent au nom de la patrie. De rester bons républicains ». Le président peut apprécier les stands des quelques 3357 exposants présents. Parmi eux, six pays étrangers (Belgique, Pays Bas, Argentine, Italie, Australie, Nouvelle Zélande) font de cette exposition une expo internationale. Les visiteurs se pressent dans les sections coloniales (Algérie, Tunisie, Afrique occidentale et équatoriale, Indochine, Madagascar, Martinique, Guyane) pour découvrir les territoires lointains et évocateurs de dépaysement. Ainsi, 115 sénégalais avec cors et tambours sont regroupés dans un village africain reconstitué. Durant l’exposition, de grandes fêtes aériennes marquent particulièrement les esprits avec les évolutions au dessus du centre de la Ville de ces merveilleux fous volants. Au total, 1.702.977 entrées sont totalisées dont 837403 payantes.</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="chrono">1871-1913</subject>
+          <subject source="theme">Fêtes et cérémonies </subject>
+          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Parcs, jardins et monuments </subject>
+          <genreform>Images</genreform>
+          <geogname source="rue">Parc Barbieux</geogname>
+        </controlaccess>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_001</unitid>
+            <unittitle type="">Service de verres et sa cruche</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>Cruche et 5 verres 
+
+Verre gravé
+
+N° inventaire : 20045701</physdesc>
+          </did>
+          <scopecontent>
+            <p>Souvenirs de l'Exposition Internationale du Nord de la France. Objet extrêmement rare et provenant sans doute du village flamand, installé au bord du parc Barbieux. </p>
+          </scopecontent>
+          <acqinfo>
+            <p>Don de la Société des Amis du Musée de Roubaix en 2004</p>
+          </acqinfo>
+          <controlaccess>
+            <genreform>Objets</genreform>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Service de verres et sa cruche</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_EINF_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_EINF_001A.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_002</unitid>
+            <unittitle type="">Carte postale : Roubaix 1911</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>1 carte postale
+
+N° inventaire : 2007002</physdesc>
+            <origination>
+              <name normal="" role="auteur">Steck, Paul</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>Dessin de Paul Steck</p>
+          </scopecontent>
+          <dao href="RBX_MUS_ARC_EINF_2007002.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_003</unitid>
+            <unittitle type="">Souvenir de la visite présidentielle</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>1 dessin en couleur
+
+N° inventaire : 2007003</physdesc>
+            <origination>
+              <name normal="" role="auteur">Pitt, Pol</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>Caricature du Président de la République Armand Fallières, signée Pol Pitt.</p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Fallières, Armand</persname>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_EINF_2007003.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_004</unitid>
+            <unittitle type="">Affiche publicitaire de la Société du Chemin de Fer du Nord</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>Affiche publicitaire
+
+Chromolithographie
+
+94,5 cm x L. 66 cm
+
+N° inventaire : 20092301</physdesc>
+          </did>
+          <resource>
+            <extref href="http://www.bn-r.fr/fr/notice.php?id=CP_A20_L1_S5_007"/>
+          </resource>
+          <scopecontent>
+            <p>Cette affiche acquise par le musée a été dessinée par J. Bargeron pour la Société du Chemin de Fer du Nord. Son auteur est un ancien élève de lENSAIT de Roubaix, formé au dessin de motifs pour le tissu. La marque textile que la ville souhaitait imprimer à la manifestation est fortement présente dans cette affiche. Le mouton évoque la laine qui est la spécialité de lindustrie roubaisienne. Les chardons rappellent une technique ancestrale de cardage et donc illustrent lactivité du peignage, fondamentale dans la chaîne lainière constituée à Roubaix. La vieille femme travaillant à son rouet symbolise la tradition textile de Roubaix. La figure de mercure exprime le succès commercial et industriel de la Cité aux mille cheminées dont la silhouette se détache devant un ciel rougeoyant qui annonce un jour nouveau.</p>
+          </scopecontent>
+          <acqinfo>
+            <p>Achat du musée en 2009</p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_EINF_004.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_005</unitid>
+            <unittitle type="">Carte postale : Souvenir de l'exposition Roubaix 1911</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>1 carte postale avec 12 vues de l'exposition de Roubaix 1911.</physdesc>
+          </did>
+          <dao href="RBX_MUS_ARC_EINF_988706.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_006</unitid>
+            <unittitle type="">Photographie de Victor Champier et Eugène Motte</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>1 photographie noir et blanc
+
+N° inventaire : 988710</physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>Photographie de Victor Champier (Directeur de lEcole Nationale des Industries Textiles) et de Eugène Motte (Maire de Roubaix) devant le Pavillon des transports coloniaux à lexposition de Roubaix 1911.</p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Champier, Victor</persname>
+            <persname>Motte, Eugène</persname>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_EINF_988710.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_007</unitid>
+            <unittitle type="">Affiche de l'exposition internationale du Nord de la France</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>1 affiche en couleur
+
+N° inventaire : 988711bis</physdesc>
+          </did>
+          <scopecontent>
+            <p>Affiche publicitaire de l'exposition internationale du Nord de la France.</p>
+          </scopecontent>
+          <dao href="RBX_MUS_ARC_EINF_988711bis.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_008</unitid>
+            <unittitle type="">Médaille</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>Bronze</physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>Médaille de l'Exposition Internationale du Nord de la France.</p>
+          </scopecontent>
+          <acqinfo>
+            <p>Don de la Société des amis du musée en 2011</p>
+          </acqinfo>
+          <daogrp>
+            <daodesc>
+              <p>Médaille</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_EINF_008.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_EINF_008A.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_EINF_009</unitid>
+            <unittitle type="">Plateau</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>Argent</physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>Souvenir de l'Exposition Internationale du Nord de la France.</p>
+          </scopecontent>
+          <acqinfo>
+            <p>Don de la Société des amis du musée en 2011</p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_EINF_009.jpg" role="image"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_CAV</unitid>
+          <unittitle type="">Les Cavalcades à Roubaix</unittitle>
+          <unitdate normal="1900">A partir de 1890</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>Faire la fête n'est pas chose nouvelle à Roubaix au XIXe siècle, ville qui sait s'amuser pour mieux conjurer ses malheurs et cacher sa misère. Chanter des chansons satiriques en patois, danser au son de l'harmonie ou la fanfare, défiler dans un cortège de chars, tels sont les différents modes festifs pratiqués chez nous. 
+
+Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisés, eurent l'idée d'une cavalcade dans les rues de Roubaix dont les bénéfices iraient au profit des plus pauvres non sans oublier les retombées économiques qui ne manqueraient pas de profiter à leur commerce de savon et parfumerie. L'idée nest pas absolument neuve puisque quelques années auparavant, les habitants du quartier du Fontenoy en avaient organisé une, en souvenir de la bataille de Fontenoy (1745). 
+
+</p>
+        </scopecontent>
+        <controlaccess>
+          <name>Vaissier frères</name>
+          <genreform>Images</genreform>
+          <geogname>Roubaix</geogname>
+          <subject source="chrono">1871-1913</subject>
+          <subject source="theme">Fêtes et cérémonies </subject>
+          <subject source="theme">Vie économique </subject>
+          <subject source="Rameau">Défilés</subject>
+          <subject source="Rameau">Chars décorés</subject>
+        </controlaccess>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_CAV2</unitid>
+            <unittitle type="">La grande cavalcade de 1903</unittitle>
+            <unitdate normal="1903">1903</unitdate>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>La munificence de la cavalcade de 1903 est incontestable. Défilèrent dans les rues des éléphants et des lions parmi la quarantaine de chars décorés que comptait le cortège. Parrainée par l'entreprise Vaissier, la cavalcade devait rehausser les cérémonies de la pause de la première pierre, la même année, du premier hôpital public de la ville, l'Hôpital de la Fraternité. </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_CAV2_003</unitid>
+              <unittitle type="">Livret-programme de la Cavalcade roubaisienne</unittitle>
+              <unitdate normal="1903">1903</unitdate>
+              <physdesc>
+                <p>1 Livret-programme, livret composé de 35 feuillets imprimés sur papier, dont deux recto/verso ; couverture manquante. 22 x 14 cm - N° Inventaire : 2007-55-1</p>
+              </physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Ce document témoigne du déroulement de la grande cavalcade de 1904. Il présente les membres du comité d'organisation, la liste des 50 chars participant au défilé, l'itinéraire du défilé et des illustrations représentant les différents chars. Alfred Reboux, imprimeur, Roubaix.</p>
+              </p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Achat du musée en 2007.</p>
+              </p>
+            </acqinfo>
+            <daogrp>
+              <daodesc>
+                <p>Programme des évènements</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_CAV2_003.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_CAV2_070.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_CAV2_001</unitid>
+              <unittitle type="">Masques de la grande cavalcade</unittitle>
+              <unitdate normal="1903">1903</unitdate>
+              <physdesc>
+                <p>2 masques en papier mâché peint. H. 19 x L. 13 x P. 11 cm. H. 21 x L. 14 x P. 16 cm - N° d'Inventaire : 988-1-161(1) et (2)</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Ces deux masques, confectionnés à l'occasion de la plus célèbre cavalcade, sont les témoignages rares de ce que fut cet évènement. Anne-Thérèse Dhelft-Thaon nous informe en commentaire que son grand-père, Alexandre Thaon, a participé à cette cavalcade dans le cadre de son association "le Cercle Polyglotte de Roubaix".</p>
+              </p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Ancien fonds de la Société des amis du musée de Roubaix ; don au musée en 1988.</p>
+              </p>
+            </acqinfo>
+            <daogrp>
+              <daodesc>
+                <p>Masques de la grande cavalcade</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_CAV2_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_CAV2_002.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_CAV1</unitid>
+            <unittitle type="">La cavalcade de 1899</unittitle>
+            <unitdate normal="1899">1899</unitdate>
+            <repository>MUS</repository>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_CAV1_001</unitid>
+              <unittitle type="">Les chars</unittitle>
+              <unitdate normal="1899">1899</unitdate>
+              <physdesc>
+                <p>3 photographies noir et blanc tirage argentique N° inventaires : 988703-988705</p>
+              </physdesc>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Le passage des chars et du cortège devant la Condition Publique.</p>
+              </p>
+            </scopecontent>
+            <controlaccess>
+              <corpname>Condition Publique (Roubaix, Nord)</corpname>
+              <geogname source="rue" coord="[ 50.6909898, 3.1968434 ]">Beaurepaire, boulevard</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Les chars de la cavalcade de 1899</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_CAV_988703.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_CAV_988705.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_IND</unitid>
+          <unittitle type="">Industries roubaisiennes</unittitle>
+          <unitdate normal="1930">Première moitié du XXe siècle</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <controlaccess>
+          <geogname>Roubaix</geogname>
+          <subject source="theme">Manufacture et industrie textile </subject>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D01</unitid>
+            <unittitle type="">Leclercq-Dupire, Société anonyme - Album souvenir</unittitle>
+            <unitdate normal="1930">1930</unitdate>
+            <physdesc>26 vues</physdesc>
+          </did>
+          <scopecontent>
+            <p>Album souvenir retraçant lhistoire de lentreprise Leclercq-Dupire et détaillant les différentes phases de la production : filature, tissage, teinture, apprêts etcIllustré de nombreuses photographies et luxueusement décoré, ce volume était destiné à être offert aux clients et « amis » de la société.</p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Livres et revues</genreform>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Leclercq-Dupire, Société anonyme - Album souvenir</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_2001551_01.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_2001551_26.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D02</unitid>
+            <unittitle type="">Etablissement François Masurel Frères</unittitle>
+            <unitdate normal="1930">1930</unitdate>
+            <physdesc>1 album de prestige
+
+N° inventaire : 988708</physdesc>
+          </did>
+          <scopecontent>
+            <p>Album de prestige retraçant lhistoire de lentreprise Masurel et présentant les différentes activités de la production.  Illustré de nombreuses photographies et luxueusement décoré, ce volume était destiné à être offert aux clients et « amis » de la société, il renseigne de manière précise, avec chiffres à lappui.</p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Livres et revues</genreform>
+            <subject source="chrono">1919-1938</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Etablissement François Masurel Frères</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_988708_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_988708_029.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D03</unitid>
+            <unittitle type="">Peignage Amédée Prouvost &amp; Cie</unittitle>
+            <unitdate normal="1951">1951</unitdate>
+            <physdesc>1 album
+
+N° inventaire : 988709</physdesc>
+          </did>
+          <scopecontent>
+            <p>Album de prestige du Peignage Amédée-Prouvost &amp; Cie, souvenir de la célébration du centenaire du Peignage. Seule la couverture a été numérisée.</p>
+          </scopecontent>
+          <controlaccess>
+            <genreform>Livres et revues</genreform>
+            <subject source="chrono">1946-1959</subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_IND_988709_01.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D04</unitid>
+            <unittitle type="">Laines du Pingouin - Affiche</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Affiche publicitaire. N° d'inventaire : 2017-54-1</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <otherfindaid>
+            <extref href="http://www.mediathequederoubaix.fr/osiros/result/resultat.php?type_rech=rs&amp;index%5B%5D=fulltext&amp;bool%5B%5D=&amp;type_source=&amp;value%5B%5D=zig+et+puce">Zig et Puce</extref>
+          </otherfindaid>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR123579">Buvard des Laines du Pingouin</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cette affiche au graphisme volontairement enfantin fut composée par Jean Effel et imprimée par Bedos &amp; Cie - Paris, pour les laines à tricoter du <em>Pingouin</em>, utilisant la vogue du pingouin Alfred, compagnon de Zig et Puce, les héros des albums d'Alain Saint-Ognon, apparus en 1925.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_IND_D04_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D05</unitid>
+            <unittitle type="">Laines du Pingouin - Présentoir à aiguilles</unittitle>
+            <unitdate normal="1965">1960-1970</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Le présentoir est composé de bois, de métal et de 12 aiguilles à tricoter. Il porte les mentions "LAINES DU PINGOUIN" sur une face et "STEMM" sur l'autre. Hauteur: 19 cm; Largeur : 30 cm; Profondeur : 15 cm. N° d'inventaire 2017-33-1.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR124049">Publicité Laines du Pingouin</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Ce présentoir pour les <em>Laines du Pingouin</em> témoigne de la prospère industrie lainière à Roubaix et de l'inventivité dont firent preuve les publicitaires pour placer leurs produits et leur marque sur un marché toujours plus concurrentiel.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="chrono">1960-1969</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Laines du Pingouin - Présentoir à aiguilles</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_D05_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_D05_004.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D06</unitid>
+            <unittitle type="">Tissus de Roubaix - Enseigne</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'une plaque de maison de tissu. Elle porte les mentions "TISSUS DE ROUBAIX / SPECIALITE / DES MERINOS DE REIMS" et une signature en bas à droite "VICTOR CAU - ROUBAIX". Hauteur : 45 cm ; Longueur : 100 cm ;  N° d'inventaire : 2017-36-1.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cette enseigne était utilisée pour signifier la devanture d'une maison de tissus. Cette dernière reste cependant à identifier.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de Monsieur Jean-François Boudailliez.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Tissus de Roubaix - Enseigne</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_D06_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_D06_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_IND_D07</unitid>
+            <unittitle type="">Laines du Marin - Affiche</unittitle>
+            <unitdate normal="1945">1940-1950</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'une affiche publicitaire imprimée sur papier, lui-même marouflé sur panneau cartonné. Hauteur : 28 cm ; Largeur : 22 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR123589">Publicité Laines du Marin</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Sur ce carton publicitaire vantant de manière très colorée les « Laines du Marin, Roubaix », signé du studio parisien Bernheim, un marin, assis sur le quai, vêtu de sa marinière et chaussé de sabots, arbore<br/>un béret à pompon et un collier de barbe, fume la pipe en tricotant nonchalamment, le litron de vin calé au sol entre les pelotes multicolores.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Don de la Société des Amis du Musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="chrono">1939-1945</subject>
+            <subject source="chrono">1946-1959</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_IND_D07_001.jpg" role="image"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_GDU</unitid>
+          <unittitle type="">Galerie Dujardin</unittitle>
+          <unitdate normal="">1905-1980</unitdate>
+          <physdesc>
+            <p>Ensemble de documents d'archives relatifs à la galerie Dujardin conservés au musée de Roubaix : affiches, cartons d'invitations aux expositions ou encore livrets.</p>
+          </physdesc>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Institution incontournable du paysage artistique local de sa fondation en 1905 par Eugène Dujardin. A sa fermeture au milieu des années 1980, la galerie Dujardin fut longtemps le seul espace de diffusion de l'art contemporain à Roubaix. En s’engageant après guerre sur la voie moderniste, sa dernière directrice, Mme Josée Courier, a soutenu et promu un grand nombre d’artistes, et parmi eux les membres du groupe dit de Roubaix.</p>
+          </p>
+        </scopecontent>
+        <acqinfo>
+          <p>
+            <p>Ancien fonds du musée de Roubaix</p>
+          </p>
+        </acqinfo>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_GDU1</unitid>
+            <unittitle type="">Portrait </unittitle>
+            <unitdate normal=""/>
+            <repository>MUS</repository>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU1_D01</unitid>
+              <unittitle type="">Portrait de Josée Courier par Noël D'Hulst (1916-1981)</unittitle>
+              <unitdate normal="1950">vers 1950</unitdate>
+              <physdesc>Huile sur toile.
+
+H. 46,6 ; L. 33 cm
+
+Signé en bas à gauche : N. D'Hulst</physdesc>
+              <repository>MUS</repository>
+              <origination>
+                <name normal="D'hulst, Noël" role="artiste peintre">Noël D'hulst</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>Madame Josée Courier a été à partir de 1952, la directrice de la Galerie Dujardin, situé 14 boulevard de Paris à Roubaix.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds de la ville de Roubaix, reversement au musée (Inv. 988-5-43)</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <persname>Courier, Josée</persname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU1_D01_001.jpg" role="image"/>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_GDU2</unitid>
+            <unittitle type="">Affiches</unittitle>
+            <unitdate normal=""/>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU2_D01</unitid>
+              <unittitle type="">Exposition du Groupe de Roubaix </unittitle>
+              <unitdate normal="1954">du 9 au 25 janvier 1954</unitdate>
+              <physdesc>
+                <p>Serigraphie sur papier H. 48,5 ; L. 31,3 cm</p>
+              </physdesc>
+              <repository>MUS</repository>
+              <origination>
+                <name normal="" role="illustrateur">Roulland, Jean</name>
+              </origination>
+            </did>
+            <scopecontent>
+              <p>
+                <p>Affiche de l'exposition du Groupe de Roubaix à la Galerie Dujardin à Roubaix située au 14, boulevard de Paris. Le dessin qui figure sur l'affiche a été réalisé par Jean Roulland. Un internaute remarque que le nom Van Heeck sur l'affiche s'écrit normalement Van Hecke.</p>
+              </p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Legs Michel Delporte au musée de Roubaix en 2001.</p>
+              </p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU2_D01_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU2_D02</unitid>
+              <unittitle type="">Exposition Michel Delporte et Pierre Leclercq</unittitle>
+              <unitdate normal="1959">du 14 au 30 novembre 1959</unitdate>
+              <physdesc>Sérigraphie sur papier
+
+H. 45 ; L. 37 cm</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Affiche de l'exposition Michel Delporte et Pierre Leclercq à la Galerie Dujardin à Roubaix située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Legs Michel Delporte au musée de Roubaix en 2001</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Delporte, Michel</persname>
+              <persname>Leclercq, Pierre</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU2_D02_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU2_D03</unitid>
+              <unittitle type="">Exposition André Copin et Pierre Leclercq</unittitle>
+              <unitdate normal="1971">du 12 février au 8 mars 1971</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Affiche de l'exposition André Copin et Pierre Leclercq à la Galerie Dujardin à Roubaix </p>
+            </scopecontent>
+            <acqinfo>
+              <p>Don Monsieur Pierre-André Copin au musée de Roubaix en 2005</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Copin, André</persname>
+              <persname>Leclercq, Pierre</persname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU2_D03_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU2_D04</unitid>
+              <unittitle type="">Quand les peintres deviennent orfèvres...</unittitle>
+              <unitdate normal="1974">du 22 décembre 1973 au 22 janvier 1974</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Affiche de l'exposition "Quand les peintres deviennent orfèvres..." à la Galerie Dujardin alors située 39, rue du Vieil Abreuvoir.
+
+Cette exposition s'est tenue dans le cadre de l'exposition annuelle dite du "Petit format", instaurée par Josée Courier.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Don Monsieur Pierre-André Copin en 2005</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU2_D04_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU2_D05</unitid>
+              <unittitle type="">Exposition Copin à la Galerie Dujardin </unittitle>
+              <unitdate normal="1976">du 29 janvier au 17 février 1976</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Affiche de l'exposition Copin à la Galerie Dujardin.
+
+En octobre 1973, la galerie Dujardin déménage et ouvre ses portes au 39, rue du Vieil Abreuvoir à Roubaix.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Don Monsieur André-Pierre Copin en 2005</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU2_D05_001.jpg" role="image"/>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_GDU3</unitid>
+            <unittitle type="">Cartons d'invitation</unittitle>
+            <unitdate normal=""/>
+          </did>
+          <acqinfo>
+            <p>Ancien fonds du musée de Roubaix</p>
+          </acqinfo>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D01</unitid>
+              <unittitle type="">Exposition d'Arsène Chabanian </unittitle>
+              <unitdate normal="1924">du 15 février au 28 février 1924</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition d'Arsène Chabanian.
+
+L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à Roubaix.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Chabanian, Arsène</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU3_D01_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D02</unitid>
+              <unittitle type="">Exposition de L. Masson</unittitle>
+              <unitdate normal="1924">1er au 15 novembre 1924</unitdate>
+              <physdesc>Impression sur papier </physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de L. Masson à la galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Masson, L.</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU3_D02_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D03</unitid>
+              <unittitle type="">Exposition de Renée Davids</unittitle>
+              <unitdate normal="1928">du 1er au 15 novembre 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>AUT</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de Renée Davids. 
+
+14, boulevard de Paris à Roubaix.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Davids, Renée</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU3_D03_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D04</unitid>
+              <unittitle type="">Exposition de G. Dumoulin</unittitle>
+              <unitdate normal="1930">Vers 1930</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de G. Dumoulin qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Dumoulin, G.</persname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU3_D04_001.jpg" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D05</unitid>
+              <unittitle type="">Exposition de René Jaudon</unittitle>
+              <unitdate normal="1928">du 28 février au 6 mars 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de René Jaudon qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>René, Jaudon</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition de René Jaudon</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D05_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D05_003.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D06</unitid>
+              <unittitle type="">Exposition de Marius F. de Buzon</unittitle>
+              <unitdate normal="1928">16 au 31 octobre 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de Marius F. de Buzon qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition de Marius F. de Buzon</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D06_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D06_003.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D07</unitid>
+              <unittitle type="">Exposition de l'Abbé Calès</unittitle>
+              <unitdate normal="1928">du 16 au 30 novembre 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de l'Abbé Calès qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition de l'Abbé Calès</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D07_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D07_003.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D08</unitid>
+              <unittitle type="">Exposition de Désiré-Lucas</unittitle>
+              <unitdate normal="1947">du 1er au 16 décembre 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de Désiré-Lucas qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition de Désiré-Lucas</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D08_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D08_003.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D09</unitid>
+              <unittitle type="">Exposition d'Eugène Declercq</unittitle>
+              <unitdate normal="1947">du 19 novembre au 2 décembre 1947</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition d'Eugène Declercq qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <persname>Declercq, Eugène</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition d'Eugène Declercq</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D09_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D09_002.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D10</unitid>
+              <unittitle type="">Exposition d'Artistes du Salon des Indépendants</unittitle>
+              <unitdate normal="1928">du 22 mars au 3 avril 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition d'un groupe "d'Artistes du Salon des Indépendants" qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Exposition d'Artistes du Salon des Indépendants</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D10_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D10_002.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU3_D11</unitid>
+              <unittitle type="">Exposition de Pierre Montezin</unittitle>
+              <unitdate normal="1928">du 1er au 15 novembre 1928</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Carton d'invitation à l'exposition de Pierre Montezin qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <persname>Montezin, Pierre</persname>
+            </controlaccess>
+            <dao href="RBX_MUS_ARC_GDU3_D11_001.jpg" role="image"/>
+          </c>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_GDU4</unitid>
+            <unittitle type="">Livrets d'exposition</unittitle>
+            <unitdate normal=""/>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU4_D01</unitid>
+              <unittitle type="">Livret de l'exposition A. Dequêne et de P. Huguet</unittitle>
+              <unitdate normal="1924">12 au 30 janvier 1924</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Livret de l'exposition A. Dequêne et de P. Huguet qui s'est tenue à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds du musée </p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition A. Dequêne et de P. Huguet</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D01_002.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU4_D02</unitid>
+              <unittitle type="">Livret de l'exposition Henri Pailler</unittitle>
+              <unitdate normal="1925">19 octobre au 1er novembre 1925</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Livret de l'exposition Henri Paillier qui s'est tenue à la Galerie Dujardin située 14, boulevard de Paris. Exemplaire dédicacé par l'artiste à l'attention de Monsieur et Madame Victor Champier.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds du musée</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Pailler, Henri</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition Henri Pailler</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D02_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D02_006.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU4_D03</unitid>
+              <unittitle type="">Livret de l'exposition de D.-H. Ponchon et de E. Van Overbecke</unittitle>
+              <unitdate normal="1920">17 octobre au 10 novembre 1920</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Livret de l'exposition de D.-H. Ponchon et de E. Van Overbecke qui s'est tenue à la Galerie Dujardin située 14, boulevard de Paris. Préface de Jean-Joseph Weerts.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds du musée</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition de D.-H. Ponchon et de E. Van Overbecke</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D03_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D03_008.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU4_D05</unitid>
+              <unittitle type="">Livret de l'exposition de Germaine Neveux</unittitle>
+              <unitdate normal="1920">du 13 au 30 mai 1920</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Livret de l'exposition Germaine Lantoine-Neveux qui s'est tenue à la Galerie Dujardin située 14, boulevard de Paris. Préface de Victor Champier.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds du musée</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Neveux, Germaine</persname>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition de Germaine Neveux</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D05_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D05_007.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_ARC_GDU4_D04</unitid>
+              <unittitle type="">Livret de l'exposition Henri Foreau</unittitle>
+              <unitdate normal="1925">1er au 15 février 1925</unitdate>
+              <physdesc>Impression sur papier</physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p>Livret de l'exposition Henri Foreau qui s'est tenue à la Galerie Dujardin située 14, boulevard de Paris.</p>
+            </scopecontent>
+            <acqinfo>
+              <p>Ancien fonds du musée</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <persname>Foreau, Henri</persname>
+            </controlaccess>
+            <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition Henri Foreau</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D04_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D04_008.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_HDV</unitid>
+          <unittitle type="">Hôtel de Ville</unittitle>
+          <unitdate normal=""/>
+          <repository>MUS</repository>
+        </did>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_001</unitid>
+            <unittitle type="">La bénédiction des Eaux de la Lys par Emile Defrenne</unittitle>
+            <unitdate normal="1864">1864</unitdate>
+            <physdesc>
+              <p>Huile sur toile</p>
+            </physdesc>
+            <repository>MUS</repository>
+            <origination>
+              <name normal="" role="artiste peintre">Defrenne, Emile</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Depuis le début du XIXe siècle, le problème de l'adduction d'eau à Roubaix était un sujet de préoccupations permanentes. L'été, l'usage des pompes publiques était contingenté et bien souvent les industriels, pour alimenter leurs machines à vapeur, devaient puiser dans le canal ou forer des puits profonds. Ce n'est qu'en 1863 qu'aboutit le projet d'une prise des eaux de la Lys et le refoulement par conduites ascensionnelles vers Roubaix-Tourcoing. C'est la cérémonie d'inauguration de l'arrivée des eaux de la Lys à Roubaix que figure ici Emile Defrenne. La scène se passe le 15 août 1863, sur le perron de l'hôtel de ville, en présence du maire Ernoult-Bayart, du sénateur Mimerel et de toute la haute société roubaisienne. Nécessaire pour le fonctionnement des peignages de laine, cette transformation modifie de fait le paysage urbain. Commandé à Emile Defrenne par la maire de Tourcoing, Roussel-Defontaine, le tableau jumeau de celui-ci a longtemps été présenté dans la salle du conseil municipal de la ville. Ces deux représentations officielles montrent l'importance de cet évènement pour les deux villes industrielles de Roubaix et de Tourcoing.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Commande de la ville de Roubaix</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_HDV_001.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_002</unitid>
+            <unittitle type="">Vue panoramique de la Grand'Place à Roubaix</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>
+              <p>Peinture à la colle sur toile<br/> H. 6 x L. 13 m</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Pensé et dessiné par l'architecte Victor Laloux, l'hôtel de Ville est inauguré en 1911.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Ancien fonds Ville de Roubaix</p>
+            </p>
+          </acqinfo>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_003</unitid>
+            <unittitle type="">Maquette de la façade de l'hôtel de ville</unittitle>
+            <unitdate normal="1910">1910</unitdate>
+            <physdesc>
+              <p>Plâtre</p>
+            </physdesc>
+            <repository>MUS</repository>
+            <origination>
+              <name normal="" role="auteur">Lefebvre, Hippolyte</name>
+              <name normal="" role="auteur">Laoust, André</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Maquette de la façade de l'hôtel de ville par Hippolyte Lefebvre (1863-1935) et André Laoust (1843-1924). L'hôtel de Ville, pensé et dessiné par l'architecte Victor Laloux est inauguré en 1911.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Reversement de la ville de Roubaix pour son musée en 1910.</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_HDV_003.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_004</unitid>
+            <unittitle type="">Canevas</unittitle>
+            <unitdate normal="1950">20ème siècle</unitdate>
+            <physdesc>
+              <p>Coton brodé</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Canevas représentant l'hôtel de ville de Roubaix pensé et dessiné par l'architecte Victor Laloux, inauguré en 1911.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Don anonyme au musée en 2005</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_HDV_004.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_005</unitid>
+            <unittitle type="">Représentation de l'hôtel de ville</unittitle>
+            <unitdate normal=""/>
+            <physdesc>
+              <p>Marqueterie de paille</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Un internaute pense qu'il s'agirait d'une représentation de l'Hospice Barbieux plutôt que de l'Hôtel de Ville.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Don Jean Piat au musée de Roubaix en 1999</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_HDV_005.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_006</unitid>
+            <unittitle type="">Portrait de Victor Laloux (1850-1937)</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc>
+              <p>Huile sur toile</p>
+            </physdesc>
+            <repository>MUS</repository>
+            <origination>
+              <name normal="" role="artiste peintre">Weerts, Jean-Joseph</name>
+            </origination>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Portrait peint par Jean-Joseph Weerts (1846-1927). Victor Laloux est l'architecte qui réalisa les plans de l'hôtel de ville de Roubaix. Il est également l'auteur des plans de la gare d'Orsay à Paris et de la mairie de Tours, sa ville natale.</p>
+            </p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Donation Jean-Joseph Weerts à la ville de Roubaix en 1924.(Inv. JJW.4)</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_HDV_006.jpg" role="image"/>
+        </c>
+        <c level="item">
+          <did>
+            <unitid>MUS_ARC_HDV_007</unitid>
+            <unittitle type="">Truelle et pioche pour la pose de la première pierre</unittitle>
+            <unitdate normal="1911">1911</unitdate>
+            <physdesc><p style="text-align: justify;">Les instruments sont composés de métal argenté et de bois. Les noms des personnalités présentes le jour de l'inauguration sont gravés sur la truelle.</p>
+
+<p style="text-align: justify;"> </p></physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR114091">Hôtel de ville - en construction</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">La pose de la première pierre de l'Hôtel de Ville commandé par le maire Eugène Motte à Victor Laloux pour illustrer la réussite économique de la cité textile a eu lieu le 24 novembre 1907. Sur la truelle, sous les armes conjointes de la ville de Roubaix et de la République française, figurent la devise de la cité, PROBITAS INDUSTRIA, et la liste des personnalités ayant présidé cette cérémonie : Louis Vincent, préfet du Nord, Eugène Motte, maire de Roubaix, le Conseil municipal dans son ensemble, Victor Laloux, architecte de l'édifice, AG Dubois, inspecteur des travaux et A. Pennel, entrepreneur de maçonnerie.</p>
+
+<p style="text-align: justify;">Ces éléments ont été visibles sur le "podium" de la salle d'Histoire de Roubaix par les oeuvres, autrement appelée salle du panorama. Le "podium" est destiné à accueillir des objets en exposition temporaire.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p>Don d'Antoine et Martine Flipo-Motte, héritier d'Eugène Motte, en 2018.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <corpname>Motte, Eugène</corpname>
+            <subject source="chrono">1871-1913</subject>
+            <subject source="theme">Bâtiments publics </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Truelle et pioche pour la pose de la première pierre</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_HDV_007_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_HDV_007_003.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_VIV</unitid>
+          <unittitle type="">Vivre et habiter</unittitle>
+          <unitdate normal="1900">19e - 20e siècle</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p style="text-align: justify;">Cette série rassemble des documents relatifs à l'architecture, à la décoration intérieure et au mobilier des secteurs public et privé.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_VIV_D01</unitid>
+            <unittitle type="">Demeure de A. Wattine-Lorthiois</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit de 3 tirages argentiques en noir et blanc sur papier représentant la façade et l'intérieur de la demeure de l'industriel roubaisien A. Wattine-Lorthiois. Hauteur : 29 cm ; Largeur : 20.5 cm; N° d'inventaire 2016-50-1 ; Hauteur : 27 cm ; Largeur : 21.5 cm ; N° d'inventaire : 2016-50-2 ; Hauteur : 23 cm ; Largeur : 28 cm ; N° d'inventaire : 2016-50-3.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">L'immeuble existe toujours dans la Grand Rue à Roubaix mais la façade a été modifié par la devanture d'un magasin au rez-de-chaussée. Ce vaste hôtel particulier reflète l'usage des industriels roubaisiens de construire de grande demeures en ville au début du XXe siècle.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du Musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="theme">Logement </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Demeure de A. Wattine-Lorthiois</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_VIV_D01_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_VIV_D01_003.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_VIV_D02</unitid>
+            <unittitle type="">Porte - Allégorie de la Ville de Roubaix</unittitle>
+            <unitdate normal=""/>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'un vitrail ornant une porte. Hauteur : 146 cm ; Largeur : 67 cm ; N° d'inventaire : 2017-2-1.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cette verrière de très belle qualité représente une allégorie de la Ville de Roubaix, entourée de draperies et d'éléments techniques qui évoquent l'industrie textile tels qu'un rouet ou une quenouille. Les armoiries de la ville occupent la partie basse de la composition enserrée dans un riche réseau d'arabesques.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don du Cercle des entreprises mécènes du musée La Piscine.</p>
+            </p>
+          </acqinfo>
+          <dao href="RBX_MUS_ARC_VIV_D02_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_VIV_D03</unitid>
+            <unittitle type="">Porte de la Barque d'Or - Gambrinus sur son tonneau</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'un verre gravé ornant une porte, représentant Gambrinus sur son tonneau surmonté de la mention "LA BARQUE D'OR". Représenté le poing gauche levé, à cheval sur un tonneau, Gambrinus est entouré de motifs décoratifs.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR48850">Devanture du café la Barque d'Or en 1935</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Gambrinus symbolise la bonne humeur et la joie de vivre des amateurs de bière. D'après un conte flamand, le carillonneur Gambrinus tomba amoureux de Flandrine, fille d’un verrier, qui ne lui accordait aucun regard. Malheureux, il jouait si mal que les habitats le mirent en prison. A sa sortie, le Diable lui proposa de lui faire oublier Flandrine en échange de son âme, qu’il viendrait chercher trente ans plus tard, et de graines de houblon. Gambrinus accepta, se mit à fabriquer de la bière et à organiser des fêtes qui remportèrent un franc succès. La boisson se répandit dans toute la région et il fut nommé duc par le roi des Flandres – bien qu'il préférait le nom de « Roi de la bière ». Lorsque Flandrine se présenta à lui, il ne la reconnut pas, l’ayant oubliée, et quand le Diable revint réclamer son âme trente ans plus tard, il joua du carillon jusqu’à le mettre en fuite.</p>
+
+<p style="text-align: justify;">Le café la Barque d'Or se trouvait au bord du canal à l'angle de la rue de Lille et de l'avenue Foch, précédemment appelée rue Neuve.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="theme">Vie quotidienne </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Porte de la Barque d'Or - Gambrinus sur son tonneau</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_VIV_D03_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_VIV_D03_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_VIV_D04</unitid>
+            <unittitle type="">Pierre Neveux - Mobilier</unittitle>
+            <unitdate normal="1935">1935</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'un ensemble de mobilier de bureau pour le cabinet de l'architecte roubaisien Pierre Neveux. Il se compose d'un bureau, d'un bureau dactylo, d'un meuble de rangement, d'un fauteuil et de trois chaises. Bureau : 77 x 206 x 90 cm; Bureau dactylo : 70 x 105 x 45 cm ; Meuble de rangement : 121 x 105 x 35 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cet ensemble de mobilier provient de la maison de Pierre Neveux située au 40 rue Anataloe France à Roubaix. L'architecte roubaisien construit cette maison en 1935 pour son usage personnel, professionnel et privé. Elle est inscrite à l'inventaire supplémentaire des monuments historiques en 1998.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="chrono">1919-1938</subject>
+            <persname>Neveux, Pierre</persname>
+          </controlaccess>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_HIS</unitid>
+          <unittitle type="">Histoire de Roubaix par les oeuvres</unittitle>
+          <unitdate normal="1900">19e - 20e siècle</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p style="text-align: justify;">Cette série regroupe les documents relatifs à l'Histoire de Roubaix par les oeuvres du musée La Piscine. Ces oeuvres font partie de l'exposition permanente du musée, notamment la salle appelée "Histoire de Roubaix par les oeuvres", d'expositions temporaires, notamment l'espace d'exposition temporaire de la salle "Histoire de Roubaix par les oeuvres" que l'on surnomme le "Podium". Elles peuvent également refléter les collections au sens large, qui ne sont pas ou plus exposées.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D01</unitid>
+            <unittitle type="">Mamadou N'Diaye - Vitrail</unittitle>
+            <unitdate normal="2000">20e - 21e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'un vitrail représentant Mamadou N'Diaye portant la mention "Au cher Monsieur Mamadou qui m'a sauvé la vie / Témoignage reconnaissant / La Marquise". Hauteur : 66 cm ; Largeur : 47 cm ; N° d'inventaire : 2017-35-1.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Mamadou N’Diaye (1909-1985) est représenté devant le drapeau du Sénégal. La dédicace ne laisse aucun doute quant à l’intention du commanditaire de rendre hommage à son bienfaiteur. Ce guérisseur-chiropracteur roubaisien, figure du quartier du Pile, fit les belles heures de la boxe à Roubaix, et fut défendu par le sénateur et maire de Roubaix André Diligent lors de son procès pour exercice illégal de la médecine.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <corpname>N'Diaye, Mamadou</corpname>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_HIS_D01_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D02</unitid>
+            <unittitle type="">Eugène Motte - Portrait</unittitle>
+            <unitdate normal="1950">20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'une plaque commémorative à l'effigie d'Eugène Motte portant les mentions "1860-1932 / EUGENE MOTTE / INDUSTRIEL / ANCIEN DEPUTE-MAIRE DE ROUBAIX" et signée "R.BENARD / 1911". Plaque : 15 x 11 cm ; Support en bois : 24 x 19 cm. N° d'inventaire : 2017-48-1.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR50430">Photographie de l'inauguration du monument commémoratif d'Eugène Motte</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cette plaque a sans doute été éditée lors du projet de monument commémoratif au décès d'Eugène Motte en 1932. Pour cette médaille, le graveur Raoul Bénard a repris un portrait du politique datant de 1911 à l'occasion de l'Exposition Internationale de Roubaix.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de Madame Decokam.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <corpname>Motte, Eugène</corpname>
+            <subject source="theme">Vie politique </subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_HIS_D02_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D03</unitid>
+            <unittitle type="">Cadeau à Eugène Motte</unittitle>
+            <unitdate normal="1910">1910</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'une sculpture en bronze doré de l'artiste polonais Ignacy LOPIENSKI (1865 – 1944). Hauteur : 43 cm ; Largeur : 18 cm ; Profondeur : 16 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Cette sculpture représente un forgeron supposément au travail. La représentation n'est pas réaliste : l’homme possède en effet tous les attributs du forgeron, tablier, masse et enclume, mais il détient une flamme dans la main droite qu’il brandit vers le ciel. Cette œuvre a été offerte à Eugène Motte, comme l’atteste la plaque qui porte la dédicace suivante : "A Monsieur Eugène Motte / ses collaborateurs de Czestochowa / 23 octobre 1910."</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="chrono">1871-1913</subject>
+            <corpname>Motte, Eugène</corpname>
+            <subject source="theme">Vie politique </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Cadeau à Eugène Motte</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_HIS_D03_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_HIS_D03_012.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D04</unitid>
+            <unittitle type="">Jules Guesde - Portrait</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'un médaillon de plâtre teinté portant les mentions "JULES GUESDE / UN POUR TOUS / TOUS<br/>POUR UN" et signé en bas à droite "Et. Hautoit". Diamètre : 46 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR48335">Le monument Jules Guesde</extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Le médaillon porte l’inscription « Un pour tous / Tous pour un » gravée dans un phylactère ornant la couronne de laurier. Jules Guesde est présenté de profil, dans un écho à la tradition impériale romaine. Une attention toute particulière a été portée à la représentation des cheveux, de la barbe mais aussi du costume et des lunettes, perchées sur le nez du député.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <corpname>Guesde, Jules (1845-1922)</corpname>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_HIS_D04_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D05</unitid>
+            <unittitle type="">L'entrée de la Lainière à Roubaix</unittitle>
+            <unitdate normal="1951">1951</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit d'une huile sur toile de Jean Dehelly (1896-1964) représentant l'entrée de la Lainière à Roubaix. Elle est signée en bas à gauche et porte la date de 1951 sur le châssis. Hauteur : 54 cm ; Largeur : 73 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Offrant ici un paysage industriel, l’artiste décentre le bâtiment de la lainière sur la gauche pour placer au centre une voiture tirée par deux chevaux qui sort de l’entreprise de filage. La touche vaporeuse en arrière-plan se fait précise au premier plan pour détailler les pavés et les grilles.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <subject source="chrono">1946-1959</subject>
+            <subject source="theme">Manufacture et industrie textile </subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_HIS_D05_001.jpg" role="image"/>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_HIS_D06</unitid>
+            <unittitle type="">Mamadou N'Diaye - Portraits</unittitle>
+            <unitdate normal="1970">1959-1981</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit de 3 portraits  peints représentant Mamadou N'Diaye. Le premier est signé et daté en bas à droite "Henry Blywert / 1959", le deuxième est signé en bas à droite "Flor Coucke" et le troisième est signé et daté en bas à droite "R. Doens / 1981". Premier portrait : 39 x 22 cm ; Deuxième portrait : 45 x 35 cm ; Troisième portrait : 50 x 40 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p style="text-align: justify;">Mamadou N’Diaye (1909-1985), guérisseur-chiropracteur roubaisien, fit les belles heures de la boxe à Roubaix. Il fut défendu par le sénateur et maire de Roubaix André Diligent lors de son procès pour exercice illégal de la médecine.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de la Société des Amis du musée.</p>
+            </p>
+          </acqinfo>
+          <controlaccess>
+            <persname>N'Diaye, Mamadou</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Mamadou N'Diaye - Portraits</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_HIS_D06_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_HIS_D06_003.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_TRA</unitid>
+          <unittitle type="">Transports</unittitle>
+          <unitdate normal=""/>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p style="text-align: justify;">Cette série rassemble les documents du musée relatifs aux transports.</p>
+          </p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="theme">Transports </subject>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_TRA_D01</unitid>
+            <unittitle type="">Tramways - Roubaix - Tourcoing</unittitle>
+            <unitdate normal="1900">1900</unitdate>
+            <physdesc>
+              <p style="text-align: justify;">Il s'agit de deux tirages argentiques en noir et blanc. Hauteur : 20 cm ; Largeur : 25.3 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <resource>
+            <extref href="https://www.bn-r.fr/ark:/20179/BNR122176">Le tramway passant devant le chevet de l'église Saint Martin </extref>
+          </resource>
+          <scopecontent>
+            <p><p style="text-align: justify;">Ces photographies appartiennent à la série que l’atelier lillois Cayez a consacrée à la société des tramways de Lille-Roubaix-Tourcoing. L’une représente les ateliers de maintenance de la compagnie, sur le bord du grand boulevard réunissant Lille à Roubaix. La seconde est une vue panoramique de la Grand'place de Roubaix.</p>
+
+<p style="text-align: justify;">Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+          </scopecontent>
+          <acqinfo>
+            <p>
+              <p style="text-align: justify;">Don de Monsieur Daniel Najberg.</p>
+            </p>
+          </acqinfo>
+          <daogrp>
+            <daodesc>
+              <p>Tramways - Roubaix - Tourcoing</p>
+            </daodesc>
+            <daoloc href="RBX_MUS_ARC_TRA_D01_001.jpg" role="image:first"/>
+            <daoloc href="RBX_MUS_ARC_TRA_D01_002.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_PRO</unitid>
+          <unittitle type="">Exposition Progrès Social</unittitle>
+          <unitdate normal="1939">1939</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p><p style="text-align: justify;">Cette série rassemble les documents du musée relatifs à l'exposition du Progrès Social célébrée à Lille et Roubaix en 1939.</p>
+
+<p style="text-align: justify;">L’Exposition du Progrès social se tint à Lille et à Roubaix en 1939. Prévue initialement en 1938 mais inaugurée le 14 mai 1939 dans un climat difficile, elle reçut la visite le 4 juin du Président de la République Albert Lebrun. Elle fut stoppée par la déclaration de la deuxième guerre mondiale le 3 septembre 1939 et ferma ses portes bien avant le terme initial du mois d'octobre. Projet du maire de Roubaix Jean-Baptiste Lebas et du maire de Lille Roger Salengro, cette exposition se déroulait sur 45 hectares entre les deux villes. Lille accueillait, à proximité de la gare, les stands des pays étrangers (pavillons de la Belgique, du Luxembourg, des Pays-Bas et de l’Allemagne) ; à Roubaix, dans l'enceinte du Parc Barbieux, se tenaient les pavillons des provinces françaises. Outre les pavillons d’expositions et les attractions traditionnelles, un vaste programme de constructions sociales et sportives était prévu par les organisateurs ; une piscine et un stade furent érigés. L’objectif annoncé était, dans une atmosphère de « fêtes grandioses » et de « spectacles uniques » de présenter « tout ce qui améliore la condition humaine réuni pour la première fois au monde », soit « les derniers secrets de la Science, les plus modernes créations artistiques, dans les domaines les plus variés : hygiène, confort, prévoyance, famille, arts, sports, cinéma, vie communale, habitation, théâtre, etc. ». La télévision y occupait une place de choix. Sorte d’exposition internationale en modèle réduit, la manifestation avait également comme ambition d’ériger en modèle la politique de reconstruction des régions dévastées du nord et de l’est, menée par la France. Elle devait ainsi marquer la renaissance des départements français particulièrement meurtris par la dernière guerre. A Roubaix, l’accent fut mis en particulier sur les réalisations des habitations à bon marché, le quartier du Nouveau Roubaix, les efforts enfin pour concilier confort, hygiène et embellissement.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.</p></p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="chrono">1939-1945</subject>
+        </controlaccess>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_AUT</unitid>
+          <unittitle type="">Autour du travail</unittitle>
+          <unitdate normal=""/>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Cette série comporte des documents du musée relatifs au monde du travail.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>MUS_ARC_AUT_D01</unitid>
+            <unittitle type="">Caisse de Retraites Prévoyants de l'Industrie et du Commerce roubaisiens</unittitle>
+            <unitdate normal="1900">1890-1910</unitdate>
+            <physdesc>
+              <p>Affiche publicitaire. Hauteur : 41 cm ; Largeur : 51 cm.</p>
+            </physdesc>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p><p>L'affiche vante les mérites d’une Société roubaisienne de secours mutuels et retraites, « les prévoyants de l’industrie et du commerce roubaisiens ». Elle illustre à gauche « le repos à la vieillesse » et à droite « le travail à la jeunesse » à travers la figure d’une femme filant la laine et d’un homme tissant devant son métier.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.</p></p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="chrono">1871-1913</subject>
+          </controlaccess>
+          <dao href="RBX_MUS_ARC_AUT_D01_001.jpg" role="image"/>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>MUS_ARC_MUS</unitid>
+          <unittitle type="">Musique au musée</unittitle>
+          <unitdate normal="1900">19e - 20e siècle</unitdate>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Cette série rassemble les instruments ainsi que les documents concernant la Grande Harmonie de Roubaix présents dans les collections muséales.</p>
+          </p>
+        </scopecontent>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_MUS_HAR</unitid>
+            <unittitle type="">La Grande Harmonie</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Il s'agit des objets et documents relatifs à la Grande Harmonie de Roubaix conservés dans les collections ou exposés dans les salles du musée La Piscine.</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="subseries">
+          <did>
+            <unitid>MUS_ARC_MUS_INS</unitid>
+            <unittitle type="">Instruments</unittitle>
+            <unitdate normal="1900">19e - 20e siècle</unitdate>
+            <repository>MUS</repository>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Cette sous-série rassemble les instruments de musique conservés dans les collections du musée La Piscine.</p>
+            </p>
+          </scopecontent>
+          <c level="file">
+            <did>
+              <unitid>MUS_ARC_MUS_INS_D01</unitid>
+              <unittitle type="">Accordéon Scandali Waeterloos</unittitle>
+              <unitdate normal=""/>
+              <physdesc>
+                <p>Il s'agit d'un accordéon à cinq rangées de boutons pour le main droite et 3 jeux, 6 rangées pour la main gauche. Chaque rangée comporte 20 touches, soit 120 basses et un jeu à tirette bakélite. Largeur : 46 cm. Numéro d'inventaire : 2017-35-1.</p>
+              </physdesc>
+              <repository>MUS</repository>
+            </did>
+            <resource>
+              <extref href=" https://www.bn-r.fr/ark:/20179/BNR49299">Familly Jazz Band, rue de Lannoy</extref>
+            </resource>
+            <scopecontent>
+              <p><p>L'instrument est décoré de marquetterie représentant des danseuses et des fleurs sur fond crème. La marque italienne Scandali est ménée vers 1900 par Silvio Scandalli, sous le nom <em>Scandalli F.lli</em> à partir de 1916. La marque était présente dans le nord de la France grâce au concours de distributeurs belges et roubaisiens, notamment la Maison Waeterloos, rue de Lannoy.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Don de la Société des Amis de La Piscine en 2017.</p>
+              </p>
+            </acqinfo>
+            <daogrp>
+              <daodesc>
+                <p>Accordéon Scandali Waeterloos</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_009.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>MUS_ARC_MUS_INS_D02</unitid>
+              <unittitle type="">Tambour Luna Jazz</unittitle>
+              <unitdate normal="1950">20e siècle</unitdate>
+              <physdesc>
+                <p>Il s'agit d'un tambour peint sur une des faces. Diamètre : 68 cm. Numéro d'inventaire : 2016-53-1.</p>
+              </physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p><p>La face visible du tambour est peinte de deux chats perchés sur une croissant de lune. Cet instrument est le fruit des établissements A. De Clercq, localisés au 137 bis boulevard de Belfort puis rue du Trichon à partir de 1921.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.</p></p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Don de la Société des Amis de La Piscine en 2017.</p>
+              </p>
+            </acqinfo>
+          </c>
+          <c level="file">
+            <did>
+              <unitid>MUS_ARC_MUS_INS_D03</unitid>
+              <unittitle type="">Accordéon chromatique Scandali Waeterloos</unittitle>
+              <unitdate normal="1950">20e siècle</unitdate>
+              <physdesc>
+                <p>Il s'agit d'un accordéon chromatique en bois, nacre et métal de la marque Scandali Waeterloos. Hauteur : 54 cm ; Largeur : 54 cm ; Numéro d'inventaire : 2018-38-1.</p>
+              </physdesc>
+              <repository>MUS</repository>
+            </did>
+            <scopecontent>
+              <p><p>L'accordéon présente des touches piano et des décors marquetés de nacre.</p>
+
+<p>Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.</p></p>
+            </scopecontent>
+            <acqinfo>
+              <p>
+                <p>Don de la Société des Amis de La Piscine en 2019.</p>
+              </p>
+            </acqinfo>
+            <daogrp>
+              <daodesc>
+                <p>Accordéon chromatique Scandali Waeterloos</p>
+              </daodesc>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_001.jpg" role="image:first"/>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_002.jpg" role="image:last"/>
+            </daogrp>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

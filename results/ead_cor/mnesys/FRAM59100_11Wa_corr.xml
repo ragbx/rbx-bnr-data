@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead audience="external">
+    <eadheader>
+        <eadid>FRAM59100_000007</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Dossiers CAP et CHSCT.</titleproper>
+            </titlestmt>
+            <publicationstmt>
+                <publisher>Archives de la ville de Roubaix</publisher>
+                
+                
+                <date normal="2026">2026</date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language>
+</langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="subseries" id="a0117765049153jo0rM">
+        <runner>Dossiers CAP et CHSCT.</runner>
+        <did>
+            <unittitle>Dossiers CAP et CHSCT.</unittitle>
+            <repository>Archives de la ville de Roubaix</repository>
+            <unitid identifier="11WA">11WA</unitid>
+            <origination>Direction des Ressources Humaines</origination>
+            <unitdate normal="2015-01-01/2020-12-31" type="inclusive">2015-2020</unitdate>
+            <physdesc>                
+                <extent unit="ml">0,3</extent>
+                <extent unit="article(s)">2</extent>
+                
+            </physdesc>
+            
+        </did>
+        
+        <scopecontent><p>Documents versés par le DGS mais probablement incomplets. Comme il n'y a pas de versements de la DRH sur ce type de documents, ils sont conservés provisoirement et pourront être éliminés si la DRH les a conservés et les versent.</p>
+</scopecontent>
+        
+        
+        <acqinfo><p>Type d'entrée : versement</p>
+<p>Date d'entrée : 18/04/2026</p>
+</acqinfo><note type="mnesysinternal"><p/></note><accessrestrict type="formate"><p>NC Non communicable</p></accessrestrict>
+        
+        
+        
+        
+        <dsc type="in-depth">
+            <c id="a0117765049159jw6Fm">
+	<did>
+		<unittitle>CHSCT. Documents de séance (lacunaires)  : séance du 3 octobre 2015; procès verbal non signé de la séance du 11 juillet 2015.</unittitle>
+		<unitid identifier="11WA/1">11WA 1</unitid>
+		
+		<unitdate normal="2015-01-01/2015-12-31">2015</unitdate>
+		<physdesc><physfacet>papier</physfacet>
+			
+		</physdesc>
+		
+	</did>
+	
+	<accessrestrict type="formate"><p>NC Non communicable</p></accessrestrict>
+	<appraisal><p>tri(attente versement DRH) 5 ans après 2026</p>
+</appraisal><note type="mnesysinternal"><p/></note>
+	
+	
+	
+	
+	
+	
+	
+</c>
+<c id="a0117765049151mF5oI">
+	<did>
+		<unittitle>CAP. Documents de séance (lacunaires) : séances de 2015, 2017, 2020,</unittitle>
+		<unitid identifier="11WA/2">11WA 2</unitid>
+		
+		<unitdate normal="2015-01-01/2020-12-31" type="inclusive">2015-2020</unitdate>
+		<physdesc>		</physdesc>
+		
+	</did>
+	
+	<accessrestrict type="formate"><p>NC Non communicable</p></accessrestrict>
+	<appraisal><p>tri(attente versement DRH) 5 ans après 2026</p>
+</appraisal><note type="mnesysinternal"><p/></note>
+	
+	
+	
+	
+	
+	
+	
+</c>
+        </dsc>
+    </archdesc>
+</ead>

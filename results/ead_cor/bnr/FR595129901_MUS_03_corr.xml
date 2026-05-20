@@ -1,0 +1,1484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_MUS_03</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection des évènements du Musée La Piscine</titleproper>
+        <subtitle/>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2022">2022</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <p>Cet inventaire a été saisi en EAD par Marion Frémeaux en 2022.</p>
+      </creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>
+        <p>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</p>
+      </descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>MUS_EVE</unitid>
+      <unittitle>Les évènements au Musée La Piscine</unittitle>
+      <unitdate normal="2050">21e siècle</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <physdesc>
+        <p>Cette collection regroupe les productions du Musée lors des expositions et des partenaires lors d'évènements ayant eu lieu au Musée.</p>
+      </physdesc>
+      <repository>MUS</repository>
+    </did>
+    <controlaccess>
+      <corpname>La Piscine, Musée d'art et d'industrie André Diligent (Roubaix, Nord)</corpname>
+    </controlaccess>
+    <dsc>
+      <c level="subfonds">
+        <did>
+          <unitid>MUS_EVE_EXP</unitid>
+          <unittitle type="">Les expositions</unittitle>
+          <unitdate normal=""/>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Cette série comprend les éléments produits par le Musée à l'occasion des expositions comme les affiches, les supports d'aide à la visite ou les invitations.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_001</unitid>
+            <unittitle type="">Francis Jourdain, un parcours moderne</unittitle>
+            <unitdate normal="2001">2001</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Jourdain, Francis (1876-1958)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_002</unitid>
+            <unittitle type="">Christian Jaccard, confrontation</unittitle>
+            <unitdate normal="2002">du 22 juin au 08 septembre 2002</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : Lascault Gilbert, <strong><em>Christian Jaccard : confrontation,</em></strong> Roubaix : Ed. du Musée de Roubaix, 2002 (Mag L/P 8/117 676).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Jaccard, Christian (1939-)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_002_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2002">2002</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_002_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_003</unitid>
+            <unittitle type="">Louis Billotey, l'ambition classique</unittitle>
+            <unitdate normal="2002">2002</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Billotey, Louis (1883-1940)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_003_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2002">2002</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_003_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_004</unitid>
+            <unittitle type="">Michel Schreiber, architecte du vêtement</unittitle>
+            <unitdate normal="2002">du 2 mars au 5 mai 2002</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Michel Schreiber, architecte du vêtement</strong></em>, Roubaix : Musée d'art et d'industrie de Roubaix, 2002 (Mag L/P 8/112 665).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_004_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2002">2002</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_004_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_005</unitid>
+            <unittitle type="">Jamel Shabazz, New-York - Roubaix</unittitle>
+            <unitdate normal="2002">du 23 novembre 2002 au 26 janvier 2003</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Shabazz, Jamel (1960-)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_005_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2002">2002</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_005_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_006</unitid>
+            <unittitle type="">Raoul Dufy, du motif à la couleur</unittitle>
+            <unitdate normal="2003">du 27 septembre au 07 décembre 2003</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : <em><strong>Raoul Dufy, du motif à la couleur</strong></em>, Paris : Somogy, 2003 (Mag L/P 4/209 071).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Dufy, Raoul (1877-1953)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_006_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2003">2003</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_006_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_007</unitid>
+            <unittitle type="">Gaston Lachaise</unittitle>
+            <unitdate normal="2003">du 20 juin au 07 septembre 2003</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage : Bourgeois, Louise, <em><strong>Gaston Lachaise 1882-1935</strong></em>, Paris : Gallimard, 2003 (Mag L/P 4/209 069).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Lachaise, Gaston (1882-1935)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_008</unitid>
+            <unittitle type="">Des amitiés modernes, de Rodin à Matisse</unittitle>
+            <unitdate normal="2003">du 09 mars au 09 juin 2003</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : <em><strong>Des amitiés modernes. De Rodin à Matisse</strong></em>, Paris : Somogy, 2003 (Mag L/P 4/209 043).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Rodin, Auguste (1840-1917)</persname>
+            <persname>Matisse, Henri (1869-1954)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_009</unitid>
+            <unittitle type="">Picasso, peintre d'objets, objets de peintre</unittitle>
+            <unitdate normal="2004">du 09 octobre 2004 au 09 janvier 2005</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : <strong><em>Picasso : peintres d'objets, objets de peintre</em></strong>, Paris : Gallimard, 2004 (751 PIC).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Picasso, Pablo (1881-1973)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_009_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2004">2004</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_009_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_010</unitid>
+            <unittitle type="">Robert De Niro, Sr.</unittitle>
+            <unitdate normal="2005">du 19 juin au 10 septembre 2005</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix :<em><strong> Robert De Niro, Sr. : 1922-1993</strong></em>, Roubaix, 2005 (Mag L/P 4/209 589).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>De Niro, Robert (1922-1993)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_010_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2005">2005</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_010_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_011</unitid>
+            <unittitle type="">Jane Poupelet, la beauté dans la simplicité</unittitle>
+            <unitdate normal="2005">du 15 octobre 2005 au 15 janvier 2006</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : <em><strong>Jane Poupelet : "La beauté dans la simplicité"</strong></em>, Paris : Gallimard, 2005 (Mag L/P 4/209 592).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Poupelet, Jane (1874-1932)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_011_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2005">2005</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_011_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_012</unitid>
+            <unittitle type="">Une histoire de paravent</unittitle>
+            <unitdate normal="2005">Du 26 février au 26 avril 2005</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : <strong><em>Une histoire de paravent</em></strong>, Paris : Somogy, 2005 (Mag L/P 8/114 602).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_012_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2005">2005</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_012_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_013</unitid>
+            <unittitle type="">Edouard Pignon, du rhtyme entre les choses</unittitle>
+            <unitdate normal="2006">Du 04 mars au 28 mai 2006</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Edouard Pignon : du rythme entre les choses</strong></em>, Céret : Musée d'art moderne, 2005 (Mag L/P 4/209 608).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Pingon, Edouard (1905-1993)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_013_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2006">2006</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_013_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_014</unitid>
+            <unittitle type="">Pierre-Victor Galland, un Tiepolo français au XIXe siècle</unittitle>
+            <unitdate normal="2006">Du 1er juillet au 17 septembre 2006</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Pierre-Victor Galland : un Tiepolo français au XIXe siècle</strong></em>, Paris : Somogy, 2006 (Mag L/P 4/210 998).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Galland, Pierre-Victor (1822-1892)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_014_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2006">2006</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_014_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_015</unitid>
+            <unittitle type="">Une saison finalndaise autour de Marimekko</unittitle>
+            <unitdate normal="2006">Du 21 octobre 2006 au 14 janvier 2007</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_015_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2006">2006</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_015_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_016</unitid>
+            <unittitle type="">La terre est si lumineuse, Marc Chagall et la céramique</unittitle>
+            <unitdate normal="2007">Du 20 octobre 2007 au 20 janvier 2008</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>La terre est si lumineuse : Chagall et la céramique</strong></em>, Paris : Gallimard, 2007 (Mag L/P 4/209 850).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Chagall, Marc (1887-1985)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_016_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2007">2007</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_016_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_017</unitid>
+            <unittitle type="">La maison Leleu, 50 ans de mobilier et de décoration 1923-1973</unittitle>
+            <unitdate normal="2007">Du 16 juin au 16 septembre 2007</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Leleu : 50 ans de mobilier et de décoration, 1920-1970</strong></em>, Paris : Somogy, 2007 (Mag L/P 4/209 832).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_017_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2007">2007</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_017_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_018</unitid>
+            <unittitle type="">Emile-Othon Friesz, le fauve baroque</unittitle>
+            <unitdate normal="2007">Du 17 février au 20 mai 2007</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <strong><em>Othon Friesz : le fauve baroque</em></strong>, Paris : Gallimard, 2006 (Mag L/P 4/209 790).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Friesz, Emile-Othon (1879-1949)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_018_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2007">2007</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_018_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_019</unitid>
+            <unittitle type="">Un été de sculpteurs à la Piscine de Roubaix</unittitle>
+            <unitdate normal="2008">Du 21 juin au 21 septembre 2008</unitdate>
+          </did>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_019_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2008">2008</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_019_01_01.jpg" audience="internal" role="image"/>
+          </c>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_019_02</unitid>
+              <unittitle type="">Plaquette d'inauguration de l'exposition</unittitle>
+              <unitdate normal="2008">2008</unitdate>
+            </did>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_020</unitid>
+            <unittitle type="">Le zoo d'Orsay</unittitle>
+            <unitdate normal="2008">Du 1er mars au 25 mai 2008</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Le zoo d'Orsay</strong></em>, Paris : Gallimard, 2008 (Mag L/P 8/116 172).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_020_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2008">2008</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_020_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_021</unitid>
+            <unittitle type="">André Maire, l'itinéraire décoratif d'un peintre voyageur du XXe siècle</unittitle>
+            <unitdate normal="2008">Du 18 octobre 2008 au 1er février 2009</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>André Maire : l'itinéraire décoratif d'un peintre voyageur</strong></em>, Paris : Gallimard, 2008 (Mag L/P 4/209 948).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Maire, André (1898-1984)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_021_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2008">2008</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_021_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_022</unitid>
+            <unittitle type="">Agatha Ruiz de la Prada, un jardin de corazones</unittitle>
+            <unitdate normal="2009">Du 21 mars au 21 juin 2009</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Agatha Ruiz de la Prada : un jardin de corazones</strong></em>, Montreuil : Gourcuff Gradenigo, 2009 (Mag L/P 8/116 378).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_022_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2009">2009</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_022_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_023</unitid>
+            <unittitle type="">Le groupe de Bloomsbury, conversation anglaise autour de Virginia Woolf</unittitle>
+            <unitdate normal="2009">Du 21 novembre 2009 au 28 février 2010</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Conversation anglaise : le groupe de Boomsbury</strong></em>, Paris : Gallimard, 2009 (Mag L/P4/209 964).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Woolf, Virginia (1882-1941)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_023_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2009">2009</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_023_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_024</unitid>
+            <unittitle type="">Degas, sculpteur</unittitle>
+            <unitdate normal="2011">Du 08 octobre au 16 janvier 2011</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Degas sculpteur</strong></em>, Roubaix : La Piscine, Musée d'art et d'industrie de Roubaix, 2010 (Mag L/P 4/210 077).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Degas, Edgar (1834-1917)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_024_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2010">2010</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_024_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_025</unitid>
+            <unittitle type="">1001 bols, céramique contemporaine</unittitle>
+            <unitdate normal="2010">Du 04 décembre 2010 au 06 mars 2011</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Mille et un bols : hommage à un bol de thé indien</strong></em>, Genève : Dialogue céramique, 2010 (Mag L/P8/116 674).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_026</unitid>
+            <unittitle type="">Pierre Loti, Marthe Flandrin, le Groupe de Roubaix</unittitle>
+            <unitdate normal="2010">Du 03 juillet au 05 septembre 2010</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Loti, Pierre (1850-1923)</persname>
+            <persname>Flandrin, Marthe (1904-1987)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_027</unitid>
+            <unittitle type="">Pincemin</unittitle>
+            <unitdate normal="2010">Du 03 avril au 13 juin 2010</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Jean-Pierre Pincemin</strong></em>, Paris : Gallimard, 2010 (Mag L/P 4/210 039).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Pincemin, Jean-Pierre (1944-2005)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_028</unitid>
+            <unittitle type="">La galerie Dujardin, l'art au XXe siècle à Roubaix</unittitle>
+            <unitdate normal="2011">Du 02 juillet au 04 septembre 2011</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : Massé Alice, <strong><em>La galerie Dujardin : 1905-1980, l'art au XXe siècle à Roubaix</em></strong>, Montreuil : Gourcuff Gradenigo, 2011 (Mag L/P 4/210 113).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_029</unitid>
+            <unittitle type="">Signac, les ports de France</unittitle>
+            <unitdate normal="2011">Du 12 février au 22 mai 2011</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à/ la Médiathèque La Grand'Plage de Roubaix : <em><strong>Signac : les ports de France</strong></em>, Paris : Gallimard, 2010 (Mag L/P 8/116 675).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Signac, Paul (1863-1935)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_029_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2011">2011</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_029_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_030</unitid>
+            <unittitle type="">Thiébaut Chagué, itinérance</unittitle>
+            <unitdate normal="2012">Du 30 juin au 02 septembre 2012</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Thiébaut Chagué, itinérance</strong></em>, Ennetières-en-Weppes : Invenit, 2013 (Mag L/P 4/210 227).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Chagué, Thiébaut (1959-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_031</unitid>
+            <unittitle type="">Picasso à l'oeuvre, dans l'objectif de David Douglas Duncan</unittitle>
+            <unitdate normal="2012">Du 18 février au 20 mai 2012</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Picasso à l'oeuvre dans l'objectif de David Douglas Duncan</strong></em>, Paris : Gallimard, 2012 (Mag L/P 4/210 157).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Picasso, Pablo (1881-1973)</persname>
+            <persname>Duncan, David Douglas (1916-2018)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_032</unitid>
+            <unittitle type="">Chagall, l'épaisseur des rêves</unittitle>
+            <unitdate normal="2012">Du 13 octobre 2012 au 13 janvier 2013</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Marc Chagall : l'épaisseur des rêves</strong></em>, Paris : Gallimard, 2012 (Mag L/P 4/210 182).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Chagall, Marc (1887-1985)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_032_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2012">2012</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_032_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_033</unitid>
+            <unittitle type="">Occupy Roubaix par Délit Maille</unittitle>
+            <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_034</unitid>
+            <unittitle type="">Gisèle Buthod-Garçon</unittitle>
+            <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <strong><em>Gisèle Buthod-Garçon : réminiscences</em></strong>, Vendin-le-Vieil : La Revue de la céramique et du verre, 2013 (Mag L/P 8/116 986).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_035</unitid>
+            <unittitle type="">Anna Quinquaud, itinéraires africains dans les années 30</unittitle>
+            <unitdate normal="2013">Du 29 juin au 15 septembre 2013</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Quinquaud, Anna (1890-1984)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_036</unitid>
+            <unittitle type="">Les Lémar de La Piscine</unittitle>
+            <unitdate normal="2013">Du 16 février au 19 mai 2013</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Les Marcel Lémar de la Piscine</strong></em>, Milan : Silvana Editoriale, 2013 (Mag L/P 8/116 961).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Lémar, Marcel (1892-1941)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_037</unitid>
+            <unittitle type="">Astuguevieille</unittitle>
+            <unitdate normal="2013">Du 16 février au 19 mai 2013</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : Astuguevielle, Christian,<em><strong> Christian Astuguevieille</strong></em>, Paris : Gourcuff Gradenigo, 2013 (Mag L/P 8/117 673).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Astuguevieille, Christian (1946-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_038</unitid>
+            <unittitle type="">Les Jean Roulland de La Piscine</unittitle>
+            <unitdate normal="2013">Du 29 juin au 15 septembre 2013</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Les Jean Roulland de La Piscine</strong></em>, Tourcoing : Invenit, 2013 (Mag L/P 8/116 967).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Roulland, Jean (1931-2021)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_039</unitid>
+            <unittitle type="">Wemaëre et Jorn : la force des contraires, une amitié franco-danoise au XXe siècle</unittitle>
+            <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Wemaëre &amp; Jorn, la force des contraires : une amitié franco-danoise au XXe siècle</strong></em>, Montreuil : Gourcuff Gradenigo, 2013 (Mag L/P 8/117 011).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Wemaëre, Pierre (1913-2010)</persname>
+            <persname>Jorn, Asger (1914-1973)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_040</unitid>
+            <unittitle type="">Le siècle d'or de la peinture danoise</unittitle>
+            <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Le siècle d'or de la peinture danoise : une collections française</strong></em>, Paris : Gallimard, 2013 (Mag L/P 4/210 503).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_041</unitid>
+            <unittitle type="">Catherine Laridan, les robes d'une exposition</unittitle>
+            <unitdate normal="2013">Du 16 février au 19 mai 2013</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_042</unitid>
+            <unittitle type="">Les Sébastien de La Piscine</unittitle>
+            <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Les Sébastien de La Piscine</strong></em>, Montreuil : GOurcuff Gradenigo, 2013 (Mag L/P 8/117 009).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_043</unitid>
+            <unittitle type="">E. de Senneville, arrêt sur image(s)</unittitle>
+            <unitdate normal="2013">Du 29 juin au 15 septembre 2013</unitdate>
+          </did>
+          <controlaccess>
+            <persname>De Senneville, Elisabeth (1946-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_044</unitid>
+            <unittitle type="">Amédée de La Patellière, les éclats de l'ombre</unittitle>
+            <unitdate normal="2014">Du 14 juin au 14 septembre 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Amédée de La Patellière : les éclats de l'ombre</strong></em>, Paris : Gourcuff Gradenigo, 2014 (Mag L/P 4/210 275).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>De La Patellière, Amédée (1890-1932)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_045</unitid>
+            <unittitle type="">André Fougeron, voilà qui fait problème vrai</unittitle>
+            <unitdate normal="2014">Du 15 février au 18 mai 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> André Fougeron, 1913-1998 : voilà qui fait problème vrai</strong></em>, Paris : Gourcuff Gradenigo, 2014 (Mag L/P 8/210 260).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Fougeron, André (1913-1998)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_046</unitid>
+            <unittitle type="">Joël Meyerowitz, immersion</unittitle>
+            <unitdate normal="2014">Du 08 novembre 2014 au 08 février 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : Westerbeck, Colin, <em><strong>Joel Meyerowitz</strong></em>, Roubaix : Musée La Piscine, 2015 (Mag L/P 4/210 509).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Meyerowitz, Joel (1938-)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_046_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2014">2014</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_046_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_047</unitid>
+            <unittitle type="">Kristin McKirdy, céramiques</unittitle>
+            <unitdate normal="2014">Du 08 novembre 2014 au 08 février 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Kristin McKirdy</strong></em>, Paris : Norma, 2012 (Mag L/P 4/210 505).</p>
+            </p>
+          </scopecontent>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_047_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2014">2014</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_047_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_048</unitid>
+            <unittitle type="">Les André Maire de La Piscine</unittitle>
+            <unitdate normal="2014">Du 14 juin au 14 septembre 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue d'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Les André Maire de La Piscine</strong></em>, Paris : Gourcuff Gradenigo, 2014 (Mag L/P 8/117 082).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Maire, André (1898-1984)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUs_EVE_EXP_051</unitid>
+            <unittitle type="">Michel Lanos, terre libertaire</unittitle>
+            <unitdate normal="2014">Du 15 février au 18 mai 2014</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Michel Lanos, Terre libertaire</strong></em>, Vendin-le-Viel : La Revue de la céramique et du verre, 2014 (Mag L/P 8/5 293).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Lanos, Michel (1920-2005)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_052</unitid>
+            <unittitle type="">Camille Claudel, au miroir d'un art nouveau</unittitle>
+            <unitdate normal="2014">du 08 novembre 2014 au 08 février 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Camille Claudel : au miroir d'un art nouveau</strong></em>, Paris : Gallimard, 2014 (Mag L/P 4/210 286).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Claudel, Camille (1864-1943)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_052_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="2014">2014</unitdate>
+            </did>
+            <dao href="MUS_EVE_EXP_052_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_053</unitid>
+            <unittitle type="">Une certaine idée de la céramique belge</unittitle>
+            <unitdate normal="2015">du 24 octobre 2015 au 31 janvier 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Une certaine idée de la céramique belge</strong></em>, Roubaix : La Pisicne, 2015 (Mag L/P 8/117 428).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_054</unitid>
+            <unittitle type="">Mahjoub Ben Bella, les belles feuilles</unittitle>
+            <unitdate normal="2015">du 24 octobre 2015 au 31 janvier 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Mahjoub Ben Bella : les belles feuilles</strong></em>, Aire-sur-la-Lys : Ateliergalerieéd., 2015 (Mag L/P 8/117 426).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Ben Bella, Mahjoub (1946-2020)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_055</unitid>
+            <unittitle type="">Talva Design, mémoire brodées</unittitle>
+            <unitdate normal="2015">du 24 octobre 2015 au 31 janvier 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Mémoires brodées : Talva Design</strong></em>, Roubaix : La Pisicne, 2015 (Mag L/P 8/117 429).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_056</unitid>
+            <unittitle type="">Virginie Besengez, des contenants ?</unittitle>
+            <unitdate normal="2015">du 24 octobre 2015 au 31 janvier 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <strong><em>Virginie Bensengez : à bout portant</em></strong>, Vendin-le-Vieil : La Revue de la céramique et du verre, 2015 (Mag L/P 8/117 427).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_058</unitid>
+            <unittitle type="">Colette Portal, Rendez-vous au lion</unittitle>
+            <unitdate normal="2016">du 15 mars au 05 juin 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : PORTAL, Colette, <em><strong>Rendez-vous au Lion</strong></em>, Paris : Michel Lagarde, 2016 (Mag L/P 4/210 506).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Portal, Colette (1936-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_060</unitid>
+            <unittitle type="">Hervé Rousseau</unittitle>
+            <unitdate normal="2015">du 21 mars au 21 juin 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Hervé Rousseau : le feu dans la terre</strong></em>, Vendin-le-Vieil : La Revue de la céramique et du verre, 2015 (Mag L/P 8/117 670).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Rousseau, Hervé (1955-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_061</unitid>
+            <unittitle type="">Les nichoirs</unittitle>
+            <unitdate normal="2015">du 21 mars au 22 mai 2015</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_062</unitid>
+            <unittitle type="">Lydie Arickx</unittitle>
+            <unitdate normal="2015">du 21 mars au 07 juin 2015</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Arickx, Lydie (1954-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_063</unitid>
+            <unittitle type="">Alexis-Joseph Mazerolle, itinéraire d'un grand décorateur</unittitle>
+            <unitdate normal="2015">du 04 juillet au 13 septembre 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Alexis-Joseph Mazerolle, 1826-1889 : itinéraire d'un grand décorateur</strong></em>, Gand : Snoeck, 2015 (Mag L/P 4/210 315).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Mazerolle, Alexis-Joseph (1826-1889)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_064</unitid>
+            <unittitle type="">Nathalie Lété, mes (petites) histoires</unittitle>
+            <unitdate normal="2015">du 21 mars au 21 juin 2015</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_065</unitid>
+            <unittitle type="">Victor Vaissier, l'aventure des savons du Congo</unittitle>
+            <unitdate normal="2015">du 21 mars au 07 juin 2015</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Victor Vaissier et l'aventure des savons du Congo</strong></em>, Gand : Snoeck Publishers, 2015 (RES 4/ 5 070).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Vaissier, Victor (1851-1923)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_066</unitid>
+            <unittitle type="">Georges Dorignac, le trait sculpté</unittitle>
+            <unitdate normal="2016">du 19 novembre 2016 au 05 mars 2017</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Georges Dorignac, 1879-1925 : le trait sculpté</strong></em>, Gand : Snoeck, 2016 (Mag L/P 4/210 460).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Dorignac, Georges (1879-1925)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_068</unitid>
+            <unittitle type="">Braïtou-Sala, l'élégance d'un monde en péril</unittitle>
+            <unitdate normal="2016">du 19 mars au 05 juin 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Braïtou-Sala, 1885-1972, L'élégance d'un monde en péril</strong></em>, Mare et Martin Arts Editions, 2016 (Mag L/P 4/210 403).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Braïtou-Sala, Albert (1885-1972)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_069</unitid>
+            <unittitle type="">Marc Chagall, les sources de la musique</unittitle>
+            <unitdate normal="2015">du 21 octobre 2015 au 31 janvier 2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Chagall et la musique</strong></em>, Paris : Gallimard, 2015 (Mag L/P 4/210 997).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Chagall, Marc (1887-1985)</persname>
+          </controlaccess>
+          <c level="item">
+            <did>
+              <unitid>MUS_EVE_EXP_069_01</unitid>
+              <unittitle type="">Affiche de l'exposition</unittitle>
+              <unitdate normal="">2015</unitdate>
+            </did>
+            <controlaccess>
+              <genreform>Affiches</genreform>
+            </controlaccess>
+            <dao href="MUS_EVE_EXP_069_01_01.jpg" audience="internal" role="image"/>
+          </c>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_070</unitid>
+            <unittitle type="">Faire le beau</unittitle>
+            <unitdate normal="2016">2016</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage : <em><strong>Faire le beau : le bestiare de la Piscine</strong></em>, Gand : Snoeck, 2017 (Mag L/P 4/210 526).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_071</unitid>
+            <unittitle type="">Jean Martin, de l'atelier à la scène</unittitle>
+            <unitdate normal="2016">du 25 juin au 09 octobre 2016</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Martin, Jean (1911-1996)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_075</unitid>
+            <unittitle type="">Nadia Anémiche, Ombres vagabondes</unittitle>
+            <unitdate normal="2017">du 14 octobre 2017 au 07 janvier 2018</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : ANEMICHE, Nadia, <em><strong>Ombres vagabondes</strong></em>, Leers : Iki, 2017 (Res 8/5 309).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Anémiche, Nadia</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_076</unitid>
+            <unittitle type="">Robert Pougheon, Un classicisme de fantaisie</unittitle>
+            <unitdate normal="2017">du 14 octobre 2017 au 07 janvier 2018</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Robert Pougheon : 1886-1955, un classicisme de fantaisie</strong></em>, Montreuil : Gourcuff Gradenigo, 2017 (Mag L/P 4/210 554).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Pougheon, Robert (1886-1955)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_078</unitid>
+            <unittitle type="">Annick Verley, l'absence</unittitle>
+            <unitdate normal="2017">du 30 mai au 24 septembre 2017</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la médiathèque la Grand'Plage de Roubaix :<strong><em> Annick Verley : l'absence</em></strong>, Roubaix : La Pisicne, 2017 (Br 8/3108).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_079</unitid>
+            <unittitle type="">Carolyn Carlson, writings on water</unittitle>
+            <unitdate normal="2017">du 01 juillet au 24 septembre 2017</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : Carlson Carolyn, <em><strong>Writings on water</strong></em>, Pan Book (Res 8/5300).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_080</unitid>
+            <unittitle type="">Eloge de la couleur</unittitle>
+            <unitdate normal="2017">du 01 avril au 11 juin 2017</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : <em><strong>Eloge de la couleur : design, architecture, graphisme, une exposition du 40e anniversaire du Centre Pompidou</strong></em>, Paris : Atelier galerie éd., 2017 (Mag L/P 4/210 999).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_081</unitid>
+            <unittitle type="">André et Monique Lemonnier, une nouvelle donation</unittitle>
+            <unitdate normal="">s.d.</unitdate>
+          </did>
+          <controlaccess>
+            <persname>Lemonnier, André</persname>
+            <persname>Lemonnier, Monique</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_082</unitid>
+            <unittitle type="">Pat Le SZA : guerre universelle, prototypes</unittitle>
+            <unitdate normal="2017">du 02 octobre 2017 au 28 janvier 2018</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p>Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : <em><strong>Pat le SZA : guerre universelle, prototypes</strong></em>, Roubaix : La Piscine, 2017 (Mag L/P 8/118 770).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_083</unitid>
+            <unittitle type="">Ring my bell !</unittitle>
+            <unitdate normal="2017">du 01 avril au 11 juin 2017</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_084</unitid>
+            <unittitle type="">Di Rosa, l'oeuvre au monde</unittitle>
+            <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Hervé di Rosa : l'oeuvre au monde</strong></em>, Gand : Schnoek, 2018 (Mag L/P 4/210 724).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Di Rosa, Hervé (1959-)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_085</unitid>
+            <unittitle type="">Giacometti, portrait d'un héros</unittitle>
+            <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Alberto Giacometti : portrait d'un héros, hommage à Rol-Tanguy</strong></em>, Ennetières-en-weppes : Ed. Invenit, 2018 (Mag L/P 8/118 138).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Giacometti, Alberto (1901-1966)</persname>
+            <persname>Tanguy, Henry (1908-2002)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_086</unitid>
+            <unittitle type="">Nage libre avec les créateurs du WCC-BF</unittitle>
+            <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Nage Libre : les artistes de BeCraft s'inspirent des collections permanentes de la Piscine</strong></em>, Milan : Silvana ed., 2018 (Res 8/5322).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_087</unitid>
+            <unittitle type="">Picasso, l'homme au mouton</unittitle>
+            <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Pablo Picasso : l'homme au mouton</strong></em>, Gand : Schnoek, 2018 (Mag L/P 4/210 725).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Picasso, Pablo (1881-1973)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_088</unitid>
+            <unittitle type="">Les tableaux fantômes de Bailleul</unittitle>
+            <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_090</unitid>
+            <unittitle type="">Les gouachés, un art unique et ignoré</unittitle>
+            <unitdate normal="2018">du 03 février au 01 avril 2018</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_091</unitid>
+            <unittitle type="">Hommage à Claude Vicente</unittitle>
+            <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Claude Vicente : hommage</strong></em>, Gand : Snoeck Publishers, 2019 (Mag L/P 8/118 187).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Vicente, Claude (1929-2017)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_092</unitid>
+            <unittitle type="">Abdelkader, l'émir de la résistance</unittitle>
+            <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :<em><strong> Abdelkader</strong></em>, Gand : Snoeck Publishers, 2019 (Mag L/P 8/118 188).</p>
+            </p>
+          </scopecontent>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_093</unitid>
+            <unittitle type="">Mon royaume pour une couronne</unittitle>
+            <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_094</unitid>
+            <unittitle type="">L'Algérie de Gustave Guillaumet</unittitle>
+            <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>L'Algérie de Gustave Guillaumet</strong></em>, Montreuil : Gourcuff Gradenigo, 2018 (Mag L/P 4/210 748).</p>
+            </p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Guillaumet, Gustave (1840-1887)</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EXP_095</unitid>
+            <unittitle type="">Naime Merabet, fenêtre sur l'Algérie</unittitle>
+            <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
+          </did>
+          <scopecontent>
+            <p>
+              <p style="text-align: justify;">Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : <em><strong>Naime Merabet, fenêtre sur l'Algérie</strong></em>, Roubaix : La Piscine, 2019 (Res 4/5116).</p>
+            </p>
+          </scopecontent>
+        </c>
+      </c>
+      <c level="subfonds">
+        <did>
+          <unitid>MUS_EVE_EVT</unitid>
+          <unittitle type="">Les évènements</unittitle>
+          <unitdate normal=""/>
+          <repository>MUS</repository>
+        </did>
+        <scopecontent>
+          <p>
+            <p>Cette série comprend les éléments produits à l'occasion des évènements organisés par le Musée ou s'étant déroulés au Musée.</p>
+          </p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EVT_002</unitid>
+            <unittitle type="">La Piscine a 10 ans !</unittitle>
+            <unitdate normal="2011">du 22 octobre 2011 au 08 janvier 2012</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EVT_006</unitid>
+            <unittitle type="">Le Musée la Piscine hors les murs</unittitle>
+            <unitdate normal="2018">du 31 mars au 21 octobre 2018</unitdate>
+          </did>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>MUS_EVE_EVT_007</unitid>
+            <unittitle type="">Réouverture</unittitle>
+            <unitdate normal="2018">20 octobre 2018</unitdate>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
