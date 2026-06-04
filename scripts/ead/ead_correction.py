@@ -19,8 +19,18 @@ Les modifications suivantes sont réalisées :
     - suppression des <origination> -> déplacées en <controlaccess>
     - transformation des <name> dans <controlaccess> en <persname> ou <corpname>
     - TODO : suppression des <repository> qui ne sont pas dans <archdesc>
+    - TODO : MaJ attributs source pour les controlaccess
     - TODO : enrichir les dao
 """
+
+
+def add_old_ark(element, oai=None):
+    for c in element.findall(".//c"):
+        unitid = c.find("./did/unitid").text
+        osiros_id = None
+        if unitid in oai:
+            osiros_id = oai[unitid]
+        # print(osiros_id)
 
 
 def strip_whitespace(element):
@@ -144,7 +154,7 @@ def update_repository(element, new_repository):
         repository.text = new_repository
 
 
-def transform_ead(ir, names_type=None):
+def transform_ead(ir, names_type=None, oai=None):
     ir_filename = join("data", "ead", "bnr", ir["nom_fichier"])
     new_ir_filename = join(
         "results", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
@@ -158,6 +168,7 @@ def transform_ead(ir, names_type=None):
     remove_html_entities(root)
     strip_whitespace(root)
     move_origination(root, names_type=names_type)
+    add_old_ark(root, oai=oai)
     remove_name(root, names_type=names_type)
     remove_empty_attributes(root)
     remove_empty_elements(root)
@@ -181,11 +192,15 @@ names_type = {}
 names_type["p"] = p["contenu"].to_list()
 names_type["c"] = c["contenu"].to_list()
 
+oai = pd.read_csv(join("data", "oai", "oai_records_20260430.csv.gz"))
+oai = oai[~oai["cote"].isna()]
+oai_dict = dict(zip(oai["cote"], oai["osiros_id"]))
+
 irs = pd.read_excel(
     join("results", "ir", "liste_instruments_recherche_20260521_transfert_mnesys.xlsx")
 )
 irs = irs[irs["statut"] == "TRANSFERER"]
 
 for ir in irs.to_dict(orient="records"):
-    transform_ead(ir, names_type=names_type)
-    print(ir)
+    transform_ead(ir, names_type=names_type, oai=oai_dict)
+#    print(ir)
