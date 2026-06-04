@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595129901_LAR_01</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Publications de Lire à Roubaix</titleproper>
+        <author>Cet inventaire a été réalisé par Charlotte Saison-Pouly.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2015">12/2015</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>&lt;p&gt;Cet inventaire a &amp;eacute;t&amp;eacute; r&amp;eacute;alis&amp;eacute; par Charlotte Saison-Pouly.&lt;/p&gt;&#13;
+&lt;p&gt;Cet inventaire a &amp;eacute;t&amp;eacute; saisi en EAD par Charlotte Saison-Pouly en 2015.&lt;/p&gt;</creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>&lt;p&gt;Cet inventaire a &amp;eacute;t&amp;eacute; r&amp;eacute;dig&amp;eacute; conform&amp;eacute;ment &amp;agrave; la norme ISAD(G) et aux r&amp;egrave;gles d'application de la DTD EAD dans la biblioth&amp;egrave;que num&amp;eacute;rique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme &amp;agrave; la norme Z44-061. Le d&amp;eacute;coupage de Roubaix en 13 quartiers est conforme au plan &amp;eacute;tabli par la Direction G&amp;eacute;n&amp;eacute;rale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <unitid>LAR_PUB</unitid>
+      <unittitle>Publications de Lire à Roubaix</unittitle>
+      <unitdate normal="2000">20e siècle</unitdate>
+      <langmaterial>
+        <language langcode="Fra">Français</language>
+      </langmaterial>
+      <repository>LAR</repository>
+    </did>
+    <scopecontent>
+      <p>&lt;p style="text-align: justify;"&gt;Lire &amp;agrave; Roubaix est une association roubaisienne qui m&amp;egrave;ne des actions de d&amp;eacute;veloppement de la&amp;nbsp;lecture publique. Outre ces actions culturelles, elle publie des revues qui ont &amp;eacute;t&amp;eacute; num&amp;eacute;ris&amp;eacute;es : Lire &amp;agrave; Roubaix regroupe les &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, dont Michel David est directeur de publication, ainsi que Le&lt;em&gt; Vrai Polichinelle Roubaisien&lt;/em&gt;, dont Bernard Grelle est directeur de publication, et &lt;em&gt;Ateliers m&amp;eacute;moire, m&amp;eacute;moire des Ateliers&lt;/em&gt;, dont Philippe Waret est directeur de publication.&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+    </scopecontent>
+    <acqinfo>
+      <p>&lt;p&gt;&lt;em&gt;Lire &amp;agrave; Roubaix &lt;/em&gt;met &amp;agrave; disposition sur la Biblioth&amp;egrave;que num&amp;eacute;rique de Roubaix l'int&amp;eacute;gralit&amp;eacute; de ses publications sous leur forme num&amp;eacute;ris&amp;eacute;e.&amp;nbsp;&lt;/p&gt;</p>
+    </acqinfo>
+    <controlaccess>
+      <geogname>Roubaix</geogname>
+      <genreform>Livres et revues</genreform>
+      <corpname>Association Lire à Roubaix</corpname>
+      <subject source="Rameau">Histoire de Roubaix</subject>
+      <subject source="Rameau">Roubaix (Nord)</subject>
+    </controlaccess>
+    <dsc>
+      <c level="series">
+        <did>
+          <unitid>PUB_CDR</unitid>
+          <unittitle>Cahiers de Roubaix</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>&lt;p&gt;18 revues papier.&lt;/p&gt;</physdesc>
+        </did>
+        <scopecontent>
+          <p>&lt;p&gt;Les Cahiers de Roubaix sont &amp;eacute;crits par des historiens, conservateurs, habitants de roubaix etc. et nous permettent de retracer l'histoire de la ville et de sa population.&lt;/p&gt;&#13;
+&lt;p&gt;Directeur de la publication : Michel DAVID&lt;/p&gt;</p>
+        </scopecontent>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_001</unitid>
+            <unittitle>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</unittitle>
+            <unitdate normal="1995">1995</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Grelle, Bernard, &lt;em&gt;La Soci&amp;eacute;t&amp;eacute; d&amp;rsquo;&amp;Eacute;mulation de Roubaix au si&amp;egrave;cle dernier &lt;/em&gt;[XIX&lt;sup&gt;e&lt;/sup&gt;], Roubaix, Lire &amp;agrave; Roubaix, 1995, 51 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 1&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <corpname>SER, Société d'Emulation de Roubaix</corpname>
+            <persname role="auteur">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_001_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_001_055.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_002</unitid>
+            <unittitle>Louis Decottignies, poète ouvrier méconnu</unittitle>
+            <unitdate normal="1998">1998</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p&gt;Piat, Jean, &lt;em&gt;Louis Decottignies, po&amp;egrave;te ouvrier m&amp;eacute;connu&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [ca 1998], 46 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 2&lt;/p&gt;&#13;
+&lt;p&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="Rameau">Decottignies, Louis</subject>
+            <subject source="Rameau">Poète</subject>
+            <subject source="theme">Littérature </subject>
+            <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Louis Decottignies, poète ouvrier méconnu</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_002_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_002_048.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_003</unitid>
+            <unittitle>Lintégration des Belges à Roubaix</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;David, Michel, Guillemin, Alain, Waret, Philippe, &lt;em&gt;L&amp;rsquo;int&amp;eacute;gration des Belges &amp;agrave; Roubaix&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [S. d.], 71 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 3&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Population, immigration </subject>
+            <subject source="Rameau">Immigration des Belges</subject>
+            <persname normal="David, Michel" role="auteur">David, Michel</persname>
+            <persname normal="Alain Guillemin" role="auteur">Guillemin, Alain</persname>
+            <persname normal="Philippe Waret" role="auteur">Waret, Philippe</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Lintégration des Belges à Roubaix</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_003_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_003_073.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_004</unitid>
+            <unittitle>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</unittitle>
+            <unitdate normal="2001">2001</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p&gt;Lefebvre, R&amp;eacute;mi, &lt;em&gt;Le m&amp;eacute;tier de maire &amp;agrave; Roubaix&amp;nbsp;: &amp;eacute;tude d&amp;rsquo;un apprentissage &amp;agrave; travers la succession d&amp;rsquo;Andr&amp;eacute; Diligent (mai 1994 - juin 1995)&lt;/em&gt;, R&amp;eacute;mi Lefebvre, dessins de Teel, Roubaix, Lire &amp;agrave; Roubaix, [2001], 69 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 4&lt;/p&gt;&#13;
+&lt;p&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Vie politique </subject>
+            <subject source="Rameau">Diligent, André</subject>
+            <subject source="Rameau">Vie politique</subject>
+            <subject source="chrono">Après 1989</subject>
+            <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_004_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_004_069.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_005</unitid>
+            <unittitle>Témoignage dun vieux Roubaisien</unittitle>
+            <unitdate normal="2001">2001</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Lepoutre, Marcel, &lt;em&gt;T&amp;eacute;moignage d&amp;rsquo;un vieux Roubaisien&lt;/em&gt;, dessins de Vincent Lepoutre, Roubaix, Lire &amp;agrave; Roubaix, [2001], 141 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 5&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Témoignage dun vieux Roubaisien</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_005_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_005_143.jpg" role="image:last"/>
+          </daogrp>
+          <controlaccess>
+            <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
+            <persname normal="Vincent Lepoutre" role="dessinateur">Lepoutre, Vincent</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_006</unitid>
+            <unittitle>Histoire de lenseignement primaire à Roubaix</unittitle>
+            <unitdate normal="2005">2005</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Ravier, Jo&amp;euml;l, &lt;em&gt;Histoire de l&amp;rsquo;enseignement primaire &amp;agrave; Roubaix&amp;nbsp;: l&amp;rsquo;&amp;eacute;cole au c&amp;oelig;ur de la lutte des classes&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [2005]. 93 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 6&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Enseignement </subject>
+            <subject source="Rameau">Enseignement</subject>
+            <subject source="Rameau">Lutte des classes</subject>
+            <subject source="theme">Conflits sociaux </subject>
+            <persname normal="Joël Ravier" role="auteur">Ravier, Joël</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Histoire de lenseignement primaire à Roubaix </p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_006_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_006_097.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_007</unitid>
+            <unittitle>Le commerce des imprimés à Roubaix au XIXe siècle</unittitle>
+            <unitdate normal="2002">2002</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Grelle Bernard, &lt;em&gt;Le commerce des imprim&amp;eacute;s &amp;agrave; Roubaix au XIX&lt;sup&gt;e&lt;/sup&gt; si&amp;egrave;cle&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [mai 2002.]. 199 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 7&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Presse </subject>
+            <subject source="theme">Commerces </subject>
+            <subject source="Rameau">Imprimés</subject>
+            <persname role="auteur">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Le commerce des imprimés à Roubaix au XIXe siècle</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_007_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_007_201.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_008</unitid>
+            <unittitle>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</unittitle>
+            <unitdate normal="2006">2006</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Duhamel, &lt;em&gt;&amp;Eacute;mile, Parcours d&amp;rsquo;un prol&amp;eacute;taire du textile roubaisien&amp;nbsp;: entretiens avec Jean-Pierre Morant&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [2006]. 109 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 8&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <persname>Morant, Jean-Pierre</persname>
+            <subject source="theme">Manufacture et industrie textile </subject>
+            <subject source="Rameau">Industries textiles</subject>
+            <persname normal="Émile Duhamel" role="auteur">Duhamel, Émile</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_008_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_008_111.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_009</unitid>
+            <unittitle>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Lefebvre, R&amp;eacute;mi, &lt;em&gt;Les m&amp;eacute;tamorphoses d&amp;rsquo;une identit&amp;eacute; locale&amp;nbsp;: gen&amp;egrave;se de la &amp;laquo;&amp;nbsp;Roubaisien-it&amp;eacute;&amp;nbsp;&amp;raquo;&lt;/em&gt;, &amp;amp; &lt;em&gt;Inventaire bibliographique des travaux universitaires portant sur Roubaix&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [S. d.], 64 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 9&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_009_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_009_067.jpg" role="image:last"/>
+          </daogrp>
+          <controlaccess>
+            <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_010</unitid>
+            <unittitle>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Grelle Bernard, &lt;em&gt;Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914&lt;/em&gt; [&lt;em&gt;Catalogue comment&amp;eacute; de la presse roubaisienne 1829-1914&lt;/em&gt;]&lt;em&gt;, &lt;/em&gt;Roubaix, Lire &amp;agrave; Roubaix, [2004]. 221 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 10&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Presse </subject>
+            <subject source="Rameau">Presse</subject>
+            <persname role="auteur">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_010_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_010_223.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_011</unitid>
+            <unittitle>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;&lt;em&gt;Verbatim&amp;nbsp;: Roubaix, 50 ans de transformations urbaines et de mutations sociales&amp;nbsp;: colloque 28 et 29 novembre 2003&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [2004]. 198 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 11&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Urbanisme </subject>
+            <subject source="Rameau">Urbanisme</subject>
+            <subject source="Rameau">Mutations sociales</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_011_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_011_143.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_012</unitid>
+            <unittitle>Miscellanées : quatre textes inédits de Jean Piat</unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Piat (Jean), &lt;em&gt;Miscellan&amp;eacute;es&amp;nbsp;: quatre textes in&amp;eacute;dits de Jean Piat, pr&amp;eacute;c&amp;eacute;d&amp;eacute;s d&amp;rsquo;une note biographique sur l&amp;rsquo;auteur par Pierre Pierrard&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [2004]. 198 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 12&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Contient&amp;nbsp;: &lt;em&gt;The Flowers of Sullivan street&lt;/em&gt;&amp;nbsp;; &lt;em&gt;Jean Lebas et la guerre de 1914-1918&lt;/em&gt;&amp;nbsp;; &lt;em&gt;Soldats de la libert&amp;eacute;&amp;nbsp;: les socialistes du Nord dans la R&amp;eacute;sistance 1940-1944&lt;/em&gt;&amp;nbsp;; &lt;em&gt;Parti Ouvrier fran&amp;ccedil;ais&amp;nbsp;: une page d&amp;rsquo;histoire &amp;agrave; rectifier&lt;/em&gt;.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Littérature </subject>
+            <persname role="auteur">Piat, Jean (1911-2002)</persname>
+            <persname normal="Pierre Pierrard" role="Second auteur">Pierrard, Pierre</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Miscellanées : quatre textes inédits de Jean Piat</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_012_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_012_201.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_013</unitid>
+            <unittitle>Roubaix 1870-1908 : la question laïque</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Waret (Philippe), &lt;em&gt;Roubaix 1870-1908&amp;nbsp;: la question la&amp;iuml;que, Roubaix&lt;/em&gt;, Lire &amp;agrave; Roubaix, [S. d.], 207 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 13&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;NB : une premi&amp;egrave;re &amp;eacute;dition de ce num&amp;eacute;ro 13 a &amp;eacute;t&amp;eacute; diffus&amp;eacute;e en premier lieu. Elle pr&amp;eacute;sentait, en 84 pages, la premi&amp;egrave;re partie du document : &lt;em&gt;La question la&amp;iuml;que &amp;agrave; Roubaix : 1870-1892&lt;/em&gt;.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="Rameau">Laïcité</subject>
+            <genreform>Livres et revues</genreform>
+            <subject source="chrono">1871-1913</subject>
+            <subject source="theme">Religion </subject>
+            <persname normal="Philippe Waret" role="auteur">Waret, Philippe</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Roubaix 1870-1908 : la question laïque</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_013_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_013_212.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_014</unitid>
+            <unittitle>Mémoires de Jean Soudan [Résistant]</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Soudan (Jean), &lt;em&gt;M&amp;eacute;moires de Jean Soudan [R&amp;eacute;sistant]&lt;/em&gt;, avec la collab. de Francis Carlier, Roubaix, Lire &amp;agrave; Roubaix, [S. d.]. 221 p., &lt;em&gt;Les Cahiers de Roubaix, &lt;/em&gt;n&amp;deg;14&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Guerres </subject>
+            <subject source="Rameau">Résistants</subject>
+            <subject source="Rameau">Guerre mondiale (1939-1945)</subject>
+            <persname normal="Jean Soudan" role="auteur">Soudan, Jean</persname>
+            <persname normal="Francis Carlier" role="Second auteur">Carlier, Francis</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Mémoires de Jean Soudan [Résistant]</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_014_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_014_085.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_015</unitid>
+            <unittitle>Témoignage dun vieux Roubaisien (suite)</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Lepoutre, Marcel, &lt;em&gt;T&amp;eacute;moignage d&amp;rsquo;un vieux Roubaisien (suite)&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [S. d.], 104 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 15&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Témoignage dun vieux Roubaisien (suite),</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_015_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_015_105.jpg" role="image:last"/>
+          </daogrp>
+          <controlaccess>
+            <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
+          </controlaccess>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_016</unitid>
+            <unittitle>Journal de guerre 1914-1918</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Vibaux (Joseph), &lt;em&gt;Journal de guerre 1914-1918&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [S. d.]. 141 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n&amp;deg; 16&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Guerres </subject>
+            <subject source="Rameau">Guerre mondiale (1914-1918)</subject>
+            <persname normal="Joseph Wibaux" role="auteur">Wibaux, Joseph</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Journal de guerre 1914-1918</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_016_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_016_093.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_017</unitid>
+            <unittitle>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</unittitle>
+            <unitdate normal="2009">2009</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;David, (Michel), &lt;em&gt;Une politique publique locale &amp;agrave; l&amp;rsquo;&amp;eacute;preuve de l&amp;rsquo;Immigration&amp;nbsp;: le cas de Roubaix&lt;/em&gt;, Roubaix, Lire &amp;agrave; Roubaix, [S. d.], 117 p., &lt;em&gt;Cahiers de Roubaix, &lt;/em&gt;n&amp;deg; 17&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Population, immigration </subject>
+            <subject source="Rameau">Immigration</subject>
+            <subject source="Rameau">Politique publique</subject>
+            <persname normal="David, Michel" role="auteur">David, Michel</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_017_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_017_119.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_CDR_018</unitid>
+            <unittitle>Autant qu'il m'en souvienne...</unittitle>
+            <unitdate normal="2015">2015</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Piat (Jean), &lt;em&gt;Autant qu&amp;rsquo;il m&amp;rsquo;en souvienne&amp;hellip;&amp;nbsp;: autobiographie&lt;/em&gt;, texte &amp;eacute;tabli et annot&amp;eacute; par Bernard Grelle, Roubaix, Lire &amp;agrave; Roubaix, 2015, 178 p.+ i cahier photos, &lt;em&gt;Cahiers de Roubaix, &lt;/em&gt;[n&amp;deg; 17]&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Littérature </subject>
+            <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Autant quil men souvienne</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_CDR_018_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_018_179.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <controlaccess>
+          <persname normal="Michel David" role="Directeur de publication">David, Michel</persname>
+        </controlaccess>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>PUB_VPR</unitid>
+          <unittitle>Au Vrai Polichinelle Roubaisien</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>&lt;p&gt;13 revues papier.&lt;/p&gt;</physdesc>
+        </did>
+        <scopecontent>
+          <p>&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Informations sur ce p&amp;eacute;riodique&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Au temps o&amp;ugrave; le cin&amp;eacute;ma et la t&amp;eacute;l&amp;eacute;vision n&amp;rsquo;existaient pas, le th&amp;eacute;&amp;acirc;tre &amp;eacute;tait roi, et chaque petite ville avait son th&amp;eacute;&amp;acirc;tre et sa troupe permanente. Mais le th&amp;eacute;&amp;acirc;tre revient cher&amp;nbsp;: les acteurs veulent &amp;ecirc;tre pay&amp;eacute;s&amp;nbsp;; salle, &amp;eacute;clairage et d&amp;eacute;cors co&amp;ucirc;tent. Pour diminuer les co&amp;ucirc;ts, pourquoi ne pas faire jouer des acteurs de bois&amp;nbsp;?&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;&lt;em&gt;Les th&amp;eacute;&amp;acirc;tres de marionnettes ambulants&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Bon nombre de th&amp;eacute;&amp;acirc;tres, tant d&amp;rsquo;acteurs que de marionnettes, couraient alors les f&amp;ecirc;tes patronales avec leurs baraques et leurs pantins. La lecture de la presse montre qu&amp;rsquo;ils revenaient r&amp;eacute;guli&amp;egrave;rement chaque ann&amp;eacute;e. Le r&amp;eacute;pertoire &amp;eacute;tait peu vari&amp;eacute; et s&amp;rsquo;inspirait de vieilles l&amp;eacute;gendes telles &lt;em&gt;Ourson et Valentin&lt;/em&gt; ou les aventures de Saint Antoine et son cochon&amp;nbsp;; r&amp;eacute;pertoire si peu vari&amp;eacute; qu&amp;rsquo;on parlait couramment de &amp;laquo;&amp;nbsp;baraques Saint-Antoine&amp;nbsp;&amp;raquo; pour d&amp;eacute;signer&amp;nbsp; ces stands.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;&lt;em&gt;Les th&amp;eacute;&amp;acirc;tres ouvriers&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Mais il existait aussi des th&amp;eacute;&amp;acirc;tres permanents dans toutes les villes ouvri&amp;egrave;res, Roubaix, Lille, Amiens, Tournai, Li&amp;egrave;ge, etc. Pour gagner quelques sous, des montreurs plus ou moins improvis&amp;eacute;s donnaient &amp;laquo;&amp;nbsp;la com&amp;eacute;die&amp;nbsp;&amp;raquo; &amp;agrave; leurs coll&amp;egrave;gues et aux enfants dans des estaminets, des caves ou des greniers. Alain Guillemin et Andr&amp;eacute;e Leroux en ont recens&amp;eacute; pr&amp;egrave;s d&amp;rsquo;une soixantaine &amp;agrave; Roubaix, et pr&amp;egrave;s d&amp;rsquo;une quarantaine &amp;agrave; Lille. L&amp;rsquo;existence de ces &amp;laquo;&amp;nbsp;th&amp;eacute;&amp;acirc;tres&amp;nbsp;&amp;raquo; &amp;eacute;tait souvent pr&amp;eacute;caire, les spectacles de plus ou moins bonne qualit&amp;eacute;. Mais &amp;agrave; Roubaix le &amp;laquo;&amp;nbsp;Th&amp;eacute;&amp;acirc;t&amp;rsquo; Louis&amp;nbsp;&amp;raquo; se d&amp;eacute;tache du lot. Cr&amp;eacute;&amp;eacute; par Louis Richard, repris par son fils L&amp;eacute;opold, perp&amp;eacute;tu&amp;eacute; jusqu&amp;rsquo;&amp;agrave; nos jours par son petit-fils Florian aid&amp;eacute; d&amp;rsquo;Andr&amp;eacute;e Leroux et d&amp;rsquo;Alain Guillemin, Le Th&amp;eacute;&amp;acirc;tre Louis Richard a d&amp;ucirc; malheureusement s&amp;rsquo;exiler &amp;agrave; Wasquehal.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;&lt;em&gt;Au Vrai Polichinelle Roubaisien&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;La m&amp;eacute;diath&amp;egrave;que ne pouvait rester indiff&amp;eacute;rente &amp;agrave; ce pan de la culture roubaisienne. Aussi cr&amp;eacute;a-t-elle un fonds marionnette, qui recueille tout ce qui peut concerner cet art, manuscrits, livres, disques, objets, de provenance locale, r&amp;eacute;gionale ou internationale. Une partie de ce mat&amp;eacute;riel a &amp;eacute;t&amp;eacute; montr&amp;eacute; en 1997 dans une exposition intitul&amp;eacute;e &amp;laquo;&amp;nbsp;Papiers et marionnettes&amp;nbsp;&amp;raquo;. Roubaix comptait alors encore quatre compagnies de marionnettiste. Aucune aujourd&amp;rsquo;hui.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Pour favoriser sa collecte, et faire conna&amp;icirc;tre cette collection, la m&amp;eacute;diath&amp;egrave;que s&amp;rsquo;associa &amp;agrave; Lire &amp;agrave; Roubaix et au Th&amp;eacute;&amp;acirc;tre Louis Richard pour lancer la revue &lt;em&gt;Au Vrai Polichinelle Roubaisien&lt;/em&gt; en 1987. Treize num&amp;eacute;ros ont paru. Ont collabor&amp;eacute; au fanzine, outre des&amp;nbsp;&amp;laquo;&amp;nbsp;locaux&amp;nbsp;&amp;raquo;, des &amp;eacute;crivains fran&amp;ccedil;ais, un marionnettiste italien, un autre portugais, et quelques Belges.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Les promoteurs esp&amp;eacute;raient une collaboration active des marionnettistes de la r&amp;eacute;gion, espoirs en grande partie d&amp;eacute;&amp;ccedil;us. Mais cet effort&amp;nbsp; tout de m&amp;ecirc;me permis&amp;nbsp; de ramener &amp;agrave; Roubaix, une pr&amp;eacute;cieuse collection de manuscrits dus &amp;agrave; Louis et L&amp;eacute;opold Richard (voir &lt;em&gt;Au vrai Polichinelle Roubaisien&lt;/em&gt; n&amp;deg; 8).&lt;/p&gt;</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="Rameau">Marionnettes</subject>
+          <subject source="Rameau">Théâtre de marionnettes</subject>
+          <subject source="theme">Spectacles </subject>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_001</unitid>
+            <unittitle>Numéro 1</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;La marionnette dans le dessin d&amp;rsquo;humour&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Dossier&amp;nbsp;: les marionnettes siciliennes. &amp;laquo;&amp;nbsp;Une enfance sicilienne&amp;nbsp;&amp;raquo; / Edmonde Charles-Roux ; &amp;laquo;&amp;nbsp;M&amp;egrave;re m&amp;eacute;diterran&amp;eacute;e&amp;nbsp;&amp;raquo; / Dominique Fernandez ; &amp;laquo;&amp;nbsp;Des marionnettes sicilienne fabriqu&amp;eacute;es &amp;agrave; Roubaix&amp;nbsp;&amp;raquo; / Alain Guillemin (Roubaix)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Portugal&amp;nbsp;: &lt;em&gt;Les Bonecos de Santos&lt;/em&gt;&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Guignol et tr&amp;eacute;teaux&amp;nbsp;&amp;raquo; / Louis Guilloux&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Guignol&amp;nbsp;: nouvelle&amp;nbsp;&amp;raquo; / Charles &amp;Eacute;tienne&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 1</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_001_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_001_078.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_002</unitid>
+            <unittitle>Numéro 2</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Libres propos&amp;nbsp;&amp;raquo; / Pierre Gripari (Paris)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;De Goethe et des marionnettes, dossier. &amp;laquo;&amp;nbsp;&amp;Eacute;l&amp;eacute;ments biographiques&amp;nbsp;&amp;raquo; / Charles Magnin ; &amp;laquo;&amp;nbsp;Du statut paradoxal des marionnettes dans les ann&amp;eacute;es d&amp;rsquo;apprentissage de &lt;em&gt;Wilhem Meister&lt;/em&gt; de Goethe&amp;nbsp;&amp;raquo; / Fabienne Thi&amp;eacute;ffry (Roubaix)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;&amp;Agrave; propos de &lt;em&gt;Don Quichotte&lt;/em&gt; et de marionnettes&amp;nbsp;&amp;raquo; Pierre-Jacques Lamblin (Villeneuve-d&amp;rsquo;Ascq)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Quand Gustave Dor&amp;eacute; voyageait en Espagne&amp;nbsp;&amp;raquo; / Ch. Davilliers&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Dossier&amp;nbsp;: G&amp;eacute;ants et marionnettes&amp;nbsp;: Reuze et Gayant sont-ils des marionnettes&amp;nbsp;? &amp;laquo;&amp;nbsp;Introduction&amp;nbsp;&amp;raquo; / Bernard Grelle ; Premi&amp;egrave;res r&amp;eacute;ponses&amp;nbsp;: B. Couss&amp;eacute;e (Raimbeaucourt), Robert Henry (Tourcoing), Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Notes de lecture&amp;nbsp;: Roger L. Simon, &lt;em&gt;Marionnette&amp;nbsp;: une jeunesse manipul&amp;eacute;e&lt;/em&gt;&amp;nbsp;; M. Meurant, &lt;em&gt;G&amp;eacute;ants de Wallonie&lt;/em&gt; / Eug&amp;egrave;ne Morel (alias Bernard Grelle)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Les G&amp;eacute;ants&amp;nbsp;: une bibliographie&amp;nbsp;&amp;raquo; / Anne-Laure Dodey (Roubaix)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Lille et Roubaix au XIX&lt;sup&gt;e&lt;/sup&gt; si&amp;egrave;cle&amp;nbsp;: l&amp;rsquo;&amp;acirc;ge des spectateurs&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Les petits pages de musique&amp;nbsp;&amp;raquo; / Paul Ar&amp;egrave;ne&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <geogname>Roubaix</geogname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 2</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_002_000" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_085" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_003</unitid>
+            <unittitle>Numéro 3</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;&lt;em&gt;La tentation de saint Antoine&lt;/em&gt;&amp;nbsp;: tradition populaire ou pi&amp;egrave;ce savante&amp;nbsp;?&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Dossier&amp;nbsp;: &amp;laquo;&amp;nbsp;La Marionnette et le cin&amp;eacute;ma&amp;nbsp;&amp;raquo;. &amp;laquo;&amp;nbsp;La marionnette et le 7&lt;sup&gt;e&lt;/sup&gt; art&amp;nbsp;&amp;raquo; / Alberto Bagno (Parme) ; &amp;laquo;&amp;nbsp;Marionnettes &amp;agrave; l&amp;rsquo;&amp;eacute;cran&amp;nbsp;: pour un inventaire permanent&amp;nbsp;&amp;raquo; / Bernard Grelle ; &amp;laquo;&amp;nbsp;Petite grammaire de l&amp;rsquo;utilisation de la marionnette dans le dessin d&amp;rsquo;humour et la caricature&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;G&amp;eacute;ants et marionnettes&amp;nbsp;: la suite du d&amp;eacute;bat&amp;nbsp;&amp;raquo;. Les r&amp;eacute;ponses&amp;nbsp;d&amp;rsquo;&amp;Eacute;milie Valentin, Jean G&amp;eacute;rardy, Albert Bagno&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo; Note de lecture&amp;nbsp;: sur le &lt;em&gt;Croquemitaine&lt;/em&gt; de J. Vandenheede&amp;nbsp;&amp;raquo; / Jean Sadyn (Flandres)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Marionnettes d&amp;rsquo;ici : &amp;laquo;&amp;nbsp;Les marionnettes &amp;agrave; la planchette &amp;agrave; Roubaix&amp;nbsp;&amp;raquo; / Bernard Grelle ; &amp;laquo;&amp;nbsp;Lucien Lafleur, montreur de marionnettes &amp;agrave; Raimbeaucourt / Bernard Couss&amp;eacute;e ; &amp;laquo;&amp;nbsp;Une cave lilloise&amp;nbsp;&amp;raquo; / Jean Vindevogel&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Revue antespective de l&amp;rsquo;art dramatique&amp;nbsp;&amp;raquo; / Jean Mor&amp;eacute;as&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 3</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_003_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_003_103.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_004</unitid>
+            <unittitle>Numéro 4</unittitle>
+            <unitdate normal="1989">janvier 1989</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;Marionnette et publicit&amp;eacute;&amp;nbsp;: &amp;laquo;&amp;nbsp;La marionnette publicitaire&amp;nbsp;&amp;raquo; / Alberto Bagno ; &amp;laquo;&amp;nbsp;Bochum&amp;nbsp;: une ville qui ose faire sa publicit&amp;eacute; sur son amour des marionnettes&amp;nbsp;&amp;raquo;&amp;nbsp;: trad. Catherine Martinache (Lille)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Marionnettes et dessins d&amp;rsquo;humour&amp;nbsp;: les fils&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Marionnettes d&amp;rsquo;ici, Nord de la France et sud de la Belgique&amp;nbsp;: autour de L&amp;eacute;opold Richard. &amp;laquo;&amp;nbsp;Le don de Robert Henri &amp;agrave; la biblioth&amp;egrave;que municipale&amp;nbsp;&amp;raquo; / Anne-Laure Dodey ; &amp;laquo;&amp;nbsp;Robert Henri, un Tourquennois &amp;agrave; Roubaix&amp;nbsp;&amp;raquo; ; &amp;laquo;&amp;nbsp;Note sur les th&amp;eacute;&amp;acirc;tres de marionnettes dans le Nord apr&amp;egrave;s 1900&amp;nbsp;&amp;raquo;&amp;nbsp;: Alain Guillemin ; &amp;laquo;&amp;nbsp;L&amp;eacute;opold Delannoy et L&amp;eacute;opold Richard&amp;nbsp;: le journaliste et l&amp;rsquo;ouvrier&amp;nbsp;&amp;raquo; / Alain Guillemin ; &amp;laquo;&amp;nbsp;Grand Jean se prom&amp;egrave;ne&amp;nbsp;&amp;raquo; / Jacques Coulardeau (Roubaix)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Notes de lecture&amp;nbsp;: &amp;laquo;&amp;nbsp;&lt;em&gt;Le Montreur de marionnette&lt;/em&gt;, de Paul Tillard&amp;nbsp;; &lt;em&gt;Les sabots de Paris&lt;/em&gt; et &lt;em&gt;Le Grand Guignol&lt;/em&gt;, de Georges Coulonges&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Bonnes pages&amp;nbsp;: &amp;laquo;&amp;nbsp;Les Marionnettes au salon&amp;hellip;&amp;nbsp;&amp;raquo;&amp;nbsp;; &amp;laquo;&amp;nbsp;Polichinelle, racont&amp;eacute; par &amp;Eacute;mile Zola&amp;nbsp;&amp;raquo;&amp;nbsp;; &amp;laquo;&amp;nbsp;&lt;em&gt;Le cirque de Piggy Logan&lt;/em&gt;, par Thomas Wolfe &amp;raquo; / D.D. Br. (Paris)&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 4</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_004_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_004_094.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_005</unitid>
+            <unittitle>Numéro 5</unittitle>
+            <unitdate normal="1990">juillet 1990</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Rigoler et parvenir&amp;nbsp;: les marionnettes dans la chanson de carnaval en patois de Lille&amp;nbsp;&amp;raquo; / Anne-Marie Poncet (Lille)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Gianduja, marionnette pi&amp;eacute;montaise&amp;nbsp;&amp;raquo; / Paolo Conte, Albert Bagno, Maurice Sand&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Quand la marionnette se r&amp;eacute;volte&amp;nbsp;&amp;raquo;&amp;nbsp;: dessins rassembl&amp;eacute;s par le docteur Bertin&amp;nbsp;(La Meignanne)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;SF et marionnettes&amp;nbsp;: dossier&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Un organisme discret&amp;nbsp;: le minist&amp;egrave;re du temps libre&amp;nbsp;&amp;raquo; / G&amp;eacute;b&amp;eacute;&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Deux ouvrages pour les enfants portugais&amp;nbsp;&amp;raquo; / Manuel Durand-Barthez (Toulouse)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;Glanes&amp;nbsp;: Georges Motte,&lt;em&gt; Les 20&amp;nbsp;000 de Radinghem &lt;/em&gt;; Ann Tyler,&lt;em&gt; Voyageur malgr&amp;eacute; lui &lt;/em&gt;; Marc Angenot, &lt;em&gt;Ce que l&amp;rsquo;on dit des juifs en 1889&amp;nbsp;&lt;/em&gt;; Romain Roussel, &lt;em&gt;L&amp;rsquo;herbe d&amp;rsquo;avril&lt;/em&gt;&amp;nbsp;; Jan Doat, &lt;em&gt;Val&amp;eacute;ry vivant&lt;/em&gt;&amp;nbsp;&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 5</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_005_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_005_074.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_006</unitid>
+            <unittitle>Numéro 6</unittitle>
+            <unitdate normal="1991">septembre 1991</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Marionnettes et national-socialisme en Allemagne&amp;nbsp;&amp;raquo; / Pierre Fouch&amp;eacute; (Roubaix)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Des bandes de marionnettes&amp;nbsp;: des marionnettes dans la BD&amp;nbsp;&amp;raquo; / Albert Bagno (Italie)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Manipulation&amp;nbsp;&amp;raquo; / B. D. de&amp;nbsp; Jean-Paul L&amp;eacute;t&amp;eacute; (Belgique)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Petite grammaire de la marionnette dans le dessin d&amp;rsquo;humour IV. Des ventriloques et de leurs poup&amp;eacute;es&amp;nbsp;&amp;raquo; dessins rassembl&amp;eacute;s par le Docteur Bertin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;Agrave; propos de Polichinelle&amp;nbsp;: dossier. &amp;laquo;&amp;nbsp;La langue de Polichinelle&amp;nbsp;&amp;raquo; Alain Guillemin ; &amp;laquo;&amp;nbsp;La Polichinelle&amp;nbsp;&amp;raquo; / Lezin-Raynal ; &amp;laquo;&amp;nbsp;Polichinelle&amp;nbsp;&amp;raquo;&amp;nbsp;: Th&amp;eacute;odore de Banville ; &amp;laquo;&amp;nbsp;Guignol et Polichinelle&amp;nbsp;&amp;raquo; / Nizier Tafusoir ; &amp;laquo;&amp;nbsp;Polichinelle&amp;nbsp;&amp;raquo; / L&amp;eacute;on Broutin p&amp;egrave;re ; &amp;laquo;&amp;nbsp;La Polichinelle&amp;nbsp;: chanson&amp;nbsp;&amp;raquo; ; &amp;laquo;&amp;nbsp;Polichinelle en 1860&amp;nbsp;&amp;raquo; / Ourry ; &amp;laquo;&amp;nbsp;Les mal&amp;eacute;dictions de Polichinelle&amp;nbsp;&amp;raquo; / &amp;Eacute;mile Gachet&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Marionnette d&amp;rsquo;ici&amp;nbsp;: Louis Richard et les marionnettes de Gand&amp;nbsp;&amp;raquo;&amp;nbsp;/ Alain Guillemin&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 6</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_006_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_006_082.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_007</unitid>
+            <unittitle>Numéro 7</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;Num&amp;eacute;ro sp&amp;eacute;cial&amp;nbsp;: &amp;laquo;&amp;nbsp;1880-1914&amp;nbsp;: langues et culture &amp;agrave; Roubaix&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 7</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_007_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_007_062.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_008</unitid>
+            <unittitle>Numéro 8</unittitle>
+            <unitdate normal="1996">1996</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;Num&amp;eacute;ro sp&amp;eacute;cial&amp;nbsp;:&amp;nbsp;&lt;em&gt;Une famille de marionnettistes&amp;nbsp;: les Richard et leurs alli&amp;eacute;s. Catalogue des documents les concernant conserv&amp;eacute;s &amp;agrave; la M&amp;eacute;diath&amp;egrave;que de Roubaix&lt;/em&gt; / Bernard Grelle&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="Rameau">Théâtre Louis Richard</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 8</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_008_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_008_143.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_009</unitid>
+            <unittitle>Numéro 9</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p style="text-align: left;"&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p&gt;Num&amp;eacute;ro sp&amp;eacute;cial&amp;nbsp;&lt;em&gt;: Marionnettes en images, images de marionnettes&amp;nbsp;: une rencontre entre les &amp;eacute;tudiants du Lyc&amp;eacute;e d&amp;rsquo;art appliqu&amp;eacute;s de Roubaix et des marionnettes du Th&amp;eacute;&amp;acirc;tre Louis Richard&lt;/em&gt;&amp;nbsp;&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 9</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_009_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_009_076.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_010</unitid>
+            <unittitle>Numéro 10</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;Num&amp;eacute;ro sp&amp;eacute;cial&amp;nbsp;: &lt;em&gt;Le Castelet lillois&amp;nbsp;: l&amp;rsquo;&amp;acirc;me des marionnettes&lt;/em&gt; / Jacques Wessels (Lille)&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 10</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_010_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_010_137.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_011</unitid>
+            <unittitle>Numéro 11</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;Num&amp;eacute;ro sp&amp;eacute;cial&amp;nbsp;: porte-folio &amp;laquo;&amp;nbsp;Polichinelle&amp;nbsp;&amp;raquo;&amp;nbsp;: illustrations de David Gomez&amp;nbsp;;&amp;nbsp; textes d&amp;rsquo;Alain Guillemin&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 11</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_012</unitid>
+            <unittitle>Numéro 12</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;L&amp;rsquo;infortune de Kasper&amp;nbsp;&amp;raquo;, Pierre Foucher (Lille)&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Cin&amp;eacute;ma et marionnettes&amp;nbsp;: &amp;laquo;&amp;nbsp;Daragouz&amp;nbsp;&amp;raquo; et &amp;laquo;&amp;nbsp;Un marionnettiste mal dans sa peau&amp;hellip;dans celle du com&amp;eacute;dien John Malkovich&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Friponnot photographe&amp;nbsp;: sc&amp;egrave;ne de Guignol&amp;nbsp;&amp;raquo; / Gringoire&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Quand le &lt;em&gt;Journal Officiel&lt;/em&gt; s&amp;rsquo;int&amp;eacute;resse &amp;agrave; la marionnette&amp;nbsp;&amp;raquo; / M. le ministre de la Culture&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Le Th&amp;eacute;&amp;acirc;tre Holden &amp;agrave; Roubaix&amp;nbsp;&amp;raquo;&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 12</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_012_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_012_057.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_VPR_013</unitid>
+            <unittitle>Numéro 13, Polichinelle s'en va</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Les quatre p&amp;egrave;res du Petit Morveux&amp;nbsp;&amp;raquo; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Tentations&amp;nbsp;&amp;raquo; / Alain Guillemin&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Roubaix 1900, Louis Richard et les enfants&amp;nbsp;&amp;raquo;&amp;nbsp; / Alain Guillemin&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;&amp;Ecirc;tre marionnettiste en 1792&amp;nbsp;&amp;raquo;&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;La Bande noire du Chat blanc [de Lille]&amp;nbsp;&amp;raquo; / A.F.&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;La Chasse aux canards&amp;nbsp;&amp;raquo; / Margaret Maron&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;Marionnettes et cin&amp;eacute;ma&amp;nbsp;&amp;raquo; / Bernard Grelle et al.&lt;/p&gt;&#13;
+&lt;p style="text-align: left;"&gt;&amp;laquo;&amp;nbsp;La m&amp;eacute;diath&amp;egrave;que et les marionnettes&amp;nbsp;: trente-deux ans d&amp;rsquo;activit&amp;eacute;s diverses&amp;nbsp;&amp;raquo; / Bernard Grelle&lt;/p&gt;</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 13, Polichinelle s'en va</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_013_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_013_099.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+      <c level="series">
+        <did>
+          <unitid>PUB_AMM</unitid>
+          <unittitle>Ateliers Mémoire, Mémoires des Ateliers</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>&lt;p&gt;4 revues papier.&lt;/p&gt;</physdesc>
+        </did>
+        <scopecontent>
+          <p>&lt;p style="text-align: justify;"&gt;Les ateliers m&amp;eacute;moire se sont constitu&amp;eacute;s dans le cadre de l&amp;rsquo;animation du patrimoine et de la politique de la ville. Les participants sont des habitants qui &amp;eacute;voquent ensemble et avec plaisir l&amp;rsquo;histoire de leur quartier. Ils expriment leurs souvenirs, apportent leur t&amp;eacute;moignage ou am&amp;egrave;nent des documents. Puis ils choisissent des th&amp;egrave;mes communs, et partent &amp;agrave; la recherche d&amp;rsquo;informations, de compl&amp;eacute;ments, de pr&amp;eacute;cisions. Ensuite ils lisent la presse aux Archives, interrogent d&amp;rsquo;autres personnes du quartier, retrouvent des t&amp;eacute;moins ou des photos. Enfin ils mettent en commun toutes ces informations sous la forme de textes, d&amp;rsquo;interviews, de montages diapos et de blogs, afin que la transmission de la m&amp;eacute;moire collective se fasse de mani&amp;egrave;re document&amp;eacute;e et attractive, notamment &amp;agrave; l&amp;rsquo;occasion de rencontres avec les enfants des &amp;eacute;coles, ou par la parution d&amp;rsquo;articles dans la presse. La revue &lt;em&gt;Ateliers M&amp;eacute;moire, M&amp;eacute;moires des Ateliers&lt;/em&gt; pr&amp;eacute;sente la compilation th&amp;eacute;matique de leurs &amp;eacute;changes.&lt;/p&gt;</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname>Ateliers Mémoire</corpname>
+          <subject source="Rameau">Animation du patrimoine</subject>
+          <persname normal="Philippe Waret" role="Directeur de publication">Waret, Philippe</persname>
+        </controlaccess>
+        <c level="file">
+          <did>
+            <unitid>PUB_AMM_001</unitid>
+            <unittitle>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</unittitle>
+            <unitdate normal="2008">2008</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p style="text-align: justify;"&gt;Urbanisme et &amp;eacute;volution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'apr&amp;egrave;s-guerre aux ann&amp;eacute;es soixante.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="Rameau">Urbanisme</subject>
+            <geogname source="quartier" coord="[ [ 50.68561487037336, 3.176427102842095 ], [ 50.68733854619703, 3.180156631928429 ], [ 50.68775657502504, 3.181069212202035 ], [ 50.68854508431108, 3.182722297194385 ], [ 50.68906687012189, 3.183848541274204 ], [ 50.68938349027729, 3.184537680027141 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68750406599419, 3.174984193955031 ], [ 50.68713918001467, 3.17544490888863 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68587748955579, 3.176029225672839 ] ]">Anseele</geogname>
+            <geogname source="quartier" coord="[ [ 50.67532183605949, 3.195614502965685 ], [ 50.67378850281606, 3.19315633400723 ], [ 50.67288040160246, 3.191700622417809 ], [ 50.67239092784399, 3.192574633009436 ], [ 50.67208643190531, 3.192199801824192 ], [ 50.67196790736448, 3.192193798133735 ], [ 50.67146928959027, 3.192720421087905 ], [ 50.67097117086394, 3.193234906891949 ], [ 50.67085340764174, 3.19336011116454 ], [ 50.67078998107755, 3.193429705252427 ], [ 50.67036417268741, 3.193888887842396 ], [ 50.67032801625622, 3.19391652964415 ], [ 50.67032832296271, 3.193874101690906 ], [ 50.67031055099906, 3.193845493239982 ], [ 50.67026622298265, 3.193759828389582 ], [ 50.67005265206723, 3.193458956949526 ], [ 50.67003447154914, 3.193486923787925 ], [ 50.66999821329065, 3.193528711552568 ], [ 50.66996185221998, 3.19358464086169 ], [ 50.6699254911178, 3.193640572913846 ], [ 50.669889130888, 3.193696503476314 ], [ 50.66985287255337, 3.1937382895564 ], [ 50.66981651227567, 3.193794219967229 ], [ 50.66978015107346, 3.193850150293436 ], [ 50.66974378984631, 3.193906079126602 ], [ 50.66973469998118, 3.193920063088998 ], [ 50.66970753232632, 3.193947867761776 ], [ 50.66967117015167, 3.194003797851819 ], [ 50.66962592467655, 3.194045421689802 ], [ 50.66958956334877, 3.194101353033652 ], [ 50.66955330485742, 3.194143141395935 ], [ 50.66950805843031, 3.194184765007146 ], [ 50.66944452839877, 3.194268500468648 ], [ 50.66939928102497, 3.194310123873128 ], [ 50.66934474062402, 3.194394018080822 ], [ 50.66929009636286, 3.194492054928241 ], [ 50.66924454286232, 3.194576109275912 ], [ 50.66919909222275, 3.19464602067122 ], [ 50.66918989934675, 3.194674145732884 ], [ 50.669171718534, 3.194702110238125 ], [ 50.66884446813141, 3.195205466476697 ], [ 50.66875356425273, 3.195345286878915 ], [ 50.66922533010072, 3.195990263656039 ], [ 50.66937648981472, 3.196219295188409 ], [ 50.66942102061842, 3.196276672143655 ], [ 50.66942990632968, 3.196290978661647 ], [ 50.66948322058235, 3.196376803755157 ], [ 50.66953714901885, 3.196377770253914 ], [ 50.66959873457044, 3.196562763927698 ], [ 50.66971342832047, 3.196861867088279 ], [ 50.66981954352806, 3.197104241563531 ], [ 50.66990778474603, 3.197332149198063 ], [ 50.66999694845927, 3.197432766205754 ], [ 50.67011256314102, 3.197604586246178 ], [ 50.67013932215797, 3.19763335698969 ], [ 50.67017496671133, 3.197676433327518 ], [ 50.67021061214516, 3.197719509730077 ], [ 50.67024625666488, 3.197762586190194 ], [ 50.67029088907904, 3.197805823817165 ], [ 50.67039802817526, 3.197906766094677 ], [ 50.67057655837801, 3.198079719515547 ], [ 50.67066582381891, 3.198166197395311 ], [ 50.67089797456305, 3.198382552531579 ], [ 50.67092483671618, 3.198397180861832 ], [ 50.67100521644974, 3.198469353960746 ], [ 50.67107660733467, 3.198541366047449 ], [ 50.67113022822141, 3.198584764921772 ], [ 50.6711481015431, 3.198599233586085 ], [ 50.67116587239008, 3.198627844198081 ], [ 50.67121938985847, 3.198685388014963 ], [ 50.67123726316608, 3.198699856740932 ], [ 50.67129956440087, 3.198785851597044 ], [ 50.67133510599378, 3.198843073146199 ], [ 50.67144203725741, 3.198972307997198 ], [ 50.67147757965651, 3.199029528432305 ], [ 50.67153977720928, 3.199129668972022 ], [ 50.6716194368187, 3.199300851278403 ], [ 50.67163710493534, 3.199343605888376 ], [ 50.67165467047188, 3.1994005054263 ], [ 50.67172513663559, 3.199599814138362 ], [ 50.6718045903607, 3.199799284877677 ], [ 50.67182205217063, 3.19987032829327 ], [ 50.67184829657155, 3.199969821741623 ], [ 50.67185697656463, 3.200012415276262 ], [ 50.67193653136718, 3.200197745038203 ], [ 50.67195419826958, 3.200240500230571 ], [ 50.67195409560738, 3.200254645210968 ], [ 50.67197176248968, 3.20029740043844 ], [ 50.67203395897948, 3.20039754071162 ], [ 50.67206949978674, 3.20045476706411 ], [ 50.67210524594935, 3.200483702040503 ], [ 50.67214987729082, 3.200526945101805 ], [ 50.67283317347082, 3.199485379758603 ], [ 50.67396922032822, 3.197706532675135 ] ]">Hauts Champs</geogname>
+            <geogname source="quartier" coord="[ [ 50.67674739306952, 3.187806610197207 ], [ 50.67591703776692, 3.186829867754468 ], [ 50.67523775731757, 3.186021779718715 ], [ 50.67445203804077, 3.1851876382733 ], [ 50.67394089898494, 3.184804484938602 ], [ 50.67330429520682, 3.186055129928311 ], [ 50.67284102349925, 3.186892284824821 ], [ 50.67241084446479, 3.18773850112912 ], [ 50.67235026582568, 3.187862758234426 ], [ 50.67198083719896, 3.188573385301437 ], [ 50.67149672240529, 3.189482125380458 ], [ 50.67256758037184, 3.191190920089966 ], [ 50.67288040160246, 3.191700622417809 ], [ 50.67311184469411, 3.192065798634254 ], [ 50.67378850281606, 3.19315633400723 ], [ 50.67429714675417, 3.192255584451595 ], [ 50.6758896228751, 3.189363240808234 ] ]">Nouveau Roubaix</geogname>
+            <geogname source="quartier" coord="[ [ 50.68923657201096, 3.201627620003197 ], [ 50.6881856222613, 3.199452855296052 ], [ 50.68756057465304, 3.19816890920584 ], [ 50.68578889194978, 3.199936086109576 ], [ 50.68571526283682, 3.19973112190707 ], [ 50.68564386404561, 3.199672669900769 ], [ 50.6854308129456, 3.199735619649369 ], [ 50.68531396490921, 3.199795912298923 ], [ 50.68493276172732, 3.198814134851149 ], [ 50.68467171576859, 3.198777033589991 ], [ 50.6841290010684, 3.198707982371409 ], [ 50.68379971986532, 3.19894429396689 ], [ 50.68178484519443, 3.200458448025176 ], [ 50.68180506040419, 3.200533941909806 ], [ 50.68186634981148, 3.200684458223529 ], [ 50.68150942885379, 3.201271558011281 ], [ 50.68145925381026, 3.201363343888995 ], [ 50.682552986018, 3.203182393220317 ], [ 50.68355762739144, 3.204903573522437 ], [ 50.68419412955154, 3.206005643182273 ], [ 50.68468581383693, 3.205573835044975 ], [ 50.68601356309062, 3.20441194231916 ], [ 50.68860489487004, 3.202167589860602 ] ]">Trois Ponts </geogname>
+            <subject source="theme">Urbanisme </subject>
+            <subject source="chrono">1946-1959</subject>
+            <subject source="chrono">1960-1969</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_AMM_001_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_001_101.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_AMM_002</unitid>
+            <unittitle>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <scopecontent>
+            <p>&lt;p&gt;Commerces et d&amp;eacute;veloppement commercial des quartiers Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'apr&amp;egrave;s-guerre aux ann&amp;eacute;es 1980.&lt;/p&gt;&#13;
+&lt;p&gt;&amp;Eacute;dit&amp;eacute; par l'association Lire &amp;agrave; Roubaix en collaboration avec la M&amp;eacute;diath&amp;egrave;que de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="theme">Commerces </subject>
+            <subject source="Rameau">Commerce</subject>
+            <subject source="Rameau">Développement commercial</subject>
+            <geogname source="quartier" coord="[ [ 50.68561487037336, 3.176427102842095 ], [ 50.68733854619703, 3.180156631928429 ], [ 50.68775657502504, 3.181069212202035 ], [ 50.68854508431108, 3.182722297194385 ], [ 50.68906687012189, 3.183848541274204 ], [ 50.68938349027729, 3.184537680027141 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68750406599419, 3.174984193955031 ], [ 50.68713918001467, 3.17544490888863 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68587748955579, 3.176029225672839 ] ]">Anseele</geogname>
+            <geogname source="quartier" coord="[ [ 50.67532183605949, 3.195614502965685 ], [ 50.67378850281606, 3.19315633400723 ], [ 50.67288040160246, 3.191700622417809 ], [ 50.67239092784399, 3.192574633009436 ], [ 50.67208643190531, 3.192199801824192 ], [ 50.67196790736448, 3.192193798133735 ], [ 50.67146928959027, 3.192720421087905 ], [ 50.67097117086394, 3.193234906891949 ], [ 50.67085340764174, 3.19336011116454 ], [ 50.67078998107755, 3.193429705252427 ], [ 50.67036417268741, 3.193888887842396 ], [ 50.67032801625622, 3.19391652964415 ], [ 50.67032832296271, 3.193874101690906 ], [ 50.67031055099906, 3.193845493239982 ], [ 50.67026622298265, 3.193759828389582 ], [ 50.67005265206723, 3.193458956949526 ], [ 50.67003447154914, 3.193486923787925 ], [ 50.66999821329065, 3.193528711552568 ], [ 50.66996185221998, 3.19358464086169 ], [ 50.6699254911178, 3.193640572913846 ], [ 50.669889130888, 3.193696503476314 ], [ 50.66985287255337, 3.1937382895564 ], [ 50.66981651227567, 3.193794219967229 ], [ 50.66978015107346, 3.193850150293436 ], [ 50.66974378984631, 3.193906079126602 ], [ 50.66973469998118, 3.193920063088998 ], [ 50.66970753232632, 3.193947867761776 ], [ 50.66967117015167, 3.194003797851819 ], [ 50.66962592467655, 3.194045421689802 ], [ 50.66958956334877, 3.194101353033652 ], [ 50.66955330485742, 3.194143141395935 ], [ 50.66950805843031, 3.194184765007146 ], [ 50.66944452839877, 3.194268500468648 ], [ 50.66939928102497, 3.194310123873128 ], [ 50.66934474062402, 3.194394018080822 ], [ 50.66929009636286, 3.194492054928241 ], [ 50.66924454286232, 3.194576109275912 ], [ 50.66919909222275, 3.19464602067122 ], [ 50.66918989934675, 3.194674145732884 ], [ 50.669171718534, 3.194702110238125 ], [ 50.66884446813141, 3.195205466476697 ], [ 50.66875356425273, 3.195345286878915 ], [ 50.66922533010072, 3.195990263656039 ], [ 50.66937648981472, 3.196219295188409 ], [ 50.66942102061842, 3.196276672143655 ], [ 50.66942990632968, 3.196290978661647 ], [ 50.66948322058235, 3.196376803755157 ], [ 50.66953714901885, 3.196377770253914 ], [ 50.66959873457044, 3.196562763927698 ], [ 50.66971342832047, 3.196861867088279 ], [ 50.66981954352806, 3.197104241563531 ], [ 50.66990778474603, 3.197332149198063 ], [ 50.66999694845927, 3.197432766205754 ], [ 50.67011256314102, 3.197604586246178 ], [ 50.67013932215797, 3.19763335698969 ], [ 50.67017496671133, 3.197676433327518 ], [ 50.67021061214516, 3.197719509730077 ], [ 50.67024625666488, 3.197762586190194 ], [ 50.67029088907904, 3.197805823817165 ], [ 50.67039802817526, 3.197906766094677 ], [ 50.67057655837801, 3.198079719515547 ], [ 50.67066582381891, 3.198166197395311 ], [ 50.67089797456305, 3.198382552531579 ], [ 50.67092483671618, 3.198397180861832 ], [ 50.67100521644974, 3.198469353960746 ], [ 50.67107660733467, 3.198541366047449 ], [ 50.67113022822141, 3.198584764921772 ], [ 50.6711481015431, 3.198599233586085 ], [ 50.67116587239008, 3.198627844198081 ], [ 50.67121938985847, 3.198685388014963 ], [ 50.67123726316608, 3.198699856740932 ], [ 50.67129956440087, 3.198785851597044 ], [ 50.67133510599378, 3.198843073146199 ], [ 50.67144203725741, 3.198972307997198 ], [ 50.67147757965651, 3.199029528432305 ], [ 50.67153977720928, 3.199129668972022 ], [ 50.6716194368187, 3.199300851278403 ], [ 50.67163710493534, 3.199343605888376 ], [ 50.67165467047188, 3.1994005054263 ], [ 50.67172513663559, 3.199599814138362 ], [ 50.6718045903607, 3.199799284877677 ], [ 50.67182205217063, 3.19987032829327 ], [ 50.67184829657155, 3.199969821741623 ], [ 50.67185697656463, 3.200012415276262 ], [ 50.67193653136718, 3.200197745038203 ], [ 50.67195419826958, 3.200240500230571 ], [ 50.67195409560738, 3.200254645210968 ], [ 50.67197176248968, 3.20029740043844 ], [ 50.67203395897948, 3.20039754071162 ], [ 50.67206949978674, 3.20045476706411 ], [ 50.67210524594935, 3.200483702040503 ], [ 50.67214987729082, 3.200526945101805 ], [ 50.67283317347082, 3.199485379758603 ], [ 50.67396922032822, 3.197706532675135 ] ]">Hauts Champs</geogname>
+            <geogname source="quartier" coord="[ [ 50.67674739306952, 3.187806610197207 ], [ 50.67591703776692, 3.186829867754468 ], [ 50.67523775731757, 3.186021779718715 ], [ 50.67445203804077, 3.1851876382733 ], [ 50.67394089898494, 3.184804484938602 ], [ 50.67330429520682, 3.186055129928311 ], [ 50.67284102349925, 3.186892284824821 ], [ 50.67241084446479, 3.18773850112912 ], [ 50.67235026582568, 3.187862758234426 ], [ 50.67198083719896, 3.188573385301437 ], [ 50.67149672240529, 3.189482125380458 ], [ 50.67256758037184, 3.191190920089966 ], [ 50.67288040160246, 3.191700622417809 ], [ 50.67311184469411, 3.192065798634254 ], [ 50.67378850281606, 3.19315633400723 ], [ 50.67429714675417, 3.192255584451595 ], [ 50.6758896228751, 3.189363240808234 ] ]">Nouveau Roubaix</geogname>
+            <geogname source="quartier" coord="[ [ 50.68923657201096, 3.201627620003197 ], [ 50.6881856222613, 3.199452855296052 ], [ 50.68756057465304, 3.19816890920584 ], [ 50.68578889194978, 3.199936086109576 ], [ 50.68571526283682, 3.19973112190707 ], [ 50.68564386404561, 3.199672669900769 ], [ 50.6854308129456, 3.199735619649369 ], [ 50.68531396490921, 3.199795912298923 ], [ 50.68493276172732, 3.198814134851149 ], [ 50.68467171576859, 3.198777033589991 ], [ 50.6841290010684, 3.198707982371409 ], [ 50.68379971986532, 3.19894429396689 ], [ 50.68178484519443, 3.200458448025176 ], [ 50.68180506040419, 3.200533941909806 ], [ 50.68186634981148, 3.200684458223529 ], [ 50.68150942885379, 3.201271558011281 ], [ 50.68145925381026, 3.201363343888995 ], [ 50.682552986018, 3.203182393220317 ], [ 50.68355762739144, 3.204903573522437 ], [ 50.68419412955154, 3.206005643182273 ], [ 50.68468581383693, 3.205573835044975 ], [ 50.68601356309062, 3.20441194231916 ], [ 50.68860489487004, 3.202167589860602 ] ]">Trois Ponts </geogname>
+            <subject source="chrono">1946-1959</subject>
+            <subject source="chrono">1960-1969</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_AMM_002_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_002_097.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_AMM_003</unitid>
+            <unittitle>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <controlaccess>
+            <geogname source="quartier" coord="[ [ 50.68561487037336, 3.176427102842095 ], [ 50.68733854619703, 3.180156631928429 ], [ 50.68775657502504, 3.181069212202035 ], [ 50.68854508431108, 3.182722297194385 ], [ 50.68906687012189, 3.183848541274204 ], [ 50.68938349027729, 3.184537680027141 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68750406599419, 3.174984193955031 ], [ 50.68713918001467, 3.17544490888863 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68587748955579, 3.176029225672839 ] ]">Anseele</geogname>
+            <subject source="theme">Enseignement </subject>
+            <subject source="Rameau">Enseignement</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_AMM_003_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_003_087.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+        <c level="file">
+          <did>
+            <unitid>PUB_AMM_004</unitid>
+            <unittitle>Contribution à lhistoire des jardins ouvriers roubaisiens</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>&lt;p&gt;1 revue papier.&lt;/p&gt;</physdesc>
+          </did>
+          <controlaccess>
+            <subject source="Rameau">Jardins ouvriers</subject>
+            <genreform>Livres et revues</genreform>
+            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Santé publique </subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Contribution à lhistoire des jardins ouvriers roubaisiens</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_AMM_004_000.jpg" role="image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_004_089.jpg" role="image:last"/>
+          </daogrp>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
