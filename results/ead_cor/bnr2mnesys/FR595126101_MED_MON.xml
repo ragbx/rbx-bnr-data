@@ -77,7 +77,7 @@ Contient des échantillons de tissus.</p>
           <subject source="theme">Manufacture et industrie textile</subject>
           <subject source="chrono">1871-1913</subject>
           <geogname>Francfort (Allemagne)</geogname>
-          <name role="auteur">Cassella, Léopold</name>
+          <persname role="auteur">Cassella, Léopold</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -103,7 +103,7 @@ Contient des échantillons de tissus.</p>
           <subject source="theme">Mode</subject>
           <subject source="theme">Manufacture et industrie textile</subject>
           <geogname>Francfort (Allemagne)</geogname>
-          <name role="auteur">Cassella, Léopold</name>
+          <persname role="auteur">Cassella, Léopold</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -421,8 +421,8 @@ Catalogue commercial, contient des échantillons de tissus.</p>
         <controlaccess>
           <subject source="theme">Mode</subject>
           <subject source="chrono">1789-1870</subject>
-          <name normal="Lanté, Louis-Marie" role="auteur">Lanté, Louis-Marie</name>
-          <name normal="Gatine, Georges-Jacques" role="Graveur">Gatine, Georges-Jacques</name>
+          <persname normal="Lanté, Louis-Marie" role="auteur">Lanté, Louis-Marie</persname>
+          <persname normal="Gatine, Georges-Jacques" role="Graveur">Gatine, Georges-Jacques</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -473,7 +473,7 @@ Edité chez A. Calavas à Paris.</p>
           <subject source="theme">Arts graphiques</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="Rameau">Caricatures et dessins humoristiques</subject>
-          <name normal="Arnold, Karl" role="auteur">Arnold, Karl</name>
+          <persname normal="Arnold, Karl" role="auteur">Arnold, Karl</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -499,8 +499,8 @@ Edité chez A. Calavas à Paris.</p>
           <subject source="chrono">1914-1918</subject>
           <subject source="theme">Arts graphiques</subject>
           <subject source="theme">Littérature</subject>
-          <name normal="Richepin, Jean" role="auteur">Richepin, Jean</name>
-          <name normal="Job" role="illustrateur">Job</name>
+          <persname normal="Richepin, Jean" role="auteur">Richepin, Jean</persname>
+          <persname normal="Job" role="illustrateur">Job</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -525,7 +525,7 @@ Edité chez A. Calavas à Paris.</p>
           <subject source="theme">Guerres</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="theme">Arts graphiques</subject>
-          <name normal="Bruyer, Georges" role="auteur">Bruyer, Georges</name>
+          <persname normal="Bruyer, Georges" role="auteur">Bruyer, Georges</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -556,10 +556,10 @@ Contient :&#13;
           <subject source="theme">Guerres</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="theme">Arts graphiques</subject>
-          <name role="illustrateur">Bigot, Raymond</name>
-          <name role="illustrateur">Mourier, Pierre</name>
-          <name normal="Gernez, Paul-Elie" role="illustrateur">Gernez, Paul-Elie</name>
-          <name normal="Marret, Henri" role="illustrateur">Marret, Henri</name>
+          <persname role="illustrateur">Bigot, Raymond</persname>
+          <persname role="illustrateur">Mourier, Pierre</persname>
+          <persname normal="Gernez, Paul-Elie" role="illustrateur">Gernez, Paul-Elie</persname>
+          <persname normal="Marret, Henri" role="illustrateur">Marret, Henri</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -603,9 +603,9 @@ Exemplaire n°242/300.</p>
           <subject source="theme">Guerres</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="theme">Arts graphiques</subject>
-          <name normal="Geffroy, Gustave" role="auteur">Geffroy, Gustave</name>
-          <name normal="Marotte, Léon" role="éditeur">Marotte, Léon</name>
-          <name normal="Méheut, Mathurin" role="illustrateur">Méheut, Mathurin</name>
+          <persname normal="Geffroy, Gustave" role="auteur">Geffroy, Gustave</persname>
+          <persname normal="Marotte, Léon" role="éditeur">Marotte, Léon</persname>
+          <persname normal="Méheut, Mathurin" role="illustrateur">Méheut, Mathurin</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -630,8 +630,8 @@ Exemplaire n°242/300.</p>
           <geogname>Pays-Bas</geogname>
           <subject source="chrono">Avant 1789</subject>
           <subject source="theme">Arts graphiques</subject>
-          <name normal="Guicciardini, Lodovico" role="auteur">Guicciardini, Lodovico</name>
-          <name role="éditeur">Plantin, Christophe</name>
+          <persname normal="Guicciardini, Lodovico" role="auteur">Guicciardini, Lodovico</persname>
+          <persname role="éditeur">Plantin, Christophe</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -658,8 +658,8 @@ Exemplaire n°242/300.</p>
           <subject source="chrono">1871-1913</subject>
           <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
-          <name normal="Durant, Clément" role="auteur">Durant, Clément</name>
-          <name normal="Reboux, Alfred" role="éditeur">Reboux, Alfred</name>
+          <persname normal="Durant, Clément" role="auteur">Durant, Clément</persname>
+          <persname normal="Reboux, Alfred" role="éditeur">Reboux, Alfred</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -685,7 +685,7 @@ Exemplaire n°242/300.</p>
           <subject source="theme">Musique</subject>
           <corpname>Vaissier frères</corpname>
           <corpname>Savonnerie du Congo</corpname>
-          <name role="Auteur-compositeur">Nadaud, Gustave</name>
+          <persname role="Auteur-compositeur">Nadaud, Gustave</persname>
         </controlaccess>
         <daogrp>
           <daodesc>

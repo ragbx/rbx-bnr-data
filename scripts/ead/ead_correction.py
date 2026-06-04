@@ -110,7 +110,7 @@ def clean_html_entities(text):
     return text
 
 
-def move_origination(element):
+def move_origination(element, names_type=None):
     # Trouver tous les éléments <origination>
     for origination in element.xpath("//origination"):
         name_elements = origination.xpath(".//name | .//persname")
@@ -126,12 +126,18 @@ def move_origination(element):
             if controlaccess is None:
                 controlaccess = etree.SubElement(parent.getparent(), "controlaccess")
 
-            # Renommer <name> en <persname> si nécessaire
+            # Renommer <name> en <persname> ou <corpname> si nécessaire
             if e.tag == "name":
-                new_persname = etree.Element("name")  # on garde provisoirement le name
-                new_persname.text = e.text
-                new_persname.attrib.update(e.attrib)
-                controlaccess.append(new_persname)
+                if e.text in names_type["p"]:
+                    new_persname = etree.Element("persname")
+                    new_persname.text = e.text
+                    new_persname.attrib.update(e.attrib)
+                    controlaccess.append(new_persname)
+                elif e.text in names_type["c"]:
+                    new_corpname = etree.Element("corpname")
+                    new_corpname.text = e.text
+                    new_corpname.attrib.update(e.attrib)
+                    controlaccess.append(new_corpname)
             else:
                 controlaccess.append(e)
 
@@ -157,7 +163,7 @@ def update_repository(element, new_repository):
         repository.text = new_repository
 
 
-def transform_ead(ir):
+def transform_ead(ir, names_type=None):
     ir_filename = join("data", "ead", "bnr", ir["nom_fichier"])
     new_ir_filename = join(
         "results", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
@@ -170,7 +176,7 @@ def transform_ead(ir):
     update_repository(root, ir["nouveau_repository"])
     remove_html_entities(root)
     strip_whitespace(root)
-    move_origination(root)
+    move_origination(root, names_type=names_type)
     remove_empty_attributes(root)
     remove_empty_elements(root)
 
@@ -184,11 +190,20 @@ def transform_ead(ir):
     )
 
 
+names = pd.read_csv(
+    join("results", "ead", "indexation", "controlaccess_extraction_name2.csv")
+)
+p = names[names["type"] == "persname"]
+c = names[names["type"] == "corpname"]
+names_type = {}
+names_type["p"] = p["contenu"].to_list()
+names_type["c"] = c["contenu"].to_list()
+
 irs = pd.read_excel(
     join("results", "ir", "liste_instruments_recherche_20260521_transfert_mnesys.xlsx")
 )
 irs = irs[irs["statut"] == "TRANSFERER"]
 
 for ir in irs.to_dict(orient="records"):
-    transform_ead(ir)
+    transform_ead(ir, names_type=names_type)
     print(ir)

@@ -55,7 +55,7 @@
             <corpname>Peignage Amédée Prouvost &amp; Cie</corpname>
             <subject source="chrono">1946-1959</subject>
             <subject source="theme">Manufacture et industrie textile</subject>
-            <name role="auteur">Amédée Prouvost &amp; Cie</name>
+            <persname role="auteur">Amédée Prouvost &amp; Cie</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -77,7 +77,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Prouvost &amp; Cie</corpname>
-            <name normal="Lainière de Roubaix" role="éditeur">Lainière de Roubaix</name>
+            <corpname normal="Lainière de Roubaix" role="éditeur">Lainière de Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -121,9 +121,9 @@
           <controlaccess>
             <corpname>Laines du Pingouin</corpname>
             <subject source="chrono">1946-1959</subject>
-            <name role="auteur">Prouvost, Jacques</name>
-            <name role="auteur">Bourguignon, Philippe</name>
-            <name role="auteur">Varnerot, Pierre</name>
+            <persname role="auteur">Prouvost, Jacques</persname>
+            <persname role="auteur">Bourguignon, Philippe</persname>
+            <persname role="auteur">Varnerot, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -149,7 +149,7 @@
             <corpname>Peignage Amédée Prouvost</corpname>
             <corpname>La Lainière</corpname>
             <subject source="chrono">1946-1959</subject>
-            <name role="éditeur">Paris-Match</name>
+            <corpname role="éditeur">Paris-Match</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -172,8 +172,8 @@
           <controlaccess>
             <corpname>La Lainière</corpname>
             <subject source="chrono">1980-1989</subject>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
-            <name role="éditeur">Groupe Prouvost</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
+            <corpname role="éditeur">Groupe Prouvost</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -201,7 +201,7 @@
             <daoloc href="RBX_LAI_D01_007_007.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <name role="éditeur">Buch und Zeitungsdruckerei H. Kollen</name>
+            <persname role="éditeur">Buch und Zeitungsdruckerei H. Kollen</persname>
           </controlaccess>
         </c>
         <c level="file">
@@ -217,7 +217,7 @@
           <controlaccess>
             <corpname>Pingouin</corpname>
             <subject source="chrono">1946-1959</subject>
-            <name normal="Pingouin" role="auteur">Pingouin</name>
+            <corpname normal="Pingouin" role="auteur">Pingouin</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -240,7 +240,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Pingouin</corpname>
-            <name normal="S.N.I.P" role="éditeur">S.N.I.P</name>
+            <corpname normal="S.N.I.P" role="éditeur">S.N.I.P</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -403,7 +403,7 @@
           <controlaccess>
             <corpname>Compagnie Franco-Australienne de Laines Filées</corpname>
             <subject source="chrono">1919-1938</subject>
-            <name role="auteur">Office international de Berne</name>
+            <corpname role="auteur">Office international de Berne</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D02_001_001.jpg" role="image"/>
         </c>
@@ -437,8 +437,8 @@
           </scopecontent>
           <controlaccess>
             <corpname>Lainière de Roubaix</corpname>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
-            <name role="auteur">Laurain, Jean</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
+            <persname role="auteur">Laurain, Jean</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -463,7 +463,7 @@
             <subject source="chrono">1970-1979</subject>
             <corpname>Filatures Prouvost &amp; Cie</corpname>
             <corpname>Etablissements François Masurel frères</corpname>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -487,8 +487,8 @@
             <corpname>Lainière de Roubaix</corpname>
             <corpname>Filatures Prouvost-Masurel &amp; Cie</corpname>
             <subject source="chrono">1970-1979</subject>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
-            <name role="auteur">Filatures Prouvost-Masurel &amp; Cie</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
+            <corpname role="auteur">Filatures Prouvost-Masurel &amp; Cie</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -512,7 +512,7 @@
             <corpname>Filatures de Neugedein</corpname>
             <persname>Lefebvre, Edmond</persname>
             <subject source="chrono">1919-1938</subject>
-            <name role="auteur">Filatures de Neugedein</name>
+            <corpname role="auteur">Filatures de Neugedein</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -535,8 +535,8 @@
           <controlaccess>
             <corpname>Filatures Prouvost &amp; Cie</corpname>
             <corpname>Lainière de Roubaix</corpname>
-            <name role="auteur">Filatures Prouvost &amp; Cie</name>
-            <name role="auteur">Lainière de Roubaix</name>
+            <corpname role="auteur">Filatures Prouvost &amp; Cie</corpname>
+            <corpname role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -559,7 +559,7 @@
           <controlaccess>
             <corpname>Industrielle lainière</corpname>
             <subject source="chrono">1919-1938</subject>
-            <name role="auteur">Industrielle lainière</name>
+            <corpname role="auteur">Industrielle lainière</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D02_008_001.jpg" role="image"/>
         </c>
@@ -577,8 +577,8 @@
             <corpname>Filatures Prouvost &amp; Cie</corpname>
             <corpname>Lainière de Roubaix</corpname>
             <subject source="chrono">1919-1938</subject>
-            <name role="auteur">Filatures Prouvost &amp; Cie</name>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            <corpname role="auteur">Filatures Prouvost &amp; Cie</corpname>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D02_009_001.jpg" role="image"/>
         </c>
@@ -595,7 +595,7 @@
           <controlaccess>
             <corpname>Lainière de Roubaix</corpname>
             <corpname>Etablissements Amédée Prouvost &amp; Cie</corpname>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D02_010_001.jpg" role="image"/>
         </c>
@@ -633,7 +633,7 @@
           <controlaccess>
             <corpname>Pingouin</corpname>
             <subject source="chrono">1970-1979</subject>
-            <name role="auteur">Pingouin</name>
+            <corpname role="auteur">Pingouin</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D02_012_001.jpg" audience="internal" role="image"/>
         </c>
@@ -650,7 +650,7 @@
           <controlaccess>
             <corpname>Laine Prima</corpname>
             <subject source="chrono">1919-1938</subject>
-            <name role="auteur">Laine Prima</name>
+            <persname role="auteur">Laine Prima</persname>
           </controlaccess>
           <dao href="RBX_LAI_D02_013_001.jpg" role="image"/>
         </c>
@@ -945,9 +945,9 @@
             <corpname>Tricot à l'école</corpname>
             <corpname>Pingouin</corpname>
             <subject source="chrono">1946-1959</subject>
-            <name role="auteur">Vervaeke, Albert</name>
-            <name normal="Pingouin" role="auteur">Pingouin</name>
-            <name role="auteur">Thomassin, J.</name>
+            <persname role="auteur">Vervaeke, Albert</persname>
+            <corpname normal="Pingouin" role="auteur">Pingouin</corpname>
+            <persname role="auteur">Thomassin, J.</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -998,8 +998,8 @@
             <subject source="theme">Manufacture et industrie textile</subject>
             <subject source="Rameau">Publicité</subject>
             <subject source="Rameau">Métiers à tricoter</subject>
-            <name role="auteur">Thomassin, Jacques</name>
-            <name role="auteur">Laines du Pingouin</name>
+            <persname role="auteur">Thomassin, Jacques</persname>
+            <corpname role="auteur">Laines du Pingouin</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1050,8 +1050,8 @@
             <corpname>Lainière de Roubaix</corpname>
             <corpname>Exposition</corpname>
             <corpname>Compétence</corpname>
-            <name normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</name>
-            <name role="illustrateur">Studio Daniel Penez</name>
+            <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
+            <corpname role="illustrateur">Studio Daniel Penez</corpname>
           </controlaccess>
           <dao href="RBX_LAI_D04_001_001.jpg" audience="internal" role="image"/>
         </c>

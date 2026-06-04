@@ -89,8 +89,8 @@
             <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <geogname source="rue" coord="[ 50.692974, 3.1741722 ]">Curé, rue du</geogname>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -114,9 +114,9 @@
           </scopecontent>
           <controlaccess>
             <subject source="theme">Littérature</subject>
-            <name normal="Bonte, Thérèse" role="Préfacier">Bonte, Thérèse</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name normal="Guérin, Rémi" role="photographe">Guérin, Rémi</name>
+            <persname normal="Bonte, Thérèse" role="Préfacier">Bonte, Thérèse</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname normal="Guérin, Rémi" role="photographe">Guérin, Rémi</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -226,13 +226,13 @@
             <subject source="theme">Rues et places</subject>
             <subject source="theme">Urbanisme</subject>
             <subject source="theme">Transports</subject>
-            <name role="Rédacteur">Langlet, Valérie</name>
-            <name role="Rédacteur">Zamolo, Chantal</name>
-            <name role="photographe">Maenhout, P.</name>
-            <name role="Graphiste">Lefebvre, Emmanuel</name>
-            <name normal="Frutier, Philippe" role="photographe">Frutier, Philippe</name>
-            <name normal="Thieffry, Jean-Luc" role="photographe">Thieffry, Jean-Luc</name>
-            <name normal="Palazova-Lebleu, Diana" role="photographe">Palazova-Lebleu, Diana</name>
+            <persname role="Rédacteur">Langlet, Valérie</persname>
+            <persname role="Rédacteur">Zamolo, Chantal</persname>
+            <persname role="photographe">Maenhout, P.</persname>
+            <persname role="Graphiste">Lefebvre, Emmanuel</persname>
+            <persname normal="Frutier, Philippe" role="photographe">Frutier, Philippe</persname>
+            <persname normal="Thieffry, Jean-Luc" role="photographe">Thieffry, Jean-Luc</persname>
+            <persname normal="Palazova-Lebleu, Diana" role="photographe">Palazova-Lebleu, Diana</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -310,10 +310,10 @@
             <subject source="theme">Fêtes et cérémonies</subject>
             <subject source="theme">Exposition internationale de 1911</subject>
             <geogname source="quartier" coord="[ [ 50.68655286216136, 3.173718098688068 ], [ 50.68461674519359, 3.171524708366764 ], [ 50.68442150643701, 3.171307295918854 ], [ 50.68275286910703, 3.16942509792734 ], [ 50.68139738851079, 3.167898887848234 ], [ 50.68239485271808, 3.165858934418729 ], [ 50.68202776482002, 3.165144952682102 ], [ 50.68198392765202, 3.165219235808753 ], [ 50.68190214668013, 3.165345158869324 ], [ 50.68185671244662, 3.16541511720223 ], [ 50.68167497598918, 3.165694946445032 ], [ 50.68148790489499, 3.165451184432135 ], [ 50.68146123668119, 3.165408275201828 ], [ 50.6812206300858, 3.165106997113221 ], [ 50.68118507258663, 3.165049788190842 ], [ 50.68114062589639, 3.164978277858852 ], [ 50.68110506743447, 3.164921070528397 ], [ 50.6809449589936, 3.16467777978742 ], [ 50.68132758420509, 3.163948669208585 ], [ 50.68105112037818, 3.163632631218863 ], [ 50.68099758567318, 3.163575112104274 ], [ 50.68086384813366, 3.163417173647371 ], [ 50.68083717918906, 3.163374268856851 ], [ 50.68084646238199, 3.163331983968294 ], [ 50.68087382053594, 3.163275862821993 ], [ 50.68088300524858, 3.163247724043962 ], [ 50.68093772145284, 3.163135480104194 ], [ 50.68089307588991, 3.163092265555828 ], [ 50.68065226758029, 3.16281929418051 ], [ 50.68053630788505, 3.162689960636369 ], [ 50.68048267432112, 3.162646591990625 ], [ 50.68044701727537, 3.162603533103922 ], [ 50.68037560387126, 3.162531561529286 ], [ 50.68024166728553, 3.16240191977028 ], [ 50.6799406335649, 3.163033393789402 ], [ 50.67987830749242, 3.162947432761767 ], [ 50.67981588205513, 3.162875616391881 ], [ 50.67978022505513, 3.162832556502309 ], [ 50.68005390102552, 3.16225720273356 ], [ 50.68000026727384, 3.162213833555077 ], [ 50.67983057469767, 3.162055281521587 ], [ 50.67979481910495, 3.162026369469996 ], [ 50.67971441746657, 3.161954244939309 ], [ 50.67964290531579, 3.161896421152332 ], [ 50.6796251262376, 3.161867818719736 ], [ 50.67955361403527, 3.161809996571336 ], [ 50.679419578263, 3.161694504612818 ], [ 50.67938362602494, 3.161693885947513 ], [ 50.67936574862532, 3.161679429469392 ], [ 50.67936565035391, 3.161693576616587 ], [ 50.67923200745393, 3.161521501200027 ], [ 50.67891128395137, 3.161105694821602 ], [ 50.67849276861425, 3.160532588389004 ], [ 50.6784484172759, 3.160446940417569 ], [ 50.67841295470862, 3.1603755924874 ], [ 50.6783861865001, 3.160346836870895 ], [ 50.6779489071487, 3.159886601082486 ], [ 50.67792213880851, 3.159857845992834 ], [ 50.67760990687788, 3.159512945819532 ], [ 50.67741354066543, 3.159311510774483 ], [ 50.67742282252157, 3.159269229431872 ], [ 50.6774319074864, 3.159255235635214 ], [ 50.67728917587961, 3.159097165723828 ], [ 50.67700380901278, 3.15876688352176 ], [ 50.67697704037401, 3.158738130983449 ], [ 50.67690572228919, 3.158652023428658 ], [ 50.67686996574709, 3.158623116900125 ], [ 50.67667379277187, 3.158393398340867 ], [ 50.67656671867488, 3.158278385691202 ], [ 50.67650429112874, 3.158206579873519 ], [ 50.67622203812325, 3.158725180074383 ], [ 50.67615931701971, 3.158695810116777 ], [ 50.67613245040542, 3.158681201517331 ], [ 50.67603387477423, 3.158637070421851 ], [ 50.67591732244438, 3.15859263129834 ], [ 50.67590843247753, 3.158578331020639 ], [ 50.67578299012784, 3.1585195933254 ], [ 50.67575612347775, 3.158504984929881 ], [ 50.67573814680424, 3.158504676760953 ], [ 50.67569359808474, 3.158447326108492 ], [ 50.67564904844024, 3.158389974142779 ], [ 50.67563126844748, 3.158361376641694 ], [ 50.67559570754699, 3.158304178872982 ], [ 50.67556004783965, 3.158261127263399 ], [ 50.67551549899593, 3.158203777030749 ], [ 50.67541751029339, 3.158074775407318 ], [ 50.67517688464742, 3.15777357160408 ], [ 50.67513233465592, 3.157716222239344 ], [ 50.67507899235906, 3.157630428566525 ], [ 50.67483826773961, 3.157343373393305 ], [ 50.67474916818248, 3.157228676306682 ], [ 50.67471350895495, 3.157185626190618 ], [ 50.67469572776468, 3.157157028234469 ], [ 50.67465147159314, 3.157057245313474 ], [ 50.67444796723927, 3.156586928105913 ], [ 50.67443907702214, 3.156572628602347 ], [ 50.67407407765333, 3.156057116922463 ], [ 50.67397608561284, 3.155928124606521 ], [ 50.67378029804995, 3.155641853147708 ], [ 50.67370917262031, 3.155527468587621 ], [ 50.67370028226973, 3.155513170894518 ], [ 50.67366501173508, 3.155413544923125 ], [ 50.67362085164171, 3.155299620049735 ], [ 50.67355070021197, 3.155043791016927 ], [ 50.67352441811283, 3.154944319113658 ], [ 50.67350653976852, 3.154929869552785 ], [ 50.67346189085991, 3.154886667293745 ], [ 50.67340835239576, 3.154829169037721 ], [ 50.67336380092809, 3.154771824308661 ], [ 50.6733014685324, 3.154685883398402 ], [ 50.67329257808314, 3.154671583146198 ], [ 50.67323014814496, 3.1545997893258 ], [ 50.67313225191867, 3.15445665662154 ], [ 50.67291838654254, 3.154184234464004 ], [ 50.67280231911904, 3.154069087534211 ], [ 50.6728022217147, 3.154083231433666 ], [ 50.67266856786478, 3.153911201622382 ], [ 50.67263300475733, 3.153854011796955 ], [ 50.67232993721679, 3.153481052396479 ], [ 50.67227639711118, 3.15342355975877 ], [ 50.67191190808034, 3.154138776378062 ], [ 50.67186628553401, 3.154237018202287 ], [ 50.67182076123916, 3.154321114816291 ], [ 50.67177523598517, 3.154405212687093 ], [ 50.67172961321889, 3.154503454001493 ], [ 50.67164764871014, 3.154657657355867 ], [ 50.67148361978536, 3.154980207485646 ], [ 50.67145704595637, 3.154923170272034 ], [ 50.67143027710623, 3.154894421553162 ], [ 50.6710299975544, 3.15427933587261 ], [ 50.67088735566658, 3.154107156922185 ], [ 50.67086058570585, 3.154078410374376 ], [ 50.67046001066072, 3.15350576790996 ], [ 50.67046909596462, 3.153491777838474 ], [ 50.67045131470751, 3.153463185025037 ], [ 50.67043314320657, 3.153491165160533 ], [ 50.67038839625778, 3.153462111459934 ], [ 50.67031668629429, 3.153432599752148 ], [ 50.67016398547545, 3.153415852911397 ], [ 50.67006511511593, 3.153414168208353 ], [ 50.66995706211025, 3.153440615144057 ], [ 50.66993869771799, 3.153496884028737 ], [ 50.66992932037621, 3.153553304635562 ], [ 50.66990186881436, 3.15362356192475 ], [ 50.66987402864788, 3.153750394263183 ], [ 50.66985527460392, 3.153863235218435 ], [ 50.66983642216541, 3.153990219150182 ], [ 50.66983593516874, 3.154060935879527 ], [ 50.66982616881445, 3.154173929922186 ], [ 50.66981630403031, 3.154301066975422 ], [ 50.66981552542993, 3.15441421425927 ], [ 50.66981484328442, 3.154513218480298 ], [ 50.66981406449084, 3.154626365757457 ], [ 50.67007717859118, 3.15557857923143 ], [ 50.6701209482942, 3.155749068867121 ], [ 50.67013853562528, 3.155805951422662 ], [ 50.67014723077787, 3.155848535860128 ], [ 50.67028000374453, 3.156147853673875 ], [ 50.67049367030591, 3.156448559189216 ], [ 50.67084899786688, 3.157062887956319 ], [ 50.6708933520413, 3.157148518553611 ], [ 50.67097375662963, 3.157220621290337 ], [ 50.67123284998543, 3.15745138774713 ], [ 50.67150942961315, 3.157753179247777 ], [ 50.67174927281205, 3.158167512519106 ], [ 50.67179372494226, 3.158239002024895 ], [ 50.67185605412301, 3.158324944763749 ], [ 50.67191838413594, 3.158410887718836 ], [ 50.6719718240554, 3.158482530336434 ], [ 50.67211445964804, 3.158654726857711 ], [ 50.67230125282185, 3.158940846417715 ], [ 50.67252370392159, 3.159270019177514 ], [ 50.67329831969516, 3.16034427322314 ], [ 50.67361885120107, 3.16078831362671 ], [ 50.67370794762071, 3.160903015862572 ], [ 50.67383299556781, 3.161018335202625 ], [ 50.67400278829791, 3.161162720550764 ], [ 50.67454782293972, 3.161638931298934 ], [ 50.67470862597273, 3.161783166134098 ], [ 50.67477115080887, 3.161840826571122 ], [ 50.6754316514067, 3.162517097150187 ], [ 50.67579750808603, 3.162905365818639 ], [ 50.67608306135411, 3.163207375416762 ], [ 50.67618124154544, 3.163308097695052 ], [ 50.67613531573602, 3.163448775412121 ], [ 50.67603437904543, 3.163744118439015 ], [ 50.67574074796038, 3.164602008974459 ], [ 50.67575852651216, 3.164630610161559 ], [ 50.67561146196449, 3.165094914112897 ], [ 50.67559289422152, 3.165179472986087 ], [ 50.67549313674298, 3.165305070883255 ], [ 50.67548414886177, 3.165304914170732 ], [ 50.67544750561203, 3.165403309565348 ], [ 50.67539268820684, 3.165529681945088 ], [ 50.67536572365856, 3.165529214509256 ], [ 50.67520097527397, 3.165950766274225 ], [ 50.67488066058399, 3.166765725322263 ], [ 50.67481616177433, 3.166990953121886 ], [ 50.67457841512017, 3.167566842413988 ], [ 50.67444121811214, 3.16790397796869 ], [ 50.67423102591837, 3.168395456349576 ], [ 50.67418529231521, 3.16850783400805 ], [ 50.6735508996081, 3.167959265374186 ], [ 50.6734168692473, 3.16784377222134 ], [ 50.67325617189222, 3.167685379088753 ], [ 50.67321142934854, 3.167656311099024 ], [ 50.67316678574477, 3.167613096361172 ], [ 50.67279076839138, 3.167394387360877 ], [ 50.67258008279141, 3.167956573583767 ], [ 50.67251597763114, 3.168125212949765 ], [ 50.67239695350612, 3.168434357322429 ], [ 50.67226864164542, 3.168785775476904 ], [ 50.67225036945371, 3.168827896209487 ], [ 50.67192983613577, 3.169671073391027 ], [ 50.67143524392505, 3.170978014959401 ], [ 50.67136194792376, 3.171174778615912 ], [ 50.67135611052549, 3.171191677316589 ], [ 50.6719659651722, 3.171795170339316 ], [ 50.67442100145119, 3.174108386229988 ], [ 50.67523175845243, 3.174858064215657 ], [ 50.67633046942941, 3.175882007145968 ], [ 50.67745534327569, 3.176971270141269 ], [ 50.67780915696766, 3.17733623396719 ], [ 50.67781566258196, 3.177039391004301 ], [ 50.67841647941655, 3.176661150914808 ], [ 50.67899532359794, 3.175677554055909 ], [ 50.67928557095166, 3.175310404872004 ], [ 50.6794671162745, 3.175180190779299 ], [ 50.67979983378528, 3.175031492863015 ], [ 50.68025060871234, 3.174985333037126 ], [ 50.68106022824981, 3.175308641756226 ], [ 50.68164762623804, 3.175556902885895 ], [ 50.68223301007919, 3.176077357167954 ], [ 50.68257959882769, 3.176311084678154 ], [ 50.68283094854589, 3.175495132191357 ], [ 50.68295305496208, 3.175169820839627 ], [ 50.68317855249677, 3.174833947165858 ], [ 50.68380987041596, 3.174348491764811 ], [ 50.68420436515495, 3.174851185211268 ], [ 50.68455945613253, 3.175306924719936 ], [ 50.6850389253688, 3.175906915088531 ], [ 50.68544968794234, 3.175314726753204 ] ]">Barbieux</geogname>
-            <name normal="Guérin, Rémi" role="photographe">Guérin, Rémi</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name role="photographe">Leprince, Alain</name>
-            <name normal="Bernard, Philip" role="photographe">Bernard, Philip</name>
+            <persname normal="Guérin, Rémi" role="photographe">Guérin, Rémi</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname role="photographe">Leprince, Alain</persname>
+            <persname normal="Bernard, Philip" role="photographe">Bernard, Philip</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -332,7 +332,7 @@
           <controlaccess>
             <subject source="theme">Bâtiments religieux</subject>
             <geogname source="rue" coord="[ 50.7025096, 3.1679881 ]">France, rue de</geogname>
-            <name normal="Levaillant, Siméon" role="photographe">Levaillant, Siméon</name>
+            <persname normal="Levaillant, Siméon" role="photographe">Levaillant, Siméon</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -356,7 +356,7 @@
             <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6794298, 3.1691514 ]">Barbieux, rue de</geogname>
             <geogname source="rue" coord="[ 50.6784094, 3.1729699 ]">Lacordaire, boulevard</geogname>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -388,8 +388,8 @@
           <controlaccess>
             <geogname source="rue" coord="[ 50.6771537, 3.1882551 ]">Linne, avenue</geogname>
             <subject source="theme">Vie quotidienne</subject>
-            <name normal="Pardessus, Christian" role="photographe">Pardessus, Christian</name>
-            <name role="Directeur de publication">Waret, Philippe</name>
+            <persname normal="Pardessus, Christian" role="photographe">Pardessus, Christian</persname>
+            <persname role="Directeur de publication">Waret, Philippe</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -417,8 +417,8 @@
             <subject source="theme">Guerres</subject>
             <subject source="theme">Religion</subject>
             <subject source="theme">Bâtiments religieux</subject>
-            <name role="Directeur de publication">Waret, Philippe</name>
-            <name role="conception et mise en page">Service communication municipal</name>
+            <persname role="Directeur de publication">Waret, Philippe</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -447,9 +447,9 @@
             <subject source="theme">Bâtiments industriels</subject>
             <subject source="theme">Equipements culturels</subject>
             <subject source="theme">Bâtiments publics</subject>
-            <name role="Rédacteur">Louguet, Philippe</name>
-            <name role="Directeur de publication">Waret, Philippe</name>
-            <name role="conception et mise en page">Service communication municipal</name>
+            <persname role="Rédacteur">Louguet, Philippe</persname>
+            <persname role="Directeur de publication">Waret, Philippe</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -460,7 +460,7 @@
           </daogrp>
         </c>
         <controlaccess>
-          <name normal="Mareel, Achille" role="Infographiste">Mareel, Achille</name>
+          <persname normal="Mareel, Achille" role="Infographiste">Mareel, Achille</persname>
         </controlaccess>
       </c>
       <c level="series">
@@ -484,10 +484,10 @@
             <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
             <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="photographe">Oeil photographique</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <corpname role="photographe">Oeil photographique</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -510,11 +510,11 @@
             <subject source="theme">Manufacture et industrie textile</subject>
             <subject source="theme">Bâtiments industriels</subject>
             <subject source="theme">Urbanisme</subject>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Jarry, Sébastien</name>
-            <name role="photographe">Leprince, Alain</name>
-            <name role="photographe">Demornex, R.</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="photographe">Jarry, Sébastien</persname>
+            <persname role="photographe">Leprince, Alain</persname>
+            <persname role="photographe">Demornex, R.</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -535,16 +535,16 @@
           </otherfindaid>
           <controlaccess>
             <subject source="theme">Bâtiments publics</subject>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="photographe">Gronier, E.</name>
-            <name role="photographe">Jarry, Sébastien</name>
-            <name role="photographe">Leprince, Alain</name>
-            <name role="photographe">Levaillant, S.</name>
-            <name role="photographe">Dorval, Hervé</name>
-            <name role="photographe">Paillé, J.-L.</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name role="photographe">Gadeau, A.</name>
-            <name role="Infographiste">Briatte, David</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname role="photographe">Gronier, E.</persname>
+            <persname role="photographe">Jarry, Sébastien</persname>
+            <persname role="photographe">Leprince, Alain</persname>
+            <persname role="photographe">Levaillant, S.</persname>
+            <persname role="photographe">Dorval, Hervé</persname>
+            <persname role="photographe">Paillé, J.-L.</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname role="photographe">Gadeau, A.</persname>
+            <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -568,12 +568,12 @@
             <subject source="theme">Bâtiments religieux</subject>
             <subject source="theme">Urbanisme</subject>
             <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Levaillant, S.</name>
-            <name role="illustrateur">Zerm</name>
-            <name role="illustrateur">Flécheux, T.</name>
-            <name role="photographe">Zerm</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="photographe">Levaillant, S.</persname>
+            <persname role="illustrateur">Zerm</persname>
+            <persname role="illustrateur">Flécheux, T.</persname>
+            <persname role="photographe">Zerm</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -593,11 +593,11 @@
             <subject source="theme">Bâtiments religieux</subject>
             <subject source="theme">Arts graphiques</subject>
             <geogname source="rue" coord="[ 50.7025096, 3.1679881 ]">France, rue de</geogname>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Oeil photographique</name>
-            <name role="photographe">Levaillant, S.</name>
-            <name role="photographe">Gadeau, A.</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname role="Infographiste">Briatte, David</persname>
+            <corpname role="photographe">Oeil photographique</corpname>
+            <persname role="photographe">Levaillant, S.</persname>
+            <persname role="photographe">Gadeau, A.</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -618,9 +618,9 @@
             <subject source="theme">Arts graphiques</subject>
             <subject source="theme">Bâtiments religieux</subject>
             <subject source="theme">Urbanisme</subject>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="photographe">Oeil photographique</name>
-            <name role="Infographiste">Briatte, David</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <corpname role="photographe">Oeil photographique</corpname>
+            <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -647,10 +647,10 @@
             <geogname source="rue" coord="[ 50.6901597, 3.189109 ]">Monge, rue</geogname>
             <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
             <subject source="theme">Bâtiments religieux</subject>
-            <name role="Rédacteur">Vergin, François</name>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Gadeau, A.</name>
-            <name normal="Chapelles&amp;Co" role="photographe">Chapelles&amp;Co</name>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="photographe">Gadeau, A.</persname>
+            <persname normal="Chapelles&amp;Co" role="photographe">Chapelles&amp;Co</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -682,10 +682,10 @@
             <geogname source="rue" coord="[ 50.6831468, 3.1973835 ]">Julien Lagache, avenue</geogname>
             <geogname source="rue" coord="[ 50.7025096, 3.1679881 ]">France, rue de</geogname>
             <geogname source="quartier" coord="[ [ 50.67674739306952, 3.187806610197207 ], [ 50.67591703776692, 3.186829867754468 ], [ 50.67523775731757, 3.186021779718715 ], [ 50.67445203804077, 3.1851876382733 ], [ 50.67394089898494, 3.184804484938602 ], [ 50.67330429520682, 3.186055129928311 ], [ 50.67284102349925, 3.186892284824821 ], [ 50.67241084446479, 3.18773850112912 ], [ 50.67235026582568, 3.187862758234426 ], [ 50.67198083719896, 3.188573385301437 ], [ 50.67149672240529, 3.189482125380458 ], [ 50.67256758037184, 3.191190920089966 ], [ 50.67288040160246, 3.191700622417809 ], [ 50.67311184469411, 3.192065798634254 ], [ 50.67378850281606, 3.19315633400723 ], [ 50.67429714675417, 3.192255584451595 ], [ 50.6758896228751, 3.189363240808234 ] ]">Nouveau Roubaix</geogname>
-            <name role="photographe">Portrait Sensible</name>
-            <name normal="My Zoom" role="photographe">My Zoom</name>
-            <name normal="Gros, Françoise" role="photographe">Gros, Françoise</name>
-            <name normal="Guerrin, Rémi" role="photographe">Guerrin, Rémi</name>
+            <corpname role="photographe">Portrait Sensible</corpname>
+            <corpname normal="My Zoom" role="photographe">My Zoom</corpname>
+            <persname normal="Gros, Françoise" role="photographe">Gros, Françoise</persname>
+            <persname normal="Guerrin, Rémi" role="photographe">Guerrin, Rémi</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -716,15 +716,15 @@
             <subject source="theme">Bâtiments publics</subject>
             <subject source="chrono">1980-1989</subject>
             <subject source="chrono">Après 1989</subject>
-            <name normal="Bailly, Jacques" role="photographe">Bailly, Jacques</name>
-            <name normal="Dancoine, Marc" role="photographe">Dancoine, Marc</name>
-            <name role="photographe">Blondeau, Gérard</name>
-            <name role="photographe">Jarry, Sébastien</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name normal="Agence Nicolas Michelin et associés" role="photographe">Agence Nicolas Michelin et associés</name>
-            <name normal="Alain Sarfati Architectures" role="photographe">Alain Sarfati Architectures</name>
-            <name normal="Zimmerman G., agence Phot'R" role="photographe">Zimmerman G., agence Phot'R</name>
-            <name role="Graphiste">Going Design Roubaix</name>
+            <persname normal="Bailly, Jacques" role="photographe">Bailly, Jacques</persname>
+            <persname normal="Dancoine, Marc" role="photographe">Dancoine, Marc</persname>
+            <persname role="photographe">Blondeau, Gérard</persname>
+            <persname role="photographe">Jarry, Sébastien</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <corpname normal="Agence Nicolas Michelin et associés" role="photographe">Agence Nicolas Michelin et associés</corpname>
+            <persname normal="Alain Sarfati Architectures" role="photographe">Alain Sarfati Architectures</persname>
+            <persname normal="Zimmerman G., agence Phot'R" role="photographe">Zimmerman G., agence Phot'R</persname>
+            <corpname role="Graphiste">Going Design Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -752,11 +752,11 @@
             <daoloc href="RBX_VAH_PUB_HOR_D03_027.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <name normal="Louazon, Jean-Marc" role="conception et mise en page">Louazon, Jean-Marc</name>
-            <name normal="Vrignaud, Nicolas" role="conception et mise en page">Vrignaud, Nicolas</name>
-            <name role="imprimeur">Imprimerie municipale de Roubaix</name>
-            <name normal="Vrignaud, Nicolas" role="photographe">Petitberghien, T.</name>
-            <name normal="Thibaut, P." role="photographe">Thibaut, P.</name>
+            <persname normal="Louazon, Jean-Marc" role="conception et mise en page">Louazon, Jean-Marc</persname>
+            <persname normal="Vrignaud, Nicolas" role="conception et mise en page">Vrignaud, Nicolas</persname>
+            <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
+            <persname normal="Vrignaud, Nicolas" role="photographe">Petitberghien, T.</persname>
+            <persname normal="Thibaut, P." role="photographe">Thibaut, P.</persname>
           </controlaccess>
         </c>
       </c>
@@ -821,7 +821,7 @@
             <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             <subject source="theme">Santé publique</subject>
             <subject source="theme">Bâtiments publics</subject>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -845,11 +845,11 @@
           </scopecontent>
           <controlaccess>
             <geogname source="rue" coord="[ 50.6735324, 3.1863574 ]">Horace Vernet, rue</geogname>
-            <name role="Infographiste">Briatte, David</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name normal="Guérin, Rémi" role="photographe">Guérin, Rémi</name>
-            <name normal="Jorant, Morgane" role="photographe">Jorant, Morgane</name>
-            <name normal="Texier, Anne-Blandine" role="photographe">Texier, Anne-Blandine</name>
+            <persname role="Infographiste">Briatte, David</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname normal="Guérin, Rémi" role="photographe">Guérin, Rémi</persname>
+            <persname normal="Jorant, Morgane" role="photographe">Jorant, Morgane</persname>
+            <persname normal="Texier, Anne-Blandine" role="photographe">Texier, Anne-Blandine</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -890,12 +890,12 @@
             <daoloc href="RBX_VAH_PUB_GAZ_D01_011.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <name normal="La Porte à Côté" role="auteur">La Porte à Côté</name>
-            <name normal="Dutrannoy, Isabelle" role="auteur">Dutrannoy, Isabelle</name>
-            <name normal="Gehenne, Pierre" role="auteur">Gehenne, Pierre</name>
-            <name role="auteur">Houssin, Laurent</name>
-            <name normal="Letot, Jean-Yves" role="auteur">Letot, Jean-Yves</name>
-            <name normal="Springer, B." role="illustrateur">Springer, B.</name>
+            <corpname normal="La Porte à Côté" role="auteur">La Porte à Côté</corpname>
+            <persname normal="Dutrannoy, Isabelle" role="auteur">Dutrannoy, Isabelle</persname>
+            <persname normal="Gehenne, Pierre" role="auteur">Gehenne, Pierre</persname>
+            <persname role="auteur">Houssin, Laurent</persname>
+            <persname normal="Letot, Jean-Yves" role="auteur">Letot, Jean-Yves</persname>
+            <persname normal="Springer, B." role="illustrateur">Springer, B.</persname>
           </controlaccess>
         </c>
         <c level="file">
@@ -918,13 +918,13 @@
             <daoloc href="RBX_VAH_PUB_GAZ_D02_011.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <name normal="La Porte à Côté" role="auteur">La Porte à Côté</name>
-            <name normal="Dutrannoy, Isabelle" role="auteur">Dutrannoy, Isabelle</name>
-            <name normal="Gehenne, Pierre" role="auteur">Gehenne, Pierre</name>
-            <name role="auteur">Houssin, Laurent</name>
-            <name normal="Champeau, Florène" role="auteur">Champeau, Florène</name>
-            <name role="auteur">Vergin, François</name>
-            <name normal="La Porte à Côté" role="photographe">La Porte à Côté</name>
+            <corpname normal="La Porte à Côté" role="auteur">La Porte à Côté</corpname>
+            <persname normal="Dutrannoy, Isabelle" role="auteur">Dutrannoy, Isabelle</persname>
+            <persname normal="Gehenne, Pierre" role="auteur">Gehenne, Pierre</persname>
+            <persname role="auteur">Houssin, Laurent</persname>
+            <persname normal="Champeau, Florène" role="auteur">Champeau, Florène</persname>
+            <persname role="auteur">Vergin, François</persname>
+            <corpname normal="La Porte à Côté" role="photographe">La Porte à Côté</corpname>
           </controlaccess>
         </c>
       </c>
@@ -952,7 +952,7 @@
             <subject source="theme">Transports</subject>
             <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -974,8 +974,8 @@
           <controlaccess>
             <subject source="theme">Manufacture et industrie textile</subject>
             <geogname source="rue" coord="[ 50.6831468, 3.1973835 ]">Julien Lagache, avenue</geogname>
-            <name role="Infographiste">Briatte, David</name>
-            <name normal="La Manufacture, musée de la mémoire et de la création textile" role="photographe">La Manufacture, musée de la mémoire et de la création textile</name>
+            <persname role="Infographiste">Briatte, David</persname>
+            <corpname normal="La Manufacture, musée de la mémoire et de la création textile" role="photographe">La Manufacture, musée de la mémoire et de la création textile</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1007,11 +1007,11 @@
             <geogname source="rue" coord="[ 50.6889165, 3.1937757 ]">Delezenne, rue</geogname>
             <subject source="theme">Rues et places</subject>
             <subject source="theme">Parcs, jardins et monuments</subject>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name role="photographe">Jarry, Sébastien</name>
-            <name normal="La fabrique des quartiers" role="photographe">La fabrique des quartiers</name>
-            <name normal="Le Pile Fertile" role="photographe">Le Pile Fertile</name>
-            <name role="Infographiste">Briatte, David</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname role="photographe">Jarry, Sébastien</persname>
+            <corpname normal="La fabrique des quartiers" role="photographe">La fabrique des quartiers</corpname>
+            <corpname normal="Le Pile Fertile" role="photographe">Le Pile Fertile</corpname>
+            <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1035,7 +1035,7 @@
             <subject source="theme">Logement</subject>
             <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.673745, 3.1932704 ]">Alfred Motte, avenue</geogname>
-            <name role="Infographiste">Briatte, David</name>
+            <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1057,7 +1057,7 @@
           <controlaccess>
             <subject source="theme">Bâtiments religieux</subject>
             <geogname source="rue" coord="[ 50.7025096, 3.1679881 ]">France, rue de</geogname>
-            <name role="Infographiste">Briatte, David</name>
+            <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1093,10 +1093,10 @@
             <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
             <geogname source="quartier" coord="[ [ 50.68258024913015, 3.176308123671855 ], [ 50.68223301007919, 3.176077357167954 ], [ 50.68164762623804, 3.175556902885895 ], [ 50.68106022824981, 3.175308641756226 ], [ 50.68025060871234, 3.174985333037126 ], [ 50.67979983378528, 3.175031492863015 ], [ 50.6794671162745, 3.175180190779299 ], [ 50.67928557095166, 3.175310404872004 ], [ 50.67899532359794, 3.175677554055909 ], [ 50.67841647941655, 3.176661150914808 ], [ 50.67781566258196, 3.177039391004301 ], [ 50.67780915696766, 3.17733623396719 ], [ 50.67745534327569, 3.176971270141269 ], [ 50.67706284924493, 3.178279071808252 ], [ 50.67717079557082, 3.178558019969709 ], [ 50.67779464845519, 3.179003543382652 ], [ 50.67778911355618, 3.179758213886174 ], [ 50.67778647371189, 3.180568933373855 ], [ 50.67778070944896, 3.181919814364933 ], [ 50.67776043756287, 3.18406575913709 ], [ 50.67775857144535, 3.184276805146625 ], [ 50.67804983413988, 3.185496101832661 ], [ 50.67824674576066, 3.186331753681955 ], [ 50.67839862675018, 3.186977459495907 ], [ 50.67879498801069, 3.188667092318887 ], [ 50.67889033635974, 3.189046675022184 ], [ 50.6796774640717, 3.189392734577026 ], [ 50.68003399217059, 3.188337965968684 ], [ 50.68023934496954, 3.187730554360274 ], [ 50.68040768738226, 3.187232129785367 ], [ 50.68065803262291, 3.186516846181245 ], [ 50.68083091312767, 3.186011420539369 ], [ 50.68108018137281, 3.185282382496296 ], [ 50.68145188777782, 3.184199100248509 ], [ 50.68254704785328, 3.180991958482848 ], [ 50.68178511881027, 3.180474273081839 ], [ 50.681368924746, 3.180189495955893 ], [ 50.68192873277425, 3.178401044766603 ], [ 50.68240697828537, 3.176874436522528 ] ]">Potennerie</geogname>
             <geogname source="quartier" coord="[ [ 50.68750406599419, 3.174984193955031 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68655376477821, 3.173717546682517 ], [ 50.68544968794234, 3.175314726753204 ], [ 50.6850389253688, 3.175906915088531 ], [ 50.68455945613253, 3.175306924719936 ], [ 50.68420436515495, 3.174851185211268 ], [ 50.68380987041596, 3.174348491764811 ], [ 50.68317855249677, 3.174833947165858 ], [ 50.68295305496208, 3.175169820839627 ], [ 50.68283094854589, 3.175495132191357 ], [ 50.68257959882769, 3.176311084678154 ], [ 50.68240697828537, 3.176874436522528 ], [ 50.68192873277425, 3.178401044766603 ], [ 50.681368924746, 3.180189495955893 ], [ 50.68178511881027, 3.180474273081839 ], [ 50.68254704785328, 3.180991958482848 ], [ 50.68145188777782, 3.184199100248509 ], [ 50.68108018137281, 3.185282382496296 ], [ 50.68083091312767, 3.186011420539369 ], [ 50.68065803262291, 3.186516846181245 ], [ 50.68040768738226, 3.187232129785367 ], [ 50.68023934496954, 3.187730554360274 ], [ 50.68003399217059, 3.188337965968684 ], [ 50.6796774640717, 3.189392734577026 ], [ 50.68016593779824, 3.189605445280366 ], [ 50.68041603136899, 3.189716007790912 ], [ 50.68089925868117, 3.189945893698266 ], [ 50.68133457574323, 3.189073606878377 ], [ 50.68244115573381, 3.187027839916637 ], [ 50.68269330857248, 3.186512058540447 ], [ 50.68341697754792, 3.18514846479684 ], [ 50.68380343453095, 3.184416574168606 ], [ 50.6844508211032, 3.183198164888442 ], [ 50.68528856876804, 3.182002735304558 ], [ 50.68566769631034, 3.181666575610362 ], [ 50.68513257961124, 3.180388194742744 ], [ 50.68489081392781, 3.179825026819846 ], [ 50.68441337722466, 3.178665885822757 ], [ 50.68477706802298, 3.178004102125626 ], [ 50.68528684219799, 3.176963004856107 ], [ 50.68561487037336, 3.176427102842095 ], [ 50.68587748955579, 3.176029225672839 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68713918001467, 3.17544490888863 ] ]">Moulin</geogname>
-            <name role="Rédacteur">Jablonka, Aurélien</name>
-            <name role="illustrateur">Jablonka, Aurélien</name>
-            <name role="conception et mise en page">Service communication municipal</name>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="Rédacteur">Jablonka, Aurélien</persname>
+            <persname role="illustrateur">Jablonka, Aurélien</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1124,10 +1124,10 @@
             <subject source="theme">Bâtiments industriels</subject>
             <geogname source="rue" coord="[ 50.692974, 3.1741722 ]">Curé, rue du</geogname>
             <geogname source="quartier" coord="[ [ 50.68561487037336, 3.176427102842095 ], [ 50.68733854619703, 3.180156631928429 ], [ 50.68775657502504, 3.181069212202035 ], [ 50.68854508431108, 3.182722297194385 ], [ 50.68906687012189, 3.183848541274204 ], [ 50.68938349027729, 3.184537680027141 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68750406599419, 3.174984193955031 ], [ 50.68713918001467, 3.17544490888863 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68587748955579, 3.176029225672839 ] ]">Anseele</geogname>
-            <name role="Rédacteur">Grumiaux, Séverine</name>
-            <name role="illustrateur">Ampe, Jean</name>
-            <name role="conception et mise en page">Service communication municipal</name>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="Rédacteur">Grumiaux, Séverine</persname>
+            <persname role="illustrateur">Ampe, Jean</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1158,10 +1158,10 @@
             <subject source="theme">Canal</subject>
             <subject source="theme">Parcs, jardins et monuments</subject>
             <geogname source="rue" coord="[ 50.6942566, 3.1728881 ]">Nations Unies, avenue des</geogname>
-            <name role="illustrateur">Deschamps, Pierre-Alexis</name>
-            <name role="Rédacteur">Grumiaux, Séverine</name>
-            <name role="conception et mise en page">Service communication municipal</name>
-            <name role="photographe">Loubry, Arnaud</name>
+            <persname role="illustrateur">Deschamps, Pierre-Alexis</persname>
+            <persname role="Rédacteur">Grumiaux, Séverine</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
+            <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1188,10 +1188,10 @@
             <subject source="theme">Rues et places</subject>
             <subject source="theme">Parcs, jardins et monuments</subject>
             <geogname source="quartier" coord="[ [ 50.68923657201096, 3.201627620003197 ], [ 50.6881856222613, 3.199452855296052 ], [ 50.68756057465304, 3.19816890920584 ], [ 50.68578889194978, 3.199936086109576 ], [ 50.68571526283682, 3.19973112190707 ], [ 50.68564386404561, 3.199672669900769 ], [ 50.6854308129456, 3.199735619649369 ], [ 50.68531396490921, 3.199795912298923 ], [ 50.68493276172732, 3.198814134851149 ], [ 50.68467171576859, 3.198777033589991 ], [ 50.6841290010684, 3.198707982371409 ], [ 50.68379971986532, 3.19894429396689 ], [ 50.68178484519443, 3.200458448025176 ], [ 50.68180506040419, 3.200533941909806 ], [ 50.68186634981148, 3.200684458223529 ], [ 50.68150942885379, 3.201271558011281 ], [ 50.68145925381026, 3.201363343888995 ], [ 50.682552986018, 3.203182393220317 ], [ 50.68355762739144, 3.204903573522437 ], [ 50.68419412955154, 3.206005643182273 ], [ 50.68468581383693, 3.205573835044975 ], [ 50.68601356309062, 3.20441194231916 ], [ 50.68860489487004, 3.202167589860602 ] ]">Trois Ponts</geogname>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name role="illustrateur">Poitout, François</name>
-            <name role="Rédacteur">Grumiaux, Séverine</name>
-            <name role="conception et mise en page">Service communication municipal</name>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname role="illustrateur">Poitout, François</persname>
+            <persname role="Rédacteur">Grumiaux, Séverine</persname>
+            <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1249,14 +1249,14 @@
             <subject source="theme">Canal</subject>
             <geogname source="rue" coord="[ 50.6842367, 3.2014009 ]">Verdun, avenue de</geogname>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
-            <name role="photographe">Gadeau, A.</name>
-            <name role="photographe">Loubry, Arnaud</name>
-            <name normal="Dufour, M." role="photographe">Dufour, M.</name>
-            <name role="photographe">Vergin, François</name>
-            <name normal="Deprez, S." role="photographe">Deprez, S.</name>
-            <name role="photographe">Oeil photographique</name>
-            <name role="Rédacteur">Vergin, François</name>
-            <name normal="Dupretz, Marie" role="Rédacteur">Dupretz, Marie</name>
+            <persname role="photographe">Gadeau, A.</persname>
+            <persname role="photographe">Loubry, Arnaud</persname>
+            <persname normal="Dufour, M." role="photographe">Dufour, M.</persname>
+            <persname role="photographe">Vergin, François</persname>
+            <persname normal="Deprez, S." role="photographe">Deprez, S.</persname>
+            <corpname role="photographe">Oeil photographique</corpname>
+            <persname role="Rédacteur">Vergin, François</persname>
+            <persname normal="Dupretz, Marie" role="Rédacteur">Dupretz, Marie</persname>
           </controlaccess>
           <daogrp>
             <daodesc>

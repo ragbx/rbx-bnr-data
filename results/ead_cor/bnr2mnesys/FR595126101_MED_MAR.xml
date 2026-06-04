@@ -74,7 +74,7 @@
               </did>
               <dao href="RBX_MED_MAR_001_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="illustrateur">Cuvelier, Roland</name>
+                <persname role="illustrateur">Cuvelier, Roland</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -87,8 +87,8 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="illustrateur">Cuvelier, Roland</name>
-                <name role="imprimeur">Imprimerie Prestoprint</name>
+                <persname role="illustrateur">Cuvelier, Roland</persname>
+                <corpname role="imprimeur">Imprimerie Prestoprint</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_004_001.jpg" audience="internal" role="image"/>
             </c>
@@ -102,8 +102,8 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="illustrateur">Vincente, Hélène</name>
-                <name role="imprimeur">Imprimerie municipale de Roubaix</name>
+                <persname role="illustrateur">Vincente, Hélène</persname>
+                <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_005_001.jpg" audience="internal" role="image"/>
             </c>
@@ -130,7 +130,7 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Et Si... l'Agence</name>
+                <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_007_001.jpg" audience="internal" role="image"/>
             </c>
@@ -172,7 +172,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Ducros, Anne</name>
+                <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_014_001.jpg" audience="internal" role="image"/>
             </c>
@@ -185,7 +185,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</name>
+                <corpname role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_015_001.jpg" audience="internal" role="image"/>
             </c>
@@ -198,7 +198,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie de la Communauté urbaine de Lille</name>
+                <corpname role="imprimeur">Imprimerie de la Communauté urbaine de Lille</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_016_001.jpg" audience="internal" role="image"/>
             </c>
@@ -229,7 +229,7 @@
               </acqinfo>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie municipale de Roubaix</name>
+                <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_018_001.jpg" audience="internal" role="image"/>
             </c>
@@ -266,7 +266,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Ducros, Anne</name>
+                <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_022_001.jpg" audience="internal" role="image"/>
             </c>
@@ -279,8 +279,8 @@
               </did>
               <dao href="RBX_MED_MAR_001_B_023_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="illustrateur">Poullet, F.</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="illustrateur">Poullet, F.</persname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -319,8 +319,8 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="illustrateur">Gommez, David</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="illustrateur">Gommez, David</persname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_026_001.jpg" audience="internal" role="image"/>
             </c>
@@ -333,7 +333,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_027_001.jpg" audience="internal" role="image"/>
             </c>
@@ -406,7 +406,7 @@
               </did>
               <dao href="RBX_MED_MAR_001_B_035_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -419,7 +419,7 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6904853, 3.1740953 ]">Hotel de ville, rue de l\'</geogname>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_036_001.jpg" audience="internal" role="image"/>
             </c>
@@ -444,8 +444,8 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="illustrateur">Houpline, Raphaël</name>
-                <name role="Graphiste">Debacker, Florence</name>
+                <persname role="illustrateur">Houpline, Raphaël</persname>
+                <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_040_001.jpg" audience="internal" role="image"/>
             </c>
@@ -471,7 +471,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <corpname>Musée de l'Hospice Comtesse (Lille, Nord)</corpname>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_AFF_AM01_B_002_001.jpg" role="image"/>
             </c>
@@ -534,8 +534,8 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">Aqueduc Associés Roubaix</name>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -571,7 +571,7 @@
                 <corpname>Hôtel de Ville</corpname>
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
                 <subject source="chrono">1980-1989</subject>
-                <name normal="Imprimerie Choquet - Roubaix" role="imprimeur">Imprimerie Choquet</name>
+                <corpname normal="Imprimerie Choquet - Roubaix" role="imprimeur">Imprimerie Choquet</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -583,7 +583,7 @@
               </did>
               <dao href="RBX_MED_MAR_AFF_AM01_B_039_001.jpg" role="image"/>
               <controlaccess>
-                <name role="Graphiste">Pontoir, Corinne Marianne</name>
+                <persname role="Graphiste">Pontoir, Corinne Marianne</persname>
               </controlaccess>
             </c>
           </c>
@@ -601,7 +601,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Et Si... l'Agence</name>
+                <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_028_001.jpg" audience="internal" role="image"/>
             </c>
@@ -614,8 +614,8 @@
               </did>
               <controlaccess>
                 <corpname>Musée de l'Hospice Comtesse (Lille, Nord)</corpname>
-                <name role="illustrateur">Cuvelier, Roland</name>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <persname role="illustrateur">Cuvelier, Roland</persname>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_057_001.jpg" audience="internal" role="image"/>
             </c>
@@ -628,7 +628,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Et Si... l'Agence</name>
+                <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_061_001.jpg" audience="internal" role="image"/>
             </c>
@@ -677,7 +677,7 @@
               </did>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Gommez, David</name>
+                <persname role="Graphiste">Gommez, David</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_073_001.jpg" audience="internal" role="image"/>
             </c>
@@ -733,7 +733,7 @@
               </did>
               <controlaccess>
                 <geogname source="quartier" coord="[ [ 50.6934476328514, 3.201512531985414 ], [ 50.69343014725989, 3.201407771819268 ], [ 50.69380428337752, 3.201110392083311 ], [ 50.69333557642266, 3.198031342452787 ], [ 50.69300263192721, 3.19593184569584 ], [ 50.6928692901549, 3.195090805913413 ], [ 50.69277902468498, 3.194470606422501 ], [ 50.69271596385177, 3.193891795487861 ], [ 50.69269109720396, 3.193039686777756 ], [ 50.6927462028752, 3.192091218359885 ], [ 50.69283120084832, 3.191447264648252 ], [ 50.69249165968917, 3.190800409593299 ], [ 50.69255139388975, 3.190118504606372 ], [ 50.69262678047154, 3.189397109445757 ], [ 50.69270288467278, 3.188817919431881 ], [ 50.69272471551464, 3.188651772192881 ], [ 50.69280447789912, 3.187707133028268 ], [ 50.69286662112278, 3.187005216466764 ], [ 50.69268897572196, 3.18600310124918 ], [ 50.69244201522396, 3.184650381467185 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.68926815743258, 3.187881620428754 ], [ 50.68871242335845, 3.188458929180712 ], [ 50.68828252441926, 3.188893279756465 ], [ 50.68782699367236, 3.189354522057224 ], [ 50.68686449312622, 3.19037015366834 ], [ 50.68595420942219, 3.191299940720353 ], [ 50.68520208257833, 3.192062068650782 ], [ 50.68464672216665, 3.192624926391553 ], [ 50.68567676759766, 3.194509837268183 ], [ 50.68631562353409, 3.195654838101584 ], [ 50.68687617030501, 3.196762944581456 ], [ 50.68710475605778, 3.19722339655014 ], [ 50.68756057465304, 3.19816890920584 ], [ 50.6881856222613, 3.199452855296052 ], [ 50.68923657201096, 3.201627620003197 ], [ 50.68860489487004, 3.202167589860602 ], [ 50.68902801104252, 3.203757447838059 ], [ 50.68913495960859, 3.204122877020482 ], [ 50.68908293744176, 3.204163158094649 ], [ 50.68917951023515, 3.204464916026801 ], [ 50.69114705180201, 3.203349372278906 ], [ 50.69118549676312, 3.203277707493558 ], [ 50.69179805796528, 3.202791781114033 ], [ 50.69205814456335, 3.202565668386086 ], [ 50.69221707616592, 3.202429712600075 ], [ 50.69223653382164, 3.202485680743545 ] ]">Pile</geogname>
-                <name role="imprimeur">Imprimerie Foreau</name>
+                <corpname role="imprimeur">Imprimerie Foreau</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -768,7 +768,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Offset sur carton. Cote : AM1c07.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</name>
+                <corpname role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -799,7 +799,7 @@
               </did>
               <controlaccess>
                 <corpname>Musée de l'Hospice Comtesse (Lille, Nord)</corpname>
-                <name role="illustrateur">Cuvelier, Roland</name>
+                <persname role="illustrateur">Cuvelier, Roland</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -908,9 +908,9 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Bamière, Sylvain</name>
-                <name role="Graphiste">HexaTypie</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="Graphiste">Bamière, Sylvain</persname>
+                <corpname role="Graphiste">HexaTypie</corpname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -923,9 +923,9 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Bamière, Sylvain</name>
-                <name role="Graphiste">HexaTypie</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="Graphiste">Bamière, Sylvain</persname>
+                <corpname role="Graphiste">HexaTypie</corpname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -950,7 +950,7 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie municipale de Roubaix</name>
+                <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -962,8 +962,8 @@
               </did>
               <dao href="RBX_MED_MAR_AFF_AM01_C_024_001.jpg" role="image"/>
               <controlaccess>
-                <name role="Graphiste">Guyot, Fred</name>
-                <name role="imprimeur">Imprimerie municipale de Roubaix</name>
+                <persname role="Graphiste">Guyot, Fred</persname>
+                <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1032,9 +1032,9 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Bamière, Sylvain</name>
-                <name role="Graphiste">HexaTypie</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="Graphiste">Bamière, Sylvain</persname>
+                <corpname role="Graphiste">HexaTypie</corpname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1071,9 +1071,9 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="Graphiste">Bamière, Sylvain</name>
-                <name role="Graphiste">HexaTypie</name>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <persname role="Graphiste">Bamière, Sylvain</persname>
+                <corpname role="Graphiste">HexaTypie</corpname>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1156,8 +1156,8 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="illustrateur">Jastrzembski, Cécile</name>
-                <name role="Graphiste">Debacker, Florence</name>
+                <persname role="illustrateur">Jastrzembski, Cécile</persname>
+                <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1236,8 +1236,8 @@
               </did>
               <controlaccess>
                 <corpname>Musée de l'Hospice Comtesse (Lille, Nord)</corpname>
-                <name role="illustrateur">Cuvelier, Roland</name>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <persname role="illustrateur">Cuvelier, Roland</persname>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1248,7 +1248,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 40 x 30 cm. Technique : Offset. Cote : AM1c50.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Et Si... l'Agence</name>
+                <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1302,7 +1302,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 40 x 30 cm. Technique : Offset sur carton. Cote : AM1c56.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</name>
+                <corpname role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1337,7 +1337,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 47 x 30 cm. Technique : Offset. Cote : AM1c62.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1356,7 +1356,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 50 x 30 cm. Technique : Offset et impression numérique. Cote : AM1c64.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1367,7 +1367,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Impression numérique. Cote : AM1c65.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Bois, Virginie</name>
+                <persname role="illustrateur">Bois, Virginie</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1386,7 +1386,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Impression numérique. Cote : AM1c70.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Debacker, Florence</name>
+                <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1398,7 +1398,7 @@
               </did>
               <controlaccess>
                 <corpname>THEMAA, Association Nationale des Théâtres de Marionnettes et Arts associés</corpname>
-                <name role="Graphiste">Debacker, Florence</name>
+                <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1461,7 +1461,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Impression numérique. Cote : AM1c80.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Daquin, Nicolas</name>
+                <persname role="illustrateur">Daquin, Nicolas</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1564,7 +1564,7 @@
               </did>
               <dao href="RBX_MED_MAR_002_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Vial et fils - Roubaix</name>
+                <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1577,7 +1577,7 @@
               <controlaccess>
                 <corpname>Hôtel de Ville</corpname>
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-                <name role="imprimeur">Imprimerie L&amp; C Publicité - Roubaix</name>
+                <corpname role="imprimeur">Imprimerie L&amp; C Publicité - Roubaix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1592,7 +1592,7 @@
               </acqinfo>
               <dao href="RBX_MED_MAR_002_B_007_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie GEP - Wattrelos</name>
+                <corpname role="imprimeur">Imprimerie GEP - Wattrelos</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1622,7 +1622,7 @@
               </acqinfo>
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
-                <name role="imprimeur">Imprimerie Limonaires Troesnes</name>
+                <corpname role="imprimeur">Imprimerie Limonaires Troesnes</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_009_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1636,7 +1636,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
-                <name role="imprimeur">Imprimerie Almag'Art</name>
+                <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_010_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1650,7 +1650,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
-                <name role="imprimeur">Imprimerie Vial et fils - Roubaix</name>
+                <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_011_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1663,7 +1663,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Vial et fils - Roubaix</name>
+                <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1675,7 +1675,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Vial et fils - Roubaix</name>
+                <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
             </c>
           </c>
@@ -1694,7 +1694,7 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Almag'Art</name>
+                <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_C_001_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1745,7 +1745,7 @@
               </did>
               <dao href="RBX_MED_MAR_003_B_005_001.jpg" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Atelier graphique</name>
+                <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1766,8 +1766,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1960-1969</subject>
-                <name role="illustrateur">Manesse, C.</name>
-                <name role="imprimeur">Imprimerie Garcenot - Lille</name>
+                <persname role="illustrateur">Manesse, C.</persname>
+                <corpname role="imprimeur">Imprimerie Garcenot - Lille</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_008_001.jpg" role="image"/>
             </c>
@@ -1796,7 +1796,7 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6904853, 3.1740953 ]">Hotel de ville, rue de l\'</geogname>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_011_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1809,7 +1809,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_012_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1823,7 +1823,7 @@
               <controlaccess>
                 <corpname>Condition Publique (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6910317, 3.1888503 ]">Général Faidherbe, place du</geogname>
-                <name role="photographe">Le Brun, Eric</name>
+                <persname role="photographe">Le Brun, Eric</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_013_001.jpg" audience="internal" role="image"/>
             </c>
@@ -1837,7 +1837,7 @@
               <controlaccess>
                 <corpname>Médiathèque de Roubaix</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
-                <name role="imprimeur">Imprimerie Atelier graphique</name>
+                <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_014_001.jpg" role="image"/>
             </c>
@@ -1850,7 +1850,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1862,7 +1862,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1877,8 +1877,8 @@
               </acqinfo>
               <controlaccess>
                 <subject source="chrono">1960-1969</subject>
-                <name role="illustrateur">Manesse, C.</name>
-                <name role="imprimeur">Imprimerie Garcenot - Lille</name>
+                <persname role="illustrateur">Manesse, C.</persname>
+                <corpname role="imprimeur">Imprimerie Garcenot - Lille</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -1890,8 +1890,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1960-1969</subject>
-                <name role="illustrateur">Manesse, C.</name>
-                <name role="imprimeur">Imprimerie Garcenot - Lille</name>
+                <persname role="illustrateur">Manesse, C.</persname>
+                <corpname role="imprimeur">Imprimerie Garcenot - Lille</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_AFF_AM03_B_007_001.jpg" role="image"/>
             </c>
@@ -2089,7 +2089,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Colortype</name>
+                <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2100,7 +2100,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 40 x 30 cm. Technique : Offset. Cote : AM3c16.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Et Si... l'Agence</name>
+                <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2158,7 +2158,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_001_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie I.A.L. Linselles</name>
+                <corpname role="imprimeur">Imprimerie I.A.L. Linselles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2170,7 +2170,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_002_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Merigond - Croix</name>
+                <corpname role="imprimeur">Imprimerie Merigond - Croix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2182,7 +2182,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie La Voix du Nord</name>
+                <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2205,7 +2205,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Almag'Art</name>
+                <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_005_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2218,7 +2218,7 @@
               </did>
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-                <name role="photographe">Legrand, Eric</name>
+                <persname role="photographe">Legrand, Eric</persname>
               </controlaccess>
               <daogrp>
                 <daodesc>
@@ -2238,7 +2238,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <persname>Ledun, Marcel (1930-2019)</persname>
-                <name role="imprimeur">Imprimerie du centre Liévin</name>
+                <corpname role="imprimeur">Imprimerie du centre Liévin</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_007_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2251,8 +2251,8 @@
               </did>
               <controlaccess>
                 <persname>Ledun, Marcel (1930-2019)</persname>
-                <name role="illustrateur">Languillon</name>
-                <name role="imprimeur">Imprimerie SDS - Dunkerque</name>
+                <persname role="illustrateur">Languillon</persname>
+                <corpname role="imprimeur">Imprimerie SDS - Dunkerque</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_008_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2266,7 +2266,7 @@
               <controlaccess>
                 <subject source="chrono">1970-1979</subject>
                 <corpname>Musée de l'Hospice Comtesse (Lille, Nord)</corpname>
-                <name role="imprimeur">Imprimerie Grafinor</name>
+                <corpname role="imprimeur">Imprimerie Grafinor</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_009_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2279,7 +2279,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_010_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie commerciale Douai</name>
+                <corpname role="imprimeur">Imprimerie commerciale Douai</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2291,7 +2291,7 @@
               </did>
               <controlaccess>
                 <persname>Lully, Jean-Baptiste (1632-1687)</persname>
-                <name role="imprimeur">Imprimerie Lefévère Tourcoing</name>
+                <corpname role="imprimeur">Imprimerie Lefévère Tourcoing</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_011_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2304,7 +2304,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_012_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie I.A.L. Linselles</name>
+                <corpname role="imprimeur">Imprimerie I.A.L. Linselles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2316,8 +2316,8 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_013_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="photographe">Rapaich, Daniel</name>
-                <name role="imprimeur">Imprimerie Normédia</name>
+                <persname role="photographe">Rapaich, Daniel</persname>
+                <corpname role="imprimeur">Imprimerie Normédia</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2329,7 +2329,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_014_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie du Moulin -Saint-Josse-sur-mer</name>
+                <corpname role="imprimeur">Imprimerie du Moulin -Saint-Josse-sur-mer</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2362,7 +2362,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">in Quarto</name>
+                <corpname role="Graphiste">in Quarto</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_017_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2375,7 +2375,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Soréfi - Nord-Pas-de-Calais</name>
+                <corpname role="imprimeur">Imprimerie Soréfi - Nord-Pas-de-Calais</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_018_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2400,7 +2400,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">in Quarto</name>
+                <corpname role="Graphiste">in Quarto</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_020_001.jpg" audience="internal" role="image"/>
             </c>
@@ -2413,7 +2413,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_021_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie du centre - Tourcoing</name>
+                <corpname role="imprimeur">Imprimerie du centre - Tourcoing</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2455,7 +2455,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_B_026_001.jpg" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Paroles</name>
+                <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2467,7 +2467,7 @@
               </did>
               <dao href="RBX_MED_MAR_AFF_AM04_B_022_001.jpg" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie du centre - Tourcoing</name>
+                <corpname role="imprimeur">Imprimerie du centre - Tourcoing</corpname>
               </controlaccess>
             </c>
           </c>
@@ -2494,7 +2494,7 @@
               </did>
               <dao href="RBX_MED_MAR_004_C_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Distri Services</name>
+                <corpname role="imprimeur">Imprimerie Distri Services</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2601,7 +2601,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Offset. Cote : AM4c14.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Atitex</name>
+                <corpname role="imprimeur">Imprimerie Atitex</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2642,8 +2642,8 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Cabanes</name>
-                <name role="imprimeur">Imprimerie I&amp;Rg</name>
+                <corpname role="illustrateur">Cabanes</corpname>
+                <corpname role="imprimeur">Imprimerie I&amp;Rg</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2655,7 +2655,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Sérigraphie picarde - Amiens</name>
+                <corpname role="imprimeur">Imprimerie Sérigraphie picarde - Amiens</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2667,8 +2667,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Petit, Ch.</name>
-                <name role="imprimeur">Imprimerie l'Aisne nouvelle - Saint Quentin</name>
+                <persname role="illustrateur">Petit, Ch.</persname>
+                <corpname role="imprimeur">Imprimerie l'Aisne nouvelle - Saint Quentin</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2681,8 +2681,8 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Hikmet, Nâzim</persname>
-                <name role="illustrateur">Pougeoise, Brigitte</name>
-                <name role="imprimeur">Imprimerie Double espace</name>
+                <persname role="illustrateur">Pougeoise, Brigitte</persname>
+                <corpname role="imprimeur">Imprimerie Double espace</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2704,8 +2704,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM5b06.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="photographe">Cry, Didier</name>
-                <name role="imprimeur">Imprimerie I&amp;Rg</name>
+                <persname role="photographe">Cry, Didier</persname>
+                <corpname role="imprimeur">Imprimerie I&amp;Rg</corpname>
               </controlaccess>
             </c>
           </c>
@@ -2727,7 +2727,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2742,7 +2741,6 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2757,7 +2755,6 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2774,7 +2771,6 @@
                 <subject source="theme">Spectacles</subject>
                 <persname>Duck, Christian</persname>
                 <persname>Macewko, Pierre-Marie</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2789,7 +2785,6 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2802,7 +2797,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Semblat, Jean-Pierre</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2815,7 +2809,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Nasoni, Jean-Jacques</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2828,7 +2821,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Nasoni, Jean-Jacques</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2840,7 +2832,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2852,7 +2843,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2864,7 +2854,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2876,7 +2865,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2888,7 +2876,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2900,7 +2887,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2912,7 +2898,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2924,7 +2909,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2936,7 +2920,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2949,7 +2932,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Lebègue, Maurice</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2961,7 +2943,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2974,7 +2955,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Dawson, Alain</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2986,7 +2966,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -2999,7 +2978,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3012,7 +2990,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Lefèvre, David</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3024,7 +3001,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3037,7 +3013,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Eloy, Michel</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3049,7 +3024,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3062,7 +3036,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Vigneux, Luc</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3074,7 +3047,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3086,7 +3058,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3099,7 +3070,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie l'Aisne nouvelle - Saint Quentin</name>
+                <corpname role="imprimeur">Imprimerie l'Aisne nouvelle - Saint Quentin</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3112,7 +3083,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Fauconnier, Jean-Luc</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3124,7 +3094,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3137,7 +3106,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Vignuex, Jean-Luc</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3149,7 +3117,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3162,7 +3129,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3175,7 +3141,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Rose-Auvet, Françoise</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3187,7 +3152,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3199,7 +3163,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3211,7 +3174,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3223,7 +3185,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3235,7 +3196,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3247,7 +3207,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3259,7 +3218,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3271,7 +3229,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3284,7 +3241,6 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Hoël, Maurice</persname>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3296,7 +3252,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3308,7 +3263,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3320,7 +3274,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3332,7 +3285,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3344,7 +3296,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3356,7 +3307,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3368,7 +3318,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3380,7 +3329,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3392,7 +3340,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3404,7 +3351,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3416,7 +3362,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3428,7 +3373,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3440,7 +3384,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3452,7 +3395,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3462,9 +3404,6 @@
                 <unitdate normal="1999">1999</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 50 x 30 cm. Technique : Offset. Cote : AM5c61.&lt;/p&gt;</physdesc>
               </did>
-              <controlaccess>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
-              </controlaccess>
             </c>
             <c level="file">
               <did>
@@ -3475,7 +3414,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3487,7 +3425,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3499,7 +3436,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3511,7 +3447,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3523,7 +3458,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3535,7 +3469,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3547,7 +3480,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3559,7 +3491,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3571,7 +3502,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3594,7 +3524,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3606,7 +3535,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
             <c level="file">
@@ -3618,7 +3546,6 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
-                <name role="imprimeur">Imprimerie Colombel Impressions </name>
               </controlaccess>
             </c>
           </c>
@@ -3646,8 +3573,8 @@
               </did>
               <controlaccess>
                 <subject source="theme">Enseignement</subject>
-                <name role="illustrateur">Bouvet, Michel</name>
-                <name role="Graphiste">Laharrague, Francis</name>
+                <persname role="illustrateur">Bouvet, Michel</persname>
+                <persname role="Graphiste">Laharrague, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3658,7 +3585,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 80 x 40 cm. Technique : Offset. Cote : AM6a02.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie MediaGraphic</name>
+                <corpname role="imprimeur">Imprimerie MediaGraphic</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3669,7 +3596,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 98 x 65 cm. Technique : Offset. Cote : AM6a03.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Bouvet, Michel</name>
+                <persname role="illustrateur">Bouvet, Michel</persname>
               </controlaccess>
             </c>
           </c>
@@ -3688,7 +3615,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <persname>Jubert, Jean-Paul</persname>
-                <name role="imprimeur">Imprimerie de Saint-Michel</name>
+                <corpname role="imprimeur">Imprimerie de Saint-Michel</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3702,7 +3629,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Dardenne</name>
+                <corpname role="imprimeur">Imprimerie Dardenne</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3725,7 +3652,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie du Crestois Crest</name>
+                <corpname role="imprimeur">Imprimerie du Crestois Crest</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3783,8 +3710,8 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Mickel, Yves</name>
-                <name role="imprimeur">Imprimerie Limonaires Troesnes</name>
+                <persname role="illustrateur">Mickel, Yves</persname>
+                <corpname role="imprimeur">Imprimerie Limonaires Troesnes</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3798,7 +3725,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Dewandel, Marguerite</name>
+                <persname role="Graphiste">Dewandel, Marguerite</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3812,8 +3739,8 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Kako et Kaki</name>
-                <name role="éditeur">Agence de Publicité - Rennes</name>
+                <corpname role="illustrateur">Kako et Kaki</corpname>
+                <corpname role="éditeur">Agence de Publicité - Rennes</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3827,7 +3754,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1987.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Gerben</name>
+                <persname role="illustrateur">Gerben</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3863,8 +3790,8 @@
                 <p>&lt;p&gt;Affiche acquise en 1990.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name normal="Delcourt, Raymond" role="illustrateur">Delcourt, Raymond</name>
-                <name role="imprimeur">Imprimerie R. Bayle - Montélimar</name>
+                <persname normal="Delcourt, Raymond" role="illustrateur">Delcourt, Raymond</persname>
+                <corpname role="imprimeur">Imprimerie R. Bayle - Montélimar</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3878,7 +3805,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1989.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Sofae Arts graphiques</name>
+                <corpname role="imprimeur">Imprimerie Sofae Arts graphiques</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3890,8 +3817,8 @@
               </did>
               <controlaccess>
                 <subject source="theme">Enseignement</subject>
-                <name role="illustrateur">Bouvet, Michel</name>
-                <name role="imprimeur">Imprimerie Alphagraph</name>
+                <persname role="illustrateur">Bouvet, Michel</persname>
+                <corpname role="imprimeur">Imprimerie Alphagraph</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3906,7 +3833,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Enseignement</subject>
-                <name role="imprimeur">Atelier Gérard Finel - Paris</name>
+                <persname role="imprimeur">Atelier Gérard Finel - Paris</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3975,7 +3902,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Anciaux</name>
+                <corpname role="imprimeur">Imprimerie Anciaux</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3989,7 +3916,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Anciaux</name>
+                <corpname role="imprimeur">Imprimerie Anciaux</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4033,7 +3960,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 44 x 62 cm. Technique : Offset. Cote : AM6b29.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Ferri</name>
+                <persname role="illustrateur">Ferri</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4044,7 +3971,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 44 x 62 cm. Technique : Offset. Cote : AM6b30.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Ferri</name>
+                <persname role="illustrateur">Ferri</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4055,9 +3982,9 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b31.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Fühler, Björn</name>
-                <name role="illustrateur">Fühler, Christiane</name>
-                <name role="imprimeur">Imprimerie Kuster Kayserberg</name>
+                <persname role="illustrateur">Fühler, Björn</persname>
+                <persname role="illustrateur">Fühler, Christiane</persname>
+                <corpname role="imprimeur">Imprimerie Kuster Kayserberg</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4071,9 +3998,9 @@
                 <p>&lt;p&gt;Affiche acquise en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Fühler, Björn</name>
-                <name role="illustrateur">Fühler, Christiane</name>
-                <name role="imprimeur">Imprimerie Kuster Kayserberg</name>
+                <persname role="illustrateur">Fühler, Björn</persname>
+                <persname role="illustrateur">Fühler, Christiane</persname>
+                <corpname role="imprimeur">Imprimerie Kuster Kayserberg</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4098,8 +4025,8 @@
                 <p>&lt;p&gt;Affiche acquise en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Fühler, Björn</name>
-                <name role="imprimeur">Imprimerie Kuster Kayserberg</name>
+                <persname role="illustrateur">Fühler, Björn</persname>
+                <corpname role="imprimeur">Imprimerie Kuster Kayserberg</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4113,7 +4040,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Fühler, Björn</name>
+                <persname role="illustrateur">Fühler, Björn</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4135,7 +4062,7 @@
                 <p>&lt;p&gt;Don.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Copie 45</name>
+                <corpname role="imprimeur">Imprimerie Copie 45</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4146,8 +4073,8 @@
                 <physdesc>&lt;p&gt;Dimensions  : 60 x 40 cm. Technique : Offset. Cote : AM6b38.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Moloch</name>
-                <name role="imprimeur">Imprimerie Score</name>
+                <persname role="illustrateur">Moloch</persname>
+                <corpname role="imprimeur">Imprimerie Score</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4159,7 +4086,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Godard</name>
+                <persname role="illustrateur">Godard</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4184,7 +4111,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Copie 45</name>
+                <corpname role="imprimeur">Imprimerie Copie 45</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4206,7 +4133,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 48 x 34 cm. Technique : Offset. Cote : AM6b43.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Freundlich, Hélène</name>
+                <persname role="illustrateur">Freundlich, Hélène</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4239,8 +4166,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b46.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="photographe">Gourmel, Jean-Claude</name>
-                <name role="Graphiste">Bouchex, Thierry</name>
+                <persname role="photographe">Gourmel, Jean-Claude</persname>
+                <persname role="Graphiste">Bouchex, Thierry</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4254,7 +4181,7 @@
                 <p>&lt;p&gt;Affiche acquise en 2000.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Mesnier, Pascal</name>
+                <persname role="illustrateur">Mesnier, Pascal</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4265,7 +4192,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b48.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Bouvet, Michel</name>
+                <persname role="illustrateur">Bouvet, Michel</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4276,9 +4203,9 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b49.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Bouvet, Michel</name>
-                <name role="Graphiste">Laharrague, Francis</name>
-                <name role="imprimeur">Imprimerie Alphagraph</name>
+                <persname role="illustrateur">Bouvet, Michel</persname>
+                <persname role="Graphiste">Laharrague, Francis</persname>
+                <corpname role="imprimeur">Imprimerie Alphagraph</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4289,8 +4216,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b50.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="photographe">Wagner, Bruno</name>
-                <name role="imprimeur">Imprimerie BBR</name>
+                <persname role="photographe">Wagner, Bruno</persname>
+                <corpname role="imprimeur">Imprimerie BBR</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4301,7 +4228,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 56 x 45 cm. Technique : Offset. Cote : AM6b51.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Derrim, A.</name>
+                <persname role="illustrateur">Derrim, A.</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4315,7 +4242,7 @@
                 <p>&lt;p&gt;Don du théâtre Exobus en 1998.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie BBR</name>
+                <corpname role="imprimeur">Imprimerie BBR</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4334,8 +4261,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 30 cm. Technique : Offset. Cote : AM6b54.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Passal, Emilie</name>
-                <name role="imprimeur">Imprimerie Celma</name>
+                <persname role="Graphiste">Passal, Emilie</persname>
+                <corpname role="imprimeur">Imprimerie Celma</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4346,7 +4273,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM6b55.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Bouvet, Michel</name>
+                <persname role="Graphiste">Bouvet, Michel</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4368,8 +4295,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 61 x 30 cm. Technique : Offset. Cote : AM6b57.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Passal, Emilie</name>
-                <name role="imprimeur">Imprimerie Celma</name>
+                <persname role="Graphiste">Passal, Emilie</persname>
+                <corpname role="imprimeur">Imprimerie Celma</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4380,8 +4307,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 50 x 32.5 cm. Technique : Offset. Cote : AM6b59.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Passal, Emilie</name>
-                <name role="imprimeur">Imprimerie Celma</name>
+                <persname role="Graphiste">Passal, Emilie</persname>
+                <corpname role="imprimeur">Imprimerie Celma</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4392,8 +4319,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60.5 x 30.5 cm. Technique : Offset. Cote : AM6b60.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Passal, Emilie</name>
-                <name role="imprimeur">Imprimerie Celma</name>
+                <persname role="Graphiste">Passal, Emilie</persname>
+                <corpname role="imprimeur">Imprimerie Celma</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4404,7 +4331,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 30 cm. Technique : Offset. Cote : AM6b61.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Passal, Emilie</name>
+                <persname role="Graphiste">Passal, Emilie</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4419,7 +4346,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="chrono">1946-1959</subject>
-                <name role="imprimeur">Imprimerie R. Gennequin - Courbevoie</name>
+                <corpname role="imprimeur">Imprimerie R. Gennequin - Courbevoie</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4433,7 +4360,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1991.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Desert, Isabelle</name>
+                <persname role="illustrateur">Desert, Isabelle</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4447,7 +4374,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1988.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Arc-en-ciel Le Mans</name>
+                <corpname role="imprimeur">Imprimerie Arc-en-ciel Le Mans</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4459,7 +4386,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie F. Grégoire</name>
+                <corpname role="imprimeur">Imprimerie F. Grégoire</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4470,7 +4397,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 39 cm. Technique : Offset. Cote : AM6b66.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie dieppoise</name>
+                <corpname role="imprimeur">Imprimerie dieppoise</corpname>
               </controlaccess>
             </c>
           </c>
@@ -4504,7 +4431,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1995.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Paton</name>
+                <corpname role="imprimeur">Imprimerie Paton</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4518,8 +4445,8 @@
                 <p>&lt;p&gt;Don de Monsieur Bernard Grelle.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Hausman</name>
-                <name role="imprimeur">Imprimerie Le Sanglier</name>
+                <persname role="illustrateur">Hausman</persname>
+                <corpname role="imprimeur">Imprimerie Le Sanglier</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4533,7 +4460,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Graphisud - Narbonne</name>
+                <corpname role="imprimeur">Imprimerie Graphisud - Narbonne</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4548,7 +4475,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie SNCP</name>
+                <corpname role="imprimeur">Imprimerie SNCP</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4578,7 +4505,7 @@
                 <p>&lt;p&gt;Don du Théâtre en 1998.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Hesbois, Yvan</name>
+                <persname role="Graphiste">Hesbois, Yvan</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4592,7 +4519,7 @@
                 <p>&lt;p&gt;Don du théâtre Exobus en 1998.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Lebeuge - Beaugency</name>
+                <corpname role="imprimeur">Imprimerie Lebeuge - Beaugency</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4627,7 +4554,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 21 cm. Technique : Offset et feutre. Cote : AM6c13.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Ivoire</name>
+                <corpname role="imprimeur">Imprimerie Ivoire</corpname>
               </controlaccess>
             </c>
           </c>
@@ -4654,8 +4581,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Caumans</name>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="illustrateur">Caumans</persname>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4667,7 +4594,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4709,7 +4636,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="photographe">Lange, A.</name>
+                <persname role="photographe">Lange, A.</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4754,8 +4681,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Caumans</name>
-                <name role="Graphiste">Tanner</name>
+                <persname role="illustrateur">Caumans</persname>
+                <persname role="Graphiste">Tanner</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4766,7 +4693,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 64 x 44 cm. Technique : Offset. Cote : AM7b11.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Desert, Isabelle</name>
+                <persname role="illustrateur">Desert, Isabelle</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4778,8 +4705,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">Ancion, Jacques</name>
-                <name role="imprimeur">Imprimerie Héroufosse</name>
+                <persname role="Graphiste">Ancion, Jacques</persname>
+                <corpname role="imprimeur">Imprimerie Héroufosse</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4804,7 +4731,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4818,8 +4745,8 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Houtteman, Francis</name>
-                <name role="imprimeur">Imprimerie Scoop</name>
+                <persname role="Graphiste">Houtteman, Francis</persname>
+                <corpname role="imprimeur">Imprimerie Scoop</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4830,8 +4757,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM7b17.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="photographe">Skalka, Jean-Pierre</name>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="photographe">Skalka, Jean-Pierre</persname>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4843,7 +4770,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
           </c>
@@ -4874,7 +4801,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1989.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Dermine Jambes</name>
+                <corpname role="imprimeur">Imprimerie Dermine Jambes</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4888,8 +4815,8 @@
                 <p>&lt;p&gt;Affiche acquise en 2000.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Marshall, Annah</name>
-                <name role="Graphiste">Houtteman, Francis</name>
+                <persname role="illustrateur">Marshall, Annah</persname>
+                <persname role="Graphiste">Houtteman, Francis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4900,7 +4827,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 30 x 30 cm. Technique : Offset et impression numérique. Cote : AM7c05.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Orban, Marcel</name>
+                <persname role="Graphiste">Orban, Marcel</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4936,8 +4863,8 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <persname>Debussy, Claude</persname>
-                <name role="illustrateur">Cuzzati</name>
-                <name role="Graphiste">G &amp; R Associati</name>
+                <persname role="illustrateur">Cuzzati</persname>
+                <corpname role="Graphiste">G &amp; R Associati</corpname>
               </controlaccess>
             </c>
           </c>
@@ -4962,8 +4889,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 50 x 34 cm. Technique : Offset. Cote : AM8b02.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Ravasi, Raffaella</name>
-                <name role="imprimeur">Imprimerie coopérative Stampa Nuova Brianza</name>
+                <persname role="Graphiste">Ravasi, Raffaella</persname>
+                <corpname role="imprimeur">Imprimerie coopérative Stampa Nuova Brianza</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4986,7 +4913,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie LGA - Paris</name>
+                <corpname role="imprimeur">Imprimerie LGA - Paris</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -4997,7 +4924,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 65 x 48 cm. Technique : Offset. Cote : AM8b05.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Buratti</name>
+                <persname role="illustrateur">Buratti</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5020,7 +4947,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">in Quarto</name>
+                <corpname role="Graphiste">in Quarto</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5092,8 +5019,8 @@
               </did>
               <controlaccess>
                 <persname>Bagno, Albert</persname>
-                <name role="Graphiste">Ravasi, Raffaella</name>
-                <name role="imprimeur">Imprimerie coopérative Stampa Nuova Brianza</name>
+                <persname role="Graphiste">Ravasi, Raffaella</persname>
+                <corpname role="imprimeur">Imprimerie coopérative Stampa Nuova Brianza</corpname>
               </controlaccess>
             </c>
           </c>
@@ -5110,7 +5037,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 58.5 x 22.5 cm. Technique : Offset. Cote : AM8c01.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Mordini, Stefano</name>
+                <persname role="Graphiste">Mordini, Stefano</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5158,7 +5085,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie ANEL - Granada</name>
+                <corpname role="imprimeur">Imprimerie ANEL - Granada</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5231,8 +5158,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="Graphiste">Palolo, A.</name>
-                <name role="imprimeur">Imprimerie Safil</name>
+                <persname role="Graphiste">Palolo, A.</persname>
+                <corpname role="imprimeur">Imprimerie Safil</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5291,8 +5218,8 @@
               </acqinfo>
               <controlaccess>
                 <persname>Herculano, Alexandre</persname>
-                <name role="Graphiste">De Carmo, Garizo</name>
-                <name role="imprimeur">Imprimerie Qualigrafe Lda</name>
+                <persname role="Graphiste">De Carmo, Garizo</persname>
+                <corpname role="imprimeur">Imprimerie Qualigrafe Lda</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5306,7 +5233,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Borba, Clovis</name>
+                <persname role="Graphiste">Borba, Clovis</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5321,8 +5248,8 @@
               </acqinfo>
               <controlaccess>
                 <persname>Shaw, George Bernard (1856-1950)</persname>
-                <name role="illustrateur">Tobiane</name>
-                <name role="imprimeur">Imprimerie du Forum - Fréjus</name>
+                <persname role="illustrateur">Tobiane</persname>
+                <corpname role="imprimeur">Imprimerie du Forum - Fréjus</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5366,7 +5293,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Moises Barbastro</name>
+                <corpname role="imprimeur">Imprimerie Moises Barbastro</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5385,8 +5312,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 67.5 x 33 cm. Technique : Offset. Cote : AM9b17.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Pavlichenko, Sveta</name>
-                <name role="imprimeur">Imprimerie Sansuena Industrias Graficas</name>
+                <corpname role="illustrateur">Pavlichenko, Sveta</corpname>
+                <corpname role="imprimeur">Imprimerie Sansuena Industrias Graficas</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5397,8 +5324,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 63 x 33 cm. Technique : Offset. Cote : AM9b18&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Ermangol</name>
-                <name role="imprimeur">Imprimerie Moises Barbastro</name>
+                <persname role="illustrateur">Ermangol</persname>
+                <corpname role="imprimeur">Imprimerie Moises Barbastro</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5450,7 +5377,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 60 cm. Technique : Offset. Cote : AM9b23.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Jirsch</name>
+                <persname role="illustrateur">Jirsch</persname>
               </controlaccess>
             </c>
           </c>
@@ -5470,7 +5397,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Crisis</name>
+                <corpname role="illustrateur">Crisis</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5568,7 +5495,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Socedit - Paris</name>
+                <corpname role="imprimeur">Imprimerie Socedit - Paris</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5582,7 +5509,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Sopaic - Charleville</name>
+                <corpname role="imprimeur">Imprimerie Sopaic - Charleville</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5596,7 +5523,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">O'Donovan Lockard, Patricia</name>
+                <persname role="illustrateur">O'Donovan Lockard, Patricia</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5698,7 +5625,7 @@
               </acqinfo>
               <controlaccess>
                 <persname>Santana, René Fernandez (1944-)</persname>
-                <name role="illustrateur">Carbonnel</name>
+                <persname role="illustrateur">Carbonnel</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5709,7 +5636,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM11b04.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Lienal</name>
+                <corpname role="imprimeur">Imprimerie Lienal</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5720,7 +5647,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 45 x 56 cm. Technique : Offset. Cote : AM11b05.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Videotron Itée</name>
+                <corpname role="imprimeur">Imprimerie Videotron Itée</corpname>
               </controlaccess>
             </c>
           </c>
@@ -5749,7 +5676,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Compafrique</name>
+                <corpname role="imprimeur">Imprimerie Compafrique</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5811,7 +5738,7 @@
                 <p>&lt;p&gt;Affiche acquise auprès de Lozada en 1999.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Emery - Paris</name>
+                <corpname role="imprimeur">Imprimerie Emery - Paris</corpname>
               </controlaccess>
             </c>
           </c>
@@ -5829,7 +5756,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Soréfi - Nord-Pas-de-Calais</name>
+                <corpname role="imprimeur">Imprimerie Soréfi - Nord-Pas-de-Calais</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5841,7 +5768,7 @@
               </did>
               <controlaccess>
                 <corpname>Association Lire à Roubaix</corpname>
-                <name normal="Imprimerie Choquet - Roubaix" role="imprimeur">Imprimerie Choquet</name>
+                <corpname normal="Imprimerie Choquet - Roubaix" role="imprimeur">Imprimerie Choquet</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5855,7 +5782,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1990.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie de la Têt - Perpignan</name>
+                <corpname role="imprimeur">Imprimerie de la Têt - Perpignan</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5869,7 +5796,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Iti - Limoges</name>
+                <corpname role="imprimeur">Imprimerie Iti - Limoges</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5883,7 +5810,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Iti - Limoges</name>
+                <corpname role="imprimeur">Imprimerie Iti - Limoges</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5897,7 +5824,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Iti - Limoges</name>
+                <corpname role="imprimeur">Imprimerie Iti - Limoges</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5908,7 +5835,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM14b07.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Iti - Limoges</name>
+                <corpname role="imprimeur">Imprimerie Iti - Limoges</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5919,7 +5846,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 76 x 53 cm. Technique : Offset. Cote : AM14b08.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie J. Lorge - Lyon</name>
+                <corpname role="imprimeur">Imprimerie J. Lorge - Lyon</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5933,7 +5860,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1993.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Lalloz Perrin</name>
+                <corpname role="imprimeur">Imprimerie Lalloz Perrin</corpname>
               </controlaccess>
             </c>
           </c>
@@ -5950,7 +5877,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 22 cm. Technique : Offset. Cote : AM14c01.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Clouzet</name>
+                <corpname role="imprimeur">Imprimerie Clouzet</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5962,7 +5889,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Clouzet</name>
+                <corpname role="imprimeur">Imprimerie Clouzet</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -5973,7 +5900,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 22 cm. Technique : Offset. Cote : AM14c03.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Clouzet</name>
+                <corpname role="imprimeur">Imprimerie Clouzet</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6024,7 +5951,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Botti, Mino</name>
+                <persname role="illustrateur">Botti, Mino</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6035,7 +5962,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 115 x 118 cm. Technique : Offset. Cote : AM15a03.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie A. Karcher - Aubervilliers</name>
+                <corpname role="imprimeur">Imprimerie A. Karcher - Aubervilliers</corpname>
               </controlaccess>
             </c>
           </c>
@@ -6055,7 +5982,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie ICEA</name>
+                <corpname role="imprimeur">Imprimerie ICEA</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6109,7 +6036,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Cinéma</subject>
-                <name role="imprimeur">Imprimerie Mopin Lille</name>
+                <corpname role="imprimeur">Imprimerie Mopin Lille</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6120,9 +6047,9 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM15b06.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="photographe">Thériez, Claude</name>
-                <name role="Graphiste">Gris &amp; Blanc</name>
-                <name role="imprimeur">Imprimerie Lefévère Tourcoing</name>
+                <persname role="photographe">Thériez, Claude</persname>
+                <corpname role="Graphiste">Gris &amp; Blanc</corpname>
+                <corpname role="imprimeur">Imprimerie Lefévère Tourcoing</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6175,8 +6102,8 @@
                 <p>&lt;p&gt;Affiche acquise à Wasquehal en 2004.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">D'Hondt, Kévin</name>
-                <name role="Graphiste">Dubremetz, Arnaud</name>
+                <persname role="Graphiste">D'Hondt, Kévin</persname>
+                <persname role="Graphiste">Dubremetz, Arnaud</persname>
               </controlaccess>
             </c>
           </c>
@@ -6205,7 +6132,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="Graphiste">Wasilkowska, Joanna</name>
+                <persname role="Graphiste">Wasilkowska, Joanna</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6236,7 +6163,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1985.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Limonaires Troesnes</name>
+                <corpname role="imprimeur">Imprimerie Limonaires Troesnes</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6276,7 +6203,7 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1994.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Peralta, Sergio</name>
+                <persname role="illustrateur">Peralta, Sergio</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6288,8 +6215,8 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="illustrateur">Sallier, Dominique</name>
-                <name role="imprimeur">Imprimerie du Sanglier - Charleville</name>
+                <persname role="illustrateur">Sallier, Dominique</persname>
+                <corpname role="imprimeur">Imprimerie du Sanglier - Charleville</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6302,8 +6229,8 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
                 <persname>Dor, Léopold Joseph (1881-1960)</persname>
-                <name role="illustrateur">Burattini</name>
-                <name role="imprimeur">Imprimerie Delta - Lyon</name>
+                <persname role="illustrateur">Burattini</persname>
+                <corpname role="imprimeur">Imprimerie Delta - Lyon</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6318,7 +6245,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Calingaert</name>
+                <corpname role="imprimeur">Imprimerie Calingaert</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6330,7 +6257,7 @@
               </did>
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
-                <name role="imprimeur">Imprimerie Calingaert</name>
+                <corpname role="imprimeur">Imprimerie Calingaert</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6347,8 +6274,8 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="photographe">Spadem</name>
-                <name role="illustrateur">Pery, D.</name>
+                <persname role="photographe">Spadem</persname>
+                <persname role="illustrateur">Pery, D.</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6365,8 +6292,8 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Pery, D.</name>
-                <name role="photographe">Spadem</name>
+                <persname role="illustrateur">Pery, D.</persname>
+                <persname role="photographe">Spadem</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6383,8 +6310,8 @@
                 <p>&lt;p&gt;Affiches acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Pery, D.</name>
-                <name role="photographe">Spadem</name>
+                <persname role="illustrateur">Pery, D.</persname>
+                <persname role="photographe">Spadem</persname>
               </controlaccess>
             </c>
           </c>
@@ -6404,9 +6331,9 @@
                 <p>&lt;p&gt;Affiche acquise à Charleville en 1997.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="illustrateur">Fühler, Björn</name>
-                <name role="illustrateur">Fühler, Christiane</name>
-                <name role="imprimeur">Imprimerie Kuster Kayserberg</name>
+                <persname role="illustrateur">Fühler, Björn</persname>
+                <persname role="illustrateur">Fühler, Christiane</persname>
+                <corpname role="imprimeur">Imprimerie Kuster Kayserberg</corpname>
               </controlaccess>
             </c>
           </c>
@@ -6685,7 +6612,7 @@
                 <p>&lt;p&gt;Exemplaire numéroté 9.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Weissenburg</name>
+                <corpname role="imprimeur">Imprimerie Weissenburg</corpname>
               </controlaccess>
             </c>
           </c>
@@ -6721,7 +6648,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 50 x 34 cm. Technique : Offset. Cote : AM18b03.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Laydu, Claude</name>
+                <persname role="illustrateur">Laydu, Claude</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6732,8 +6659,8 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM18b04.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Tschiegg, Anne-Sophie</name>
-                <name role="Graphiste">Colinomogno</name>
+                <persname role="Graphiste">Tschiegg, Anne-Sophie</persname>
+                <persname role="Graphiste">Colinomogno</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6775,7 +6702,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 36 x 30 cm. Technique : Offset. Cote : AM18c01.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="illustrateur">Philippot, Jean-Claude</name>
+                <persname role="illustrateur">Philippot, Jean-Claude</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6811,7 +6738,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 42 x 30 cm. Technique : Offset. Cote : AM18c04.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Nollet, Michel</name>
+                <persname role="Graphiste">Nollet, Michel</persname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6852,7 +6779,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1990.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Dericq, Wasquehal</name>
+                <corpname role="imprimeur">Imprimerie Dericq, Wasquehal</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6874,7 +6801,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 45 x 28 cm. Technique : Offset. Cote : AM19b03.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Merigond - Croix</name>
+                <corpname role="imprimeur">Imprimerie Merigond - Croix</corpname>
               </controlaccess>
             </c>
           </c>
@@ -6899,7 +6826,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 43.5 x 25 cm. Technique : Offset. Cote : AM19c02.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Merigond - Croix</name>
+                <corpname role="imprimeur">Imprimerie Merigond - Croix</corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -6977,7 +6904,7 @@
                 <p>&lt;p&gt;Affiche acquise en 1998.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <name role="imprimeur">Imprimerie Pellerin &amp; Cie - Epinal</name>
+                <corpname role="imprimeur">Imprimerie Pellerin &amp; Cie - Epinal</corpname>
               </controlaccess>
             </c>
           </c>
@@ -7007,7 +6934,7 @@
                 <physdesc>&lt;p&gt;Dimensions : 45 x 30 cm. Technique : Offset. Cote : AM20c02.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <name role="Graphiste">Davidson, Todd</name>
+                <persname role="Graphiste">Davidson, Todd</persname>
               </controlaccess>
             </c>
           </c>
