@@ -1,4 +1,4 @@
-import html
+from html import unescape
 from os import listdir
 from os.path import join
 
@@ -10,7 +10,7 @@ Script qui permet de préparer les IR bn-r à un import dans Mnesys.
 Les modifications suivantes sont réalisées :
     - renommage du fichier
     - MaJ eadid
-    -
+    - MaJ repository
 """
 
 
@@ -63,6 +63,14 @@ def remove_empty_elements(element):
                 parent.remove(elem)
 
 
+def remove_html_entities(element):
+    for e in element.iter():
+        if e.text:
+            e.text = unescape(e.text)
+        if e.tail:
+            e.tail = unescape(e.tail)
+
+
 def move_origination(element):
     # Trouver tous les éléments <origination>
     for origination in element.xpath("//origination"):
@@ -92,16 +100,43 @@ def move_origination(element):
             e.getparent().remove(e)
 
 
-def transform_ead(input_file, output_file):
-    tree = etree.parse(input_file)
+def update_eadid(element, new_eadid):
+    eadid = element.find(".//eadid")
+    if eadid is not None:
+        eadid.text = new_eadid
+
+
+def update_archdesc_unitid(element, new_archdesc_unitid):
+    unitid = element.find("./archdesc/did/unitid")
+    if unitid is not None:
+        unitid.text = new_archdesc_unitid
+
+
+def update_repository(element, new_repository):
+    repository = element.find("./archdesc/did/repository")
+    if repository is not None:
+        repository.text = new_repository
+
+
+def transform_ead(ir):
+    ir_filename = join("data", "ead", "bnr", ir["nom_fichier"])
+    new_ir_filename = join(
+        "results", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
+    )
+
+    tree = etree.parse(ir_filename)
     root = tree.getroot()
+    update_eadid(root, ir["nouveau_ead_id"])
+    update_archdesc_unitid(root, ir["nouveau_archdesc_unitid"])
+    update_repository(root, ir["nouveau_repository"])
+    remove_html_entities(root)
     move_origination(root)
     remove_empty_attributes(root)
     remove_empty_elements(root)
 
     # Sauvegarder le fichier transformé
     tree.write(
-        output_file,
+        new_ir_filename,
         encoding="UTF-8",
         xml_declaration=True,
         pretty_print=True,
@@ -115,9 +150,5 @@ irs = pd.read_excel(
 irs = irs[irs["statut"] == "TRANSFERER"]
 
 for ir in irs.to_dict(orient="records"):
-    ir_filename = join("data", "ead", "bnr", ir["nom_fichier"])
-    new_ir_filename = join(
-        "results", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
-    )
-    transform_ead(ir_filename, new_ir_filename)
-    print(new_ir_filename)
+    transform_ead(ir)
+    print(ir)

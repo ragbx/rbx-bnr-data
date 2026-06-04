@@ -2,7 +2,7 @@
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
 <ead>
   <eadheader>
-    <eadid>FR595129901_MED_23</eadid>
+    <eadid>FR595126101_MED_PLA</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Collection des cartes et plans de la médiathèque</titleproper>
@@ -13,26 +13,26 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>&lt;p style="text-align: justify;"&gt;Le travail d'inventaire et de signalement sur la Bn-R des cartes et plans de la m&amp;eacute;diath&amp;egrave;que, r&amp;eacute;alis&amp;eacute; par Marion Fr&amp;eacute;meaux,(2019-2021) a re&amp;ccedil;u un financement dans le cadre du Plan d'action pour le patrimoine &amp;eacute;crit (Minist&amp;egrave;re de la Culture). Cet inventaire comprend toutes les cartes et plans des collections de la m&amp;eacute;diath&amp;egrave;que. L'arborescence des cartes et plans est &amp;agrave; plat puisque les documents ne r&amp;eacute;pondent &amp;agrave; aucune th&amp;eacute;matique.&lt;/p&gt;</creation>
+      <creation>&lt;p style="text-align: justify;"&gt;Le travail d'inventaire et de signalement sur la Bn-R des cartes et plans de la médiathèque, réalisé par Marion Frémeaux,(2019-2021) a reçu un financement dans le cadre du Plan d'action pour le patrimoine écrit (Ministère de la Culture). Cet inventaire comprend toutes les cartes et plans des collections de la médiathèque. L'arborescence des cartes et plans est à plat puisque les documents ne répondent à aucune thématique.&lt;/p&gt;</creation>
       <langusage>
         <language langcode="fre">français</language>
       </langusage>
-      <descrules>&lt;p&gt;Cet inventaire a &amp;eacute;t&amp;eacute; r&amp;eacute;dig&amp;eacute; conform&amp;eacute;ment &amp;agrave; la norme ISAD(G) et aux r&amp;egrave;gles d'application de la DTD EAD dans la biblioth&amp;egrave;que num&amp;eacute;rique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme &amp;agrave; la norme Z44-061. Le d&amp;eacute;coupage de Roubaix en 13 quartiers est conforme au plan &amp;eacute;tabli par la Direction G&amp;eacute;n&amp;eacute;rale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
+      <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
   <archdesc level="collection">
     <did>
-      <unitid>RBX_MED_PLA</unitid>
+      <unitid>MED_PLA</unitid>
       <unittitle>Collection des cartes et plans de la médiathèque</unittitle>
       <unitdate normal="1850">17e - 21e siècle</unitdate>
       <langmaterial>
         <language>Français</language>
       </langmaterial>
-      <repository>MED</repository>
+      <repository>Médiathèque de Roubaix</repository>
     </did>
     <scopecontent>
-      <p>&lt;p style="text-align: justify;"&gt;Cette collection comprend les cartes et les plans des "collections iconographiques grand format" du p&amp;ocirc;le Patrimoine de la m&amp;eacute;diath&amp;egrave;que. Elle regroupe tous les types de plans, cartes et maquettes. Le classement se fait par format (a, b ou c) puis par num&amp;eacute;ro d'objet. Cet inventaire est amen&amp;eacute; &amp;agrave; &amp;ecirc;tre &amp;eacute;toff&amp;eacute; par de futures int&amp;eacute;grations suivant les acquisitions ou dons que le p&amp;ocirc;le Patrimoine recevra.&lt;/p&gt;&#13;
-&lt;p style="text-align: justify;"&gt;Cette collection regroupe tous les types de plans, cartes et maquettes sans distinction de th&amp;eacute;matique.&lt;/p&gt;</p>
+      <p>&lt;p style="text-align: justify;"&gt;Cette collection comprend les cartes et les plans des "collections iconographiques grand format" du pôle Patrimoine de la médiathèque. Elle regroupe tous les types de plans, cartes et maquettes. Le classement se fait par format (a, b ou c) puis par numéro d'objet. Cet inventaire est amené à être étoffé par de futures intégrations suivant les acquisitions ou dons que le pôle Patrimoine recevra.&lt;/p&gt;&#13;
+&lt;p style="text-align: justify;"&gt;Cette collection regroupe tous les types de plans, cartes et maquettes sans distinction de thématique.&lt;/p&gt;</p>
     </scopecontent>
     <dsc>
       <c level="series">
@@ -46,7 +46,7 @@
         <c level="file">
           <did>
             <unitid>PLA_A_001</unitid>
-            <unittitle>Vraie description des Gaules, avec les confins d'Allemagne, &amp;amp; Italye</unittitle>
+            <unittitle>Vraie description des Gaules, avec les confins d'Allemagne, &amp; Italye</unittitle>
             <unitdate normal="1974">1974</unitdate>
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 100 cm. Technique : Offset. Cote : Ca001.&lt;/p&gt;</physdesc>
           </did>
@@ -126,10 +126,10 @@
             <unitid>PLA_A_008</unitid>
             <unittitle>Département du Nord : Arrondissement de Lille</unittitle>
             <unitdate normal="1848">1848</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 61 x 82 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca008.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 61 x 82 cm. Technique : Lithographie collée sur toile. Cote : Ca008.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -148,7 +148,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 55 cm. Technique : Lithographie et typographie. Cote : Ca009.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Urbanisme </subject>
@@ -161,10 +161,10 @@
             <unitid>PLA_A_010</unitid>
             <unittitle>Nouvelle carte physique de l'Amérique du Nord</unittitle>
             <unitdate normal="1852">1852</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85.5 x 64.5 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca010.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85.5 x 64.5 cm. Technique : Lithographie collée sur toile. Cote : Ca010.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -179,10 +179,10 @@
             <unitid>PLA_A_011</unitid>
             <unittitle>Nouvelle carte physique de l'Amérique du Sud</unittitle>
             <unitdate normal="1852">1852</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 87 x 63.5 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca011.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 87 x 63.5 cm. Technique : Lithographie collée sur toile. Cote : Ca011.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -197,10 +197,10 @@
             <unitid>PLA_A_012</unitid>
             <unittitle>France</unittitle>
             <unitdate normal="1942">1942</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 76 x 74 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca012.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 76 x 74 cm. Technique : Lithographie collée sur toile. Cote : Ca012.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1939-1945</subject>
@@ -214,13 +214,13 @@
             <unitid>PLA_A_013</unitid>
             <unittitle>Plan de Roubaix</unittitle>
             <unitdate normal="1855">1855</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 85.5 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca013.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 85.5 cm. Technique : Lithographie collée sur toile. Cote : Ca013.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un exemplaire lacunaire du plan de Roubaix (Ca005).&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -237,7 +237,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 64.5 x 82 cm. Technique : Lithographie. Cote : Ca014.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Transports </subject>
@@ -253,10 +253,10 @@
             <unitid>PLA_A_015</unitid>
             <unittitle>Nouvelle carte postale de la France à l'usage des voyageurs</unittitle>
             <unitdate normal="1855">1855</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 65 x 85.5 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca015.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 65 x 85.5 cm. Technique : Lithographie collée sur toile. Cote : Ca015.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Transports </subject>
@@ -272,10 +272,10 @@
             <unitid>PLA_A_016</unitid>
             <unittitle>Carte pittoresque et maritime de l'Europe</unittitle>
             <unitdate normal="1852">1852</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85.5 x 112 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca016.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85.5 x 112 cm. Technique : Lithographie collée sur toile. Cote : Ca016.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -306,7 +306,7 @@
             <unitid>PLA_A_019</unitid>
             <unittitle>Plan général de la ville et territoire de Roubaix</unittitle>
             <unitdate normal="1849">1849</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 58 x 85.6 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca019.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 58 x 85.6 cm. Technique : Lithographie collée sur toile. Cote : Ca019.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
             <p>&lt;p style="text-align: justify;"&gt;Don anonyme en 1995.&lt;/p&gt;</p>
@@ -326,7 +326,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 92 x 125 cm. Technique : Lithographie. Cote : Ca020.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 2000.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Urbanisme </subject>
@@ -339,7 +339,7 @@
             <unitid>PLA_A_021</unitid>
             <unittitle>Ville de Roubaix : plan géométrique comprenant le sentier de Croix</unittitle>
             <unitdate normal="1844">1844</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55.5 x 98 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca021.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55.5 x 98 cm. Technique : Lithographie collée sur toile. Cote : Ca021.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise en 2000.&lt;/p&gt;</p>
@@ -356,7 +356,7 @@
             <unitid>PLA_A_022</unitid>
             <unittitle>Ferme de Beaurepaire : projet d'ouverture de rues</unittitle>
             <unitdate normal="1864">1864</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 82 x 164 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca022.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 82 x 164 cm. Technique : Lithographie collée sur toile. Cote : Ca022.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
             <p>&lt;p&gt;Carte acquise en 1999.&lt;/p&gt;</p>
@@ -452,7 +452,7 @@
             <unitid>PLA_A_028</unitid>
             <unittitle>Plan de Roubaix</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 64 x 82 cm. Technique : Lithographie coll&amp;eacute;e sur toile.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 64 x 82 cm. Technique : Lithographie collée sur toile.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite du &lt;em&gt;Petit Parisien&lt;/em&gt;.&lt;/p&gt;</p>
@@ -468,7 +468,7 @@
             <unitid>PLA_A_029</unitid>
             <unittitle>Plan de Roubaix</unittitle>
             <unitdate normal="1919">1919</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75.5 x 106 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca029.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75.5 x 106 cm. Technique : Lithographie collée sur toile. Cote : Ca029.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
@@ -553,7 +553,7 @@
             <unitid>PLA_A_035</unitid>
             <unittitle>Plan de la ville de Roubaix</unittitle>
             <unitdate normal="1889">1889</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 125 x 130 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca035.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 125 x 130 cm. Technique : Lithographie collée sur toile. Cote : Ca035.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise en 2009.&lt;/p&gt;</p>
@@ -570,7 +570,7 @@
             <unitid>PLA_A_037</unitid>
             <unittitle>Carte kilométrique des chemins de fer français et des voies navigables</unittitle>
             <unitdate normal="1920">1920</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 98 x 118 cm. Technique : Lithographie coll&amp;eacute;e sur toile. Cote : Ca037.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 98 x 118 cm. Technique : Lithographie collée sur toile. Cote : Ca037.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
@@ -777,7 +777,7 @@
             <unitid>PLA_A_050</unitid>
             <unittitle>Carte générale de l'Europe</unittitle>
             <unitdate normal="1814">1814</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 79 cm. Technique : Lithographie coll&amp;eacute;e sur tissu. Cote : Ca050.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 79 cm. Technique : Lithographie collée sur tissu. Cote : Ca050.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -854,7 +854,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 63 x 78 cm. Technique : Offset. Cote : Ca056.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de plans et d'&amp;eacute;l&amp;eacute;vation dessin&amp;eacute;s par l'architecte.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de plans et d'élévation dessinés par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <persname>Nawrocki, Stanislas</persname>
@@ -984,7 +984,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 61 x 95 cm. Technique : Offset. Cote : Ca065.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1011,7 +1011,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 66 x 109 cm. Technique : Offset sur calque. Cote : Ca067.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1026,7 +1026,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 68 x 110 cm. Technique : Offset sur calque. Cote : Ca068.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1041,7 +1041,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75 x 110 cm. Technique : Offset sur calque. Cote : Ca069.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1056,7 +1056,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 109 cm. Technique : Offset sur calque. Cote : Ca070.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1071,7 +1071,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensoons : 125 x 70 cm. Technique : Offset sur calque. Cote : Ca071.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1086,7 +1086,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33 x 109 cm. Technique : Offset sur calque. Cote : Ca072.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1101,7 +1101,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 40 x 50 cm. Technique : Offset sur calque. Cote : Ca073.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du num&amp;eacute;ro de d&amp;eacute;cembre 1966, consacr&amp;eacute; &amp;agrave; M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
@@ -1252,7 +1252,7 @@
             <unitid>PLA_A_083</unitid>
             <unittitle>Bibliothèque municipale : étage R+2</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca083.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression numérique. Cote : Ca083.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
@@ -1267,7 +1267,7 @@
             <unitid>PLA_A_084</unitid>
             <unittitle>Bibliothèque municipale : étage R+3</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca084.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression numérique. Cote : Ca084.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
@@ -1282,7 +1282,7 @@
             <unitid>PLA_A_085</unitid>
             <unittitle>Bibliothèque municipale : projet étage R+2</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca085.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression numérique. Cote : Ca085.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
@@ -1297,7 +1297,7 @@
             <unitid>PLA_A_086</unitid>
             <unittitle>Bibliothèque municipale : projet étage R+3</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca086.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression numérique. Cote : Ca086.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
@@ -1386,7 +1386,7 @@
             <unitid>PLA_A_091</unitid>
             <unittitle>Plan espaces bibliothèque : rez-de-chaussée et étage</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 144 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca091.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 144 cm. Technique : Impression numérique. Cote : Ca091.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <subject source="theme">Bâtiments publics </subject>
@@ -1401,7 +1401,7 @@
             <unitid>PLA_A_092</unitid>
             <unittitle>Plan espaces bibliothèques : rez-de-chaussée, document de travail</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 114 cm. Technique : Impression num&amp;eacute;rique et notes manuscrites. Cote : Ca092.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 114 cm. Technique : Impression numérique et notes manuscrites. Cote : Ca092.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
@@ -1416,10 +1416,10 @@
             <unitid>PLA_A_093</unitid>
             <unittitle>Groupement d'urbanisme de Lille</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 135 x 111 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca093.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 135 x 111 cm. Technique : Impression numérique. Cote : Ca093.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de la planche n&amp;deg;20, dessin&amp;eacute;e par R. Jourdheuil.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de la planche n°20, dessinée par R. Jourdheuil.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Urbanisme </subject>
@@ -1547,10 +1547,10 @@
             <unitid>PLA_A_103</unitid>
             <unittitle>Nouveau plan de Roubaix monumental, industriel et commercial</unittitle>
             <unitdate normal="1910">1910-1911</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 77 x 105 cm. Technique : Lithographie coll&amp;eacute;e sur papier. Cote : Ca103.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 77 x 105 cm. Technique : Lithographie collée sur papier. Cote : Ca103.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Carte achet&amp;eacute;e &amp;agrave; Monsieur Marc-Edouard Callens en 2017.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Carte achetée à Monsieur Marc-Edouard Callens en 2017.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
@@ -1589,7 +1589,7 @@
             <unitid>PLA_A_110</unitid>
             <unittitle>Hôtel de Ville de Roubaix : annexe des services municipaux</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Impression num&amp;eacute;rique. Cote : Ca110.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Impression numérique. Cote : Ca110.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1606,7 +1606,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Offset. Cote : Ca112.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une &amp;eacute;l&amp;eacute;vation dessin&amp;eacute;e par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1623,7 +1623,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Offset. Cote : Ca113.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une &amp;eacute;l&amp;eacute;vation dessin&amp;eacute;e par l'architecte en 1907.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1907.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1640,7 +1640,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 120 x 103 cm. Technique : Offset. Cote : Ca114.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessin&amp;eacute; par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Bâtiments publics </subject>
@@ -1657,7 +1657,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 120 x 103 cm. Technique : Offset. Cote : Ca115.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessin&amp;eacute; par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1674,7 +1674,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 120 x 103 cm. Technique : Offset. Cote : Ca116.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessin&amp;eacute; par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1691,7 +1691,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Offset. Cote : Ca117.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une &amp;eacute;l&amp;eacute;vation dessin&amp;eacute;e par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1708,7 +1708,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 120 x 103 cm. Technique : Offset. Cote : Ca118.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessin&amp;eacute; par l'architecte en 1906.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -1769,7 +1769,7 @@
             <unitid>PLA_A_120</unitid>
             <unittitle>Carte du département du Nord</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 71 x 84 cm. Technique : Lithogrpahie coll&amp;eacute;e sur tissu. Cote : Ca120.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 71 x 84 cm. Technique : Lithogrpahie collée sur tissu. Cote : Ca120.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <persname role="cartographe">Pigache</persname>
@@ -1784,7 +1784,7 @@
             <physdesc>&lt;p&gt;Dimensions : 58 x 82 cm. Technique : Offset. Cote : Ca121.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Le document fait partie d'une s&amp;eacute;rie : "L'industrie en France occup&amp;eacute;e, carte n&amp;deg;4".&lt;/p&gt;</p>
+            <p>&lt;p&gt;Le document fait partie d'une série : "L'industrie en France occupée, carte n°4".&lt;/p&gt;</p>
           </scopecontent>
         </c>
         <c level="file">
@@ -1792,7 +1792,7 @@
             <unitid>PLA_A_122</unitid>
             <unittitle>Cartes des industries et commerces de Roubaix-Tourcoing</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 117 x 91 cm. Technique : Chromolithographie. Cote : Ca122. Document restaur&amp;eacute; en 2022.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 117 x 91 cm. Technique : Chromolithographie. Cote : Ca122. Document restauré en 2022.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
             <p>&lt;p&gt;Don de Monsieur Etienne Prouvost en 2022.&lt;/p&gt;</p>
@@ -1808,7 +1808,7 @@
             <unitid>PLA_A_123</unitid>
             <unittitle>Lille - Roubaix - Tourcoing et leurs environs</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 75 x 95 cm. Technique : S&amp;eacute;rigraphie. Cote : Ca123. Il est quadrill&amp;eacute; &amp;agrave; la craie grasse rouge et annot&amp;eacute;.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 75 x 95 cm. Technique : Sérigraphie. Cote : Ca123. Il est quadrillé à la craie grasse rouge et annoté.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
             <persname role="cartographe">Cagnion, Marius</persname>
@@ -1823,7 +1823,7 @@
             <physdesc>&lt;p&gt;Dimensions : 94 x 124 cm. Technique : Chromolithographie. Cote : Ca124.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'un planisph&amp;egrave;re comprenant toutes les possessions coloniales, les lignes de chemin de fer et de navigation.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'un planisphère comprenant toutes les possessions coloniales, les lignes de chemin de fer et de navigation.&lt;/p&gt;</p>
           </scopecontent>
         </c>
         <c level="file">
@@ -1834,7 +1834,7 @@
             <physdesc>&lt;p&gt;Technique : Lithographie et notes manuscrites. Cote : Ca125.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Ce document a &amp;eacute;t&amp;eacute; restaur&amp;eacute; en 2023.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Ce document a été restauré en 2023.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Compagnie des tramways du département du Nord</corpname>
@@ -1850,7 +1850,7 @@
             <physdesc>&lt;p&gt;Dimensions : 66 x 100 cm. Technique : Lithographie. Cote : Ca126.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'un document dress&amp;eacute;, grav&amp;eacute; et publi&amp;eacute; par l'arm&amp;eacute;e.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'un document dressé, gravé et publié par l'armée.&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
             <p>&lt;p&gt;Don de Madame Prouvost en 2017.&lt;/p&gt;</p>
@@ -1864,7 +1864,7 @@
             <physdesc>&lt;p&gt;Dimensions : 360 x 112 cm. Technique : Offset. Cote : Ca127.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan du parc Barbieux pendant l'Exposition internationale du Nord de la France 1911 &amp;agrave; l'occasion d'une exposition Atlas Hideyuki Ishibashi pr&amp;eacute;sent&amp;eacute;e au Campus Jean Arnault de l'EDHEC &amp;agrave; Roubaix en 2021.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan du parc Barbieux pendant l'Exposition internationale du Nord de la France 1911 à l'occasion d'une exposition Atlas Hideyuki Ishibashi présentée au Campus Jean Arnault de l'EDHEC à Roubaix en 2021.&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
             <p>&lt;p&gt;Don de Hideyuki Ishibashi en 2021.&lt;/p&gt;</p>
@@ -1938,7 +1938,7 @@
             <physdesc>&lt;p&gt;Dimensions : 69 x 104 cm. Technique : Chromolithographie.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Achat aupr&amp;egrave;s de Germain Hirselj en mars 2025.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Achat auprès de Germain Hirselj en mars 2025.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -1995,7 +1995,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 38 x 47 cm. Technique : Offset. Cote : Cb004.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1992.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1992.&lt;/p&gt;</p>
           </acqinfo>
           <daogrp>
             <daodesc>
@@ -2017,7 +2017,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 35 x 50 cm. Technique : Offset. Cote : Cb005.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Plan int&amp;eacute;gr&amp;eacute; en 1994.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Plan intégré en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -2109,7 +2109,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 62.5 x 78 cm. Technique : Lithographie. Cote : Cb017.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 2000.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Urbanisme </subject>
@@ -2121,10 +2121,10 @@
             <unitid>PLA_B_018</unitid>
             <unittitle>Plan d'une maison d'habitation à construire rue de Lannoy</unittitle>
             <unitdate normal="1887">1887</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 83.5 x 62 cm. Technique : Dessin coll&amp;eacute; sur papier. Cote : Cb018.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 83.5 x 62 cm. Technique : Dessin collé sur papier. Cote : Cb018.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Plan int&amp;eacute;gr&amp;eacute; en 2000.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Plan intégré en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
@@ -2149,7 +2149,7 @@
         <c level="file">
           <did>
             <unitid>PLA_B_020</unitid>
-            <unittitle>Rue de l'Ermitage &amp;amp; Cité Delmaere-Cocheteux</unittitle>
+            <unittitle>Rue de l'Ermitage &amp; Cité Delmaere-Cocheteux</unittitle>
             <unitdate>s.d.</unitdate>
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 52 cm. Technique : Lithographie et notes manuscrites. Cote : Cb020.&lt;/p&gt;</physdesc>
           </did>
@@ -2211,7 +2211,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 53.5 x 71 cm. Technique : Lithographie. Cote : Cb024.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite d'un suppl&amp;eacute;ment au journal &lt;em&gt;Moteurs &amp;amp; Cycles&lt;/em&gt;.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite d'un supplément au journal &lt;em&gt;Moteurs &amp; Cycles&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
@@ -2283,7 +2283,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 53 x 58 cm. Technique : Offset. Cote : Cb029.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'une carte extraite du suppl&amp;eacute;ment du num&amp;eacute;ro 230 de la revue &lt;em&gt;Geo&lt;/em&gt; datant d'avril 1998.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'une carte extraite du supplément du numéro 230 de la revue &lt;em&gt;Geo&lt;/em&gt; datant d'avril 1998.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Parcs, jardins et monuments </subject>
@@ -2326,7 +2326,7 @@
             <physdesc>&lt;p&gt;Dimensions : 62 x 50 cm. Technique : Offset. Cote : Cb033.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan dress&amp;eacute; &amp;agrave; l'occasion de l'Exposition internationale du Nord de la France en 1911.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan dressé à l'occasion de l'Exposition internationale du Nord de la France en 1911.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
@@ -2532,7 +2532,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 50 x 50 cm. Technique : Offset. Cote : Cb047.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessin&amp;eacute; par l'architecte.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
@@ -2678,7 +2678,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : Cb056.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Carte int&amp;eacute;gr&amp;eacute;e en 1985.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1985.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
@@ -2715,10 +2715,10 @@
             <unitid>PLA_B_058</unitid>
             <unittitle>Plan de l'Ecole nationale des arts industriels de Roubaix</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 54 x 43 cm. Technique : Tirage argentique couleurs coll&amp;eacute; sur carton. Cote : Cb058. Document restaur&amp;eacute; en 2022.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 54 x 43 cm. Technique : Tirage argentique couleurs collé sur carton. Cote : Cb058. Document restauré en 2022.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Le document a &amp;eacute;t&amp;eacute; restaur&amp;eacute; en 2022.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Le document a été restauré en 2022.&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Guillemyn en 1995.&lt;/p&gt;</p>
@@ -2736,7 +2736,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 47 x 35 cm. Technique : Offset. Cote : Cb059.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p style="text-align: justify;"&gt;Plan achet&amp;eacute; aupr&amp;egrave;s de Monsieur Bernard Lesecq en 2010.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Plan acheté auprès de Monsieur Bernard Lesecq en 2010.&lt;/p&gt;</p>
           </acqinfo>
           <dao href="RBX_MED_PLA_B_059_001.jpg" role="image"/>
           <controlaccess>
@@ -2795,10 +2795,10 @@
             <unitid>PLA_B_063</unitid>
             <unittitle>Usine de Brédamaz</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 48 cm. Technique : Offset et notes manuscrites. Cote : Cb063. Document restaur&amp;eacute; en 2022.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 48 cm. Technique : Offset et notes manuscrites. Cote : Cb063. Document restauré en 2022.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Le document a &amp;eacute;t&amp;eacute; restaur&amp;eacute; en 2022.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Le document a été restauré en 2022.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Autres industries </subject>
@@ -2813,7 +2813,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 50 x 65 cm. Technique : Offset. Cote : Cb064.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une &amp;eacute;l&amp;eacute;vation dress&amp;eacute;e par l'architecte en 1927.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dressée par l'architecte en 1927.&lt;/p&gt;</p>
           </scopecontent>
           <dao href="RBX_MED_PLA_B_064_001.jpg" role="image"/>
           <controlaccess>
@@ -2828,7 +2828,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 52 x 68 cm. Technique : Offset. Cote : Cb065.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une coupe dress&amp;eacute;e par l'architecte.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une coupe dressée par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
@@ -2919,7 +2919,7 @@
             <physdesc>&lt;p&gt;Dimensions : 50 x 65 cm. Technique : Lithographie. Cote : Cb066.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Le document pr&amp;eacute;sente la liste des &amp;eacute;tablissements communaux au verso.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Le document présente la liste des établissements communaux au verso.&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
             <p>&lt;p&gt;Don de Monsieur Claude Vicente en juin 2019.&lt;/p&gt;</p>
@@ -2950,7 +2950,7 @@
             <physdesc>&lt;p&gt;Dimensions :49.5 x 60 cm. Technique : Offset. Cote : Cb068.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Achat aupr&amp;egrave;s de Monsieur Thi&amp;eacute;bault en 2002.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Achat auprès de Monsieur Thiébault en 2002.&lt;/p&gt;</p>
           </acqinfo>
         </c>
         <c level="file">
@@ -2961,7 +2961,7 @@
             <physdesc>&lt;p&gt;Dimensions : 56.5 x 60.5 cm. Technique : Offset. Cote : Cb069.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une carte dress&amp;eacute;e par le service de la voirie et mis &amp;agrave; jour en 1911 par la Soci&amp;eacute;t&amp;eacute; d'Emulation de Roubaix.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une carte dressée par le service de la voirie et mis à jour en 1911 par la Société d'Emulation de Roubaix.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Exposition internationale de 1911</subject>
@@ -2986,7 +2986,7 @@
             <unitid>PLA_B_071</unitid>
             <unittitle>La Bassée- Artois</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 26.5 x 62 cm avec cadre. Technique : Lithographie. Cote : Cb071. Ce document encadr&amp;eacute; est conserv&amp;eacute; en r&amp;eacute;serve.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 26.5 x 62 cm avec cadre. Technique : Lithographie. Cote : Cb071. Ce document encadré est conservé en réserve.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
             <p>&lt;p&gt;Il s'agit d'une reproduction d'une carte datant de 1647.&lt;/p&gt;</p>
@@ -3003,7 +3003,7 @@
             <physdesc>&lt;p&gt;Dimensions : 48 x 62 cm. Technique : Lithographie et notes manuscrites. Cote : Cb072.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Achat aupr&amp;egrave;s de Monsieur Bernard Thiebaut en 2002.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Achat auprès de Monsieur Bernard Thiebaut en 2002.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
@@ -3018,7 +3018,7 @@
             <physdesc>&lt;p&gt;Dimensions : 70 x 51 cm. Technique : Reproduction sur calque. Cote : Cb073.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan conserv&amp;eacute; aux Archives municipales de Roubaix datant de 1847.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan conservé aux Archives municipales de Roubaix datant de 1847.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
@@ -3029,7 +3029,7 @@
             <unitid>PLA_B_074</unitid>
             <unittitle>Garage Van Den Hende</unittitle>
             <unitdate>s.d.</unitdate>
-            <physdesc>&lt;p&gt;Dimensions : 70 x 52 cm. Technique : Lithographie coll&amp;eacute;e sur carton. Cote : Cb074.&lt;/p&gt;</physdesc>
+            <physdesc>&lt;p&gt;Dimensions : 70 x 52 cm. Technique : Lithographie collée sur carton. Cote : Cb074.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
             <p>&lt;p&gt;Extrait du Guide Michelin.&lt;/p&gt;</p>
@@ -3405,7 +3405,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 35 x 40 cm. Technique : Offset. Cote : Cc046.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessin&amp;eacute; par l'architecte.&lt;/p&gt;</p>
+            <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
             <subject source="theme">Santé publique </subject>
@@ -3679,7 +3679,7 @@
             <physdesc>&lt;p&gt;Dimensions : 25 x 33 cm. Technique : Offset et notes manuscrites. Cote : Cc045.&lt;/p&gt;</physdesc>
           </did>
           <acqinfo>
-            <p>&lt;p&gt;Achat aupr&amp;egrave;s de Monsieur Thiebaut en novembre 2011.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Achat auprès de Monsieur Thiebaut en novembre 2011.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
             <subject source="theme">Urbanisme </subject>
@@ -3717,7 +3717,7 @@
             <physdesc>&lt;p&gt;Dimensions : 34 x 40 cm. Technique : Lithographie. Cote : Cc049.&lt;/p&gt;</physdesc>
           </did>
           <scopecontent>
-            <p>&lt;p&gt;Plan dress&amp;eacute; &amp;agrave; l'occasion de l'Exposition internationale du Nord de la France en 1911.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Plan dressé à l'occasion de l'Exposition internationale du Nord de la France en 1911.&lt;/p&gt;</p>
           </scopecontent>
           <acqinfo>
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
