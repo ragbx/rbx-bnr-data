@@ -56,7 +56,7 @@
           <corpname>Hôpital Sainte-Elisabeth</corpname>
           <geogname>Roubaix</geogname>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <persname>Leuridan, Théodore</persname>
         </controlaccess>
         <daogrp>
@@ -112,9 +112,9 @@
           <subject source="Rameau">Enluminure</subject>
           <subject source="Rameau">Livres d'heures</subject>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <persname>Leuridan, Théodore</persname>
-          <persname role="commanditaire">Isabeau de Roubaix</persname>
+          <name role="commanditaire">Isabeau de Roubaix</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -143,10 +143,10 @@
           <subject source="Rameau">Enluminure</subject>
           <subject source="Rameau">Livres d'heures</subject>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Arts graphiques </subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Arts graphiques</subject>
+          <subject source="theme">Religion</subject>
           <persname>Leuridan, Théodore</persname>
-          <persname role="commanditaire">Isabeau de Roubaix</persname>
+          <name role="commanditaire">Isabeau de Roubaix</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -172,12 +172,12 @@
         </acqinfo>
         <controlaccess>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <geogname source="rue">Hoche, rue</geogname>
-          <geogname source="rue" coord="[ 50.6864523, 3.188693 ]">Nabuchodonosor, rue </geogname>
+          <geogname source="rue" coord="[ 50.6864523, 3.188693 ]">Nabuchodonosor, rue</geogname>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Patin, Louis</persname>
+          <name role="auteur">Patin, Louis</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -202,11 +202,11 @@
           <p>&lt;p style="text-align: justify;"&gt;Ancienne collection de l'École Nationale Supérieure des Arts et Industries Textiles, n° 15 092. Inscrit dans le registre des entrées sous le numéro d’inventaire 81 483.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <geogname>Roubaix</geogname>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
+          <name role="auteur">Barenne, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -231,10 +231,10 @@
           <p>&lt;p&gt;Provenance inconnue.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Leclercq</persname>
+          <name role="auteur">Leclercq</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -259,11 +259,11 @@
           <p>&lt;p&gt;Provenance inconnue.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <geogname>Roubaix</geogname>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Craveri, Marie-Antoinette</persname>
+          <name role="auteur">Craveri, Marie-Antoinette</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -290,8 +290,8 @@
         <controlaccess>
           <persname>Florquin, Paul</persname>
           <corpname>Ecole théorique et pratique de tissage (1876 ; Roubaix, Nord)</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <c level="item">
           <did>
@@ -381,7 +381,7 @@
           <p>&lt;p style="text-align: justify;"&gt;Notes rédigées par Théodore Leuridan en 1856. Ce manuscrit est décrit dans le Catalogue des manuscrits des bibliothèques publiques de France, Tome IV, 1886.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <persname>Leuridan, Théodore</persname>
         </controlaccess>
         <daogrp>
@@ -409,7 +409,7 @@
           <persname>Guillemyn, Pierre</persname>
           <persname>Sadon, Claude</persname>
           <corpname>Ecole Nationale des Arts Industriels de Roubaix</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
         <c level="item">
           <did>
@@ -470,7 +470,7 @@
           <persname>Vande Meirssche</persname>
           <persname>Prouvost, Jacques</persname>
           <subject source="Rameau">La Lainière de Roubaix</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -492,7 +492,7 @@
         </scopecontent>
         <controlaccess>
           <corpname>École communale d'Épinal</corpname>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -538,8 +538,8 @@
         </acqinfo>
         <controlaccess>
           <corpname>École nationale des Arts industriels de Roubaix</corpname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -615,7 +615,7 @@
         <controlaccess>
           <subject source="Rameau">Nord (département)</subject>
           <subject source="chrono">1871-1913</subject>
-          <persname role="dessinateur">Dervaux, Stéphanie</persname>
+          <name role="dessinateur">Dervaux, Stéphanie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -640,7 +640,7 @@
           <p>&lt;p&gt;Achat au Salon du livre ancien de Wasquehal, 1994.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <persname>Maret, Marie</persname>
         </controlaccess>
         <daogrp>
@@ -673,7 +673,7 @@
           <daoloc href="RBX_MED_MS_181_008.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname>Lasson, Adèle</persname>
+          <name>Lasson, Adèle</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -691,9 +691,9 @@
         </scopecontent>
         <controlaccess>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>Lycée impérial de Douai</corpname>
-          <persname role="professeur">Desdeviser du Dezer</persname>
+          <name role="professeur">Desdeviser du Dezer</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -719,10 +719,10 @@
           <p>&lt;p&gt;Achat au Salon du livre de Lille, 2008. 1000€&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
           <subject source="chrono">Avant 1789</subject>
-          <persname role="élève">Arnaud, Jean-Baptiste</persname>
-          <persname>Gautier, Jacques</persname>
+          <name role="élève">Arnaud, Jean-Baptiste</name>
+          <name>Gautier, Jacques</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -746,11 +746,11 @@
           <p>&lt;p&gt;Achat Collection F. Bohée, Wattrelos. 2010&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
-          <persname role="élève">Hardy, Alphonse</persname>
+          <name role="élève">Hardy, Alphonse</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -771,8 +771,8 @@
           <p>&lt;p style="text-align: justify;"&gt;Cahier de modèles de tissage. Echantillons tissus et patrons papier.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -794,13 +794,13 @@
           <p>&lt;p style="text-align: justify;"&gt;Cahier de l'élève Paul Wasier. Cours de tissage professé par Arthur Noiret. Sur l'étiquette présente sur la couverture, figurent les mentions suivantes : Société industrielle de Saint-Quentin et de l'Aisne - Cours de tissage de Bohain&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
           <subject source="chrono">1970-1979</subject>
-          <persname role="élève">Wasier, Paul</persname>
-          <persname role="professeur">Noiret, Arthur</persname>
+          <name role="élève">Wasier, Paul</name>
+          <name role="professeur">Noiret, Arthur</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -848,13 +848,13 @@
           <p>&lt;p&gt;Cahier de 1ère année de l’élève Henriette Vandoorsselaere au collège communal de jeunes filles situé boulevard de Douai à Roubaix. Contient une pochette de modèles.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
           <geogname source="rue" coord="[ 50.6806672, 3.1688346 ]">Douai, boulevard de</geogname>
           <corpname>Collège de jeunes filles</corpname>
-          <persname role="auteur">Vandoorsselaere, Henriette</persname>
+          <name role="auteur">Vandoorsselaere, Henriette</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -880,12 +880,12 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Avant 1789</subject>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <corpname>Hôpital Sainte-Elisabeth</corpname>
           <subject source="Rameau">Manuscrits à peintures</subject>
           <subject source="Rameau">Enluminures</subject>
           <subject source="Rameau">Livres d'heures</subject>
-          <persname role="commanditaire">Jacques de Luxembourg</persname>
+          <name role="commanditaire">Jacques de Luxembourg</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -907,10 +907,10 @@
           <p>&lt;p style="text-align: justify;"&gt;Argumenta epistolarum et Apocalipsis (moins les quatre épîtres de saint Paul aux Romains, aux Corinthiens et aux Hébreux). Sur le feuillet de garde : "Ex libris Ducastillon (ancien curé de Wasquehal), 1786".&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="Propriétaire">Ducastillon</persname>
+          <name role="Propriétaire">Ducastillon</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -925,10 +925,10 @@
           <p>&lt;p style="text-align: justify;"&gt;Mention de provenance au fol.1 "Hoc... pertinet ad Henr. J. Ducastillon, in sem. episcopali Tornac. manentem an. 1787".&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="Propriétaire">Ducastillon</persname>
+          <name role="Propriétaire">Ducastillon</name>
         </controlaccess>
       </c>
       <c level="series">
@@ -944,7 +944,7 @@
         </scopecontent>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <persname>Leuridan, Théodore</persname>
         </controlaccess>
         <c level="item">
@@ -974,7 +974,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Fol. 171 et 178 : Deux arbres généalogiques, le second portant : "Delineavit E. Maton".&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <persname role="dessinateur">Matton, E</persname>
+            <name role="dessinateur">Matton, E</name>
           </controlaccess>
         </c>
       </c>
@@ -994,7 +994,7 @@
           <geogname>Roubaix</geogname>
           <corpname>Hôpital Sainte-Elisabeth</corpname>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <persname>Leuridan, Théodore</persname>
         </controlaccess>
         <daogrp>
@@ -1018,11 +1018,11 @@
         </scopecontent>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Sciences et sciences humaines </subject>
+          <subject source="theme">Sciences et sciences humaines</subject>
           <subject source="chrono">Avant 1789</subject>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Van Damme</persname>
-          <persname role="copiste">Marchant</persname>
+          <name role="auteur">Van Damme</name>
+          <name role="copiste">Marchant</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1074,8 +1074,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Lille</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Planta</persname>
-          <persname>Prevost</persname>
+          <name role="auteur">Planta</name>
+          <name>Prevost</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1096,7 +1096,7 @@
         <controlaccess>
           <geogname>Lille</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Decroix, L. </persname>
+          <name role="auteur">Decroix, L. </name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1109,8 +1109,8 @@
         </did>
         <controlaccess>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Decroix, L. </persname>
-          <persname role="copiste">Lemay, Carlos</persname>
+          <name role="auteur">Decroix, L. </name>
+          <name role="copiste">Lemay, Carlos</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1135,8 +1135,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Lille</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Decroix, L. </persname>
-          <persname role="copiste">Lemay, Carlos</persname>
+          <name role="auteur">Decroix, L. </name>
+          <name role="copiste">Lemay, Carlos</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -1218,7 +1218,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Decroix, L. </persname>
+          <name role="auteur">Decroix, L. </name>
         </controlaccess>
         <c level="item">
           <did>
@@ -1264,8 +1264,8 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1789-1870</subject>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Richard</persname>
-          <persname role="copiste">Letocart, E.</persname>
+          <name role="auteur">Richard</name>
+          <name role="copiste">Letocart, E.</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1282,7 +1282,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Guégan, Henri</persname>
+          <name role="auteur">Guégan, Henri</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1325,8 +1325,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Le Chevalier de Préville, J. P.</persname>
-          <persname role="auteur">Texier, Charles</persname>
+          <name role="auteur">Le Chevalier de Préville, J. P.</name>
+          <name role="auteur">Texier, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1353,7 +1353,7 @@
           <geogname>Douai</geogname>
           <geogname>Orchies</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Le Groux, Jacques</persname>
+          <name role="auteur">Le Groux, Jacques</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1426,7 +1426,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Lille</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Croix, Bauduin de (sieur de Wayembourg)</persname>
+          <name role="auteur">Croix, Bauduin de (sieur de Wayembourg)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1451,7 +1451,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Lille (Nord)</geogname>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Brun-Lavainne</persname>
+          <name role="auteur">Brun-Lavainne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1524,7 +1524,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Leuridan, Théodore</persname>
-          <persname role="auteur">Dupuis, Albert</persname>
+          <name role="auteur">Dupuis, Albert</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1543,7 +1543,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
+          <name role="auteur">Barenne, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1569,7 +1569,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Losfeld, Alfred, roubaisien</persname>
+          <name role="auteur">Losfeld, Alfred, roubaisien</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1595,7 +1595,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Wacquez-Lalo, Auguste-Victor</persname>
+          <name role="auteur">Wacquez-Lalo, Auguste-Victor</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1621,7 +1621,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
+          <name role="auteur">Barenne, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1653,7 +1653,7 @@
           <daoloc href="RBX_MED_MS_040_062.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Osson, Désiré</persname>
+          <name role="auteur">Osson, Désiré</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1678,7 +1678,7 @@
           <daoloc href="RBX_MED_MS_041_063.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Osson, Désiré</persname>
+          <name role="auteur">Osson, Désiré</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1772,7 +1772,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
+          <name role="auteur">Barenne, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1798,7 +1798,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
+          <name role="auteur">Barenne, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1825,9 +1825,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Musique </subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Losfeld, Alfred, roubaisien</persname>
+          <subject source="theme">Musique</subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Losfeld, Alfred, roubaisien</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1854,8 +1854,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Lenthier, A.</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Lenthier, A.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1881,7 +1881,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Verse, Gaston</persname>
+          <name role="auteur">Verse, Gaston</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -1918,7 +1918,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Colette, Jeanne</persname>
+          <name role="auteur">Colette, Jeanne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1941,8 +1941,8 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Bonnehon, Jacques</persname>
-          <persname role="auteur">Salève, Jacques</persname>
+          <name role="auteur">Bonnehon, Jacques</name>
+          <name role="auteur">Salève, Jacques</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1968,8 +1968,8 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Barenne, Charles</persname>
-          <persname role="Dédicataire">Michaux, Paul</persname>
+          <name role="auteur">Barenne, Charles</name>
+          <name role="Dédicataire">Michaux, Paul</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1995,7 +1995,7 @@
         </acqinfo>
         <controlaccess>
           <persname>Gillet, Joseph</persname>
-          <persname role="auteur">Motte, Alfred</persname>
+          <name role="auteur">Motte, Alfred</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2065,7 +2065,7 @@
         </acqinfo>
         <controlaccess>
           <corpname>Gillet, Joseph</corpname>
-          <persname role="auteur">Motte, Alfred</persname>
+          <name role="auteur">Motte, Alfred</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2097,7 +2097,7 @@
           <daoloc href="RBX_MED_MS_150_278.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Motte, Alfred</persname>
+          <name role="auteur">Motte, Alfred</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2122,7 +2122,7 @@
           <daoloc href="RBX_MED_MS_151_103.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Motte, Alfred</persname>
+          <name role="auteur">Motte, Alfred</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2147,8 +2147,8 @@
           <daoloc href="RBX_MED_MS_152_008.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Motte-Duthoit, Eugène</persname>
-          <persname role="auteur">Motte-Vanoutryve, Eugène</persname>
+          <name role="auteur">Motte-Duthoit, Eugène</name>
+          <name role="auteur">Motte-Vanoutryve, Eugène</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2166,9 +2166,9 @@
           <p>&lt;p&gt;&lt;span&gt;Provenance inconnue.&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Boyaval, Nathalie</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Boyaval, Nathalie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2218,7 +2218,7 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Avant 1789</subject>
           <geogname>Roubaix (Nord)</geogname>
-          <persname role="auteur">Petipas, Jacques (seigneur de la Potennerie)</persname>
+          <name role="auteur">Petipas, Jacques (seigneur de la Potennerie)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2244,9 +2244,9 @@
         </acqinfo>
         <controlaccess>
           <corpname>Institut Technique (Roubaix, Nord)</corpname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Desurmont, Gaspar</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Desurmont, Gaspar</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2303,7 +2303,7 @@
           <daoloc href="RBX_MED_MS_276_010.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Bodart, Maurice</persname>
+          <name role="auteur">Bodart, Maurice</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2322,7 +2322,7 @@
         </acqinfo>
         <controlaccess>
           <geogname>Lille (Nord)</geogname>
-          <persname role="auteur">Groux, Jacques</persname>
+          <name role="auteur">Groux, Jacques</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2348,11 +2348,11 @@
         </acqinfo>
         <controlaccess>
           <corpname>Ecole Supérieure de coupe et de couture de Liège</corpname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <geogname>Liège (Belgique)</geogname>
-          <persname role="auteur">Dotreppe Forêt-Trooz, Angèle</persname>
-          <persname role="auteur"> Kairis Prayon-Trooz, Marie</persname>
+          <name role="auteur">Dotreppe Forêt-Trooz, Angèle</name>
+          <name role="auteur"> Kairis Prayon-Trooz, Marie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2377,11 +2377,11 @@
           <p>&lt;p&gt;&lt;span&gt;Don de Florence Danel en 2012.&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Guerres </subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Guerres</subject>
           <subject source="chrono">1914-1918</subject>
-          <persname role="auteur">Brochard, Adrien</persname>
-          <persname role="auteur">Brochard, Marcel</persname>
+          <name role="auteur">Brochard, Adrien</name>
+          <name role="auteur">Brochard, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2406,8 +2406,8 @@
           <p>&lt;p&gt;&lt;span&gt;Provenance inconnue.&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Guerres </subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Guerres</subject>
           <subject source="chrono">1914-1918</subject>
           <geogname>Roubaix</geogname>
           <geogname>Lannoy (Nord)</geogname>
@@ -2483,9 +2483,9 @@
         </acqinfo>
         <controlaccess>
           <corpname>Mulliez frères</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Mulliez Scalabre, Paul</persname>
+          <name role="auteur">Mulliez Scalabre, Paul</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2518,7 +2518,7 @@
           <daoloc href="RBX_MED_MS_332_456.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Terrier, Paul</persname>
+          <name role="auteur">Terrier, Paul</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2536,7 +2536,7 @@
           <p>&lt;p&gt;&lt;span&gt;Provenance inconnue.&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <corpname>Agache fils</corpname>
           <geogname>Lille</geogname>
           <geogname>Pérenchies</geogname>
@@ -2587,10 +2587,10 @@
         </acqinfo>
         <controlaccess>
           <corpname>ENSAIT, Ecole Nationale Supérieure des Arts Industriels et Textiles de Roubaix</corpname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="professeur">Delommez</persname>
-          <persname role="élève">Pradel</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="professeur">Delommez</name>
+          <name role="élève">Pradel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2616,7 +2616,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Atlas</subject>
-          <persname role="auteur">Boonzajer, F.J.</persname>
+          <name role="auteur">Boonzajer, F.J.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2642,7 +2642,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Atlas</subject>
-          <persname role="auteur">Boonzajer, F.J.</persname>
+          <name role="auteur">Boonzajer, F.J.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2675,7 +2675,7 @@
           <daoloc href="RBX_MED_MS_603_146.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Dezitter, Joseph</persname>
+          <name role="auteur">Dezitter, Joseph</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2694,9 +2694,9 @@
         </acqinfo>
         <controlaccess>
           <corpname>École des Arts Appliqués (Paris)</corpname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="élève">Vantrimpont, Yolande</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="élève">Vantrimpont, Yolande</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2728,7 +2728,7 @@
           <daoloc href="RBX_MED_MS_605_093.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Sinsoilliez, François</persname>
+          <name role="auteur">Sinsoilliez, François</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2748,9 +2748,9 @@
         <controlaccess>
           <corpname>Manufacture des Biscuits "Union"</corpname>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Ernoult, Eugène</persname>
-          <persname role="auteur">Eloy, Florentin</persname>
-          <persname role="auteur">Duquenne, Édouard</persname>
+          <name role="auteur">Ernoult, Eugène</name>
+          <name role="auteur">Eloy, Florentin</name>
+          <name role="auteur">Duquenne, Édouard</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2782,7 +2782,7 @@
           <daoloc href="RBX_MED_MS_607_147.jpg" role="image:last"/>
         </daogrp>
         <controlaccess>
-          <persname role="auteur">Broussard, Maurice</persname>
+          <name role="auteur">Broussard, Maurice</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -2800,7 +2800,7 @@
           <p>&lt;p&gt;&lt;span&gt;Achat (8 euros).&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <geogname>Roubaix</geogname>
         </controlaccess>
         <daogrp>
@@ -2848,9 +2848,9 @@
           <p>&lt;p&gt;&lt;span&gt;Achat au Salon du livre ancien de Lille en 2015 auprès de la Librairie Calliope (350 euros).&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Hanquet, Suzanne</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Hanquet, Suzanne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2872,11 +2872,11 @@
           <p>&lt;p&gt;&lt;span&gt;Achat en 1994.&lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>Ecole nationale d'arts textiles</corpname>
-          <persname role="professeur">Delommez</persname>
-          <persname role="élève">Debuisne, Albert</persname>
+          <name role="professeur">Delommez</name>
+          <name role="élève">Debuisne, Albert</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -2945,9 +2945,9 @@
           <p>&lt;p&gt;Nombreux échantillons de filés collés sur les feuillets côté recto. Explications manuscrites placées en vis à vis des échantillons. Semble avoir appartenu à René Leclerq. Étiquette publicitaire à l’intérieur de la couverture sur la provenance du cartonnage portant la mention : « Reliures artistiques – Cormorant Roland – 44 rue du Collège. Roubaix ».&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Leclercq, René</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Leclercq, René</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2972,10 +2972,10 @@
         </acqinfo>
         <controlaccess>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -3756,11 +3756,11 @@
         </acqinfo>
         <controlaccess>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="auteur">Richard, Maurice</persname>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="auteur">Richard, Maurice</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -3838,7 +3838,7 @@
             <daoloc href="RBX_MED_MS_247_017.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <persname role="auteur">Bodart-Timal, Charles (1897-1971)</persname>
+            <name role="auteur">Bodart-Timal, Charles (1897-1971)</name>
           </controlaccess>
         </c>
         <c level="item">
@@ -3917,7 +3917,7 @@
             <daoloc href="RBX_MED_MS_251_113.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <persname role="auteur">Richard, Maurice</persname>
+            <name role="auteur">Richard, Maurice</name>
           </controlaccess>
         </c>
         <c level="item">
@@ -4295,10 +4295,10 @@
         </acqinfo>
         <controlaccess>
           <corpname>École industrielle de Tourcoing</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="professeur">Bon, Théodore</persname>
-          <persname role="élève">Gons, Henri</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="professeur">Bon, Théodore</name>
+          <name role="élève">Gons, Henri</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4347,10 +4347,10 @@
           <p>&lt;p&gt;&lt;span&gt;Provenance inconnue. &lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="professeur">Thomas</persname>
-          <persname role="élève">Février, Alfred</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="professeur">Thomas</name>
+          <name role="élève">Février, Alfred</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4450,9 +4450,9 @@
           <p>&lt;p&gt;&lt;span&gt;Provenance inconnue. &lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Delattre, Gabriel</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Delattre, Gabriel</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4521,9 +4521,9 @@
           <p>&lt;p&gt;&lt;span&gt;Achat Collection F. Bohée. &lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Vergauwen, Félix</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Vergauwen, Félix</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4591,9 +4591,9 @@
         <controlaccess>
           <corpname>Ecole Supérieure de coupe et de couture de Liège</corpname>
           <geogname>Liège (Belgique)</geogname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Toussaint, Gisette</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Toussaint, Gisette</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4645,8 +4645,8 @@
           <p>&lt;p&gt;&lt;span&gt;Don de Marcel Guillemyn. &lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Guerres </subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Guerres</subject>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1914-1918</subject>
         </controlaccess>
@@ -4717,9 +4717,9 @@
           <p>&lt;p&gt;&lt;span&gt;Achat en mars 2002. &lt;/span&gt;&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Béghin, René</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Béghin, René</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4772,10 +4772,10 @@
         </acqinfo>
         <controlaccess>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Spriet, Paul</persname>
+          <name role="auteur">Spriet, Paul</name>
         </controlaccess>
         <c level="item">
           <did>
@@ -4869,9 +4869,9 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Guerres </subject>
+          <subject source="theme">Guerres</subject>
           <subject source="chrono">1939-1945</subject>
-          <persname role="auteur">Declerck, Michel</persname>
+          <name role="auteur">Declerck, Michel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4898,8 +4898,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Nord-Pas-de-Calais (France)</geogname>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Pierrard, Pierre</persname>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Pierrard, Pierre</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4926,12 +4926,12 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Vie quotidienne</subject>
           <persname>Mulliez Scalabre, Paul</persname>
           <persname>Mulliez Scalabre, Blanche</persname>
           <geogname>Roubaix (Nord)</geogname>
-          <persname role="auteur">Mulliez Scalabre, Paul</persname>
-          <persname role="auteur">Mulliez Scalabre, Blanche</persname>
+          <name role="auteur">Mulliez Scalabre, Paul</name>
+          <name role="auteur">Mulliez Scalabre, Blanche</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4957,10 +4957,10 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>École Supérieure du Textile</corpname>
-          <persname role="élève">Hepournel</persname>
+          <name role="élève">Hepournel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4987,7 +4987,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
-          <persname role="auteur">Buret, Constant</persname>
+          <name role="auteur">Buret, Constant</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5014,7 +5014,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <subject source="Rameau">Livres d'heures</subject>
           <geogname>Roubaix (Nord)</geogname>
         </controlaccess>
@@ -5044,8 +5044,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Nord (France)</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Brigode-Kemlandt, Romain-Joseph de (Baron, député du Nord, maire d'Annapes)</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Brigode-Kemlandt, Romain-Joseph de (Baron, député du Nord, maire d'Annapes)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5068,13 +5068,13 @@
         </scopecontent>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <subject source="chrono">1871-1913</subject>
           <corpname>École Municipale de Garçons</corpname>
           <geogname>Roubaix (Nord)</geogname>
-          <persname role="élève">Godefroy, Émile</persname>
-          <persname role="professeur">Blas</persname>
+          <name role="élève">Godefroy, Émile</name>
+          <name role="professeur">Blas</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5102,8 +5102,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Vanderplaetsen</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Vanderplaetsen</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5131,8 +5131,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Vanderplaetsen</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Vanderplaetsen</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5160,8 +5160,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Vanderplaetsen</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Vanderplaetsen</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5189,7 +5189,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1919-1938</subject>
-          <persname role="auteur">Duprez, Jules</persname>
+          <name role="auteur">Duprez, Jules</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5216,9 +5216,9 @@
         <controlaccess>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5246,8 +5246,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5275,8 +5275,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5304,8 +5304,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5333,8 +5333,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5362,8 +5362,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5391,8 +5391,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5420,8 +5420,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5449,8 +5449,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5478,8 +5478,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5507,8 +5507,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5536,8 +5536,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5564,9 +5564,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Religion</subject>
           <geogname>Belgique</geogname>
-          <persname role="auteur">Ghesquière, Joseph (prêtre)</persname>
+          <name role="auteur">Ghesquière, Joseph (prêtre)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5593,8 +5593,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Frémont, Marie</persname>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Frémont, Marie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5622,8 +5622,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Rys, André</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Rys, André</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5651,8 +5651,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Rys, André</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Rys, André</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5680,9 +5680,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>Muse de Nadaud</corpname>
-          <persname role="auteur">Lefébvre, Napoléon</persname>
+          <name role="auteur">Lefébvre, Napoléon</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5712,11 +5712,11 @@
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1919-1938</subject>
           <subject source="theme">Equipements culturels</subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <persname>Bousquet, Francis (compositeur ; 1890-1942)</persname>
           <persname>Jean-Aubry, G. (homme de lettres, musicologue ; 1882-1950)</persname>
           <persname>Daudelin (dessinateur)</persname>
-          <persname role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</persname>
+          <name role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5745,11 +5745,11 @@
           <geogname>Roubaix (Nord)</geogname>
           <corpname>Conservatoire National de Roubaix</corpname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <subject source="theme">Equipements culturels</subject>
           <persname>Barenne, Charles (poète, chansonnier)</persname>
           <persname>Dubrulle, Maurice (industriel textile ; 1878-1963)</persname>
-          <persname role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</persname>
+          <name role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5778,11 +5778,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <subject source="theme">Equipements culturels</subject>
           <persname>Duboscq, Lucien (acteur ; 1893-1935)</persname>
           <persname>Gastinel, Pierre (professeur de lettres ; 1898-1943)</persname>
-          <persname role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</persname>
+          <name role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5810,11 +5810,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <subject source="theme">Equipements culturels</subject>
           <corpname>Conservatoire National de Roubaix</corpname>
           <persname>Brochen, Yves</persname>
-          <persname role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</persname>
+          <name role="auteur">Bonnehon, Jacques (professeur Conservatoire National de Roubaix)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5844,7 +5844,7 @@
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1970-1979</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Berthe, Jeanne</persname>
+          <name role="auteur">Berthe, Jeanne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5872,8 +5872,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <corpname>Lycée Technique d'État Textile et Arts Appliqués de Roubaix</corpname>
         </controlaccess>
         <daogrp>
@@ -5902,9 +5902,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <corpname>Lycée Technique d'État Textile et Arts Appliqués de Roubaix</corpname>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5933,8 +5933,8 @@
           <geogname>Roubaix (Nord)</geogname>
           <corpname>Lycée Technique d'État Textile et Arts Appliqués de Roubaix</corpname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5962,7 +5962,7 @@
           <corpname>Lycée Technique d'État Textile et Arts Appliqués de Roubaix</corpname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <geogname>Roubaix (Nord)</geogname>
         </controlaccess>
         <daogrp>
@@ -5993,7 +5993,7 @@
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Equipements culturels</subject>
           <corpname>Bibliothèque Municipale de Roubaix</corpname>
-          <persname role="auteur">Giard, François</persname>
+          <name role="auteur">Giard, François</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6023,7 +6023,7 @@
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">Après 1989</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Bycz, Nathalie</persname>
+          <name role="auteur">Bycz, Nathalie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6051,7 +6051,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">Avant 1789</subject>
-          <persname role="auteur">Petipas, Jacques (seigneur de la Potennerie)</persname>
+          <name role="auteur">Petipas, Jacques (seigneur de la Potennerie)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6078,8 +6078,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Barenne, Charles</persname>
-          <persname role="Auteur-compositeur">Foelix, Louis</persname>
-          <persname role="donateur">Bodart-Timal, Charles (historien roubaisien)</persname>
+          <name role="Auteur-compositeur">Foelix, Louis</name>
+          <name role="donateur">Bodart-Timal, Charles (historien roubaisien)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6109,8 +6109,8 @@
           <subject source="chrono">Après 1989</subject>
           <subject source="theme">Equipements culturels</subject>
           <corpname>Bibliothèque Municipale de Roubaix</corpname>
-          <persname role="auteur">Delannoy, Anne-Sophie</persname>
-          <persname role="auteur">Lacroix-Desmazes, Joëlle </persname>
+          <name role="auteur">Delannoy, Anne-Sophie</name>
+          <name role="auteur">Lacroix-Desmazes, Joëlle </name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6140,8 +6140,8 @@
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1946-1959</subject>
           <subject source="chrono">Avant 1789</subject>
-          <persname role="auteur">Duquesne, Jules</persname>
-          <persname role="illustrateur">Guillemyn, Marcel (1904-1995)</persname>
+          <name role="auteur">Duquesne, Jules</name>
+          <name role="illustrateur">Guillemyn, Marcel (1904-1995)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6174,8 +6174,8 @@
           <subject source="chrono">1939-1945</subject>
           <subject source="chrono">1946-1959</subject>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6203,8 +6203,8 @@
           <genreform>Manuscrits</genreform>
           <corpname>Archives municipales de la Ville de Roubaix</corpname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Administration municipale </subject>
-          <persname role="auteur">Lestienne, A.J (archiviste municipal)</persname>
+          <subject source="theme">Administration municipale</subject>
+          <name role="auteur">Lestienne, A.J (archiviste municipal)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6231,7 +6231,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6257,11 +6257,11 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>ENSAIT, Ecole Nationale Supérieure des Arts Industriels et Textiles de Roubaix</corpname>
-          <persname role="professeur">Delommez</persname>
-          <persname role="élève">Dejéhansart, F.</persname>
+          <name role="professeur">Delommez</name>
+          <name role="élève">Dejéhansart, F.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6313,10 +6313,10 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>École nationale de Poligny</corpname>
-          <persname role="auteur">Saintot, Jeanne</persname>
+          <name role="auteur">Saintot, Jeanne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6343,9 +6343,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Commerces </subject>
-          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Commerces</subject>
+          <subject source="theme">Vie économique</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6372,7 +6372,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Jeux et concours </subject>
+          <subject source="theme">Jeux et concours</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6399,10 +6399,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie économique</subject>
           <corpname>Établissement Lepoutre Wibaux</corpname>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6430,9 +6430,9 @@
           <corpname>Établissement Leclercq Dupire</corpname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie économique </subject>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie économique</subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6460,9 +6460,9 @@
           <corpname>Écoles de plein-air du Pont Rouge</corpname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <subject source="theme">Santé publique </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <subject source="theme">Santé publique</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6489,12 +6489,12 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Arts graphiques </subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Arts graphiques</subject>
+          <subject source="theme">Religion</subject>
           <subject source="Rameau">Livres d'heures</subject>
           <subject source="Rameau">Manuscrits à peintures</subject>
           <subject source="Rameau">Enluminure</subject>
-          <persname role="illustrateur">Van Driesten, Joseph-Emmanuel</persname>
+          <name role="illustrateur">Van Driesten, Joseph-Emmanuel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6521,10 +6521,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Transports </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Transports</subject>
           <corpname>Centre Apprentissage de Tergnier - Compagnie des chemins de fer du Nord</corpname>
-          <persname role="auteur">Mallerg, Marcel</persname>
+          <name role="auteur">Mallerg, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6551,9 +6551,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Vie quotidienne</subject>
           <name>Toulemonde</name>
-          <persname role="auteur">Toulemonde</persname>
+          <name role="auteur">Toulemonde</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6581,8 +6581,8 @@
           <genreform>Manuscrits</genreform>
           <persname>Richard, Louis</persname>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <name role="auteur">Richard, Louis</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6610,9 +6610,9 @@
           <persname>Richard, Louis</persname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6640,9 +6640,9 @@
           <genreform>Manuscrits</genreform>
           <persname>Richard, Louis</persname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6670,9 +6670,9 @@
           <genreform>Manuscrits</genreform>
           <persname>Richard, Louis</persname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6699,10 +6699,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Vie quotidienne</subject>
           <persname>Bodart, Charles</persname>
-          <persname role="auteur">Guillemyn, Marcel (1904-1995)</persname>
-          <persname role="donateur">Guillemyn, Marcel (1904-1995)</persname>
+          <name role="auteur">Guillemyn, Marcel (1904-1995)</name>
+          <name role="donateur">Guillemyn, Marcel (1904-1995)</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -6723,8 +6723,8 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Cinéma</subject>
-          <persname role="auteur">Briest, Chantal</persname>
-          <persname role="auteur">Lenoir, Jean-Pierre</persname>
+          <name role="auteur">Briest, Chantal</name>
+          <name role="auteur">Lenoir, Jean-Pierre</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6753,8 +6753,8 @@
           <corpname>Comité central du Secours National de Croix</corpname>
           <geogname>Croix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Guerres </subject>
-          <persname role="auteur">Cassette, Louis (1890-?)</persname>
+          <subject source="theme">Guerres</subject>
+          <name role="auteur">Cassette, Louis (1890-?)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6780,9 +6780,9 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <subject source="chrono">1946-1959</subject>
-          <persname role="auteur">Pont, Marie-Louise</persname>
+          <name role="auteur">Pont, Marie-Louise</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6810,9 +6810,9 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Guerres </subject>
-          <persname role="auteur">Collette, Jean-François </persname>
-          <persname role="donateur">Guillemyn, Marcel (1904-1995)</persname>
+          <subject source="theme">Guerres</subject>
+          <name role="auteur">Collette, Jean-François </name>
+          <name role="donateur">Guillemyn, Marcel (1904-1995)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6839,7 +6839,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>Institut Turgot (Roubaix, Nord)</corpname>
         </controlaccess>
         <daogrp>
@@ -6865,12 +6865,12 @@
           <p>&lt;p&gt;Provenance inconnue.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <corpname>Bibliothèque Municipale de Roubaix </corpname>
+          <corpname>Bibliothèque Municipale de Roubaix</corpname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1970-1979</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <persname role="auteur">Association pour le développement de la lecture</persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <name role="auteur">Association pour le développement de la lecture</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6896,9 +6896,9 @@
         </acqinfo>
         <controlaccess>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
           <genreform>Manuscrits</genreform>
-          <persname role="élève">Vanderplancke, Raymond</persname>
+          <name role="élève">Vanderplancke, Raymond</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -6916,8 +6916,8 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Après 1989</subject>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vercameur, Lucien</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vercameur, Lucien</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6944,12 +6944,12 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Spectacles</subject>
           <persname>Watteeuw, Jules</persname>
           <persname>Bodart-Timal, Charles</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
-          <persname role="auteur">Dervaux, Albert</persname>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
+          <name role="auteur">Dervaux, Albert</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6976,8 +6976,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Religion</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7004,9 +7004,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Grimonpont, Marie-Emmanuel de</persname>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Grimonpont, Marie-Emmanuel de</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7033,9 +7033,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Vandoorsselaere, H.</persname>
+          <name role="auteur">Vandoorsselaere, H.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7064,8 +7064,8 @@
           <genreform>Manuscrits</genreform>
           <persname>Nadaud, Gustave</persname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Nadaud, Gustave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Nadaud, Gustave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7119,14 +7119,14 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Chenal, Pierre</persname>
-          <persname>Romance, Viviane </persname>
+          <persname>Romance, Viviane</persname>
           <subject source="chrono">1919-1938</subject>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Cinéma</subject>
           <persname>Guillemyn, Marcel</persname>
-          <persname role="Vidéaste">Chenal, Pierre</persname>
-          <persname role="interprète">Romance, Viviane</persname>
-          <persname role="auteur">Guillemyn, Marcel (1904-1995)</persname>
+          <name role="Vidéaste">Chenal, Pierre</name>
+          <name role="interprète">Romance, Viviane</name>
+          <name role="auteur">Guillemyn, Marcel (1904-1995)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7153,11 +7153,11 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <persname>Glaster, Claude</persname>
-          <persname>Vanriet, Paul </persname>
+          <persname>Vanriet, Paul</persname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vanriet, Paul </persname>
-          <persname role="donateur">Glaster, Claude</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vanriet, Paul </name>
+          <name role="donateur">Glaster, Claude</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7186,9 +7186,9 @@
           <persname>Vanriet, Paul</persname>
           <persname>Glaster, Claude</persname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vanriet, Paul </persname>
-          <persname role="donateur">Glaster, Claude</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vanriet, Paul </name>
+          <name role="donateur">Glaster, Claude</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7217,9 +7217,9 @@
           <persname>Vanriet, Paul</persname>
           <persname>Glaster, Claude</persname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vanriet, Paul </persname>
-          <persname role="donateur">Glaster, Claude</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vanriet, Paul </name>
+          <name role="donateur">Glaster, Claude</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7247,10 +7247,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7278,10 +7278,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7308,11 +7308,11 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7340,10 +7340,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7371,10 +7371,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7402,10 +7402,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7433,10 +7433,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7464,10 +7464,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7495,10 +7495,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7523,10 +7523,10 @@
           <genreform>Manuscrits</genreform>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7554,10 +7554,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7585,10 +7585,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7616,10 +7616,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7647,10 +7647,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7678,10 +7678,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7709,10 +7709,10 @@
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7741,9 +7741,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="theme">Mode</subject>
-          <persname role="auteur">Richard, Louis</persname>
-          <persname role="auteur">Richard, Léopold</persname>
-          <persname role="donateur">Delannay, Paul dit Robert Henry</persname>
+          <name role="auteur">Richard, Louis</name>
+          <name role="auteur">Richard, Léopold</name>
+          <name role="donateur">Delannay, Paul dit Robert Henry</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7771,9 +7771,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>La Grande Harmonie de Roubaix</corpname>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7801,10 +7801,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>Église Saint-Martin</corpname>
           <corpname>La Grande Harmonie de Roubaix</corpname>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7833,7 +7833,7 @@
           <geogname>Roubaix</geogname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7862,9 +7862,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Spectacles </subject>
+          <subject source="theme">Spectacles</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Devroe, Véronique</persname>
+          <name role="auteur">Devroe, Véronique</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7894,8 +7894,8 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Tétaert, Gabriel </persname>
-          <persname role="auteur">Grelle, Bernard</persname>
+          <name role="auteur">Tétaert, Gabriel </name>
+          <name role="auteur">Grelle, Bernard</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7925,7 +7925,7 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Tétaert, Gabriel </persname>
+          <name role="auteur">Tétaert, Gabriel </name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7954,9 +7954,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Simon, Viviane</persname>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Simon, Viviane</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7983,10 +7983,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Thiesse, Anne-Marie</persname>
-          <persname role="éditeur">CNRS - Centre National de la Recherche Scientifique</persname>
-          <persname role="éditeur">Centre dEthnologie Française</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Thiesse, Anne-Marie</name>
+          <name role="éditeur">CNRS - Centre National de la Recherche Scientifique</name>
+          <name role="éditeur">Centre dEthnologie Française</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8015,8 +8015,8 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
           <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Bodart-Timal, Charles (historien roubaisien)</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Bodart-Timal, Charles (historien roubaisien)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8046,8 +8046,8 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">Après 1989</subject>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Grelle, Bernard</persname>
-          <persname role="auteur">Prouvost, Jacques</persname>
+          <name role="auteur">Grelle, Bernard</name>
+          <name role="auteur">Prouvost, Jacques</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8075,10 +8075,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <subject source="theme">Religion</subject>
           <subject source="chrono">1939-1945</subject>
-          <persname role="auteur">Denis, François</persname>
+          <name role="auteur">Denis, François</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8106,10 +8106,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Descamps, Georges</persname>
-          <persname role="Dédicataire">Descamps, Marie-Ange</persname>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Descamps, Georges</name>
+          <name role="Dédicataire">Descamps, Marie-Ange</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8137,9 +8137,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>La Grande Harmonie de Roubaix</corpname>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8167,9 +8167,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>La Grande Harmonie de Roubaix</corpname>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8198,8 +8198,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8228,10 +8228,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <corpname>École municipale de musique de Roubaix</corpname>
           <corpname>La Grande Harmonie de Roubaix</corpname>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8259,11 +8259,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <corpname>ENSAIT, Ecole Nationale Supérieure des Arts Industriels et Textiles de Roubaix</corpname>
-          <persname role="élève">Labriffe, Charles</persname>
-          <persname role="professeur">Vinque, Charles</persname>
+          <name role="élève">Labriffe, Charles</name>
+          <name role="professeur">Vinque, Charles</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8291,8 +8291,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8320,8 +8320,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8349,8 +8349,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="auteur">Tierce, Maria</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="auteur">Tierce, Maria</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8378,8 +8378,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8407,8 +8407,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8437,9 +8437,9 @@
           <corpname>École nationale des Arts industriels de Roubaix</corpname>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Candelier, Georges</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Candelier, Georges</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8466,11 +8466,11 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <persname>Ram, Hilda</persname>
           <persname>Soulié, Frédéric</persname>
-          <subject source="theme">Religion </subject>
-          <persname role="auteur">Schouppe, Esther</persname>
+          <subject source="theme">Religion</subject>
+          <name role="auteur">Schouppe, Esther</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8500,10 +8500,10 @@
           <persname>Dubar Ferrier, Henri</persname>
           <subject source="chrono">1789-1870</subject>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Dubar Ferrier, Henri</persname>
-          <persname role="copiste">Pollet-Bleuez, L.</persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Dubar Ferrier, Henri</name>
+          <name role="copiste">Pollet-Bleuez, L.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8531,10 +8531,10 @@
           <genreform>Manuscrits</genreform>
           <persname>Bayart-Dubar, Henri-Jules-Joseph</persname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Vie économique</subject>
           <corpname>Syndicat mixte de l'industrie roubaisienne</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Faidherbe Père, Alexandre </persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Faidherbe Père, Alexandre </name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8563,9 +8563,9 @@
           <geogname>Roubaix</geogname>
           <corpname>Institut Ségur, Roubaix</corpname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Ségard, Germaine</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Ségard, Germaine</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8591,9 +8591,9 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <persname role="donateur">Grelle, Bernard</persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <name role="donateur">Grelle, Bernard</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8621,8 +8621,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Tourcoing (Nord)</geogname>
           <corpname>Centre d'apprentissage de Tourcoing</corpname>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8648,9 +8648,9 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Beausire, Léon</persname>
+          <name role="auteur">Beausire, Léon</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8670,7 +8670,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
         </controlaccess>
       </c>
       <c level="item">
@@ -8690,7 +8690,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
         </controlaccess>
       </c>
       <c level="item">
@@ -8710,7 +8710,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Guerres </subject>
+          <subject source="theme">Guerres</subject>
           <geogname>Arras (Pas-de-Calais)</geogname>
         </controlaccess>
       </c>
@@ -8731,8 +8731,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vanriet, Paul </persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vanriet, Paul </name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8752,8 +8752,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Bootz, Philippe</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Bootz, Philippe</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8774,8 +8774,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">De Geest, Joost</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">De Geest, Joost</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8795,10 +8795,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <geogname>Guadeloupe</geogname>
-          <persname role="auteur">Grelle, Bernard</persname>
-          <persname role="auteur">Annezer, Jean-Claude</persname>
+          <name role="auteur">Grelle, Bernard</name>
+          <name role="auteur">Annezer, Jean-Claude</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8819,11 +8819,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix (Nord)</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Religion </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Religion</subject>
           <persname>Vianney, Jean-Marie (1786-1859 ; saint)</persname>
-          <persname role="auteur">Van Der Meersch, Maxence</persname>
-          <persname role="dessinateur">Missant, André</persname>
+          <name role="auteur">Van Der Meersch, Maxence</name>
+          <name role="dessinateur">Missant, André</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8843,7 +8843,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
         </controlaccess>
       </c>
       <c level="item">
@@ -8864,9 +8864,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Piat, Jean (1911-2002)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8894,7 +8894,7 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Mode</subject>
-          <persname role="auteur">Voisin, Chantal</persname>
+          <name role="auteur">Voisin, Chantal</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8915,7 +8915,7 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Mode</subject>
-          <persname role="auteur">Voisin, Chantal</persname>
+          <name role="auteur">Voisin, Chantal</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8936,7 +8936,7 @@
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1980-1989</subject>
           <subject source="theme">Mode</subject>
-          <persname role="auteur">Voisin, Chantal</persname>
+          <name role="auteur">Voisin, Chantal</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -8959,11 +8959,11 @@
           <subject source="chrono">1871-1913</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <persname>Dupin, Paul</persname>
           <persname>Tinayre, Marcelle</persname>
           <persname>Tinayre, Julien</persname>
-          <persname role="auteur">Dupin, Paul (1865-1949, compositeur)</persname>
+          <name role="auteur">Dupin, Paul (1865-1949, compositeur)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8993,9 +8993,9 @@
           <persname>Nadaud, Gustave</persname>
           <subject source="chrono">1789-1870</subject>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Musique </subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Nadaud, Gustave, roubaisien (1820-1893</persname>
+          <subject source="theme">Musique</subject>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Nadaud, Gustave, roubaisien (1820-1893</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -9012,7 +9012,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">Avant 1789</subject>
-          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Vie économique</subject>
           <corpname>Église catholique. Diocèse (Tournai, Belgique)</corpname>
         </controlaccess>
         <daogrp>
@@ -9041,9 +9041,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Vie économique </subject>
-          <subject source="theme">Bâtiments industriels </subject>
-          <subject source="theme">Commerces </subject>
+          <subject source="theme">Vie économique</subject>
+          <subject source="theme">Bâtiments industriels</subject>
+          <subject source="theme">Commerces</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9073,9 +9073,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Arts graphiques </subject>
-          <subject source="theme">Fêtes et cérémonies </subject>
-          <persname role="auteur">Teneul, Georges (président de la Société d'émulation de Roubaix)</persname>
+          <subject source="theme">Arts graphiques</subject>
+          <subject source="theme">Fêtes et cérémonies</subject>
+          <name role="auteur">Teneul, Georges (président de la Société d'émulation de Roubaix)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9102,9 +9102,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <subject source="chrono">1914-1918</subject>
-          <persname role="poète">Coppée, François (poète, conteur et romancier, 1842-1908) </persname>
+          <name role="poète">Coppée, François (poète, conteur et romancier, 1842-1908) </name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9133,9 +9133,9 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Heath, Gordon (1918-1991)</persname>
-          <persname role="Second auteur">Payant, Lee</persname>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Heath, Gordon (1918-1991)</name>
+          <name role="Second auteur">Payant, Lee</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -9157,8 +9157,8 @@
           <geogname>Roubaix</geogname>
           <corpname>Société Coopérative ouvrière La Paix</corpname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="Propriétaire">Vancoppenolle, Albert</persname>
+          <subject source="theme">Vie économique</subject>
+          <name role="Propriétaire">Vancoppenolle, Albert</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9186,8 +9186,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="Propriétaire">Garnotel, Lucien</persname>
+          <subject source="theme">Vie économique</subject>
+          <name role="Propriétaire">Garnotel, Lucien</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9215,10 +9215,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Logement </subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Gadenne, Élise</persname>
-          <persname role="Propriétaire">Florien, Louis</persname>
+          <subject source="theme">Logement</subject>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Gadenne, Élise</name>
+          <name role="Propriétaire">Florien, Louis</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9246,10 +9246,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie économique </subject>
-          <subject source="theme">Logement </subject>
-          <persname role="auteur">Noclain Pluquet, Elie</persname>
-          <persname role="Propriétaire">Pondeville, Honoré</persname>
+          <subject source="theme">Vie économique</subject>
+          <subject source="theme">Logement</subject>
+          <name role="auteur">Noclain Pluquet, Elie</name>
+          <name role="Propriétaire">Pondeville, Honoré</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9277,10 +9277,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie économique </subject>
-          <subject source="theme">Logement </subject>
-          <persname role="auteur">Bonnet, Casimir</persname>
-          <persname role="Propriétaire">Patin, Louis</persname>
+          <subject source="theme">Vie économique</subject>
+          <subject source="theme">Logement</subject>
+          <name role="auteur">Bonnet, Casimir</name>
+          <name role="Propriétaire">Patin, Louis</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9308,9 +9308,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie économique </subject>
-          <subject source="theme">Logement </subject>
-          <persname role="Propriétaire">Patin, Louis</persname>
+          <subject source="theme">Vie économique</subject>
+          <subject source="theme">Logement</subject>
+          <name role="Propriétaire">Patin, Louis</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9339,10 +9339,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Musique </subject>
-          <persname role="Propriétaire">Collette, Suzanne</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Musique</subject>
+          <name role="Propriétaire">Collette, Suzanne</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9370,9 +9370,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="Propriétaire">Lecomte, Hyacinthe</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie économique</subject>
+          <name role="Propriétaire">Lecomte, Hyacinthe</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9400,7 +9400,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <corpname>Journal des conseillers municipaux</corpname>
           <corpname>L'Union</corpname>
           <corpname>L'ami de la religion</corpname>
@@ -9433,8 +9433,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">Après 1989</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Piat, Jean (1911-2002)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9463,8 +9463,8 @@
           <geogname>Roubaix</geogname>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Guerres </subject>
-          <persname role="auteur">Delerue, Louis Désiré</persname>
+          <subject source="theme">Guerres</subject>
+          <name role="auteur">Delerue, Louis Désiré</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -9485,9 +9485,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Vienne, Adolphe</persname>
-          <persname role="auteur">Desouter, Blanche (1875-1965)</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Vienne, Adolphe</name>
+          <name role="auteur">Desouter, Blanche (1875-1965)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9515,9 +9515,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Desouter, Blanche (1875-1965)</persname>
-          <persname role="auteur">Vienne, Adolphe</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Desouter, Blanche (1875-1965)</name>
+          <name role="auteur">Vienne, Adolphe</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9548,8 +9548,8 @@
           <subject source="chrono">1871-1913</subject>
           <subject source="chrono">1914-1918</subject>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Bâtiments religieux </subject>
-          <persname role="donateur">Bodart, Maurice</persname>
+          <subject source="theme">Bâtiments religieux</subject>
+          <name role="donateur">Bodart, Maurice</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9577,10 +9577,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">Après 1989</subject>
-          <subject source="theme">Arts graphiques </subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Salafia, Alphonse</persname>
-          <persname role="illustrateur">Daquin, Nicolas</persname>
+          <subject source="theme">Arts graphiques</subject>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Salafia, Alphonse</name>
+          <name role="illustrateur">Daquin, Nicolas</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9608,8 +9608,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="donateur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="donateur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9638,7 +9638,7 @@
           <geogname>Roubaix</geogname>
           <subject source="chrono">1960-1969</subject>
           <subject source="chrono">1970-1979</subject>
-          <persname role="donateur">Vandekerkhove, Octave</persname>
+          <name role="donateur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9666,10 +9666,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1970-1979</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Vie économique </subject>
-          <persname role="auteur">Debruyne, Marcel</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Vie économique</subject>
+          <name role="auteur">Debruyne, Marcel</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9701,10 +9701,10 @@
           <subject source="chrono">1919-1938</subject>
           <subject source="chrono">1871-1913</subject>
           <subject source="chrono">1970-1979</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Logement </subject>
-          <persname role="auteur">Wullems, Auguste</persname>
-          <persname role="auteur">Wullems, Marie-Léonie</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Logement</subject>
+          <name role="auteur">Wullems, Auguste</name>
+          <name role="auteur">Wullems, Marie-Léonie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9731,10 +9731,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Religion </subject>
-          <persname role="auteur">Delplanque, Simone</persname>
+          <subject source="theme">Religion</subject>
+          <name role="auteur">Delplanque, Simone</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9761,15 +9761,15 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <name>Motte-Bossut</name>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Vie économique </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Vie économique</subject>
           <subject source="chrono">1789-1870</subject>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Motte, Louis (1817-1883)</persname>
-          <persname role="auteur">Motte-Bossut, Adèle (1819-1892)</persname>
-          <persname role="auteur et éditeur">Motte, Gaston (1882-1872)</persname>
+          <name role="auteur">Motte, Louis (1817-1883)</name>
+          <name role="auteur">Motte-Bossut, Adèle (1819-1892)</name>
+          <name role="auteur et éditeur">Motte, Gaston (1882-1872)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9797,9 +9797,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">Après 1989</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <subject source="theme">Equipements culturels</subject>
-          <persname role="auteur">Thirion Baker, Claudie</persname>
+          <name role="auteur">Thirion Baker, Claudie</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9827,8 +9827,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">Après 1989</subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Pick, Jean-Louis Pick</persname>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Pick, Jean-Louis Pick</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9855,9 +9855,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Religion </subject>
-          <subject source="theme">Arts graphiques </subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Religion</subject>
+          <subject source="theme">Arts graphiques</subject>
           <subject source="chrono">1789-1870</subject>
         </controlaccess>
         <daogrp>
@@ -9885,8 +9885,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vandekerkhove, Octave</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vandekerkhove, Octave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9914,12 +9914,12 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie quotidienne</subject>
           <persname>Famille Motte-Delattre</persname>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Motte, Gaston (1882-1872)</persname>
+          <name role="auteur">Motte, Gaston (1882-1872)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9949,11 +9949,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Musique </subject>
-          <persname role="auteur">Baert, Robert </persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Musique</subject>
+          <name role="auteur">Baert, Robert </name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9981,10 +9981,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Enseignement </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="professeur">Bouzin</persname>
-          <persname role="élève">Deffrenne, Jules</persname>
+          <subject source="theme">Enseignement</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="professeur">Bouzin</name>
+          <name role="élève">Deffrenne, Jules</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10012,11 +10012,11 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Vie quotidienne </subject>
+          <subject source="theme">Vie quotidienne</subject>
           <persname>Ferrier, Louise-Adélaide (1822-1890)</persname>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <persname>Dubar-Ferrier, Henri (1821-1893)</persname>
-          <persname role="auteur">Dubar-Ferrier, Henri (1821-1893)</persname>
+          <name role="auteur">Dubar-Ferrier, Henri (1821-1893)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10044,10 +10044,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>Institut Sévigné de Roubaix</corpname>
-          <persname role="élève">Collette, G.</persname>
+          <name role="élève">Collette, G.</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10075,9 +10075,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="Propriétaire">Leclercq, Simone</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="Propriétaire">Leclercq, Simone</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10105,10 +10105,10 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <corpname>Manufacture des Biscuits « Union »</corpname>
-          <persname role="Propriétaire">François, Denise</persname>
+          <name role="Propriétaire">François, Denise</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10136,9 +10136,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="Propriétaire">De Moor, Gustave</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
+          <name role="Propriétaire">De Moor, Gustave</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10167,8 +10167,8 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Enseignement </subject>
-          <persname role="élève">Vanmeenen, Georges</persname>
+          <subject source="theme">Enseignement</subject>
+          <name role="élève">Vanmeenen, Georges</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10193,7 +10193,7 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <persname>Barrois, Henri Joseph (1833-1872)</persname>
         </controlaccess>
         <daogrp>
@@ -10219,8 +10219,8 @@
           <p>&lt;p&gt;Don de M. Jean Van Wittenberghe en février 2023.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Enseignement</subject>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
         </controlaccess>
@@ -10243,9 +10243,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Wattrelos</geogname>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <name role="auteur">Piat, Jean (1911-2002)</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10267,8 +10267,8 @@
           <geogname>Roubaix</geogname>
           <persname>Delerue, Louis Désiré</persname>
           <subject source="chrono">1789-1870</subject>
-          <subject source="theme">Guerres </subject>
-          <persname role="auteur">Delerue, Louis Désiré</persname>
+          <subject source="theme">Guerres</subject>
+          <name role="auteur">Delerue, Louis Désiré</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10287,10 +10287,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Manufacture et industrie textile</subject>
           <subject source="chrono">1960-1969</subject>
-          <persname role="auteur">Piat, Jean (1911-2002)</persname>
+          <name role="auteur">Piat, Jean (1911-2002)</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10310,9 +10310,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Watteyne, Jules</persname>
-          <persname role="auteur">Watteyne, Jacques</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Watteyne, Jules</name>
+          <name role="auteur">Watteyne, Jacques</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10332,9 +10332,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname role="auteur">Watteyne, Jules</persname>
-          <persname role="auteur">Watteyne, Jacques</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <name role="auteur">Watteyne, Jules</name>
+          <name role="auteur">Watteyne, Jacques</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10354,10 +10354,10 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Musique </subject>
-          <subject source="theme">Spectacles </subject>
-          <persname role="Musicien">Heath, Gordon (1918-1991)</persname>
-          <persname role="Musicien">Payant, Lee</persname>
+          <subject source="theme">Musique</subject>
+          <subject source="theme">Spectacles</subject>
+          <name role="Musicien">Heath, Gordon (1918-1991)</name>
+          <name role="Musicien">Payant, Lee</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10377,9 +10377,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1970-1979</subject>
-          <subject source="theme">Littérature </subject>
-          <subject source="theme">Religion </subject>
-          <persname role="auteur">Catrice, Paul</persname>
+          <subject source="theme">Littérature</subject>
+          <subject source="theme">Religion</subject>
+          <name role="auteur">Catrice, Paul</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10402,9 +10402,9 @@
           <subject source="chrono">1946-1959</subject>
           <persname>Famille Motte-Delattre</persname>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Manufacture et industrie textile </subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <persname>Motte, Gaston (1882-1972)</persname>
+          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="theme">Vie quotidienne</subject>
+          <name>Motte, Gaston (1882-1972)</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10424,9 +10424,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Guerres </subject>
-          <subject source="theme">Vie politique </subject>
-          <persname role="auteur">Gaulle, Charles de (1890-1970)</persname>
+          <subject source="theme">Guerres</subject>
+          <subject source="theme">Vie politique</subject>
+          <name role="auteur">Gaulle, Charles de (1890-1970)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10454,9 +10454,9 @@
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
           <subject source="chrono">1970-1979</subject>
-          <subject source="theme">Vie quotidienne </subject>
-          <subject source="theme">Conflits sociaux </subject>
-          <persname role="auteur">Dodey, Anne-Laure</persname>
+          <subject source="theme">Vie quotidienne</subject>
+          <subject source="theme">Conflits sociaux</subject>
+          <name role="auteur">Dodey, Anne-Laure</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10476,8 +10476,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vallez, Suzanne Denise</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vallez, Suzanne Denise</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10497,8 +10497,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Littérature </subject>
-          <persname role="auteur">Vallez, Suzanne Denise</persname>
+          <subject source="theme">Littérature</subject>
+          <name role="auteur">Vallez, Suzanne Denise</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10518,9 +10518,9 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <subject source="chrono">1789-1870</subject>
-          <persname role="auteur">Grelle, Bernard</persname>
+          <name role="auteur">Grelle, Bernard</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10566,8 +10566,8 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10586,8 +10586,8 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10607,8 +10607,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10628,8 +10628,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10649,8 +10649,8 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10670,7 +10670,7 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1871-1913</subject>
-          <persname role="auteur">Rousset, Pierre</persname>
+          <name role="auteur">Rousset, Pierre</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10689,8 +10689,8 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Spectacles </subject>
-          <persname role="auteur">Allainval, Léonor-Jean-Christine Soulas</persname>
+          <subject source="theme">Spectacles</subject>
+          <name role="auteur">Allainval, Léonor-Jean-Christine Soulas</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10709,9 +10709,9 @@
         </acqinfo>
         <controlaccess>
           <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Enseignement </subject>
+          <subject source="theme">Enseignement</subject>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Vanmeenen, Georges</persname>
+          <name role="auteur">Vanmeenen, Georges</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10730,7 +10730,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <persname role="auteur">Dereux, Suzanne</persname>
+          <name role="auteur">Dereux, Suzanne</name>
         </controlaccess>
       </c>
       <c level="item">
@@ -10750,11 +10750,11 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1960-1969</subject>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <geogname>Roubaix</geogname>
-          <persname role="auteur">Bodart-Timal, Charles (historien roubaisien)</persname>
-          <persname role="donateur">Guillemyn, Marcel (1904-1995)</persname>
-          <persname role="donateur">Vandecrux, Robert (1900-1974)</persname>
+          <name role="auteur">Bodart-Timal, Charles (historien roubaisien)</name>
+          <name role="donateur">Guillemyn, Marcel (1904-1995)</name>
+          <name role="donateur">Vandecrux, Robert (1900-1974)</name>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10779,7 +10779,7 @@
           <p>&lt;p&gt;Proenance inconnue.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
           <genreform>Manuscrits</genreform>
         </controlaccess>
         <daogrp>
@@ -10806,7 +10806,7 @@
         </acqinfo>
         <controlaccess>
           <genreform>Manuscrits</genreform>
-          <subject source="theme">Musique </subject>
+          <subject source="theme">Musique</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10833,11 +10833,11 @@
         <controlaccess>
           <genreform>Manuscrits</genreform>
           <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Littérature </subject>
+          <subject source="theme">Littérature</subject>
           <persname>Van der Meersch, Thérèse</persname>
           <persname>Van der Meersch, Maxence</persname>
           <persname>Van der Meersch, Sarah</persname>
-          <persname role="Rédacteur">Simons, Léopold (1901-1979)</persname>
+          <name role="Rédacteur">Simons, Léopold (1901-1979)</name>
         </controlaccess>
         <daogrp>
           <daodesc>

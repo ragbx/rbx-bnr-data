@@ -55,7 +55,7 @@
           </scopecontent>
           <dao href="RBX_MED_PLA_A_001_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="Cartographe">Jolivet, Joannes (15..-1553)</persname>
+            <name role="Cartographe">Jolivet, Joannes (15..-1553)</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -70,11 +70,11 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Manufacture et industrie textile </subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
             <corpname>Filatures Motte-Bossut (Roubaix, Nord)</corpname>
-            <persname role="Graveur">Lorby, Frédéric</persname>
+            <name role="Graveur">Lorby, Frédéric</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -98,11 +98,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <subject source="theme">Bâtiments religieux </subject>
+            <subject source="theme">Urbanisme</subject>
+            <subject source="theme">Bâtiments religieux</subject>
             <corpname>Eglise Notre-Dame de Roubaix</corpname>
             <corpname>Eglise Saint-Martin de Roubaix</corpname>
-            <persname role="cartographe">Barbotin, Emile</persname>
+            <name role="cartographe">Barbotin, Emile</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_005_001.jpg" role="image"/>
         </c>
@@ -117,7 +117,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_006_001.jpg" role="image"/>
         </c>
@@ -133,10 +133,10 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports </subject>
-            <persname role="cartographe">Langlois</persname>
-            <persname role="Graveur">Delamare, F.</persname>
-            <persname role="imprimeur">Imprimerie de Labbé R. de Montmorency</persname>
+            <subject source="theme">Transports</subject>
+            <name role="cartographe">Langlois</name>
+            <name role="Graveur">Delamare, F.</name>
+            <name role="imprimeur">Imprimerie de Labbé R. de Montmorency</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_008_001.jpg" role="image"/>
         </c>
@@ -151,8 +151,8 @@
             <p>&lt;p&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Blocquel-Castiaux</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Blocquel-Castiaux</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_009_001.jpg" role="image"/>
         </c>
@@ -168,9 +168,9 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Vuillemin, A.</persname>
-            <persname role="Graveur">Langevin</persname>
-            <persname role="éditeur">Fatout</persname>
+            <name role="cartographe">Vuillemin, A.</name>
+            <name role="Graveur">Langevin</name>
+            <name role="éditeur">Fatout</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_010_001.jpg" role="image"/>
         </c>
@@ -186,9 +186,9 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Vuillemin, A.</persname>
-            <persname role="Graveur">Langevin</persname>
-            <persname role="éditeur">Fatout</persname>
+            <name role="cartographe">Vuillemin, A.</name>
+            <name role="Graveur">Langevin</name>
+            <name role="éditeur">Fatout</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_011_001.jpg" role="image"/>
         </c>
@@ -204,8 +204,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1939-1945</subject>
-            <persname role="éditeur">Editions Girard et Barrière</persname>
-            <persname role="imprimeur">Imprimerie Jean Dollgusfec - Paris</persname>
+            <name role="éditeur">Editions Girard et Barrière</name>
+            <name role="imprimeur">Imprimerie Jean Dollgusfec - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_012_001.jpg" role="image"/>
         </c>
@@ -224,8 +224,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Barbotin, E.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_013_001.jpg" role="image"/>
         </c>
@@ -240,11 +240,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Transports </subject>
-            <persname role="cartographe">Donnet</persname>
-            <persname role="cartographe">Fremin</persname>
-            <persname role="cartographe">Levasseur</persname>
-            <persname role="éditeur">Fatout</persname>
+            <subject source="theme">Transports</subject>
+            <name role="cartographe">Donnet</name>
+            <name role="cartographe">Fremin</name>
+            <name role="cartographe">Levasseur</name>
+            <name role="éditeur">Fatout</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_014_001.jpg" role="image"/>
         </c>
@@ -259,11 +259,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
             <subject source="chrono">1789-1870</subject>
-            <persname role="éditeur">Logeron, Auguste</persname>
-            <persname role="cartographe">Fremin</persname>
-            <persname role="imprimeur">Imprimerie de Mangeon - Paris</persname>
+            <name role="éditeur">Logeron, Auguste</name>
+            <name role="cartographe">Fremin</name>
+            <name role="imprimeur">Imprimerie de Mangeon - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_015_001.jpg" role="image"/>
         </c>
@@ -279,10 +279,10 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports </subject>
-            <persname role="éditeur">Fatout</persname>
-            <persname role="cartographe">Perrot, A.M.</persname>
-            <persname role="cartographe">Vuillemin, A.</persname>
+            <subject source="theme">Transports</subject>
+            <name role="éditeur">Fatout</name>
+            <name role="cartographe">Perrot, A.M.</name>
+            <name role="cartographe">Vuillemin, A.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_016_001.jpg" role="image"/>
         </c>
@@ -297,7 +297,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Enseignement </subject>
+            <subject source="theme">Enseignement</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_018_001.jpg" role="image"/>
         </c>
@@ -313,8 +313,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Barbotin, E.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_019_001.jpg" role="image"/>
         </c>
@@ -329,7 +329,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_020_001.jpg" role="image"/>
@@ -346,8 +346,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Barbotin, E.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_021_001.jpg" role="image"/>
         </c>
@@ -362,7 +362,7 @@
             <p>&lt;p&gt;Carte acquise en 1999.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_022_001.jpg" role="image"/>
@@ -379,8 +379,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <persname role="Graphiste">Hallart, Guy</persname>
-            <persname role="imprimeur">Imprimerie d'Haussy - Tourcoing</persname>
+            <name role="Graphiste">Hallart, Guy</name>
+            <name role="imprimeur">Imprimerie d'Haussy - Tourcoing</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_023_001.jpg" audience="internal" role="image"/>
         </c>
@@ -393,7 +393,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
             <persname>MASUREL</persname>
             <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
           </controlaccess>
@@ -423,7 +423,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1939-1945</subject>
-            <subject source="theme">Guerres </subject>
+            <subject source="theme">Guerres</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_026_001.jpg" role="image"/>
         </c>
@@ -435,9 +435,9 @@
             <physdesc>&lt;p&gt;Dimensions : 64.5 x 80 cm. Technique : Lithographie. Cote : Ca027.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Guerres </subject>
-            <persname role="cartographe">Patesson, E.</persname>
-            <persname role="imprimeur">Imprimerie Goossens - Bruxelles</persname>
+            <subject source="theme">Guerres</subject>
+            <name role="cartographe">Patesson, E.</name>
+            <name role="imprimeur">Imprimerie Goossens - Bruxelles</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -458,8 +458,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite du &lt;em&gt;Petit Parisien&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Bouquet Paris</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Bouquet Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_028_001.jpg" role="image"/>
         </c>
@@ -472,8 +472,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Morin - Paris</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Morin - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_029_001.jpg" role="image"/>
         </c>
@@ -485,7 +485,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 73 x 153 cm. Technique : Lithographie. Cote : Ca030.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_030_001.jpg" role="image"/>
         </c>
@@ -500,9 +500,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise au Salon du Livre de Lille en 2008.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Guerres </subject>
-            <persname role="éditeur">Editions G. et W. Bacon &amp; Co</persname>
-            <persname role="imprimeur">Imprimerie Johnson Riddle &amp; Co - Londres</persname>
+            <subject source="theme">Guerres</subject>
+            <name role="éditeur">Editions G. et W. Bacon &amp; Co</name>
+            <name role="imprimeur">Imprimerie Johnson Riddle &amp; Co - Londres</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -520,7 +520,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 87 x 102 cm. Technique : Offset. Cote : Ca032.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_032_001.jpg" role="image"/>
         </c>
@@ -533,7 +533,7 @@
           </did>
           <dao href="RBX_MED_PLA_A_033_001.jpg" audience="internal" role="image"/>
           <controlaccess>
-            <persname role="imprimeur">Imprimerie Lefévère Tourcoing</persname>
+            <name role="imprimeur">Imprimerie Lefévère Tourcoing</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -544,7 +544,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 89.5 x 68.5 cm. Technique : Offset. Cote : Ca034.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_034_001.jpg" audience="internal" role="image"/>
         </c>
@@ -560,8 +560,8 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie L. Courtier - Paris</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie L. Courtier - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_035_001.jpg" role="image"/>
         </c>
@@ -574,8 +574,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Transports </subject>
-            <persname role="imprimeur">Imprimerie Monrocq - Paris</persname>
+            <subject source="theme">Transports</subject>
+            <name role="imprimeur">Imprimerie Monrocq - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_037_001.jpg" role="image"/>
         </c>
@@ -587,9 +587,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 80 x 60 cm. Technique : Offset. Cote : Ca038.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
-            <persname role="éditeur">Editions Hachette &amp; Cie</persname>
-            <persname role="imprimeur">Imprimerie Robert &amp; Cie - Paris</persname>
+            <subject source="theme">Transports</subject>
+            <name role="éditeur">Editions Hachette &amp; Cie</name>
+            <name role="imprimeur">Imprimerie Robert &amp; Cie - Paris</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -607,8 +607,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 97 x 76 cm. Technique : Offset et notes manuscrites. Cote : Ca039.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <geogname source="quartier" coord="[ [ 50.70842631527916, 3.168360168101307 ], [ 50.70838148720242, 3.168280768810226 ], [ 50.70839047643433, 3.168280924751934 ], [ 50.70827561437514, 3.167995800230816 ], [ 50.70822267681295, 3.167853316389352 ], [ 50.70817833070127, 3.167767608327672 ], [ 50.70807245576843, 3.16748264198337 ], [ 50.70795759182599, 3.167197519686281 ], [ 50.70766603320733, 3.166470491673567 ], [ 50.70763926758215, 3.166441714613915 ], [ 50.70757724104586, 3.166313235151754 ], [ 50.70749704101792, 3.166212747975316 ], [ 50.70741664424531, 3.166140575468568 ], [ 50.70739886598524, 3.166111955685136 ], [ 50.70733674122971, 3.16599762945417 ], [ 50.70728330757786, 3.16592592264299 ], [ 50.70723007046145, 3.165825907393349 ], [ 50.70705199155237, 3.165582169030428 ], [ 50.70698966888044, 3.165496152701003 ], [ 50.70682097050047, 3.165195956756338 ], [ 50.70656416822511, 3.164639429989342 ], [ 50.70649403948885, 3.164383411336184 ], [ 50.70642381257492, 3.164141543939258 ], [ 50.70638815653336, 3.164098461710187 ], [ 50.70629027520998, 3.163955210158364 ], [ 50.70625461909861, 3.163912126763412 ], [ 50.70624555294758, 3.163900181845329 ], [ 50.70577017236153, 3.163961449673126 ], [ 50.70526723121023, 3.164027102808507 ], [ 50.70489535562198, 3.16408421057798 ], [ 50.70435961694069, 3.164174428643143 ], [ 50.70401337402041, 3.164238348548189 ], [ 50.70364006467786, 3.16430217888611 ], [ 50.70329524538612, 3.164366100246747 ], [ 50.70286635322776, 3.164449934097979 ], [ 50.70238614756548, 3.164556029428995 ], [ 50.70211256612417, 3.164611210258758 ], [ 50.70179198897149, 3.164655019954498 ], [ 50.7014272796627, 3.164678497088821 ], [ 50.70090017611292, 3.164699196754846 ], [ 50.70053550493778, 3.164693512986086 ], [ 50.70017371438816, 3.164663164737321 ], [ 50.69976208570562, 3.16461695294759 ], [ 50.69939320521095, 3.164561910225605 ], [ 50.69893783849219, 3.16446565016802 ], [ 50.69851537239239, 3.16435585546489 ], [ 50.69801328809313, 3.164191177453778 ], [ 50.69788308817869, 3.164582031980312 ], [ 50.6976954781202, 3.165024611233127 ], [ 50.69720288127402, 3.165902472582425 ], [ 50.69783735520139, 3.166993715781954 ], [ 50.69812170661516, 3.167465711933187 ], [ 50.69848645293332, 3.168009874444245 ], [ 50.69854897355315, 3.168067572811038 ], [ 50.69878917329616, 3.168425583903607 ], [ 50.69911826029123, 3.168926681222141 ], [ 50.69909887495972, 3.168947858895944 ], [ 50.69867294419193, 3.169413615661015 ], [ 50.69825314604199, 3.170427211640312 ], [ 50.69891628384125, 3.170809723670042 ], [ 50.69900619111149, 3.170807184316581 ], [ 50.6997404244057, 3.171216280984697 ], [ 50.70002926892511, 3.172325331706714 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.70795313930936, 3.168669283101528 ] ]">Alma gare </geogname>
-            <subject source="theme">Urbanisme </subject>
+            <geogname source="quartier" coord="[ [ 50.70842631527916, 3.168360168101307 ], [ 50.70838148720242, 3.168280768810226 ], [ 50.70839047643433, 3.168280924751934 ], [ 50.70827561437514, 3.167995800230816 ], [ 50.70822267681295, 3.167853316389352 ], [ 50.70817833070127, 3.167767608327672 ], [ 50.70807245576843, 3.16748264198337 ], [ 50.70795759182599, 3.167197519686281 ], [ 50.70766603320733, 3.166470491673567 ], [ 50.70763926758215, 3.166441714613915 ], [ 50.70757724104586, 3.166313235151754 ], [ 50.70749704101792, 3.166212747975316 ], [ 50.70741664424531, 3.166140575468568 ], [ 50.70739886598524, 3.166111955685136 ], [ 50.70733674122971, 3.16599762945417 ], [ 50.70728330757786, 3.16592592264299 ], [ 50.70723007046145, 3.165825907393349 ], [ 50.70705199155237, 3.165582169030428 ], [ 50.70698966888044, 3.165496152701003 ], [ 50.70682097050047, 3.165195956756338 ], [ 50.70656416822511, 3.164639429989342 ], [ 50.70649403948885, 3.164383411336184 ], [ 50.70642381257492, 3.164141543939258 ], [ 50.70638815653336, 3.164098461710187 ], [ 50.70629027520998, 3.163955210158364 ], [ 50.70625461909861, 3.163912126763412 ], [ 50.70624555294758, 3.163900181845329 ], [ 50.70577017236153, 3.163961449673126 ], [ 50.70526723121023, 3.164027102808507 ], [ 50.70489535562198, 3.16408421057798 ], [ 50.70435961694069, 3.164174428643143 ], [ 50.70401337402041, 3.164238348548189 ], [ 50.70364006467786, 3.16430217888611 ], [ 50.70329524538612, 3.164366100246747 ], [ 50.70286635322776, 3.164449934097979 ], [ 50.70238614756548, 3.164556029428995 ], [ 50.70211256612417, 3.164611210258758 ], [ 50.70179198897149, 3.164655019954498 ], [ 50.7014272796627, 3.164678497088821 ], [ 50.70090017611292, 3.164699196754846 ], [ 50.70053550493778, 3.164693512986086 ], [ 50.70017371438816, 3.164663164737321 ], [ 50.69976208570562, 3.16461695294759 ], [ 50.69939320521095, 3.164561910225605 ], [ 50.69893783849219, 3.16446565016802 ], [ 50.69851537239239, 3.16435585546489 ], [ 50.69801328809313, 3.164191177453778 ], [ 50.69788308817869, 3.164582031980312 ], [ 50.6976954781202, 3.165024611233127 ], [ 50.69720288127402, 3.165902472582425 ], [ 50.69783735520139, 3.166993715781954 ], [ 50.69812170661516, 3.167465711933187 ], [ 50.69848645293332, 3.168009874444245 ], [ 50.69854897355315, 3.168067572811038 ], [ 50.69878917329616, 3.168425583903607 ], [ 50.69911826029123, 3.168926681222141 ], [ 50.69909887495972, 3.168947858895944 ], [ 50.69867294419193, 3.169413615661015 ], [ 50.69825314604199, 3.170427211640312 ], [ 50.69891628384125, 3.170809723670042 ], [ 50.69900619111149, 3.170807184316581 ], [ 50.6997404244057, 3.171216280984697 ], [ 50.70002926892511, 3.172325331706714 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.70795313930936, 3.168669283101528 ] ]">Alma gare</geogname>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_039_001.jpg" role="image"/>
         </c>
@@ -620,8 +620,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75 x 70 cm. Technique : Lithographie. Cote : Ca040.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Courtier - Paris</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Courtier - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_040_001.jpg" role="image"/>
         </c>
@@ -633,7 +633,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 116 cm. Technique : Lithographie. Cote Ca041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places </subject>
+            <subject source="theme">Rues et places</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
             <subject source="chrono">1871-1913</subject>
@@ -655,7 +655,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Rues et places </subject>
+            <subject source="theme">Rues et places</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
           </controlaccess>
@@ -676,7 +676,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <corpname>Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
@@ -691,9 +691,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Dufour, A.R.</persname>
-            <persname role="Graveur">Dyonnet, Ch.</persname>
-            <persname role="imprimeur">Imprimerie Cosson et compagnie - Paris</persname>
+            <name role="cartographe">Dufour, A.R.</name>
+            <name role="Graveur">Dyonnet, Ch.</name>
+            <name role="imprimeur">Imprimerie Cosson et compagnie - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_044_001.jpg" role="image"/>
         </c>
@@ -706,7 +706,7 @@
           </did>
           <dao href="RBX_MED_PLA_A_045_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="imprimeur">Imprimerie Victor Janson - Paris</persname>
+            <name role="imprimeur">Imprimerie Victor Janson - Paris</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -718,7 +718,7 @@
           </did>
           <dao href="RBX_MED_PLA_A_046_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="imprimeur">Imprimerie Draeger</persname>
+            <name role="imprimeur">Imprimerie Draeger</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -744,7 +744,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 66 x 106 cm. Technique : Offset. Cote : Ca048.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -762,7 +762,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 98 x 55 cm. Technique : Offset. Cote : Ca049.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -781,8 +781,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Hérisson</persname>
-            <persname role="imprimeur">Imprimerie Basset</persname>
+            <name role="cartographe">Hérisson</name>
+            <name role="imprimeur">Imprimerie Basset</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_050_001.jpg" role="image"/>
         </c>
@@ -794,7 +794,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 118 x 80 cm. Technique : Offset. Cote : Ca051.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_051_001.jpg" audience="internal" role="image"/>
         </c>
@@ -858,7 +858,7 @@
           </scopecontent>
           <controlaccess>
             <persname>Nawrocki, Stanislas</persname>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -878,7 +878,7 @@
           <controlaccess>
             <persname>Nawrocki, Stanislas</persname>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_057_001.jpg" role="image"/>
         </c>
@@ -900,8 +900,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_059_001.jpg" role="image"/>
         </c>
@@ -914,8 +914,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_060_001.jpg" role="image"/>
         </c>
@@ -928,8 +928,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_061_001.jpg" role="image"/>
         </c>
@@ -942,8 +942,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_062_001.jpg" role="image"/>
         </c>
@@ -956,8 +956,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_063_001.jpg" role="image"/>
         </c>
@@ -1119,11 +1119,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan issu du Fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <subject source="theme">Bâtiments religieux </subject>
+            <subject source="theme">Urbanisme</subject>
+            <subject source="theme">Bâtiments religieux</subject>
             <corpname>Eglise Saint-Martin de Roubaix</corpname>
             <corpname>Eglise Notre-Dame de Roubaix</corpname>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <name role="cartographe">Barbotin, E.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_074_001.jpg" role="image"/>
         </c>
@@ -1137,8 +1137,8 @@
           <controlaccess>
             <corpname>Grande Brasserie Moderne</corpname>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_075_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1151,9 +1151,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_076_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1166,9 +1166,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_077_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1181,9 +1181,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_078_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1196,9 +1196,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_079_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1211,9 +1211,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_080_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1226,9 +1226,9 @@
           </did>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
+            <subject source="theme">Bâtiments industriels</subject>
             <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_081_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1242,8 +1242,8 @@
           <controlaccess>
             <corpname>Grande Brasserie Moderne</corpname>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels </subject>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="theme">Bâtiments industriels</subject>
+            <name role="architecte">Van Nueten, Charles (1899-1989)</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_082_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1256,7 +1256,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
             <subject source="theme">Equipements culturels</subject>
           </controlaccess>
@@ -1271,7 +1271,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
             <subject source="theme">Equipements culturels</subject>
           </controlaccess>
@@ -1286,7 +1286,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <subject source="theme">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
@@ -1301,7 +1301,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <subject source="theme">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
@@ -1320,9 +1320,9 @@
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-            <persname role="imprimeur">Atelier Moisant-Lanrent-Savey</persname>
+            <name role="imprimeur">Atelier Moisant-Lanrent-Savey</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_087_001.jpg" role="image"/>
         </c>
@@ -1338,7 +1338,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <corpname>Hôtel de Ville</corpname>
           </controlaccess>
@@ -1357,7 +1357,7 @@
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <subject source="chrono">1871-1913</subject>
           </controlaccess>
           <daogrp>
@@ -1376,8 +1376,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 155 x 140 cm. Technique : Offset et notes manuscrites. Cote : Ca090.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Transports</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_090_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1389,7 +1389,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 144 cm. Technique : Impression numérique. Cote : Ca091.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <subject source="theme">Equipements culturels</subject>
             <corpname>Médiathèque de Roubaix</corpname>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
@@ -1405,7 +1405,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <subject source="theme">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
@@ -1422,8 +1422,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de la planche n°20, dessinée par R. Jourdheuil.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Jourdheuil, R.</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Jourdheuil, R.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_093_001.jpg" role="image"/>
         </c>
@@ -1435,7 +1435,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85 x 132 cm. Technique : Offset. Cote : Ca094.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_094_001.jpg" role="image"/>
         </c>
@@ -1447,7 +1447,7 @@
             <physdesc>&lt;p&gt;Dimensions : 78 x 125 cm. Technique : Offset. Cote : Ca095.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_095_001.jpg" role="image"/>
         </c>
@@ -1459,7 +1459,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 101 x 128 cm. Technique : Offset. Cote : Ca096.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_096_001.jpg" role="image"/>
         </c>
@@ -1471,7 +1471,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 94 x 125 cm. Technique : Offset. Cote : Ca097.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_097_001.jpg" role="image"/>
         </c>
@@ -1483,7 +1483,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 92 x 135 cm. Technique : Offset. Cote : Ca098.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_098_001.jpg" role="image"/>
         </c>
@@ -1495,8 +1495,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 100 x 80 cm. Technique : Offset. Cote : Ca099.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Commerces </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Commerces</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_099_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1508,8 +1508,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 84 x 120 cm. Technique : Offset. Cote : Ca100.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Atelier graphique</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Atelier graphique</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_100_001.jpg" role="image"/>
         </c>
@@ -1521,11 +1521,11 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 114 x 80 cm. Technique : Offset. Cote : Ca101&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Manufacture et industrie textile </subject>
-            <subject source="theme">Autres industries </subject>
-            <subject source="theme">Commerces </subject>
+            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="theme">Autres industries</subject>
+            <subject source="theme">Commerces</subject>
             <corpname>Les filatures du Sartel (Wattrelos, Nord)</corpname>
-            <persname role="imprimeur">Imprimerie Déchaux - Paris</persname>
+            <name role="imprimeur">Imprimerie Déchaux - Paris</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_101_001.jpg" role="image"/>
         </c>
@@ -1538,7 +1538,7 @@
           </did>
           <controlaccess>
             <subject source="theme">Equipements culturels</subject>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_102_001.jpg" audience="internal" role="image"/>
         </c>
@@ -1554,12 +1554,12 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Commerces </subject>
-            <subject source="theme">Autres industries </subject>
-            <subject source="theme">Manufacture et industrie textile </subject>
-            <persname role="Graveur">Rollet, H.</persname>
-            <persname role="imprimeur">Imprimerie A. Bellier et Cie - Paris</persname>
-            <persname normal="Journal de Roubaix" role="éditeur">Journal de Roubaix</persname>
+            <subject source="theme">Commerces</subject>
+            <subject source="theme">Autres industries</subject>
+            <subject source="theme">Manufacture et industrie textile</subject>
+            <name role="Graveur">Rollet, H.</name>
+            <name role="imprimeur">Imprimerie A. Bellier et Cie - Paris</name>
+            <name normal="Journal de Roubaix" role="éditeur">Journal de Roubaix</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_103_001.jpg" role="image"/>
         </c>
@@ -1571,7 +1571,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 68 x 79 cm. Technique : Offset et notes manuscrites. Cote : Ca108.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Autres industries </subject>
+            <subject source="theme">Autres industries</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_108_001.jpg" role="image"/>
         </c>
@@ -1593,7 +1593,7 @@
           </did>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_110_001.jpg" role="image"/>
@@ -1610,7 +1610,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_112_001.jpg" role="image"/>
@@ -1627,7 +1627,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_113_001.jpg" role="image"/>
@@ -1643,7 +1643,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <corpname>Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
@@ -1661,7 +1661,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_115_001.jpg" role="image"/>
@@ -1678,7 +1678,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_116_001.jpg" role="image"/>
@@ -1695,7 +1695,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_117_001.jpg" role="image"/>
@@ -1712,7 +1712,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_A_118_001.jpg" role="image"/>
@@ -1726,7 +1726,7 @@
           </did>
           <dao href="RBX_MED_PLA_A_119_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="cartographe">Le Rouge</persname>
+            <name role="cartographe">Le Rouge</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1747,7 +1747,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -1761,7 +1761,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Enseignement </subject>
+            <subject source="theme">Enseignement</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -1772,8 +1772,8 @@
             <physdesc>&lt;p&gt;Dimensions : 71 x 84 cm. Technique : Lithogrpahie collée sur tissu. Cote : Ca120.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Pigache</persname>
-            <persname role="Graveur">Hellé</persname>
+            <name role="cartographe">Pigache</name>
+            <name role="Graveur">Hellé</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1798,9 +1798,9 @@
             <p>&lt;p&gt;Don de Monsieur Etienne Prouvost en 2022.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="Graphiste">Kermin, Maurice</persname>
-            <persname role="Graveur">Melcher, Yves</persname>
-            <persname role="imprimeur">Imprimerie Schimdt</persname>
+            <name role="Graphiste">Kermin, Maurice</name>
+            <name role="Graveur">Melcher, Yves</name>
+            <name role="imprimeur">Imprimerie Schimdt</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1811,8 +1811,8 @@
             <physdesc>&lt;p&gt;Dimensions : 75 x 95 cm. Technique : Sérigraphie. Cote : Ca123. Il est quadrillé à la craie grasse rouge et annoté.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Cagnion, Marius</persname>
-            <persname role="imprimeur">Imprimerie Dufrenoy</persname>
+            <name role="cartographe">Cagnion, Marius</name>
+            <name role="imprimeur">Imprimerie Dufrenoy</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1839,7 +1839,7 @@
           <controlaccess>
             <corpname>Compagnie des tramways du département du Nord</corpname>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -1870,7 +1870,7 @@
             <p>&lt;p&gt;Don de Hideyuki Ishibashi en 2021.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
             <subject source="theme">Exposition internationale de 1911</subject>
             <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
           </controlaccess>
@@ -1927,7 +1927,7 @@
             <physdesc>&lt;p&gt;Dimensions : 73 x 56 cm. Technique : Lithographies et notes manuscrites.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="imprimeur">Imprimerie Lesguillon - Roubaix</persname>
+            <name role="imprimeur">Imprimerie Lesguillon - Roubaix</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1942,7 +1942,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="illustrateur">Barbotin, E.</persname>
+            <name role="illustrateur">Barbotin, E.</name>
           </controlaccess>
         </c>
       </c>
@@ -1960,7 +1960,7 @@
           </did>
           <dao href="RBX_MED_PLA_B_001_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="cartographe">Bonne</persname>
+            <name role="cartographe">Bonne</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -1972,7 +1972,7 @@
           </did>
           <dao href="RBX_MED_PLA_B_002_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="Graveur">Dubuisson</persname>
+            <name role="Graveur">Dubuisson</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2005,8 +2005,8 @@
             <daoloc href="RBX_MED_PLA_B_004_002.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <persname role="Graveur">Erhard Frères</persname>
-            <persname role="imprimeur">Erhard Frères</persname>
+            <name role="Graveur">Erhard Frères</name>
+            <name role="imprimeur">Erhard Frères</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2021,7 +2021,7 @@
           </acqinfo>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2039,7 +2039,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb008.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_008_001.jpg" role="image"/>
         </c>
@@ -2052,7 +2052,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Andriveau-Goujon, J.</persname>
+            <name role="cartographe">Andriveau-Goujon, J.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_013_001.jpg" role="image"/>
         </c>
@@ -2064,7 +2064,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55 x 41 cm. Technique : Offset. Cote : Cb014.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2098,7 +2098,7 @@
           </acqinfo>
           <dao href="RBX_MED_PLA_B_016_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="cartographe">Iaillot, H.</persname>
+            <name role="cartographe">Iaillot, H.</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2112,7 +2112,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_017_001.jpg" role="image"/>
         </c>
@@ -2128,7 +2128,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Logement </subject>
+            <subject source="theme">Logement</subject>
             <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_018_001.jpg" role="image"/>
@@ -2142,7 +2142,7 @@
           </did>
           <controlaccess>
             <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Littérature </subject>
+            <subject source="theme">Littérature</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_019_001.jpg" role="image"/>
         </c>
@@ -2181,7 +2181,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 80 cm. Technique : Lithographie. Cote : Cb022.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Canal </subject>
+            <subject source="theme">Canal</subject>
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_022_001.jpg" role="image"/>
@@ -2198,8 +2198,8 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports </subject>
-            <persname role="cartographe">Cavrois, N.</persname>
+            <subject source="theme">Transports</subject>
+            <name role="cartographe">Cavrois, N.</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_023_001.jpg" role="image"/>
         </c>
@@ -2215,7 +2215,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_024_001.jpg" role="image"/>
         </c>
@@ -2228,8 +2228,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Boittiaux et Delplace - Roubaix</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Boittiaux et Delplace - Roubaix</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_025_001.jpg" role="image"/>
         </c>
@@ -2254,7 +2254,7 @@
           </scopecontent>
           <dao href="RBX_MED_PLA_B_027_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="Graveur">Derveaux, Daniel</persname>
+            <name role="Graveur">Derveaux, Daniel</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2272,7 +2272,7 @@
           </acqinfo>
           <dao href="RBX_MED_PLA_B_028_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="Graveur">Derveaux, Daniel</persname>
+            <name role="Graveur">Derveaux, Daniel</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2286,7 +2286,7 @@
             <p>&lt;p&gt;Il s'agit d'une carte extraite du supplément du numéro 230 de la revue &lt;em&gt;Geo&lt;/em&gt; datant d'avril 1998.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2313,8 +2313,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 63 x 67.5 cm. Technique : Lithographie. Cote : Cb031.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_031_001.jpg" role="image"/>
         </c>
@@ -2330,7 +2330,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_033_001.jpg" role="image"/>
         </c>
@@ -2343,8 +2343,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="illustrateur">Imprimerie Lesguillon - Roubaix</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="illustrateur">Imprimerie Lesguillon - Roubaix</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_034_001.jpg" role="image"/>
         </c>
@@ -2357,8 +2357,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Lesguillon - Roubaix</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Lesguillon - Roubaix</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2377,8 +2377,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Lesguillon - Roubaix</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Lesguillon - Roubaix</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2411,8 +2411,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 72 x 57 cm. Technique : Lithographie. Cote : Cb038.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
-            <persname role="imprimeur">Imprimerie Lesguillon - Roubaix</persname>
+            <subject source="theme">Transports</subject>
+            <name role="imprimeur">Imprimerie Lesguillon - Roubaix</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2430,7 +2430,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 78 x 44 cm. Technique : Offset. Cote : Cb039.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2448,7 +2448,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 49 cm. Technique : Offset. Cote : Cb040.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_040_001.jpg" role="image"/>
@@ -2461,7 +2461,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 47 cm. Technique : Offset. Cote : Cb041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_041_001.jpg" role="image"/>
         </c>
@@ -2473,9 +2473,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 51 x 49 cm. Technique : Offset. Cote : Cb042.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Robin</persname>
-            <persname role="cartographe">Coget</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Robin</name>
+            <name role="cartographe">Coget</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_042_001.jpg" role="image"/>
         </c>
@@ -2488,7 +2488,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2507,7 +2507,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_045_001.jpg" audience="internal" role="image"/>
         </c>
@@ -2520,7 +2520,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_046_001.jpg" audience="internal" role="image"/>
         </c>
@@ -2536,7 +2536,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_047_001.jpg" audience="internal" role="image"/>
         </c>
@@ -2555,7 +2555,7 @@
             <daoloc href="RBX_MED_PLA_B_048_002.jpg" role="image:last"/>
           </daogrp>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2566,7 +2566,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 57 cm. Technique : Offset. Cote : Cb049.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_049_001.jpg" role="image"/>
         </c>
@@ -2578,7 +2578,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 57 cm. Technique : Offset. Cote : Cb050.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_050_001.jpg" role="image"/>
         </c>
@@ -2590,7 +2590,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 46 x 28 cm. Technique : Offset. Cote : Cb051.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_051_001.jpg" role="image"/>
         </c>
@@ -2605,7 +2605,7 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_052_001.jpg" role="image"/>
@@ -2622,7 +2622,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_053_001.jpg" role="image"/>
         </c>
@@ -2638,7 +2638,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_054_001.jpg" role="image"/>
         </c>
@@ -2654,7 +2654,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_055_001.jpg" role="image"/>
         </c>
@@ -2666,7 +2666,7 @@
             <physdesc>&lt;p&gt;Dimensions : 60 x 58 cm. Technique : Offset et notes manuscrites. Cote : Cb032.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_032_001.jpg" role="image"/>
         </c>
@@ -2682,9 +2682,9 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="photographe">Descamps, E.</persname>
-            <persname role="imprimeur">Imprimerie Vanveerdeghem</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="photographe">Descamps, E.</name>
+            <name role="imprimeur">Imprimerie Vanveerdeghem</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2706,7 +2706,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Deschamps, Auguste</persname>
+            <name role="architecte">Deschamps, Auguste</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_057_001.jpg" role="image"/>
         </c>
@@ -2740,9 +2740,9 @@
           </acqinfo>
           <dao href="RBX_MED_PLA_B_059_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Bouvy, Albert</persname>
-            <persname role="illustrateur">Dargand, V.</persname>
-            <persname role="imprimeur">Imprimerie J. Marchadier &amp; Cie</persname>
+            <name role="architecte">Bouvy, Albert</name>
+            <name role="illustrateur">Dargand, V.</name>
+            <name role="imprimeur">Imprimerie J. Marchadier &amp; Cie</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2757,8 +2757,8 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="cartographe">Pachy, Paul</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="cartographe">Pachy, Paul</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_060_001.jpg" role="image"/>
         </c>
@@ -2770,7 +2770,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 67 x 52 cm. Technique : Offset. Cote : Cb061.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_061_001.jpg" role="image"/>
         </c>
@@ -2786,7 +2786,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_062_001.jpg" role="image"/>
         </c>
@@ -2801,7 +2801,7 @@
             <p>&lt;p&gt;Le document a été restauré en 2022.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Autres industries </subject>
+            <subject source="theme">Autres industries</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_063_001.jpg" role="image"/>
         </c>
@@ -2817,7 +2817,7 @@
           </scopecontent>
           <dao href="RBX_MED_PLA_B_064_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Bührer, Albert</persname>
+            <name role="architecte">Bührer, Albert</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2832,7 +2832,7 @@
           </scopecontent>
           <controlaccess>
             <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics </subject>
+            <subject source="theme">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <dao href="RBX_MED_PLA_B_065_001.jpg" role="image"/>
@@ -2875,7 +2875,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb009.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -2886,7 +2886,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb010.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -2897,7 +2897,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb011.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -2908,7 +2908,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb012.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -2925,7 +2925,7 @@
             <p>&lt;p&gt;Don de Monsieur Claude Vicente en juin 2019.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname normal="Boittiaux" role="Graphiste">Boittiaux</persname>
+            <name normal="Boittiaux" role="Graphiste">Boittiaux</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2939,7 +2939,7 @@
             <p>&lt;p&gt;Don de Monsieur Claude Vicente en juin 2019.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="éditeur">Chalindrey</persname>
+            <name role="éditeur">Chalindrey</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -2966,7 +2966,7 @@
           <controlaccess>
             <subject source="theme">Exposition internationale de 1911</subject>
             <subject source="chrono">1871-1913</subject>
-            <persname role="imprimeur">Imprimerie M. Pique - Roubaix</persname>
+            <name role="imprimeur">Imprimerie M. Pique - Roubaix</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3007,7 +3007,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname normal="Boittiaux" role="lithographe">Boittiaux</persname>
+            <name normal="Boittiaux" role="lithographe">Boittiaux</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3070,7 +3070,7 @@
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
             <corpname>Etablissements communaux et généraux</corpname>
-            <persname normal="Journal de Roubaix" role="imprimeur">Journal de Roubaix</persname>
+            <name normal="Journal de Roubaix" role="imprimeur">Journal de Roubaix</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3085,7 +3085,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">1946-1959</subject>
-            <subject source="theme">Autres industries </subject>
+            <subject source="theme">Autres industries</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3120,7 +3120,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">Avant 1789</subject>
-            <persname role="cartographe">Kondet</persname>
+            <name role="cartographe">Kondet</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_011_001.jpg" role="image"/>
         </c>
@@ -3132,7 +3132,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 40 x 36 cm. Technique : Offset. Cote : Cc012.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_012_001.jpg" role="image"/>
         </c>
@@ -3144,7 +3144,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33 x 32 cm. Technique : Offset. Cote : Cc013.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places </subject>
+            <subject source="theme">Rues et places</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3162,7 +3162,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 40 x 50.5 cm. Technique : Lithographie. Cote : Cc017.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_017_001.jpg" role="image"/>
         </c>
@@ -3175,7 +3175,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <persname role="imprimeur">Imprimerie Rosoor &amp; Desreumaux</persname>
+            <name role="imprimeur">Imprimerie Rosoor &amp; Desreumaux</name>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3194,8 +3194,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Transports </subject>
-            <persname role="cartographe">Erhard Frères</persname>
+            <subject source="theme">Transports</subject>
+            <name role="cartographe">Erhard Frères</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_020_001.jpg" role="image"/>
         </c>
@@ -3226,7 +3226,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_023_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3238,7 +3238,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_024_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3250,7 +3250,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_025_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3262,7 +3262,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_026_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="Comédien">Dalmar, Pierre</persname>
+            <name role="Comédien">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3274,7 +3274,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_027_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3286,7 +3286,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_028_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3298,7 +3298,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_029_001.jpg" role="image"/>
         </c>
@@ -3311,7 +3311,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_030_001.jpg" role="image"/>
         </c>
@@ -3324,7 +3324,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_031_001.jpg" role="image"/>
         </c>
@@ -3337,7 +3337,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_032_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3349,7 +3349,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_033_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3361,7 +3361,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_034_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3373,7 +3373,7 @@
           </did>
           <dao href="RBX_MED_PLA_C_035_001.jpg" role="image"/>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <name role="architecte">Dalmar, Pierre</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3384,7 +3384,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 37 x 50 cm. Technique : Offset. Cote : Cc041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Religion </subject>
+            <subject source="theme">Religion</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_041_001.jpg" role="image"/>
         </c>
@@ -3408,7 +3408,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Santé publique </subject>
+            <subject source="theme">Santé publique</subject>
           </controlaccess>
           <dao href="RBX_MED_PLA_C_046_001.jpg" role="image"/>
         </c>
@@ -3421,7 +3421,7 @@
           </did>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3433,8 +3433,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3446,8 +3446,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3459,8 +3459,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3472,8 +3472,8 @@
           </did>
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3484,9 +3484,9 @@
             <physdesc>&lt;p&gt;Dimensions : 27 x 35 cm. Technique : Lithographie. Cote : Cc006.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Lacoste, Ch.</persname>
-            <persname role="Graveur">Bizet, A.</persname>
-            <persname role="imprimeur">Imprimerie du Moulin vert - Paris</persname>
+            <name role="cartographe">Lacoste, Ch.</name>
+            <name role="Graveur">Bizet, A.</name>
+            <name role="imprimeur">Imprimerie du Moulin vert - Paris</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3497,7 +3497,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc007.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3508,7 +3508,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc008.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports </subject>
+            <subject source="theme">Transports</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3535,7 +3535,7 @@
             <physdesc>&lt;p&gt;Dimensions : 29.5 x 41.5 cm. Technique : Offset. Cote : Cc014.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places </subject>
+            <subject source="theme">Rues et places</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3568,7 +3568,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc019.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3582,7 +3582,7 @@
             <p>&lt;p&gt;Carte issue du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
         </c>
@@ -3597,8 +3597,8 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Rues et places </subject>
-            <subject source="theme">Canal </subject>
+            <subject source="theme">Rues et places</subject>
+            <subject source="theme">Canal</subject>
             <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
             <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
             <subject source="chrono">1789-1870</subject>
@@ -3630,7 +3630,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">Avant 1789</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3645,7 +3645,7 @@
           </acqinfo>
           <controlaccess>
             <subject source="chrono">Avant 1789</subject>
-            <subject source="theme">Urbanisme </subject>
+            <subject source="theme">Urbanisme</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3656,8 +3656,8 @@
             <physdesc>&lt;p&gt;Dimensions : 32 x 21 cm. Technique : Offset. Cote : Cc043.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Urbanisme</subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3668,7 +3668,7 @@
             <physdesc>&lt;p&gt;Dimensions : 21 x 42 cm. Technique : Offset. Cote : Cc044.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments </subject>
+            <subject source="theme">Parcs, jardins et monuments</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3682,8 +3682,8 @@
             <p>&lt;p&gt;Achat auprès de Monsieur Thiebaut en novembre 2011.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme </subject>
-            <persname role="imprimeur">Imprimerie Ravet-Anceau</persname>
+            <subject source="theme">Urbanisme</subject>
+            <name role="imprimeur">Imprimerie Ravet-Anceau</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3694,8 +3694,8 @@
             <physdesc>&lt;p&gt;Dimensions : 32 x 25.5 cm. Technique : Chromolithographie. Cote : Cc047.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Logement </subject>
-            <persname role="architecte">Derveaux, Elie</persname>
+            <subject source="theme">Logement</subject>
+            <name role="architecte">Derveaux, Elie</name>
           </controlaccess>
         </c>
         <c level="file">
@@ -3706,7 +3706,7 @@
             <physdesc>&lt;p&gt;Dimensions : 32.5 x 48 cm. Technique : Chromolithographie et notes manuscrites. Cote : Cc048.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Santé publique </subject>
+            <subject source="theme">Santé publique</subject>
           </controlaccess>
         </c>
         <c level="file">
@@ -3738,7 +3738,7 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="imprimeur">Imprimerie Dufrenoy</persname>
+            <name role="imprimeur">Imprimerie Dufrenoy</name>
           </controlaccess>
         </c>
         <c level="file">
