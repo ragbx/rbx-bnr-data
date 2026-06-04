@@ -41,7 +41,7 @@ for ead_file in ead_files:
                     "eadid": eadid,
                     "titleproper": titleproper,
                     "balise": tag_name,
-                    "contenu": text_content,
+                    "concept": text_content,
                     "source": source,
                     "role": role,
                     "normal": normal,

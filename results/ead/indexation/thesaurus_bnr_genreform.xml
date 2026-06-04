@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#affiches">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Affiches</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#manuscrits">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Manuscrits</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#documents_darchives">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Documents d'archives</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#partitions">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Partitions</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#videos">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Vidéos</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#images">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Images</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#objets">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Objets</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#cartes_et_plans">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Cartes et plans</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#enregistrement_sonore">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Enregistrement sonore</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/genreform#livres_et_revues">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Livres et revues</skos:prefLabel>
+  </rdf:Description>
+</rdf:RDF>

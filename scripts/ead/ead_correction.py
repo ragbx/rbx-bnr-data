@@ -19,6 +19,7 @@ Les modifications suivantes sont réalisées :
     - suppression des <origination> -> déplacées en <controlaccess>
     - transformation des <name> dans <controlaccess> en <persname> ou <corpname>
     - TODO : suppression des <repository> qui ne sont pas dans <archdesc>
+    - TODO : enrichir les dao
 """
 
 

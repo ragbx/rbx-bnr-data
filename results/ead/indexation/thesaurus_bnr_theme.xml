@@ -3,65 +3,85 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#autres_industries">
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#religion">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Autres industries</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#enseignement">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Enseignement</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#litterature">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Littérature</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#cinema">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Cinéma</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_quotidienne">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Vie quotidienne</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#population_immigration">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Population, immigration</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#logement">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Logement</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_economique">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Vie économique</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_politique">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Vie politique</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#presse">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Presse</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sante_publique">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Santé publique</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#mode">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Mode</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Religion</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#fetes_et_ceremonies">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Fêtes et cérémonies</skos:prefLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#parcs_jardins_et_monuments">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Parcs, jardins et monuments</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#arts_graphiques">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Arts graphiques</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#commerces">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Commerces</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sports">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Sports</skos:prefLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#batiments_publics">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Bâtiments publics</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#rues_et_places">
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#mode">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Rues et places</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mode</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#jeux_et_concours">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Jeux et concours</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_economique">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Vie économique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#equipements_culturels">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Equipements culturels</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#autres_industries">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Autres industries</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#batiments_industriels">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Bâtiments industriels</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#exposition_internationale_de_1911">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Exposition internationale de 1911</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#urbanisme">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Urbanisme</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#population_immigration">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Population, immigration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#presse">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Presse</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#cinema">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Cinéma</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#logement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Logement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#guerres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Guerres</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#canal">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -71,76 +91,56 @@
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Administration municipale</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#parcs_jardins_et_monuments">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Parcs, jardins et monuments</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#batiments_industriels">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Bâtiments industriels</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sports">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Sports</skos:prefLabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#conflits_sociaux">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Conflits sociaux</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#urbanisme">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Urbanisme</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sciences_et_sciences_humaines">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Sciences et sciences humaines</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#spectacles">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Spectacles</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#batiments_religieux">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Bâtiments religieux</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#manufacture_et_industrie_textile">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Manufacture et industrie textile</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#arts_graphiques">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Arts graphiques</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#religion">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Religion</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#commerces">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Commerces</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#exposition_internationale_de_1911">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Exposition internationale de 1911</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#musique">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Musique</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#guerres">
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sciences_et_sciences_humaines">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Guerres</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Sciences et sciences humaines</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_quotidienne">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Vie quotidienne</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#sante_publique">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Santé publique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#vie_politique">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Vie politique</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#manufacture_et_industrie_textile">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Manufacture et industrie textile</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#litterature">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Littérature</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#batiments_religieux">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Bâtiments religieux</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#spectacles">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Spectacles</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#enseignement">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="fr">Enseignement</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#transports">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="fr">Transports</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#jeux_et_concours">
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#rues_et_places">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Jeux et concours</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/theme#equipements_culturels">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="fr">Equipements culturels</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Rues et places</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>
