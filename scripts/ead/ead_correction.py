@@ -15,7 +15,10 @@ Les modifications suivantes sont réalisées :
     - suppression des attributs vides
     - suppression des éléments vides
     - suppression des entités html
-    - suppression des caractères vides en fin de texte dans controlaccess
+    - suppression des caractères vides en fin de texte dans <controlaccess>
+    - suppression des <origination> -> déplacées en <controlaccess>
+    - transformation des <name> dans <controlaccess> en <persname> ou <corpname>
+    - TODO : suppression des <repository> qui ne sont pas dans <archdesc>
 """
 
 
@@ -32,9 +35,7 @@ def remove_empty_attributes(element):
     Supprime récursivement tous les attributs vides (valeur = "") d'un élément et de ses enfants.
     Modifie l'arbre XML en place.
     """
-    # Parcourir tous les éléments de l'arbre
     for elem in element.iter():
-        # Créer une liste des attributs à supprimer (pour éviter de modifier le dict pendant l'itération)
         empty_attrs = [attr for attr, value in elem.attrib.items() if value == ""]
         for attr in empty_attrs:
             del elem.attrib[attr]
@@ -47,15 +48,12 @@ def is_element_empty(element):
     - Tous ses enfants sont vides (récursivement).
     - Pas d'attributs.
     """
-    # Vérifier le texte de l'élément
     if element.text and element.text.strip() != "":
         return False
 
-    # Vérifier les attributs
     if len(element.attrib) > 0:
         return False
 
-    # Vérifier récursivement les enfants
     for child in element:
         if not is_element_empty(child):
             return False
@@ -68,7 +66,6 @@ def remove_empty_elements(element):
     Supprime récursivement tous les éléments vides (y compris ceux qui ne contiennent que des éléments vides).
     Modifie l'arbre en place.
     """
-    # Parcourir tous les éléments en ordre inverse
     for elem in list(element.iter()):
         if is_element_empty(elem):
             parent = elem.getparent()
@@ -84,30 +81,13 @@ def remove_html_entities(element):
             e.tail = unescape(e.tail)
 
 
-def clean_html_entities(text):
-    if text is None:
-        return ""
-    # Remplace les entités HTML courantes
-    entity_map = {
-        "&amp;": "&",
-        "&lt;": "<",
-        "&gt;": ">",
-        "&eacute;": "é",
-        "&egrave;": "è",
-        "&ecirc;": "ê",
-        "&agrave;": "à",
-        "&acirc;": "â",
-        "&ocirc;": "ô",
-        "&ucirc;": "û",
-        "&ccedil;": "ç",
-        "&#13;": "\n",
-        "&nbsp;": " ",
-        "&brvbar;": "|",
-    }
-
-    for entity, char in entity_map.items():
-        text = text.replace(entity, char)
-    return text
+def remove_name(element, names_type=None):
+    for controlaccess in element.xpath("//controlaccess"):
+        for name in controlaccess.xpath(".//name"):
+            if name.text in names_type["c"]:
+                name.tag = "corpname"
+            elif name.text in names_type["p"]:
+                name.tag = "persname"
 
 
 def move_origination(element, names_type=None):
@@ -177,6 +157,7 @@ def transform_ead(ir, names_type=None):
     remove_html_entities(root)
     strip_whitespace(root)
     move_origination(root, names_type=names_type)
+    remove_name(root, names_type=names_type)
     remove_empty_attributes(root)
     remove_empty_elements(root)
 
