@@ -40,9 +40,7 @@
           <genreform>Affiches</genreform>
           <subject source="theme">Spectacles</subject>
         </controlaccess>
-        <daogrp>
-          <daoloc href="BNR128984" role="old_ark"/>
-        </daogrp>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR128984" role="old_ark"/>
         <c level="series" osiros_id="BNR128985">
           <did>
             <unitid>RBX_MED_MAR_AFF_AM01</unitid>
@@ -52,17 +50,13 @@
             <persname>Richard, Louis</persname>
             <corpname>Association ARMAT - Association pour le Renouveau de la Marionnette à Tringle</corpname>
           </controlaccess>
-          <daogrp>
-            <daoloc href="BNR128985" role="old_ark"/>
-          </daogrp>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR128985" role="old_ark"/>
           <c level="subseries" osiros_id="BNR128986">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM01_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR128986" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR128986" role="old_ark"/>
             <c level="file" osiros_id="BNR129128">
               <did>
                 <unitid>MAR_AFF_AM01_B_001</unitid>
@@ -73,9 +67,7 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
               </controlaccess>
-              <daogrp>
-                <daoloc href="BNR129128" role="old_ark"/>
-              </daogrp>
+              <dao href="https://www.bn-r.fr/ark:/20179/BNR129128" role="old_ark"/>
             </c>
             <c level="file" osiros_id="BNR129129">
               <did>
@@ -84,12 +76,12 @@
                 <unitdate normal="1993">1993</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 52 x 30 cm. Technique : Offset. Cote : AM1b02.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_001_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <persname role="illustrateur">Cuvelier, Roland</persname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129129" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_003_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129129" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129130">
@@ -105,9 +97,9 @@
                 <persname role="illustrateur">Cuvelier, Roland</persname>
                 <corpname role="imprimeur">Imprimerie Prestoprint</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_004_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129130" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_004_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129130" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129131">
@@ -123,9 +115,9 @@
                 <persname role="illustrateur">Vincente, Hélène</persname>
                 <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_005_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129131" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_005_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129131" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129132">
@@ -139,9 +131,9 @@
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_006_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129132" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_006_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129132" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129133">
@@ -156,9 +148,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_007_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129133" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_007_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129133" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129134">
@@ -172,9 +164,9 @@
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_010_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129134" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_010_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129134" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129135">
@@ -191,9 +183,9 @@
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_011_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129135" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_011_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129135" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129136">
@@ -207,9 +199,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_014_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129136" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_014_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129136" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129137">
@@ -223,9 +215,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_015_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129137" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_015_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129137" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129138">
@@ -239,9 +231,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie de la Communauté urbaine de Lille</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_016_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129138" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_016_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129138" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129139">
@@ -257,9 +249,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_017_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129139" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_017_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129139" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129140">
@@ -276,9 +268,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_018_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129140" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_018_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129140" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129141">
@@ -291,9 +283,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_020_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129141" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_020_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129141" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129142">
@@ -306,9 +298,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_021_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129142" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_021_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129142" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129143">
@@ -322,9 +314,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_022_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129143" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_022_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129143" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129144">
@@ -334,13 +326,13 @@
                 <unitdate>s.d.</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 53 x 41 cm. Technique : Offset. Cote : AM1b23.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_001_B_023_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <persname role="illustrateur">Poullet, F.</persname>
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129144" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_023_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129144" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129145">
@@ -356,9 +348,9 @@
                 <persname>Charlet, Blaise</persname>
                 <persname>Gommez, David</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_024_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129145" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_024_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129145" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129146">
@@ -371,9 +363,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_025_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129146" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_025_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129146" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129147">
@@ -388,9 +380,9 @@
                 <persname role="illustrateur">Gommez, David</persname>
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_026_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129147" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_026_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129147" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129148">
@@ -404,9 +396,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_027_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129148" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_027_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129148" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129149">
@@ -419,9 +411,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_028_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129149" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_028_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129149" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129150">
@@ -434,9 +426,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_030_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129150" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_030_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129150" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129151">
@@ -449,9 +441,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_032_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129151" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_032_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129151" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129152">
@@ -464,9 +456,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_033_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129152" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_033_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129152" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129153">
@@ -479,9 +471,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_034_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129153" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_034_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129153" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129154">
@@ -491,12 +483,12 @@
                 <unitdate>s.d.</unitdate>
                 <physdesc>&lt;p&gt;Dimensions :  60 x 40 cm. Technique : Offset. Cote : AM1b35.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_001_B_035_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129154" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_035_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129154" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129155">
@@ -511,9 +503,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_036_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129155" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_036_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129155" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129156">
@@ -526,9 +518,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_037_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129156" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_037_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129156" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129157">
@@ -543,9 +535,9 @@
                 <persname role="illustrateur">Houpline, Raphaël</persname>
                 <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_040_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129157" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_040_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129157" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129158">
@@ -558,9 +550,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_B_041_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129158" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_B_041_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129158" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">
@@ -694,9 +686,7 @@
               <unitid>RBX_MED_MAR_AFF_AM01_C</unitid>
               <unittitle>Affiches petit format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129159" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129159" role="old_ark"/>
             <c level="file" osiros_id="BNR129160">
               <did>
                 <unitid>MAR_AFF_AM01_C_028</unitid>
@@ -708,9 +698,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_028_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129160" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_028_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129160" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129161">
@@ -725,9 +715,9 @@
                 <persname role="illustrateur">Cuvelier, Roland</persname>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_057_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129161" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_057_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129161" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129162">
@@ -741,9 +731,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_061_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129162" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_061_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129162" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129163">
@@ -756,9 +746,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_066_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129163" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_066_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129163" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129164">
@@ -771,9 +761,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_067_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129164" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_067_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129164" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129165">
@@ -786,9 +776,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_069_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129165" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_069_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129165" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129166">
@@ -802,9 +792,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <persname role="Graphiste">Gommez, David</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_073_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129166" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_073_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129166" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129167">
@@ -817,9 +807,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_074_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129167" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_074_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129167" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129168">
@@ -832,9 +822,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_001_C_085_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129168" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_001_C_085_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129168" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">
@@ -1654,17 +1644,13 @@
           <controlaccess>
             <persname>Vincent, Jacques</persname>
           </controlaccess>
-          <daogrp>
-            <daoloc href="BNR129169" role="old_ark"/>
-          </daogrp>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR129169" role="old_ark"/>
           <c level="subseries" osiros_id="BNR129170">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM02_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129170" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129170" role="old_ark"/>
             <c level="file" osiros_id="BNR129171">
               <did>
                 <unitid>MAR_AFF_AM02_B_001</unitid>
@@ -1676,9 +1662,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_001_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129171" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_001_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129171" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129172">
@@ -1694,9 +1680,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_002_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129172" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_002_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129172" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129173">
@@ -1706,12 +1692,12 @@
                 <unitdate normal="1980">1980-1981</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 51 x 32 cm. Technique : Offset. Cote : AM2b003.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_002_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129173" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_003_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129173" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129174">
@@ -1726,9 +1712,7 @@
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
                 <corpname role="imprimeur">Imprimerie L&amp; C Publicité - Roubaix</corpname>
               </controlaccess>
-              <daogrp>
-                <daoloc href="BNR129174" role="old_ark"/>
-              </daogrp>
+              <dao href="https://www.bn-r.fr/ark:/20179/BNR129174" role="old_ark"/>
             </c>
             <c level="file" osiros_id="BNR129175">
               <did>
@@ -1740,12 +1724,12 @@
               <acqinfo>
                 <p>&lt;p&gt;Affiche acquise en 1985.&lt;/p&gt;</p>
               </acqinfo>
-              <dao href="RBX_MED_MAR_002_B_007_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie GEP - Wattrelos</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129175" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_007_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129175" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129176">
@@ -1761,9 +1745,9 @@
               <controlaccess>
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_008_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129176" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_008_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129176" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129177">
@@ -1780,9 +1764,9 @@
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie Limonaires Troesnes</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_009_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129177" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_009_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129177" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129178">
@@ -1797,9 +1781,9 @@
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_010_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129178" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_010_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129178" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129179">
@@ -1814,9 +1798,9 @@
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_B_011_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129179" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_B_011_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129179" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">
@@ -1849,9 +1833,7 @@
               <unitid>RBX_MED_MAR_AFF_AM02_C</unitid>
               <unittitle>Affiches petit format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129180" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129180" role="old_ark"/>
             <c level="file" osiros_id="BNR129181">
               <did>
                 <unitid>MAR_AFF_AM02_C_001</unitid>
@@ -1864,9 +1846,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_002_C_001_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129181" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_002_C_001_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129181" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">
@@ -1887,17 +1869,13 @@
             <unitid>RBX_MED_MAR_AFF_AM03</unitid>
             <unittitle>Les marionnettes et les services culturels de Roubaix</unittitle>
           </did>
-          <daogrp>
-            <daoloc href="BNR129182" role="old_ark"/>
-          </daogrp>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR129182" role="old_ark"/>
           <c level="subseries" osiros_id="BNR129183">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM03_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129183" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129183" role="old_ark"/>
             <c level="file" osiros_id="BNR129184">
               <did>
                 <unitid>MAR_AFF_AM03_B_003</unitid>
@@ -1911,9 +1889,9 @@
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_003_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129184" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_003_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129184" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129185">
@@ -1923,12 +1901,12 @@
                 <unitdate normal="1997">1997</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM3b05.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_003_B_005_001.jpg" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129185" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_005_001.jpg" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129185" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129186">
@@ -1938,9 +1916,9 @@
                 <unitdate>s.d.</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM3b06.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_003_B_006_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129186" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_006_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129186" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129187">
@@ -1955,9 +1933,9 @@
                 <persname role="illustrateur">Manesse, C.</persname>
                 <corpname role="imprimeur">Imprimerie Garcenot - Lille</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_008_001.jpg" role="image"/>
               <daogrp>
-                <daoloc href="BNR129187" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_008_001.jpg" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129187" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129188">
@@ -1973,9 +1951,9 @@
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_009_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129188" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_009_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129188" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129189">
@@ -1990,9 +1968,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_011_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129189" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_011_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129189" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129190">
@@ -2006,9 +1984,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_012_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129190" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_012_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129190" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129191">
@@ -2023,9 +2001,9 @@
                 <geogname source="rue" coord="[ 50.6910317, 3.1888503 ]">Général Faidherbe, place du</geogname>
                 <persname role="photographe">Le Brun, Eric</persname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_013_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129191" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_013_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129191" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129192">
@@ -2040,9 +2018,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
                 <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_003_B_014_001.jpg" role="image"/>
               <daogrp>
-                <daoloc href="BNR129192" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_003_B_014_001.jpg" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129192" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">
@@ -2333,17 +2311,13 @@
             <unitid>RBX_MED_MAR_AFF_AM04</unitid>
             <unittitle>Les marionnettes dans le Nord - Pas-de-Calais</unittitle>
           </did>
-          <daogrp>
-            <daoloc href="BNR129193" role="old_ark"/>
-          </daogrp>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR129193" role="old_ark"/>
           <c level="subseries" osiros_id="BNR129194">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM04_A</unitid>
               <unittitle>Affiches grand format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129194" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129194" role="old_ark"/>
             <c level="file" osiros_id="BNR129195">
               <did>
                 <unitid>MAR_AFF_AM04_A_001</unitid>
@@ -2351,9 +2325,9 @@
                 <unitdate>s.d.</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 85 x 35 cm. Technique : Offset. Cote : AM4a01.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_004_A_001_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129195" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_004_A_001_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129195" role="old_ark"/>
               </daogrp>
             </c>
           </c>
@@ -2362,9 +2336,7 @@
               <unitid>RBX_MED_MAR_AFF_AM04_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <daogrp>
-              <daoloc href="BNR129196" role="old_ark"/>
-            </daogrp>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNR129196" role="old_ark"/>
             <c level="file" osiros_id="BNR129197">
               <did>
                 <unitid>MAR_AFF_AM04_B_001</unitid>
@@ -2372,12 +2344,12 @@
                 <unitdate normal="1995">1995</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 70 x 50 cm. Technique : Offset. Cote : AM4b01.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_004_B_001_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie I.A.L. Linselles</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129197" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_004_B_001_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129197" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129198">
@@ -2387,12 +2359,12 @@
                 <unitdate normal="1991">1991</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 44 x 32 cm. Technique : Offset. Cote : AM4b02.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_004_B_002_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Merigond - Croix</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129198" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_004_B_002_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129198" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129199">
@@ -2402,12 +2374,12 @@
                 <unitdate>s.d.</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 50 x 40 cm. Technique : Offset. Cote : AM4b03.&lt;/p&gt;</physdesc>
               </did>
-              <dao href="RBX_MED_MAR_004_B_003_001.jpg" audience="internal" role="image"/>
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
               </controlaccess>
               <daogrp>
-                <daoloc href="BNR129199" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_004_B_003_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129199" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file" osiros_id="BNR129200">
@@ -2420,9 +2392,7 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
-              <daogrp>
-                <daoloc href="BNR129200" role="old_ark"/>
-              </daogrp>
+              <dao href="https://www.bn-r.fr/ark:/20179/BNR129200" role="old_ark"/>
             </c>
             <c level="file" osiros_id="BNR129201">
               <did>
@@ -2435,9 +2405,9 @@
                 <subject source="chrono">1980-1989</subject>
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
-              <dao href="RBX_MED_MAR_004_B_005_001.jpg" audience="internal" role="image"/>
               <daogrp>
-                <daoloc href="BNR129201" role="old_ark"/>
+                <daoloc href="RBX_MED_MAR_004_B_005_001.jpg" audience="internal" role="image"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR129201" role="old_ark"/>
               </daogrp>
             </c>
             <c level="file">

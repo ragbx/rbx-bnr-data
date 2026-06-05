@@ -75,74 +75,95 @@ class EADbnr2mnesys:
 
     def _add_dao_from_osiros_id(self, element):
         """
-        Gère les balises <dao> et <daogrp> pour chaque élément <c> avec un attribut osiros_id.
-        Trois cas principaux :
-        1. Si <daogrp> existe : ajoute un <daoloc> dedans.
-        2. Si <dao> existe (sans <daogrp>) : transforme en <daogrp><daoloc> et ajoute le nouveau <daoloc>.
-        3. Sinon : crée un <dao> simple.
-        Les éléments sont insérés avant le premier enfant <c> s'il existe.
+        Ajoute ou modifie les balises <dao> ou <daogrp> pour chaque élément <c> possédant un attribut `osiros_id`.
+        La fonction gère trois cas principaux en fonction de la structure existante :
+
+        ---
+        **Cas 1 : <daogrp> existe déjà**
+        - Ajoute un <daoloc> avec `href=osiros_id` et `role="old_ark"` à l'intérieur du <daogrp> existant.
+        - Si un <daoloc> avec `role="old_ark"` existe déjà, aucun changement n'est apporté.
+
+        ---
+        **Cas 2 : <dao> existe (mais pas <daogrp>)**
+        - Transforme la structure en :
+        - Crée un <daogrp> contenant deux <daoloc> :
+            1. Le premier <daoloc> reprend **tous les attributs** de l'ancienne <dao> (ex: `href`, `audience`).
+            2. Le second <daoloc> a pour attributs `href=osiros_id` et `role="old_ark"`.
+        - Supprime l'ancienne <dao> après avoir copié ses attributs.
+        - Le <daogrp> est inséré **avant le premier enfant <c>** s'il existe, sinon à la fin de l'élément.
+
+        ---
+        **Cas 3 : Ni <dao> ni <daogrp> n'existe**
+        - Crée une nouvelle balise <dao> avec les attributs :
+        - `href=osiros_id`
+        - `role="old_ark"`
+        - La balise <dao> est insérée **avant le premier enfant** de <c> (quel que soit son type).
+
+        ---
+        **Règles générales**
+        - Seule les éléments <c> **avec un attribut `osiros_id`** sont traités.
+        - Les modifications sont appliquées **en place** sur l'arbre XML.
+        - Les attributs existants (ex: `audience`, `level`) sont préservés.
+
+        Args:
+            element (xml.etree.ElementTree.Element): Élément racine ou parent de l'arbre XML à modifier.
+
+        Returns:
+            xml.etree.ElementTree.Element: L'élément modifié (pour chaînage éventuel).
         """
         for c in element.findall(".//c"):
-            if "osiros_id" in c.attrib:
-                osiros_id = c.attrib["osiros_id"]
+            if "osiros_id" not in c.attrib:
+                continue
 
-                # Trouver la position d'insertion : avant le premier enfant <c> s'il existe
-                first_child_c = None
-                for child in c:
-                    if child.tag == "c":
-                        first_child_c = child
-                        break
+            osiros_id = c.attrib["osiros_id"]
+            url = f"https://www.bn-r.fr/ark:/20179/{osiros_id}"
+            first_child_c = next((child for child in c if child.tag == "c"), None)
 
-                # Cas 1 : <daogrp> existe déjà
-                daogrp = c.find("daogrp")
-                if daogrp is not None:
-                    # Vérifier si un <daoloc> avec role="old_ark" existe déjà
-                    old_ark_daoloc_exists = any(
-                        daoloc.get("role") == "old_ark"
-                        for daoloc in daogrp.findall("daoloc")
-                    )
-                    if not old_ark_daoloc_exists:
-                        new_daoloc = etree.SubElement(daogrp, "daoloc")
-                        new_daoloc.set("href", osiros_id)
-                        new_daoloc.set("role", "old_ark")
-
-                # Cas 2 : <dao> existe mais pas <daogrp>
-                elif c.find("dao") is not None:
-                    # Créer <daogrp> et <daoloc>
-                    daogrp = etree.Element("daogrp")
-                    daoloc = etree.SubElement(daogrp, "daoloc")
-
-                    # Déplacer l'ancienne <dao> dans <daoloc>
-                    old_dao = c.find("dao")
-                    daoloc.append(old_dao)
-
-                    # Ajouter la nouvelle <daoloc> pour osiros_id
+            # Cas 1 : <daogrp> existe déjà
+            daogrp = c.find("daogrp")
+            if daogrp is not None:
+                if not any(daoloc.get("role") == "old_ark" for daoloc in daogrp.findall("daoloc")):
                     new_daoloc = etree.SubElement(daogrp, "daoloc")
-                    new_daoloc.set("href", osiros_id)
+                    new_daoloc.set("href", url)
                     new_daoloc.set("role", "old_ark")
 
-                    # Insérer <daogrp> avant le premier enfant <c> ou à la fin
-                    if first_child_c is not None:
-                        index = list(c).index(first_child_c)
-                        c.insert(index, daogrp)
-                    else:
-                        c.append(daogrp)
+            # Cas 2 : <dao> existe mais pas <daogrp>
+            elif (old_dao := c.find("dao")) is not None:
+                # Créer <daogrp>
+                daogrp = etree.Element("daogrp")
 
-                    # Supprimer l'ancienne <dao> (déjà déplacée)
-                    c.remove(old_dao)
+                # Créer un <daoloc> avec les attributs de l'ancienne <dao>
+                daoloc_from_dao = etree.SubElement(daogrp, "daoloc")
+                for attr, value in old_dao.attrib.items():
+                    daoloc_from_dao.set(attr, value)
 
-                # Cas 3 : Ni <dao> ni <daogrp> n'existe
+                # Ajouter la nouvelle <daoloc> pour osiros_id
+                new_daoloc = etree.SubElement(daogrp, "daoloc")
+                new_daoloc.set("href", url)
+                new_daoloc.set("role", "old_ark")
+
+                # Insérer <daogrp> avant le premier enfant <c> ou à la fin
+                if first_child_c is not None:
+                    index = list(c).index(first_child_c)
+                    c.insert(index, daogrp)
                 else:
-                    new_dao = etree.Element("dao")
-                    new_dao.set("href", osiros_id)
-                    new_dao.set("role", "old_ark")
+                    c.append(daogrp)
 
-                    # Insérer <dao> avant le premier enfant <c> ou à la fin
-                    if first_child_c is not None:
-                        index = list(c).index(first_child_c)
-                        c.insert(index, new_dao)
-                    else:
-                        c.append(new_dao)
+                # Supprimer l'ancienne <dao>
+                c.remove(old_dao)
+
+            # Cas 3 : Ni <dao> ni <daogrp> n'existe
+            else:
+                new_dao = etree.Element("dao")
+                new_dao.set("href", url)
+                new_dao.set("role", "old_ark")
+
+                if first_child_c is not None:
+                    index = list(c).index(first_child_c)
+                    c.insert(index, new_dao)
+                else:
+                    c.append(new_dao)
+
 
     def _strip_whitespace(self, element):
         """Supprime les espaces en début/fin de texte dans les éléments `<controlaccess>`."""
