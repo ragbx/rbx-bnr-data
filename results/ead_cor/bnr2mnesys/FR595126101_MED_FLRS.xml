@@ -43,13 +43,12 @@
       <genreform>Enregistrement sonore</genreform>
     </controlaccess>
     <dsc>
-      <c level="file">
+      <c level="file" osiros_id="BNR23141">
         <did>
           <unitid>FLRS_FLR_78_0101</unitid>
           <unittitle>Valse favorite/Caprice d'oiseau</unittitle>
           <unitdate normal="1950">sans date</unitdate>
           <physdesc>&lt;p&gt;1 disque 78t, 25 cm. Marque : Parlophone. Numéro Commercial, 85280&lt;/p&gt;</physdesc>
-          <repository>MED</repository>
         </did>
         <otherfindaid>
           <extref href="http://www.liberation.fr/culture/1995/12/04/ne-en-1901-dans-le-nord-adolphe-deprince-pionnier-de-l-accordeon-musique-vient-de-mourir-apres-avoir_153097">Hommage de Libération lors de son décès</extref>
@@ -74,9 +73,10 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0101_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0101_4.jpg" role="image:last"/>
+          <daoloc href="BNR23141" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23142">
         <did>
           <unitid>FLRS_DES_25_0147</unitid>
           <unittitle>Vive Heideckburg ! / Ça gaze</unittitle>
@@ -96,6 +96,7 @@
         <controlaccess>
           <subject source="chrono">1946-1959</subject>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -103,17 +104,17 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0147_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0147_4.jpg" role="image:last"/>
+          <daoloc href="BNR23142" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0147_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0147_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23143">
         <did>
           <unitid>FLRS_DES_25_0148</unitid>
           <unittitle>Valse militaire belge / Vieux camarades</unittitle>
           <unitdate normal="1950">avant 1955</unitdate>
           <physdesc>&lt;p&gt;1 disque 78t, 25cm. Marque : Odéon. Numéro Commercial : 165833.&lt;/p&gt;</physdesc>
-          <repository>MED</repository>
         </did>
         <otherfindaid>
           <extref href="http://auditorium-npdc.fr/w/index.php/V._Marceau">En savoir plus sur V. Marceau</extref>
@@ -126,6 +127,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0148_A_01.mp3" role="mp3"/>
         <daogrp>
@@ -134,10 +136,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0148_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0148_4.jpg" role="image:last"/>
+          <daoloc href="BNR23143" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0148_B_01.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23144">
         <did>
           <unitid>FLRS_DES_25_0149</unitid>
           <unittitle>Espada / Quelques mots d'amour</unittitle>
@@ -155,6 +158,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -162,11 +166,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0149_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0149_4.jpg" role="image:last"/>
+          <daoloc href="BNR23144" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0149_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0149_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23145">
         <did>
           <unitid>FLRS_DES_25_0150</unitid>
           <unittitle>Polka des as / Valse des flocons</unittitle>
@@ -184,12 +189,16 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <dao href="RBX_MED_FLRS_DES_25_0150_3.jpg" role="image"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0150_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0150_B_02.mp3" role="mp3"/>
+        <daogrp>
+          <daoloc href="BNR23145" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23146">
         <did>
           <unitid>FLRS_DES_25_0151</unitid>
           <unittitle>Accordeoni / Gardaway</unittitle>
@@ -207,6 +216,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0151_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0151_B_02.mp3" role="mp3"/>
@@ -216,9 +226,10 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0151_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0151_4.jpg" role="image:last"/>
+          <daoloc href="BNR23146" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23147">
         <did>
           <unitid>FLRS_DES_25_0152</unitid>
           <unittitle>Frimoussette / Marche des accordéonistes</unittitle>
@@ -236,6 +247,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -243,11 +255,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0152_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0152_4.jpg" role="image:last"/>
+          <daoloc href="BNR23147" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0152_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0152_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23148">
         <did>
           <unitid>FLRS_DES_25_0153</unitid>
           <unittitle>Polka des virtuoses / Chez les moineaux</unittitle>
@@ -265,6 +278,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -272,11 +286,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0153_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0153_4.jpg" role="image:last"/>
+          <daoloc href="BNR23148" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0153_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0153_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23149">
         <did>
           <unitid>FLRS_DES_25_0481</unitid>
           <unittitle>Tapageuse / Paola</unittitle>
@@ -302,11 +317,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0481_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0481_4.jpg" role="image:last"/>
+          <daoloc href="BNR23149" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0481_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0481_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23150">
         <did>
           <unitid>FLRS_DES_25_0482</unitid>
           <unittitle>Dans les trains l'on chante / Le Rouquin c'est du vin</unittitle>
@@ -332,11 +348,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0482_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0482_4.jpg" role="image:last"/>
+          <daoloc href="BNR23150" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0482_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0482_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23151">
         <did>
           <unitid>FLRS_DES_25_0483</unitid>
           <unittitle>Feu follet / Señorita</unittitle>
@@ -362,11 +379,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0483_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0483_4.jpg" role="image:last"/>
+          <daoloc href="BNR23151" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0483_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0483_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23152">
         <did>
           <unitid>FLRS_DES_25_0484</unitid>
           <unittitle>Retour de Liège / Gigi</unittitle>
@@ -392,11 +410,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0484_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0484_4.jpg" role="image:last"/>
+          <daoloc href="BNR23152" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0484_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0484_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23153">
         <did>
           <unitid>FLRS_DES_25_0490</unitid>
           <unittitle>L'Amour est un secret pour deux / Le Vieux tambour</unittitle>
@@ -422,11 +441,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0490_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0490_4.jpg" role="image:last"/>
+          <daoloc href="BNR23153" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0490_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0490_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23154">
         <did>
           <unitid>FLRS_DES_25_0491</unitid>
           <unittitle>Rêve d'accordéoniste / Ce n'était qu'un soir</unittitle>
@@ -452,11 +472,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0491_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0491_4.jpg" role="image:last"/>
+          <daoloc href="BNR23154" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0491_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0491_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23155">
         <did>
           <unitid>FLRS_DES_25_0492</unitid>
           <unittitle>Faut avoir du culot / Ça tourbillonne</unittitle>
@@ -482,11 +503,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0492_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0492_4.jpg" role="image:last"/>
+          <daoloc href="BNR23155" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0492_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0492_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23156">
         <did>
           <unitid>FLRS_DES_25_0493</unitid>
           <unittitle>Au bord de l'eau une guinguette / Cabrioles</unittitle>
@@ -512,11 +534,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0493_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0493_4.jpg" role="image:last"/>
+          <daoloc href="BNR23156" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0493_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0493_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23157">
         <did>
           <unitid>FLRS_DES_25_0494</unitid>
           <unittitle>Bonhomme / Pandore</unittitle>
@@ -542,11 +565,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0494_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0494_4.jpg" role="image:last"/>
+          <daoloc href="BNR23157" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0494_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0494_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23158">
         <did>
           <unitid>FLRS_DES_25_0502</unitid>
           <unittitle>De Picpus au palais d'Angkor / Riveglio de Napoli</unittitle>
@@ -564,6 +588,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -571,11 +596,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0502_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0502_4.jpg" role="image:last"/>
+          <daoloc href="BNR23158" role="old_ark"/>
         </daogrp>
         <dao href="RBX_MED_FLRS_DES_25_0502_A_01.mp3" role="mp3"/>
         <dao href="RBX_MED_FLRS_DES_25_0502_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23159">
         <did>
           <unitid>FLRS_DES_25_0503</unitid>
           <unittitle>Engadine / Mazurka rapide</unittitle>
@@ -593,6 +619,7 @@
         </acqinfo>
         <controlaccess>
           <subject source="Rameau">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -600,11 +627,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0503_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0503_4.jpg" role="image:last"/>
+          <daoloc href="BNR23159" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0503_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0503_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23160">
         <did>
           <unitid>FLRS_FLR_17_0019</unitid>
           <unittitle>Le Carillon de Saint-Amand</unittitle>
@@ -633,13 +661,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0019_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0019_4.jpg" role="image:last"/>
+          <daoloc href="BNR23160" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0019_A1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0019_A2.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0019_B1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0019_B2.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23161">
         <did>
           <unitid>FLRS_FLR_17_0094</unitid>
           <unittitle>Rancho folclorico portugues de Roubaix</unittitle>
@@ -665,12 +694,13 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0094_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0094_2.jpg" role="image:last"/>
+          <daoloc href="BNR23161" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0094_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0094_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0094_B_03.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23162">
         <did>
           <unitid>FLRS_FLR_17_0248</unitid>
           <unittitle>Tantas livras</unittitle>
@@ -703,11 +733,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0248_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0248_4.jpg" role="image:last"/>
+          <daoloc href="BNR23162" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0248_A.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0248_B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23163">
         <did>
           <unitid>FLRS_FLR_17_0772</unitid>
           <unittitle>Folklore du Cambrésis</unittitle>
@@ -734,11 +765,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0772_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0772_4.jpg" role="image:last"/>
+          <daoloc href="BNR23163" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0772_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0772_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23164">
         <did>
           <unitid>FLRS_FLR_17_0956</unitid>
           <unittitle>Léon Delmulle chante Nadaud</unittitle>
@@ -765,12 +797,13 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0956_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0956_4.jpg" role="image:last"/>
+          <daoloc href="BNR23164" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0956_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0956_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0956_B_03.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23165">
         <did>
           <unitid>FLRS_FLR_17_0967</unitid>
           <unittitle>La Chanson du routier</unittitle>
@@ -796,13 +829,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0967_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0967_4.jpg" role="image:last"/>
+          <daoloc href="BNR23165" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0967_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0967_A_02.mp3" role="mp3"/>
         <dao href="RBX_MED_FLRS_FLR_17_0967_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0967_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23166">
         <did>
           <unitid>FLRS_FLR_17_0971</unitid>
           <unittitle>Parade des soldats de bois</unittitle>
@@ -828,13 +862,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0971_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0971_4.jpg" role="image:last"/>
+          <daoloc href="BNR23166" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0971_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0971_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0971_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0971_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23167">
         <did>
           <unitid>FLRS_FLR_17_0972</unitid>
           <unittitle>La Polka d'amour</unittitle>
@@ -860,13 +895,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0972_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0972_4.jpg" role="image:last"/>
+          <daoloc href="BNR23167" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0972_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0972_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0972_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0972_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23168">
         <did>
           <unitid>FLRS_FLR_17_0981</unitid>
           <unittitle>Le Carnaval de Dunkerque</unittitle>
@@ -893,10 +929,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0981_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0981_4.jpg" role="image:last"/>
+          <daoloc href="BNR23168" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0981_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23169">
         <did>
           <unitid>FLRS_FLR_17_1007</unitid>
           <unittitle>Le Carillon de Douai II</unittitle>
@@ -915,6 +952,7 @@
         <controlaccess>
           <subject source="Rameau">Carillon</subject>
           <subject source="Rameau">Orgue</subject>
+          <persname normal="Staf Nees" role="carillonneur">Nees, Staf </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -922,6 +960,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1007_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1007_4.jpg" role="image:last"/>
+          <daoloc href="BNR23169" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1007_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1007_A_02.mp3" role="mp3"/>
@@ -929,7 +968,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1007_B_04.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1007_B_05.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23170">
         <did>
           <unitid>FLRS_FLR_17_1075</unitid>
           <unittitle>En direct du Carnaval dunkerquois</unittitle>
@@ -955,10 +994,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1075_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1075_4.jpg" role="image:last"/>
+          <daoloc href="BNR23170" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1075_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23171">
         <did>
           <unitid>FLRS_FLR_17_1294</unitid>
           <unittitle>Cercle orphéonique de Roubaix</unittitle>
@@ -981,13 +1021,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1294_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1294_4.jpg" role="image:last"/>
+          <daoloc href="BNR23171" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1294_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1294_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1294_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1294_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23172">
         <did>
           <unitid>FLRS_FLR_17_1576</unitid>
           <unittitle>Piotr Pochciol i Alex Kapusta</unittitle>
@@ -1017,13 +1058,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1576_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1576_4.jpg" role="image:last"/>
+          <daoloc href="BNR23172" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1576_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1576_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1576_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1576_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23173">
         <did>
           <unitid>FLRS_FLR_17_1577</unitid>
           <unittitle>Piotr Pochciol i Alex Kapusta</unittitle>
@@ -1053,13 +1095,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1577_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1577_4.jpg" role="image:last"/>
+          <daoloc href="BNR23173" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1577_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1577_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1577_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1577_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23174">
         <did>
           <unitid>FLRS_FLR_17_1685</unitid>
           <unittitle>Succès polonais N°9</unittitle>
@@ -1088,13 +1131,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1685_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1685_4.jpg" role="image:last"/>
+          <daoloc href="BNR23174" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1685_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1685_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1685_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1685_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23175">
         <did>
           <unitid>FLRS_FLR_17_1696</unitid>
           <unittitle>Alex Kapusta</unittitle>
@@ -1124,13 +1168,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1696_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1696_4.jpg" role="image:last"/>
+          <daoloc href="BNR23175" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1696_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1696_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1696_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1696_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23176">
         <did>
           <unitid>FLRS_FLR_17_1699</unitid>
           <unittitle>KSMP</unittitle>
@@ -1158,13 +1203,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1699_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1699_4.jpg" role="image:last"/>
+          <daoloc href="BNR23176" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1699_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1699_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1699_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1699_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23177">
         <did>
           <unitid>FLRS_FLR_17_1750</unitid>
           <unittitle>Alfredo</unittitle>
@@ -1192,11 +1238,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1750_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1750_4.jpg" role="image:last"/>
+          <daoloc href="BNR23177" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1750_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1750_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23178">
         <did>
           <unitid>FLRS_FLR_17_1765</unitid>
           <unittitle>Hanka</unittitle>
@@ -1224,11 +1271,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1765_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1765_4.jpg" role="image:last"/>
+          <daoloc href="BNR23178" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1765_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1765_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23179">
         <did>
           <unitid>FLRS_FLR_17_1777</unitid>
           <unittitle>Iskra Bruay</unittitle>
@@ -1258,12 +1306,13 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1777_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1777_4.jpg" role="image:last"/>
+          <daoloc href="BNR23179" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1777_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1777_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1777_B_03.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23180">
         <did>
           <unitid>FLRS_FLR_17_1782</unitid>
           <unittitle>Les Corsaires dunkerquois et Jacques Yvart chantent ensemble</unittitle>
@@ -1293,6 +1342,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1782_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1782_4.jpg" role="image:last"/>
+          <daoloc href="BNR23180" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1782_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1782_A_02.mp3" role="mp3"/>
@@ -1300,7 +1350,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1782_B_04.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1782_B_05.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23181">
         <did>
           <unitid>FLRS_FLR_17_1891</unitid>
           <unittitle>Mont Cassel</unittitle>
@@ -1320,11 +1370,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1891_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1891_4.jpg" role="image:last"/>
+          <daoloc href="BNR23181" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1891_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1891_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23182">
         <did>
           <unitid>FLRS_FLR_17_1917</unitid>
           <unittitle>Edeck Kwiatkowski</unittitle>
@@ -1353,13 +1404,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1917_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1917_4.jpg" role="image:last"/>
+          <daoloc href="BNR23182" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1917_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1917_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1917_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1917_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23183">
         <did>
           <unitid>FLRS_FLR_17_1920</unitid>
           <unittitle>Rudy Krakowski et son orchestre</unittitle>
@@ -1388,13 +1440,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1920_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1920_4.jpg" role="image:last"/>
+          <daoloc href="BNR23183" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1920_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1920_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1920_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1920_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23184">
         <did>
           <unitid>FLRS_FLR_17_1978</unitid>
           <unittitle>Starszo - Harcerski Krag Warszawianka</unittitle>
@@ -1423,13 +1476,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1978_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1978_4.jpg" role="image:last"/>
+          <daoloc href="BNR23184" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1978_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1978_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1978_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1978_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23185">
         <did>
           <unitid>FLRS_FLR_17_1990</unitid>
           <unittitle>Succès polonais N°3</unittitle>
@@ -1458,13 +1512,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1990_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1990_4.jpg" role="image:last"/>
+          <daoloc href="BNR23185" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1990_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1990_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1990_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1990_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23186">
         <did>
           <unitid>FLRS_FLR_17_1993</unitid>
           <unittitle>Szczesliwe Serce</unittitle>
@@ -1494,13 +1549,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1993_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1993_4.jpg" role="image:last"/>
+          <daoloc href="BNR23186" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1993_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1993_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1993_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1993_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23187">
         <did>
           <unitid>FLRS_FLR_17_2005</unitid>
           <unittitle>Iskra Bruay</unittitle>
@@ -1529,13 +1585,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2005_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2005_4.jpg" role="image:last"/>
+          <daoloc href="BNR23187" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2005_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2005_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2005_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2005_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23188">
         <did>
           <unitid>FLRS_FLR_17_2014</unitid>
           <unittitle>Soir de mai</unittitle>
@@ -1564,13 +1621,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2014_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2014_4.jpg" role="image:last"/>
+          <daoloc href="BNR23188" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2014_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2014_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2014_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2014_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23189">
         <did>
           <unitid>FLRS_FLR_17_2018</unitid>
           <unittitle>Ensemble polonais Sonora-Houdain</unittitle>
@@ -1600,13 +1658,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2018_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2018_4.jpg" role="image:last"/>
+          <daoloc href="BNR23189" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2018_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2018_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2018_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2018_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23190">
         <did>
           <unitid>FLRS_FLR_17_2021</unitid>
           <unittitle>Carnaval dunkerquois</unittitle>
@@ -1634,12 +1693,13 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2021_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2021_4.jpg" role="image:last"/>
+          <daoloc href="BNR23190" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2021_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2021_B_02+3.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2021_B_03.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23191">
         <did>
           <unitid>FLRS_FLR_17_2025</unitid>
           <unittitle>Le Carillon de Douai I</unittitle>
@@ -1665,6 +1725,7 @@
         <controlaccess>
           <subject source="Rameau">Carillon</subject>
           <subject source="Rameau">Orgue</subject>
+          <persname normal="Staf Nees" role="carillonneur">Nees, Staf </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1672,6 +1733,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2025_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2025_4.jpg" role="image:last"/>
+          <daoloc href="BNR23191" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2025_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2025_A_02.mp3" role="mp3"/>
@@ -1679,7 +1741,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2025_B_04.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2025_B_05.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23192">
         <did>
           <unitid>FLRS_FLR_17_2197</unitid>
           <unittitle>Wtyrolu</unittitle>
@@ -1708,13 +1770,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2197_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2197_4.jpg" role="image:last"/>
+          <daoloc href="BNR23192" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2197_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2197_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2197_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2197_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23193">
         <did>
           <unitid>FLRS_FLR_17_2224</unitid>
           <unittitle>Typla</unittitle>
@@ -1743,13 +1806,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2224_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2224_4.jpg" role="image:last"/>
+          <daoloc href="BNR23193" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2224_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2224_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2224_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2224_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23194">
         <did>
           <unitid>FLRS_FLR_17_2231</unitid>
           <unittitle>Ballade irlandaise</unittitle>
@@ -1776,13 +1840,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2231_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2231_4.jpg" role="image:last"/>
+          <daoloc href="BNR23194" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2231_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2231_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2231_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2231_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23195">
         <did>
           <unitid>FLRS_FLR_17_2234</unitid>
           <unittitle>Gdy Wrocisz (Qu'importe)</unittitle>
@@ -1812,13 +1877,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2234_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2234_4.jpg" role="image:last"/>
+          <daoloc href="BNR23195" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2234_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2234_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2234_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2234_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23196">
         <did>
           <unitid>FLRS_FLR_17_2247</unitid>
           <unittitle>La navette en fête</unittitle>
@@ -1847,11 +1913,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2247_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2247_4.jpg" role="image:last"/>
+          <daoloc href="BNR23196" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2247_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2247_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23197">
         <did>
           <unitid>FLRS_FLR_17_2389</unitid>
           <unittitle>Moja Dziewczyna</unittitle>
@@ -1880,6 +1947,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2389_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2389_2.jpg" role="image:last"/>
+          <daoloc href="BNR23197" role="old_ark"/>
         </daogrp>
         <daogrp>
           <daodesc>
@@ -1893,7 +1961,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2389_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2389_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23198">
         <did>
           <unitid>FLRS_FLR_17_2398</unitid>
           <unittitle>W Lewo W Prawo</unittitle>
@@ -1923,11 +1991,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2398_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2398_4.jpg" role="image:last"/>
+          <daoloc href="BNR23198" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2398_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2398_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23199">
         <did>
           <unitid>FLRS_FLR_17_2427</unitid>
           <unittitle>El Marcelo</unittitle>
@@ -1951,13 +2020,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2427_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2427_4.jpg" role="image:last"/>
+          <daoloc href="BNR23199" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2427_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2427_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2427_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2427_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23200">
         <did>
           <unitid>FLRS_FLR_17_2488</unitid>
           <unittitle>Carnaval dunkerquois</unittitle>
@@ -1986,11 +2056,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2488_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2488_4.jpg" role="image:last"/>
+          <daoloc href="BNR23200" role="old_ark"/>
         </daogrp>
         <dao href="RBX_MED_FLRS_FLR_17_2488_A_01.mp3" role="mp3"/>
         <dao href="RBX_MED_FLRS_FLR_17_2488_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23201">
         <did>
           <unitid>FLRS_FLR_17_2516</unitid>
           <unittitle>Evasion</unittitle>
@@ -2017,11 +2088,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2516_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2516_4.jpg" role="image:last"/>
+          <daoloc href="BNR23201" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2516_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2516_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23202">
         <did>
           <unitid>FLRS_FLR_17_2517</unitid>
           <unittitle>Amour et mariage</unittitle>
@@ -2048,11 +2120,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2517_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2517_4.jpg" role="image:last"/>
+          <daoloc href="BNR23202" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2517_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2517_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23203">
         <did>
           <unitid>FLRS_FLR_17_2532</unitid>
           <unittitle>Iskra Bruay</unittitle>
@@ -2082,13 +2155,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2532_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2532_4.jpg" role="image:last"/>
+          <daoloc href="BNR23203" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2532_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2532_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2532_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2532_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23204">
         <did>
           <unitid>FLRS_FLR_17_2664</unitid>
           <unittitle>Wesele u Michala</unittitle>
@@ -2120,13 +2194,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2664_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2664_4.jpg" role="image:last"/>
+          <daoloc href="BNR23204" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2664_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2664_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2664_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2664_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23205">
         <did>
           <unitid>FLRS_FLR_17_2668</unitid>
           <unittitle>Succès polonais n°4</unittitle>
@@ -2156,13 +2231,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2668_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2668_4.jpg" role="image:last"/>
+          <daoloc href="BNR23205" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2668_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2668_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2668_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2668_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23206">
         <did>
           <unitid>FLRS_FLR_17_2669</unitid>
           <unittitle>Groupe K.S.M.P. "Wiosna"</unittitle>
@@ -2190,13 +2266,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2669_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2669_4.jpg" role="image:last"/>
+          <daoloc href="BNR23206" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2669_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2669_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2669_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2669_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23207">
         <did>
           <unitid>FLRS_FLR_17_2910</unitid>
           <unittitle>Iskra Bruay</unittitle>
@@ -2226,13 +2303,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2910_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2910_4.jpg" role="image:last"/>
+          <daoloc href="BNR23207" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2910_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2910_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2910_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2910_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23208">
         <did>
           <unitid>FLRS_FLR_17_2911</unitid>
           <unittitle>Soir de mai 4</unittitle>
@@ -2262,13 +2340,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2911_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2911_4.jpg" role="image:last"/>
+          <daoloc href="BNR23208" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2911_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2911_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2911_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2911_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23209">
         <did>
           <unitid>FLRS_FLR_17_2912</unitid>
           <unittitle>Soir de mai 3</unittitle>
@@ -2298,13 +2377,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2912_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2912_4.jpg" role="image:last"/>
+          <daoloc href="BNR23209" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2912_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2912_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2912_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2912_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23210">
         <did>
           <unitid>FLRS_FLR_17_2947</unitid>
           <unittitle>Succès populaires polonais 1</unittitle>
@@ -2334,13 +2414,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2947_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2947_4.jpg" role="image:last"/>
+          <daoloc href="BNR23210" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2947_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2947_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2947_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2947_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23211">
         <did>
           <unitid>FLRS_FLR_17_3050</unitid>
           <unittitle>Maurice Larcange</unittitle>
@@ -2367,13 +2448,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3050_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3050_4.jpg" role="image:last"/>
+          <daoloc href="BNR23211" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3050_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3050_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3050_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3050_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23212">
         <did>
           <unitid>FLRS_FLR_17_3222</unitid>
           <unittitle>Groupe K.S.M.P. </unittitle>
@@ -2401,13 +2483,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3222_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3222_4.jpg" role="image:last"/>
+          <daoloc href="BNR23212" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3222_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3222_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3222_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3222_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23213">
         <did>
           <unitid>FLRS_FLR_17_3228</unitid>
           <unittitle>Stanislas Kozierski Z Jego Orkiestra</unittitle>
@@ -2436,13 +2519,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3228_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3228_4.jpg" role="image:last"/>
+          <daoloc href="BNR23213" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3228_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3228_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3228_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3228_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23214">
         <did>
           <unitid>FLRS_FLR_17_3230</unitid>
           <unittitle>Chants populaires polonais</unittitle>
@@ -2472,6 +2556,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3230_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3230_4.jpg" role="image:last"/>
+          <daoloc href="BNR23214" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3230_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3230_A_02.mp3" role="mp3"/>
@@ -2479,7 +2564,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3230_B_04.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3230_B_05.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23215">
         <did>
           <unitid>FLRS_FLR_17_3254</unitid>
           <unittitle>Danses de Pologne vol.1</unittitle>
@@ -2517,13 +2602,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3254_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3254_4.jpg" role="image:last"/>
+          <daoloc href="BNR23215" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3254_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3254_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3254_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3254_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23216">
         <did>
           <unitid>FLRS_FLR_17_3265</unitid>
           <unittitle>Echo Houdain</unittitle>
@@ -2554,13 +2640,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3265_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3265_4.jpg" role="image:last"/>
+          <daoloc href="BNR23216" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3265_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3265_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3265_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3265_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23217">
         <did>
           <unitid>FLRS_FLR_17_3266</unitid>
           <unittitle>Koledy (Noëls polonais)</unittitle>
@@ -2592,13 +2679,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3266_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3266_4.jpg" role="image:last"/>
+          <daoloc href="BNR23217" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3266_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3266_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3266_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3266_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23218">
         <did>
           <unitid>FLRS_FLR_17_3267</unitid>
           <unittitle>Succès polonais n°1</unittitle>
@@ -2628,13 +2716,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3267_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3267_4.jpg" role="image:last"/>
+          <daoloc href="BNR23218" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3267_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3267_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3267_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3267_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23219">
         <did>
           <unitid>FLRS_FLR_17_3268</unitid>
           <unittitle>Soirée polonaise</unittitle>
@@ -2665,13 +2754,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3268_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3268_4.jpg" role="image:last"/>
+          <daoloc href="BNR23219" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3268_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3268_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3268_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3268_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23220">
         <did>
           <unitid>FLRS_FLR_17_3304</unitid>
           <unittitle>La Guitare du ciel</unittitle>
@@ -2699,6 +2789,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3304_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3304_4.jpg" role="image:last"/>
+          <daoloc href="BNR23220" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3304_A_01+2.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3304_A_03.mp3" role="mp3"/>
@@ -2706,7 +2797,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3304_B_05.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3304_B_06.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23221">
         <did>
           <unitid>FLRS_FLR_17_3496</unitid>
           <unittitle>Maurice Larcange et son accordéon</unittitle>
@@ -2733,13 +2824,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3496_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3496_4.jpg" role="image:last"/>
+          <daoloc href="BNR23221" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3496_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3496_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3496_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3496_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23222">
         <did>
           <unitid>FLRS_FLR_17_3533</unitid>
           <unittitle>Les Roubaignos sont toudis là</unittitle>
@@ -2764,13 +2856,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3533_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3533_4.jpg" role="image:last"/>
+          <daoloc href="BNR23222" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3533_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3533_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3533_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3533_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23223">
         <did>
           <unitid>FLRS_FLR_17_3570</unitid>
           <unittitle>Souvenir de Pologne</unittitle>
@@ -2801,13 +2894,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3570_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3570_4.jpg" role="image:last"/>
+          <daoloc href="BNR23223" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3570_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3570_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3570_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3570_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23224">
         <did>
           <unitid>FLRS_FLR_17_3572</unitid>
           <unittitle>Soir de mai</unittitle>
@@ -2839,13 +2933,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3572_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3572_4.jpg" role="image:last"/>
+          <daoloc href="BNR23224" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3572_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3572_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3572_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3572_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23225">
         <did>
           <unitid>FLRS_FLR_17_3598</unitid>
           <unittitle>Bastille - Musette</unittitle>
@@ -2872,13 +2967,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3598_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3598_4.jpg" role="image:last"/>
+          <daoloc href="BNR23225" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3598_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3598_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3598_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3598_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23226">
         <did>
           <unitid>FLRS_FLR_17_3670</unitid>
           <unittitle>Chants et danses de la Flandre française</unittitle>
@@ -2907,6 +3003,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3670_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3670_4.jpg" role="image:last"/>
+          <daoloc href="BNR23226" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3670_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3670_A_02.mp3" role="mp3"/>
@@ -2917,7 +3014,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3670_B_07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3670_B_08.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23227">
         <did>
           <unitid>FLRS_FLR_17_3709</unitid>
           <unittitle>Tequila</unittitle>
@@ -2943,13 +3040,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3709_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3709_4.jpg" role="image:last"/>
+          <daoloc href="BNR23227" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3709_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3709_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3709_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3709_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23228">
         <did>
           <unitid>FLRS_FLR_17_3731</unitid>
           <unittitle>Pigalle - Musette</unittitle>
@@ -2976,6 +3074,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3731_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3731_2.jpg" role="image:last"/>
+          <daoloc href="BNR23228" role="old_ark"/>
         </daogrp>
         <daogrp>
           <daodesc>
@@ -2989,7 +3088,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3731_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3731_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23229">
         <did>
           <unitid>FLRS_FLR_17_3857</unitid>
           <unittitle>Au carnaval de Saint-Pol</unittitle>
@@ -3012,11 +3111,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_3857_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_3857_4.jpg" role="image:last"/>
+          <daoloc href="BNR23229" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3857_A_01+2.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_3857_B_03+4.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23230">
         <did>
           <unitid>FLRS_FLR_17_4568</unitid>
           <unittitle>Week-end musette</unittitle>
@@ -3043,13 +3143,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_4568_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_4568_4.jpg" role="image:last"/>
+          <daoloc href="BNR23230" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_4568_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_4568_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_4568_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_4568_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23231">
         <did>
           <unitid>FLRS_FLR_25_0903</unitid>
           <unittitle>Aimable a l'ducasse (Aimable op de kerremesse)</unittitle>
@@ -3075,6 +3176,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_0903_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_0903_4.jpg" role="image:last"/>
+          <daoloc href="BNR23231" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_0903_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_0903_A_02.mp3" role="mp3"/>
@@ -3087,7 +3189,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_0903_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_0903_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23232">
         <did>
           <unitid>FLRS_FLR_25_1525</unitid>
           <unittitle>Tancowka U Polakow n°2</unittitle>
@@ -3115,6 +3217,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1525_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1525_4.jpg" role="image:last"/>
+          <daoloc href="BNR23232" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1525_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1525_A_02.mp3" role="mp3"/>
@@ -3125,7 +3228,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1525_B_07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1525_B_08.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23233">
         <did>
           <unitid>FLRS_FLR_25_1529</unitid>
           <unittitle>10 grands succès</unittitle>
@@ -3151,6 +3254,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1529_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1529_4.jpg" role="image:last"/>
+          <daoloc href="BNR23233" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1529_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1529_A_02.mp3" role="mp3"/>
@@ -3163,7 +3267,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1529_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1529_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23234">
         <did>
           <unitid>FLRS_FLR_25_1530</unitid>
           <unittitle>Gra Na Wesolego</unittitle>
@@ -3191,6 +3295,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1530_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1530_4.jpg" role="image:last"/>
+          <daoloc href="BNR23234" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1530_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1530_A_02.mp3" role="mp3"/>
@@ -3203,7 +3308,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1530_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1530_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23235">
         <did>
           <unitid>FLRS_FLR_25_1531</unitid>
           <unittitle>Polskie Wspomnienia</unittitle>
@@ -3232,6 +3337,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1531_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1531_4.jpg" role="image:last"/>
+          <daoloc href="BNR23235" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1531_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1531_A_02.mp3" role="mp3"/>
@@ -3243,7 +3349,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1531_B_08.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1531_B_09.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23236">
         <did>
           <unitid>FLRS_FLR_25_1532</unitid>
           <unittitle>Hulaj Bracie Kubiak Gra</unittitle>
@@ -3271,6 +3377,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1532_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1532_4.jpg" role="image:last"/>
+          <daoloc href="BNR23236" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1532_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1532_A_02.mp3" role="mp3"/>
@@ -3283,7 +3390,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1532_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1532_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23237">
         <did>
           <unitid>FLRS_FLR_25_1533</unitid>
           <unittitle>Kubiak Was Wita Do Tanca</unittitle>
@@ -3312,6 +3419,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1533_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1533_4.jpg" role="image:last"/>
+          <daoloc href="BNR23237" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1533_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1533_A_02.mp3" role="mp3"/>
@@ -3321,7 +3429,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1533_B_07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1533_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23238">
         <did>
           <unitid>FLRS_FLR_25_1534</unitid>
           <unittitle>Dzis Wieczorem Tanczymy</unittitle>
@@ -3349,6 +3457,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_1534_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_1534_4.jpg" role="image:last"/>
+          <daoloc href="BNR23238" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1534_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1534_A_02.mp3" role="mp3"/>
@@ -3359,7 +3468,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1534_B_07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_1534_B_08.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23239">
         <did>
           <unitid>FLRS_FLR_25_2282</unitid>
           <unittitle>Bal champêtre</unittitle>
@@ -3385,6 +3494,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2282_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2282_4.jpg" role="image:last"/>
+          <daoloc href="BNR23239" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2282_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2282_A_02.mp3" role="mp3"/>
@@ -3394,7 +3504,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2282_B_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2282_B_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23240">
         <did>
           <unitid>FLRS_FLR_25_2543</unitid>
           <unittitle>Soir de mai</unittitle>
@@ -3425,6 +3535,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2543_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2543_4.jpg" role="image:last"/>
+          <daoloc href="BNR23240" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2543_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2543_A_02.mp3" role="mp3"/>
@@ -3437,7 +3548,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2543_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2543_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23241">
         <did>
           <unitid>FLRS_FLR_25_2544</unitid>
           <unittitle>Entre Pigalle et Blanche</unittitle>
@@ -3464,6 +3575,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2544_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2544_4.jpg" role="image:last"/>
+          <daoloc href="BNR23241" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2544_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2544_A_02.mp3" role="mp3"/>
@@ -3476,7 +3588,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2544_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2544_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23242">
         <did>
           <unitid>FLRS_FLR_25_2545</unitid>
           <unittitle>Soir de Mai N°2</unittitle>
@@ -3507,11 +3619,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2545_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2545_4.jpg" role="image:last"/>
+          <daoloc href="BNR23242" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2545_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2545_A_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23243">
         <did>
           <unitid>FLRS_FLR_25_2681</unitid>
           <unittitle>Gdy Novak Gra Wszyccy Tancza</unittitle>
@@ -3537,6 +3650,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2681_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2681_4.jpg" role="image:last"/>
+          <daoloc href="BNR23243" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2681_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2681_A_02.mp3" role="mp3"/>
@@ -3549,7 +3663,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2681_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2681_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23244">
         <did>
           <unitid>FLRS_FLR_25_2798</unitid>
           <unittitle>Vive la mariée !</unittitle>
@@ -3575,6 +3689,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2798_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2798_4.jpg" role="image:last"/>
+          <daoloc href="BNR23244" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2798_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2798_A_02.mp3" role="mp3"/>
@@ -3589,7 +3704,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2798_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2798_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23245">
         <did>
           <unitid>FLRS_FLR_25_2965</unitid>
           <unittitle>Grands boulevards</unittitle>
@@ -3615,11 +3730,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2965_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2965_4.jpg" role="image:last"/>
+          <daoloc href="BNR23245" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2965_A_01 A17.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2965_B_18 A34.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23246">
         <did>
           <unitid>FLRS_FLR_25_2998</unitid>
           <unittitle>La Complainte de la butte</unittitle>
@@ -3645,6 +3761,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2998_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2998_4.jpg" role="image:last"/>
+          <daoloc href="BNR23246" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2998_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2998_A_02.mp3" role="mp3"/>
@@ -3657,7 +3774,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2998_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2998_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23247">
         <did>
           <unitid>FLRS_FLR_25_3202</unitid>
           <unittitle>Soir de Mai N°3</unittitle>
@@ -3688,6 +3805,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3202_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3202_4.jpg" role="image:last"/>
+          <daoloc href="BNR23247" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3202_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3202_A_02.mp3" role="mp3"/>
@@ -3700,7 +3818,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3202_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3202_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23248">
         <did>
           <unitid>FLRS_FLR_25_3302</unitid>
           <unittitle>Musette 100 % vol.2</unittitle>
@@ -3726,6 +3844,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3302_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3302_4.jpg" role="image:last"/>
+          <daoloc href="BNR23248" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3302_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3302_A_02.mp3" role="mp3"/>
@@ -3738,7 +3857,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3302_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3302_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23249">
         <did>
           <unitid>FLRS_FLR_25_3329</unitid>
           <unittitle>Au bal de l'accordéon</unittitle>
@@ -3764,6 +3883,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3329_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3329_4.jpg" role="image:last"/>
+          <daoloc href="BNR23249" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3329_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3329_A_02.mp3" role="mp3"/>
@@ -3776,7 +3896,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3329_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3329_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23250">
         <did>
           <unitid>FLRS_FLR_25_3360</unitid>
           <unittitle>Aimable en Bretagne</unittitle>
@@ -3802,6 +3922,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3360_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3360_4.jpg" role="image:last"/>
+          <daoloc href="BNR23250" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3360_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3360_A_02.mp3" role="mp3"/>
@@ -3817,7 +3938,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3360_B_12.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3360_B_13.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23251">
         <did>
           <unitid>FLRS_FLR_25_3504</unitid>
           <unittitle>Przy Ognisku = Feu de camp n°2</unittitle>
@@ -3846,11 +3967,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3504_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3504_4.jpg" role="image:last"/>
+          <daoloc href="BNR23251" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3504_A_01a07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3504_B_08a14.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23252">
         <did>
           <unitid>FLRS_FLR_25_3903</unitid>
           <unittitle>Ça, cest chouette</unittitle>
@@ -3877,6 +3999,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_3903_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_3903_4.jpg" role="image:last"/>
+          <daoloc href="BNR23252" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3903_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3903_A_02.mp3" role="mp3"/>
@@ -3889,7 +4012,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3903_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_3903_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23253">
         <did>
           <unitid>FLRS_FLR_25_4142</unitid>
           <unittitle>Symphonie de la nature</unittitle>
@@ -3915,6 +4038,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4142_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4142_4.jpg" role="image:last"/>
+          <daoloc href="BNR23253" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4142_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4142_A_02.mp3" role="mp3"/>
@@ -3927,7 +4051,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4142_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4142_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23254">
         <did>
           <unitid>FLRS_FLR_25_4205</unitid>
           <unittitle>Souvenirs-musette</unittitle>
@@ -3953,6 +4077,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4205_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4205_4.jpg" role="image:last"/>
+          <daoloc href="BNR23254" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4205_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4205_A_02.mp3" role="mp3"/>
@@ -3966,7 +4091,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4205_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4205_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23255">
         <did>
           <unitid>FLRS_FLR_25_4206</unitid>
           <unittitle>Aimable, son accordéon et son orgue</unittitle>
@@ -3993,6 +4118,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4206_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4206_4.jpg" role="image:last"/>
+          <daoloc href="BNR23255" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4206_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4206_A_02.mp3" role="mp3"/>
@@ -4005,7 +4131,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4206_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4206_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23256">
         <did>
           <unitid>FLRS_FLR_25_4314</unitid>
           <unittitle>24 grands succès</unittitle>
@@ -4032,6 +4158,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4314_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4314_4.jpg" role="image:last"/>
+          <daoloc href="BNR23256" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4314_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4314_A_02.mp3" role="mp3"/>
@@ -4044,7 +4171,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4314_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4314_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23257">
         <did>
           <unitid>FLRS_FLR_25_4337</unitid>
           <unittitle>Musette 100 %</unittitle>
@@ -4070,6 +4197,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4337_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4337_4.jpg" role="image:last"/>
+          <daoloc href="BNR23257" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4337_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4337_A_02.mp3" role="mp3"/>
@@ -4079,7 +4207,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4337_B_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4337_B_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23258">
         <did>
           <unitid>FLRS_FLR_25_4339</unitid>
           <unittitle>Aimable Italie</unittitle>
@@ -4105,6 +4233,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4339_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4339_4.jpg" role="image:last"/>
+          <daoloc href="BNR23258" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4339_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4339_A_02.mp3" role="mp3"/>
@@ -4117,7 +4246,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4339_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4339_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23259">
         <did>
           <unitid>FLRS_FLR_25_4440</unitid>
           <unittitle>Refrains de Paris</unittitle>
@@ -4143,11 +4272,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_4440_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_4440_4.jpg" role="image:last"/>
+          <daoloc href="BNR23259" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4440_A_01a16.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_4440_B_17a32.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23260">
         <did>
           <unitid>FLRS_FLR_30_0002</unitid>
           <unittitle>L'Art campanaire</unittitle>
@@ -4175,6 +4305,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0002_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0002_6.jpg" role="image:last"/>
+          <daoloc href="BNR23260" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0002_A_01a09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0002_A_01.mp3" role="mp3"/>
@@ -4196,7 +4327,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0002_B_16.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0002_B_17.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23261">
         <did>
           <unitid>FLRS_FLR_30_0005</unitid>
           <unittitle>Les Orgues chantent dans le Nord : la variation</unittitle>
@@ -4225,6 +4356,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0005_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0005_12.jpg" role="image:last"/>
+          <daoloc href="BNR23261" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0005_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0005_A_02.mp3" role="mp3"/>
@@ -4234,7 +4366,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0005_B_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0005_B_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23262">
         <did>
           <unitid>FLRS_FLR_30_0006</unitid>
           <unittitle>Les Orgues chantent dans le Pas-de-Calais : La Variation</unittitle>
@@ -4263,6 +4395,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0006_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0006_10.jpg" role="image:last"/>
+          <daoloc href="BNR23262" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0006_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0006_A_02.mp3" role="mp3"/>
@@ -4271,7 +4404,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0006_B_05.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0006_B_06.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23263">
         <did>
           <unitid>FLRS_FLR_30_0022</unitid>
           <unittitle>Chansons traditionelles flamandes</unittitle>
@@ -4300,6 +4433,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0022_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0022_4.jpg" role="image:last"/>
+          <daoloc href="BNR23263" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0022_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0022_A_02.mp3" role="mp3"/>
@@ -4314,7 +4448,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0022_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0022_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23264">
         <did>
           <unitid>FLRS_FLR_30_0025</unitid>
           <unittitle>Volksliederen uit Frans Vlaanderen vol. 1</unittitle>
@@ -4342,6 +4476,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0025_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0025_6.jpg" role="image:last"/>
+          <daoloc href="BNR23264" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0025_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0025_A_02.mp3" role="mp3"/>
@@ -4358,7 +4493,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0025_B_13.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0025_B_14.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23265">
         <did>
           <unitid>FLRS_FLR_30_0027</unitid>
           <unittitle>Volksliederen uit Frans Vlaanderen vol. 2</unittitle>
@@ -4386,6 +4521,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0027_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0027_6.jpg" role="image:last"/>
+          <daoloc href="BNR23265" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0027_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0027_A_02.mp3" role="mp3"/>
@@ -4401,7 +4537,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0027_B_12.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0027_B_13.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23266">
         <did>
           <unitid>FLRS_FLR_30_0028</unitid>
           <unittitle>Danse la Flandre</unittitle>
@@ -4429,6 +4565,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0028_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0028_4.jpg" role="image:last"/>
+          <daoloc href="BNR23266" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0028_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0028_A_02.mp3" role="mp3"/>
@@ -4440,7 +4577,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0028_B_08.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0028_B_09.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23267">
         <did>
           <unitid>FLRS_FLR_30_0149</unitid>
           <unittitle>Les 5 de l'accordéon</unittitle>
@@ -4461,6 +4598,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0149_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0149_4.jpg" role="image:last"/>
+          <daoloc href="BNR23267" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0149_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0149_A_02.mp3" role="mp3"/>
@@ -4475,7 +4613,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0149_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0149_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23268">
         <did>
           <unitid>FLRS_FLR_30_0385</unitid>
           <unittitle>Dunkerque 1900</unittitle>
@@ -4503,6 +4641,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0385_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0385_6.jpg" role="image:last"/>
+          <daoloc href="BNR23268" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0385_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0385_A_02.mp3" role="mp3"/>
@@ -4514,7 +4653,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0385_B_08.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0385_B_09.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23269">
         <did>
           <unitid>FLRS_FLR_30_0594</unitid>
           <unittitle>Carillon ambulant de Douai</unittitle>
@@ -4538,6 +4677,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0594_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0594_4.jpg" role="image:last"/>
+          <daoloc href="BNR23269" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0594_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0594_A_02.mp3" role="mp3"/>
@@ -4551,7 +4691,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0594_B_10.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0594_B_11.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23270">
         <did>
           <unitid>FLRS_FLR_30_0718</unitid>
           <unittitle>Le Vent du bas pays</unittitle>
@@ -4579,6 +4719,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0718_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0718_6.jpg" role="image:last"/>
+          <daoloc href="BNR23270" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0718_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0718_A_02.mp3" role="mp3"/>
@@ -4591,7 +4732,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0718_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0718_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23271">
         <did>
           <unitid>FLRS_FLR_30_0841</unitid>
           <unittitle>Sélection de onze harmonies municipales du Nord </unittitle>
@@ -4614,6 +4755,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0841_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0841_8.jpg" role="image:last"/>
+          <daoloc href="BNR23271" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0841_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0841_A_02.mp3" role="mp3"/>
@@ -4629,7 +4771,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0841_D_12.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0841_D_13.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23272">
         <did>
           <unitid>FLRS_FLR_30_0986</unitid>
           <unittitle>Et ça tourne !</unittitle>
@@ -4656,6 +4798,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0986_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0986_4.jpg" role="image:last"/>
+          <daoloc href="BNR23272" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0986_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0986_A_02.mp3" role="mp3"/>
@@ -4682,7 +4825,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0986_B_23.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0986_B_24.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23273">
         <did>
           <unitid>FLRS_FLR_30_0987</unitid>
           <unittitle>Les Gars du Nord</unittitle>
@@ -4709,6 +4852,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0987_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0987_4.jpg" role="image:last"/>
+          <daoloc href="BNR23273" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0987_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0987_A_02.mp3" role="mp3"/>
@@ -4723,7 +4867,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0987_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0987_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23274">
         <did>
           <unitid>FLRS_FLR_30_0997</unitid>
           <unittitle>Carillon de Seclin</unittitle>
@@ -4752,6 +4896,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0997_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0997_4.jpg" role="image:last"/>
+          <daoloc href="BNR23274" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0997_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0997_A_02.mp3" role="mp3"/>
@@ -4777,7 +4922,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0997_B_22.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0997_B_23.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23275">
         <did>
           <unitid>FLRS_FLR_30_1009</unitid>
           <unittitle>La Fanfare d'Haspres</unittitle>
@@ -4803,6 +4948,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_1009_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_1009_4.jpg" role="image:last"/>
+          <daoloc href="BNR23275" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1009_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1009_A_02.mp3" role="mp3"/>
@@ -4812,7 +4958,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1009_B_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1009_B_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23276">
         <did>
           <unitid>FLRS_FLR_30_1328</unitid>
           <unittitle>Xe anniversaire 1965-1975</unittitle>
@@ -4836,6 +4982,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_1328_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_1328_4.jpg" role="image:last"/>
+          <daoloc href="BNR23276" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1328_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1328_A_02.mp3" role="mp3"/>
@@ -4845,7 +4992,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1328_A_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1328_A_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23277">
         <did>
           <unitid>FLRS_FLR_30_1383</unitid>
           <unittitle>Soir de Mai</unittitle>
@@ -4876,6 +5023,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_1383_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_1383_4.jpg" role="image:last"/>
+          <daoloc href="BNR23277" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1383_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1383_A_02.mp3" role="mp3"/>
@@ -4890,7 +5038,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1383_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1383_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23278">
         <did>
           <unitid>FLRS_FLR_30_1456</unitid>
           <unittitle>L'Ensemble Polonais de Houdain</unittitle>
@@ -4919,6 +5067,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_1456_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_1456_4.jpg" role="image:last"/>
+          <daoloc href="BNR23278" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1456_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1456_A_02.mp3" role="mp3"/>
@@ -4931,7 +5080,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1456_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1456_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23279">
         <did>
           <unitid>FLRS_FLR_30_1512</unitid>
           <unittitle>Vie musicale du quotidien flamand</unittitle>
@@ -4955,6 +5104,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_1512_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_1512_25.jpg" role="image:last"/>
+          <daoloc href="BNR23279" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1512_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1512_A_02.mp3" role="mp3"/>
@@ -4998,7 +5148,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1512_B_41.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_1512_B_42.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23280">
         <did>
           <unitid>FLRS_FLR_30_2273</unitid>
           <unittitle>Accordéons et chansons</unittitle>
@@ -5023,6 +5173,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_2273_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_2273_4.jpg" role="image:last"/>
+          <daoloc href="BNR23280" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2273_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2273_A_02.mp3" role="mp3"/>
@@ -5037,7 +5188,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2273_A_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2273_A_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23281">
         <did>
           <unitid>FLRS_FLR_30_2275</unitid>
           <unittitle>Harmonies de Flandre intérieure</unittitle>
@@ -5060,6 +5211,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_2275_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_2275_6.jpg" role="image:last"/>
+          <daoloc href="BNR23281" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2275_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2275_A_02.mp3" role="mp3"/>
@@ -5072,7 +5224,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2275_B_09.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2275_B_10.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23282">
         <did>
           <unitid>FLRS_FLR_30_2416</unitid>
           <unittitle>Promenade dans la nature</unittitle>
@@ -5098,6 +5250,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_2416_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_2416_4.jpg" role="image:last"/>
+          <daoloc href="BNR23282" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2416_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2416_A_02.mp3" role="mp3"/>
@@ -5112,7 +5265,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2416_B_11.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2416_B_12.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23283">
         <did>
           <unitid>FLRS_FLR_30_2726</unitid>
           <unittitle>Ça cest du nougat</unittitle>
@@ -5138,6 +5291,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_2726_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_2726_4.jpg" role="image:last"/>
+          <daoloc href="BNR23283" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2726_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2726_A_02.mp3" role="mp3"/>
@@ -5156,7 +5310,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2726_B_15.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_2726_B_15 (bis).mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23284">
         <did>
           <unitid>FLRS_FLR_30_3340</unitid>
           <unittitle>Musique de partout</unittitle>
@@ -5179,6 +5333,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_3340_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_3340_4.jpg" role="image:last"/>
+          <daoloc href="BNR23284" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3340_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3340_A_02.mp3" role="mp3"/>
@@ -5188,7 +5343,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3340_B_06.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3340_B_07.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23285">
         <did>
           <unitid>FLRS_FLR_30_4563</unitid>
           <unittitle>Festival Charles Verstraete</unittitle>
@@ -5215,6 +5370,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_4563_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_4563_4.jpg" role="image:last"/>
+          <daoloc href="BNR23285" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_4563_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_4563_A_02.mp3" role="mp3"/>
@@ -5231,7 +5387,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_4563_B_13.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_4563_B_14.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23286">
         <did>
           <unitid>FLRS_FLR_78_0030</unitid>
           <unittitle>Le Vent du soir / Romance de tous les jours</unittitle>
@@ -5254,11 +5410,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0030_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0030_4.jpg" role="image:last"/>
+          <daoloc href="BNR23286" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0030_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0030_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23287">
         <did>
           <unitid>FLRS_FLR_78_0126</unitid>
           <unittitle>Le P'tit bal du samedi soir / C'est pour toi mon chéri</unittitle>
@@ -5280,6 +5437,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0126_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0126_4.jpg" role="image:last"/>
+          <daoloc href="BNR23287" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0126_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0126_B_02.mp3" role="mp3"/>
@@ -5287,7 +5445,7 @@
           <persname role="accordéoniste">Adolphe Deprince</persname>
         </controlaccess>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23288">
         <did>
           <unitid>FLRS_FLR_78_0142</unitid>
           <unittitle>Brise napolitaine / Joyeux canari</unittitle>
@@ -5313,11 +5471,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0142_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0142_4.jpg" role="image:last"/>
+          <daoloc href="BNR23288" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0142_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0142_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23289">
         <did>
           <unitid>FLRS_FLR_78_0182</unitid>
           <unittitle>Mais quand ? Mais quand ? / Alba de Tormes</unittitle>
@@ -5343,11 +5502,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0182_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0182_4.jpg" role="image:last"/>
+          <daoloc href="BNR23289" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0182_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0182_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23290">
         <did>
           <unitid>FLRS_VER_17_0136</unitid>
           <unittitle>Musique pour deux n°10</unittitle>
@@ -5373,13 +5533,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_VER_17_136_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_VER_17_136_4.jpg" role="image:last"/>
+          <daoloc href="BNR23290" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0136_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0136_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0136_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0136_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23291">
         <did>
           <unitid>FLRS_VER_17_0137</unitid>
           <unittitle>Musique pour deux n°15</unittitle>
@@ -5406,13 +5567,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_VER_17_137_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_VER_17_137_4.jpg" role="image:last"/>
+          <daoloc href="BNR23291" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0137_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0137_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0137_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0137_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23292">
         <did>
           <unitid>FLRS_VER_17_0139</unitid>
           <unittitle>Slow pour rêver</unittitle>
@@ -5439,13 +5601,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_VER_17_139_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_VER_17_139_4.jpg" role="image:last"/>
+          <daoloc href="BNR23292" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0139_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0139_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0139_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_17_0139_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23293">
         <did>
           <unitid>FLRS_VER_25_0001</unitid>
           <unittitle>Marina / Adieu, petite</unittitle>
@@ -5465,11 +5628,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_VER_25_0001_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_VER_25_0001_4.jpg" role="image:last"/>
+          <daoloc href="BNR23293" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_25_0001_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_25_0001_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23294">
         <did>
           <unitid>FLRS_VER_25_0002</unitid>
           <unittitle>Verglas / Opus one</unittitle>
@@ -5495,11 +5659,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_VER_25_0002_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_VER_25_0002_4.jpg" role="image:last"/>
+          <daoloc href="BNR23294" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_25_0002_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_VER_25_0002_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23295">
         <did>
           <unitid>FLRS_DES_25_0495</unitid>
           <unittitle>Pou vir in mariache</unittitle>
@@ -5526,10 +5691,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0495_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0495_4.jpg" role="image:last"/>
+          <daoloc href="BNR23295" role="old_ark"/>
         </daogrp>
         <dao href="RBX_MED_FLRS_DES_25_0495_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23296">
         <did>
           <unitid>FLRS_DES_25_0496</unitid>
           <unittitle>L'Pori / L'Paradis terresse</unittitle>
@@ -5556,11 +5722,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0496_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0496_4.jpg" role="image:last"/>
+          <daoloc href="BNR23296" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0496_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0496_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23297">
         <did>
           <unitid>FLRS_DES_25_0497</unitid>
           <unittitle>Racontache de guerre / Les Deux coulons</unittitle>
@@ -5587,11 +5754,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0497_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0497_4.jpg" role="image:last"/>
+          <daoloc href="BNR23297" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0497_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0497_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23298">
         <did>
           <unitid>FLRS_DES_25_0498</unitid>
           <unittitle>Zoé de l'cave / La Fin du monte</unittitle>
@@ -5618,11 +5786,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0498-1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0498_4.jpg" role="image:last"/>
+          <daoloc href="BNR23298" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0498_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0498_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23299">
         <did>
           <unitid>FLRS_DES_25_0499</unitid>
           <unittitle>Le Coulonneux</unittitle>
@@ -5649,10 +5818,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0499_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0499_4.jpg" role="image:last"/>
+          <daoloc href="BNR23299" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0499_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23300">
         <did>
           <unitid>FLRS_DES_25_0500</unitid>
           <unittitle>L'Buresse</unittitle>
@@ -5679,10 +5849,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0500_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0500_4.jpg" role="image:last"/>
+          <daoloc href="BNR23300" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0500_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23301">
         <did>
           <unitid>FLRS_DES_25_0501</unitid>
           <unittitle>L'Café</unittitle>
@@ -5709,10 +5880,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_DES_25_0501_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_DES_25_0501_4.jpg" role="image:last"/>
+          <daoloc href="BNR23301" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_DES_25_0501_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23302">
         <did>
           <unitid>FLRS_FLR_78_0114</unitid>
           <unittitle>L'Marchand d'oches</unittitle>
@@ -5739,10 +5911,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0114_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0114_4.jpg" role="image:last"/>
+          <daoloc href="BNR23302" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0114_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23303">
         <did>
           <unitid>FLRS_FLR_30_0058</unitid>
           <unittitle>Simons dit</unittitle>
@@ -5768,6 +5941,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0058_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0058_4.jpg" role="image:last"/>
+          <daoloc href="BNR23303" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0058_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0058_A_02.mp3" role="mp3"/>
@@ -5776,7 +5950,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0058_B_05.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0058_B_06.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23304">
         <did>
           <unitid>FLRS_FLR_25_2456</unitid>
           <unittitle>L'Escalier de la vie</unittitle>
@@ -5803,10 +5977,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_25_2456_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_25_2456_4.jpg" role="image:last"/>
+          <daoloc href="BNR23304" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_25_2456_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23305">
         <did>
           <unitid>FLRS_FLR_17_4299</unitid>
           <unittitle>Qu'est-ch' qu'on prind pour sin rhume</unittitle>
@@ -5832,10 +6007,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_4299_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_4299_4.jpg" role="image:last"/>
+          <daoloc href="BNR23305" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_4299_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23306">
         <did>
           <unitid>FLRS_FLR_17_2469</unitid>
           <unittitle>Les Carottes sont recuites</unittitle>
@@ -5863,13 +6039,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2469_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2469_4.jpg" role="image:last"/>
+          <daoloc href="BNR23306" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2469_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2469_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2469_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2469_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23307">
         <did>
           <unitid>FLRS_FLR_78_0020</unitid>
           <unittitle>Les Deux commères / L'Moucho d'poche</unittitle>
@@ -5896,11 +6073,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_78_0020_3.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_78_0020_4.jpg" role="image:last"/>
+          <daoloc href="BNR23307" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0020_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_78_0020_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23308">
         <did>
           <unitid>FLRS_FLR_30_0004</unitid>
           <unittitle>Hommage à Desrousseaux</unittitle>
@@ -5927,6 +6105,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_0004_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_0004_6.jpg" role="image:last"/>
+          <daoloc href="BNR23308" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0004_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0004_A_02.mp3" role="mp3"/>
@@ -5948,7 +6127,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0004_B_17.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_0004_B_18.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23309">
         <did>
           <unitid>FLRS_FLR_17_0463</unitid>
           <unittitle>Le P'tit Quinquin</unittitle>
@@ -5973,6 +6152,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0463_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0463_4.jpg" role="image:last"/>
+          <daoloc href="BNR23309" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0463_A1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0463_A2.mp3" role="mp3"/>
@@ -5981,7 +6161,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0463_B2.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0463_B2.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23310">
         <did>
           <unitid>FLRS_FLR_17_0733</unitid>
           <unittitle>Cafougnette et ch' Zeff</unittitle>
@@ -6010,11 +6190,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0733_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0733_4.jpg" role="image:last"/>
+          <daoloc href="BNR23310" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0733_A1+2+3.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0733_B1+2+3+4.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23311">
         <did>
           <unitid>FLRS_FLR_17_0734</unitid>
           <unittitle>Cafougnette "Cha pu toudis"</unittitle>
@@ -6043,6 +6224,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0734_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0734_4.jpg" role="image:last"/>
+          <daoloc href="BNR23311" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0734_A1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0734_A2.mp3" role="mp3"/>
@@ -6052,7 +6234,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0734_B3.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0734_B4.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23312">
         <did>
           <unitid>FLRS_FLR_17_0736</unitid>
           <unittitle>Cafougnette " V' la ti pon qui cant' ach' teur"</unittitle>
@@ -6081,13 +6263,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0736_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0736_4.jpg" role="image:last"/>
+          <daoloc href="BNR23312" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0736_A1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0736_A2.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0736_B1.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0736_B2.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23313">
         <did>
           <unitid>FLRS_FLR_17_0743</unitid>
           <unittitle>A Juan les Flûtes</unittitle>
@@ -6113,11 +6296,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0743_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0743_4.jpg" role="image:last"/>
+          <daoloc href="BNR23313" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0743_A.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0743_B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23314">
         <did>
           <unitid>FLRS_FLR_17_0744</unitid>
           <unittitle>Ch'est terrible !</unittitle>
@@ -6143,11 +6327,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0744_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0744_4.jpg" role="image:last"/>
+          <daoloc href="BNR23314" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0744_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0744_B_01.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23315">
         <did>
           <unitid>FLRS_FLR_17_0745</unitid>
           <unittitle>L'Camping</unittitle>
@@ -6173,10 +6358,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0745_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0745_4.jpg" role="image:last"/>
+          <daoloc href="BNR23315" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0745_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23316">
         <did>
           <unitid>FLRS_FLR_17_0746</unitid>
           <unittitle>L'PMU</unittitle>
@@ -6202,11 +6388,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0746_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0746_4.jpg" role="image:last"/>
+          <daoloc href="BNR23316" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0746_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0746_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23317">
         <did>
           <unitid>FLRS_FLR_17_0922</unitid>
           <unittitle>La Maison de campagne </unittitle>
@@ -6232,11 +6419,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0922_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0922_4.jpg" role="image:last"/>
+          <daoloc href="BNR23317" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0922_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0922_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23318">
         <did>
           <unitid>FLRS_FLR_17_0923</unitid>
           <unittitle>L'Photo</unittitle>
@@ -6262,11 +6450,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0923_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0923_4.jpg" role="image:last"/>
+          <daoloc href="BNR23318" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0923_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0923_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23319">
         <did>
           <unitid>FLRS_FLR_17_1927</unitid>
           <unittitle>Les Rigoleuses</unittitle>
@@ -6292,11 +6481,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1927_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1927_4.jpg" role="image:last"/>
+          <daoloc href="BNR23319" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1927_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1927_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23320">
         <did>
           <unitid>FLRS_FLR_17_2431</unitid>
           <unittitle>Les Martiens</unittitle>
@@ -6322,10 +6512,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2431_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2431_4.jpg" role="image:last"/>
+          <daoloc href="BNR23320" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2431_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23321">
         <did>
           <unitid>FLRS_FLR_17_0753</unitid>
           <unittitle>Les Fables à no mode</unittitle>
@@ -6350,6 +6541,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_0753_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_0753_4.jpg" role="image:last"/>
+          <daoloc href="BNR23321" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0753_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0753_A_02.mp3" role="mp3"/>
@@ -6357,7 +6549,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0753_B_04.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_0753_B_05.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23322">
         <did>
           <unitid>FLRS_FLR_17_1259</unitid>
           <unittitle>Cafougnette "Y ert ar' venu avec ch'Zeff"</unittitle>
@@ -6386,11 +6578,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1259_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1259_4.jpg" role="image:last"/>
+          <daoloc href="BNR23322" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1259_A_01+2+3+4.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1259_B_05+6+7+8.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23323">
         <did>
           <unitid>FLRS_FLR_17_1705</unitid>
           <unittitle>Cafougnette "Pas pou' l'z'infants"</unittitle>
@@ -6419,13 +6612,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1705_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1705_4.jpg" role="image:last"/>
+          <daoloc href="BNR23323" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1705_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1705_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1705_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1705_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23324">
         <did>
           <unitid>FLRS_FLR_17_1859</unitid>
           <unittitle>Cafougnette "S' femm' pi s' bell' mère"</unittitle>
@@ -6454,6 +6648,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1859_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1859_4.jpg" role="image:last"/>
+          <daoloc href="BNR23324" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1859_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1859_A_02.mp3" role="mp3"/>
@@ -6464,7 +6659,7 @@
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1859_B_07.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1859_B_08.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23325">
         <did>
           <unitid>FLRS_FLR_30_3364</unitid>
           <unittitle>L'Arproduction</unittitle>
@@ -6489,11 +6684,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_30_3364_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_30_3364_4.jpg" role="image:last"/>
+          <daoloc href="BNR23325" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3364_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_30_3364_B_02.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23326">
         <did>
           <unitid>FLRS_FLR_17_1623</unitid>
           <unittitle>Les Airs de la fosse 3</unittitle>
@@ -6523,11 +6719,12 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1623_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1623_4.jpg" role="image:last"/>
+          <daoloc href="BNR23326" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1623_A_01+2+3+4+5.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1623_B_06+7+8.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23327">
         <did>
           <unitid>FLRS_FLR_17_1662</unitid>
           <unittitle>Le P'tit Quinquin</unittitle>
@@ -6552,13 +6749,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1662_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1662_4.jpg" role="image:last"/>
+          <daoloc href="BNR23327" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1662_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1662_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1662_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1662_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23328">
         <did>
           <unitid>FLRS_FLR_17_1663</unitid>
           <unittitle>Les Cris de Lille</unittitle>
@@ -6583,13 +6781,14 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1663_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1663_4.jpg" role="image:last"/>
+          <daoloc href="BNR23328" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1663_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1663_A_02.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1663_B_03.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1663_B_04.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23329">
         <did>
           <unitid>FLRS_FLR_17_1987</unitid>
           <unittitle>Mingeons caudiere ed' bulloux</unittitle>
@@ -6615,10 +6814,11 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_1987_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_1987_4.jpg" role="image:last"/>
+          <daoloc href="BNR23329" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_1987_A+B.mp3" role="mp3"/>
       </c>
-      <c level="file">
+      <c level="file" osiros_id="BNR23330">
         <did>
           <unitid>FLRS_FLR_17_2009</unitid>
           <unittitle>Le Broutteux</unittitle>
@@ -6647,6 +6847,7 @@
           </daodesc>
           <daoloc href="RBX_MED_FLRS_FLR_17_2009_1.jpg" role="image:first"/>
           <daoloc href="RBX_MED_FLRS_FLR_17_2009_4.jpg" role="image:last"/>
+          <daoloc href="BNR23330" role="old_ark"/>
         </daogrp>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2009_A_01.mp3" role="mp3"/>
         <dao href="http://www.bn-r.fr/musique/RBX_MED_FLRS_FLR_17_2009_A_02.mp3" role="mp3"/>

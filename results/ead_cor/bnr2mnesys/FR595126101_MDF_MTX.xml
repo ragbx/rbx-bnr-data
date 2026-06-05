@@ -47,7 +47,7 @@
       <subject source="Rameau">Industries textiles - Personnel</subject>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" osiros_id="BNR2">
         <did>
           <unitid>MTX_2014</unitid>
           <unittitle>Paroles textiles 2014</unittitle>
@@ -61,7 +61,10 @@
           <persname>Engrand, François</persname>
           <persname>Nayra</persname>
         </controlaccess>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR2" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR3">
           <did>
             <unitid>MTX_2014_D01</unitid>
             <unittitle>Entretien avec Karim Feddal</unittitle>
@@ -73,8 +76,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_1409_D01.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D01.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR3" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR4">
           <did>
             <unitid>MTX_2014_D02</unitid>
             <unittitle>Entretien avec Sabine Grangé</unittitle>
@@ -86,8 +92,11 @@
           </scopecontent>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D02.mp4" role="mp4"/>
           <dao href="RBX_MDF_MTX_2014_D02.jpg" role="image"/>
+          <daogrp>
+            <daoloc href="BNR4" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR5">
           <did>
             <unitid>MTX_2014_D03</unitid>
             <unittitle>Entretien avec Pierre Cornard</unittitle>
@@ -99,8 +108,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D03.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D03.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR5" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR6">
           <did>
             <unitid>MTX_2014_D04</unitid>
             <unittitle>Entretien avec Henri Deleporte</unittitle>
@@ -112,8 +124,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D04.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D04.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR6" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR7">
           <did>
             <unitid>MTX_2014_D05</unitid>
             <unittitle>Entretien avec Simon Ferrante</unittitle>
@@ -125,8 +140,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D05.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D05.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR7" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR8">
           <did>
             <unitid>MTX_2014_D06</unitid>
             <unittitle>Entretien avec Michel Brion</unittitle>
@@ -138,8 +156,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D06.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D06.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR8" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR9">
           <did>
             <unitid>MTX_2014_D07</unitid>
             <unittitle>Entretien avec Jeanine Van Hullebusch</unittitle>
@@ -151,8 +172,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D07.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D07.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR9" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR10">
           <did>
             <unitid>MTX_2014_D08</unitid>
             <unittitle>Entretien avec Francis Vanlierde</unittitle>
@@ -164,8 +188,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D08.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D08.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR10" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR11">
           <did>
             <unitid>MTX_2014_D09</unitid>
             <unittitle>Entretien avec Jean-Marc Vienot</unittitle>
@@ -177,8 +204,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D09.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D09.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR11" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR12">
           <did>
             <unitid>MTX_2014_D10</unitid>
             <unittitle>Entretien avec Armelle Duquesnoy</unittitle>
@@ -190,8 +220,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D10.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D10.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR12" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR13">
           <did>
             <unitid>MTX_2014_D11</unitid>
             <unittitle>Entretien avec Alexandra Bizouerne</unittitle>
@@ -203,8 +236,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D11.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D11.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR13" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR14">
           <did>
             <unitid>MTX_2014_D12</unitid>
             <unittitle>Entretien avec Liliane Lesaffre</unittitle>
@@ -216,8 +252,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D12.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D12.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR14" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR15">
           <did>
             <unitid>MTX_2014_D13</unitid>
             <unittitle>Entretien avec Gérard Tiberghien</unittitle>
@@ -229,8 +268,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D13.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D13.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR15" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR17">
           <did>
             <unitid>MTX_2014_D14</unitid>
             <unittitle>Entretien avec Jean-Marie Pliez</unittitle>
@@ -242,8 +284,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D14.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D14.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR17" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR18">
           <did>
             <unitid>MTX_2014_D15</unitid>
             <unittitle>Entretien avec Monsieur Castain</unittitle>
@@ -255,8 +300,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D15.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D15.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR18" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR19">
           <did>
             <unitid>MTX_2014_D16</unitid>
             <unittitle>Entretien avec Jacqueline Guidez Bleuset</unittitle>
@@ -268,9 +316,12 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2014_D16.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D16.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR19" role="old_ark"/>
+          </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" osiros_id="BNR20">
         <did>
           <unitid>MTX_2012</unitid>
           <unittitle>Paroles textiles 2012</unittitle>
@@ -284,7 +335,10 @@
           <persname>Huyghe, Maxime</persname>
           <persname>Nayra</persname>
         </controlaccess>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR20" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR21">
           <did>
             <unitid>MTX_2012_D01</unitid>
             <unittitle>Entretien avec Claude Sénéchal</unittitle>
@@ -297,8 +351,11 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2012_D01.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D01.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR21" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR23">
           <did>
             <unitid>MTX_2012_D02</unitid>
             <unittitle>Entretien avec Thierry Bonte</unittitle>
@@ -310,8 +367,11 @@
           </scopecontent>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D02.mp4" role="mp4"/>
           <dao href="RBX_MDF_MTX_2012_D02.jpg" role="image"/>
+          <daogrp>
+            <daoloc href="BNR23" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR25">
           <did>
             <unitid>MTX_2012_D03</unitid>
             <unittitle>Entretien avec Louis Uberti</unittitle>
@@ -323,6 +383,9 @@
           </scopecontent>
           <dao href="RBX_MDF_MTX_2012_D03.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D03.mp4" role="mp4"/>
+          <daogrp>
+            <daoloc href="BNR25" role="old_ark"/>
+          </daogrp>
         </c>
       </c>
     </dsc>

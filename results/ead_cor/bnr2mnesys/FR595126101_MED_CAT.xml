@@ -57,19 +57,25 @@
 &lt;p style="text-align: justify;"&gt;CATRICE, Bernard, &lt;em&gt;Edouard-Auguste Catrice, 1863-1943 : parcours et ascension sociale d'un homme du Nord&lt;/em&gt;, 2021. Cotes en médiathèque de Roubaix : RES 4/5119 et MAG L/P 4/211 085.&lt;/p&gt;</p>
     </acqinfo>
     <dsc>
-      <c level="subfonds">
+      <c level="subfonds" osiros_id="BNR135128">
         <did>
           <unitid>CAT1</unitid>
           <unittitle>Documents de Pierre Catrice</unittitle>
           <unitdate>à affiner au fur et à mesure de l'inventaire</unitdate>
         </did>
-        <c level="series">
+        <daogrp>
+          <daoloc href="BNR135128" role="old_ark"/>
+        </daogrp>
+        <c level="series" osiros_id="BNR135129">
           <did>
             <unitid>CAT1_VIE</unitid>
             <unittitle>Vie publique</unittitle>
             <unitdate>à affiner avec l'avancée de l'inventaire</unitdate>
           </did>
-          <c level="subseries">
+          <daogrp>
+            <daoloc href="BNR135129" role="old_ark"/>
+          </daogrp>
+          <c level="subseries" osiros_id="BNR135130">
             <did>
               <unitid>CAT1_VIE01</unitid>
               <unittitle>Partis politiques : engagements et mutations</unittitle>
@@ -78,7 +84,10 @@
             <scopecontent>
               <p>&lt;p&gt;Il n'y a pas de dosiier A25 dans le classement de Bernard Catrice.&lt;/p&gt;</p>
             </scopecontent>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135130" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135131">
               <did>
                 <unitid>CAT1_VIE01_D01</unitid>
                 <unittitle>Opinions politiques </unittitle>
@@ -89,8 +98,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Marc Sangnier et le "Sillon" ; la vie politique d’après André Diligent ; lettre de démission de Fernand Vogels.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135131" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135132">
               <did>
                 <unitid>CAT1_VIE01_D02</unitid>
                 <unittitle>Discours</unittitle>
@@ -100,8 +112,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Préparations de discours pour le MRP ; appel à signature pour une censure du cinéma.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135132" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138380">
               <did>
                 <unitid>CAT1_VIE01_D03</unitid>
                 <unittitle>Le métier de patron </unittitle>
@@ -111,8 +126,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Apprendre à La Jeunesse Indépendante chrétienne à devenir patron.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138380" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138381">
               <did>
                 <unitid>CAT1_VIE01_D04</unitid>
                 <unittitle>Deuxième Guerre mondiale </unittitle>
@@ -122,8 +140,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Informations diverses suite à des entretiens entre des généraux et le maréchal Pétain ; allocutions du cardinal Liénart au sujet du travail des jeunes en Allemagne et sur le STO ; propagande du M.R.P. ; le ressenti des populations du Nord ; blocage de l’achat des articles à usage ménager.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138381" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138382">
               <did>
                 <unitid>CAT1_VIE01_D05</unitid>
                 <unittitle>Les hommes du Mouvement Républicain Populaire </unittitle>
@@ -133,8 +154,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Les militants et les responsables ; André Diligent à Bierville ; citation de Maurice Schumann à l’ordre du Corps d’armée et pour la Croix de guerre ; congrès du M.R.P.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138382" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138383">
               <did>
                 <unitid>CAT1_VIE01_D06</unitid>
                 <unittitle>Les hommes du Mouvement Républicain Populaire </unittitle>
@@ -144,8 +168,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise à l’honneur des représentants du mouvement par le journal "L’Aube".&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138383" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138384">
               <did>
                 <unitid>CAT1_VIE01_D07</unitid>
                 <unittitle>Le Mouvement Républicain Populaire </unittitle>
@@ -155,8 +182,11 @@
               <acqinfo>
                 <p>&lt;p&gt;Création ; appel à cotisation ; courrier aux membres de la CUDL ; résultats d’élections ; prises de position sur le référendum de 1962.&lt;/p&gt;</p>
               </acqinfo>
+              <daogrp>
+                <daoloc href="BNR138384" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138385">
               <did>
                 <unitid>CAT1_VIE01_D08</unitid>
                 <unittitle>Ecole et laïcité </unittitle>
@@ -166,8 +196,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Liste des écoles libres de Roubaix ; écoles chrétiennes ; socialisme et laïcité ; discussion sur une loi scolaire.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138385" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138386">
               <did>
                 <unitid>CAT1_VIE01_D09</unitid>
                 <unittitle>Les finances du Mouvement Républicain Populaire </unittitle>
@@ -177,8 +210,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Divers règlements ; planche de timbres du M.R.P. ; transferts de fonds ; bilan.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138386" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138387">
               <did>
                 <unitid>CAT1_VIE01_D10</unitid>
                 <unittitle>Mouvement Républicain Populaire </unittitle>
@@ -188,8 +224,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Statuts et règlements ; adhésion ; cotisation ; convention de 1966 et 1967.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138387" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138388">
               <did>
                 <unitid>CAT1_VIE01_D11</unitid>
                 <unittitle>Centre des Démocrates Chrétiens </unittitle>
@@ -199,8 +238,11 @@
               <scopecontent>
                 <p>&lt;p&gt;André Diligent, secrétaire général du C.D.S.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138388" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138389">
               <did>
                 <unitid>CAT1_VIE01_D12</unitid>
                 <unittitle>Les hommes du Mouvement Républicain Populaire </unittitle>
@@ -210,8 +252,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Biographie des grands adhérents du mouvement.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138389" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138390">
               <did>
                 <unitid>CAT1_VIE01_D13</unitid>
                 <unittitle>Deuxième Guerre mondiale </unittitle>
@@ -221,8 +266,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Création et idées du Rassemblement démocratique des Résistants d’Inspiration Chrétienne (R.I.C.) ; création et idées du Mouvement Républicain Populaire.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138390" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138391">
               <did>
                 <unitid>CAT1_VIE01_D14</unitid>
                 <unittitle>Les jeunes </unittitle>
@@ -232,8 +280,11 @@
               <scopecontent>
                 <p>&lt;p&gt;La politique et les jeunes ; les fiches du militant.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138391" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138392">
               <did>
                 <unitid>CAT1_VIE01_D15</unitid>
                 <unittitle>Mouvement Républicain Populaire </unittitle>
@@ -243,8 +294,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Réflexions sur les résultats des élections ; sa place dans le paysage politique français ; son avenir ; prémices de la naissance du Centre démocrate.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138392" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138393">
               <did>
                 <unitid>CAT1_VIE01_D16</unitid>
                 <unittitle>Du Mouvement Républicain Populaire au Centre démocrate </unittitle>
@@ -254,8 +308,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Mutation vers un nouveau parti.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138393" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138394">
               <did>
                 <unitid>CAT1_VIE01_D17</unitid>
                 <unittitle>Du Mouvement Républicain Populaire au Centre démocrate </unittitle>
@@ -265,8 +322,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Historique et représentants du M.R.P. ; mise en route du C.D. ; statuts et orientations à définir.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138394" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138395">
               <did>
                 <unitid>CAT1_VIE01_D18</unitid>
                 <unittitle>Le Sénat </unittitle>
@@ -276,8 +336,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Attributs ; projets de lois ; projet de référendum ; élections présidentielles ; textes de Jacques Duhamel.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138395" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138396">
               <did>
                 <unitid>CAT1_VIE01_D19</unitid>
                 <unittitle>Du Mouvement Républicain Populaire au Centre démocrate</unittitle>
@@ -287,8 +350,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise en place d’une collaboration.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138396" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138397">
               <did>
                 <unitid>CAT1_VIE01_D20</unitid>
                 <unittitle>Parti socialiste </unittitle>
@@ -298,8 +364,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Programme commun avec le Parti communiste.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138397" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138398">
               <did>
                 <unitid>CAT1_VIE01_D21</unitid>
                 <unittitle>Régionalisation du Ve plan </unittitle>
@@ -309,8 +378,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Réflexions du M.R.P.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138398" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138399">
               <did>
                 <unitid>CAT1_VIE01_D22</unitid>
                 <unittitle>Robert Schuman </unittitle>
@@ -320,8 +392,11 @@
               <scopecontent>
                 <p>&lt;p&gt;L’homme ; ses opinions politiques. In : "France forum", n°52 de novembre 1963.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138399" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138400">
               <did>
                 <unitid>CAT1_VIE01_D23</unitid>
                 <unittitle>Mouvement Républicain Populaire </unittitle>
@@ -331,8 +406,11 @@
               <scopecontent>
                 <p>&lt;p&gt;"Le M.R.P. vous parle", bulletin de liaison de l’amicale du M.R.P. avec des textes des principaux représentants du Mouvement, 1996-1998, lac.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138400" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138401">
               <did>
                 <unitid>CAT1_VIE01_D24</unitid>
                 <unittitle>Seconde Guerre mondiale</unittitle>
@@ -342,8 +420,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Liste et prix des légumes pour le service d’entraide.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138401" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138402">
               <did>
                 <unitid>CAT1_VIE01_D25</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -353,8 +434,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Opinions sur l’amiral Darlan et le régime de Vichy dans la zone interdite ; instructions du cardinal Liénart au sujet de l’Action française ; Pierre Bayart et le travail obligatoire ; documents prêtés à Catherine Masson pour son livre sur le cardinal Liénart.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138402" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138403">
               <did>
                 <unitid>CAT1_VIE01_D26</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -364,8 +448,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Demande de M. Norbert Delplanque pour l’obtention du statut de résistant actif.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138403" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138404">
               <did>
                 <unitid>CAT1_VIE01_D27</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -375,8 +462,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Ordre de réquisition pour le M.R.P. ; propos sur la résistance ; propos du cardinal Liénart au sujet du travail obligatoire ; discours de Pétain du 12 août 1941 ; libération de Roubaix ;  évènements de mai 1940 ; opinions sur l’amiral Darlan et le régime de Vichy dans la zone interdite par A. Delmasure.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138404" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138405">
               <did>
                 <unitid>CAT1_VIE01_D28</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -386,8 +476,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal catholique clandestin « Veritas » ; plaquette de propagande allemande sur le ravitaillement en France.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138405" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138406">
               <did>
                 <unitid>CAT1_VIE01_D29</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -397,8 +490,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Traitement des juifs par les allemands ; camps de concentration ; témoignages.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138406" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138407">
               <did>
                 <unitid>CAT1_VIE01_D30</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -408,8 +504,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Libération de la France et du Nord ; résistants et soldats mis à l’honneur.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138407" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138408">
               <did>
                 <unitid>CAT1_VIE01_D31</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -419,8 +518,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Derniers jours d’Hitler ; faux-testament d’Hitler ; libération de la France et du Nord ; femmes rasées.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138408" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138409">
               <did>
                 <unitid>CAT1_VIE01_D32</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -430,8 +532,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Création du Rassemblement démocratique des Résistants d'Inspiration Chrétienne (R.I.C.).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138409" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138410">
               <did>
                 <unitid>CAT1_VIE01_D33</unitid>
                 <unittitle>Seconde Guerre mondiale </unittitle>
@@ -441,15 +546,21 @@
               <scopecontent>
                 <p>&lt;p&gt;Débarquement ; libération du Nord et de Roubaix.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138410" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR135133">
             <did>
               <unitid>CAT1_VIE02</unitid>
               <unittitle>Mandats à Roubaix et à la Communauté Urbaine de Lille</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse B (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135133" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135134">
               <did>
                 <unitid>CAT1_VIE02_D01</unitid>
                 <unittitle>La métropole de Lille </unittitle>
@@ -459,8 +570,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Retours et projets autour de l’aménagement et de l’urbanisme, le développement économique et industriel, le comité local d’action et de liaison des classes moyennes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135134" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135135">
               <did>
                 <unitid>CAT1_VIE02_D02</unitid>
                 <unittitle>Les transports dans la métropole </unittitle>
@@ -470,8 +584,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Discussions et négociations autour des tarifs et de la circulation ; liens avec les usagers et avec le syndicat mixte.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135135" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135136">
               <did>
                 <unitid>CAT1_VIE02_D03</unitid>
                 <unittitle>Lextension du tram </unittitle>
@@ -481,8 +598,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Elargissement des voies de circulation, création du SNELRT et du syndicat mixte.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135136" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135137">
               <did>
                 <unitid>CAT1_VIE02_D04</unitid>
                 <unittitle>Les sports</unittitle>
@@ -492,8 +612,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;L'Office Municipal des Sports (règlement et trésorerie), les sociétés sportives, Conseil Régional des Sports, exposition.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135137" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135138">
               <did>
                 <unitid>CAT1_VIE02_D05</unitid>
                 <unittitle>La jeunesse et la politique </unittitle>
@@ -503,8 +626,11 @@
               <scopecontent>
                 <p>&lt;p&gt;La formation politique des jeunes et le conseil des jeunes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135138" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135139">
               <did>
                 <unitid>CAT1_VIE02_D06</unitid>
                 <unittitle>Organisation de la circulation </unittitle>
@@ -514,8 +640,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Axes routiers, stationnement, VAL, prévention routière, liens avec les commerçants, piétonnisation.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135139" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135140">
               <did>
                 <unitid>CAT1_VIE02_D07</unitid>
                 <unittitle>Périodique dinformation municipale </unittitle>
@@ -525,8 +654,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Quatre numéros du périodique d'information municipale : février 1965, mars 1966, décembre 1968, septembre 1970.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135140" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135141">
               <did>
                 <unitid>CAT1_VIE02_D08</unitid>
                 <unittitle>Lavenir de lindustrie sur le territoire local </unittitle>
@@ -536,8 +668,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude et propositions menées par le Centre d’Expansion Régional Economiques et Sociales (CERES).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135141" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135142">
               <did>
                 <unitid>CAT1_VIE02_D09</unitid>
                 <unittitle>Divers sujets </unittitle>
@@ -547,8 +682,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Fiscalité locale, incompatibilités relatives aux élections, office municipal des sports et médaille d’honneur pour les services rendus.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135142" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135143">
               <did>
                 <unitid>CAT1_VIE02_D10</unitid>
                 <unittitle>Débats municipaux </unittitle>
@@ -558,8 +696,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Les assurances sociales, les impôts, les subventions allouées pour envoyer les enfants en colonies de vacances, le centre de postcure et de réadaptation sociale.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135143" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135144">
               <did>
                 <unitid>CAT1_VIE02_D11</unitid>
                 <unittitle>Les accès à la ville </unittitle>
@@ -569,6 +710,9 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions pour un plan de détail et un plan de masse pour l’amélioration des axes d’accès, notamment le boulevard de Paris et le centre.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135144" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -582,21 +726,27 @@
               </scopecontent>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR135145">
             <did>
               <unitid>CAT1_VIE03</unitid>
               <unittitle>Elections municipales, cantonales, législatives et présidentielles</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135145" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135146">
               <did>
                 <unitid>CAT1_VIE03_D01</unitid>
                 <unittitle>Elections municipales de 1929 </unittitle>
                 <unitdate normal="1929">1929</unitdate>
                 <physdesc>&lt;p&gt;Périodique. Correspond au dossier C1 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135146" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135147">
               <did>
                 <unitid>CAT1_VIE03_D02</unitid>
                 <unittitle>Elections entre 1958 et 1961 </unittitle>
@@ -606,87 +756,120 @@
               <scopecontent>
                 <p>&lt;p&gt;Résultats des élections législatives, municipales et cantonales ; la liste d’action familiale pour le progrès social et économique du MRP et un texte sur la famille.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135147" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135148">
               <did>
                 <unitid>CAT1_VIE03_D03</unitid>
                 <unittitle>Elections cantonales et municipales entre 1961 et 1965 </unittitle>
                 <unitdate normal="1966">1961-1971</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, télégramme. Correspond au dossier C3 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135148" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135149">
               <did>
                 <unitid>CAT1_VIE03_D04</unitid>
                 <unittitle>Candidats des élections législatives de 1967</unittitle>
                 <unitdate normal="1967">1967</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Périodique, tract, note manuscrite.- Correspond au dossier C4 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135149" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135150">
               <did>
                 <unitid>CAT1_VIE03_D05</unitid>
                 <unittitle>Candidats des élections cantonales de 1970</unittitle>
                 <unitdate normal="1970">1970</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract, note manuscrite. Correspond au dossier C5 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135150" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135151">
               <did>
                 <unitid>CAT1_VIE03_D06</unitid>
                 <unittitle>Elections législatives de 1973</unittitle>
                 <unitdate normal="1973">1973</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract, note manuscrite. Correspond au dossier C6 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135151" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135152">
               <did>
                 <unitid>CAT1_VIE03_D07</unitid>
                 <unittitle>Elections municipales de 1977 et le mouvement GAR (Groupement daction pour lAvenir de Roubaix) </unittitle>
                 <unitdate normal="1977">1977</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, note manuscrite. Correspond au dossier C7 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135152" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135153">
               <did>
                 <unitid>CAT1_VIE03_D08</unitid>
                 <unittitle>Elections cantonales de 1979</unittitle>
                 <unitdate normal="1979">1979</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, note manuscrite, affiche. Correspond au dossier C8 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135153" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135154">
               <did>
                 <unitid>CAT1_VIE03_D09</unitid>
                 <unittitle>Elections cantonales de 1982 et élections présidentielles de 1981</unittitle>
                 <unitdate normal="1981">1981-1982</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, note manuscrite. Correspond au dossier C9 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135154" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135155">
               <did>
                 <unitid>CAT1_VIE03_D10</unitid>
                 <unittitle>Elections municipales de 1983 et composition du conseil municipal</unittitle>
                 <unitdate normal="1983">1983</unitdate>
                 <physdesc>&lt;p&gt;Périodique. Correspond au dossier C10 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135155" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135156">
               <did>
                 <unitid>CAT1_VIE03_D12</unitid>
                 <unittitle>Elections municipales de 1989 ; réalisations du conseil municipal entre 1925 et 1929</unittitle>
                 <unitdate normal="1956">1925-1989</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract. Correspond au dossier C12 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135156" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR135157">
             <did>
               <unitid>CAT1_VIE04</unitid>
               <unittitle>Catholicisme, Comité de loisirs et écoles libres</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse D (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135157" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135158">
               <did>
                 <unitid>CAT1_VIE04_D01</unitid>
                 <unittitle>Catholicisme et associations catholiques </unittitle>
@@ -696,8 +879,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Association Catholique de la Jeunesse Française-ACJF (statuts, formations, conseils aux jeunes) et L’effort laïc de Roubaix ; interventions lors du colloque « 100 ans de catholicisme dans le Nord » de 1990 ; pèlerinage à Lourdes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135158" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135159">
               <did>
                 <unitid>CAT1_VIE04_D02</unitid>
                 <unittitle>Comité de loisirs des jeunes roubaisiens </unittitle>
@@ -707,8 +893,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Statuts ; les jeunes et la politique.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135159" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135160">
               <did>
                 <unitid>CAT1_VIE04_D03</unitid>
                 <unittitle>Divers sujets</unittitle>
@@ -718,8 +907,11 @@
               <scopecontent>
                 <p>&lt;p&gt;La famille, l’école, les syndicats, la morale et le cinéma, la radio P.T.T. Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135160" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135161">
               <did>
                 <unitid>CAT1_VIE04_D04</unitid>
                 <unittitle>Ecoles libres</unittitle>
@@ -729,15 +921,21 @@
               <scopecontent>
                 <p>&lt;p&gt;Aides financières de la ville ; liens entre le Comité des écoles libres, la municipalité et l’Evêché de Lille.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135161" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR135162">
             <did>
               <unitid>CAT1_VIE06</unitid>
               <unittitle>Engagements à la Croix-Rouge, Nord Eclair et ENSAIT</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse F (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135162" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135163">
               <did>
                 <unitid>CAT1_VIE06_D01</unitid>
                 <unittitle>Croix Rouge française </unittitle>
@@ -747,8 +945,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Communication nationale ; activités et plan des lieux de la section roubaisienne entre 1978 et 1990.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135163" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135164">
               <did>
                 <unitid>CAT1_VIE06_D02</unitid>
                 <unittitle>Nord Eclair</unittitle>
@@ -758,8 +959,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Création, membres fondateurs, statuts, financement et actionnaires.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135164" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135165">
               <did>
                 <unitid>CAT1_VIE06_D03</unitid>
                 <unittitle>Ecole Nationale Supérieure des Arts et Industries Textiles de Roubaix (ENAI puis ENSAIT)</unittitle>
@@ -769,9 +973,12 @@
               <scopecontent>
                 <p>&lt;p&gt;Convention avec l’Etat de 1882 et modifications de 1913, budget et activités ; création du Centre de recherche et des enseignements supérieurs textiles (CREST).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135165" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR135166">
             <did>
               <unitid>CAT1_VIE07</unitid>
               <unittitle>Communauté Urbaine de Lille</unittitle>
@@ -780,23 +987,32 @@
             <scopecontent>
               <p>&lt;p&gt;Il n'y a pas de dossier D14&lt;/p&gt;</p>
             </scopecontent>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR135166" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR135167">
               <did>
                 <unitid>CAT1_VIE07_D01</unitid>
                 <unittitle>Plan doccupation des sols de la Communauté urbaine de Lille</unittitle>
                 <unitdate normal="1976">1976</unitdate>
                 <physdesc>&lt;p&gt;Plan. Correspond au dossier G1 du carton G (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135167" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135168">
               <did>
                 <unitid>CAT1_VIE07_D02</unitid>
                 <unittitle>Plan durbanisme directeur de Roubaix</unittitle>
                 <unitdate normal="1963">1963-1964</unitdate>
                 <physdesc>&lt;p&gt;Plan. Correspond au dossier G2 du carton G (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR135168" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135169">
               <did>
                 <unitid>CAT1_VIE07_D03</unitid>
                 <unittitle>Métro de la communauté urbaine de Lille </unittitle>
@@ -806,8 +1022,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Commission technique et réseau.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135169" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135170">
               <did>
                 <unitid>CAT1_VIE07_D04</unitid>
                 <unittitle>Conseil de la Communauté urbaine de Lille </unittitle>
@@ -817,8 +1036,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Sujets traités : transports en commun et le syndicat mixte d’exploitation des transports en commun ; travaux de voieries ; VIIe plan.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135170" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135171">
               <did>
                 <unitid>CAT1_VIE07_D05</unitid>
                 <unittitle>Plan doccupation des sols </unittitle>
@@ -828,8 +1050,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Généralités ; projets pour la ville de Lille et les villes voisines ; projet de règlement d’urbanisme de Roubaix-Tourcoing.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135171" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135172">
               <did>
                 <unitid>CAT1_VIE07_D06</unitid>
                 <unittitle>Transports en commun </unittitle>
@@ -839,8 +1064,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Syndicat mixte d’exploitation des transports en commun ; Comité des transports de voyageurs ; traité de partage des responsabilités entre collectivités locales et exploitants de services de transports urbains.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135172" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135173">
               <did>
                 <unitid>CAT1_VIE07_D07</unitid>
                 <unittitle>Transports en commun</unittitle>
@@ -850,8 +1078,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Caractéristiques des réseaux de transports urbain ; mise en service dans la ville de Villeneuve d’Ascq ; financement.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135173" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135174">
               <did>
                 <unitid>CAT1_VIE07_D08</unitid>
                 <unittitle>Groupe dAction Démocratique et Communautaire (GADEC) </unittitle>
@@ -861,8 +1092,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Création et organisation interne ; invitations à des déjeuners-débats ; comptes- rendus de réunions.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135174" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135175">
               <did>
                 <unitid>CAT1_VIE07_D09</unitid>
                 <unittitle>Société pour lExpansion Economique de la Région de Roubaix-Tourcoing (SOREX) </unittitle>
@@ -872,8 +1106,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Historique ; résultats avec la liste des anciennes et nouvelles activités des entreprises fermées, partiellement ou totalement, et réutilisables.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135175" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135176">
               <did>
                 <unitid>CAT1_VIE07_D10</unitid>
                 <unittitle>Conseil de la Communauté Urbaine de Lille </unittitle>
@@ -883,8 +1120,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Voierie, aménagement, rénovation de centres villes, EPALE ; les transports en commun dans la métropole.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135176" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135177">
               <did>
                 <unitid>CAT1_VIE07_D11</unitid>
                 <unittitle>Transports en commun </unittitle>
@@ -894,8 +1134,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise en place de la gratuité pour les plus de 65 ans.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135177" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135178">
               <did>
                 <unitid>CAT1_VIE07_D12</unitid>
                 <unittitle>EPALE</unittitle>
@@ -905,8 +1148,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma d’aménagement et d’urbanisme du secteur est de Lille.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135178" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135179">
               <did>
                 <unitid>CAT1_VIE07_D13</unitid>
                 <unittitle>Communauté Urbaine de Lille </unittitle>
@@ -916,8 +1162,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Règlement intérieur, membres et activités.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135179" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135180">
               <did>
                 <unitid>CAT1_VIE07_D15</unitid>
                 <unittitle>Plan doccupation des sols </unittitle>
@@ -927,8 +1176,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Livret pédagogique.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135180" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135181">
               <did>
                 <unitid>CAT1_VIE07_D16</unitid>
                 <unittitle>Communauté Urbaine de Lille </unittitle>
@@ -938,8 +1190,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Détermination du périmètre de l’agglomération et du siège de la communauté ; loi et représentation des communautés urbaines ; décret fixant les modalités des enquêtes relatives aux communautés urbaines.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135181" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135182">
               <did>
                 <unitid>CAT1_VIE07_D17</unitid>
                 <unittitle>Communautés urbaines </unittitle>
@@ -949,8 +1204,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Décrets et circulaires du Journal Officiel parus entre 1966 et 1968.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135182" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135183">
               <did>
                 <unitid>CAT1_VIE07_D18</unitid>
                 <unittitle>Décentralisation du secteur tertiaire et transports </unittitle>
@@ -960,8 +1218,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Transports dans la métropole ; autoroute du littoral ; TGV dans la région du Nord-Pas-de-Calais.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135183" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135184">
               <did>
                 <unitid>CAT1_VIE07_D19</unitid>
                 <unittitle>Communauté Urbaine de Lille</unittitle>
@@ -971,8 +1232,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Revue de presse du 15 au 31 août 1973.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135184" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135185">
               <did>
                 <unitid>CAT1_VIE07_D20</unitid>
                 <unittitle>Communauté Urbaine de Lille</unittitle>
@@ -982,8 +1246,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Zones d’habitat, centres urbains, zones à restructurer et opérations concertées.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135185" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135186">
               <did>
                 <unitid>CAT1_VIE07_D21</unitid>
                 <unittitle>EPALE</unittitle>
@@ -993,8 +1260,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma directeur d’aménagement et d’urbanisme du secteur est de Lille ; questionnaire.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135186" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135187">
               <did>
                 <unitid>CAT1_VIE07_D22</unitid>
                 <unittitle>Communauté Urbaine de Lille</unittitle>
@@ -1004,8 +1274,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Délimitation de l’agglomération selon l’INSEE, du périmètre du groupement d’urbanisme et de l’aire d’étude du programme de modernisation et d’équipement ; chiffres et densité de la population municipale des communes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135187" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135188">
               <did>
                 <unitid>CAT1_VIE07_D23</unitid>
                 <unittitle>Plan doccupation des sols</unittitle>
@@ -1015,8 +1288,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Rapport de présentation de l’Agence d’urbanisme de la Communauté Urbaine de Lille pour les communes de Roubaix et de Tourcoing.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135188" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135189">
               <did>
                 <unitid>CAT1_VIE07_D24</unitid>
                 <unittitle>La métropole</unittitle>
@@ -1026,8 +1302,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Plan de circulation et indication des parkings ; indication des équipements économiques sportifs, culturels et zones vertes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135189" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135190">
               <did>
                 <unitid>CAT1_VIE07_D25</unitid>
                 <unittitle>Agence durbanisme de la Communauté Urbaine de Lille </unittitle>
@@ -1037,8 +1316,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Objectifs, organisation spatiale, administrative et financière ; grands axes routiers de circulation.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135190" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135191">
               <did>
                 <unitid>CAT1_VIE07_D26</unitid>
                 <unittitle>Comité Régional dExpansion Economique du Nord-Pas-de-Calais</unittitle>
@@ -1049,8 +1331,11 @@
                 <p>&lt;p&gt;Les problèmes socio-économiques de Roubaix.&lt;/p&gt;&#13;
 &lt;p&gt; &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135191" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135192">
               <did>
                 <unitid>CAT1_VIE07_D27</unitid>
                 <unittitle>Comités détudes et daction économique de Lille, Armentières, Roubaix et Tourcoing </unittitle>
@@ -1060,8 +1345,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude pour promouvoir l’arrondissement de Lille au rang de métropole.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135192" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135193">
               <did>
                 <unitid>CAT1_VIE07_D28</unitid>
                 <unittitle>Agence dUrbanisme de lAgglomération métropolitaine </unittitle>
@@ -1071,8 +1359,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Les grands objectifs du schéma directeur d’aménagement et d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135193" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135194">
               <did>
                 <unitid>CAT1_VIE07_D29</unitid>
                 <unittitle>Transports en commun de larrondissement de Lille </unittitle>
@@ -1082,8 +1373,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma pour le TGV, les liaisons suburbaines et les liaisons urbaines en site réservé.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135194" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135195">
               <did>
                 <unitid>CAT1_VIE07_D30</unitid>
                 <unittitle>Métropole du Nord </unittitle>
@@ -1093,8 +1387,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Avant-projet de schéma directeur d’aménagement et d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135195" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135196">
               <did>
                 <unitid>CAT1_VIE07_D31</unitid>
                 <unittitle>Aménagement de laire métropolitaine </unittitle>
@@ -1104,8 +1401,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude d’une politique d’aménagement. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135196" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135197">
               <did>
                 <unitid>CAT1_VIE07_D32</unitid>
                 <unittitle>Répartition des origines et destinations des poids-lourds dans la Communauté Urbaine de Lille </unittitle>
@@ -1115,8 +1415,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Résultats de l’enquête menée auprès des conducteurs transitant rue Jean-Jaurès, au carrefour du SART de Villeneuve d’Ascq.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135197" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135198">
               <did>
                 <unitid>CAT1_VIE07_D33</unitid>
                 <unittitle>Une région et sa métropole </unittitle>
@@ -1126,8 +1429,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Le « plan Bernard ».&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135198" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135199">
               <did>
                 <unitid>CAT1_VIE07_D34</unitid>
                 <unittitle>Une métropole dans la région du Nord </unittitle>
@@ -1137,8 +1443,11 @@
               <scopecontent>
                 <p>&lt;p&gt;La dimension urbaine et industrielle du côté régional et la dimension propre de cette métropole.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135199" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135200">
               <did>
                 <unitid>CAT1_VIE07_D36</unitid>
                 <unittitle>Centre des jeunes patrons, section locale de Roubaix-Tourcoing </unittitle>
@@ -1148,8 +1457,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Propos sur la métropole Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135200" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135201">
               <did>
                 <unitid>CAT1_VIE07_D37</unitid>
                 <unittitle>Transports dans la Communauté Urbaine de Lille </unittitle>
@@ -1159,8 +1471,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Définition du périmètre urbain ; organisation du transport des voyageurs ; lignes régulières.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135201" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135202">
               <did>
                 <unitid>CAT1_VIE07_D38</unitid>
                 <unittitle>Transports dans la Communauté Urbaine de Lille </unittitle>
@@ -1170,8 +1485,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Questions du Groupent des associations d’usagers et réponses du vice-président de la CUDL.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135202" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135203">
               <did>
                 <unitid>CAT1_VIE07_D39</unitid>
                 <unittitle>Transports dans la Communauté Urbaine de Lille </unittitle>
@@ -1181,8 +1499,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Développement des lignes d’autobus à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135203" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135204">
               <did>
                 <unitid>CAT1_VIE07_D40</unitid>
                 <unittitle>Communauté Urbaine de Lille</unittitle>
@@ -1192,8 +1513,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Revue de presse.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135204" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR135205">
               <did>
                 <unitid>CAT1_VIE07_D41</unitid>
                 <unittitle>Stationnement</unittitle>
@@ -1203,15 +1527,21 @@
               <scopecontent>
                 <p>&lt;p&gt;Projet de réalisation d’un parking dans le centre de Lille.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR135205" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR138411">
             <did>
               <unitid>CAT1_VIE09</unitid>
               <unittitle>Tourisme</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR138411" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR138412">
               <did>
                 <unitid>CAT1_VIE09_D01</unitid>
                 <unittitle>France : touristique, thermale, climatique</unittitle>
@@ -1221,8 +1551,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte dressée par les ateliers Blondel de la Rougery de Paris.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138412" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138413">
               <did>
                 <unitid>CAT1_VIE09_D02</unitid>
                 <unittitle>Routes et ponts : France, Belgique, Zone française doccupation en Allemagne</unittitle>
@@ -1232,8 +1565,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte Michelin de la zone française, belge et allemande avec les ponts détruits et les routes en mauvais état.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138413" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138414">
               <did>
                 <unitid>CAT1_VIE09_D03</unitid>
                 <unittitle>Angleterre-Côtes françaises </unittitle>
@@ -1243,8 +1579,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte avec les distances de côtes à côtes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138414" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138415">
               <did>
                 <unitid>CAT1_VIE09_D04</unitid>
                 <unittitle>Bataille de Normandie </unittitle>
@@ -1254,8 +1593,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte Michelin n°102 de juin-août 1944.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138415" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138416">
               <did>
                 <unitid>CAT1_VIE09_D05</unitid>
                 <unittitle>Guide régional de la Lorraine </unittitle>
@@ -1265,8 +1607,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Guide Michelin des stations thermales de l’Est et des Vosges du Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138416" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138417">
               <did>
                 <unitid>CAT1_VIE09_D06</unitid>
                 <unittitle>Gérardmer : la perle des Vosges</unittitle>
@@ -1276,8 +1621,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Guide touristique avec 25 promenades sélectionnées.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138417" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138418">
               <did>
                 <unitid>CAT1_VIE09_D07</unitid>
                 <unittitle>Les évènements européens </unittitle>
@@ -1287,16 +1635,22 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte des évènements européens : Pays Balkaniques, Allemagne, Russie, Angleterre, Côtes africaines, Turquie…&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138418" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138419">
               <did>
                 <unitid>CAT1_VIE09_D08</unitid>
                 <unittitle>Bruxelles </unittitle>
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Plan. Correspond au dossier I8 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR138419" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138420">
               <did>
                 <unitid>CAT1_VIE09_D09</unitid>
                 <unittitle>Le Nord face à lavenir </unittitle>
@@ -1306,8 +1660,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Interview exclusive du premier ministre Pierre Mauroy dans le journal &lt;em&gt;La Croix du Nord&lt;/em&gt; du 31 décembre 1982.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138420" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138421">
               <did>
                 <unitid>CAT1_VIE09_D10</unitid>
                 <unittitle>Assurances sociales </unittitle>
@@ -1317,8 +1674,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les principaux avantages accordés aux assurés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138421" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138422">
               <did>
                 <unitid>CAT1_VIE09_D11</unitid>
                 <unittitle>Kores </unittitle>
@@ -1328,8 +1688,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Liasse de papier carbone vierge dans son emballage d'origine de la marque Kores.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138422" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138423">
               <did>
                 <unitid>CAT1_VIE09_D12</unitid>
                 <unittitle>Modèles de rédaction administrative  </unittitle>
@@ -1339,24 +1702,33 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Modèles de rédaction administrative : choix de discours ; traité complet de la correspondance.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138423" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138424">
               <did>
                 <unitid>CAT1_VIE09_D13</unitid>
                 <unittitle>Boulogne-Lille</unittitle>
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Carte. Correspond au dossier I13 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR138424" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138425">
               <did>
                 <unitid>CAT1_VIE09_D14</unitid>
                 <unittitle>Calais-Lille-Bruxelles </unittitle>
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Carte. Correspond au dossier I14 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR138425" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138426">
               <did>
                 <unitid>CAT1_VIE09_D15</unitid>
                 <unittitle>Lille</unittitle>
@@ -1366,8 +1738,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Plan de Lille avec les villes voisines.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138426" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138427">
               <did>
                 <unitid>CAT1_VIE09_D16</unitid>
                 <unittitle>Lille</unittitle>
@@ -1377,15 +1752,21 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Plan de Lille avec les villes voisines.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138427" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR138428">
             <did>
               <unitid>CAT1_VIE05</unitid>
               <unittitle>Abbé Paul Catrice (1905-1981) </unittitle>
               <physdesc>&lt;p&gt;Correspond aux caisses E et Ebis (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR138428" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR138429">
               <did>
                 <unitid>CAT1_VIE05_D01</unitid>
                 <unittitle>Don à la bibliothèque centrale de lInstitut catholique de Lille </unittitle>
@@ -1395,8 +1776,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Organisation et traitement du don ; publications et CV de Paul Catrice ; fiches documentaires sur certains de ses écrits.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138429" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138430">
               <did>
                 <unitid>CAT1_VIE05_D02</unitid>
                 <unittitle>Thèse </unittitle>
@@ -1406,8 +1790,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Recherche et controverse de chrétiens sur le retour des Juifs et l’apocalyptisme du XIIe au XIIIe siècle (partie de la thèse non soutenue).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138430" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138431">
               <did>
                 <unitid>CAT1_VIE05_D03</unitid>
                 <unittitle>Documents privés </unittitle>
@@ -1417,8 +1804,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Correspondance avec l’évêché de Lille et avec celui de Douala en République Unie du Cameroun ; courrier de Monseigneur Dewailly ; testament ; concession oratoire ; présentation de l’abbé Jules Declercq ; Caisse d’allocation aux prêtres âgés. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138431" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138432">
               <did>
                 <unitid>CAT1_VIE05_D04</unitid>
                 <unittitle>Esclavagisme et racisme</unittitle>
@@ -1428,8 +1818,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Lutte contre l’esclavagisme et le racisme à travers différents écrits jansénistes et antisémites. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138432" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138433">
               <did>
                 <unitid>CAT1_VIE05_D05</unitid>
                 <unittitle>Courriers divers </unittitle>
@@ -1439,8 +1832,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Refus de publication dans la Revue du Nord ; demande de documentation sur l’Islam à Dakar ; remerciement de l’Evêché du Cameroun.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138433" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138434">
               <did>
                 <unitid>CAT1_VIE05_D06</unitid>
                 <unittitle>Paul Catrice auteur </unittitle>
@@ -1450,8 +1846,11 @@
               <scopecontent>
                 <p>&lt;p&gt;L’église de Lille missionnaire : un siècle de vie missionnaire ; Roubaix au-delà des mers ; L’harmonie entre l’Eglise et le judaïsme ; L’homme aux mains de lumière.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138434" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138435">
               <did>
                 <unitid>CAT1_VIE05_D07</unitid>
                 <unittitle>Algérie</unittitle>
@@ -1461,8 +1860,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Articles de Zenati parus dans le journal « La voix indigène », journal franco-musulman de Constantine.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138435" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138436">
               <did>
                 <unitid>CAT1_VIE05_D08</unitid>
                 <unittitle>Espéranto</unittitle>
@@ -1472,8 +1874,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Différents titres de revues en langue esperanto ou sur la thématique de cette langue.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138436" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138437">
               <did>
                 <unitid>CAT1_VIE05_D09</unitid>
                 <unittitle>Points de vue politique </unittitle>
@@ -1483,8 +1888,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Points de vue politique : au temps de Napoléon Ier ; la conférence pour la IVe Internationale de juillet 1936 ; le tsar.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138437" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138438">
               <did>
                 <unitid>CAT1_VIE05_D10</unitid>
                 <unittitle>Missionnaire au Japon </unittitle>
@@ -1494,8 +1902,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Le Petit missionnaire de Marie, écho des missions des marianistes au Japon".&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138438" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138439">
               <did>
                 <unitid>CAT1_VIE05_D11</unitid>
                 <unittitle>Assemblée de lUnion française </unittitle>
@@ -1505,8 +1916,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions de résolutions et rapports sur différents sujets.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138439" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138440">
               <did>
                 <unitid>CAT1_VIE05_D12</unitid>
                 <unittitle>Antifascisme </unittitle>
@@ -1516,8 +1930,11 @@
               <scopecontent>
                 <p>&lt;p&gt;"Solidarité internationale Antifasciste", journal de l’organe de la S.I.A. : n°1 à 39 (manque 23).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138440" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138441">
               <did>
                 <unitid>CAT1_VIE05_D13</unitid>
                 <unittitle>Femmes en Afrique </unittitle>
@@ -1527,8 +1944,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Françaises d’Afrique", organe d’Union féminine civique et sociale d’Afrique du Nord : n°4 à 94 (lac).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138441" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138442">
               <did>
                 <unitid>CAT1_VIE05_D14</unitid>
                 <unittitle>Ruralité</unittitle>
@@ -1538,8 +1958,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Chronique "Pour ceux de la terre", extrait du journal "Le Populaire" du 8/01 au 31/12/1938.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138442" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138443">
               <did>
                 <unitid>CAT1_VIE05_D15</unitid>
                 <unittitle>Mission catholique en Italie </unittitle>
@@ -1549,8 +1972,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Il Corriere" : organo delle missioni cattoliche italiane in Europa, du 5/10/39 au 09/05/1940.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138443" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138444">
               <did>
                 <unitid>CAT1_VIE05_D16</unitid>
                 <unittitle>Bulgarie</unittitle>
@@ -1560,8 +1986,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Rubriques "Scène de vie bulgare" et "Pour connaître la Bulgarie" de "La parole bulgare », journal du 13/03/1938 au 28/05/1939. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138444" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138445">
               <did>
                 <unitid>CAT1_VIE05_D17</unitid>
                 <unittitle>Politique</unittitle>
@@ -1571,8 +2000,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Contestation révolutionnaire : journaux "La Lutte", 3 n° de 1937 et "Révision : revue d’études révolutionnaires», n°1 de février 1938.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138445" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138446">
               <did>
                 <unitid>CAT1_VIE05_D18</unitid>
                 <unittitle>Défense du paysan </unittitle>
@@ -1582,8 +2014,11 @@
               <scopecontent>
                 <p>&lt;p&gt;« Juin 36 » : journal de l'organe du parti socialiste ouvrier et paysan, 4 numéros entre 1938 et 1939. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138446" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138447">
               <did>
                 <unitid>CAT1_VIE05_D19</unitid>
                 <unittitle>Actualités générales </unittitle>
@@ -1593,8 +2028,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "La Croix", du 29/08 au 18/09/1933.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138447" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138448">
               <did>
                 <unitid>CAT1_VIE05_D20</unitid>
                 <unittitle>Union franco musulmane </unittitle>
@@ -1604,8 +2042,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal « La Voix indigène".&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138448" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138449">
               <did>
                 <unitid>CAT1_VIE05_D21</unitid>
                 <unittitle>Femmes en Afrique </unittitle>
@@ -1615,8 +2056,11 @@
               <scopecontent>
                 <p>&lt;p&gt;"Françaises d’Afrique", journal de l'organe d’Union féminine civique et sociale d’Afrique du Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138449" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138450">
               <did>
                 <unitid>CAT1_VIE05_D22</unitid>
                 <unittitle>Mission catholique en Afrique </unittitle>
@@ -1626,6 +2070,9 @@
               <scopecontent>
                 <p>&lt;p&gt;Journaux « Echo de Betheny », n°4 de décembre 1912 ; "L’écho d’Afrique" de 1933 à 1940 (n°2-4) lac.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138450" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -1639,21 +2086,27 @@
               </scopecontent>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR138451">
             <did>
               <unitid>CAT1_VIE14</unitid>
               <unittitle>Métro, mongy et train</unittitle>
               <physdesc>&lt;p&gt;Correspond aux caisses N (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR138451" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR138452">
               <did>
                 <unitid>CAT1_VIE14_D01</unitid>
                 <unittitle>Métro</unittitle>
                 <unitdate normal="1970">1970</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Monographie. Correspond au dossier N1 du carton N (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
+              <daogrp>
+                <daoloc href="BNR138452" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138453">
               <did>
                 <unitid>CAT1_VIE14_D02</unitid>
                 <unittitle>Métro</unittitle>
@@ -1663,8 +2116,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Traité de concession pour sa réalisation : exécution des travaux, offre de la société Matra.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138453" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138454">
               <did>
                 <unitid>CAT1_VIE14_D03</unitid>
                 <unittitle>Métro de Munich </unittitle>
@@ -1674,8 +2130,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conception, réalisation, stations, équipements et rames.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138454" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138455">
               <did>
                 <unitid>CAT1_VIE14_D04</unitid>
                 <unittitle>Métro de Berlin</unittitle>
@@ -1685,8 +2144,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conception, réalisation, stations, équipements et rames.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138455" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138456">
               <did>
                 <unitid>CAT1_VIE14_D05</unitid>
                 <unittitle>Métro</unittitle>
@@ -1696,8 +2158,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Consultation des constructeurs.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138456" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138457">
               <did>
                 <unitid>CAT1_VIE14_D06</unitid>
                 <unittitle>Aménagement et urbanisme du secteur est de Lille </unittitle>
@@ -1707,8 +2172,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les objectifs, le programme et le parti d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138457" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138458">
               <did>
                 <unitid>CAT1_VIE14_D07</unitid>
                 <unittitle>Transports en commun </unittitle>
@@ -1718,8 +2186,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etude de système pour un moyen de transport en commun discontinu en site propre.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138458" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138459">
               <did>
                 <unitid>CAT1_VIE14_D08</unitid>
                 <unittitle>Métro</unittitle>
@@ -1729,8 +2200,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Comparaison  technique des offres des soumissionnaires pour les équipements d’automatismes fixes et embarqués et dispositifs de sécurité.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138459" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138460">
               <did>
                 <unitid>CAT1_VIE14_D09</unitid>
                 <unittitle>Transports urbains de voyageurs </unittitle>
@@ -1740,8 +2214,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Politique de la Communauté Urbaine de Lille.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138460" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138461">
               <did>
                 <unitid>CAT1_VIE14_D10</unitid>
                 <unittitle>Le Métro</unittitle>
@@ -1751,8 +2228,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les tracés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138461" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138462">
               <did>
                 <unitid>CAT1_VIE14_D11</unitid>
                 <unittitle>Tracé du mongy</unittitle>
@@ -1762,8 +2242,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Aménagement du boulevard général de Gaulle et desserte des résidences Armenonville et Marly.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138462" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138463">
               <did>
                 <unitid>CAT1_VIE14_D12</unitid>
                 <unittitle>Métro</unittitle>
@@ -1772,8 +2255,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etudes préliminaires, rôle de la RATP, tracé schématique de la première ligne, estimation de son infrastructure et de son financement.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138463" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138464">
               <did>
                 <unitid>CAT1_VIE14_D13</unitid>
                 <unittitle>Transports urbains </unittitle>
@@ -1783,8 +2269,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revue "&lt;em&gt;Transports urbains&lt;/em&gt;", n°29 d’oct/déc. 1974 : innovations de 1958 à 1974, les projets futurs, les métros sans personnel de conduite, développement des transports nouveaux automatiques dans les autres pays occidentaux.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138464" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138465">
               <did>
                 <unitid>CAT1_VIE14_D14</unitid>
                 <unittitle>Métro</unittitle>
@@ -1794,8 +2283,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro, propositions de réseau à long terme et à moyen terme par la Commission technique du métro.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138465" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138466">
               <did>
                 <unitid>CAT1_VIE14_D15</unitid>
                 <unittitle>Métro</unittitle>
@@ -1805,8 +2297,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Résultats des concours relatifs aux lots caisse et équipement mécanique, équipements électriques fixes et embarqués, équipements d’automatismes fixes et embarqués et dispositifs de sécurité et équipements de contrôles d’admission et péages.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138466" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138467">
               <did>
                 <unitid>CAT1_VIE14_D16</unitid>
                 <unittitle>Métro</unittitle>
@@ -1816,8 +2311,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Notes sur les transports urbains et retour d’enquête par la Direction Départementale de l’équipement, la CUDL, l’Union des syndicats de la métropole Nord et la Compagnie générale industrielle de transports.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138467" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138468">
               <did>
                 <unitid>CAT1_VIE14_D17</unitid>
                 <unittitle>Métro</unittitle>
@@ -1827,8 +2325,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138468" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138469">
               <did>
                 <unitid>CAT1_VIE14_D18</unitid>
                 <unittitle>Métro</unittitle>
@@ -1838,8 +2339,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro, propositions de réseau à long terme et à moyen terme par la Commission technique du métro.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138469" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138470">
               <did>
                 <unitid>CAT1_VIE14_D19</unitid>
                 <unittitle>Métro et mongy </unittitle>
@@ -1849,8 +2353,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Planning de réalisation de la phase du métro ligne Villeneuve d’Ascq-Mons-Lille ; priorité des mongys sur le Grand boulevard avec prolongation des feux ; création d’un passage piéton rue de la Clef et des bons enfants et quelques informations sur des coûts.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138470" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138471">
               <did>
                 <unitid>CAT1_VIE14_D20</unitid>
                 <unittitle>Transports en commun </unittitle>
@@ -1860,8 +2367,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Nouvelles lignes dans la zone de Roubaix-Tourcoing ; schéma des lignes du réseau de la compagnie générale industrielle de transports ; plan de la desserte en transport en commun après métro.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138471" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138472">
               <did>
                 <unitid>CAT1_VIE14_D21</unitid>
                 <unittitle>Etablissement public daménagement de la ville nouvelle de Lille-est (EPALE)</unittitle>
@@ -1871,8 +2381,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Croquis du périmètre.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138472" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138473">
               <did>
                 <unitid>CAT1_VIE14_D22</unitid>
                 <unittitle>Métro</unittitle>
@@ -1882,8 +2395,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Financement, programme d’investissements pour le compte de la CUDL, jury et étude.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138473" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138474">
               <did>
                 <unitid>CAT1_VIE14_D23</unitid>
                 <unittitle>Financement du métro </unittitle>
@@ -1893,8 +2409,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Histoire du métro, questions les plus fréquemment posées et informations sur les différents financements.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138474" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138475">
               <did>
                 <unitid>CAT1_VIE14_D24</unitid>
                 <unittitle>Métro</unittitle>
@@ -1904,8 +2423,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revue « &lt;em&gt;En direct du métro &lt;/em&gt;», n°1 de janvier 1979 : historique du projet du métro de Lille, planning et avancées des travaux, point technique sur la galerie de circulation du métro.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138475" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138476">
               <did>
                 <unitid>CAT1_VIE14_D25</unitid>
                 <unittitle>Métro</unittitle>
@@ -1915,8 +2437,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projets d’investissement en faveur des transports collectifs (autobus, trains, tramway) et plus particulièrement du métro (véhicules, exploitation, usagers, ligne 1 et dates prévisionnelles).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138476" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138477">
               <did>
                 <unitid>CAT1_VIE14_D26</unitid>
                 <unittitle>La ville nouvelle de Lille-est </unittitle>
@@ -1926,8 +2451,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Présentation au syndicat mixte d’exploitation des transports en commun de la CUDL du système VAL (Véhicules automatiques légers) et des bénéfices pour la ville et les usagers.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138477" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138478">
               <did>
                 <unitid>CAT1_VIE14_D27</unitid>
                 <unittitle>Plan de transport</unittitle>
@@ -1937,8 +2465,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Aménagement d’un réseau de transport collectif en site propre, plans généraux réalisation Communauté Urbaine de Lille, Direction Départementale de l’Equipement du Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138478" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138479">
               <did>
                 <unitid> CAT1_VIE14_D28</unitid>
                 <unittitle>Métro et autobus </unittitle>
@@ -1948,8 +2479,11 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions de tracés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138479" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138480">
               <did>
                 <unitid>CAT1_VIE14_D29</unitid>
                 <unittitle>Métro parisien </unittitle>
@@ -1959,8 +2493,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Avantages et inconvénients du métro sur pneus.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138480" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138481">
               <did>
                 <unitid>CAT1_VIE14_D30</unitid>
                 <unittitle>Métro</unittitle>
@@ -1970,8 +2507,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt; Article de "&lt;em&gt;Le monde&lt;/em&gt;" du 7/11/1973 : circulation sans conducteur.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138481" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138482">
               <did>
                 <unitid>CAT1_VIE14_D31</unitid>
                 <unittitle>Métro et mongy </unittitle>
@@ -1981,8 +2521,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Press-book.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138482" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138483">
               <did>
                 <unitid>CAT1_VIE14_D32</unitid>
                 <unittitle>Métro</unittitle>
@@ -1992,8 +2535,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau du métro dans l’agglomération.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138483" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138484">
               <did>
                 <unitid>CAT1_VIE14_D33</unitid>
                 <unittitle>Métro à Véhicules Automatiques Légers (VAL) </unittitle>
@@ -2003,8 +2549,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Communication sur le système et le fonctionnement du service.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138484" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138485">
               <did>
                 <unitid>CAT1_VIE14_D34</unitid>
                 <unittitle>Transports urbains de voyageurs</unittitle>
@@ -2014,8 +2563,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Politique de la CUDL.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138485" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138486">
               <did>
                 <unitid>CAT1_VIE14_D35</unitid>
                 <unittitle>Tracés du métro</unittitle>
@@ -2025,8 +2577,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Résumé et conclusion par le Ministère des Transports-Direction Départementale de l’Equipement du Nord.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138486" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138487">
               <did>
                 <unitid>CAT1_VIE14_D36</unitid>
                 <unittitle>Métro</unittitle>
@@ -2036,8 +2591,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Présentation du projet ; concessions.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138487" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138488">
               <did>
                 <unitid>CAT1_VIE14_D37</unitid>
                 <unittitle>Métro</unittitle>
@@ -2047,8 +2605,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etude des possibilités de rénovation urbaine dans le quartier de Wazemmes.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138488" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138489">
               <did>
                 <unitid>CAT1_VIE14_D38</unitid>
                 <unittitle>Métro</unittitle>
@@ -2058,8 +2619,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet, lignes et arrêts.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138489" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138490">
               <did>
                 <unitid>CAT1_VIE14_D39</unitid>
                 <unittitle>Métro</unittitle>
@@ -2069,8 +2633,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revues "&lt;em&gt;En direct du métro&lt;/em&gt;" n°2 à 12 ; "&lt;em&gt;La Croix du Nord&lt;/em&gt;" n°629 du 21/11/1980) : communication de la CUDL ; projet de la ligne 2 dans la presse.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138490" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138491">
               <did>
                 <unitid>CAT1_VIE14_D40</unitid>
                 <unittitle>Métro</unittitle>
@@ -2080,8 +2647,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Press-book.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138491" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138492">
               <did>
                 <unitid>CAT1_VIE14_D41</unitid>
                 <unittitle>Ligne de métro n°1 </unittitle>
@@ -2091,8 +2661,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Dossier de concession.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138492" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138493">
               <did>
                 <unitid>CAT1_VIE14_D42</unitid>
                 <unittitle>Métro</unittitle>
@@ -2102,8 +2675,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Propositions pour les tracés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138493" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138494">
               <did>
                 <unitid>CAT1_VIE14_D43</unitid>
                 <unittitle>Métro</unittitle>
@@ -2113,8 +2689,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Compte-rendu du jury VAL et point des études : étude paramétrique de système, dossiers de concours sur les différents lots, solution d’automatisme et analyse détaillée des offres d’automatisme.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138494" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138495">
               <did>
                 <unitid>CAT1_VIE14_D44</unitid>
                 <unittitle>TGV</unittitle>
@@ -2124,8 +2703,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Avantages et inconvénients des deux tracés du TGV dans le Nord-Pas-de-Calais.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138495" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138496">
               <did>
                 <unitid>CAT1_VIE14_D45</unitid>
                 <unittitle>Train</unittitle>
@@ -2135,15 +2717,21 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Ligne ferroviaire de Somain à Halluin, partie Ascq-Lannoy.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138496" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR138497">
             <did>
               <unitid>CAT1_VIE08</unitid>
               <unittitle>Foyer de Jeunes Travailleurs et Association pour le Logement des Jeunes Isolés </unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse H (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR138497" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR138498">
               <did>
                 <unitid>CAT1_VIE08_D01</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs (F.J.T.)</unittitle>
@@ -2153,8 +2741,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Réunions du Conseil d’administration ; situation financière.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138498" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138499">
               <did>
                 <unitid>CAT1_VIE08_D02</unitid>
                 <unittitle>Association pour le Logement des Jeunes Isolés (A.L.J.I) </unittitle>
@@ -2164,8 +2755,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Liens avec la préfecture, la mairie et le département.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138499" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138500">
               <did>
                 <unitid>CAT1_VIE08_D03</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs </unittitle>
@@ -2175,8 +2769,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Création ; inauguration ; liens avec l’Association pour le Logement des Jeunes Isolés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138500" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138501">
               <did>
                 <unitid>CAT1_VIE08_D04</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2186,8 +2783,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activité et financiers).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138501" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138502">
               <did>
                 <unitid>CAT1_VIE08_D05</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2197,8 +2797,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte de membre actif ; réflexions pour l’étude d’un encadrement ; compte-rendu de réunions.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138502" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138503">
               <did>
                 <unitid>CAT1_VIE08_D06</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2208,8 +2811,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activités et financiers) ; statuts ; organigramme ; restauration ; rapport moral.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138503" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138504">
               <did>
                 <unitid>CAT1_VIE08_D07</unitid>
                 <unittitle>Association pour le Logement des Jeunes Isolés </unittitle>
@@ -2219,8 +2825,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet du foyer avec devis et plans.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138504" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138505">
               <did>
                 <unitid>CAT1_VIE08_D08</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2230,8 +2839,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Gestion par l’Association pour le Logement des Jeunes Isolés.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138505" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138506">
               <did>
                 <unitid>CAT1_VIE08_D09</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2241,8 +2853,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapports d’activités.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138506" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138507">
               <did>
                 <unitid>CAT1_VIE08_D10</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2252,8 +2867,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Inauguration ; cessation d’activité.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138507" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138508">
               <did>
                 <unitid>CAT1_VIE08_D11</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2263,8 +2881,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet de création par l’ALJI ; exemple de celui de Dijon.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138508" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138509">
               <did>
                 <unitid>CAT1_VIE08_D12</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2274,8 +2895,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Demande de subvention au conseil général du Nord par l’ALJI.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138509" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138510">
               <did>
                 <unitid>CAT1_VIE08_D13</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2285,8 +2909,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Demande d’inscription au plan d’équipement social par l’ALJI.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138510" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138511">
               <did>
                 <unitid>CAT1_VIE08_D14</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2296,8 +2923,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activité et financiers).&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138511" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138512">
               <did>
                 <unitid>CAT1_VIE08_D15</unitid>
                 <unittitle>Jeunes travailleurs </unittitle>
@@ -2307,8 +2937,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapport sur les jeunes travailleurs déplacés sur Roubaix.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138512" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138513">
               <did>
                 <unitid>CAT1_VIE08_D16</unitid>
                 <unittitle>Club des jeunes de la Guinguette</unittitle>
@@ -2318,8 +2951,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Vie du quartier ; vie des jeunes ; vie du club.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138513" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138514">
               <did>
                 <unitid>CAT1_VIE08_D17</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2329,8 +2965,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conventions ; demandes de subventions par l’ALJI ; renseignements administratifs.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138514" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138515">
               <did>
                 <unitid>CAT1_VIE08_D18</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2340,8 +2979,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Informations de l’Union Régionale Interfédérale de Lille ; comptes d’exploitation ; liens possibles avec le Club des jeunes de la Guinguette.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138515" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138516">
               <did>
                 <unitid>CAT1_VIE08_D19</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2351,8 +2993,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Convention avec l’Office public d’H.L.M. ; contrat avec la Générale de restauration ; budget de fonctionnement.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138516" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138517">
               <did>
                 <unitid>CAT1_VIE08_D20</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2362,8 +3007,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Comptes d’exploitation.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138517" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138518">
               <did>
                 <unitid>CAT1_VIE08_D21</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2373,8 +3021,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière ; tarifs de restauration ; règles de licenciement.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138518" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138519">
               <did>
                 <unitid>CAT1_VIE08_D22</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2384,8 +3035,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Difficultés financières dans le paiement des loyers. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138519" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138520">
               <did>
                 <unitid>CAT1_VIE08_D23</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2395,8 +3049,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière ; paiement de la taxe d’habitation. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138520" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138521">
               <did>
                 <unitid>CAT1_VIE08_D24</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2406,8 +3063,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapport moral. &lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138521" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138522">
               <did>
                 <unitid>CAT1_VIE08_D25</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2417,8 +3077,11 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Analyse de gestion ; rapport financier ; subventions du Conseil Général du Nord ; organisation de la semaine d’action des foyers de jeunes travailleurs.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138522" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR138523">
               <did>
                 <unitid>CAT1_VIE08_D26</unitid>
                 <unittitle>Foyer de Jeunes Travailleurs</unittitle>
@@ -2428,41 +3091,59 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Informations et courriers administratifs. Inauguration.&lt;/p&gt;</p>
               </scopecontent>
+              <daogrp>
+                <daoloc href="BNR138523" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
         </c>
-        <c level="series">
+        <c level="series" osiros_id="BNR135206">
           <did>
             <unitid>CAT1_ENT</unitid>
             <unittitle>Entreprise familiale</unittitle>
           </did>
+          <daogrp>
+            <daoloc href="BNR135206" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="series">
+        <c level="series" osiros_id="BNR135207">
           <did>
             <unitid>CAT1_GEN</unitid>
             <unittitle>Généalogie et famille</unittitle>
           </did>
+          <daogrp>
+            <daoloc href="BNR135207" role="old_ark"/>
+          </daogrp>
         </c>
       </c>
-      <c level="subfonds">
+      <c level="subfonds" osiros_id="BNR135208">
         <did>
           <unitid>CAT2</unitid>
           <unittitle>Famille Delmasure</unittitle>
           <unitdate>à finaliser avec la réalisation de l'inventaire</unitdate>
         </did>
+        <daogrp>
+          <daoloc href="BNR135208" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="subfonds">
+      <c level="subfonds" osiros_id="BNR135209">
         <did>
           <unitid>CAT3</unitid>
           <unittitle>Scoutisme à Roubaix</unittitle>
           <unitdate>à finaliser avec la réalisation de l'inventaire</unitdate>
         </did>
+        <daogrp>
+          <daoloc href="BNR135209" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="subfonds">
+      <c level="subfonds" osiros_id="BNR135210">
         <did>
           <unitid>CAT4</unitid>
           <unittitle>Informations sur le fonds issues de Bernard Catrice</unittitle>
         </did>
+        <daogrp>
+          <daoloc href="BNR135210" role="old_ark"/>
+        </daogrp>
       </c>
     </dsc>
   </archdesc>

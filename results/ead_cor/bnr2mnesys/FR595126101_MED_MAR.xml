@@ -31,7 +31,7 @@
       <repository>Médiathèque de Roubaix</repository>
     </did>
     <dsc>
-      <c level="subfonds">
+      <c level="subfonds" osiros_id="BNR128984">
         <did>
           <unitid>RBX_MED_MAR_AFF</unitid>
           <unittitle>Affiches de marionnettes</unittitle>
@@ -40,7 +40,10 @@
           <genreform>Affiches</genreform>
           <subject source="theme">Spectacles</subject>
         </controlaccess>
-        <c level="series">
+        <daogrp>
+          <daoloc href="BNR128984" role="old_ark"/>
+        </daogrp>
+        <c level="series" osiros_id="BNR128985">
           <did>
             <unitid>RBX_MED_MAR_AFF_AM01</unitid>
             <unittitle>Louis Richard et l'ARMAT</unittitle>
@@ -49,12 +52,18 @@
             <persname>Richard, Louis</persname>
             <corpname>Association ARMAT - Association pour le Renouveau de la Marionnette à Tringle</corpname>
           </controlaccess>
-          <c level="subseries">
+          <daogrp>
+            <daoloc href="BNR128985" role="old_ark"/>
+          </daogrp>
+          <c level="subseries" osiros_id="BNR128986">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM01_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR128986" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129128">
               <did>
                 <unitid>MAR_AFF_AM01_B_001</unitid>
                 <unittitle>L'île au trésor</unittitle>
@@ -64,8 +73,11 @@
               <controlaccess>
                 <corpname>Théâtre Louis Richard (Roubaix, Nord)</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129128" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129129">
               <did>
                 <unitid>MAR_AFF_AM01_B_003</unitid>
                 <unittitle>La nativité</unittitle>
@@ -76,8 +88,11 @@
               <controlaccess>
                 <persname role="illustrateur">Cuvelier, Roland</persname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129129" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129130">
               <did>
                 <unitid>MAR_AFF_AM01_B_004</unitid>
                 <unittitle>Tyll Eulenspiegel</unittitle>
@@ -91,8 +106,11 @@
                 <corpname role="imprimeur">Imprimerie Prestoprint</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_004_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129130" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129131">
               <did>
                 <unitid>MAR_AFF_AM01_B_005</unitid>
                 <unittitle>Ourson et Valentin</unittitle>
@@ -106,8 +124,11 @@
                 <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_005_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129131" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129132">
               <did>
                 <unitid>MAR_AFF_AM01_B_006</unitid>
                 <unittitle>Le fantôme de Canterville</unittitle>
@@ -119,8 +140,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_006_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129132" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129133">
               <did>
                 <unitid>MAR_AFF_AM01_B_007</unitid>
                 <unittitle>L'île au trésor</unittitle>
@@ -133,8 +157,11 @@
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_007_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129133" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129134">
               <did>
                 <unitid>MAR_AFF_AM01_B_010</unitid>
                 <unittitle>A la Bastille, Polichinelle</unittitle>
@@ -146,8 +173,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_010_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129134" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129135">
               <did>
                 <unitid>MAR_AFF_AM01_B_011</unitid>
                 <unittitle>Ah qu'in est fir dêtre Roubaignos</unittitle>
@@ -162,8 +192,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_011_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129135" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129136">
               <did>
                 <unitid>MAR_AFF_AM01_B_014</unitid>
                 <unittitle>Festival de marionnettes des cultures européennes</unittitle>
@@ -175,8 +208,11 @@
                 <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_014_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129136" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129137">
               <did>
                 <unitid>MAR_AFF_AM01_B_015</unitid>
                 <unittitle>Marionnettes traditionnelles. Circus Polka</unittitle>
@@ -188,8 +224,11 @@
                 <corpname role="imprimeur">Imprimerie J'Imprime - Villeneuve d'Ascq</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_015_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129137" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129138">
               <did>
                 <unitid>MAR_AFF_AM01_B_016</unitid>
                 <unittitle>Marionnettes de la Flandre française XVIII-XIX-XXe siècle</unittitle>
@@ -201,8 +240,11 @@
                 <corpname role="imprimeur">Imprimerie de la Communauté urbaine de Lille</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_016_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129138" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129139">
               <did>
                 <unitid>MAR_AFF_AM01_B_017</unitid>
                 <unittitle>Salut et fraternité</unittitle>
@@ -216,8 +258,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_017_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129139" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129140">
               <did>
                 <unitid>MAR_AFF_AM01_B_018</unitid>
                 <unittitle>Bijou dans Un siècle de marionnettes</unittitle>
@@ -232,8 +277,11 @@
                 <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_018_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129140" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129141">
               <did>
                 <unitid>MAR_AFF_AM01_B_020</unitid>
                 <unittitle>Découvertes</unittitle>
@@ -244,8 +292,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_020_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129141" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129142">
               <did>
                 <unitid>MAR_AFF_AM01_B_021</unitid>
                 <unittitle>Marionnettes traditionnelles</unittitle>
@@ -256,8 +307,11 @@
                 <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_021_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129142" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129143">
               <did>
                 <unitid>MAR_AFF_AM01_B_022</unitid>
                 <unittitle>Polichinelle(s) d'Europe</unittitle>
@@ -269,8 +323,11 @@
                 <persname role="Graphiste">Ducros, Anne</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_022_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129143" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129144">
               <did>
                 <unitid>MAR_AFF_AM01_B_023</unitid>
                 <unittitle>Aux deux bouts du tunnel</unittitle>
@@ -282,8 +339,11 @@
                 <persname role="illustrateur">Poullet, F.</persname>
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129144" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129145">
               <did>
                 <unitid>MAR_AFF_AM01_B_024</unitid>
                 <unittitle>Langage d'oiseaux. Frederico Garcia Lorca</unittitle>
@@ -297,8 +357,11 @@
                 <persname>Gommez, David</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_024_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129145" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129146">
               <did>
                 <unitid>MAR_AFF_AM01_B_025</unitid>
                 <unittitle>Exposition autour de la marionnette contemporaine</unittitle>
@@ -309,8 +372,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_025_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129146" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129147">
               <did>
                 <unitid>MAR_AFF_AM01_B_026</unitid>
                 <unittitle>Pur amour inoxydale</unittitle>
@@ -323,8 +389,11 @@
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_026_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129147" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129148">
               <did>
                 <unitid>MAR_AFF_AM01_B_027</unitid>
                 <unittitle>Grain de grenade, ma fille</unittitle>
@@ -336,8 +405,11 @@
                 <corpname role="imprimeur">Imprimerie Colortype</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_027_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129148" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129149">
               <did>
                 <unitid>MAR_AFF_AM01_B_028</unitid>
                 <unittitle>La farce du vilain miroir</unittitle>
@@ -348,8 +420,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_028_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129149" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129150">
               <did>
                 <unitid>MAR_AFF_AM01_B_030</unitid>
                 <unittitle>La farce du vilain miroir</unittitle>
@@ -360,8 +435,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_030_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129150" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129151">
               <did>
                 <unitid>MAR_AFF_AM01_B_032</unitid>
                 <unittitle>Un loup dans un livre</unittitle>
@@ -372,8 +450,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_032_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129151" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129152">
               <did>
                 <unitid>MAR_AFF_AM01_B_033</unitid>
                 <unittitle>Un loup dans un livre</unittitle>
@@ -384,8 +465,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_033_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129152" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129153">
               <did>
                 <unitid>MAR_AFF_AM01_B_034</unitid>
                 <unittitle>La légende de Lyderick et Phinaert</unittitle>
@@ -396,8 +480,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_034_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129153" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129154">
               <did>
                 <unitid>MAR_AFF_AM01_B_035</unitid>
                 <unittitle>Marionnettes traditionnelles</unittitle>
@@ -408,8 +495,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129154" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129155">
               <did>
                 <unitid>MAR_AFF_AM01_B_036</unitid>
                 <unittitle>Saison de marionnettes</unittitle>
@@ -422,8 +512,11 @@
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_036_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129155" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129156">
               <did>
                 <unitid>MAR_AFF_AM01_B_037</unitid>
                 <unittitle>Recherhce Hippotigris</unittitle>
@@ -434,8 +527,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_037_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129156" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129157">
               <did>
                 <unitid>MAR_AFF_AM01_B_040</unitid>
                 <unittitle>Contes chauds et froids</unittitle>
@@ -448,8 +544,11 @@
                 <persname role="Graphiste">Debacker, Florence</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_040_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129157" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129158">
               <did>
                 <unitid>MAR_AFF_AM01_B_041</unitid>
                 <unittitle>L'arbre du monde</unittitle>
@@ -460,6 +559,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_B_041_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129158" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -587,12 +689,15 @@
               </controlaccess>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR129159">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM01_C</unitid>
               <unittitle>Affiches petit format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129159" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129160">
               <did>
                 <unitid>MAR_AFF_AM01_C_028</unitid>
                 <unittitle>L'île au trésor</unittitle>
@@ -604,8 +709,11 @@
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_028_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129160" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129161">
               <did>
                 <unitid>MAR_AFF_AM01_C_057</unitid>
                 <unittitle>Les marionnettes fêtent Noël</unittitle>
@@ -618,8 +726,11 @@
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_057_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129161" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129162">
               <did>
                 <unitid>MAR_AFF_AM01_C_061</unitid>
                 <unittitle>L'île au trésor</unittitle>
@@ -631,8 +742,11 @@
                 <corpname role="Graphiste">Et Si... l'Agence</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_061_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129162" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129163">
               <did>
                 <unitid>MAR_AFF_AM01_C_066</unitid>
                 <unittitle>La fille au masque de bois</unittitle>
@@ -643,8 +757,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_066_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129163" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129164">
               <did>
                 <unitid>MAR_AFF_AM01_C_067</unitid>
                 <unittitle>Dans les nuages</unittitle>
@@ -655,8 +772,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_067_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129164" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129165">
               <did>
                 <unitid>MAR_AFF_AM01_C_069</unitid>
                 <unittitle>La plums de l'aigle blanc</unittitle>
@@ -667,8 +787,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_069_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129165" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129166">
               <did>
                 <unitid>MAR_AFF_AM01_C_073</unitid>
                 <unittitle>Grain de grenade, ma fille</unittitle>
@@ -680,8 +803,11 @@
                 <persname role="Graphiste">Gommez, David</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_073_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129166" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129167">
               <did>
                 <unitid>MAR_AFF_AM01_C_074</unitid>
                 <unittitle>Ourson et Valentin</unittitle>
@@ -692,8 +818,11 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_074_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129167" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129168">
               <did>
                 <unitid>MAR_AFF_AM01_C085</unitid>
                 <unittitle>La fanôme de Canterville</unittitle>
@@ -704,6 +833,9 @@
                 <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_001_C_085_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129168" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -1514,7 +1646,7 @@
             </c>
           </c>
         </c>
-        <c level="series">
+        <c level="series" osiros_id="BNR129169">
           <did>
             <unitid>RBX_MED_MAR_AFF_AM02</unitid>
             <unittitle>La Compagnie Jacques Vincent</unittitle>
@@ -1522,12 +1654,18 @@
           <controlaccess>
             <persname>Vincent, Jacques</persname>
           </controlaccess>
-          <c level="subseries">
+          <daogrp>
+            <daoloc href="BNR129169" role="old_ark"/>
+          </daogrp>
+          <c level="subseries" osiros_id="BNR129170">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM02_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129170" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129171">
               <did>
                 <unitid>MAR_AFF_AM02_B_001</unitid>
                 <unittitle>Pupuce et Zigomar</unittitle>
@@ -1539,8 +1677,11 @@
                 <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_001_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129171" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129172">
               <did>
                 <unitid>MAR_AFF_AM02_B_002</unitid>
                 <unittitle>Cher clown. Le petit hérisson bleu</unittitle>
@@ -1554,8 +1695,11 @@
                 <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_002_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129172" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129173">
               <did>
                 <unitid>MAR_AFF_AM02_B_003</unitid>
                 <unittitle>Marionnettes : stages</unittitle>
@@ -1566,8 +1710,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129173" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129174">
               <did>
                 <unitid>MAR_AFF_AM02_B_006</unitid>
                 <unittitle>La maison de la marionnette de Roubaix</unittitle>
@@ -1579,8 +1726,11 @@
                 <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
                 <corpname role="imprimeur">Imprimerie L&amp; C Publicité - Roubaix</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129174" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129175">
               <did>
                 <unitid>MAR_AFF_AM02_B_007</unitid>
                 <unittitle>Visa pour Roubaix</unittitle>
@@ -1594,8 +1744,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie GEP - Wattrelos</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129175" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129176">
               <did>
                 <unitid>MAR_AFF_AM02_B_008</unitid>
                 <unittitle>Geneviève de Brabant</unittitle>
@@ -1609,8 +1762,11 @@
                 <geogname source="rue" coord="[ 50.6885446, 3.1722137 ]">Curoir, rue du</geogname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_008_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129176" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129177">
               <did>
                 <unitid>MAR_AFF_AM02_B_009</unitid>
                 <unittitle>Théâtre d'ombres Jean-Pierre Lescot</unittitle>
@@ -1625,8 +1781,11 @@
                 <corpname role="imprimeur">Imprimerie Limonaires Troesnes</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_009_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129177" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129178">
               <did>
                 <unitid>MAR_AFF_AM02_B_010</unitid>
                 <unittitle>Bruce Schwartz</unittitle>
@@ -1639,8 +1798,11 @@
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_010_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129178" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129179">
               <did>
                 <unitid>MAR_AFF_AM02_B_011</unitid>
                 <unittitle>Le petit hérisson bleu</unittitle>
@@ -1653,6 +1815,9 @@
                 <corpname role="imprimeur">Imprimerie Vial et fils - Roubaix</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_B_011_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129179" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -1679,12 +1844,15 @@
               </controlaccess>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR129180">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM02_C</unitid>
               <unittitle>Affiches petit format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129180" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129181">
               <did>
                 <unitid>MAR_AFF_AM02_C_001</unitid>
                 <unittitle>Marionnettoparc</unittitle>
@@ -1697,6 +1865,9 @@
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_002_C_001_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129181" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -1711,17 +1882,23 @@
             </c>
           </c>
         </c>
-        <c level="series">
+        <c level="series" osiros_id="BNR129182">
           <did>
             <unitid>RBX_MED_MAR_AFF_AM03</unitid>
             <unittitle>Les marionnettes et les services culturels de Roubaix</unittitle>
           </did>
-          <c level="subseries">
+          <daogrp>
+            <daoloc href="BNR129182" role="old_ark"/>
+          </daogrp>
+          <c level="subseries" osiros_id="BNR129183">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM03_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129183" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129184">
               <did>
                 <unitid>MAR_AFF_AM03_B_003</unitid>
                 <unittitle>Les perles bleues du Maharadjah</unittitle>
@@ -1735,8 +1912,11 @@
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_003_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129184" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129185">
               <did>
                 <unitid>MAR_AFF_AM03_B_005</unitid>
                 <unittitle>Papiers et marionnettes</unittitle>
@@ -1747,8 +1927,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129185" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129186">
               <did>
                 <unitid>MAR_AFF_AM03_B_006</unitid>
                 <unittitle>Musée des marionnettes du monde</unittitle>
@@ -1756,8 +1939,11 @@
                 <physdesc>&lt;p&gt;Dimensions : 60 x 40 cm. Technique : Offset. Cote : AM3b06.&lt;/p&gt;</physdesc>
               </did>
               <dao href="RBX_MED_MAR_003_B_006_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129186" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129187">
               <did>
                 <unitid>MAR_AFF_AM03_B_008</unitid>
                 <unittitle>Exposition de marionnettes Flandres, Artois, Picardie</unittitle>
@@ -1770,8 +1956,11 @@
                 <corpname role="imprimeur">Imprimerie Garcenot - Lille</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_008_001.jpg" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129187" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129188">
               <did>
                 <unitid>MAR_AFF_AM03_B_009</unitid>
                 <unittitle>Les perles bleues du Maharadja</unittitle>
@@ -1785,8 +1974,11 @@
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_009_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129188" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129189">
               <did>
                 <unitid>MAR_AFF_AM03_B_011</unitid>
                 <unittitle>Saison de la marionnette à Roubaix </unittitle>
@@ -1799,8 +1991,11 @@
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_011_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129189" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129190">
               <did>
                 <unitid>MAR_AFF_AM03_B_012</unitid>
                 <unittitle>Saison de la marionnette à Roubaix</unittitle>
@@ -1812,8 +2007,11 @@
                 <corpname role="imprimeur">Imprimerie Paroles</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_012_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129190" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129191">
               <did>
                 <unitid>MAR_AFF_AM03_B_013</unitid>
                 <unittitle>Vestiges</unittitle>
@@ -1826,8 +2024,11 @@
                 <persname role="photographe">Le Brun, Eric</persname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_013_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129191" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129192">
               <did>
                 <unitid>MAR_AFF_AM03_B_014</unitid>
                 <unittitle>Papiers et marionnettes</unittitle>
@@ -1840,6 +2041,9 @@
                 <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_003_B_014_001.jpg" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129192" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -2124,17 +2328,23 @@
             </c>
           </c>
         </c>
-        <c level="series">
+        <c level="series" osiros_id="BNR129193">
           <did>
             <unitid>RBX_MED_MAR_AFF_AM04</unitid>
             <unittitle>Les marionnettes dans le Nord - Pas-de-Calais</unittitle>
           </did>
-          <c level="subseries">
+          <daogrp>
+            <daoloc href="BNR129193" role="old_ark"/>
+          </daogrp>
+          <c level="subseries" osiros_id="BNR129194">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM04_A</unitid>
               <unittitle>Affiches grand format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129194" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129195">
               <did>
                 <unitid>MAR_AFF_AM04_A_001</unitid>
                 <unittitle>Au songe comparable</unittitle>
@@ -2142,14 +2352,20 @@
                 <physdesc>&lt;p&gt;Dimensions : 85 x 35 cm. Technique : Offset. Cote : AM4a01.&lt;/p&gt;</physdesc>
               </did>
               <dao href="RBX_MED_MAR_004_A_001_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129195" role="old_ark"/>
+              </daogrp>
             </c>
           </c>
-          <c level="subseries">
+          <c level="subseries" osiros_id="BNR129196">
             <did>
               <unitid>RBX_MED_MAR_AFF_AM04_B</unitid>
               <unittitle>Affiches moyen format</unittitle>
             </did>
-            <c level="file">
+            <daogrp>
+              <daoloc href="BNR129196" role="old_ark"/>
+            </daogrp>
+            <c level="file" osiros_id="BNR129197">
               <did>
                 <unitid>MAR_AFF_AM04_B_001</unitid>
                 <unittitle>Un siècle d'automate</unittitle>
@@ -2160,8 +2376,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie I.A.L. Linselles</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129197" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129198">
               <did>
                 <unitid>MAR_AFF_AM04_B_002</unitid>
                 <unittitle>Les deuxièmes journées de la marionnette</unittitle>
@@ -2172,8 +2391,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie Merigond - Croix</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129198" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129199">
               <did>
                 <unitid>MAR_AFF_AM04_B_003</unitid>
                 <unittitle>3 petits tours et puis le monde fabuleux des marionnettes</unittitle>
@@ -2184,8 +2406,11 @@
               <controlaccess>
                 <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129199" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129200">
               <did>
                 <unitid>MAR_AFF_AM04_B_004</unitid>
                 <unittitle>Mozart : Cosi Fan Tutte</unittitle>
@@ -2195,8 +2420,11 @@
               <controlaccess>
                 <subject source="chrono">1980-1989</subject>
               </controlaccess>
+              <daogrp>
+                <daoloc href="BNR129200" role="old_ark"/>
+              </daogrp>
             </c>
-            <c level="file">
+            <c level="file" osiros_id="BNR129201">
               <did>
                 <unitid>MAR_AFF_AM04_B_005</unitid>
                 <unittitle>Leers en fête : fêtes du moulin</unittitle>
@@ -2208,6 +2436,9 @@
                 <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
               </controlaccess>
               <dao href="RBX_MED_MAR_004_B_005_001.jpg" audience="internal" role="image"/>
+              <daogrp>
+                <daoloc href="BNR129201" role="old_ark"/>
+              </daogrp>
             </c>
             <c level="file">
               <did>
@@ -2727,6 +2958,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2741,6 +2973,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2755,6 +2988,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2771,6 +3005,7 @@
                 <subject source="theme">Spectacles</subject>
                 <persname>Duck, Christian</persname>
                 <persname>Macewko, Pierre-Marie</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2785,6 +3020,7 @@
               </acqinfo>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2797,6 +3033,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Semblat, Jean-Pierre</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2809,6 +3046,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Nasoni, Jean-Jacques</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2821,6 +3059,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Nasoni, Jean-Jacques</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2832,6 +3071,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2843,6 +3083,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2854,6 +3095,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2865,6 +3107,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2876,6 +3119,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2887,6 +3131,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2898,6 +3143,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2909,6 +3155,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2920,6 +3167,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2932,6 +3180,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Lebègue, Maurice</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2943,6 +3192,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2955,6 +3205,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Dawson, Alain</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2966,6 +3217,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2978,6 +3230,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -2990,6 +3243,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Lefèvre, David</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3001,6 +3255,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3013,6 +3268,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Eloy, Michel</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3024,6 +3280,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3036,6 +3293,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Vigneux, Luc</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3047,6 +3305,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3058,6 +3317,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3083,6 +3343,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Fauconnier, Jean-Luc</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3094,6 +3355,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3106,6 +3368,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Vignuex, Jean-Luc</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3117,6 +3380,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3129,6 +3393,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>François, Jean-Marie</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3141,6 +3406,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Rose-Auvet, Françoise</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3152,6 +3418,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3163,6 +3430,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3174,6 +3442,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3185,6 +3454,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3196,6 +3466,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3207,6 +3478,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3218,6 +3490,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3229,6 +3502,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3241,6 +3515,7 @@
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
                 <persname>Hoël, Maurice</persname>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3252,6 +3527,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3263,6 +3539,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3274,6 +3551,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3285,6 +3563,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3296,6 +3575,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3307,6 +3587,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3318,6 +3599,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3329,6 +3611,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3340,6 +3623,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3351,6 +3635,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3362,6 +3647,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3373,6 +3659,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3384,6 +3671,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3395,6 +3683,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3404,6 +3693,9 @@
                 <unitdate normal="1999">1999</unitdate>
                 <physdesc>&lt;p&gt;Dimensions : 50 x 30 cm. Technique : Offset. Cote : AM5c61.&lt;/p&gt;</physdesc>
               </did>
+              <controlaccess>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
+              </controlaccess>
             </c>
             <c level="file">
               <did>
@@ -3414,6 +3706,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3425,6 +3718,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3436,6 +3730,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3447,6 +3742,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3458,6 +3754,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3469,6 +3766,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3480,6 +3778,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3491,6 +3790,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3502,6 +3802,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3524,6 +3825,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3535,6 +3837,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
             <c level="file">
@@ -3546,6 +3849,7 @@
               </did>
               <controlaccess>
                 <subject source="theme">Spectacles</subject>
+                <corpname role="imprimeur">Imprimerie Colombel Impressions </corpname>
               </controlaccess>
             </c>
           </c>

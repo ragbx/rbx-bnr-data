@@ -46,7 +46,7 @@
       <subject source="Rameau">Roubaix (Nord)</subject>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" osiros_id="BNR120437">
         <did>
           <unitid>PUB_CDR</unitid>
           <unittitle>Cahiers de Roubaix</unittitle>
@@ -57,7 +57,10 @@
           <p>&lt;p&gt;Les Cahiers de Roubaix sont écrits par des historiens, conservateurs, habitants de roubaix etc. et nous permettent de retracer l'histoire de la ville et de sa population.&lt;/p&gt;&#13;
 &lt;p&gt;Directeur de la publication : Michel DAVID&lt;/p&gt;</p>
         </scopecontent>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR120437" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR120438">
           <did>
             <unitid>PUB_CDR_001</unitid>
             <unittitle>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</unittitle>
@@ -78,9 +81,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_001_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_001_055.jpg" role="image:last"/>
+            <daoloc href="BNR120438" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120439">
           <did>
             <unitid>PUB_CDR_002</unitid>
             <unittitle>Louis Decottignies, poète ouvrier méconnu</unittitle>
@@ -103,9 +107,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_002_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_002_048.jpg" role="image:last"/>
+            <daoloc href="BNR120439" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120440">
           <did>
             <unitid>PUB_CDR_003</unitid>
             <unittitle>Lintégration des Belges à Roubaix</unittitle>
@@ -129,9 +134,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_003_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_003_073.jpg" role="image:last"/>
+            <daoloc href="BNR120440" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120441">
           <did>
             <unitid>PUB_CDR_004</unitid>
             <unittitle>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</unittitle>
@@ -155,9 +161,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_004_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_004_069.jpg" role="image:last"/>
+            <daoloc href="BNR120441" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120442">
           <did>
             <unitid>PUB_CDR_005</unitid>
             <unittitle>Témoignage dun vieux Roubaisien</unittitle>
@@ -173,13 +180,14 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_005_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_005_143.jpg" role="image:last"/>
+            <daoloc href="BNR120442" role="old_ark"/>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
             <persname normal="Vincent Lepoutre" role="dessinateur">Lepoutre, Vincent</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120443">
           <did>
             <unitid>PUB_CDR_006</unitid>
             <unittitle>Histoire de lenseignement primaire à Roubaix</unittitle>
@@ -203,9 +211,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_006_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_006_097.jpg" role="image:last"/>
+            <daoloc href="BNR120443" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120444">
           <did>
             <unitid>PUB_CDR_007</unitid>
             <unittitle>Le commerce des imprimés à Roubaix au XIXe siècle</unittitle>
@@ -228,9 +237,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_007_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_007_201.jpg" role="image:last"/>
+            <daoloc href="BNR120444" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120445">
           <did>
             <unitid>PUB_CDR_008</unitid>
             <unittitle>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</unittitle>
@@ -253,9 +263,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_008_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_008_111.jpg" role="image:last"/>
+            <daoloc href="BNR120445" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120446">
           <did>
             <unitid>PUB_CDR_009</unitid>
             <unittitle>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</unittitle>
@@ -272,12 +283,13 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_009_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_009_067.jpg" role="image:last"/>
+            <daoloc href="BNR120446" role="old_ark"/>
           </daogrp>
           <controlaccess>
             <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120447">
           <did>
             <unitid>PUB_CDR_010</unitid>
             <unittitle>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </unittitle>
@@ -299,9 +311,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_010_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_010_223.jpg" role="image:last"/>
+            <daoloc href="BNR120447" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120448">
           <did>
             <unitid>PUB_CDR_011</unitid>
             <unittitle>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</unittitle>
@@ -324,9 +337,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_011_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_011_143.jpg" role="image:last"/>
+            <daoloc href="BNR120448" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120449">
           <did>
             <unitid>PUB_CDR_012</unitid>
             <unittitle>Miscellanées : quatre textes inédits de Jean Piat</unittitle>
@@ -349,9 +363,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_012_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_012_201.jpg" role="image:last"/>
+            <daoloc href="BNR120449" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120450">
           <did>
             <unitid>PUB_CDR_013</unitid>
             <unittitle>Roubaix 1870-1908 : la question laïque</unittitle>
@@ -376,9 +391,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_013_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_013_212.jpg" role="image:last"/>
+            <daoloc href="BNR120450" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120451">
           <did>
             <unitid>PUB_CDR_014</unitid>
             <unittitle>Mémoires de Jean Soudan [Résistant]</unittitle>
@@ -401,9 +417,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_014_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_014_085.jpg" role="image:last"/>
+            <daoloc href="BNR120451" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120452">
           <did>
             <unitid>PUB_CDR_015</unitid>
             <unittitle>Témoignage dun vieux Roubaisien (suite)</unittitle>
@@ -420,12 +437,13 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_015_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_015_105.jpg" role="image:last"/>
+            <daoloc href="BNR120452" role="old_ark"/>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120453">
           <did>
             <unitid>PUB_CDR_016</unitid>
             <unittitle>Journal de guerre 1914-1918</unittitle>
@@ -447,9 +465,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_016_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_016_093.jpg" role="image:last"/>
+            <daoloc href="BNR120453" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120454">
           <did>
             <unitid>PUB_CDR_017</unitid>
             <unittitle>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</unittitle>
@@ -472,9 +491,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_017_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_017_119.jpg" role="image:last"/>
+            <daoloc href="BNR120454" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR123629">
           <did>
             <unitid>PUB_CDR_018</unitid>
             <unittitle>Autant qu'il m'en souvienne...</unittitle>
@@ -494,13 +514,14 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_CDR_018_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_018_179.jpg" role="image:last"/>
+            <daoloc href="BNR123629" role="old_ark"/>
           </daogrp>
         </c>
         <controlaccess>
           <persname normal="Michel David" role="Directeur de publication">David, Michel</persname>
         </controlaccess>
       </c>
-      <c level="series">
+      <c level="series" osiros_id="BNR120456">
         <did>
           <unitid>PUB_VPR</unitid>
           <unittitle>Au Vrai Polichinelle Roubaisien</unittitle>
@@ -524,7 +545,10 @@
           <subject source="Rameau">Théâtre de marionnettes</subject>
           <subject source="theme">Spectacles</subject>
         </controlaccess>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR120456" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR120457">
           <did>
             <unitid>PUB_VPR_001</unitid>
             <unittitle>Numéro 1</unittitle>
@@ -544,9 +568,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_001_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_001_078.jpg" role="image:last"/>
+            <daoloc href="BNR120457" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120458">
           <did>
             <unitid>PUB_VPR_002</unitid>
             <unittitle>Numéro 2</unittitle>
@@ -573,9 +598,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_002_000" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_002_085" role="image:last"/>
+            <daoloc href="BNR120458" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120459">
           <did>
             <unitid>PUB_VPR_003</unitid>
             <unittitle>Numéro 3</unittitle>
@@ -596,9 +622,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_003_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_003_103.jpg" role="image:last"/>
+            <daoloc href="BNR120459" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120460">
           <did>
             <unitid>PUB_VPR_004</unitid>
             <unittitle>Numéro 4</unittitle>
@@ -618,9 +645,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_004_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_004_094.jpg" role="image:last"/>
+            <daoloc href="BNR120460" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120461">
           <did>
             <unitid>PUB_VPR_005</unitid>
             <unittitle>Numéro 5</unittitle>
@@ -642,9 +670,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_005_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_005_074.jpg" role="image:last"/>
+            <daoloc href="BNR120461" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120462">
           <did>
             <unitid>PUB_VPR_006</unitid>
             <unittitle>Numéro 6</unittitle>
@@ -665,9 +694,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_006_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_006_082.jpg" role="image:last"/>
+            <daoloc href="BNR120462" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120463">
           <did>
             <unitid>PUB_VPR_007</unitid>
             <unittitle>Numéro 7</unittitle>
@@ -683,9 +713,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_007_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_007_062.jpg" role="image:last"/>
+            <daoloc href="BNR120463" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120464">
           <did>
             <unitid>PUB_VPR_008</unitid>
             <unittitle>Numéro 8</unittitle>
@@ -704,9 +735,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_008_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_008_143.jpg" role="image:last"/>
+            <daoloc href="BNR120464" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120465">
           <did>
             <unitid>PUB_VPR_009</unitid>
             <unittitle>Numéro 9</unittitle>
@@ -722,9 +754,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_009_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_009_076.jpg" role="image:last"/>
+            <daoloc href="BNR120465" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120466">
           <did>
             <unitid>PUB_VPR_010</unitid>
             <unittitle>Numéro 10</unittitle>
@@ -740,9 +773,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_010_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_010_137.jpg" role="image:last"/>
+            <daoloc href="BNR120466" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120467">
           <did>
             <unitid>PUB_VPR_011</unitid>
             <unittitle>Numéro 11</unittitle>
@@ -758,9 +792,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="image:last"/>
+            <daoloc href="BNR120467" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120468">
           <did>
             <unitid>PUB_VPR_012</unitid>
             <unittitle>Numéro 12</unittitle>
@@ -780,9 +815,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_012_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_012_057.jpg" role="image:last"/>
+            <daoloc href="BNR120468" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120469">
           <did>
             <unitid>PUB_VPR_013</unitid>
             <unittitle>Numéro 13, Polichinelle s'en va</unittitle>
@@ -805,10 +841,11 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_VPR_013_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_013_099.jpg" role="image:last"/>
+            <daoloc href="BNR120469" role="old_ark"/>
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" osiros_id="BNR120470">
         <did>
           <unitid>PUB_AMM</unitid>
           <unittitle>Ateliers Mémoire, Mémoires des Ateliers</unittitle>
@@ -823,7 +860,10 @@
           <subject source="Rameau">Animation du patrimoine</subject>
           <persname normal="Philippe Waret" role="Directeur de publication">Waret, Philippe</persname>
         </controlaccess>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR120470" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR120471">
           <did>
             <unitid>PUB_AMM_001</unitid>
             <unittitle>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</unittitle>
@@ -850,9 +890,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_AMM_001_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_001_101.jpg" role="image:last"/>
+            <daoloc href="BNR120471" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120472">
           <did>
             <unitid>PUB_AMM_002</unitid>
             <unittitle>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</unittitle>
@@ -880,9 +921,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_AMM_002_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_002_097.jpg" role="image:last"/>
+            <daoloc href="BNR120472" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120473">
           <did>
             <unitid>PUB_AMM_003</unitid>
             <unittitle>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</unittitle>
@@ -900,9 +942,10 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_AMM_003_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_003_087.jpg" role="image:last"/>
+            <daoloc href="BNR120473" role="old_ark"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR120474">
           <did>
             <unitid>PUB_AMM_004</unitid>
             <unittitle>Contribution à lhistoire des jardins ouvriers roubaisiens</unittitle>
@@ -921,6 +964,7 @@
             </daodesc>
             <daoloc href="RBX_LAR_PUB_AMM_004_000.jpg" role="image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_004_089.jpg" role="image:last"/>
+            <daoloc href="BNR120474" role="old_ark"/>
           </daogrp>
         </c>
       </c>

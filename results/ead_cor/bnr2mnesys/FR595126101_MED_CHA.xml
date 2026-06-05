@@ -28,7 +28,7 @@
       <repository>Médiathèque de Roubaix</repository>
     </did>
     <dsc>
-      <c level="item">
+      <c level="item" osiros_id="BNR22820">
         <did>
           <unitid>CHA_0091</unitid>
           <unittitle>Appel aux citoyens</unittitle>
@@ -43,8 +43,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0091.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22820" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22821">
         <did>
           <unitid>CHA_0237</unitid>
           <unittitle>Appel aux républicains ou les élections de 1885</unittitle>
@@ -59,8 +62,11 @@
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0237.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22821" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22822">
         <did>
           <unitid>CHA_0259</unitid>
           <unittitle>C'est la rue Decrême</unittitle>
@@ -72,10 +78,14 @@
         </scopecontent>
         <dao href="RBX_MED_CHA_0259.jpg" role="image"/>
         <controlaccess>
+          <persname role="auteur">Gaillet, Louis </persname>
           <persname role="Compositeur">Ledru, Jack</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22822" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22823">
         <did>
           <unitid>CHA_0213</unitid>
           <unittitle>Cantate</unittitle>
@@ -90,8 +100,11 @@
           <persname role="auteur">Faure, J.</persname>
           <persname role="donateur">Boudailliez, Jean-François</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22823" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22824">
         <did>
           <unitid>CHA_0150</unitid>
           <unittitle>Ch'est malheureux d'êtr'ouvri</unittitle>
@@ -105,8 +118,11 @@
           <geogname source="rue" coord="[ 50.7032986, 3.1737678 ]">Turgot, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0150.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22824" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22825">
         <did>
           <unitid>CHA_0292</unitid>
           <unittitle>Ch'est mi qui fait tout</unittitle>
@@ -120,8 +136,11 @@
         <controlaccess>
           <persname role="auteur">Stany</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22825" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22826">
         <did>
           <unitid>CHA_0254</unitid>
           <unittitle>Chanson des "Joyeux Pique-Soleil"</unittitle>
@@ -136,8 +155,11 @@
           <persname role="auteur">Landrieux, Abel</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0254.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22826" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22827">
         <did>
           <unitid>CHA_0207</unitid>
           <unittitle>Chanson des gais lurons du cul-de-four</unittitle>
@@ -152,8 +174,11 @@
           <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0207.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22827" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22828">
         <did>
           <unitid>CHA_0307</unitid>
           <unittitle>Chanson en patois</unittitle>
@@ -167,8 +192,11 @@
         <controlaccess>
           <persname role="auteur">Nice, Augustin</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22828" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22829">
         <did>
           <unitid>CHA_0273</unitid>
           <unittitle>Chanson en patois de Lille</unittitle>
@@ -179,8 +207,11 @@
           <p>&lt;p&gt;Chanson en patois de Lille chantée par La Société du Petit-Béthune. Chez Alcan Levy, Lille.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0273.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22829" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22830">
         <did>
           <unitid>CHA_0300</unitid>
           <unittitle>Chanson en patois de Lille</unittitle>
@@ -194,8 +225,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22830" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22831">
         <did>
           <unitid>CHA_0133</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -206,8 +240,14 @@
           <p>&lt;p&gt;Chanson nouvelle : air connu. Paroles de Alexandre Renard et chantée par la Société Les Martyrs réunis, chez Amand Dubois, rue Saint-André, 1. Imprimerie de l'Epeule, Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0133.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Renard, Alexandre, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22831" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22832">
         <did>
           <unitid>CHA_0266</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -218,8 +258,11 @@
           <p>&lt;p&gt;Chanson nouvelle : en patois de Lille par chantée par la Société des Bons-Enfants. Typographie F. Bracke, Lille. Chanson chantée sur l'air de "Parlons un peu d'cheul grande fiète".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0266.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22832" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22833">
         <did>
           <unitid>CHA_0270</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -233,8 +276,11 @@
         <controlaccess>
           <persname role="auteur">Dubois, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22833" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22834">
         <did>
           <unitid>CHA_0274</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -248,8 +294,11 @@
         <controlaccess>
           <persname role="auteur">Dubois, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22834" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22835">
         <did>
           <unitid>CHA_0276</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -260,8 +309,11 @@
           <p>&lt;p&gt;Chanson nouvelle en patois de Lille : interprétée par la Société de la Liberté. Imprimerie de Lefebvre-Ducrocq, Lille. Chanson chantée sur l'air de "Tra dera la ler, tra dera la etc.".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0276.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22835" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22836">
         <did>
           <unitid>CHA_0294</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -275,8 +327,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22836" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22837">
         <did>
           <unitid>CHA_0295</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -290,8 +345,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22837" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22838">
         <did>
           <unitid>CHA_0296</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -305,8 +363,11 @@
         <controlaccess>
           <persname role="auteur">Nisse, Augustin</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22838" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22839">
         <did>
           <unitid>CHA_0297</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -320,8 +381,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22839" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22840">
         <did>
           <unitid>CHA_0298</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -332,8 +396,11 @@
           <p>&lt;p&gt;Chanson nouvelle en patois de Lille. Paroles de Edouard Prévot et chantée par la Société du Grand Saint-Pierre. Imprimerie Horemans, Lille. Chanson chantée sur l'air "Des Maflans".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0298.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22840" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22841">
         <did>
           <unitid>CHA_0299</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -347,8 +414,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22841" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22842">
         <did>
           <unitid>CHA_0301</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -362,8 +432,11 @@
         <controlaccess>
           <persname role="auteur">Dubois, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22842" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22843">
         <did>
           <unitid>CHA_0302</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -377,8 +450,11 @@
         <controlaccess>
           <persname role="auteur">Dessain, Elie</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22843" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22844">
         <did>
           <unitid>CHA_0303</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -392,8 +468,11 @@
         <controlaccess>
           <persname role="auteur">Bizard, G.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22844" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22845">
         <did>
           <unitid>CHA_0305</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -407,8 +486,11 @@
         <controlaccess>
           <persname role="auteur">Dubois, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22845" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22846">
         <did>
           <unitid>CHA_0308</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -419,8 +501,11 @@
           <p>&lt;p&gt;Chanson nouvelle en patois de Lille chantée par La Société des Amis-réunis du Petit-Couteau, au Jardin de la Digue. Imprimerie Horemans, Lille.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0308.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22846" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22847">
         <did>
           <unitid>CHA_0309</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -431,8 +516,11 @@
           <p>&lt;p&gt;Chanson nouvelle en patois de Lille chantée par La Société des Amis de la Paix du Grenadier Lillois, créée en 1833. Imprimerie de Lefebvre-Ducrocq, Lille. Chanson chantée sur l'air "Tra dera la ler, tra dera la la la la la".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0309.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22847" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22848">
         <did>
           <unitid>CHA_0310</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -446,8 +534,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22848" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22849">
         <did>
           <unitid>CHA_0311</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -461,8 +552,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, Edouard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22849" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22850">
         <did>
           <unitid>CHA_0314</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -473,8 +567,11 @@
           <p>&lt;p&gt;Chanson nouvelle en patois de Lille chantée par la Société de la Porte de Toile, place de Béthune. 59-Wazemmes. Imprimerie de Horemans, Wazemmes.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0314.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22850" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22851">
         <did>
           <unitid>CHA_0316</unitid>
           <unittitle>Chanson nouvelle</unittitle>
@@ -488,8 +585,11 @@
         <controlaccess>
           <persname role="auteur">Soret, Julien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22851" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22852">
         <did>
           <unitid>CHA_0232</unitid>
           <unittitle>Chanson nouvelle de la mi-carême de 1884</unittitle>
@@ -503,8 +603,11 @@
         <controlaccess>
           <persname role="auteur">Morti, Jean-Baptiste</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22852" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22853">
         <did>
           <unitid>CHA_0086</unitid>
           <unittitle>Chansons composées spécialement</unittitle>
@@ -520,12 +623,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0086_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0086_004.jpg" role="image:last"/>
+          <daoloc href="BNR22853" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Nadaud, Gustave (1820-1893)</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22854">
         <did>
           <unitid>CHA_0013</unitid>
           <unittitle>Char triomphal des zouaves et char de la paix</unittitle>
@@ -536,8 +640,11 @@
           <p>&lt;p&gt;Char triomphal des zouaves et char de la paix : cantate par la Société du dauphin. Imprimerie J. Reboux à Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0013.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22854" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22855">
         <did>
           <unitid>CHA_0219</unitid>
           <unittitle>Chanson des montagnards roubaisiens</unittitle>
@@ -551,8 +658,11 @@
         <controlaccess>
           <persname role="auteur">Lizot, Henri-Léon</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22855" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22856">
         <did>
           <unitid>CHA_0317</unitid>
           <unittitle>Condamnation à mort de Favier</unittitle>
@@ -567,8 +677,11 @@
           <persname role="auteur">Cordonnier, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0317.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22856" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22857">
         <did>
           <unitid>CHA_0275</unitid>
           <unittitle>Couplets patriotiques</unittitle>
@@ -584,12 +697,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0275_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0275_003.jpg" role="image:last"/>
+          <daoloc href="BNR22857" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Dheran, Frédéric</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22858">
         <did>
           <unitid>CHA_0249</unitid>
           <unittitle>Courage</unittitle>
@@ -603,8 +717,11 @@
         <controlaccess>
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22858" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22859">
         <did>
           <unitid>CHA_0141</unitid>
           <unittitle>Crédit et comptant</unittitle>
@@ -624,9 +741,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0141_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0141_002.jpg" role="image:last"/>
+          <daoloc href="BNR22859" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22860">
         <did>
           <unitid>CHA_0287</unitid>
           <unittitle>De la grand'place au petit-paradis</unittitle>
@@ -640,8 +758,11 @@
         <controlaccess>
           <persname role="auteur">Danel, Jules</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22860" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22861">
         <did>
           <unitid>CHA_0277</unitid>
           <unittitle>Dominique le nunu</unittitle>
@@ -655,8 +776,11 @@
         <controlaccess>
           <persname role="auteur">Béghin, Charles</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22861" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22862">
         <did>
           <unitid>CHA_0032</unitid>
           <unittitle>Donato II ou le magnétisme... animal !</unittitle>
@@ -670,8 +794,11 @@
           <geogname source="rue" coord="[ 50.6893549, 3.1601969 ]">Epeule, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0032.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22862" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22863">
         <did>
           <unitid>CHA_0318</unitid>
           <unittitle>Donnons aux inondés !</unittitle>
@@ -685,8 +812,11 @@
         <controlaccess>
           <persname>Wiseux, Carlos</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22863" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22864">
         <did>
           <unitid>CHA_0258</unitid>
           <unittitle>Dors, mon gas !</unittitle>
@@ -702,12 +832,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0258_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0258_002.jpg" role="image:last"/>
+          <daoloc href="BNR22864" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="Compositeur">Botrel, Théodore</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22865">
         <did>
           <unitid>CHA_0288</unitid>
           <unittitle>Du carbon !!</unittitle>
@@ -718,8 +849,11 @@
           <p>&lt;p&gt;Du carbon !! par Mont d'Oches et chantée par la Société de la Porte-de-toile, place de Béthune. Imprimerie Horemans, Lille. Chanson chantée sur l'air de "A-z'oches !.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0288.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22865" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22866">
         <did>
           <unitid>CHA_0132</unitid>
           <unittitle>Du cat din l'orloche</unittitle>
@@ -734,8 +868,11 @@
           <persname role="auteur">Masurel, Gustave, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0132.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22866" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22867">
         <did>
           <unitid>CHA_0003</unitid>
           <unittitle>Emprunt de la paix</unittitle>
@@ -749,8 +886,11 @@
         <controlaccess>
           <persname role="auteur">Mousseron, Jules</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22867" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22868">
         <did>
           <unitid>CHA_0160</unitid>
           <unittitle>En avant !!!</unittitle>
@@ -761,8 +901,11 @@
           <p>&lt;p&gt;En avant !!! : air de la Marseillaise. Paroles de A.-H. Imp. F. Vossaert, Roubaix. En en-tête "Elections municipales du 3 mai 1896". Chanson chantée sur l'air de "La Marseillaise".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0160.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22868" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22869">
         <did>
           <unitid>CHA_0293</unitid>
           <unittitle>Fêtes de septembre</unittitle>
@@ -773,8 +916,11 @@
           <p>&lt;p&gt;Fêtes de septembre : chanson nouvelle en patois de Lille chantée par la Société des Amis réunis de la liberté. Imprimerie de Guermonprez, Lille. Chanson chantée sur l'air "Des soldats français en Espagne".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0293.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22869" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22870">
         <did>
           <unitid>CHA_0226</unitid>
           <unittitle>Fuyons la paresse</unittitle>
@@ -788,8 +934,11 @@
           <geogname source="rue" coord="[ 50.6606102, 3.2236783 ]">Longues haies, rue des</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0226.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22870" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22871">
         <did>
           <unitid>CHA_0193</unitid>
           <unittitle>Guerre aux exploiteurs</unittitle>
@@ -800,8 +949,11 @@
           <p>&lt;p&gt;Guerre aux exploiteurs : chanson vendue au profit de la propagande socialiste. Imprimerie G. Deryckere, Wattrelos. Chanson chantée sur l'air de "Un bal chez le Ministre".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0193.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22871" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22872">
         <did>
           <unitid>CHA_0202</unitid>
           <unittitle>Guesde, chômage ! Jaurès, misère ! Motte, abondance ! ou les bienfaits d'un député</unittitle>
@@ -816,8 +968,11 @@
           <persname role="auteur">Catrice, Louis, roubaisien (1850-1907)</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0202.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22872" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22873">
         <did>
           <unitid>CHA_0199</unitid>
           <unittitle>Gustave &amp; Thérèsa</unittitle>
@@ -832,8 +987,11 @@
           <persname role="auteur">Macaroni</persname>
           <persname role="auteur">Vermicelli</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22873" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22874">
         <did>
           <unitid>CHA_0052</unitid>
           <unittitle>Hommage aux artistes du théâtre des boulevards</unittitle>
@@ -844,8 +1002,11 @@
           <p>&lt;p&gt;Hommage aux artistes du théâtre des boulevards : chanson nouvelle pour le mardi-gras. Paroles de F.-C. et interprétée par les Amis réunis, établis à l'estaminet Jules Camut, 33 rue du moulin-de-Roubaix. Imprimerie J. Martin-Frémont. Chanson chantée sur l'air de "Guillaume Tell".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0052.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22874" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22875">
         <did>
           <unitid>CHA_0313</unitid>
           <unittitle>Hommage aux vieux grenadiers de l'Empire</unittitle>
@@ -856,8 +1017,11 @@
           <p>&lt;p&gt;Hommage aux vieux grenadiers de l'Empire : chanson nouvelle en patois de Lille interprétéé par la Société du Grand Saint-Esprit. Imprimerie de Brack, Lille. Chanson chantée sur l'air "Des Kuinzerlike".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0313.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22875" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22876">
         <did>
           <unitid>CHA_0044</unitid>
           <unittitle>Honneur à la pauvreté</unittitle>
@@ -872,8 +1036,11 @@
           <persname role="auteur">Cornil, Eugène, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0044.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22876" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22877">
         <did>
           <unitid>CHA_0257</unitid>
           <unittitle>If you miss me from the back of the bus</unittitle>
@@ -884,8 +1051,11 @@
           <p>&lt;p&gt;If you miss me from the back of the bus : adaptation of traditional song by members of SNCC. Fonds Gordon Heath and Lee Payant.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0257.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22877" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22878">
         <did>
           <unitid>CHA_0165</unitid>
           <unittitle>Inn femme qu'ell aime la goutte</unittitle>
@@ -899,8 +1069,11 @@
         <controlaccess>
           <persname role="auteur">Balot, Arthur</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22878" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22879">
         <did>
           <unitid>CHA_0220</unitid>
           <unittitle>Inn fimme rimpli d'malice</unittitle>
@@ -914,8 +1087,11 @@
           <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0220.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22879" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22880">
         <did>
           <unitid>CHA_0049</unitid>
           <unittitle>Inne fille malheureuse en amour</unittitle>
@@ -931,8 +1107,11 @@
           <persname role="auteur">Deversin, Théophile</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0049.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22880" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22881">
         <did>
           <unitid>CHA_0243</unitid>
           <unittitle>Inne nouvelle découverte</unittitle>
@@ -944,10 +1123,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.7016684, 3.1770847 ]">Flandre, rue de</geogname>
+          <persname role="auteur">Desmettre, Emile, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0243.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22881" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22882">
         <did>
           <unitid>CHA_0184</unitid>
           <unittitle>Inter deux amis</unittitle>
@@ -961,8 +1144,11 @@
         <controlaccess>
           <persname role="auteur">Babylas, G.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22882" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22883">
         <did>
           <unitid>CHA_0159</unitid>
           <unittitle>L'actualité ouvrière</unittitle>
@@ -976,8 +1162,11 @@
         <controlaccess>
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22883" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22884">
         <did>
           <unitid>CHA_0025</unitid>
           <unittitle>L'affranchissement des pinsons</unittitle>
@@ -988,8 +1177,11 @@
           <p>&lt;p&gt;L'affranchissement des pinsons : complainte. Imprimerie J. Reboux à Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0025.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22884" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22885">
         <did>
           <unitid>CHA_0103</unitid>
           <unittitle>L'agrémint d'in quartie</unittitle>
@@ -1000,8 +1192,14 @@
           <p>&lt;p&gt;L'agrémint d'in quartie : chanson nouvelle. Paroles de Désiré Bourgois et chantée par la société "Le Pigeon blanc", établie chez le M. L. Dupire, estaminet Le Pigeon Blanc, quartier Makellerie à Croix. Imprimerie Gaberel, Croix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0103.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22885" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22886">
         <did>
           <unitid>CHA_0090</unitid>
           <unittitle>L'amour</unittitle>
@@ -1016,8 +1214,11 @@
           <persname role="auteur">Dutilleul, Henri, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0090.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22886" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22887">
         <did>
           <unitid>CHA_0082</unitid>
           <unittitle>L'ancien temps et l'savon des princes du Congo</unittitle>
@@ -1031,8 +1232,11 @@
         <controlaccess>
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22887" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22888">
         <did>
           <unitid>CHA_0155</unitid>
           <unittitle>L'armée du chahut</unittitle>
@@ -1047,8 +1251,11 @@
           <persname role="auteur">Roumieux, Irénée</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0155.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22888" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22889">
         <did>
           <unitid>CHA_0033</unitid>
           <unittitle>L'avenir</unittitle>
@@ -1063,8 +1270,11 @@
           <persname role="auteur">Pontier, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0033.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22889" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22890">
         <did>
           <unitid>CHA_0042</unitid>
           <unittitle>L'avenir du bataillon scolaire</unittitle>
@@ -1079,8 +1289,11 @@
           <persname role="auteur">Cornil, Eugène, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0042.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22890" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22891">
         <did>
           <unitid>CHA_0046</unitid>
           <unittitle>L'avenir du travailleur</unittitle>
@@ -1094,8 +1307,11 @@
         <controlaccess>
           <persname role="auteur">Capart, Victor</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22891" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22892">
         <did>
           <unitid>CHA_0284</unitid>
           <unittitle>L'baingnau</unittitle>
@@ -1109,8 +1325,11 @@
         <controlaccess>
           <persname role="auteur">Decottignies, Charles</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22892" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22893">
         <did>
           <unitid>CHA_0055</unitid>
           <unittitle>L'batteuss' de cartes</unittitle>
@@ -1124,8 +1343,11 @@
         <controlaccess>
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22893" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22894">
         <did>
           <unitid>CHA_0040</unitid>
           <unittitle>L'batteux d'trottoir</unittitle>
@@ -1140,8 +1362,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0040.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22894" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22895">
         <did>
           <unitid>CHA_0104</unitid>
           <unittitle>L'beau mariache</unittitle>
@@ -1155,8 +1380,11 @@
         <controlaccess>
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22895" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22896">
         <did>
           <unitid>CHA_0216</unitid>
           <unittitle>L'Bock Meyerbeer</unittitle>
@@ -1172,12 +1400,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0216_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0216_002.jpg" role="image:last"/>
+          <daoloc href="BNR22896" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Foelix, Louis</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22897">
         <did>
           <unitid>CHA_0168</unitid>
           <unittitle>L'brouieux d'ménache</unittitle>
@@ -1191,8 +1420,11 @@
         <controlaccess>
           <persname role="auteur">Thérin, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22897" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22898">
         <did>
           <unitid>CHA_0118</unitid>
           <unittitle>L'buvette de l'grande pinte</unittitle>
@@ -1203,8 +1435,14 @@
           <p>&lt;p&gt;L'buvette de l'grande pinte : paroles de Désiré Bourgois et chantée par la Jeunesse du Raverdi, établie chez le M. Edouard André. Chanson chantée sur l'air de "A zoches".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0118.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22898" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22899">
         <did>
           <unitid>CHA_0304</unitid>
           <unittitle>L'cabaret du p'tit chav'tier</unittitle>
@@ -1215,8 +1453,11 @@
           <p>&lt;p&gt;L'cabaret du p'tit chav'tier : chanson lilloise chantée par la Société du Petit-Couteau, au jardin de la Digue. Imprimerie Horemans, Lille. Chanson chantée sur l'air "Du carnaval ou du cabaret du Petit-Quinquin".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0304.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22899" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22900">
         <did>
           <unitid>CHA_0098</unitid>
           <unittitle>L'Céléra</unittitle>
@@ -1231,8 +1472,11 @@
           <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0098.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22900" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22901">
         <did>
           <unitid>CHA_0306</unitid>
           <unittitle>L'concours de Fontainebleau</unittitle>
@@ -1243,8 +1487,11 @@
           <p>&lt;p&gt;L'concours de Fontainebleau : chanson nouvelle en patois de Lille chantée par la Société des Amis réunis de la liberté. Imprimerie de Guermonprez, Lille. Chanson chantée sur l'air "Du café, du café, etc."&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0306.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22901" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22902">
         <did>
           <unitid>CHA_0053</unitid>
           <unittitle>L'coup d'canif</unittitle>
@@ -1259,8 +1506,11 @@
           <persname role="auteur">Roussel, Emile</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0053.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22902" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22903">
         <did>
           <unitid>CHA_0037</unitid>
           <unittitle>L'désespoir d'un homme</unittitle>
@@ -1274,8 +1524,11 @@
         <controlaccess>
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22903" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22904">
         <did>
           <unitid>CHA_0214</unitid>
           <unittitle>L'espoir de l'orphelin</unittitle>
@@ -1291,6 +1544,7 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0214_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0214_002.jpg" role="image:last"/>
+          <daoloc href="BNR22904" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Spencer, Emile</persname>
@@ -1298,7 +1552,7 @@
           <persname role="donateur">Boudailliez, Jean-François</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22905">
         <did>
           <unitid>CHA_0099</unitid>
           <unittitle>L'Flût' harmonnieuss' des flûteux</unittitle>
@@ -1313,8 +1567,11 @@
           <persname role="auteur">Mazurel, Gustave</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0099.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22905" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22906">
         <did>
           <unitid>CHA_0060</unitid>
           <unittitle>L'heritache mantchi</unittitle>
@@ -1328,8 +1585,11 @@
         <controlaccess>
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22906" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22907">
         <did>
           <unitid>CHA_0106</unitid>
           <unittitle>L'histoire d'un coulonneux</unittitle>
@@ -1344,8 +1604,11 @@
           <persname role="auteur">Desbarbieux, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0106.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22907" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22908">
         <did>
           <unitid>CHA_0125</unitid>
           <unittitle>L'homme contint qui vint vieu</unittitle>
@@ -1360,8 +1623,11 @@
           <persname role="auteur">Lehembre, Désiré, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0125.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22908" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22909">
         <did>
           <unitid>CHA_0116</unitid>
           <unittitle>L'idée d'inne femme</unittitle>
@@ -1376,8 +1642,11 @@
           <persname role="auteur">Lehembre, Désiré, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0116.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22909" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22910">
         <did>
           <unitid>CHA_0128</unitid>
           <unittitle>L'marchand d'moules</unittitle>
@@ -1388,8 +1657,11 @@
           <p>&lt;p&gt;L'marchand d'moules : paroles de N.-O. et chantée par les Amis réunis, établis chez Félix Dunem. Chanson chantée sur l'air de "La marche des treize jours".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0128.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22910" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22911">
         <did>
           <unitid>CHA_0280</unitid>
           <unittitle>L'maréchau</unittitle>
@@ -1400,8 +1672,14 @@
           <p>&lt;p&gt;L'maréchau : chanson en patois de Lille. Paroles de Balthazar et interprétée par la Société des Bons-Enfants, rue de Tournay. Imprimerie de Alcan levy, Lille. Chanson chantée sur l'air de la revue de 1858 (Debuire Du Buc).&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0280.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Balthazar </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22911" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22912">
         <did>
           <unitid>CHA_0063</unitid>
           <unittitle>L'nouveau ballonnisse</unittitle>
@@ -1416,8 +1694,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0063.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22912" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22913">
         <did>
           <unitid>CHA_0268</unitid>
           <unittitle>L'ouvrier républicain</unittitle>
@@ -1428,8 +1709,11 @@
           <p>&lt;p&gt;L'ouvrier républicain : chanson nouvelle en patois de Lille interprétée par La Société du Grand Saint-Esprit. Typographie F. Bracke, Lille. Chanson chantée sur l'air de "Encore une carotte, qu'on veut nous tirer".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0268.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22913" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22914">
         <did>
           <unitid>CHA_0115</unitid>
           <unittitle>L'retour du naturalisé</unittitle>
@@ -1445,8 +1729,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0115.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22914" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22915">
         <did>
           <unitid>CHA_0136</unitid>
           <unittitle>L'Saint' Nitouche</unittitle>
@@ -1457,8 +1744,14 @@
           <p>&lt;p&gt;L'Saint' Nitouche : chanson nouvelle en patois de Roubaix. Paroles de Louis Millescamps et chantée par la Société des Tireux d'Plans, établie chez Dubar, 146 rue du Tilleul. Imprimerie ouvrière G. Delory, Lille. Chanson chantée sur l'air de "Ch'est un bon commerce d'ett' cabaréti".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0136.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Millescamps, Louis, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22915" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22916">
         <did>
           <unitid>CHA_0080</unitid>
           <unittitle>L'savon du Congo</unittitle>
@@ -1472,8 +1765,11 @@
         <controlaccess>
           <persname role="auteur">Atlder, H.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22916" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22917">
         <did>
           <unitid>CHA_0178</unitid>
           <unittitle>L'situation d'l'ouvri</unittitle>
@@ -1487,8 +1783,11 @@
         <controlaccess>
           <persname role="auteur">Hélinck, Arthur, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22917" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22918">
         <did>
           <unitid>CHA_0089</unitid>
           <unittitle>L'souv'nir du temps passé</unittitle>
@@ -1503,8 +1802,11 @@
           <persname role="auteur">Pontier, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0089.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22918" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22919">
         <did>
           <unitid>CHA_0039</unitid>
           <unittitle>L'surprise d'in jeun'homme</unittitle>
@@ -1519,8 +1821,11 @@
           <persname role="auteur">Loridan, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0039.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22919" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22920">
         <did>
           <unitid>CHA_0153</unitid>
           <unittitle>L'tristesse d'un conscrit</unittitle>
@@ -1534,8 +1839,11 @@
         <controlaccess>
           <persname role="auteur">Lehembre, Désiré, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22920" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22921">
         <did>
           <unitid>CHA_0068</unitid>
           <unittitle>L'union</unittitle>
@@ -1549,8 +1857,11 @@
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0068.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22921" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22922">
         <did>
           <unitid>CHA_0130</unitid>
           <unittitle>L'union ouvrière</unittitle>
@@ -1565,8 +1876,11 @@
           <persname role="auteur">Carette, Odon, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0130.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22922" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22923">
         <did>
           <unitid>CHA_0291</unitid>
           <unittitle>L'valet d'société</unittitle>
@@ -1577,8 +1891,11 @@
           <p>&lt;p&gt;L'valet d'société : chanson lilloise chantée par les Bons-Vivants de Bâle-en-Suisse. Imprimerie A. Béhague, Lille. Chanson chantée sur l'air "Un homme né coiffé".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0291.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22923" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22924">
         <did>
           <unitid>CHA_0139</unitid>
           <unittitle>L'oeuvre des ouvriers</unittitle>
@@ -1593,8 +1910,11 @@
           <persname role="auteur">Arthur H, Arthur</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0139.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22924" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22925">
         <did>
           <unitid>CHA_0018</unitid>
           <unittitle>L'bire de m'maison Louis</unittitle>
@@ -1608,8 +1928,11 @@
         <controlaccess>
           <persname role="auteur">Sturbo, G.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22925" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22926">
         <did>
           <unitid>CHA_0028</unitid>
           <unittitle>L'bonheur du mariache !</unittitle>
@@ -1624,8 +1947,11 @@
           <persname role="auteur">Maton, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0028.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22926" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22927">
         <did>
           <unitid>CHA_0005</unitid>
           <unittitle>L'ménache du diable</unittitle>
@@ -1639,8 +1965,11 @@
         <controlaccess>
           <persname role="auteur">Vuylsteke, Félix</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22927" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22928">
         <did>
           <unitid>CHA_0190</unitid>
           <unittitle>L's élections du 3 mai</unittitle>
@@ -1655,8 +1984,11 @@
           <persname role="auteur">Babylas, G.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0190.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22928" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22929">
         <did>
           <unitid>CHA_0203</unitid>
           <unittitle>La bourse du travail patronale</unittitle>
@@ -1670,8 +2002,11 @@
         <controlaccess>
           <persname role="auteur">Delmotte, J.-L. René</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22929" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22930">
         <did>
           <unitid>CHA_0081</unitid>
           <unittitle>La cavalcade du Congo</unittitle>
@@ -1685,8 +2020,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22930" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22931">
         <did>
           <unitid>CHA_0007</unitid>
           <unittitle>La chanson des allumoirs</unittitle>
@@ -1697,8 +2035,14 @@
           <p>&lt;p&gt;La chanson des allumoirs : paroles et musique de Charles Bodart-Timal.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0007.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Bodart, Charles, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22931" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22932">
         <did>
           <unitid>CHA_0235</unitid>
           <unittitle>La chasse aux allumettes</unittitle>
@@ -1712,8 +2056,11 @@
         <controlaccess>
           <persname role="auteur">Pouff</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22932" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22933">
         <did>
           <unitid>CHA_0269</unitid>
           <unittitle>La colonne de Lille</unittitle>
@@ -1724,8 +2071,11 @@
           <p>&lt;p&gt;La colonne de Lille : par la Société du Grand Saint-Esprit. Imprimerie de F. Brake, Lille. Chanson chantée sur l'air des "Bohémiens de Paris".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0269.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22933" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22934">
         <did>
           <unitid>CHA_0105</unitid>
           <unittitle>La conférence internationale</unittitle>
@@ -1739,8 +2089,11 @@
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0105.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22934" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22935">
         <did>
           <unitid>CHA_0221</unitid>
           <unittitle>La d'gherre aux kroumirs !</unittitle>
@@ -1754,8 +2107,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22935" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22936">
         <did>
           <unitid>CHA_0282</unitid>
           <unittitle>La démolition de la nouvelle-aventure</unittitle>
@@ -1769,8 +2125,11 @@
         <controlaccess>
           <persname role="auteur">Bouteman</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22936" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22937">
         <did>
           <unitid>CHA_0048</unitid>
           <unittitle>La désolation d'un mari</unittitle>
@@ -1784,8 +2143,11 @@
         <controlaccess>
           <persname role="auteur">Bourgois, Désiré</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22937" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22938">
         <did>
           <unitid>CHA_0218</unitid>
           <unittitle>La fête du quarti</unittitle>
@@ -1799,8 +2161,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, L.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22938" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22939">
         <did>
           <unitid>CHA_0112</unitid>
           <unittitle>La France aujourd'hui</unittitle>
@@ -1814,8 +2179,11 @@
         <controlaccess>
           <persname role="auteur">Lerouge, Théophile</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22939" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22940">
         <did>
           <unitid>CHA_0024</unitid>
           <unittitle>La guerre des pinchonneux</unittitle>
@@ -1826,8 +2194,11 @@
           <p>&lt;p&gt;La guerre des pinchonneux. Imprimerie J. Reboux à Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0024.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22940" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22941">
         <did>
           <unitid>CHA_0177</unitid>
           <unittitle>La gymnastique</unittitle>
@@ -1843,9 +2214,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0177_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0177_002.jpg" role="image:last"/>
+          <daoloc href="BNR22941" role="old_ark"/>
         </daogrp>
+        <controlaccess>
+          <persname role="auteur">Roussé, Carlos </persname>
+        </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22942">
         <did>
           <unitid>CHA_0146</unitid>
           <unittitle>La justice bourgeoise</unittitle>
@@ -1860,8 +2235,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0146.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22942" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22943">
         <did>
           <unitid>CHA_0255</unitid>
           <unittitle>La liberté bourgeoise</unittitle>
@@ -1881,9 +2259,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0255_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0255_002.jpg" role="image:last"/>
+          <daoloc href="BNR22943" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22944">
         <did>
           <unitid>CHA_0166</unitid>
           <unittitle>La lutte</unittitle>
@@ -1894,8 +2273,11 @@
           <p>&lt;p&gt;La lutte : chanson nouvelle chantée par les Amis réunis, Société établie à l'estaminet du "Rattacheur Trompette", tenu par Oscar Nys. Imprimerie Veuve Carton, Roubaix. Chanson chantée sur l'air de "La lo d'huit heures".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0166.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22944" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22945">
         <did>
           <unitid>CHA_0020</unitid>
           <unittitle>La Madelon et les poilus</unittitle>
@@ -1911,8 +2293,11 @@
           <persname role="auteur">Foelix, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0020.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22945" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22946">
         <did>
           <unitid>CHA_0210</unitid>
           <unittitle>La marche des travailleurs</unittitle>
@@ -1923,8 +2308,11 @@
           <p>&lt;p&gt;La marche des travailleurs : paroles de Maurice et chantée par Maurice, Auguste et un groupe d'amis du Concert Lempereur. Imprimerie H. Van Hulle, Roubaix. Chanson chantée sur l'air de "La marche des territoriaux".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0210.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22946" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22947">
         <did>
           <unitid>CHA_0319</unitid>
           <unittitle>La Marseillaise démocratique</unittitle>
@@ -1938,8 +2326,11 @@
         <controlaccess>
           <persname role="auteur">Savy, E.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22947" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22948">
         <did>
           <unitid>CHA_0019</unitid>
           <unittitle>La Marseillaise des envahis</unittitle>
@@ -1953,8 +2344,11 @@
         <controlaccess>
           <persname role="donateur">Grelle, Bernard</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22948" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22949">
         <did>
           <unitid>CHA_0054</unitid>
           <unittitle>La misère</unittitle>
@@ -1969,8 +2363,11 @@
           <persname role="auteur">Capart, Victor</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0054.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22949" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22950">
         <did>
           <unitid>CHA_0260</unitid>
           <unittitle>La misère</unittitle>
@@ -1981,8 +2378,11 @@
           <p>&lt;p&gt;La misère : grande soirée chantante, dimanche 31 octobre 1886 donnée par les Amis réunis, estaminet de la Barrière, tenu par Julien Cormant. Imprimerie Vossaert, Roubaix. En en-tête "Commune de Croix". Chanson chantée sur l'air de "Je vous ai vu pleurer".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0260.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22950" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22951">
         <did>
           <unitid>CHA_0022</unitid>
           <unittitle>La mort de Roger Salengro</unittitle>
@@ -1998,8 +2398,11 @@
           <persname role="donateur">Guillemyn, Marcel</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0022.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22951" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22952">
         <did>
           <unitid>CHA_0047</unitid>
           <unittitle>La nouvelle musique</unittitle>
@@ -2014,8 +2417,11 @@
           <persname role="auteur">Pontier, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0047.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22952" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22953">
         <did>
           <unitid>CHA_0192</unitid>
           <unittitle>La photographie sociale</unittitle>
@@ -2030,8 +2436,11 @@
           <persname normal="Carré, Henri" role="auteur">Carré, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0192.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22953" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22954">
         <did>
           <unitid>CHA_0204</unitid>
           <unittitle>La polka des nourrices</unittitle>
@@ -2046,8 +2455,11 @@
           <persname role="auteur">Bossuyt, Ferdinand</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0204.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22954" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22955">
         <did>
           <unitid>CHA_0015</unitid>
           <unittitle>La rapacité des patrons</unittitle>
@@ -2061,8 +2473,11 @@
         <controlaccess>
           <persname role="auteur">Capart, Victor</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22955" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22956">
         <did>
           <unitid>CHA_0078</unitid>
           <unittitle>La réclame</unittitle>
@@ -2076,8 +2491,11 @@
         <controlaccess>
           <persname role="auteur">Foelix, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22956" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22957">
         <did>
           <unitid>CHA_0188</unitid>
           <unittitle>La revanche ou le droit de l'ouvrier</unittitle>
@@ -2092,8 +2510,11 @@
           <persname role="auteur">Terreyn, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0188.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22957" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22958">
         <did>
           <unitid>CHA_0250</unitid>
           <unittitle>La richesse de l'ouvrier</unittitle>
@@ -2108,8 +2529,11 @@
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0250.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22958" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22959">
         <did>
           <unitid>CHA_0077</unitid>
           <unittitle>La ronde des manneliers</unittitle>
@@ -2124,8 +2548,11 @@
           <persname role="auteur">Maray, Emile</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0077.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22959" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22960">
         <did>
           <unitid>CHA_0138</unitid>
           <unittitle>La solidarité ouvrière</unittitle>
@@ -2136,8 +2563,11 @@
           <p>&lt;p&gt;La solidarité ouvrière chantée par la Chorale. Imprimerie de l'Epeule, Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0138.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22960" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22961">
         <did>
           <unitid>CHA_0234</unitid>
           <unittitle>La soulotte</unittitle>
@@ -2151,8 +2581,11 @@
         <controlaccess>
           <persname role="auteur">Spel, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22961" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22962">
         <did>
           <unitid>CHA_0195</unitid>
           <unittitle>La vérité sur l'affameur</unittitle>
@@ -2167,8 +2600,11 @@
           <persname normal="Carré, Henri" role="auteur">Carré, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0195.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22962" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22963">
         <did>
           <unitid>CHA_0096</unitid>
           <unittitle>La vie de l'ouvrier</unittitle>
@@ -2183,8 +2619,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0096.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22963" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22964">
         <did>
           <unitid>CHA_0126</unitid>
           <unittitle>La voix ouvrière</unittitle>
@@ -2198,8 +2637,11 @@
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0126.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22964" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22965">
         <did>
           <unitid>CHA_0027</unitid>
           <unittitle>Le barbier Masse</unittitle>
@@ -2213,8 +2655,11 @@
         <controlaccess>
           <persname role="auteur">Desrousseaux, Alexandre (1820-1892)</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22965" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22966">
         <did>
           <unitid>CHA_0010</unitid>
           <unittitle>Le canard en nourrice</unittitle>
@@ -2228,8 +2673,11 @@
         <controlaccess>
           <persname role="auteur">Loteur</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22966" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22967">
         <did>
           <unitid>CHA_0223</unitid>
           <unittitle>Le chant national</unittitle>
@@ -2243,8 +2691,11 @@
         <controlaccess>
           <persname role="auteur">Simoens, Théophile</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22967" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22968">
         <did>
           <unitid>CHA_0101</unitid>
           <unittitle>Le choral franco-russe</unittitle>
@@ -2264,9 +2715,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0101_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0101_002.jpg" role="image:last"/>
+          <daoloc href="BNR22968" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22969">
         <did>
           <unitid>CHA_0272</unitid>
           <unittitle>Le cicérone lillois</unittitle>
@@ -2282,12 +2734,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0272_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0272_004.jpg" role="image:last"/>
+          <daoloc href="BNR22969" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Danis, A.</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22970">
         <did>
           <unitid>CHA_0085</unitid>
           <unittitle>Le Congo à Roubaix </unittitle>
@@ -2303,9 +2756,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0085_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0085_008.jpg" role="image:last"/>
+          <daoloc href="BNR22970" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22971">
         <did>
           <unitid>CHA_0029</unitid>
           <unittitle>Le congrès national</unittitle>
@@ -2319,8 +2773,11 @@
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0029.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22971" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22972">
         <did>
           <unitid>CHA_0230</unitid>
           <unittitle>Le départ au Tonkin</unittitle>
@@ -2334,8 +2791,11 @@
           <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0230.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22972" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22973">
         <did>
           <unitid>CHA_0186</unitid>
           <unittitle>Le devoir des travailleurs</unittitle>
@@ -2349,8 +2809,11 @@
         <controlaccess>
           <persname normal="Carré, Henri" role="auteur">Carré, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22973" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22974">
         <did>
           <unitid>CHA_0004</unitid>
           <unittitle>Le drapeau de la revanche</unittitle>
@@ -2365,8 +2828,11 @@
           <persname role="auteur">Catrice, Louis, roubaisien (1850-1907)</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0004.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22974" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22975">
         <did>
           <unitid>CHA_0135</unitid>
           <unittitle>Le drapeau social</unittitle>
@@ -2381,8 +2847,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0135.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22975" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22976">
         <did>
           <unitid>CHA_0140</unitid>
           <unittitle>Le flamint exentrique</unittitle>
@@ -2396,8 +2865,11 @@
           <geogname source="rue" coord="[ 50.7003735, 3.1615373 ]">Armentières, boulevard d\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0140.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22976" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22977">
         <did>
           <unitid>CHA_0194</unitid>
           <unittitle>Le franc citoyen</unittitle>
@@ -2408,8 +2880,11 @@
           <p>&lt;p&gt;Le franc citoyen : chantée par la société des Forçats, établie chez H. Carrette. Imprimerie G. Deryckere, Wattrelos. Chanson chantée sur l'air de "La fille du Tambour-Major".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0194.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22977" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22978">
         <did>
           <unitid>CHA_0224</unitid>
           <unittitle>Le krach de l'Union générale ou la faillite des cléricaux</unittitle>
@@ -2424,8 +2899,11 @@
           <persname role="auteur">Catrice, Louis, roubaisien (1850-1907)</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0224.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22978" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22979">
         <did>
           <unitid>CHA_0072</unitid>
           <unittitle>Le manifeste des princes</unittitle>
@@ -2440,8 +2918,11 @@
           <persname role="auteur">Capart, Victor</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0072.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22979" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22980">
         <did>
           <unitid>CHA_0026</unitid>
           <unittitle>Le moineau sans nid</unittitle>
@@ -2455,8 +2936,11 @@
         <controlaccess>
           <persname role="auteur">Nadaud, Gustave (1820-1893)</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22980" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22981">
         <did>
           <unitid>CHA_0281</unitid>
           <unittitle>Le mont-de-piété</unittitle>
@@ -2467,8 +2951,11 @@
           <p>&lt;p&gt;Le mont-de-piété : chanson lilloise interprétée par Les Bons-vivants de Bâle-en-Suisse, le 10 mars 1861, jour du Laetare. Imprimerie A. Béhague. Chanson chantée sur l'air du "Manoqueux" de Desrousseaux.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0281.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22981" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22982">
         <did>
           <unitid>CHA_0320</unitid>
           <unittitle>Le p'tit quinquin</unittitle>
@@ -2484,12 +2971,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0320_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0320_002.jpg" role="image:last"/>
+          <daoloc href="BNR22982" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Desrousseaux, Alexandre (1820-1892)</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22983">
         <did>
           <unitid>CHA_0290</unitid>
           <unittitle>Le petit marchand de charbon</unittitle>
@@ -2503,8 +2991,11 @@
         <controlaccess>
           <persname role="auteur">Lefebvre, Jean-Baptiste</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22983" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22984">
         <did>
           <unitid>CHA_0271</unitid>
           <unittitle>Le pompier lillois</unittitle>
@@ -2520,12 +3011,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0271_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0271_004.jpg" role="image:last"/>
+          <daoloc href="BNR22984" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname>Decottignies, Charles</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22985">
         <did>
           <unitid>CHA_0002</unitid>
           <unittitle>Le refrain des coulonneux</unittitle>
@@ -2540,8 +3032,11 @@
           <persname role="Auteur-compositeur">Roselé, Henri</persname>
           <persname role="Auteur-compositeur">Roselé, Emile</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22985" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22986">
         <did>
           <unitid>CHA_0285</unitid>
           <unittitle>Le roi des gourmands</unittitle>
@@ -2555,8 +3050,11 @@
         <controlaccess>
           <persname role="auteur">Marécaux, Jules</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22986" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22987">
         <did>
           <unitid>CHA_0088</unitid>
           <unittitle>Le secret du roubaisien et de la roubaisienne</unittitle>
@@ -2571,8 +3069,11 @@
           <persname role="auteur">Masure, Gaston</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0088.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22987" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22988">
         <did>
           <unitid>CHA_0239</unitid>
           <unittitle>Le sort de l'ouvrier</unittitle>
@@ -2586,8 +3087,11 @@
         <controlaccess>
           <persname role="auteur">Van Malleghem, François</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22988" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22989">
         <did>
           <unitid>CHA_0051</unitid>
           <unittitle>Le souvenir des beaux jours</unittitle>
@@ -2602,8 +3106,11 @@
           <persname role="auteur">Cornil, Eugène, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0051.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22989" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22990">
         <did>
           <unitid>CHA_0215</unitid>
           <unittitle>Le spectacle gratis</unittitle>
@@ -2619,12 +3126,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0215_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0215_002.jpg" role="image:last"/>
+          <daoloc href="BNR22990" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Desrousseaux, Alexandre (1820-1892)</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22991">
         <did>
           <unitid>CHA_0100</unitid>
           <unittitle>Le truc du Savoyard</unittitle>
@@ -2635,8 +3143,11 @@
           <p>&lt;p&gt;Le truc du Savoyard. Paroles d'Eugène W.... Chanson chantée sur l'air du "Géant Gargantua" ou du "Carnaval de Bailleul".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0100.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22991" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22992">
         <did>
           <unitid>CHA_0067</unitid>
           <unittitle>Le vieillard</unittitle>
@@ -2650,8 +3161,11 @@
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0067.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22992" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22993">
         <did>
           <unitid>CHA_0289</unitid>
           <unittitle>Le vieux fripier</unittitle>
@@ -2662,8 +3176,11 @@
           <p>&lt;p&gt;Le vieux fripier : chanson lilloise chantée par les bons vivants de Bâle-en-Suisse. Imprimerie A. Béhague.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0289.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22993" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22994">
         <did>
           <unitid>CHA_0149</unitid>
           <unittitle>Les 20 coeurs du Sabot Rouge</unittitle>
@@ -2678,8 +3195,11 @@
           <persname role="auteur">Desmarchelier, P.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0149.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22994" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22995">
         <did>
           <unitid>CHA_0227</unitid>
           <unittitle>Les 28 jours</unittitle>
@@ -2694,8 +3214,11 @@
           <persname role="auteur">Lehembre, Désiré, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0227.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22995" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22996">
         <did>
           <unitid>CHA_0062</unitid>
           <unittitle>Les 3 descentes en parachute</unittitle>
@@ -2710,8 +3233,11 @@
           <persname role="auteur">Lehembre, Désiré</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0062.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22996" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22997">
         <did>
           <unitid>CHA_0066</unitid>
           <unittitle>Les afants du fort Bayard ou Les amoureux sans-gêne</unittitle>
@@ -2726,8 +3252,11 @@
           <persname role="auteur">Capart, Victor</persname>
           <persname role="interprète">Ramon, Victor</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR22997" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22998">
         <did>
           <unitid>CHA_0147</unitid>
           <unittitle>Les amis de la chanson</unittitle>
@@ -2747,9 +3276,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0147_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0147_002.jpg" role="image:last"/>
+          <daoloc href="BNR22998" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR22999">
         <did>
           <unitid>CHA_0127</unitid>
           <unittitle>Les amours d'un pompier ou En tête à tête à l'entre-cote</unittitle>
@@ -2761,10 +3291,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6852816, 3.1709087 ]">Charles Quint, rue</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0127.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR22999" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23000">
         <did>
           <unitid>CHA_0163</unitid>
           <unittitle>Les armes du prolétaires</unittitle>
@@ -2779,8 +3313,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0163.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23000" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23001">
         <did>
           <unitid>CHA_0148</unitid>
           <unittitle>Les artilleurs de la pièce humide</unittitle>
@@ -2794,8 +3331,11 @@
         <controlaccess>
           <persname role="auteur">Reinuem, Nitram</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23001" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23002">
         <did>
           <unitid>CHA_0157</unitid>
           <unittitle>Les artistes d'occasion</unittitle>
@@ -2808,10 +3348,14 @@
         <controlaccess>
           <geogname source="rue" coord="[ 50.6876018, 3.1578484 ]">Cugnot, rue</geogname>
           <geogname source="quartier" coord="[ [ 50.69162749972451, 3.159239009596599 ], [ 50.69143351978217, 3.158919533773008 ], [ 50.69128190721562, 3.158653674247769 ], [ 50.69107343471747, 3.158292326427639 ], [ 50.6909028669298, 3.157994641453245 ], [ 50.69075836356346, 3.157738154684537 ], [ 50.69061029095458, 3.1574872650441 ], [ 50.69044801729496, 3.157200823815911 ], [ 50.69031060939749, 3.156964920799213 ], [ 50.69014003116997, 3.156672851646173 ], [ 50.68997537642884, 3.156390146176634 ], [ 50.68980834610415, 3.156108556807393 ], [ 50.68966737586465, 3.15587077981154 ], [ 50.6895086411218, 3.155599311470862 ], [ 50.68935583472035, 3.155333468510182 ], [ 50.68918832904758, 3.155049642845499 ], [ 50.68903196589394, 3.15477818560717 ], [ 50.68886255264419, 3.154500337347049 ], [ 50.68869195756299, 3.154217627961619 ], [ 50.68854387739146, 3.153966759049486 ], [ 50.68837210216168, 3.153676575603266 ], [ 50.68814890705099, 3.153304011320128 ], [ 50.68796528759438, 3.152991370068673 ], [ 50.68777811029603, 3.152674984000186 ], [ 50.68760514465738, 3.152384804388375 ], [ 50.68738649676966, 3.152006417298455 ], [ 50.68733354589496, 3.152125678283392 ], [ 50.68731639656627, 3.15216448322078 ], [ 50.68747467746189, 3.15246570588378 ], [ 50.68739154954535, 3.152789745631532 ], [ 50.68732659173075, 3.15308579603277 ], [ 50.68730735134397, 3.153269420685581 ], [ 50.68728791601608, 3.153481343992569 ], [ 50.68727649529098, 3.153834904444988 ], [ 50.68727581362305, 3.153933944548416 ], [ 50.68727503537373, 3.154047134044671 ], [ 50.68727211355651, 3.154471591791618 ], [ 50.68727133482108, 3.154584778446005 ], [ 50.68725267528063, 3.154683514481159 ], [ 50.68723392087689, 3.154796392768051 ], [ 50.68721555454719, 3.15485268194327 ], [ 50.68718800635435, 3.154937112101406 ], [ 50.68715098189173, 3.155092132624363 ], [ 50.68710487106036, 3.155261147311279 ], [ 50.68707722414059, 3.155359724977958 ], [ 50.68704039427352, 3.155486449024287 ], [ 50.68703101626745, 3.155542888494185 ], [ 50.68703062597603, 3.155599481540205 ], [ 50.68703052839606, 3.155613632273428 ], [ 50.68703932187599, 3.155642081697272 ], [ 50.68703893153944, 3.155698674751785 ], [ 50.68707410353752, 3.15581247964271 ], [ 50.68708299367631, 3.155826781200733 ], [ 50.68710947065732, 3.155897984595883 ], [ 50.68714454484766, 3.156025936313533 ], [ 50.68713555621192, 3.15602578263697 ], [ 50.68709921384704, 3.156081762471449 ], [ 50.68709022521075, 3.156081608784916 ], [ 50.68703571116673, 3.15616557554311 ], [ 50.686781311772, 3.156557428361413 ], [ 50.68669045471707, 3.156697373017741 ], [ 50.68663603793038, 3.156767193468011 ], [ 50.68658162110363, 3.156837010941772 ], [ 50.68657233930088, 3.156879303276333 ], [ 50.68655407063589, 3.156921441765478 ], [ 50.6865176301045, 3.156991566650518 ], [ 50.68649027501705, 3.157047698950555 ], [ 50.68647190764922, 3.157103985054447 ], [ 50.68644465026348, 3.157145968089562 ], [ 50.68641729510333, 3.157202100223842 ], [ 50.68639902542909, 3.157244237049812 ], [ 50.68638065886889, 3.157300521569607 ], [ 50.6863532058598, 3.157370801261717 ], [ 50.68632575280982, 3.157441080876902 ], [ 50.68628940976361, 3.15749705878231 ], [ 50.68627104218675, 3.15755334449618 ], [ 50.6862528701934, 3.157581331973968 ], [ 50.6862346012817, 3.157623469939082 ], [ 50.68621633145968, 3.157665606458127 ], [ 50.68617989048824, 3.157735731742889 ], [ 50.68614335075207, 3.157820003164151 ], [ 50.68611609310928, 3.157861986947776 ], [ 50.68608873761239, 3.157918118323944 ], [ 50.68607085995244, 3.157903661259126 ], [ 50.68602523449356, 3.158001928797988 ], [ 50.68597970681528, 3.158086047138616 ], [ 50.68593417997433, 3.158170165329383 ], [ 50.68588855429367, 3.15826843377065 ], [ 50.68584302732309, 3.15835255164304 ], [ 50.68577922928548, 3.158478805215625 ], [ 50.68575187349621, 3.158534935878382 ], [ 50.68566980597331, 3.158703324674571 ], [ 50.68564254801468, 3.158745306169356 ], [ 50.68560620434401, 3.158801282367479 ], [ 50.68556986064797, 3.158857257071953 ], [ 50.68556067609629, 3.15888539927997 ], [ 50.68553341807176, 3.158927380584596 ], [ 50.68542438581888, 3.159095306759197 ], [ 50.6853697716175, 3.159193416299295 ], [ 50.68529708381755, 3.159305365943832 ], [ 50.68527881339977, 3.159347501062835 ], [ 50.68518795299609, 3.15948743929923 ], [ 50.6851334364965, 3.159571399172119 ], [ 50.685096994391, 3.159641521558756 ], [ 50.68506064939157, 3.159697495083438 ], [ 50.68488791533449, 3.159977520114089 ], [ 50.68487882949562, 3.159991513032036 ], [ 50.68484248432495, 3.160047487472236 ], [ 50.68476061084284, 3.160187574810777 ], [ 50.68470609383377, 3.160271534620076 ], [ 50.68466056542718, 3.160355648691753 ], [ 50.68464239275733, 3.16038363566831 ], [ 50.68457937847281, 3.160396701742705 ], [ 50.68437987392135, 3.160647961051263 ], [ 50.68435281156287, 3.160661644711285 ], [ 50.68431646696106, 3.160717616669409 ], [ 50.68428031776139, 3.160745294298558 ], [ 50.68420802113239, 3.160800649443047 ], [ 50.68416288413972, 3.160828169602461 ], [ 50.68411774713242, 3.160855693949738 ], [ 50.68399942968201, 3.161065897763011 ], [ 50.68392664183688, 3.161191987245858 ], [ 50.68384466872166, 3.161346218570005 ], [ 50.68382649580477, 3.161374206145033 ], [ 50.68349899438752, 3.161934535570858 ], [ 50.68344437779174, 3.162032635429604 ], [ 50.68338964894419, 3.162096335692869 ], [ 50.6837464476808, 3.163087995018862 ], [ 50.68402554846653, 3.163838759394576 ], [ 50.68483538717932, 3.166041276285417 ], [ 50.68501100637815, 3.166561458658209 ], [ 50.68606306323779, 3.16946556543833 ], [ 50.68679243619878, 3.168135528438616 ], [ 50.68754124633825, 3.166779894734078 ], [ 50.68824863629877, 3.165452948989037 ], [ 50.68890847751619, 3.164235371229754 ], [ 50.68927860378032, 3.163570731202315 ], [ 50.68975406116421, 3.162688981760156 ], [ 50.6902727694068, 3.161713711822845 ], [ 50.69055707871198, 3.16123704041998 ], [ 50.69109113752162, 3.160249974734315 ], [ 50.69149274823057, 3.15951392433581 ], [ 50.69153198691574, 3.159442428673638 ] ]">Epeule</geogname>
+          <persname role="auteur">Desmettre, Emile, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0157.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23002" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23003">
         <did>
           <unitid>CHA_0144</unitid>
           <unittitle>Les aventures d'inne mache fimme</unittitle>
@@ -2823,10 +3367,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.685714, 3.164383 ]">Perche, rue de la</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0144.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23003" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23004">
         <did>
           <unitid>CHA_0238</unitid>
           <unittitle>Les balonnistes de Roubaix</unittitle>
@@ -2840,8 +3388,11 @@
         <controlaccess>
           <persname role="auteur">Van Malleghem, I.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23004" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23005">
         <did>
           <unitid>CHA_0172</unitid>
           <unittitle>Les bienfaits de la municipalité socialiste de Roubaix</unittitle>
@@ -2853,10 +3404,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.684058, 3.179511 ]">Ma campagne, rue</geogname>
+          <persname role="auteur">Declercq, G. </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0172.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23005" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23006">
         <did>
           <unitid>CHA_0145</unitid>
           <unittitle>Les bienfaits des sociétés coopératives</unittitle>
@@ -2867,8 +3422,11 @@
           <p>&lt;p&gt;Les bienfaits des sociétés coopératives : chanson nouvelle. Paroles et musique de M. X. Imprimerie H. Vanhulle, Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0145.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23006" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23007">
         <did>
           <unitid>CHA_0175</unitid>
           <unittitle>Les bohémiens</unittitle>
@@ -2884,12 +3442,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0175_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0175_002.jpg" role="image:last"/>
+          <daoloc href="BNR23007" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">D'Hondt, Joseph</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23008">
         <did>
           <unitid>CHA_0233</unitid>
           <unittitle>Les bons conseils</unittitle>
@@ -2903,8 +3462,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Louis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23008" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23009">
         <did>
           <unitid>CHA_0092</unitid>
           <unittitle>Les bons vivants</unittitle>
@@ -2916,10 +3478,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0092.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23009" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23010">
         <did>
           <unitid>CHA_0279</unitid>
           <unittitle>Les bons-vivants</unittitle>
@@ -2933,8 +3499,11 @@
         <controlaccess>
           <persname role="auteur">Béghin, Charles</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23010" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23011">
         <did>
           <unitid>CHA_0129</unitid>
           <unittitle>Les bouchers trompeurs</unittitle>
@@ -2946,10 +3515,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.685714, 3.164383 ]">Perche, rue de la</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0129.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23011" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23012">
         <did>
           <unitid>CHA_0253</unitid>
           <unittitle>Les boulingers sans pétrins</unittitle>
@@ -2964,8 +3537,11 @@
           <persname role="auteur">Eggremont</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0253.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23012" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23013">
         <did>
           <unitid>CHA_0164</unitid>
           <unittitle>Les bouts d'cigares en permanence</unittitle>
@@ -2980,8 +3556,11 @@
           <persname role="auteur">Fleury, Arthur</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0164.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23013" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23014">
         <did>
           <unitid>CHA_0102</unitid>
           <unittitle>Les brutalisés</unittitle>
@@ -2996,8 +3575,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0102.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23014" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23015">
         <did>
           <unitid>CHA_0009</unitid>
           <unittitle>Les caboulots</unittitle>
@@ -3012,8 +3594,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0009.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23015" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23016">
         <did>
           <unitid>CHA_0043</unitid>
           <unittitle>Les canotiers roubaisiens</unittitle>
@@ -3028,8 +3613,11 @@
           <persname role="auteur">Ledru, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0043.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23016" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23017">
         <did>
           <unitid>CHA_0208</unitid>
           <unittitle>Les cantines économiques</unittitle>
@@ -3040,8 +3628,14 @@
           <p>&lt;p&gt;Les cantines économiques : l'bonheur des ménages, chanson en patois. Paroles de Désiré Bourgois et chantée par les Joyeux cantiniers, établis chez Jules Goossens, au "Tambour des zouaves" rue Thionville à Croix. Librairie Remy Desterbecq, Roubaix. Chanson chantée sur l'air de "L'marchand d'lait battu".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0208.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23017" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23018">
         <did>
           <unitid>CHA_0256</unitid>
           <unittitle>Les carrossiers bons ouvriers</unittitle>
@@ -3052,8 +3646,14 @@
           <p>&lt;p&gt;Les carrossiers bons ouvriers : paroles de Gustave Delattre. &lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0256.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Delattre, Gustave </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23018" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23019">
         <did>
           <unitid>CHA_0097</unitid>
           <unittitle>Les casques d'pompis</unittitle>
@@ -3068,8 +3668,11 @@
           <persname role="auteur">Farvacque, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0097.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23019" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23020">
         <did>
           <unitid>CHA_0151</unitid>
           <unittitle>Les célibataires</unittitle>
@@ -3083,8 +3686,11 @@
           <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0151.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23020" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23021">
         <did>
           <unitid>CHA_0262</unitid>
           <unittitle>Les chambres garnies</unittitle>
@@ -3098,8 +3704,11 @@
         <controlaccess>
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23021" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23022">
         <did>
           <unitid>CHA_0180</unitid>
           <unittitle>Les champes à quate sous</unittitle>
@@ -3110,8 +3719,11 @@
           <p>&lt;p&gt;Les champes à quate sous. Chanson chantée sur l'air de "Y n'peut pas lacher la colonne".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0180.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23022" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23023">
         <did>
           <unitid>CHA_0134</unitid>
           <unittitle>Les chansonniers</unittitle>
@@ -3125,8 +3737,11 @@
         <controlaccess>
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23023" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23024">
         <did>
           <unitid>CHA_0094</unitid>
           <unittitle>Les clowns virtuoses</unittitle>
@@ -3142,9 +3757,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0094_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0094_003.jpg" role="image:last"/>
+          <daoloc href="BNR23024" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23025">
         <did>
           <unitid>CHA_0064</unitid>
           <unittitle>Les commérettes du Pile</unittitle>
@@ -3158,8 +3774,11 @@
           <geogname source="quartier" coord="[ [ 50.6934476328514, 3.201512531985414 ], [ 50.69343014725989, 3.201407771819268 ], [ 50.69380428337752, 3.201110392083311 ], [ 50.69333557642266, 3.198031342452787 ], [ 50.69300263192721, 3.19593184569584 ], [ 50.6928692901549, 3.195090805913413 ], [ 50.69277902468498, 3.194470606422501 ], [ 50.69271596385177, 3.193891795487861 ], [ 50.69269109720396, 3.193039686777756 ], [ 50.6927462028752, 3.192091218359885 ], [ 50.69283120084832, 3.191447264648252 ], [ 50.69249165968917, 3.190800409593299 ], [ 50.69255139388975, 3.190118504606372 ], [ 50.69262678047154, 3.189397109445757 ], [ 50.69270288467278, 3.188817919431881 ], [ 50.69272471551464, 3.188651772192881 ], [ 50.69280447789912, 3.187707133028268 ], [ 50.69286662112278, 3.187005216466764 ], [ 50.69268897572196, 3.18600310124918 ], [ 50.69244201522396, 3.184650381467185 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.68926815743258, 3.187881620428754 ], [ 50.68871242335845, 3.188458929180712 ], [ 50.68828252441926, 3.188893279756465 ], [ 50.68782699367236, 3.189354522057224 ], [ 50.68686449312622, 3.19037015366834 ], [ 50.68595420942219, 3.191299940720353 ], [ 50.68520208257833, 3.192062068650782 ], [ 50.68464672216665, 3.192624926391553 ], [ 50.68567676759766, 3.194509837268183 ], [ 50.68631562353409, 3.195654838101584 ], [ 50.68687617030501, 3.196762944581456 ], [ 50.68710475605778, 3.19722339655014 ], [ 50.68756057465304, 3.19816890920584 ], [ 50.6881856222613, 3.199452855296052 ], [ 50.68923657201096, 3.201627620003197 ], [ 50.68860489487004, 3.202167589860602 ], [ 50.68902801104252, 3.203757447838059 ], [ 50.68913495960859, 3.204122877020482 ], [ 50.68908293744176, 3.204163158094649 ], [ 50.68917951023515, 3.204464916026801 ], [ 50.69114705180201, 3.203349372278906 ], [ 50.69118549676312, 3.203277707493558 ], [ 50.69179805796528, 3.202791781114033 ], [ 50.69205814456335, 3.202565668386086 ], [ 50.69221707616592, 3.202429712600075 ], [ 50.69223653382164, 3.202485680743545 ] ]">Pile</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0064.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23025" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23026">
         <did>
           <unitid>CHA_0236</unitid>
           <unittitle>Les conscrits de 1883</unittitle>
@@ -3170,8 +3789,11 @@
           <p>&lt;p&gt;Les conscrits de 1883 : chanson. Paroles de G- B. Imprimerie F. Vossaert. Chanson chantée sur l'air de "Tambour, clairon, musique en tête".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0236.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23026" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23027">
         <did>
           <unitid>CHA_0087</unitid>
           <unittitle>Les conscrits sans chagrin</unittitle>
@@ -3183,10 +3805,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6966193, 3.1821319 ]">Hommelet, rue de l\'</geogname>
+          <persname role="auteur">Simns, Alphone, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0087.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23027" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23028">
         <did>
           <unitid>CHA_0244</unitid>
           <unittitle>Les conseilleux n'sont po les payeux</unittitle>
@@ -3200,8 +3826,11 @@
         <controlaccess>
           <persname role="auteur">Wartel, Jules</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23028" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23029">
         <did>
           <unitid>CHA_0017</unitid>
           <unittitle>Les copé in morceaux</unittitle>
@@ -3215,8 +3844,11 @@
         <controlaccess>
           <persname role="auteur">Tartare, Georges</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23029" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23030">
         <did>
           <unitid>CHA_0143</unitid>
           <unittitle>Les cramponneux</unittitle>
@@ -3231,8 +3863,11 @@
           <persname role="auteur">Losfeld, Alfred, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0143.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23030" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23031">
         <did>
           <unitid>CHA_0108</unitid>
           <unittitle>Les cuisiniers</unittitle>
@@ -3248,12 +3883,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0108_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0108_002.jpg" role="image:last"/>
+          <daoloc href="BNR23031" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Kikilafé</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23032">
         <did>
           <unitid>CHA_0131</unitid>
           <unittitle>Les coeurs joyeux</unittitle>
@@ -3267,8 +3903,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23032" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23033">
         <did>
           <unitid>CHA_0058</unitid>
           <unittitle>Les débitants du temps passé</unittitle>
@@ -3283,8 +3922,11 @@
           <persname role="auteur">Lehembre, Désiré</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0058.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23033" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23034">
         <did>
           <unitid>CHA_0152</unitid>
           <unittitle>Les déboureux</unittitle>
@@ -3299,8 +3941,11 @@
           <persname role="auteur">Farvacque, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0152.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23034" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23035">
         <did>
           <unitid>CHA_0246</unitid>
           <unittitle>Les délaissés</unittitle>
@@ -3315,8 +3960,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0246.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23035" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23036">
         <did>
           <unitid>CHA_0187</unitid>
           <unittitle>Les démocrates chrétiens</unittitle>
@@ -3331,8 +3979,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0187.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23036" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23037">
         <did>
           <unitid>CHA_0211</unitid>
           <unittitle>Les démocrates chrétiens et les pots-au-burre</unittitle>
@@ -3348,8 +3999,11 @@
           <persname normal="Carré, Henri" role="auteur">Carré, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0211.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23037" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23038">
         <did>
           <unitid>CHA_0267</unitid>
           <unittitle>Les deux commères</unittitle>
@@ -3360,8 +4014,11 @@
           <p>&lt;p&gt;Les deux commères : chanson nouvelle en patois de Lille chantée par la Société des Bons-Enfants, rue de Tournay. Chez Alcan Levy, Lille. Chanson chantée sur l'air de "Allons, min p'tit Mioche".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0267.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23038" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23039">
         <did>
           <unitid>CHA_0312</unitid>
           <unittitle>Les deux cousins</unittitle>
@@ -3372,8 +4029,11 @@
           <p>&lt;p&gt;Les deux cousins : chanson nouvelle en patois de Lille interprétée par la Société des Bons-Enfants. Chez Alcan Levy, Lille. Chanson chantée sur l'air "De moi ne soyez pas surpris si j'amène ici maîtresse".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0312.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23039" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23040">
         <did>
           <unitid>CHA_0191</unitid>
           <unittitle>Les deux pou'tros sous l'vrai roubaigno &amp; " la ficelle"</unittitle>
@@ -3389,8 +4049,11 @@
           <persname role="auteur">Masurel, Gustave, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0191.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23040" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23041">
         <did>
           <unitid>CHA_0198</unitid>
           <unittitle>Les disciples du dieu Cupidon</unittitle>
@@ -3403,10 +4066,14 @@
         <controlaccess>
           <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
           <geogname source="rue" coord="[ 50.6980363, 3.1689572 ]">Fontenoy, rue du</geogname>
+          <persname role="auteur">Simoens, Henri </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0198.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23041" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23042">
         <did>
           <unitid>CHA_0263</unitid>
           <unittitle>Les éclopés à la cavalcade des princes du Congo</unittitle>
@@ -3420,8 +4087,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23042" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23043">
         <did>
           <unitid>CHA_0185</unitid>
           <unittitle>Les élections nouvelles</unittitle>
@@ -3436,8 +4106,11 @@
           <persname normal="Carré, Henri" role="auteur">Carré, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0185.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23043" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23044">
         <did>
           <unitid>CHA_0030</unitid>
           <unittitle>Les enfants de la gaîté</unittitle>
@@ -3452,8 +4125,11 @@
           <persname role="auteur">Daniel, Jules</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0030.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23044" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23045">
         <did>
           <unitid>CHA_0205</unitid>
           <unittitle>Les ennemis du peuple</unittitle>
@@ -3468,8 +4144,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0205.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23045" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23046">
         <did>
           <unitid>CHA_0229</unitid>
           <unittitle>Les faux amis</unittitle>
@@ -3481,10 +4160,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.686709, 3.166061 ]">Inkermann, rue d\'</geogname>
+          <persname role="auteur">Bouche, Henri, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0229.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23046" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23047">
         <did>
           <unitid>CHA_0059</unitid>
           <unittitle>Les faux-tchu</unittitle>
@@ -3499,8 +4182,11 @@
           <persname role="auteur">Farvacque, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0059.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23047" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23048">
         <did>
           <unitid>CHA_0061</unitid>
           <unittitle>Les femmes à rien faire</unittitle>
@@ -3514,8 +4200,11 @@
         <controlaccess>
           <persname role="auteur">Droissart, Clovis</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23048" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23049">
         <did>
           <unitid>CHA_0245</unitid>
           <unittitle>Les figaros roubaisiens</unittitle>
@@ -3530,8 +4219,11 @@
           <persname role="auteur">Ledru, C.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0245.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23049" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23050">
         <did>
           <unitid>CHA_0031</unitid>
           <unittitle>Les filles d'acht-'heure</unittitle>
@@ -3546,8 +4238,11 @@
           <persname role="auteur">Bailleul, Alphonse</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0031.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23050" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23051">
         <did>
           <unitid>CHA_0173</unitid>
           <unittitle>Les fin-de-siècle</unittitle>
@@ -3562,8 +4257,11 @@
           <persname role="auteur">Bouche, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0173.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23051" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23052">
         <did>
           <unitid>CHA_0113</unitid>
           <unittitle>Les fourneaux économiques</unittitle>
@@ -3575,10 +4273,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.685714, 3.164383 ]">Perche, rue de la</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0113.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23052" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23053">
         <did>
           <unitid>CHA_0228</unitid>
           <unittitle>Les français au Tong-Kin</unittitle>
@@ -3592,8 +4294,11 @@
           <geogname source="rue" coord="[ 50.6983181, 3.1839095 ]">Saint-Louis, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0228.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23053" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23054">
         <did>
           <unitid>CHA_0242</unitid>
           <unittitle>Les français au Tonkin</unittitle>
@@ -3608,8 +4313,11 @@
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0242.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23054" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23055">
         <did>
           <unitid>CHA_0189</unitid>
           <unittitle>Les gais buveurs</unittitle>
@@ -3624,8 +4332,11 @@
           <persname role="auteur">Cornil, Eugène, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0189.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23055" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23056">
         <did>
           <unitid>CHA_0182</unitid>
           <unittitle>Les gloriettes au boul'vard de Cambrai</unittitle>
@@ -3641,8 +4352,11 @@
           <persname role="auteur">Masurel, Gustave, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0182.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23056" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23057">
         <did>
           <unitid>CHA_0286</unitid>
           <unittitle>Les infortunes des bourleux</unittitle>
@@ -3653,8 +4367,11 @@
           <p>&lt;p&gt;Les infortunes des bourleux chantée pour la mi-carême, par la Société des amis-réunis de la porte-de-toile. Imprimerie  Horemans, Lille. Chanson chantée sur l'air "De l'Infant d' Lille".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0286.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23057" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23058">
         <did>
           <unitid>CHA_0179</unitid>
           <unittitle>Les joyeux bretons</unittitle>
@@ -3674,9 +4391,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0179_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0179_002.jpg" role="image:last"/>
+          <daoloc href="BNR23058" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23059">
         <did>
           <unitid>CHA_0093</unitid>
           <unittitle>Les joyeux mandolinistes</unittitle>
@@ -3690,8 +4408,11 @@
         <controlaccess>
           <persname role="auteur">Fleury, Arthur</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23059" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23060">
         <did>
           <unitid>CHA_0073</unitid>
           <unittitle>Les joyeux marins pêcheurs</unittitle>
@@ -3706,8 +4427,11 @@
           <persname role="auteur">Pontier, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0073.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23060" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23061">
         <did>
           <unitid>CHA_0122</unitid>
           <unittitle>Les joyeux mitrons</unittitle>
@@ -3722,8 +4446,11 @@
           <persname role="auteur">Inglebert, Henri, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0122.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23061" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23062">
         <did>
           <unitid>CHA_0045</unitid>
           <unittitle>Les joyeux savetiers</unittitle>
@@ -3738,8 +4465,11 @@
           <persname role="auteur">Loridan, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0045.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23062" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23063">
         <did>
           <unitid>CHA_0071</unitid>
           <unittitle>Les joyeux troubadours</unittitle>
@@ -3754,8 +4484,11 @@
           <persname role="auteur">Leeuw, Joseph de</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0071.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23063" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23064">
         <did>
           <unitid>CHA_0156</unitid>
           <unittitle>Les marchands de faïences</unittitle>
@@ -3770,8 +4503,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0156.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23064" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23065">
         <did>
           <unitid>CHA_0069</unitid>
           <unittitle>Les marchands de journaux</unittitle>
@@ -3787,8 +4523,11 @@
           <persname role="interprète">Demulier, J.-B.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0069.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23065" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23066">
         <did>
           <unitid>CHA_0109</unitid>
           <unittitle>Les marchands Patt'à Coco</unittitle>
@@ -3802,8 +4541,11 @@
           <geogname source="rue" coord="[ 50.7028757, 3.1768528 ]">Voltaire, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0109.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23066" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23067">
         <did>
           <unitid>CHA_0074</unitid>
           <unittitle>Les mascottes de Roubaix</unittitle>
@@ -3818,8 +4560,11 @@
           <persname role="auteur">Desbarbieux, Léon</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0074.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23067" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23068">
         <did>
           <unitid>CHA_0095</unitid>
           <unittitle>Les médaillés du Tonkin</unittitle>
@@ -3831,10 +4576,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
+          <persname role="auteur">Masure, Gaston, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0095.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23068" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23069">
         <did>
           <unitid>CHA_0142</unitid>
           <unittitle>Les méli-mélo</unittitle>
@@ -3845,8 +4594,14 @@
           <p>&lt;p&gt;Les méli-mélo : paroles de Henri Bouche et chanté par un groupe du Club des Méli-Mélo, établi chez Edmond Renard, ancien café Barot. Chanson chantée sur l'air "Les manneliers".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0142.jpg" role="image"/>
+        <controlaccess>
+          <persname role="auteur">Bouche, Henri, roubaisien </persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23069" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23070">
         <did>
           <unitid>CHA_0174</unitid>
           <unittitle>Les mexicains</unittitle>
@@ -3861,8 +4616,11 @@
           <persname role="auteur">David, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0174.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23070" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23071">
         <did>
           <unitid>CHA_0035</unitid>
           <unittitle>Les minces du font'no</unittitle>
@@ -3877,8 +4635,11 @@
           <persname role="auteur">Bouche, Henri</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0035.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23071" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23072">
         <did>
           <unitid>CHA_0123</unitid>
           <unittitle>Les mingeuses d'couqbaques</unittitle>
@@ -3891,10 +4652,14 @@
         <controlaccess>
           <geogname source="rue" coord="[ 50.7053579, 3.174687 ]">Meyerbeer, rue</geogname>
           <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
+          <persname role="auteur">Masure, Gaston, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0123.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23072" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23073">
         <did>
           <unitid>CHA_0075</unitid>
           <unittitle>Les minteux de 1re classe</unittitle>
@@ -3905,8 +4670,11 @@
           <p>&lt;p&gt;Les minteux de 1re classe : chanson en patois de Roubaix et chantée par la société les Amis réunis, établie chez M. Jules Camut, rue du moulin. Librairie J. Martin-Frémont, Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0075.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23073" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23074">
         <did>
           <unitid>CHA_0070</unitid>
           <unittitle>Les mitrons roubaisiens</unittitle>
@@ -3920,8 +4688,11 @@
           <geogname source="rue" coord="[ 50.695298, 3.180381 ]">Pellart, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0070.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23074" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23075">
         <did>
           <unitid>CHA_0107</unitid>
           <unittitle>Les nouveaux bains de Roubaix</unittitle>
@@ -3935,8 +4706,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23075" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23076">
         <did>
           <unitid>CHA_0034</unitid>
           <unittitle>Les paillasses</unittitle>
@@ -3952,13 +4726,14 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0034_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0034_002.jpg" role="image:last"/>
+          <daoloc href="BNR23076" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">Jeluès, Lyonel</persname>
           <persname role="auteur">Eman, Don Ryla</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23077">
         <did>
           <unitid>CHA_0114</unitid>
           <unittitle>Les pierrots de l'aviron</unittitle>
@@ -3969,8 +4744,11 @@
           <p>&lt;p&gt;Les pierrots de l'aviron : chanson composée sur un air nouveau inspiré par l'air du canal par un maître nageur, habitant rue la rivière, cour jet d'eau, n'ecluse, quartier de l'océan.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0114.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23077" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23078">
         <did>
           <unitid>CHA_0261</unitid>
           <unittitle>Les pinchonneux</unittitle>
@@ -3985,8 +4763,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0261.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23078" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23079">
         <did>
           <unitid>CHA_0248</unitid>
           <unittitle>Les plaisirs de jeunesse</unittitle>
@@ -4000,8 +4781,11 @@
         <controlaccess>
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23079" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23080">
         <did>
           <unitid>CHA_0050</unitid>
           <unittitle>Les polichinelles</unittitle>
@@ -4012,8 +4796,11 @@
           <p>&lt;p&gt;Les polichinelles : chantée par les petits lapins.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0050.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23080" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23081">
         <did>
           <unitid>CHA_0065</unitid>
           <unittitle>Les pompiers de Grenade</unittitle>
@@ -4024,8 +4811,11 @@
           <p>&lt;p&gt;Les pompiers de Grenade : chanson nouvelle interprétée par le cercle Abruticale composée par un groupe d'abrutis. Imprimerie E. Leveugle, Roubaix. Chanson chantée sur l'air de "La fille du tambour major".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0065.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23081" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23082">
         <did>
           <unitid>CHA_0181</unitid>
           <unittitle>Les pots au burre</unittitle>
@@ -4040,8 +4830,11 @@
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0181.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23082" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23083">
         <did>
           <unitid>CHA_0083</unitid>
           <unittitle>Les princes du Congo</unittitle>
@@ -4056,8 +4849,11 @@
           <persname role="auteur">Farvacque, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0083.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23083" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23084">
         <did>
           <unitid>CHA_0117</unitid>
           <unittitle>Les princesses d'aujourdu</unittitle>
@@ -4069,10 +4865,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6876018, 3.1578484 ]">Cugnot, rue</geogname>
+          <persname role="auteur">Desmettre, Emile, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0117.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23084" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23085">
         <did>
           <unitid>CHA_0056</unitid>
           <unittitle>Les rigolos du mogador</unittitle>
@@ -4087,8 +4887,11 @@
           <persname role="auteur">Hélinck, Arthur, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0056.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23085" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23086">
         <did>
           <unitid>CHA_0008</unitid>
           <unittitle>Les roubaignos sont toudis là !</unittitle>
@@ -4102,8 +4905,11 @@
         <controlaccess>
           <persname role="auteur">Bodart-Timal, Charles</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23086" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23087">
         <did>
           <unitid>CHA_0197</unitid>
           <unittitle>Les sangsures de Roubaix</unittitle>
@@ -4117,8 +4923,11 @@
           <geogname source="rue" coord="[ 50.688283, 3.18459 ]">Sainte Elisabeth, place</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0197.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23087" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23088">
         <did>
           <unitid>CHA_0124</unitid>
           <unittitle>Les sans-façon</unittitle>
@@ -4133,8 +4942,11 @@
           <persname role="auteur">Morti, Batisse, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0124.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23088" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23089">
         <did>
           <unitid>CHA_0084</unitid>
           <unittitle>Les savons du Congo</unittitle>
@@ -4145,8 +4957,11 @@
           <p>&lt;p&gt;Les savons du Congo : chanson nouvelle, sur un air connu, à propos de la cavalcade du 20 et 21 mars 1887, organisée dans la ville de Roubaix, au profit des pauvres par messieurs Vaissier frères, créateurs du "Savon des princes du Congo".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0084.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23089" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23090">
         <did>
           <unitid>CHA_0110</unitid>
           <unittitle>Les sculpteurs fin de siècle</unittitle>
@@ -4162,9 +4977,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0110_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0110_002.jpg" role="image:last"/>
+          <daoloc href="BNR23090" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23091">
         <did>
           <unitid>CHA_0231</unitid>
           <unittitle>Les soldats français au Tonkin</unittitle>
@@ -4177,10 +4993,14 @@
         <controlaccess>
           <geogname source="rue" coord="[ 50.7053579, 3.174687 ]">Meyerbeer, rue</geogname>
           <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
+          <persname role="auteur">Masure, Gaston, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0231.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23091" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23092">
         <did>
           <unitid>CHA_0170</unitid>
           <unittitle>Les tailleurs du t'chien-bleu</unittitle>
@@ -4194,8 +5014,11 @@
         <controlaccess>
           <persname role="auteur">Lorthiois, C.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23092" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23093">
         <did>
           <unitid>CHA_0006</unitid>
           <unittitle>Les timbres-rabais verts</unittitle>
@@ -4209,8 +5032,11 @@
         <controlaccess>
           <persname role="auteur">Watteeuw, Jules (1849-1947)</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23093" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23094">
         <did>
           <unitid>CHA_0200</unitid>
           <unittitle>Les tribulations d'un maire ou la cuite à Hinri</unittitle>
@@ -4221,8 +5047,11 @@
           <p>&lt;p&gt;Les tribulations d'un maire ou la cuite à Hinri. Imprimerie Auguste Roussel, Roubaix. Chanson chantée sur l'air de "La faridondaine, la faridondon".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0200.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23094" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23095">
         <did>
           <unitid>CHA_0121</unitid>
           <unittitle>Les vendeurs de journaux</unittitle>
@@ -4236,8 +5065,11 @@
           <geogname source="rue" coord="[ 50.6988899, 3.1691485 ]">Archimède, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0121.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23095" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23096">
         <did>
           <unitid>CHA_0212</unitid>
           <unittitle>Les vraies distractions roubaisiennes</unittitle>
@@ -4251,8 +5083,11 @@
           <geogname source="rue" coord="[ 50.687816, 3.1893295 ]">Pierre de Roubaix, rue</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0212.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23096" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23097">
         <did>
           <unitid>CHA_0079</unitid>
           <unittitle>Les zoulous à la cavalcade des princes du Congo</unittitle>
@@ -4266,8 +5101,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23097" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23098">
         <did>
           <unitid>CHA_0154</unitid>
           <unittitle>Méli-mélo "Toréador"</unittitle>
@@ -4279,10 +5117,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+          <persname role="auteur">Bouche, Henri, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0154.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23098" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23099">
         <did>
           <unitid>CHA_0021</unitid>
           <unittitle>Mi-carême 1924</unittitle>
@@ -4298,12 +5140,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0021_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0021_002.jpg" role="image:last"/>
+          <daoloc href="BNR23099" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="donateur">Guillemyn, Marcel</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23100">
         <did>
           <unitid>CHA_0119</unitid>
           <unittitle>Monsieur Paquenoute</unittitle>
@@ -4317,8 +5160,11 @@
         <controlaccess>
           <persname role="auteur">Bray, D.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23100" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23101">
         <did>
           <unitid>CHA_0265</unitid>
           <unittitle>Nicolas ou le baiser volé</unittitle>
@@ -4329,8 +5175,11 @@
           <p>&lt;p&gt;Nicolas ou le baiser volé : chanson nouvelle chantée par La Société des Amis de la Paix du Grenadier-Lillois. Imprimerie de Lefebvre-Ducrocq, Lille. Chanson chantée sur l'air "Du Curé de Pamponne".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0265.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23101" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23102">
         <did>
           <unitid>CHA_0036</unitid>
           <unittitle>Nos frères en Chine</unittitle>
@@ -4345,8 +5194,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0036.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23102" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23103">
         <did>
           <unitid>CHA_0120</unitid>
           <unittitle>Notre-Dame de l'usine et ses miracles</unittitle>
@@ -4357,8 +5209,11 @@
           <p>&lt;p&gt;Notre-Dame de l'usine et ses miracles. Imprimerie Ouvrière, Lille.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0120.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23103" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23104">
         <did>
           <unitid>CHA_0176</unitid>
           <unittitle>Patrie-courage-moralité</unittitle>
@@ -4374,9 +5229,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0176_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0176_002.jpg" role="image:last"/>
+          <daoloc href="BNR23104" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23105">
         <did>
           <unitid>CHA_0169</unitid>
           <unittitle>Patrons soyez honnête</unittitle>
@@ -4389,10 +5245,14 @@
         <controlaccess>
           <geogname source="rue" coord="[ 50.6893549, 3.1601969 ]">Epeule, rue de l\'</geogname>
           <geogname source="rue" coord="[ 50.6906465, 3.1600451 ]">Marquisat, rue du</geogname>
+          <persname role="auteur">Simns, Alphone, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0169.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23105" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23106">
         <did>
           <unitid>CHA_0014</unitid>
           <unittitle>Pour nos mutilés</unittitle>
@@ -4407,8 +5267,11 @@
           <persname role="auteur">Foelix, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0014.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23106" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23107">
         <did>
           <unitid>CHA_0158</unitid>
           <unittitle>Pourquoi les privilèges</unittitle>
@@ -4422,8 +5285,11 @@
           <geogname source="rue" coord="[ 50.695045, 3.15902 ]">Italie, rue d\'</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0158.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23107" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23108">
         <did>
           <unitid>CHA_0241</unitid>
           <unittitle>Prêt à se marier</unittitle>
@@ -4437,8 +5303,11 @@
         <controlaccess>
           <persname role="auteur">Van Malleghem, François</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23108" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23109">
         <did>
           <unitid>CHA_0225</unitid>
           <unittitle>Prise de la Bastille</unittitle>
@@ -4452,8 +5321,11 @@
         <controlaccess>
           <persname role="auteur">Loridan, Henri, roubaisien</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23109" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23110">
         <did>
           <unitid>CHA_0012</unitid>
           <unittitle>Raymond Dubly</unittitle>
@@ -4468,8 +5340,11 @@
           <persname role="auteur">Catteau, Jean</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0012.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23110" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23111">
         <did>
           <unitid>CHA_0011</unitid>
           <unittitle>Roubaignos, vous avez raison !</unittitle>
@@ -4483,8 +5358,11 @@
         <controlaccess>
           <persname role="auteur">Bouzin, Maurice</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23111" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23112">
         <did>
           <unitid>CHA_0023</unitid>
           <unittitle>Saint-sauveur !...</unittitle>
@@ -4498,8 +5376,11 @@
         <controlaccess>
           <persname role="auteur">Hornez, Emile</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23112" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23113">
         <did>
           <unitid>CHA_0247</unitid>
           <unittitle>Secourons la misère</unittitle>
@@ -4514,8 +5395,11 @@
           <persname role="auteur">Pontier, Louis, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0247.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23113" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23114">
         <did>
           <unitid>CHA_0283</unitid>
           <unittitle>Société des Amis-Réunis de la Liberté</unittitle>
@@ -4529,8 +5413,11 @@
         <controlaccess>
           <persname role="auteur">Delannoy, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23114" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23115">
         <did>
           <unitid>CHA_0076</unitid>
           <unittitle>Société des vestes bleues</unittitle>
@@ -4544,8 +5431,11 @@
           <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0076.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23115" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23116">
         <did>
           <unitid>CHA_0315</unitid>
           <unittitle>Société St-Mathias</unittitle>
@@ -4556,8 +5446,11 @@
           <p>&lt;p&gt;Société St-Mathias. Imprimerie Taffin, Lille.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0315.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23116" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23117">
         <did>
           <unitid>CHA_0264</unitid>
           <unittitle>Solidarité ouvrière</unittitle>
@@ -4568,8 +5461,11 @@
           <p>&lt;p&gt;Solidarité ouvrière : chanson en patois de Roubaix interprétée par les Ouvriers de chez Carissimo. Chanson chantée sur l'air de "Misère ! misère !".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0264.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23117" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23118">
         <did>
           <unitid>CHA_0201</unitid>
           <unittitle>Sortie carnavalesque de 1899</unittitle>
@@ -4584,8 +5480,11 @@
           <persname role="auteur">Berte, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0201.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23118" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23119">
         <did>
           <unitid>CHA_0240</unitid>
           <unittitle>Souvenir de la société des vingt de Tourcoing</unittitle>
@@ -4599,8 +5498,11 @@
         <controlaccess>
           <persname role="auteur">Van Malleghem, François</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23119" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23120">
         <did>
           <unitid>CHA_0016</unitid>
           <unittitle>Te t'aiche aller</unittitle>
@@ -4614,8 +5516,11 @@
         <controlaccess>
           <persname role="auteur">Tartare, Georges</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23120" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23121">
         <did>
           <unitid>CHA_0222</unitid>
           <unittitle>Tout à la patrie</unittitle>
@@ -4627,10 +5532,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.6964336, 3.1763059 ]">Saint-Antoine, rue</geogname>
+          <persname role="auteur">Simoens, Henri </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0222.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23121" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23122">
         <did>
           <unitid>CHA_0111</unitid>
           <unittitle>Travail, loisir, repos</unittitle>
@@ -4645,8 +5554,11 @@
           <persname role="auteur">Capart, Victor, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0111.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23122" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23123">
         <did>
           <unitid>CHA_0251</unitid>
           <unittitle>Triste sort</unittitle>
@@ -4660,8 +5572,11 @@
         <controlaccess>
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23123" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23124">
         <did>
           <unitid>CHA_0196</unitid>
           <unittitle>Un amour trahi</unittitle>
@@ -4672,8 +5587,11 @@
           <p>&lt;p&gt;Un amour trahi : chanson nouvelle en patois de Roubaix. Paroles de D.-L. et chantée par la société des Amis réunis du pigeon d'argent, tenu par Jemant François, rue de Wasquehal à Croix. Chanson chantée sur l'air de "Badinguet qu'as-tu fait".&lt;/p&gt;</p>
         </scopecontent>
         <dao href="RBX_MED_CHA_0196.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23124" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23125">
         <did>
           <unitid>CHA_0038</unitid>
           <unittitle>Un cabaréti modèle</unittitle>
@@ -4687,8 +5605,11 @@
         <controlaccess>
           <persname role="auteur">Bouche, Henri</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23125" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23126">
         <did>
           <unitid>CHA_0057</unitid>
           <unittitle>Un dégout d'amour</unittitle>
@@ -4703,8 +5624,11 @@
           <persname role="auteur">Gros Guillaume, pseud.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0057.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23126" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23127">
         <did>
           <unitid>CHA_0137</unitid>
           <unittitle>Un départ de Bochus pour Lourdes</unittitle>
@@ -4716,10 +5640,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.685714, 3.164383 ]">Perche, rue de la</geogname>
+          <persname role="auteur">Bourgois, Désiré, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0137.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23127" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23128">
         <did>
           <unitid>CHA_0278</unitid>
           <unittitle>Un vilain papar</unittitle>
@@ -4733,8 +5661,11 @@
         <controlaccess>
           <persname role="auteur">Béghin, Charles</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23128" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23129">
         <did>
           <unitid>CHA_0209</unitid>
           <unittitle>Un voyache au java</unittitle>
@@ -4748,8 +5679,11 @@
         <controlaccess>
           <persname role="auteur">Broutin, Achille</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23129" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23130">
         <did>
           <unitid>CHA_0001</unitid>
           <unittitle>Union force</unittitle>
@@ -4763,8 +5697,11 @@
         <controlaccess>
           <persname role="auteur">Bar, N.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23130" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23131">
         <did>
           <unitid>CHA_0217</unitid>
           <unittitle>Vas-y Louis</unittitle>
@@ -4778,8 +5715,11 @@
         <controlaccess>
           <persname role="auteur">Prévost, L.</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23131" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23132">
         <did>
           <unitid>CHA_0206</unitid>
           <unittitle>Viv'les roubaisiens</unittitle>
@@ -4791,10 +5731,14 @@
         </scopecontent>
         <controlaccess>
           <geogname source="rue" coord="[ 50.688283, 3.18459 ]">Sainte Elisabeth, place</geogname>
+          <persname role="auteur">Bouche, Henri, roubaisien </persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0206.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23132" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23133">
         <did>
           <unitid>CHA_0252</unitid>
           <unittitle>Vive l'bire frodure !</unittitle>
@@ -4809,8 +5753,11 @@
           <persname role="auteur">Inglebert, Henri, roubaisien</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0252.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23133" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23134">
         <did>
           <unitid>CHA_0183</unitid>
           <unittitle>Yantche a siska</unittitle>
@@ -4825,8 +5772,11 @@
           <persname role="auteur">Kelbus, N.-O.</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0183.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23134" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23135">
         <did>
           <unitid>CHA_0161</unitid>
           <unittitle>Patrie-Courage-Moralité</unittitle>
@@ -4842,9 +5792,10 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0161_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0161_002.jpg" role="image:last"/>
+          <daoloc href="BNR23135" role="old_ark"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23136">
         <did>
           <unitid>CHA_0162</unitid>
           <unittitle>La Gymnastique</unittitle>
@@ -4860,9 +5811,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0162_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0162_002.jpg" role="image:last"/>
+          <daoloc href="BNR23136" role="old_ark"/>
         </daogrp>
+        <controlaccess>
+          <persname role="auteur">Roussé, Carlos </persname>
+        </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23137">
         <did>
           <unitid>CHA_0167</unitid>
           <unittitle>Les bohémiens</unittitle>
@@ -4878,12 +5833,13 @@
           </daodesc>
           <daoloc href="RBX_MED_CHA_0167_001.jpg" role="image:first"/>
           <daoloc href="RBX_MED_CHA_0167_002.jpg" role="image:last"/>
+          <daoloc href="BNR23137" role="old_ark"/>
         </daogrp>
         <controlaccess>
           <persname role="auteur">D'Hondt, Joseph</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23138">
         <did>
           <unitid>CHA_0171</unitid>
           <unittitle>Les mexicains</unittitle>
@@ -4898,8 +5854,11 @@
           <persname role="auteur">David, Louis</persname>
         </controlaccess>
         <dao href="RBX_MED_CHA_0171.jpg" role="image"/>
+        <daogrp>
+          <daoloc href="BNR23138" role="old_ark"/>
+        </daogrp>
       </c>
-      <c level="item">
+      <c level="item" osiros_id="BNR23139">
         <did>
           <unitid>CHA_0041</unitid>
           <unittitle>La désolation d'un mari</unittitle>
@@ -4913,6 +5872,9 @@
         <controlaccess>
           <persname role="auteur">Bourgois, Désiré</persname>
         </controlaccess>
+        <daogrp>
+          <daoloc href="BNR23139" role="old_ark"/>
+        </daogrp>
       </c>
     </dsc>
   </archdesc>

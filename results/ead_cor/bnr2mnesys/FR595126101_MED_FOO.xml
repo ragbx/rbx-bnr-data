@@ -52,7 +52,7 @@
       <persname>Varlet, Mike</persname>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" osiros_id="BNR124240">
         <did>
           <unitid>FOO_S01</unitid>
           <unittitle>Souvenirs de foot première série</unittitle>
@@ -64,7 +64,10 @@
 &lt;p&gt;Les personnes interviewées ont été approchées par les soins du pôle Patrimoine de la médiathèque.&lt;/p&gt;&#13;
 &lt;p&gt; &lt;/p&gt;</p>
         </scopecontent>
-        <c level="file">
+        <daogrp>
+          <daoloc href="BNR124240" role="old_ark"/>
+        </daogrp>
+        <c level="file" osiros_id="BNR124241">
           <did>
             <unitid>FOO_S01_D01</unitid>
             <unittitle>Entretien avec Francis Bohée</unittitle>
@@ -80,8 +83,11 @@
           </scopecontent>
           <dao href="RBX_MED_FOO_S01_D01_001.jpg" role="image"/>
           <dao href="RBX_MED_FOO_S01_D01_001.mp3" role="mp3"/>
+          <daogrp>
+            <daoloc href="BNR124241" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR124242">
           <did>
             <unitid>FOO_S01_D02</unitid>
             <unittitle>Entretien avec Eric Dendooven</unittitle>
@@ -94,8 +100,11 @@
           </scopecontent>
           <dao href="RBX_MED_FOO_S01_D02_001.jpg" role="image"/>
           <dao href="RBX_MED_FOO_S01_D02_001.mp3" role="mp3"/>
+          <daogrp>
+            <daoloc href="BNR124242" role="old_ark"/>
+          </daogrp>
         </c>
-        <c level="file">
+        <c level="file" osiros_id="BNR124243">
           <did>
             <unitid>FOO_S01_D03</unitid>
             <unittitle>Entretien avec Philippe Sirejacob</unittitle>
@@ -111,6 +120,9 @@
           </acqinfo>
           <dao href="RBX_MED_FOO_S01_D03_001.jpg" role="image"/>
           <dao href="http://www.bn-r.fr/musique/RBX_MED_FOO_S01_D03_001.mp3" role="mp3"/>
+          <daogrp>
+            <daoloc href="BNR124243" role="old_ark"/>
+          </daogrp>
         </c>
       </c>
     </dsc>
