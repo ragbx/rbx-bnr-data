@@ -15,7 +15,7 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 Établir une vue d'ensemble des corpus numérisés : liste des ensembles documentaires,
 état des fichiers, fichier de référence consolidé.
 
-→ [Données : corpus](files/donnees/corpus.md)
+→ [Données : corpus](files/donnees/corpus.md) · [Fichier de référence](files/donnees/fichier_ref.md)
 
 ### 2. Transférer les fichiers vers le stockage S3
 Verser les fichiers de conservation sur le stockage objet S3 et en assurer le suivi.
@@ -26,7 +26,7 @@ Verser les fichiers de conservation sur le stockage objet S3 et en assurer le su
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
-→ [Données : EAD](files/donnees/ead.md) · [Script ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md)
+→ [Sources de données](files/donnees/sources.md) · [Script ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.
