@@ -10,6 +10,8 @@ Données d'entrée
 - Un CSV de noms typés (persname / corpname) pour reclasser les balises <name>.
 - Un CSV de correspondances cote → osiros_id issu de l'OAI, pour construire les anciens ARK BnR.
 - Un fichier Excel listant les instruments de recherche à traiter (filtrés sur statut = "TRANSFERER").
+- Un CSV de référence des fichiers de conservation (lignes avec s3_key non null),
+  pour ajouter les chemins S3 aux balises <dao>/<daoloc>.
 - Les fichiers EAD source dans data/ead/bnr/.
 
 Résultats
@@ -49,14 +51,25 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image",
      le préfixe "access:" est ajouté devant la valeur existante.
 
-6. Reclassement des balises <name>
+6. Ajout des chemins de conservation
+   - Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension) à un
+     fichier du CSV de référence (s3_key non null), un nouveau <daoloc role="preservation:...">
+     est ajouté avec le chemin S3 (s3_key). Le role est obtenu en remplaçant "access:" par
+     "preservation:" dans le role de l'élément source.
+   - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
+
+7. Tri des <daoloc> dans les <daogrp>
+   - Dans chaque <daogrp>, les <daoloc> sont réordonnés : preservation: en premier,
+     access: ensuite, publication: en dernier.
+
+8. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
      selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
 
-7. Suppression des <repository> hors contexte
+9. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-8. Nettoyage final
+10. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -66,7 +79,7 @@ Utilisation
     python ead_bnr2mnesys.py
 """
 from html import unescape
-from os.path import exists, join
+from os.path import basename, exists, join, splitext
 
 import pandas as pd
 from lxml import etree
@@ -78,7 +91,7 @@ class EADbnr2mnesys:
     en vue de leur import dans Mnesys.
     """
 
-    def __init__(self, names_csv_path, oai_csv_path, irs_excel_path):
+    def __init__(self, names_csv_path, oai_csv_path, irs_excel_path, files_csv_path):
         """
         Initialise le transformateur avec les chemins vers les fichiers de données.
 
@@ -86,10 +99,12 @@ class EADbnr2mnesys:
             names_csv_path (str): Chemin vers le CSV contenant les noms (persname/corpname).
             oai_csv_path (str): Chemin vers le CSV contenant les correspondances OAI (cote -> osiros_id).
             irs_excel_path (str): Chemin vers le fichier Excel listant les instruments de recherche.
+            files_csv_path (str): Chemin vers le CSV de référence des fichiers de conservation.
         """
         self.names_type = self._load_names(names_csv_path)
         self.oai_dict = self._load_oai(oai_csv_path)
         self.irs = self._load_irs(irs_excel_path)
+        self.files_dict = self._load_files(files_csv_path)
 
         # Dossiers de travail
         self.input_dir = join("data", "ead", "bnr")
@@ -113,6 +128,12 @@ class EADbnr2mnesys:
         """Charge la liste des instruments de recherche depuis un Excel."""
         irs = pd.read_excel(excel_path)
         return irs[irs["statut"] == "TRANSFERER"]
+
+    def _load_files(self, csv_path):
+        """Charge les chemins de conservation depuis un CSV, indexés par nom de fichier sans extension."""
+        df = pd.read_csv(csv_path, low_memory=False)
+        df = df.dropna(subset=["name", "s3_key"]).drop_duplicates(subset=["name"])
+        return dict(zip(df["name"].apply(lambda x: splitext(x)[0]), df["s3_key"]))
 
     def _find_ancestor(self, context, tag):
         """Trouve l'ancêtre d'un élément avec une balise donnée."""
@@ -204,6 +225,58 @@ class EADbnr2mnesys:
             role = dao.get("role", "")
             if role.startswith("image"):
                 dao.set("role", f"access:{role}")
+
+    def _add_conservation_daoloc(self, element):
+        """
+        Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension) à un
+        fichier de conservation, ajoute un <daoloc role="preservation:..."> avec le s3_key.
+        Le role de la nouvelle <daoloc> est obtenu en remplaçant 'access:' par 'preservation:'
+        dans le role de l'élément source.
+        Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
+        """
+        for dao_elem in list(element.xpath(".//dao | .//daoloc")):
+            href = dao_elem.get("href", "")
+            name_key = splitext(basename(href))[0]
+            if not name_key or name_key not in self.files_dict:
+                continue
+
+            s3_key = self.files_dict[name_key]
+            preservation_role = dao_elem.get("role", "").replace("access:", "preservation:", 1)
+            parent = dao_elem.getparent()
+
+            if dao_elem.tag == "dao" and (parent is None or parent.tag != "daogrp"):
+                # Convertir <dao> isolé en <daogrp>
+                daogrp = etree.Element("daogrp")
+                daoloc_original = etree.SubElement(daogrp, "daoloc")
+                for attr, value in dao_elem.attrib.items():
+                    daoloc_original.set(attr, value)
+                new_daoloc = etree.SubElement(daogrp, "daoloc")
+                new_daoloc.set("href", s3_key)
+                new_daoloc.set("role", preservation_role)
+                if parent is not None:
+                    idx = list(parent).index(dao_elem)
+                    parent.remove(dao_elem)
+                    parent.insert(idx, daogrp)
+
+            elif dao_elem.tag == "daoloc" and parent is not None and parent.tag == "daogrp":
+                new_daoloc = etree.SubElement(parent, "daoloc")
+                new_daoloc.set("href", s3_key)
+                new_daoloc.set("role", preservation_role)
+
+    def _sort_daogrp(self, element):
+        """Trie les <daoloc> dans chaque <daogrp> : preservation: en premier, access: ensuite, publication: en dernier."""
+        role_order = {"preservation": 0, "access": 1, "publication": 2}
+
+        for daogrp in element.xpath(".//daogrp"):
+            daolocs = list(daogrp)
+            daolocs.sort(key=lambda e: next(
+                (order for prefix, order in role_order.items() if e.get("role", "").startswith(prefix)),
+                len(role_order)
+            ))
+            for daoloc in daolocs:
+                daogrp.remove(daoloc)
+            for daoloc in daolocs:
+                daogrp.append(daoloc)
 
     def _strip_whitespace(self, element):
         """Supprime les espaces en début/fin de texte dans les éléments `<controlaccess>`."""
@@ -348,6 +421,8 @@ class EADbnr2mnesys:
         self._move_origination(root)
         self._add_dao_ark(root)
         self._update_dao_roles(root)
+        self._add_conservation_daoloc(root)
+        self._sort_daogrp(root)
         self._remove_name(root)
         self._remove_repositories(root)
         # self._update_controlaccess_source(root)
@@ -382,5 +457,6 @@ if __name__ == "__main__":
             "ir",
             "liste_instruments_recherche_20260521_transfert_mnesys.xlsx",
         ),
+        files_csv_path=join("results", "ref", "_ref_files_20260502.csv.gz"),
     )
     transformer.run()
