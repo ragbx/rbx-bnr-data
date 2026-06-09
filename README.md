@@ -19,13 +19,27 @@ Le dépôt contient 4 répertoires principaux :
 - *documentation* : documentation du projet
 
 ## Aspects techniques
-pour cloner le dépôt, il est nécessaire de disposer de [Git LFS](https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage).
 
-TODO : requirements
+### Cloner le dépôt
 
-Pour lancer un script, se placer toujours à la racine du projet.
+Le dépôt utilise [Git LFS](https://docs.github.com/fr/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) pour les fichiers volumineux. Git LFS doit être installé avant de cloner.
+
+### Environnement Python
+
+Les scripts utilisent Python 3.11 dans un environnement conda. Pour créer et activer l'environnement :
+
+```bash
+conda env create -f environment.yml
+conda activate bnr-data
+```
+
+`pyexiftool` requiert l'installation préalable d'[ExifTool](https://exiftool.org/) sur le système.
+
+### Lancer un script
+
+Se placer toujours à la racine du projet avant de lancer un script.
 
 Par exemple :
 ```bash
-$ bash scripts/ead/dao_extraction.sh
+python scripts/ead/ead_bnr2mnesys.py
 ```
