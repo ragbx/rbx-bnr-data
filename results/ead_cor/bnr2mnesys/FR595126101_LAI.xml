@@ -28,7 +28,7 @@
       <p>&lt;p style="text-align: justify;"&gt;Tous les documents de cette collection ont été prétés à la Médiathèque de Roubaix par l'association Les Amis de la Lainière et du Textile pour être numérisés et mis en ligne.&lt;/p&gt;</p>
     </acqinfo>
     <dsc>
-      <c level="series" osiros_id="BNR59358">
+      <c level="series">
         <did>
           <unitid>LAI_D01</unitid>
           <unittitle>Brochures de la Lainière</unittitle>
@@ -41,8 +41,8 @@
         <controlaccess>
           <genreform>Livres et revues</genreform>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR59358" role="old_ark"/>
-        <c level="file" osiros_id="BNR59359">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR59358" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>LAI_D01_001</unitid>
             <unittitle>Peignage Amédée Prouvost &amp; Cie - 1851-1951</unittitle>
@@ -62,12 +62,12 @@
             <daodesc>
               <p>Peignage Amédée Prouvost &amp; Cie - 1851-1951</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_001_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_001_038.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59359" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_001_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_001_038.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59359" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59360">
+        <c level="file">
           <did>
             <unitid>LAI_D01_002</unitid>
             <unittitle>La Lainière de Roubaix de 1912 à 1962 </unittitle>
@@ -85,12 +85,12 @@
             <daodesc>
               <p>La lainière de Roubaix - 1912-1962 </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_002_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_002_045.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59360" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_002_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_002_045.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59360" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59361">
+        <c level="file">
           <did>
             <unitid>LAI_D01_003</unitid>
             <unittitle>La Lainière de Roubaix fête son cinquantenaire</unittitle>
@@ -107,12 +107,12 @@
             <daodesc>
               <p>La Lainière de Roubaix fête son cinquantenaire</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_003_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_003_029.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59361" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_003_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_003_029.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59361" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59362">
+        <c level="file">
           <did>
             <unitid>LAI_D01_004</unitid>
             <unittitle>Laines du Pingouin </unittitle>
@@ -133,12 +133,12 @@
             <daodesc>
               <p> Laines du Pingouin </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_004_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_004_036.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59362" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_004_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_004_036.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59362" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59363">
+        <c level="file">
           <did>
             <unitid>LAI_D01_005</unitid>
             <unittitle>La visite de Sa Majesté la Reine Elisabeth II </unittitle>
@@ -160,12 +160,12 @@
             <daodesc>
               <p>La visite de Sa Majesté la Reine Elisabeth II </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_005_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_005_067.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59363" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_005_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_005_067.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59363" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59364">
+        <c level="file">
           <did>
             <unitid>LAI_D01_006</unitid>
             <unittitle>La Lainière de Roubaix </unittitle>
@@ -185,12 +185,12 @@
             <daodesc>
               <p>La Lainière de Roubaix </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_006_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_006_005.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59364" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_006_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_006_005.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59364" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59365">
+        <c level="file">
           <did>
             <unitid>LAI_D01_007</unitid>
             <unittitle>Das Pingouin-Haus der INTERGARN GMBH</unittitle>
@@ -204,15 +204,15 @@
             <daodesc>
               <p>Das Pingouin-Haus der INTERGARN GMBH</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_007_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_007_007.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59365" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_007_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_007_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59365" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <persname role="éditeur">Buch und Zeitungsdruckerei H. Kollen</persname>
           </controlaccess>
         </c>
-        <c level="file" osiros_id="BNR59366">
+        <c level="file">
           <did>
             <unitid>LAI_D01_009</unitid>
             <unittitle>Menu offert par les Laines du Pingouin aux concessionnaires de la marque</unittitle>
@@ -231,12 +231,12 @@
             <daodesc>
               <p>Menu</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_009_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_009_002.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59366" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_009_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_009_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59366" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59367">
+        <c level="file">
           <did>
             <unitid>LAI_D01_008</unitid>
             <unittitle>Pingouin informations </unittitle>
@@ -255,12 +255,12 @@
             <daodesc>
               <p>Pingouin informations </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_008_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_008_016.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59367" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_008_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_008_016.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59367" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59368">
+        <c level="file">
           <did>
             <unitid>LAI_D01_010</unitid>
             <unittitle>Cinquante années de Travail, Jubilé d'activité de Messieurs Albert Prouvost Jean Prouvost</unittitle>
@@ -274,12 +274,12 @@
             <daodesc>
               <p>Cinquante années de Travail, Jubilé d'activité de Messieurs Albert Prouvost Jean Prouvost</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_010_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_010_069.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59368" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_010_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_010_069.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59368" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59369">
+        <c level="file">
           <did>
             <unitid>LAI_D01_011</unitid>
             <unittitle>Prouvost</unittitle>
@@ -293,12 +293,12 @@
             <daodesc>
               <p>Prouvost</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_011_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_011_014.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59369" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_011_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_011_014.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59369" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59370">
+        <c level="file">
           <did>
             <unitid>LAI_D01_012</unitid>
             <unittitle>Mini Guide pour une grande visite Portes ouvertes Lainière de Roubaix</unittitle>
@@ -312,12 +312,12 @@
             <daodesc>
               <p>Mini Guide pour une grande visite Portes ouvertes Lainière de Roubaix</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_012_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_012_005.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59370" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_012_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_012_005.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59370" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59371">
+        <c level="file">
           <did>
             <unitid>LAI_D01_013</unitid>
             <unittitle>Au chaud pour pas cher, Avec Pingostar, Pingoland, Pingofrance et Pingofine</unittitle>
@@ -331,12 +331,12 @@
             <daodesc>
               <p>Au chaud pour pas cher, Avec Pingostar, Pingoland, Pingofrance et Pingofine</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_013_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_013_002.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59371" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_013_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_013_002.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59371" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59372">
+        <c level="file">
           <did>
             <unitid>LAI_D01_014</unitid>
             <unittitle>Le Nouveau catalogue Pinguin</unittitle>
@@ -350,12 +350,12 @@
             <daodesc>
               <p>Le Nouveau catalogue Pinguin</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_014_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_014_007.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59372" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_014_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_014_007.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59372" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59373">
+        <c level="file">
           <did>
             <unitid>LAI_D01_015</unitid>
             <unittitle>Franchise export divertification rigueur, la politique qui nous a permis de faire face à la crise</unittitle>
@@ -369,12 +369,12 @@
             <daodesc>
               <p>Franchise export divertification rigueur, la politique qui nous a permis de faire face à la crise</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_015_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_015_044.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59373" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_015_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_015_044.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59373" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59374">
+        <c level="file">
           <did>
             <unitid>LAI_D01_016</unitid>
             <unittitle>Lainière de Roubaix Prouvost Masurel</unittitle>
@@ -388,13 +388,13 @@
             <daodesc>
               <p>Lainière de Roubaix Prouvost Masurel</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D01_016_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D01_016_015.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59374" role="old_ark"/>
+            <daoloc href="RBX_LAI_D01_016_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D01_016_015.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59374" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
-      <c level="series" osiros_id="BNR59375">
+      <c level="series">
         <did>
           <unitid>LAI_D02</unitid>
           <unittitle>Documents administratifs de la Lainière</unittitle>
@@ -407,8 +407,8 @@
         <controlaccess>
           <genreform>Documents d'archives</genreform>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR59375" role="old_ark"/>
-        <c level="file" osiros_id="BNR59376">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR59375" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>LAI_D02_001</unitid>
             <unittitle>Attestation officielle de protection en Autriche</unittitle>
@@ -424,11 +424,11 @@
             <corpname role="auteur">Office international de Berne</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_001_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59376" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_001_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59376" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59377">
+        <c level="file">
           <did>
             <unitid>LAI_D02_002</unitid>
             <unittitle>Attestation officielle </unittitle>
@@ -443,11 +443,11 @@
             <subject source="chrono">1919-1938</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_002_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59377" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_002_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59377" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59378">
+        <c level="file">
           <did>
             <unitid>LAI_D02_003</unitid>
             <unittitle>Filatures Prouvost &amp; Cie </unittitle>
@@ -468,12 +468,12 @@
             <daodesc>
               <p>Filatures Prouvost &amp; Cie </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_003_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_003_004.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59378" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_003_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_003_004.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59378" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59379">
+        <c level="file">
           <did>
             <unitid>LAI_D02_004</unitid>
             <unittitle>Note dinformation sur la Lainière de Roubaix</unittitle>
@@ -494,12 +494,12 @@
             <daodesc>
               <p>Note dinformation sur la « Lainière de Roubaix » </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_004_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_004_006.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59379" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_004_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_004_006.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59379" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59380">
+        <c level="file">
           <did>
             <unitid>LAI_D02_005</unitid>
             <unittitle>Parcours de visite des Filatures Prouvost &amp; Cie</unittitle>
@@ -520,12 +520,12 @@
             <daodesc>
               <p>Parcours de la visite </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_005_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_005_004.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59380" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_005_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_005_004.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59380" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59381">
+        <c level="file">
           <did>
             <unitid>LAI_D02_006</unitid>
             <unittitle>Les Filatures de Neugedein</unittitle>
@@ -545,12 +545,12 @@
             <daodesc>
               <p>Les Filatures de Neugedein, certificat dactions nominatives de cinq cents francs </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_006_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_006_002.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59381" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_006_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_006_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59381" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59382">
+        <c level="file">
           <did>
             <unitid>LAI_D02_007</unitid>
             <unittitle>Certificat nominatif dactions de 1.500 frs</unittitle>
@@ -570,12 +570,12 @@
             <daodesc>
               <p>Certificat nominatif dactions de 1.500 frs</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_007_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_007_002.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59382" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_007_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_007_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59382" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59383">
+        <c level="file">
           <did>
             <unitid>LAI_D02_008</unitid>
             <unittitle>Actions de l'Industrielle lainière</unittitle>
@@ -591,11 +591,11 @@
             <corpname role="auteur">Industrielle lainière</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_008_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59383" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_008_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59383" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59384">
+        <c level="file">
           <did>
             <unitid>LAI_D02_009</unitid>
             <unittitle>Actions des Filatures Prouvost &amp; Cie</unittitle>
@@ -613,11 +613,11 @@
             <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_009_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59384" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_009_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59384" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59385">
+        <c level="file">
           <did>
             <unitid>LAI_D02_010</unitid>
             <unittitle>Plan d'ensemble</unittitle>
@@ -633,11 +633,11 @@
             <corpname normal="Lainière de Roubaix" role="auteur">Lainière de Roubaix</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_010_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59385" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_010_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59385" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59386">
+        <c level="file">
           <did>
             <unitid>LAI_D02_011</unitid>
             <unittitle>Lettre de change</unittitle>
@@ -654,12 +654,12 @@
             <daodesc>
               <p>Lettre de change</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_011_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_011_002.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59386" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_011_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_011_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59386" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59387">
+        <c level="file">
           <did>
             <unitid>LAI_D02_012</unitid>
             <unittitle>Un sachet en carton</unittitle>
@@ -675,11 +675,11 @@
             <corpname role="auteur">Pingouin</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_012_001.jpg" audience="internal" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59387" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_012_001.jpg" audience="internal" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59387" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59388">
+        <c level="file">
           <did>
             <unitid>LAI_D02_013</unitid>
             <unittitle>Laine Prima</unittitle>
@@ -695,11 +695,11 @@
             <persname role="auteur">Laine Prima</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D02_013_001.jpg" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59388" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_013_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59388" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59389">
+        <c level="file">
           <did>
             <unitid>LAI_D02_015</unitid>
             <unittitle>Nadine Fournier à l'ensemble du personnel</unittitle>
@@ -713,12 +713,12 @@
             <daodesc>
               <p>Nadine Fournier à l'ensemble du personnel</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_015_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_015_012.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59389" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_015_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_015_012.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59389" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59390">
+        <c level="file">
           <did>
             <unitid>LAI_D02_014</unitid>
             <unittitle>Bienvenue à La Lainière de Roubaix</unittitle>
@@ -732,12 +732,12 @@
             <daodesc>
               <p>Bienvenue à La Lainière de Roubaix</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_014_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_014_047.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59390" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_014_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_014_047.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59390" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59391">
+        <c level="file">
           <did>
             <unitid>LAI_D02_016</unitid>
             <unittitle>Informations Intérieures</unittitle>
@@ -747,12 +747,12 @@
             <daodesc>
               <p>Informations Interieures</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_016_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_016_032.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59391" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_016_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_016_032.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59391" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59392">
+        <c level="file">
           <did>
             <unitid>LAI_D02_018</unitid>
             <unittitle>Info Lainière, La Lainière fait peau neuve !</unittitle>
@@ -762,12 +762,12 @@
             <daodesc>
               <p>Info Lainière, La Lainière fait peau neuve !</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_018_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_018_003.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59392" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_018_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_018_003.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59392" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59393">
+        <c level="file">
           <did>
             <unitid>LAI_D02_019</unitid>
             <unittitle>Info-encadrement n°8</unittitle>
@@ -777,12 +777,12 @@
             <daodesc>
               <p>Info-encadrement n°8</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_019_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_019_002.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59393" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_019_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_019_002.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59393" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59394">
+        <c level="file">
           <did>
             <unitid>LAI_D02_022</unitid>
             <unittitle>Groupe VEV infos</unittitle>
@@ -792,12 +792,12 @@
             <daodesc>
               <p>Groupe VEV infos</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_022_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_022_016.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59394" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_022_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_022_016.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59394" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59395">
+        <c level="file">
           <did>
             <unitid>LAI_D02_023</unitid>
             <unittitle>Note d'information, Assemblée générale extraordinaire </unittitle>
@@ -807,12 +807,12 @@
             <daodesc>
               <p>Note d'information, Assemblée générale extraordinaire </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_023_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_023_019.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59395" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_023_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_023_019.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59395" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59396">
+        <c level="file">
           <did>
             <unitid>LAI_D02_024</unitid>
             <unittitle>Note d'information sur les filatures Prouvost Masurel &amp; Cie </unittitle>
@@ -822,12 +822,12 @@
             <daodesc>
               <p>Note d'information sur les filatures Prouvost Masurel &amp; Cie </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_024_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_024_007.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59396" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_024_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_024_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59396" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59397">
+        <c level="file">
           <did>
             <unitid>LAI_D02_026</unitid>
             <unittitle>Lettres à en-tête</unittitle>
@@ -837,12 +837,12 @@
             <daodesc>
               <p>Lettres à en-tête</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_026_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_026_005.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59397" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_026_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_026_005.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59397" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59398">
+        <c level="file">
           <did>
             <unitid>LAI_D02_027</unitid>
             <unittitle>Dossier de l'Assemblée générale du 24 juin 1982</unittitle>
@@ -852,12 +852,12 @@
             <daodesc>
               <p>Dossier de l'Assemblée générale du 24 juin 1982</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_027_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_027_020.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59398" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_027_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_027_020.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59398" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59399">
+        <c level="file">
           <did>
             <unitid>LAI_D02_030</unitid>
             <unittitle>Lainière de Roubaix : explication technique sur les fils textiles</unittitle>
@@ -867,12 +867,12 @@
             <daodesc>
               <p>Lainière de Roubaix : explication technique sur les fils textiles</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_030_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_030_041.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59399" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_030_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_030_041.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59399" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59400">
+        <c level="file">
           <did>
             <unitid>LAI_D02_017</unitid>
             <unittitle>Informations Intérieures</unittitle>
@@ -882,12 +882,12 @@
             <daodesc>
               <p>Informations Interieures</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_017_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_017_019.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59400" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_017_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_017_019.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59400" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59401">
+        <c level="file">
           <did>
             <unitid>LAI_D02_020</unitid>
             <unittitle>Informations Intérieures</unittitle>
@@ -897,12 +897,12 @@
             <daodesc>
               <p>Informations Interieures</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_020_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_020_007.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59401" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_020_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_020_007.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59401" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59402">
+        <c level="file">
           <did>
             <unitid>LAI_D02_021</unitid>
             <unittitle>Informations Intérieures</unittitle>
@@ -912,12 +912,12 @@
             <daodesc>
               <p>Informations Interieures</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_021_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_021_010.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59402" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_021_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_021_010.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59402" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59403">
+        <c level="file">
           <did>
             <unitid>LAI_D02_025</unitid>
             <unittitle>Informations Intérieures</unittitle>
@@ -927,12 +927,12 @@
             <daodesc>
               <p>Informations Interieures</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_025_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_025_020.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59403" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_025_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_025_020.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59403" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59404">
+        <c level="file">
           <did>
             <unitid>LAI_D02_029</unitid>
             <unittitle>Dossier de l'Assemblée générale du 28 juin 1984</unittitle>
@@ -942,12 +942,12 @@
             <daodesc>
               <p>Dossier de l'Assemblée générale du 28 juin 1984</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_029_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_029_026.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59404" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_029_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_029_026.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59404" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59405">
+        <c level="file">
           <did>
             <unitid>LAI_D02_028</unitid>
             <unittitle>Dossier de l'Assemblée générale du 29 juin 1983</unittitle>
@@ -957,12 +957,12 @@
             <daodesc>
               <p>Dossier de l'Assemblée générale du 29 juin 1983</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_028_001.jpg" audience="internal" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_028_005.jpg" audience="internal" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59405" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_028_001.jpg" audience="internal" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_028_005.jpg" audience="internal" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59405" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59406">
+        <c level="file">
           <did>
             <unitid>LAI_D02_031</unitid>
             <unittitle>Note d'information sur la </unittitle>
@@ -972,13 +972,13 @@
             <daodesc>
               <p>Note d'information sur la "Lainière de Roubaix" Prouvost Masurel</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D02_031_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D02_031_006.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59406" role="old_ark"/>
+            <daoloc href="RBX_LAI_D02_031_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D02_031_006.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59406" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
-      <c level="series" osiros_id="BNR59407">
+      <c level="series">
         <did>
           <unitid>LAI_D03</unitid>
           <unittitle>Journaux de la Lainière</unittitle>
@@ -990,8 +990,8 @@
         <controlaccess>
           <genreform>Livres et revues</genreform>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR59407" role="old_ark"/>
-        <c level="file" osiros_id="BNR59408">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR59407" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>LAI_D03_001</unitid>
             <unittitle>Contact, la mercerie pratique - n°95</unittitle>
@@ -1017,12 +1017,12 @@
             <daodesc>
               <p>Contact </p>
             </daodesc>
-            <daoloc href="RBX_LAI_D03_001_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D03_001_044.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59408" role="old_ark"/>
+            <daoloc href="RBX_LAI_D03_001_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D03_001_044.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59408" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59409">
+        <c level="file">
           <did>
             <unitid>LAI_D03_002</unitid>
             <unittitle>Contact, la mercerie pratique - n°128</unittitle>
@@ -1043,12 +1043,12 @@
             <daodesc>
               <p>Mensuel Contact</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D03_002_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D03_002_032.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59409" role="old_ark"/>
+            <daoloc href="RBX_LAI_D03_002_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D03_002_032.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59409" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59410">
+        <c level="file">
           <did>
             <unitid>LAI_D03_003</unitid>
             <unittitle>Contact, la mercerie pratique - n°138</unittitle>
@@ -1071,12 +1071,12 @@
             <daodesc>
               <p>Contact, la mercerie pratique</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D03_003_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D03_003_032.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59410" role="old_ark"/>
+            <daoloc href="RBX_LAI_D03_003_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D03_003_032.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59410" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59411">
+        <c level="file">
           <did>
             <unitid>LAI_D03_004</unitid>
             <unittitle>Contact, la mercerie pratique - n°142</unittitle>
@@ -1090,13 +1090,13 @@
             <daodesc>
               <p>La revue Contact</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D03_004_001.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D03_004_032.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59411" role="old_ark"/>
+            <daoloc href="RBX_LAI_D03_004_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D03_004_032.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59411" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
-      <c level="series" osiros_id="BNR59412">
+      <c level="series">
         <did>
           <unitid>LAI_D04</unitid>
           <unittitle>Images de la Lainière</unittitle>
@@ -1104,8 +1104,8 @@
         <controlaccess>
           <genreform>Images</genreform>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR59412" role="old_ark"/>
-        <c level="file" osiros_id="BNR59413">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR59412" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>LAI_D04_001</unitid>
             <unittitle>Affiche - Expofil</unittitle>
@@ -1123,46 +1123,46 @@
             <corpname role="illustrateur">Studio Daniel Penez</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_LAI_D04_001_001.jpg" audience="internal" role="image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59413" role="old_ark"/>
+            <daoloc href="RBX_LAI_D04_001_001.jpg" audience="internal" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59413" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59414">
+        <c level="file">
           <did>
             <unitid>LAI_D04_002</unitid>
             <unittitle>Diapositives - La Solving</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR59414" role="old_ark"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR59414" role="publication:previous"/>
         </c>
-        <c level="file" osiros_id="BNR59415">
+        <c level="file">
           <did>
             <unitid>LAI_D04_003</unitid>
             <unittitle>Diapositives - Les bâtiments de la Lainière</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR59415" role="old_ark"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR59415" role="publication:previous"/>
         </c>
-        <c level="file" osiros_id="BNR59416">
+        <c level="file">
           <did>
             <unitid>LAI_D04_004</unitid>
             <unittitle>Diapositives - L'apprentissage du travail</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR59416" role="old_ark"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR59416" role="publication:previous"/>
         </c>
-        <c level="file" osiros_id="BNR59417">
+        <c level="file">
           <did>
             <unitid>LAI_D04_005</unitid>
             <unittitle>Diapositives - La sécurité</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR59417" role="old_ark"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNR59417" role="publication:previous"/>
         </c>
       </c>
-      <c level="series" osiros_id="BNR59418">
+      <c level="series">
         <did>
           <unitid>LAI_D05</unitid>
           <unittitle>Agendas La Lainière</unittitle>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR59418" role="old_ark"/>
-        <c level="file" osiros_id="BNR59419">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR59418" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>LAI_D05_001</unitid>
             <unittitle>Agenda La Lainière de 1928</unittitle>
@@ -1183,12 +1183,12 @@
             <daodesc>
               <p>Agenda La Lainière de 1928</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D05_001_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D05_001_127.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59419" role="old_ark"/>
+            <daoloc href="RBX_LAI_D05_001_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D05_001_127.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59419" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR59420">
+        <c level="file">
           <did>
             <unitid>LAI_D05_002</unitid>
             <unittitle>Agenda La Lainière de 1930</unittitle>
@@ -1209,9 +1209,9 @@
             <daodesc>
               <p>Agenda La Lainière de 1930</p>
             </daodesc>
-            <daoloc href="RBX_LAI_D05_002_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAI_D05_002_150.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59420" role="old_ark"/>
+            <daoloc href="RBX_LAI_D05_002_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAI_D05_002_150.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59420" role="publication:previous"/>
           </daogrp>
         </c>
       </c>

@@ -1,3 +1,70 @@
+"""
+Transformation de fichiers EAD BnR pour import dans Mnesys.
+
+Ce script applique une série de transformations sur des fichiers XML EAD (Encoded Archival
+Description) produits par la Bibliothèque numérique de Roubaix, en vue de leur import dans
+le logiciel d'archivistique Mnesys.
+
+Données d'entrée
+----------------
+- Un CSV de noms typés (persname / corpname) pour reclasser les balises <name>.
+- Un CSV de correspondances cote → osiros_id issu de l'OAI, pour construire les anciens ARK BnR.
+- Un fichier Excel listant les instruments de recherche à traiter (filtrés sur statut = "TRANSFERER").
+- Les fichiers EAD source dans data/ead/bnr/.
+
+Résultats
+---------
+Les fichiers EAD transformés sont écrits dans results/ead_cor/bnr2mnesys/.
+
+Pipeline de transformations
+---------------------------
+Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD :
+
+1. Mise à jour des métadonnées de l'instrument de recherche
+   - <eadid> : remplacé par la nouvelle valeur issue du fichier Excel.
+   - <archdesc/did/unitid> : remplacé par le nouveau identifiant de l'IR.
+   - <archdesc/did/repository> : remplacé par le nouveau nom du service versant.
+
+2. Nettoyage du contenu textuel
+   - Décodage des entités HTML (&amp;, &lt;, etc.) dans tout l'arbre XML.
+   - Suppression des espaces en début/fin de texte dans les enfants de <controlaccess>.
+
+3. Réorganisation des accès (indexation)
+   - <origination> : les éléments <name> et <persname> qu'il contient sont déplacés dans
+     <controlaccess> (créé si absent). <origination> est supprimé s'il devient vide.
+     Lors du déplacement, les <name> sont reclassés en <persname> ou <corpname> selon la
+     liste CSV si une correspondance est trouvée.
+
+4. Ajout des anciens ARK BnR
+   - Pour chaque élément <c> dont le <unitid> figure dans la table de correspondance OAI,
+     une balise pointant vers l'ancien ARK BnR (https://www.bn-r.fr/ark:/20179/<osiros_id>)
+     est insérée selon trois cas :
+       * <daogrp> déjà présent → ajout d'un <daoloc role="publication:previous"> dans le groupe.
+       * <dao> présent (sans <daogrp>) → transformation en <daogrp> contenant un <daoloc>
+         reprenant les attributs de l'ancienne <dao> et un <daoloc role="publication:previous">.
+       * Ni <dao> ni <daogrp> → création d'un <dao role="publication:previous"> pointant vers l'ARK.
+     Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> s'il existe.
+
+5. Mise à jour des rôles des <dao>
+   - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image",
+     le préfixe "access:" est ajouté devant la valeur existante.
+
+6. Reclassement des balises <name>
+   - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
+     selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
+
+7. Suppression des <repository> hors contexte
+   - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
+
+8. Nettoyage final
+   - Suppression des attributs dont la valeur est une chaîne vide.
+   - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
+     non vide).
+
+Utilisation
+-----------
+    python ead_bnr2mnesys.py
+"""
 from html import unescape
 from os.path import exists, join
 
@@ -63,69 +130,35 @@ class EADbnr2mnesys:
                 return False
         return True
 
-    def _add_osiros_id(self, element):
-        """Ajoute l'attribut `osiros_id` aux éléments `<c>` sur la base d'un fichier de
-        concordance : unitid / osiros_id. Cet attribut permettra de construire un ark à maintenir,
-        correspondant à l'ancienne bn-r.
-        Attention, on est bien conscients que cet attribut n'existe pas dans l'ead."""
+    def _add_dao_ark(self, element):
+        """
+        Ajoute ou modifie les balises <dao> ou <daogrp> pour chaque élément <c> dont le
+        <unitid> figure dans la table de correspondance OAI, afin de conserver un lien vers
+        l'ancien ARK BnR. Trois cas selon la structure existante :
+
+        - <daogrp> présent : ajout d'un <daoloc role="publication:previous"> dans le groupe existant
+          (sans doublon).
+        - <dao> présent (sans <daogrp>) : transformation en <daogrp> avec un <daoloc>
+          reprenant les attributs de l'ancienne <dao> et un <daoloc role="publication:previous">.
+        - Ni <dao> ni <daogrp> : création d'un <dao role="publication:previous">.
+
+        Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> s'il existe.
+        """
         for c in element.findall(".//c"):
             unitid = c.find("./did/unitid")
-            if unitid is not None and unitid.text in self.oai_dict:
-                c.set("osiros_id", self.oai_dict[unitid.text])
-
-    def _add_dao_from_osiros_id(self, element):
-        """
-        Ajoute ou modifie les balises <dao> ou <daogrp> pour chaque élément <c> possédant un attribut `osiros_id`.
-        La fonction gère trois cas principaux en fonction de la structure existante :
-
-        ---
-        **Cas 1 : <daogrp> existe déjà**
-        - Ajoute un <daoloc> avec `href=osiros_id` et `role="old_ark"` à l'intérieur du <daogrp> existant.
-        - Si un <daoloc> avec `role="old_ark"` existe déjà, aucun changement n'est apporté.
-
-        ---
-        **Cas 2 : <dao> existe (mais pas <daogrp>)**
-        - Transforme la structure en :
-        - Crée un <daogrp> contenant deux <daoloc> :
-            1. Le premier <daoloc> reprend **tous les attributs** de l'ancienne <dao> (ex: `href`, `audience`).
-            2. Le second <daoloc> a pour attributs `href=osiros_id` et `role="old_ark"`.
-        - Supprime l'ancienne <dao> après avoir copié ses attributs.
-        - Le <daogrp> est inséré **avant le premier enfant <c>** s'il existe, sinon à la fin de l'élément.
-
-        ---
-        **Cas 3 : Ni <dao> ni <daogrp> n'existe**
-        - Crée une nouvelle balise <dao> avec les attributs :
-        - `href=osiros_id`
-        - `role="old_ark"`
-        - La balise <dao> est insérée **avant le premier enfant** de <c> (quel que soit son type).
-
-        ---
-        **Règles générales**
-        - Seule les éléments <c> **avec un attribut `osiros_id`** sont traités.
-        - Les modifications sont appliquées **en place** sur l'arbre XML.
-        - Les attributs existants (ex: `audience`, `level`) sont préservés.
-
-        Args:
-            element (xml.etree.ElementTree.Element): Élément racine ou parent de l'arbre XML à modifier.
-
-        Returns:
-            xml.etree.ElementTree.Element: L'élément modifié (pour chaînage éventuel).
-        """
-        for c in element.findall(".//c"):
-            if "osiros_id" not in c.attrib:
+            if unitid is None or unitid.text not in self.oai_dict:
                 continue
 
-            osiros_id = c.attrib["osiros_id"]
-            url = f"https://www.bn-r.fr/ark:/20179/{osiros_id}"
+            url = f"https://www.bn-r.fr/ark:/20179/{self.oai_dict[unitid.text]}"
             first_child_c = next((child for child in c if child.tag == "c"), None)
 
             # Cas 1 : <daogrp> existe déjà
             daogrp = c.find("daogrp")
             if daogrp is not None:
-                if not any(daoloc.get("role") == "old_ark" for daoloc in daogrp.findall("daoloc")):
+                if not any(daoloc.get("role") == "publication:previous" for daoloc in daogrp.findall("daoloc")):
                     new_daoloc = etree.SubElement(daogrp, "daoloc")
                     new_daoloc.set("href", url)
-                    new_daoloc.set("role", "old_ark")
+                    new_daoloc.set("role", "publication:previous")
 
             # Cas 2 : <dao> existe mais pas <daogrp>
             elif (old_dao := c.find("dao")) is not None:
@@ -140,7 +173,7 @@ class EADbnr2mnesys:
                 # Ajouter la nouvelle <daoloc> pour osiros_id
                 new_daoloc = etree.SubElement(daogrp, "daoloc")
                 new_daoloc.set("href", url)
-                new_daoloc.set("role", "old_ark")
+                new_daoloc.set("role", "publication:previous")
 
                 # Insérer <daogrp> avant le premier enfant <c> ou à la fin
                 if first_child_c is not None:
@@ -156,7 +189,7 @@ class EADbnr2mnesys:
             else:
                 new_dao = etree.Element("dao")
                 new_dao.set("href", url)
-                new_dao.set("role", "old_ark")
+                new_dao.set("role", "publication:previous")
 
                 if first_child_c is not None:
                     index = list(c).index(first_child_c)
@@ -164,6 +197,13 @@ class EADbnr2mnesys:
                 else:
                     c.append(new_dao)
 
+
+    def _update_dao_roles(self, element):
+        """Préfixe 'access:' au role des <dao> et <daoloc> dont le role commence par 'image'."""
+        for dao in element.xpath(".//*[self::dao or self::daoloc]"):
+            role = dao.get("role", "")
+            if role.startswith("image"):
+                dao.set("role", f"access:{role}")
 
     def _strip_whitespace(self, element):
         """Supprime les espaces en début/fin de texte dans les éléments `<controlaccess>`."""
@@ -306,8 +346,8 @@ class EADbnr2mnesys:
         self._remove_html_entities(root)
         self._strip_whitespace(root)
         self._move_origination(root)
-        self._add_osiros_id(root)
-        self._add_dao_from_osiros_id(root)
+        self._add_dao_ark(root)
+        self._update_dao_roles(root)
         self._remove_name(root)
         self._remove_repositories(root)
         # self._update_controlaccess_source(root)

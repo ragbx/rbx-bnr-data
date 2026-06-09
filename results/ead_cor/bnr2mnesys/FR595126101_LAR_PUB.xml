@@ -46,7 +46,7 @@
       <subject source="Rameau">Roubaix (Nord)</subject>
     </controlaccess>
     <dsc>
-      <c level="series" osiros_id="BNR120437">
+      <c level="series">
         <did>
           <unitid>PUB_CDR</unitid>
           <unittitle>Cahiers de Roubaix</unittitle>
@@ -57,8 +57,8 @@
           <p>&lt;p&gt;Les Cahiers de Roubaix sont écrits par des historiens, conservateurs, habitants de roubaix etc. et nous permettent de retracer l'histoire de la ville et de sa population.&lt;/p&gt;&#13;
 &lt;p&gt;Directeur de la publication : Michel DAVID&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120437" role="old_ark"/>
-        <c level="file" osiros_id="BNR120438">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR120437" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>PUB_CDR_001</unitid>
             <unittitle>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</unittitle>
@@ -77,12 +77,12 @@
             <daodesc>
               <p>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_001_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_001_055.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120438" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_001_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_001_055.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120438" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120439">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_002</unitid>
             <unittitle>Louis Decottignies, poète ouvrier méconnu</unittitle>
@@ -103,12 +103,12 @@
             <daodesc>
               <p>Louis Decottignies, poète ouvrier méconnu</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_002_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_002_048.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120439" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_002_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_002_048.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120439" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120440">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_003</unitid>
             <unittitle>Lintégration des Belges à Roubaix</unittitle>
@@ -130,12 +130,12 @@
             <daodesc>
               <p>Lintégration des Belges à Roubaix</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_003_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_003_073.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120440" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_003_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_003_073.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120440" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120441">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_004</unitid>
             <unittitle>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</unittitle>
@@ -157,12 +157,12 @@
             <daodesc>
               <p>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_004_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_004_069.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120441" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_004_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_004_069.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120441" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120442">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_005</unitid>
             <unittitle>Témoignage dun vieux Roubaisien</unittitle>
@@ -176,16 +176,16 @@
             <daodesc>
               <p>Témoignage dun vieux Roubaisien</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_005_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_005_143.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120442" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_005_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_005_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120442" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
             <persname normal="Vincent Lepoutre" role="dessinateur">Lepoutre, Vincent</persname>
           </controlaccess>
         </c>
-        <c level="file" osiros_id="BNR120443">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_006</unitid>
             <unittitle>Histoire de lenseignement primaire à Roubaix</unittitle>
@@ -207,12 +207,12 @@
             <daodesc>
               <p>Histoire de lenseignement primaire à Roubaix </p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_006_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_006_097.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120443" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_006_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_006_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120443" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120444">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_007</unitid>
             <unittitle>Le commerce des imprimés à Roubaix au XIXe siècle</unittitle>
@@ -233,12 +233,12 @@
             <daodesc>
               <p>Le commerce des imprimés à Roubaix au XIXe siècle</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_007_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_007_201.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120444" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_007_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_007_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120444" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120445">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_008</unitid>
             <unittitle>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</unittitle>
@@ -259,12 +259,12 @@
             <daodesc>
               <p>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_008_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_008_111.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120445" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_008_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_008_111.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120445" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120446">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_009</unitid>
             <unittitle>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</unittitle>
@@ -279,15 +279,15 @@
             <daodesc>
               <p>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_009_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_009_067.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120446" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_009_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_009_067.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120446" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
           </controlaccess>
         </c>
-        <c level="file" osiros_id="BNR120447">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_010</unitid>
             <unittitle>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </unittitle>
@@ -307,12 +307,12 @@
             <daodesc>
               <p>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_010_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_010_223.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120447" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_010_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_010_223.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120447" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120448">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_011</unitid>
             <unittitle>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</unittitle>
@@ -333,12 +333,12 @@
             <daodesc>
               <p>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_011_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_011_143.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120448" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_011_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_011_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120448" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120449">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_012</unitid>
             <unittitle>Miscellanées : quatre textes inédits de Jean Piat</unittitle>
@@ -359,12 +359,12 @@
             <daodesc>
               <p>Miscellanées : quatre textes inédits de Jean Piat</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_012_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_012_201.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120449" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_012_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_012_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120449" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120450">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_013</unitid>
             <unittitle>Roubaix 1870-1908 : la question laïque</unittitle>
@@ -387,12 +387,12 @@
             <daodesc>
               <p>Roubaix 1870-1908 : la question laïque</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_013_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_013_212.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120450" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_013_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_013_212.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120450" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120451">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_014</unitid>
             <unittitle>Mémoires de Jean Soudan [Résistant]</unittitle>
@@ -413,12 +413,12 @@
             <daodesc>
               <p>Mémoires de Jean Soudan [Résistant]</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_014_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_014_085.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120451" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_014_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_014_085.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120451" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120452">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_015</unitid>
             <unittitle>Témoignage dun vieux Roubaisien (suite)</unittitle>
@@ -433,15 +433,15 @@
             <daodesc>
               <p>Témoignage dun vieux Roubaisien (suite),</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_015_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_015_105.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120452" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_015_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_015_105.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120452" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
           </controlaccess>
         </c>
-        <c level="file" osiros_id="BNR120453">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_016</unitid>
             <unittitle>Journal de guerre 1914-1918</unittitle>
@@ -461,12 +461,12 @@
             <daodesc>
               <p>Journal de guerre 1914-1918</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_016_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_016_093.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120453" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_016_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_016_093.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120453" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120454">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_017</unitid>
             <unittitle>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</unittitle>
@@ -487,12 +487,12 @@
             <daodesc>
               <p>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_017_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_017_119.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120454" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_017_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_017_119.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120454" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR123629">
+        <c level="file">
           <did>
             <unitid>PUB_CDR_018</unitid>
             <unittitle>Autant qu'il m'en souvienne...</unittitle>
@@ -510,16 +510,16 @@
             <daodesc>
               <p>Autant quil men souvienne</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_CDR_018_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_CDR_018_179.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR123629" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_CDR_018_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_CDR_018_179.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR123629" role="publication:previous"/>
           </daogrp>
         </c>
         <controlaccess>
           <persname normal="Michel David" role="Directeur de publication">David, Michel</persname>
         </controlaccess>
       </c>
-      <c level="series" osiros_id="BNR120456">
+      <c level="series">
         <did>
           <unitid>PUB_VPR</unitid>
           <unittitle>Au Vrai Polichinelle Roubaisien</unittitle>
@@ -543,8 +543,8 @@
           <subject source="Rameau">Théâtre de marionnettes</subject>
           <subject source="theme">Spectacles</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120456" role="old_ark"/>
-        <c level="file" osiros_id="BNR120457">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR120456" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>PUB_VPR_001</unitid>
             <unittitle>Numéro 1</unittitle>
@@ -562,12 +562,12 @@
             <daodesc>
               <p>Numéro 1</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_001_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_001_078.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120457" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_001_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_001_078.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120457" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120458">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_002</unitid>
             <unittitle>Numéro 2</unittitle>
@@ -592,12 +592,12 @@
             <daodesc>
               <p>Numéro 2</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_002_000" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_002_085" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120458" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_000" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_085" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120458" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120459">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_003</unitid>
             <unittitle>Numéro 3</unittitle>
@@ -616,12 +616,12 @@
             <daodesc>
               <p>Numéro 3</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_003_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_003_103.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120459" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_003_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_003_103.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120459" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120460">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_004</unitid>
             <unittitle>Numéro 4</unittitle>
@@ -639,12 +639,12 @@
             <daodesc>
               <p>Numéro 4</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_004_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_004_094.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120460" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_004_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_004_094.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120460" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120461">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_005</unitid>
             <unittitle>Numéro 5</unittitle>
@@ -664,12 +664,12 @@
             <daodesc>
               <p>Numéro 5</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_005_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_005_074.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120461" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_005_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_005_074.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120461" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120462">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_006</unitid>
             <unittitle>Numéro 6</unittitle>
@@ -688,12 +688,12 @@
             <daodesc>
               <p>Numéro 6</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_006_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_006_082.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120462" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_006_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_006_082.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120462" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120463">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_007</unitid>
             <unittitle>Numéro 7</unittitle>
@@ -707,12 +707,12 @@
             <daodesc>
               <p>Numéro 7</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_007_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_007_062.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120463" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_007_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_007_062.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120463" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120464">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_008</unitid>
             <unittitle>Numéro 8</unittitle>
@@ -729,12 +729,12 @@
             <daodesc>
               <p>Numéro 8</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_008_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_008_143.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120464" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_008_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_008_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120464" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120465">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_009</unitid>
             <unittitle>Numéro 9</unittitle>
@@ -748,12 +748,12 @@
             <daodesc>
               <p>Numéro 9</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_009_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_009_076.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120465" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_009_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_009_076.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120465" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120466">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_010</unitid>
             <unittitle>Numéro 10</unittitle>
@@ -767,12 +767,12 @@
             <daodesc>
               <p>Numéro 10</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_010_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_010_137.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120466" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_010_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_010_137.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120466" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120467">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_011</unitid>
             <unittitle>Numéro 11</unittitle>
@@ -786,12 +786,12 @@
             <daodesc>
               <p>Numéro 11</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120467" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120467" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120468">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_012</unitid>
             <unittitle>Numéro 12</unittitle>
@@ -809,12 +809,12 @@
             <daodesc>
               <p>Numéro 12</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_012_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_012_057.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120468" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_012_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_012_057.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120468" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120469">
+        <c level="file">
           <did>
             <unitid>PUB_VPR_013</unitid>
             <unittitle>Numéro 13, Polichinelle s'en va</unittitle>
@@ -835,13 +835,13 @@
             <daodesc>
               <p>Numéro 13, Polichinelle s'en va</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_VPR_013_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_013_099.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120469" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_VPR_013_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_013_099.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120469" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
-      <c level="series" osiros_id="BNR120470">
+      <c level="series">
         <did>
           <unitid>PUB_AMM</unitid>
           <unittitle>Ateliers Mémoire, Mémoires des Ateliers</unittitle>
@@ -856,8 +856,8 @@
           <subject source="Rameau">Animation du patrimoine</subject>
           <persname normal="Philippe Waret" role="Directeur de publication">Waret, Philippe</persname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120470" role="old_ark"/>
-        <c level="file" osiros_id="BNR120471">
+        <dao href="https://www.bn-r.fr/ark:/20179/BNR120470" role="publication:previous"/>
+        <c level="file">
           <did>
             <unitid>PUB_AMM_001</unitid>
             <unittitle>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</unittitle>
@@ -882,12 +882,12 @@
             <daodesc>
               <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_AMM_001_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_AMM_001_101.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120471" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_AMM_001_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_001_101.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120471" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120472">
+        <c level="file">
           <did>
             <unitid>PUB_AMM_002</unitid>
             <unittitle>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</unittitle>
@@ -913,12 +913,12 @@
             <daodesc>
               <p>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_AMM_002_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_AMM_002_097.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120472" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_AMM_002_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_002_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120472" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120473">
+        <c level="file">
           <did>
             <unitid>PUB_AMM_003</unitid>
             <unittitle>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</unittitle>
@@ -934,12 +934,12 @@
             <daodesc>
               <p>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_AMM_003_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_AMM_003_087.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120473" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_AMM_003_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_003_087.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120473" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file" osiros_id="BNR120474">
+        <c level="file">
           <did>
             <unitid>PUB_AMM_004</unitid>
             <unittitle>Contribution à lhistoire des jardins ouvriers roubaisiens</unittitle>
@@ -956,9 +956,9 @@
             <daodesc>
               <p>Contribution à lhistoire des jardins ouvriers roubaisiens</p>
             </daodesc>
-            <daoloc href="RBX_LAR_PUB_AMM_004_000.jpg" role="image:first"/>
-            <daoloc href="RBX_LAR_PUB_AMM_004_089.jpg" role="image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120474" role="old_ark"/>
+            <daoloc href="RBX_LAR_PUB_AMM_004_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_AMM_004_089.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120474" role="publication:previous"/>
           </daogrp>
         </c>
       </c>

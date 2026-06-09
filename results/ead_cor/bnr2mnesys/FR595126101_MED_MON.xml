@@ -34,7 +34,7 @@
       <genreform>Livres et revues</genreform>
     </controlaccess>
     <dsc>
-      <c level="item" osiros_id="BNR23349">
+      <c level="item">
         <did>
           <unitid>MON_4_210000</unitid>
           <unittitle>Cretonnes, percales et lins imprimés </unittitle>
@@ -55,12 +55,12 @@
           <daodesc>
             <p>Cretonnes, percales et lins imprimés </p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_4_210000_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_4_210000_022.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23349" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_4_210000_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_4_210000_022.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23349" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23350">
+      <c level="item">
         <did>
           <unitid>MON_4_210001</unitid>
           <unittitle>La teinture du coton et des fibres similaires</unittitle>
@@ -82,12 +82,12 @@ Contient des échantillons de tissus.</p>
           <daodesc>
             <p>La teinture du coton et des fibres similaires</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_4_210001_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_4_210001_054.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23350" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_4_210001_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_4_210001_054.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23350" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23351">
+      <c level="item">
         <did>
           <unitid>MON_4_210002</unitid>
           <unittitle>La teinture du coton et des fibres similaires, supplément</unittitle>
@@ -108,12 +108,12 @@ Contient des échantillons de tissus.</p>
           <daodesc>
             <p>La teinture du coton et des fibres similaires, supplément</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_4_210002_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_4_210002_011.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23351" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_4_210002_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_4_210002_011.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23351" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23352">
+      <c level="item">
         <did>
           <unitid>MON_8_116627</unitid>
           <unittitle>Carte de nuances, printemps 1936 : Fédération de la soie</unittitle>
@@ -135,12 +135,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Cartes de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116627_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116627_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23352" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116627_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116627_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23352" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23353">
+      <c level="item">
         <did>
           <unitid>MON_8_116685</unitid>
           <unittitle>Carte de nuances, automne 1932 : Fédération de la soie</unittitle>
@@ -162,12 +162,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Cartes de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116685_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116685_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23353" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116685_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116685_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23353" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23354">
+      <c level="item">
         <did>
           <unitid>MON_8_116686</unitid>
           <unittitle>Carte de nuances, printemps 1933 : Fédération de la soie</unittitle>
@@ -189,12 +189,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116686_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116686_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23354" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116686_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116686_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23354" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23355">
+      <c level="item">
         <did>
           <unitid>MON_8_116687</unitid>
           <unittitle>Carte de nuances, automne 1934 : Fédération de la soie</unittitle>
@@ -216,12 +216,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116687_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116687_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23355" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116687_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116687_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23355" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23356">
+      <c level="item">
         <did>
           <unitid>MON_8_116688</unitid>
           <unittitle>Carte de nuances, automne 1936 : Fédération de la soie</unittitle>
@@ -243,12 +243,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116688_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116688_002.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23356" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116688_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116688_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23356" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23357">
+      <c level="item">
         <did>
           <unitid>MON_8_116689</unitid>
           <unittitle>Carte de nuances, automne 1931 : Fédération de la soie</unittitle>
@@ -270,12 +270,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116689_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116689_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23357" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116689_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116689_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23357" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23358">
+      <c level="item">
         <did>
           <unitid>MON_8_116690</unitid>
           <unittitle>Carte de nuances, printemps 1945 : Fédération de la soie</unittitle>
@@ -297,12 +297,12 @@ Catalogue commercial, contient des échantillons de tissus. </p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116690_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116690_002.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23358" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116690_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116690_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23358" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23359">
+      <c level="item">
         <did>
           <unitid>MON_8_116691</unitid>
           <unittitle>Carte de nuances, printemps 1946 : Fédération de la soie</unittitle>
@@ -324,12 +324,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116691_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116691_002.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23359" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116691_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116691_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23359" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23360">
+      <c level="item">
         <did>
           <unitid>MON_8_116692</unitid>
           <unittitle>Carte de nuances, printemps 1948 : Fédération de la soie</unittitle>
@@ -351,12 +351,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116692_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116692_002.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23360" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116692_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116692_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23360" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23361">
+      <c level="item">
         <did>
           <unitid>MON_8_116693</unitid>
           <unittitle>Carte de nuances, printemps-été 1950 : Fédération de la soie</unittitle>
@@ -378,12 +378,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Carte de nuances de la Fédération de la soie</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_8_116693_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_8_116693_002.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23361" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_8_116693_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_8_116693_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23361" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23362">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301059</unitid>
           <unittitle>Modèles de dentelles</unittitle>
@@ -402,12 +402,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Modèles de dentelles</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_301059_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_301059_020.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23362" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301059_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_301059_020.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23362" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23363">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301072</unitid>
           <unittitle>Galerie française de femmes célèbres</unittitle>
@@ -427,12 +427,12 @@ Catalogue commercial, contient des échantillons de tissus.</p>
           <daodesc>
             <p>Galerie française de femmes célèbres</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_301072_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_301072_147.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23363" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301072_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_301072_147.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23363" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23364">
+      <c level="item">
         <did>
           <unitid>MON_PLA_350073</unitid>
           <unittitle>Nouveau choix de broderies anciennes</unittitle>
@@ -452,12 +452,12 @@ Edité chez A. Calavas à Paris.</p>
           <daodesc>
             <p>Nouveau choix de broderies anciennes</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_PLA_350073_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_PLA_350073_061.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23364" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_PLA_350073_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_PLA_350073_061.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23364" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23365">
+      <c level="item">
         <did>
           <unitid>MON_FOL_300689</unitid>
           <unittitle>Arnolds Kriegsflugblaetter der Liller Kriegszeitung</unittitle>
@@ -478,12 +478,12 @@ Edité chez A. Calavas à Paris.</p>
           <daodesc>
             <p>Arnolds Kriegsflugblaetter der Liller Kriegszeitung</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_300689_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_300689_105.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23365" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_300689_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_300689_105.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23365" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23366">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301034</unitid>
           <unittitle>Allons, enfants de la patrie !</unittitle>
@@ -505,12 +505,12 @@ Edité chez A. Calavas à Paris.</p>
           <daodesc>
             <p>Allons, enfants de la patrie !</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_301034_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_301034_111.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23366" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301034_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_301034_111.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23366" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23367">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301013</unitid>
           <unittitle>Documents de l'histoire : 24 estampes sur la guerre</unittitle>
@@ -530,12 +530,12 @@ Edité chez A. Calavas à Paris.</p>
           <daodesc>
             <p>24 estampes sur la guerre</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_301013_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_301013_026.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23367" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301013_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_301013_026.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23367" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23368">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301022</unitid>
           <unittitle>Pages &amp; croquis, 1914-1918</unittitle>
@@ -564,12 +564,12 @@ Contient :&#13;
           <daodesc>
             <p>Pages &amp; croquis 1914-1918</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_301022_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_301022_128.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23368" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301022_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_301022_128.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23368" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23369">
+      <c level="item">
         <did>
           <unitid>MON_FOL_301052</unitid>
           <unittitle>Jusqu'au bout</unittitle>
@@ -585,11 +585,11 @@ Contient :&#13;
           <subject source="theme">Jeux et concours</subject>
         </controlaccess>
         <daogrp>
-          <daoloc href="RBX_MED_MON_FOL_301052_001.jpg" role="image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23369" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_301052_001.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23369" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23370">
+      <c level="item">
         <did>
           <unitid>MON_PLA_350072</unitid>
           <unittitle>Croquis de guerre</unittitle>
@@ -612,12 +612,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Croquis de guerre</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_PLA_350072_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_PLA_350072_027.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23370" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_PLA_350072_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_PLA_350072_027.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23370" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23371">
+      <c level="item">
         <did>
           <unitid>MON_RESFOL_0047</unitid>
           <unittitle>Descrittione di tutti i Paesi Bassi = Description des Pays-Bas</unittitle>
@@ -638,12 +638,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Descrittione di tutti i Paesi Bassi = Description des Pays-Bas</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_RESFOL_0047_000.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_RESFOL_0047_546.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23371" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_RESFOL_0047_000.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RESFOL_0047_546.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23371" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23372">
+      <c level="item">
         <did>
           <unitid>MON_RES4_0569</unitid>
           <unittitle>Historique de la Roubaisienne</unittitle>
@@ -666,12 +666,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Historique de la Roubaisienne</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_RES4_0569_003.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_RES4_0569_029.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23372" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_RES4_0569_003.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RES4_0569_029.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23372" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23373">
+      <c level="item">
         <did>
           <unitid>MON_RES8_1192</unitid>
           <unittitle>Chansons de Nadaud </unittitle>
@@ -693,12 +693,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Chansons de Nadaud </p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_RES8_1192_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_RES8_1192_003.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23373" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_RES8_1192_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RES8_1192_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23373" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23374">
+      <c level="item">
         <did>
           <unitid>MON_BR8_2709</unitid>
           <unittitle>Souvenir de la grande cavalcade roubaisienne</unittitle>
@@ -718,12 +718,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Souvenir de la grande cavalcade roubaisienne</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_BR8_2709_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_BR8_2709_041.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23374" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_BR8_2709_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_BR8_2709_041.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23374" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23375">
+      <c level="item">
         <did>
           <unitid>MON_FOL_300166</unitid>
           <unittitle>Cavalcade roubaisienne de 1903</unittitle>
@@ -744,12 +744,12 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Cavalcade roubaisienne de 1903</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_FOL_300166_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_FOL_300166_050.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23375" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_FOL_300166_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_300166_050.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23375" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item" osiros_id="BNR23376">
+      <c level="item">
         <did>
           <unitid>MON_RESFOL_0002</unitid>
           <unittitle>Savonnerie &amp; parfumerie du Congo Victor Vaissier</unittitle>
@@ -769,9 +769,9 @@ Exemplaire n°242/300.</p>
           <daodesc>
             <p>Savonnerie &amp; parfumerie du Congo Victor Vaissier</p>
           </daodesc>
-          <daoloc href="RBX_MED_MON_RESFOL_0002_001.jpg" role="image:first"/>
-          <daoloc href="RBX_MED_MON_RESFOL_0002_063.jpg" role="image:last"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23376" role="old_ark"/>
+          <daoloc href="RBX_MED_MON_RESFOL_0002_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RESFOL_0002_063.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23376" role="publication:previous"/>
         </daogrp>
       </c>
     </dsc>
