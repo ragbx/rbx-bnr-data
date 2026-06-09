@@ -32,7 +32,3 @@ d'archivistique Mnesys.
 Préparer les données en vue de leur publication en ligne.
 
 → [Données : corpus](files/donnees/corpus.md)
-
----
-
-→ [Organisation détaillée du dépôt](files/projet/organisation.md)
