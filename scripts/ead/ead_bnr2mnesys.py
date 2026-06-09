@@ -191,7 +191,7 @@ class EADbnr2mnesys:
                 for attr, value in old_dao.attrib.items():
                     daoloc_from_dao.set(attr, value)
 
-                # Ajouter la nouvelle <daoloc> pour osiros_id
+                # Ajouter la nouvelle <daoloc> pour l'ARK BnR
                 new_daoloc = etree.SubElement(daogrp, "daoloc")
                 new_daoloc.set("href", url)
                 new_daoloc.set("role", "publication:previous")
