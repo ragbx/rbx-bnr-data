@@ -1,6 +1,9 @@
 from os.path import join
 
 import pandas as pd
+from openpyxl import load_workbook
+from openpyxl.styles import Font, PatternFill
+from openpyxl.utils import get_column_letter
 
 ref_date = "20260502"
 
@@ -34,4 +37,25 @@ repertoires = (
     .sort_values("répertoire")
 )
 
-repertoires.to_csv(join("results", "s3", "repertoires_traitement_s3_ko.csv"), index=False)
+out_path = join("results", "s3", "repertoires_traitement_s3_ko.xlsx")
+repertoires.to_excel(out_path, index=False)
+
+# mise en forme
+wb = load_workbook(out_path)
+ws = wb.active
+
+# en-tête : gras sur fond gris, ligne figée
+for cell in ws[1]:
+    cell.font = Font(bold=True)
+    cell.fill = PatternFill("solid", fgColor="D9D9D9")
+ws.freeze_panes = "A2"
+
+# séparateur de milliers sur nb_fichiers
+for cell in ws["B"][1:]:
+    cell.number_format = "#,##0"
+
+# largeur des colonnes
+for idx, largeur in enumerate([90, 12, 60], start=1):
+    ws.column_dimensions[get_column_letter(idx)].width = largeur
+
+wb.save(out_path)

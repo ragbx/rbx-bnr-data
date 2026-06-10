@@ -49,4 +49,4 @@ Les versements, listings et suppressions sont effectués avec les
 | `data/s3/s3_listing_{date}.csv.gz` | Listing des objets présents sur S3 (clé, date, taille, tags) |
 | `results/s3/s3_notinlastref.csv` | Objets S3 absents du dernier fichier de référence (contrôle de cohérence) |
 | `results/s3/s3_notinlastref_oldref.csv` | Croisement des objets précédents avec l'ancien fichier de référence |
-| `results/s3/repertoires_traitement_s3_ko.csv` | Répertoires contenant des fichiers dont le traitement S3 n'est pas réalisé (voir [le script](../scripts/repertoires_traitement_s3_ko.md)) |
+| `results/s3/repertoires_traitement_s3_ko.xlsx` | Répertoires contenant des fichiers dont le traitement S3 n'est pas réalisé (voir [le script](../scripts/repertoires_traitement_s3_ko.md)) |

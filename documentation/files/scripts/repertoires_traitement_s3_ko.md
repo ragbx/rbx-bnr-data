@@ -16,8 +16,10 @@ de transfert vers le stockage S3.
 
 ## Résultat
 
-`results/s3/repertoires_traitement_s3_ko.csv` — régénéré en place à chaque
+`results/s3/repertoires_traitement_s3_ko.xlsx` — régénéré en place à chaque
 exécution (non daté), une ligne par répertoire, classée par répertoire.
+Le fichier est mis en forme automatiquement (en-tête en gras sur fond gris et
+ligne figée, séparateur de milliers, largeurs de colonnes ajustées).
 
 | Colonne | Description |
 |---|---|
