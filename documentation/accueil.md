@@ -11,8 +11,8 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 
 ## Accès rapides
 
-- [Suivi des corpus](../data/corpus_liste/bnr_corpus.xlsx) — `data/corpus_liste/bnr_corpus.xlsx`
-- [Fichier de référence (dernière version)](../results/ref/_ref_files_20260502.csv.gz) — `results/ref/_ref_files_20260502.csv.gz`
+- [Suivi des corpus](../results/corpus_liste/suivi_corpus.xlsx?raw=true) — `results/corpus_liste/suivi_corpus.xlsx`, généré par [suivi_corpus.py](files/scripts/suivi_corpus.md)
+- [Fichier de référence (dernière version)](../results/ref/_ref_files_20260502.csv.gz?raw=true) — `results/ref/_ref_files_20260502.csv.gz`
 - [IR prêts pour Mnesys](../results/ead_cor/bnr2mnesys/) — `results/ead_cor/bnr2mnesys/`
 
 ---

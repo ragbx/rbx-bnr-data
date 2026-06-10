@@ -33,6 +33,17 @@ définies en tête de script.
 
 ---
 
+## Suivi des corpus
+
+`results/corpus_liste/suivi_corpus.xlsx`
+
+Tableau de bord du traitement des corpus : volume, statuts de conservation,
+avancement du traitement S3, publication et types de fichiers, calculés par
+corpus depuis le fichier de référence. Il est régénéré en place par le script
+[suivi_corpus.py](../scripts/suivi_corpus.md).
+
+---
+
 ## Extractions par corpus
 
 `results/corpus/`
