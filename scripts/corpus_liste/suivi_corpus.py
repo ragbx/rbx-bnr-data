@@ -95,6 +95,10 @@ ws.conditional_formatting.add(
     ),
 )
 
+# traitement_s3 : affichage des valeurs suivies de " %"
+for cell in ws[col_ts3][1:]:
+    cell.number_format = '0.0" %"'
+
 # séparateur de milliers sur les décomptes et le volume
 for nom in ["fichiers", "volume_go", "fichiers_publies"] + ft.columns.drop("corpus_code").tolist():
     col = get_column_letter(colonnes.index(nom) + 1)
