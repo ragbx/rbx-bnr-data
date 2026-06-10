@@ -7,12 +7,14 @@ transformés pour Mnesys afin de garder la trace des anciennes URL.
 **Azraël** — Nom du serveur de stockage actuel des fichiers numérisés. Source
 principale des inventaires de fichiers (`scripts/azrael/`).
 
-**bn-r** — [Bibliothèque numérique de Roubaix](https://www.bn-r.fr). Désigne à la
-fois le site et l'outil qui le propulse, dont la refonte motive ce projet.
-
 **Bucket** — Espace de stockage sur le serveur S3. Le projet en utilise deux :
 `mediatheque-patarch-communicable` et `mediatheque-patarch-incommunicable`,
 selon la communicabilité des documents.
+
+**checksum_md5** — Empreinte MD5 calculée pour chaque fichier numérisé et
+enregistrée dans le fichier de référence. Reportée en tag sur les objets S3
+au moment du versement, elle permet de vérifier l'intégrité des fichiers
+d'un support à l'autre.
 
 **Corpus** — Ensemble documentaire cohérent ayant fait l'objet d'une campagne de
 numérisation, identifié par un `corpus_code` (ex. `AMR_2I`, `VAH_PUB`).
@@ -44,10 +46,6 @@ permettant d'y rechercher. Les IR de la bn-r sont encodés en EAD.
 **MIX** — Schéma de métadonnées techniques pour les images numériques
 (NISO Metadata for Images in XML). Alimente les colonnes `mix_*` du fichier
 de référence.
-
-**Mnesys** — Logiciel d'archivistique (Naoned) vers lequel les instruments de
-recherche de la bn-r sont transférés. Voir le script
-[ead_bnr2mnesys](scripts/ead_bnr2mnesys.md).
 
 **OAI-PMH** — Protocole de moissonnage de métadonnées. Le serveur OAI de la bn-r
 expose les notices des documents numérisés ; son moissonnage permet de relier

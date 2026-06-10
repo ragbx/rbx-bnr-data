@@ -9,6 +9,14 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 
 ---
 
+## Accès rapides
+
+- [Suivi des corpus](../data/corpus_liste/bnr_corpus.xlsx) — `data/corpus_liste/bnr_corpus.xlsx`
+- [Fichier de référence (dernière version)](../results/ref/_ref_files_20260502.csv.gz) — `results/ref/_ref_files_20260502.csv.gz`
+- [IR prêts pour Mnesys](../results/ead_cor/bnr2mnesys/) — `results/ead_cor/bnr2mnesys/`
+
+---
+
 ## Chantiers
 
 ### 1. Cartographier les corpus
