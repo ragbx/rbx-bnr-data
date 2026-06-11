@@ -2,7 +2,7 @@
 
 Ce dépôt rassemble les travaux menés sur les métadonnées et les fichiers numériques
 de la [Bibliothèque numérique de Roubaix](https://www.bn-r.fr) dans le cadre de sa
-refonte. Il couvre à la fois les descriptions archivistiques encodées en EAD et les
+refonte. Il couvre à la fois les instruments de recherche encodés en EAD et les
 fichiers issus des campagnes de numérisation.
 
 Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
@@ -27,7 +27,7 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 → [Données : corpus](files/donnees/corpus.md) · [Fichier de référence](files/donnees/fichier_ref.md)
 
 ### 2. Transférer les fichiers vers le stockage S3
-Verser les fichiers de conservation sur le stockage objet S3 et en assurer le suivi.
+Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 
 → [Données : fichiers de conservation](files/donnees/fichiers.md) · [Scripts S3](files/scripts/s3.md)
 
@@ -35,9 +35,13 @@ Verser les fichiers de conservation sur le stockage objet S3 et en assurer le su
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
-→ [Sources de données](files/donnees/sources.md) · [Script ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md)
+→ [Script ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.
 
 → [Données : corpus](files/donnees/corpus.md)
+
+
+## TODO
+Les tâches à réaliser sur ce dépôt sont listées dans le fichier [TODO](files/todo.md)

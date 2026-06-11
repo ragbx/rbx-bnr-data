@@ -4,11 +4,55 @@
 
 Fichier central du projet : recense l'ensemble des fichiers numérisés présents
 sur les supports de stockage, avec leurs métadonnées et leur statut dans les
-différents chantiers. Il est mis à jour à chaque nouvelle extraction Azrael.
+différents chantiers. Il est mis à jour à chaque nouvelle extraction d'Azrael.
+
+## Sources de données
+
+Le projet s'appuie sur trois types de sources complémentaires.
 
 ---
 
-## Génération
+### Fichiers EAD
+
+Les instruments de recherche (IR) de la bn-r sont encodés en EAD.
+
+- **Origine** : export ponctuel depuis l'outil bn-r
+- **Emplacement** : `data/ead/bnr/`
+- **Usage** : transformation pour import dans Mnesys
+
+---
+
+### Fichiers numérisés
+
+Les fichiers issus des campagnes de numérisation sont répartis sur plusieurs supports :
+- le serveur de stockage actuel, dit "Azraël",
+- des disques durs externes,
+- le serveur S3.
+
+Le chemin et le nom de chaque fichier sont porteurs d'information : ils encodent
+le corpus d'appartenance, la cote et parfois la séquence de numérisation.
+Les métadonnées techniques (format, poids, dimensions) sont extraites et consolidées
+dans le [fichier de référence](fichier_ref.md) `results/ref/_ref_files_{date}.csv.gz`.
+
+→ Scripts d'inventaire : `scripts/azrael/`, `scripts/s3/`
+
+---
+
+### Serveur OAI de la bn-r
+
+Le serveur OAI de la bn-r expose les notices des documents numérisés. Il permet
+notamment de faire le lien entre les identifiants de notice bn-r (`osiros_id`) et
+les balises `<unitid>` des instruments de recherche EAD.
+
+- **Usage** : construction des anciens ARK BnR dans les fichiers EAD transformés
+- **Script de moissonnage** : `scripts/oai/bnr_moissonnage.py`
+- **Résultat** : `data/oai/oai_records_{date}.csv.gz`
+
+---
+
+## Création et description du fichier de référence
+
+### Création
 
 Depuis la racine du projet, exécuter les scripts dans l'ordre :
 
@@ -24,29 +68,31 @@ python scripts/azrael/03_merge_new_old_ref.py
 
 Vérification de l'intégrité (optionnel) : `scripts/azrael/04_ref_integrité.ipynb`
 
+Attention, cette séquence est indicative, les scripts et itération sont à adaptér à chaque nouvelle itération.
+
 ---
 
-## Colonnes
+### Description des colonnes
 
-### Identification
+#### Identification
 | Colonne | Description |
 |---|---|
 | `name` | Nom du fichier |
 | `path` | Chemin du fichier sur le support source |
-| `extension` | Extension |
 | `uuid` | Identifiant unique stable du fichier |
 | `checksum_md5` | Empreinte MD5 |
 
-### Métadonnées de base
+#### Métadonnées de base
 | Colonne | Description |
 |---|---|
 | `size` | Taille en octets |
 | `last_content_modification_date` | Date de dernière modification du contenu |
 | `last_metadata_modification_date` | Date de dernière modification des métadonnées |
+| `extension` | Extension |
 | `file_type` | Type de fichier |
 | `source2s3` | Support source pour le versement S3 (`az` = serveur Azrael ; `AMR_CADN_*` = disques durs externes ; `UnivLille`, `AMR_ARCHIPOP` = autres sources) |
 
-### Métadonnées techniques MIX (images)
+#### Métadonnées techniques MIX (images)
 | Colonne | Description |
 |---|---|
 | `mix_objectIdentifierValue` | Identifiant MIX |
@@ -64,14 +110,17 @@ Vérification de l'intégrité (optionnel) : `scripts/azrael/04_ref_integrité.i
 | `mix_colorSpace` | Espace colorimétrique |
 | `mix_scanningSoftwareName` | Logiciel de numérisation |
 
-### Lien avec les instruments de recherche
+#### Appartenance à un corpus et description
 | Colonne | Description |
 |---|---|
+| `corpus_code` | Code du corpus |
 | `finding_aid` | Nom du fichier EAD associé |
 | `unitid` | Cote (`<unitid>` dans l'EAD) |
 | `osiros_id` | Identifiant de notice bn-r |
+| `oai_set` | Set OAI d'appartenance |
+| `publication_statut` | Statut de publication sur la Bn-r (`oui` / `jamais` / `inconnu`) |
 
-### Conservation
+#### Conservation
 | Colonne | Description |
 |---|---|
 | `conservation_statut` | Statut de conservation |
@@ -96,17 +145,13 @@ Valeurs possibles :
 | `DDE - NE PAS GARDER (FILE_TYPE)` | Type de fichier exclu de la conservation |
 | `DDE - NE PAS GARDER (DOUBLONS AZ)` | Doublon dans Azrael |
 
-### Stockage S3
-| Colonne | Description |
-|---|---|
-| `s3_key` | Clé dans le bucket S3 |
-| `s3_bucket` | Nom du bucket |
-| `s3_uploaded` | Versement effectué (booléen) |
-| `s3_uploaded_date` | Date du versement |
+Valeurs à adapter selon les situations.
 
-### Publication
+#### Stockage S3
 | Colonne | Description |
 |---|---|
-| `corpus_code` | Code du corpus |
-| `oai_set` | Set OAI d'appartenance |
-| `publication_statut` | Statut de publication (`oui` / `jamais` / `inconnu`) |
+| `source2s3` | Support de conservation avant versement S3 |
+| `s3_bucket` | Nom du bucket |
+| `s3_key` | Clé dans le bucket S3 |
+| `s3_uploaded` | Versement effectué (booléen) |
+| `s3_uploaded_date` | Date du versement (AAAAMMJJ) |

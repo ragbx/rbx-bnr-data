@@ -12,8 +12,9 @@ retrouve dans les chemins des fichiers numérisés et dans le
 
 `data/corpus_liste/bnr_corpus.xlsx`
 
-Fichier de référence des corpus : il en recense une centaine, avec leur rattachement
-archivistique et le nombre de fichiers associés.
+Fichier de référence des corpus : il liste les corpus, leur code, intitulé, etc...
+APrès une première éxtraction, il est réalisé à la main.
+Il sert de base à la construction du tableau de suvi.
 
 | Colonne | Description |
 |---|---|
@@ -24,14 +25,6 @@ archivistique et le nombre de fichiers associés.
 | `archives cote` | Cote ou tranche de cotes |
 | `fichiers` | Nombre de fichiers du corpus dans le fichier de référence |
 
-### Mise à jour
-
-Le script `scripts/corpus_liste/maj_liste.py` recalcule le nombre de fichiers par
-corpus à partir du fichier de référence (`results/ref/_ref_files_{date}.csv.gz`)
-et regénère le fichier Excel. Les dates des fichiers de référence à utiliser sont
-définies en tête de script.
-
----
 
 ## Suivi des corpus
 
@@ -45,6 +38,8 @@ corpus depuis le fichier de référence. Il est régénéré en place par le scr
 ---
 
 ## Extractions par corpus
+
+*Partie à revoir, tant pour les scripts et données que la doc*
 
 `results/corpus/`
 
