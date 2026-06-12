@@ -21,7 +21,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244638iiQGTD">
     <did>
       <unitid>MED_FOO</unitid>
       <unittitle>Souvenirs de foot</unittitle>
@@ -52,7 +52,7 @@
       <persname>Varlet, Mike</persname>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" id="m01781244638a16QWl">
         <did>
           <unitid>FOO_S01</unitid>
           <unittitle>Souvenirs de foot première série</unittitle>
@@ -65,7 +65,7 @@
 &lt;p&gt; &lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR124240" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244638iglbJl">
           <did>
             <unitid>FOO_S01_D01</unitid>
             <unittitle>Entretien avec Francis Bohée</unittitle>
@@ -85,7 +85,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124241" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244638imb4xQ">
           <did>
             <unitid>FOO_S01_D02</unitid>
             <unittitle>Entretien avec Eric Dendooven</unittitle>
@@ -102,7 +102,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124242" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244638C4u8jF">
           <did>
             <unitid>FOO_S01_D03</unitid>
             <unittitle>Entretien avec Philippe Sirejacob</unittitle>

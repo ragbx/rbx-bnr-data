@@ -21,7 +21,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244634L6A37F">
     <did>
       <unitid>LAR_PUB</unitid>
       <unittitle>Publications de Lire à Roubaix</unittitle>
@@ -46,7 +46,7 @@
       <subject source="Rameau">Roubaix (Nord)</subject>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" id="m01781244634RPYco4">
         <did>
           <unitid>PUB_CDR</unitid>
           <unittitle>Cahiers de Roubaix</unittitle>
@@ -58,7 +58,7 @@
 &lt;p&gt;Directeur de la publication : Michel DAVID&lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR120437" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244634ERagIE">
           <did>
             <unitid>PUB_CDR_001</unitid>
             <unittitle>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</unittitle>
@@ -84,7 +84,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634ieMVW4">
           <did>
             <unitid>PUB_CDR_002</unitid>
             <unittitle>Louis Decottignies, poète ouvrier méconnu</unittitle>
@@ -112,7 +112,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634stL4a7">
           <did>
             <unitid>PUB_CDR_003</unitid>
             <unittitle>Lintégration des Belges à Roubaix</unittitle>
@@ -141,7 +141,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634C6rAqC">
           <did>
             <unitid>PUB_CDR_004</unitid>
             <unittitle>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</unittitle>
@@ -170,7 +170,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634HvRqSg">
           <did>
             <unitid>PUB_CDR_005</unitid>
             <unittitle>Témoignage dun vieux Roubaisien</unittitle>
@@ -195,7 +195,7 @@
             <persname normal="Vincent Lepoutre" role="dessinateur">Lepoutre, Vincent</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124463427prxZ">
           <did>
             <unitid>PUB_CDR_006</unitid>
             <unittitle>Histoire de lenseignement primaire à Roubaix</unittitle>
@@ -224,7 +224,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634ncBgUH">
           <did>
             <unitid>PUB_CDR_007</unitid>
             <unittitle>Le commerce des imprimés à Roubaix au XIXe siècle</unittitle>
@@ -252,7 +252,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634WEQXhZ">
           <did>
             <unitid>PUB_CDR_008</unitid>
             <unittitle>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</unittitle>
@@ -280,7 +280,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634ypaPhf">
           <did>
             <unitid>PUB_CDR_009</unitid>
             <unittitle>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</unittitle>
@@ -305,7 +305,7 @@
             <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634EyPmdS">
           <did>
             <unitid>PUB_CDR_010</unitid>
             <unittitle>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </unittitle>
@@ -332,7 +332,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634jIZpZT">
           <did>
             <unitid>PUB_CDR_011</unitid>
             <unittitle>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</unittitle>
@@ -360,7 +360,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634OGmvBe">
           <did>
             <unitid>PUB_CDR_012</unitid>
             <unittitle>Miscellanées : quatre textes inédits de Jean Piat</unittitle>
@@ -388,7 +388,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634iPmiUI">
           <did>
             <unitid>PUB_CDR_013</unitid>
             <unittitle>Roubaix 1870-1908 : la question laïque</unittitle>
@@ -418,7 +418,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634pLxmDa">
           <did>
             <unitid>PUB_CDR_014</unitid>
             <unittitle>Mémoires de Jean Soudan [Résistant]</unittitle>
@@ -446,7 +446,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446348tLTIY">
           <did>
             <unitid>PUB_CDR_015</unitid>
             <unittitle>Témoignage dun vieux Roubaisien (suite)</unittitle>
@@ -471,7 +471,7 @@
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634DY7Qjc">
           <did>
             <unitid>PUB_CDR_016</unitid>
             <unittitle>Journal de guerre 1914-1918</unittitle>
@@ -498,7 +498,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634JpDA2Q">
           <did>
             <unitid>PUB_CDR_017</unitid>
             <unittitle>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</unittitle>
@@ -526,7 +526,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634jCVXVq">
           <did>
             <unitid>PUB_CDR_018</unitid>
             <unittitle>Autant qu'il m'en souvienne...</unittitle>
@@ -555,7 +555,7 @@
           <persname normal="Michel David" role="Directeur de publication">David, Michel</persname>
         </controlaccess>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244634Rsi0by">
         <did>
           <unitid>PUB_VPR</unitid>
           <unittitle>Au Vrai Polichinelle Roubaisien</unittitle>
@@ -580,7 +580,7 @@
           <subject source="theme">Spectacles</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR120456" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244634roDZ3O">
           <did>
             <unitid>PUB_VPR_001</unitid>
             <unittitle>Numéro 1</unittitle>
@@ -605,7 +605,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634lS2Mf5">
           <did>
             <unitid>PUB_VPR_002</unitid>
             <unittitle>Numéro 2</unittitle>
@@ -637,7 +637,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634scEmV4">
           <did>
             <unitid>PUB_VPR_003</unitid>
             <unittitle>Numéro 3</unittitle>
@@ -663,7 +663,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634hUQZIx">
           <did>
             <unitid>PUB_VPR_004</unitid>
             <unittitle>Numéro 4</unittitle>
@@ -688,7 +688,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446343ah3CT">
           <did>
             <unitid>PUB_VPR_005</unitid>
             <unittitle>Numéro 5</unittitle>
@@ -715,7 +715,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634oVySxG">
           <did>
             <unitid>PUB_VPR_006</unitid>
             <unittitle>Numéro 6</unittitle>
@@ -741,7 +741,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634tsxYI6">
           <did>
             <unitid>PUB_VPR_007</unitid>
             <unittitle>Numéro 7</unittitle>
@@ -762,7 +762,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634bzPQPD">
           <did>
             <unitid>PUB_VPR_008</unitid>
             <unittitle>Numéro 8</unittitle>
@@ -786,7 +786,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634WTbQWR">
           <did>
             <unitid>PUB_VPR_009</unitid>
             <unittitle>Numéro 9</unittitle>
@@ -807,7 +807,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634gsEsJ9">
           <did>
             <unitid>PUB_VPR_010</unitid>
             <unittitle>Numéro 10</unittitle>
@@ -828,7 +828,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634XjYrPV">
           <did>
             <unitid>PUB_VPR_011</unitid>
             <unittitle>Numéro 11</unittitle>
@@ -848,7 +848,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634zAzdpx">
           <did>
             <unitid>PUB_VPR_012</unitid>
             <unittitle>Numéro 12</unittitle>
@@ -873,7 +873,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634ReWlvy">
           <did>
             <unitid>PUB_VPR_013</unitid>
             <unittitle>Numéro 13, Polichinelle s'en va</unittitle>
@@ -902,7 +902,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244634olO1fH">
         <did>
           <unitid>PUB_AMM</unitid>
           <unittitle>Ateliers Mémoire, Mémoires des Ateliers</unittitle>
@@ -918,7 +918,7 @@
           <persname normal="Philippe Waret" role="Directeur de publication">Waret, Philippe</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR120470" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244634b6hvaH">
           <did>
             <unitid>PUB_AMM_001</unitid>
             <unittitle>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</unittitle>
@@ -950,7 +950,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634Lp5EFR">
           <did>
             <unitid>PUB_AMM_002</unitid>
             <unittitle>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</unittitle>
@@ -983,7 +983,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634aZdPvD">
           <did>
             <unitid>PUB_AMM_003</unitid>
             <unittitle>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</unittitle>
@@ -1006,7 +1006,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244634GvJqAl">
           <did>
             <unitid>PUB_AMM_004</unitid>
             <unittitle>Contribution à lhistoire des jardins ouvriers roubaisiens</unittitle>

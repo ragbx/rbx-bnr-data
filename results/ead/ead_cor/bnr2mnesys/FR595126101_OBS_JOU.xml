@@ -22,7 +22,7 @@
       <descrules>&lt;p style="text-align: justify;"&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m017812446418Zo1dv">
     <did>
       <unitid>OBS_JOU</unitid>
       <unittitle>Journaux de quartier</unittitle>
@@ -46,7 +46,7 @@
       <geogname>Roubaix</geogname>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" id="m01781244641GqPMgg">
         <did>
           <unitid>OBS_JOU_VPC</unitid>
           <unittitle>Vilain petit canard</unittitle>
@@ -59,7 +59,7 @@
           <geogname source="quartier" coord="[ [ 50.68258024913015, 3.176308123671855 ], [ 50.68223301007919, 3.176077357167954 ], [ 50.68164762623804, 3.175556902885895 ], [ 50.68106022824981, 3.175308641756226 ], [ 50.68025060871234, 3.174985333037126 ], [ 50.67979983378528, 3.175031492863015 ], [ 50.6794671162745, 3.175180190779299 ], [ 50.67928557095166, 3.175310404872004 ], [ 50.67899532359794, 3.175677554055909 ], [ 50.67841647941655, 3.176661150914808 ], [ 50.67781566258196, 3.177039391004301 ], [ 50.67780915696766, 3.17733623396719 ], [ 50.67745534327569, 3.176971270141269 ], [ 50.67706284924493, 3.178279071808252 ], [ 50.67717079557082, 3.178558019969709 ], [ 50.67779464845519, 3.179003543382652 ], [ 50.67778911355618, 3.179758213886174 ], [ 50.67778647371189, 3.180568933373855 ], [ 50.67778070944896, 3.181919814364933 ], [ 50.67776043756287, 3.18406575913709 ], [ 50.67775857144535, 3.184276805146625 ], [ 50.67804983413988, 3.185496101832661 ], [ 50.67824674576066, 3.186331753681955 ], [ 50.67839862675018, 3.186977459495907 ], [ 50.67879498801069, 3.188667092318887 ], [ 50.67889033635974, 3.189046675022184 ], [ 50.6796774640717, 3.189392734577026 ], [ 50.68003399217059, 3.188337965968684 ], [ 50.68023934496954, 3.187730554360274 ], [ 50.68040768738226, 3.187232129785367 ], [ 50.68065803262291, 3.186516846181245 ], [ 50.68083091312767, 3.186011420539369 ], [ 50.68108018137281, 3.185282382496296 ], [ 50.68145188777782, 3.184199100248509 ], [ 50.68254704785328, 3.180991958482848 ], [ 50.68178511881027, 3.180474273081839 ], [ 50.681368924746, 3.180189495955893 ], [ 50.68192873277425, 3.178401044766603 ], [ 50.68240697828537, 3.176874436522528 ] ]">Potennerie</geogname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR25794" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244641rDxcIH">
           <did>
             <unitid>OBS_JOU_VPC_010</unitid>
             <unittitle>Vilain petit canard n°10</unittitle>
@@ -86,7 +86,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641O9v57r">
           <did>
             <unitid>OBS_JOU_VPC_001</unitid>
             <unittitle>Vilain petit canard n°1</unittitle>
@@ -113,7 +113,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641A15DDb">
           <did>
             <unitid>OBS_JOU_VPC_002</unitid>
             <unittitle>Vilain petit canard n°2</unittitle>
@@ -139,7 +139,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641eLRISd">
           <did>
             <unitid>OBS_JOU_VPC_003</unitid>
             <unittitle>Vilain petit canard n°3</unittitle>
@@ -167,7 +167,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641DXXqX4">
           <did>
             <unitid>OBS_JOU_VPC_004</unitid>
             <unittitle>Vilain petit canard n°4</unittitle>
@@ -193,7 +193,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Sls0P1">
           <did>
             <unitid>OBS_JOU_VPC_005</unitid>
             <unittitle>Vilain petit canard n°5</unittitle>
@@ -220,7 +220,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Jdr4LD">
           <did>
             <unitid>OBS_JOU_VPC_006</unitid>
             <unittitle>Vilain petit canard n°6</unittitle>
@@ -248,7 +248,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Cy7URg">
           <did>
             <unitid>OBS_JOU_VPC_007</unitid>
             <unittitle>Vilain petit canard n°7</unittitle>
@@ -275,7 +275,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AD6fQs">
           <did>
             <unitid>OBS_JOU_VPC_008</unitid>
             <unittitle>Vilain petit canard n°8</unittitle>
@@ -302,7 +302,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641V3JilW">
           <did>
             <unitid>OBS_JOU_VPC_009</unitid>
             <unittitle>Vilain petit canard n°9</unittitle>
@@ -329,7 +329,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641FMBU1d">
           <did>
             <unitid>OBS_JOU_VPC_011</unitid>
             <unittitle>Vilain petit canard n°11</unittitle>
@@ -356,7 +356,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641tUMn9y">
           <did>
             <unitid>OBS_JOU_VPC_012</unitid>
             <unittitle>Vilain petit canard n°12</unittitle>
@@ -382,7 +382,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641vV7SAw">
           <did>
             <unitid>OBS_JOU_VPC_013</unitid>
             <unittitle>Vilain petit canard n°13</unittitle>
@@ -411,7 +411,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641tjrqr7">
           <did>
             <unitid>OBS_JOU_VPC_014</unitid>
             <unittitle>Vilain petit canard n°14</unittitle>
@@ -439,7 +439,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641nY9J1C">
           <did>
             <unitid>OBS_JOU_VPC_015</unitid>
             <unittitle>Vilain petit canard n°15</unittitle>
@@ -466,7 +466,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641rDQqva">
           <did>
             <unitid>OBS_JOU_VPC_016</unitid>
             <unittitle>Vilain petit canard n°16</unittitle>
@@ -495,7 +495,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Ajvzoh">
           <did>
             <unitid>OBS_JOU_VPC_017</unitid>
             <unittitle>Vilain petit canard n°17</unittitle>
@@ -523,7 +523,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641VU0Luu">
           <did>
             <unitid>OBS_JOU_VPC_018</unitid>
             <unittitle>Vilain petit canard n°18</unittitle>
@@ -548,7 +548,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641bicJE9">
           <did>
             <unitid>OBS_JOU_VPC_019</unitid>
             <unittitle>Vilain petit canard n°19</unittitle>
@@ -571,7 +571,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641IRB5DO">
           <did>
             <unitid>OBS_JOU_VPC_020</unitid>
             <unittitle>Vilain petit canard n°20</unittitle>
@@ -595,7 +595,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641wMvPuY">
           <did>
             <unitid>OBS_JOU_VPC_021</unitid>
             <unittitle>Vilain petit canard n°21</unittitle>
@@ -620,7 +620,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464144ySOH">
           <did>
             <unitid>OBS_JOU_VPC_022</unitid>
             <unittitle>Vilain petit canard n°22</unittitle>
@@ -644,7 +644,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446418tLwtm">
           <did>
             <unitid>OBS_JOU_VPC_023</unitid>
             <unittitle>Vilain petit canard n°23</unittitle>
@@ -670,7 +670,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ymmgu7">
           <did>
             <unitid>OBS_JOU_VPC_024</unitid>
             <unittitle>Vilain petit canard n°24</unittitle>
@@ -696,7 +696,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AjAz8P">
           <did>
             <unitid>OBS_JOU_VPC_025</unitid>
             <unittitle>Vilain petit canard n°25</unittitle>
@@ -722,7 +722,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641pVEspl">
           <did>
             <unitid>OBS_JOU_VPC_026</unitid>
             <unittitle>Vilain petit canard n°26</unittitle>
@@ -747,7 +747,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446417E4g5o">
           <did>
             <unitid>OBS_JOU_VPC_027</unitid>
             <unittitle>Vilain petit canard n°27</unittitle>
@@ -772,7 +772,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AbFZJA">
           <did>
             <unitid>OBS_JOU_VPC_028</unitid>
             <unittitle>Vilain petit canard n°28</unittitle>
@@ -795,7 +795,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641QM4ubD">
           <did>
             <unitid>OBS_JOU_VPC_029</unitid>
             <unittitle>Vilain petit canard n°29</unittitle>
@@ -821,7 +821,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641dRQRgQ">
           <did>
             <unitid>OBS_JOU_VPC_030</unitid>
             <unittitle>Vilain petit canard n°30</unittitle>
@@ -846,7 +846,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641dG0npc">
           <did>
             <unitid>OBS_JOU_VPC_031</unitid>
             <unittitle>Vilain petit canard n°31</unittitle>
@@ -870,7 +870,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641poAXRQ">
           <did>
             <unitid>OBS_JOU_VPC_032</unitid>
             <unittitle>Vilain petit canard n°32</unittitle>
@@ -886,7 +886,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ILDFTm">
           <did>
             <unitid>OBS_JOU_VPC_033</unitid>
             <unittitle>Vilain petit canard n°33</unittitle>
@@ -902,7 +902,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Xhm87o">
           <did>
             <unitid>OBS_JOU_VPC_034</unitid>
             <unittitle>Vilain petit canard n°34</unittitle>
@@ -928,7 +928,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fZrOME">
           <did>
             <unitid>OBS_JOU_VPC_035</unitid>
             <unittitle>Vilain petit canard n°35</unittitle>
@@ -954,7 +954,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZzYtvG">
           <did>
             <unitid>OBS_JOU_VPC_036</unitid>
             <unittitle>Vilain petit canard n°36</unittitle>
@@ -979,7 +979,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BTsO1v">
           <did>
             <unitid>OBS_JOU_VPC_036a</unitid>
             <unittitle>Vilain petit canard n°36a</unittitle>
@@ -1004,7 +1004,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641gCM5ld">
           <did>
             <unitid>OBS_JOU_VPC_037</unitid>
             <unittitle>Vilain petit canard n°37</unittitle>
@@ -1028,7 +1028,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Rqinud">
           <did>
             <unitid>OBS_JOU_VPC_038</unitid>
             <unittitle>Vilain petit canard n°38</unittitle>
@@ -1044,7 +1044,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641B4TSl1">
           <did>
             <unitid>OBS_JOU_VPC_039</unitid>
             <unittitle>Vilain petit canard n°39</unittitle>
@@ -1071,7 +1071,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641RdGDjs">
           <did>
             <unitid>OBS_JOU_VPC_040</unitid>
             <unittitle>Vilain petit canard n°40</unittitle>
@@ -1096,7 +1096,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641rXLGSQ">
           <did>
             <unitid>OBS_JOU_VPC_041</unitid>
             <unittitle>Vilain petit canard n°41</unittitle>
@@ -1123,7 +1123,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641DjUiAB">
           <did>
             <unitid>OBS_JOU_VPC_042</unitid>
             <unittitle>Vilain petit canard n°42</unittitle>
@@ -1148,7 +1148,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446414PPYWZ">
           <did>
             <unitid>OBS_JOU_VPC_043</unitid>
             <unittitle>Vilain petit canard n°43</unittitle>
@@ -1174,7 +1174,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411JTova">
           <did>
             <unitid>OBS_JOU_VPC_044</unitid>
             <unittitle>Vilain petit canard n°44</unittitle>
@@ -1199,7 +1199,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jfQnL5">
           <did>
             <unitid>OBS_JOU_VPC_045</unitid>
             <unittitle>Vilain petit canard n°45</unittitle>
@@ -1225,7 +1225,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641masriu">
           <did>
             <unitid>OBS_JOU_VPC_046</unitid>
             <unittitle>Vilain petit canard n°46</unittitle>
@@ -1252,7 +1252,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446419eTIe0">
           <did>
             <unitid>OBS_JOU_VPC_047</unitid>
             <unittitle>Vilain petit canard n°47</unittitle>
@@ -1281,7 +1281,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Gqurq3">
           <did>
             <unitid>OBS_JOU_VPC_049</unitid>
             <unittitle>Vilain petit canard n°49</unittitle>
@@ -1308,7 +1308,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641IpUOpS">
           <did>
             <unitid>OBS_JOU_VPC_052</unitid>
             <unittitle>Vilain petit canard n°52</unittitle>
@@ -1335,7 +1335,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EJaZVC">
           <did>
             <unitid>OBS_JOU_VPC_056</unitid>
             <unittitle>Vilain petit canard n°56</unittitle>
@@ -1367,7 +1367,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641mn8rZc">
           <did>
             <unitid>OBS_JOU_VPC_057</unitid>
             <unittitle>Vilain petit canard n°57</unittitle>
@@ -1394,7 +1394,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641e7AHEg">
           <did>
             <unitid>OBS_JOU_VPC_058</unitid>
             <unittitle>Vilain petit canard n°58</unittitle>
@@ -1419,7 +1419,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641PXFd71">
           <did>
             <unitid>OBS_JOU_VPC_059</unitid>
             <unittitle>Vilain petit canard n°59</unittitle>
@@ -1444,7 +1444,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641zFofOE">
           <did>
             <unitid>OBS_JOU_VPC_060</unitid>
             <unittitle>Vilain petit canard n°60</unittitle>
@@ -1469,7 +1469,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jYYDJm">
           <did>
             <unitid>OBS_JOU_VPC_061</unitid>
             <unittitle>Vilain petit canard n°61</unittitle>
@@ -1493,7 +1493,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UugMD4">
           <did>
             <unitid>OBS_JOU_VPC_063</unitid>
             <unittitle>Vilain petit canard n°63</unittitle>
@@ -1518,7 +1518,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446413yoIVL">
           <did>
             <unitid>OBS_JOU_VPC_064</unitid>
             <unittitle>Vilain petit canard n°64</unittitle>
@@ -1542,7 +1542,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641an9obJ">
           <did>
             <unitid>OBS_JOU_VPC_065</unitid>
             <unittitle>Vilain petit canard n°65</unittitle>
@@ -1566,7 +1566,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641vBLSbq">
           <did>
             <unitid>OBS_JOU_VPC_010a</unitid>
             <unittitle>Le Vilain petit canard voyage aux USA</unittitle>
@@ -1588,7 +1588,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XhZc1P">
           <did>
             <unitid>OBS_JOU_VPC_038a</unitid>
             <unittitle>Vilain petit canard - Edition spéciale</unittitle>
@@ -1610,7 +1610,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Rj49lO">
           <did>
             <unitid>OBS_JOU_VPC_039a</unitid>
             <unittitle>L'air du temps et Le Vilain petit canard - Edition spéciale</unittitle>
@@ -1633,7 +1633,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641TbLEsy">
           <did>
             <unitid>OBS_JOU_VPC_039b</unitid>
             <unittitle>L'air du temps et Le Vilain petit canard - Edition spéciale</unittitle>
@@ -1656,7 +1656,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BAmeqf">
           <did>
             <unitid>OBS_JOU_VPC_048</unitid>
             <unittitle>Vilain petit canard n°48</unittitle>
@@ -1679,7 +1679,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641bA6hiP">
           <did>
             <unitid>OBS_JOU_VPC_050</unitid>
             <unittitle>Vilain petit canard n°50</unittitle>
@@ -1702,7 +1702,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fbw5Vl">
           <did>
             <unitid>OBS_JOU_VPC_051</unitid>
             <unittitle>Vilain petit canard n°51</unittitle>
@@ -1725,7 +1725,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641A8H3Hi">
           <did>
             <unitid>OBS_JOU_VPC_053</unitid>
             <unittitle>Vilain petit canard n°53</unittitle>
@@ -1744,7 +1744,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446419AmHlT">
           <did>
             <unitid>OBS_JOU_VPC_062</unitid>
             <unittitle>Vilain petit canard n°62</unittitle>
@@ -1767,7 +1767,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641F5vHb2">
           <did>
             <unitid>OBS_JOU_VPC_066</unitid>
             <unittitle>Vilain petit canard n°66</unittitle>
@@ -1789,7 +1789,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641YnT96w">
           <did>
             <unitid>OBS_JOU_VPC_067</unitid>
             <unittitle>Vilain petit canard n°67</unittitle>
@@ -1811,7 +1811,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641GPw5yr">
           <did>
             <unitid>OBS_JOU_VPC_068</unitid>
             <unittitle>Vilain petit canard n°68</unittitle>
@@ -1834,7 +1834,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641HhT0Of">
           <did>
             <unitid>OBS_JOU_VPC_069</unitid>
             <unittitle>Vilain petit canard n°69</unittitle>
@@ -1858,7 +1858,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464116QIyb">
           <did>
             <unitid>OBS_JOU_VPC_069a</unitid>
             <unittitle>Vilain petit canard - Edition spéciale</unittitle>
@@ -1882,7 +1882,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641P9vjZZ">
           <did>
             <unitid>OBS_JOU_VPC_070</unitid>
             <unittitle>Vilain petit canard n°70</unittitle>
@@ -1907,7 +1907,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641efFng4">
           <did>
             <unitid>OBS_JOU_VPC_071</unitid>
             <unittitle>Vilain petit canard n°71</unittitle>
@@ -1930,7 +1930,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641QrfhxI">
           <did>
             <unitid>OBS_JOU_VPC_072</unitid>
             <unittitle>Vilain petit canard n°72</unittitle>
@@ -1955,7 +1955,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fxQz2s">
           <did>
             <unitid>OBS_JOU_VPC_073</unitid>
             <unittitle>Vilain petit canard n°73</unittitle>
@@ -1979,7 +1979,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641zXD4Pl">
           <did>
             <unitid>OBS_JOU_VPC_073a</unitid>
             <unittitle>Vilain petit canard - Edition spéciale</unittitle>
@@ -2002,7 +2002,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446410Bffdz">
           <did>
             <unitid>OBS_JOU_VPC_074</unitid>
             <unittitle>Vilain petit canard n°74</unittitle>
@@ -2026,7 +2026,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641MY0Yzn">
           <did>
             <unitid>OBS_JOU_VPC_075</unitid>
             <unittitle>Vilain petit canard n°75</unittitle>
@@ -2050,7 +2050,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641n3QQ4H">
           <did>
             <unitid>OBs_JOU_VPC_076</unitid>
             <unittitle>Vilain petit canard n°76</unittitle>
@@ -2073,7 +2073,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641LmhsQQ">
           <did>
             <unitid>OBS_JOU_VPC_077</unitid>
             <unittitle>Vilain petit canard n°77</unittitle>
@@ -2097,7 +2097,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZR4t8d">
           <did>
             <unitid>OBS_JOU_VPC_078</unitid>
             <unittitle>Vilain petit canard n°78</unittitle>
@@ -2121,7 +2121,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641lThDL5">
           <did>
             <unitid>OBS_JOU_VPC_079</unitid>
             <unittitle>Vilain petit canard n°79</unittitle>
@@ -2144,7 +2144,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641e79Drw">
           <did>
             <unitid>OBS_JOU_VPC_080</unitid>
             <unittitle>Vilain petit canard n°80</unittitle>
@@ -2168,7 +2168,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446418mR4ni">
           <did>
             <unitid>OBS_JOU_VPC_081</unitid>
             <unittitle>Vilain petit canard n°81</unittitle>
@@ -2191,7 +2191,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ETeVjq">
           <did>
             <unitid>OBS_JOU_VPC_082</unitid>
             <unittitle>Vilain petit canard n°82</unittitle>
@@ -2214,7 +2214,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641QSa4wQ">
           <did>
             <unitid>OBS_JOU_VPC_083</unitid>
             <unittitle>Vilain petit canard n°83</unittitle>
@@ -2238,7 +2238,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641eeVBwx">
           <did>
             <unitid>OBS_JOU_VPC_084</unitid>
             <unittitle>Vilain petit canard n°84</unittitle>
@@ -2263,7 +2263,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Tvrun0">
           <did>
             <unitid>OBS_JOU_VPC_085</unitid>
             <unittitle>Vilain petit canard n°85</unittitle>
@@ -2287,7 +2287,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641nefgI8">
           <did>
             <unitid>OBS_JOU_VPC_086</unitid>
             <unittitle>Vilain petit canard n°86</unittitle>
@@ -2309,7 +2309,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jrS0Mb">
           <did>
             <unitid>OBS_JOU_VPC_087</unitid>
             <unittitle>Vilain petit canard n°87</unittitle>
@@ -2333,7 +2333,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641TySmAH">
           <did>
             <unitid>OBS_JOU_VPC_088</unitid>
             <unittitle>Vilain petit canard n°88</unittitle>
@@ -2355,7 +2355,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641siYLhM">
           <did>
             <unitid>OBS_JOU_VPC_089</unitid>
             <unittitle>Vilain petit canard n°89</unittitle>
@@ -2379,7 +2379,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641dJdclz">
           <did>
             <unitid>OBS_JOU_VPC_090</unitid>
             <unittitle>Vilain petit canard n°90</unittitle>
@@ -2403,7 +2403,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641CSph0b">
           <did>
             <unitid>OBS_JOU_VPC_091</unitid>
             <unittitle>Vilain petit canard n°91</unittitle>
@@ -2426,7 +2426,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641hUUbCD">
           <did>
             <unitid>OBS_JOU_VPC_092</unitid>
             <unittitle>Vilain petit canard n°92</unittitle>
@@ -2448,7 +2448,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641R6SPJa">
           <did>
             <unitid>OBS_JOU_VPC_093</unitid>
             <unittitle>Vilain petit canard n°93</unittitle>
@@ -2471,7 +2471,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641a1OJd7">
           <did>
             <unitid>OBS_JOU_VPC_094</unitid>
             <unittitle>Vilain petit canard n°94</unittitle>
@@ -2494,7 +2494,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Be6xlx">
           <did>
             <unitid>OBS_JOU_VPC_095</unitid>
             <unittitle>Vilain petit canard n°95</unittitle>
@@ -2517,7 +2517,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641xzIFJY">
           <did>
             <unitid>OBS_JOU_VPC_096</unitid>
             <unittitle>Vilain petit canard n°96</unittitle>
@@ -2539,7 +2539,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641JMmCtV">
           <did>
             <unitid>OBS_JOU_VPC_097</unitid>
             <unittitle>Vilain petit canard n°97</unittitle>
@@ -2561,7 +2561,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641znrcg4">
           <did>
             <unitid>OBS_JOU_VPC_098</unitid>
             <unittitle>Vilain petit canard n°98</unittitle>
@@ -2584,7 +2584,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641M6VtwR">
           <did>
             <unitid>OBS_JOU_VPC_099</unitid>
             <unittitle>Vilain petit canard n°99</unittitle>
@@ -2608,7 +2608,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641A58uqE">
           <did>
             <unitid>OBS_JOU_VPC_100</unitid>
             <unittitle>Vilain petit canard n°100</unittitle>
@@ -2631,7 +2631,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641abJU7W">
           <did>
             <unitid>OBS_JOU_VPC_101</unitid>
             <unittitle>Vilain petit canard n°101</unittitle>
@@ -2655,7 +2655,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641VBMqso">
           <did>
             <unitid>OBS_JOU_VPC_102</unitid>
             <unittitle>Vilain petit canard n°102</unittitle>
@@ -2679,7 +2679,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EJsr74">
           <did>
             <unitid>OBS_JOU_VPC_103</unitid>
             <unittitle>Vilain petit canard n°103</unittitle>
@@ -2704,7 +2704,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641wQ8Ste">
           <did>
             <unitid>OBS_JOU_VPC_104</unitid>
             <unittitle>Vilain petit canard n°104</unittitle>
@@ -2729,7 +2729,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446413AG7tV">
           <did>
             <unitid>OBS_JOU_VPC_105</unitid>
             <unittitle>Vilain petit canard n°105</unittitle>
@@ -2753,7 +2753,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411YP86W">
           <did>
             <unitid>OBS_JOU_VPC_106</unitid>
             <unittitle>Vilain petit canard n°106</unittitle>
@@ -2776,7 +2776,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641zYP2JF">
           <did>
             <unitid>OBS_JOU_VPC_107</unitid>
             <unittitle>Vilain petit canard n°107</unittitle>
@@ -2800,7 +2800,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244641yBzUim">
         <did>
           <unitid>OBS_JOU_QLI</unitid>
           <unittitle>Quartier libre</unittitle>
@@ -2816,7 +2816,7 @@ Siège actuel : 196 rue des Arts</p>
           <geogname source="quartier" coord="[ [ 50.69162749972451, 3.159239009596599 ], [ 50.69143351978217, 3.158919533773008 ], [ 50.69128190721562, 3.158653674247769 ], [ 50.69107343471747, 3.158292326427639 ], [ 50.6909028669298, 3.157994641453245 ], [ 50.69075836356346, 3.157738154684537 ], [ 50.69061029095458, 3.1574872650441 ], [ 50.69044801729496, 3.157200823815911 ], [ 50.69031060939749, 3.156964920799213 ], [ 50.69014003116997, 3.156672851646173 ], [ 50.68997537642884, 3.156390146176634 ], [ 50.68980834610415, 3.156108556807393 ], [ 50.68966737586465, 3.15587077981154 ], [ 50.6895086411218, 3.155599311470862 ], [ 50.68935583472035, 3.155333468510182 ], [ 50.68918832904758, 3.155049642845499 ], [ 50.68903196589394, 3.15477818560717 ], [ 50.68886255264419, 3.154500337347049 ], [ 50.68869195756299, 3.154217627961619 ], [ 50.68854387739146, 3.153966759049486 ], [ 50.68837210216168, 3.153676575603266 ], [ 50.68814890705099, 3.153304011320128 ], [ 50.68796528759438, 3.152991370068673 ], [ 50.68777811029603, 3.152674984000186 ], [ 50.68760514465738, 3.152384804388375 ], [ 50.68738649676966, 3.152006417298455 ], [ 50.68733354589496, 3.152125678283392 ], [ 50.68731639656627, 3.15216448322078 ], [ 50.68747467746189, 3.15246570588378 ], [ 50.68739154954535, 3.152789745631532 ], [ 50.68732659173075, 3.15308579603277 ], [ 50.68730735134397, 3.153269420685581 ], [ 50.68728791601608, 3.153481343992569 ], [ 50.68727649529098, 3.153834904444988 ], [ 50.68727581362305, 3.153933944548416 ], [ 50.68727503537373, 3.154047134044671 ], [ 50.68727211355651, 3.154471591791618 ], [ 50.68727133482108, 3.154584778446005 ], [ 50.68725267528063, 3.154683514481159 ], [ 50.68723392087689, 3.154796392768051 ], [ 50.68721555454719, 3.15485268194327 ], [ 50.68718800635435, 3.154937112101406 ], [ 50.68715098189173, 3.155092132624363 ], [ 50.68710487106036, 3.155261147311279 ], [ 50.68707722414059, 3.155359724977958 ], [ 50.68704039427352, 3.155486449024287 ], [ 50.68703101626745, 3.155542888494185 ], [ 50.68703062597603, 3.155599481540205 ], [ 50.68703052839606, 3.155613632273428 ], [ 50.68703932187599, 3.155642081697272 ], [ 50.68703893153944, 3.155698674751785 ], [ 50.68707410353752, 3.15581247964271 ], [ 50.68708299367631, 3.155826781200733 ], [ 50.68710947065732, 3.155897984595883 ], [ 50.68714454484766, 3.156025936313533 ], [ 50.68713555621192, 3.15602578263697 ], [ 50.68709921384704, 3.156081762471449 ], [ 50.68709022521075, 3.156081608784916 ], [ 50.68703571116673, 3.15616557554311 ], [ 50.686781311772, 3.156557428361413 ], [ 50.68669045471707, 3.156697373017741 ], [ 50.68663603793038, 3.156767193468011 ], [ 50.68658162110363, 3.156837010941772 ], [ 50.68657233930088, 3.156879303276333 ], [ 50.68655407063589, 3.156921441765478 ], [ 50.6865176301045, 3.156991566650518 ], [ 50.68649027501705, 3.157047698950555 ], [ 50.68647190764922, 3.157103985054447 ], [ 50.68644465026348, 3.157145968089562 ], [ 50.68641729510333, 3.157202100223842 ], [ 50.68639902542909, 3.157244237049812 ], [ 50.68638065886889, 3.157300521569607 ], [ 50.6863532058598, 3.157370801261717 ], [ 50.68632575280982, 3.157441080876902 ], [ 50.68628940976361, 3.15749705878231 ], [ 50.68627104218675, 3.15755334449618 ], [ 50.6862528701934, 3.157581331973968 ], [ 50.6862346012817, 3.157623469939082 ], [ 50.68621633145968, 3.157665606458127 ], [ 50.68617989048824, 3.157735731742889 ], [ 50.68614335075207, 3.157820003164151 ], [ 50.68611609310928, 3.157861986947776 ], [ 50.68608873761239, 3.157918118323944 ], [ 50.68607085995244, 3.157903661259126 ], [ 50.68602523449356, 3.158001928797988 ], [ 50.68597970681528, 3.158086047138616 ], [ 50.68593417997433, 3.158170165329383 ], [ 50.68588855429367, 3.15826843377065 ], [ 50.68584302732309, 3.15835255164304 ], [ 50.68577922928548, 3.158478805215625 ], [ 50.68575187349621, 3.158534935878382 ], [ 50.68566980597331, 3.158703324674571 ], [ 50.68564254801468, 3.158745306169356 ], [ 50.68560620434401, 3.158801282367479 ], [ 50.68556986064797, 3.158857257071953 ], [ 50.68556067609629, 3.15888539927997 ], [ 50.68553341807176, 3.158927380584596 ], [ 50.68542438581888, 3.159095306759197 ], [ 50.6853697716175, 3.159193416299295 ], [ 50.68529708381755, 3.159305365943832 ], [ 50.68527881339977, 3.159347501062835 ], [ 50.68518795299609, 3.15948743929923 ], [ 50.6851334364965, 3.159571399172119 ], [ 50.685096994391, 3.159641521558756 ], [ 50.68506064939157, 3.159697495083438 ], [ 50.68488791533449, 3.159977520114089 ], [ 50.68487882949562, 3.159991513032036 ], [ 50.68484248432495, 3.160047487472236 ], [ 50.68476061084284, 3.160187574810777 ], [ 50.68470609383377, 3.160271534620076 ], [ 50.68466056542718, 3.160355648691753 ], [ 50.68464239275733, 3.16038363566831 ], [ 50.68457937847281, 3.160396701742705 ], [ 50.68437987392135, 3.160647961051263 ], [ 50.68435281156287, 3.160661644711285 ], [ 50.68431646696106, 3.160717616669409 ], [ 50.68428031776139, 3.160745294298558 ], [ 50.68420802113239, 3.160800649443047 ], [ 50.68416288413972, 3.160828169602461 ], [ 50.68411774713242, 3.160855693949738 ], [ 50.68399942968201, 3.161065897763011 ], [ 50.68392664183688, 3.161191987245858 ], [ 50.68384466872166, 3.161346218570005 ], [ 50.68382649580477, 3.161374206145033 ], [ 50.68349899438752, 3.161934535570858 ], [ 50.68344437779174, 3.162032635429604 ], [ 50.68338964894419, 3.162096335692869 ], [ 50.6837464476808, 3.163087995018862 ], [ 50.68402554846653, 3.163838759394576 ], [ 50.68483538717932, 3.166041276285417 ], [ 50.68501100637815, 3.166561458658209 ], [ 50.68606306323779, 3.16946556543833 ], [ 50.68679243619878, 3.168135528438616 ], [ 50.68754124633825, 3.166779894734078 ], [ 50.68824863629877, 3.165452948989037 ], [ 50.68890847751619, 3.164235371229754 ], [ 50.68927860378032, 3.163570731202315 ], [ 50.68975406116421, 3.162688981760156 ], [ 50.6902727694068, 3.161713711822845 ], [ 50.69055707871198, 3.16123704041998 ], [ 50.69109113752162, 3.160249974734315 ], [ 50.69149274823057, 3.15951392433581 ], [ 50.69153198691574, 3.159442428673638 ] ]">Epeule</geogname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR25855" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244641l7J5O7">
           <did>
             <unitid>OBS_JOU_QLI_001</unitid>
             <unittitle>Quartier libre n°1</unittitle>
@@ -2839,7 +2839,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_001.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641lOn4pe">
           <did>
             <unitid>OBS_JOU_QLI_002</unitid>
             <unittitle>Quartier libre n°2</unittitle>
@@ -2864,7 +2864,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_002.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641HcE3gI">
           <did>
             <unitid>OBS_JOU_QLI_003</unitid>
             <unittitle>Quartier libre n°3</unittitle>
@@ -2887,7 +2887,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_003.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641zs2hcC">
           <did>
             <unitid>OBS_JOU_QLI_004</unitid>
             <unittitle>Quartier libre n°4</unittitle>
@@ -2911,7 +2911,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_004.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641acCqux">
           <did>
             <unitid>OBS_JOU_QLI_005</unitid>
             <unittitle>Quartier libre n°5</unittitle>
@@ -2934,7 +2934,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_005.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UuIbax">
           <did>
             <unitid>OBS_JOU_QLI_006</unitid>
             <unittitle>Quartier libre n°6</unittitle>
@@ -2955,7 +2955,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_006.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Mtqmi2">
           <did>
             <unitid>OBS_JOU_QLI_007</unitid>
             <unittitle>Quartier libre n°7</unittitle>
@@ -2979,7 +2979,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_007.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EiUcsE">
           <did>
             <unitid>OBS_JOU_QLI_008</unitid>
             <unittitle>Quartier libre n°8</unittitle>
@@ -3001,7 +3001,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_008.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641JvRohR">
           <did>
             <unitid>OBS_JOU_QLI_009</unitid>
             <unittitle>Quartier libre n°9</unittitle>
@@ -3023,7 +3023,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_009.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641GtFVOW">
           <did>
             <unitid>OBS_JOU_QLI_010</unitid>
             <unittitle>Quartier libre n°10</unittitle>
@@ -3048,7 +3048,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_010.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XoQ9Ol">
           <did>
             <unitid>OBS_JOU_QLI_011</unitid>
             <unittitle>Quartier libre n°11</unittitle>
@@ -3074,7 +3074,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_011.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641WLwqlU">
           <did>
             <unitid>OBS_JOU_QLI_012</unitid>
             <unittitle>Quartier libre n°12</unittitle>
@@ -3099,7 +3099,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_012.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BMZSJ7">
           <did>
             <unitid>OBS_JOU_QLI_013</unitid>
             <unittitle>Quartier libre n°13</unittitle>
@@ -3120,7 +3120,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_013.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641eIFeqQ">
           <did>
             <unitid>OBS_JOU_QLI_014</unitid>
             <unittitle>Quartier libre n°14</unittitle>
@@ -3144,7 +3144,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_014.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641MTa2Vj">
           <did>
             <unitid>OBS_JOU_QLI_015</unitid>
             <unittitle>Quartier libre n°15</unittitle>
@@ -3172,7 +3172,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_015.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641o06VQI">
           <did>
             <unitid>OBS_JOU_QLI_016</unitid>
             <unittitle>Quartier libre n°16</unittitle>
@@ -3195,7 +3195,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_016.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641yxLWwU">
           <did>
             <unitid>OBS_JOU_QLI_018</unitid>
             <unittitle>Quartier libre n°18</unittitle>
@@ -3220,7 +3220,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_018.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ldFyYd">
           <did>
             <unitid>OBS_JOU_QLI_019</unitid>
             <unittitle>Quartier libre n°19</unittitle>
@@ -3243,7 +3243,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_019.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464136seHb">
           <did>
             <unitid>OBS_JOU_QLI_020</unitid>
             <unittitle>Quartier libre n°20</unittitle>
@@ -3266,7 +3266,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_020.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fdbf2P">
           <did>
             <unitid>OBS_JOU_QLI_021</unitid>
             <unittitle>Quartier libre n°21</unittitle>
@@ -3294,7 +3294,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_021.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641srJcd9">
           <did>
             <unitid>OBS_JOU_QLI_023</unitid>
             <unittitle>Quartier libre n°23</unittitle>
@@ -3319,7 +3319,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_023.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641xHP8RL">
           <did>
             <unitid>OBS_JOU_QLI_024</unitid>
             <unittitle>Quartier libre n°24</unittitle>
@@ -3342,7 +3342,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_024.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641QllPOE">
           <did>
             <unitid>OBS_JOU_QLI_025</unitid>
             <unittitle>Quartier libre n°25</unittitle>
@@ -3368,7 +3368,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_025.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fpxhgm">
           <did>
             <unitid>OBS_JOU_QLI_026</unitid>
             <unittitle>Quartier libre n°26</unittitle>
@@ -3390,7 +3390,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_026.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UYPqm2">
           <did>
             <unitid>OBS_JOU_QLI_027</unitid>
             <unittitle>Quartier libre n°27</unittitle>
@@ -3415,7 +3415,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_027.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641pGGIer">
           <did>
             <unitid>OBS_JOU_QLI_028</unitid>
             <unittitle>Quartier libre n°28</unittitle>
@@ -3439,7 +3439,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_028.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464187BuvZ">
           <did>
             <unitid>OBS_JOU_QLI_029</unitid>
             <unittitle>Quartier libre n°29</unittitle>
@@ -3466,7 +3466,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_029.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641bcxhRG">
           <did>
             <unitid>OBS_JOU_QLI_030</unitid>
             <unittitle>Quartier libre n°30</unittitle>
@@ -3490,7 +3490,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_030.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641WmP1j3">
           <did>
             <unitid>OBS_JOU_QLI_031</unitid>
             <unittitle>Quartier libre n°31</unittitle>
@@ -3513,7 +3513,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_031.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641LbUf3a">
           <did>
             <unitid>OBS_JOU_QLI_032</unitid>
             <unittitle>Quartier libre n°32</unittitle>
@@ -3539,7 +3539,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_032.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641WU6A66">
           <did>
             <unitid>OBS_JOU_QLI_033</unitid>
             <unittitle>Quartier libre n°33</unittitle>
@@ -3565,7 +3565,7 @@ Siège actuel : 196 rue des Arts</p>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_033.pdf" role="pdf"/>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446417dvZvX">
           <did>
             <unitid>OBS_JOU_QLI_034</unitid>
             <unittitle>Quartier libre n°34</unittitle>
@@ -3597,7 +3597,7 @@ Siège actuel : 196 rue des Arts</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641PtApDP">
           <did>
             <unitid>OBS_JOU_QLI_035</unitid>
             <unittitle>Quartier libre n°35</unittitle>
@@ -3632,7 +3632,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Qrvmcp">
           <did>
             <unitid>OBS_JOU_QLI_036</unitid>
             <unittitle>Quartier libre n°36</unittitle>
@@ -3662,7 +3662,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641YVlwQO">
           <did>
             <unitid>OBS_JOU_QLI_037</unitid>
             <unittitle>Quartier libre n°37</unittitle>
@@ -3690,7 +3690,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641VpgwOH">
           <did>
             <unitid>OBS_JOU_QLI_038</unitid>
             <unittitle>Quartier libre n°38</unittitle>
@@ -3726,7 +3726,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XH5WxU">
           <did>
             <unitid>OBS_JOU_QLI_039</unitid>
             <unittitle>Quartier libre n°39</unittitle>
@@ -3763,7 +3763,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446417M93lG">
           <did>
             <unitid>OBS_JOU_QLI_040</unitid>
             <unittitle>Quartier libre n°40</unittitle>
@@ -3792,7 +3792,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446419tCxGG">
           <did>
             <unitid>OBS_JOU_QLI_041</unitid>
             <unittitle>Quartier libre n°41</unittitle>
@@ -3824,7 +3824,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641aSrmeP">
           <did>
             <unitid>OBS_JOU_QLI_042</unitid>
             <unittitle>Quartier libre n°42</unittitle>
@@ -3857,7 +3857,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641X1p6Fr">
           <did>
             <unitid>OBS_JOU_QLI_043</unitid>
             <unittitle>Quartier libre n°43</unittitle>
@@ -3887,7 +3887,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641SyPQJb">
           <did>
             <unitid>OBS_JOU_QLI_044</unitid>
             <unittitle>Quartier libre n°44</unittitle>
@@ -3915,7 +3915,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ShpPXZ">
           <did>
             <unitid>OBS_JOU_QLI_045</unitid>
             <unittitle>Quartier libre n°45</unittitle>
@@ -3945,7 +3945,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446415nfDy7">
           <did>
             <unitid>OBS_JOU_QLI_046</unitid>
             <unittitle>Quartier libre n°46</unittitle>
@@ -3973,7 +3973,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AAnarG">
           <did>
             <unitid>OBS_JOU_QLI_047</unitid>
             <unittitle>Quartier libre n°47</unittitle>
@@ -4006,7 +4006,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641lEzjBW">
           <did>
             <unitid>OBS_JOU_QLI_048</unitid>
             <unittitle>Quartier libre n°48</unittitle>
@@ -4035,7 +4035,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641hB28TS">
           <did>
             <unitid>OBS_JOU_QLI_049</unitid>
             <unittitle>Quartier libre n°49</unittitle>
@@ -4064,7 +4064,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641MjCQCf">
           <did>
             <unitid>OBS_JOU_QLI_050</unitid>
             <unittitle>Quartier libre n°50</unittitle>
@@ -4091,7 +4091,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641v5Vd5J">
           <did>
             <unitid>OBS_JOU_QLI_051</unitid>
             <unittitle>Quartier libre n°51</unittitle>
@@ -4119,7 +4119,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641SmnY1i">
           <did>
             <unitid>OBS_JOU_QLI_052</unitid>
             <unittitle>Quartier libre n°52</unittitle>
@@ -4159,7 +4159,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641yut93z">
           <did>
             <unitid>OBS_JOU_QLI_053</unitid>
             <unittitle>Quartier libre n°53</unittitle>
@@ -4186,7 +4186,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641VBhhDV">
           <did>
             <unitid>OBS_JOU_QLI_054</unitid>
             <unittitle>Quartier libre n°54</unittitle>
@@ -4221,7 +4221,7 @@ le rapport d'activité : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446417JR8wA">
           <did>
             <unitid>OBS_JOU_QLI_055</unitid>
             <unittitle>Quartier libre n°55</unittitle>
@@ -4251,7 +4251,7 @@ le rapport d'activité : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446414PJxBD">
           <did>
             <unitid>OBS_JOU_QLI_056</unitid>
             <unittitle>Quartier libre n°56</unittitle>
@@ -4281,7 +4281,7 @@ le rapport d'activité : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641M1jeGL">
           <did>
             <unitid>OBS_JOU_QLI_057</unitid>
             <unittitle>Quartier libre n°57</unittitle>
@@ -4307,7 +4307,7 @@ le rapport d'activité : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BFcjh2">
           <did>
             <unitid>OBS_JOU_QLI_058</unitid>
             <unittitle>Quartier libre n°58</unittitle>
@@ -4333,7 +4333,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446414e3gEg">
           <did>
             <unitid>OBS_JOU_QLI_059</unitid>
             <unittitle>Quartier libre n°59</unittitle>
@@ -4364,7 +4364,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641mgH1po">
           <did>
             <unitid>OBS_JOU_QLI_060</unitid>
             <unittitle>Quartier libre n°60</unittitle>
@@ -4396,7 +4396,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641aYCZEr">
           <did>
             <unitid>OBS_JOU_QLI_061</unitid>
             <unittitle>Quartier libre n°61</unittitle>
@@ -4423,7 +4423,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641gXpXTo">
           <did>
             <unitid>OBS_JOU_QLI_062</unitid>
             <unittitle>Quartier libre n°62</unittitle>
@@ -4454,7 +4454,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641H2FyHo">
           <did>
             <unitid>OBS_JOU_QLI_063</unitid>
             <unittitle>Quartier libre n°63</unittitle>
@@ -4483,7 +4483,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641OSslBv">
           <did>
             <unitid>OBS_JOU_QLI_064</unitid>
             <unittitle>Quartier libre n°64</unittitle>
@@ -4512,7 +4512,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UoeQAY">
           <did>
             <unitid>OBS_JOU_QLI_065</unitid>
             <unittitle>Quartier libre n°65</unittitle>
@@ -4545,7 +4545,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641f9V7pg">
           <did>
             <unitid>OBS_JOU_QLI_066</unitid>
             <unittitle>Quartier libre n°66</unittitle>
@@ -4571,7 +4571,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EXOWZV">
           <did>
             <unitid>OBS_JOU_QLI_067</unitid>
             <unittitle>Quartier libre n°67</unittitle>
@@ -4599,7 +4599,7 @@ Une campagne d'information sur la propreté mais sans faire signer de charte&#13
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446416nEhrT">
           <did>
             <unitid>OBS_JOU_QLI_068</unitid>
             <unittitle>Quartier libre n°68</unittitle>
@@ -4629,7 +4629,7 @@ lutter contre le chômage dans le quartier. Quel bilan pour le point emploi ?&#1
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641MIZPAZ">
           <did>
             <unitid>OBS_JOU_QLI_069</unitid>
             <unittitle>Quartier libre n°69</unittitle>
@@ -4659,7 +4659,7 @@ quelle est votre opinion sur la vie quotidienne dans le quartier ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641tovHIX">
           <did>
             <unitid>OBS_JOU_QLI_070</unitid>
             <unittitle>Quartier libre n°70</unittitle>
@@ -4685,7 +4685,7 @@ quelle est votre opinion sur la vie quotidienne dans le quartier ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AfeMZl">
           <did>
             <unitid>OBS_JOU_QLI_071</unitid>
             <unittitle>Quartier libre n°71</unittitle>
@@ -4713,7 +4713,7 @@ quelle est votre opinion sur la vie quotidienne dans le quartier ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641t8ql8g">
           <did>
             <unitid>OBS_JOU_QLI_072</unitid>
             <unittitle>Quartier libre n°72</unittitle>
@@ -4744,7 +4744,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641gTrlHt">
           <did>
             <unitid>OBS_JOU_QLI_073</unitid>
             <unittitle>Quartier libre n°73</unittitle>
@@ -4771,7 +4771,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZOELs0">
           <did>
             <unitid>OBS_JOU_QLI_074</unitid>
             <unittitle>Quartier libre n°74</unittitle>
@@ -4797,7 +4797,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641D55HtG">
           <did>
             <unitid>OBS_JOU_QLI_075</unitid>
             <unittitle>Quartier libre n°75</unittitle>
@@ -4826,7 +4826,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641S2ncYF">
           <did>
             <unitid>OBS_JOU_QLI_076</unitid>
             <unittitle>Quartier libre n°76</unittitle>
@@ -4854,7 +4854,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641aSSJ75">
           <did>
             <unitid>OBS_JOU_QLI_077</unitid>
             <unittitle>Quartier libre n°77</unittitle>
@@ -4885,7 +4885,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EG9Uzx">
           <did>
             <unitid>OBS_JOU_QLI_078</unitid>
             <unittitle>Quartier libre n°78</unittitle>
@@ -4917,7 +4917,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641qPimG8">
           <did>
             <unitid>OBS_JOU_QLI_079</unitid>
             <unittitle>Quartier libre n°79</unittitle>
@@ -4946,7 +4946,7 @@ Quel projet pour les associations de jeunes de notre quartier ? &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641RFlEl5">
           <did>
             <unitid>OBS_JOU_QLI_080</unitid>
             <unittitle>Quartier libre n°80</unittitle>
@@ -4977,7 +4977,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446410ilVZ7">
           <did>
             <unitid>OBS_JOU_QLI_081</unitid>
             <unittitle>Quartier libre n°81</unittitle>
@@ -5002,7 +5002,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XzgWSs">
           <did>
             <unitid>OBS_JOU_QLI_082</unitid>
             <unittitle>Quartier libre n°82</unittitle>
@@ -5033,7 +5033,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EMteIQ">
           <did>
             <unitid>OBS_JOU_QLI_083</unitid>
             <unittitle>Quartier libre n°83</unittitle>
@@ -5064,7 +5064,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641B87qfc">
           <did>
             <unitid>OBS_JOU_QLI_084</unitid>
             <unittitle>Quartier libre n°84</unittitle>
@@ -5092,7 +5092,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641FzB5ho">
           <did>
             <unitid>OBS_JOU_QLI_085</unitid>
             <unittitle>Quartier libre n°85</unittitle>
@@ -5117,7 +5117,7 @@ Association des Maisons de l'Enfance (A.M.E.)services : créer des services de p
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jYAELx">
           <did>
             <unitid>OBS_JOU_QLI_086</unitid>
             <unittitle>Quartier libre n°86</unittitle>
@@ -5145,7 +5145,7 @@ Association des Maisons de l'Enfance (A.M.E.)services : créer des services de p
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ibFvOl">
           <did>
             <unitid>OBS_JOU_QLI_087</unitid>
             <unittitle>Quartier libre n°87</unittitle>
@@ -5170,7 +5170,7 @@ Association des Maisons de l'Enfance (A.M.E.)services : créer des services de p
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641y5BCra">
           <did>
             <unitid>OBS_JOU_QLI_088</unitid>
             <unittitle>Quartier libre n°88</unittitle>
@@ -5201,7 +5201,7 @@ Association des Maisons de l'Enfance (A.M.E.)services : créer des services de p
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641iipSzj">
           <did>
             <unitid>OBS_JOU_QLI_089</unitid>
             <unittitle>Quartier libre n°89</unittitle>
@@ -5229,7 +5229,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641x9LHAu">
           <did>
             <unitid>OBS_JOU_QLI_090</unitid>
             <unittitle>Quartier libre n°90</unittitle>
@@ -5257,7 +5257,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446417ZgYmE">
           <did>
             <unitid>OBS_JOU_QLI_091</unitid>
             <unittitle>Quartier libre n°91</unittitle>
@@ -5282,7 +5282,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641mbw1nq">
           <did>
             <unitid>OBS_JOU_QLI_092</unitid>
             <unittitle>Quartier libre n°92</unittitle>
@@ -5311,7 +5311,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641O4lqzi">
           <did>
             <unitid>OBS_JOU_QLI_093</unitid>
             <unittitle>Quartier libre n°93</unittitle>
@@ -5343,7 +5343,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641pYi2J2">
           <did>
             <unitid>OBS_JOU_QLI_094</unitid>
             <unittitle>Quartier libre n°94</unittitle>
@@ -5370,7 +5370,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ayRJ4e">
           <did>
             <unitid>OBS_JOU_QLI_095</unitid>
             <unittitle>Quartier libre n°95</unittitle>
@@ -5400,7 +5400,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Az5w5w">
           <did>
             <unitid>OBS_JOU_QLI_096</unitid>
             <unittitle>Quartier libre n°96</unittitle>
@@ -5431,7 +5431,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641uAZ67w">
           <did>
             <unitid>OBS_JOU_QLI_097</unitid>
             <unittitle>Quartier libre n°97</unittitle>
@@ -5458,7 +5458,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464165SiTj">
           <did>
             <unitid>OBS_JOU_QLI_098</unitid>
             <unittitle>Quartier libre n°98</unittitle>
@@ -5492,7 +5492,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464116Wg6P">
           <did>
             <unitid>OBS_JOU_QLI_099</unitid>
             <unittitle>Quartier libre n°99</unittitle>
@@ -5524,7 +5524,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411RP1tO">
           <did>
             <unitid>OBS_JOU_QLI_100</unitid>
             <unittitle>Quartier libre n°100</unittitle>
@@ -5552,7 +5552,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641yplqiA">
           <did>
             <unitid>OBS_JOU_QLI_101</unitid>
             <unittitle>Quartier libre n°101</unittitle>
@@ -5581,7 +5581,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641qJ6IUv">
           <did>
             <unitid>OBS_JOU_QLI_102</unitid>
             <unittitle>Quartier libre n°102</unittitle>
@@ -5610,7 +5610,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641cgjmPZ">
           <did>
             <unitid>OBS_JOU_QLI_103</unitid>
             <unittitle>Quartier libre n°103</unittitle>
@@ -5649,7 +5649,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411GXSJO">
           <did>
             <unitid>OBS_JOU_QLI_104</unitid>
             <unittitle>Quartier libre n°104</unittitle>
@@ -5674,7 +5674,7 @@ Conseil d'habitants : compte rendu de réunion.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641H3ecTJ">
           <did>
             <unitid>OBS_JOU_QLI_105</unitid>
             <unittitle>Quartier libre n°105</unittitle>
@@ -5705,7 +5705,7 @@ Conseil d'habitants : compte rendu de réunion.</p>
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AccgOQ">
           <did>
             <unitid>OBS_JOU_QLI_106</unitid>
             <unittitle>Quartier libre n°106</unittitle>
@@ -5743,7 +5743,7 @@ Quelles priorités pour notre cadre de vie ?&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641PvHrZa">
           <did>
             <unitid>OBS_JOU_QLI_107</unitid>
             <unittitle>Quartier libre n°107</unittitle>
@@ -5775,7 +5775,7 @@ Nouvelles et expressions du quartier :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641FcRIQR">
           <did>
             <unitid>OBS_JOU_QLI_108</unitid>
             <unittitle>Quartier libre n°108</unittitle>
@@ -5809,7 +5809,7 @@ Informations aux habitants :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641unXjcb">
           <did>
             <unitid>OBS_JOU_QLI_109</unitid>
             <unittitle>Quartier libre n°109</unittitle>
@@ -5852,7 +5852,7 @@ Objectifs du Comité de quartier :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124464159XM89">
           <did>
             <unitid>OBS_JOU_QLI_110</unitid>
             <unittitle>Quartier libre n°110</unittitle>
@@ -5879,7 +5879,7 @@ Objectifs du Comité de quartier :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446414yHjDe">
           <did>
             <unitid>OBS_JOU_QLI_111</unitid>
             <unittitle>Quartier libre n°111</unittitle>
@@ -5915,7 +5915,7 @@ Objectifs du Comité de quartier :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641S3AIIi">
           <did>
             <unitid>OBS_JOU_QLI_112</unitid>
             <unittitle>Quartier libre n°112</unittitle>
@@ -5947,7 +5947,7 @@ Objectifs du Comité de quartier :&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641C7vlzD">
           <did>
             <unitid>OBS_JOU_QLI_113</unitid>
             <unittitle>Quartier libre n°113</unittitle>
@@ -5978,7 +5978,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BtzEvc">
           <did>
             <unitid>OBS_JOU_QLI_114</unitid>
             <unittitle>Quartier libre n°114</unittitle>
@@ -6009,7 +6009,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641FQ5lTz">
           <did>
             <unitid>OBS_JOU_QLI_115</unitid>
             <unittitle>Quartier libre n°115</unittitle>
@@ -6037,7 +6037,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641IazlRB">
           <did>
             <unitid>OBS_JOU_QLI_116</unitid>
             <unittitle>Quartier libre n°116</unittitle>
@@ -6065,7 +6065,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446418I2bM7">
           <did>
             <unitid>OBS_JOU_QLI_117</unitid>
             <unittitle>Quartier libre n°117</unittitle>
@@ -6093,7 +6093,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641f4mcsa">
           <did>
             <unitid>OBS_JOU_QLI_118</unitid>
             <unittitle>Quartier libre n°118</unittitle>
@@ -6124,7 +6124,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641tSlHE2">
           <did>
             <unitid>OBS_JOU_QLI_119</unitid>
             <unittitle>Quartier libre n°119</unittitle>
@@ -6154,7 +6154,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641nuYtpa">
           <did>
             <unitid>OBS_JOU_QLI_120</unitid>
             <unittitle>Quartier libre n°120</unittitle>
@@ -6183,7 +6183,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ac8mXh">
           <did>
             <unitid>OBS_JOU_QLI_121</unitid>
             <unittitle>Quartier libre n°121</unittitle>
@@ -6212,7 +6212,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641HqU9ba">
           <did>
             <unitid>OBS_JOU_QLI_122</unitid>
             <unittitle>Quartier libre n°122</unittitle>
@@ -6241,7 +6241,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641W1iJte">
           <did>
             <unitid>OBS_JOU_QLI_123</unitid>
             <unittitle>Quartier libre n°123</unittitle>
@@ -6271,7 +6271,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641LIeb7s">
           <did>
             <unitid>OBS_JOU_QLI_124</unitid>
             <unittitle>Quartier libre n°124</unittitle>
@@ -6304,7 +6304,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641BwwaAv">
           <did>
             <unitid>OBS_JOU_QLI_125</unitid>
             <unittitle>Quartier libre n°125</unittitle>
@@ -6341,7 +6341,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641gMgM2M">
           <did>
             <unitid>OBS_JOU_QLI_126</unitid>
             <unittitle>Quartier libre n°126</unittitle>
@@ -6370,7 +6370,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411zyc7d">
           <did>
             <unitid>OBS_JOU_QLI_127</unitid>
             <unittitle>Quartier libre n°127</unittitle>
@@ -6405,7 +6405,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641LuaaEw">
           <did>
             <unitid>OBS_JOU_QLI_128</unitid>
             <unittitle>Quartier libre n°128</unittitle>
@@ -6437,7 +6437,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641q2mY9L">
           <did>
             <unitid>OBS_JOU_QLI_129</unitid>
             <unittitle>Quartier libre n°129</unittitle>
@@ -6467,7 +6467,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641HqdyaE">
           <did>
             <unitid>OBS_JOU_QLI_130</unitid>
             <unittitle>Quartier libre n°130</unittitle>
@@ -6501,7 +6501,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Xhea2D">
           <did>
             <unitid>OBS_JOU_QLI_131</unitid>
             <unittitle>Quartier libre n°131</unittitle>
@@ -6530,7 +6530,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UULPTG">
           <did>
             <unitid>OBS_JOU_QLI_132</unitid>
             <unittitle>Quartier libre n°132</unittitle>
@@ -6559,7 +6559,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641xZCfzR">
           <did>
             <unitid>OBS_JOU_QLI_133</unitid>
             <unittitle>Quartier libre n°133</unittitle>
@@ -6591,7 +6591,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641OxReFF">
           <did>
             <unitid>OBS_JOU_QLI_144</unitid>
             <unittitle>Quartier libre n°144</unittitle>
@@ -6621,7 +6621,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446416ROzjt">
           <did>
             <unitid>OBS_JOU_QLI_163</unitid>
             <unittitle>Quartier libre n°163</unittitle>
@@ -6649,7 +6649,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641AIbhOj">
           <did>
             <unitid>OBS_JOU_QLI_165</unitid>
             <unittitle>Quartier libre n°165</unittitle>
@@ -6679,7 +6679,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641qvvFsd">
           <did>
             <unitid>OBS_JOU_QLI_166</unitid>
             <unittitle>Quartier libre n°166</unittitle>
@@ -6708,7 +6708,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641WI4wIA">
           <did>
             <unitid>OBS_JOU_QLI_167</unitid>
             <unittitle>Quartier libre n°167</unittitle>
@@ -6738,7 +6738,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641UupPss">
           <did>
             <unitid>OBS_JOU_QLI_168</unitid>
             <unittitle>Quartier libre n°168</unittitle>
@@ -6776,7 +6776,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZxFLfe">
           <did>
             <unitid>OBS_JOU_QLI_169</unitid>
             <unittitle>Quartier libre n°169</unittitle>
@@ -6802,7 +6802,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Px9tYu">
           <did>
             <unitid>OBS_JOU_QLI_170</unitid>
             <unittitle>Quartier libre n°170</unittitle>
@@ -6833,7 +6833,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641YXS0wi">
           <did>
             <unitid>OBS_JOU_QLI_171</unitid>
             <unittitle>Quartier libre n°171</unittitle>
@@ -6865,7 +6865,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641P4d1uL">
           <did>
             <unitid>OBS_JOU_QLI_172</unitid>
             <unittitle>Quartier libre n°172</unittitle>
@@ -6898,7 +6898,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641TOagnp">
           <did>
             <unitid>OBS_JOU_QLI_173</unitid>
             <unittitle>Quartier libre n°173</unittitle>
@@ -6936,7 +6936,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641deC4l5">
           <did>
             <unitid>OBS_JOU_QLI_174</unitid>
             <unittitle>Quartier libre n°174</unittitle>
@@ -6964,7 +6964,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XV0Axw">
           <did>
             <unitid>OBS_JOU_QLI_175</unitid>
             <unittitle>Quartier libre n°175</unittitle>
@@ -6992,7 +6992,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641hIsWha">
           <did>
             <unitid>OBS_JOU_QLI_176</unitid>
             <unittitle>Quartier libre n°176</unittitle>
@@ -7032,7 +7032,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jDdLbx">
           <did>
             <unitid>OBS_JOU_QLI_177</unitid>
             <unittitle>Quartier libre n°177</unittitle>
@@ -7063,7 +7063,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XVb41r">
           <did>
             <unitid>OBS_JOU_QLI_178</unitid>
             <unittitle>Quartier libre n°178</unittitle>
@@ -7091,7 +7091,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fDG0PR">
           <did>
             <unitid>OBS_JOU_QLI_179</unitid>
             <unittitle>Quartier libre n°179</unittitle>
@@ -7124,7 +7124,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641fBSbC8">
           <did>
             <unitid>OBS_JOU_QLI_180</unitid>
             <unittitle>Quartier libre n°180</unittitle>
@@ -7154,7 +7154,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244641niQhgW">
         <did>
           <unitid>OBS_JOU_FRM</unitid>
           <unittitle>Le Fresnoy - Mackellerie</unittitle>
@@ -7166,7 +7166,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
           <geogname source="quartier" coord="[ [ 50.68760514465738, 3.152384804388375 ], [ 50.68777811029603, 3.152674984000186 ], [ 50.68796528759438, 3.152991370068673 ], [ 50.68814890705099, 3.153304011320128 ], [ 50.68837210216168, 3.153676575603266 ], [ 50.68854387739146, 3.153966759049486 ], [ 50.68869195756299, 3.154217627961619 ], [ 50.68886255264419, 3.154500337347049 ], [ 50.68903196589394, 3.15477818560717 ], [ 50.68918832904758, 3.155049642845499 ], [ 50.68935583472035, 3.155333468510182 ], [ 50.6895086411218, 3.155599311470862 ], [ 50.68966737586465, 3.15587077981154 ], [ 50.68980834610415, 3.156108556807393 ], [ 50.68997537642884, 3.156390146176634 ], [ 50.69014003116997, 3.156672851646173 ], [ 50.69031060939749, 3.156964920799213 ], [ 50.69044801729496, 3.157200823815911 ], [ 50.69061029095458, 3.1574872650441 ], [ 50.69075836356346, 3.157738154684537 ], [ 50.6909028669298, 3.157994641453245 ], [ 50.69107343471747, 3.158292326427639 ], [ 50.69128190721562, 3.158653674247769 ], [ 50.69143351978217, 3.158919533773008 ], [ 50.69162749972451, 3.159239009596599 ], [ 50.69187657403337, 3.159599281040219 ], [ 50.69204628309145, 3.159822592919166 ], [ 50.69221355223446, 3.160022573317816 ], [ 50.69237191809982, 3.160203989009129 ], [ 50.69254642486467, 3.160388446768991 ], [ 50.69270670717938, 3.160556414789002 ], [ 50.69287362710407, 3.160731879885371 ], [ 50.69311643889674, 3.160993504954587 ], [ 50.69334271801396, 3.161217213762514 ], [ 50.69352340750445, 3.161392729007759 ], [ 50.69371975537473, 3.161577265507074 ], [ 50.69389193498026, 3.161723599499463 ], [ 50.69410825112048, 3.161888017590183 ], [ 50.69435162186583, 3.16206149700094 ], [ 50.69459926925626, 3.162232748444493 ], [ 50.69486114902588, 3.162413020243231 ], [ 50.69522691791642, 3.162672128278804 ], [ 50.69548878505257, 3.162861374453586 ], [ 50.69577485161737, 3.163064158271605 ], [ 50.69602818638366, 3.163242167279414 ], [ 50.69629575635273, 3.163426952331124 ], [ 50.69654911696514, 3.163584778600947 ], [ 50.69678685132483, 3.163708912995192 ], [ 50.69706161137747, 3.16384214107906 ], [ 50.69734493608807, 3.163961939800346 ], [ 50.69767242281372, 3.164080763964513 ], [ 50.69801328809313, 3.164191177453778 ], [ 50.69811372545808, 3.163899749324501 ], [ 50.6982652928898, 3.163606818226042 ], [ 50.70004939715289, 3.160925156584554 ], [ 50.70013873388848, 3.161080879738868 ], [ 50.70200664435416, 3.160776354236229 ], [ 50.70276178974227, 3.160662879353759 ], [ 50.70306120741378, 3.160621990888837 ], [ 50.7034912666712, 3.160553661098696 ], [ 50.70381190480082, 3.16050184732436 ], [ 50.70400610981981, 3.16045788895853 ], [ 50.70388889812844, 3.160261686875487 ], [ 50.70384444840144, 3.160190145578696 ], [ 50.70373757379124, 3.160046757300561 ], [ 50.70371979403242, 3.160018140364501 ], [ 50.70370201426478, 3.159989524861785 ], [ 50.70366635664097, 3.159946446510556 ], [ 50.70363919706843, 3.159974289810716 ], [ 50.70361203748853, 3.160002133080819 ], [ 50.70353202800287, 3.159873361659653 ], [ 50.70345211731578, 3.159730438118938 ], [ 50.7033810959443, 3.159601820496314 ], [ 50.70334573223532, 3.15951628377273 ], [ 50.70328350213424, 3.15941612743789 ], [ 50.7032480402918, 3.159344744901215 ], [ 50.70323915077463, 3.159330436696214 ], [ 50.70322088083696, 3.159372588294994 ], [ 50.70312073946513, 3.159554880935648 ], [ 50.70299324125819, 3.159793324946751 ], [ 50.70298415478705, 3.159807324360309 ], [ 50.70293862704214, 3.159891469509862 ], [ 50.70277694162861, 3.159874536265865 ], [ 50.70261515901208, 3.159871755430721 ], [ 50.70250720525294, 3.159884054757036 ], [ 50.70239925147504, 3.159896354030396 ], [ 50.70235431203872, 3.159895580540771 ], [ 50.70231826206214, 3.159909116505295 ], [ 50.70228230925127, 3.159908498831757 ], [ 50.70221050438415, 3.159893107074403 ], [ 50.70211163705159, 3.159891407105837 ], [ 50.70187804846596, 3.159873238862434 ], [ 50.7018422926468, 3.159844315652499 ], [ 50.70166321929727, 3.159742153481204 ], [ 50.70161847589522, 3.159713077522627 ], [ 50.70129637960858, 3.159495225446907 ], [ 50.70118002531913, 3.159422453909792 ], [ 50.70105468431524, 3.159349529813976 ], [ 50.70093833079574, 3.159276758968496 ], [ 50.70075036716381, 3.159160296026676 ], [ 50.70073239116318, 3.159159987469252 ], [ 50.70071480706825, 3.15910306903869 ], [ 50.69966802101357, 3.157089390276303 ], [ 50.69949060603696, 3.1567466583301 ], [ 50.69945514246226, 3.156675281667049 ], [ 50.69942856872649, 3.156618211736774 ], [ 50.69938421428694, 3.15653252864089 ], [ 50.69930410392881, 3.156417927809257 ], [ 50.69890325490657, 3.15588738149327 ], [ 50.69889436403634, 3.155873075138068 ], [ 50.69876081187404, 3.155686794174515 ], [ 50.69866282216987, 3.15555773484429 ], [ 50.69860049087969, 3.155471748185276 ], [ 50.69852037855071, 3.155357152249213 ], [ 50.69847573146022, 3.155313926648909 ], [ 50.69839561897429, 3.155199328424241 ], [ 50.69831550637137, 3.155084731978598 ], [ 50.69826206570278, 3.15501305110747 ], [ 50.69824418713129, 3.154998592979144 ], [ 50.69815518422701, 3.154869691236408 ], [ 50.69811063442609, 3.154812316762185 ], [ 50.69800375179905, 3.154668956336259 ], [ 50.69796818949005, 3.1546117356672 ], [ 50.69795031086581, 3.154597276353778 ], [ 50.69779546842635, 3.154891853104486 ], [ 50.69777719984437, 3.15493400174478 ], [ 50.69767696664173, 3.155130435786397 ], [ 50.6973578995113, 3.155776032010501 ], [ 50.697139161859, 3.156211040299772 ], [ 50.69708445233413, 3.156323329463504 ], [ 50.69704801271221, 3.156393470920033 ], [ 50.69689521623477, 3.156390856813959 ], [ 50.69654448709427, 3.156413162399532 ], [ 50.69640956895893, 3.156425006357436 ], [ 50.69628461593203, 3.156295491794671 ], [ 50.69620440644506, 3.156195048916547 ], [ 50.69607945224112, 3.156065536866563 ], [ 50.6960081334454, 3.155979397487307 ], [ 50.6959366202539, 3.15592156484694 ], [ 50.69580248199972, 3.155820201273245 ], [ 50.69570419923485, 3.155733603185121 ], [ 50.69558754990849, 3.15570330510903 ], [ 50.69543514341865, 3.155644087827933 ], [ 50.6952646631339, 3.155598715308341 ], [ 50.69520194217765, 3.155569338106565 ], [ 50.69517497838791, 3.155568877253826 ], [ 50.69514811126979, 3.155554266200582 ], [ 50.69506751169868, 3.155510428902028 ], [ 50.69487934777425, 3.155422299604813 ], [ 50.69470906326104, 3.155348626782565 ], [ 50.6946460495567, 3.155361701802718 ], [ 50.69457424240305, 3.155346323134093 ], [ 50.69456525386632, 3.155346169556459 ], [ 50.69454727858893, 3.155345860994227 ], [ 50.69449344760118, 3.155330789524835 ], [ 50.6943500292243, 3.155271728230994 ], [ 50.69429639328131, 3.155228355570816 ], [ 50.69416225503009, 3.155126997168703 ], [ 50.6941533640075, 3.155112693713316 ], [ 50.69412659521054, 3.155083931881334 ], [ 50.6940552755228, 3.154997800077322 ], [ 50.69403739684048, 3.15498334034157 ], [ 50.69393041716214, 3.154854145290902 ], [ 50.69384131695314, 3.154739406137892 ], [ 50.69361856412237, 3.154452558620349 ], [ 50.69358300148036, 3.154395343107657 ], [ 50.69354753624221, 3.154323976514402 ], [ 50.69349409475361, 3.154252303268141 ], [ 50.69343185948746, 3.154152178788904 ], [ 50.69336073477624, 3.154037748699245 ], [ 50.69335184361942, 3.154023444252769 ], [ 50.69320959203361, 3.153794586535676 ], [ 50.69310280569865, 3.153637092665077 ], [ 50.69276340057738, 3.153319962029804 ], [ 50.69250430248795, 3.153089117839114 ], [ 50.6920842947462, 3.152728170126798 ], [ 50.69184307432879, 3.152511787505082 ], [ 50.69183418387356, 3.152497483764663 ], [ 50.69090505756467, 3.151660886964953 ], [ 50.69076221936955, 3.151516943753439 ], [ 50.69070848561992, 3.151487727167057 ], [ 50.6901419458679, 3.151520545500147 ], [ 50.68955743020474, 3.151553057332102 ], [ 50.68934123052486, 3.151620135282068 ], [ 50.68919713032172, 3.151660136007774 ], [ 50.68904433284818, 3.151657536732247 ], [ 50.6889634406873, 3.151656160653573 ], [ 50.68874801778865, 3.1516100445133 ], [ 50.68856864461511, 3.151550390526987 ], [ 50.68798606873053, 3.151299925977903 ], [ 50.6879770809976, 3.151299773148235 ], [ 50.68776262749037, 3.151112169735808 ], [ 50.68774853389716, 3.151201221591102 ], [ 50.68757787557195, 3.151577677169098 ], [ 50.68748238384487, 3.151788321164855 ], [ 50.68738649676966, 3.152006417298455 ] ]">Fresnoy Mackellerie</geogname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR26008" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m017812446413TPqa5">
           <did>
             <unitid>OBS_JOU_FRM_1979_001</unitid>
             <unittitle>Fresnoy-Mackellerie Magazine n° 1</unittitle>
@@ -7189,7 +7189,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641gxShbU">
           <did>
             <unitid>OBS_JOU_FRM_1981_002</unitid>
             <unittitle>Fresnoy-Mackellerie Magazine n° 2</unittitle>
@@ -7220,7 +7220,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641yALAyg">
           <did>
             <unitid>OBS_JOU_FRM_1982_003</unitid>
             <unittitle>Fresnoy-Mackellerie n° 3</unittitle>
@@ -7251,7 +7251,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641aSDdqU">
           <did>
             <unitid>OBS_JOU_FRM_1985_004</unitid>
             <unittitle>Le Fresnoy - Mackellerie n° 4</unittitle>
@@ -7278,7 +7278,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446414Ewuj7">
           <did>
             <unitid>OBS_JOU_FRM_1986_005</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 5</unittitle>
@@ -7309,7 +7309,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641jJp6pI">
           <did>
             <unitid>OBS_JOU_FRM_1995_001</unitid>
             <unittitle>Le Mouvaux 68</unittitle>
@@ -7339,7 +7339,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641HAmnoU">
           <did>
             <unitid>OBS_JOU_FRM_1997_003</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 3</unittitle>
@@ -7364,7 +7364,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641YOA6cx">
           <did>
             <unitid>OBS_JOU_FRM_1998_004</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 4</unittitle>
@@ -7394,7 +7394,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XILbXH">
           <did>
             <unitid>OBS_JOU_FRM_1999_006</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 6</unittitle>
@@ -7423,7 +7423,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641zwYJHU">
           <did>
             <unitid>OBS_JOU_FRM_2004_021</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 21</unittitle>
@@ -7456,7 +7456,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641QxsZd9">
           <did>
             <unitid>OBS_JOU_FRM_2005_023</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 23</unittitle>
@@ -7481,7 +7481,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641wTzsCP">
           <did>
             <unitid>OBS_JOU_FRM_2006_024</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 24</unittitle>
@@ -7507,7 +7507,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641dC0Ve3">
           <did>
             <unitid>OBS_JOU_FRM_2006_025</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 25</unittitle>
@@ -7532,7 +7532,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641qJydT7">
           <did>
             <unitid>OBS_JOU_FRM_2006_026</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 26</unittitle>
@@ -7559,7 +7559,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446419tafqy">
           <did>
             <unitid>OBS_JOU_FRM_2007_027</unitid>
             <unittitle>Le Fresnoy-Mackellerie N° 27</unittitle>
@@ -7585,7 +7585,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446411gxTFC">
           <did>
             <unitid>OBS_JOU_FRM_2008_029</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 29</unittitle>
@@ -7612,7 +7612,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ViLBtx">
           <did>
             <unitid>OBS_JOU_FRM_2009_030</unitid>
             <unittitle>Le Fresnoy-Mackellerie n° 30</unittitle>
@@ -7638,7 +7638,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641wHJoaC">
           <did>
             <unitid>OBS_JOU_FRM_2008_001A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 1</unittitle>
@@ -7664,7 +7664,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZIegyT">
           <did>
             <unitid>OBS_JOU_FRM_2008_002A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 2</unittitle>
@@ -7690,7 +7690,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641adD18l">
           <did>
             <unitid>OBS_JOU_FRM_2008_003A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 3</unittitle>
@@ -7714,7 +7714,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446418pCeQI">
           <did>
             <unitid>OBS_JOU_FRM_2008_004A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 4</unittitle>
@@ -7738,7 +7738,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641A0iozC">
           <did>
             <unitid>OBS_JOU_FRM_2008_005A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 5</unittitle>
@@ -7763,7 +7763,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641auc0Q3">
           <did>
             <unitid>OBS_JOU_FRM_2008_006A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 6</unittitle>
@@ -7787,7 +7787,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641vrVR8W">
           <did>
             <unitid>OBS_JOU_FRM_2008_007A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 7</unittitle>
@@ -7811,7 +7811,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641hf2JVO">
           <did>
             <unitid>OBS_JOU_FRM_2009_008A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 8</unittitle>
@@ -7841,7 +7841,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641REJ5tI">
           <did>
             <unitid>OBS_JOU_FRM_2009_009A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 9</unittitle>
@@ -7871,7 +7871,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641rvEJLx">
           <did>
             <unitid>OBS_JOU_FRM_2009_012A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 12</unittitle>
@@ -7898,7 +7898,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641MzQQHS">
           <did>
             <unitid>OBS_JOU_FRM_2009_013A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 13</unittitle>
@@ -7924,7 +7924,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641FYhLjb">
           <did>
             <unitid>OBS_JOU_FRM_2009_014A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 14</unittitle>
@@ -7949,7 +7949,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641Ynyqhx">
           <did>
             <unitid>OBS_JOU_FRM_2009_016A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 16</unittitle>
@@ -7968,7 +7968,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641nmCj5u">
           <did>
             <unitid>OBS_JOU_FRM_2009_017A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 17</unittitle>
@@ -8006,7 +8006,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446419yCjju">
           <did>
             <unitid>OBS_JOU_FRM_2009_018A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 18</unittitle>
@@ -8031,7 +8031,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641WsxGVO">
           <did>
             <unitid>OBS_JOU_FRM_2010_019B</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 19</unittitle>
@@ -8060,7 +8060,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641hQo3cs">
           <did>
             <unitid>OBS_JOU_FRM_2010_020A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 20</unittitle>
@@ -8085,7 +8085,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641DtyrGB">
           <did>
             <unitid>OBS_JOU_FRM_2010_021A</unitid>
             <unittitle>Infos pratiques du comité de quartier n° 21</unittitle>
@@ -8109,7 +8109,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641XLFTbI">
           <did>
             <unitid>OBS_JOU_FRM_2008_001B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 1</unittitle>
@@ -8134,7 +8134,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446416UrMY1">
           <did>
             <unitid>OBS_JOU_FRM_2008_002B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 2</unittitle>
@@ -8158,7 +8158,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641xCVYGX">
           <did>
             <unitid>OBS_JOU_FRM_2008_003B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 3</unittitle>
@@ -8181,7 +8181,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641EmmI8l">
           <did>
             <unitid>OBS_JOU_FRM_2009_004B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 4</unittitle>
@@ -8204,7 +8204,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641bnoVCH">
           <did>
             <unitid>OBS_JOU_FRM_2009_005B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 5</unittitle>
@@ -8230,7 +8230,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641aFSpoL">
           <did>
             <unitid>OBS_JOU_FRM_2009_006B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 6</unittitle>
@@ -8255,7 +8255,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244641ZHiBhg">
           <did>
             <unitid>OBS_JOU_FRM_2010_007B</unitid>
             <unittitle>Feuille verte du Fresnoy Mackellerie n° 7</unittitle>

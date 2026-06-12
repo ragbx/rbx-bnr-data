@@ -24,6 +24,10 @@ liste_instruments_recherche_{date}_transfert_mnesys.xlsx sont traités.
 
 Les fichiers EAD transformés sont stockés dans `results/ead/ead_cor/bnr2mnesys/`.
 
+La concordance ir / unitid / id (cf. étape 4) est tenue dans
+`results/ead/ead_cor/concordance_id.csv` : créée à la première exécution, elle est
+rechargée aux exécutions suivantes pour réattribuer les mêmes id.
+
 ---
 
 ## Utilisation
@@ -53,7 +57,16 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   Lors du déplacement, les `<name>` sont reclassés en `<persname>` ou `<corpname>` selon la
   liste CSV si une correspondance est trouvée.
 
-### 4. Ajout des anciens ARK BnR
+### 4. Ajout des attributs `id`
+- Chaque `<archdesc>` et `<c>` sans attribut `id` en reçoit un, généré au format Mnesys
+  avec le préfixe `m0` (cf. `scripts/ead/mnesys_id.py`).
+- Les id générés sont consignés dans la concordance ir / unitid / id
+  (`results/ead/ead_cor/concordance_id.csv`). Aux exécutions suivantes, si une entrée
+  existe pour (ir, unitid), l'id qu'elle contient est repris : les id restent stables
+  d'une itération à l'autre. Les éléments sans `<did>/<unitid>` reçoivent un id nouveau
+  à chaque exécution (pas de clé de concordance).
+
+### 5. Ajout des anciens ARK BnR
 - Pour chaque élément `<c>` dont le `<unitid>` figure dans la table de correspondance OAI,
   une balise pointant vers l'ancien ARK BnR (`https://www.bn-r.fr/ark:/20179/<osiros_id>`)
   est insérée selon trois cas :
@@ -63,28 +76,28 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   - Ni `<dao>` ni `<daogrp>` → création d'un `<dao role="publication:previous">` pointant vers l'ARK.
 - Dans les cas 2 et 3, la balise est insérée avant le premier enfant `<c>` s'il existe.
 
-### 5. Mise à jour des rôles des `<dao>`
+### 6. Mise à jour des rôles des `<dao>`
 - Pour tous les éléments `<dao>` et `<daoloc>` dont l'attribut `role` commence par `image`,
   le préfixe `access:` est ajouté devant la valeur existante.
 
-### 6. Ajout des chemins de conservation
+### 7. Ajout des chemins de conservation
 - Pour chaque `<dao>`/`<daoloc>` dont le `href` correspond (par basename sans extension) à un
   fichier du CSV de référence (s3_key non null), un nouveau `<daoloc role="preservation:...">`
   est ajouté avec le chemin S3 (`s3_key`). Le `role` est obtenu en remplaçant `access:` par
   `preservation:` dans le `role` de l'élément source.
 - Si le `<dao>` est isolé (hors `<daogrp>`), il est converti en `<daogrp>` + `<daoloc>` au préalable.
 
-### 7. Tri des `<daoloc>` dans les `<daogrp>`
+### 8. Tri des `<daoloc>` dans les `<daogrp>`
 - Dans chaque `<daogrp>`, les `<daoloc>` sont réordonnés : `preservation:` en premier,
   `access:` ensuite, `publication:` en dernier.
 
-### 8. Reclassement des balises `<name>`
+### 9. Reclassement des balises `<name>`
 - Dans `<controlaccess>`, les balises `<name>` sont remplacées par `<persname>` ou `<corpname>`
   selon la liste CSV. Les `<name>` sans correspondance sont laissés tels quels.
 
-### 9. Suppression des `<repository>` hors contexte
+### 10. Suppression des `<repository>` hors contexte
 - Toutes les balises `<repository>` situées en dehors de `<archdesc/did>` sont supprimées.
 
-### 10. Nettoyage final
+### 11. Nettoyage final
 - Suppression des attributs dont la valeur est une chaîne vide.
 - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant non vide).

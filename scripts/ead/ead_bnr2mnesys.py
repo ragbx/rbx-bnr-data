@@ -17,6 +17,9 @@ Données d'entrée
 Résultats
 ---------
 Les fichiers EAD transformés sont écrits dans results/ead/ead_cor/bnr2mnesys/.
+La concordance ir / unitid / id (cf. étape 4) est tenue dans
+results/ead/ead_cor/concordance_id.csv : créée à la première exécution, elle
+est rechargée aux exécutions suivantes pour réattribuer les mêmes id.
 
 Pipeline de transformations
 ---------------------------
@@ -37,7 +40,16 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      Lors du déplacement, les <name> sont reclassés en <persname> ou <corpname> selon la
      liste CSV si une correspondance est trouvée.
 
-4. Ajout des anciens ARK BnR
+4. Ajout des attributs id
+   - Chaque <archdesc> et <c> sans attribut id en reçoit un, généré au format
+     Mnesys avec le préfixe "m0" (cf. scripts/ead/mnesys_id.py).
+   - Les id générés sont consignés dans la concordance ir / unitid / id
+     (results/ead/ead_cor/concordance_id.csv). Aux exécutions suivantes, si une
+     entrée existe pour (ir, unitid), l'id qu'elle contient est repris : les id
+     restent stables d'une itération à l'autre. Les éléments sans <did>/<unitid>
+     reçoivent un id nouveau à chaque exécution (pas de clé de concordance).
+
+5. Ajout des anciens ARK BnR
    - Pour chaque élément <c> dont le <unitid> figure dans la table de correspondance OAI,
      une balise pointant vers l'ancien ARK BnR (https://www.bn-r.fr/ark:/20179/<osiros_id>)
      est insérée selon trois cas :
@@ -47,29 +59,29 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
        * Ni <dao> ni <daogrp> → création d'un <dao role="publication:previous"> pointant vers l'ARK.
      Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> s'il existe.
 
-5. Mise à jour des rôles des <dao>
+6. Mise à jour des rôles des <dao>
    - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image",
      le préfixe "access:" est ajouté devant la valeur existante.
 
-6. Ajout des chemins de conservation
+7. Ajout des chemins de conservation
    - Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension) à un
      fichier du CSV de référence (s3_key non null), un nouveau <daoloc role="preservation:...">
      est ajouté avec le chemin S3 (s3_key). Le role est obtenu en remplaçant "access:" par
      "preservation:" dans le role de l'élément source.
    - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
 
-7. Tri des <daoloc> dans les <daogrp>
+8. Tri des <daoloc> dans les <daogrp>
    - Dans chaque <daogrp>, les <daoloc> sont réordonnés : preservation: en premier,
      access: ensuite, publication: en dernier.
 
-8. Reclassement des balises <name>
+9. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
      selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
 
-9. Suppression des <repository> hors contexte
+10. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-10. Nettoyage final
+11. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -83,6 +95,8 @@ from os.path import basename, exists, join, splitext
 
 import pandas as pd
 from lxml import etree
+
+from mnesys_id import nouvel_id
 
 
 class EADbnr2mnesys:
@@ -110,6 +124,12 @@ class EADbnr2mnesys:
         self.input_dir = join("data", "ead", "bnr")
         self.output_dir = join("results", "ead", "ead_cor", "bnr2mnesys")
 
+        # Concordance ir / unitid / id : créée à la première exécution, elle est
+        # rechargée ensuite pour réattribuer les mêmes id (cf. _add_ids).
+        self.concordance_path = join("results", "ead", "ead_cor", "concordance_id.csv")
+        self.concordance = self._load_concordance(self.concordance_path)
+        self.ids_attribues = {ligne["id"] for ligne in self.concordance}
+
     def _load_names(self, csv_path):
         """Charge les noms (persname/corpname) depuis un CSV."""
         names = pd.read_csv(csv_path)
@@ -128,6 +148,18 @@ class EADbnr2mnesys:
         """Charge la liste des instruments de recherche depuis un Excel."""
         irs = pd.read_excel(excel_path)
         return irs[irs["statut"] == "TRANSFERER"]
+
+    def _load_concordance(self, csv_path):
+        """Charge la concordance ir / unitid / id des exécutions précédentes."""
+        if not exists(csv_path):
+            return []
+        return pd.read_csv(csv_path, dtype=str).to_dict(orient="records")
+
+    def _save_concordance(self):
+        """Écrit la concordance ir / unitid / id, rechargée aux exécutions suivantes."""
+        pd.DataFrame(self.concordance, columns=["ir", "unitid", "id"]).to_csv(
+            self.concordance_path, index=False
+        )
 
     def _load_files(self, csv_path):
         """Charge les chemins de conservation depuis un CSV, indexés par nom de fichier sans extension."""
@@ -391,6 +423,44 @@ class EADbnr2mnesys:
     def _update_controlaccess_source(self):
         pass
 
+    def _add_ids(self, element, ir_id):
+        """
+        Ajoute un attribut id (format Mnesys, préfixe "m0") aux <archdesc> et <c>
+        qui n'en ont pas.
+
+        Si la concordance contient une entrée pour (ir, unitid), l'id qu'elle
+        contient est repris ; sinon un nouvel id est généré et consigné dans la
+        concordance. Les unitid en doublon dans un même IR sont appariés dans
+        l'ordre du document. Les éléments sans <did>/<unitid> reçoivent un id
+        nouveau à chaque exécution (pas de clé de concordance).
+        """
+        disponibles = {}
+        for ligne in self.concordance:
+            if ligne["ir"] == ir_id:
+                disponibles.setdefault(ligne["unitid"], []).append(ligne["id"])
+
+        for el in element.iter("archdesc", "c"):
+            if el.get("id"):
+                self.ids_attribues.add(el.get("id"))
+                continue
+
+            unitid_el = el.find("./did/unitid")
+            unitid = (
+                unitid_el.text.strip()
+                if unitid_el is not None and unitid_el.text and unitid_el.text.strip()
+                else None
+            )
+
+            if unitid and disponibles.get(unitid):
+                el.set("id", disponibles[unitid].pop(0))
+            else:
+                nouveau = nouvel_id(self.ids_attribues, prefixe="m0")
+                el.set("id", nouveau)
+                if unitid:
+                    self.concordance.append(
+                        {"ir": ir_id, "unitid": unitid, "id": nouveau}
+                    )
+
     def transform_ead(self, ir):
         """
         Applique toutes les transformations à un fichier EAD.
@@ -419,6 +489,7 @@ class EADbnr2mnesys:
         self._remove_html_entities(root)
         self._strip_whitespace(root)
         self._move_origination(root)
+        self._add_ids(root, str(ir["nouveau_ead_id"]))
         self._add_dao_ark(root)
         self._update_dao_roles(root)
         self._add_conservation_daoloc(root)
@@ -443,6 +514,7 @@ class EADbnr2mnesys:
         """Exécute la transformation pour tous les instruments de recherche."""
         for ir in self.irs.to_dict(orient="records"):
             self.transform_ead(ir)
+        self._save_concordance()
 
 
 # --- Utilisation ---

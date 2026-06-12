@@ -94,7 +94,7 @@ def ajouter_daogrp(c, fichiers):
 
 def nouvel_element_c(parent, level, deja_pris):
     c = etree.SubElement(parent, "c")
-    c.set("id", nouvel_id(deja_pris))
+    c.set("id", nouvel_id(deja_pris, prefixe="m0"))
     c.set("level", level)
     return c
 
@@ -163,7 +163,7 @@ def construire_ead_presse(corpus_code, df, eadid, titre, deja_pris):
     df = df.dropna(subset=["annee", "mois", "jour"])
 
     tree, archdesc, dsc = squelette_ead(eadid, titre)
-    archdesc.set("id", nouvel_id(deja_pris))
+    archdesc.set("id", nouvel_id(deja_pris, prefixe="m0"))
 
     for annee, df_annee in df.groupby("annee"):
         c_annee = nouvel_element_c(dsc, "series", deja_pris)
@@ -212,7 +212,7 @@ def construire_ead_registre(corpus_code, df, eadid, titre, deja_pris):
     df["page"] = df["name"].apply(numero_page)
 
     tree, archdesc, dsc = squelette_ead(eadid, titre)
-    archdesc.set("id", nouvel_id(deja_pris))
+    archdesc.set("id", nouvel_id(deja_pris, prefixe="m0"))
 
     unitids = sorted(df["unitid"].unique(), key=numero_registre)
     for unitid in unitids:

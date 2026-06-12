@@ -20,7 +20,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244640WzBS7b">
     <did>
       <unitid>MED_PLA</unitid>
       <unittitle>Collection des cartes et plans de la médiathèque</unittitle>
@@ -35,7 +35,7 @@
 &lt;p style="text-align: justify;"&gt;Cette collection regroupe tous les types de plans, cartes et maquettes sans distinction de thématique.&lt;/p&gt;</p>
     </scopecontent>
     <dsc>
-      <c level="series">
+      <c level="series" id="m01781244640STFqOL">
         <did>
           <unitid>PLA_A</unitid>
           <unittitle>Cartes et plans de grand format</unittitle>
@@ -44,7 +44,7 @@
           <genreform>Cartes et plans</genreform>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR134835" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244640ILv6VO">
           <did>
             <unitid>PLA_A_001</unitid>
             <unittitle>Vraie description des Gaules, avec les confins d'Allemagne, &amp; Italye</unittitle>
@@ -62,7 +62,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134836" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640tMBsQq">
           <did>
             <unitid>PLA_A_004</unitid>
             <unittitle>Filature de coton Motte-Bossut</unittitle>
@@ -89,7 +89,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446401RYV1H">
           <did>
             <unitid>PLA_A_005</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -114,7 +114,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134838" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640YZ25Sr">
           <did>
             <unitid>PLA_A_006</unitid>
             <unittitle>Roubaix, la mutation : 7 ans de réalisation</unittitle>
@@ -132,7 +132,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134839" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640FFglrj">
           <did>
             <unitid>PLA_A_008</unitid>
             <unittitle>Département du Nord : Arrondissement de Lille</unittitle>
@@ -154,7 +154,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134840" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640upXpCQ">
           <did>
             <unitid>PLA_A_009</unitid>
             <unittitle>Ville de Lille</unittitle>
@@ -173,7 +173,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134841" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640BeTnHD">
           <did>
             <unitid>PLA_A_010</unitid>
             <unittitle>Nouvelle carte physique de l'Amérique du Nord</unittitle>
@@ -194,7 +194,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134842" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640EHzfoo">
           <did>
             <unitid>PLA_A_011</unitid>
             <unittitle>Nouvelle carte physique de l'Amérique du Sud</unittitle>
@@ -215,7 +215,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134843" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446402A8mW3">
           <did>
             <unitid>PLA_A_012</unitid>
             <unittitle>France</unittitle>
@@ -235,7 +235,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134844" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ET91Vn">
           <did>
             <unitid>PLA_A_013</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -258,7 +258,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134845" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Y0vTAH">
           <did>
             <unitid>PLA_A_014</unitid>
             <unittitle>Département du Nord</unittitle>
@@ -280,7 +280,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134846" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640eJJZ7g">
           <did>
             <unitid>PLA_A_015</unitid>
             <unittitle>Nouvelle carte postale de la France à l'usage des voyageurs</unittitle>
@@ -302,7 +302,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134847" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640BB65fP">
           <did>
             <unitid>PLA_A_016</unitid>
             <unittitle>Carte pittoresque et maritime de l'Europe</unittitle>
@@ -324,7 +324,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134848" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IJ1pfO">
           <did>
             <unitid>PLA_A_018</unitid>
             <unittitle>Localisation des établissements scolaires du secteur public et privé</unittitle>
@@ -342,7 +342,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134849" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640qddHzR">
           <did>
             <unitid>PLA_A_019</unitid>
             <unittitle>Plan général de la ville et territoire de Roubaix</unittitle>
@@ -362,7 +362,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134850" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640nsMpJg">
           <did>
             <unitid>PLA_A_020</unitid>
             <unittitle>Extrait du plan cadastral de la commune de Roubaix</unittitle>
@@ -381,7 +381,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134851" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640qxUX2D">
           <did>
             <unitid>PLA_A_021</unitid>
             <unittitle>Ville de Roubaix : plan géométrique comprenant le sentier de Croix</unittitle>
@@ -401,7 +401,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134852" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IuFTjt">
           <did>
             <unitid>PLA_A_022</unitid>
             <unittitle>Ferme de Beaurepaire : projet d'ouverture de rues</unittitle>
@@ -420,7 +420,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134853" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ZaM10u">
           <did>
             <unitid>PLA_A_023</unitid>
             <unittitle>Région Nord - Pas-de-Calais</unittitle>
@@ -440,7 +440,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134854" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640HxsHcn">
           <did>
             <unitid>PLA_A_024</unitid>
             <unittitle>Projet de parc forestier : sise au hameau de Barbieux</unittitle>
@@ -458,7 +458,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134855" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640foFW7J">
           <did>
             <unitid>PLA_A_025</unitid>
             <unittitle>France et sud de l'Angleterre</unittitle>
@@ -473,7 +473,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134856" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AuTUcb">
           <did>
             <unitid>PLA_A_026</unitid>
             <unittitle>Ein Jahr Krieg</unittitle>
@@ -492,7 +492,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134857" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640tHvaL4">
           <did>
             <unitid>PLA_A_027</unitid>
             <unittitle>Cimetières militaires</unittitle>
@@ -513,7 +513,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640wzi51A">
           <did>
             <unitid>PLA_A_028</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -532,7 +532,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134859" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640HyrYEh">
           <did>
             <unitid>PLA_A_029</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -549,7 +549,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134860" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640VofGSJ">
           <did>
             <unitid>PLA_A_030</unitid>
             <unittitle>Plan de la ville de Mouscron et alentours</unittitle>
@@ -564,7 +564,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134861" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640EStGBZ">
           <did>
             <unitid>PLA_A_031</unitid>
             <unittitle>Alerte, les chiens aboient</unittitle>
@@ -588,7 +588,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fOAeLi">
           <did>
             <unitid>PLA_A_032</unitid>
             <unittitle>Plan de la ville de Roubaix</unittitle>
@@ -603,7 +603,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134863" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Ps2TTE">
           <did>
             <unitid>PLA_A_033</unitid>
             <unittitle>Métropole lilloise : une métropole européenne</unittitle>
@@ -618,7 +618,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134864" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rROlv3">
           <did>
             <unitid>PLA_A_034</unitid>
             <unittitle>Plan de la ville de Roubaix</unittitle>
@@ -633,7 +633,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134865" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Opvydt">
           <did>
             <unitid>PLA_A_035</unitid>
             <unittitle>Plan de la ville de Roubaix</unittitle>
@@ -653,7 +653,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134866" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640s6lpjO">
           <did>
             <unitid>PLA_A_037</unitid>
             <unittitle>Carte kilométrique des chemins de fer français et des voies navigables</unittitle>
@@ -670,7 +670,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134867" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640o3LLjP">
           <did>
             <unitid>PLA_A_038</unitid>
             <unittitle>Carte du Nord</unittitle>
@@ -691,7 +691,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640wt7qGd">
           <did>
             <unitid>PLA_A_039</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -707,7 +707,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134869" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640VWQGtT">
           <did>
             <unitid>PLA_A_040</unitid>
             <unittitle>Plan de la commune de Hem</unittitle>
@@ -723,7 +723,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134870" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rIso5m">
           <did>
             <unitid>PLA_A_041</unitid>
             <unittitle>Ouverture d'une rue reliant la Grande Place à la Gare de Chemin de Fer du Nord</unittitle>
@@ -745,7 +745,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Ih0VlX">
           <did>
             <unitid>PLA_A_042</unitid>
             <unittitle>Ouverture d'une rue reliant la Grande Place à la Gare de Chemin du Fer du Nord</unittitle>
@@ -767,7 +767,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Q9ABCS">
           <did>
             <unitid>PLA_A_043</unitid>
             <unittitle>Façade postérieure de l'Hôtel de Ville de Roubaix</unittitle>
@@ -785,7 +785,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134873" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640QouwlU">
           <did>
             <unitid>PLA_A_044</unitid>
             <unittitle>Italie</unittitle>
@@ -803,7 +803,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134874" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IDHbd6">
           <did>
             <unitid>PLA_A_045</unitid>
             <unittitle>Europe Centrale</unittitle>
@@ -818,7 +818,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134875" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446405ibzUs">
           <did>
             <unitid>PLA_A_046</unitid>
             <unittitle>Carte du fonds des océans</unittitle>
@@ -833,7 +833,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134876" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fcluZ8">
           <did>
             <unitid>PLA_A_047</unitid>
             <unittitle>Planisphère</unittitle>
@@ -849,7 +849,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640xbu5SV">
           <did>
             <unitid>PLA_A_048</unitid>
             <unittitle>La France du voyage</unittitle>
@@ -868,7 +868,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464061YrqW">
           <did>
             <unitid>PLA_A_049</unitid>
             <unittitle>La piste de Bison Futé</unittitle>
@@ -887,7 +887,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ULYMqe">
           <did>
             <unitid>PLA_A_050</unitid>
             <unittitle>Carte générale de l'Europe</unittitle>
@@ -904,7 +904,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134880" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640uEjg1W">
           <did>
             <unitid>PLA_A_051</unitid>
             <unittitle>Façades de la Grand'Place de Lille</unittitle>
@@ -919,7 +919,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134881" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640CpdSzq">
           <did>
             <unitid>PLA_A_052</unitid>
             <unittitle>Propriété de M. Cavrois à Croix</unittitle>
@@ -934,7 +934,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134882" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IMzDWl">
           <did>
             <unitid>PLA_A_053</unitid>
             <unittitle>Agrandissement Roubaix Nord</unittitle>
@@ -949,7 +949,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134883" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Mmy7pt">
           <did>
             <unitid>PLA_A_054</unitid>
             <unittitle>Aménagement du bibliobus</unittitle>
@@ -964,7 +964,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134884" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464094Q6hx">
           <did>
             <unitid>PLA_A_055</unitid>
             <unittitle>Plan von Roubaix</unittitle>
@@ -979,7 +979,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134885" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640gxPjB9">
           <did>
             <unitid>PLA_A_056</unitid>
             <unittitle>Propriété de M. Stanislas Nawrocki</unittitle>
@@ -1002,7 +1002,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640L1irSw">
           <did>
             <unitid>PLA_A_057</unitid>
             <unittitle>Propriété de M. Stanislas Nawrocki</unittitle>
@@ -1019,7 +1019,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134887" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446407coyh9">
           <did>
             <unitid>PLA_A_058</unitid>
             <unittitle>Foire commerciale internationale de Lille</unittitle>
@@ -1031,7 +1031,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134888" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640mHPb93">
           <did>
             <unitid>PLA_A_059</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène</unittitle>
@@ -1048,7 +1048,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134889" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446403Y2F4q">
           <did>
             <unitid>PLA_A_060</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène</unittitle>
@@ -1065,7 +1065,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134890" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446402fFV4D">
           <did>
             <unitid>PLA_A_061</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène</unittitle>
@@ -1082,7 +1082,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134891" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AtX3GS">
           <did>
             <unitid>PLA_A_062</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène</unittitle>
@@ -1099,7 +1099,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134892" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640o6gRTe">
           <did>
             <unitid>PLA_A_063</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène</unittitle>
@@ -1116,7 +1116,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134893" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640i02XXz">
           <did>
             <unitid>PLA_A_064</unitid>
             <unittitle>Neufchâtel SW</unittitle>
@@ -1134,7 +1134,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134894" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fZjOL7">
           <did>
             <unitid>PLA_A_065</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1152,7 +1152,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134895" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Emm947">
           <did>
             <unitid>PLA_A_066</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1167,7 +1167,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134896" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640iYZ37B">
           <did>
             <unitid>PLA_A_067</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1185,7 +1185,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134897" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464002Uf3E">
           <did>
             <unitid>PLA_A_068</unitid>
             <unittitle>Plan de maison </unittitle>
@@ -1203,7 +1203,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134898" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640be6WWq">
           <did>
             <unitid>PLA_A_069</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1221,7 +1221,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134899" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446406T218x">
           <did>
             <unitid>PLA_A_070</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1239,7 +1239,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134900" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640M0fjW9">
           <did>
             <unitid>PLA_A_071</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1257,7 +1257,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134901" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640oanaqL">
           <did>
             <unitid>PLA_A_072</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1275,7 +1275,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134902" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640VqbhRi">
           <did>
             <unitid>PLA_A_073</unitid>
             <unittitle>Plan de maison</unittitle>
@@ -1293,7 +1293,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134903" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640PgnFO2">
           <did>
             <unitid>PLA_A_074</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -1315,7 +1315,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134904" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640U1XOmE">
           <did>
             <unitid>PLA_A_075</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : 3 hypothèses</unittitle>
@@ -1333,7 +1333,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134905" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640mTsTsq">
           <did>
             <unitid>PLA_A_076</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : 2e et 3e hypothèses</unittitle>
@@ -1351,7 +1351,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134906" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640LQLHl1">
           <did>
             <unitid>PLA_A_077</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : situation</unittitle>
@@ -1369,7 +1369,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134907" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446402EYmPP">
           <did>
             <unitid>PLA_A_078</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : machinerie</unittitle>
@@ -1387,7 +1387,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134908" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AlRFcv">
           <did>
             <unitid>PLA_A_079</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : du rez-de-chaussée aux caves</unittitle>
@@ -1405,7 +1405,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134909" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640gq5ZtL">
           <did>
             <unitid>PLA_A_080</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : coupe façade</unittitle>
@@ -1423,7 +1423,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134910" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640YlfSwO">
           <did>
             <unitid>PLA_A_081</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : rez-de-chaussée</unittitle>
@@ -1441,7 +1441,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134911" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640W0fErL">
           <did>
             <unitid>PLA_A_082</unitid>
             <unittitle>Plan de la Grande Brasserie Moderne de Roubaix : sous-sol</unittitle>
@@ -1459,7 +1459,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134912" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640nEqI3R">
           <did>
             <unitid>PLA_A_083</unitid>
             <unittitle>Bibliothèque municipale : étage R+2</unittitle>
@@ -1477,7 +1477,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134913" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ACVn90">
           <did>
             <unitid>PLA_A_084</unitid>
             <unittitle>Bibliothèque municipale : étage R+3</unittitle>
@@ -1495,7 +1495,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134914" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640pLUlo3">
           <did>
             <unitid>PLA_A_085</unitid>
             <unittitle>Bibliothèque municipale : projet étage R+2</unittitle>
@@ -1513,7 +1513,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134915" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640aWIrgh">
           <did>
             <unitid>PLA_A_086</unitid>
             <unittitle>Bibliothèque municipale : projet étage R+3</unittitle>
@@ -1531,7 +1531,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134916" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Y39MSl">
           <did>
             <unitid>PLA_A_087</unitid>
             <unittitle>Hôtel de Ville : ensemble du campanile</unittitle>
@@ -1553,7 +1553,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134917" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640UXr1d0">
           <did>
             <unitid>PLA_A_088</unitid>
             <unittitle>Hôtel de Ville : plan de l'entre-sol</unittitle>
@@ -1574,7 +1574,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134918" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IsYr2B">
           <did>
             <unitid>PLA_A_089</unitid>
             <unittitle>Hôtel de Ville : façade principale et latérale</unittitle>
@@ -1599,7 +1599,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640bH5TqI">
           <did>
             <unitid>PLA_A_090</unitid>
             <unittitle>Arrondissement de Lille</unittitle>
@@ -1615,7 +1615,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134920" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AjmLRf">
           <did>
             <unitid>PLA_A_091</unitid>
             <unittitle>Plan espaces bibliothèque : rez-de-chaussée et étage</unittitle>
@@ -1633,7 +1633,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134921" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640qeVEoV">
           <did>
             <unitid>PLA_A_092</unitid>
             <unittitle>Plan espaces bibliothèques : rez-de-chaussée, document de travail</unittitle>
@@ -1651,7 +1651,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134922" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446407lyQJx">
           <did>
             <unitid>PLA_A_093</unitid>
             <unittitle>Groupement d'urbanisme de Lille</unittitle>
@@ -1670,7 +1670,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134923" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640zbFCzg">
           <did>
             <unitid>PLA_A_094</unitid>
             <unittitle>Plan partiel de Roubaix</unittitle>
@@ -1685,7 +1685,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134924" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446405OQ76t">
           <did>
             <unitid>PLA_A_095</unitid>
             <unittitle>Plan partiel de Roubaix</unittitle>
@@ -1700,7 +1700,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134925" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640nSFYF0">
           <did>
             <unitid>PLA_A_096</unitid>
             <unittitle>Plan partiel de Roubaix</unittitle>
@@ -1715,7 +1715,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134926" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ZB3Htp">
           <did>
             <unitid>PLA_A_097</unitid>
             <unittitle>Plan partiel de Roubaix</unittitle>
@@ -1730,7 +1730,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134927" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446409tEiFb">
           <did>
             <unitid>PLA_A_098</unitid>
             <unittitle>Plan partiel de Roubaix</unittitle>
@@ -1745,7 +1745,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134928" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640tDIJp7">
           <did>
             <unitid>PLA_A_099</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -1761,7 +1761,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134929" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640snLrra">
           <did>
             <unitid>PLA_A_100</unitid>
             <unittitle>Plan de Roubaix : limite des 13 quartiers</unittitle>
@@ -1777,7 +1777,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134930" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640xFqvRT">
           <did>
             <unitid>PLA_A_101</unitid>
             <unittitle>Roubaix-Tourcoing</unittitle>
@@ -1796,7 +1796,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134931" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Pw2FIJ">
           <did>
             <unitid>PLA_A_102</unitid>
             <unittitle>Roubaix touristique</unittitle>
@@ -1812,7 +1812,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134932" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640xc5Vhc">
           <did>
             <unitid>PLA_A_103</unitid>
             <unittitle>Nouveau plan de Roubaix monumental, industriel et commercial</unittitle>
@@ -1836,7 +1836,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134933" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640GYeUeE">
           <did>
             <unitid>PLA_A_108</unitid>
             <unittitle>Poste de transformation Usine de Leysse</unittitle>
@@ -1851,7 +1851,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134934" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640BjrTPI">
           <did>
             <unitid>PLA_A_109</unitid>
             <unittitle>Roubaix : thématique équipements</unittitle>
@@ -1863,7 +1863,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134935" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rzF2Du">
           <did>
             <unitid>PLA_A_110</unitid>
             <unittitle>Hôtel de Ville de Roubaix : annexe des services municipaux</unittitle>
@@ -1880,7 +1880,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134936" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640LH1vZF">
           <did>
             <unitid>PLA_A_112</unitid>
             <unittitle>Hôtel de Ville de Roubaix : façade latérale</unittitle>
@@ -1900,7 +1900,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134937" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640iyqeYc">
           <did>
             <unitid>PLA_A_113</unitid>
             <unittitle>Hôtel de Ville de Roubaix : façade latérale</unittitle>
@@ -1920,7 +1920,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134938" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640BLBsl7">
           <did>
             <unitid>PLA_A_114</unitid>
             <unittitle>Hôtel de Ville : vue projetée du plan du premier étage</unittitle>
@@ -1940,7 +1940,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134939" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640EVAebI">
           <did>
             <unitid>PLA_A_115</unitid>
             <unittitle>Hôtel de Ville : vue projetée du rez-de-chaussée</unittitle>
@@ -1960,7 +1960,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134940" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640aJGnJz">
           <did>
             <unitid>PLA_A_116</unitid>
             <unittitle>Hôtel de Ville : vue projetée du plan de l'entresol</unittitle>
@@ -1980,7 +1980,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134941" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640qi0fQZ">
           <did>
             <unitid>PLA_A_117</unitid>
             <unittitle>Hôtel de Ville : façade postérieure</unittitle>
@@ -2000,7 +2000,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134942" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640eBu7gx">
           <did>
             <unitid>PLA_A_118</unitid>
             <unittitle>Hôtel de Ville : vue projetée du plan du sous-sol</unittitle>
@@ -2020,7 +2020,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134943" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446401j17iW">
           <did>
             <unitid>PLA_A_119</unitid>
             <unittitle>La Châtellenie de Lille et le baillage de Tournay</unittitle>
@@ -2035,7 +2035,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134944" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446405GCwDd">
           <did>
             <unitid>PLA_A_002</unitid>
             <unittitle>Livret de présentation de la carte de France de Jolivet</unittitle>
@@ -2043,7 +2043,7 @@
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR134945" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640LLIDOM">
           <did>
             <unitid>PLA_A_007</unitid>
             <unittitle>Roubaix, la mutation : 7 ans de réalisation</unittitle>
@@ -2058,7 +2058,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR134946" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640URL6YU">
           <did>
             <unitid>PLA_A_017</unitid>
             <unittitle>Localisation des établissements scolaires du secteur public et privé</unittitle>
@@ -2073,7 +2073,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR134947" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640I4ioFD">
           <did>
             <unitid>PLA_A_120</unitid>
             <unittitle>Carte du département du Nord</unittitle>
@@ -2085,7 +2085,7 @@
             <persname role="Graveur">Hellé</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640hgnY0a">
           <did>
             <unitid>PLA_A_121</unitid>
             <unittitle>Carte des emplacements des industries textiles et de l'habillement en territoire français occupé</unittitle>
@@ -2096,7 +2096,7 @@
             <p>&lt;p&gt;Le document fait partie d'une série : "L'industrie en France occupée, carte n°4".&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640CEB8r4">
           <did>
             <unitid>PLA_A_122</unitid>
             <unittitle>Cartes des industries et commerces de Roubaix-Tourcoing</unittitle>
@@ -2113,7 +2113,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR134948" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ZH0nO0">
           <did>
             <unitid>PLA_A_123</unitid>
             <unittitle>Lille - Roubaix - Tourcoing et leurs environs</unittitle>
@@ -2125,7 +2125,7 @@
             <corpname role="imprimeur">Imprimerie Dufrenoy</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640TQep2j">
           <did>
             <unitid>PLA_A_124</unitid>
             <unittitle>Les cinq parties du monde</unittitle>
@@ -2136,7 +2136,7 @@
             <p>&lt;p&gt;Il s'agit d'un planisphère comprenant toutes les possessions coloniales, les lignes de chemin de fer et de navigation.&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640FedRq5">
           <did>
             <unitid>PLA_A_125</unitid>
             <unittitle>Profils de tramway en travers types</unittitle>
@@ -2152,7 +2152,7 @@
             <subject source="theme">Transports</subject>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640jG4Q0m">
           <did>
             <unitid>PLA_A_126</unitid>
             <unittitle>Nord</unittitle>
@@ -2166,7 +2166,7 @@
             <p>&lt;p&gt;Don de Madame Prouvost en 2017.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640FFZ345">
           <did>
             <unitid>PLA_A_127</unitid>
             <unittitle>Le parc Barbieux</unittitle>
@@ -2185,7 +2185,7 @@
             <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AxFUwt">
           <did>
             <unitid>PLA_A_128</unitid>
             <unittitle>Plan von Roubaix</unittitle>
@@ -2196,7 +2196,7 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640vyy3jQ">
           <did>
             <unitid>PLA_A_129</unitid>
             <unittitle>Carte des emplacements des industries de la métallurgie</unittitle>
@@ -2207,7 +2207,7 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640YsRTx2">
           <did>
             <unitid>PLA_A_130</unitid>
             <unittitle>Carte topographique Lille</unittitle>
@@ -2218,7 +2218,7 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640D5GMv3">
           <did>
             <unitid>PLA_A_131</unitid>
             <unittitle>Lille</unittitle>
@@ -2229,7 +2229,7 @@
             <p>&lt;p&gt;Don de Monsieur Bernard Thiebaut en juin 2024.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640T1csXx">
           <did>
             <unitid>PLA_A_132</unitid>
             <unittitle>Construction de postes de police</unittitle>
@@ -2240,7 +2240,7 @@
             <corpname role="imprimeur">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446402FolHw">
           <did>
             <unitid>PLA_A_133</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -2256,13 +2256,13 @@
           </controlaccess>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m017812446404LmJCO">
         <did>
           <unitid>PLA_B</unitid>
           <unittitle>Cartes et plans de moyen format</unittitle>
         </did>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR134949" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244640qlBTjr">
           <did>
             <unitid>PLA_B_001</unitid>
             <unittitle>Carte des gouvernements de Flandre française, d'Artois, de Picardie et du Boulenois</unittitle>
@@ -2277,7 +2277,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134950" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Sx7PEJ">
           <did>
             <unitid>PLA_B_002</unitid>
             <unittitle>Gouvernement de Flandre</unittitle>
@@ -2292,7 +2292,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134951" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404uHqOQ">
           <did>
             <unitid>PLA_B_003</unitid>
             <unittitle>Artesia Comitatus</unittitle>
@@ -2307,7 +2307,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134952" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640U3RchH">
           <did>
             <unitid>PLA_B_004</unitid>
             <unittitle>Asie politique</unittitle>
@@ -2330,7 +2330,7 @@
             <persname role="imprimeur">Erhard Frères</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640hW8Pe3">
           <did>
             <unitid>PLA_B_005</unitid>
             <unittitle>Maquette de l'Hôtel de Ville</unittitle>
@@ -2353,7 +2353,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640sQTCP3">
           <did>
             <unitid>PLA_B_008</unitid>
             <unittitle>Une ville en mutation</unittitle>
@@ -2368,7 +2368,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134955" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640eLs0Tw">
           <did>
             <unitid>PLA_B_013</unitid>
             <unittitle>Carte générale de l'Algérie et de la régence de Tunis</unittitle>
@@ -2384,7 +2384,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134956" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Vago9L">
           <did>
             <unitid>PLA_B_014</unitid>
             <unittitle>Roubaix</unittitle>
@@ -2403,7 +2403,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404GT2LR">
           <did>
             <unitid>PLA_B_015</unitid>
             <unittitle>Plan du cimetière de Roubaix</unittitle>
@@ -2418,7 +2418,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134958" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640oDl7Cs">
           <did>
             <unitid>PLA_B_016</unitid>
             <unittitle>Le comté de Hainaut divisé en châtelleries, baillages, prévostés</unittitle>
@@ -2436,7 +2436,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134959" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446406Zjp9A">
           <did>
             <unitid>PLA_B_017</unitid>
             <unittitle>Plan de la route de Roubaix par Croix</unittitle>
@@ -2454,7 +2454,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134960" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446403bmeEH">
           <did>
             <unitid>PLA_B_018</unitid>
             <unittitle>Plan d'une maison d'habitation à construire rue de Lannoy</unittitle>
@@ -2474,7 +2474,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134961" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640HfSM8J">
           <did>
             <unitid>PLA_B_019</unitid>
             <unittitle>Répartition des lecteurs </unittitle>
@@ -2490,7 +2490,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134962" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640CMLFu1">
           <did>
             <unitid>PLA_B_020</unitid>
             <unittitle>Rue de l'Ermitage &amp; Cité Delmaere-Cocheteux</unittitle>
@@ -2505,7 +2505,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134963" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640oSCgej">
           <did>
             <unitid>PLA_B_021</unitid>
             <unittitle>Plan de divers terrains longeant le chemin appelé Ancien chemin de Tourcoing à Lannoy</unittitle>
@@ -2523,7 +2523,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134964" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640h5cF8I">
           <did>
             <unitid>PLA_B_022</unitid>
             <unittitle>Plan des rivières et canaux tranversant la ville de Lille agrandie et sa banlieue</unittitle>
@@ -2539,7 +2539,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134965" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446409obTAj">
           <did>
             <unitid>PLA_B_023</unitid>
             <unittitle>Carte routière du Pas-de-Calais</unittitle>
@@ -2559,7 +2559,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134966" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446400IrA29">
           <did>
             <unitid>PLA_B_024</unitid>
             <unittitle>Carte routière du Nord de la France et Ouest de la Belgique</unittitle>
@@ -2578,7 +2578,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134967" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640OvU9Bf">
           <did>
             <unitid>PLA_B_025</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -2595,7 +2595,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134968" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640xQDTSZ">
           <did>
             <unitid>PLA_B_026</unitid>
             <unittitle>Flandria et Zeelandia comitatus</unittitle>
@@ -2607,7 +2607,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134969" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fQ2qat">
           <did>
             <unitid>PLA_B_027</unitid>
             <unittitle>Pays-Bas catholiques</unittitle>
@@ -2625,7 +2625,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134970" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404T0unc">
           <did>
             <unitid>PLA_B_028</unitid>
             <unittitle>Chastellenie de Lille en Flandre</unittitle>
@@ -2646,7 +2646,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134971" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464004paHo">
           <did>
             <unitid>PLA_B_029</unitid>
             <unittitle>La France en jardins</unittitle>
@@ -2668,7 +2668,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640MbsEg9">
           <did>
             <unitid>PLA_B_030</unitid>
             <unittitle>Plan cadastral</unittitle>
@@ -2680,7 +2680,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134973" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640l855sA">
           <did>
             <unitid>PLA_B_031</unitid>
             <unittitle>Plan de la Ville de Roubaix</unittitle>
@@ -2696,7 +2696,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134974" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404S28Q5">
           <did>
             <unitid>PLA_B_033</unitid>
             <unittitle>Roubaix il y a un siècle</unittitle>
@@ -2715,7 +2715,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134975" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640uqSiUL">
           <did>
             <unitid>PLA_B_034</unitid>
             <unittitle>Plan général de la Ville de Roubaix</unittitle>
@@ -2732,7 +2732,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134976" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fGmdGZ">
           <did>
             <unitid>PLA_B_035</unitid>
             <unittitle>Plan général de la Ville de Roubaix</unittitle>
@@ -2753,7 +2753,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446402v5vtF">
           <did>
             <unitid>PLA_B_036</unitid>
             <unittitle>Plan général de la Ville de Roubaix</unittitle>
@@ -2774,7 +2774,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640uBnQgP">
           <did>
             <unitid>PLA_B_037</unitid>
             <unittitle>Création d'un second cimetière sur les terrains de la ferme de l'Espierre</unittitle>
@@ -2790,7 +2790,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640BACcrF">
           <did>
             <unitid>PLA_B_038</unitid>
             <unittitle>Plan général de la Ville de Roubaix</unittitle>
@@ -2810,7 +2810,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640c5oGjV">
           <did>
             <unitid>PLA_B_039</unitid>
             <unittitle>La route à la carte</unittitle>
@@ -2829,7 +2829,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Sz8dej">
           <did>
             <unitid>PLA_B_040</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -2845,7 +2845,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134982" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640cOyaCC">
           <did>
             <unitid>PLA_B_041</unitid>
             <unittitle>Tableau d'assemblage du plan cadasteral parcellaire de la commune de Roubaix</unittitle>
@@ -2860,7 +2860,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134983" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640jP2bUz">
           <did>
             <unitid>PLA_B_042</unitid>
             <unittitle>Plan de la commune de Roubaix</unittitle>
@@ -2877,7 +2877,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134984" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640pr13yZ">
           <did>
             <unitid>PLA_B_044</unitid>
             <unittitle>Projet de monument funéraire</unittitle>
@@ -2897,7 +2897,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Ce27Xc">
           <did>
             <unitid>PLA_B_045</unitid>
             <unittitle>Projet de monument funéraire : famille Bos</unittitle>
@@ -2913,7 +2913,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134986" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640DIAaTl">
           <did>
             <unitid>PLA_B_046</unitid>
             <unittitle>Projet de monument funéraire : famille Descamps</unittitle>
@@ -2929,7 +2929,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134987" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640IZlUzQ">
           <did>
             <unitid>PLA_B_047</unitid>
             <unittitle>Construction d'un immeuble pour Monsieur Vannes à Croix</unittitle>
@@ -2948,7 +2948,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134988" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640hm4VCp">
           <did>
             <unitid>PLA_B_048</unitid>
             <unittitle>Projet de jardin</unittitle>
@@ -2967,7 +2967,7 @@
             <persname role="architecte">Dalmar, Pierre</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Xpcos2">
           <did>
             <unitid>PLA_B_049</unitid>
             <unittitle>Plan chronologique de Roubaix</unittitle>
@@ -2982,7 +2982,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134990" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640SMerCF">
           <did>
             <unitid>PLA_B_050</unitid>
             <unittitle>Plan chronologique de Roubaix</unittitle>
@@ -2997,7 +2997,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134991" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640VwaDVT">
           <did>
             <unitid>PLA_B_051</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -3012,7 +3012,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134992" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640TrtxI3">
           <did>
             <unitid>PLA_B_052</unitid>
             <unittitle>Plan chronologique de Roubaix</unittitle>
@@ -3031,7 +3031,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134993" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640dTSDbJ">
           <did>
             <unitid>PLA_B_053</unitid>
             <unittitle>Plan chronologique de Roubaix 1487-1682-1830</unittitle>
@@ -3050,7 +3050,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134994" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640mqYGeH">
           <did>
             <unitid>PLA_B_054</unitid>
             <unittitle>Plan chronologique de Roubaix 1487-1682-1830</unittitle>
@@ -3069,7 +3069,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134995" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640G74vOy">
           <did>
             <unitid>PLA_B_055</unitid>
             <unittitle>Plan chronologique de Roubaix 1487-1682-1830</unittitle>
@@ -3088,7 +3088,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134996" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640UjsPyl">
           <did>
             <unitid>PLA_B_032</unitid>
             <unittitle>Roubaix-Tourcoing et environs</unittitle>
@@ -3103,7 +3103,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134997" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640I9Qyll">
           <did>
             <unitid>PLA_B_056</unitid>
             <unittitle>Roubaix</unittitle>
@@ -3128,7 +3128,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446400t298w">
           <did>
             <unitid>PLA_B_057</unitid>
             <unittitle>Plan, coupe et élévation d'une chapelle votive</unittitle>
@@ -3147,7 +3147,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134999" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446408OX5x1">
           <did>
             <unitid>PLA_B_058</unitid>
             <unittitle>Plan de l'Ecole nationale des arts industriels de Roubaix</unittitle>
@@ -3168,7 +3168,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135000" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640DS1Wfh">
           <did>
             <unitid>PLA_B_059</unitid>
             <unittitle>Habitations particulières : villa à Roubaix</unittitle>
@@ -3188,7 +3188,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135001" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640TDJ0Hy">
           <did>
             <unitid>PLA_B_060</unitid>
             <unittitle>Plan général de la Ville de Roubaix</unittitle>
@@ -3208,7 +3208,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135002" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640yz4EGy">
           <did>
             <unitid>PLA_B_061</unitid>
             <unittitle>Tableau d'assemblage du plan cadastral parcellaire de la commune de Roubaix</unittitle>
@@ -3223,7 +3223,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135003" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640pha8iu">
           <did>
             <unitid>PLA_B_062</unitid>
             <unittitle>Plan industriel</unittitle>
@@ -3242,7 +3242,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135004" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AuL0bm">
           <did>
             <unitid>PLA_B_063</unitid>
             <unittitle>Usine de Brédamaz</unittitle>
@@ -3260,7 +3260,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135005" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640V9qO6h">
           <did>
             <unitid>PLA_B_064</unitid>
             <unittitle>Institut Turgot</unittitle>
@@ -3278,7 +3278,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135006" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640SV8qRM">
           <did>
             <unitid>PLA_B_065</unitid>
             <unittitle>Hôtel de Ville : coupe longitudinale</unittitle>
@@ -3298,7 +3298,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135007" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640LspQC7">
           <did>
             <unitid>PLA_B_006</unitid>
             <unittitle>Hôtel de Ville</unittitle>
@@ -3313,7 +3313,7 @@
           </controlaccess>
           <dao href="RBX_MED_PLA_B_006_001.jpg" role="access:image"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640DJVJDV">
           <did>
             <unitid>PLA_B_007</unitid>
             <unittitle>Hôtel de Ville</unittitle>
@@ -3331,7 +3331,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135009" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640UaqYAm">
           <did>
             <unitid>PLA_B_009</unitid>
             <unittitle>Une ville en mutation</unittitle>
@@ -3343,7 +3343,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135010" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640nTPSpx">
           <did>
             <unitid>PLA_B_010</unitid>
             <unittitle>Une ville en mutation</unittitle>
@@ -3355,7 +3355,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135011" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640aIzPcy">
           <did>
             <unitid>PLA_B_011</unitid>
             <unittitle>Une ville en mutation</unittitle>
@@ -3367,7 +3367,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135012" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404PVEi0">
           <did>
             <unitid>PLA_B_012</unitid>
             <unittitle>Une ville en mutation</unittitle>
@@ -3379,7 +3379,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135013" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rOu3BS">
           <did>
             <unitid>PLA_B_066</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -3396,7 +3396,7 @@
             <persname normal="Boittiaux" role="Graphiste">Boittiaux</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640oL5wse">
           <did>
             <unitid>PLA_B_067</unitid>
             <unittitle>Voies de communication Bruxelles-Lille-Namur-Paris</unittitle>
@@ -3410,7 +3410,7 @@
             <corpname role="éditeur">Chalindrey</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Rph2sD">
           <did>
             <unitid>PLA_B_068</unitid>
             <unittitle>Plan de Roubaix - Wattrelos</unittitle>
@@ -3421,7 +3421,7 @@
             <p>&lt;p&gt;Achat auprès de Monsieur Thiébault en 2002.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640yatU7j">
           <did>
             <unitid>PLA_B_069</unitid>
             <unittitle>Plan de la ville de Roubaix</unittitle>
@@ -3437,7 +3437,7 @@
             <corpname role="imprimeur">Imprimerie M. Pique - Roubaix</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640JZQimz">
           <did>
             <unitid>PLA_B_070</unitid>
             <unittitle>Plan du jardin botanique</unittitle>
@@ -3449,7 +3449,7 @@
             <persname>Frelier, Marie</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640ozIeBL">
           <did>
             <unitid>PLA_B_071</unitid>
             <unittitle>La Bassée- Artois</unittitle>
@@ -3463,7 +3463,7 @@
             <p>&lt;p&gt;Don de Madame Claire Carton en 2022.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640TxY4ds">
           <did>
             <unitid>PLA_B_072</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -3478,7 +3478,7 @@
             <persname normal="Boittiaux" role="lithographe">Boittiaux</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640suOiOn">
           <did>
             <unitid>PLA_B_073</unitid>
             <unittitle>Tableau d'assemblage de la commune de Roubaix</unittitle>
@@ -3492,7 +3492,7 @@
             <subject source="chrono">1789-1870</subject>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640pf6MZ7">
           <did>
             <unitid>PLA_B_074</unitid>
             <unittitle>Garage Van Den Hende</unittitle>
@@ -3506,7 +3506,7 @@
             <p>&lt;p&gt;Don de Madame Prouvost en 2017.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640jfTvAP">
           <did>
             <unitid>PLA_B_075</unitid>
             <unittitle>Roubaix : les paroisses</unittitle>
@@ -3517,7 +3517,7 @@
             <p>&lt;p&gt;Don de Madame Prouvost en 2017.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446408oQfx8">
           <did>
             <unitid>PLA_B_076</unitid>
             <unittitle>Roubaix : les équipements sportifs</unittitle>
@@ -3528,7 +3528,7 @@
             <p>&lt;p&gt;Don de Monsieur Prouvost en mai 2017.&lt;/p&gt;</p>
           </acqinfo>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640R1fW9j">
           <did>
             <unitid>PLA_B_077</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -3541,7 +3541,7 @@
             <corpname normal="Journal de Roubaix" role="imprimeur">Journal de Roubaix</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Zq7oYn">
           <did>
             <unitid>PLA_B_078</unitid>
             <unittitle>Roubaix : économie et humanisme</unittitle>
@@ -3556,7 +3556,7 @@
             <subject source="theme">Autres industries</subject>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640dIainm">
           <did>
             <unitid>PLA_B_079</unitid>
             <unittitle>Construction d'un aqueduc</unittitle>
@@ -3568,13 +3568,13 @@
           </controlaccess>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244640v83wwT">
         <did>
           <unitid>PLA_C</unitid>
           <unittitle>Cartes et plans de petit format</unittitle>
         </did>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR135014" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244640BdYCMJ">
           <did>
             <unitid>PLA_C_011</unitid>
             <unittitle>Plan de la Ville de Valenciennes</unittitle>
@@ -3596,7 +3596,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135015" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640QYVndy">
           <did>
             <unitid>PLA_C_012</unitid>
             <unittitle>URSS : communications transcontinentales</unittitle>
@@ -3611,7 +3611,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135016" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640DSQeSP">
           <did>
             <unitid>PLA_C_013</unitid>
             <unittitle>Roubaix</unittitle>
@@ -3630,7 +3630,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640t6VaXD">
           <did>
             <unitid>PLA_C_017</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -3645,7 +3645,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135018" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640cSjpgu">
           <did>
             <unitid>PLA_C_018</unitid>
             <unittitle>Construction d'un égout collecteur et comblement de l'ancien canal</unittitle>
@@ -3665,7 +3665,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640D3dlif">
           <did>
             <unitid>PLA_C_020</unitid>
             <unittitle>Plan routier de Lille et environs</unittitle>
@@ -3682,7 +3682,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135020" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Hn667v">
           <did>
             <unitid>PLA_C_021</unitid>
             <unittitle>Imprimerie polonaise : détail des fenêtres</unittitle>
@@ -3694,7 +3694,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135021" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640XEFDWT">
           <did>
             <unitid>PLA_C_022</unitid>
             <unittitle>Service d'expédition</unittitle>
@@ -3706,7 +3706,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135022" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446403VmLLj">
           <did>
             <unitid>PLA_C_023</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3721,7 +3721,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135023" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446405Que8e">
           <did>
             <unitid>PLA_C_024</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3736,7 +3736,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135024" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640z4aWm8">
           <did>
             <unitid>PLA_C_025</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3751,7 +3751,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135025" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640MXsD31">
           <did>
             <unitid>PLA_C_026</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3766,7 +3766,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135026" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640TjB8UY">
           <did>
             <unitid>PLA_C_027</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3781,7 +3781,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135027" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446407pn3ZE">
           <did>
             <unitid>PLA_C_028</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3796,7 +3796,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135028" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640VLJzEA">
           <did>
             <unitid>PLA_C_029</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène : projet de grille</unittitle>
@@ -3812,7 +3812,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135029" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640zatgBd">
           <did>
             <unitid>PLA_C_030</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène : projet de grille</unittitle>
@@ -3828,7 +3828,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135030" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640mBrctC">
           <did>
             <unitid>PLA_C_031</unitid>
             <unittitle>Genièvrerie de Sainte-Hélène : projet de grille</unittitle>
@@ -3844,7 +3844,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135031" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640PQ06ST">
           <did>
             <unitid>PLA_C_032</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3859,7 +3859,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135032" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640JGpg0B">
           <did>
             <unitid>PLA_C_033</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3874,7 +3874,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135033" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446406t99c7">
           <did>
             <unitid>PLA_C_034</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3889,7 +3889,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135034" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446407VgJ1w">
           <did>
             <unitid>PLA_C_035</unitid>
             <unittitle>Projet de grille</unittitle>
@@ -3904,7 +3904,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135035" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640STBmJu">
           <did>
             <unitid>PLA_C_041</unitid>
             <unittitle>Les évêchés de Saint-Omer, Ypres et Tournai</unittitle>
@@ -3919,7 +3919,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135036" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640AjvZW9">
           <did>
             <unitid>PLA_C_042</unitid>
             <unittitle>Congrès national des CIL partenaires</unittitle>
@@ -3931,7 +3931,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135037" role="publication:previous"/>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640jYoQIe">
           <did>
             <unitid>PLA_C_046</unitid>
             <unittitle>Installation d'une fosse septique</unittitle>
@@ -3946,7 +3946,7 @@
           </controlaccess>
           <dao href="RBX_MED_PLA_C_046_001.jpg" role="access:image"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640b9d93E">
           <did>
             <unitid>PLA_C_001</unitid>
             <unittitle>Wasquehal</unittitle>
@@ -3959,7 +3959,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135039" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446406dhpOY">
           <did>
             <unitid>PLA_C_002</unitid>
             <unittitle>Croix</unittitle>
@@ -3973,7 +3973,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135040" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640tehlRa">
           <did>
             <unitid>PLA_C_003</unitid>
             <unittitle>Hem</unittitle>
@@ -3987,7 +3987,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135041" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404e9So1">
           <did>
             <unitid>PLA_C_004</unitid>
             <unittitle>Wattrelos</unittitle>
@@ -4001,7 +4001,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135042" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446403OvlHS">
           <did>
             <unitid>PLA_C_005</unitid>
             <unittitle>Tourcoing</unittitle>
@@ -4015,7 +4015,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135043" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640FUGtjv">
           <did>
             <unitid>PLA_C_006</unitid>
             <unittitle>Nord</unittitle>
@@ -4029,7 +4029,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135044" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640wne8A5">
           <did>
             <unitid>PLA_C_007</unitid>
             <unittitle>Voie rapide : échangeur de Wasquehal - Marcq-en-Baroeul</unittitle>
@@ -4041,7 +4041,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135045" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640DpeS4l">
           <did>
             <unitid>PLA_C_008</unitid>
             <unittitle>Voie rapide : échangeur de Wasquehal - Marcq-en-Baroeul</unittitle>
@@ -4053,7 +4053,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135046" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640HopSuQ">
           <did>
             <unitid>PLA_C_009</unitid>
             <unittitle>Eurozone</unittitle>
@@ -4062,7 +4062,7 @@
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135047" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Dlac0d">
           <did>
             <unitid>PLA_C_010</unitid>
             <unittitle>Eurozone</unittitle>
@@ -4071,7 +4071,7 @@
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135048" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640teVli8">
           <did>
             <unitid>PLA_C_014</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -4083,7 +4083,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135049" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rx5MIx">
           <did>
             <unitid>PLA_C_015</unitid>
             <unittitle>Artesia Comitatus</unittitle>
@@ -4095,7 +4095,7 @@
           </acqinfo>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135050" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640fF052Q">
           <did>
             <unitid>PLA_C_016</unitid>
             <unittitle>Europa Recens</unittitle>
@@ -4107,7 +4107,7 @@
           </acqinfo>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135051" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640pODhOX">
           <did>
             <unitid>PLA_C_019</unitid>
             <unittitle>Roubaix le plan</unittitle>
@@ -4119,7 +4119,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135052" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Qca3zq">
           <did>
             <unitid>PLA_C_036</unitid>
             <unittitle>Cadastre</unittitle>
@@ -4135,7 +4135,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135053" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640rggDBw">
           <did>
             <unitid>PLA_C_037</unitid>
             <unittitle>Plan</unittitle>
@@ -4154,7 +4154,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135054" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640Lg1LBT">
           <did>
             <unitid>PLA_C_038</unitid>
             <unittitle>Propriété de M. Motte Bridart en 1855-1865</unittitle>
@@ -4169,7 +4169,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135055" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640muH5As">
           <did>
             <unitid>PLA_C_039</unitid>
             <unittitle>Roubaix</unittitle>
@@ -4185,7 +4185,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135056" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640vitUT3">
           <did>
             <unitid>PLA_C_040</unitid>
             <unittitle>Roubaix </unittitle>
@@ -4201,7 +4201,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135057" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640yjeFcC">
           <did>
             <unitid>PLA_C_043</unitid>
             <unittitle>Roubaix 2000</unittitle>
@@ -4214,7 +4214,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135058" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640xLh0Td">
           <did>
             <unitid>PLA_C_044</unitid>
             <unittitle>A la découverte de Roubaix et de ses environs</unittitle>
@@ -4226,7 +4226,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135059" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446408HgAyz">
           <did>
             <unitid>PLA_C_045</unitid>
             <unittitle>Roubaix et ses arrondissements</unittitle>
@@ -4242,7 +4242,7 @@
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135060" role="publication:previous"/>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640537afv">
           <did>
             <unitid>PLA_C_047</unitid>
             <unittitle>La maison pour tous</unittitle>
@@ -4254,7 +4254,7 @@
             <persname role="architecte">Derveaux, Elie</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640hW6r0E">
           <did>
             <unitid>PLA_C_048</unitid>
             <unittitle>Construction d'un second hôpital</unittitle>
@@ -4265,7 +4265,7 @@
             <subject source="theme">Santé publique</subject>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446404ZW8nm">
           <did>
             <unitid>PLA_C_049</unitid>
             <unittitle>Plan de Roubaix</unittitle>
@@ -4283,7 +4283,7 @@
             <subject source="chrono">1871-1913</subject>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640to5wPa">
           <did>
             <unitid>PLA_C_050</unitid>
             <unittitle>Réseau du Nord</unittitle>
@@ -4297,7 +4297,7 @@
             <corpname role="imprimeur">Imprimerie Dufrenoy</corpname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244640lO7QMa">
           <did>
             <unitid>PLA_C_051</unitid>
             <unittitle>Construction du Nouvel Hôpital</unittitle>

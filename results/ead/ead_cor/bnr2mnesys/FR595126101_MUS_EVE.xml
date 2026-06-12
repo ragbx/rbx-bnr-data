@@ -19,7 +19,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244641mLt8ZY">
     <did>
       <unitid>MUS_EVE</unitid>
       <unittitle>Les évènements au Musée La Piscine</unittitle>
@@ -34,7 +34,7 @@
       <corpname>La Piscine, Musée d'art et d'industrie André Diligent (Roubaix, Nord)</corpname>
     </controlaccess>
     <dsc>
-      <c level="subfonds">
+      <c level="subfonds" id="m017812446410anWh4">
         <did>
           <unitid>MUS_EVE_EXP</unitid>
           <unittitle>Les expositions</unittitle>
@@ -42,7 +42,7 @@
         <scopecontent>
           <p>&lt;p&gt;Cette série comprend les éléments produits par le Musée à l'occasion des expositions comme les affiches, les supports d'aide à la visite ou les invitations.&lt;/p&gt;</p>
         </scopecontent>
-        <c level="file">
+        <c level="file" id="m01781244641eBG7E0">
           <did>
             <unitid>MUS_EVE_EXP_001</unitid>
             <unittitle>Francis Jourdain, un parcours moderne</unittitle>
@@ -52,7 +52,7 @@
             <persname>Jourdain, Francis (1876-1958)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641qWII9D">
           <did>
             <unitid>MUS_EVE_EXP_002</unitid>
             <unittitle>Christian Jaccard, confrontation</unittitle>
@@ -64,7 +64,7 @@
           <controlaccess>
             <persname>Jaccard, Christian (1939-)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641fCbXRF">
             <did>
               <unitid>MUS_EVE_EXP_002_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -76,7 +76,7 @@
             <dao href="MUS_EVE_EXP_002_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641CuQUPP">
           <did>
             <unitid>MUS_EVE_EXP_003</unitid>
             <unittitle>Louis Billotey, l'ambition classique</unittitle>
@@ -85,7 +85,7 @@
           <controlaccess>
             <persname>Billotey, Louis (1883-1940)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641Hh3tSv">
             <did>
               <unitid>MUS_EVE_EXP_003_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -97,7 +97,7 @@
             <dao href="MUS_EVE_EXP_003_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641iVO9Px">
           <did>
             <unitid>MUS_EVE_EXP_004</unitid>
             <unittitle>Michel Schreiber, architecte du vêtement</unittitle>
@@ -106,7 +106,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Michel Schreiber, architecte du vêtement&lt;/strong&gt;&lt;/em&gt;, Roubaix : Musée d'art et d'industrie de Roubaix, 2002 (Mag L/P 8/112 665).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m017812446414GWDJv">
             <did>
               <unitid>MUS_EVE_EXP_004_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -118,7 +118,7 @@
             <dao href="MUS_EVE_EXP_004_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641DhwctV">
           <did>
             <unitid>MUS_EVE_EXP_005</unitid>
             <unittitle>Jamel Shabazz, New-York - Roubaix</unittitle>
@@ -127,7 +127,7 @@
           <controlaccess>
             <persname>Shabazz, Jamel (1960-)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641r3RHDZ">
             <did>
               <unitid>MUS_EVE_EXP_005_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -139,7 +139,7 @@
             <dao href="MUS_EVE_EXP_005_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641ty0AMf">
           <did>
             <unitid>MUS_EVE_EXP_006</unitid>
             <unittitle>Raoul Dufy, du motif à la couleur</unittitle>
@@ -151,7 +151,7 @@
           <controlaccess>
             <persname>Dufy, Raoul (1877-1953)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641VrFQr3">
             <did>
               <unitid>MUS_EVE_EXP_006_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -163,7 +163,7 @@
             <dao href="MUS_EVE_EXP_006_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446413jHnOb">
           <did>
             <unitid>MUS_EVE_EXP_007</unitid>
             <unittitle>Gaston Lachaise</unittitle>
@@ -176,7 +176,7 @@
             <persname>Lachaise, Gaston (1882-1935)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641TghCrx">
           <did>
             <unitid>MUS_EVE_EXP_008</unitid>
             <unittitle>Des amitiés modernes, de Rodin à Matisse</unittitle>
@@ -190,7 +190,7 @@
             <persname>Matisse, Henri (1869-1954)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641GZ9fZo">
           <did>
             <unitid>MUS_EVE_EXP_009</unitid>
             <unittitle>Picasso, peintre d'objets, objets de peintre</unittitle>
@@ -202,7 +202,7 @@
           <controlaccess>
             <persname>Picasso, Pablo (1881-1973)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641SWlZuU">
             <did>
               <unitid>MUS_EVE_EXP_009_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -214,7 +214,7 @@
             <dao href="MUS_EVE_EXP_009_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641ZCmXIQ">
           <did>
             <unitid>MUS_EVE_EXP_010</unitid>
             <unittitle>Robert De Niro, Sr.</unittitle>
@@ -226,7 +226,7 @@
           <controlaccess>
             <persname>De Niro, Robert (1922-1993)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641iroeQU">
             <did>
               <unitid>MUS_EVE_EXP_010_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -238,7 +238,7 @@
             <dao href="MUS_EVE_EXP_010_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641mEznxd">
           <did>
             <unitid>MUS_EVE_EXP_011</unitid>
             <unittitle>Jane Poupelet, la beauté dans la simplicité</unittitle>
@@ -250,7 +250,7 @@
           <controlaccess>
             <persname>Poupelet, Jane (1874-1932)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m017812446412yMPwl">
             <did>
               <unitid>MUS_EVE_EXP_011_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -262,7 +262,7 @@
             <dao href="MUS_EVE_EXP_011_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641zDwfpy">
           <did>
             <unitid>MUS_EVE_EXP_012</unitid>
             <unittitle>Une histoire de paravent</unittitle>
@@ -271,7 +271,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque la Grand'Plage de Roubaix : &lt;strong&gt;&lt;em&gt;Une histoire de paravent&lt;/em&gt;&lt;/strong&gt;, Paris : Somogy, 2005 (Mag L/P 8/114 602).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m017812446416GMzaX">
             <did>
               <unitid>MUS_EVE_EXP_012_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -283,7 +283,7 @@
             <dao href="MUS_EVE_EXP_012_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641vxHjLp">
           <did>
             <unitid>MUS_EVE_EXP_013</unitid>
             <unittitle>Edouard Pignon, du rhtyme entre les choses</unittitle>
@@ -295,7 +295,7 @@
           <controlaccess>
             <persname>Pingon, Edouard (1905-1993)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m017812446418zj5Vw">
             <did>
               <unitid>MUS_EVE_EXP_013_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -307,7 +307,7 @@
             <dao href="MUS_EVE_EXP_013_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641iM6Wej">
           <did>
             <unitid>MUS_EVE_EXP_014</unitid>
             <unittitle>Pierre-Victor Galland, un Tiepolo français au XIXe siècle</unittitle>
@@ -319,7 +319,7 @@
           <controlaccess>
             <persname>Galland, Pierre-Victor (1822-1892)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641XYQbbX">
             <did>
               <unitid>MUS_EVE_EXP_014_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -331,13 +331,13 @@
             <dao href="MUS_EVE_EXP_014_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446413cuRhC">
           <did>
             <unitid>MUS_EVE_EXP_015</unitid>
             <unittitle>Une saison finalndaise autour de Marimekko</unittitle>
             <unitdate normal="2006">Du 21 octobre 2006 au 14 janvier 2007</unitdate>
           </did>
-          <c level="item">
+          <c level="item" id="m01781244641v6L4Mp">
             <did>
               <unitid>MUS_EVE_EXP_015_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -349,7 +349,7 @@
             <dao href="MUS_EVE_EXP_015_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641yjIis6">
           <did>
             <unitid>MUS_EVE_EXP_016</unitid>
             <unittitle>La terre est si lumineuse, Marc Chagall et la céramique</unittitle>
@@ -361,7 +361,7 @@
           <controlaccess>
             <persname>Chagall, Marc (1887-1985)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641mYqYRG">
             <did>
               <unitid>MUS_EVE_EXP_016_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -373,7 +373,7 @@
             <dao href="MUS_EVE_EXP_016_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641lO8r6L">
           <did>
             <unitid>MUS_EVE_EXP_017</unitid>
             <unittitle>La maison Leleu, 50 ans de mobilier et de décoration 1923-1973</unittitle>
@@ -382,7 +382,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Leleu : 50 ans de mobilier et de décoration, 1920-1970&lt;/strong&gt;&lt;/em&gt;, Paris : Somogy, 2007 (Mag L/P 4/209 832).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m01781244641GsAGft">
             <did>
               <unitid>MUS_EVE_EXP_017_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -394,7 +394,7 @@
             <dao href="MUS_EVE_EXP_017_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641O1RYu3">
           <did>
             <unitid>MUS_EVE_EXP_018</unitid>
             <unittitle>Emile-Othon Friesz, le fauve baroque</unittitle>
@@ -406,7 +406,7 @@
           <controlaccess>
             <persname>Friesz, Emile-Othon (1879-1949)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641FphRnV">
             <did>
               <unitid>MUS_EVE_EXP_018_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -418,13 +418,13 @@
             <dao href="MUS_EVE_EXP_018_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641utwcrz">
           <did>
             <unitid>MUS_EVE_EXP_019</unitid>
             <unittitle>Un été de sculpteurs à la Piscine de Roubaix</unittitle>
             <unitdate normal="2008">Du 21 juin au 21 septembre 2008</unitdate>
           </did>
-          <c level="item">
+          <c level="item" id="m01781244641RiU9BI">
             <did>
               <unitid>MUS_EVE_EXP_019_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -435,7 +435,7 @@
             </controlaccess>
             <dao href="MUS_EVE_EXP_019_01_01.jpg" audience="internal" role="access:image"/>
           </c>
-          <c level="item">
+          <c level="item" id="m01781244641mPI4yw">
             <did>
               <unitid>MUS_EVE_EXP_019_02</unitid>
               <unittitle>Plaquette d'inauguration de l'exposition</unittitle>
@@ -443,7 +443,7 @@
             </did>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641mxCPWv">
           <did>
             <unitid>MUS_EVE_EXP_020</unitid>
             <unittitle>Le zoo d'Orsay</unittitle>
@@ -452,7 +452,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Le zoo d'Orsay&lt;/strong&gt;&lt;/em&gt;, Paris : Gallimard, 2008 (Mag L/P 8/116 172).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m01781244641GoFGEZ">
             <did>
               <unitid>MUS_EVE_EXP_020_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -464,7 +464,7 @@
             <dao href="MUS_EVE_EXP_020_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641L6bPiC">
           <did>
             <unitid>MUS_EVE_EXP_021</unitid>
             <unittitle>André Maire, l'itinéraire décoratif d'un peintre voyageur du XXe siècle</unittitle>
@@ -476,7 +476,7 @@
           <controlaccess>
             <persname>Maire, André (1898-1984)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641xWq54F">
             <did>
               <unitid>MUS_EVE_EXP_021_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -488,7 +488,7 @@
             <dao href="MUS_EVE_EXP_021_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641moYWyR">
           <did>
             <unitid>MUS_EVE_EXP_022</unitid>
             <unittitle>Agatha Ruiz de la Prada, un jardin de corazones</unittitle>
@@ -497,7 +497,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Agatha Ruiz de la Prada : un jardin de corazones&lt;/strong&gt;&lt;/em&gt;, Montreuil : Gourcuff Gradenigo, 2009 (Mag L/P 8/116 378).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m01781244641BTiZ1p">
             <did>
               <unitid>MUS_EVE_EXP_022_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -509,7 +509,7 @@
             <dao href="MUS_EVE_EXP_022_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641UxYVpI">
           <did>
             <unitid>MUS_EVE_EXP_023</unitid>
             <unittitle>Le groupe de Bloomsbury, conversation anglaise autour de Virginia Woolf</unittitle>
@@ -521,7 +521,7 @@
           <controlaccess>
             <persname>Woolf, Virginia (1882-1941)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641VUwDZI">
             <did>
               <unitid>MUS_EVE_EXP_023_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -533,7 +533,7 @@
             <dao href="MUS_EVE_EXP_023_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641tTOqMB">
           <did>
             <unitid>MUS_EVE_EXP_024</unitid>
             <unittitle>Degas, sculpteur</unittitle>
@@ -545,7 +545,7 @@
           <controlaccess>
             <persname>Degas, Edgar (1834-1917)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641d0Swjb">
             <did>
               <unitid>MUS_EVE_EXP_024_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -557,7 +557,7 @@
             <dao href="MUS_EVE_EXP_024_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641x5I0uc">
           <did>
             <unitid>MUS_EVE_EXP_025</unitid>
             <unittitle>1001 bols, céramique contemporaine</unittitle>
@@ -567,7 +567,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Mille et un bols : hommage à un bol de thé indien&lt;/strong&gt;&lt;/em&gt;, Genève : Dialogue céramique, 2010 (Mag L/P8/116 674).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641J0InoZ">
           <did>
             <unitid>MUS_EVE_EXP_026</unitid>
             <unittitle>Pierre Loti, Marthe Flandrin, le Groupe de Roubaix</unittitle>
@@ -578,7 +578,7 @@
             <persname>Flandrin, Marthe (1904-1987)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641uwJErn">
           <did>
             <unitid>MUS_EVE_EXP_027</unitid>
             <unittitle>Pincemin</unittitle>
@@ -591,7 +591,7 @@
             <persname>Pincemin, Jean-Pierre (1944-2005)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464189nuyr">
           <did>
             <unitid>MUS_EVE_EXP_028</unitid>
             <unittitle>La galerie Dujardin, l'art au XXe siècle à Roubaix</unittitle>
@@ -601,7 +601,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : Massé Alice, &lt;strong&gt;&lt;em&gt;La galerie Dujardin : 1905-1980, l'art au XXe siècle à Roubaix&lt;/em&gt;&lt;/strong&gt;, Montreuil : Gourcuff Gradenigo, 2011 (Mag L/P 4/210 113).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641CfGxOw">
           <did>
             <unitid>MUS_EVE_EXP_029</unitid>
             <unittitle>Signac, les ports de France</unittitle>
@@ -613,7 +613,7 @@
           <controlaccess>
             <persname>Signac, Paul (1863-1935)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m017812446413bvlIf">
             <did>
               <unitid>MUS_EVE_EXP_029_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -625,7 +625,7 @@
             <dao href="MUS_EVE_EXP_029_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641RXVvej">
           <did>
             <unitid>MUS_EVE_EXP_030</unitid>
             <unittitle>Thiébaut Chagué, itinérance</unittitle>
@@ -638,7 +638,7 @@
             <persname>Chagué, Thiébaut (1959-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641paIYvZ">
           <did>
             <unitid>MUS_EVE_EXP_031</unitid>
             <unittitle>Picasso à l'oeuvre, dans l'objectif de David Douglas Duncan</unittitle>
@@ -652,7 +652,7 @@
             <persname>Duncan, David Douglas (1916-2018)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641FYYFPo">
           <did>
             <unitid>MUS_EVE_EXP_032</unitid>
             <unittitle>Chagall, l'épaisseur des rêves</unittitle>
@@ -664,7 +664,7 @@
           <controlaccess>
             <persname>Chagall, Marc (1887-1985)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641FEdajY">
             <did>
               <unitid>MUS_EVE_EXP_032_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -676,14 +676,14 @@
             <dao href="MUS_EVE_EXP_032_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446419jHXqB">
           <did>
             <unitid>MUS_EVE_EXP_033</unitid>
             <unittitle>Occupy Roubaix par Délit Maille</unittitle>
             <unitdate normal="2013">Du 12 octobre 2013 au 12 janvier 2014</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641279WTV">
           <did>
             <unitid>MUS_EVE_EXP_034</unitid>
             <unittitle>Gisèle Buthod-Garçon</unittitle>
@@ -693,7 +693,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;strong&gt;&lt;em&gt;Gisèle Buthod-Garçon : réminiscences&lt;/em&gt;&lt;/strong&gt;, Vendin-le-Vieil : La Revue de la céramique et du verre, 2013 (Mag L/P 8/116 986).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641iZdlTl">
           <did>
             <unitid>MUS_EVE_EXP_035</unitid>
             <unittitle>Anna Quinquaud, itinéraires africains dans les années 30</unittitle>
@@ -703,7 +703,7 @@
             <persname>Quinquaud, Anna (1890-1984)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641zpqJoG">
           <did>
             <unitid>MUS_EVE_EXP_036</unitid>
             <unittitle>Les Lémar de La Piscine</unittitle>
@@ -716,7 +716,7 @@
             <persname>Lémar, Marcel (1892-1941)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641nSsmhn">
           <did>
             <unitid>MUS_EVE_EXP_037</unitid>
             <unittitle>Astuguevieille</unittitle>
@@ -729,7 +729,7 @@
             <persname>Astuguevieille, Christian (1946-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641zs6inw">
           <did>
             <unitid>MUS_EVE_EXP_038</unitid>
             <unittitle>Les Jean Roulland de La Piscine</unittitle>
@@ -742,7 +742,7 @@
             <persname>Roulland, Jean (1931-2021)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446414eVbsB">
           <did>
             <unitid>MUS_EVE_EXP_039</unitid>
             <unittitle>Wemaëre et Jorn : la force des contraires, une amitié franco-danoise au XXe siècle</unittitle>
@@ -756,7 +756,7 @@
             <persname>Jorn, Asger (1914-1973)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641M4AMO5">
           <did>
             <unitid>MUS_EVE_EXP_040</unitid>
             <unittitle>Le siècle d'or de la peinture danoise</unittitle>
@@ -766,14 +766,14 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Le siècle d'or de la peinture danoise : une collections française&lt;/strong&gt;&lt;/em&gt;, Paris : Gallimard, 2013 (Mag L/P 4/210 503).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641wIQyAB">
           <did>
             <unitid>MUS_EVE_EXP_041</unitid>
             <unittitle>Catherine Laridan, les robes d'une exposition</unittitle>
             <unitdate normal="2013">Du 16 février au 19 mai 2013</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641s85DZn">
           <did>
             <unitid>MUS_EVE_EXP_042</unitid>
             <unittitle>Les Sébastien de La Piscine</unittitle>
@@ -783,7 +783,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Les Sébastien de La Piscine&lt;/strong&gt;&lt;/em&gt;, Montreuil : GOurcuff Gradenigo, 2013 (Mag L/P 8/117 009).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446411Bs6FQ">
           <did>
             <unitid>MUS_EVE_EXP_043</unitid>
             <unittitle>E. de Senneville, arrêt sur image(s)</unittitle>
@@ -793,7 +793,7 @@
             <persname>De Senneville, Elisabeth (1946-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641D46zUD">
           <did>
             <unitid>MUS_EVE_EXP_044</unitid>
             <unittitle>Amédée de La Patellière, les éclats de l'ombre</unittitle>
@@ -806,7 +806,7 @@
             <persname>De La Patellière, Amédée (1890-1932)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446410deFL1">
           <did>
             <unitid>MUS_EVE_EXP_045</unitid>
             <unittitle>André Fougeron, voilà qui fait problème vrai</unittitle>
@@ -819,7 +819,7 @@
             <persname>Fougeron, André (1913-1998)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641sogMMW">
           <did>
             <unitid>MUS_EVE_EXP_046</unitid>
             <unittitle>Joël Meyerowitz, immersion</unittitle>
@@ -831,7 +831,7 @@
           <controlaccess>
             <persname>Meyerowitz, Joel (1938-)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641iQai37">
             <did>
               <unitid>MUS_EVE_EXP_046_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -843,7 +843,7 @@
             <dao href="MUS_EVE_EXP_046_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641qAWEqW">
           <did>
             <unitid>MUS_EVE_EXP_047</unitid>
             <unittitle>Kristin McKirdy, céramiques</unittitle>
@@ -852,7 +852,7 @@
           <scopecontent>
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Kristin McKirdy&lt;/strong&gt;&lt;/em&gt;, Paris : Norma, 2012 (Mag L/P 4/210 505).&lt;/p&gt;</p>
           </scopecontent>
-          <c level="item">
+          <c level="item" id="m01781244641Sjrvi7">
             <did>
               <unitid>MUS_EVE_EXP_047_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -864,7 +864,7 @@
             <dao href="MUS_EVE_EXP_047_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m0178124464101uW9n">
           <did>
             <unitid>MUS_EVE_EXP_048</unitid>
             <unittitle>Les André Maire de La Piscine</unittitle>
@@ -877,7 +877,7 @@
             <persname>Maire, André (1898-1984)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641zmgZaM">
           <did>
             <unitid>MUs_EVE_EXP_051</unitid>
             <unittitle>Michel Lanos, terre libertaire</unittitle>
@@ -890,7 +890,7 @@
             <persname>Lanos, Michel (1920-2005)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641HhGmBg">
           <did>
             <unitid>MUS_EVE_EXP_052</unitid>
             <unittitle>Camille Claudel, au miroir d'un art nouveau</unittitle>
@@ -902,7 +902,7 @@
           <controlaccess>
             <persname>Claudel, Camille (1864-1943)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641Lcfd1f">
             <did>
               <unitid>MUS_EVE_EXP_052_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -911,7 +911,7 @@
             <dao href="MUS_EVE_EXP_052_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641D8ySIP">
           <did>
             <unitid>MUS_EVE_EXP_053</unitid>
             <unittitle>Une certaine idée de la céramique belge</unittitle>
@@ -921,7 +921,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Une certaine idée de la céramique belge&lt;/strong&gt;&lt;/em&gt;, Roubaix : La Pisicne, 2015 (Mag L/P 8/117 428).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641YhFdRL">
           <did>
             <unitid>MUS_EVE_EXP_054</unitid>
             <unittitle>Mahjoub Ben Bella, les belles feuilles</unittitle>
@@ -934,7 +934,7 @@
             <persname>Ben Bella, Mahjoub (1946-2020)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641Uq6FXg">
           <did>
             <unitid>MUS_EVE_EXP_055</unitid>
             <unittitle>Talva Design, mémoire brodées</unittitle>
@@ -944,7 +944,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Mémoires brodées : Talva Design&lt;/strong&gt;&lt;/em&gt;, Roubaix : La Pisicne, 2015 (Mag L/P 8/117 429).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446410VazUR">
           <did>
             <unitid>MUS_EVE_EXP_056</unitid>
             <unittitle>Virginie Besengez, des contenants ?</unittitle>
@@ -954,7 +954,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;strong&gt;&lt;em&gt;Virginie Bensengez : à bout portant&lt;/em&gt;&lt;/strong&gt;, Vendin-le-Vieil : La Revue de la céramique et du verre, 2015 (Mag L/P 8/117 427).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641dY7MO8">
           <did>
             <unitid>MUS_EVE_EXP_058</unitid>
             <unittitle>Colette Portal, Rendez-vous au lion</unittitle>
@@ -967,7 +967,7 @@
             <persname>Portal, Colette (1936-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446410oIUua">
           <did>
             <unitid>MUS_EVE_EXP_060</unitid>
             <unittitle>Hervé Rousseau</unittitle>
@@ -980,14 +980,14 @@
             <persname>Rousseau, Hervé (1955-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641YuZbXR">
           <did>
             <unitid>MUS_EVE_EXP_061</unitid>
             <unittitle>Les nichoirs</unittitle>
             <unitdate normal="2015">du 21 mars au 22 mai 2015</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641nEf9qW">
           <did>
             <unitid>MUS_EVE_EXP_062</unitid>
             <unittitle>Lydie Arickx</unittitle>
@@ -997,7 +997,7 @@
             <persname>Arickx, Lydie (1954-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641U6byjA">
           <did>
             <unitid>MUS_EVE_EXP_063</unitid>
             <unittitle>Alexis-Joseph Mazerolle, itinéraire d'un grand décorateur</unittitle>
@@ -1010,14 +1010,14 @@
             <persname>Mazerolle, Alexis-Joseph (1826-1889)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641gVWdQn">
           <did>
             <unitid>MUS_EVE_EXP_064</unitid>
             <unittitle>Nathalie Lété, mes (petites) histoires</unittitle>
             <unitdate normal="2015">du 21 mars au 21 juin 2015</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641Z9yf7r">
           <did>
             <unitid>MUS_EVE_EXP_065</unitid>
             <unittitle>Victor Vaissier, l'aventure des savons du Congo</unittitle>
@@ -1030,7 +1030,7 @@
             <persname>Vaissier, Victor (1851-1923)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641VAXhlP">
           <did>
             <unitid>MUS_EVE_EXP_066</unitid>
             <unittitle>Georges Dorignac, le trait sculpté</unittitle>
@@ -1043,7 +1043,7 @@
             <persname>Dorignac, Georges (1879-1925)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641naUmW1">
           <did>
             <unitid>MUS_EVE_EXP_068</unitid>
             <unittitle>Braïtou-Sala, l'élégance d'un monde en péril</unittitle>
@@ -1056,7 +1056,7 @@
             <persname>Braïtou-Sala, Albert (1885-1972)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641TnDVDo">
           <did>
             <unitid>MUS_EVE_EXP_069</unitid>
             <unittitle>Marc Chagall, les sources de la musique</unittitle>
@@ -1068,7 +1068,7 @@
           <controlaccess>
             <persname>Chagall, Marc (1887-1985)</persname>
           </controlaccess>
-          <c level="item">
+          <c level="item" id="m01781244641QEsWYP">
             <did>
               <unitid>MUS_EVE_EXP_069_01</unitid>
               <unittitle>Affiche de l'exposition</unittitle>
@@ -1080,7 +1080,7 @@
             <dao href="MUS_EVE_EXP_069_01_01.jpg" audience="internal" role="access:image"/>
           </c>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641OsyyiT">
           <did>
             <unitid>MUS_EVE_EXP_070</unitid>
             <unittitle>Faire le beau</unittitle>
@@ -1090,7 +1090,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage : &lt;em&gt;&lt;strong&gt;Faire le beau : le bestiare de la Piscine&lt;/strong&gt;&lt;/em&gt;, Gand : Snoeck, 2017 (Mag L/P 4/210 526).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641aRyGGs">
           <did>
             <unitid>MUS_EVE_EXP_071</unitid>
             <unittitle>Jean Martin, de l'atelier à la scène</unittitle>
@@ -1100,7 +1100,7 @@
             <persname>Martin, Jean (1911-1996)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641avWaCM">
           <did>
             <unitid>MUS_EVE_EXP_075</unitid>
             <unittitle>Nadia Anémiche, Ombres vagabondes</unittitle>
@@ -1113,7 +1113,7 @@
             <persname>Anémiche, Nadia</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641fZgIUZ">
           <did>
             <unitid>MUS_EVE_EXP_076</unitid>
             <unittitle>Robert Pougheon, Un classicisme de fantaisie</unittitle>
@@ -1126,7 +1126,7 @@
             <persname>Pougheon, Robert (1886-1955)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641O00HD9">
           <did>
             <unitid>MUS_EVE_EXP_078</unitid>
             <unittitle>Annick Verley, l'absence</unittitle>
@@ -1136,7 +1136,7 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la médiathèque la Grand'Plage de Roubaix :&lt;strong&gt;&lt;em&gt; Annick Verley : l'absence&lt;/em&gt;&lt;/strong&gt;, Roubaix : La Pisicne, 2017 (Br 8/3108).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641mWdzJI">
           <did>
             <unitid>MUS_EVE_EXP_079</unitid>
             <unittitle>Carolyn Carlson, writings on water</unittitle>
@@ -1146,7 +1146,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : Carlson Carolyn, &lt;em&gt;&lt;strong&gt;Writings on water&lt;/strong&gt;&lt;/em&gt;, Pan Book (Res 8/5300).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641pDDQvL">
           <did>
             <unitid>MUS_EVE_EXP_080</unitid>
             <unittitle>Eloge de la couleur</unittitle>
@@ -1156,7 +1156,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Eloge de la couleur : design, architecture, graphisme, une exposition du 40e anniversaire du Centre Pompidou&lt;/strong&gt;&lt;/em&gt;, Paris : Atelier galerie éd., 2017 (Mag L/P 4/210 999).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641Q6j2Z2">
           <did>
             <unitid>MUS_EVE_EXP_081</unitid>
             <unittitle>André et Monique Lemonnier, une nouvelle donation</unittitle>
@@ -1167,7 +1167,7 @@
             <persname>Lemonnier, Monique</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641FF30q9">
           <did>
             <unitid>MUS_EVE_EXP_082</unitid>
             <unittitle>Pat Le SZA : guerre universelle, prototypes</unittitle>
@@ -1177,14 +1177,14 @@
             <p>&lt;p&gt;Le catalogue de l'exposition est disponible à la médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Pat le SZA : guerre universelle, prototypes&lt;/strong&gt;&lt;/em&gt;, Roubaix : La Piscine, 2017 (Mag L/P 8/118 770).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446416aR5Gv">
           <did>
             <unitid>MUS_EVE_EXP_083</unitid>
             <unittitle>Ring my bell !</unittitle>
             <unitdate normal="2017">du 01 avril au 11 juin 2017</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641TzHJST">
           <did>
             <unitid>MUS_EVE_EXP_084</unitid>
             <unittitle>Di Rosa, l'oeuvre au monde</unittitle>
@@ -1197,7 +1197,7 @@
             <persname>Di Rosa, Hervé (1959-)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641hY4CVq">
           <did>
             <unitid>MUS_EVE_EXP_085</unitid>
             <unittitle>Giacometti, portrait d'un héros</unittitle>
@@ -1211,7 +1211,7 @@
             <persname>Tanguy, Henry (1908-2002)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641FGYHC2">
           <did>
             <unitid>MUS_EVE_EXP_086</unitid>
             <unittitle>Nage libre avec les créateurs du WCC-BF</unittitle>
@@ -1221,7 +1221,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix : &lt;em&gt;&lt;strong&gt;Nage Libre : les artistes de BeCraft s'inspirent des collections permanentes de la Piscine&lt;/strong&gt;&lt;/em&gt;, Milan : Silvana ed., 2018 (Res 8/5322).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641PZqBUp">
           <did>
             <unitid>MUS_EVE_EXP_087</unitid>
             <unittitle>Picasso, l'homme au mouton</unittitle>
@@ -1234,21 +1234,21 @@
             <persname>Picasso, Pablo (1881-1973)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641b7adjh">
           <did>
             <unitid>MUS_EVE_EXP_088</unitid>
             <unittitle>Les tableaux fantômes de Bailleul</unittitle>
             <unitdate normal="2018">du 20 octobre 2018 au 20 janvier 2019</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641vlY9bW">
           <did>
             <unitid>MUS_EVE_EXP_090</unitid>
             <unittitle>Les gouachés, un art unique et ignoré</unittitle>
             <unitdate normal="2018">du 03 février au 01 avril 2018</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641ThnX4V">
           <did>
             <unitid>MUS_EVE_EXP_091</unitid>
             <unittitle>Hommage à Claude Vicente</unittitle>
@@ -1261,7 +1261,7 @@
             <persname>Vicente, Claude (1929-2017)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641Tu6a10">
           <did>
             <unitid>MUS_EVE_EXP_092</unitid>
             <unittitle>Abdelkader, l'émir de la résistance</unittitle>
@@ -1271,14 +1271,14 @@
             <p>&lt;p style="text-align: justify;"&gt;Le catalogue de l'exposition est disponible à la Médiathèque La Grand'Plage de Roubaix :&lt;em&gt;&lt;strong&gt; Abdelkader&lt;/strong&gt;&lt;/em&gt;, Gand : Snoeck Publishers, 2019 (Mag L/P 8/118 188).&lt;/p&gt;</p>
           </scopecontent>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641DMzZlH">
           <did>
             <unitid>MUS_EVE_EXP_093</unitid>
             <unittitle>Mon royaume pour une couronne</unittitle>
             <unitdate normal="2019">du 09 mars au 02 juin 2019</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641pHbLL8">
           <did>
             <unitid>MUS_EVE_EXP_094</unitid>
             <unittitle>L'Algérie de Gustave Guillaumet</unittitle>
@@ -1291,7 +1291,7 @@
             <persname>Guillaumet, Gustave (1840-1887)</persname>
           </controlaccess>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641LweguJ">
           <did>
             <unitid>MUS_EVE_EXP_095</unitid>
             <unittitle>Naime Merabet, fenêtre sur l'Algérie</unittitle>
@@ -1302,7 +1302,7 @@
           </scopecontent>
         </c>
       </c>
-      <c level="subfonds">
+      <c level="subfonds" id="m01781244641Gp5mlp">
         <did>
           <unitid>MUS_EVE_EVT</unitid>
           <unittitle>Les évènements</unittitle>
@@ -1310,21 +1310,21 @@
         <scopecontent>
           <p>&lt;p&gt;Cette série comprend les éléments produits à l'occasion des évènements organisés par le Musée ou s'étant déroulés au Musée.&lt;/p&gt;</p>
         </scopecontent>
-        <c level="file">
+        <c level="file" id="m01781244641fq3Mn3">
           <did>
             <unitid>MUS_EVE_EVT_002</unitid>
             <unittitle>La Piscine a 10 ans !</unittitle>
             <unitdate normal="2011">du 22 octobre 2011 au 08 janvier 2012</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641orhxAY">
           <did>
             <unitid>MUS_EVE_EVT_006</unitid>
             <unittitle>Le Musée la Piscine hors les murs</unittitle>
             <unitdate normal="2018">du 31 mars au 21 octobre 2018</unitdate>
           </did>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244641ljEmx2">
           <did>
             <unitid>MUS_EVE_EVT_007</unitid>
             <unittitle>Réouverture</unittitle>

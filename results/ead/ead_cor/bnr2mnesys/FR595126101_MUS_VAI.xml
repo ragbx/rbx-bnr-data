@@ -22,7 +22,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244643xbapi2">
     <did>
       <unitid>MUS_VAI</unitid>
       <unittitle>Parfumerie et savonnerie Vaissier</unittitle>
@@ -46,7 +46,7 @@
       <persname>Vaissier, Victor</persname>
     </controlaccess>
     <dsc>
-      <c level="series">
+      <c level="series" id="m017812446435VbTh7">
         <did>
           <unitid>MUS_VAI1</unitid>
           <unittitle>Château Vaissier</unittitle>
@@ -55,7 +55,7 @@
           <p>&lt;p&gt;Édifiée entre 1892 et 1894 par l’architecte roubaisien Édouard Dupire-Rozan (1842- 1901), la demeure est vendue par la veuve de Victor Vaissier en 1925, puis démolie par ses nouveaux propriétaires en 1929.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27391" role="publication:previous"/>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643tyQJD1">
           <did>
             <unitid>MUS_VAI1_D01</unitid>
             <unittitle>Cartes postales du château Vaissier</unittitle>
@@ -67,7 +67,7 @@
             <genreform>Images</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27392" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643wx8rHr">
             <did>
               <unitid>MUS_VAI1_D01_F01</unitid>
               <unittitle>Roubaix - Le pont de Mouveaux</unittitle>
@@ -86,7 +86,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27397" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643T5lUv7">
             <did>
               <unitid>MUS_VAI1_D01_F02</unitid>
               <unittitle>Tourcoing - Pont du Blanc-Seau</unittitle>
@@ -105,7 +105,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27398" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643M9VWi0">
             <did>
               <unitid>MUS_VAI1_D01_F03</unitid>
               <unittitle>Tourcoing - La Passerelle et le Pont du Canal</unittitle>
@@ -124,7 +124,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27399" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643RBWpqu">
             <did>
               <unitid>MUS_VAI1_D01_F04</unitid>
               <unittitle>Tourcoing - Le Château de Ch. Vaissier et le Pont St Vincent</unittitle>
@@ -143,7 +143,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27400" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Uj6O3F">
             <did>
               <unitid>MUS_VAI1_D01_F05</unitid>
               <unittitle>Tourcoing - Pont sur le Canal et le Château du Congo</unittitle>
@@ -159,7 +159,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27401" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QyqRp1">
             <did>
               <unitid>MUS_VAI1_D01_F06</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -178,7 +178,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27402" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643X7PVb2">
             <did>
               <unitid>MUS_VAI1_D01_F07</unitid>
               <unittitle>Tourcoing - Blanc-Seau - Château du Congo</unittitle>
@@ -197,7 +197,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27403" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dIdaQh">
             <did>
               <unitid>MUS_VAI1_D01_F08</unitid>
               <unittitle>Mouveaux - Château Vaissier</unittitle>
@@ -216,7 +216,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27404" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438HYaIE">
             <did>
               <unitid>MUS_VAI1_D01_F09</unitid>
               <unittitle>Tourcoing, la nuit - Château du Congo</unittitle>
@@ -235,7 +235,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27405" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643sXJh0R">
             <did>
               <unitid>MUS_VAI1_D01_F10</unitid>
               <unittitle>Roubaix - Château Vaissier, Façade vers le Parc</unittitle>
@@ -254,7 +254,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27406" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oqIlHL">
             <did>
               <unitid>MUS_VAI1_D01_F11</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -273,7 +273,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27407" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Jxi9iG">
             <did>
               <unitid>MUS_VAI1_D01_F12</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -292,7 +292,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27408" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ej4R7R">
             <did>
               <unitid>MUS_VAI1_D01_F13</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -311,7 +311,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27409" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643CO7J7Z">
             <did>
               <unitid>MUS_VAI1_D01_F14</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -330,7 +330,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27410" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bQ8qmZ">
             <did>
               <unitid>MUS_VAI1_D01_F15</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -346,7 +346,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27411" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643RtSwSI">
             <did>
               <unitid>MUS_VAI1_D01_F16</unitid>
               <unittitle>Roubaix - Le Château Vaissier et le lac</unittitle>
@@ -365,7 +365,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27412" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lvrg0u">
             <did>
               <unitid>MUS_VAI1_D01_F17</unitid>
               <unittitle>Tourcoing - Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -384,7 +384,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27413" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437Q5THo">
             <did>
               <unitid>MUS_VAI1_D01_F18</unitid>
               <unittitle>Roubaix Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -403,7 +403,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27414" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643eWQMci">
             <did>
               <unitid>MUS_VAI1_D01_F19</unitid>
               <unittitle>Tourcoing - Le Château du Congo - Le Parc et le Bassin</unittitle>
@@ -422,7 +422,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27415" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ozS2v1">
             <did>
               <unitid>MUS_VAI1_D01_F20</unitid>
               <unittitle>Tourcoing  - Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -441,7 +441,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27416" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ibxEyB">
             <did>
               <unitid>MUS_VAI1_D01_F21</unitid>
               <unittitle>Tourcoing - Le Château Vaissier </unittitle>
@@ -460,7 +460,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27417" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GChPm5">
             <did>
               <unitid>MUS_VAI1_D01_F22</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -479,7 +479,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27418" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Io9gwx">
             <did>
               <unitid>MUS_VAI1_D01_F23</unitid>
               <unittitle>Roubaix - Château Vaissier, Façade vers le Parc</unittitle>
@@ -498,7 +498,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27419" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nGnGyc">
             <did>
               <unitid>MUS_VAI1_D01_F24</unitid>
               <unittitle>Roubaix - Château Vaissier, Façade vers le Parc</unittitle>
@@ -517,7 +517,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27420" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446430VTH2P">
             <did>
               <unitid>MUS_VAI1_D01_F25</unitid>
               <unittitle>Tourcoing - Château du Congo</unittitle>
@@ -536,7 +536,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27421" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433PlG8Z">
             <did>
               <unitid>MUS_VAI1_D01_F26</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -555,7 +555,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27422" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ful1Ay">
             <did>
               <unitid>MUS_VAI1_D01_F27</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -574,7 +574,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27423" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464344PZe4">
             <did>
               <unitid>MUS_VAI1_D01_F28</unitid>
               <unittitle>Tourcoing - Château du Congo</unittitle>
@@ -593,7 +593,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27424" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mgBDlT">
             <did>
               <unitid>MUS_VAI1_D01_F29</unitid>
               <unittitle>Tourcoing  - Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -612,7 +612,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27425" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GBUbPj">
             <did>
               <unitid>MUS_VAI1_D01_F30</unitid>
               <unittitle>Tourcoing - Parc et Château Vaissier</unittitle>
@@ -631,7 +631,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27426" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437TlrRC">
             <did>
               <unitid>MUS_VAI1_D01_F31</unitid>
               <unittitle>Tourcoing - Le Château du Congo - Le Parc et le Bassin</unittitle>
@@ -650,7 +650,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27427" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643g80AXg">
             <did>
               <unitid>MUS_VAI1_D01_F32</unitid>
               <unittitle>Tourcoing - Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -669,7 +669,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27428" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tpigi3">
             <did>
               <unitid>MUS_VAI1_D01_F33</unitid>
               <unittitle>Tourcoing - Le Château du Congo</unittitle>
@@ -685,7 +685,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27429" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436ToLSd">
             <did>
               <unitid>MUS_VAI1_D01_F34</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -704,7 +704,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27430" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436nHSxF">
             <did>
               <unitid>MUS_VAI1_D01_F35</unitid>
               <unittitle>Tourcoing - Le Château du Congo (Côté Nord)</unittitle>
@@ -723,7 +723,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27431" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643o6p2jc">
             <did>
               <unitid>MUS_VAI1_D01_F36</unitid>
               <unittitle>Tourcoing - Blanc-Seau - Château de M. Victor Vaissier</unittitle>
@@ -742,7 +742,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27432" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643pVje0Q">
             <did>
               <unitid>MUS_VAI1_D01_F37</unitid>
               <unittitle>Tourcoing - Blanc Seau - Château de M. Victor Vaissier</unittitle>
@@ -761,7 +761,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27433" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643pnquGs">
             <did>
               <unitid>MUS_VAI1_D01_F38</unitid>
               <unittitle>Tourcoing - Blanc-Seau, Château du Congo, vue intérieure de côté</unittitle>
@@ -780,7 +780,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27434" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wLMhlJ">
             <did>
               <unitid>MUS_VAI1_D01_F39</unitid>
               <unittitle>Tourcoing - Le Château du Congo (Côté Nord)</unittitle>
@@ -799,7 +799,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27435" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643F5Pnmx">
             <did>
               <unitid>MUS_VAI1_D01_F40</unitid>
               <unittitle>Roubaix - Château de M. V. Vaissier</unittitle>
@@ -818,7 +818,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27436" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dJoEHu">
             <did>
               <unitid>MUS_VAI1_D01_F41</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -837,7 +837,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27437" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643pOewqD">
             <did>
               <unitid>MUS_VAI1_D01_F42</unitid>
               <unittitle>Tourcoing - Le Château du Congo - Vue du Perron</unittitle>
@@ -856,7 +856,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27438" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MUbprE">
             <did>
               <unitid>MUS_VAI1_D01_F43</unitid>
               <unittitle>Tourcoing - Blanc-Seau, Château du Congo</unittitle>
@@ -875,7 +875,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27439" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643epsvrq">
             <did>
               <unitid>MUS_VAI1_D01_F44</unitid>
               <unittitle>Tourcoing - Château du Congo</unittitle>
@@ -894,7 +894,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27440" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hQADcX">
             <did>
               <unitid>MUS_VAI1_D01_F45</unitid>
               <unittitle>Tourcoing - Le Château du Congo - Vue du perron</unittitle>
@@ -913,7 +913,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27441" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WbzO9R">
             <did>
               <unitid>MUS_VAI1_D01_F46</unitid>
               <unittitle>Mouvaux - Château Vaissier</unittitle>
@@ -932,7 +932,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27442" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435UHIcx">
             <did>
               <unitid>MUS_VAI1_D01_F47</unitid>
               <unittitle>Tourcoing - Le Château Vaissier</unittitle>
@@ -951,7 +951,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27443" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mdyFui">
             <did>
               <unitid>MUS_VAI1_D01_F48</unitid>
               <unittitle>Tourcoing - Château du Congo, Côté du Parc</unittitle>
@@ -970,7 +970,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27444" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439LOZZ6">
             <did>
               <unitid>MUS_VAI1_D01_F49</unitid>
               <unittitle>Roubaix-Tourcoing - Château Vaissier</unittitle>
@@ -986,7 +986,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27445" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434bB8yt">
             <did>
               <unitid>MUS_VAI1_D01_F50</unitid>
               <unittitle>Roubaix-Tourcoing - Château Vaissier</unittitle>
@@ -1005,7 +1005,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27446" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wAegPE">
             <did>
               <unitid>MUS_VAI1_D01_F51</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1024,7 +1024,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27447" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ijqxbo">
             <did>
               <unitid>MUS_VAI1_D01_F52</unitid>
               <unittitle>Roubaix- Château Vaissier - Le Jet d'eau</unittitle>
@@ -1043,7 +1043,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27448" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ISXz2w">
             <did>
               <unitid>MUS_VAI1_D01_F53</unitid>
               <unittitle>Tourcoing - Le Château du Congo - Vue du Parc</unittitle>
@@ -1062,7 +1062,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27449" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GYIdiF">
             <did>
               <unitid>MUS_VAI1_D01_F54</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1081,7 +1081,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27450" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643cldBFv">
             <did>
               <unitid>MUS_VAI1_D01_F55</unitid>
               <unittitle>Château des Princes du Congo</unittitle>
@@ -1100,7 +1100,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27451" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XfH9iu">
             <did>
               <unitid>MUS_VAI1_D01_F56</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1119,7 +1119,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27452" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jpIAZ8">
             <did>
               <unitid>MUS_VAI1_D01_F57</unitid>
               <unittitle>Château des Princes du Congo</unittitle>
@@ -1138,7 +1138,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27453" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643i7i9vm">
             <did>
               <unitid>MUS_VAI1_D01_F58</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1157,7 +1157,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27454" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643v4VCiB">
             <did>
               <unitid>MUS_VAI1_D01_F59</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1176,7 +1176,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27455" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Cex8I5">
             <did>
               <unitid>MUS_VAI1_D01_F60</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1195,7 +1195,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27456" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643C3RCcI">
             <did>
               <unitid>MUS_VAI1_D01_F61</unitid>
               <unittitle>Roubaix - Schloss Vaissier</unittitle>
@@ -1214,7 +1214,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27457" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lYUrVH">
             <did>
               <unitid>MUS_VAI1_D01_F62</unitid>
               <unittitle>Roubaix - Le Château Vaissier</unittitle>
@@ -1230,7 +1230,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27458" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xHsvg8">
             <did>
               <unitid>MUS_VAI1_D01_F63</unitid>
               <unittitle>Roubaix - Château Vaissier, LAvenue et l'Entrée principale</unittitle>
@@ -1249,7 +1249,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27459" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643sHUH5D">
             <did>
               <unitid>MUS_VAI1_D01_F64</unitid>
               <unittitle>Tourcoing - Château Victor Vaissier</unittitle>
@@ -1269,7 +1269,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643MvIzUE">
           <did>
             <unitid>MUS_VAI1_D02</unitid>
             <unittitle>Photographies du château Vaissier</unittitle>
@@ -1281,7 +1281,7 @@
             <genreform>Images</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27461" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643h8WEWq">
             <did>
               <unitid>MUS_VAI1_D02_F01</unitid>
               <unittitle>Vue du Château Vaissier</unittitle>
@@ -1300,7 +1300,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27474" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Fn6Hhr">
             <did>
               <unitid>MUS_VAI1_D02_F02</unitid>
               <unittitle>Vue de la façade du château Vaissier</unittitle>
@@ -1319,7 +1319,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27475" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643YEhn7y">
             <did>
               <unitid>MUS_VAI1_D02_F03</unitid>
               <unittitle>Le Château Vaissier</unittitle>
@@ -1338,7 +1338,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27476" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lMQtPG">
             <did>
               <unitid>MUS_VAI1_D02_F04</unitid>
               <unittitle>Vue de la façade du château Vaissier depuis lallée darbres en fleurs</unittitle>
@@ -1357,7 +1357,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27477" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446432cqwGF">
             <did>
               <unitid>MUS_VAI1_D02_F05</unitid>
               <unittitle>Château Vaissier - la cheminée de la salle à manger indienne</unittitle>
@@ -1376,7 +1376,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27478" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Aau533">
             <did>
               <unitid>MUS_VAI1_D02_F06</unitid>
               <unittitle>Château Vaissier - la cheminée de la salle Renaissance</unittitle>
@@ -1395,7 +1395,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27479" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643cQyJrs">
             <did>
               <unitid>MUS_VAI1_D02_F07</unitid>
               <unittitle>Château Vaissier - la galerie du hall central</unittitle>
@@ -1414,7 +1414,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27480" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oe0cTx">
             <did>
               <unitid>MUS_VAI1_D02_F08</unitid>
               <unittitle>Vue du parc du château Vaissier</unittitle>
@@ -1433,7 +1433,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27481" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dyuP3f">
             <did>
               <unitid>MUS_VAI1_D02_F09</unitid>
               <unittitle>Le Château Vaissier</unittitle>
@@ -1452,7 +1452,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27482" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643547iP3">
             <did>
               <unitid>MUS_VAI1_D02_F10</unitid>
               <unittitle>Parc et Château Vaissier</unittitle>
@@ -1472,7 +1472,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643b0aOId">
           <did>
             <unitid>MUS_VAI1_D03</unitid>
             <unittitle>Dessins et tableau du château Vaissier</unittitle>
@@ -1481,7 +1481,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27491" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643OMaLEo">
             <did>
               <unitid>MUS_VAI1_D03_F01</unitid>
               <unittitle>Vue du Château Vaissier</unittitle>
@@ -1500,7 +1500,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27492" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643VQbZg3">
             <did>
               <unitid>MUS_VAI1_D03_F02</unitid>
               <unittitle>Vue du Château Vaissier</unittitle>
@@ -1524,7 +1524,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jCOlmJ">
             <did>
               <unitid>MUS_VAI1_D03_F03</unitid>
               <unittitle>Le Château Vaissier à Tourcoing</unittitle>
@@ -1544,7 +1544,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643OsAL9L">
           <did>
             <unitid>MUS_VAI1_D04</unitid>
             <unittitle>Eléments de l'architecture du château Vaissier</unittitle>
@@ -1554,7 +1554,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27495" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643z9HSjb">
             <did>
               <unitid>VAI1_D04_F01</unitid>
               <unittitle>Epi de faîtage de la conciergerie du château Vaissier</unittitle>
@@ -1573,7 +1573,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27496" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464302V6d9">
             <did>
               <unitid>VAI1_D04_F02</unitid>
               <unittitle>Ensemble de tuiles de la conciergerie du château Vaissier</unittitle>
@@ -1598,7 +1598,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643Y3G4fJ">
           <did>
             <unitid>MUS_VAI1_D05</unitid>
             <unittitle>Mobilier du château Vaissier</unittitle>
@@ -1607,7 +1607,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27498" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643ZGf4Hs">
             <did>
               <unitid>MUS_VAI1_D05_F01</unitid>
               <unittitle>Paire de tabourets du château Vaissier</unittitle>
@@ -1631,7 +1631,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xQlyC5">
             <did>
               <unitid>MUS_VAI1_D05_F03</unitid>
               <unittitle>Dressoir à étagères du salon mauresque du château Vaissier</unittitle>
@@ -1655,7 +1655,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bCROyA">
             <did>
               <unitid>MUS_VAI1_D05_F04</unitid>
               <unittitle>Chaises du salon mauresque du château Vaissier,</unittitle>
@@ -1679,7 +1679,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rRbMEw">
             <did>
               <unitid>MUS_VAI1_D05_F05</unitid>
               <unittitle>Sellette du château Vaissier</unittitle>
@@ -1703,7 +1703,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643w5QiFG">
             <did>
               <unitid>MUS_VAI1_D05_F06</unitid>
               <unittitle>Sellette du château Vaissier</unittitle>
@@ -1727,7 +1727,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EUFr4d">
             <did>
               <unitid>MUS_VAI1_D05_F07</unitid>
               <unittitle>Sellette du château Vaissier</unittitle>
@@ -1751,7 +1751,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434gdbx5">
             <did>
               <unitid>MUS_VAI1_D05_F09</unitid>
               <unittitle>Table du château Vaissier</unittitle>
@@ -1775,7 +1775,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mapRij">
             <did>
               <unitid>MUS_VAI1_D05_F10</unitid>
               <unittitle>Miroir du château Vaissier</unittitle>
@@ -1799,7 +1799,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446430J9rtV">
             <did>
               <unitid>MUS_VAI1_D05_F11</unitid>
               <unittitle>Petit guéridon du château Vaissier</unittitle>
@@ -1823,7 +1823,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dDs35v">
             <did>
               <unitid>MUS_VAI1_D05_F12</unitid>
               <unittitle>Brasero du château Vaissier</unittitle>
@@ -1847,7 +1847,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464367zl9d">
             <did>
               <unitid>MUS_VAI1_D05_F02</unitid>
               <unittitle>Paire de tabourets du château Vaissier</unittitle>
@@ -1871,7 +1871,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tRM7eb">
             <did>
               <unitid>MUS_VAI1_D05_F08</unitid>
               <unittitle>Sellette du château Vaissier</unittitle>
@@ -1897,7 +1897,7 @@
           </c>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244643H5cbq2">
         <did>
           <unitid>MUS_VAI2</unitid>
           <unittitle>Vie de l'entreprise Vaissier</unittitle>
@@ -1906,7 +1906,7 @@
           <p>&lt;p&gt;La politique d’acquisition du musée a permis depuis plus de dix ans de constituer un fonds Vaissier, enrichi récemment d’une partie d’archives liées à la Savonnerie du Congo. Ces documents complètent les affiches ou les objets publicitaires pour proposer une image plus précise de la vie de l’entreprise et de son extraordinaire essor à la toute fin du 19e siècle.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27515" role="publication:previous"/>
-        <c level="subseries">
+        <c level="subseries" id="m017812446439LytCz">
           <did>
             <unitid>MUS_VAI2_D01</unitid>
             <unittitle>Documents administratifs</unittitle>
@@ -1915,7 +1915,7 @@
             <genreform>Documents d'archives</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27516" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643OW5Jgy">
             <did>
               <unitid>MUS_VAI2_D01_F01</unitid>
               <unittitle>Carte-réponse Savonnerie et Parfumerie du Congo</unittitle>
@@ -1938,7 +1938,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27517" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643c3yqmU">
             <did>
               <unitid>MUS_VAI2_D01_F02</unitid>
               <unittitle>Enveloppe de l'entreprise Vaissier</unittitle>
@@ -1955,7 +1955,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27518" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643uOJdWR">
             <did>
               <unitid>MUS_VAI2_D01_F03</unitid>
               <unittitle>Courrier manuscrit sur papier à en-tête</unittitle>
@@ -1971,7 +1971,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27519" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bmnMWD">
             <did>
               <unitid>MUS_VAI2_D01_F04</unitid>
               <unittitle>Facture sur papier à en-tête</unittitle>
@@ -1990,7 +1990,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27520" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643L1TALm">
             <did>
               <unitid>MUS_VAI2_D01_F05</unitid>
               <unittitle>Facture sur papier à en-tête</unittitle>
@@ -2006,7 +2006,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27521" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643eg1JGn">
             <did>
               <unitid>MUS_VAI2_D01_F06</unitid>
               <unittitle>Courrier tapuscrit sur papier à en-tête signé de Victor Vaissier</unittitle>
@@ -2030,7 +2030,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643R9UARH">
           <did>
             <unitid>MUS_VAI2_D02</unitid>
             <unittitle>Distinctions</unittitle>
@@ -2039,7 +2039,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27523" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643oXVmoq">
             <did>
               <unitid>MUS_VAI2_D02_F01</unitid>
               <unittitle>Tableau des Médailles</unittitle>
@@ -2062,7 +2062,7 @@
           </c>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244643b0GLIC">
         <did>
           <unitid>MUS_VAI3</unitid>
           <unittitle>Produits Victor Vaissier</unittitle>
@@ -2074,13 +2074,13 @@
           <genreform>Objets</genreform>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27528" role="publication:previous"/>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643iLIn4t">
           <did>
             <unitid>MUS_VAI3_D01</unitid>
             <unittitle>Parfum, eau de toilette et eau de cologne</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27529" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446438uvxUO">
             <did>
               <unitid>MUS_VAI3_D01_F01</unitid>
               <unittitle>Coffret Prestige</unittitle>
@@ -2104,7 +2104,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jOmeun">
             <did>
               <unitid>MUS_VAI3_D01_F02</unitid>
               <unittitle>Parfum concentré Congo Royal - N°267</unittitle>
@@ -2125,7 +2125,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439mGLGr">
             <did>
               <unitid>MUS_VAI3_D01_F03</unitid>
               <unittitle>Parfum concentré Congo Impérial - N°268</unittitle>
@@ -2146,7 +2146,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446430e5Yon">
             <did>
               <unitid>MUS_VAI3_D01_F04</unitid>
               <unittitle>Parfum concentré Congo Impérial - N°268</unittitle>
@@ -2167,7 +2167,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EsS3eu">
             <did>
               <unitid>MUS_VAI3_D01_F05</unitid>
               <unittitle>Eau de toilette</unittitle>
@@ -2186,7 +2186,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27557" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ila0fZ">
             <did>
               <unitid>MUS_VAI3_D01_F06</unitid>
               <unittitle>Eau de toilette à la Violette</unittitle>
@@ -2205,7 +2205,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27558" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643RVYwEc">
             <did>
               <unitid>MUS_VAI3_D01_F07</unitid>
               <unittitle>Eau de toilette aux Violettes du Congo</unittitle>
@@ -2221,7 +2221,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27559" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XrMElQ">
             <did>
               <unitid>MUS_VAI3_D01_F08</unitid>
               <unittitle>Eau de toilette supérieure à la Violette</unittitle>
@@ -2240,7 +2240,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27560" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433ttqcd">
             <did>
               <unitid>MUS_VAI3_D01_F09</unitid>
               <unittitle>Eau de toilette Violette Tatiana</unittitle>
@@ -2259,7 +2259,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27561" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643fFYfzF">
             <did>
               <unitid>MUS_VAI3_D01_F10</unitid>
               <unittitle>Eau de toilette Violette Tatiana</unittitle>
@@ -2283,7 +2283,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rAUPCZ">
             <did>
               <unitid>MUS_VAI3_D01_F11</unitid>
               <unittitle>Eau de toilette supérieure Lékélé Vaissier</unittitle>
@@ -2308,7 +2308,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UCgyeI">
             <did>
               <unitid>MUS_VAI3_D01_F12</unitid>
               <unittitle>Eau de cologne</unittitle>
@@ -2324,7 +2324,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27564" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ObUisu">
             <did>
               <unitid>MUS_VAI3_D01_F13</unitid>
               <unittitle>Eau de cologne extrait double</unittitle>
@@ -2340,7 +2340,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27565" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GJMlWt">
             <did>
               <unitid>MUS_VAI3_D01_F14</unitid>
               <unittitle>Eau du Congo Vaissier</unittitle>
@@ -2356,7 +2356,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27566" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436zytgW">
             <did>
               <unitid>MUS_VAI3_D01_F15</unitid>
               <unittitle>Eau de lavande du Congo</unittitle>
@@ -2375,7 +2375,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27567" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ubw8s2">
             <did>
               <unitid>MUS_VAI3_D01_F16</unitid>
               <unittitle>Essence au Muguet</unittitle>
@@ -2396,7 +2396,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xpHv8B">
             <did>
               <unitid>MUS_VAI3_D01_F17</unitid>
               <unittitle>Essence de rose - Maréchal Niel</unittitle>
@@ -2421,7 +2421,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bVvSj6">
             <did>
               <unitid>MUS_VAI3_D01_F18</unitid>
               <unittitle>Essence Trèfle Vaissier</unittitle>
@@ -2442,7 +2442,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431DIwjF">
             <did>
               <unitid>MUS_VAI3_D01_F19</unitid>
               <unittitle>Essence Orientalis - N°214</unittitle>
@@ -2463,7 +2463,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643z9WafE">
             <did>
               <unitid>MUS_VAI3_D01_F20</unitid>
               <unittitle>Essence Violette Tatiana</unittitle>
@@ -2487,7 +2487,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hS7LmX">
             <did>
               <unitid>MUS_VAI3_D01_F21</unitid>
               <unittitle>Extrait double à l'Héliotrope pour  le mouchoir</unittitle>
@@ -2506,7 +2506,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27573" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ntlWUJ">
             <did>
               <unitid>MUS_VAI3_D01_F22</unitid>
               <unittitle>Parfum Adieu Paris</unittitle>
@@ -2527,7 +2527,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643D3q2Ie">
             <did>
               <unitid>MUS_VAI3_D01_F23</unitid>
               <unittitle>Parfum Rêve de Paris</unittitle>
@@ -2548,7 +2548,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437VvY0G">
             <did>
               <unitid>MUS_VAI3_D01_F26</unitid>
               <unittitle>Parfum Femme de Paris</unittitle>
@@ -2568,7 +2568,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431WuLZC">
             <did>
               <unitid>MUS_VAI3_D01_F24</unitid>
               <unittitle>Parfum Adieu Paris</unittitle>
@@ -2584,7 +2584,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27577" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446430F2nso">
             <did>
               <unitid>MUS_VAI3_D01_F25</unitid>
               <unittitle>Parfum Rêve de Paris</unittitle>
@@ -2600,7 +2600,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27578" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Srofyq">
             <did>
               <unitid>MUS_VAI3_D01_F27</unitid>
               <unittitle>Eau de Toilette Vaissier </unittitle>
@@ -2619,7 +2619,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27579" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643yZetos">
             <did>
               <unitid>MUS_VAI3_D01_F28</unitid>
               <unittitle>Edelweiss Vaissier Quintessence</unittitle>
@@ -2640,7 +2640,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643I0B4D1">
             <did>
               <unitid>MUS_VAI3_D01_F29</unitid>
               <unittitle>Eau du Congo</unittitle>
@@ -2661,7 +2661,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Z3FGwr">
             <did>
               <unitid>MUS_VAI3_D01_F30</unitid>
               <unittitle>Parfum Victor Vaissier Paris</unittitle>
@@ -2677,7 +2677,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27583" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bO9bbh">
             <did>
               <unitid>MUS_VAI3_D01_F31</unitid>
               <unittitle>Bouchon de flacon de parfum</unittitle>
@@ -2698,7 +2698,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Vp33Ma">
             <did>
               <unitid>MUS_VAI3_D01_F32</unitid>
               <unittitle>Essence Orientalis</unittitle>
@@ -2721,13 +2721,13 @@
             </acqinfo>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m0178124464343suGl">
           <did>
             <unitid>MUS_VAI3_D02</unitid>
             <unittitle>Savons</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27586" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643AirAfR">
             <did>
               <unitid>MUS_VAI3_D02_F01</unitid>
               <unittitle>Savon des célébrités contemporaines - N°310</unittitle>
@@ -2751,7 +2751,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ei3f3P">
             <did>
               <unitid>MUS_VAI3_D02_F02</unitid>
               <unittitle>Savon Violette Tatiana</unittitle>
@@ -2776,7 +2776,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zM1uw6">
             <did>
               <unitid>MUS_VAI3_D02_F03</unitid>
               <unittitle>Savon des Princes du Congo au triple extrait - N°198 Ter</unittitle>
@@ -2797,7 +2797,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643U3YGsA">
             <did>
               <unitid>MUS_VAI3_D02_F04</unitid>
               <unittitle>Savon des princes de Cachemire</unittitle>
@@ -2821,7 +2821,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643vS1udW">
             <did>
               <unitid>MUS_VAI3_D02_F05</unitid>
               <unittitle>Médaille souvenir en savon</unittitle>
@@ -2845,7 +2845,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UfcH3y">
             <did>
               <unitid>MUS_VAI3_D02_F06</unitid>
               <unittitle>Savon aux violettes du Japon - N°224</unittitle>
@@ -2869,7 +2869,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643q5pZsl">
             <did>
               <unitid>MUS_VAI3_D02_F07</unitid>
               <unittitle>Savon Violette d'Alger - N°281</unittitle>
@@ -2893,7 +2893,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Rmieu3">
             <did>
               <unitid>MUS_VAI3_D02_F08</unitid>
               <unittitle>Savon Violettes de Smyrne - N°187</unittitle>
@@ -2914,7 +2914,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OGE2DL">
             <did>
               <unitid>MUS_VAI3_D02_F09</unitid>
               <unittitle>Savon surfin à la Violette - N°232</unittitle>
@@ -2935,7 +2935,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lCvAb6">
             <did>
               <unitid>MUS_VAI3_D02_F10</unitid>
               <unittitle>Savon Fleur du Lékélé - N°263</unittitle>
@@ -2956,7 +2956,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643gEfvxm">
             <did>
               <unitid>MUS_VAI3_D02_F11</unitid>
               <unittitle>Savon Princesse Makoko - N°384</unittitle>
@@ -2980,7 +2980,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643h8Z7vO">
             <did>
               <unitid>MUS_VAI3_D02_F12</unitid>
               <unittitle>Savon Peau d'Espagne - N°59</unittitle>
@@ -3004,7 +3004,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643eY33O2">
             <did>
               <unitid>MUS_VAI3_D02_F13</unitid>
               <unittitle>Savon des Mousquetaires - N°255</unittitle>
@@ -3025,7 +3025,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643naVTbZ">
             <did>
               <unitid>MUS_VAI3_D02_F14</unitid>
               <unittitle>Savon Jockey-Club - N°418</unittitle>
@@ -3046,7 +3046,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643IEq0jY">
             <did>
               <unitid>MUS_VAI3_D02_F15</unitid>
               <unittitle>Savon du Congo - N°194</unittitle>
@@ -3067,7 +3067,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439COSFq">
             <did>
               <unitid>MUS_VAI3_D02_F16</unitid>
               <unittitle>Savon Edelweiss de la Tsarine</unittitle>
@@ -3088,7 +3088,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rRoBsi">
             <did>
               <unitid>MUS_VAI3_D02_F17</unitid>
               <unittitle>Savon Orientalis à l'héliotrope - N°214</unittitle>
@@ -3109,7 +3109,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643B5ODvt">
             <did>
               <unitid>MUS_VAI3_D02_F18</unitid>
               <unittitle>Savon Rosée d'Orient - N°147</unittitle>
@@ -3133,7 +3133,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ovGG0U">
             <did>
               <unitid>MUS_VAI3_D02_F19</unitid>
               <unittitle>Savon Hélianthis d'Or - N°1139</unittitle>
@@ -3154,7 +3154,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434nPud4">
             <did>
               <unitid>MUS_VAI3_D02_F20</unitid>
               <unittitle>Savon Violettes mystérieuses - N°217</unittitle>
@@ -3175,7 +3175,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l1jUar">
             <did>
               <unitid>MUS_VAI3_D02_F21</unitid>
               <unittitle>Savon aux Violettes de Turquie - N°145</unittitle>
@@ -3196,7 +3196,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Up2fGF">
             <did>
               <unitid>MUS_VAI3_D02_F22</unitid>
               <unittitle>Savon à la violette - N° 1131</unittitle>
@@ -3220,7 +3220,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hL0uTF">
             <did>
               <unitid>MUS_VAI3_D02_F23</unitid>
               <unittitle>Savon à la violette - N°1209</unittitle>
@@ -3241,7 +3241,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643CSgmZT">
             <did>
               <unitid>MUS_VAI3_D02_F24</unitid>
               <unittitle>Savon Peau d'Espagne - N°262</unittitle>
@@ -3262,7 +3262,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rFib8d">
             <did>
               <unitid>MUS_VAI3_D02_F25</unitid>
               <unittitle>Savon Extra fin Lilas de Smyrne - N°187</unittitle>
@@ -3283,7 +3283,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ICGhzn">
             <did>
               <unitid>MUS_VAI3_D02_F26</unitid>
               <unittitle>Savon des Princes Russes - N°252</unittitle>
@@ -3307,7 +3307,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SYeRVj">
             <did>
               <unitid>MUS_VAI3_D02_F27</unitid>
               <unittitle>Savon Royal Bruyère - N°1137</unittitle>
@@ -3328,7 +3328,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643TCIhBh">
             <did>
               <unitid>MUS_VAI3_D02_F28</unitid>
               <unittitle>Savon Héliotrope N°78</unittitle>
@@ -3349,7 +3349,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434ZLJlW">
             <did>
               <unitid>MUS_VAI3_D02_F29</unitid>
               <unittitle>Savon au Muguet - N°1131</unittitle>
@@ -3370,7 +3370,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431mbuH5">
             <did>
               <unitid>MUS_VAI3_D02_F30</unitid>
               <unittitle>Savon fin au Musc Tonkin - N°1332</unittitle>
@@ -3394,7 +3394,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jL3e6Y">
             <did>
               <unitid>MUS_VAI3_D02_F31</unitid>
               <unittitle>Savon Rose d'Orient</unittitle>
@@ -3415,7 +3415,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bBSc40">
             <did>
               <unitid>MUS_VAI3_D02_F32</unitid>
               <unittitle>Savon fin aux Roses de France</unittitle>
@@ -3436,7 +3436,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jlYgLv">
             <did>
               <unitid>MUS_VAI3_D02_F33</unitid>
               <unittitle>Savon aux Violettes de Parme - N°180</unittitle>
@@ -3460,7 +3460,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643I4IAGu">
             <did>
               <unitid>MUS_VAI3_D02_F34</unitid>
               <unittitle>Savon fin à la Violette - N°231 bis</unittitle>
@@ -3481,7 +3481,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ezvz4h">
             <did>
               <unitid>MUS_VAI3_D02_F35</unitid>
               <unittitle>Savon Fleur du Lékélé -  N°218</unittitle>
@@ -3505,7 +3505,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643omGacJ">
             <did>
               <unitid>MUS_VAI3_D02_F36</unitid>
               <unittitle>Savon Fleur du Lékélé</unittitle>
@@ -3526,7 +3526,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433swHUw">
             <did>
               <unitid>MUS_VAI3_D02_F37</unitid>
               <unittitle>Savon Congologne - N°200</unittitle>
@@ -3547,7 +3547,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643HA7u2e">
             <did>
               <unitid>MUS_VAI3_D02_F38</unitid>
               <unittitle>Savon Fleurs Russes -  N°200</unittitle>
@@ -3571,7 +3571,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643S0tqWy">
             <did>
               <unitid>MUS_VAI3_D02_F39</unitid>
               <unittitle>Savon-médaille à sa Majesté Nicolas II </unittitle>
@@ -3595,7 +3595,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435vP4LU">
             <did>
               <unitid>MUS_VAI3_D02_F40</unitid>
               <unittitle>Savon Luminol</unittitle>
@@ -3616,7 +3616,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643InLcv6">
             <did>
               <unitid>MUS_VAI3_D02_F41</unitid>
               <unittitle>Savon Télémaque</unittitle>
@@ -3640,7 +3640,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rpIPjL">
             <did>
               <unitid>MUS_VAI3_D02_F42</unitid>
               <unittitle>Savon Souvenir de l'Exposition de 1889 - N°135</unittitle>
@@ -3661,7 +3661,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SF3VLM">
             <did>
               <unitid>MUS_VAI3_D02_F43</unitid>
               <unittitle>Savon Pâte pure</unittitle>
@@ -3682,7 +3682,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643qMv2Rs">
             <did>
               <unitid>MUS_VAI3_D02_F44</unitid>
               <unittitle>Savon des Princes du Congo  N°198</unittitle>
@@ -3706,7 +3706,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nyjRzz">
             <did>
               <unitid>MUS_VAI3_D02_F45</unitid>
               <unittitle>Savon fin à la Rose - N°331</unittitle>
@@ -3731,7 +3731,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wrocJP">
             <did>
               <unitid>MUS_VAI3_D02_F46</unitid>
               <unittitle>Boîte à savon </unittitle>
@@ -3752,7 +3752,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ez8w0a">
             <did>
               <unitid>MUS_VAI3_D02_F47</unitid>
               <unittitle>Savon du Congo</unittitle>
@@ -3775,7 +3775,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431usRTO">
             <did>
               <unitid>MUS_VAI3_D02_F48</unitid>
               <unittitle>Savon des Princes du Congo</unittitle>
@@ -3796,7 +3796,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643cmapmG">
             <did>
               <unitid>MUS_VAI3_D02_F49</unitid>
               <unittitle>Savon des Princes du Congo</unittitle>
@@ -3822,13 +3822,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643dW1S73">
           <did>
             <unitid>MUS_VAI3_D03</unitid>
             <unittitle>Soin de la peau</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27636" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643s90Gow">
             <did>
               <unitid>MUS_VAI3_D03_F01</unitid>
               <unittitle>Poudre Congolaise - N°570</unittitle>
@@ -3852,7 +3852,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ojwY2U">
             <did>
               <unitid>MUS_VAI3_D03_F02</unitid>
               <unittitle>Phénol Vaissier</unittitle>
@@ -3872,7 +3872,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27638" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643iLpnpJ">
             <did>
               <unitid>MUS_VAI3_D03_F03</unitid>
               <unittitle>Coalter saponiné</unittitle>
@@ -3891,7 +3891,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27639" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MEGiIq">
             <did>
               <unitid>MUS_VAI3_D03_F04</unitid>
               <unittitle>Crème Congolaise - Vaseline pure</unittitle>
@@ -3910,7 +3910,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27640" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Bvnac4">
             <did>
               <unitid>MUS_VAI3_D03_F05</unitid>
               <unittitle>Crème Congolaise à la Glycine</unittitle>
@@ -3926,7 +3926,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27641" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nsqOBP">
             <did>
               <unitid>MUS_VAI3_D03_F06</unitid>
               <unittitle>Huile Toréador à la Violette et aux fleurs du Congo</unittitle>
@@ -3947,7 +3947,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Zl62nY">
             <did>
               <unitid>MUS_VAI3_D03_F07</unitid>
               <unittitle>Huile Carmen à la Violette et aux Fleurs du Congo</unittitle>
@@ -3968,7 +3968,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wUaWRS">
             <did>
               <unitid>MUS_VAI3_D03_F08</unitid>
               <unittitle>Congoline</unittitle>
@@ -3993,7 +3993,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464355TEdQ">
             <did>
               <unitid>MUS_VAI3_D03_F09</unitid>
               <unittitle>Vinaigre de Toilette à la fleur de violette</unittitle>
@@ -4012,7 +4012,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27645" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643iEqaPU">
             <did>
               <unitid>MUS_VAI3_D03_F10</unitid>
               <unittitle>Lotions aux Violettes de Parme</unittitle>
@@ -4036,7 +4036,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643R4mgFS">
             <did>
               <unitid>MUS_VAI3_D03_F11</unitid>
               <unittitle>Lotion au Portugal</unittitle>
@@ -4052,7 +4052,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27647" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dHi6ia">
             <did>
               <unitid>MUS_VAI3_D03_F12</unitid>
               <unittitle>Lotion du congo</unittitle>
@@ -4076,7 +4076,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ggc3aj">
             <did>
               <unitid>MUS_VAI3_D03_F13</unitid>
               <unittitle>Lotion Orientalis</unittitle>
@@ -4092,7 +4092,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27649" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643TjosCp">
             <did>
               <unitid>MUS_VAI3_D03_F14</unitid>
               <unittitle>Crème Circassienne à la Vanille</unittitle>
@@ -4113,7 +4113,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643J67JgA">
             <did>
               <unitid>MUS_VAI3_D03_F15</unitid>
               <unittitle>Crème Brisa Violetta  Crème Vaseline</unittitle>
@@ -4134,7 +4134,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XPuDV6">
             <did>
               <unitid>MUS_VAI3_D03_F16</unitid>
               <unittitle>Lotion à l'Héliotrope</unittitle>
@@ -4155,7 +4155,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464337bCvM">
             <did>
               <unitid>MUS_VAI3_D03_F17</unitid>
               <unittitle>Poudre de Riz du Congo</unittitle>
@@ -4177,13 +4177,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643Ftf1Eu">
           <did>
             <unitid>MUS_VAI3_D05</unitid>
             <unittitle>Hygiène bucco-dentaire</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27655" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446438hZDn2">
             <did>
               <unitid>MUS_VAI3_D05_F01</unitid>
               <unittitle>Eau dentifrice</unittitle>
@@ -4199,7 +4199,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27656" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Srwj4V">
             <did>
               <unitid>MUS_VAI3_D05_F02</unitid>
               <unittitle>Poudre de dentifrice N°740</unittitle>
@@ -4224,13 +4224,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643SQhVFU">
           <did>
             <unitid>MUS_VAI3_D06</unitid>
             <unittitle>Sachets parfumés</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27658" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643TfbQm4">
             <did>
               <unitid>MUS_VAI3_D06_F01</unitid>
               <unittitle>Sachet parfumé Héliotrope Royal</unittitle>
@@ -4246,7 +4246,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27659" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EpcRvZ">
             <did>
               <unitid>MUS_VAI3_D06_F02</unitid>
               <unittitle>Sachet parfumé Bouquet Impérial</unittitle>
@@ -4267,7 +4267,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643z39V8U">
             <did>
               <unitid>MUS_VAI3_D06_F03</unitid>
               <unittitle>Sachet parfumé Héliotrope </unittitle>
@@ -4283,7 +4283,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27661" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643E5Amme">
             <did>
               <unitid>MUS_VAI3_D06_F04</unitid>
               <unittitle>Sachet parfumé Peau d'Espagne</unittitle>
@@ -4299,7 +4299,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27662" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643W5xmxG">
             <did>
               <unitid>MUS_VAI3_D06_F05</unitid>
               <unittitle>Sachet parfumé Héliotrope Impérial</unittitle>
@@ -4315,7 +4315,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27663" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643FZyjhV">
             <did>
               <unitid>MUS_VAI3_D06_F06</unitid>
               <unittitle>Sachet parfumé Congo Impérial Russe</unittitle>
@@ -4336,7 +4336,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436O8T7n">
             <did>
               <unitid>MUS_VAI3_D06_F07</unitid>
               <unittitle>Sachet parfumé Iris</unittitle>
@@ -4356,13 +4356,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643TX6cjh">
           <did>
             <unitid>MUS_VAI3_D07</unitid>
             <unittitle>Etiquettes de produits</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27671" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643uX8vBR">
             <did>
               <unitid>MUS_VAI3_D07_F001</unitid>
               <unittitle>Essence du Congo </unittitle>
@@ -4386,7 +4386,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433YxR7W">
             <did>
               <unitid>MUS_VAI3_D07_F003</unitid>
               <unittitle>Prince du Congo mildé - N°198</unittitle>
@@ -4407,7 +4407,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ZGUbRC">
             <did>
               <unitid>MUS_VAI3_D07_F005</unitid>
               <unittitle>Savon du Congo Double extrait - N°194</unittitle>
@@ -4431,7 +4431,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643B2oRQj">
             <did>
               <unitid>MUS_VAI3_D07_F002</unitid>
               <unittitle>Savon des Princes du Congo - N°198 Ter</unittitle>
@@ -4455,7 +4455,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439cA6ES">
             <did>
               <unitid>MUS_VAI3_D07_F004</unitid>
               <unittitle>Congo Double</unittitle>
@@ -4475,7 +4475,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XIFm04">
             <did>
               <unitid>MUS_VAI3_D07_F006</unitid>
               <unittitle>Bégonia du Japon - N°1138</unittitle>
@@ -4496,7 +4496,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643LlMBIi">
             <did>
               <unitid>MUS_VAI3_D07_F007</unitid>
               <unittitle>Eau de cologne Bleuet Bleu Surparfumée</unittitle>
@@ -4515,7 +4515,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27680" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643r6cHDJ">
             <did>
               <unitid>MUS_VAI3_D07_F008</unitid>
               <unittitle>Eau de cologne Bleuet Bleu</unittitle>
@@ -4530,7 +4530,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27681" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643YCVtxf">
             <did>
               <unitid>MUS_VAI3_D07_F009</unitid>
               <unittitle>Eau de cologne Bleuet Bleu</unittitle>
@@ -4551,7 +4551,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643cHbPLq">
             <did>
               <unitid>MUS_VAI3_D07_F010</unitid>
               <unittitle>Savon d'Arménie</unittitle>
@@ -4572,7 +4572,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643E8oy1T">
             <did>
               <unitid>MUS_VAI3_D07_F011</unitid>
               <unittitle>Savon fin Le Langage des fleurs</unittitle>
@@ -4593,7 +4593,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438mvOl6">
             <did>
               <unitid>MUS_VAI3_D07_F012</unitid>
               <unittitle>Savon Fleurs de Lékélé - N°263</unittitle>
@@ -4617,7 +4617,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nJg6OY">
             <did>
               <unitid>MUS_VAI3_D07_F013</unitid>
               <unittitle>Savon Hélianthis d'Or - N°1139</unittitle>
@@ -4638,7 +4638,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433JFnJd">
             <did>
               <unitid>MUS_VAI3_D07_F014</unitid>
               <unittitle>Savon Olgalia au Muguet</unittitle>
@@ -4654,7 +4654,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27687" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643iQybOz">
             <did>
               <unitid>MUS_VAI3_D07_F015</unitid>
               <unittitle>Savon extra fin au Muguet - N°754</unittitle>
@@ -4676,7 +4676,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433spWOO">
             <did>
               <unitid>MUS_VAI3_D07_F016</unitid>
               <unittitle>Savon au Muguet</unittitle>
@@ -4700,7 +4700,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ZYGr3i">
             <did>
               <unitid>MUS_VAI3_D07_F017</unitid>
               <unittitle>Triomphe</unittitle>
@@ -4724,7 +4724,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434g8eCz">
             <did>
               <unitid>MUS_VAI3_D07_F018</unitid>
               <unittitle>Savon à l'Oeillet - N°323</unittitle>
@@ -4748,7 +4748,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WZjos2">
             <did>
               <unitid>MUS_VAI3_D07_F019</unitid>
               <unittitle>Oeillet - N°789</unittitle>
@@ -4767,7 +4767,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27692" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643FCU48O">
             <did>
               <unitid>MUS_VAI3_D07_F020</unitid>
               <unittitle>Savon au lait de Son - N°120</unittitle>
@@ -4792,7 +4792,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OIxyoG">
             <did>
               <unitid>MUS_VAI3_D07_F021</unitid>
               <unittitle>Savon à l'extrait de Son - N°456</unittitle>
@@ -4808,7 +4808,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27694" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OcgfPb">
             <did>
               <unitid>MUS_VAI3_D07_F022</unitid>
               <unittitle>Savon extra-fin à l'Extrait de Son - N°122</unittitle>
@@ -4832,7 +4832,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643uHBL43">
             <did>
               <unitid>MUS_VAI3_D07_F023</unitid>
               <unittitle>Savon à l'Extrait de Son</unittitle>
@@ -4851,7 +4851,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27696" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ESuXQh">
             <did>
               <unitid>MUS_VAI3_D07_F024</unitid>
               <unittitle>Savon des familles</unittitle>
@@ -4875,7 +4875,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643t6iTtD">
             <did>
               <unitid>MUS_VAI3_D07_F025</unitid>
               <unittitle>Savon Trèfle Vaissier - N°383</unittitle>
@@ -4899,7 +4899,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643eSEElr">
             <did>
               <unitid>MUS_VAI3_D07_F026</unitid>
               <unittitle>Savon au Trèfle - N°323</unittitle>
@@ -4923,7 +4923,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dp6y3H">
             <did>
               <unitid>MUS_VAI3_D07_F027</unitid>
               <unittitle>Savon au Trèfle - N°1131</unittitle>
@@ -4947,7 +4947,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zcip6q">
             <did>
               <unitid>MUS_VAI3_D07_F028</unitid>
               <unittitle>Savon au Trèfle - N°1141</unittitle>
@@ -4971,7 +4971,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tyR6e2">
             <did>
               <unitid>MUS_VAI3_D07_F029</unitid>
               <unittitle>Savon Trèfle Ecarlate</unittitle>
@@ -4996,7 +4996,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lsUvx2">
             <did>
               <unitid>MUS_VAI3_D07_F030</unitid>
               <unittitle>Trèfle Victor Vaissier</unittitle>
@@ -5016,7 +5016,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27703" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643aLxUae">
             <did>
               <unitid>MUS_VAI3_D07_F031</unitid>
               <unittitle>Savon au Trèfle</unittitle>
@@ -5036,7 +5036,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27704" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xSAhWw">
             <did>
               <unitid>MUS_VAI3_D07_F032</unitid>
               <unittitle>Savon Peau d'Espagne 1900</unittitle>
@@ -5061,7 +5061,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643IYmfTb">
             <did>
               <unitid>MUS_VAI3_D07_F033</unitid>
               <unittitle>Savon Peau d'Espagne - N°59</unittitle>
@@ -5086,7 +5086,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437yMAsj">
             <did>
               <unitid>MUS_VAI3_D07_F034</unitid>
               <unittitle>Savon Peau d'Espagne</unittitle>
@@ -5111,7 +5111,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643sft9Lv">
             <did>
               <unitid>MUS_VAI3_D07_F035</unitid>
               <unittitle>Savon Peau d'Espagne</unittitle>
@@ -5135,7 +5135,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bVLU8I">
             <did>
               <unitid>MUS_VAI3_D07_F036</unitid>
               <unittitle>Savon Bouquet de l'Ikopa - Peau d'Espagne</unittitle>
@@ -5161,7 +5161,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431CrucV">
             <did>
               <unitid>MUS_VAI3_D07_F037</unitid>
               <unittitle>Savon Royal Vaissier</unittitle>
@@ -5186,7 +5186,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JzyFip">
             <did>
               <unitid>MUS_VAI3_D07_F038</unitid>
               <unittitle>Royal Vaissier Essence</unittitle>
@@ -5211,7 +5211,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446432Z5nBO">
             <did>
               <unitid>MUS_VAI3_D07_F039</unitid>
               <unittitle>Fleurs de Prétoria au Chypre</unittitle>
@@ -5235,7 +5235,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JGvFv9">
             <did>
               <unitid>MUS_VAI3_D07_F040</unitid>
               <unittitle>Savon à la Violette extra fin - N°101</unittitle>
@@ -5254,7 +5254,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27713" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643IpDmuF">
             <did>
               <unitid>MUS_VAI3_D07_F041</unitid>
               <unittitle>Savon aux violettes de Turquie - N°145</unittitle>
@@ -5273,7 +5273,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27714" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643HcR0En">
             <did>
               <unitid>MUS_VAI3_D07_F042</unitid>
               <unittitle>Violettes de Samos - N°215</unittitle>
@@ -5292,7 +5292,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27715" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643qwxZ97">
             <did>
               <unitid>MUS_VAI3_D07_F043</unitid>
               <unittitle>Violettes Mystérieuses - N°217</unittitle>
@@ -5316,7 +5316,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643H4MOfz">
             <did>
               <unitid>MUS_VAI3_D07_F044</unitid>
               <unittitle>Violettes du Congo - N°223</unittitle>
@@ -5340,7 +5340,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lIYGT6">
             <did>
               <unitid>MUS_VAI3_D07_F045</unitid>
               <unittitle>Savon à la Violette - N°232</unittitle>
@@ -5364,7 +5364,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439Y5uWa">
             <did>
               <unitid>MUS_VAI3_D07_F046</unitid>
               <unittitle>Violettes immortelles - N°234</unittitle>
@@ -5388,7 +5388,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643gPWas6">
             <did>
               <unitid>MUS_VAI3_D07_F047</unitid>
               <unittitle>Violette d'Alger - N°281</unittitle>
@@ -5407,7 +5407,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27720" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tqWbHL">
             <did>
               <unitid>MUS_VAI3_D07_F048</unitid>
               <unittitle>Savon à la Violette - N°298</unittitle>
@@ -5426,7 +5426,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27721" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ay5Z4L">
             <did>
               <unitid>MUS_VAI3_D07_F049</unitid>
               <unittitle>Savon aux Violettes de Naples - N°323</unittitle>
@@ -5450,7 +5450,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bZ92Xw">
             <did>
               <unitid>MUS_VAI3_D07_F050</unitid>
               <unittitle>Savon aux violettes Aimées - N°333</unittitle>
@@ -5469,7 +5469,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27723" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643VllcEW">
             <did>
               <unitid>MUS_VAI3_D07_F051</unitid>
               <unittitle>Savon à la Violette extra fin - N°436</unittitle>
@@ -5493,7 +5493,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643DdQQ8M">
             <did>
               <unitid>MUS_VAI3_D07_F052</unitid>
               <unittitle>Violette - N°788</unittitle>
@@ -5512,7 +5512,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27725" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643U6cJI4">
             <did>
               <unitid>MUS_VAI3_D07_F053</unitid>
               <unittitle>Violette - N°789</unittitle>
@@ -5531,7 +5531,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27726" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643VdVx07">
             <did>
               <unitid>MUS_VAI3_D07_F054</unitid>
               <unittitle>Savon aux Violettes des Indes - N°794</unittitle>
@@ -5554,7 +5554,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jlR4j0">
             <did>
               <unitid>MUS_VAI3_D07_F055</unitid>
               <unittitle>Savon à la Violette - N°900</unittitle>
@@ -5578,7 +5578,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643S2jbI5">
             <did>
               <unitid>MUS_VAI3_D07_F056</unitid>
               <unittitle>Violettes Rêvées - N°1110</unittitle>
@@ -5602,7 +5602,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439wHtcx">
             <did>
               <unitid>MUS_VAI3_D07_F057</unitid>
               <unittitle>Violettes de Cannes - N°1111</unittitle>
@@ -5626,7 +5626,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643p83ohp">
             <did>
               <unitid>MUS_VAI3_D07_F058</unitid>
               <unittitle>Savon à la Violette - N°1130</unittitle>
@@ -5645,7 +5645,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27731" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l2eLS7">
             <did>
               <unitid>MUS_VAI3_D07_F059</unitid>
               <unittitle>Savon à la Violette - N°1146</unittitle>
@@ -5669,7 +5669,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OL9eCa">
             <did>
               <unitid>MUS_VAI3_D07_F060</unitid>
               <unittitle>Savon à la Violette extra fin - N°1204</unittitle>
@@ -5688,7 +5688,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27733" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XLTH1J">
             <did>
               <unitid>MUS_VAI3_D07_F061</unitid>
               <unittitle>Savon à la Violette - N°1205</unittitle>
@@ -5707,7 +5707,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27734" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436Yn081">
             <did>
               <unitid>MUS_VAI3_D07_F062</unitid>
               <unittitle>Violettes Vivantes - N°1210</unittitle>
@@ -5731,7 +5731,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nZM60A">
             <did>
               <unitid>MUS_VAI3_D07_F063</unitid>
               <unittitle>Brassée de Violettes</unittitle>
@@ -5750,7 +5750,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27736" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JG0sbU">
             <did>
               <unitid>MUS_VAI3_D07_F064</unitid>
               <unittitle>Savon à la Violette</unittitle>
@@ -5774,7 +5774,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643BRLT7G">
             <did>
               <unitid>MUS_VAI3_D07_F065</unitid>
               <unittitle>Savon à la Violette</unittitle>
@@ -5798,7 +5798,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mRlEv6">
             <did>
               <unitid>MUS_VAI3_D07_F066</unitid>
               <unittitle>Savon Surfin Violette</unittitle>
@@ -5822,7 +5822,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nBSBqp">
             <did>
               <unitid>MUS_VAI3_D07_F067</unitid>
               <unittitle>Eau de toilette Violette Tatiana</unittitle>
@@ -5841,7 +5841,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27740" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643juTJU2">
             <did>
               <unitid>MUS_VAI3_D07_F068</unitid>
               <unittitle>Poudre de Riz Tatiana</unittitle>
@@ -5860,7 +5860,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27741" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643g8POMU">
             <did>
               <unitid>MUS_VAI3_D07_F069</unitid>
               <unittitle>Essence de Violette Tatiana</unittitle>
@@ -5884,7 +5884,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643gfuxvY">
             <did>
               <unitid>MUS_VAI3_D07_F070</unitid>
               <unittitle>Savon Violette Tatiana</unittitle>
@@ -5908,7 +5908,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WI6udr">
             <did>
               <unitid>MUS_VAI3_D07_F071</unitid>
               <unittitle>Essence de Violettes Blanches</unittitle>
@@ -5927,7 +5927,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27744" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643TUZ9pz">
             <did>
               <unitid>MUS_VAI3_D07_F072</unitid>
               <unittitle>Savon Violettes du Congo</unittitle>
@@ -5951,7 +5951,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Xci8wY">
             <did>
               <unitid>MUS_VAI3_D07_F073</unitid>
               <unittitle>Violettes de Samos</unittitle>
@@ -5975,7 +5975,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hXrVyt">
             <did>
               <unitid>MUS_VAI3_D07_F074</unitid>
               <unittitle>Violette parlante</unittitle>
@@ -5994,7 +5994,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27747" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436bubcy">
             <did>
               <unitid>MUS_VAI3_D07_F075</unitid>
               <unittitle>Violettes Préférées</unittitle>
@@ -6013,7 +6013,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27748" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439QBIYd">
             <did>
               <unitid>MUS_VAI3_D07_F076</unitid>
               <unittitle>Violettes de Pâques</unittitle>
@@ -6032,7 +6032,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27749" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438iweRr">
             <did>
               <unitid>MUS_VAI3_D07_F077</unitid>
               <unittitle>Violettes Exquises</unittitle>
@@ -6051,7 +6051,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27750" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643qCW9AW">
             <did>
               <unitid>MUS_VAI3_D07_F078</unitid>
               <unittitle>Violettes Vivantes</unittitle>
@@ -6070,7 +6070,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27751" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hQFVxh">
             <did>
               <unitid>MUS_VAI3_D07_F079</unitid>
               <unittitle>Savon à la Violette</unittitle>
@@ -6089,7 +6089,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27752" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643YUC428">
             <did>
               <unitid>MUS_VAI3_D07_F080</unitid>
               <unittitle>Violettes</unittitle>
@@ -6108,7 +6108,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27753" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jinf5R">
             <did>
               <unitid>MUS_VAI3_D07_F081</unitid>
               <unittitle>Violette</unittitle>
@@ -6127,7 +6127,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27754" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OYgzUW">
             <did>
               <unitid>MUS_VAI3_D07_F082</unitid>
               <unittitle>Violette</unittitle>
@@ -6146,7 +6146,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27755" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464391B0Pd">
             <did>
               <unitid>MUS_VAI3_D07_F083</unitid>
               <unittitle>Savon Violette</unittitle>
@@ -6170,7 +6170,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436EetUY">
             <did>
               <unitid>MUS_VAI3_D07_F085</unitid>
               <unittitle>Savon à la Rose - N°232</unittitle>
@@ -6189,7 +6189,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27757" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ZLsljC">
             <did>
               <unitid>MUS_VAI3_D07_F086</unitid>
               <unittitle>Savon à la Rose - N° 323</unittitle>
@@ -6208,7 +6208,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27758" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643PIgTez">
             <did>
               <unitid>MUS_VAI3_D07_F087</unitid>
               <unittitle>Roses Choisies - N°362</unittitle>
@@ -6226,7 +6226,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27759" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643uFQY7o">
             <did>
               <unitid>MUS_VAI3_D07_F088</unitid>
               <unittitle>Roses Captivantes - N°364</unittitle>
@@ -6245,7 +6245,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27760" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MiPhaL">
             <did>
               <unitid>MUS_VAI3_D07_F089</unitid>
               <unittitle>Rose - N°788</unittitle>
@@ -6264,7 +6264,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27761" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437waC7M">
             <did>
               <unitid>MUS_VAI3_D07_F084</unitid>
               <unittitle>Savon aux Roses de Nice - N°168</unittitle>
@@ -6283,7 +6283,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27762" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oaUBXs">
             <did>
               <unitid>MUS_VAI3_D07_F090</unitid>
               <unittitle>Rose - N°789</unittitle>
@@ -6302,7 +6302,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27763" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EW69mI">
             <did>
               <unitid>MUS_VAI3_D07_F091</unitid>
               <unittitle>Savon à la Rose de Chine - N°898</unittitle>
@@ -6321,7 +6321,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27764" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Fv653g">
             <did>
               <unitid>MUS_VAI3_D07_F092</unitid>
               <unittitle>Roses Mystérieuses - N°899</unittitle>
@@ -6340,7 +6340,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27765" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WXH1La">
             <did>
               <unitid>MUS_VAI3_D07_F093</unitid>
               <unittitle>Savon Roses de Kioto - N°1134</unittitle>
@@ -6359,7 +6359,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27766" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643DHqeiq">
             <did>
               <unitid>MUS_VAI3_D07_F094</unitid>
               <unittitle>Savon Roses Préférées - N°1148</unittitle>
@@ -6383,7 +6383,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643c3w01p">
             <did>
               <unitid>MUS_VAI3_D07_F095</unitid>
               <unittitle>Savon fin aux Roses de France - N°1202</unittitle>
@@ -6402,7 +6402,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27768" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643v1Gc9O">
             <did>
               <unitid>MUS_VAI3_D07_F096</unitid>
               <unittitle>Roses Préférées - N°1215</unittitle>
@@ -6421,7 +6421,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27769" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wo3Et7">
             <did>
               <unitid>MUS_VAI3_D07_F097</unitid>
               <unittitle>Savon Roses du Congo 1900</unittitle>
@@ -6445,7 +6445,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643M48tEF">
             <did>
               <unitid>MUS_VAI3_D07_F098</unitid>
               <unittitle>Eau de cologne Rose</unittitle>
@@ -6456,7 +6456,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27771" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643392uhm">
             <did>
               <unitid>MUS_VAI3_D07_F099</unitid>
               <unittitle>Essence de Roses Maréchal Niel</unittitle>
@@ -6475,7 +6475,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27772" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mgnUIH">
             <did>
               <unitid>MUS_VAI3_D07_F100</unitid>
               <unittitle>Savon à la Rose</unittitle>
@@ -6499,7 +6499,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643U6uwyM">
             <did>
               <unitid>MUS_VAI3_D07_F101</unitid>
               <unittitle>Savon à la Rose</unittitle>
@@ -6523,7 +6523,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oO2V5u">
             <did>
               <unitid>MUS_VAI3_D07_F102</unitid>
               <unittitle>Savon fin à la Rose</unittitle>
@@ -6542,7 +6542,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27775" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EL2vR2">
             <did>
               <unitid>MUS_VAI3_D07_F103</unitid>
               <unittitle>Roses du Congo</unittitle>
@@ -6561,7 +6561,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27776" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438EtLEc">
             <did>
               <unitid>MUS_VAI3_D07_F104</unitid>
               <unittitle>Rose de Samos</unittitle>
@@ -6580,7 +6580,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27777" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435BxRc4">
             <did>
               <unitid>MUS_VAI3_D07_F105</unitid>
               <unittitle>Rose</unittitle>
@@ -6599,7 +6599,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27778" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433X7FrI">
             <did>
               <unitid>MUS_VAI3_D07_F106</unitid>
               <unittitle>Eau de Lavande</unittitle>
@@ -6618,7 +6618,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27779" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643cCSmHZ">
             <did>
               <unitid>MUS_VAI3_D07_F107</unitid>
               <unittitle>Vinaigre de Toilette</unittitle>
@@ -6637,7 +6637,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27780" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SIUmMD">
             <did>
               <unitid>MUS_VAI3_D07_F108</unitid>
               <unittitle>Eau de Cologne</unittitle>
@@ -6656,7 +6656,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27781" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ZlDdph">
             <did>
               <unitid>MUS_VAI3_D07_F109</unitid>
               <unittitle>Eau de Cologne Extra Supérieure</unittitle>
@@ -6680,7 +6680,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MrAHya">
             <did>
               <unitid>MUS_VAI3_D07_F110</unitid>
               <unittitle>Eau de Cologne Qualité Extra Supérieure</unittitle>
@@ -6699,7 +6699,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27783" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643fvPRnx">
             <did>
               <unitid>MUS_VAI3_D07_F114</unitid>
               <unittitle>Savon à l'Eau de Cologne - N°312 Ter</unittitle>
@@ -6723,7 +6723,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l3AZnS">
             <did>
               <unitid>MUS_VAI3_D07_F111</unitid>
               <unittitle>Poudre de Savon à l'Eau de Cologne - N°312</unittitle>
@@ -6742,7 +6742,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27785" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643svIZwH">
             <did>
               <unitid>MUS_VAI3_D07_F112</unitid>
               <unittitle>Savon à l'Eau de Cologne - N°312</unittitle>
@@ -6761,7 +6761,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27786" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643qSZA5g">
             <did>
               <unitid>MUS_VAI3_D07_F113</unitid>
               <unittitle>Eau de Cologne Ambrée - N°312</unittitle>
@@ -6785,7 +6785,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643fh1wtZ">
             <did>
               <unitid>MUS_VAI3_D07_F115</unitid>
               <unittitle>Eau de Cologne Musquée</unittitle>
@@ -6804,7 +6804,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27788" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643x8UlAw">
             <did>
               <unitid>MUS_VAI3_D07_F116</unitid>
               <unittitle>Eau de Cologne</unittitle>
@@ -6828,7 +6828,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643USaIqG">
             <did>
               <unitid>MUS_VAI3_D07_F117</unitid>
               <unittitle>Eau de Cologne Qualité Supérieure</unittitle>
@@ -6847,7 +6847,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27790" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436GSWe7">
             <did>
               <unitid>MUS_VAI3_D07_F118</unitid>
               <unittitle>Eau de Cologne</unittitle>
@@ -6863,7 +6863,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27791" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464379tIqr">
             <did>
               <unitid>MUS_VAI3_D07_F119</unitid>
               <unittitle>Eau de Cologne Chypre - N°88</unittitle>
@@ -6882,7 +6882,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27792" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oQcwxp">
             <did>
               <unitid>MUS_VAI3_D07_F120</unitid>
               <unittitle>Eau de Cologne Russe</unittitle>
@@ -6901,7 +6901,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27793" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ZQUOB0">
             <did>
               <unitid>MUS_VAI3_D07_F121</unitid>
               <unittitle>Eau de Cologne - N°712</unittitle>
@@ -6920,7 +6920,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27794" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JBmGzg">
             <did>
               <unitid>MUS_VAI3_D07_F122</unitid>
               <unittitle>Eau de Cologne - N°715</unittitle>
@@ -6939,7 +6939,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27795" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WaF22x">
             <did>
               <unitid>MUS_VAI3_D07_F123</unitid>
               <unittitle>Eau de Cologne</unittitle>
@@ -6958,7 +6958,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27796" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643B1wCz8">
             <did>
               <unitid>MUS_VAI3_D07_F124</unitid>
               <unittitle>Eau de Cologne</unittitle>
@@ -6977,7 +6977,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27797" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446432rnqt7">
             <did>
               <unitid>MUS_VAI3_D07_F125</unitid>
               <unittitle>Eau de Toilette</unittitle>
@@ -6996,7 +6996,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27798" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643vOngay">
             <did>
               <unitid>MUS_VAI3_D07_F126</unitid>
               <unittitle>Congologne - N°200</unittitle>
@@ -7012,7 +7012,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27799" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439REaBM">
             <did>
               <unitid>MUS_VAI3_D07_F127</unitid>
               <unittitle>Brillantine au Lilas</unittitle>
@@ -7031,7 +7031,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27800" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643AiDIEL">
             <did>
               <unitid>MUS_VAI3_D07_F128</unitid>
               <unittitle>Brillantine au Lilas Blanc</unittitle>
@@ -7050,7 +7050,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27801" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643m52Cr9">
             <did>
               <unitid>MUS_VAI3_D07_F129</unitid>
               <unittitle>Brillantine à la Violette</unittitle>
@@ -7069,7 +7069,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27802" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JcY5nf">
             <did>
               <unitid>MUS_VAI3_D07_F130</unitid>
               <unittitle>Brillantine Peau d'Espagne</unittitle>
@@ -7088,7 +7088,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27803" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SRYRhV">
             <did>
               <unitid>MUS_VAI3_D07_F131</unitid>
               <unittitle>Brillantine Concrète</unittitle>
@@ -7107,7 +7107,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27804" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643E0fEVT">
             <did>
               <unitid>MUS_VAI3_D07_F132</unitid>
               <unittitle>Brillantine Concrète</unittitle>
@@ -7126,7 +7126,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27805" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Dai7oa">
             <did>
               <unitid>MUS_VAI3_D07_F133</unitid>
               <unittitle>Brillantine Extra Pure</unittitle>
@@ -7145,7 +7145,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27806" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jg7RHR">
             <did>
               <unitid>MUS_VAI3_D07_F134</unitid>
               <unittitle>Savon à Barbe Pur Extra Moussant</unittitle>
@@ -7169,7 +7169,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643VVZgso">
             <did>
               <unitid>MUS_VAI3_D07_F135</unitid>
               <unittitle>Eau Dentifrice</unittitle>
@@ -7188,7 +7188,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27808" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643VThfJz">
             <did>
               <unitid>MUS_VAI3_D07_F136</unitid>
               <unittitle>Essence Choisie</unittitle>
@@ -7207,7 +7207,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27809" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QGdVMq">
             <did>
               <unitid>MUS_VAI3_D07_F137</unitid>
               <unittitle>Essence Mystérieuse</unittitle>
@@ -7226,7 +7226,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27810" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464371guRr">
             <did>
               <unitid>MUS_VAI3_D07_F138</unitid>
               <unittitle>Essence Cardinalis</unittitle>
@@ -7245,7 +7245,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27811" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643BUqeM2">
             <did>
               <unitid>MUS_VAI3_D07_F141</unitid>
               <unittitle>Poudre de riz Extra fine</unittitle>
@@ -7264,7 +7264,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27812" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464337Lwdx">
             <did>
               <unitid>MUS_VAI3_D07_F142</unitid>
               <unittitle>Poudre de riz Blanche à l'Ylang-Ylang</unittitle>
@@ -7283,7 +7283,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27813" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643iel4mc">
             <did>
               <unitid>MUS_VAI3_D07_F139</unitid>
               <unittitle>Essence Rhodésia</unittitle>
@@ -7304,7 +7304,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xM0p7h">
             <did>
               <unitid>MUS_VAI3_D07_F140</unitid>
               <unittitle>Essence pour le mouchoir - Princesse Olga</unittitle>
@@ -7328,7 +7328,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hwyaeM">
             <did>
               <unitid>MUS_VAI3_D07_F143</unitid>
               <unittitle>Echantillon Eau de Cologne Russe</unittitle>
@@ -7347,7 +7347,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27816" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643BQMgIX">
             <did>
               <unitid>MUS_VAI3_D07_F144</unitid>
               <unittitle>Echantillon Chypre</unittitle>
@@ -7366,7 +7366,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27817" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WTQhRe">
             <did>
               <unitid>MUS_VAI3_D07_F145</unitid>
               <unittitle>Echantillon Essence Aimée</unittitle>
@@ -7385,7 +7385,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27818" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xbJUZW">
             <did>
               <unitid>MUS_VAI3_D07_F146</unitid>
               <unittitle>Réveil - N°4</unittitle>
@@ -7409,7 +7409,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643RCxIqw">
             <did>
               <unitid>MUS_VAI3_D07_F147</unitid>
               <unittitle>Parfum d'Amour</unittitle>
@@ -7433,7 +7433,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lADSaq">
             <did>
               <unitid>MUS_VAI3_D07_F148</unitid>
               <unittitle>Rosédaline</unittitle>
@@ -7452,7 +7452,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27821" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643owQPRY">
             <did>
               <unitid>MUS_VAI3_D07_F149</unitid>
               <unittitle>Coeur de Clairette</unittitle>
@@ -7471,7 +7471,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27822" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l95D3F">
             <did>
               <unitid>MUS_VAI3_D07_F150</unitid>
               <unittitle>Royal Bruyère - N°1137</unittitle>
@@ -7490,7 +7490,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27823" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643AIo58p">
             <did>
               <unitid>MUS_VAI3_D07_F151</unitid>
               <unittitle>Orientalis</unittitle>
@@ -7509,7 +7509,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27824" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435vLjer">
             <did>
               <unitid>MUS_VAI3_D07_F152</unitid>
               <unittitle>Femme de Paris</unittitle>
@@ -7528,7 +7528,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27825" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JYudJC">
             <did>
               <unitid>MUS_VAI3_D07_F153</unitid>
               <unittitle>Extrait Chypre</unittitle>
@@ -7547,7 +7547,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27826" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Jcq2Za">
             <did>
               <unitid>MUS_VAI3_D07_F154</unitid>
               <unittitle>Adieu Paris</unittitle>
@@ -7566,7 +7566,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27827" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643d7zjP8">
             <did>
               <unitid>MUS_VAI3_D07_F155</unitid>
               <unittitle>Fidélia</unittitle>
@@ -7585,7 +7585,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27828" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ddZqH1">
             <did>
               <unitid>MUS_VAI3_D07_F156</unitid>
               <unittitle>Nuptia</unittitle>
@@ -7604,7 +7604,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27829" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hOBzMv">
             <did>
               <unitid>MUS_VAI3_D07_F157</unitid>
               <unittitle>Larissa</unittitle>
@@ -7623,7 +7623,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27830" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643z8SvVQ">
             <did>
               <unitid>MUS_VAI3_D07_F158</unitid>
               <unittitle>Capricia</unittitle>
@@ -7642,7 +7642,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27831" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464332bAvP">
             <did>
               <unitid>MUS_VAI3_D07_F159</unitid>
               <unittitle>Flirtaline</unittitle>
@@ -7661,7 +7661,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27832" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643agmimE">
             <did>
               <unitid>MUS_VAI3_D07_F160</unitid>
               <unittitle>Flirtaline</unittitle>
@@ -7679,7 +7679,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27833" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MjOuHU">
             <did>
               <unitid>MUS_VAI3_D07_F161</unitid>
               <unittitle>Rose Triomphe de Paris</unittitle>
@@ -7698,7 +7698,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27834" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643lCRBPR">
             <did>
               <unitid>MUS_VAI3_D07_F162</unitid>
               <unittitle>Edelweiss de la Tzarine</unittitle>
@@ -7722,7 +7722,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643stuFqU">
             <did>
               <unitid>MUS_VAI3_D07_F163</unitid>
               <unittitle>Savon au Lilas - N°232</unittitle>
@@ -7741,7 +7741,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27836" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437wuCmE">
             <did>
               <unitid>MUS_VAI3_D07_F164</unitid>
               <unittitle>Savon Fin au Lilas Blanc - N°910</unittitle>
@@ -7754,7 +7754,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27837" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643r0WfvM">
             <did>
               <unitid>MUS_VAI3_D07_F165</unitid>
               <unittitle>Savon Lilas</unittitle>
@@ -7773,7 +7773,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27838" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431ivRU1">
             <did>
               <unitid>MUS_VAI3_D07_F166</unitid>
               <unittitle>Savon Surfin à l'Héliotrope - N°219</unittitle>
@@ -7797,7 +7797,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464310tFzz">
             <did>
               <unitid>MUS_VAI3_D07_F167</unitid>
               <unittitle>Savon Extra fin à l'Héliotrope - N°754</unittitle>
@@ -7816,7 +7816,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27840" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oXlOXz">
             <did>
               <unitid>MUS_VAI3_D07_F168</unitid>
               <unittitle>Savon Surfin à l'Héliotrope - N°755</unittitle>
@@ -7837,7 +7837,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433isVB5">
             <did>
               <unitid>MUS_VAI3_D07_F169</unitid>
               <unittitle>Savon des Cours Etrangères à l'Héliotrope du Congo</unittitle>
@@ -7856,7 +7856,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27842" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643trOUl6">
             <did>
               <unitid>MUS_VAI3_D07_F170</unitid>
               <unittitle>Savon fin Héliotrope</unittitle>
@@ -7880,7 +7880,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jGJThh">
             <did>
               <unitid>MUS_VAI3_D07_F171</unitid>
               <unittitle>Savon Héliotrope de Smyrne</unittitle>
@@ -7904,7 +7904,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Oh1xFX">
             <did>
               <unitid>MUS_VAI3_D07_F172</unitid>
               <unittitle>Savon Surfin Héliotrope Blanc</unittitle>
@@ -7928,7 +7928,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438H7S0z">
             <did>
               <unitid>MUS_VAI3_D07_F173</unitid>
               <unittitle>Savon à l'Héliotrope</unittitle>
@@ -7947,7 +7947,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27846" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Fsu0JD">
             <did>
               <unitid>MUS_VAI3_D07_F174</unitid>
               <unittitle>Savon des Princes Russes</unittitle>
@@ -7966,7 +7966,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27847" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643edqcDl">
             <did>
               <unitid>MUS_VAI3_D07_F175</unitid>
               <unittitle>Savon des Princes Russes Peau d'Espagne - N°252</unittitle>
@@ -7985,7 +7985,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27848" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UpbeHG">
             <did>
               <unitid>MUS_VAI3_D07_F176</unitid>
               <unittitle>Savon des Princes Russes au Lilas - N°252</unittitle>
@@ -8004,7 +8004,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27849" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ib1a7w">
             <did>
               <unitid>MUS_VAI3_D07_F177</unitid>
               <unittitle>Savon des Princes Russes à l'Héliotrope - N°252</unittitle>
@@ -8028,7 +8028,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643XHI9ET">
             <did>
               <unitid>MUS_VAI3_D07_F178</unitid>
               <unittitle>Orpha Savon de Toilette - N°187</unittitle>
@@ -8052,7 +8052,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643M7U6MC">
             <did>
               <unitid>MUS_VAI3_D07_F179</unitid>
               <unittitle>Savon Cachemire</unittitle>
@@ -8071,7 +8071,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27852" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643nj7bIm">
             <did>
               <unitid>MUS_VAI3_D07_F180</unitid>
               <unittitle>Savon au parfum des Balkans - N°35</unittitle>
@@ -8090,7 +8090,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27853" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l7h4tM">
             <did>
               <unitid>MUS_VAI3_D07_F181</unitid>
               <unittitle>Le Suave de la Savonnerie Française</unittitle>
@@ -8103,7 +8103,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27854" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464350HbrI">
             <did>
               <unitid>MUS_VAI3_D07_F182</unitid>
               <unittitle>Savon au Musc Tonkin - N°167</unittitle>
@@ -8122,7 +8122,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27855" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SM9l3c">
             <did>
               <unitid>MUS_VAI3_D07_F183</unitid>
               <unittitle>Bouquet Français - N°239</unittitle>
@@ -8141,7 +8141,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27856" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446432Jjs8Y">
             <did>
               <unitid>MUS_VAI3_D07_F184</unitid>
               <unittitle>Savon des Immortels - N°260</unittitle>
@@ -8160,7 +8160,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27857" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446434uXLTz">
             <did>
               <unitid>MUS_VAI3_D07_F185</unitid>
               <unittitle>Savon Mon Ami Pierrot - N°566</unittitle>
@@ -8179,7 +8179,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27858" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Hzi1pf">
             <did>
               <unitid>MUS_VAI3_D07_F186</unitid>
               <unittitle>Savon Licaria - N°235</unittitle>
@@ -8203,7 +8203,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UG9ejn">
             <did>
               <unitid>MUS_VAI3_D07_F187</unitid>
               <unittitle>Royal Mimosa - N°283</unittitle>
@@ -8222,7 +8222,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27860" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643vEmb35">
             <did>
               <unitid>MUS_VAI3_D07_F188</unitid>
               <unittitle>Savon des Immortels au Jockey-club</unittitle>
@@ -8246,7 +8246,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MvXwfF">
             <did>
               <unitid>MUS_VAI3_D07_F189</unitid>
               <unittitle>Savon à l'Eau de Toilette</unittitle>
@@ -8270,7 +8270,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QhaYHl">
             <did>
               <unitid>MUS_VAI3_D07_F190</unitid>
               <unittitle>Savon foin coupé - N°184</unittitle>
@@ -8294,7 +8294,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446431LAClY">
             <did>
               <unitid>MUS_VAI3_D07_F191</unitid>
               <unittitle>Savon Princesse Vaissia - N°24</unittitle>
@@ -8318,7 +8318,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JCJJU4">
             <did>
               <unitid>MUS_VAI3_D07_F192</unitid>
               <unittitle>Savon à la Fougère - N°200</unittitle>
@@ -8342,7 +8342,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643u9tfol">
             <did>
               <unitid>MUS_VAI3_D07_F193</unitid>
               <unittitle>Savon Le Chat Blanc - N°1206</unittitle>
@@ -8361,7 +8361,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27866" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643S09SVZ">
             <did>
               <unitid>MUS_VAI3_D07_F194</unitid>
               <unittitle>Savon La Favorite</unittitle>
@@ -8380,7 +8380,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27867" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433p1dBf">
             <did>
               <unitid>MUS_VAI3_D07_F195</unitid>
               <unittitle>Savon Princesse Makoko</unittitle>
@@ -8399,7 +8399,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27868" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ljzb6d">
             <did>
               <unitid>MUS_VAI3_D07_F196</unitid>
               <unittitle>Savon Crème de cerise</unittitle>
@@ -8418,7 +8418,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27869" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wRu49B">
             <did>
               <unitid>MUS_VAI3_D07_F197</unitid>
               <unittitle>Savon Extra Fin à l'Antilope</unittitle>
@@ -8437,7 +8437,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27870" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643spD66d">
             <did>
               <unitid>MUS_VAI3_D07_F198</unitid>
               <unittitle>Savon Vera Muska</unittitle>
@@ -8456,7 +8456,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27871" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439icVx2">
             <did>
               <unitid>MUS_VAI3_D07_F199</unitid>
               <unittitle>Savon des Cours Etrangères au Réséda du Congo</unittitle>
@@ -8475,7 +8475,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27872" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Sa5tSE">
             <did>
               <unitid>MUS_VAI3_D07_F200</unitid>
               <unittitle>Princes du Niari</unittitle>
@@ -8494,7 +8494,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27873" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Soho8x">
             <did>
               <unitid>MUS_VAI3_D07_F201</unitid>
               <unittitle>Savon Victor Vaissier</unittitle>
@@ -8513,7 +8513,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27874" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MIDEwA">
             <did>
               <unitid>MUS_VAI3_D07_F202</unitid>
               <unittitle>Savon Congo Luxe au Baume du Pérou</unittitle>
@@ -8532,7 +8532,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27875" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435ToGcb">
             <did>
               <unitid>MUS_VAI3_D07_F203</unitid>
               <unittitle>Savon Fleur de Lékélé - N°218</unittitle>
@@ -8551,7 +8551,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27876" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643E3dFLm">
             <did>
               <unitid>MUS_VAI3_D07_F204</unitid>
               <unittitle>Muguet</unittitle>
@@ -8570,7 +8570,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27877" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446432uEils">
             <did>
               <unitid>MUS_VAI3_D07_F205</unitid>
               <unittitle>Savon au Muguet</unittitle>
@@ -8589,7 +8589,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27878" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446436UH3VL">
             <did>
               <unitid>MUS_VAI3_D07_F206</unitid>
               <unittitle>Savon Bouquet de l'Ikopa à la Violette</unittitle>
@@ -8613,7 +8613,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OEldgR">
             <did>
               <unitid>MUS_VAI3_D07_F207</unitid>
               <unittitle>Savon Bouquet de L'Ikopa à l'Héliotrope</unittitle>
@@ -8632,7 +8632,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27880" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643PPyfXD">
             <did>
               <unitid>MUS_VAI3_D07_F208</unitid>
               <unittitle>Eau de Cologne - Qualité extra supérieure</unittitle>
@@ -8651,7 +8651,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27881" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643mbvwEZ">
             <did>
               <unitid>MUS_VAI3_D07_F209</unitid>
               <unittitle>Savon Roses du Congo</unittitle>
@@ -8670,7 +8670,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27882" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643OrZuXi">
             <did>
               <unitid>MUS_VAI3_D07_F210</unitid>
               <unittitle>Savon des Cours étrangères à la Rose Thé du Congo</unittitle>
@@ -8687,13 +8687,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643T8gxrX">
           <did>
             <unitid>MUS_VAI3_D04</unitid>
             <unittitle>Soin des cheveux et de la barbe</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27885" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643HUY29V">
             <did>
               <unitid>MUS_VAI3_D04_F01</unitid>
               <unittitle>Lotion Vaissier antipelliculaire pour les cheveux</unittitle>
@@ -8717,7 +8717,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Pa8VYe">
             <did>
               <unitid>MUS_VAI3_D04_F02</unitid>
               <unittitle>Lotion Vaissier à la Quinine</unittitle>
@@ -8741,7 +8741,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QdMGRt">
             <did>
               <unitid>MUS_VAI3_D04_F03</unitid>
               <unittitle>Extrait végétal au jaune d'oeuf et à la glycérine pour les cheveux</unittitle>
@@ -8765,7 +8765,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643owLjF7">
             <did>
               <unitid>MUS_VAI3_D04_F04</unitid>
               <unittitle>Eau Athénienne pour les soins de la tête</unittitle>
@@ -8786,7 +8786,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643CoXjjh">
             <did>
               <unitid>MUS_VAI3_D04_F05</unitid>
               <unittitle>Poudre de savon aux Amandes de Provence</unittitle>
@@ -8810,7 +8810,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439rA6zH">
             <did>
               <unitid>MUS_VAI3_D04_F06</unitid>
               <unittitle>Eau Congolaise pour la chevelure</unittitle>
@@ -8834,7 +8834,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643RC7Ago">
             <did>
               <unitid>MUS_VAI3_D04_F07</unitid>
               <unittitle>Huile antique à la Rose pour le soin de la chevelure </unittitle>
@@ -8855,7 +8855,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xo3Pej">
             <did>
               <unitid>MUS_VAI3_D04_F08</unitid>
               <unittitle>Huile parfumée aux Fleurs du Congo pour la chevelure</unittitle>
@@ -8876,7 +8876,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643agzbY2">
             <did>
               <unitid>MUS_VAI3_D04_F09</unitid>
               <unittitle>Huile du Congo à l'Héliotrope pour les cheveux</unittitle>
@@ -8900,7 +8900,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Dnevq7">
             <did>
               <unitid>MUS_VAI3_D04_F10</unitid>
               <unittitle>Huile antique aux Fleurs du Congo pour cheveux</unittitle>
@@ -8924,7 +8924,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643hosDfi">
             <did>
               <unitid>MUS_VAI3_D04_F11</unitid>
               <unittitle>Crème Circassienne - N°627</unittitle>
@@ -8948,7 +8948,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643LRMb6e">
             <did>
               <unitid>MUS_VAI3_D04_F12</unitid>
               <unittitle>Lotion au Rhum et Quinquina pour les soins des cheveux</unittitle>
@@ -8969,7 +8969,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UhEDua">
             <did>
               <unitid>MUS_VAI3_D04_F13</unitid>
               <unittitle>Huile antique au lilas </unittitle>
@@ -8993,7 +8993,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643CT5Qbj">
             <did>
               <unitid>MUS_VAI3_D04_F14</unitid>
               <unittitle>Poudre de Savon aux Amandes de Provence </unittitle>
@@ -9017,7 +9017,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643X0sYCD">
             <did>
               <unitid>MUS_VAI3_D04_F15</unitid>
               <unittitle>Poudre de Savon aux Amandes de Provence</unittitle>
@@ -9042,7 +9042,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tlpyOB">
             <did>
               <unitid>MUS_VAI3_D04_F16</unitid>
               <unittitle>Poudre de savon du Congo à la rose</unittitle>
@@ -9064,13 +9064,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m017812446438MGvTl">
           <did>
             <unitid>MUS_VAI3_D08</unitid>
             <unittitle>Monogrammes, sceaux et bagues</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27902" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643b9SuGQ">
             <did>
               <unitid>MUS_VAI3_D08_F01</unitid>
               <unittitle>Étiquette monogrammée</unittitle>
@@ -9086,7 +9086,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27903" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GqvVJ4">
             <did>
               <unitid>MUS_VAI3_D08_F02</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9102,7 +9102,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27904" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643poTz8w">
             <did>
               <unitid>MUS_VAI3_D08_F03</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9118,7 +9118,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27905" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643rgrLr3">
             <did>
               <unitid>MUS_VAI3_D08_F04</unitid>
               <unittitle>Étiquette de flacon monogrammée</unittitle>
@@ -9134,7 +9134,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27906" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643C3OsT2">
             <did>
               <unitid>MUS_VAI3_D08_F05</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9150,7 +9150,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27907" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643In2by4">
             <did>
               <unitid>MUS_VAI3_D08_F06</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9166,7 +9166,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27908" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GQVfLA">
             <did>
               <unitid>MUS_VAI3_D08_F07</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9182,7 +9182,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27909" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643x6tPPg">
             <did>
               <unitid>MUS_VAI3_D08_F08</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9198,7 +9198,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27910" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643DB4qco">
             <did>
               <unitid>MUS_VAI3_D08_F09</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9214,7 +9214,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27911" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643646oG6">
             <did>
               <unitid>MUS_VAI3_D08_F10</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9230,7 +9230,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27912" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643dxzHEf">
             <did>
               <unitid>MUS_VAI3_D08_F11</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9246,7 +9246,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27913" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643IATgWG">
             <did>
               <unitid>MUS_VAI3_D08_F12</unitid>
               <unittitle>Étiquette demballage monogrammée</unittitle>
@@ -9262,7 +9262,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27914" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643egxB7i">
             <did>
               <unitid>MUS_VAI3_D08_F13</unitid>
               <unittitle>Étiquette bague de flacon Victor Vaissier </unittitle>
@@ -9278,7 +9278,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27915" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643E1DEH4">
             <did>
               <unitid>MUS_VAI3_D08_F14</unitid>
               <unittitle>Étiquette bague de flacon Victor Vaissier</unittitle>
@@ -9294,7 +9294,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27916" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GJsfnw">
             <did>
               <unitid>MUS_VAI3_D08_F15</unitid>
               <unittitle>Étiquette bague de flacon Victor Vaissier </unittitle>
@@ -9310,7 +9310,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27917" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643tnG7uj">
             <did>
               <unitid>MUS_VAI3_D08_F16</unitid>
               <unittitle>Étiquette bague de flacon </unittitle>
@@ -9326,7 +9326,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27918" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zYZ9Ch">
             <did>
               <unitid>MUS_VAI3_D08_F17</unitid>
               <unittitle>Étiquette demballage de savon Victor Vaissier</unittitle>
@@ -9342,7 +9342,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27919" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643fE9ZQB">
             <did>
               <unitid>MUS_VAI3_D08_F18</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9358,7 +9358,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27920" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Di3bFC">
             <did>
               <unitid>MUS_VAI3_D08_F19</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9374,7 +9374,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27921" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643FnaQW5">
             <did>
               <unitid>MUS_VAI3_D08_F20</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9390,7 +9390,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27922" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643pRncXR">
             <did>
               <unitid>MUS_VAI3_D08_F21</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9406,7 +9406,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27923" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643aYbR27">
             <did>
               <unitid>MUS_VAI3_D08_F22</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9422,7 +9422,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27924" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SgH4ef">
             <did>
               <unitid>MUS_VAI3_D08_F23</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9438,7 +9438,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27925" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zLA8XS">
             <did>
               <unitid>MUS_VAI3_D08_F24</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9454,7 +9454,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27926" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643EObheJ">
             <did>
               <unitid>MUS_VAI3_D08_F25</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9470,7 +9470,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27927" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439lQf2c">
             <did>
               <unitid>MUS_VAI3_D08_F26</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9486,7 +9486,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27928" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zzQOIq">
             <did>
               <unitid>MUS_VAI3_D08_F27</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9502,7 +9502,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27929" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643PfbIYU">
             <did>
               <unitid>MUS_VAI3_D08_F28</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9518,7 +9518,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27930" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643qbItga">
             <did>
               <unitid>MUS_VAI3_D08_F29</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9534,7 +9534,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27931" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643oqgcd9">
             <did>
               <unitid>MUS_VAI3_D08_F30</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9550,7 +9550,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27932" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bn4aIA">
             <did>
               <unitid>MUS_VAI3_D08_F31</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9566,7 +9566,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27933" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643SdqtsV">
             <did>
               <unitid>MUS_VAI3_D08_F32</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9582,7 +9582,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27934" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QnZLX3">
             <did>
               <unitid>MUS_VAI3_D08_F33</unitid>
               <unittitle>Étiquette demballage de savon </unittitle>
@@ -9598,7 +9598,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27935" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643H4rDV2">
             <did>
               <unitid>MUS_VAI3_D08_F34</unitid>
               <unittitle>Étiquette demballage de savon Victor Vaissier</unittitle>
@@ -9614,7 +9614,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27936" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WyuwDn">
             <did>
               <unitid>MUS_VAI3_D08_F35</unitid>
               <unittitle>Étiquette de flacon Victor Vaissier</unittitle>
@@ -9631,13 +9631,13 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643CMG5fR">
           <did>
             <unitid>MUS_VAI3_D09</unitid>
             <unittitle>Fabrication des produits</unittitle>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27938" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446434mFq70">
             <did>
               <unitid>MUS_VAI3_D09_F01</unitid>
               <unittitle>Matrice lithographique </unittitle>
@@ -9663,7 +9663,7 @@
           </c>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244643U6tid7">
         <did>
           <unitid>MUS_VAI4</unitid>
           <unittitle>Objets publicitaires</unittitle>
@@ -9672,7 +9672,7 @@
           <p>&lt;p&gt;La popularité des savons Vaissier reste indissociable des campagnes publicitaires monstres que l’industriel orchestra magistralement durant plus d’une décennie. L’abondance de ce type d’objets promotionnels est un indicateur net des ambitions commerciales très étendues de Victor Vaissier : il semble qu’aucune entreprise roubaisienne ou régionale n’ait égalé cette activité publicitaire.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27940" role="publication:previous"/>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643S01i5R">
           <did>
             <unitid>MUS_VAI4_D01</unitid>
             <unittitle>Boîte souvenir</unittitle>
@@ -9681,7 +9681,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27941" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643mGM7Ad">
             <did>
               <unitid>MUS_VAI4_D01_F01</unitid>
               <unittitle>Boîte Souvenir de l'Exposition 1900</unittitle>
@@ -9706,7 +9706,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643Buzgru">
           <did>
             <unitid>MUS_VAI4_D02</unitid>
             <unittitle>Calendriers</unittitle>
@@ -9715,7 +9715,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27943" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643BU60dd">
             <did>
               <unitid>MUS_VAI4_D02_F01</unitid>
               <unittitle>Calendrier de poche Parfumerie du Congo</unittitle>
@@ -9741,7 +9741,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446438cg97x">
             <did>
               <unitid>MUS_VAI4_D02_F02</unitid>
               <unittitle>Calendrier Extrait du Congo</unittitle>
@@ -9768,7 +9768,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643pAHveI">
             <did>
               <unitid>MUS_VAI4_D02_F03</unitid>
               <unittitle>Calendrier Savon des Princes du Congo</unittitle>
@@ -9794,7 +9794,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wSg7ct">
             <did>
               <unitid>MUS_VAI4_D02_F04</unitid>
               <unittitle>Calendrier Savonnerie et parfumerie des Princes du Congo</unittitle>
@@ -9819,7 +9819,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643M3SfAS">
             <did>
               <unitid>MUS_VAI4_D02_F05</unitid>
               <unittitle>Calendrier Savon des Princes du Congo</unittitle>
@@ -9847,7 +9847,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643H0xcaX">
           <did>
             <unitid>MUS_VAI4_D03</unitid>
             <unittitle>Sablier</unittitle>
@@ -9856,7 +9856,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27950" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643xHmelV">
             <did>
               <unitid>MUS_VAI4_D03_F01</unitid>
               <unittitle>Sablier Savon des Princes du Congo</unittitle>
@@ -9877,7 +9877,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m017812446433u3Ot5">
           <did>
             <unitid>MUS_VAI4_D04</unitid>
             <unittitle>Buvards</unittitle>
@@ -9886,7 +9886,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27952" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643JjJdw2">
             <did>
               <unitid>MUS_VAI4_D04_F01</unitid>
               <unittitle>Buvard Fameux Savon des Princes du Congo</unittitle>
@@ -9905,7 +9905,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27954" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643QWmD4j">
             <did>
               <unitid>MUS_VAI4_D04_F02</unitid>
               <unittitle>Buvard Fameux le savon des Princes du Congo</unittitle>
@@ -9924,7 +9924,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27955" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643A10j28">
             <did>
               <unitid>MUS_VAI4_D04_F04</unitid>
               <unittitle>Buvard Savon des Princes du Congo</unittitle>
@@ -9947,7 +9947,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27956" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643bnnCBu">
             <did>
               <unitid>MUS_VAI4_D04_F03</unitid>
               <unittitle>Buvard Fameux le Savon des Princes du Congo</unittitle>
@@ -9969,7 +9969,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643v6dfLq">
           <did>
             <unitid>MUS_VAI4_D05</unitid>
             <unittitle>Affiches</unittitle>
@@ -9978,7 +9978,7 @@
             <genreform>Affiches</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27958" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643MWty8e">
             <did>
               <unitid>MUS_VAI4_D05_F01</unitid>
               <unittitle>Affiche Savonnerie et parfumerie du Congo</unittitle>
@@ -9997,7 +9997,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27959" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643uyJYXx">
             <did>
               <unitid>MUS_VAI4_D05_F02</unitid>
               <unittitle>Affiche Savon Carnot</unittitle>
@@ -10017,7 +10017,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27960" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Jtvuwp">
             <did>
               <unitid>MUS_VAI4_D05_F03</unitid>
               <unittitle>Affiche publicitaire pour le Savon des Princes du Congo </unittitle>
@@ -10043,7 +10043,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27961" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643FGeQnX">
             <did>
               <unitid>MUS_VAI4_D05_F04</unitid>
               <unittitle>Affiche publicitaire pour le Savon du Congo </unittitle>
@@ -10067,7 +10067,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643BRiyB6">
           <did>
             <unitid>MUS_VAI4_D06</unitid>
             <unittitle>Chromolithographies</unittitle>
@@ -10080,7 +10080,7 @@
             <genreform>Affiches</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27963" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643CDheuz">
             <did>
               <unitid>MUS_VAI4_D06_F01</unitid>
               <unittitle>Chromolithographie Savon du Congo</unittitle>
@@ -10103,7 +10103,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27964" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643MHFGSC">
             <did>
               <unitid>MUS_VAI4_D06_F02</unitid>
               <unittitle>Chromolithographie Savon du Congo</unittitle>
@@ -10123,7 +10123,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27965" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xplwTX">
             <did>
               <unitid>MUS_VAI4_D06_F03</unitid>
               <unittitle>Chromolithographie Savon du Congo</unittitle>
@@ -10143,7 +10143,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27966" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643aHPfHA">
             <did>
               <unitid>MUS_VAI4_D06_F04</unitid>
               <unittitle>Chromolithographie Savon du Congo</unittitle>
@@ -10164,7 +10164,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27967" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643BnFXVT">
             <did>
               <unitid>MUS_VAI4_D06_F05</unitid>
               <unittitle>Chromolithographie Savon du Congo</unittitle>
@@ -10185,7 +10185,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643yxlOay">
           <did>
             <unitid>MUS_VAI4_D07</unitid>
             <unittitle>Cartes parfumées</unittitle>
@@ -10194,7 +10194,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27969" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446438hj35e">
             <did>
               <unitid>MUS_VAI4_D07_F01</unitid>
               <unittitle>Carte parfumée Savon du Congo</unittitle>
@@ -10219,7 +10219,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433idUWW">
             <did>
               <unitid>MUS_VAI4_D07_F02</unitid>
               <unittitle>Carte parfumée Prince Nélusko</unittitle>
@@ -10238,7 +10238,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27971" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643wAVnG5">
             <did>
               <unitid>MUS_VAI4_D07_F03</unitid>
               <unittitle>Carte parfumée Savon des Princes du Congo</unittitle>
@@ -10262,7 +10262,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643WhjXch">
             <did>
               <unitid>MUS_VAI4_D07_F04</unitid>
               <unittitle>Carte parfumée Trèfle Vaissier</unittitle>
@@ -10287,7 +10287,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643xTcDja">
             <did>
               <unitid>MUS_VAI4_D07_F05</unitid>
               <unittitle>Carte parfumée calendrier Trèfle Vaissier</unittitle>
@@ -10315,7 +10315,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643AcSvsG">
           <did>
             <unitid>MUS_VAI4_D08</unitid>
             <unittitle>Dépliant touristique illustré</unittitle>
@@ -10324,7 +10324,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27977" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446435dSPfS">
             <did>
               <unitid>MUS_VAI4_D08_F01</unitid>
               <unittitle>Dépliant touristique Savon panoramique</unittitle>
@@ -10350,7 +10350,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643Txlfa0">
           <did>
             <unitid>MUS_VAI4_D09</unitid>
             <unittitle>Vignettes et étiquettes publicitaires</unittitle>
@@ -10359,7 +10359,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27980" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643XMXMQz">
             <did>
               <unitid>MUS_VAI4_D09_F01</unitid>
               <unittitle>Vignette publicitaire Savon du Congo</unittitle>
@@ -10378,7 +10378,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27981" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643ipoZAJ">
             <did>
               <unitid>MUS_VAI4_D09_F02</unitid>
               <unittitle>Les Petits chefs-duvre de Vaissier</unittitle>
@@ -10398,7 +10398,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27982" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643JE23iW">
             <did>
               <unitid>MUS_VAI4_D09_F03</unitid>
               <unittitle>Achetez français</unittitle>
@@ -10417,7 +10417,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27983" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643GDtl1v">
             <did>
               <unitid>MUS_VAI4_D09_F04</unitid>
               <unittitle>Troisavon</unittitle>
@@ -10436,7 +10436,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27984" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446435Dhjre">
             <did>
               <unitid>MUS_VAI4_D09_F05</unitid>
               <unittitle>Petites cartes de voeux</unittitle>
@@ -10452,7 +10452,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27985" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Ol66Hn">
             <did>
               <unitid>MUS_VAI4_D09_F06</unitid>
               <unittitle>Images dÉpinal publicitaires </unittitle>
@@ -10479,7 +10479,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m017812446431lL6Tz">
           <did>
             <unitid>MUS_VAI4_D10</unitid>
             <unittitle>Médailles publicitaires</unittitle>
@@ -10488,7 +10488,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27987" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643zaLVjh">
             <did>
               <unitid>MUS_VAI4_D10_F01</unitid>
               <unittitle>Médaille publicitaire Lotion Vaissier</unittitle>
@@ -10515,7 +10515,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="subseries">
+        <c level="subseries" id="m017812446433rnEq6">
           <did>
             <unitid>MUS_VAI4_D11</unitid>
             <unittitle>Carnet de bal</unittitle>
@@ -10524,7 +10524,7 @@
             <genreform>Objets</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27989" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643mmjAGW">
             <did>
               <unitid>MUS_VAI4_D11_F01</unitid>
               <unittitle>Carnet de bal Idéal Vaissier</unittitle>
@@ -10554,7 +10554,7 @@
           </c>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244643dRotuO">
         <did>
           <unitid>MUS_VAI5</unitid>
           <unittitle>Objets de démonstration</unittitle>
@@ -10566,7 +10566,7 @@
           <genreform>Objets</genreform>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27991" role="publication:previous"/>
-        <c level="file">
+        <c level="file" id="m01781244643RVjmGL">
           <did>
             <unitid>MUS_VAI5_D01_F01</unitid>
             <unittitle>Malle de représentant</unittitle>
@@ -10590,7 +10590,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m017812446437WYO7A">
           <did>
             <unitid>MUS_VAI5_D02_F02</unitid>
             <unittitle>Catalogue Prix-courant de la Savonnerie et parfumerie du Congo</unittitle>
@@ -10612,7 +10612,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="file">
+        <c level="file" id="m01781244643DAAZqd">
           <did>
             <unitid>MUS_VAI5_D03_F01</unitid>
             <unittitle>Catalogue de prix - Nouveautés pour Fêtes</unittitle>
@@ -10632,7 +10632,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244643WvQyd6">
         <did>
           <unitid>MUS_VAI6</unitid>
           <unittitle>Cavalcades de 1903</unittitle>
@@ -10642,7 +10642,7 @@
           <p>&lt;p&gt;Au tournant des 19e et 20e siècles, les cavalcades sont des fêtes populaires très prisées. Victor Vaissier se&lt;br /&gt;réapproprie le principe de ces défilés carnavalesques et organise à Roubaix, les 20 et 21 mars 1887, la cavalcade du Congo qui sert de lancement en grande pompe de son produit phare, le Savon des Princes du Congo. En 1903 est organisée par la municipalité à l’occasion de la pose de la première pierre du nouvel hôpital de Roubaix, d'une autre cavalcade à laquelle participe la Savonnerie Victor Vaissier.&lt;/p&gt;</p>
         </scopecontent>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR27995" role="publication:previous"/>
-        <c level="subseries">
+        <c level="subseries" id="m01781244643VdTW1C">
           <did>
             <unitid>MUS_VAI6_D01</unitid>
             <unittitle>Vues des chars de Victor Vaissier lors de la cavalcade de Roubaix</unittitle>
@@ -10659,7 +10659,7 @@
             <genreform>Images</genreform>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR27996" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244643lUFzRt">
             <did>
               <unitid>MUS_VAI6_D01_F01</unitid>
               <unittitle>Vue du défilé des Trompettes du Congo </unittitle>
@@ -10671,7 +10671,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27997" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Mn0lRF">
             <did>
               <unitid>MUS_VAI6_D01_F02</unitid>
               <unittitle>Vue du défilé des Musiciens du Bas-Niger </unittitle>
@@ -10683,7 +10683,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27998" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446437qxYel">
             <did>
               <unitid>MUS_VAI6_D01_F03</unitid>
               <unittitle>Vue du défilé des Habitants du Caschidos </unittitle>
@@ -10695,7 +10695,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR27999" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433axImE">
             <did>
               <unitid>MUS_VAI6_D01_F04</unitid>
               <unittitle>Vue du défilé des Trompettes du Congo </unittitle>
@@ -10707,7 +10707,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28000" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643UzG0ab">
             <did>
               <unitid>MUS_VAI6_D01_F05</unitid>
               <unittitle>Vue du défilé des Chefs des Anzikos </unittitle>
@@ -10719,7 +10719,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28001" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643zbR7x9">
             <did>
               <unitid>MUS_VAI6_D01_F06</unitid>
               <unittitle>Vue du char de la Savonnerie du Congo </unittitle>
@@ -10731,7 +10731,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28002" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446439rucOC">
             <did>
               <unitid>MUS_VAI6_D01_F07</unitid>
               <unittitle>Vue du char de la Savonnerie du Congo </unittitle>
@@ -10743,7 +10743,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28003" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643a43iWH">
             <did>
               <unitid>MUS_VAI6_D01_F08</unitid>
               <unittitle>Vue du défilé des Parfumeurs </unittitle>
@@ -10755,7 +10755,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28004" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643l075nz">
             <did>
               <unitid>MUS_VAI6_D01_F09</unitid>
               <unittitle>Vue du char de lAlchimiste du Congo </unittitle>
@@ -10767,7 +10767,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28005" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446430Xogf4">
             <did>
               <unitid>MUS_VAI6_D01_F10</unitid>
               <unittitle>Vue du char de lAlchimiste du Congo </unittitle>
@@ -10779,7 +10779,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28006" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643FlQjfz">
             <did>
               <unitid>MUS_VAI6_D01_F11</unitid>
               <unittitle>Vue du défilé des Parfumeuses</unittitle>
@@ -10791,7 +10791,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28007" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643jb0gju">
             <did>
               <unitid>MUS_VAI6_D01_F12</unitid>
               <unittitle>Vue du char de la Parfumerie du Congo </unittitle>
@@ -10803,7 +10803,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28008" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446433dDOhS">
             <did>
               <unitid>MUS_VAI6_D01_F13</unitid>
               <unittitle>Vue du char de la Parfumerie du Congo </unittitle>
@@ -10815,7 +10815,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28009" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643Z7DudH">
             <did>
               <unitid>MUS_VAI6_D01_F14</unitid>
               <unittitle>Vue du défilé des Parfumeuses </unittitle>
@@ -10827,7 +10827,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR28010" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244643vyI0f3">
             <did>
               <unitid>MUS_VAI6_D01_F15</unitid>
               <unittitle>Vue du char de lAlchimiste du Congo </unittitle>

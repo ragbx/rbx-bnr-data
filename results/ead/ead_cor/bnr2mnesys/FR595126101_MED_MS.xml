@@ -21,7 +21,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m01781244639RVawgs">
     <did>
       <unitid>MED_MS</unitid>
       <unittitle>Manuscrits de la médiathèque de Roubaix</unittitle>
@@ -38,7 +38,7 @@
       <genreform>Manuscrits</genreform>
     </controlaccess>
     <dsc>
-      <c level="item">
+      <c level="item" id="m01781244639vIiado">
         <did>
           <unitid>Ms_007</unitid>
           <unittitle>Oraisons de Saint Augustin</unittitle>
@@ -68,7 +68,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639J5Cixd">
         <did>
           <unitid>Ms_008</unitid>
           <unittitle>Heures à l'usage des Filles de Saint-Augustin, du couvent de Sainte-Elisabeth à Roubaix</unittitle>
@@ -94,7 +94,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639clMDF2">
         <did>
           <unitid>Ms_006</unitid>
           <unittitle>Heures d'Isabeau de Roubaix - texte complet</unittitle>
@@ -126,7 +126,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MA9yCw">
         <did>
           <unitid>Ms_006bis</unitid>
           <unittitle>Heures d'Isabeau de Roubaix - enluminures</unittitle>
@@ -158,7 +158,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639RfxI52">
         <did>
           <unitid>Ms_076</unitid>
           <unittitle>Recueil d'écrits sur la première guerre mondiale</unittitle>
@@ -191,7 +191,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A6bUOU">
         <did>
           <unitid>Ms_047</unitid>
           <unittitle>Roubaix pendant l'occupation allemande</unittitle>
@@ -222,7 +222,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639AFi1wT">
         <did>
           <unitid>Ms_096</unitid>
           <unittitle>Vieux souvenirs de guerre 1914-1915</unittitle>
@@ -252,7 +252,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639SOV0j4">
         <did>
           <unitid>Ms_095</unitid>
           <unittitle>Journal de guerre 1914-1915</unittitle>
@@ -283,7 +283,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m017812446393e0zmW">
         <did>
           <unitid>Ms_201_203</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -303,7 +303,7 @@
           <subject source="theme">Enseignement</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR113755" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639hfx6aP">
           <did>
             <unitid>Ms_201</unitid>
             <unittitle>Cours de tissage. 1ere année</unittitle>
@@ -321,7 +321,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Mwes81">
           <did>
             <unitid>Ms_202</unitid>
             <unittitle>Cours de tissage. 2eme année</unittitle>
@@ -339,7 +339,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639oo4wvr">
           <did>
             <unitid>Ms_203</unitid>
             <unittitle>Cours de tissage. 3eme année</unittitle>
@@ -358,7 +358,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639i1Dhs0">
         <did>
           <unitid>Ms_289</unitid>
           <unittitle>Commune Sanctorum Juxta Breviarium Romanum, Ex Decri</unittitle>
@@ -390,7 +390,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A5VzCt">
         <did>
           <unitid>Ms_024</unitid>
           <unittitle>Notes pour servir au classement d'une collection d'échantillons de tissus destinée au Musée industriel de Roubaix, 1469-1830</unittitle>
@@ -415,7 +415,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639JprCyi">
         <did>
           <unitid>Ms_107_108</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -435,7 +435,7 @@
           <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR113761" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639Pssyoc">
           <did>
             <unitid>Ms_107</unitid>
             <unittitle>Cours de tissage - première année</unittitle>
@@ -459,7 +459,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639P5dHEs">
           <did>
             <unitid>Ms_108</unitid>
             <unittitle>Cours de tissage - 2ème et 3ème année</unittitle>
@@ -481,7 +481,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YCQFh2">
         <did>
           <unitid>Ms_141</unitid>
           <unittitle>Fabrication et tissage</unittitle>
@@ -512,7 +512,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DuAtPs">
         <did>
           <unitid>Ms_305</unitid>
           <unittitle>Leçons d'orthographe, d'arithmétique et d'écriture </unittitle>
@@ -537,7 +537,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639voEzr3">
         <did>
           <unitid>Ms_193</unitid>
           <unittitle>Registre d'inscription à l'arrivée des ouvrages de la Bibliothèque</unittitle>
@@ -561,7 +561,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446397fneMX">
         <did>
           <unitid>Ms_189</unitid>
           <unittitle>Cours de tissage 2eme année</unittitle>
@@ -590,7 +590,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639LbAbJ7">
         <did>
           <unitid>Ms_199</unitid>
           <unittitle>Bibliothèque - Cahier d'enregistrement des ouvrages communiqués au public</unittitle>
@@ -617,7 +617,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Th8q63">
         <did>
           <unitid>Ms_099</unitid>
           <unittitle>Atlas scolaire</unittitle>
@@ -647,7 +647,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639sCq6BA">
         <did>
           <unitid>Ms_182</unitid>
           <unittitle>Département du Nord</unittitle>
@@ -674,7 +674,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639GzVtl8">
         <did>
           <unitid>Ms_183</unitid>
           <unittitle>Biographie littéraire</unittitle>
@@ -703,7 +703,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639SycIrS">
         <did>
           <unitid>Ms_181</unitid>
           <unittitle>La tenue des livres</unittitle>
@@ -731,7 +731,7 @@
           <persname>Lasson, Adèle</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639W5Dyx2">
         <did>
           <unitid>Ms_180</unitid>
           <unittitle>Atlas de géographie</unittitle>
@@ -761,7 +761,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639i9dCXq">
         <did>
           <unitid>Ms_302</unitid>
           <unittitle>Livre de compte</unittitle>
@@ -793,7 +793,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639HseSfw">
         <did>
           <unitid>Ms_303</unitid>
           <unittitle>Cours des filés 1ère année</unittitle>
@@ -824,7 +824,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YyBffm">
         <did>
           <unitid>Ms_301</unitid>
           <unittitle>Cahier d'échantillons textiles</unittitle>
@@ -849,7 +849,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639QTfxhB">
         <did>
           <unitid>Ms_306</unitid>
           <unittitle>Cours de tissage professé par M. Arthur Noiret - 1ère année</unittitle>
@@ -879,7 +879,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639isTBfY">
         <did>
           <unitid>Ms_098</unitid>
           <unittitle>Catalogue alphabétique des volumes, publications, revues, journaux, etc... se trouvant à la Bibliothèque municipale</unittitle>
@@ -907,7 +907,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390IQ7ge">
         <did>
           <unitid>Ms_304</unitid>
           <unittitle>Coupe et assemblage de vêtements</unittitle>
@@ -937,7 +937,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hqu6w0">
         <did>
           <unitid>Ms_035</unitid>
           <unittitle>Heures de Jacques de Luxembourg</unittitle>
@@ -970,7 +970,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OMBFnb">
         <did>
           <unitid>Ms_001</unitid>
           <unittitle>Argumenta epistolarum et Apocalipsis</unittitle>
@@ -988,7 +988,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122925" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Z3p6rh">
         <did>
           <unitid>Ms_002</unitid>
           <unittitle>Commentarium in sancti Joannis evangelium</unittitle>
@@ -1006,7 +1006,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122926" role="publication:previous"/>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639MCnr3G">
         <did>
           <unitid>Ms_003_005</unitid>
           <unittitle>Cours de théologie dogmatique et morale</unittitle>
@@ -1022,7 +1022,7 @@
           <persname>Leuridan, Théodore</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122927" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m0178124463988yhry">
           <did>
             <unitid>Ms_003</unitid>
             <unittitle>Dissertatio praeliminaris... In theologiam dogmatico-moralem praefatio Tractatus 1-4</unittitle>
@@ -1033,7 +1033,7 @@
           </scopecontent>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR122928" role="publication:previous"/>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639WJexbH">
           <did>
             <unitid>Ms_004</unitid>
             <unittitle>Tractatus 5-10</unittitle>
@@ -1041,7 +1041,7 @@
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR122929" role="publication:previous"/>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639F8YUaL">
           <did>
             <unitid>Ms_005</unitid>
             <unittitle>Tractatus 11-18</unittitle>
@@ -1056,7 +1056,7 @@
           <dao href="https://www.bn-r.fr/ark:/20179/BNR122930" role="publication:previous"/>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446396lobYg">
         <did>
           <unitid>Ms_009</unitid>
           <unittitle>Constitutions et règle du couvent de Sainte-Élisabeth de Roubaix - Règle de saint Augustin</unittitle>
@@ -1085,7 +1085,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639q54lw2">
         <did>
           <unitid>Ms_010</unitid>
           <unittitle>Cinq traités sur diverses sciences physiques</unittitle>
@@ -1114,7 +1114,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639seqoUh">
         <did>
           <unitid>Ms_011</unitid>
           <unittitle>Philosophia seu Logica</unittitle>
@@ -1143,7 +1143,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hazZFz">
         <did>
           <unitid>Ms_012</unitid>
           <unittitle>Lettres sur le magnétisme</unittitle>
@@ -1171,7 +1171,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446391C9lAa">
         <did>
           <unitid>Ms_013</unitid>
           <unittitle>Leçons de nouvelle chimie, par M. L. Decroix, maître en pharmacie de la ville de Lille..., avec tables</unittitle>
@@ -1185,7 +1185,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122935" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hbyW5f">
         <did>
           <unitid>Ms_014</unitid>
           <unittitle>Principes de botanique selon le sixtème de Tournefort. Écrit sous la dictée de M. Decroix. Carlos Lemay</unittitle>
@@ -1208,7 +1208,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639SSxw3v">
         <did>
           <unitid>Ms_015_018</unitid>
           <unittitle>Commentaire du dispensaire de Lille, imprimé l'an 1772, ou pharmacopée raisonnée</unittitle>
@@ -1226,7 +1226,7 @@
           <persname role="copiste">Lemay, Carlos</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122937" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639r5BvPL">
           <did>
             <unitid>Ms_015</unitid>
             <unittitle>Avertissement. Matière médicale. Première partie : Phytologie</unittitle>
@@ -1246,7 +1246,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639FmJsVA">
           <did>
             <unitid>Ms_016</unitid>
             <unittitle>Seconde partie : Zoologie</unittitle>
@@ -1266,7 +1266,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639sIyoxY">
           <did>
             <unitid>Ms_017</unitid>
             <unittitle>Troisième partie : Minéralogie</unittitle>
@@ -1286,7 +1286,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639XdF7fu">
           <did>
             <unitid>Ms_018</unitid>
             <unittitle>Quatrième partie : Opérations chimiques</unittitle>
@@ -1307,7 +1307,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639CzFiEG">
         <did>
           <unitid>Ms_019_021</unitid>
           <unittitle>Examen pharmaco-galeno-chimique, par L. J. Decroix, apoticaire [sic]</unittitle>
@@ -1320,7 +1320,7 @@
           <persname role="auteur">Decroix, L. </persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR128995" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m017812446398RJ9qU">
           <did>
             <unitid>Ms_019</unitid>
             <unittitle>[Ms_19]</unittitle>
@@ -1337,7 +1337,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Fv7DGV">
           <did>
             <unitid>Ms_020</unitid>
             <unittitle>[Ms_20]</unittitle>
@@ -1345,7 +1345,7 @@
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR128997" role="publication:previous"/>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639a1JtqX">
           <did>
             <unitid>Ms_021</unitid>
             <unittitle>[Ms_21]</unittitle>
@@ -1354,7 +1354,7 @@
           <dao href="https://www.bn-r.fr/ark:/20179/BNR128998" role="publication:previous"/>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639RJXz6M">
         <did>
           <unitid>Ms_022</unitid>
           <unittitle>Géométrie analytique</unittitle>
@@ -1373,7 +1373,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR128999" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639dSa8er">
         <did>
           <unitid>Ms_023</unitid>
           <unittitle>Analyse de la tachygraphie française</unittitle>
@@ -1399,7 +1399,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vXdMtJ">
         <did>
           <unitid>Ms_025</unitid>
           <unittitle>Analyse de géographie</unittitle>
@@ -1420,7 +1420,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hnCQYW">
         <did>
           <unitid>Ms_026</unitid>
           <unittitle>Géologie</unittitle>
@@ -1448,7 +1448,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446397M72x6">
         <did>
           <unitid>Ms_027</unitid>
           <unittitle>La Flandre gallicane ou description historique, chronologique et naturelle des villes et châtellenies de Lille, Douay et Orchie</unittitle>
@@ -1477,7 +1477,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639eLXUwg">
         <did>
           <unitid>Ms_028</unitid>
           <unittitle>Recueil d'actes des XIIIe-XVIe siècles - Panégyriques</unittitle>
@@ -1502,7 +1502,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639xeQhor">
         <did>
           <unitid>Ms_029</unitid>
           <unittitle>Mémoires originaux pour servir à l'histoire de la ville et châtelenie de Lille et autres lieux circonvoisins </unittitle>
@@ -1527,7 +1527,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639h7Hzso">
         <did>
           <unitid>Ms_030</unitid>
           <unittitle>Commentaires de Wayembourg</unittitle>
@@ -1556,7 +1556,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463967D4OB">
         <did>
           <unitid>Ms_031</unitid>
           <unittitle>Annales de Lille</unittitle>
@@ -1583,7 +1583,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Xf6h9D">
         <did>
           <unitid>Ms_032</unitid>
           <unittitle>État de la fabrique de Roubaix anciennement</unittitle>
@@ -1610,7 +1610,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446391r6M1Z">
         <did>
           <unitid>Ms_033</unitid>
           <unittitle>Notes généalogiques et héraldiques sur la maison de Roubaix</unittitle>
@@ -1636,7 +1636,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639FsP1pr">
         <did>
           <unitid>Ms_034</unitid>
           <unittitle>De la certitude</unittitle>
@@ -1653,7 +1653,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122957" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639fCP1WB">
         <did>
           <unitid>Ms_036</unitid>
           <unittitle>Poésies et chansons</unittitle>
@@ -1681,7 +1681,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OZamrz">
         <did>
           <unitid>Ms_037</unitid>
           <unittitle>La vie est toute une chanson - premier volume</unittitle>
@@ -1709,7 +1709,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639qqT2E8">
         <did>
           <unitid>Ms_038</unitid>
           <unittitle>Papiers Auguste Victor Wacquez</unittitle>
@@ -1737,7 +1737,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393oMtPO">
         <did>
           <unitid>Ms_039</unitid>
           <unittitle>Choix de poésies et de chansons</unittitle>
@@ -1765,7 +1765,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446394nsvio">
         <did>
           <unitid>Ms_040</unitid>
           <unittitle>Contes d'in bacleu</unittitle>
@@ -1792,7 +1792,7 @@
           <persname role="auteur">Osson, Désiré</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MXMGu8">
         <did>
           <unitid>Ms_041</unitid>
           <unittitle>Contes d'un bacleu</unittitle>
@@ -1819,7 +1819,7 @@
           <persname role="auteur">Osson, Désiré</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A9iaza">
         <did>
           <unitid>Ms_042</unitid>
           <unittitle>Poésies</unittitle>
@@ -1846,7 +1846,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639n6pXUs">
         <did>
           <unitid>Ms_043</unitid>
           <unittitle>Poésies</unittitle>
@@ -1873,7 +1873,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639fPeWIP">
         <did>
           <unitid>Ms_044</unitid>
           <unittitle>Recueil de chansons</unittitle>
@@ -1898,7 +1898,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639LEXSUE">
         <did>
           <unitid>Ms_045</unitid>
           <unittitle>Livre inachevé : [poèmes et chansons]</unittitle>
@@ -1926,7 +1926,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639nc76xp">
         <did>
           <unitid>Ms_046</unitid>
           <unittitle>Poésie et chansons</unittitle>
@@ -1954,7 +1954,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XEARRW">
         <did>
           <unitid>Ms_048</unitid>
           <unittitle>La vie est toute une chanson - second volume</unittitle>
@@ -1985,7 +1985,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vSBCxI">
         <did>
           <unitid>Ms_049</unitid>
           <unittitle>Cours de vocabulaire anglais</unittitle>
@@ -2015,7 +2015,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XVlwuf">
         <did>
           <unitid>Ms_050</unitid>
           <unittitle>Toxicologie 2eme année</unittitle>
@@ -2034,7 +2034,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122971" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639M8jxOy">
         <did>
           <unitid>Ms_051</unitid>
           <unittitle>Histoire sommaire du Premier Régiment de Carabiniers</unittitle>
@@ -2052,7 +2052,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR122972" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ftrq9I">
         <did>
           <unitid>Ms_052</unitid>
           <unittitle>Cahier journalier</unittitle>
@@ -2078,7 +2078,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639EW6STB">
         <did>
           <unitid>Ms_053</unitid>
           <unittitle>La grève des saisons : fantaisie en un prologue, deux scènes et un épilogue</unittitle>
@@ -2102,7 +2102,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639bzxihy">
         <did>
           <unitid>Ms_054</unitid>
           <unittitle>Six chansons inédites</unittitle>
@@ -2131,7 +2131,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Qb2yM3">
         <did>
           <unitid>Ms_148</unitid>
           <unittitle>Lettres d'Alfred Motte à Joseph Gillet</unittitle>
@@ -2159,7 +2159,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639G8TcfR">
         <did>
           <unitid>Ms_065</unitid>
           <unittitle>Malkré</unittitle>
@@ -2186,7 +2186,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446394cpc3b">
         <did>
           <unitid>Ms_066</unitid>
           <unittitle>Rouleau protecteur éthiopien</unittitle>
@@ -2208,7 +2208,7 @@
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR122978" role="publication:previous"/>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639fuRFvA">
         <did>
           <unitid>Ms_149</unitid>
           <unittitle>Lettres d'Alfred Motte à Joseph Gillet, 26 octobre 1870 - 27 avril 1887</unittitle>
@@ -2236,7 +2236,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639wJrTS1">
         <did>
           <unitid>Ms_150</unitid>
           <unittitle>Lettres d'Alfred Motte à sa famille</unittitle>
@@ -2263,7 +2263,7 @@
           <persname role="auteur">Motte, Alfred</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Jinpg2">
         <did>
           <unitid>Ms_151</unitid>
           <unittitle>Lettres d'Alfred Motte à sa famille, 1843-1848</unittitle>
@@ -2290,7 +2290,7 @@
           <persname role="auteur">Motte, Alfred</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vc4DRw">
         <did>
           <unitid>Ms_152</unitid>
           <unittitle>Succession Eugène Motte, 1929</unittitle>
@@ -2318,7 +2318,7 @@
           <persname role="auteur">Motte-Vanoutryve, Eugène</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639AvjyVF">
         <did>
           <unitid>Ms_308</unitid>
           <unittitle>Le flocage</unittitle>
@@ -2347,7 +2347,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446396W7YCx">
         <did>
           <unitid>Ms_163</unitid>
           <unittitle>Le sonneur de Saint-Eustache</unittitle>
@@ -2371,7 +2371,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DV54HE">
         <did>
           <unitid>Ms_164</unitid>
           <unittitle>Livre des biens de M. de la Potennerie</unittitle>
@@ -2401,7 +2401,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OSi4w6">
         <did>
           <unitid>Ms_175</unitid>
           <unittitle>Cours de tissage artistique</unittitle>
@@ -2431,7 +2431,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639chTLsq">
         <did>
           <unitid>Ms_187</unitid>
           <unittitle>Dictionnaire des figures héraldiques de l'armorial du Nord du chanoine Leuridan</unittitle>
@@ -2458,7 +2458,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446395MuarX">
         <did>
           <unitid>Ms_276</unitid>
           <unittitle>Papiers Maurice Bodart</unittitle>
@@ -2485,7 +2485,7 @@
           <persname role="auteur">Bodart, Maurice</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639gYbJ8f">
         <did>
           <unitid>Ms_277</unitid>
           <unittitle>Description phisique (sic) et historique de la Chatelerie (sic) de Lille</unittitle>
@@ -2513,7 +2513,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639cqUToD">
         <did>
           <unitid>Ms_307</unitid>
           <unittitle>École Supérieure de coupe et de couture de Liège</unittitle>
@@ -2545,7 +2545,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639AofGDS">
         <did>
           <unitid>Ms_309</unitid>
           <unittitle>Quatorze dix-huit</unittitle>
@@ -2576,7 +2576,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XP889c">
         <did>
           <unitid>Ms_328</unitid>
           <unittitle>Guerre 1914 - Recueil des publications et affiches - Lannoy</unittitle>
@@ -2607,7 +2607,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639O2D7Fe">
         <did>
           <unitid>Ms_329</unitid>
           <unittitle>Généalogie de la famille Leuridan</unittitle>
@@ -2634,7 +2634,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639eBYgQa">
         <did>
           <unitid>Ms_330</unitid>
           <unittitle>Recueil de romances, airs d'opéras, mélodies et chansonnettes, 1867</unittitle>
@@ -2658,7 +2658,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463906dgOH">
         <did>
           <unitid>Ms_331</unitid>
           <unittitle>Registre des lettres de Paul Mulliez-Scalabre à des artisans</unittitle>
@@ -2688,7 +2688,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463945FbEr">
         <did>
           <unitid>Ms_332</unitid>
           <unittitle>Cahier de chansons d'un soldat</unittitle>
@@ -2715,7 +2715,7 @@
           <persname role="auteur">Terrier, Paul</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639M6g3Ip">
         <did>
           <unitid>Ms_333</unitid>
           <unittitle>Registre des règlements internes et consignes, Ets Agache Fils</unittitle>
@@ -2745,7 +2745,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639wmXlnb">
         <did>
           <unitid>Ms_336</unitid>
           <unittitle>Histoire généalogique et chronologique des maisons royales de l'époque ancienne à l'époque moderne</unittitle>
@@ -2769,7 +2769,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639suUeJ9">
         <did>
           <unitid>Ms_337</unitid>
           <unittitle>Cours de théorie du tissage</unittitle>
@@ -2800,7 +2800,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639RXOiX2">
         <did>
           <unitid>Ms_601</unitid>
           <unittitle>Atlas de la France manuscrit par un flamand - Volume 1</unittitle>
@@ -2827,7 +2827,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639nlbpZW">
         <did>
           <unitid>Ms_602</unitid>
           <unittitle>Atlas de la France manuscrit par un flamand - Volume 2</unittitle>
@@ -2855,7 +2855,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ndr91g">
         <did>
           <unitid>Ms_603</unitid>
           <unittitle>Les maisons rustiques de Flandre, décrites, dessinées et gravées par l'artisan flamand Joseph Dezitter</unittitle>
@@ -2883,7 +2883,7 @@
           <persname role="auteur">Dezitter, Joseph</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639RGxxyo">
         <did>
           <unitid>Ms_604</unitid>
           <unittitle>Cours de technologie - 1ère année, 2ème année et 3ème année</unittitle>
@@ -2913,7 +2913,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XqDwOW">
         <did>
           <unitid>Ms_605</unitid>
           <unittitle>Recueil de poésies composées par Monsieur labbé François Sinsoilliez</unittitle>
@@ -2940,7 +2940,7 @@
           <persname role="auteur">Sinsoilliez, François</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639FygGtW">
         <did>
           <unitid>Ms_606</unitid>
           <unittitle>Registre de procès verbaux du conseil d'administration de la Manufacture des Biscuits « Union », Roubaix</unittitle>
@@ -2971,7 +2971,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393dcrDD">
         <did>
           <unitid>Ms_607</unitid>
           <unittitle>Chansons - Souvenir du 154ème régiment d'infanterie</unittitle>
@@ -2998,7 +2998,7 @@
           <persname role="auteur">Broussard, Maurice</persname>
         </controlaccess>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639U2vYLX">
         <did>
           <unitid>Ms_608</unitid>
           <unittitle>Filature et tissage</unittitle>
@@ -3026,7 +3026,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MQuxF5">
         <did>
           <unitid>Ms_609</unitid>
           <unittitle>Album de chansons</unittitle>
@@ -3050,7 +3050,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639FXqdlx">
         <did>
           <unitid>Ms_610</unitid>
           <unittitle>Album de dessins - 1ère normale</unittitle>
@@ -3079,7 +3079,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m017812446391u5CwS">
         <did>
           <unitid>Ms_172_174</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -3097,7 +3097,7 @@
           <persname role="élève">Debuisne, Albert</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123010" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639ScuLMR">
           <did>
             <unitid>Ms_172</unitid>
             <unittitle>Cours de tissage - 1ère année</unittitle>
@@ -3117,7 +3117,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639oG2ZUi">
           <did>
             <unitid>Ms_173</unitid>
             <unittitle>Cours de tissage - 1ère année</unittitle>
@@ -3137,7 +3137,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639VyFIut">
           <did>
             <unitid>Ms_174</unitid>
             <unittitle>Cours de fabrication - Tissage</unittitle>
@@ -3158,7 +3158,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639lE8Rrb">
         <did>
           <unitid>Ms_271</unitid>
           <unittitle>Cours de filés</unittitle>
@@ -3184,7 +3184,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639hrGLId">
         <did>
           <unitid>Ms_204_242</unitid>
           <unittitle>Papiers Théâtre Louis Richard - 1</unittitle>
@@ -3204,7 +3204,7 @@
           <persname role="auteur">Richard, Léopold</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123015" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639vtHxfJ">
           <did>
             <unitid>Ms_204</unitid>
             <unittitle>Une ruse de Du Guesclin : [pièce pour marionnettes]</unittitle>
@@ -3225,7 +3225,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446396X0Rcd">
           <did>
             <unitid>Ms_205</unitid>
             <unittitle>Pièces pour marionnettes - Canevas de pièces</unittitle>
@@ -3246,7 +3246,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639l4w3hJ">
           <did>
             <unitid>Ms_206</unitid>
             <unittitle>Pièces pour marionnettes - Canevas de pièces</unittitle>
@@ -3267,7 +3267,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639mat1bp">
           <did>
             <unitid>Ms_207</unitid>
             <unittitle>Pièces pour marionnettes - Canevas de pièces</unittitle>
@@ -3288,7 +3288,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446397qD2Gx">
           <did>
             <unitid>Ms_208</unitid>
             <unittitle>Pièces pour marionnettes - Canevas de pièces</unittitle>
@@ -3309,7 +3309,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639vgRm6W">
           <did>
             <unitid>Ms_209</unitid>
             <unittitle>Un veilleur de nuit [suivi de] Inne petite présintation : [pièce pour marionnettes]</unittitle>
@@ -3330,7 +3330,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Q8Jfsa">
           <did>
             <unitid>Ms_210</unitid>
             <unittitle>Dialogue entre deux vieilles marionnettes dans un grenier : [pièce pour marionnettes]</unittitle>
@@ -3351,7 +3351,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639DX86yi">
           <did>
             <unitid>Ms_211</unitid>
             <unittitle>Jacques sans peur : [pièce pour marionnettes]</unittitle>
@@ -3372,7 +3372,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639fOCjsP">
           <did>
             <unitid>Ms_212</unitid>
             <unittitle>Il est mort : [pièce pour marionnettes]</unittitle>
@@ -3393,7 +3393,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639dCYyDc">
           <did>
             <unitid>Ms_213</unitid>
             <unittitle>Le colibri du Marquis de Trucmuche : [pièce pour marionnettes]</unittitle>
@@ -3414,7 +3414,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639H2LfOZ">
           <did>
             <unitid>Ms_214</unitid>
             <unittitle>Le savetier paresseux : [pièce pour marionnettes]</unittitle>
@@ -3435,7 +3435,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639aP2Tys">
           <did>
             <unitid>Ms_215</unitid>
             <unittitle>Le couteau magique : [pièce pour marionnettes]</unittitle>
@@ -3456,7 +3456,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446398rYDfC">
           <did>
             <unitid>Ms_216</unitid>
             <unittitle>Les Mousquetaires gris : deux actes [pièce pour marionnettes]</unittitle>
@@ -3477,7 +3477,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639mvcfXj">
           <did>
             <unitid>Ms_217</unitid>
             <unittitle>Un épisode de la guerre de trente ans : [pièce pour marionnettes]</unittitle>
@@ -3498,7 +3498,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639ebxcWl">
           <did>
             <unitid>Ms_218</unitid>
             <unittitle>La consigne est de ronfler : [pièce pour marionnettes]</unittitle>
@@ -3519,7 +3519,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639eZHf6j">
           <did>
             <unitid>Ms_219</unitid>
             <unittitle>Mort pour rire : [pièce pour marionnettes]</unittitle>
@@ -3540,7 +3540,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639qhirTW">
           <did>
             <unitid>Ms_220</unitid>
             <unittitle>Donnez men pour 0 fr.10 svp : [pièce pour marionnettes]</unittitle>
@@ -3561,7 +3561,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639jRPEEI">
           <did>
             <unitid>Ms_221</unitid>
             <unittitle>Cahiers de présentations</unittitle>
@@ -3582,7 +3582,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446399VolDR">
           <did>
             <unitid>Ms_222</unitid>
             <unittitle>Présentations de quelques anciennes marionnettes</unittitle>
@@ -3603,7 +3603,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Z6irR0">
           <did>
             <unitid>Ms_223</unitid>
             <unittitle>Causerie et présentation</unittitle>
@@ -3624,7 +3624,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446390szMRs">
           <did>
             <unitid>Ms_224</unitid>
             <unittitle>Causerie et présentation : atmosphère de la salle</unittitle>
@@ -3645,7 +3645,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446395fxd3y">
           <did>
             <unitid>Ms_225</unitid>
             <unittitle>Causerie : présentation</unittitle>
@@ -3666,7 +3666,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639FqEfvD">
           <did>
             <unitid>Ms_226</unitid>
             <unittitle>Causerie et présentation avec Morveux. Exposition</unittitle>
@@ -3687,7 +3687,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639gFuJSv">
           <did>
             <unitid>Ms_227</unitid>
             <unittitle>Causerie et présentation : les étrennes</unittitle>
@@ -3708,7 +3708,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639XGVRQ9">
           <did>
             <unitid>Ms_228</unitid>
             <unittitle>Causerie : les amis de Lille</unittitle>
@@ -3729,7 +3729,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639AcDcUy">
           <did>
             <unitid>Ms_229</unitid>
             <unittitle>Causerie et présentation : lambiance un jour de présentation, disparition et ses causes</unittitle>
@@ -3750,7 +3750,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639hn5wX5">
           <did>
             <unitid>Ms_230</unitid>
             <unittitle>Causerie et présentation : lintérieur de la scène</unittitle>
@@ -3771,7 +3771,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639schPqt">
           <did>
             <unitid>Ms_231</unitid>
             <unittitle>Causerie : une drôle dhistoire</unittitle>
@@ -3792,7 +3792,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639aoH1iL">
           <did>
             <unitid>Ms_232</unitid>
             <unittitle>Causerie et présentation</unittitle>
@@ -3813,7 +3813,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639BZpvty">
           <did>
             <unitid>Ms_233</unitid>
             <unittitle>Causerie et présentation</unittitle>
@@ -3834,7 +3834,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639OuSEQj">
           <did>
             <unitid>Ms_234</unitid>
             <unittitle>[Causerie et présentation]</unittitle>
@@ -3855,7 +3855,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639GvbiIw">
           <did>
             <unitid>Ms_235</unitid>
             <unittitle>[Fiches de présentation de marionnettes]</unittitle>
@@ -3876,7 +3876,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639TIalXL">
           <did>
             <unitid>Ms_236</unitid>
             <unittitle>[Souvenirs personnels de Léopold Richard, montreur de marionnettes]</unittitle>
@@ -3897,7 +3897,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446396fW0JR">
           <did>
             <unitid>Ms_237</unitid>
             <unittitle>Souvenirs dun montreur de marionnettes : [conférence]</unittitle>
@@ -3918,7 +3918,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446399QdIRJ">
           <did>
             <unitid>Ms_238</unitid>
             <unittitle>Souvenirs dun montreur de marionnettes : [conférence] n°2</unittitle>
@@ -3939,7 +3939,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639IZnOEV">
           <did>
             <unitid>Ms_239</unitid>
             <unittitle>Souvenirs dun montreur de marionnettes : [conférence] n°2</unittitle>
@@ -3960,7 +3960,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446398ebb80">
           <did>
             <unitid>Ms_240</unitid>
             <unittitle>Souvenirs dun montreur de marionnettes : [conférence] n°3</unittitle>
@@ -3981,7 +3981,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639R9yche">
           <did>
             <unitid>Ms_241</unitid>
             <unittitle>[Souvenirs dun montreur de marionnettes]</unittitle>
@@ -4002,7 +4002,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639055hlE">
           <did>
             <unitid>Ms_242</unitid>
             <unittitle>Papiers divers de Léopold Richard</unittitle>
@@ -4024,7 +4024,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639IWhlns">
         <did>
           <unitid>Ms_243</unitid>
           <unittitle>Courriers divers adressés à ou émanant de différents membres de la famille Richard</unittitle>
@@ -4048,7 +4048,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639an80ml">
         <did>
           <unitid>Ms_244_270</unitid>
           <unittitle>Papiers Théâtre Louis Richard - 2</unittitle>
@@ -4069,7 +4069,7 @@
           <persname role="auteur">Richard, Maurice</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123056" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639pXYDCA">
           <did>
             <unitid>Ms_244</unitid>
             <unittitle>Le colibri du Marquis de Trucmuche : deux actes [pièce pour marionnettes]</unittitle>
@@ -4090,7 +4090,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639tTyyuH">
           <did>
             <unitid>Ms_245</unitid>
             <unittitle>A la Rochelle : un acte [pièce pour marionnettes]</unittitle>
@@ -4111,7 +4111,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639a0t33b">
           <did>
             <unitid>Ms_246</unitid>
             <unittitle>Le Courrier secret : [pièce pour marionnettes]</unittitle>
@@ -4132,7 +4132,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639w0CE9d">
           <did>
             <unitid>Ms_247</unitid>
             <unittitle>Lesquelette : boboche en un acte [pièce pour marionnettes]</unittitle>
@@ -4156,7 +4156,7 @@
             <persname role="auteur">Bodart-Timal, Charles (1897-1971)</persname>
           </controlaccess>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446399F7Jxm">
           <did>
             <unitid>Ms_248</unitid>
             <unittitle>Les deux chemins : pièce patriotique en deux actes [pour marionnettes]</unittitle>
@@ -4177,7 +4177,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Fn3TDo">
           <did>
             <unitid>Ms_249</unitid>
             <unittitle>Il me faut trente cinq sous : [pièce pour marionnettes]</unittitle>
@@ -4198,7 +4198,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446391IAEte">
           <did>
             <unitid>Ms_250</unitid>
             <unittitle>Partition manuscrite d « Acor in boboche... »</unittitle>
@@ -4219,7 +4219,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639AayVt3">
           <did>
             <unitid>Ms_251</unitid>
             <unittitle>Le régiment des zouaves : [pièce pour marionnettes]</unittitle>
@@ -4243,7 +4243,7 @@
             <persname role="auteur">Richard, Maurice</persname>
           </controlaccess>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639nmzJiw">
           <did>
             <unitid>Ms_252</unitid>
             <unittitle>Le braconnier : [pièce pour marionnettes]</unittitle>
@@ -4264,7 +4264,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639AWvMWP">
           <did>
             <unitid>Ms_253</unitid>
             <unittitle>Les zouaves : [pièce pour marionnettes]</unittitle>
@@ -4285,7 +4285,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639QAatd3">
           <did>
             <unitid>Ms_254</unitid>
             <unittitle>Flamberge au vent : [pièce pour marionnettes]</unittitle>
@@ -4306,7 +4306,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639ZbVecz">
           <did>
             <unitid>Ms_255</unitid>
             <unittitle>Jeanne dArc : [pièce pour marionnettes]</unittitle>
@@ -4327,7 +4327,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639RmcFon">
           <did>
             <unitid>Ms_256</unitid>
             <unittitle>Un adepte de la magie noire [suivi de 2 pièces]</unittitle>
@@ -4348,7 +4348,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639swEb1J">
           <did>
             <unitid>Ms_257</unitid>
             <unittitle>Le sourd et le fou [suivi de] Un héritage imprévu : [pièce pour marionnettes]</unittitle>
@@ -4369,7 +4369,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639SbxJEq">
           <did>
             <unitid>Ms_258</unitid>
             <unittitle>Un maniaque : [pièce pour marionnettes]</unittitle>
@@ -4390,7 +4390,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446394eUGXQ">
           <did>
             <unitid>Ms_259</unitid>
             <unittitle>Une tante à héritage : [pièce pour marionnettes]</unittitle>
@@ -4411,7 +4411,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Rfu3of">
           <did>
             <unitid>Ms_260</unitid>
             <unittitle>Un million : [pièce pour marionnettes]</unittitle>
@@ -4432,7 +4432,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446394SVGvC">
           <did>
             <unitid>Ms_261</unitid>
             <unittitle>Le mariage de Jacques : [pièce pour marionnettes]</unittitle>
@@ -4453,7 +4453,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639rIDmtD">
           <did>
             <unitid>Ms_262</unitid>
             <unittitle>Une visite ministérielle : deux actes [pièce pour marionnettes]</unittitle>
@@ -4474,7 +4474,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m0178124463999Ehx0">
           <did>
             <unitid>Ms_263</unitid>
             <unittitle>Un épisode de la guerre de trente ans - Le messager : [pièce pour marionnettes]</unittitle>
@@ -4495,7 +4495,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446393UrHF8">
           <did>
             <unitid>Ms_264</unitid>
             <unittitle>Lusurpateur : [pièce pour marionnettes]</unittitle>
@@ -4516,7 +4516,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639H1a7Gy">
           <did>
             <unitid>Ms_265</unitid>
             <unittitle>Les Hurlus : [pièce pour marionnettes]</unittitle>
@@ -4537,7 +4537,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639ASRmor">
           <did>
             <unitid>Ms_266</unitid>
             <unittitle>Linvisible : [pièce pour marionnettes]</unittitle>
@@ -4558,7 +4558,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639GZ0eTb">
           <did>
             <unitid>Ms_267</unitid>
             <unittitle>Un héritage imprévu : [pièce pour marionnettes]</unittitle>
@@ -4579,7 +4579,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639j89cAa">
           <did>
             <unitid>Ms_268</unitid>
             <unittitle>Cents francs dhéritage : [pièce pour marionnettes]</unittitle>
@@ -4600,7 +4600,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639IZHeUi">
           <did>
             <unitid>Ms_269</unitid>
             <unittitle>Un gendre malfaisant : [pièce pour marionnettes]</unittitle>
@@ -4621,7 +4621,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639w3qfUY">
           <did>
             <unitid>Ms_270</unitid>
             <unittitle>Jour de sortie [suivi de] On ne reçoit personne : [pièces pour marionnettes]</unittitle>
@@ -4643,7 +4643,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639T1zMDs">
         <did>
           <unitid>Ms_310_311</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -4661,7 +4661,7 @@
           <persname role="élève">Gons, Henri</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123084" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m017812446397QPHXP">
           <did>
             <unitid>Ms_310</unitid>
             <unittitle>Théorie de tissage - 1ère année</unittitle>
@@ -4681,7 +4681,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639ybFScc">
           <did>
             <unitid>Ms_311</unitid>
             <unittitle>Théorie de tissage - 1ère année</unittitle>
@@ -4702,7 +4702,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639T74fLG">
         <did>
           <unitid>Ms_312_316</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -4719,7 +4719,7 @@
           <persname role="élève">Février, Alfred</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123087" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639veMHOn">
           <did>
             <unitid>Ms_312</unitid>
             <unittitle>Cours de tissage - Les mécaniques - Les façonnés - 2ème année</unittitle>
@@ -4739,7 +4739,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639z1thWf">
           <did>
             <unitid>Ms_313</unitid>
             <unittitle>Cours de tissage - Façonnés - Mécaniques - 2ème année</unittitle>
@@ -4759,7 +4759,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639Wm7nJf">
           <did>
             <unitid>Ms_314</unitid>
             <unittitle>Cours de tissage - Lisage - Piquage</unittitle>
@@ -4779,7 +4779,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639OSn14S">
           <did>
             <unitid>Ms_315</unitid>
             <unittitle>Cours de tissage - Mise en carte</unittitle>
@@ -4799,7 +4799,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639hteqs2">
           <did>
             <unitid>Ms_316</unitid>
             <unittitle>Cours de tissage - Tissus complexes</unittitle>
@@ -4820,7 +4820,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639W0mbrY">
         <did>
           <unitid>Ms_317_319</unitid>
           <unittitle>Cours de fabrication - Tissage</unittitle>
@@ -4836,7 +4836,7 @@
           <persname role="auteur">Delattre, Gabriel</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123093" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639gOi3ab">
           <did>
             <unitid>Ms_317</unitid>
             <unittitle>Cahier de fabrication - 1ère année</unittitle>
@@ -4856,7 +4856,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639FDos2r">
           <did>
             <unitid>Ms_318</unitid>
             <unittitle>Cours de tissage -  Liages</unittitle>
@@ -4876,7 +4876,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639gJfiI3">
           <did>
             <unitid>Ms_319</unitid>
             <unittitle>Cours de tissage - Liages</unittitle>
@@ -4897,7 +4897,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639OxMIAJ">
         <did>
           <unitid>Ms_320_322</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -4916,7 +4916,7 @@
           <persname role="auteur">Vergauwen, Félix</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123097" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639vPprRs">
           <did>
             <unitid>Ms_320</unitid>
             <unittitle>Cours de tissage - Fabrication</unittitle>
@@ -4936,7 +4936,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446397Phl61">
           <did>
             <unitid>Ms_321</unitid>
             <unittitle>Cours de tissage - Nattés</unittitle>
@@ -4956,7 +4956,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639JSTSgy">
           <did>
             <unitid>Ms_322</unitid>
             <unittitle>Cours de tissage - Diagonales</unittitle>
@@ -4977,7 +4977,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m017812446391dv9SU">
         <did>
           <unitid>Ms_323_324</unitid>
           <unittitle>Albums de couture</unittitle>
@@ -4995,7 +4995,7 @@
           <persname role="auteur">Toussaint, Gisette</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123101" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639lbOq56">
           <did>
             <unitid>Ms_323</unitid>
             <unittitle>Cours de coupe et de couture de l'École Supérieure de Liège</unittitle>
@@ -5015,7 +5015,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446398E7qHf">
           <did>
             <unitid>Ms_324</unitid>
             <unittitle>Cours de coupe et de couture de lÉcole Supérieure de Liège</unittitle>
@@ -5036,7 +5036,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639sES1x8">
         <did>
           <unitid>Ms_325_327</unitid>
           <unittitle>Ordonnances concernant la sûreté publique</unittitle>
@@ -5056,7 +5056,7 @@
           <subject source="chrono">1914-1918</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123104" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639tgHXvp">
           <did>
             <unitid>Ms_325</unitid>
             <unittitle>Registre d'ordonnances - 1917</unittitle>
@@ -5077,7 +5077,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639R250tW">
           <did>
             <unitid>Ms_326</unitid>
             <unittitle>Registre d'ordonnances - 1914-1915</unittitle>
@@ -5098,7 +5098,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639TRcoQY">
           <did>
             <unitid>Ms_327</unitid>
             <unittitle>Registre d'ordonnances - 1915</unittitle>
@@ -5120,7 +5120,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m0178124463923RjSU">
         <did>
           <unitid>Ms_334_335</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -5136,7 +5136,7 @@
           <persname role="auteur">Béghin, René</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123108" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639FxpaO4">
           <did>
             <unitid>Ms_334</unitid>
             <unittitle>Cours de tissage - 1ère année</unittitle>
@@ -5156,7 +5156,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639QJEGHE">
           <did>
             <unitid>Ms_335</unitid>
             <unittitle>Cours de matières textiles</unittitle>
@@ -5177,7 +5177,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="series">
+      <c level="series" id="m01781244639Yen5A0">
         <did>
           <unitid>Ms_158_162</unitid>
           <unittitle>Journal de guerre 1914-1918</unittitle>
@@ -5198,7 +5198,7 @@
           <persname role="auteur">Spriet, Paul</persname>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR123111" role="publication:previous"/>
-        <c level="item">
+        <c level="item" id="m01781244639vlhi7i">
           <did>
             <unitid>Ms_158</unitid>
             <unittitle>Journal de guerre 23 juillet - 31 décembre 1914</unittitle>
@@ -5216,7 +5216,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446391aj1Jr">
           <did>
             <unitid>Ms_159</unitid>
             <unittitle>Journal de guerre 1915</unittitle>
@@ -5234,7 +5234,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m017812446394r4ua9">
           <did>
             <unitid>Ms_160</unitid>
             <unittitle>Journal de guerre 1916</unittitle>
@@ -5252,7 +5252,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639YOXD8u">
           <did>
             <unitid>Ms_161</unitid>
             <unittitle>Journal de guerre 1917</unittitle>
@@ -5270,7 +5270,7 @@
             </daodesc>
           </daogrp>
         </c>
-        <c level="item">
+        <c level="item" id="m01781244639cw72w8">
           <did>
             <unitid>Ms_162</unitid>
             <unittitle>Journal de guerre 1er janvier - 30 octobre 19181</unittitle>
@@ -5289,7 +5289,7 @@
           </daogrp>
         </c>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639jv1xbt">
         <did>
           <unitid>Ms_620</unitid>
           <unittitle>Mémoires de guerre : 1939-1940</unittitle>
@@ -5319,7 +5319,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463989jnOE">
         <did>
           <unitid>Ms_621</unitid>
           <unittitle>Naissance d'une région : le Nord</unittitle>
@@ -5349,7 +5349,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639gLOafh">
         <did>
           <unitid>Ms_630</unitid>
           <unittitle>Registre de comptes de la famille Mulliez-Scalabre</unittitle>
@@ -5383,7 +5383,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639M9Rfy1">
         <did>
           <unitid>Ms_633</unitid>
           <unittitle>Cours de matières textiles</unittitle>
@@ -5414,7 +5414,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639iMHwUY">
         <did>
           <unitid>Ms_634</unitid>
           <unittitle>Cahier de chansons d'un soldat</unittitle>
@@ -5443,7 +5443,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446392Il9ue">
         <did>
           <unitid>Ms_061</unitid>
           <unittitle>Livre d'heures</unittitle>
@@ -5474,7 +5474,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639g86LGd">
         <did>
           <unitid>Ms_062</unitid>
           <unittitle>Compte du ménage de Madame de Brigode</unittitle>
@@ -5505,7 +5505,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639F6BYVJ">
         <did>
           <unitid>Ms_070</unitid>
           <unittitle>Cahier de dessin</unittitle>
@@ -5536,7 +5536,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vmbpSX">
         <did>
           <unitid>Ms_071</unitid>
           <unittitle>Cours d'algèbre</unittitle>
@@ -5567,7 +5567,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ZTTESz">
         <did>
           <unitid>Ms_072</unitid>
           <unittitle>Cours d'anglais</unittitle>
@@ -5598,7 +5598,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639CHfi7a">
         <did>
           <unitid>Ms_073</unitid>
           <unittitle>Cours de puériculture</unittitle>
@@ -5629,7 +5629,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639C7bqWj">
         <did>
           <unitid>Ms_074</unitid>
           <unittitle>Souvenirs d'un appelé tourquennois incorporé au 151e RI à Metz en 1930</unittitle>
@@ -5659,7 +5659,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A5Z3bA">
         <did>
           <unitid>Ms_079</unitid>
           <unittitle>L'estrade aux perroquets : roman</unittitle>
@@ -5690,7 +5690,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Cchuqj">
         <did>
           <unitid>Ms_080</unitid>
           <unittitle>Les fauves en liberté : roman</unittitle>
@@ -5720,7 +5720,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639x5GF7b">
         <did>
           <unitid>Ms_081</unitid>
           <unittitle>La bave : roman</unittitle>
@@ -5751,7 +5751,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639T4b5Fm">
         <did>
           <unitid>Ms_082</unitid>
           <unittitle>L'assiette au beurre : roman</unittitle>
@@ -5782,7 +5782,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639TVd1b2">
         <did>
           <unitid>Ms_083</unitid>
           <unittitle>La clique à Balthazar : roman</unittitle>
@@ -5813,7 +5813,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639UXF097">
         <did>
           <unitid>Ms_084</unitid>
           <unittitle>L'homme à tout faire : roman</unittitle>
@@ -5844,7 +5844,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639In8aHe">
         <did>
           <unitid>Ms_085</unitid>
           <unittitle>Bagnards en habit bleu : roman</unittitle>
@@ -5875,7 +5875,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639TnnqjX">
         <did>
           <unitid>Ms_086</unitid>
           <unittitle>Bourreaux en haut de forme : roman</unittitle>
@@ -5906,7 +5906,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639uSVa5l">
         <did>
           <unitid>Ms_087</unitid>
           <unittitle>C'est la belle vie ! : peccadilles pour personnes pâles : roman</unittitle>
@@ -5937,7 +5937,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639W4iFVG">
         <did>
           <unitid>Ms_088</unitid>
           <unittitle>Ça sera la belle vie : pages perfides pour paradis perdu</unittitle>
@@ -5968,7 +5968,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639VlVmTV">
         <did>
           <unitid>Ms_089</unitid>
           <unittitle>Vingt ans de misère : roman</unittitle>
@@ -5999,7 +5999,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639lzx531">
         <did>
           <unitid>Ms_090</unitid>
           <unittitle>Le mystère des «frères Géranium»</unittitle>
@@ -6030,7 +6030,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hs7Aao">
         <did>
           <unitid>Ms_091</unitid>
           <unittitle>[Acta Sanctorum Belgii selecta, quae collegis Josephum Ghesquierum presbyter]</unittitle>
@@ -6061,7 +6061,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446398nif5A">
         <did>
           <unitid>Ms_092</unitid>
           <unittitle>Cahier de chansons</unittitle>
@@ -6091,7 +6091,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MPSZVF">
         <did>
           <unitid>Ms_101</unitid>
           <unittitle>Notices, vocabulaire, pasquilles en patois roubaisien</unittitle>
@@ -6121,7 +6121,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639EfWVP2">
         <did>
           <unitid>Ms_102</unitid>
           <unittitle>Le Patois roubaisien, notions, vocabulaire, pasquilles</unittitle>
@@ -6152,7 +6152,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639jxh3MI">
         <did>
           <unitid>Ms_112</unitid>
           <unittitle>Dossier Muse de Nadaud</unittitle>
@@ -6184,7 +6184,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Yan2hb">
         <did>
           <unitid>Ms_113</unitid>
           <unittitle>Conservatoire National de Roubaix. Troupe dramatique, Classe de diction, Classe d'art dramatique, travaux</unittitle>
@@ -6220,7 +6220,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639EReA99">
         <did>
           <unitid>Ms_114</unitid>
           <unittitle>Conservatoire National de Roubaix. Troupe dramatique, Classe de diction, Classe d'art dramatique, travaux</unittitle>
@@ -6255,7 +6255,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ZxozTD">
         <did>
           <unitid>Ms_115</unitid>
           <unittitle>Conservatoire National de Roubaix. Troupe dramatique, Classe de diction, Classe d'art dramatique, travaux</unittitle>
@@ -6290,7 +6290,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639pWczzM">
         <did>
           <unitid>Ms_116</unitid>
           <unittitle>Conservatoire National de Roubaix. Troupe dramatique, Classe de diction, Classe d'art dramatique, travaux</unittitle>
@@ -6324,7 +6324,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OSeqtO">
         <did>
           <unitid>Ms_117</unitid>
           <unittitle>Bibliothèque Municipale de Roubaix. Rapport général de cessation de fonctions</unittitle>
@@ -6356,7 +6356,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446397sPQGq">
         <did>
           <unitid>Ms_143</unitid>
           <unittitle>Activités des élèves du Lycée Technique d'État Textile et Arts Appliqués, Roubaix. Sinistrose</unittitle>
@@ -6388,7 +6388,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639mYMSQ6">
         <did>
           <unitid>Ms_144</unitid>
           <unittitle>Comité d'Élèves du Lycée Technique d'Arts Appliqués et Textile de Roubaix</unittitle>
@@ -6420,7 +6420,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Wm8xzu">
         <did>
           <unitid>Ms_145</unitid>
           <unittitle>Comité d'Élèves du Lycée Technique d'Arts Appliqués et Textile de Roubaix</unittitle>
@@ -6452,7 +6452,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ZVrQPV">
         <did>
           <unitid>Ms_146</unitid>
           <unittitle>Projet pour un nouvel établissement d'arts appliqués à Roubaix</unittitle>
@@ -6482,7 +6482,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YbeCDV">
         <did>
           <unitid>Ms_155</unitid>
           <unittitle>Centre culturel du Forum, Discothèque, Roubaix. Rapport de stage C.A.F.B, avril-mai 1988</unittitle>
@@ -6514,7 +6514,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639JyZMTR">
         <did>
           <unitid>Ms_156</unitid>
           <unittitle>Rapport de stage. Service Patrimoine</unittitle>
@@ -6546,7 +6546,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393BsuDx">
         <did>
           <unitid>Ms_165</unitid>
           <unittitle>Papiers Jacques Petipas, seigneur de la Potennerie</unittitle>
@@ -6575,7 +6575,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vMrUD9">
         <did>
           <unitid>Ms_169</unitid>
           <unittitle>Dossier Louis Foelix</unittitle>
@@ -6605,7 +6605,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DIWUuZ">
         <did>
           <unitid>Ms_171</unitid>
           <unittitle>Projet de restructuration du bus scolaire</unittitle>
@@ -6638,7 +6638,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MZzGmr">
         <did>
           <unitid>Ms_188</unitid>
           <unittitle>Quand tournaient les moulins</unittitle>
@@ -6671,7 +6671,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hf7Hw1">
         <did>
           <unitid>Ms_272</unitid>
           <unittitle>Cahier d'enregistrement des périodiques communiqués aux adhérents de l'Association des anciens élèves de l'École nationale supérieure des arts et industries textiles de Roubaix</unittitle>
@@ -6707,7 +6707,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639nqhvI3">
         <did>
           <unitid>Ms_273</unitid>
           <unittitle>Catalogue alphabétique des volumes, publications, revues, journaux locaux, etc., etc. se trouvant au Bureau des archives municipales [de la] Ville de Roubaix</unittitle>
@@ -6738,7 +6738,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639SWcEBx">
         <did>
           <unitid>Ms_288</unitid>
           <unittitle>Registre d'une société chantante roubaisienne</unittitle>
@@ -6766,7 +6766,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639dEBT7z">
         <did>
           <unitid>Ms_338</unitid>
           <unittitle>Cours de théorie du tissage</unittitle>
@@ -6798,7 +6798,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463951QDtf">
         <did>
           <unitid>Ms_339</unitid>
           <unittitle>Choix de différents mémoires anciens et modernes pour l'état et déclaration des biens situés en la ville et chatelenie (sic) de Lille du Tournaisis, Hainaut et de toute la Flandre</unittitle>
@@ -6825,7 +6825,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639c0S21V">
         <did>
           <unitid>Ms_340</unitid>
           <unittitle>Album de couture. 1ère année</unittitle>
@@ -6856,7 +6856,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Ii1UJo">
         <did>
           <unitid>Ms_341</unitid>
           <unittitle>Registre déchantillons de tissus</unittitle>
@@ -6887,7 +6887,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639tUbjIL">
         <did>
           <unitid>Ms_344</unitid>
           <unittitle>Registre d'inscriptions des rencontres par séance du Grand Tournoi de jeu de boules à l'étaque</unittitle>
@@ -6916,7 +6916,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ebIa6h">
         <did>
           <unitid>Ms_345</unitid>
           <unittitle>Registre comptable de la filature Lepoutre-Wibaux</unittitle>
@@ -6947,7 +6947,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463981rpVn">
         <did>
           <unitid>Ms_353</unitid>
           <unittitle>Recueil de documents sur les Établissements Leclercq Dupire</unittitle>
@@ -6979,7 +6979,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639eeq9PT">
         <did>
           <unitid>Ms_358</unitid>
           <unittitle>Plan du terrain, décoration du réfectoire et terrain de jeux de l'École de Plein Air du Pont rouge</unittitle>
@@ -7011,7 +7011,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XfiZlG">
         <did>
           <unitid>Ms_619</unitid>
           <unittitle>Livre d'heures</unittitle>
@@ -7045,7 +7045,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hbdYrj">
         <did>
           <unitid>Ms_624</unitid>
           <unittitle>Carnet d'atelier du centre d'apprentissage des chemins de fer du Nord</unittitle>
@@ -7077,7 +7077,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639sQMeP7">
         <did>
           <unitid>Ms_638</unitid>
           <unittitle>Registre de dépenses journalières de la famille Toulemonde</unittitle>
@@ -7108,7 +7108,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390DTgqL">
         <did>
           <unitid>Ms_055</unitid>
           <unittitle>Livret militaire</unittitle>
@@ -7139,7 +7139,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463988OS0b">
         <did>
           <unitid>Ms_056</unitid>
           <unittitle>Livret de travail</unittitle>
@@ -7171,7 +7171,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ibheLd">
         <did>
           <unitid>Ms_057</unitid>
           <unittitle>Livret de saltimbanque, bateleur, etc.</unittitle>
@@ -7203,7 +7203,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639wuQ21i">
         <did>
           <unitid>Ms_058</unitid>
           <unittitle>Papiers Louis Richard</unittitle>
@@ -7235,7 +7235,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639t15m6V">
         <did>
           <unitid>Ms_059</unitid>
           <unittitle>Lettres de Marcel Guillemyn à Charles Bodart</unittitle>
@@ -7258,7 +7258,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR129062" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639joFXgE">
         <did>
           <unitid>Ms_060</unitid>
           <unittitle>Livre d'or d'Inch Allah</unittitle>
@@ -7287,7 +7287,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639FmjLYp">
         <did>
           <unitid>Ms_063</unitid>
           <unittitle>Secours National de Croix. Réunions du Comité central</unittitle>
@@ -7319,7 +7319,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639c3BXhv">
         <did>
           <unitid>Ms_064</unitid>
           <unittitle>Recueil de chansons</unittitle>
@@ -7349,7 +7349,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446395LMc3X">
         <did>
           <unitid>Ms_067</unitid>
           <unittitle>Papiers Jean-François Collette, menuisier de Roubaix</unittitle>
@@ -7381,7 +7381,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639EqCes5">
         <did>
           <unitid>Ms_068</unitid>
           <unittitle>Droit de l'enseignement et pédagogie. Notes</unittitle>
@@ -7411,7 +7411,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639o0rMTM">
         <did>
           <unitid>Ms_069</unitid>
           <unittitle>Livre d'or de l'exposition « Lire » à la Bibliothèque Municipale de Roubaix organisée par l'Association pour le développement de la lecture</unittitle>
@@ -7443,7 +7443,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639oLHchH">
         <did>
           <unitid>Ms_075</unitid>
           <unittitle>Cahier de géométrie</unittitle>
@@ -7464,7 +7464,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR129069" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390UnECY">
         <did>
           <unitid>Ms_077</unitid>
           <unittitle>La lecture à Roubaix dans les années [19]30. Souvenirs d'un sexagénaire</unittitle>
@@ -7492,7 +7492,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639rtwUQ4">
         <did>
           <unitid>Ms_078</unitid>
           <unittitle>Carnet de la famille Dervaux</unittitle>
@@ -7526,7 +7526,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639nl7jRu">
         <did>
           <unitid>Ms_097</unitid>
           <unittitle>Maximes. Pensées. Extraits</unittitle>
@@ -7556,7 +7556,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ELWI7n">
         <did>
           <unitid>Ms_106</unitid>
           <unittitle>Lorsque tout souriait : épisodes de la 1ère guerre, 1914-1918</unittitle>
@@ -7587,7 +7587,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639LnQO5o">
         <did>
           <unitid>Ms_111</unitid>
           <unittitle>Histoire de Roubaix, histoires d'un roubaigno</unittitle>
@@ -7618,7 +7618,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639B4U4Fn">
         <did>
           <unitid>Ms_118</unitid>
           <unittitle>Lettre de Gustave Nadaud à un ami, prénommé Anatole, 6 janvier 1860</unittitle>
@@ -7650,7 +7650,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639GJXcVA">
         <did>
           <unitid>Ms_119</unitid>
           <unittitle>Lettre de Louis Loucheur à Monsieur Deligne, Inspecteur Général de l'Enregistrement, 19 décembre 1925 </unittitle>
@@ -7679,7 +7679,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DM7soD">
         <did>
           <unitid>Ms_120</unitid>
           <unittitle>Souvenance du film «L'Majeon du Maltais», 1938</unittitle>
@@ -7715,7 +7715,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639aiCegb">
         <did>
           <unitid>Ms_121</unitid>
           <unittitle>Vingt poèmes de Paul Vanriet</unittitle>
@@ -7748,7 +7748,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639GgFtT4">
         <did>
           <unitid>Ms_122</unitid>
           <unittitle>Poèmes de Paul Vanriet</unittitle>
@@ -7781,7 +7781,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639uECnmr">
         <did>
           <unitid>Ms_123</unitid>
           <unittitle>Poèmes de Paul Vanriet</unittitle>
@@ -7814,7 +7814,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A4R7m6">
         <did>
           <unitid>Ms_124</unitid>
           <unittitle>Le Savetier : [pièce pour marionnettes]</unittitle>
@@ -7847,7 +7847,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DHnz3x">
         <did>
           <unitid>Ms_125</unitid>
           <unittitle>Le Savetier, de Léopold Richard daprès Louis Richard : [pièce pour marionnettes]</unittitle>
@@ -7880,7 +7880,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YypTAs">
         <did>
           <unitid>Ms_126</unitid>
           <unittitle>Un couteau magique : [pièce pour marionnettes]</unittitle>
@@ -7913,7 +7913,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639BieQQR">
         <did>
           <unitid>Ms_127</unitid>
           <unittitle>Jacques sans peur : [pièce pour marionnettes]</unittitle>
@@ -7946,7 +7946,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446397Yze5u">
         <did>
           <unitid>Ms_128</unitid>
           <unittitle>Il est mort : [pièce pour marionnettes]</unittitle>
@@ -7979,7 +7979,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639wjslQ7">
         <did>
           <unitid>Ms_129</unitid>
           <unittitle>Le colibri du Marquis de Trucmuche : [pièce pour marionnettes]</unittitle>
@@ -8012,7 +8012,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639d2U4Ce">
         <did>
           <unitid>Ms_130</unitid>
           <unittitle>Il me faut 35 sous : [pièce pour marionnettes]</unittitle>
@@ -8045,7 +8045,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YHaMG1">
         <did>
           <unitid>Ms_131</unitid>
           <unittitle>Il me faut 35 sous : [pièce pour marionnettes]</unittitle>
@@ -8078,7 +8078,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639E1jnnJ">
         <did>
           <unitid>Ms_132</unitid>
           <unittitle>Les Mousquetaires gris : [pièce pour marionnettes]</unittitle>
@@ -8111,7 +8111,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639HeEs8Q">
         <did>
           <unitid>Ms_133</unitid>
           <unittitle>Les Mousquetaires gris : [pièce pour marionnettes]</unittitle>
@@ -8141,7 +8141,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639WAXxZi">
         <did>
           <unitid>Ms_134</unitid>
           <unittitle>Les Mousquetaires gris : [pièce pour marionnettes]</unittitle>
@@ -8174,7 +8174,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Oos7Cz">
         <did>
           <unitid>Ms_135</unitid>
           <unittitle>Épisode de la guerre de 30 ans : [pièce pour marionnettes]</unittitle>
@@ -8207,7 +8207,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639L1iin3">
         <did>
           <unitid>Ms_136</unitid>
           <unittitle>Le Courrier secret : [pièce pour marionnettes]</unittitle>
@@ -8240,7 +8240,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ERlJLl">
         <did>
           <unitid>Ms_137</unitid>
           <unittitle>A la Rochelle : [pièce pour marionnettes]</unittitle>
@@ -8273,7 +8273,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639jRJT2z">
         <did>
           <unitid>Ms_138</unitid>
           <unittitle>Un Drame Local, 1582 : [pièce pour marionnettes]</unittitle>
@@ -8306,7 +8306,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639beHTE6">
         <did>
           <unitid>Ms_139</unitid>
           <unittitle>Les Deux Chemins : pièce patriotique en deux actes [pour marionnettes]</unittitle>
@@ -8339,7 +8339,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Zpoy1x">
         <did>
           <unitid>Ms_140</unitid>
           <unittitle>Henri IV : [notes]</unittitle>
@@ -8372,7 +8372,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639xHsB9b">
         <did>
           <unitid>Ms_103</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8404,7 +8404,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639TT5mat">
         <did>
           <unitid>Ms_104</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8437,7 +8437,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639oLa1Du">
         <did>
           <unitid>Ms_142</unitid>
           <unittitle>Insertion de Radio Boomerang dans le milieu local et dans la métropole</unittitle>
@@ -8468,7 +8468,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639o78EUU">
         <did>
           <unitid>Ms_147</unitid>
           <unittitle>Le jeu, le livre, les enfants</unittitle>
@@ -8501,7 +8501,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639cjPmMs">
         <did>
           <unitid>Ms_153</unitid>
           <unittitle>Petit historique de la Bibliothèque Municipale de Roubaix</unittitle>
@@ -8534,7 +8534,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639F4b9oL">
         <did>
           <unitid>Ms_154</unitid>
           <unittitle>Rapport général de cessation de fonctions</unittitle>
@@ -8566,7 +8566,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639LUZrFv">
         <did>
           <unitid>Ms_157</unitid>
           <unittitle>Résultats de l'enquête proposée au Festival de la Création le 14 mars 1987 à Roubaix</unittitle>
@@ -8599,7 +8599,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639UpoV0U">
         <did>
           <unitid>Ms_166</unitid>
           <unittitle>Le mouvement littéraire régionaliste, 1900-1945</unittitle>
@@ -8631,7 +8631,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639fsL5Fu">
         <did>
           <unitid>Ms_167</unitid>
           <unittitle>Les Marionnettes de chez nous</unittitle>
@@ -8663,7 +8663,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639BALop1">
         <did>
           <unitid>Ms_177</unitid>
           <unittitle>La Société d'Émulation de Roubaix au siècle dernier, 1868-1914</unittitle>
@@ -8696,7 +8696,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639BhFU46">
         <did>
           <unitid>Ms_613</unitid>
           <unittitle>Carnet de souvenirs d'un éclaireur Scouts de France, 1944-1948</unittitle>
@@ -8729,7 +8729,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639x1WqB2">
         <did>
           <unitid>Ms_635</unitid>
           <unittitle>Recueil de chansons : souvenirs du 1er régiment des zouaves d'Alger</unittitle>
@@ -8762,7 +8762,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446394sBmaw">
         <did>
           <unitid>Ms_280</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8794,7 +8794,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Cb72tl">
         <did>
           <unitid>Ms_281</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8826,7 +8826,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639y7ldXB">
         <did>
           <unitid>Ms_282</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8858,7 +8858,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Y2vU21">
         <did>
           <unitid>Ms_283</unitid>
           <unittitle>La musique à Roubaix</unittitle>
@@ -8892,7 +8892,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639954ZPa">
         <did>
           <unitid>Ms_294</unitid>
           <unittitle>Cours pratique de déc[omposit]ion de grands façonnés</unittitle>
@@ -8926,7 +8926,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446398dPcQJ">
         <did>
           <unitid>Ms_295</unitid>
           <unittitle>Carnet d'échantillons</unittitle>
@@ -8957,7 +8957,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639O1t0IZ">
         <did>
           <unitid>Ms_296</unitid>
           <unittitle>Renseignements concernant les grands panneaux</unittitle>
@@ -8988,7 +8988,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YLWbIz">
         <did>
           <unitid>Ms_297</unitid>
           <unittitle>Atlas de géographie moderne</unittitle>
@@ -9019,7 +9019,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639MvO48L">
         <did>
           <unitid>Ms_298</unitid>
           <unittitle>Registre d'échantillons de tissus</unittitle>
@@ -9050,7 +9050,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639lubrBF">
         <did>
           <unitid>Ms_299</unitid>
           <unittitle>Cours de tissage. 2e année Textiles</unittitle>
@@ -9081,7 +9081,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639i4xngJ">
         <did>
           <unitid>Ms_300</unitid>
           <unittitle>Cours de tissage</unittitle>
@@ -9114,7 +9114,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639LDJFuQ">
         <did>
           <unitid>Ms_616</unitid>
           <unittitle>Déclamations : recueil de poésies</unittitle>
@@ -9147,7 +9147,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639fOSSs1">
         <did>
           <unitid>Ms_618</unitid>
           <unittitle>Extraits de poésies</unittitle>
@@ -9182,7 +9182,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639izBPGW">
         <did>
           <unitid>Ms_626</unitid>
           <unittitle>Histoire du Syndicat mixte de l'industrie roubaisienne</unittitle>
@@ -9215,7 +9215,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639e0L1vn">
         <did>
           <unitid>Ms_637</unitid>
           <unittitle>Cahier de travaux de couture</unittitle>
@@ -9248,7 +9248,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639sdPXEq">
         <did>
           <unitid>Ms_640</unitid>
           <unittitle>Cahier de poésies</unittitle>
@@ -9278,7 +9278,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639sb6Z2V">
         <did>
           <unitid>Ms_641</unitid>
           <unittitle>Cours de technologie textile</unittitle>
@@ -9309,7 +9309,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639F7lTXd">
         <did>
           <unitid>Ms_636</unitid>
           <unittitle>Récits, chansons et poèmes</unittitle>
@@ -9330,7 +9330,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131034" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639IefoSS">
         <did>
           <unitid>Ms_093</unitid>
           <unittitle>Chansons. Chansonnettes. Romances. Mélodies. 1</unittitle>
@@ -9350,7 +9350,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131035" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639yeDyjw">
         <did>
           <unitid>Ms_094</unitid>
           <unittitle>Chansons. Chansonnettes. Romances. Mélodies. 2</unittitle>
@@ -9370,7 +9370,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131036" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639qI6xJa">
         <did>
           <unitid>Ms_105</unitid>
           <unittitle>Chronique de la prise d'Arras en 1640</unittitle>
@@ -9391,7 +9391,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131037" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639A8doI1">
         <did>
           <unitid>Ms_109</unitid>
           <unittitle>Le Christ perdu</unittitle>
@@ -9412,7 +9412,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131038" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639dRAUhQ">
         <did>
           <unitid>Ms_110</unitid>
           <unittitle>Le Poème en noir, poème livre</unittitle>
@@ -9433,7 +9433,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131039" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446395x9bUR">
         <did>
           <unitid>Ms_168</unitid>
           <unittitle>Articles traduits du néerlandais</unittitle>
@@ -9455,7 +9455,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131040" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639znIOgb">
         <did>
           <unitid>Ms_170</unitid>
           <unittitle>Chronique des bibliothèques publiques de Guadeloupe de 1795 à 1967</unittitle>
@@ -9478,7 +9478,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131041" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639D8i409">
         <did>
           <unitid>Ms_176</unitid>
           <unittitle>La vie du curé dArs</unittitle>
@@ -9503,7 +9503,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131042" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639nC8PLH">
         <did>
           <unitid>Ms_178</unitid>
           <unittitle>Dictionnaire de mythologie grecque et romaine</unittitle>
@@ -9523,7 +9523,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131043" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390oWmFu">
         <did>
           <unitid>Ms_179</unitid>
           <unittitle>Roubaix, capitale du textile</unittitle>
@@ -9553,7 +9553,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390YAUIG">
         <did>
           <unitid>Ms_184</unitid>
           <unittitle>Le chapeau : pygmalion et caméléon. Tome 1</unittitle>
@@ -9574,7 +9574,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131045" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639TeLriA">
         <did>
           <unitid>Ms_185</unitid>
           <unittitle>Le chapeau : pygmalion et caméléon. Tome 2</unittitle>
@@ -9595,7 +9595,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131046" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446391ifxwH">
         <did>
           <unitid>Ms_186</unitid>
           <unittitle>Le chapeau : pygmalion et caméléon. Tome 3</unittitle>
@@ -9616,7 +9616,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131047" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393Sfhbs">
         <did>
           <unitid>Ms_190</unitid>
           <unittitle>Lettres de Paul Dupin à Marcelle et Julien Tinayre, 4 février 1895-6 novembre 1921</unittitle>
@@ -9650,7 +9650,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446398wv8E8">
         <did>
           <unitid>Ms_192</unitid>
           <unittitle>Correspondance Gustave Nadaud</unittitle>
@@ -9675,7 +9675,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131049" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639J6llP2">
         <did>
           <unitid>Ms_661</unitid>
           <unittitle>Attribution du bail des dîmes du chapitre de Tournai au plus offrant, sur les communes de Roubaix, Tourcoing, Mouvaux, Willems, Hem</unittitle>
@@ -9702,7 +9702,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vioufi">
         <did>
           <unitid>Ms_660</unitid>
           <unittitle>Règlement de police intérieure et extérieure des abattoirs publics de la Ville de Roubaix</unittitle>
@@ -9734,7 +9734,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639VXTtRt">
         <did>
           <unitid>Ms_659</unitid>
           <unittitle>Discours de Georges Teneul en l'honneur des peintres Noël Demeyer et Gabriel Gobin</unittitle>
@@ -9768,7 +9768,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639E9Qpm3">
         <did>
           <unitid>Ms_658</unitid>
           <unittitle>La grève des forgerons : poème</unittitle>
@@ -9799,7 +9799,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639s6aJfy">
         <did>
           <unitid>Ms_657</unitid>
           <unittitle>Diary of Gordon Heath (Journal de Gordon Heath)</unittitle>
@@ -9823,7 +9823,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR131103" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ddBHcO">
         <did>
           <unitid>Ms_656</unitid>
           <unittitle>Livret déconomie de la Société Coopérative ouvrière « La Paix »</unittitle>
@@ -9855,7 +9855,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393xTrza">
         <did>
           <unitid>Ms_655</unitid>
           <unittitle>Carte didentité du Fonds Municipal de chômage</unittitle>
@@ -9886,7 +9886,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639JBxitL">
         <did>
           <unitid>Ms_654</unitid>
           <unittitle>Livret de location de maison</unittitle>
@@ -9919,7 +9919,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639FvqbRb">
         <did>
           <unitid>Ms_653</unitid>
           <unittitle>Livret de location de maison</unittitle>
@@ -9952,7 +9952,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639odWQep">
         <did>
           <unitid>Ms_652</unitid>
           <unittitle>Livret de location de maison</unittitle>
@@ -9985,7 +9985,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ab5iVx">
         <did>
           <unitid>Ms_651</unitid>
           <unittitle>Carnet de loyers</unittitle>
@@ -10017,7 +10017,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639oo4qim">
         <did>
           <unitid>Ms_650</unitid>
           <unittitle>Carnet de poésies</unittitle>
@@ -10051,7 +10051,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639aX9Qx2">
         <did>
           <unitid>Ms_649</unitid>
           <unittitle>Livret d'ouvrier</unittitle>
@@ -10083,7 +10083,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639peT51z">
         <did>
           <unitid>Ms_648</unitid>
           <unittitle>Extraits d'articles de la « Gazette de Flandre et d'Artois »</unittitle>
@@ -10115,7 +10115,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639von1dh">
         <did>
           <unitid>Ms_194</unitid>
           <unittitle>Le poète Louis Decottignies et son temps</unittitle>
@@ -10145,7 +10145,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639DGu4G0">
         <did>
           <unitid>Ms_197</unitid>
           <unittitle>Feuille de route dAlger à Lille</unittitle>
@@ -10168,7 +10168,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR134786" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639wbpAq3">
         <did>
           <unitid>Ms_359</unitid>
           <unittitle>Registre de comptes de la famille Vienne-Desouter - 1913</unittitle>
@@ -10200,7 +10200,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639V1jXuH">
         <did>
           <unitid>Ms_360</unitid>
           <unittitle>Registre de comptes de la famille Vienne-Desouter - 1914</unittitle>
@@ -10232,7 +10232,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OorX74">
         <did>
           <unitid>Ms_200</unitid>
           <unittitle>Documents relatifs à léglise Notre Dame à Roubaix</unittitle>
@@ -10264,7 +10264,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639TD4Pu5">
         <did>
           <unitid>Ms_355</unitid>
           <unittitle>La bibliothèque de Djamel Martin</unittitle>
@@ -10297,7 +10297,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446392eCvCI">
         <did>
           <unitid>Ms_275</unitid>
           <unittitle>Documents relatifs à lenseignement à Roubaix</unittitle>
@@ -10326,7 +10326,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446397GDVhE">
         <did>
           <unitid>Ms_274</unitid>
           <unittitle>Zigzags autour du monde : vingt ans danecdotes glanées un peu partout</unittitle>
@@ -10355,7 +10355,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639S1JOaw">
         <did>
           <unitid>Ms_290</unitid>
           <unittitle>Quinze siècles dhistoire roubaisienne (1469-1969)</unittitle>
@@ -10386,7 +10386,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639v45cfu">
         <did>
           <unitid>Ms_342</unitid>
           <unittitle>Registre de loyers</unittitle>
@@ -10423,7 +10423,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639eww6x1">
         <did>
           <unitid>Ms_343</unitid>
           <unittitle>Recueil de vers et de poésies</unittitle>
@@ -10455,7 +10455,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ZZ4P93">
         <did>
           <unitid>Ms_352</unitid>
           <unittitle>Correspondance privée et professionnelle de la famille Motte-Bossut</unittitle>
@@ -10490,7 +10490,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446398MeAsR">
         <did>
           <unitid>Ms_356</unitid>
           <unittitle>Rapport de stage. Médiathèque municipale de Roubaix</unittitle>
@@ -10522,7 +10522,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639eIJMJb">
         <did>
           <unitid>Ms_357</unitid>
           <unittitle>Chansons de Jean-Louis Pick</unittitle>
@@ -10553,7 +10553,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446392RO0SD">
         <did>
           <unitid>Ms_611</unitid>
           <unittitle>Catéchisme des filles. Paroisse Sainte Élisabeth</unittitle>
@@ -10583,7 +10583,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Ap12aY">
         <did>
           <unitid>Ms_612</unitid>
           <unittitle>Dormez en paix : le salaud est mort ! : roman</unittitle>
@@ -10611,7 +10611,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639BuBh9p">
         <did>
           <unitid>Ms_614</unitid>
           <unittitle>Souvenirs dun ancien petit garçon. Les George Motte en 1895</unittitle>
@@ -10646,7 +10646,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hyM1Tf">
         <did>
           <unitid>Ms_617</unitid>
           <unittitle>Cahier de cours d'allemand d'un élève français, 1942-1943</unittitle>
@@ -10680,7 +10680,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639zjrXWy">
         <did>
           <unitid>Ms_622</unitid>
           <unittitle>Cours de décorative</unittitle>
@@ -10711,7 +10711,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Zrb4UZ">
         <did>
           <unitid>Ms_623</unitid>
           <unittitle>Lointains souvenirs d'un vieux roubaisien</unittitle>
@@ -10745,7 +10745,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639S2wC21">
         <did>
           <unitid>Ms_639</unitid>
           <unittitle>Cahier de travaux de couture</unittitle>
@@ -10776,7 +10776,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639s80DEd">
         <did>
           <unitid>Ms_642</unitid>
           <unittitle>Livret d'apprentissage</unittitle>
@@ -10806,7 +10806,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639bqn9S2">
         <did>
           <unitid>Ms_643</unitid>
           <unittitle>Livret d'apprentissage</unittitle>
@@ -10837,7 +10837,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446390PHHCf">
         <did>
           <unitid>Ms_644</unitid>
           <unittitle>Livret d'apprentissage</unittitle>
@@ -10867,7 +10867,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639l9JxJd">
         <did>
           <unitid>Ms_646</unitid>
           <unittitle>Agenda scolaire dun élève de 1ère</unittitle>
@@ -10897,7 +10897,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639bZZchs">
         <did>
           <unitid>Ms_662</unitid>
           <unittitle>[Vie de Henri Joseph Barrois]</unittitle>
@@ -10925,7 +10925,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639i8rnYm">
         <did>
           <unitid>Ms_361</unitid>
           <unittitle>Cours de tissage - Fabrication</unittitle>
@@ -10946,7 +10946,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137341" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639ijCHmr">
         <did>
           <unitid>Ms_195</unitid>
           <unittitle>Wattrelos : mille ans dhistoire</unittitle>
@@ -10969,7 +10969,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137342" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639pA3QBs">
         <did>
           <unitid>Ms_196</unitid>
           <unittitle>Livret militaire, 1er Régiment de chasseurs dAfrique, 6e Escadron</unittitle>
@@ -10992,7 +10992,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137343" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Requep">
         <did>
           <unitid>Ms_198</unitid>
           <unittitle>Mise en page de « Roubaix : capitale du textile »</unittitle>
@@ -11014,7 +11014,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137344" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639sau1uf">
         <did>
           <unitid>Ms_278</unitid>
           <unittitle>3ème voyage en Inde via lÉthiopie, la Birmanie, la Thaïlande - retour par lIran et lIrak : 1962-1963. Départ le 29 novembre 1962, retour le 7 janvier 1963</unittitle>
@@ -11036,7 +11036,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137345" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639t10ITg">
         <did>
           <unitid>Ms_279</unitid>
           <unittitle>4ème voyage en Inde. Grèce, Inde, Hong Kong : départ samedi 1er janvier 1966</unittitle>
@@ -11058,7 +11058,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137346" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639OMYiVr">
         <did>
           <unitid>Ms_284</unitid>
           <unittitle>Papiers Gordon Heath et Lee Payant</unittitle>
@@ -11081,7 +11081,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137347" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639HAPl6o">
         <did>
           <unitid>Ms_291</unitid>
           <unittitle>Recherches et controverses de Chrétiens sur le retour des Juifs et lApocalyptisme du 12e siècle au 19e siècle</unittitle>
@@ -11103,7 +11103,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137348" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446391eyWVP">
         <did>
           <unitid>Ms_615</unitid>
           <unittitle>Souvenirs dun ancien petit garçon. Les George Motte en 1895</unittitle>
@@ -11128,7 +11128,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137349" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639rPoBbh">
         <did>
           <unitid>Ms_625</unitid>
           <unittitle>Les discours du Général Charles de Gaulle, 1940-1943</unittitle>
@@ -11157,7 +11157,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446396sebcq">
         <did>
           <unitid>Ms_627</unitid>
           <unittitle>Carnets dune militante du Mouvement de libération des femmes</unittitle>
@@ -11180,7 +11180,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137351" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639xSxVCG">
         <did>
           <unitid>Ms_628</unitid>
           <unittitle>Répertoire chronologique des auteurs français et leurs uvres principales jusquen 1849. Tome I</unittitle>
@@ -11201,7 +11201,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137352" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639hlrp2e">
         <did>
           <unitid>Ms_629</unitid>
           <unittitle>Répertoire chronologique des auteurs français et leurs uvres principales jusquen 1849. Tome II</unittitle>
@@ -11222,7 +11222,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137353" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639XiQ2hn">
         <did>
           <unitid>Ms_631</unitid>
           <unittitle>La lecture à Roubaix au milieu du XIXe siècle : le commerce du livre 1826-1866</unittitle>
@@ -11251,7 +11251,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639YbMTRM">
         <did>
           <unitid>Ms_632</unitid>
           <unittitle>Le colportage au XIXe siècle</unittitle>
@@ -11271,7 +11271,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137355" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639dZTyrm">
         <did>
           <unitid>Ms_346</unitid>
           <unittitle>Le diamant : pièce pour marionnettes</unittitle>
@@ -11291,7 +11291,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137356" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639vOVTdh">
         <did>
           <unitid>Ms_347</unitid>
           <unittitle>Le revenant : pièce pour marionnettes</unittitle>
@@ -11311,7 +11311,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137357" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Cz06dj">
         <did>
           <unitid>Ms_348</unitid>
           <unittitle>Le marchand dallumettes : pièce pour marionnettes</unittitle>
@@ -11332,7 +11332,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137358" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m0178124463976mlx4">
         <did>
           <unitid>Ms_349</unitid>
           <unittitle>Le domestique [suivi de] Parodie de létranger : pièce pour marionnettes</unittitle>
@@ -11353,7 +11353,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137359" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639rJGQcx">
         <did>
           <unitid>Ms_350</unitid>
           <unittitle>Le portrait de loncle : pièce pour marionnettes</unittitle>
@@ -11374,7 +11374,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137360" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639Ap8lvi">
         <did>
           <unitid>Ms_351</unitid>
           <unittitle>Le légataire : pièce pour marionnettes</unittitle>
@@ -11394,7 +11394,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137361" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639EvzV1w">
         <did>
           <unitid>Ms_354</unitid>
           <unittitle>Lécole des bourgeois : comédie en trois actes</unittitle>
@@ -11414,7 +11414,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137362" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446392wltxj">
         <did>
           <unitid>Ms_645</unitid>
           <unittitle>Carnet de formules dalgèbre et de géométrie</unittitle>
@@ -11435,7 +11435,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137363" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639y1YvVG">
         <did>
           <unitid>Ms_647</unitid>
           <unittitle>Carnet de maximes</unittitle>
@@ -11454,7 +11454,7 @@
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR137364" role="publication:previous"/>
       </c>
-      <c level="item">
+      <c level="item" id="m017812446393iCzxM">
         <did>
           <unitid>Ms_285</unitid>
           <unittitle>Chansons</unittitle>
@@ -11484,7 +11484,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639asVto1">
         <did>
           <unitid>Ms_286</unitid>
           <unittitle>La bière</unittitle>
@@ -11509,7 +11509,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639mCHWM4">
         <did>
           <unitid>Ms_287</unitid>
           <unittitle>Les grands oiseaux</unittitle>
@@ -11534,7 +11534,7 @@
           </daodesc>
         </daogrp>
       </c>
-      <c level="item">
+      <c level="item" id="m01781244639rz3ErO">
         <did>
           <unitid>Ms_293</unitid>
           <unittitle>Lettre de Simons à Thérèse Van der Meersch</unittitle>

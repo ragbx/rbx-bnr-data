@@ -28,6 +28,7 @@ Usage
 
     deja_pris = ids_existants()      # id des EAD de data/ead/mnesys
     i = nouvel_id(deja_pris)         # ex. "a01781183706PyJAGP"
+    j = nouvel_id(deja_pris, prefixe="b0")  # autre préfixe, ex. "b01781183706xRm2Vc"
 """
 
 import random
@@ -41,14 +42,17 @@ ALPHABET = "0123456789ABCDEFGHIJLMOPQRSTUVWXYZabcdefghijlmnopqrstuvwxyz"
 MOTIF = re.compile(r"a0(\d{10})[" + ALPHABET + "]{6}")
 
 
-def nouvel_id(deja_pris):
+def nouvel_id(deja_pris, prefixe="a0"):
     """Nouvel id de type Mnesys, absent de l'ensemble deja_pris.
 
     deja_pris est mis à jour : l'id retourné y est ajouté, l'ensemble peut
     donc être réutilisé d'appel en appel pour générer une série d'id.
+
+    prefixe remplace le préfixe constant "a0" observé dans les id Mnesys,
+    pour produire des séries d'id distinguables des id natifs.
     """
     while True:
-        i = f"a0{int(time.time())}{''.join(random.choices(ALPHABET, k=6))}"
+        i = f"{prefixe}{int(time.time())}{''.join(random.choices(ALPHABET, k=6))}"
         if i not in deja_pris:
             deja_pris.add(i)
             return i

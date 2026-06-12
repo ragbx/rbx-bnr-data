@@ -21,7 +21,7 @@
       <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection">
+  <archdesc level="collection" id="m0178124464079liPo">
     <did>
       <unitid>MED_PUB</unitid>
       <unittitle>Publications de la Médiathèque</unittitle>
@@ -35,13 +35,13 @@
       <p>&lt;p style="text-align: justify;"&gt;Cette collection rassemble les publications du Centre culturel du Forum - Bibliothèque de Roubaix devenu plus tard Médiathèque de Roubaix puis Médiathèque et Archives de Roubaix puis La Grand-Plage, Médiathèque et Archives de Roubaix.&lt;/p&gt;</p>
     </scopecontent>
     <dsc>
-      <c level="subfonds">
+      <c level="subfonds" id="m01781244640us2A4E">
         <did>
           <unitid>PUB_PAT</unitid>
           <unittitle>Publications du pôle Patrimoine</unittitle>
         </did>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR135236" role="publication:previous"/>
-        <c level="series">
+        <c level="series" id="m017812446400BxUXE">
           <did>
             <unitid>PUB_PAT_FDP</unitid>
             <unittitle>Catalogues des expositions Fonds de poche</unittitle>
@@ -56,7 +56,7 @@
 &lt;p style="text-align: justify;"&gt;Depuis la refonte de la Bn-R (mise en ligne de la nouvelle Bn-R fin 2017), les catalogues papier sont susceptibles de connaître une déclinaison numérique sous la forme de "dossiers thématique" au sein de la Bn-R.&lt;/p&gt;</p>
           </scopecontent>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135237" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446404gawf3">
             <did>
               <unitid>PUB_PAT_FDP_001</unitid>
               <unittitle>n°1 - Des Livres chinois à la Médiathèque</unittitle>
@@ -72,7 +72,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640RCu2IZ">
             <did>
               <unitid>PUB_PAT_FDP_002</unitid>
               <unittitle>n°2 - Belles éditions de La Fontaine </unittitle>
@@ -88,7 +88,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640XQPzUh">
             <did>
               <unitid>PUB_PAT_FDP_003</unitid>
               <unittitle>n°3 - Vaissier et les savons du Congo</unittitle>
@@ -107,7 +107,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640wuO1e4">
             <did>
               <unitid>PUB_PAT_FDP_004</unitid>
               <unittitle>n°4 - Henri-Louis Dubly écrivain roubaisien</unittitle>
@@ -123,7 +123,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640sz2Xqv">
             <did>
               <unitid>PUB_PAT_FDP_005</unitid>
               <unittitle>n°5 - Histoires de Roubaix</unittitle>
@@ -139,7 +139,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640vqbWyI">
             <did>
               <unitid>PUB_PAT_FDP_007</unitid>
               <unittitle>n°7 - Le livre pour enfants dans le legs Destombes</unittitle>
@@ -155,7 +155,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lA2G3B">
             <did>
               <unitid>PUB_PAT_FDP_006</unitid>
               <unittitle>n°6 - Comme en 14</unittitle>
@@ -174,7 +174,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640nLosRf">
             <did>
               <unitid>PUB_PAT_FDP_008</unitid>
               <unittitle>n°8 - Les quatre fils Aymon</unittitle>
@@ -190,7 +190,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640w2ZxeX">
             <did>
               <unitid>PUB_PAT_FDP_009</unitid>
               <unittitle>n°9 - Nord. Chansons en Nord. Chansons</unittitle>
@@ -206,7 +206,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408QpoZG">
             <did>
               <unitid>PUB_PAT_FDP_010</unitid>
               <unittitle>n°10 - A propos de géographie</unittitle>
@@ -222,7 +222,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ezCb9g">
             <did>
               <unitid>PUB_PAT_FDP_011</unitid>
               <unittitle>n°11 - Guide du vélocipédiste</unittitle>
@@ -238,7 +238,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640dhY6vI">
             <did>
               <unitid>PUB_PAT_FDP_012</unitid>
               <unittitle>n°12 - Quelques chansons de la Seconde Guerre mondiale</unittitle>
@@ -254,7 +254,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fXGX5l">
             <did>
               <unitid>PUB_PAT_FDP_013</unitid>
               <unittitle>n°13 - Chansons de mi-carême et de Carnaval</unittitle>
@@ -270,7 +270,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640qeGob1">
             <did>
               <unitid>PUB_PAT_FDP_014</unitid>
               <unittitle>n°14 - Roubaix qui disparaît...</unittitle>
@@ -289,7 +289,7 @@
               <persname normal="Lepoutre, Xavier" role="Rédacteur">Lepoutre, Xavier</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640se1T9B">
             <did>
               <unitid>PUB_PAT_FDP_015</unitid>
               <unittitle>n°15 - Du manuscrit au livre Roubaix capitale du textile de Jean Piat</unittitle>
@@ -308,7 +308,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640yp304B">
             <did>
               <unitid>PUB_PAT_FDP_016</unitid>
               <unittitle>n°16 - Roubaix est un roman</unittitle>
@@ -327,7 +327,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640pV69pv">
             <did>
               <unitid>PUB_PAT_FDP_017</unitid>
               <unittitle>n°17 - Les Editions du Phylactère</unittitle>
@@ -346,7 +346,7 @@
               <persname role="Rédacteur">Grelle, Bernard</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446405TX7Lj">
             <did>
               <unitid>PUB_PAT_FDP_018</unitid>
               <unittitle>n°18 - Les Prouvost et La Lainière à la Médiathèque</unittitle>
@@ -362,7 +362,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464065BTLr">
             <did>
               <unitid>PUB_PAT_FDP_019</unitid>
               <unittitle>n°19 - Quand on chantait dans les cafés</unittitle>
@@ -378,7 +378,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640LFzwi3">
             <did>
               <unitid>PUB_PAT_FDP_020</unitid>
               <unittitle>n°20 - L'école des femmes</unittitle>
@@ -394,7 +394,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640xVufGF">
             <did>
               <unitid>PUB_PAT_FDP_021</unitid>
               <unittitle>n°21 - Roland Cuvelier, illustrateur de Van Der Meersch</unittitle>
@@ -413,7 +413,7 @@
               <persname role="Rédacteur">Grelle, Bernard</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640odPH8E">
             <did>
               <unitid>PUB_PAT_FDP_022</unitid>
               <unittitle>n°22 - Missant / Van Der Meersch</unittitle>
@@ -432,7 +432,7 @@
               <persname normal="Vanremortere, F." role="Rédacteur">Vanremortere, F.</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407tlfht">
             <did>
               <unitid>PUB_PAT_FDP_023</unitid>
               <unittitle>n°23 - Eglise Notre-Dame à Roubaix</unittitle>
@@ -448,7 +448,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640FvwAzD">
             <did>
               <unitid>PUB_PAT_FDP_024</unitid>
               <unittitle>n°24 - La mort et les cimetières</unittitle>
@@ -464,7 +464,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640oYLI7p">
             <did>
               <unitid>PUB_PAT_FDP_025</unitid>
               <unittitle>n°25 - La marionnette dans le dessin humoristique</unittitle>
@@ -480,7 +480,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640wfCp1p">
             <did>
               <unitid>PUB_PAT_FDP_026</unitid>
               <unittitle>n°26 - De quelques voyages et de la façon de les raconter</unittitle>
@@ -496,7 +496,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Wl0gOs">
             <did>
               <unitid>PUB_PAT_FDP_027</unitid>
               <unittitle>n°27 - Season's greetings... [cartes de voeux]</unittitle>
@@ -512,7 +512,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640y1Croo">
             <did>
               <unitid>PUB_PAT_FDP_028</unitid>
               <unittitle>n°28 - Daniel Colier : vendre des livres à Roubaix</unittitle>
@@ -528,7 +528,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640P0VxOZ">
             <did>
               <unitid>PUB_PAT_FDP_029</unitid>
               <unittitle>n°29 - A table !... [cuisine du Nord]</unittitle>
@@ -544,7 +544,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640qCMRAt">
             <did>
               <unitid>PUB_PAT_FDP_030</unitid>
               <unittitle>n°30 - Au bonheur des courées ?</unittitle>
@@ -560,7 +560,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464013jPr6">
             <did>
               <unitid>PUB_PAT_FDP_031</unitid>
               <unittitle>n°31 - Relieurs et reliures : l'atelier municipal de reliure de Roubaix</unittitle>
@@ -576,7 +576,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BsRhAG">
             <did>
               <unitid>PUB_PAT_FDP_032</unitid>
               <unittitle>n°32 - Mai 68, Mai 98 Comme le temps passe !</unittitle>
@@ -592,7 +592,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640PRRaDY">
             <did>
               <unitid>PUB_PAT_FDP_033</unitid>
               <unittitle>n°33 - Buuuttt !!! [football]</unittitle>
@@ -608,7 +608,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Thij2w">
             <did>
               <unitid>PUB_PAT_FDP_034</unitid>
               <unittitle>n°34 - Les rues de Roubaix...</unittitle>
@@ -627,7 +627,7 @@
               <persname normal="Philippe Waret" role="Rédacteur">Waret, Philippe</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WcBeQc">
             <did>
               <unitid>PUB_PAT_FDP_035</unitid>
               <unittitle>n°35 - Harmonies et fanfares</unittitle>
@@ -643,7 +643,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640zHDnsF">
             <did>
               <unitid>PUB_PAT_FDP_036</unitid>
               <unittitle>n°36 - La Grande Guerre</unittitle>
@@ -659,7 +659,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640VI9exs">
             <did>
               <unitid>PUB_PAT_FDP_037</unitid>
               <unittitle>n°37 - Livres et bois gravés</unittitle>
@@ -675,7 +675,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640PGEMXb">
             <did>
               <unitid>PUB_PAT_FDP_038</unitid>
               <unittitle>n°38 - Pour votre Familistère, un Godin, sinon rien...</unittitle>
@@ -691,7 +691,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446404OiR5J">
             <did>
               <unitid>PUB_PAT_FDP_039</unitid>
               <unittitle>n°39 - Un poète chansonnier nommé Bodart-Timal</unittitle>
@@ -710,7 +710,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640UMTJEG">
             <did>
               <unitid>PUB_PAT_FDP_040</unitid>
               <unittitle>n°40 - Aux bonheurs des dames</unittitle>
@@ -726,7 +726,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640CFMHXw">
             <did>
               <unitid>PUB_PAT_FDP_041</unitid>
               <unittitle>n°41 - Cloches et carillons</unittitle>
@@ -742,7 +742,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lMwiyI">
             <did>
               <unitid>PUB_PAT_FDP_042</unitid>
               <unittitle>n°42 - Le piano à bretelle dans le Nord [accordéon]</unittitle>
@@ -761,7 +761,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446409t4nji">
             <did>
               <unitid>PUB_PAT_FDP_043</unitid>
               <unittitle>n°43 - Distribution de prix...</unittitle>
@@ -777,7 +777,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mobQMh">
             <did>
               <unitid>PUB_PAT_FDP_044</unitid>
               <unittitle>n°44 - Montrez-moi vos cartes... !</unittitle>
@@ -793,7 +793,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mdlEZl">
             <did>
               <unitid>PUB_PAT_FDP_045</unitid>
               <unittitle>n°45 - Soleil et pédagogie</unittitle>
@@ -809,7 +809,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407r2UGD">
             <did>
               <unitid>PUB_PAT_FDP_046</unitid>
               <unittitle>n°46 - Pierre Rocolle, in memoriam</unittitle>
@@ -825,7 +825,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640IItv0m">
             <did>
               <unitid>PUB_PAT_FDP_047</unitid>
               <unittitle>n°47 - Viviane Romance, la star de la rue des Loups</unittitle>
@@ -844,7 +844,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640VLYOpV">
             <did>
               <unitid>PUB_PAT_FDP_048</unitid>
               <unittitle>n°48 - Sur l'imagerie populaire hors de France à la Médiathèque de Roubaix</unittitle>
@@ -860,7 +860,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ExhT6e">
             <did>
               <unitid>PUB_PAT_FDP_049</unitid>
               <unittitle>n°49 - Toudis Simons : Mais si, les carottes sont cuites !</unittitle>
@@ -879,7 +879,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640d4B3X5">
             <did>
               <unitid>PUB_PAT_FDP_050</unitid>
               <unittitle>n°50 - Histoire de ballet [les Ballets du Nord, Centre Chorégraphique National]</unittitle>
@@ -895,7 +895,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464026YQeD">
             <did>
               <unitid>PUB_PAT_FDP_051</unitid>
               <unittitle>n°51 - Viens boire eun' chope ! [bière et brasserie à Roubaix]</unittitle>
@@ -911,7 +911,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640sMpSp1">
             <did>
               <unitid>PUB_PAT_FDP_052</unitid>
               <unittitle>n°52 - Ch. Verstraete et le jazz...</unittitle>
@@ -927,7 +927,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640y09A35">
             <did>
               <unitid>PUB_PAT_FDP_053</unitid>
               <unittitle>n°53 - Les images pieuses : les images de communion de la collection Marcel Guillemyn</unittitle>
@@ -943,7 +943,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446401YOzRy">
             <did>
               <unitid>PUB_PAT_FDP_054</unitid>
               <unittitle>n°54 - Nous avons fait un beau voyage...</unittitle>
@@ -959,7 +959,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640aUV77Q">
             <did>
               <unitid>PUB_PAT_FDP_055</unitid>
               <unittitle>n°55 - Montrez-moi vos cartes... !</unittitle>
@@ -975,7 +975,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640iTBa65">
             <did>
               <unitid>PUB_PAT_FDP_056</unitid>
               <unittitle>n°56 - Ex-libris</unittitle>
@@ -991,7 +991,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640wredth">
             <did>
               <unitid>PUB_PAT_FDP_057</unitid>
               <unittitle>n°57 - La mine et les mineurs</unittitle>
@@ -1007,7 +1007,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mBE87g">
             <did>
               <unitid>PUB_PAT_FDP_058</unitid>
               <unittitle>n°58 - Livres d'artistes</unittitle>
@@ -1023,7 +1023,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640B6A8pt">
             <did>
               <unitid>PUB_PAT_FDP_059</unitid>
               <unittitle>n°59 - Bientôt le XXIe siècle : une histoire de calendrier</unittitle>
@@ -1039,7 +1039,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640yqJTVv">
             <did>
               <unitid>PUB_PAT_FDP_060</unitid>
               <unittitle>n°60 - Des almanachs pour l'année nouvelle...</unittitle>
@@ -1055,7 +1055,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640enbFJ7">
             <did>
               <unitid>PUB_PAT_FDP_061</unitid>
               <unittitle>n°61 - Tout' in haut d' che terril [mines et mineurs]</unittitle>
@@ -1071,7 +1071,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640emI1Lo">
             <did>
               <unitid>PUB_PAT_FDP_062</unitid>
               <unittitle>n°62 - La lyre roubaisienne [livres et recueils de poésie]</unittitle>
@@ -1087,7 +1087,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446401d0s7q">
             <did>
               <unitid>PUB_PAT_FDP_063</unitid>
               <unittitle>n°63 - Picard en revues</unittitle>
@@ -1103,7 +1103,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640eQ5Ahu">
             <did>
               <unitid>PUB_PAT_FDP_064</unitid>
               <unittitle>n°64 - Le théâtre d'ombres</unittitle>
@@ -1119,7 +1119,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Lvt2yX">
             <did>
               <unitid>PUB_PAT_FDP_065</unitid>
               <unittitle>n°65 - Montrez-moi vos cartes... ! ET n°65 - Polichinelle, le poulet sublime</unittitle>
@@ -1138,7 +1138,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fyC9hf">
             <did>
               <unitid>PUB_PAT_FDP_066</unitid>
               <unittitle>n°66 - Des cavalcades et de Vaissier</unittitle>
@@ -1154,7 +1154,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fDobxr">
             <did>
               <unitid>PUB_PAT_FDP_067</unitid>
               <unittitle>n°67 - A propos de bestiaires</unittitle>
@@ -1170,7 +1170,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408HwL0S">
             <did>
               <unitid>PUB_PAT_FDP_068</unitid>
               <unittitle>n°68 - La République en chantant... [chansons]</unittitle>
@@ -1186,7 +1186,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640EPTgGI">
             <did>
               <unitid>PUB_PAT_FDP_069</unitid>
               <unittitle>n°69 - Atchoum ! ou Comment on s'enrhume ? [calendriers publicitaires Le Brun]</unittitle>
@@ -1202,7 +1202,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BtCYOc">
             <did>
               <unitid>PUB_PAT_FDP_070</unitid>
               <unittitle>n°70 - Le jazz de grand papa</unittitle>
@@ -1218,7 +1218,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640bw9roG">
             <did>
               <unitid>PUB_PAT_FDP_071</unitid>
               <unittitle>n°71 - André Diligent, une vie pour Roubaix...</unittitle>
@@ -1237,7 +1237,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Tynmce">
             <did>
               <unitid>PUB_PAT_FDP_072</unitid>
               <unittitle>n°72 - Hommages à Jean Lebas et à Jean Piat</unittitle>
@@ -1253,7 +1253,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408BCicX">
             <did>
               <unitid>PUB_PAT_FDP_073</unitid>
               <unittitle>n°73 - Le cas Hugo</unittitle>
@@ -1269,7 +1269,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640aWS1gO">
             <did>
               <unitid>PUB_PAT_FDP_074</unitid>
               <unittitle>n°74 - Eclats d'Ethiopie : deux manuscrits éthiopiens de la médiathèque de Roubaix</unittitle>
@@ -1285,7 +1285,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640OlzldY">
             <did>
               <unitid>PUB_PAT_FDP_075</unitid>
               <unittitle>n°75 - La Presse de la Résistance</unittitle>
@@ -1301,7 +1301,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640dw6zZv">
             <did>
               <unitid>PUB_PAT_FDP_076</unitid>
               <unittitle>n°76 - Montrez-moi vos cartes... !</unittitle>
@@ -1313,7 +1313,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135313" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640RHf5Su">
             <did>
               <unitid>PUB_PAT_FDP_077</unitid>
               <unittitle>n°77 - S'il vous plaît... Dessine-moi un mouton [éditions du Petit Prince]</unittitle>
@@ -1332,7 +1332,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640f6OJJj">
             <did>
               <unitid>PUB_PAT_FDP_078</unitid>
               <unittitle>n°78 - Sociétés et associations à Roubaix</unittitle>
@@ -1348,7 +1348,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446400MWtTZ">
             <did>
               <unitid>PUB_PAT_FDP_079</unitid>
               <unittitle>n°79 - Scouts toujours... Prêts ! (devise scoute)</unittitle>
@@ -1367,7 +1367,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Avdgzi">
             <did>
               <unitid>PUB_PAT_FDP_080</unitid>
               <unittitle>n°80 - Krishna et Ganesh en visite à Roubaix [l'Inde]</unittitle>
@@ -1383,7 +1383,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WaFHb7">
             <did>
               <unitid>PUB_PAT_FDP_081</unitid>
               <unittitle>n°81 - Le P'tit Quinquin</unittitle>
@@ -1399,7 +1399,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640j0MrL3">
             <did>
               <unitid>PUB_PAT_FDP_082</unitid>
               <unittitle>n°82 - De quelques compositeurs roubaisiens</unittitle>
@@ -1415,7 +1415,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640VFgs1L">
             <did>
               <unitid>PUB_PAT_FDP_083</unitid>
               <unittitle>n°83 - Les revues pour la jeunesse</unittitle>
@@ -1431,7 +1431,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640pnryA4">
             <did>
               <unitid>PUB_PAT_FDP_084</unitid>
               <unittitle>n°84 - Quand nous étions militaires...</unittitle>
@@ -1447,7 +1447,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HS2DAv">
             <did>
               <unitid>PUB_PAT_FDP_085</unitid>
               <unittitle>n°85 - Permanence du fait divers...</unittitle>
@@ -1463,7 +1463,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640McRWxn">
             <did>
               <unitid>PUB_PAT_FDP_086</unitid>
               <unittitle>n°86 - Un riff pour Django</unittitle>
@@ -1479,7 +1479,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640zOFDnb">
             <did>
               <unitid>PUB_PAT_FDP_087</unitid>
               <unittitle>n°87 - Montrez-moi vos cartes... !</unittitle>
@@ -1495,7 +1495,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640M3bzbs">
             <did>
               <unitid>PUB_PAT_FDP_088</unitid>
               <unittitle>n°88 - La Caisse d'épargne de Roubaix a 160 ans</unittitle>
@@ -1511,7 +1511,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640hDFaxZ">
             <did>
               <unitid>PUB_PAT_FDP_089</unitid>
               <unittitle>n°89 - Lire à bon compte [littérature populaire]</unittitle>
@@ -1530,7 +1530,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640oRFBdn">
             <did>
               <unitid>PUB_PAT_FDP_090</unitid>
               <unittitle>n°90 - Jules et Pierre-Jules sont dans un ballon... [Jules Verne et l'éditeur Hetzel]</unittitle>
@@ -1546,7 +1546,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mrbFlS">
             <did>
               <unitid>PUB_PAT_FDP_091</unitid>
               <unittitle>n°91 - Honoré Daumier (1808-1879)</unittitle>
@@ -1562,7 +1562,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640qF6uxA">
             <did>
               <unitid>PUB_PAT_FDP_092</unitid>
               <unittitle>n°92 - Le mongy a (presque) 100 ans</unittitle>
@@ -1578,7 +1578,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408b8yDd">
             <did>
               <unitid>PUB_PAT_FDP_093</unitid>
               <unittitle>n°93 - M'enfin ! Gaston, gaillard quinquagénaire gaffeur</unittitle>
@@ -1594,7 +1594,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ro4JtX">
             <did>
               <unitid>PUB_PAT_FDP_094</unitid>
               <unittitle>n°94 - De quelques acquisitions remarquables</unittitle>
@@ -1610,7 +1610,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640uFaX1H">
             <did>
               <unitid>PUB_PAT_FDP_095</unitid>
               <unittitle>n°95 - Salut l'artiste : Charles Verstraete (1924 - 2003)</unittitle>
@@ -1626,7 +1626,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640DV5Meh">
             <did>
               <unitid>PUB_PAT_FDP_096</unitid>
               <unittitle>n°96 - Coqs et coqueleurs en Nord</unittitle>
@@ -1642,7 +1642,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640UgbRFw">
             <did>
               <unitid>PUB_PAT_FDP_097</unitid>
               <unittitle>n°97 - Tous à la plage ! [bains de mer]</unittitle>
@@ -1658,7 +1658,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640h12ZI4">
             <did>
               <unitid>PUB_PAT_FDP_098</unitid>
               <unittitle>n°98 - Montrez-moi vos cartes... !</unittitle>
@@ -1674,7 +1674,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408ZVlyR">
             <did>
               <unitid>PUB_PAT_FDP_099</unitid>
               <unittitle>n°99 - Un signet pour être à la page</unittitle>
@@ -1690,7 +1690,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ji574T">
             <did>
               <unitid>PUB_PAT_FDP_100</unitid>
               <unittitle>n°100 - Notre Bibliothèque : 150 ans de tribulations</unittitle>
@@ -1706,7 +1706,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464091qrj7">
             <did>
               <unitid>PUB_PAT_FDP_101</unitid>
               <unittitle>n°101 - Le trait qui tue : la caricature politique de Louis-Philippe à la IIIe République</unittitle>
@@ -1722,7 +1722,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640djGL0q">
             <did>
               <unitid>PUB_PAT_FDP_102</unitid>
               <unittitle>n°102 - Gustave Doré (1832 - 1883), forçat du crayon</unittitle>
@@ -1738,7 +1738,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640dgL0V3">
             <did>
               <unitid>PUB_PAT_FDP_103</unitid>
               <unittitle>n°103 - En v'là du beau linge : un regard sur 70 ans de lingerie féminine</unittitle>
@@ -1754,7 +1754,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640QxiWdR">
             <did>
               <unitid>PUB_PAT_FDP_104</unitid>
               <unittitle>n°104 - Des livres et des formats</unittitle>
@@ -1770,7 +1770,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Q0iseu">
             <did>
               <unitid>PUB_PAT_FDP_105</unitid>
               <unittitle>n°105 - Buffon, naturellement (1707-1788)</unittitle>
@@ -1786,7 +1786,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640cVJY0J">
             <did>
               <unitid>PUB_PAT_FDP_106</unitid>
               <unittitle>n°106 - A bicyclette [cyclisme]</unittitle>
@@ -1802,7 +1802,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BEAw7m">
             <did>
               <unitid>PUB_PAT_FDP_107</unitid>
               <unittitle>n°107 - Soyons foot !</unittitle>
@@ -1818,7 +1818,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446405ubEOq">
             <did>
               <unitid>PUB_PAT_FDP_108</unitid>
               <unittitle>n°108 - Corps à corps [sports]</unittitle>
@@ -1834,7 +1834,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640YuLDEf">
             <did>
               <unitid>PUB_PAT_FDP_109</unitid>
               <unittitle>n°109 - Montrez-moi vos cartes... !</unittitle>
@@ -1850,7 +1850,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640L1OhLQ">
             <did>
               <unitid>PUB_PAT_FDP_110</unitid>
               <unittitle>n°110 - Ouvrez vos cahiers [enseignement]</unittitle>
@@ -1866,7 +1866,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403JV57X">
             <did>
               <unitid>PUB_PAT_FDP_111</unitid>
               <unittitle>n°111 - Vert-tiges des fonds : le patrimoine végétal à Roubaix</unittitle>
@@ -1882,7 +1882,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640m8BrjV">
             <did>
               <unitid>PUB_PAT_FDP_112</unitid>
               <unittitle>n°112 - Rével'te min p'tit Quinquin : 100 ans de socialisme à Roubaix</unittitle>
@@ -1898,7 +1898,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fyIUGO">
             <did>
               <unitid>PUB_PAT_FDP_113</unitid>
               <unittitle>n°113 - Tous nos voeux [cartes de voeux]</unittitle>
@@ -1914,7 +1914,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640W6Tray">
             <did>
               <unitid>PUB_PAT_FDP_114</unitid>
               <unittitle>n°114 - Pierre Pierrard, chrétien historien, 1920-2005</unittitle>
@@ -1933,7 +1933,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640n3EQoL">
             <did>
               <unitid>PUB_PAT_FDP_115</unitid>
               <unittitle>n°115 - Le Jour des Fous : histoires de carnaval</unittitle>
@@ -1949,7 +1949,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640l35WVV">
             <did>
               <unitid>PUB_PAT_FDP_116</unitid>
               <unittitle>n°116 - Fraudeurs et gabelous : les contrebandiers frontaliers</unittitle>
@@ -1965,7 +1965,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464063eJpm">
             <did>
               <unitid>PUB_PAT_FDP_117</unitid>
               <unittitle>n°117 - Quand les factures étaient des oeuvres d'art : les lettres à en-tête de la Médiathèque</unittitle>
@@ -1981,7 +1981,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640n7Z2wo">
             <did>
               <unitid>PUB_PAT_FDP_118</unitid>
               <unittitle>n°118 - Les trains de plaisir : à la découverte des plages du Nord</unittitle>
@@ -1997,7 +1997,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640qC6tB3">
             <did>
               <unitid>PUB_PAT_FDP_119</unitid>
               <unittitle>N°119 - Drapeau rouge sur les usines : les premiers congés payés</unittitle>
@@ -2013,7 +2013,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403mXbau">
             <did>
               <unitid>PUB_PAT_FDP_120</unitid>
               <unittitle>n°120 - Montrez-moi vos cartes... !</unittitle>
@@ -2032,7 +2032,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640s4274J">
             <did>
               <unitid>PUB_PAT_FDP_121</unitid>
               <unittitle>n°121 - Pour la plus grande gloire de Dieu : les manuscrits à peinture médiévaux</unittitle>
@@ -2048,7 +2048,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640W4dLYV">
             <did>
               <unitid>PUB_PAT_FDP_122</unitid>
               <unittitle>n°122 - Un incontournable succès roubaisien : le musée La Piscine souffle ses cinq bougies</unittitle>
@@ -2064,7 +2064,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640GCccAz">
             <did>
               <unitid>PUB_PAT_FDP_123</unitid>
               <unittitle>n°123 - Panckoucke et l'aventure de l'Encyclopédie [libraire lillois]</unittitle>
@@ -2080,7 +2080,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640rQlGXb">
             <did>
               <unitid>PUB_PAT_FDP_124</unitid>
               <unittitle>n°124 - Tous nos voeux [cartes de voeux]</unittitle>
@@ -2096,7 +2096,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640O37UWT">
             <did>
               <unitid>PUB_PAT_FDP_125</unitid>
               <unittitle>n°125 - La chicorée, boisson du Nord</unittitle>
@@ -2112,7 +2112,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446406MrFrM">
             <did>
               <unitid>PUB_PAT_FDP_126</unitid>
               <unittitle>n°126 - La villa Cavrois</unittitle>
@@ -2131,7 +2131,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640hBUM5B">
             <did>
               <unitid>PUB_PAT_FDP_127</unitid>
               <unittitle>n°127 - Tends tes esgourdes, San-Antonio se trisse à la Médiathèque !</unittitle>
@@ -2150,7 +2150,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mEDB3d">
             <did>
               <unitid>PUB_PAT_FDP_128</unitid>
               <unittitle>n°128 - Paris-Roubaix à l'affiche</unittitle>
@@ -2166,7 +2166,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640OaRRz5">
             <did>
               <unitid>PUB_PAT_FDP_129</unitid>
               <unittitle>n°129 - Aux urnes, Roubaisien-nes ! Petite histoire locale électorale</unittitle>
@@ -2182,7 +2182,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lI4VFw">
             <did>
               <unitid>PUB_PAT_FDP_130</unitid>
               <unittitle>n°130 - Pierre Mendès France, 1907-1982</unittitle>
@@ -2198,7 +2198,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640iqOy3H">
             <did>
               <unitid>PUB_PAT_FDP_131</unitid>
               <unittitle>n°131 - Montrez-moi vos cartes... !</unittitle>
@@ -2214,7 +2214,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HmgmLJ">
             <did>
               <unitid>PUB_PAT_FDP_132</unitid>
               <unittitle>n°132 - Van der Meersch : les sacrifiés</unittitle>
@@ -2233,7 +2233,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Cj1vvl">
             <did>
               <unitid>PUB_PAT_FDP_133</unitid>
               <unittitle>n°133 - La musique à Roubaix : les manuscrits de Marcel Debruyne</unittitle>
@@ -2249,7 +2249,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640s9ftBO">
             <did>
               <unitid>PUB_PAT_FDP_134</unitid>
               <unittitle>n°134 - Vendait-on du nougat dans les pharmacies roubaisiennes ?</unittitle>
@@ -2265,7 +2265,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640xngMJU">
             <did>
               <unitid>PUB_PAT_FDP_135</unitid>
               <unittitle>n°135 - S'informer en riant... De la Révolution à la Grande Guerre</unittitle>
@@ -2284,7 +2284,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640nrAw6A">
             <did>
               <unitid>PUB_PAT_FDP_136</unitid>
               <unittitle>n°136 - Tous nos voeux [cartes de voeux]</unittitle>
@@ -2299,7 +2299,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135531" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640JM9fF2">
             <did>
               <unitid>PUB_PAT_FDP_137</unitid>
               <unittitle>n°137 - Les belles élégantes : mode et journaux de mode au XIXe</unittitle>
@@ -2315,7 +2315,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640OgFDQD">
             <did>
               <unitid>PUB_PAT_FDP_138</unitid>
               <unittitle>n°138 - La publicité fait sa réclame</unittitle>
@@ -2331,7 +2331,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640asdGUF">
             <did>
               <unitid>PUB_PAT_FDP_139</unitid>
               <unittitle>n°139 - Herborisons de concert [herbiers]</unittitle>
@@ -2347,7 +2347,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640tZjDzj">
             <did>
               <unitid>PUB_PAT_FDP_140</unitid>
               <unittitle>n°140 - Rosa Luxemburg ou les Prémices de mai 1968 ?</unittitle>
@@ -2363,7 +2363,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640pIawPX">
             <did>
               <unitid>PUB_PAT_FDP_141</unitid>
               <unittitle>n°141 - Du costume de bain au maillot : petite histoire des bains de mer</unittitle>
@@ -2379,7 +2379,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640bo3sRO">
             <did>
               <unitid>PUB_PAT_FDP_142</unitid>
               <unittitle>n°142 - Montrez-moi vos cartes... !</unittitle>
@@ -2398,7 +2398,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Ltz3n0">
             <did>
               <unitid>PUB_PAT_FDP_143</unitid>
               <unittitle>n°143 - Roubaix ville de sport</unittitle>
@@ -2414,7 +2414,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446409j0cz9">
             <did>
               <unitid>PUB_PAT_FDP_144</unitid>
               <unittitle>n°144 - La fleur au fusil</unittitle>
@@ -2433,7 +2433,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640U0MxZz">
             <did>
               <unitid>PUB_PAT_FDP_145</unitid>
               <unittitle>n°145 - Tous nos voeux : atchoum [calendriers Laboratoires Le Brun]</unittitle>
@@ -2449,7 +2449,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fzL3FJ">
             <did>
               <unitid>PUB_PAT_FDP_146</unitid>
               <unittitle>n°146 - On vous aime [la Saint-Valentin]</unittitle>
@@ -2465,7 +2465,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HwuiGL">
             <did>
               <unitid>PUB_PAT_FDP_147</unitid>
               <unittitle>n°147 - Préparons notre communion</unittitle>
@@ -2481,7 +2481,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640aODHzj">
             <did>
               <unitid>PUB_PAT_FDP_148</unitid>
               <unittitle>n°148 - Quel avenir pour le livre d'heures d'Isabeau de Roubaix ?</unittitle>
@@ -2497,7 +2497,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HneqG7">
             <did>
               <unitid>PUB_PAT_FDP_149</unitid>
               <unittitle>n°149 - Bon anniversaire ! [les 30 ans de la médiathèque rue Pierre Motte]</unittitle>
@@ -2513,7 +2513,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ULoQsR">
             <did>
               <unitid>PUB_PAT_FDP_150</unitid>
               <unittitle>n°150 - Montrez-moi vos cartes... !</unittitle>
@@ -2529,7 +2529,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BajEV0">
             <did>
               <unitid>PUB_PAT_FDP_151</unitid>
               <unittitle>n°151 - N'oubliez pas vos cahiers ! [enseignement]</unittitle>
@@ -2545,7 +2545,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640192Gjj">
             <did>
               <unitid>PUB_PAT_FDP_152</unitid>
               <unittitle>n°152 - 1889 : Les merveilles de l'Exposition</unittitle>
@@ -2564,7 +2564,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640CC2mHB">
             <did>
               <unitid>PUB_PAT_FDP_153</unitid>
               <unittitle>n°153 - Lille-Roubaix-Tourcoing : le Grand boulevard et le Mongy ont 100 ans !</unittitle>
@@ -2580,7 +2580,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640aAj0ZB">
             <did>
               <unitid>PUB_PAT_FDP_154</unitid>
               <unittitle>n°154 - Noël arrive...</unittitle>
@@ -2596,7 +2596,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Rs9LFX">
             <did>
               <unitid>PUB_PAT_FDP_155</unitid>
               <unittitle>n°155 - Au bout du fil [le fil textile]</unittitle>
@@ -2612,7 +2612,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403u49Aj">
             <did>
               <unitid>PUB_PAT_FDP_156</unitid>
               <unittitle>n°156 - Des images... en prime</unittitle>
@@ -2628,7 +2628,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ZoaXas">
             <did>
               <unitid>PUB_PAT_FDP_157</unitid>
               <unittitle>n°157 - Roubaix, ville-poème</unittitle>
@@ -2644,7 +2644,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640nPEAVu">
             <did>
               <unitid>PUB_PAT_FDP_158</unitid>
               <unittitle>n°158 - Il y a 50 ans... Le Parti Socialiste Unifié</unittitle>
@@ -2660,7 +2660,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640OF05Y1">
             <did>
               <unitid>PUB_PAT_FDP_159</unitid>
               <unittitle>n°159 - Chantons... mais en patois ! [chansons]</unittitle>
@@ -2676,7 +2676,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446409rlBuU">
             <did>
               <unitid>PUB_PAT_FDP_160</unitid>
               <unittitle>n°160 - Montrez-moi vos cartes... !</unittitle>
@@ -2692,7 +2692,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640t7Quoc">
             <did>
               <unitid>PUB_PAT_FDP_161</unitid>
               <unittitle>n°161 - Le canal : flânerie roubaisienne</unittitle>
@@ -2711,7 +2711,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640brswMJ">
             <did>
               <unitid>PUB_PAT_FDP_162</unitid>
               <unittitle>n°162 - Sur le fil [industrie textile]</unittitle>
@@ -2727,7 +2727,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407oDleM">
             <did>
               <unitid>PUB_PAT_FDP_163</unitid>
               <unittitle>n°163 - De la tête aux pieds [le football]</unittitle>
@@ -2743,7 +2743,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446400WOEZA">
             <did>
               <unitid>PUB_PAT_FDP_164</unitid>
               <unittitle>n°164 - Villes et maisons du Nord</unittitle>
@@ -2759,7 +2759,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HSWeCc">
             <did>
               <unitid>PUB_PAT_FDP_165</unitid>
               <unittitle>n°165 - Quand les livres s'animent</unittitle>
@@ -2775,7 +2775,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446404uHD9B">
             <did>
               <unitid>PUB_PAT_FDP_166</unitid>
               <unittitle>n°166 - D'une série à l'autre [plaques de verre]</unittitle>
@@ -2794,7 +2794,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446404RqVlV">
             <did>
               <unitid>PUB_PAT_FDP_167</unitid>
               <unittitle>n°167 - Le parc Barbieux : un autre regard</unittitle>
@@ -2806,7 +2806,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135404" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640YCQP31">
             <did>
               <unitid>PUB_PAT_FDP_168</unitid>
               <unittitle>n°168 - Après l'école... [distractions et activités après la classe]</unittitle>
@@ -2822,7 +2822,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Daoq44">
             <did>
               <unitid>PUB_PAT_FDP_169</unitid>
               <unittitle>n°169 - 1911 : Roubaix s'affiche (Acte 1) [Exposition internationale du Nord de la France]</unittitle>
@@ -2841,7 +2841,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403BFvve">
             <did>
               <unitid>PUB_PAT_FDP_170</unitid>
               <unittitle>n°170 - 1911 : Roubaix s'affiche (Acte 2) [Exposition internationale du Nord de la France]</unittitle>
@@ -2860,7 +2860,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640vMbxpJ">
             <did>
               <unitid>PUB_PAT_FDP_171</unitid>
               <unittitle>n°171 - Quelques trouvailles au Patrimoine [objets]</unittitle>
@@ -2872,7 +2872,7 @@
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135408" role="publication:previous"/>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464076LthM">
             <did>
               <unitid>PUB_PAT_FDP_172</unitid>
               <unittitle>n°172 - Deux artistes américains à Roubaix</unittitle>
@@ -2888,7 +2888,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BWAawn">
             <did>
               <unitid>PUB_PAT_FDP_173</unitid>
               <unittitle>n°173 - De la nature au Patrimoine...</unittitle>
@@ -2904,7 +2904,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640GUujVx">
             <did>
               <unitid>PUB_PAT_FDP_174</unitid>
               <unittitle>n°174 - Montrez-moi vos cartes !</unittitle>
@@ -2920,7 +2920,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640OLn2Sn">
             <did>
               <unitid>PUB_PAT_FDP_175</unitid>
               <unittitle>n°175 - Roubaix : l'hôtel de ville</unittitle>
@@ -2939,7 +2939,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640d5Dan9">
             <did>
               <unitid>PUB_PAT_FDP_176</unitid>
               <unittitle>n°176 - Voyage au coeur de l'étrange : planches anatomiques du passé</unittitle>
@@ -2958,7 +2958,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640W9cEGR">
             <did>
               <unitid>PUB_PAT_FDP_177</unitid>
               <unittitle>n°177 - Vu(e) du ciel</unittitle>
@@ -2977,7 +2977,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640vri8wq">
             <did>
               <unitid>PUB_PAT_FDP_178</unitid>
               <unittitle>n°178 - L'ex-libris ou le livre de...</unittitle>
@@ -2993,7 +2993,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640XQdcY4">
             <did>
               <unitid>PUB_PAT_FDP_179</unitid>
               <unittitle>n°179 - La BD... retour aux sources !</unittitle>
@@ -3012,7 +3012,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WwXT4c">
             <did>
               <unitid>PUB_PAT_FDP_180</unitid>
               <unittitle>n°180 - Montrez-moi vos cartes : numéro spécial sport ! ET n°180 - Sur un air d'accordéon</unittitle>
@@ -3035,7 +3035,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640vl7fBt">
             <did>
               <unitid>PUB_PAT_FDP_181</unitid>
               <unittitle>n°181 - Mémoires d'un poisson des eaux du Nord</unittitle>
@@ -3054,7 +3054,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640pggIZo">
             <did>
               <unitid>PUB_PAT_FDP_182</unitid>
               <unittitle>n°182 - Avant la guerre [Belle époque et Première Guerre mondiale]</unittitle>
@@ -3073,7 +3073,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640FZAceo">
             <did>
               <unitid>PUB_PAT_FDP_183</unitid>
               <unittitle>n°183 - Complètement tamponnés [les tampons]</unittitle>
@@ -3092,7 +3092,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640FgZbBg">
             <did>
               <unitid>PUB_PAT_FDP_184</unitid>
               <unittitle>n°184 - Roubaix : avant / après ET hors numérotation Montrez-moi vos cartes</unittitle>
@@ -3115,7 +3115,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Q45XdG">
             <did>
               <unitid>PUB_PAT_FDP_185</unitid>
               <unittitle>n°185 - 1914, l'entrée en guerre à Roubaix</unittitle>
@@ -3134,7 +3134,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ZUMQvf">
             <did>
               <unitid>PUB_PAT_FDP_186</unitid>
               <unittitle>n°186 - Intemporelle... la dentelle</unittitle>
@@ -3153,7 +3153,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640jolpmv">
             <did>
               <unitid>PUB_PAT_FDP_187</unitid>
               <unittitle>n°187 - L'amour au top 50</unittitle>
@@ -3172,7 +3172,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Rg7GOH">
             <did>
               <unitid>PUB_PAT_FDP_188</unitid>
               <unittitle>n°188 - Saisir la lumière : les techniques photographiques</unittitle>
@@ -3191,7 +3191,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640xWIQ2v">
             <did>
               <unitid>PUB_PAT_FDP_189</unitid>
               <unittitle>n°189 - Victor Vaissier, prince des savons, roi de la réclame</unittitle>
@@ -3210,7 +3210,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ylfDIb">
             <did>
               <unitid>PUB_PAT_FDP_190</unitid>
               <unittitle>n°190 - Transformations d'une médiathèque : du brutalisme tempéré à l'élégance fonctionnelle</unittitle>
@@ -3229,7 +3229,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640yDofgX">
             <did>
               <unitid>PUB_PAT_FDP_191</unitid>
               <unittitle>n°191 - Saveurs d'hiver : préparer les fêtes à Roubaix</unittitle>
@@ -3248,7 +3248,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Z92nq2">
             <did>
               <unitid>PUB_PAT_FDP_192</unitid>
               <unittitle>n°192 - Kitsch, fluo, logo : la mode urbaine de la fin du XXe siècle</unittitle>
@@ -3270,7 +3270,7 @@
               <persname normal="Docquois, Justine" role="Rédacteur">Docquois, Justine</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640uZ3mv6">
             <did>
               <unitid>PUB_PAT_FDP_193</unitid>
               <unittitle>n°193 - Vive les vacances !</unittitle>
@@ -3289,7 +3289,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640aWfCie">
             <did>
               <unitid>PUB_PAT_FDP_194</unitid>
               <unittitle>n°194 - Roubaix, Roubaix, 10 minutes d'arrêt ! [la gare]</unittitle>
@@ -3311,7 +3311,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403DVt7B">
             <did>
               <unitid>PUB_PAT_FDP_195</unitid>
               <unittitle>n°195 - L'image à la Une : les débuts de la presse illustrée</unittitle>
@@ -3327,7 +3327,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640R5BGsH">
             <did>
               <unitid>PUB_PAT_FDP_196</unitid>
               <unittitle>n°196 - De Tonnerre de Brest à Je dirais même plus : Hergé réinvente la bande dessinée</unittitle>
@@ -3349,7 +3349,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640XAyLRG">
             <did>
               <unitid>PUB_PAT_FDP_197</unitid>
               <unittitle>n°197 - Le textile prend l'eau : quand le canal alimentait les usines</unittitle>
@@ -3368,7 +3368,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640PGICPm">
             <did>
               <unitid>PUB_PAT_FDP_198</unitid>
               <unittitle>n°198 - Guesde, Motte, Lebas : trois parcours politiques</unittitle>
@@ -3390,7 +3390,7 @@
               <persname normal="Petit, Charles" role="Rédacteur">Petit, Charles</persname>
             </controlaccess>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640n2iP96">
             <did>
               <unitid>PUB_PAT_FDP_199</unitid>
               <unittitle>n°199 - Promenons-nous dans les parcs et jardins de Roubaix</unittitle>
@@ -3409,7 +3409,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640zeiMjf">
             <did>
               <unitid>PUB_PAT_FDP_200</unitid>
               <unittitle>n°200 - La tête dans les étoiles : découvrez le ciel</unittitle>
@@ -3428,7 +3428,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640W68Zp8">
             <did>
               <unitid>PUB_PAT_FDP_201</unitid>
               <unittitle>n°201 - Il faisait zip quand il roulait, bap quand il tournait, brr quand il marchait ou les jouets de notre enfance</unittitle>
@@ -3450,7 +3450,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lCGpl1">
             <did>
               <unitid>PUB_PAT_FDP_202</unitid>
               <unittitle>n°202 - Au pied de la lettre. De l'alphabet à l'apprentissage de la lecture</unittitle>
@@ -3469,7 +3469,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640dhEDZ0">
             <did>
               <unitid>PUB_PAT_FDP_203</unitid>
               <unittitle>n°203 - Aux racines du steampunk : les voyages extraordinaires de Jules Verne</unittitle>
@@ -3488,7 +3488,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640q5Izsy">
             <did>
               <unitid>PUB_PAT_FDP_204</unitid>
               <unittitle>n°204 - Tous les sports mènent à Roubaix !</unittitle>
@@ -3510,7 +3510,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640IuOMWZ">
             <did>
               <unitid>PUB_PAT_FDP_205</unitid>
               <unittitle>n°205 - Savez-vous planter les choux ? Courge, haricot, endive, carotte... Les légumes sont à la fête !</unittitle>
@@ -3529,7 +3529,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640YoWAG1">
             <did>
               <unitid>PUB_PAT_FDP_206</unitid>
               <unittitle>n°206 - 11 novembre 1918, à jamais dans l'histoire</unittitle>
@@ -3548,7 +3548,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640vReLoq">
             <did>
               <unitid>PUB_PAT_FDP_207</unitid>
               <unittitle>n°207 - Bon appétit ! Les plaisirs de la table, de l'oeil à la bouche</unittitle>
@@ -3567,7 +3567,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Eu1RqP">
             <did>
               <unitid>PUB_PAT_FDP_208</unitid>
               <unittitle>n°208 - Elementaire mon cher Watson : Sherlock et ses comparses au sommet de la gloire</unittitle>
@@ -3589,7 +3589,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640I3ezAP">
             <did>
               <unitid>PUB_PAT_FDP_209</unitid>
               <unittitle>n°209 - Au secours ! Mon enfant veut fêter son anniversaire avec ses copains</unittitle>
@@ -3605,7 +3605,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Xsxoqf">
             <did>
               <unitid>PUB_PAT_FDP_210</unitid>
               <unittitle>n°210 - Des habitations typiques du Nord : les courées</unittitle>
@@ -3621,7 +3621,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446404fMIQ8">
             <did>
               <unitid>PUB_PAT_FDP_211</unitid>
               <unittitle>n°211 - De Marco Polo à Chateaubriand, les premiers récits de voyage</unittitle>
@@ -3640,7 +3640,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640LOuo7G">
             <did>
               <unitid>PUB_PAT_FDP_212</unitid>
               <unittitle>n°212 - Frans Masereel, l'homme aux bois gravés</unittitle>
@@ -3659,7 +3659,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640gWgm7T">
             <did>
               <unitid>PUB_PAT_FDP_213</unitid>
               <unittitle>n°213 - Sous la plume de Buffon, les animaux prennent vie</unittitle>
@@ -3678,7 +3678,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640W8H6J3">
             <did>
               <unitid>PUB_PAT_FDP_214</unitid>
               <unittitle>n°214 - Quand on partait de bon matin, quand on partait sur les chemins... dans l'enfer du Nord : le Paris-Roubaix</unittitle>
@@ -3700,7 +3700,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640DhWcEu">
             <did>
               <unitid>PUB_PAT_FDP_215</unitid>
               <unittitle>n°215 - Colorier, découper, plier : les activités des artistes en herbe</unittitle>
@@ -3719,7 +3719,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640wnDjjl">
             <did>
               <unitid>PUB_PAT_FDP_216</unitid>
               <unittitle>n°216 - Les animaux dans les manuscrits médiévaux : enluminures et bestiaires</unittitle>
@@ -3738,7 +3738,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640epwOe4">
             <did>
               <unitid>PUB_PAT_FDP_217</unitid>
               <unittitle>n°217 - Les chromos : de belles images qui font vendre</unittitle>
@@ -3754,7 +3754,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407AdDY2">
             <did>
               <unitid>PUB_PAT_FDP_218</unitid>
               <unittitle>n°218 - Le P'tit Quinquin, l'hymne des gens du Nord</unittitle>
@@ -3773,7 +3773,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640SWypq1">
             <did>
               <unitid>PUB_PAT_FDP_219</unitid>
               <unittitle>n°219 - Tourne, tourne, petit moulin... Quand les ailes prenaient le vent</unittitle>
@@ -3792,7 +3792,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Bpf9CM">
             <did>
               <unitid>PUB_PAT_FDP_220</unitid>
               <unittitle>n°220 - La Piscine : des bains-douches aux collections d'art</unittitle>
@@ -3814,7 +3814,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Z1O8Z8">
             <did>
               <unitid>PUB_PAT_FDP_221</unitid>
               <unittitle>n°221 - Petites mains et doigts de fée : la couture</unittitle>
@@ -3830,7 +3830,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640QALfeD">
             <did>
               <unitid>PUB_PAT_FDP_222</unitid>
               <unittitle>n°222 - Le royaume des abeilles : une société bien organisée</unittitle>
@@ -3846,7 +3846,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640JZnaU0">
             <did>
               <unitid>PUB_PAT_FDP_223</unitid>
               <unittitle>n°223 - Ma pause fashion : la mode dans la presse féminine </unittitle>
@@ -3862,7 +3862,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640xIrWtt">
             <did>
               <unitid>PUB_PAT_FDP_224</unitid>
               <unittitle>n°224 - Connaître et documenter la biodiversité : l'exemple des herbiers</unittitle>
@@ -3878,7 +3878,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Uliv7g">
             <did>
               <unitid>PUB_PAT_FDP_225</unitid>
               <unittitle>n°225 - Qui a peur du grand méchant loup ? C'est pas nous, c'est pas nous : les enfants et la peur</unittitle>
@@ -3894,7 +3894,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403jImFQ">
             <did>
               <unitid>PUB_PAT_FDP_226</unitid>
               <unittitle>n°226 - Art Déco : petite histoire d'un art singulier parvenu jusqu'à Roubaix</unittitle>
@@ -3910,7 +3910,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408OdtoA">
             <did>
               <unitid>PUB_PAT_FDP_227</unitid>
               <unittitle>n°227 - Tous al'ducasse : la fête dans les Hauts de France</unittitle>
@@ -3926,7 +3926,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640GtEwDE">
             <did>
               <unitid>PUB_PAT_FDP_228</unitid>
               <unittitle>n°228 - Les plages du Nord : si particulières et attachantes</unittitle>
@@ -3942,7 +3942,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640hg4ZnQ">
             <did>
               <unitid>PUB_PAT_FDP_229</unitid>
               <unittitle>n°230 - Exposition internationale de 1911 : toutes les architectures du monde à Roubaix</unittitle>
@@ -3958,7 +3958,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640gWD3CG">
             <did>
               <unitid>PUB_PAT_FDP_230</unitid>
               <unittitle>n°230 - L'art du souvenir : architecture et sculpture funéraires à Roubaix</unittitle>
@@ -3974,7 +3974,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640FmVh0q">
             <did>
               <unitid>PUB_PAT_FDP_231</unitid>
               <unittitle>n°231 - Etre propre et sentir bon : les trésors de la parfumerie</unittitle>
@@ -3990,7 +3990,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640b5gWuz">
             <did>
               <unitid>PUB_PAT_FDP_232</unitid>
               <unittitle>n°232 - Moderne, esthétique et fonctionnelle : la villa Cavrois</unittitle>
@@ -4006,7 +4006,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640UWJZyH">
             <did>
               <unitid>PUB_PAT_FDP_233</unitid>
               <unittitle>n°233 - Les manuscrits conservés aux Archives et à la Médiathèque : des trésors bien protégés... (1/2)</unittitle>
@@ -4022,7 +4022,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640zMqsiJ">
             <did>
               <unitid>PUB_PAT_FDP_234</unitid>
               <unittitle>n°234 - Les manuscrits conservés aux Archives et à la Médiathèque : des trésors bien protégés... (2/2)</unittitle>
@@ -4038,7 +4038,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640fDi0Jm">
             <did>
               <unitid>PUB_PAT_FDP_235</unitid>
               <unittitle>n°235 - Sac au dos et esprit d'équipe : les scouts</unittitle>
@@ -4054,7 +4054,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Bq3w3E">
             <did>
               <unitid>PUB_PAT_FDP_236</unitid>
               <unittitle>n°236 - Focus sur 6 sports à Roubaix</unittitle>
@@ -4070,7 +4070,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446409EA4e9">
             <did>
               <unitid>PUB_PAT_FDP_237</unitid>
               <unittitle>n°237 - Jean de La Fontaine : un homme à fables très illustrées</unittitle>
@@ -4086,7 +4086,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446401Auqcq">
             <did>
               <unitid>PUB_PAT_FDP_238</unitid>
               <unittitle>n°238 - Journal intime, voyage intérieur</unittitle>
@@ -4103,14 +4103,14 @@
             </daogrp>
           </c>
         </c>
-        <c level="series">
+        <c level="series" id="m01781244640CYA5Z4">
           <did>
             <unitid>PUB_PAT_FHS</unitid>
             <unittitle>Hors-série des catalogues des expositions Fonds de poche</unittitle>
             <unitdate normal="2024">2024-</unitdate>
           </did>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR140348" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244640QEHn75">
             <did>
               <unitid>PUB_PAT_FHS_001</unitid>
               <unittitle>Les coups de coeur des archivistes et bibliothécaires parmi les manuscrits conservés</unittitle>
@@ -4126,7 +4126,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ahuER5">
             <did>
               <unitid>PUB_PAT_FHS_002</unitid>
               <unittitle>Des manuscrits en général à celui d'Isabeau en particulier</unittitle>
@@ -4144,13 +4144,13 @@
           </c>
         </c>
       </c>
-      <c level="subfonds">
+      <c level="subfonds" id="m01781244640drWoPw">
         <did>
           <unitid>PUB_ETA</unitid>
           <unittitle>Publications à l'échelle de l'établissement</unittitle>
         </did>
         <dao href="https://www.bn-r.fr/ark:/20179/BNR135459" role="publication:previous"/>
-        <c level="series">
+        <c level="series" id="m01781244640Jjm0sc">
           <did>
             <unitid>PUB_ETA_BIB</unitid>
             <unittitle>Le Biblionaute, journal de la médiathèque de Roubaix</unittitle>
@@ -4162,7 +4162,7 @@
 &lt;p style="text-align: justify;"&gt;Edition mairie de Roubaix - médiathèque. Directeur de publication René Vandierendonck puis Pierre Dubois puis Guillaume Delbar. Rédaction [rédacteurs personnel médiathèque, par ordre alphabétique] Marie Bouquet, Dorothée Bout, Bruno Capus, Géraldine Bulckaen, Thierry Caillier, Laëtitia Carré, Adeline Cases, Jean-Pierre Collet, Patricia Cuvelier, Esther De Climmer, Virginie Delaine, Sébastien Delsalle, Clotilde Deparday, Alain Dercourt, Delphine Fobert, Solène Gitel, Nelly Godonou-Dossou, Chantal Goncalves, Bernard Grelle, Christine Ide, Céline Kubasik, Elise Laviéville, Emilie Lebrun, Céline Leclaire, François Lescaux, Hervé Longuépée, Agnès Martinet, Karim Mraïni, Amed Oukas, François Pichenot, Myriam Plainemaison, Elise Roels, Alphonse Salafia, Juliette Tiberghien, Djamel Yahiaoui. Graphisme Bruno Souêtre. Impression [plusieurs imprimeurs au fil du temps] Imprimerie Danquigny, Impression directe, La Monsoise, Imprimerie Deschamps.&lt;/p&gt;</p>
           </scopecontent>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135460" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m01781244640LOhaCe">
             <did>
               <unitid>PUB_ETA_BIB_01</unitid>
               <unittitle>n°1 - Les mots à la bouche</unittitle>
@@ -4181,7 +4181,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640iRevqr">
             <did>
               <unitid>PUB_ETA_BIB_02</unitid>
               <unittitle>n°2 - 3, 2, 1... DVD !</unittitle>
@@ -4200,7 +4200,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640RZ7xOg">
             <did>
               <unitid>PUB_ETA_BIB_03</unitid>
               <unittitle>n°3 - De nouveaux horizons s'ouvrent à la Médiathèque</unittitle>
@@ -4219,7 +4219,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407wUDPA">
             <did>
               <unitid>PUB_ETA_BIB_04</unitid>
               <unittitle>n°4 - A la rencontre des Arbrorigènes</unittitle>
@@ -4238,7 +4238,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640cFcAM1">
             <did>
               <unitid>PUB_ETA_BIB_05</unitid>
               <unittitle>n°5 - Attention travaux</unittitle>
@@ -4257,7 +4257,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640UQCl1V">
             <did>
               <unitid>PUB_ETA_BIB_06</unitid>
               <unittitle>n°6 - Y'a du livre dans l'air...</unittitle>
@@ -4276,7 +4276,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lVJT1c">
             <did>
               <unitid>PUB_ETA_BIB_07</unitid>
               <unittitle>n°7 - Une saison finlandaise</unittitle>
@@ -4295,7 +4295,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640oapFUj">
             <did>
               <unitid>PUB_ETA_BIB_08</unitid>
               <unittitle>n°8 - Le patrimoine roubaisien à portée de clic</unittitle>
@@ -4314,7 +4314,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446403q9oPO">
             <did>
               <unitid>PUB_ETA_BIB_09</unitid>
               <unittitle>n°9 - C'est un jardin extraordinaire</unittitle>
@@ -4333,7 +4333,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640H4aETA">
             <did>
               <unitid>PUB_ETA_BIB_10</unitid>
               <unittitle>n°10 - + sur le web</unittitle>
@@ -4352,7 +4352,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640SSsVFQ">
             <did>
               <unitid>PUB_ETA_BIB_11</unitid>
               <unittitle>n°11 - Allume la lune</unittitle>
@@ -4371,7 +4371,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WblyWq">
             <did>
               <unitid>PUB_ETA_BIB_12</unitid>
               <unittitle>n°12 - v.2.0</unittitle>
@@ -4390,7 +4390,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640TxqtYy">
             <did>
               <unitid>PUB_ETA_BIB_14</unitid>
               <unittitle>n°14 - Une nouvelle jeunesse</unittitle>
@@ -4409,7 +4409,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m0178124464046Qh5h">
             <did>
               <unitid>PUB_ETA_BIB_15</unitid>
               <unittitle>n°15 - Meilleurs voeux</unittitle>
@@ -4428,7 +4428,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ftQbC3">
             <did>
               <unitid>PUB_ETA_BIB_16</unitid>
               <unittitle>n°16 - [Les malles en ligne]</unittitle>
@@ -4448,7 +4448,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446405Qlx16">
             <did>
               <unitid>PUB_ETA_BIB_17</unitid>
               <unittitle>n°17 - La Médiathèque tisse sa toile</unittitle>
@@ -4467,7 +4467,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640H8qDO0">
             <did>
               <unitid>PUB_ETA_BIB_18</unitid>
               <unittitle>n°18 - [10e édition de Livre comme l'air avec Emmanuelle Houdart]</unittitle>
@@ -4486,7 +4486,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640BMaXts">
             <did>
               <unitid>PUB_ETA_BIB_19</unitid>
               <unittitle>n°19 - Le zèbre en tournée dans votre ville !</unittitle>
@@ -4505,7 +4505,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mnisaX">
             <did>
               <unitid>PUB_ETA_BIB_20</unitid>
               <unittitle>n°20 - Réservations : mode d'emploi</unittitle>
@@ -4524,7 +4524,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640GlAAeW">
             <did>
               <unitid>PUB_ETA_BIB_21</unitid>
               <unittitle>n°21 - Blop</unittitle>
@@ -4543,7 +4543,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640QZfa5D">
             <did>
               <unitid>PUB_ETA_BIB_22</unitid>
               <unittitle>n°22 - Roubaix 1911 : voyagez dans le temps avec la Médiathèque</unittitle>
@@ -4565,7 +4565,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640hEU3IU">
             <did>
               <unitid>PUB_ETA_BIB_23</unitid>
               <unittitle>n°23 - Loin des yeux... proches de vous</unittitle>
@@ -4584,7 +4584,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446407faXm7">
             <did>
               <unitid>PUB_ETA_BIB_24</unitid>
               <unittitle>n°24 - Une journée avec...</unittitle>
@@ -4603,7 +4603,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446402vhrr5">
             <did>
               <unitid>PUB_ETA_BIB_25</unitid>
               <unittitle>n°25 - Science/Fiction : voyage au coeur du vivant</unittitle>
@@ -4622,7 +4622,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WWIo8Q">
             <did>
               <unitid>PUB_ETA_BIB_26</unitid>
               <unittitle>n°26 - Installez-vous confortablement... Musique et vidéo arrivent chez vous !</unittitle>
@@ -4641,7 +4641,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640nmaQJZ">
             <did>
               <unitid>PUB_ETA_BIB_27</unitid>
               <unittitle>n°27 - Au son de la fanfare</unittitle>
@@ -4660,7 +4660,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640mOlMHz">
             <did>
               <unitid>PUB_ETA_BIB_28</unitid>
               <unittitle>n°28 - Une irrésistible saison danoise</unittitle>
@@ -4679,7 +4679,7 @@
               </daodesc>
             </daogrp>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640eYiova">
             <did>
               <unitid>PUB_ETA_BIB_29</unitid>
               <unittitle>n°29 - Le Biblionaute fête ses 10 ans</unittitle>
@@ -4696,7 +4696,7 @@
             </daogrp>
           </c>
         </c>
-        <c level="series">
+        <c level="series" id="m017812446401hgQMx">
           <did>
             <unitid>PUB_ETA_REN</unitid>
             <unittitle>Rencontre avec...</unittitle>
@@ -4708,70 +4708,70 @@
 &lt;p style="text-align: justify;"&gt;Il n'y a pas de n°13 !&lt;/p&gt;</p>
           </scopecontent>
           <dao href="https://www.bn-r.fr/ark:/20179/BNR135489" role="publication:previous"/>
-          <c level="file">
+          <c level="file" id="m017812446406pwouB">
             <did>
               <unitid>PUB_ETA_REN_01</unitid>
               <unittitle>n°1</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135490" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640t1IFOT">
             <did>
               <unitid>PUB_ETA_REN_02</unitid>
               <unittitle>n°2</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135491" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640SJ3LfY">
             <did>
               <unitid>PUB_ETA_REN_03</unitid>
               <unittitle>n°3</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135492" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640gqUm6D">
             <did>
               <unitid>PUB_ETA_REN_04</unitid>
               <unittitle>n°4</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135493" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640WGIps6">
             <did>
               <unitid>PUB_ETA_REN_05</unitid>
               <unittitle>n°5</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135494" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640xEYI1H">
             <did>
               <unitid>PUB_ETA_REN_06</unitid>
               <unittitle>n°6</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135495" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m017812446408PlVJY">
             <did>
               <unitid>PUB_ETA_REN_07</unitid>
               <unittitle>n°7</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135496" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640hSQ8FH">
             <did>
               <unitid>PUB_ETA_REN_08</unitid>
               <unittitle>n°8</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135497" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640dsdwCI">
             <did>
               <unitid>PUB_ETA_REN_09</unitid>
               <unittitle>n°9</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135498" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640HR81L2">
             <did>
               <unitid>PUB_ETA_REN_10</unitid>
               <unittitle>n°10 - Rencontre avec F. Boucq</unittitle>
@@ -4784,7 +4784,7 @@
             </scopecontent>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135499" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ufP0Uq">
             <did>
               <unitid>PUB_ETA_REN_11</unitid>
               <unittitle>n°11 - Rencontre avec... Le livre et les marionnettes</unittitle>
@@ -4797,7 +4797,7 @@
             </scopecontent>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135532" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640408HAm">
             <did>
               <unitid>PUB_ETA_REN_12</unitid>
               <unittitle>n°12 - Rencontre avec... Exposition le Livre et Roubaix</unittitle>
@@ -4809,7 +4809,7 @@
             </scopecontent>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135533" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640ZuhPzl">
             <did>
               <unitid>PUB_ETA_REN_14</unitid>
               <unittitle>n°14 - La poésie. 3ème Cahier.</unittitle>
@@ -4821,7 +4821,7 @@
             </scopecontent>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135534" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640gL1DRA">
             <did>
               <unitid>PUB_ETA_REN_15</unitid>
               <unittitle>n°15 - Le Monde de Guillaume et Iean Blaeu, exposition 10-25 septembre</unittitle>
@@ -4830,56 +4830,56 @@
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135535" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640R9JoCG">
             <did>
               <unitid>PUB_ETA_REN_16</unitid>
               <unittitle>n°16</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135536" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640iZ2di6">
             <did>
               <unitid>PUB_ETA_REN_17</unitid>
               <unittitle>n°17</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135537" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640S047WH">
             <did>
               <unitid>PUB_ETA_REN_18</unitid>
               <unittitle>n°18</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135538" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640LlloIv">
             <did>
               <unitid>PUB_ETA_REN_19</unitid>
               <unittitle>n°19</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135539" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640Svgovt">
             <did>
               <unitid>PUB_ETA_REN_20</unitid>
               <unittitle>n°20</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135540" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640UOrsI5">
             <did>
               <unitid>PUB_ETA_REN_21</unitid>
               <unittitle>n°21</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135541" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640lWUi2G">
             <did>
               <unitid>PUB_ETA_REN_22</unitid>
               <unittitle>n°22</unittitle>
             </did>
             <dao href="https://www.bn-r.fr/ark:/20179/BNR135542" role="publication:previous"/>
           </c>
-          <c level="file">
+          <c level="file" id="m01781244640I1Ha0d">
             <did>
               <unitid>PUB_ETA_REN_24</unitid>
               <unittitle>n°24</unittitle>
