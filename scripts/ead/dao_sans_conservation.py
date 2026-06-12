@@ -10,7 +10,7 @@ _96kHz24B/_TI retirés, renommage FLRS RBX_MED_FLRS_ → RBX_MED_ et + → _).
 Les liens access:ocr, dérivés des liens image/pdf, sont ignorés.
 
 À lancer depuis la racine du dépôt. Produit
-results/ead/ead_cor/acces_sans_conservation.csv (colonnes : ir, id_composant,
+results/ead/ead_cor/dao_sans_conservation.csv (colonnes : ir, id_composant,
 unitid, role, href) et affiche un décompte par IR.
 """
 
