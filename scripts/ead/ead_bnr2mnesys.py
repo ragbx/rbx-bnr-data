@@ -49,7 +49,14 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      restent stables d'une itération à l'autre. Les éléments sans <did>/<unitid>
      reçoivent un id nouveau à chaque exécution (pas de clé de concordance).
 
-5. Ajout des liens ARK BnR
+5. Fusion des <daogrp> multiples
+   - Quand un même <archdesc>/<c> contient plusieurs <daogrp> directs, leurs contenus
+     sont fusionnés dans le premier. Les <daodesc> de même texte et les <daoloc> de
+     même couple (href, role) ne sont pas dupliqués.
+   - La fusion est réappliquée après l'étape 8 : la conversion d'un <dao> isolé en
+     <daogrp> peut recréer un doublon dans un <c> qui possédait déjà un <daogrp>.
+
+6. Ajout des liens ARK BnR
    - Pour chaque <archdesc> et <c> portant un attribut id, l'ARK actuel construit à
      partir de cet id (https://www.bn-r.fr/ark:/20179/BNR<id>) est ajouté avec
      role="publication:current".
@@ -66,32 +73,41 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> ou <dsc>
      s'il existe.
 
-6. Mise à jour des rôles des <dao>
-   - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image",
-     le préfixe "access:" est ajouté devant la valeur existante.
+7. Mise à jour des rôles des <dao>
+   - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image"
+     ou vaut "mp3", "mp4" ou "pdf", le préfixe "access:" est ajouté devant la valeur.
+     "mp3" est au passage renommé en "audio" et "mp4" en "video" (→ access:audio,
+     access:video, access:pdf).
 
-7. Ajout des chemins de conservation
+8. Ajout des chemins de conservation
    - Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension) à un
      fichier du CSV de référence (s3_key non null), un nouveau <daoloc role="preservation:...">
      est ajouté avec le chemin S3 (s3_key). Le role est obtenu en remplaçant "access:" par
      "preservation:" dans le role de l'élément source.
+   - L'appariement est contraint par famille de média (cf. FAMILLES_MEDIA) : un jpg de
+     diffusion ne peut être apparié qu'à un fichier image en conservation (tif de
+     préférence), un mp3 qu'à un fichier audio (wav de préférence), etc. Les fichiers
+     de conservation hors familles connues (xml, txt…) sont ignorés.
+   - Les fichiers OCR (file_type "ocr xml" du CSV) sont appariés de la même façon, par
+     nom de base, aux liens des familles image et pdf : un <daoloc role="access:ocr">
+     pointant vers le s3_key de l'OCR est ajouté dans le même <daogrp>.
    - Le href du lien de diffusion est complété avec le dossier du chemin de conservation :
      "RBX_MED_CP_001.jpg" + s3_key "MED/MED_CP/RBX_MED_CP_001.tiff"
      → "MED/MED_CP/RBX_MED_CP_001.jpg".
    - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
 
-8. Tri des enfants des <daogrp>
+9. Tri des enfants des <daogrp>
    - Dans chaque <daogrp>, <daodesc> est placé en premier, puis les <daoloc> sont
      réordonnés : preservation: d'abord, access: ensuite, publication: en dernier.
 
-9. Reclassement des balises <name>
+10. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
      selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
 
-10. Suppression des <repository> hors contexte
+11. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-11. Nettoyage final
+12. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -107,6 +123,27 @@ import pandas as pd
 from lxml import etree
 
 from mnesys_id import nouvel_id
+
+# Familles de médias pour l'appariement access/preservation : un lien de diffusion
+# ne peut être apparié qu'à un fichier de conservation de la même famille (un jpg
+# ne peut pas pointer vers un wav). L'ordre des extensions donne la priorité du
+# format retenu en conservation (master d'abord). Les extensions hors familles
+# (xml, txt…) sont exclues de l'appariement.
+FAMILLES_MEDIA = {
+    "image": [".tif", ".tiff", ".jp2", ".png", ".jpg", ".jpeg"],
+    "audio": [".wav", ".flac", ".mp3"],
+    "video": [".mov", ".mp4", ".wmv"],
+    "pdf": [".pdf"],
+}
+
+
+def famille_media(ext):
+    """Famille de média (image, audio, video, pdf) d'une extension, ou None."""
+    ext = ext.lower()
+    for famille, extensions in FAMILLES_MEDIA.items():
+        if ext in extensions:
+            return famille
+    return None
 
 
 class EADbnr2mnesys:
@@ -128,7 +165,7 @@ class EADbnr2mnesys:
         self.names_type = self._load_names(names_csv_path)
         self.oai_dict = self._load_oai(oai_csv_path)
         self.irs = self._load_irs(irs_excel_path)
-        self.files_dict = self._load_files(files_csv_path)
+        self.files_dict, self.ocr_dict = self._load_files(files_csv_path)
 
         # Dossiers de travail
         self.input_dir = join("data", "ead", "bnr")
@@ -172,10 +209,33 @@ class EADbnr2mnesys:
         )
 
     def _load_files(self, csv_path):
-        """Charge les chemins de conservation depuis un CSV, indexés par nom de fichier sans extension."""
+        """Charge les chemins de conservation depuis un CSV, indexés par nom de fichier
+        sans extension puis par famille de média (cf. FAMILLES_MEDIA), ainsi que les
+        fichiers OCR (file_type "ocr xml") indexés par nom sans extension.
+
+        Pour un même nom et une même famille, le format le plus prioritaire est
+        retenu (ex. tif avant jpg pour les images). Les fichiers hors familles
+        connues (txt…) sont ignorés.
+        """
         df = pd.read_csv(csv_path, low_memory=False)
         df = df.dropna(subset=["name", "s3_key"]).drop_duplicates(subset=["name"])
-        return dict(zip(df["name"].apply(lambda x: splitext(x)[0]), df["s3_key"]))
+
+        files = {}
+        rangs = {}
+        for name, s3_key in zip(df["name"], df["s3_key"]):
+            stem = splitext(name)[0]
+            ext = splitext(s3_key)[1].lower()
+            famille = famille_media(ext)
+            if famille is None:
+                continue
+            rang = FAMILLES_MEDIA[famille].index(ext)
+            if rang < rangs.get((stem, famille), len(FAMILLES_MEDIA[famille])):
+                rangs[(stem, famille)] = rang
+                files.setdefault(stem, {})[famille] = s3_key
+
+        ocr = df[df["file_type"] == "ocr xml"]
+        ocr_dict = dict(zip(ocr["name"].apply(lambda x: splitext(x)[0]), ocr["s3_key"]))
+        return files, ocr_dict
 
     def _find_ancestor(self, context, tag):
         """Trouve l'ancêtre d'un élément avec une balise donnée."""
@@ -192,6 +252,40 @@ class EADbnr2mnesys:
             if not self._is_element_empty(child):
                 return False
         return True
+
+    def _merge_daogrp(self, element):
+        """
+        Fusionne dans le premier <daogrp> le contenu des <daogrp> suivants quand un
+        même <archdesc>/<c> en contient plusieurs en enfants directs.
+
+        Les doublons ne sont pas repris : <daodesc> de même texte, <dao>/<daoloc>
+        de même couple (href, role).
+        """
+        for el in element.iter("archdesc", "c"):
+            daogrps = [child for child in el if child.tag == "daogrp"]
+            if len(daogrps) < 2:
+                continue
+
+            cible = daogrps[0]
+            descs = {"".join(d.itertext()).strip() for d in cible.findall("daodesc")}
+            liens = {
+                (d.get("href"), d.get("role")) for d in cible if d.tag != "daodesc"
+            }
+
+            for daogrp in daogrps[1:]:
+                for enfant in list(daogrp):
+                    if enfant.tag == "daodesc":
+                        texte = "".join(enfant.itertext()).strip()
+                        if texte in descs:
+                            continue
+                        descs.add(texte)
+                    else:
+                        lien = (enfant.get("href"), enfant.get("role"))
+                        if lien in liens:
+                            continue
+                        liens.add(lien)
+                    cible.append(enfant)
+                el.remove(daogrp)
 
     def _add_dao_ark(self, element):
         """
@@ -288,31 +382,52 @@ class EADbnr2mnesys:
 
 
     def _update_dao_roles(self, element):
-        """Préfixe 'access:' au role des <dao> et <daoloc> dont le role commence par 'image'."""
+        """Préfixe 'access:' au role des <dao> et <daoloc> dont le role commence par
+        'image' ou vaut 'mp3', 'mp4' ou 'pdf'. 'mp3' est renommé en 'audio' et 'mp4'
+        en 'video' (→ access:audio, access:video, access:pdf)."""
+        renommages = {"mp3": "audio", "mp4": "video"}
         for dao in element.xpath(".//*[self::dao or self::daoloc]"):
             role = dao.get("role", "")
-            if role.startswith("image"):
-                dao.set("role", f"access:{role}")
+            if role.startswith("image") or role in ("mp3", "mp4", "pdf"):
+                dao.set("role", f"access:{renommages.get(role, role)}")
 
     def _add_conservation_daoloc(self, element):
         """
-        Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension) à un
-        fichier de conservation, ajoute un <daoloc role="preservation:..."> avec le s3_key.
+        Pour chaque <dao>/<daoloc> dont le href correspond (par basename sans extension,
+        au sein de la même famille de média) à un fichier de conservation, ajoute un
+        <daoloc role="preservation:..."> avec le s3_key.
         Le role de la nouvelle <daoloc> est obtenu en remplaçant 'access:' par 'preservation:'
         dans le role de l'élément source.
         Le href de l'élément source (lien de diffusion) est complété avec le dossier du
         chemin de conservation : dirname(s3_key)/basename(href).
+        Pour les liens des familles image et pdf, le fichier OCR de même nom de base est
+        ajouté de la même façon en <daoloc role="access:ocr">.
         Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
         """
         for dao_elem in list(element.xpath(".//dao | .//daoloc")):
             href = dao_elem.get("href", "")
-            name_key = splitext(basename(href))[0]
-            if not name_key or name_key not in self.files_dict:
+            name_key, ext = splitext(basename(href))
+            famille = famille_media(ext)
+            if not name_key or famille is None:
                 continue
 
-            s3_key = self.files_dict[name_key]
-            href_diffusion = join(dirname(s3_key), basename(href))
-            preservation_role = dao_elem.get("role", "").replace("access:", "preservation:", 1)
+            s3_key = self.files_dict.get(name_key, {}).get(famille)
+            ocr_key = (
+                self.ocr_dict.get(name_key) if famille in ("image", "pdf") else None
+            )
+            if s3_key is None and ocr_key is None:
+                continue
+
+            ajouts = []
+            if s3_key is not None:
+                preservation_role = dao_elem.get("role", "").replace(
+                    "access:", "preservation:", 1
+                )
+                ajouts.append((s3_key, preservation_role))
+                dao_elem.set("href", join(dirname(s3_key), basename(href)))
+            if ocr_key is not None:
+                ajouts.append((ocr_key, "access:ocr"))
+
             parent = dao_elem.getparent()
 
             if dao_elem.tag == "dao" and (parent is None or parent.tag != "daogrp"):
@@ -321,20 +436,20 @@ class EADbnr2mnesys:
                 daoloc_original = etree.SubElement(daogrp, "daoloc")
                 for attr, value in dao_elem.attrib.items():
                     daoloc_original.set(attr, value)
-                daoloc_original.set("href", href_diffusion)
-                new_daoloc = etree.SubElement(daogrp, "daoloc")
-                new_daoloc.set("href", s3_key)
-                new_daoloc.set("role", preservation_role)
+                for ajout_href, ajout_role in ajouts:
+                    new_daoloc = etree.SubElement(daogrp, "daoloc")
+                    new_daoloc.set("href", ajout_href)
+                    new_daoloc.set("role", ajout_role)
                 if parent is not None:
                     idx = list(parent).index(dao_elem)
                     parent.remove(dao_elem)
                     parent.insert(idx, daogrp)
 
             elif dao_elem.tag == "daoloc" and parent is not None and parent.tag == "daogrp":
-                dao_elem.set("href", href_diffusion)
-                new_daoloc = etree.SubElement(parent, "daoloc")
-                new_daoloc.set("href", s3_key)
-                new_daoloc.set("role", preservation_role)
+                for ajout_href, ajout_role in ajouts:
+                    new_daoloc = etree.SubElement(parent, "daoloc")
+                    new_daoloc.set("href", ajout_href)
+                    new_daoloc.set("role", ajout_role)
 
     def _sort_daogrp(self, element):
         """Trie les enfants de chaque <daogrp> : <daodesc> toujours en premier, puis les
@@ -536,9 +651,11 @@ class EADbnr2mnesys:
         self._strip_whitespace(root)
         self._move_origination(root)
         self._add_ids(root, str(ir["nouveau_ead_id"]))
+        self._merge_daogrp(root)
         self._add_dao_ark(root)
         self._update_dao_roles(root)
         self._add_conservation_daoloc(root)
+        self._merge_daogrp(root)
         self._sort_daogrp(root)
         self._remove_name(root)
         self._remove_repositories(root)

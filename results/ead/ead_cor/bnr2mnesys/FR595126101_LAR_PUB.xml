@@ -656,10 +656,8 @@
             <daodesc>
               <p>Numéro 2</p>
             </daodesc>
-            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_000.tif" role="preservation:image:first"/>
-            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_085.tif" role="preservation:image:last"/>
-            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_000" role="access:image:first"/>
-            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_085" role="access:image:last"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_000" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_085" role="access:image:last"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634lS2Mf5" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120458" role="publication:previous"/>
           </daogrp>
