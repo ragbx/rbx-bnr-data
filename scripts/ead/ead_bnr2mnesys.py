@@ -75,6 +75,9 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      fichier du CSV de référence (s3_key non null), un nouveau <daoloc role="preservation:...">
      est ajouté avec le chemin S3 (s3_key). Le role est obtenu en remplaçant "access:" par
      "preservation:" dans le role de l'élément source.
+   - Le href du lien de diffusion est complété avec le dossier du chemin de conservation :
+     "RBX_MED_CP_001.jpg" + s3_key "MED/MED_CP/RBX_MED_CP_001.tiff"
+     → "MED/MED_CP/RBX_MED_CP_001.jpg".
    - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
 
 8. Tri des enfants des <daogrp>
@@ -98,7 +101,7 @@ Utilisation
     python ead_bnr2mnesys.py
 """
 from html import unescape
-from os.path import basename, exists, join, splitext
+from os.path import basename, dirname, exists, join, splitext
 
 import pandas as pd
 from lxml import etree
@@ -297,6 +300,8 @@ class EADbnr2mnesys:
         fichier de conservation, ajoute un <daoloc role="preservation:..."> avec le s3_key.
         Le role de la nouvelle <daoloc> est obtenu en remplaçant 'access:' par 'preservation:'
         dans le role de l'élément source.
+        Le href de l'élément source (lien de diffusion) est complété avec le dossier du
+        chemin de conservation : dirname(s3_key)/basename(href).
         Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
         """
         for dao_elem in list(element.xpath(".//dao | .//daoloc")):
@@ -306,6 +311,7 @@ class EADbnr2mnesys:
                 continue
 
             s3_key = self.files_dict[name_key]
+            href_diffusion = join(dirname(s3_key), basename(href))
             preservation_role = dao_elem.get("role", "").replace("access:", "preservation:", 1)
             parent = dao_elem.getparent()
 
@@ -315,6 +321,7 @@ class EADbnr2mnesys:
                 daoloc_original = etree.SubElement(daogrp, "daoloc")
                 for attr, value in dao_elem.attrib.items():
                     daoloc_original.set(attr, value)
+                daoloc_original.set("href", href_diffusion)
                 new_daoloc = etree.SubElement(daogrp, "daoloc")
                 new_daoloc.set("href", s3_key)
                 new_daoloc.set("role", preservation_role)
@@ -324,6 +331,7 @@ class EADbnr2mnesys:
                     parent.insert(idx, daogrp)
 
             elif dao_elem.tag == "daoloc" and parent is not None and parent.tag == "daogrp":
+                dao_elem.set("href", href_diffusion)
                 new_daoloc = etree.SubElement(parent, "daoloc")
                 new_daoloc.set("href", s3_key)
                 new_daoloc.set("role", preservation_role)
