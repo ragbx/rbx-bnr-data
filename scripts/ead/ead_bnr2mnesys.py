@@ -91,9 +91,18 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Les fichiers OCR (file_type "ocr xml" du CSV) sont appariés de la même façon, par
      nom de base, aux liens des familles image et pdf : un <daoloc role="access:ocr">
      pointant vers le s3_key de l'OCR est ajouté dans le même <daogrp>.
+   - Cas particulier de l'audio : les fichiers de conservation portent un suffixe de
+     variante de numérisation (_96kHz24B, _44kHz24B, _TI), retiré pour l'appariement ;
+     toutes les variantes trouvées sont ajoutées en preservation:audio (96 puis 44
+     puis TI). Pour le fonds sonore FLRS, le nom EAD "RBX_MED_FLRS_*" correspond en
+     conservation à "RBX_MED_*" (et "+" y devient "_").
    - Le href du lien de diffusion est complété avec le dossier du chemin de conservation :
      "RBX_MED_CP_001.jpg" + s3_key "MED/MED_CP/RBX_MED_CP_001.tiff"
-     → "MED/MED_CP/RBX_MED_CP_001.jpg".
+     → "MED/MED_CP/RBX_MED_CP_001.jpg". Les URL absolues de l'ancien site
+     (http://www.bn-r.fr/musique/…, http://www.bn-r.fr/video/…), qui ne font plus
+     sens, sont réécrites de la même façon (seul le nom de fichier est conservé).
+     Exception pour l'audio : quand un mp3 de la variante TI existe en conservation,
+     la diffusion pointe directement vers lui (chemin S3 complet).
    - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
 
 9. Tri des enfants des <daogrp>
@@ -116,6 +125,7 @@ Utilisation
 -----------
     python ead_bnr2mnesys.py
 """
+import re
 from html import unescape
 from os.path import basename, dirname, exists, join, splitext
 
@@ -135,6 +145,12 @@ FAMILLES_MEDIA = {
     "video": [".mov", ".mp4", ".wmv"],
     "pdf": [".pdf"],
 }
+
+# Variantes de numérisation des fichiers audio de conservation : le suffixe est
+# retiré du nom pour l'appariement, et toutes les variantes trouvées sont ajoutées
+# en preservation:audio, dans l'ordre ci-dessous (master le plus riche d'abord).
+MOTIF_VARIANTE_AUDIO = re.compile(r"_(\d+kHz\d+B|TI)$", re.IGNORECASE)
+ORDRE_VARIANTES_AUDIO = {"96kHz24B": 0, "44kHz24B": 1, "TI": 2}
 
 
 def famille_media(ext):
@@ -165,7 +181,9 @@ class EADbnr2mnesys:
         self.names_type = self._load_names(names_csv_path)
         self.oai_dict = self._load_oai(oai_csv_path)
         self.irs = self._load_irs(irs_excel_path)
-        self.files_dict, self.ocr_dict = self._load_files(files_csv_path)
+        self.files_dict, self.ocr_dict, self.audio_diffusion = self._load_files(
+            files_csv_path
+        )
 
         # Dossiers de travail
         self.input_dir = join("data", "ead", "bnr")
@@ -210,32 +228,48 @@ class EADbnr2mnesys:
 
     def _load_files(self, csv_path):
         """Charge les chemins de conservation depuis un CSV, indexés par nom de fichier
-        sans extension puis par famille de média (cf. FAMILLES_MEDIA), ainsi que les
-        fichiers OCR (file_type "ocr xml") indexés par nom sans extension.
+        sans extension, puis par famille de média (cf. FAMILLES_MEDIA), puis par
+        variante ("" hors audio). Charge aussi les fichiers OCR (file_type "ocr xml"),
+        indexés par nom sans extension.
 
-        Pour un même nom et une même famille, le format le plus prioritaire est
-        retenu (ex. tif avant jpg pour les images). Les fichiers hors familles
-        connues (txt…) sont ignorés.
+        Pour l'audio, le suffixe de variante (cf. MOTIF_VARIANTE_AUDIO) est retiré du
+        nom et sert de clé de variante : toutes les numérisations d'une même piste
+        sont conservées. Pour un même nom, une même famille et une même variante, le
+        format le plus prioritaire est retenu (ex. tif avant jpg pour les images,
+        wav avant mp3 pour l'audio). Les fichiers hors familles connues (txt…) sont
+        ignorés.
+
+        Charge enfin les mp3 de la variante TI, indexés par nom sans suffixe : ce
+        sont les fichiers de diffusion audio (cf. _add_conservation_daoloc).
         """
         df = pd.read_csv(csv_path, low_memory=False)
         df = df.dropna(subset=["name", "s3_key"]).drop_duplicates(subset=["name"])
 
         files = {}
         rangs = {}
+        audio_diffusion = {}
         for name, s3_key in zip(df["name"], df["s3_key"]):
             stem = splitext(name)[0]
             ext = splitext(s3_key)[1].lower()
             famille = famille_media(ext)
             if famille is None:
                 continue
+            variante = ""
+            if famille == "audio":
+                m = MOTIF_VARIANTE_AUDIO.search(stem)
+                if m:
+                    variante = m.group(1)
+                    stem = stem[: m.start()]
+                if variante.upper() == "TI" and ext == ".mp3":
+                    audio_diffusion[stem] = s3_key
             rang = FAMILLES_MEDIA[famille].index(ext)
-            if rang < rangs.get((stem, famille), len(FAMILLES_MEDIA[famille])):
-                rangs[(stem, famille)] = rang
-                files.setdefault(stem, {})[famille] = s3_key
+            if rang < rangs.get((stem, famille, variante), len(FAMILLES_MEDIA[famille])):
+                rangs[(stem, famille, variante)] = rang
+                files.setdefault(stem, {}).setdefault(famille, {})[variante] = s3_key
 
         ocr = df[df["file_type"] == "ocr xml"]
         ocr_dict = dict(zip(ocr["name"].apply(lambda x: splitext(x)[0]), ocr["s3_key"]))
-        return files, ocr_dict
+        return files, ocr_dict, audio_diffusion
 
     def _find_ancestor(self, context, tag):
         """Trouve l'ancêtre d'un élément avec une balise donnée."""
@@ -399,7 +433,9 @@ class EADbnr2mnesys:
         Le role de la nouvelle <daoloc> est obtenu en remplaçant 'access:' par 'preservation:'
         dans le role de l'élément source.
         Le href de l'élément source (lien de diffusion) est complété avec le dossier du
-        chemin de conservation : dirname(s3_key)/basename(href).
+        chemin de conservation : dirname(s3_key)/basename(href). Pour l'audio, si un
+        mp3 de la variante TI existe en conservation, le href de diffusion est remplacé
+        par son chemin S3 complet.
         Pour les liens des familles image et pdf, le fichier OCR de même nom de base est
         ajouté de la même façon en <daoloc role="access:ocr">.
         Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
@@ -411,20 +447,38 @@ class EADbnr2mnesys:
             if not name_key or famille is None:
                 continue
 
-            s3_key = self.files_dict.get(name_key, {}).get(famille)
+            cle_conservation = name_key
+            variantes = self.files_dict.get(name_key, {}).get(famille)
+            if variantes is None and famille == "audio":
+                # Fonds sonore FLRS : le nom EAD "RBX_MED_FLRS_*" correspond en
+                # conservation à "RBX_MED_*", et "+" y devient "_".
+                cle_conservation = name_key.replace("RBX_MED_FLRS_", "RBX_MED_").replace(
+                    "+", "_"
+                )
+                variantes = self.files_dict.get(cle_conservation, {}).get(famille)
             ocr_key = (
                 self.ocr_dict.get(name_key) if famille in ("image", "pdf") else None
             )
-            if s3_key is None and ocr_key is None:
+            if variantes is None and ocr_key is None:
                 continue
 
             ajouts = []
-            if s3_key is not None:
+            if variantes is not None:
                 preservation_role = dao_elem.get("role", "").replace(
                     "access:", "preservation:", 1
                 )
-                ajouts.append((s3_key, preservation_role))
-                dao_elem.set("href", join(dirname(s3_key), basename(href)))
+                s3_keys = [
+                    variantes[v]
+                    for v in sorted(
+                        variantes, key=lambda v: (ORDRE_VARIANTES_AUDIO.get(v, 3), v)
+                    )
+                ]
+                ajouts += [(s3_key, preservation_role) for s3_key in s3_keys]
+                if famille == "audio" and cle_conservation in self.audio_diffusion:
+                    # La diffusion audio pointe vers le mp3 de la variante TI
+                    dao_elem.set("href", self.audio_diffusion[cle_conservation])
+                else:
+                    dao_elem.set("href", join(dirname(s3_keys[0]), basename(href)))
             if ocr_key is not None:
                 ajouts.append((ocr_key, "access:ocr"))
 

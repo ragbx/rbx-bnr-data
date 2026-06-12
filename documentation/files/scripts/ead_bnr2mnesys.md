@@ -14,7 +14,7 @@ en vue de leur import dans Mnesys.
 | `data/ead/bnr/` | Fichiers EAD source |
 | `data/oai/oai_records_{date}.csv.gz` | Correspondances cote (unitid) / notices bn-r (pour liens ark)|
 | `results/ead/indexation/controlaccess_extraction_name2.csv` | Noms typés persname / corpname |
-| `results/ref/_ref_files_{date}.csv.gz` | Fichiers de conservation (chemins S3) |
+| `results/ref/_ref_files_{date}.csv.gz` | Fichiers de conservation et OCR (chemins S3) |
 | `results/ir/liste_instruments_recherche_{date}_transfert_mnesys.xlsx` | Liste des IR à traiter |
 
 Seuls les instruments de recherche dont le statut est `TRANSFERER` dans le fichier
@@ -66,38 +66,88 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   d'une itération à l'autre. Les éléments sans `<did>/<unitid>` reçoivent un id nouveau
   à chaque exécution (pas de clé de concordance).
 
-### 5. Ajout des anciens ARK BnR
-- Pour chaque élément `<c>` dont le `<unitid>` figure dans la table de correspondance OAI,
-  une balise pointant vers l'ancien ARK BnR (`https://www.bn-r.fr/ark:/20179/<osiros_id>`)
-  est insérée selon trois cas :
-  - `<daogrp>` déjà présent → ajout d'un `<daoloc role="publication:previous">` dans le groupe.
+### 5. Fusion des `<daogrp>` multiples
+- Quand un même `<archdesc>`/`<c>` contient plusieurs `<daogrp>` directs, leurs contenus
+  sont fusionnés dans le premier. Les `<daodesc>` de même texte et les `<daoloc>` de
+  même couple (href, role) ne sont pas dupliqués.
+- La fusion est réappliquée après l'étape 8 : la conversion d'un `<dao>` isolé en
+  `<daogrp>` peut recréer un doublon dans un `<c>` qui possédait déjà un `<daogrp>`.
+
+### 6. Ajout des liens ARK BnR
+- Pour chaque `<archdesc>` et `<c>` portant un attribut `id`, l'ARK actuel construit à
+  partir de cet id (`https://www.bn-r.fr/ark:/20179/BNR<id>`) est ajouté avec
+  `role="publication:current"`.
+- Pour chaque `<c>` dont le `<unitid>` figure dans la table de correspondance OAI,
+  l'ancien ARK BnR (`https://www.bn-r.fr/ark:/20179/<osiros_id>`) est ajouté avec
+  `role="publication:previous"`.
+- Les balises sont insérées selon trois cas :
+  - `<daogrp>` déjà présent → ajout d'un `<daoloc>` par lien dans le groupe (sans
+    doublon de role).
   - `<dao>` présent (sans `<daogrp>`) → transformation en `<daogrp>` contenant un `<daoloc>`
-    reprenant les attributs de l'ancienne `<dao>` et un `<daoloc role="publication:previous">`.
-  - Ni `<dao>` ni `<daogrp>` → création d'un `<dao role="publication:previous">` pointant vers l'ARK.
-- Dans les cas 2 et 3, la balise est insérée avant le premier enfant `<c>` s'il existe.
+    reprenant les attributs de l'ancienne `<dao>` et un `<daoloc>` par lien.
+  - Ni `<dao>` ni `<daogrp>` → création d'un `<dao>` (lien unique) ou d'un `<daogrp>`
+    (plusieurs liens).
+- Dans les cas 2 et 3, la balise est insérée avant le premier enfant `<c>` ou `<dsc>`
+  s'il existe.
 
-### 6. Mise à jour des rôles des `<dao>`
-- Pour tous les éléments `<dao>` et `<daoloc>` dont l'attribut `role` commence par `image`,
-  le préfixe `access:` est ajouté devant la valeur existante.
+### 7. Mise à jour des rôles des `<dao>`
+- Pour tous les éléments `<dao>` et `<daoloc>` dont l'attribut `role` commence par `image`
+  ou vaut `mp3`, `mp4` ou `pdf`, le préfixe `access:` est ajouté devant la valeur.
+  `mp3` est au passage renommé en `audio` et `mp4` en `video` (→ `access:audio`,
+  `access:video`, `access:pdf`).
 
-### 7. Ajout des chemins de conservation
+### 8. Ajout des chemins de conservation
 - Pour chaque `<dao>`/`<daoloc>` dont le `href` correspond (par basename sans extension) à un
   fichier du CSV de référence (s3_key non null), un nouveau `<daoloc role="preservation:...">`
   est ajouté avec le chemin S3 (`s3_key`). Le `role` est obtenu en remplaçant `access:` par
   `preservation:` dans le `role` de l'élément source.
+- L'appariement est contraint par famille de média (`FAMILLES_MEDIA`) : un jpg de
+  diffusion ne peut être apparié qu'à un fichier image en conservation (tif de
+  préférence), un mp3 qu'à un fichier audio (wav de préférence), etc. Les fichiers
+  de conservation hors familles connues (xml, txt…) sont ignorés.
+- Cas particulier de l'audio : les fichiers de conservation portent un suffixe de
+  variante de numérisation (`_96kHz24B`, `_44kHz24B`, `_TI`), retiré pour l'appariement ;
+  toutes les variantes trouvées sont ajoutées en `preservation:audio` (96 puis 44
+  puis TI). Pour le fonds sonore FLRS, le nom EAD `RBX_MED_FLRS_*` correspond en
+  conservation à `RBX_MED_*` (et `+` y devient `_`).
+- Le `href` du lien de diffusion est complété avec le dossier du chemin de conservation :
+  `RBX_MED_CP_001.jpg` + s3_key `MED/MED_CP/RBX_MED_CP_001.tiff`
+  → `MED/MED_CP/RBX_MED_CP_001.jpg`.
+- Les URL absolues de l'ancien site (`http://www.bn-r.fr/musique/…`,
+  `http://www.bn-r.fr/video/…`), qui ne font plus sens, sont réécrites de la même
+  façon : seul le nom de fichier est conservé, le dossier provient du chemin de
+  conservation. Faute de correspondance de conservation, l'URL d'origine est
+  laissée telle quelle.
+- Exception pour la diffusion audio : quand un mp3 de la variante `TI` existe en
+  conservation, le href de diffusion est remplacé par son chemin S3 complet
+  (ex. `MED/MED_FLRS/FLR_17_2389/RBX_MED_FLR_17_2389_A_01_TI.mp3`), plutôt que par
+  un chemin reconstruit à partir du nom EAD.
+
+> **Limite connue (diffusion audio).** Au 2026-06-12, sur 1 111 liens `access:audio`,
+> seuls 444 pointent vers un mp3 `TI` réellement présent dans le bucket. 576 pistes
+> ont des masters wav en conservation mais aucun mp3 `TI` : leur href de diffusion
+> est un chemin reconstruit à partir du nom EAD
+> (ex. `MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_A_01.mp3`), qui ne
+> correspond probablement à aucun fichier S3 existant. Les 91 restants n'ont aucune
+> correspondance de conservation (href d'origine inchangé). Avant l'import Mnesys,
+> il faudra soit produire les mp3 de diffusion manquants, soit choisir un repli
+> (par exemple pointer la diffusion vers le wav `44kHz24B`).
+- Les fichiers OCR (file_type `ocr xml` du CSV) sont appariés de la même façon, par
+  nom de base, aux liens des familles image et pdf : un `<daoloc role="access:ocr">`
+  pointant vers le s3_key de l'OCR est ajouté dans le même `<daogrp>`.
 - Si le `<dao>` est isolé (hors `<daogrp>`), il est converti en `<daogrp>` + `<daoloc>` au préalable.
 
-### 8. Tri des `<daoloc>` dans les `<daogrp>`
-- Dans chaque `<daogrp>`, les `<daoloc>` sont réordonnés : `preservation:` en premier,
-  `access:` ensuite, `publication:` en dernier.
+### 9. Tri des enfants des `<daogrp>`
+- Dans chaque `<daogrp>`, `<daodesc>` est placé en premier, puis les `<daoloc>` sont
+  réordonnés : `preservation:` d'abord, `access:` ensuite, `publication:` en dernier.
 
-### 9. Reclassement des balises `<name>`
+### 10. Reclassement des balises `<name>`
 - Dans `<controlaccess>`, les balises `<name>` sont remplacées par `<persname>` ou `<corpname>`
   selon la liste CSV. Les `<name>` sans correspondance sont laissés tels quels.
 
-### 10. Suppression des `<repository>` hors contexte
+### 11. Suppression des `<repository>` hors contexte
 - Toutes les balises `<repository>` situées en dehors de `<archdesc/did>` sont supprimées.
 
-### 11. Nettoyage final
+### 12. Nettoyage final
 - Suppression des attributs dont la valeur est une chaîne vide.
 - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant non vide).
