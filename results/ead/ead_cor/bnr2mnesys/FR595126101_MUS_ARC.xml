@@ -35,6 +35,7 @@
     <scopecontent>
       <p>&lt;p style="text-align: justify;"&gt;Outre ses collections temporaires et permanentes, le Musée La Piscine a collectionné au fil du temps des documents divers (photographies, affiches, plans, croquis, dessins, etc.), qui ont rejoint son fonds d'archives. Ces documents ont souvent un intérêt graphique ou historique, mais ils ne relèvent pas de l'exposition permanente du musée. Aussi est-ce l'occasion de les présenter ici, sous une forme numérique.&lt;/p&gt;</p>
     </scopecontent>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oX6h7D" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244641FoACuV">
         <did>
@@ -51,7 +52,10 @@
           <subject source="Rameau">Piscines</subject>
           <subject source="Rameau">Hygiène</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19509" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FoACuV" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19509" role="publication:previous"/>
+        </daogrp>
         <c level="subseries" id="m01781244641z6Mnye">
           <did>
             <unitid>MUS_ARC_PIS1</unitid>
@@ -66,7 +70,10 @@
             <subject source="chrono">1919-1938</subject>
             <persname role="auteur">Baert, Albert</persname>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19510" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641z6Mnye" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19510" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m0178124464159E1Ba">
             <did>
               <unitid>MUS_ARC_PIS1_001</unitid>
@@ -83,6 +90,7 @@ N° inventaire  : 20023910</physdesc>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_20023910.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464159E1Ba" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19555" role="publication:previous"/>
             </daogrp>
           </c>
@@ -103,6 +111,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641AyYpTQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19556" role="publication:previous"/>
             </daogrp>
           </c>
@@ -123,6 +132,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641g1RfiT" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19557" role="publication:previous"/>
             </daogrp>
           </c>
@@ -141,6 +151,7 @@ N° inventaire  : 20023910</physdesc>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988712.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446418GSHII" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19558" role="publication:previous"/>
             </daogrp>
           </c>
@@ -161,6 +172,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641EheXwu" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19559" role="publication:previous"/>
             </daogrp>
           </c>
@@ -179,14 +191,15 @@ N° inventaire  : 20023910</physdesc>
               <persname normal="Fievet, Maurice" role="photographe">Fievet, Maurice</persname>
             </controlaccess>
             <daogrp>
+              <daodesc>
+                <p>Vue de l'entrée de la rue des Champs</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_006.tif" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_007.tif" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_PIS1_006.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_PIS1_007.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641mYfJra" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29321" role="publication:previous"/>
-              <daodesc>
-                <p>Vue de l'entrée de la rue des Champs</p>
-              </daodesc>
             </daogrp>
           </c>
           <c level="item" id="m017812446413rsavI">
@@ -206,6 +219,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_008.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413rsavI" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19561" role="publication:previous"/>
             </daogrp>
           </c>
@@ -226,6 +240,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_009.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446417ptrMW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19562" role="publication:previous"/>
             </daogrp>
           </c>
@@ -246,6 +261,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_010.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641C8tqLa" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19563" role="publication:previous"/>
             </daogrp>
           </c>
@@ -264,14 +280,15 @@ N° inventaire  : 20023910</physdesc>
               <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
+              <daodesc>
+                <p>Galerie des machines </p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_011.tif" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_014.tif" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_PIS1_011.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_PIS1_014.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641RD26WJ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29322" role="publication:previous"/>
-              <daodesc>
-                <p>Galerie des machines </p>
-              </daodesc>
             </daogrp>
           </c>
           <c level="item" id="m01781244641hL8c3U">
@@ -291,6 +308,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_015.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641hL8c3U" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19565" role="publication:previous"/>
             </daogrp>
           </c>
@@ -311,6 +329,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_016.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641R78D69" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19566" role="publication:previous"/>
             </daogrp>
           </c>
@@ -331,6 +350,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_017.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641fPW9yG" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19567" role="publication:previous"/>
             </daogrp>
           </c>
@@ -349,14 +369,15 @@ N° inventaire  : 20023910</physdesc>
               <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
+              <daodesc>
+                <p>La piscine : éclairage nocturne</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_018.tif" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_019.tif" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_PIS1_018.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_PIS1_019.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410W71Iz" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29323" role="publication:previous"/>
-              <daodesc>
-                <p>La piscine : éclairage nocturne</p>
-              </daodesc>
             </daogrp>
           </c>
           <c level="item" id="m01781244641B0TJJe">
@@ -376,6 +397,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_020.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641B0TJJe" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19569" role="publication:previous"/>
             </daogrp>
           </c>
@@ -396,6 +418,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_021.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qisu3F" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19570" role="publication:previous"/>
             </daogrp>
           </c>
@@ -416,6 +439,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_022.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641vW3h01" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19571" role="publication:previous"/>
             </daogrp>
           </c>
@@ -436,6 +460,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_023.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413HyoOx" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19572" role="publication:previous"/>
             </daogrp>
           </c>
@@ -456,6 +481,7 @@ N° inventaire  : 20023910</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_PIS1_024.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GjrBI5" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19573" role="publication:previous"/>
             </daogrp>
           </c>
@@ -470,6 +496,7 @@ N° inventaire  : 20023910</physdesc>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988711.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641aSdRBC" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19574" role="publication:previous"/>
             </daogrp>
           </c>
@@ -481,12 +508,13 @@ N° inventaire  : 20023910</physdesc>
               <physdesc>&lt;p&gt;Plans aquarellés 5 vues&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_PIS1_988713.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_PIS1_988717.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29324" role="publication:previous"/>
               <daodesc>
                 <p>Projet de construction des établissements de bains</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_988713.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_988717.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446412v3WQu" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29324" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641oDjITW">
@@ -500,12 +528,13 @@ N° inventaire  : 20023910</physdesc>
               <genreform>Images</genreform>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_PIS1_988718.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_PIS1_988719.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29325" role="publication:previous"/>
               <daodesc>
                 <p>Vues de la piscine sur plaque de cuivre</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_PIS1_988718.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_PIS1_988719.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oDjITW" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29325" role="publication:previous"/>
             </daogrp>
           </c>
         </c>
@@ -526,7 +555,10 @@ N° inventaire  : 20023910</physdesc>
             <genreform>Images</genreform>
             <persname role="architecte">Bouvy, Albert</persname>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19577" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641pfUyhJ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19577" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641UPXvCB">
             <did>
               <unitid>MUS_ARC_PIS2_001</unitid>
@@ -539,6 +571,7 @@ N° inventaire  : 20023910</physdesc>
             </scopecontent>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS2_988720.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UPXvCB" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19579" role="publication:previous"/>
             </daogrp>
           </c>
@@ -562,7 +595,10 @@ Les corridas se déroulaient dans des arènes, aujourd'hui disparues, qui avait 
           <subject source="theme">Sports</subject>
           <geogname source="rue">Pergolèse, rue</geogname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19580" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641JrL4R9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19580" role="publication:previous"/>
+        </daogrp>
         <c level="item" id="m01781244641TRElY9">
           <did>
             <unitid>MUS_ARC_COR_001</unitid>
@@ -575,6 +611,7 @@ Les corridas se déroulaient dans des arènes, aujourd'hui disparues, qui avait 
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_2004241.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TRElY9" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19584" role="publication:previous"/>
           </daogrp>
         </c>
@@ -591,6 +628,7 @@ N° inventaire : 988701</physdesc>
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_988701.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UtZUmU" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19585" role="publication:previous"/>
           </daogrp>
         </c>
@@ -607,6 +645,7 @@ N° inventaire : 988702</physdesc>
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_988702.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Ygpa2m" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19586" role="publication:previous"/>
           </daogrp>
         </c>
@@ -638,7 +677,10 @@ Roubaix : 15, 16, 17août 1924 : couronnement de la Muse du Peuple : fêtes du t
           <subject source="chrono">1919-1938</subject>
           <subject source="theme">Fêtes et cérémonies</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19587" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641sPAvm9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19587" role="publication:previous"/>
+        </daogrp>
         <c level="item" id="m01781244641mPYUg8">
           <did>
             <unitid>MUS_ARC_FDT_D01</unitid>
@@ -658,12 +700,13 @@ Seule la couverture est numérisée pour le moment.</physdesc>
             <persname role="auteur">Desbarbieux, H.</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_FDT_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_FDT_D01_054.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19590" role="publication:previous"/>
             <daodesc>
               <p>Programme officiel de la fête du travail</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_FDT_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_FDT_D01_054.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641mPYUg8" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19590" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="item" id="m01781244641FoIWzh">
@@ -684,12 +727,13 @@ L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581)
             <genreform>Images</genreform>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_FDT_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_FDT_D02_021.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19591" role="publication:previous"/>
             <daodesc>
               <p>Projets d'affiches de la fête du travail</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_FDT_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_FDT_D02_021.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FoIWzh" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19591" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
@@ -710,7 +754,10 @@ L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581)
           <genreform>Images</genreform>
           <geogname source="rue">Parc Barbieux</geogname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19592" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446418liTTP" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19592" role="publication:previous"/>
+        </daogrp>
         <c level="item" id="m017812446416O8pHv">
           <did>
             <unitid>MUS_ARC_EINF_001</unitid>
@@ -730,13 +777,14 @@ N° inventaire : 20045701</physdesc>
             <genreform>Objets</genreform>
           </controlaccess>
           <daogrp>
-            <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.tif" role="preservation:image:first"/>
-            <daoloc href="RBX_MUS_ARC_EINF_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_EINF_001A.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19601" role="publication:previous"/>
             <daodesc>
               <p>Service de verres et sa cruche</p>
             </daodesc>
+            <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.tif" role="preservation:image:first"/>
+            <daoloc href="RBX_MUS_ARC_EINF_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_EINF_001A.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446416O8pHv" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19601" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="item" id="m01781244641Opys7M">
@@ -755,6 +803,7 @@ N° inventaire : 2007002</physdesc>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007002.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Opys7M" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19602" role="publication:previous"/>
           </daogrp>
         </c>
@@ -775,6 +824,7 @@ N° inventaire : 2007003</physdesc>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007003.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UCxUBJ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19603" role="publication:previous"/>
           </daogrp>
         </c>
@@ -800,6 +850,7 @@ N° inventaire : 20092301</physdesc>
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_004.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_EINF_004.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446415bWypq" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19604" role="publication:previous"/>
           </daogrp>
         </c>
@@ -812,6 +863,7 @@ N° inventaire : 20092301</physdesc>
           </did>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988706.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GpWu0f" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19605" role="publication:previous"/>
           </daogrp>
         </c>
@@ -832,6 +884,7 @@ N° inventaire : 988710</physdesc>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988710.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Da0AbB" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19606" role="publication:previous"/>
           </daogrp>
         </c>
@@ -848,6 +901,7 @@ N° inventaire : 988711bis</physdesc>
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988711bis.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641G1amGZ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19607" role="publication:previous"/>
           </daogrp>
         </c>
@@ -865,14 +919,15 @@ N° inventaire : 988711bis</physdesc>
             <p>Don de la Société des amis du musée en 2011</p>
           </acqinfo>
           <daogrp>
+            <daodesc>
+              <p>Médaille</p>
+            </daodesc>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_008.tif" role="preservation:image:first"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_008A.tif" role="preservation:image:last"/>
             <daoloc href="RBX_MUS_ARC_EINF_008.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_EINF_008A.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641IPcMdQ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19608" role="publication:previous"/>
-            <daodesc>
-              <p>Médaille</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="item" id="m01781244641oMOUUu">
@@ -891,6 +946,7 @@ N° inventaire : 988711bis</physdesc>
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_009.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_EINF_009.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oMOUUu" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19609" role="publication:previous"/>
           </daogrp>
         </c>
@@ -916,7 +972,10 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
           <subject source="Rameau">Défilés</subject>
           <subject source="Rameau">Chars décorés</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19610" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641j6WVTT" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19610" role="publication:previous"/>
+        </daogrp>
         <c level="subseries" id="m01781244641vS227C">
           <did>
             <unitid>MUS_ARC_CAV2</unitid>
@@ -926,7 +985,10 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
           <scopecontent>
             <p>La munificence de la cavalcade de 1903 est incontestable. Défilèrent dans les rues des éléphants et des lions parmi la quarantaine de chars décorés que comptait le cortège. Parrainée par l'entreprise Vaissier, la cavalcade devait rehausser les cérémonies de la pause de la première pierre, la même année, du premier hôpital public de la ville, l'Hôpital de la Fraternité. </p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19614" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641vS227C" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19614" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641FgDlzQ">
             <did>
               <unitid>MUS_ARC_CAV2_003</unitid>
@@ -941,14 +1003,15 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
               <p>&lt;p&gt;Achat du musée en 2007.&lt;/p&gt;</p>
             </acqinfo>
             <daogrp>
+              <daodesc>
+                <p>Programme des évènements</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_003.jpg" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_070.tif" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_CAV2_003.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_CAV2_070.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FgDlzQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29326" role="publication:previous"/>
-              <daodesc>
-                <p>Programme des évènements</p>
-              </daodesc>
             </daogrp>
           </c>
           <c level="item" id="m01781244641U3ISy9">
@@ -965,14 +1028,15 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
               <p>&lt;p&gt;Ancien fonds de la Société des amis du musée de Roubaix ; don au musée en 1988.&lt;/p&gt;</p>
             </acqinfo>
             <daogrp>
+              <daodesc>
+                <p>Masques de la grande cavalcade</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_001.jpg" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_002.jpg" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_CAV2_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_CAV2_002.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641U3ISy9" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29327" role="publication:previous"/>
-              <daodesc>
-                <p>Masques de la grande cavalcade</p>
-              </daodesc>
             </daogrp>
           </c>
         </c>
@@ -982,7 +1046,10 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
             <unittitle>La cavalcade de 1899</unittitle>
             <unitdate normal="1899">1899</unitdate>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19620" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641lpbsGc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19620" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641bWUdxe">
             <did>
               <unitid>MUS_ARC_CAV1_001</unitid>
@@ -998,12 +1065,13 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
               <geogname source="rue" coord="[ 50.6909898, 3.1968434 ]">Beaurepaire, boulevard</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_CAV_988703.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_CAV_988705.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29328" role="publication:previous"/>
               <daodesc>
                 <p>Les chars de la cavalcade de 1899</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_CAV_988703.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_CAV_988705.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bWUdxe" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29328" role="publication:previous"/>
             </daogrp>
           </c>
         </c>
@@ -1018,7 +1086,10 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
           <geogname>Roubaix</geogname>
           <subject source="theme">Manufacture et industrie textile</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19624" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641CyrfAt" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19624" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244641cccJDB">
           <did>
             <unitid>MUS_ARC_IND_D01</unitid>
@@ -1034,12 +1105,13 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
             <subject source="chrono">1919-1938</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_IND_2001551_01.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_IND_2001551_26.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19628" role="publication:previous"/>
             <daodesc>
               <p>Leclercq-Dupire, Société anonyme - Album souvenir</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_2001551_01.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_2001551_26.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cccJDB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19628" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244641Bpt45S">
@@ -1058,12 +1130,13 @@ N° inventaire : 988708</physdesc>
             <subject source="chrono">1919-1938</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_IND_988708_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_IND_988708_029.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19629" role="publication:previous"/>
             <daodesc>
               <p>Etablissement François Masurel Frères</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_988708_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_988708_029.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Bpt45S" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19629" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446410juIjg">
@@ -1083,6 +1156,7 @@ N° inventaire : 988709</physdesc>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_988709_01.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410juIjg" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19630" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1106,7 +1180,10 @@ N° inventaire : 988709</physdesc>
           <controlaccess>
             <subject source="theme">Manufacture et industrie textile</subject>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_IND_D04_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_IND_D04_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641df1Av2" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641UM4458">
           <did>
@@ -1127,11 +1204,12 @@ N° inventaire : 988709</physdesc>
             <subject source="theme">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_IND_D05_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_IND_D05_004.jpg" role="access:image:last"/>
             <daodesc>
               <p>Laines du Pingouin - Présentoir à aiguilles</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_D05_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_D05_004.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UM4458" role="publication:current"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244641Jql8EP">
@@ -1152,11 +1230,12 @@ N° inventaire : 988709</physdesc>
             <subject source="theme">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_IND_D06_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_IND_D06_002.jpg" role="access:image:last"/>
             <daodesc>
               <p>Tissus de Roubaix - Enseigne</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_IND_D06_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_IND_D06_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Jql8EP" role="publication:current"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244641MTjrjy">
@@ -1181,7 +1260,10 @@ N° inventaire : 988709</physdesc>
             <subject source="chrono">1946-1959</subject>
             <subject source="theme">Manufacture et industrie textile</subject>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_IND_D07_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_IND_D07_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MTjrjy" role="publication:current"/>
+          </daogrp>
         </c>
       </c>
       <c level="series" id="m01781244641gsOPXP">
@@ -1197,13 +1279,19 @@ N° inventaire : 988709</physdesc>
         <acqinfo>
           <p>&lt;p&gt;Ancien fonds du musée de Roubaix&lt;/p&gt;</p>
         </acqinfo>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19631" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gsOPXP" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19631" role="publication:previous"/>
+        </daogrp>
         <c level="subseries" id="m01781244641jBlaDD">
           <did>
             <unitid>MUS_ARC_GDU1</unitid>
             <unittitle>Portrait </unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19632" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641jBlaDD" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19632" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641qITg3q">
             <did>
               <unitid>MUS_ARC_GDU1_D01</unitid>
@@ -1227,6 +1315,7 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU1_D01_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qITg3q" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19633" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1236,7 +1325,10 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
             <unitid>MUS_ARC_GDU2</unitid>
             <unittitle>Affiches</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19634" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ssalze" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19634" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641qBXUJs">
             <did>
               <unitid>MUS_ARC_GDU2_D01</unitid>
@@ -1257,6 +1349,7 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.tif" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU2_D01_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qBXUJs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19635" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1282,6 +1375,7 @@ H. 45 ; L. 37 cm</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.jpg" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU2_D02_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bbE581" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19636" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1305,6 +1399,7 @@ H. 45 ; L. 37 cm</physdesc>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU2_D03_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Enis5l" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19637" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1328,6 +1423,7 @@ Cette exposition s'est tenue dans le cadre de l'exposition annuelle dite du "Pet
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU2_D04_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413P1prW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19638" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1351,6 +1447,7 @@ En octobre 1973, la galerie Dujardin déménage et ouvre ses portes au 39, rue d
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg" role="preservation:image"/>
               <daoloc href="RBX_MUS_ARC_GDU2_D05_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641DLfMCJ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19639" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1363,7 +1460,10 @@ En octobre 1973, la galerie Dujardin déménage et ouvre ses portes au 39, rue d
           <acqinfo>
             <p>Ancien fonds du musée de Roubaix</p>
           </acqinfo>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19640" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GMuDuU" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19640" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m017812446410WoxyH">
             <did>
               <unitid>MUS_ARC_GDU3_D01</unitid>
@@ -1381,6 +1481,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D01_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410WoxyH" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19641" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1400,6 +1501,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D02_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641WCWxu2" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19642" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1420,6 +1522,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D03_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MSG5xC" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19643" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1438,6 +1541,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D04_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641OWQts8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19644" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1456,12 +1560,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D05_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D05_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19645" role="publication:previous"/>
               <daodesc>
                 <p>Exposition de René Jaudon</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D05_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D05_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641eDfclu" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19645" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641XPL7Jz">
@@ -1478,12 +1583,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D06_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D06_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19646" role="publication:previous"/>
               <daodesc>
                 <p>Exposition de Marius F. de Buzon</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D06_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D06_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641XPL7Jz" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19646" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641iv5t8v">
@@ -1500,12 +1606,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D07_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D07_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19647" role="publication:previous"/>
               <daodesc>
                 <p>Exposition de l'Abbé Calès</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D07_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D07_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641iv5t8v" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19647" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641ae0vAV">
@@ -1522,12 +1629,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D08_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D08_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19648" role="publication:previous"/>
               <daodesc>
                 <p>Exposition de Désiré-Lucas</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D08_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D08_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ae0vAV" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19648" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641DEA6x0">
@@ -1545,12 +1653,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D09_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D09_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19649" role="publication:previous"/>
               <daodesc>
                 <p>Exposition d'Eugène Declercq</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D09_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D09_002.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641DEA6x0" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19649" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641qUwaa4">
@@ -1567,12 +1676,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU3_D10_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU3_D10_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19650" role="publication:previous"/>
               <daodesc>
                 <p>Exposition d'Artistes du Salon des Indépendants</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU3_D10_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU3_D10_002.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qUwaa4" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19650" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641yjg1Se">
@@ -1591,6 +1701,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D11_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641yjg1Se" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19651" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1600,7 +1711,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <unitid>MUS_ARC_GDU4</unitid>
             <unittitle>Livrets d'exposition</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19652" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446417HGHoQ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19652" role="publication:previous"/>
+          </daogrp>
           <c level="item" id="m01781244641gXnHsV">
             <did>
               <unitid>MUS_ARC_GDU4_D01</unitid>
@@ -1618,12 +1732,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU4_D01_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU4_D01_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19653" role="publication:previous"/>
               <daodesc>
                 <p>Livret de l'exposition A. Dequêne et de P. Huguet</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D01_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D01_002.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gXnHsV" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19653" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641p1hPth">
@@ -1644,12 +1759,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU4_D02_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU4_D02_006.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19654" role="publication:previous"/>
               <daodesc>
                 <p>Livret de l'exposition Henri Pailler</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D02_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D02_006.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641p1hPth" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19654" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641xZHHcY">
@@ -1669,12 +1785,13 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_GDU4_D03_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_GDU4_D03_008.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19655" role="publication:previous"/>
               <daodesc>
                 <p>Livret de l'exposition de D.-H. Ponchon et de E. Van Overbecke</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_GDU4_D03_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_GDU4_D03_008.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641xZHHcY" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19655" role="publication:previous"/>
             </daogrp>
           </c>
           <c level="item" id="m01781244641cQQ0rs">
@@ -1695,14 +1812,15 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition de Germaine Neveux</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_001.jpg" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_007.jpg" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D05_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D05_007.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cQQ0rs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19656" role="publication:previous"/>
-              <daodesc>
-                <p>Livret de l'exposition de Germaine Neveux</p>
-              </daodesc>
             </daogrp>
           </c>
           <c level="item" id="m01781244641pQCiZm">
@@ -1723,14 +1841,15 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <persname>Foreau, Henri</persname>
             </controlaccess>
             <daogrp>
+              <daodesc>
+                <p>Livret de l'exposition Henri Foreau</p>
+              </daodesc>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_001.jpg" role="preservation:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_008.jpg" role="preservation:image:last"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D04_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D04_008.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641pQCiZm" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19657" role="publication:previous"/>
-              <daodesc>
-                <p>Livret de l'exposition Henri Foreau</p>
-              </daodesc>
             </daogrp>
           </c>
         </c>
@@ -1740,7 +1859,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <unitid>MUS_ARC_HDV</unitid>
           <unittitle>Hôtel de Ville</unittitle>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR19658" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gDQL7w" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19658" role="publication:previous"/>
+        </daogrp>
         <c level="item" id="m01781244641TpwEGd">
           <did>
             <unitid>MUS_ARC_HDV_001</unitid>
@@ -1760,6 +1882,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_HDV_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TpwEGd" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19659" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1776,7 +1899,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <acqinfo>
             <p>&lt;p&gt;Ancien fonds Ville de Roubaix&lt;/p&gt;</p>
           </acqinfo>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR19660" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641CQGoW9" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19660" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="item" id="m017812446414x2GJf">
           <did>
@@ -1798,6 +1924,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_HDV_003.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446414x2GJf" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19661" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1817,6 +1944,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_004.jpg" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_HDV_004.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413MICZO" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19662" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1835,6 +1963,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_005.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_HDV_005.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641e3tyQL" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19663" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1857,6 +1986,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.tif" role="preservation:image"/>
             <daoloc href="RBX_MUS_ARC_HDV_006.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641EjI99X" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19664" role="publication:previous"/>
           </daogrp>
         </c>
@@ -1885,11 +2015,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="theme">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_HDV_007_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_HDV_007_003.jpg" role="access:image:last"/>
             <daodesc>
               <p>Truelle et pioche pour la pose de la première pierre</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_HDV_007_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_HDV_007_003.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MxntQO" role="publication:current"/>
           </daogrp>
         </c>
       </c>
@@ -1902,6 +2033,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <scopecontent>
           <p>&lt;p style="text-align: justify;"&gt;Cette série rassemble des documents relatifs à l'architecture, à la décoration intérieure et au mobilier des secteurs public et privé.&lt;/p&gt;</p>
         </scopecontent>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446416Y2Y49" role="publication:current"/>
         <c level="file" id="m01781244641x9fwh7">
           <did>
             <unitid>MUS_ARC_VIV_D01</unitid>
@@ -1920,11 +2052,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="theme">Logement</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_VIV_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_VIV_D01_003.jpg" role="access:image:last"/>
             <daodesc>
               <p>Demeure de A. Wattine-Lorthiois</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_VIV_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_VIV_D01_003.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641x9fwh7" role="publication:current"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244641YIn1h6">
@@ -1940,7 +2073,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <acqinfo>
             <p>&lt;p style="text-align: justify;"&gt;Don du Cercle des entreprises mécènes du musée La Piscine.&lt;/p&gt;</p>
           </acqinfo>
-          <dao href="RBX_MUS_ARC_VIV_D02_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_VIV_D02_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641YIn1h6" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641YDaWAq">
           <did>
@@ -1964,11 +2100,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="theme">Vie quotidienne</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_VIV_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_VIV_D03_002.jpg" role="access:image:last"/>
             <daodesc>
               <p>Porte de la Barque d'Or - Gambrinus sur son tonneau</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_VIV_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_VIV_D03_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641YDaWAq" role="publication:current"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244641jZCSlM">
@@ -1989,6 +2126,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="chrono">1919-1938</subject>
             <persname>Neveux, Pierre</persname>
           </controlaccess>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641jZCSlM" role="publication:current"/>
         </c>
       </c>
       <c level="series" id="m01781244641yxC7nm">
@@ -2000,6 +2138,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <scopecontent>
           <p>&lt;p style="text-align: justify;"&gt;Cette série regroupe les documents relatifs à l'Histoire de Roubaix par les oeuvres du musée La Piscine. Ces oeuvres font partie de l'exposition permanente du musée, notamment la salle appelée "Histoire de Roubaix par les oeuvres", d'expositions temporaires, notamment l'espace d'exposition temporaire de la salle "Histoire de Roubaix par les oeuvres" que l'on surnomme le "Podium". Elles peuvent également refléter les collections au sens large, qui ne sont pas ou plus exposées.&lt;/p&gt;</p>
         </scopecontent>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641yxC7nm" role="publication:current"/>
         <c level="file" id="m01781244641bJyz0x">
           <did>
             <unitid>MUS_ARC_HIS_D01</unitid>
@@ -2017,7 +2156,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <controlaccess>
             <corpname>N'Diaye, Mamadou</corpname>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_HIS_D01_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_HIS_D01_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bJyz0x" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641hP8Af9">
           <did>
@@ -2040,7 +2182,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <corpname>Motte, Eugène</corpname>
             <subject source="theme">Vie politique</subject>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_HIS_D02_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_HIS_D02_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641hP8Af9" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641Uog8YD">
           <did>
@@ -2062,11 +2207,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="theme">Vie politique</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_HIS_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_HIS_D03_012.jpg" role="access:image:last"/>
             <daodesc>
               <p>Cadeau à Eugène Motte</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_HIS_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_HIS_D03_012.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Uog8YD" role="publication:current"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446415590sI">
@@ -2089,7 +2235,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <controlaccess>
             <corpname>Guesde, Jules (1845-1922)</corpname>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_HIS_D04_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_HIS_D04_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446415590sI" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641cqMYIp">
           <did>
@@ -2109,7 +2258,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <subject source="chrono">1946-1959</subject>
             <subject source="theme">Manufacture et industrie textile</subject>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_HIS_D05_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_HIS_D05_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cqMYIp" role="publication:current"/>
+          </daogrp>
         </c>
         <c level="file" id="m01781244641Qq1RGg">
           <did>
@@ -2129,11 +2281,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <persname>N'Diaye, Mamadou</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_HIS_D06_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_HIS_D06_003.jpg" role="access:image:last"/>
             <daodesc>
               <p>Mamadou N'Diaye - Portraits</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_HIS_D06_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_HIS_D06_003.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Qq1RGg" role="publication:current"/>
           </daogrp>
         </c>
       </c>
@@ -2148,6 +2301,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <controlaccess>
           <subject source="theme">Transports</subject>
         </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641d7X2WT" role="publication:current"/>
         <c level="file" id="m01781244641VJTmjm">
           <did>
             <unitid>MUS_ARC_TRA_D01</unitid>
@@ -2166,11 +2320,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Daniel Najberg.&lt;/p&gt;</p>
           </acqinfo>
           <daogrp>
-            <daoloc href="RBX_MUS_ARC_TRA_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_MUS_ARC_TRA_D01_002.jpg" role="access:image:last"/>
             <daodesc>
               <p>Tramways - Roubaix - Tourcoing</p>
             </daodesc>
+            <daoloc href="RBX_MUS_ARC_TRA_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_MUS_ARC_TRA_D01_002.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641VJTmjm" role="publication:current"/>
           </daogrp>
         </c>
       </c>
@@ -2188,6 +2343,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <controlaccess>
           <subject source="chrono">1939-1945</subject>
         </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641IrUlz9" role="publication:current"/>
       </c>
       <c level="series" id="m017812446413qolFq">
         <did>
@@ -2197,6 +2353,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <scopecontent>
           <p>&lt;p&gt;Cette série comporte des documents du musée relatifs au monde du travail.&lt;/p&gt;</p>
         </scopecontent>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446413qolFq" role="publication:current"/>
         <c level="file" id="m01781244641cysp50">
           <did>
             <unitid>MUS_ARC_AUT_D01</unitid>
@@ -2211,7 +2368,10 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <controlaccess>
             <subject source="chrono">1871-1913</subject>
           </controlaccess>
-          <dao href="RBX_MUS_ARC_AUT_D01_001.jpg" role="access:image"/>
+          <daogrp>
+            <daoloc href="RBX_MUS_ARC_AUT_D01_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cysp50" role="publication:current"/>
+          </daogrp>
         </c>
       </c>
       <c level="series" id="m01781244641JQvgHy">
@@ -2223,6 +2383,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
         <scopecontent>
           <p>&lt;p&gt;Cette série rassemble les instruments ainsi que les documents concernant la Grande Harmonie de Roubaix présents dans les collections muséales.&lt;/p&gt;</p>
         </scopecontent>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641JQvgHy" role="publication:current"/>
         <c level="subseries" id="m01781244641siE85Q">
           <did>
             <unitid>MUS_ARC_MUS_HAR</unitid>
@@ -2232,6 +2393,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <scopecontent>
             <p>&lt;p&gt;Il s'agit des objets et documents relatifs à la Grande Harmonie de Roubaix conservés dans les collections ou exposés dans les salles du musée La Piscine.&lt;/p&gt;</p>
           </scopecontent>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641siE85Q" role="publication:current"/>
         </c>
         <c level="subseries" id="m01781244641bmPHuQ">
           <did>
@@ -2242,6 +2404,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <scopecontent>
             <p>&lt;p&gt;Cette sous-série rassemble les instruments de musique conservés dans les collections du musée La Piscine.&lt;/p&gt;</p>
           </scopecontent>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bmPHuQ" role="publication:current"/>
           <c level="file" id="m01781244641zGsw9Z">
             <did>
               <unitid>MUS_ARC_MUS_INS_D01</unitid>
@@ -2259,11 +2422,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>&lt;p&gt;Don de la Société des Amis de La Piscine en 2017.&lt;/p&gt;</p>
             </acqinfo>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_009.jpg" role="access:image:last"/>
               <daodesc>
                 <p>Accordéon Scandali Waeterloos</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D01_009.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641zGsw9Z" role="publication:current"/>
             </daogrp>
           </c>
           <c level="file" id="m01781244641qiRIyZ">
@@ -2280,6 +2444,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <acqinfo>
               <p>&lt;p&gt;Don de la Société des Amis de La Piscine en 2017.&lt;/p&gt;</p>
             </acqinfo>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qiRIyZ" role="publication:current"/>
           </c>
           <c level="file" id="m01781244641ftpIqa">
             <did>
@@ -2296,11 +2461,12 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>&lt;p&gt;Don de la Société des Amis de La Piscine en 2019.&lt;/p&gt;</p>
             </acqinfo>
             <daogrp>
-              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_002.jpg" role="access:image:last"/>
               <daodesc>
                 <p>Accordéon chromatique Scandali Waeterloos</p>
               </daodesc>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_MUS_ARC_MUS_INS_D03_002.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ftpIqa" role="publication:current"/>
             </daogrp>
           </c>
         </c>

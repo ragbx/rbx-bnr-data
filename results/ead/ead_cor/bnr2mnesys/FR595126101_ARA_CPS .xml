@@ -28,6 +28,7 @@
       </langmaterial>
       <repository>Association ARA (Roubaix)</repository>
     </did>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634uwtxd1" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244634loe4Uw">
         <did>
@@ -41,7 +42,10 @@
 &lt;p&gt;L’espace public sonne. Qu’il soit désert ou animé, secret ou exposé, il donne à voir et à entendre des sons et des images éparses ou mélangées, continues ou discontinues, proches ou lointaines, qui déterminent des climats sonores et visuels spécifiques. Qu’est-ce que j’entends dans mon quartier? Qu’est-ce que j’y vois ? Quels sont les endroits où je me sens bien ? Ma rue a-t-elle une identité sonore ? Avons-nous tous la même oreille, le même œil, d’un bout à l’autre du quartier ?&lt;/p&gt;&#13;
 &lt;p&gt;Il s'agit de faire participer les habitants au sein d’ateliers de captations sonores et de créations plastiques afin de créer plusieurs cartes postales sonores du quartier (collages, photographies, dessins, tamponnage, création en pop-up...). En parallèle, les enfants de deux écoles roubaisiennes réinterrogeront leur environnement par le biais d’une création musicale associant percussions et objets collectés sur le quartier.&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR51328" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634loe4Uw" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51328" role="publication:previous"/>
+        </daogrp>
         <c level="subseries" id="m01781244634SJbCE1">
           <did>
             <unitid>ARA_CPS_VI2_PIL</unitid>
@@ -55,7 +59,10 @@
 &lt;p&gt;Quartier Ste Elisabeth.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Oréli Paskal / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51329" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SJbCE1" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51329" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m01781244634ZBhzld">
             <did>
               <unitid>ARA_CPS_VI2_PIL_001</unitid>
@@ -66,6 +73,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ZBhzld" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51330" role="publication:previous"/>
             </daogrp>
           </c>
@@ -79,6 +87,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346CD55p" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51331" role="publication:previous"/>
             </daogrp>
           </c>
@@ -92,6 +101,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634aPSCqf" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51332" role="publication:previous"/>
             </daogrp>
           </c>
@@ -105,6 +115,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446341mdf7n" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51333" role="publication:previous"/>
             </daogrp>
           </c>
@@ -118,6 +129,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343MTBim" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51334" role="publication:previous"/>
             </daogrp>
           </c>
@@ -131,6 +143,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_PIL_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634FuOcXv" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51335" role="publication:previous"/>
             </daogrp>
           </c>
@@ -148,7 +161,10 @@
 &lt;p&gt;Quartier du Pile.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Aurélie Damon / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51336" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634aBqmV1" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51336" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m01781244634wC1QUS">
             <did>
               <unitid>ARA_CPS_VI2_MAI_001</unitid>
@@ -159,6 +175,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634wC1QUS" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51337" role="publication:previous"/>
             </daogrp>
           </c>
@@ -172,6 +189,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634PObcmW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51338" role="publication:previous"/>
             </daogrp>
           </c>
@@ -185,6 +203,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634g37lAy" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51339" role="publication:previous"/>
             </daogrp>
           </c>
@@ -197,6 +216,7 @@
             </did>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Cr9bQO" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51340" role="publication:previous"/>
             </daogrp>
           </c>
@@ -210,6 +230,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JY9Ozy" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51341" role="publication:previous"/>
             </daogrp>
           </c>
@@ -223,6 +244,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xQcAhE" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51342" role="publication:previous"/>
             </daogrp>
           </c>
@@ -236,6 +258,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_007.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_MAI_007.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634027zbs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51343" role="publication:previous"/>
             </daogrp>
           </c>
@@ -253,7 +276,10 @@
 &lt;p&gt;Quartier Sartel Carihem.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Myriam Mairey / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51344" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634os71E7" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51344" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m01781244634UTpX5y">
             <did>
               <unitid>ARA_CPS_VI2_VER_001</unitid>
@@ -264,6 +290,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634UTpX5y" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51345" role="publication:previous"/>
             </daogrp>
           </c>
@@ -277,6 +304,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634IIJEnX" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51346" role="publication:previous"/>
             </daogrp>
           </c>
@@ -290,6 +318,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OttdUt" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51347" role="publication:previous"/>
             </daogrp>
           </c>
@@ -303,6 +332,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EnpqrG" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51348" role="publication:previous"/>
             </daogrp>
           </c>
@@ -316,6 +346,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SrYm3z" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51349" role="publication:previous"/>
             </daogrp>
           </c>
@@ -329,6 +360,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ttg5Ux" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51350" role="publication:previous"/>
             </daogrp>
           </c>
@@ -342,6 +374,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_007.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_007.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634BIvObe" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51351" role="publication:previous"/>
             </daogrp>
           </c>
@@ -355,6 +388,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_008.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_VER_008.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634e5X0IA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51352" role="publication:previous"/>
             </daogrp>
           </c>
@@ -372,7 +406,10 @@
 &lt;p&gt;Quartier Ste Elisabeth.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Myriam Mairey / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51353" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zy7VMH" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51353" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m01781244634JPZuRg">
             <did>
               <unitid>ARA_CPS_VI2_HOR_001</unitid>
@@ -383,6 +420,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JPZuRg" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51354" role="publication:previous"/>
             </daogrp>
           </c>
@@ -396,6 +434,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634cb7Mih" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51355" role="publication:previous"/>
             </daogrp>
           </c>
@@ -409,6 +448,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SuBAuc" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51356" role="publication:previous"/>
             </daogrp>
           </c>
@@ -422,6 +462,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WMorGh" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51357" role="publication:previous"/>
             </daogrp>
           </c>
@@ -435,6 +476,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346DynXU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51358" role="publication:previous"/>
             </daogrp>
           </c>
@@ -448,6 +490,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634fl7HFQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51359" role="publication:previous"/>
             </daogrp>
           </c>
@@ -461,6 +504,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_007.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_007.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SZTUnl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51360" role="publication:previous"/>
             </daogrp>
           </c>
@@ -474,6 +518,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_008.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_008.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634jzbuYf" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51361" role="publication:previous"/>
             </daogrp>
           </c>
@@ -487,6 +532,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_009.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_009.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343jTA33" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51362" role="publication:previous"/>
             </daogrp>
           </c>
@@ -500,6 +546,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_010.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_010.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345a62ub" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51363" role="publication:previous"/>
             </daogrp>
           </c>
@@ -513,6 +560,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_011.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_011.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EW2wRV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51364" role="publication:previous"/>
             </daogrp>
           </c>
@@ -526,6 +574,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_012.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_012.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634IyhXME" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51365" role="publication:previous"/>
             </daogrp>
           </c>
@@ -539,6 +588,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_013.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_013.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634lT8vM8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51366" role="publication:previous"/>
             </daogrp>
           </c>
@@ -552,6 +602,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_014.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_HOR_014.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446341vm6Vn" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51367" role="publication:previous"/>
             </daogrp>
           </c>
@@ -569,7 +620,10 @@
 &lt;p&gt;Quartier des Trois Ponts.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Oréli Paskal / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51368" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634re4F8g" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51368" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m017812446345miG6G">
             <did>
               <unitid>ARA_CPS_VI2_LEO_001</unitid>
@@ -580,6 +634,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345miG6G" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51369" role="publication:previous"/>
             </daogrp>
           </c>
@@ -593,6 +648,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634vqhq38" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51370" role="publication:previous"/>
             </daogrp>
           </c>
@@ -606,6 +662,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446340p47Wb" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51371" role="publication:previous"/>
             </daogrp>
           </c>
@@ -619,6 +676,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634t1lpRM" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51372" role="publication:previous"/>
             </daogrp>
           </c>
@@ -632,6 +690,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446344rZWAs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51373" role="publication:previous"/>
             </daogrp>
           </c>
@@ -645,6 +704,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JmIJWq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51374" role="publication:previous"/>
             </daogrp>
           </c>
@@ -658,6 +718,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_007.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_007.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ilaQDz" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51375" role="publication:previous"/>
             </daogrp>
           </c>
@@ -671,6 +732,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_008.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_008.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634sMZcEL" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51376" role="publication:previous"/>
             </daogrp>
           </c>
@@ -684,6 +746,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_009.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_009.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Yhhfga" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51377" role="publication:previous"/>
             </daogrp>
           </c>
@@ -697,6 +760,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_010.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_010.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634annZqj" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51378" role="publication:previous"/>
             </daogrp>
           </c>
@@ -710,6 +774,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_011.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_011.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XDMDQl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51379" role="publication:previous"/>
             </daogrp>
           </c>
@@ -723,6 +788,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_012.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_012.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SS1Vus" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51380" role="publication:previous"/>
             </daogrp>
           </c>
@@ -736,6 +802,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_013.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_013.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634HyH2Hs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51381" role="publication:previous"/>
             </daogrp>
           </c>
@@ -749,6 +816,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_014.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_014.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634vuo5Yl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51382" role="publication:previous"/>
             </daogrp>
           </c>
@@ -762,6 +830,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_015.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_015.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xv2lJV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51383" role="publication:previous"/>
             </daogrp>
           </c>
@@ -775,6 +844,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_016.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_016.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346dwf9u" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51384" role="publication:previous"/>
             </daogrp>
           </c>
@@ -788,6 +858,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_017.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_017.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634mxyp7a" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51385" role="publication:previous"/>
             </daogrp>
           </c>
@@ -801,6 +872,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_018.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_018.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Qiw3GU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51386" role="publication:previous"/>
             </daogrp>
           </c>
@@ -814,6 +886,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_019.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_019.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634iw58EE" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51387" role="publication:previous"/>
             </daogrp>
           </c>
@@ -827,6 +900,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_020.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_LEO_020.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634GblxD8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51388" role="publication:previous"/>
             </daogrp>
           </c>
@@ -844,7 +918,10 @@
 &lt;p&gt;Quartier des Trois Ponts.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Marion Le Guillou / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51389" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634eOv4Xe" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51389" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m017812446345h0fpZ">
             <did>
               <unitid>ARA_CPS_VI2_TRO_001</unitid>
@@ -855,6 +932,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_001.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345h0fpZ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51390" role="publication:previous"/>
             </daogrp>
           </c>
@@ -868,6 +946,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OUqj2A" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51391" role="publication:previous"/>
             </daogrp>
           </c>
@@ -881,6 +960,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634j4eAAV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51392" role="publication:previous"/>
             </daogrp>
           </c>
@@ -894,6 +974,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634CyR3dW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51393" role="publication:previous"/>
             </daogrp>
           </c>
@@ -907,6 +988,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_005.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Mtifn0" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51394" role="publication:previous"/>
             </daogrp>
           </c>
@@ -920,6 +1002,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_006.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_006.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634hprpmA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51395" role="publication:previous"/>
             </daogrp>
           </c>
@@ -933,6 +1016,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_007.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_007.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634DgoLyO" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51396" role="publication:previous"/>
             </daogrp>
           </c>
@@ -946,6 +1030,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_008.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_008.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ATHfiT" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51397" role="publication:previous"/>
             </daogrp>
           </c>
@@ -957,6 +1042,7 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446340CD1X5" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51398" role="publication:previous"/>
               <daoloc href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_009.mp3" role="mp3"/>
             </daogrp>
@@ -971,6 +1057,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_010.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_010.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pGBQgq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51399" role="publication:previous"/>
             </daogrp>
           </c>
@@ -984,6 +1071,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_011.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_TRO_011.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Rf1iJY" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51400" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1001,7 +1089,10 @@
 &lt;p&gt;Quartier des Trois Ponts.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Aurélie Damon / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51401" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pxZrwu" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51401" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m017812446347BaIUl">
             <did>
               <unitid>ARA_CPS_VI2_PAT_001</unitid>
@@ -1010,12 +1101,13 @@
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51402" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347BaIUl" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51402" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_001.mp3" role="mp3"/>
           </c>
@@ -1027,12 +1119,13 @@
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51403" role="publication:previous"/>
               <daodesc>
                 <p>Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634LVeuHn" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51403" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_002.mp3" role="mp3"/>
           </c>
@@ -1044,12 +1137,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51404" role="publication:previous"/>
               <daodesc>
                 <p>RBX_ARA_CPS_VI2_PAT_001_001.jpg</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634P8TplZ" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51404" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_003.mp3" role="mp3"/>
           </c>
@@ -1061,12 +1155,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51405" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JHib99" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51405" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_004.mp3" role="mp3"/>
           </c>
@@ -1078,12 +1173,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51406" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634LBADLf" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51406" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_005.mp3" role="mp3"/>
           </c>
@@ -1095,12 +1191,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51407" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634CdGosr" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51407" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_006.mp3" role="mp3"/>
           </c>
@@ -1112,12 +1209,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51408" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634cgvBGi" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51408" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_007.mp3" role="mp3"/>
           </c>
@@ -1129,12 +1227,13 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51409" role="publication:previous"/>
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_001.jpg" role="access:image:first"/>
+              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_003.jpg" role="access:image:last"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343RuI5f" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51409" role="publication:previous"/>
             </daogrp>
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_008.mp3" role="mp3"/>
           </c>
@@ -1152,7 +1251,10 @@
 &lt;p&gt;Quartier du Pile.&lt;/p&gt;&#13;
 &lt;p&gt;Plasticienne : Oréli Paskal / musicienne : Louise Bronx&lt;/p&gt;</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR51410" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634p0rutZ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51410" role="publication:previous"/>
+          </daogrp>
           <c level="file" id="m0178124463428PZMg">
             <did>
               <unitid>ARA_CPS_VI2_SAI_001</unitid>
@@ -1164,6 +1266,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_001_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_SAI_001.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463428PZMg" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51411" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1177,6 +1280,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_SAI_002.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XRGVWA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51412" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1190,6 +1294,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_003.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_SAI_003.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634csfizQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51413" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1203,6 +1308,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_004.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_SAI_004.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446342uxlIa" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51414" role="publication:previous"/>
             </daogrp>
           </c>
@@ -1217,6 +1323,7 @@
             <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_005_002.mp3" role="mp3"/>
             <daogrp>
               <daoloc href="RBX_ARA_CPS_VI2_SAI_005.jpg" role="access:image"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634i2TP28" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51415" role="publication:previous"/>
             </daogrp>
           </c>

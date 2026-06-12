@@ -56,6 +56,7 @@
 &lt;p style="text-align: justify;"&gt;CATRICE, Pierre, &lt;em&gt;Chronique d'une famille : plus de 400 ans de généalogie et de souvenirs de la famille Catrice&lt;/em&gt;, 1993. Cote en médiathèque de Roubaix : RES 4/5082&lt;/p&gt;&#13;
 &lt;p style="text-align: justify;"&gt;CATRICE, Bernard, &lt;em&gt;Edouard-Auguste Catrice, 1863-1943 : parcours et ascension sociale d'un homme du Nord&lt;/em&gt;, 2021. Cotes en médiathèque de Roubaix : RES 4/5119 et MAG L/P 4/211 085.&lt;/p&gt;</p>
     </acqinfo>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244636D0al2o" role="publication:current"/>
     <dsc>
       <c level="subfonds" id="m01781244636echPOu">
         <did>
@@ -63,14 +64,20 @@
           <unittitle>Documents de Pierre Catrice</unittitle>
           <unitdate>à affiner au fur et à mesure de l'inventaire</unitdate>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR135128" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636echPOu" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135128" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m01781244636siyZST">
           <did>
             <unitid>CAT1_VIE</unitid>
             <unittitle>Vie publique</unittitle>
             <unitdate>à affiner avec l'avancée de l'inventaire</unitdate>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR135129" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636siyZST" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135129" role="publication:previous"/>
+          </daogrp>
           <c level="subseries" id="m017812446361AyVpm">
             <did>
               <unitid>CAT1_VIE01</unitid>
@@ -80,7 +87,10 @@
             <scopecontent>
               <p>&lt;p&gt;Il n'y a pas de dosiier A25 dans le classement de Bernard Catrice.&lt;/p&gt;</p>
             </scopecontent>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135130" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446361AyVpm" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135130" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m017812446366pvtpA">
               <did>
                 <unitid>CAT1_VIE01_D01</unitid>
@@ -92,7 +102,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Marc Sangnier et le "Sillon" ; la vie politique d’après André Diligent ; lettre de démission de Fernand Vogels.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135131" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366pvtpA" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135131" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636LOcPYm">
               <did>
@@ -104,7 +117,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Préparations de discours pour le MRP ; appel à signature pour une censure du cinéma.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135132" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636LOcPYm" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135132" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446366ySoOu">
               <did>
@@ -116,7 +132,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Apprendre à La Jeunesse Indépendante chrétienne à devenir patron.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138380" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366ySoOu" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138380" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636jZMzGL">
               <did>
@@ -128,7 +147,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Informations diverses suite à des entretiens entre des généraux et le maréchal Pétain ; allocutions du cardinal Liénart au sujet du travail des jeunes en Allemagne et sur le STO ; propagande du M.R.P. ; le ressenti des populations du Nord ; blocage de l’achat des articles à usage ménager.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138381" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636jZMzGL" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138381" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636nHjWQ4">
               <did>
@@ -140,7 +162,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Les militants et les responsables ; André Diligent à Bierville ; citation de Maurice Schumann à l’ordre du Corps d’armée et pour la Croix de guerre ; congrès du M.R.P.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138382" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636nHjWQ4" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138382" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463646SeHd">
               <did>
@@ -152,7 +177,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise à l’honneur des représentants du mouvement par le journal "L’Aube".&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138383" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463646SeHd" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138383" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MtwzfS">
               <did>
@@ -164,7 +192,10 @@
               <acqinfo>
                 <p>&lt;p&gt;Création ; appel à cotisation ; courrier aux membres de la CUDL ; résultats d’élections ; prises de position sur le référendum de 1962.&lt;/p&gt;</p>
               </acqinfo>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138384" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MtwzfS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138384" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MYxCuu">
               <did>
@@ -176,7 +207,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Liste des écoles libres de Roubaix ; écoles chrétiennes ; socialisme et laïcité ; discussion sur une loi scolaire.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138385" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MYxCuu" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138385" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636we0Ewd">
               <did>
@@ -188,7 +222,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Divers règlements ; planche de timbres du M.R.P. ; transferts de fonds ; bilan.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138386" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636we0Ewd" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138386" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636YtDJjh">
               <did>
@@ -200,7 +237,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Statuts et règlements ; adhésion ; cotisation ; convention de 1966 et 1967.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138387" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636YtDJjh" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138387" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636117Ix1">
               <did>
@@ -212,7 +252,10 @@
               <scopecontent>
                 <p>&lt;p&gt;André Diligent, secrétaire général du C.D.S.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138388" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636117Ix1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138388" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636AF0Z86">
               <did>
@@ -224,7 +267,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Biographie des grands adhérents du mouvement.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138389" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636AF0Z86" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138389" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636omL1x1">
               <did>
@@ -236,7 +282,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Création et idées du Rassemblement démocratique des Résistants d’Inspiration Chrétienne (R.I.C.) ; création et idées du Mouvement Républicain Populaire.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138390" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636omL1x1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138390" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446366BDes3">
               <did>
@@ -248,7 +297,10 @@
               <scopecontent>
                 <p>&lt;p&gt;La politique et les jeunes ; les fiches du militant.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138391" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366BDes3" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138391" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446365Xbbf4">
               <did>
@@ -260,7 +312,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Réflexions sur les résultats des élections ; sa place dans le paysage politique français ; son avenir ; prémices de la naissance du Centre démocrate.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138392" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446365Xbbf4" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138392" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636S6Pl81">
               <did>
@@ -272,7 +327,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Mutation vers un nouveau parti.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138393" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636S6Pl81" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138393" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363sh5TZ">
               <did>
@@ -284,7 +342,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Historique et représentants du M.R.P. ; mise en route du C.D. ; statuts et orientations à définir.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138394" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363sh5TZ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138394" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446361bWdGI">
               <did>
@@ -296,7 +357,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Attributs ; projets de lois ; projet de référendum ; élections présidentielles ; textes de Jacques Duhamel.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138395" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446361bWdGI" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138395" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636iIV8a1">
               <did>
@@ -308,7 +372,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise en place d’une collaboration.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138396" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636iIV8a1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138396" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636VC0dEM">
               <did>
@@ -320,7 +387,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Programme commun avec le Parti communiste.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138397" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636VC0dEM" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138397" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636b6PWHA">
               <did>
@@ -332,7 +402,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Réflexions du M.R.P.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138398" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636b6PWHA" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138398" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446364fiBVU">
               <did>
@@ -344,7 +417,10 @@
               <scopecontent>
                 <p>&lt;p&gt;L’homme ; ses opinions politiques. In : "France forum", n°52 de novembre 1963.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138399" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446364fiBVU" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138399" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636SdqheE">
               <did>
@@ -356,7 +432,10 @@
               <scopecontent>
                 <p>&lt;p&gt;"Le M.R.P. vous parle", bulletin de liaison de l’amicale du M.R.P. avec des textes des principaux représentants du Mouvement, 1996-1998, lac.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138400" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636SdqheE" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138400" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446362lIv06">
               <did>
@@ -368,7 +447,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Liste et prix des légumes pour le service d’entraide.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138401" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446362lIv06" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138401" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636x6FMbw">
               <did>
@@ -380,7 +462,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Opinions sur l’amiral Darlan et le régime de Vichy dans la zone interdite ; instructions du cardinal Liénart au sujet de l’Action française ; Pierre Bayart et le travail obligatoire ; documents prêtés à Catherine Masson pour son livre sur le cardinal Liénart.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138402" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636x6FMbw" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138402" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636gBnSt1">
               <did>
@@ -392,7 +477,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Demande de M. Norbert Delplanque pour l’obtention du statut de résistant actif.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138403" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636gBnSt1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138403" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636rvcuYp">
               <did>
@@ -404,7 +492,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Ordre de réquisition pour le M.R.P. ; propos sur la résistance ; propos du cardinal Liénart au sujet du travail obligatoire ; discours de Pétain du 12 août 1941 ; libération de Roubaix ;  évènements de mai 1940 ; opinions sur l’amiral Darlan et le régime de Vichy dans la zone interdite par A. Delmasure.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138404" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636rvcuYp" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138404" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636tEIQuM">
               <did>
@@ -416,7 +507,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal catholique clandestin « Veritas » ; plaquette de propagande allemande sur le ravitaillement en France.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138405" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636tEIQuM" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138405" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636gJqT4O">
               <did>
@@ -428,7 +522,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Traitement des juifs par les allemands ; camps de concentration ; témoignages.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138406" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636gJqT4O" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138406" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463612o65c">
               <did>
@@ -440,7 +537,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Libération de la France et du Nord ; résistants et soldats mis à l’honneur.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138407" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463612o65c" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138407" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636oqTh9e">
               <did>
@@ -452,7 +552,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Derniers jours d’Hitler ; faux-testament d’Hitler ; libération de la France et du Nord ; femmes rasées.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138408" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636oqTh9e" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138408" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636CYbbMz">
               <did>
@@ -464,7 +567,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Création du Rassemblement démocratique des Résistants d'Inspiration Chrétienne (R.I.C.).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138409" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636CYbbMz" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138409" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636DlLm9p">
               <did>
@@ -476,7 +582,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Débarquement ; libération du Nord et de Roubaix.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138410" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636DlLm9p" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138410" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m017812446362V4Ul4">
@@ -485,7 +594,10 @@
               <unittitle>Mandats à Roubaix et à la Communauté Urbaine de Lille</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse B (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135133" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446362V4Ul4" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135133" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636L94OBu">
               <did>
                 <unitid>CAT1_VIE02_D01</unitid>
@@ -496,7 +608,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Retours et projets autour de l’aménagement et de l’urbanisme, le développement économique et industriel, le comité local d’action et de liaison des classes moyennes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135134" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636L94OBu" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135134" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636RE8HSx">
               <did>
@@ -508,7 +623,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Discussions et négociations autour des tarifs et de la circulation ; liens avec les usagers et avec le syndicat mixte.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135135" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636RE8HSx" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135135" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446366yqIXU">
               <did>
@@ -520,7 +638,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Elargissement des voies de circulation, création du SNELRT et du syndicat mixte.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135136" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366yqIXU" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135136" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ldHWu3">
               <did>
@@ -532,7 +653,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;L'Office Municipal des Sports (règlement et trésorerie), les sociétés sportives, Conseil Régional des Sports, exposition.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135137" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ldHWu3" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135137" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636P9uCUM">
               <did>
@@ -544,7 +668,10 @@
               <scopecontent>
                 <p>&lt;p&gt;La formation politique des jeunes et le conseil des jeunes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135138" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636P9uCUM" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135138" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636g6oaLh">
               <did>
@@ -556,7 +683,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Axes routiers, stationnement, VAL, prévention routière, liens avec les commerçants, piétonnisation.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135139" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636g6oaLh" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135139" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636dwYG7M">
               <did>
@@ -568,7 +698,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Quatre numéros du périodique d'information municipale : février 1965, mars 1966, décembre 1968, septembre 1970.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135140" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dwYG7M" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135140" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636bEUqfU">
               <did>
@@ -580,7 +713,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude et propositions menées par le Centre d’Expansion Régional Economiques et Sociales (CERES).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135141" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636bEUqfU" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135141" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636mByMsx">
               <did>
@@ -592,7 +728,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Fiscalité locale, incompatibilités relatives aux élections, office municipal des sports et médaille d’honneur pour les services rendus.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135142" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636mByMsx" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135142" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636PjIirg">
               <did>
@@ -604,7 +743,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Les assurances sociales, les impôts, les subventions allouées pour envoyer les enfants en colonies de vacances, le centre de postcure et de réadaptation sociale.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135143" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636PjIirg" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135143" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636SrbBZR">
               <did>
@@ -616,7 +758,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions pour un plan de détail et un plan de masse pour l’amélioration des axes d’accès, notamment le boulevard de Paris et le centre.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135144" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636SrbBZR" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135144" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636sGX0xV">
               <did>
@@ -628,6 +773,7 @@
               <scopecontent>
                 <p>&lt;p&gt;Pierre Catrice a été adjoint au maire en 1957.&lt;/p&gt;</p>
               </scopecontent>
+              <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244636sGX0xV" role="publication:current"/>
             </c>
           </c>
           <c level="subseries" id="m01781244636u8uF6g">
@@ -636,7 +782,10 @@
               <unittitle>Elections municipales, cantonales, législatives et présidentielles</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135145" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636u8uF6g" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135145" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m017812446361lbQP7">
               <did>
                 <unitid>CAT1_VIE03_D01</unitid>
@@ -644,7 +793,10 @@
                 <unitdate normal="1929">1929</unitdate>
                 <physdesc>&lt;p&gt;Périodique. Correspond au dossier C1 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135146" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446361lbQP7" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135146" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446365IvY3i">
               <did>
@@ -656,7 +808,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Résultats des élections législatives, municipales et cantonales ; la liste d’action familiale pour le progrès social et économique du MRP et un texte sur la famille.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135147" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446365IvY3i" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135147" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636tHACTx">
               <did>
@@ -665,7 +820,10 @@
                 <unitdate normal="1966">1961-1971</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, télégramme. Correspond au dossier C3 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135148" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636tHACTx" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135148" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636FJ5qBJ">
               <did>
@@ -674,7 +832,10 @@
                 <unitdate normal="1967">1967</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Périodique, tract, note manuscrite.- Correspond au dossier C4 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135149" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636FJ5qBJ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135149" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Ajsxam">
               <did>
@@ -683,7 +844,10 @@
                 <unitdate normal="1970">1970</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract, note manuscrite. Correspond au dossier C5 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135150" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Ajsxam" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135150" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636mhot6E">
               <did>
@@ -692,7 +856,10 @@
                 <unitdate normal="1973">1973</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract, note manuscrite. Correspond au dossier C6 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135151" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636mhot6E" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135151" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Gpj3FT">
               <did>
@@ -701,7 +868,10 @@
                 <unitdate normal="1977">1977</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, note manuscrite. Correspond au dossier C7 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135152" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Gpj3FT" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135152" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636dqqXHG">
               <did>
@@ -710,7 +880,10 @@
                 <unitdate normal="1979">1979</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, tract, note manuscrite, affiche. Correspond au dossier C8 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135153" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dqqXHG" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135153" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636TVDvYq">
               <did>
@@ -719,7 +892,10 @@
                 <unitdate normal="1981">1981-1982</unitdate>
                 <physdesc>&lt;p&gt;Périodique, coupure de presse, note manuscrite. Correspond au dossier C9 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135154" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636TVDvYq" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135154" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636WYYEo6">
               <did>
@@ -728,7 +904,10 @@
                 <unitdate normal="1983">1983</unitdate>
                 <physdesc>&lt;p&gt;Périodique. Correspond au dossier C10 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135155" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636WYYEo6" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135155" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636fs5hU1">
               <did>
@@ -737,7 +916,10 @@
                 <unitdate normal="1956">1925-1989</unitdate>
                 <physdesc>&lt;p&gt;Périodique, tract. Correspond au dossier C12 du carton C (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135156" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636fs5hU1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135156" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636AdEAyi">
@@ -746,7 +928,10 @@
               <unittitle>Catholicisme, Comité de loisirs et écoles libres</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse D (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135157" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636AdEAyi" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135157" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636o1T40F">
               <did>
                 <unitid>CAT1_VIE04_D01</unitid>
@@ -757,7 +942,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Association Catholique de la Jeunesse Française-ACJF (statuts, formations, conseils aux jeunes) et L’effort laïc de Roubaix ; interventions lors du colloque « 100 ans de catholicisme dans le Nord » de 1990 ; pèlerinage à Lourdes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135158" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636o1T40F" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135158" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636aP3Pgg">
               <did>
@@ -769,7 +957,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Statuts ; les jeunes et la politique.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135159" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636aP3Pgg" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135159" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Xemw3E">
               <did>
@@ -781,7 +972,10 @@
               <scopecontent>
                 <p>&lt;p&gt;La famille, l’école, les syndicats, la morale et le cinéma, la radio P.T.T. Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135160" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Xemw3E" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135160" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Zgf4aD">
               <did>
@@ -793,7 +987,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Aides financières de la ville ; liens entre le Comité des écoles libres, la municipalité et l’Evêché de Lille.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135161" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Zgf4aD" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135161" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636sfmaR3">
@@ -802,7 +999,10 @@
               <unittitle>Engagements à la Croix-Rouge, Nord Eclair et ENSAIT</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse F (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135162" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636sfmaR3" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135162" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m017812446369oS53O">
               <did>
                 <unitid>CAT1_VIE06_D01</unitid>
@@ -813,7 +1013,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Communication nationale ; activités et plan des lieux de la section roubaisienne entre 1978 et 1990.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135163" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446369oS53O" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135163" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636M4f6fL">
               <did>
@@ -825,7 +1028,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Création, membres fondateurs, statuts, financement et actionnaires.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135164" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636M4f6fL" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135164" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636DjWMYr">
               <did>
@@ -837,7 +1043,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Convention avec l’Etat de 1882 et modifications de 1913, budget et activités ; création du Centre de recherche et des enseignements supérieurs textiles (CREST).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135165" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636DjWMYr" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135165" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636i9utVv">
@@ -849,7 +1058,10 @@
             <scopecontent>
               <p>&lt;p&gt;Il n'y a pas de dossier D14&lt;/p&gt;</p>
             </scopecontent>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR135166" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636i9utVv" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135166" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636WIznXg">
               <did>
                 <unitid>CAT1_VIE07_D01</unitid>
@@ -857,7 +1069,10 @@
                 <unitdate normal="1976">1976</unitdate>
                 <physdesc>&lt;p&gt;Plan. Correspond au dossier G1 du carton G (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135167" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636WIznXg" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135167" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446369iGFW2">
               <did>
@@ -866,7 +1081,10 @@
                 <unitdate normal="1963">1963-1964</unitdate>
                 <physdesc>&lt;p&gt;Plan. Correspond au dossier G2 du carton G (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135168" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446369iGFW2" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135168" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636bBDR05">
               <did>
@@ -878,7 +1096,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Commission technique et réseau.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135169" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636bBDR05" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135169" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Aq5tiR">
               <did>
@@ -890,7 +1111,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Sujets traités : transports en commun et le syndicat mixte d’exploitation des transports en commun ; travaux de voieries ; VIIe plan.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135170" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Aq5tiR" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135170" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MySF0O">
               <did>
@@ -902,7 +1126,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Généralités ; projets pour la ville de Lille et les villes voisines ; projet de règlement d’urbanisme de Roubaix-Tourcoing.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135171" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MySF0O" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135171" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636i0frF1">
               <did>
@@ -914,7 +1141,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Syndicat mixte d’exploitation des transports en commun ; Comité des transports de voyageurs ; traité de partage des responsabilités entre collectivités locales et exploitants de services de transports urbains.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135172" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636i0frF1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135172" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636b27ymE">
               <did>
@@ -926,7 +1156,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Caractéristiques des réseaux de transports urbain ; mise en service dans la ville de Villeneuve d’Ascq ; financement.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135173" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636b27ymE" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135173" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636xd7Rx2">
               <did>
@@ -938,7 +1171,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Création et organisation interne ; invitations à des déjeuners-débats ; comptes- rendus de réunions.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135174" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636xd7Rx2" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135174" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Rp8HrU">
               <did>
@@ -950,7 +1186,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Historique ; résultats avec la liste des anciennes et nouvelles activités des entreprises fermées, partiellement ou totalement, et réutilisables.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135175" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Rp8HrU" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135175" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636EmgIWa">
               <did>
@@ -962,7 +1201,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Voierie, aménagement, rénovation de centres villes, EPALE ; les transports en commun dans la métropole.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135176" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636EmgIWa" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135176" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Z495dF">
               <did>
@@ -974,7 +1216,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Mise en place de la gratuité pour les plus de 65 ans.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135177" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Z495dF" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135177" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636YLLOnp">
               <did>
@@ -986,7 +1231,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma d’aménagement et d’urbanisme du secteur est de Lille.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135178" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636YLLOnp" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135178" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Cj0TrD">
               <did>
@@ -998,7 +1246,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Règlement intérieur, membres et activités.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135179" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Cj0TrD" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135179" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636fRyUiJ">
               <did>
@@ -1010,7 +1261,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Livret pédagogique.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135180" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636fRyUiJ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135180" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636H4s3DT">
               <did>
@@ -1022,7 +1276,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Détermination du périmètre de l’agglomération et du siège de la communauté ; loi et représentation des communautés urbaines ; décret fixant les modalités des enquêtes relatives aux communautés urbaines.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135181" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636H4s3DT" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135181" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446367IWtjq">
               <did>
@@ -1034,7 +1291,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Décrets et circulaires du Journal Officiel parus entre 1966 et 1968.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135182" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446367IWtjq" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135182" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446368pYS4i">
               <did>
@@ -1046,7 +1306,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Transports dans la métropole ; autoroute du littoral ; TGV dans la région du Nord-Pas-de-Calais.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135183" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446368pYS4i" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135183" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363XJyvM">
               <did>
@@ -1058,7 +1321,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Revue de presse du 15 au 31 août 1973.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135184" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363XJyvM" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135184" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636L2pqQ1">
               <did>
@@ -1070,7 +1336,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Zones d’habitat, centres urbains, zones à restructurer et opérations concertées.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135185" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636L2pqQ1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135185" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636E3m62O">
               <did>
@@ -1082,7 +1351,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma directeur d’aménagement et d’urbanisme du secteur est de Lille ; questionnaire.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135186" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636E3m62O" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135186" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636F0uqLD">
               <did>
@@ -1094,7 +1366,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Délimitation de l’agglomération selon l’INSEE, du périmètre du groupement d’urbanisme et de l’aire d’étude du programme de modernisation et d’équipement ; chiffres et densité de la population municipale des communes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135187" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636F0uqLD" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135187" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636c9Uo1n">
               <did>
@@ -1106,7 +1381,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Rapport de présentation de l’Agence d’urbanisme de la Communauté Urbaine de Lille pour les communes de Roubaix et de Tourcoing.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135188" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636c9Uo1n" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135188" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446368Upx22">
               <did>
@@ -1118,7 +1396,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Plan de circulation et indication des parkings ; indication des équipements économiques sportifs, culturels et zones vertes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135189" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446368Upx22" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135189" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636u8hFVp">
               <did>
@@ -1130,7 +1411,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Objectifs, organisation spatiale, administrative et financière ; grands axes routiers de circulation.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135190" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636u8hFVp" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135190" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ittqJr">
               <did>
@@ -1143,7 +1427,10 @@
                 <p>&lt;p&gt;Les problèmes socio-économiques de Roubaix.&lt;/p&gt;&#13;
 &lt;p&gt; &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135191" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ittqJr" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135191" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636PJq6mv">
               <did>
@@ -1155,7 +1442,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude pour promouvoir l’arrondissement de Lille au rang de métropole.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135192" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636PJq6mv" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135192" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636vdEC6T">
               <did>
@@ -1167,7 +1457,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Les grands objectifs du schéma directeur d’aménagement et d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135193" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636vdEC6T" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135193" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636PmxygP">
               <did>
@@ -1179,7 +1472,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Schéma pour le TGV, les liaisons suburbaines et les liaisons urbaines en site réservé.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135194" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636PmxygP" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135194" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636eG7caX">
               <did>
@@ -1191,7 +1487,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Avant-projet de schéma directeur d’aménagement et d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135195" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636eG7caX" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135195" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636052uOM">
               <did>
@@ -1203,7 +1502,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Etude d’une politique d’aménagement. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135196" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636052uOM" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135196" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463631rmF0">
               <did>
@@ -1215,7 +1517,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Résultats de l’enquête menée auprès des conducteurs transitant rue Jean-Jaurès, au carrefour du SART de Villeneuve d’Ascq.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135197" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463631rmF0" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135197" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636XbiTfT">
               <did>
@@ -1227,7 +1532,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Le « plan Bernard ».&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135198" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636XbiTfT" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135198" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636zZR4e8">
               <did>
@@ -1239,7 +1547,10 @@
               <scopecontent>
                 <p>&lt;p&gt;La dimension urbaine et industrielle du côté régional et la dimension propre de cette métropole.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135199" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636zZR4e8" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135199" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636JDSSZR">
               <did>
@@ -1251,7 +1562,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Propos sur la métropole Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135200" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636JDSSZR" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135200" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636aWMGTS">
               <did>
@@ -1263,7 +1577,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Définition du périmètre urbain ; organisation du transport des voyageurs ; lignes régulières.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135201" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636aWMGTS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135201" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ashmf1">
               <did>
@@ -1275,7 +1592,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Questions du Groupent des associations d’usagers et réponses du vice-président de la CUDL.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135202" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ashmf1" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135202" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636y3BEIb">
               <did>
@@ -1287,7 +1607,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Développement des lignes d’autobus à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135203" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636y3BEIb" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135203" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636gsD5f3">
               <did>
@@ -1299,7 +1622,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Revue de presse.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135204" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636gsD5f3" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135204" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636pOFuep">
               <did>
@@ -1311,7 +1637,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Projet de réalisation d’un parking dans le centre de Lille.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR135205" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636pOFuep" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135205" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636YAd7T3">
@@ -1320,7 +1649,10 @@
               <unittitle>Tourisme</unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR138411" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636YAd7T3" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138411" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636Y1thce">
               <did>
                 <unitid>CAT1_VIE09_D01</unitid>
@@ -1331,7 +1663,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte dressée par les ateliers Blondel de la Rougery de Paris.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138412" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Y1thce" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138412" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636gcGezF">
               <did>
@@ -1343,7 +1678,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte Michelin de la zone française, belge et allemande avec les ponts détruits et les routes en mauvais état.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138413" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636gcGezF" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138413" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636vgS92e">
               <did>
@@ -1355,7 +1693,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte avec les distances de côtes à côtes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138414" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636vgS92e" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138414" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Mffjr2">
               <did>
@@ -1367,7 +1708,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte Michelin n°102 de juin-août 1944.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138415" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Mffjr2" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138415" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636JoarWj">
               <did>
@@ -1379,7 +1723,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Guide Michelin des stations thermales de l’Est et des Vosges du Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138416" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636JoarWj" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138416" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636XJm30s">
               <did>
@@ -1391,7 +1738,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Guide touristique avec 25 promenades sélectionnées.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138417" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636XJm30s" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138417" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ChYr6E">
               <did>
@@ -1403,7 +1753,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte des évènements européens : Pays Balkaniques, Allemagne, Russie, Angleterre, Côtes africaines, Turquie…&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138418" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ChYr6E" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138418" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446360wBDFF">
               <did>
@@ -1412,7 +1765,10 @@
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Plan. Correspond au dossier I8 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138419" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446360wBDFF" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138419" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636uAmgHE">
               <did>
@@ -1424,7 +1780,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Interview exclusive du premier ministre Pierre Mauroy dans le journal &lt;em&gt;La Croix du Nord&lt;/em&gt; du 31 décembre 1982.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138420" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636uAmgHE" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138420" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636tL37fY">
               <did>
@@ -1436,7 +1795,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les principaux avantages accordés aux assurés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138421" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636tL37fY" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138421" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ic1YA7">
               <did>
@@ -1448,7 +1810,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Liasse de papier carbone vierge dans son emballage d'origine de la marque Kores.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138422" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ic1YA7" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138422" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363hetvF">
               <did>
@@ -1460,7 +1825,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Modèles de rédaction administrative : choix de discours ; traité complet de la correspondance.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138423" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363hetvF" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138423" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MfZTTD">
               <did>
@@ -1469,7 +1837,10 @@
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Carte. Correspond au dossier I13 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138424" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MfZTTD" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138424" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636lCJyRE">
               <did>
@@ -1478,7 +1849,10 @@
                 <unitdate normal="1950">1950</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Carte. Correspond au dossier I14 du carton I (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138425" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636lCJyRE" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138425" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636pVTim3">
               <did>
@@ -1490,7 +1864,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Plan de Lille avec les villes voisines.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138426" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636pVTim3" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138426" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636V6qM6I">
               <did>
@@ -1502,7 +1879,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Plan de Lille avec les villes voisines.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138427" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636V6qM6I" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138427" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636I4zxQa">
@@ -1511,7 +1891,10 @@
               <unittitle>Abbé Paul Catrice (1905-1981) </unittitle>
               <physdesc>&lt;p&gt;Correspond aux caisses E et Ebis (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR138428" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636I4zxQa" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138428" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636TOUIUH">
               <did>
                 <unitid>CAT1_VIE05_D01</unitid>
@@ -1522,7 +1905,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Organisation et traitement du don ; publications et CV de Paul Catrice ; fiches documentaires sur certains de ses écrits.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138429" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636TOUIUH" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138429" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636wWTMpg">
               <did>
@@ -1534,7 +1920,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Recherche et controverse de chrétiens sur le retour des Juifs et l’apocalyptisme du XIIe au XIIIe siècle (partie de la thèse non soutenue).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138430" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636wWTMpg" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138430" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636dEiT0v">
               <did>
@@ -1546,7 +1935,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Correspondance avec l’évêché de Lille et avec celui de Douala en République Unie du Cameroun ; courrier de Monseigneur Dewailly ; testament ; concession oratoire ; présentation de l’abbé Jules Declercq ; Caisse d’allocation aux prêtres âgés. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138431" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dEiT0v" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138431" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636XCJdgJ">
               <did>
@@ -1558,7 +1950,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Lutte contre l’esclavagisme et le racisme à travers différents écrits jansénistes et antisémites. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138432" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636XCJdgJ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138432" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636uA2wEp">
               <did>
@@ -1570,7 +1965,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Refus de publication dans la Revue du Nord ; demande de documentation sur l’Islam à Dakar ; remerciement de l’Evêché du Cameroun.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138433" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636uA2wEp" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138433" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636qtX3jY">
               <did>
@@ -1582,7 +1980,10 @@
               <scopecontent>
                 <p>&lt;p&gt;L’église de Lille missionnaire : un siècle de vie missionnaire ; Roubaix au-delà des mers ; L’harmonie entre l’Eglise et le judaïsme ; L’homme aux mains de lumière.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138434" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636qtX3jY" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138434" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636IpPlYm">
               <did>
@@ -1594,7 +1995,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Articles de Zenati parus dans le journal « La voix indigène », journal franco-musulman de Constantine.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138435" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636IpPlYm" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138435" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636HWSjQV">
               <did>
@@ -1606,7 +2010,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Différents titres de revues en langue esperanto ou sur la thématique de cette langue.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138436" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636HWSjQV" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138436" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636nMYZ6r">
               <did>
@@ -1618,7 +2025,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Points de vue politique : au temps de Napoléon Ier ; la conférence pour la IVe Internationale de juillet 1936 ; le tsar.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138437" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636nMYZ6r" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138437" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636TYuUCz">
               <did>
@@ -1630,7 +2040,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Le Petit missionnaire de Marie, écho des missions des marianistes au Japon".&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138438" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636TYuUCz" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138438" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ZyjRR5">
               <did>
@@ -1642,7 +2055,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions de résolutions et rapports sur différents sujets.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138439" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ZyjRR5" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138439" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636GzjoOX">
               <did>
@@ -1654,7 +2070,10 @@
               <scopecontent>
                 <p>&lt;p&gt;"Solidarité internationale Antifasciste", journal de l’organe de la S.I.A. : n°1 à 39 (manque 23).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138440" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636GzjoOX" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138440" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636pVwYfI">
               <did>
@@ -1666,7 +2085,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Françaises d’Afrique", organe d’Union féminine civique et sociale d’Afrique du Nord : n°4 à 94 (lac).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138441" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636pVwYfI" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138441" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636h1yZYi">
               <did>
@@ -1678,7 +2100,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Chronique "Pour ceux de la terre", extrait du journal "Le Populaire" du 8/01 au 31/12/1938.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138442" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636h1yZYi" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138442" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636hBSSvs">
               <did>
@@ -1690,7 +2115,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "Il Corriere" : organo delle missioni cattoliche italiane in Europa, du 5/10/39 au 09/05/1940.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138443" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636hBSSvs" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138443" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636xSlIpZ">
               <did>
@@ -1702,7 +2130,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Rubriques "Scène de vie bulgare" et "Pour connaître la Bulgarie" de "La parole bulgare », journal du 13/03/1938 au 28/05/1939. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138444" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636xSlIpZ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138444" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463645P5zF">
               <did>
@@ -1714,7 +2145,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Contestation révolutionnaire : journaux "La Lutte", 3 n° de 1937 et "Révision : revue d’études révolutionnaires», n°1 de février 1938.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138445" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463645P5zF" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138445" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446365ahFEH">
               <did>
@@ -1726,7 +2160,10 @@
               <scopecontent>
                 <p>&lt;p&gt;« Juin 36 » : journal de l'organe du parti socialiste ouvrier et paysan, 4 numéros entre 1938 et 1939. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138446" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446365ahFEH" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138446" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636RE7jma">
               <did>
@@ -1738,7 +2175,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal "La Croix", du 29/08 au 18/09/1933.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138447" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636RE7jma" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138447" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636X8FtPu">
               <did>
@@ -1750,7 +2190,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journal « La Voix indigène".&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138448" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636X8FtPu" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138448" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ZBse1q">
               <did>
@@ -1762,7 +2205,10 @@
               <scopecontent>
                 <p>&lt;p&gt;"Françaises d’Afrique", journal de l'organe d’Union féminine civique et sociale d’Afrique du Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138449" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ZBse1q" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138449" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Xu7vSr">
               <did>
@@ -1774,7 +2220,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Journaux « Echo de Betheny », n°4 de décembre 1912 ; "L’écho d’Afrique" de 1933 à 1940 (n°2-4) lac.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138450" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Xu7vSr" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138450" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636mQ08oh">
               <did>
@@ -1786,6 +2235,7 @@
               <scopecontent>
                 <p>&lt;p&gt;En 1947 Paul Catrice est conseiller de l'Union Française.&lt;/p&gt;</p>
               </scopecontent>
+              <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244636mQ08oh" role="publication:current"/>
             </c>
           </c>
           <c level="subseries" id="m01781244636Em4gxG">
@@ -1794,7 +2244,10 @@
               <unittitle>Métro, mongy et train</unittitle>
               <physdesc>&lt;p&gt;Correspond aux caisses N (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR138451" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Em4gxG" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138451" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636uU3o1n">
               <did>
                 <unitid>CAT1_VIE14_D01</unitid>
@@ -1802,7 +2255,10 @@
                 <unitdate normal="1970">1970</unitdate>
                 <physdesc>&lt;p style="text-align: justify;"&gt;Monographie. Correspond au dossier N1 du carton N (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
               </did>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138452" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636uU3o1n" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138452" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636p2IsLH">
               <did>
@@ -1814,7 +2270,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Traité de concession pour sa réalisation : exécution des travaux, offre de la société Matra.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138453" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636p2IsLH" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138453" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636FF223Q">
               <did>
@@ -1826,7 +2285,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conception, réalisation, stations, équipements et rames.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138454" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636FF223Q" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138454" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636beb4yt">
               <did>
@@ -1838,7 +2300,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conception, réalisation, stations, équipements et rames.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138455" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636beb4yt" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138455" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636thS9Tl">
               <did>
@@ -1850,7 +2315,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Consultation des constructeurs.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138456" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636thS9Tl" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138456" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636aXEgFV">
               <did>
@@ -1862,7 +2330,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les objectifs, le programme et le parti d’urbanisme.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138457" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636aXEgFV" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138457" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Fey698">
               <did>
@@ -1874,7 +2345,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etude de système pour un moyen de transport en commun discontinu en site propre.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138458" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Fey698" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138458" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636dgjm88">
               <did>
@@ -1886,7 +2360,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Comparaison  technique des offres des soumissionnaires pour les équipements d’automatismes fixes et embarqués et dispositifs de sécurité.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138459" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dgjm88" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138459" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636UuwjWL">
               <did>
@@ -1898,7 +2375,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Politique de la Communauté Urbaine de Lille.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138460" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636UuwjWL" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138460" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636glBcHI">
               <did>
@@ -1910,7 +2390,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Les tracés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138461" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636glBcHI" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138461" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446366R1x0y">
               <did>
@@ -1922,7 +2405,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Aménagement du boulevard général de Gaulle et desserte des résidences Armenonville et Marly.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138462" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366R1x0y" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138462" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463677yiZW">
               <did>
@@ -1933,7 +2419,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etudes préliminaires, rôle de la RATP, tracé schématique de la première ligne, estimation de son infrastructure et de son financement.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138463" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463677yiZW" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138463" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636VoHmaV">
               <did>
@@ -1945,7 +2434,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revue "&lt;em&gt;Transports urbains&lt;/em&gt;", n°29 d’oct/déc. 1974 : innovations de 1958 à 1974, les projets futurs, les métros sans personnel de conduite, développement des transports nouveaux automatiques dans les autres pays occidentaux.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138464" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636VoHmaV" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138464" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636jM8jhx">
               <did>
@@ -1957,7 +2449,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro, propositions de réseau à long terme et à moyen terme par la Commission technique du métro.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138465" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636jM8jhx" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138465" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ngEymA">
               <did>
@@ -1969,7 +2464,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Résultats des concours relatifs aux lots caisse et équipement mécanique, équipements électriques fixes et embarqués, équipements d’automatismes fixes et embarqués et dispositifs de sécurité et équipements de contrôles d’admission et péages.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138466" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ngEymA" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138466" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636XlIhXb">
               <did>
@@ -1981,7 +2479,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Notes sur les transports urbains et retour d’enquête par la Direction Départementale de l’équipement, la CUDL, l’Union des syndicats de la métropole Nord et la Compagnie générale industrielle de transports.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138467" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636XlIhXb" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138467" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636GyduHZ">
               <did>
@@ -1993,7 +2494,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138468" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636GyduHZ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138468" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636TL0wol">
               <did>
@@ -2005,7 +2509,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau de métro, propositions de réseau à long terme et à moyen terme par la Commission technique du métro.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138469" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636TL0wol" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138469" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636LZXs0Z">
               <did>
@@ -2017,7 +2524,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Planning de réalisation de la phase du métro ligne Villeneuve d’Ascq-Mons-Lille ; priorité des mongys sur le Grand boulevard avec prolongation des feux ; création d’un passage piéton rue de la Clef et des bons enfants et quelques informations sur des coûts.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138470" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636LZXs0Z" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138470" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636BMD6ts">
               <did>
@@ -2029,7 +2539,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Nouvelles lignes dans la zone de Roubaix-Tourcoing ; schéma des lignes du réseau de la compagnie générale industrielle de transports ; plan de la desserte en transport en commun après métro.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138471" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636BMD6ts" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138471" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636yHAFU0">
               <did>
@@ -2041,7 +2554,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Croquis du périmètre.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138472" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636yHAFU0" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138472" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446367xWtJc">
               <did>
@@ -2053,7 +2569,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Financement, programme d’investissements pour le compte de la CUDL, jury et étude.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138473" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446367xWtJc" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138473" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Y0hF9Z">
               <did>
@@ -2065,7 +2584,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Histoire du métro, questions les plus fréquemment posées et informations sur les différents financements.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138474" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Y0hF9Z" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138474" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636WCmqWq">
               <did>
@@ -2077,7 +2599,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revue « &lt;em&gt;En direct du métro &lt;/em&gt;», n°1 de janvier 1979 : historique du projet du métro de Lille, planning et avancées des travaux, point technique sur la galerie de circulation du métro.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138475" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636WCmqWq" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138475" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636SAYjWw">
               <did>
@@ -2089,7 +2614,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projets d’investissement en faveur des transports collectifs (autobus, trains, tramway) et plus particulièrement du métro (véhicules, exploitation, usagers, ligne 1 et dates prévisionnelles).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138476" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636SAYjWw" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138476" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363HJ3cQ">
               <did>
@@ -2101,7 +2629,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Présentation au syndicat mixte d’exploitation des transports en commun de la CUDL du système VAL (Véhicules automatiques légers) et des bénéfices pour la ville et les usagers.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138477" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363HJ3cQ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138477" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446369qmO8z">
               <did>
@@ -2113,7 +2644,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Aménagement d’un réseau de transport collectif en site propre, plans généraux réalisation Communauté Urbaine de Lille, Direction Départementale de l’Equipement du Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138478" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446369qmO8z" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138478" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363mA9lP">
               <did>
@@ -2125,7 +2659,10 @@
               <scopecontent>
                 <p>&lt;p&gt;Propositions de tracés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138479" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363mA9lP" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138479" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636wA8dBW">
               <did>
@@ -2137,7 +2674,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Avantages et inconvénients du métro sur pneus.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138480" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636wA8dBW" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138480" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Eho1X0">
               <did>
@@ -2149,7 +2689,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt; Article de "&lt;em&gt;Le monde&lt;/em&gt;" du 7/11/1973 : circulation sans conducteur.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138481" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Eho1X0" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138481" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636bjT8DA">
               <did>
@@ -2161,7 +2704,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Press-book.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138482" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636bjT8DA" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138482" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446369zUnDf">
               <did>
@@ -2173,7 +2719,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Définition du réseau du métro dans l’agglomération.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138483" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446369zUnDf" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138483" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636aeDShS">
               <did>
@@ -2185,7 +2734,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Communication sur le système et le fonctionnement du service.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138484" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636aeDShS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138484" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636tQx2ZS">
               <did>
@@ -2197,7 +2749,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Politique de la CUDL.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138485" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636tQx2ZS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138485" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636pOEW7z">
               <did>
@@ -2209,7 +2764,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Résumé et conclusion par le Ministère des Transports-Direction Départementale de l’Equipement du Nord.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138486" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636pOEW7z" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138486" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363X1THH">
               <did>
@@ -2221,7 +2779,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Présentation du projet ; concessions.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138487" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363X1THH" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138487" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636SAlB0t">
               <did>
@@ -2233,7 +2794,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Etude des possibilités de rénovation urbaine dans le quartier de Wazemmes.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138488" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636SAlB0t" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138488" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636maQ0hH">
               <did>
@@ -2245,7 +2809,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet, lignes et arrêts.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138489" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636maQ0hH" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138489" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MgF6JI">
               <did>
@@ -2257,7 +2824,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Revues "&lt;em&gt;En direct du métro&lt;/em&gt;" n°2 à 12 ; "&lt;em&gt;La Croix du Nord&lt;/em&gt;" n°629 du 21/11/1980) : communication de la CUDL ; projet de la ligne 2 dans la presse.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138490" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MgF6JI" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138490" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636ZpRbbw">
               <did>
@@ -2269,7 +2839,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Press-book.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138491" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636ZpRbbw" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138491" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636XMjLOQ">
               <did>
@@ -2281,7 +2854,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Dossier de concession.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138492" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636XMjLOQ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138492" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Pe6EgR">
               <did>
@@ -2293,7 +2869,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Propositions pour les tracés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138493" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Pe6EgR" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138493" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446366Drr40">
               <did>
@@ -2305,7 +2884,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Compte-rendu du jury VAL et point des études : étude paramétrique de système, dossiers de concours sur les différents lots, solution d’automatisme et analyse détaillée des offres d’automatisme.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138494" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366Drr40" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138494" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636EjLlh6">
               <did>
@@ -2317,7 +2899,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Avantages et inconvénients des deux tracés du TGV dans le Nord-Pas-de-Calais.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138495" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636EjLlh6" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138495" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446361ATxZx">
               <did>
@@ -2329,7 +2914,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Ligne ferroviaire de Somain à Halluin, partie Ascq-Lannoy.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138496" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446361ATxZx" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138496" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
           <c level="subseries" id="m01781244636djGZHB">
@@ -2338,7 +2926,10 @@
               <unittitle>Foyer de Jeunes Travailleurs et Association pour le Logement des Jeunes Isolés </unittitle>
               <physdesc>&lt;p&gt;Correspond à la caisse H (système de classement de Bernard Catrice).&lt;/p&gt;</physdesc>
             </did>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNR138497" role="publication:previous"/>
+            <daogrp>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636djGZHB" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138497" role="publication:previous"/>
+            </daogrp>
             <c level="file" id="m01781244636crM0F6">
               <did>
                 <unitid>CAT1_VIE08_D01</unitid>
@@ -2349,7 +2940,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Réunions du Conseil d’administration ; situation financière.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138498" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636crM0F6" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138498" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636cb2v1m">
               <did>
@@ -2361,7 +2955,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Liens avec la préfecture, la mairie et le département.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138499" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636cb2v1m" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138499" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636lPG5DS">
               <did>
@@ -2373,7 +2970,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Création ; inauguration ; liens avec l’Association pour le Logement des Jeunes Isolés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138500" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636lPG5DS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138500" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636CtLnwS">
               <did>
@@ -2385,7 +2985,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activité et financiers).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138501" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636CtLnwS" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138501" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446360PJqnr">
               <did>
@@ -2397,7 +3000,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Carte de membre actif ; réflexions pour l’étude d’un encadrement ; compte-rendu de réunions.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138502" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446360PJqnr" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138502" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636B6bqB4">
               <did>
@@ -2409,7 +3015,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activités et financiers) ; statuts ; organigramme ; restauration ; rapport moral.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138503" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636B6bqB4" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138503" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636MrEPCb">
               <did>
@@ -2421,7 +3030,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet du foyer avec devis et plans.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138504" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MrEPCb" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138504" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m0178124463692tDT9">
               <did>
@@ -2433,7 +3045,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Gestion par l’Association pour le Logement des Jeunes Isolés.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138505" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463692tDT9" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138505" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636nCqijl">
               <did>
@@ -2445,7 +3060,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapports d’activités.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138506" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636nCqijl" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138506" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636hlvf7V">
               <did>
@@ -2457,7 +3075,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Inauguration ; cessation d’activité.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138507" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636hlvf7V" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138507" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636zcnl4Q">
               <did>
@@ -2469,7 +3090,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Projet de création par l’ALJI ; exemple de celui de Dijon.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138508" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636zcnl4Q" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138508" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636OecgHf">
               <did>
@@ -2481,7 +3105,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Demande de subvention au conseil général du Nord par l’ALJI.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138509" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636OecgHf" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138509" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636J05BBP">
               <did>
@@ -2493,7 +3120,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Demande d’inscription au plan d’équipement social par l’ALJI.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138510" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636J05BBP" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138510" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363WUfdU">
               <did>
@@ -2505,7 +3135,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière (rapports d’activité et financiers).&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138511" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363WUfdU" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138511" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636fbbaCa">
               <did>
@@ -2517,7 +3150,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapport sur les jeunes travailleurs déplacés sur Roubaix.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138512" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636fbbaCa" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138512" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636TZsujb">
               <did>
@@ -2529,7 +3165,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Vie du quartier ; vie des jeunes ; vie du club.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138513" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636TZsujb" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138513" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636YTZQG4">
               <did>
@@ -2541,7 +3180,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Conventions ; demandes de subventions par l’ALJI ; renseignements administratifs.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138514" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636YTZQG4" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138514" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636SI43S7">
               <did>
@@ -2553,7 +3195,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Informations de l’Union Régionale Interfédérale de Lille ; comptes d’exploitation ; liens possibles avec le Club des jeunes de la Guinguette.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138515" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636SI43S7" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138515" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446364ZeBvV">
               <did>
@@ -2565,7 +3210,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Convention avec l’Office public d’H.L.M. ; contrat avec la Générale de restauration ; budget de fonctionnement.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138516" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446364ZeBvV" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138516" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636FSJmvt">
               <did>
@@ -2577,7 +3225,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Comptes d’exploitation.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138517" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636FSJmvt" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138517" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636Vh7t9u">
               <did>
@@ -2589,7 +3240,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière ; tarifs de restauration ; règles de licenciement.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138518" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Vh7t9u" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138518" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446368SFX0n">
               <did>
@@ -2601,7 +3255,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Difficultés financières dans le paiement des loyers. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138519" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446368SFX0n" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138519" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636VgGReV">
               <did>
@@ -2613,7 +3270,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Situation financière ; paiement de la taxe d’habitation. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138520" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636VgGReV" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138520" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636pn6AAm">
               <did>
@@ -2625,7 +3285,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Rapport moral. &lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138521" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636pn6AAm" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138521" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m01781244636mzuqMt">
               <did>
@@ -2637,7 +3300,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Analyse de gestion ; rapport financier ; subventions du Conseil Général du Nord ; organisation de la semaine d’action des foyers de jeunes travailleurs.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138522" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636mzuqMt" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138522" role="publication:previous"/>
+              </daogrp>
             </c>
             <c level="file" id="m017812446363DJneZ">
               <did>
@@ -2649,7 +3315,10 @@
               <scopecontent>
                 <p>&lt;p style="text-align: justify;"&gt;Informations et courriers administratifs. Inauguration.&lt;/p&gt;</p>
               </scopecontent>
-              <dao href="https://www.bn-r.fr/ark:/20179/BNR138523" role="publication:previous"/>
+              <daogrp>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446363DJneZ" role="publication:current"/>
+                <daoloc href="https://www.bn-r.fr/ark:/20179/BNR138523" role="publication:previous"/>
+              </daogrp>
             </c>
           </c>
         </c>
@@ -2658,14 +3327,20 @@
             <unitid>CAT1_ENT</unitid>
             <unittitle>Entreprise familiale</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR135206" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446369EwSVZ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135206" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636JluZH2">
           <did>
             <unitid>CAT1_GEN</unitid>
             <unittitle>Généalogie et famille</unittitle>
           </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR135207" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636JluZH2" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135207" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
       <c level="subfonds" id="m01781244636J8r5S8">
@@ -2674,7 +3349,10 @@
           <unittitle>Famille Delmasure</unittitle>
           <unitdate>à finaliser avec la réalisation de l'inventaire</unitdate>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR135208" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636J8r5S8" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135208" role="publication:previous"/>
+        </daogrp>
       </c>
       <c level="subfonds" id="m01781244636QaYpgR">
         <did>
@@ -2682,14 +3360,20 @@
           <unittitle>Scoutisme à Roubaix</unittitle>
           <unitdate>à finaliser avec la réalisation de l'inventaire</unitdate>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR135209" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636QaYpgR" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135209" role="publication:previous"/>
+        </daogrp>
       </c>
       <c level="subfonds" id="m01781244636MUYyWs">
         <did>
           <unitid>CAT4</unitid>
           <unittitle>Informations sur le fonds issues de Bernard Catrice</unittitle>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR135210" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MUYyWs" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR135210" role="publication:previous"/>
+        </daogrp>
       </c>
     </dsc>
   </archdesc>

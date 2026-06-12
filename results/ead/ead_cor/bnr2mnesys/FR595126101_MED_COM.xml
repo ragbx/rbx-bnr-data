@@ -58,6 +58,7 @@
       <genreform>Documents d\'archives</genreform>
       <subject source="theme">Religion</subject>
     </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244636R2wEMW" role="publication:current"/>
     <dsc>
       <c level="subfonds" id="m01781244636W3vgqj">
         <did>
@@ -66,7 +67,10 @@
           <unitdate normal="1972">1952-1992</unitdate>
           <physdesc>&lt;p&gt;2 boîtes.&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124298" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636W3vgqj" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124298" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m01781244636xdwAqz">
           <did>
             <unitid>COM1_CCI_D01</unitid>
@@ -81,7 +85,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124299" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636xdwAqz" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124299" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636osF7bm">
           <did>
@@ -96,7 +103,10 @@
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124300" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636osF7bm" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124300" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636MbSTwb">
           <did>
@@ -113,7 +123,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124301" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MbSTwb" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124301" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636EcDWFu">
           <did>
@@ -125,7 +138,10 @@
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124302" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636EcDWFu" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124302" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636AsUXdg">
           <did>
@@ -141,7 +157,10 @@
             <subject source="chrono">1960-1969</subject>
             <subject source="chrono">1970-1979</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124303" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636AsUXdg" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124303" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m017812446360rmq7Y">
           <did>
@@ -156,7 +175,10 @@
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124304" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446360rmq7Y" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124304" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636shiRFM">
           <did>
@@ -173,7 +195,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124305" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636shiRFM" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124305" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m017812446366fWmmD">
           <did>
@@ -188,7 +213,10 @@
           <controlaccess>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124306" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366fWmmD" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124306" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636x8BdSq">
           <did>
@@ -203,7 +231,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124307" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636x8BdSq" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124307" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636Fo9D2S">
           <did>
@@ -220,7 +251,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124308" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Fo9D2S" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124308" role="publication:previous"/>
+          </daogrp>
         </c>
         <c level="series" id="m01781244636MZieDf">
           <did>
@@ -237,7 +271,10 @@
             <subject source="chrono">1970-1979</subject>
             <subject source="chrono">1980-1989</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124309" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MZieDf" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124309" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
       <c level="subfonds" id="m01781244636f3iX7B">
@@ -247,7 +284,10 @@
           <unitdate normal="1945">1945-1946</unitdate>
           <physdesc>&lt;p&gt;1 dossier.&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124310" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636f3iX7B" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124310" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m01781244636caxQSB">
           <did>
             <unitid>COM2_UJJ_D01</unitid>
@@ -262,7 +302,10 @@
             <subject source="chrono">1939-1945</subject>
             <subject source="chrono">1946-1959</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124311" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636caxQSB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124311" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
       <c level="subfonds" id="m017812446368CFrTw">
@@ -272,7 +315,10 @@
           <unitdate normal="1968">1967-1969</unitdate>
           <physdesc>&lt;p&gt;1 dossier.&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124312" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446368CFrTw" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124312" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m0178124463674Ypar">
           <did>
             <unitid>COM3_JJR_D01</unitid>
@@ -286,7 +332,10 @@
           <controlaccess>
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124313" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463674Ypar" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124313" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
       <c level="subfonds" id="m017812446361UVAxv">
@@ -296,7 +345,10 @@
           <unitdate normal="1979">1972-1987</unitdate>
           <physdesc>&lt;p&gt;1 dossier.&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124314" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446361UVAxv" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124314" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m01781244636dZ9y1D">
           <did>
             <unitid>COM4_AJC_D01</unitid>
@@ -310,7 +362,10 @@
           <controlaccess>
             <subject source="chrono">1970-1979</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124315" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dZ9y1D" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124315" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
       <c level="subfonds" id="m01781244636aP17dg">
@@ -320,7 +375,10 @@
           <unitdate>2011</unitdate>
           <physdesc>&lt;p&gt;1 dossier avec reliure type spirale.&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124316" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636aP17dg" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124316" role="publication:previous"/>
+        </daogrp>
         <c level="series" id="m01781244636cy6auX">
           <did>
             <unitid>COM5_PIC_D01</unitid>
@@ -339,7 +397,10 @@
             <subject source="chrono">1939-1945</subject>
             <subject source="chrono">1946-1959</subject>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNR124317" role="publication:previous"/>
+          <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636cy6auX" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124317" role="publication:previous"/>
+          </daogrp>
         </c>
       </c>
     </dsc>

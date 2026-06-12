@@ -51,6 +51,7 @@
       <subject source="chrono">1946-1959</subject>
       <persname>Varlet, Mike</persname>
     </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244638iiQGTD" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244638a16QWl">
         <did>
@@ -64,7 +65,10 @@
 &lt;p&gt;Les personnes interviewées ont été approchées par les soins du pôle Patrimoine de la médiathèque.&lt;/p&gt;&#13;
 &lt;p&gt; &lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR124240" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638a16QWl" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124240" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244638iglbJl">
           <did>
             <unitid>FOO_S01_D01</unitid>
@@ -82,6 +86,7 @@
           <dao href="RBX_MED_FOO_S01_D01_001.mp3" role="mp3"/>
           <daogrp>
             <daoloc href="RBX_MED_FOO_S01_D01_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638iglbJl" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124241" role="publication:previous"/>
           </daogrp>
         </c>
@@ -99,6 +104,7 @@
           <dao href="RBX_MED_FOO_S01_D02_001.mp3" role="mp3"/>
           <daogrp>
             <daoloc href="RBX_MED_FOO_S01_D02_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638imb4xQ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124242" role="publication:previous"/>
           </daogrp>
         </c>
@@ -119,6 +125,7 @@
           <dao href="http://www.bn-r.fr/musique/RBX_MED_FOO_S01_D03_001.mp3" role="mp3"/>
           <daogrp>
             <daoloc href="RBX_MED_FOO_S01_D03_001.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638C4u8jF" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR124243" role="publication:previous"/>
           </daogrp>
         </c>

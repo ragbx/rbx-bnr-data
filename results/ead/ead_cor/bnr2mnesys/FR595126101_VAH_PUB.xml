@@ -45,6 +45,7 @@
     <controlaccess>
       <subject source="chrono">Après 1989</subject>
     </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244642YHstEW" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244642aef8dI">
         <did>
@@ -52,7 +53,10 @@
           <unittitle>Laissez-vous conter</unittitle>
           <unitdate>20e siècle</unitdate>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134788" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642aef8dI" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134788" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642pRIBMo">
           <did>
             <unitid>PUB_LAI_D01</unitid>
@@ -66,12 +70,13 @@
             <subject source="theme">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D01_003.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134789" role="publication:previous"/>
             <daodesc>
               <p>Le parc Barbieux</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D01_003.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642pRIBMo" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134789" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642gOeUgz">
@@ -95,12 +100,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D02_005.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134790" role="publication:previous"/>
             <daodesc>
               <p>L'église Saint-Martin</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D02_005.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642gOeUgz" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134790" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642bgj7dz">
@@ -122,12 +128,13 @@
             <persname normal="Guérin, Rémi" role="photographe">Guérin, Rémi</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D03_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134791" role="publication:previous"/>
             <daodesc>
               <p>Le Roubaix de Van der Meersch</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D03_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642bgj7dz" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134791" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642q8wJOn">
@@ -181,12 +188,13 @@
             <geogname source="rue" coord="[ 50.686233, 3.163221 ]">Isly, rue d\'</geogname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D05_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D05_003.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134792" role="publication:previous"/>
             <daodesc>
               <p>Les cheminées de Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D05_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D05_003.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642q8wJOn" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134792" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642SiyWTb">
@@ -207,12 +215,13 @@
             <subject source="theme">Arts graphiques</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D04_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D04_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134793" role="publication:previous"/>
             <daodesc>
               <p>L'Alouette</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D04_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D04_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642SiyWTb" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134793" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642CIubde">
@@ -241,12 +250,13 @@
             <persname normal="Palazova-Lebleu, Diana" role="photographe">Palazova-Lebleu, Diana</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D06_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D06_017.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134794" role="publication:previous"/>
             <daodesc>
               <p>Le Grand Boulevard</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D06_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D06_017.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642CIubde" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134794" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642bIdXYW">
@@ -273,12 +283,13 @@
             <persname>Marlot, Léon</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D07_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D07_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134795" role="publication:previous"/>
             <daodesc>
               <p>La Résistance à Roubaix durant la Grande Guerre</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D07_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D07_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642bIdXYW" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134795" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446427ePnnJ">
@@ -298,12 +309,13 @@
             <subject source="theme">Sports</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D08_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D08_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134796" role="publication:previous"/>
             <daodesc>
               <p>Le canal de Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D08_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D08_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446427ePnnJ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134796" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m0178124464259T1uI">
@@ -325,12 +337,13 @@
             <persname normal="Bernard, Philip" role="photographe">Bernard, Philip</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D09_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D09_015.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134797" role="publication:previous"/>
             <daodesc>
               <p>Roubaix 1911</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D09_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D09_015.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464259T1uI" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134797" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642Ce1aBT">
@@ -345,12 +358,13 @@
             <persname normal="Levaillant, Siméon" role="photographe">Levaillant, Siméon</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D10_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D10_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134798" role="publication:previous"/>
             <daodesc>
               <p>L'église Saint-Joseph</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D10_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D10_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642Ce1aBT" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134798" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642fWXZiY">
@@ -370,12 +384,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LAI_D11_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LAI_D11_009.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134799" role="publication:previous"/>
             <daodesc>
               <p>L'Hospice de Barbieux</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LAI_D11_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LAI_D11_009.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642fWXZiY" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134799" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
@@ -389,7 +404,10 @@
           <p>&lt;p style="text-align: justify;"&gt;L'Espace Ville-Patrimoine (préfiguration du Centre d'Interprétation de l'Architecture et du Patrimoine) a présenté l'exposition &lt;em&gt;Mémoires urbaines : histoires et utopies&lt;/em&gt;, réalisée dans le cadre du label Ville d'art et d'histoire, qui a également donné lieu aux présents documents.&lt;/p&gt;&#13;
 &lt;p style="text-align: justify;"&gt;Destinée à éclairer les importantes mutations urbaines de Roubaix depuis les Trente Glorieuses jusqu'à 2009, l'exposition s'est concentrée sur les quartiers Edouard Anseele, Nouveau Roubaix et Trois Ponts. Elle s'est appuyée sur des témoignages d'habitants et des documents d'archives collectés au sein d'ateliers mémoire animés par Philippe Waret. Elle a restitué le travail artistique que le comédien-conteur Rachid Bouali a produit à la suite de rencontres avec des habitants et des collégiens du Nouveau Roubaix. Ces deux projets ont été mis en oeuvre par le service Ville d'art et d'histoire. Enfin, l'exposition a présenté le travail de mémoire dirigé par l'historienne Mathilde Wybo auprès des habitants du foyer de travailleurs immigrés Aréli (quartier du Pile). Philippe Louguet était le commissaire d'exposition. La scénographie en a été confiée à Achille Mareel.&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134800" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642B1xEig" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134800" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642rH6LXq">
           <did>
             <unitid>PUB_MEM_D01</unitid>
@@ -405,12 +423,13 @@
             <persname role="Directeur de publication">Waret, Philippe</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_MEM_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_MEM_D01_013.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134801" role="publication:previous"/>
             <daodesc>
               <p>277 avenue Linné</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_MEM_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_MEM_D01_013.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642rH6LXq" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134801" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642oJxl7z">
@@ -435,12 +454,13 @@
             <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_MEM_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_MEM_D02_023.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134802" role="publication:previous"/>
             <daodesc>
               <p>Ateliers Mémoire : Témoignages dhabitants recueillis par Philippe Waret. Edouard Anseele, Nouveau Roubaix, Trois Ponts</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_MEM_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_MEM_D02_023.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642oJxl7z" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134802" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642mBAQDZ">
@@ -467,12 +487,13 @@
             <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_MEM_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_MEM_D03_015.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134803" role="publication:previous"/>
             <daodesc>
               <p>Edouard Anseele, Nouveau Roubaix, Trois Ponts</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_MEM_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_MEM_D03_015.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642mBAQDZ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134803" role="publication:previous"/>
           </daogrp>
         </c>
         <controlaccess>
@@ -486,7 +507,10 @@
           <unitdate normal="2018">2016 à 2021</unitdate>
           <physdesc>&lt;p&gt;6 brochures (en décembre 2021).&lt;/p&gt;</physdesc>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134804" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642ouIPMZ" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134804" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642pAX8vg">
           <did>
             <unitid>PUB_FOC_D01</unitid>
@@ -507,12 +531,13 @@
             <corpname role="photographe">Oeil photographique</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D01_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134805" role="publication:previous"/>
             <daodesc>
               <p>La gare à Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D01_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642pAX8vg" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134805" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642BIjgsW">
@@ -535,12 +560,13 @@
             <persname role="photographe">Demornex, R.</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D02_015.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134806" role="publication:previous"/>
             <daodesc>
               <p>Roubaix : métamorphoses d'une ville textile</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D02_015.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642BIjgsW" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134806" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642EbahAt">
@@ -566,12 +592,13 @@
             <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D03_017.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134807" role="publication:previous"/>
             <daodesc>
               <p>Architecture art déco Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D03_017.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642EbahAt" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134807" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642eFzIXx">
@@ -596,12 +623,13 @@
             <persname role="photographe">Zerm</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D04_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D04_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134808" role="publication:previous"/>
             <daodesc>
               <p>Le couvent des Clarisses Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D04_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D04_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642eFzIXx" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134808" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642xFIppY">
@@ -621,12 +649,13 @@
             <persname role="photographe">Gadeau, A.</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D05_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D05_009.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134809" role="publication:previous"/>
             <daodesc>
               <p>L'église Saint-Joseph Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D05_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D05_009.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642xFIppY" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134809" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642RUtpe3">
@@ -645,12 +674,13 @@
             <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D06_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D06_009.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134810" role="publication:previous"/>
             <daodesc>
               <p>Roubaix l'église Saint-Joseph : regards sur les restaurations</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D06_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D06_009.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642RUtpe3" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134810" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446421QwaDD">
@@ -676,11 +706,12 @@
             <persname normal="Chapelles&amp;Co" role="photographe">Chapelles&amp;Co</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_FOC_D07_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_FOC_D07_004.jpg" role="access:image:last"/>
             <daodesc>
               <p>Chapelles de Roubaix</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_FOC_D07_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_FOC_D07_004.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446421QwaDD" role="publication:current"/>
           </daogrp>
         </c>
       </c>
@@ -689,7 +720,10 @@
           <unitid>PUB_HOR</unitid>
           <unittitle>Hors-série</unittitle>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134811" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642BL7EC9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134811" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642pql0Xs">
           <did>
             <unitid>PUB_HOR_D01</unitid>
@@ -712,12 +746,13 @@
             <persname normal="Guerrin, Rémi" role="photographe">Guerrin, Rémi</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_HOR_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_HOR_D01_013.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134812" role="publication:previous"/>
             <daodesc>
               <p>Murmures : créations artistiques autour du patrimoine roubaisien</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_HOR_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_HOR_D01_013.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642pql0Xs" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134812" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642c2OUer">
@@ -752,12 +787,13 @@
             <corpname role="Graphiste">Going Design Roubaix</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_HOR_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_HOR_D02_015.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134813" role="publication:previous"/>
             <daodesc>
               <p>Grands travaux à Roubaix : 1980/2010</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_HOR_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_HOR_D02_015.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642c2OUer" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134813" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642tLnTJq">
@@ -771,11 +807,12 @@
             <p>&lt;p style="text-align: justify;"&gt;Titre complet : &lt;em&gt;l'Observatoire : espace d'exposition et d'information - préfiguration du Centre d'Interprétation de l'Architecture et du Patrimoine. &lt;/em&gt;L'édito précise : "&lt;em&gt;Dédié au label Ville d'art et d'histoire, l'Observatoire est un espace d'exposition et d'information sur la ville installé depuis le 15 mai 2004 à la Condition Publique. Il préfigure le futur Centre d'Interprétation de l'Architecture et du Patrimoine (C.I.A.P) qui ouvrira ses portes en 2005&lt;/em&gt;". Le livret reprend semble-t-il les panneaux explicatifs constitutifs de l'exposition, dont une fresque chronologique. &lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_HOR_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_HOR_D03_027.jpg" role="access:image:last"/>
             <daodesc>
               <p>L'Observatoire [préfiguration du CIAP]</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_HOR_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_HOR_D03_027.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642tLnTJq" role="publication:current"/>
           </daogrp>
           <controlaccess>
             <persname normal="Louazon, Jean-Marc" role="conception et mise en page">Louazon, Jean-Marc</persname>
@@ -791,7 +828,10 @@
           <unitid>PUB_RAC</unitid>
           <unittitle>Raconte-moi</unittitle>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134814" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642LMtYpi" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134814" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642aqev77">
           <did>
             <unitid>PUB_RAC_D01</unitid>
@@ -805,12 +845,13 @@
             <subject source="theme">Urbanisme</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_RAC_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_RAC_D01_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134815" role="publication:previous"/>
             <daodesc>
               <p>La ville vue par trois artistes contemporains</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_RAC_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_RAC_D01_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642aqev77" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134815" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446429IdO7T">
@@ -827,12 +868,13 @@
             <subject source="theme">Littérature</subject>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_RAC_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_RAC_D02_005.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134816" role="publication:previous"/>
             <daodesc>
               <p>Les mémoires de Maxence Van der Meersch</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_RAC_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_RAC_D02_005.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446429IdO7T" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134816" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642qVbXYj">
@@ -853,12 +895,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_RAC_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_RAC_D03_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134817" role="publication:previous"/>
             <daodesc>
               <p>Le quartier Barbieux : autour de l'Hospice de Barbieux, livret-découverte</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_RAC_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_RAC_D03_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642qVbXYj" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134817" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642Ew1zyW">
@@ -882,12 +925,13 @@
             <persname normal="Texier, Anne-Blandine" role="photographe">Texier, Anne-Blandine</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_RAC_D04_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_RAC_D04_021.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134818" role="publication:previous"/>
             <daodesc>
               <p>Raconte-moi ton architecture : Roubaix en images et en mots. Lexique</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_RAC_D04_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_RAC_D04_021.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642Ew1zyW" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134818" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
@@ -901,7 +945,10 @@
 &lt;p style="text-align: justify;"&gt;Le premier numéro est indiqué avoir été réalisé en collaboration avec l'Office de Tourisme, la Médiathèque, les Archives municipales et le service Culture de la Ville de Roubaix. "Conception, textes et réalisation graphique : Isabelle Dutrannoy, Pierre Gehenne, Laurent Houssin, Jean-Yves Letot. Crédits photographiques : Archives municipales et Médiathèque de Roubaix. Illustration de couverture : copyright B. Springer. Photographie de la chapellerie : copyright Collection particulière Boulanger. Remerciements à Florène Champeau et François Vergin du service Culture, Marjorie Beaucamps-Aligny de l'Office de Tourisme de Roubaix."&lt;/p&gt;&#13;
 &lt;p style="text-align: justify;"&gt;Le second numéro est indiqué avoir été réalisé en collaboration avec le service Culture de la Ville de Roubaix. "Illustration de couverture : copyright Pixel Vengeur". "Conception, textes et réalisation graphique : Isabelle Dutrannoy, Pierre Gehenne, Laurent Houssin, Florène Champeau, François Vergin. Crédits photographiques : Médiathèque de Roubaix et La Porte à Côté."&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134819" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642r7rVw9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134819" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642ql53TQ">
           <did>
             <unitid>PUB_GAZ_D01</unitid>
@@ -915,12 +962,13 @@
             <p>&lt;p style="text-align: justify;"&gt;Cette brochure a été réalisée par l'association La Porte à Côté. Son titre complet est : &lt;em&gt;La Gazette, Les nouveaux mystères de Roubaix : le mystère de la tour sans fenêtres&lt;/em&gt;. Elle porte le n°1.&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_GAZ_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_GAZ_D01_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134820" role="publication:previous"/>
             <daodesc>
               <p>Le mystère de la tour sans fenêtres</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_GAZ_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_GAZ_D01_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642ql53TQ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134820" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <corpname normal="La Porte à Côté" role="auteur">La Porte à Côté</corpname>
@@ -944,12 +992,13 @@
             <p>&lt;p&gt;Cette brochure a été réalisée par l'association La Porte à Côté. Son titre complet est : &lt;em&gt;La Gazette, Les nouveaux mystères de Roubaix : la machine infernale du professeur Van Angst&lt;/em&gt;. Elle porte le n°2.&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_GAZ_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_GAZ_D02_011.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134821" role="publication:previous"/>
             <daodesc>
               <p>La machine infernale du professeur Von Angst</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_GAZ_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_GAZ_D02_011.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642bjyRC3" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134821" role="publication:previous"/>
           </daogrp>
           <controlaccess>
             <corpname normal="La Porte à Côté" role="auteur">La Porte à Côté</corpname>
@@ -971,7 +1020,10 @@
         <scopecontent>
           <p>&lt;p style="text-align: justify;"&gt;Les brochures "Explorateurs" s'adressent au jeune public.&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134822" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642qPMySt" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134822" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642a3MiDB">
           <did>
             <unitid>PUB_EXP_D01</unitid>
@@ -990,12 +1042,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_EXP_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_EXP_D01_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134823" role="publication:previous"/>
             <daodesc>
               <p>Roubaix : le quartier de la gare</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_EXP_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_EXP_D01_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642a3MiDB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134823" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642ba5Q0y">
@@ -1014,12 +1067,13 @@
             <corpname normal="La Manufacture, musée de la mémoire et de la création textile" role="photographe">La Manufacture, musée de la mémoire et de la création textile</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_EXP_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_EXP_D03_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134824" role="publication:previous"/>
             <daodesc>
               <p>Roubaix : la Manufacture</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_EXP_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_EXP_D03_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642ba5Q0y" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134824" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642ASrHvc">
@@ -1051,12 +1105,13 @@
             <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_EXP_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_EXP_D02_009.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134825" role="publication:previous"/>
             <daodesc>
               <p>Roubaix : la nouvelle face du Pile</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_EXP_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_EXP_D02_009.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642ASrHvc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134825" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446429QMbsE">
@@ -1076,12 +1131,13 @@
             <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_EXP_D04_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_EXP_D04_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134826" role="publication:previous"/>
             <daodesc>
               <p>Roubaix art déco</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_EXP_D04_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_EXP_D04_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446429QMbsE" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134826" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642F8nvR1">
@@ -1099,12 +1155,13 @@
             <persname role="Infographiste">Briatte, David</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_EXP_D05_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_EXP_D05_007.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134827" role="publication:previous"/>
             <daodesc>
               <p>Roubaix : l'église Saint-Joseph</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_EXP_D05_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_EXP_D05_007.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642F8nvR1" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134827" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
@@ -1114,7 +1171,10 @@
           <unittitle>Laissez-vous conter la rénovation urbaine : carnets de balade urbaine</unittitle>
           <unitdate normal="2009">Décembre 2009-mai 2010</unitdate>
         </did>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR134828" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642x8YAWr" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134828" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244642UWBAZx">
           <did>
             <unitid>PUB_LRE_D01</unitid>
@@ -1140,12 +1200,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LRE_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LRE_D01_028.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134829" role="publication:previous"/>
             <daodesc>
               <p>Quartier du Pile (Est)</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LRE_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LRE_D01_028.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642UWBAZx" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134829" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m017812446424z5G7y">
@@ -1172,12 +1233,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LRE_D02_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LRE_D02_028.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134830" role="publication:previous"/>
             <daodesc>
               <p>Quartier du Crouy (Ouest)</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LRE_D02_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LRE_D02_028.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446424z5G7y" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134830" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m0178124464219VdxY">
@@ -1207,12 +1269,13 @@
             <persname role="photographe">Loubry, Arnaud</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LRE_D03_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LRE_D03_028.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134831" role="publication:previous"/>
             <daodesc>
               <p>Quartiers Nord</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LRE_D03_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LRE_D03_028.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464219VdxY" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134831" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244642TT5sXn">
@@ -1238,12 +1301,13 @@
             <corpname role="conception et mise en page">Service communication municipal</corpname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_LRE_D04_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_LRE_D04_028.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134832" role="publication:previous"/>
             <daodesc>
               <p>Quartier des Trois Ponts (Est)</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_LRE_D04_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_LRE_D04_028.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642TT5sXn" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134832" role="publication:previous"/>
           </daogrp>
         </c>
       </c>
@@ -1252,6 +1316,7 @@
           <unitid>PUB_PAR</unitid>
           <unittitle>Parcours</unittitle>
         </did>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244642aZe305" role="publication:current"/>
         <c level="file" id="m01781244642om1xOq">
           <did>
             <unitid>PUB_PAR_D01</unitid>
@@ -1304,11 +1369,12 @@
             <persname normal="Dupretz, Marie" role="Rédacteur">Dupretz, Marie</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="RBX_VAH_PUB_PAR_D01_001.jpg" role="access:image:first"/>
-            <daoloc href="RBX_VAH_PUB_PAR_D01_017.jpg" role="access:image:last"/>
             <daodesc>
               <p>Roubaix 20 ans de Ville d'art et d'histoire</p>
             </daodesc>
+            <daoloc href="RBX_VAH_PUB_PAR_D01_001.jpg" role="access:image:first"/>
+            <daoloc href="RBX_VAH_PUB_PAR_D01_017.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244642om1xOq" role="publication:current"/>
           </daogrp>
         </c>
       </c>

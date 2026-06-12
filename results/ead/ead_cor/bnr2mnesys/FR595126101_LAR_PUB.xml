@@ -45,6 +45,7 @@
       <subject source="Rameau">Histoire de Roubaix</subject>
       <subject source="Rameau">Roubaix (Nord)</subject>
     </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634L6A37F" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244634RPYco4">
         <did>
@@ -57,7 +58,10 @@
           <p>&lt;p&gt;Les Cahiers de Roubaix sont écrits par des historiens, conservateurs, habitants de roubaix etc. et nous permettent de retracer l'histoire de la ville et de sa population.&lt;/p&gt;&#13;
 &lt;p&gt;Directeur de la publication : Michel DAVID&lt;/p&gt;</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120437" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634RPYco4" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120437" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244634ERagIE">
           <did>
             <unitid>PUB_CDR_001</unitid>
@@ -74,14 +78,15 @@
             <persname role="auteur">Grelle, Bernard</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_055.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_001_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_001_055.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ERagIE" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120438" role="publication:previous"/>
-            <daodesc>
-              <p>La Société dÉmulation de Roubaix au siècle dernier [XIXe]</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634ieMVW4">
@@ -102,14 +107,15 @@
             <persname role="auteur">Piat, Jean (1911-2002)</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Louis Decottignies, poète ouvrier méconnu</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_048.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_002_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_002_048.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ieMVW4" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120439" role="publication:previous"/>
-            <daodesc>
-              <p>Louis Decottignies, poète ouvrier méconnu</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634stL4a7">
@@ -131,14 +137,15 @@
             <persname normal="Philippe Waret" role="auteur">Waret, Philippe</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Lintégration des Belges à Roubaix</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_073.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_003_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_003_073.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634stL4a7" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120440" role="publication:previous"/>
-            <daodesc>
-              <p>Lintégration des Belges à Roubaix</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634C6rAqC">
@@ -160,14 +167,15 @@
             <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_069.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_004_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_004_069.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634C6rAqC" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120441" role="publication:previous"/>
-            <daodesc>
-              <p>Le métier de maire à Roubaix : étude dun apprentissage à travers la succession dAndré Diligent (mai 1994 - juin 1995)</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634HvRqSg">
@@ -181,14 +189,15 @@
             <p>&lt;p style="text-align: justify;"&gt;Lepoutre, Marcel, &lt;em&gt;Témoignage d’un vieux Roubaisien&lt;/em&gt;, dessins de Vincent Lepoutre, Roubaix, Lire à Roubaix, [2001], 141 p., &lt;em&gt;Cahiers de Roubaix&lt;/em&gt;, n° 5&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Témoignage dun vieux Roubaisien</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_143.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_005_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_005_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634HvRqSg" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120442" role="publication:previous"/>
-            <daodesc>
-              <p>Témoignage dun vieux Roubaisien</p>
-            </daodesc>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
@@ -214,14 +223,15 @@
             <persname normal="Joël Ravier" role="auteur">Ravier, Joël</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Histoire de lenseignement primaire à Roubaix </p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_097.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_006_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_006_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463427prxZ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120443" role="publication:previous"/>
-            <daodesc>
-              <p>Histoire de lenseignement primaire à Roubaix </p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634ncBgUH">
@@ -242,14 +252,15 @@
             <persname role="auteur">Grelle, Bernard</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Le commerce des imprimés à Roubaix au XIXe siècle</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_201.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_007_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_007_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ncBgUH" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120444" role="publication:previous"/>
-            <daodesc>
-              <p>Le commerce des imprimés à Roubaix au XIXe siècle</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634WEQXhZ">
@@ -270,14 +281,15 @@
             <persname normal="Émile Duhamel" role="auteur">Duhamel, Émile</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_111.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_008_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_008_111.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WEQXhZ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120445" role="publication:previous"/>
-            <daodesc>
-              <p>Parcours dun prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634ypaPhf">
@@ -292,14 +304,15 @@
 &lt;p style="text-align: justify;"&gt;Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_067.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_009_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_009_067.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ypaPhf" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120446" role="publication:previous"/>
-            <daodesc>
-              <p>Les métamorphoses dune identité locale : genèse de la « Roubaisien-ité »</p>
-            </daodesc>
           </daogrp>
           <controlaccess>
             <persname normal="Rémi Lefebvre" role="auteur">Lefebvre, Rémi</persname>
@@ -322,14 +335,15 @@
             <persname role="auteur">Grelle, Bernard</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_223.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_010_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_010_223.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EyPmdS" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120447" role="publication:previous"/>
-            <daodesc>
-              <p>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914 </p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634jIZpZT">
@@ -350,14 +364,15 @@
             <subject source="Rameau">Mutations sociales</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_143.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_011_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_011_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634jIZpZT" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120448" role="publication:previous"/>
-            <daodesc>
-              <p>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634OGmvBe">
@@ -378,14 +393,15 @@
             <persname normal="Pierre Pierrard" role="Second auteur">Pierrard, Pierre</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Miscellanées : quatre textes inédits de Jean Piat</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_201.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_012_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_012_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OGmvBe" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120449" role="publication:previous"/>
-            <daodesc>
-              <p>Miscellanées : quatre textes inédits de Jean Piat</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634iPmiUI">
@@ -408,14 +424,15 @@
             <persname normal="Philippe Waret" role="auteur">Waret, Philippe</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Roubaix 1870-1908 : la question laïque</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_212.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_013_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_013_212.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634iPmiUI" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120450" role="publication:previous"/>
-            <daodesc>
-              <p>Roubaix 1870-1908 : la question laïque</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634pLxmDa">
@@ -436,14 +453,15 @@
             <persname normal="Francis Carlier" role="Second auteur">Carlier, Francis</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Mémoires de Jean Soudan [Résistant]</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_085.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_014_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_014_085.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pLxmDa" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120451" role="publication:previous"/>
-            <daodesc>
-              <p>Mémoires de Jean Soudan [Résistant]</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m017812446348tLTIY">
@@ -458,14 +476,15 @@
 &lt;p style="text-align: justify;"&gt;Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Témoignage dun vieux Roubaisien (suite),</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_105.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_015_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_015_105.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446348tLTIY" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120452" role="publication:previous"/>
-            <daodesc>
-              <p>Témoignage dun vieux Roubaisien (suite),</p>
-            </daodesc>
           </daogrp>
           <controlaccess>
             <persname normal="Marcel Lepoutre" role="auteur">Lepoutre, Marcel</persname>
@@ -488,14 +507,15 @@
             <persname normal="Joseph Wibaux" role="auteur">Wibaux, Joseph</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Journal de guerre 1914-1918</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_093.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_016_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_016_093.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634DY7Qjc" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120453" role="publication:previous"/>
-            <daodesc>
-              <p>Journal de guerre 1914-1918</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634JpDA2Q">
@@ -516,14 +536,15 @@
             <persname normal="David, Michel" role="auteur">David, Michel</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_119.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_017_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_017_119.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JpDA2Q" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120454" role="publication:previous"/>
-            <daodesc>
-              <p>Une politique publique locale à lépreuve de lImmigration : le cas de Roubaix</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634jCVXVq">
@@ -541,14 +562,15 @@
             <persname role="auteur">Piat, Jean (1911-2002)</persname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Autant quil men souvienne</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_179.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_CDR_018_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_CDR_018_179.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634jCVXVq" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR123629" role="publication:previous"/>
-            <daodesc>
-              <p>Autant quil men souvienne</p>
-            </daodesc>
           </daogrp>
         </c>
         <controlaccess>
@@ -579,7 +601,10 @@
           <subject source="Rameau">Théâtre de marionnettes</subject>
           <subject source="theme">Spectacles</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120456" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Rsi0by" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120456" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244634roDZ3O">
           <did>
             <unitid>PUB_VPR_001</unitid>
@@ -595,14 +620,15 @@
 &lt;p style="text-align: left;"&gt;« Guignol : nouvelle » / Charles Étienne&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 1</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_078.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_001_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_001_078.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634roDZ3O" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120457" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 1</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634lS2Mf5">
@@ -627,14 +653,15 @@
             <geogname>Roubaix</geogname>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Numéro 2</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_002_085.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_002_000" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_002_085" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634lS2Mf5" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120458" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 2</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634scEmV4">
@@ -653,14 +680,15 @@
 &lt;p style="text-align: left;"&gt;« Revue antespective de l’art dramatique » / Jean Moréas&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 3</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_103.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_003_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_003_103.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634scEmV4" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120459" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 3</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634hUQZIx">
@@ -678,14 +706,15 @@
 &lt;p style="text-align: left;"&gt;Bonnes pages : « Les Marionnettes au salon… » ; « Polichinelle, raconté par Émile Zola » ; « &lt;em&gt;Le cirque de Piggy Logan&lt;/em&gt;, par Thomas Wolfe » / D.D. Br. (Paris)&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 4</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_094.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_004_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_004_094.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634hUQZIx" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120460" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 4</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m017812446343ah3CT">
@@ -705,14 +734,15 @@
 &lt;p style="text-align: left;"&gt;Glanes : Georges Motte,&lt;em&gt; Les 20 000 de Radinghem &lt;/em&gt;; Ann Tyler,&lt;em&gt; Voyageur malgré lui &lt;/em&gt;; Marc Angenot, &lt;em&gt;Ce que l’on dit des juifs en 1889 &lt;/em&gt;; Romain Roussel, &lt;em&gt;L’herbe d’avril&lt;/em&gt; ; Jan Doat, &lt;em&gt;Valéry vivant&lt;/em&gt; &lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 5</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_074.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_005_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_005_074.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343ah3CT" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120461" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 5</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634oVySxG">
@@ -731,14 +761,15 @@
 &lt;p style="text-align: left;"&gt;« Marionnette d’ici : Louis Richard et les marionnettes de Gand » / Alain Guillemin&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 6</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_082.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_006_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_006_082.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634oVySxG" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120462" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 6</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634tsxYI6">
@@ -752,14 +783,15 @@
             <p>&lt;p style="text-align: left;"&gt;Numéro spécial : « 1880-1914 : langues et culture à Roubaix » / Alain Guillemin&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 7</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_062.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_007_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_007_062.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634tsxYI6" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120463" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 7</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634bzPQPD">
@@ -776,14 +808,15 @@
             <subject source="Rameau">Théâtre Louis Richard</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Numéro 8</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_143.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_008_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_008_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634bzPQPD" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120464" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 8</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634WTbQWR">
@@ -797,14 +830,15 @@
             <p>&lt;p&gt;Numéro spécial &lt;em&gt;: Marionnettes en images, images de marionnettes : une rencontre entre les étudiants du Lycée d’art appliqués de Roubaix et des marionnettes du Théâtre Louis Richard&lt;/em&gt; &lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 9</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_076.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_009_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_009_076.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WTbQWR" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120465" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 9</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634gsEsJ9">
@@ -818,14 +852,15 @@
             <p>&lt;p style="text-align: left;"&gt;Numéro spécial : &lt;em&gt;Le Castelet lillois : l’âme des marionnettes&lt;/em&gt; / Jacques Wessels (Lille)&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 10</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_137.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_010_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_010_137.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634gsEsJ9" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120466" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 10</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634XjYrPV">
@@ -839,13 +874,14 @@
             <p>&lt;p style="text-align: left;"&gt;Numéro spécial : porte-folio « Polichinelle » : illustrations de David Gomez ;  textes d’Alain Guillemin&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
-            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.tif" role="preservation:image:last"/>
-            <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="access:image:first"/>
-            <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120467" role="publication:previous"/>
             <daodesc>
               <p>Numéro 11</p>
             </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.tif" role="preservation:image:last"/>
+            <daoloc href="RBX_LAR_PUB_VPR_011_000.jpg" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_011_012.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XjYrPV" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120467" role="publication:previous"/>
           </daogrp>
         </c>
         <c level="file" id="m01781244634zAzdpx">
@@ -863,14 +899,15 @@
 &lt;p style="text-align: left;"&gt;« Le Théâtre Holden à Roubaix »&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 12</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_057.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_012_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_012_057.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zAzdpx" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120468" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 12</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634ReWlvy">
@@ -891,14 +928,15 @@
 &lt;p style="text-align: left;"&gt;« La médiathèque et les marionnettes : trente-deux ans d’activités diverses » / Bernard Grelle&lt;/p&gt;</p>
           </scopecontent>
           <daogrp>
+            <daodesc>
+              <p>Numéro 13, Polichinelle s'en va</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_099.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_VPR_013_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_VPR_013_099.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ReWlvy" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120469" role="publication:previous"/>
-            <daodesc>
-              <p>Numéro 13, Polichinelle s'en va</p>
-            </daodesc>
           </daogrp>
         </c>
       </c>
@@ -917,7 +955,10 @@
           <subject source="Rameau">Animation du patrimoine</subject>
           <persname normal="Philippe Waret" role="Directeur de publication">Waret, Philippe</persname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR120470" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634olO1fH" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120470" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244634b6hvaH">
           <did>
             <unitid>PUB_AMM_001</unitid>
@@ -940,14 +981,15 @@
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_101.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_AMM_001_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_001_101.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634b6hvaH" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120471" role="publication:previous"/>
-            <daodesc>
-              <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années soixante</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634Lp5EFR">
@@ -973,14 +1015,15 @@
             <subject source="chrono">1960-1969</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_097.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_AMM_002_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_002_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Lp5EFR" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120472" role="publication:previous"/>
-            <daodesc>
-              <p>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de laprès-guerre aux années quatre-vingt</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634aZdPvD">
@@ -996,14 +1039,15 @@
             <subject source="Rameau">Enseignement</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_087.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_AMM_003_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_003_087.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634aZdPvD" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120473" role="publication:previous"/>
-            <daodesc>
-              <p>Regards et témoignages sur lévolution des écoles des quartiers sud et Edouard Anseele</p>
-            </daodesc>
           </daogrp>
         </c>
         <c level="file" id="m01781244634GvJqAl">
@@ -1020,14 +1064,15 @@
             <subject source="theme">Santé publique</subject>
           </controlaccess>
           <daogrp>
+            <daodesc>
+              <p>Contribution à lhistoire des jardins ouvriers roubaisiens</p>
+            </daodesc>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_000.tif" role="preservation:image:first"/>
             <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_089.tif" role="preservation:image:last"/>
             <daoloc href="RBX_LAR_PUB_AMM_004_000.jpg" role="access:image:first"/>
             <daoloc href="RBX_LAR_PUB_AMM_004_089.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634GvJqAl" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120474" role="publication:previous"/>
-            <daodesc>
-              <p>Contribution à lhistoire des jardins ouvriers roubaisiens</p>
-            </daodesc>
           </daogrp>
         </c>
       </c>

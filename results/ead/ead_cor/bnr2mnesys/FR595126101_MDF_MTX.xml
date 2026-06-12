@@ -46,6 +46,7 @@
       <subject source="theme">Manufacture et industrie textile</subject>
       <subject source="Rameau">Industries textiles - Personnel</subject>
     </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634gCnRBV" role="publication:current"/>
     <dsc>
       <c level="series" id="m01781244634MfB8AL">
         <did>
@@ -61,7 +62,10 @@
           <persname>Engrand, François</persname>
           <persname>Nayra</persname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR2" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634MfB8AL" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR2" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244634p2FaYj">
           <did>
             <unitid>MTX_2014_D01</unitid>
@@ -78,6 +82,7 @@
           </daogrp>
           <daogrp>
             <daoloc href="RBX_MDF_MTX_1409_D01.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634p2FaYj" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR3" role="publication:previous"/>
           </daogrp>
         </c>
@@ -96,6 +101,7 @@
             <daoloc href="RBX_MDF_MTX_2014_D02.jpg" role="access:image"/>
           </daogrp>
           <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463459n9j9" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR4" role="publication:previous"/>
             <daoloc href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D02.mp4" role="mp4"/>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D02.mov" role="mp4"/>
@@ -118,6 +124,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D03.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D03.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pUsvEB" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR5" role="publication:previous"/>
           </daogrp>
         </c>
@@ -138,6 +145,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D04.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D04.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634PhYG5L" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR6" role="publication:previous"/>
           </daogrp>
         </c>
@@ -158,6 +166,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D05.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D05.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634obbLq4" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR7" role="publication:previous"/>
           </daogrp>
         </c>
@@ -178,6 +187,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D06.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D06.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634J8SWwv" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR8" role="publication:previous"/>
           </daogrp>
         </c>
@@ -198,6 +208,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D07.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D07.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Z9bXu5" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR9" role="publication:previous"/>
           </daogrp>
         </c>
@@ -218,6 +229,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D08.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D08.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xtDWcM" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR10" role="publication:previous"/>
           </daogrp>
         </c>
@@ -238,6 +250,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D09.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D09.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634HbwxID" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR11" role="publication:previous"/>
           </daogrp>
         </c>
@@ -258,6 +271,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D10.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D10.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634yLmMs5" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR12" role="publication:previous"/>
           </daogrp>
         </c>
@@ -278,6 +292,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D11.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D11.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xYrImy" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR13" role="publication:previous"/>
           </daogrp>
         </c>
@@ -298,6 +313,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D12.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D12.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OD0nzs" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR14" role="publication:previous"/>
           </daogrp>
         </c>
@@ -318,6 +334,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D13.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D13.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634daE9g0" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR15" role="publication:previous"/>
           </daogrp>
         </c>
@@ -338,6 +355,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D14.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D14.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634H3pgn6" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR17" role="publication:previous"/>
           </daogrp>
         </c>
@@ -358,6 +376,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D15.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2014_D15.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Pohp1M" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR18" role="publication:previous"/>
           </daogrp>
         </c>
@@ -374,6 +393,7 @@
           <dao href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2014_D16.mp4" role="mp4"/>
           <daogrp>
             <daoloc href="RBX_MDF_MTX_2014_D16.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343FRbT1" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19" role="publication:previous"/>
           </daogrp>
         </c>
@@ -392,7 +412,10 @@
           <persname>Huyghe, Maxime</persname>
           <persname>Nayra</persname>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNR20" role="publication:previous"/>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347SOEsg" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR20" role="publication:previous"/>
+        </daogrp>
         <c level="file" id="m01781244634IMc54p">
           <did>
             <unitid>MTX_2012_D01</unitid>
@@ -411,6 +434,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2012_D01.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2012_D01.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634IMc54p" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR21" role="publication:previous"/>
           </daogrp>
         </c>
@@ -429,6 +453,7 @@
             <daoloc href="RBX_MDF_MTX_2012_D02.jpg" role="access:image"/>
           </daogrp>
           <daogrp>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634McHVCd" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23" role="publication:previous"/>
             <daoloc href="http://www.bn-r.fr/video/MTX/RBX_MDF_MTX_2012_D02.mp4" role="mp4"/>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2012_D02.mov" role="mp4"/>
@@ -451,6 +476,7 @@
           <daogrp>
             <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2012_D03.mov" role="preservation:image"/>
             <daoloc href="RBX_MDF_MTX_2012_D03.jpg" role="access:image"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634CWFVHJ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR25" role="publication:previous"/>
           </daogrp>
         </c>

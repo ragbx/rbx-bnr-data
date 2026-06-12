@@ -49,15 +49,22 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      restent stables d'une itération à l'autre. Les éléments sans <did>/<unitid>
      reçoivent un id nouveau à chaque exécution (pas de clé de concordance).
 
-5. Ajout des anciens ARK BnR
-   - Pour chaque élément <c> dont le <unitid> figure dans la table de correspondance OAI,
-     une balise pointant vers l'ancien ARK BnR (https://www.bn-r.fr/ark:/20179/<osiros_id>)
-     est insérée selon trois cas :
-       * <daogrp> déjà présent → ajout d'un <daoloc role="publication:previous"> dans le groupe.
+5. Ajout des liens ARK BnR
+   - Pour chaque <archdesc> et <c> portant un attribut id, l'ARK actuel construit à
+     partir de cet id (https://www.bn-r.fr/ark:/20179/BNR<id>) est ajouté avec
+     role="publication:current".
+   - Pour chaque <c> dont le <unitid> figure dans la table de correspondance OAI,
+     l'ancien ARK BnR (https://www.bn-r.fr/ark:/20179/<osiros_id>) est ajouté avec
+     role="publication:previous".
+   - Les balises sont insérées selon trois cas :
+       * <daogrp> déjà présent → ajout d'un <daoloc> par lien dans le groupe (sans
+         doublon de role).
        * <dao> présent (sans <daogrp>) → transformation en <daogrp> contenant un <daoloc>
-         reprenant les attributs de l'ancienne <dao> et un <daoloc role="publication:previous">.
-       * Ni <dao> ni <daogrp> → création d'un <dao role="publication:previous"> pointant vers l'ARK.
-     Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> s'il existe.
+         reprenant les attributs de l'ancienne <dao> et un <daoloc> par lien.
+       * Ni <dao> ni <daogrp> → création d'un <dao> (lien unique) ou d'un <daogrp>
+         (plusieurs liens).
+     Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> ou <dsc>
+     s'il existe.
 
 6. Mise à jour des rôles des <dao>
    - Pour tous les éléments <dao> et <daoloc> dont l'attribut role commence par "image",
@@ -70,9 +77,9 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      "preservation:" dans le role de l'élément source.
    - Si le <dao> est isolé (hors <daogrp>), il est converti en <daogrp> + <daoloc> au préalable.
 
-8. Tri des <daoloc> dans les <daogrp>
-   - Dans chaque <daogrp>, les <daoloc> sont réordonnés : preservation: en premier,
-     access: ensuite, publication: en dernier.
+8. Tri des enfants des <daogrp>
+   - Dans chaque <daogrp>, <daodesc> est placé en premier, puis les <daoloc> sont
+     réordonnés : preservation: d'abord, access: ensuite, publication: en dernier.
 
 9. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
@@ -185,70 +192,96 @@ class EADbnr2mnesys:
 
     def _add_dao_ark(self, element):
         """
-        Ajoute ou modifie les balises <dao> ou <daogrp> pour chaque élément <c> dont le
-        <unitid> figure dans la table de correspondance OAI, afin de conserver un lien vers
-        l'ancien ARK BnR. Trois cas selon la structure existante :
+        Ajoute pour chaque <archdesc> et <c> les liens ARK BnR sous forme de
+        <dao>/<daoloc> :
 
-        - <daogrp> présent : ajout d'un <daoloc role="publication:previous"> dans le groupe existant
-          (sans doublon).
+        - l'ARK actuel (role="publication:current"), construit à partir de
+          l'attribut id de l'élément : https://www.bn-r.fr/ark:/20179/BNR<id> ;
+        - l'ancien ARK (role="publication:previous") pour les <c> dont le
+          <unitid> figure dans la table de correspondance OAI :
+          https://www.bn-r.fr/ark:/20179/<osiros_id>.
+
+        Trois cas selon la structure existante :
+
+        - <daogrp> présent : ajout d'un <daoloc> par lien dans le groupe existant
+          (sans doublon de role).
         - <dao> présent (sans <daogrp>) : transformation en <daogrp> avec un <daoloc>
-          reprenant les attributs de l'ancienne <dao> et un <daoloc role="publication:previous">.
-        - Ni <dao> ni <daogrp> : création d'un <dao role="publication:previous">.
+          reprenant les attributs de l'ancienne <dao> et un <daoloc> par lien.
+        - Ni <dao> ni <daogrp> : création d'un <dao> (lien unique) ou d'un <daogrp>
+          (plusieurs liens).
 
-        Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> s'il existe.
+        Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> ou
+        <dsc> s'il existe.
         """
-        for c in element.findall(".//c"):
-            unitid = c.find("./did/unitid")
-            if unitid is None or unitid.text not in self.oai_dict:
+        for el in element.iter("archdesc", "c"):
+            liens = []
+            if el.get("id"):
+                liens.append(
+                    (
+                        f"https://www.bn-r.fr/ark:/20179/BNR{el.get('id')}",
+                        "publication:current",
+                    )
+                )
+            unitid = el.find("./did/unitid")
+            if el.tag == "c" and unitid is not None and unitid.text in self.oai_dict:
+                liens.append(
+                    (
+                        f"https://www.bn-r.fr/ark:/20179/{self.oai_dict[unitid.text]}",
+                        "publication:previous",
+                    )
+                )
+            if not liens:
                 continue
 
-            url = f"https://www.bn-r.fr/ark:/20179/{self.oai_dict[unitid.text]}"
-            first_child_c = next((child for child in c if child.tag == "c"), None)
+            insert_before = next(
+                (child for child in el if child.tag in ("c", "dsc")), None
+            )
 
             # Cas 1 : <daogrp> existe déjà
-            daogrp = c.find("daogrp")
+            daogrp = el.find("daogrp")
             if daogrp is not None:
-                if not any(daoloc.get("role") == "publication:previous" for daoloc in daogrp.findall("daoloc")):
-                    new_daoloc = etree.SubElement(daogrp, "daoloc")
-                    new_daoloc.set("href", url)
-                    new_daoloc.set("role", "publication:previous")
+                roles_presents = {d.get("role") for d in daogrp.findall("daoloc")}
+                for url, role in liens:
+                    if role not in roles_presents:
+                        new_daoloc = etree.SubElement(daogrp, "daoloc")
+                        new_daoloc.set("href", url)
+                        new_daoloc.set("role", role)
+                continue
 
-            # Cas 2 : <dao> existe mais pas <daogrp>
-            elif (old_dao := c.find("dao")) is not None:
-                # Créer <daogrp>
-                daogrp = etree.Element("daogrp")
+            # Cas 2 : <dao> existe mais pas <daogrp> → conversion en <daogrp>
+            if (old_dao := el.find("dao")) is not None:
+                nouveau = etree.Element("daogrp")
 
-                # Créer un <daoloc> avec les attributs de l'ancienne <dao>
-                daoloc_from_dao = etree.SubElement(daogrp, "daoloc")
+                # Reprendre les attributs de l'ancienne <dao> dans un <daoloc>
+                daoloc_from_dao = etree.SubElement(nouveau, "daoloc")
                 for attr, value in old_dao.attrib.items():
                     daoloc_from_dao.set(attr, value)
 
-                # Ajouter la nouvelle <daoloc> pour l'ARK BnR
-                new_daoloc = etree.SubElement(daogrp, "daoloc")
-                new_daoloc.set("href", url)
-                new_daoloc.set("role", "publication:previous")
+                for url, role in liens:
+                    new_daoloc = etree.SubElement(nouveau, "daoloc")
+                    new_daoloc.set("href", url)
+                    new_daoloc.set("role", role)
 
-                # Insérer <daogrp> avant le premier enfant <c> ou à la fin
-                if first_child_c is not None:
-                    index = list(c).index(first_child_c)
-                    c.insert(index, daogrp)
-                else:
-                    c.append(daogrp)
+                el.remove(old_dao)
 
-                # Supprimer l'ancienne <dao>
-                c.remove(old_dao)
-
-            # Cas 3 : Ni <dao> ni <daogrp> n'existe
+            # Cas 3 : ni <dao> ni <daogrp>
+            elif len(liens) == 1:
+                url, role = liens[0]
+                nouveau = etree.Element("dao")
+                nouveau.set("href", url)
+                nouveau.set("role", role)
             else:
-                new_dao = etree.Element("dao")
-                new_dao.set("href", url)
-                new_dao.set("role", "publication:previous")
+                nouveau = etree.Element("daogrp")
+                for url, role in liens:
+                    new_daoloc = etree.SubElement(nouveau, "daoloc")
+                    new_daoloc.set("href", url)
+                    new_daoloc.set("role", role)
 
-                if first_child_c is not None:
-                    index = list(c).index(first_child_c)
-                    c.insert(index, new_dao)
-                else:
-                    c.append(new_dao)
+            # Insérer avant le premier enfant <c>/<dsc> ou à la fin
+            if insert_before is not None:
+                el.insert(list(el).index(insert_before), nouveau)
+            else:
+                el.append(nouveau)
 
 
     def _update_dao_roles(self, element):
@@ -296,19 +329,24 @@ class EADbnr2mnesys:
                 new_daoloc.set("role", preservation_role)
 
     def _sort_daogrp(self, element):
-        """Trie les <daoloc> dans chaque <daogrp> : preservation: en premier, access: ensuite, publication: en dernier."""
+        """Trie les enfants de chaque <daogrp> : <daodesc> toujours en premier, puis les
+        <daoloc> par role (preservation: d'abord, access: ensuite, publication: en dernier)."""
         role_order = {"preservation": 0, "access": 1, "publication": 2}
 
-        for daogrp in element.xpath(".//daogrp"):
-            daolocs = list(daogrp)
-            daolocs.sort(key=lambda e: next(
+        def cle(e):
+            if e.tag == "daodesc":
+                return -1
+            return next(
                 (order for prefix, order in role_order.items() if e.get("role", "").startswith(prefix)),
-                len(role_order)
-            ))
-            for daoloc in daolocs:
-                daogrp.remove(daoloc)
-            for daoloc in daolocs:
-                daogrp.append(daoloc)
+                len(role_order),
+            )
+
+        for daogrp in element.xpath(".//daogrp"):
+            enfants = sorted(daogrp, key=cle)
+            for enfant in enfants:
+                daogrp.remove(enfant)
+            for enfant in enfants:
+                daogrp.append(enfant)
 
     def _strip_whitespace(self, element):
         """Supprime les espaces en début/fin de texte dans les éléments `<controlaccess>`."""
