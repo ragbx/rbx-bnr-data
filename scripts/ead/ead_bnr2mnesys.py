@@ -3,7 +3,7 @@ Transformation de fichiers EAD BnR pour import dans Mnesys.
 
 Ce script applique une série de transformations sur des fichiers XML EAD (Encoded Archival
 Description) produits par la Bibliothèque numérique de Roubaix, en vue de leur import dans
-le logiciel d'archivistique Mnesys.
+le logiciel Mnesys.
 
 Données d'entrée
 ----------------
@@ -27,14 +27,14 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 
 1. Mise à jour des métadonnées de l'instrument de recherche
    - <eadid> : remplacé par la nouvelle valeur issue du fichier Excel.
-   - <archdesc/did/unitid> : remplacé par le nouveau identifiant de l'IR.
-   - <archdesc/did/repository> : remplacé par le nouveau nom du service versant.
+   - <archdesc/did/unitid> : remplacé par le nouvel identifiant de l'IR.
+   - <archdesc/did/repository> : le code présent dans bn-r est remplacé par son libellé.
 
 2. Nettoyage du contenu textuel
    - Décodage des entités HTML (&amp;, &lt;, etc.) dans tout l'arbre XML.
    - Suppression des espaces en début/fin de texte dans les enfants de <controlaccess>.
 
-3. Réorganisation des accès (indexation)
+3. Réorganisation des <origination>
    - <origination> : les éléments <name> et <persname> qu'il contient sont déplacés dans
      <controlaccess> (créé si absent). <origination> est supprimé s'il devient vide.
      Lors du déplacement, les <name> sont reclassés en <persname> ou <corpname> selon la
