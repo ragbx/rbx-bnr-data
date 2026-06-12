@@ -157,7 +157,7 @@ def update_repository(element, new_repository):
 def transform_ead(ir, names_type=None, oai=None):
     ir_filename = join("data", "ead", "bnr", ir["nom_fichier"])
     new_ir_filename = join(
-        "results", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
+        "results", "ead", "ead_cor", "bnr2mnesys", ir["nouveau_nom_fichier"]
     )
 
     tree = etree.parse(ir_filename)

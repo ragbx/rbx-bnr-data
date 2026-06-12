@@ -104,7 +104,7 @@ date = datetime.now().strftime("%Y%m%d")
 documents_df_list = []
 composants_df_list = []
 for source in ["bnr", "mnesys"]:
-    ead_folder = join("results", "ead_cor", source)
+    ead_folder = join("results", "ead", "ead_cor", source)
     ead_files = [f for f in listdir(ead_folder)]
     for ead_file in ead_files:
         print(ead_file)

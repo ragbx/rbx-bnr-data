@@ -6,7 +6,7 @@ from lxml import etree
 
 indexation = []
 for logiciel in ["bnr"]:
-    ead_folder = join("results", "ead_cor", "bnr2mnesys")
+    ead_folder = join("results", "ead", "ead_cor", "bnr2mnesys")
     ead_files = [f for f in listdir(ead_folder)]
     for ead_file in ead_files:
         tree = etree.parse(join(ead_folder, ead_file))

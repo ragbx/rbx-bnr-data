@@ -22,7 +22,7 @@ liste_instruments_recherche_{date}_transfert_mnesys.xlsx sont traités.
 
 ## Résultats
 
-Les fichiers EAD transformés sont stockés dans `results/ead_cor/bnr2mnesys/`.
+Les fichiers EAD transformés sont stockés dans `results/ead/ead_cor/bnr2mnesys/`.
 
 ---
 

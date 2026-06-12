@@ -95,5 +95,5 @@ def transform_ead(input_file, output_file):
 
 # Exemple d'utilisation
 transform_ead(
-    "data/ead/bnr/FR595129901_MED_04.xml", f"results/ead_cor/test_origination.xml"
+    "data/ead/bnr/FR595129901_MED_04.xml", f"results/ead/ead_cor/test_origination.xml"
 )

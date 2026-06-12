@@ -65,7 +65,7 @@ for source in ["bnr", "mnesys"]:
         for el in elements_mod:
             content = content.replace(el[0], el[1])
 
-        new_ead_folder = join("results", "ead_cor", source)
+        new_ead_folder = join("results", "ead", "ead_cor", source)
         new_ead_file = ead_file.replace(".xml", "_corr.xml")
         with open(join(new_ead_folder, new_ead_file), "w", encoding="utf-8") as f:
             f.write(content)

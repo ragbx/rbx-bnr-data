@@ -16,7 +16,7 @@ Données d'entrée
 
 Résultats
 ---------
-Les fichiers EAD transformés sont écrits dans results/ead_cor/bnr2mnesys/.
+Les fichiers EAD transformés sont écrits dans results/ead/ead_cor/bnr2mnesys/.
 
 Pipeline de transformations
 ---------------------------
@@ -108,7 +108,7 @@ class EADbnr2mnesys:
 
         # Dossiers de travail
         self.input_dir = join("data", "ead", "bnr")
-        self.output_dir = join("results", "ead_cor", "bnr2mnesys")
+        self.output_dir = join("results", "ead", "ead_cor", "bnr2mnesys")
 
     def _load_names(self, csv_path):
         """Charge les noms (persname/corpname) depuis un CSV."""

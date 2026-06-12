@@ -4,7 +4,7 @@ from os.path import join
 import pandas as pd
 from lxml import etree
 
-ead_folder = join("results", "ead_cor", "bnr2mnesys")
+ead_folder = join("results", "ead", "ead_cor", "bnr2mnesys")
 ead_files = [f for f in listdir(ead_folder)]
 
 results = []
