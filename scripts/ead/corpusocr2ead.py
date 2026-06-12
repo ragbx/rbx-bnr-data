@@ -12,6 +12,8 @@ Chaque <c level="file"> contient un <daogrp> avec une <daoloc
 role="preservation:image"> et une <daoloc role="preservation:ocr"> par page
 (fichiers .tif et .xml ALTO), triées par numéro de page.
 
+TODO : comprendre pourquoi on a un VAH_PUB
+
 Usage
 -----
     python scripts/ead/corpusocr2ead.py
