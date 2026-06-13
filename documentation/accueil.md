@@ -15,6 +15,7 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 - [Fichier de référence (dernière version)](../results/ref/_ref_files_20260502.csv.gz?raw=true) — `results/ref/_ref_files_20260502.csv.gz`
 - [IR prêts pour Mnesys](../results/ead/ead_cor/bnr2mnesys/) — `results/ead/ead_cor/bnr2mnesys/`
 - [Répertoires en traitement S3 KO](../results/s3/repertoires_traitement_s3_ko.xlsx?raw=true) — `results/s3/repertoires_traitement_s3_ko.xlsx`, généré par [repertoires_traitement_s3_ko.py](files/scripts/repertoires_traitement_s3_ko.md)
+- [Stats DAO par IR](../results/dao/) — `results/dao/dao_stats_ir_{date}.xlsx`, généré par [dao_stats_ir.py](files/scripts/dao_stats_ir.md)
 
 ---
 
