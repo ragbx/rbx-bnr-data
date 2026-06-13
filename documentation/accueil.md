@@ -35,6 +35,8 @@ Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
+→ [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md) — `<dao>` / `<daogrp>` dans les IR
+
 → **[Chaîne d'appariement des DAO](files/scripts/dao_appariement.md)** — vue d'ensemble, flux et enchaînement des scripts
 
 Détail par script :

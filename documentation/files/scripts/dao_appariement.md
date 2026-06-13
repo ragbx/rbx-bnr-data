@@ -5,7 +5,9 @@ transformés pour Mnesys, apparie les liens de diffusion (DAO) à leurs fichiers
 de conservation et recense ceux qui n'ont pas de correspondance.
 
 Chaque étape a sa documentation détaillée ; cette page en donne l'enchaînement,
-les entrées et les sorties.
+les entrées et les sorties. Pour les structures EAD en amont (`<dao>`,
+`<daogrp>`, rôles, plages), voir
+[Les liens DAO : structures et cas de figure](../donnees/dao_daogrp.md).
 
 ---
 
