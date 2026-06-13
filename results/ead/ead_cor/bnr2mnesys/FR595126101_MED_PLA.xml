@@ -42,7 +42,7 @@
           <unittitle>Cartes et plans de grand format</unittitle>
         </did>
         <controlaccess>
-          <genreform>Cartes et plans</genreform>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Cartes et plans</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640STFqOL" role="publication:current"/>
@@ -59,7 +59,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une carte datant de 1570.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <persname role="Cartographe">Jolivet, Joannes (15..-1553)</persname>
+            <persname role="Cartographe" source="thesaurus--SLASH--bnr_persname.xml">Jolivet, Joannes (15..-1553)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_001_001.jpg" role="access:image"/>
@@ -78,12 +78,12 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Manufacture et industrie textile</subject>
-            <subject source="theme">Bâtiments industriels</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
             <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
-            <corpname>Filatures Motte-Bossut (Roubaix, Nord)</corpname>
-            <persname role="Graveur">Lorby, Frédéric</persname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Filatures Motte-Bossut (Roubaix, Nord)</corpname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Lorby, Frédéric</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -109,11 +109,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="theme">Bâtiments religieux</subject>
-            <corpname>Eglise Notre-Dame de Roubaix</corpname>
-            <corpname>Eglise Saint-Martin de Roubaix</corpname>
-            <persname role="cartographe">Barbotin, Emile</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Eglise Notre-Dame de Roubaix</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Eglise Saint-Martin de Roubaix</corpname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, Emile</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_005_001.jpg" role="access:image"/>
@@ -132,7 +132,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_006_001.jpg" role="access:image"/>
@@ -151,11 +151,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports</subject>
-            <persname role="cartographe">Langlois</persname>
-            <persname role="Graveur">Delamare, F.</persname>
-            <corpname role="imprimeur">Imprimerie de Labbé R. de Montmorency</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Langlois</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Delamare, F.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie de Labbé R. de Montmorency</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_008_001.jpg" role="access:image"/>
@@ -174,8 +174,8 @@
             <p>&lt;p&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Blocquel-Castiaux</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Blocquel-Castiaux</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_009_001.jpg" role="access:image"/>
@@ -194,10 +194,10 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Vuillemin, A.</persname>
-            <persname role="Graveur">Langevin</persname>
-            <persname role="éditeur">Fatout</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Vuillemin, A.</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Langevin</persname>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Fatout</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_010_001.jpg" role="access:image"/>
@@ -216,10 +216,10 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Vuillemin, A.</persname>
-            <persname role="Graveur">Langevin</persname>
-            <persname role="éditeur">Fatout</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Vuillemin, A.</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Langevin</persname>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Fatout</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_011_001.jpg" role="access:image"/>
@@ -238,9 +238,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
-            <persname role="éditeur">Editions Girard et Barrière</persname>
-            <corpname role="imprimeur">Imprimerie Jean Dollgusfec - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Editions Girard et Barrière</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Jean Dollgusfec - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_012_001.jpg" role="access:image"/>
@@ -262,9 +262,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, E.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_013_001.jpg" role="access:image"/>
@@ -283,11 +283,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Transports</subject>
-            <persname role="cartographe">Donnet</persname>
-            <persname role="cartographe">Fremin</persname>
-            <persname role="cartographe">Levasseur</persname>
-            <persname role="éditeur">Fatout</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Donnet</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Fremin</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Levasseur</persname>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Fatout</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_014_001.jpg" role="access:image"/>
@@ -306,11 +306,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Transports</subject>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="éditeur">Logeron, Auguste</persname>
-            <persname role="cartographe">Fremin</persname>
-            <corpname role="imprimeur">Imprimerie de Mangeon - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Logeron, Auguste</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Fremin</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie de Mangeon - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_015_001.jpg" role="access:image"/>
@@ -329,11 +329,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports</subject>
-            <persname role="éditeur">Fatout</persname>
-            <persname role="cartographe">Perrot, A.M.</persname>
-            <persname role="cartographe">Vuillemin, A.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Fatout</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Perrot, A.M.</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Vuillemin, A.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_016_001.jpg" role="access:image"/>
@@ -352,7 +352,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Enseignement</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_018_001.jpg" role="access:image"/>
@@ -371,9 +371,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Don anonyme en 1995.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, E.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_019_001.jpg" role="access:image"/>
@@ -392,8 +392,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_020_001.jpg" role="access:image"/>
@@ -412,9 +412,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, E.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_021_001.jpg" role="access:image"/>
@@ -433,8 +433,8 @@
             <p>&lt;p&gt;Carte acquise en 1999.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_022_001.jpg" role="access:image"/>
@@ -453,9 +453,9 @@
             <p>&lt;p&gt;Don.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <persname role="Graphiste">Hallart, Guy</persname>
-            <corpname role="imprimeur">Imprimerie d'Haussy - Tourcoing</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Hallart, Guy</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie d'Haussy - Tourcoing</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_023_001.jpg" audience="internal" role="access:image"/>
@@ -471,9 +471,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 88.5 x 57 cm. Technique : Lithographie couleur. Cote : Ca024.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Parcs, jardins et monuments</subject>
-            <persname>MASUREL</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">MASUREL</persname>
             <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
           </controlaccess>
           <daogrp>
@@ -509,8 +509,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Jean Piat.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
-            <subject source="theme">Guerres</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_026_001.jpg" role="access:image"/>
@@ -526,9 +526,9 @@
             <physdesc>&lt;p&gt;Dimensions : 64.5 x 80 cm. Technique : Lithographie. Cote : Ca027.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Guerres</subject>
-            <persname role="cartographe">Patesson, E.</persname>
-            <corpname role="imprimeur">Imprimerie Goossens - Bruxelles</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Patesson, E.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Goossens - Bruxelles</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -551,8 +551,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite du &lt;em&gt;Petit Parisien&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Bouquet Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Bouquet Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_028_001.jpg" role="access:image"/>
@@ -568,9 +568,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75.5 x 106 cm. Technique : Lithographie collée sur toile. Cote : Ca029.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Morin - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Morin - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_029_001.jpg" role="access:image"/>
@@ -586,7 +586,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 73 x 153 cm. Technique : Lithographie. Cote : Ca030.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_030_001.jpg" role="access:image"/>
@@ -605,9 +605,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise au Salon du Livre de Lille en 2008.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Guerres</subject>
-            <corpname role="éditeur">Editions G. et W. Bacon &amp; Co</corpname>
-            <corpname role="imprimeur">Imprimerie Johnson Riddle &amp; Co - Londres</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+            <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Editions G. et W. Bacon &amp; Co</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Johnson Riddle &amp; Co - Londres</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -627,7 +627,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 87 x 102 cm. Technique : Offset. Cote : Ca032.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_032_001.jpg" role="access:image"/>
@@ -643,7 +643,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 67 x 91.5 cm. Technique : Offset. Cote : Ca033.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="imprimeur">Imprimerie Lefévère Tourcoing</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lefévère Tourcoing</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_033_001.jpg" audience="internal" role="access:image"/>
@@ -659,7 +659,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 89.5 x 68.5 cm. Technique : Offset. Cote : Ca034.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_034_001.jpg" audience="internal" role="access:image"/>
@@ -678,9 +678,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte acquise en 2009.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie L. Courtier - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie L. Courtier - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_035_001.jpg" role="access:image"/>
@@ -696,9 +696,9 @@
             <physdesc>&lt;p&gt;Dimensions : 98 x 118 cm. Technique : Lithographie collée sur toile. Cote : Ca037.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Transports</subject>
-            <corpname role="imprimeur">Imprimerie Monrocq - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Monrocq - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_037_001.jpg" role="access:image"/>
@@ -714,9 +714,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 80 x 60 cm. Technique : Offset. Cote : Ca038.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
-            <corpname role="éditeur">Editions Hachette &amp; Cie</corpname>
-            <corpname role="imprimeur">Imprimerie Robert &amp; Cie - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Editions Hachette &amp; Cie</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Robert &amp; Cie - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -737,7 +737,7 @@
           </did>
           <controlaccess>
             <geogname source="quartier" coord="[ [ 50.70842631527916, 3.168360168101307 ], [ 50.70838148720242, 3.168280768810226 ], [ 50.70839047643433, 3.168280924751934 ], [ 50.70827561437514, 3.167995800230816 ], [ 50.70822267681295, 3.167853316389352 ], [ 50.70817833070127, 3.167767608327672 ], [ 50.70807245576843, 3.16748264198337 ], [ 50.70795759182599, 3.167197519686281 ], [ 50.70766603320733, 3.166470491673567 ], [ 50.70763926758215, 3.166441714613915 ], [ 50.70757724104586, 3.166313235151754 ], [ 50.70749704101792, 3.166212747975316 ], [ 50.70741664424531, 3.166140575468568 ], [ 50.70739886598524, 3.166111955685136 ], [ 50.70733674122971, 3.16599762945417 ], [ 50.70728330757786, 3.16592592264299 ], [ 50.70723007046145, 3.165825907393349 ], [ 50.70705199155237, 3.165582169030428 ], [ 50.70698966888044, 3.165496152701003 ], [ 50.70682097050047, 3.165195956756338 ], [ 50.70656416822511, 3.164639429989342 ], [ 50.70649403948885, 3.164383411336184 ], [ 50.70642381257492, 3.164141543939258 ], [ 50.70638815653336, 3.164098461710187 ], [ 50.70629027520998, 3.163955210158364 ], [ 50.70625461909861, 3.163912126763412 ], [ 50.70624555294758, 3.163900181845329 ], [ 50.70577017236153, 3.163961449673126 ], [ 50.70526723121023, 3.164027102808507 ], [ 50.70489535562198, 3.16408421057798 ], [ 50.70435961694069, 3.164174428643143 ], [ 50.70401337402041, 3.164238348548189 ], [ 50.70364006467786, 3.16430217888611 ], [ 50.70329524538612, 3.164366100246747 ], [ 50.70286635322776, 3.164449934097979 ], [ 50.70238614756548, 3.164556029428995 ], [ 50.70211256612417, 3.164611210258758 ], [ 50.70179198897149, 3.164655019954498 ], [ 50.7014272796627, 3.164678497088821 ], [ 50.70090017611292, 3.164699196754846 ], [ 50.70053550493778, 3.164693512986086 ], [ 50.70017371438816, 3.164663164737321 ], [ 50.69976208570562, 3.16461695294759 ], [ 50.69939320521095, 3.164561910225605 ], [ 50.69893783849219, 3.16446565016802 ], [ 50.69851537239239, 3.16435585546489 ], [ 50.69801328809313, 3.164191177453778 ], [ 50.69788308817869, 3.164582031980312 ], [ 50.6976954781202, 3.165024611233127 ], [ 50.69720288127402, 3.165902472582425 ], [ 50.69783735520139, 3.166993715781954 ], [ 50.69812170661516, 3.167465711933187 ], [ 50.69848645293332, 3.168009874444245 ], [ 50.69854897355315, 3.168067572811038 ], [ 50.69878917329616, 3.168425583903607 ], [ 50.69911826029123, 3.168926681222141 ], [ 50.69909887495972, 3.168947858895944 ], [ 50.69867294419193, 3.169413615661015 ], [ 50.69825314604199, 3.170427211640312 ], [ 50.69891628384125, 3.170809723670042 ], [ 50.69900619111149, 3.170807184316581 ], [ 50.6997404244057, 3.171216280984697 ], [ 50.70002926892511, 3.172325331706714 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.70795313930936, 3.168669283101528 ] ]">Alma gare</geogname>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_039_001.jpg" role="access:image"/>
@@ -753,8 +753,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75 x 70 cm. Technique : Lithographie. Cote : Ca040.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Courtier - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Courtier - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_040_001.jpg" role="access:image"/>
@@ -770,10 +770,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 116 cm. Technique : Lithographie. Cote Ca041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -793,8 +793,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 116 cm. Technique : Lithographie. Cote : Ca042.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Rues et places</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
             <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
           </controlaccess>
@@ -816,9 +816,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Lithographie. Cote : Ca043.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics</subject>
-            <corpname>Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -835,10 +835,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85 x 61 cm. Technique : Lithographie. Cote : Ca044.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Dufour, A.R.</persname>
-            <persname role="Graveur">Dyonnet, Ch.</persname>
-            <corpname role="imprimeur">Imprimerie Cosson et compagnie - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Dufour, A.R.</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Dyonnet, Ch.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Cosson et compagnie - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_044_001.jpg" role="access:image"/>
@@ -854,7 +854,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 61 x 90 cm. Technique : Lithographie. Cote : Ca045.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="imprimeur">Imprimerie Victor Janson - Paris</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Victor Janson - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_045_001.jpg" role="access:image"/>
@@ -870,7 +870,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 68 x 104 cm. Technique : Offset. Cote : Ca046.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="imprimeur">Imprimerie Draeger</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Draeger</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_046_001.jpg" role="access:image"/>
@@ -903,7 +903,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 66 x 106 cm. Technique : Offset. Cote : Ca048.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -923,7 +923,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 98 x 55 cm. Technique : Offset. Cote : Ca049.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -943,9 +943,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 79 cm. Technique : Lithographie collée sur tissu. Cote : Ca050.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Hérisson</persname>
-            <corpname role="imprimeur">Imprimerie Basset</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Hérisson</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Basset</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_050_001.jpg" role="access:image"/>
@@ -961,7 +961,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 118 x 80 cm. Technique : Offset. Cote : Ca051.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_051_001.jpg" audience="internal" role="access:image"/>
@@ -977,7 +977,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55 x 80 cm. Technique : Lithographie et notes manuscrites. Cote : Ca052.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_052_001.jpg" role="access:image"/>
@@ -1009,7 +1009,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 79 x 91 cm. Technique : Offset. Cote : Ca054.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Equipements culturels</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_054_001.jpg" role="access:image"/>
@@ -1025,7 +1025,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 82 x 65 cm. Technique : Offset. Cote : Ca055.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1914-1918</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_055_001.jpg" role="access:image"/>
@@ -1044,8 +1044,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de plans et d'élévation dessinés par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <persname>Nawrocki, Stanislas</persname>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Nawrocki, Stanislas</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1065,9 +1065,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 63 x 78 cm. Technique : Offset. Cote : Ca057.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname>Nawrocki, Stanislas</persname>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Nawrocki, Stanislas</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_057_001.jpg" role="access:image"/>
@@ -1096,9 +1096,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 83 cm. Technique : Dessin au graphite. Cote : Ca059.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_059_001.jpg" role="access:image"/>
@@ -1114,9 +1114,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 58 x 51 cm. Technique : Dessin au graphite. Cote : Ca060.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_060_001.jpg" role="access:image"/>
@@ -1132,9 +1132,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 19 x 65 cm. Technique : Dessin au graphite. Cote : Ca061.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_061_001.jpg" role="access:image"/>
@@ -1150,9 +1150,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 62 x 55 cm. Technique : Dessin au graphite. Cote : Ca062.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_062_001.jpg" role="access:image"/>
@@ -1168,9 +1168,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55 x 83 cm. Technique : Dessin au graphite. Cote : Ca063.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_063_001.jpg" role="access:image"/>
@@ -1189,7 +1189,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte issue du Fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_064_001.jpg" role="access:image"/>
@@ -1208,7 +1208,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_065_001.jpg" role="access:image"/>
@@ -1224,7 +1224,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 70 x 109 cm. Technique : Offset sur calque. Cote : Ca066.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_066_001.jpg" role="access:image"/>
@@ -1243,7 +1243,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_067_001.jpg" role="access:image"/>
@@ -1262,7 +1262,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_068_001.jpg" role="access:image"/>
@@ -1281,7 +1281,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_069_001.jpg" role="access:image"/>
@@ -1300,7 +1300,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_070_001.jpg" role="access:image"/>
@@ -1319,7 +1319,7 @@
             <p>&lt;p&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_071_001.jpg" role="access:image"/>
@@ -1338,7 +1338,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_072_001.jpg" role="access:image"/>
@@ -1357,7 +1357,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'un document issu du numéro de décembre 1966, consacré à M. Vannveten, de la revue &lt;em&gt;La Maison&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_073_001.jpg" role="access:image"/>
@@ -1376,11 +1376,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan issu du Fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="theme">Bâtiments religieux</subject>
-            <corpname>Eglise Saint-Martin de Roubaix</corpname>
-            <corpname>Eglise Notre-Dame de Roubaix</corpname>
-            <persname role="cartographe">Barbotin, E.</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Eglise Saint-Martin de Roubaix</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Eglise Notre-Dame de Roubaix</corpname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, E.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_074_001.jpg" role="access:image"/>
@@ -1396,10 +1396,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 46 x 107 cm. Technique : Encre et graphite sur calque. Cote : Ca075.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_075_001.jpg" audience="internal" role="access:image"/>
@@ -1415,10 +1415,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75 x 119 cm. Technique : Encre et graphite sur calque. Cote : Ca076.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_076_001.jpg" audience="internal" role="access:image"/>
@@ -1434,10 +1434,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 75 x 117 cm. Technique : Encre et graphite sur calque. Cote : Ca077.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_077_001.jpg" audience="internal" role="access:image"/>
@@ -1453,10 +1453,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 69 x 74 cm. Technique : Encre et graphite sur calque. Cote : Ca078.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_078_001.jpg" audience="internal" role="access:image"/>
@@ -1472,10 +1472,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45.5 x 90 cm. Technique : Encre et graphite sur calque. Cote : Ca079.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_079_001.jpg" audience="internal" role="access:image"/>
@@ -1491,10 +1491,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 72 x 123 cm. Technique : Encre et graphite sur calque. Cote : Ca080.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_080_001.jpg" audience="internal" role="access:image"/>
@@ -1510,10 +1510,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 98 x 108 cm. Technique : Encre et graphite sur calque. Cote : Ca081.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_081_001.jpg" audience="internal" role="access:image"/>
@@ -1529,10 +1529,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 91 x 109 cm. Technique : Encre et graphite sur calque. Cote : Ca082.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Grande Brasserie Moderne</corpname>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Bâtiments industriels</subject>
-            <persname role="architecte">Van Nueten, Charles (1899-1989)</persname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Van Nueten, Charles (1899-1989)</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_082_001.jpg" audience="internal" role="access:image"/>
@@ -1548,10 +1548,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression numérique. Cote : Ca083.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
-            <subject source="theme">Equipements culturels</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_083_001.jpg" role="access:image"/>
@@ -1567,10 +1567,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 90 cm. Technique : Impression numérique. Cote : Ca084.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
-            <subject source="theme">Equipements culturels</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_084_001.jpg" role="access:image"/>
@@ -1586,9 +1586,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression numérique. Cote : Ca085.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics</subject>
-            <subject source="theme">Equipements culturels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
           <daogrp>
@@ -1605,9 +1605,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 90 x 124 cm. Technique : Impression numérique. Cote : Ca086.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics</subject>
-            <subject source="theme">Equipements culturels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
           <daogrp>
@@ -1627,11 +1627,11 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un calque d'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-            <persname role="imprimeur">Atelier Moisant-Lanrent-Savey</persname>
+            <persname role="imprimeur" source="thesaurus--SLASH--bnr_persname.xml">Atelier Moisant-Lanrent-Savey</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_087_001.jpg" role="access:image"/>
@@ -1650,10 +1650,10 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan d'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-            <corpname>Hôtel de Ville</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_088_001.jpg" role="access:image"/>
@@ -1672,10 +1672,10 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un calque d'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
-            <subject source="theme">Bâtiments publics</subject>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1695,8 +1695,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 155 x 140 cm. Technique : Offset et notes manuscrites. Cote : Ca090.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_090_001.jpg" audience="internal" role="access:image"/>
@@ -1712,9 +1712,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 144 cm. Technique : Impression numérique. Cote : Ca091.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Bâtiments publics</subject>
-            <subject source="theme">Equipements culturels</subject>
-            <corpname>Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
           <daogrp>
@@ -1731,9 +1731,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 110 x 114 cm. Technique : Impression numérique et notes manuscrites. Cote : Ca092.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Bâtiments publics</subject>
-            <subject source="theme">Equipements culturels</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
             <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
           </controlaccess>
           <daogrp>
@@ -1753,8 +1753,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction de la planche n°20, dessinée par R. Jourdheuil.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Jourdheuil, R.</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Jourdheuil, R.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_093_001.jpg" role="access:image"/>
@@ -1770,7 +1770,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 85 x 132 cm. Technique : Offset. Cote : Ca094.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_094_001.jpg" role="access:image"/>
@@ -1786,7 +1786,7 @@
             <physdesc>&lt;p&gt;Dimensions : 78 x 125 cm. Technique : Offset. Cote : Ca095.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_095_001.jpg" role="access:image"/>
@@ -1802,7 +1802,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 101 x 128 cm. Technique : Offset. Cote : Ca096.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_096_001.jpg" role="access:image"/>
@@ -1818,7 +1818,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 94 x 125 cm. Technique : Offset. Cote : Ca097.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_097_001.jpg" role="access:image"/>
@@ -1834,7 +1834,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 92 x 135 cm. Technique : Offset. Cote : Ca098.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_098_001.jpg" role="access:image"/>
@@ -1850,8 +1850,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 100 x 80 cm. Technique : Offset. Cote : Ca099.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Commerces</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_099_001.jpg" audience="internal" role="access:image"/>
@@ -1867,8 +1867,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 84 x 120 cm. Technique : Offset. Cote : Ca100.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Atelier graphique</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Atelier graphique</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_100_001.jpg" role="access:image"/>
@@ -1884,11 +1884,11 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 114 x 80 cm. Technique : Offset. Cote : Ca101&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Manufacture et industrie textile</subject>
-            <subject source="theme">Autres industries</subject>
-            <subject source="theme">Commerces</subject>
-            <corpname>Les filatures du Sartel (Wattrelos, Nord)</corpname>
-            <corpname role="imprimeur">Imprimerie Déchaux - Paris</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Les filatures du Sartel (Wattrelos, Nord)</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Déchaux - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_101_001.jpg" role="access:image"/>
@@ -1904,8 +1904,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 93 x 71 cm. Technique : Offset. Cote : Ca102.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Equipements culturels</subject>
-            <subject source="theme">Bâtiments publics</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Equipements culturels</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_102_001.jpg" audience="internal" role="access:image"/>
@@ -1924,13 +1924,13 @@
             <p>&lt;p&gt;Carte achetée à Monsieur Marc-Edouard Callens en 2017.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Commerces</subject>
-            <subject source="theme">Autres industries</subject>
-            <subject source="theme">Manufacture et industrie textile</subject>
-            <persname role="Graveur">Rollet, H.</persname>
-            <corpname role="imprimeur">Imprimerie A. Bellier et Cie - Paris</corpname>
-            <corpname normal="Journal de Roubaix" role="éditeur">Journal de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Rollet, H.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie A. Bellier et Cie - Paris</corpname>
+            <corpname normal="Journal de Roubaix" role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Journal de Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_103_001.jpg" role="access:image"/>
@@ -1946,7 +1946,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 68 x 79 cm. Technique : Offset et notes manuscrites. Cote : Ca108.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Autres industries</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_108_001.jpg" role="access:image"/>
@@ -1975,8 +1975,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 110 cm. Technique : Impression numérique. Cote : Ca110.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -1996,8 +1996,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2017,8 +2017,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1907.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2038,8 +2038,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Bâtiments publics</subject>
-            <corpname>Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2059,8 +2059,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2080,8 +2080,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction du plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2101,8 +2101,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dessinée par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2122,8 +2122,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte en 1906.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -2140,7 +2140,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 76 x 55 cm. Technique : Lithographie. Cote : Ca119.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="cartographe">Le Rouge</corpname>
+            <corpname role="cartographe" source="thesaurus--SLASH--bnr_corpname.xml">Le Rouge</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_A_119_001.jpg" role="access:image"/>
@@ -2170,7 +2170,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640LLIDOM" role="publication:current"/>
@@ -2188,7 +2188,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de la Ville de Roubaix.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Enseignement</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640URL6YU" role="publication:current"/>
@@ -2203,8 +2203,8 @@
             <physdesc>&lt;p&gt;Dimensions : 71 x 84 cm. Technique : Lithogrpahie collée sur tissu. Cote : Ca120.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Pigache</persname>
-            <persname role="Graveur">Hellé</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Pigache</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Hellé</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640I4ioFD" role="publication:current"/>
         </c>
@@ -2231,9 +2231,9 @@
             <p>&lt;p&gt;Don de Monsieur Etienne Prouvost en 2022.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="Graphiste">Kermin, Maurice</persname>
-            <persname role="Graveur">Melcher, Yves</persname>
-            <corpname role="imprimeur">Imprimerie Schimdt</corpname>
+            <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Kermin, Maurice</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Melcher, Yves</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Schimdt</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640CEB8r4" role="publication:current"/>
@@ -2248,8 +2248,8 @@
             <physdesc>&lt;p&gt;Dimensions : 75 x 95 cm. Technique : Sérigraphie. Cote : Ca123. Il est quadrillé à la craie grasse rouge et annoté.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Cagnion, Marius</persname>
-            <corpname role="imprimeur">Imprimerie Dufrenoy</corpname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Cagnion, Marius</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Dufrenoy</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ZH0nO0" role="publication:current"/>
         </c>
@@ -2276,9 +2276,9 @@
             <p>&lt;p&gt;Ce document a été restauré en 2023.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Compagnie des tramways du département du Nord</corpname>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Transports</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Compagnie des tramways du département du Nord</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640FedRq5" role="publication:current"/>
         </c>
@@ -2311,8 +2311,8 @@
             <p>&lt;p&gt;Don de Hideyuki Ishibashi en 2021.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments</subject>
-            <subject source="theme">Exposition internationale de 1911</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Exposition internationale de 1911</subject>
             <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640FFZ345" role="publication:current"/>
@@ -2373,7 +2373,7 @@
             <physdesc>&lt;p&gt;Dimensions : 73 x 56 cm. Technique : Lithographies et notes manuscrites.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="imprimeur">Imprimerie Lesguillon - Roubaix</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640T1csXx" role="publication:current"/>
         </c>
@@ -2388,8 +2388,8 @@
             <p>&lt;p&gt;Achat auprès de Germain Hirselj en mars 2025.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="illustrateur">Barbotin, E.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Barbotin, E.</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446402FolHw" role="publication:current"/>
         </c>
@@ -2411,7 +2411,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 39 x 52 cm. Technique : Lithographie. Cote : Cb001.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname role="cartographe">Bonne</corpname>
+            <corpname role="cartographe" source="thesaurus--SLASH--bnr_corpname.xml">Bonne</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_001_001.jpg" role="access:image"/>
@@ -2427,7 +2427,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 42 x 53 cm. Technique : Lithographie. Cote : Cb002.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="Graveur">Dubuisson</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Dubuisson</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_002_001.jpg" role="access:image"/>
@@ -2471,8 +2471,8 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134953" role="publication:previous"/>
           </daogrp>
           <controlaccess>
-            <persname role="Graveur">Erhard Frères</persname>
-            <persname role="imprimeur">Erhard Frères</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Erhard Frères</persname>
+            <persname role="imprimeur" source="thesaurus--SLASH--bnr_persname.xml">Erhard Frères</persname>
           </controlaccess>
         </c>
         <c level="file" id="m01781244640hW8Pe3">
@@ -2486,8 +2486,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan intégré en 1994.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2507,7 +2507,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb008.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_008_001.jpg" role="access:image"/>
@@ -2523,8 +2523,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 60 cm. Technique : Lithographie. Cote : Cb013.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <persname role="cartographe">Andriveau-Goujon, J.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Andriveau-Goujon, J.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_013_001.jpg" role="access:image"/>
@@ -2540,7 +2540,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 55 x 41 cm. Technique : Offset. Cote : Cb014.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2579,7 +2579,7 @@
             <p>&lt;p&gt;Don de l'ENSAIT en 1995.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="cartographe">Iaillot, H.</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Iaillot, H.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_016_001.jpg" role="access:image"/>
@@ -2598,7 +2598,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_017_001.jpg" role="access:image"/>
@@ -2617,8 +2617,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan intégré en 2000.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Logement</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
           </controlaccess>
           <daogrp>
@@ -2635,8 +2635,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 71 x 53 cm. Technique : Offset et notes manuscrites. Cote : Cb019.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <corpname>Médiathèque de Roubaix</corpname>
-            <subject source="theme">Littérature</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Médiathèque de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_019_001.jpg" role="access:image"/>
@@ -2668,10 +2668,10 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 22 x 78 cm. Technique : Dessin. Cote : Cb021.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname>Dubosquiel</persname>
-            <persname>Delaoute</persname>
-            <persname>Delannoy</persname>
-            <persname>Loudant</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Dubosquiel</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Delaoute</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Delannoy</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Loudant</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_021_001.jpg" role="access:image"/>
@@ -2687,8 +2687,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 80 cm. Technique : Lithographie. Cote : Cb022.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Canal</subject>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Canal</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_022_001.jpg" role="access:image"/>
@@ -2707,9 +2707,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une carte datant de 1867.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Transports</subject>
-            <persname role="cartographe">Cavrois, N.</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Cavrois, N.</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_023_001.jpg" role="access:image"/>
@@ -2728,8 +2728,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une carte extraite d'un supplément au journal &lt;em&gt;Moteurs &amp; Cycles&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_024_001.jpg" role="access:image"/>
@@ -2745,9 +2745,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 54 x 65.5 cm. Technique : Lithographie. Cote : Cb025.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Boittiaux et Delplace - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Boittiaux et Delplace - Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_025_001.jpg" role="access:image"/>
@@ -2779,7 +2779,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une lithographie datant de 1667.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <persname role="Graveur">Derveaux, Daniel</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Derveaux, Daniel</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_027_001.jpg" role="access:image"/>
@@ -2801,7 +2801,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Jean Piat en 1999.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="Graveur">Derveaux, Daniel</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Derveaux, Daniel</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_028_001.jpg" role="access:image"/>
@@ -2820,7 +2820,7 @@
             <p>&lt;p&gt;Il s'agit d'une carte extraite du supplément du numéro 230 de la revue &lt;em&gt;Geo&lt;/em&gt; datant d'avril 1998.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2853,8 +2853,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 63 x 67.5 cm. Technique : Lithographie. Cote : Cb031.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_031_001.jpg" role="access:image"/>
@@ -2873,8 +2873,8 @@
             <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan dressé à l'occasion de l'Exposition internationale du Nord de la France en 1911.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_033_001.jpg" role="access:image"/>
@@ -2890,9 +2890,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 73 x 56 cm. Technique : Lithographie. Cote : Cb034.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="illustrateur">Imprimerie Lesguillon - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="illustrateur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_034_001.jpg" role="access:image"/>
@@ -2908,9 +2908,9 @@
             <physdesc>&lt;p&gt;Dimensions : 73 x 56 cm. Technique : Lithographie. Cote : Cb035.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Lesguillon - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2930,9 +2930,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 73 x 56 cm. Technique : Lithographie. Cote : Cb036.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Lesguillon - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2969,8 +2969,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 72 x 57 cm. Technique : Lithographie. Cote : Cb038.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
-            <corpname role="imprimeur">Imprimerie Lesguillon - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lesguillon - Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2990,7 +2990,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 78 x 44 cm. Technique : Offset. Cote : Cb039.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3010,8 +3010,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 56 x 49 cm. Technique : Offset. Cote : Cb040.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_040_001.jpg" role="access:image"/>
@@ -3027,7 +3027,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 47 cm. Technique : Offset. Cote : Cb041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_041_001.jpg" role="access:image"/>
@@ -3043,9 +3043,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 51 x 49 cm. Technique : Offset. Cote : Cb042.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Robin</persname>
-            <persname role="cartographe">Coget</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Robin</persname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Coget</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_042_001.jpg" role="access:image"/>
@@ -3061,8 +3061,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 50 x 50 cm. Technique : Dessin. Cote : Cb044.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3082,8 +3082,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 50 x 50 cm. Technique : Dessin. Cote : Cb045.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_045_001.jpg" audience="internal" role="access:image"/>
@@ -3099,8 +3099,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 50 x 50 cm. Technique : Dessin. Cote : Cb046.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_046_001.jpg" audience="internal" role="access:image"/>
@@ -3119,8 +3119,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_047_001.jpg" audience="internal" role="access:image"/>
@@ -3145,7 +3145,7 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR134989" role="publication:previous"/>
           </daogrp>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
         </c>
         <c level="file" id="m01781244640Xpcos2">
@@ -3156,7 +3156,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 57 cm. Technique : Offset. Cote : Cb049.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_049_001.jpg" role="access:image"/>
@@ -3172,7 +3172,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 57 cm. Technique : Offset. Cote : Cb050.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_050_001.jpg" role="access:image"/>
@@ -3188,7 +3188,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 46 x 28 cm. Technique : Offset. Cote : Cb051.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_051_001.jpg" role="access:image"/>
@@ -3207,8 +3207,8 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_052_001.jpg" role="access:image"/>
@@ -3227,8 +3227,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_053_001.jpg" role="access:image"/>
@@ -3247,8 +3247,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_054_001.jpg" role="access:image"/>
@@ -3267,8 +3267,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_055_001.jpg" role="access:image"/>
@@ -3284,7 +3284,7 @@
             <physdesc>&lt;p&gt;Dimensions : 60 x 58 cm. Technique : Offset et notes manuscrites. Cote : Cb032.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_032_001.jpg" role="access:image"/>
@@ -3303,10 +3303,10 @@
             <p>&lt;p style="text-align: justify;"&gt;Carte intégrée en 1985.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="photographe">Descamps, E.</persname>
-            <corpname role="imprimeur">Imprimerie Vanveerdeghem</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Descamps, E.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Vanveerdeghem</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3329,8 +3329,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Guillemyn en 1995.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Deschamps, Auguste</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Deschamps, Auguste</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_057_001.jpg" role="access:image"/>
@@ -3352,7 +3352,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Guillemyn en 1995.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>ENSAIT, Ecole Nationale Supérieure des Arts Industriels et Textiles de Roubaix</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">ENSAIT, Ecole Nationale Supérieure des Arts Industriels et Textiles de Roubaix</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_058_001.jpg" role="access:image"/>
@@ -3371,9 +3371,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Plan acheté auprès de Monsieur Bernard Lesecq en 2010.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="architecte">Bouvy, Albert</persname>
-            <persname role="illustrateur">Dargand, V.</persname>
-            <corpname role="imprimeur">Imprimerie J. Marchadier &amp; Cie</corpname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Bouvy, Albert</persname>
+            <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Dargand, V.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie J. Marchadier &amp; Cie</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_059_001.jpg" role="access:image"/>
@@ -3392,9 +3392,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan datant de 1899.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
-            <persname role="cartographe">Pachy, Paul</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Pachy, Paul</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_060_001.jpg" role="access:image"/>
@@ -3410,7 +3410,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 67 x 52 cm. Technique : Offset. Cote : Cb061.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_061_001.jpg" role="access:image"/>
@@ -3429,8 +3429,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan datant de 1891.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_062_001.jpg" role="access:image"/>
@@ -3449,7 +3449,7 @@
             <p>&lt;p&gt;Le document a été restauré en 2022.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Autres industries</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_063_001.jpg" role="access:image"/>
@@ -3468,7 +3468,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une élévation dressée par l'architecte en 1927.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <persname role="architecte">Bührer, Albert</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Bührer, Albert</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_064_001.jpg" role="access:image"/>
@@ -3487,8 +3487,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une coupe dressée par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
             <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
           </controlaccess>
           <daogrp>
@@ -3508,7 +3508,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une maquette.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_006_001.jpg" role="access:image"/>
@@ -3526,7 +3526,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une maquette.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <corpname>Hôtel de Ville</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Hôtel de Ville</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_B_007_001.jpg" role="access:image"/>
@@ -3542,7 +3542,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb009.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640UaqYAm" role="publication:current"/>
@@ -3557,7 +3557,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb010.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640nTPSpx" role="publication:current"/>
@@ -3572,7 +3572,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb011.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640aIzPcy" role="publication:current"/>
@@ -3587,7 +3587,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 48 x 65 cm. Technique : Offset. Cote : Cb012.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446404PVEi0" role="publication:current"/>
@@ -3608,7 +3608,7 @@
             <p>&lt;p&gt;Don de Monsieur Claude Vicente en juin 2019.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname normal="Boittiaux" role="Graphiste">Boittiaux</persname>
+            <persname normal="Boittiaux" role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Boittiaux</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640rOu3BS" role="publication:current"/>
         </c>
@@ -3623,7 +3623,7 @@
             <p>&lt;p&gt;Don de Monsieur Claude Vicente en juin 2019.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname role="éditeur">Chalindrey</corpname>
+            <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Chalindrey</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640oL5wse" role="publication:current"/>
         </c>
@@ -3650,9 +3650,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'une carte dressée par le service de la voirie et mis à jour en 1911 par la Société d'Emulation de Roubaix.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Exposition internationale de 1911</subject>
-            <subject source="chrono">1871-1913</subject>
-            <corpname role="imprimeur">Imprimerie M. Pique - Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Exposition internationale de 1911</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie M. Pique - Roubaix</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640yatU7j" role="publication:current"/>
         </c>
@@ -3664,8 +3664,8 @@
             <physdesc>&lt;p&gt;Dimensions : 36 x 46 cm. Technique : Encre, aquarelle et graphite sur papier. Cote : Cb070.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <persname>Frelier, Marie</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Frelier, Marie</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640JZQimz" role="publication:current"/>
         </c>
@@ -3695,8 +3695,8 @@
             <p>&lt;p&gt;Achat auprès de Monsieur Bernard Thiebaut en 2002.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname normal="Boittiaux" role="lithographe">Boittiaux</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname normal="Boittiaux" role="lithographe" source="thesaurus--SLASH--bnr_persname.xml">Boittiaux</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640TxY4ds" role="publication:current"/>
         </c>
@@ -3711,7 +3711,7 @@
             <p>&lt;p&gt;Il s'agit d'une reproduction d'un plan conservé aux Archives municipales de Roubaix datant de 1847.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640suOiOn" role="publication:current"/>
         </c>
@@ -3762,9 +3762,9 @@
             <physdesc>&lt;p&gt;Dimensions : 60 x 50 cm. Technique : Lithographie. Cote : Cb077.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <corpname>Etablissements communaux et généraux</corpname>
-            <corpname normal="Journal de Roubaix" role="imprimeur">Journal de Roubaix</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Etablissements communaux et généraux</corpname>
+            <corpname normal="Journal de Roubaix" role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Journal de Roubaix</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640R1fW9j" role="publication:current"/>
         </c>
@@ -3779,8 +3779,8 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1946-1959</subject>
-            <subject source="theme">Autres industries</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Zq7oYn" role="publication:current"/>
         </c>
@@ -3792,7 +3792,7 @@
             <physdesc>&lt;p&gt;Dimensions : 31 x 52 cm. Technique : Lithographie et notes manuscrites.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dIainm" role="publication:current"/>
         </c>
@@ -3820,8 +3820,8 @@
             <p>&lt;p&gt;Don de l'ENSAIT en 1995.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">Avant 1789</subject>
-            <persname role="cartographe">Kondet</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Kondet</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_011_001.jpg" role="access:image"/>
@@ -3837,7 +3837,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 40 x 36 cm. Technique : Offset. Cote : Cc012.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_012_001.jpg" role="access:image"/>
@@ -3853,7 +3853,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33 x 32 cm. Technique : Offset. Cote : Cc013.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3873,7 +3873,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 40 x 50.5 cm. Technique : Lithographie. Cote : Cc017.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_017_001.jpg" role="access:image"/>
@@ -3889,8 +3889,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 53 cm. Technique : Lithographie. Cote : Cc018.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <corpname role="imprimeur">Imprimerie Rosoor &amp; Desreumaux</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Rosoor &amp; Desreumaux</corpname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -3910,9 +3910,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 45 x 57 cm. Technique : Lithographie. Cote : Cc020.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Transports</subject>
-            <persname role="cartographe">Erhard Frères</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Erhard Frères</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_020_001.jpg" role="access:image"/>
@@ -3954,7 +3954,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 39 x 42 cm. Technique : Dessin. Cote : Cc023.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_023_001.jpg" role="access:image"/>
@@ -3970,7 +3970,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 10 x 53 cm. Technique : Dessin. Cote : Cc024.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_024_001.jpg" role="access:image"/>
@@ -3986,7 +3986,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 19 x 15 cm. Technique : Dessin. Cote : Cc025.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_025_001.jpg" role="access:image"/>
@@ -4002,7 +4002,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 12 x 54 cm. Technique : Dessin. Cote : Cc026.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="Comédien">Dalmar, Pierre</persname>
+            <persname role="Comédien" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_026_001.jpg" role="access:image"/>
@@ -4018,7 +4018,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 19 x 14 cm. Technique : Dessin. Cote : Cc027.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_027_001.jpg" role="access:image"/>
@@ -4034,7 +4034,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21.5 x 28 cm. Technique : Dessin. Cote : Cc028.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_028_001.jpg" role="access:image"/>
@@ -4050,8 +4050,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 32 x 42 cm. Technique : Dessin. Cote : Cc029.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_029_001.jpg" role="access:image"/>
@@ -4067,8 +4067,8 @@
             <physdesc>&lt;p&gt;Dimensions : 31 x 41 xm. Technique : Dessin. Cote : Cc030.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_030_001.jpg" role="access:image"/>
@@ -4084,8 +4084,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 28 x 35 cm. Technique : Dessin. Cote : Cc031.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_031_001.jpg" role="access:image"/>
@@ -4101,7 +4101,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 32 x 51 cm. Technique : Dessin. Cote : Cc032.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_032_001.jpg" role="access:image"/>
@@ -4117,7 +4117,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 32 x 40 cm. Technique : Dessin. Cote : Cc033.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_033_001.jpg" role="access:image"/>
@@ -4133,7 +4133,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 47 cm. Technique : Dessin. Cote : Cc034.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_034_001.jpg" role="access:image"/>
@@ -4149,7 +4149,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 35 x 49 cm. Technique : Dessin. Cote : Cc035.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="architecte">Dalmar, Pierre</persname>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Dalmar, Pierre</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_035_001.jpg" role="access:image"/>
@@ -4165,7 +4165,7 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 37 x 50 cm. Technique : Offset. Cote : Cc041.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Religion</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_041_001.jpg" role="access:image"/>
@@ -4197,7 +4197,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Il s'agit d'une reproduction d'un plan dessiné par l'architecte.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Santé publique</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MED_PLA_C_046_001.jpg" role="access:image"/>
@@ -4212,8 +4212,8 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 27 x 21 cm. Technique : Offset. Cote : Cc001.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640b9d93E" role="publication:current"/>
@@ -4228,9 +4228,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 27 x 21 cm. Technique : Offset. Cote : Cc002.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406dhpOY" role="publication:current"/>
@@ -4245,9 +4245,9 @@
             <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 27 x 21 cm. Technique : Offset. Cote : Cc003.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640tehlRa" role="publication:current"/>
@@ -4262,9 +4262,9 @@
             <physdesc>&lt;p&gt;Dimensions : 27.5 x 42 cm. Technique : Offset. Cote : Cc004.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446404e9So1" role="publication:current"/>
@@ -4279,9 +4279,9 @@
             <physdesc>&lt;p&gt;Dimensions : 27.5 x 42 cm. Technique : Offset. Cote : Cc005.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446403OvlHS" role="publication:current"/>
@@ -4296,9 +4296,9 @@
             <physdesc>&lt;p&gt;Dimensions : 27 x 35 cm. Technique : Lithographie. Cote : Cc006.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <persname role="cartographe">Lacoste, Ch.</persname>
-            <persname role="Graveur">Bizet, A.</persname>
-            <corpname role="imprimeur">Imprimerie du Moulin vert - Paris</corpname>
+            <persname role="cartographe" source="thesaurus--SLASH--bnr_persname.xml">Lacoste, Ch.</persname>
+            <persname role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Bizet, A.</persname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie du Moulin vert - Paris</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640FUGtjv" role="publication:current"/>
@@ -4313,7 +4313,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc007.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640wne8A5" role="publication:current"/>
@@ -4328,7 +4328,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc008.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Transports</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640DpeS4l" role="publication:current"/>
@@ -4367,7 +4367,7 @@
             <physdesc>&lt;p&gt;Dimensions : 29.5 x 41.5 cm. Technique : Offset. Cote : Cc014.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Rues et places</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640teVli8" role="publication:current"/>
@@ -4412,7 +4412,7 @@
             <physdesc>&lt;p&gt;Dimensions : 30 x 42 cm. Technique : Offset. Cote : Cc019.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640pODhOX" role="publication:current"/>
@@ -4430,8 +4430,8 @@
             <p>&lt;p&gt;Carte issue du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Qca3zq" role="publication:current"/>
@@ -4449,11 +4449,11 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Rues et places</subject>
-            <subject source="theme">Canal</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Canal</subject>
             <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
             <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640rggDBw" role="publication:current"/>
@@ -4471,7 +4471,7 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1789-1870</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Lg1LBT" role="publication:current"/>
@@ -4489,8 +4489,8 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">Avant 1789</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640muH5As" role="publication:current"/>
@@ -4508,8 +4508,8 @@
             <p>&lt;p&gt;Plan issu du fonds Prouvost.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">Avant 1789</subject>
-            <subject source="theme">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640vitUT3" role="publication:current"/>
@@ -4524,8 +4524,8 @@
             <physdesc>&lt;p&gt;Dimensions : 32 x 21 cm. Technique : Offset. Cote : Cc043.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <subject source="theme">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640yjeFcC" role="publication:current"/>
@@ -4540,7 +4540,7 @@
             <physdesc>&lt;p&gt;Dimensions : 21 x 42 cm. Technique : Offset. Cote : Cc044.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640xLh0Td" role="publication:current"/>
@@ -4558,8 +4558,8 @@
             <p>&lt;p&gt;Achat auprès de Monsieur Thiebaut en novembre 2011.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Urbanisme</subject>
-            <corpname role="imprimeur">Imprimerie Ravet-Anceau</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Ravet-Anceau</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446408HgAyz" role="publication:current"/>
@@ -4574,8 +4574,8 @@
             <physdesc>&lt;p&gt;Dimensions : 32 x 25.5 cm. Technique : Chromolithographie. Cote : Cc047.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Logement</subject>
-            <persname role="architecte">Derveaux, Elie</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Derveaux, Elie</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640537afv" role="publication:current"/>
         </c>
@@ -4587,7 +4587,7 @@
             <physdesc>&lt;p&gt;Dimensions : 32.5 x 48 cm. Technique : Chromolithographie et notes manuscrites. Cote : Cc048.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Santé publique</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640hW6r0E" role="publication:current"/>
         </c>
@@ -4605,8 +4605,8 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Exposition internationale de 1911</subject>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Exposition internationale de 1911</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446404ZW8nm" role="publication:current"/>
         </c>
@@ -4621,7 +4621,7 @@
             <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname role="imprimeur">Imprimerie Dufrenoy</corpname>
+            <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Dufrenoy</corpname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640to5wPa" role="publication:current"/>
         </c>
@@ -4633,7 +4633,7 @@
             <physdesc>&lt;p&gt;Dimensions : 38.5 x 39.5 cm. Technique : Lithographie.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640lO7QMa" role="publication:current"/>
         </c>

@@ -40,11 +40,11 @@
 &lt;p&gt;Alexandra Bizouerne, Michel Brion, Thierry Bonte, Pierre Cornard, Henri Deleporte, Armelle Duquesnoy, Karim Feddal, Simon Ferrante, Sabine Grangé, Jacqueline Guidez Bleuset, Liliane Lesaffre, Jean Marie Pliez, Claude Sénéchal, Gérard Tiberghien, Louis Uberti, Jeanine Van Hullebusch, Francis Vanlierde, Jean marc Vienot.&lt;/p&gt;</p>
     </scopecontent>
     <controlaccess>
-      <genreform>Vidéos</genreform>
-      <persname>Douay, Camille</persname>
-      <subject source="chrono">Après 1989</subject>
-      <subject source="theme">Manufacture et industrie textile</subject>
-      <subject source="Rameau">Industries textiles - Personnel</subject>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Vidéos</genreform>
+      <persname source="thesaurus--SLASH--bnr_persname.xml">Douay, Camille</persname>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Industries textiles - Personnel</subject>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634gCnRBV" role="publication:current"/>
     <dsc>
@@ -59,8 +59,8 @@
           <p>&lt;p&gt;Ces vidéos tournées en studio (aux Archives Nationales du Monde du Travail ou à la Condition Publique à Roubaix) ont été réalisées par François Engrand (association Nayra). Ces vidéos ont quant à elles servies à la réalisation du projet « Paroles textiles » visant à rassembler ces quinze témoignages dans 7 vidéos thématiques (de 7 à 10 minutes) consultables en accès libre à la Manufacture des Flandres. Les thèmes évoqués sont : le premier jour à l'usine, une vocation textile ?, les conditions de travail, les rapports humains au travail, cesser le travail ou l'avenir du textile etc.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <persname>Engrand, François</persname>
-          <persname>Nayra</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Engrand, François</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Nayra</persname>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634MfB8AL" role="publication:current"/>
@@ -365,8 +365,8 @@
           <p>&lt;p&gt;Cette première partie des vidéos, filmées à la manufacture des Flandres, a été tournée dans le cadre de « rencontres témoignages » organisées lors des journées du patrimoine en septembre 2012. Il s'agissait de créer un temps de rencontre et d'échange entre les travailleurs du textile et le grand public dans le cadre du musée. Ces entretiens ont été filmés par Maxime Huyghe (association Nayra).&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <persname>Huyghe, Maxime</persname>
-          <persname>Nayra</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Huyghe, Maxime</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Nayra</persname>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347SOEsg" role="publication:current"/>

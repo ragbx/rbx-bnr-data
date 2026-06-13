@@ -116,7 +116,17 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 11. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-12. Nettoyage final
+12. Normalisation des sources de <controlaccess>
+   - Les <genreform>, <persname>, <corpname> sans attribut source reçoivent la
+     source de thésaurus par défaut de leur balise (bnr_genreform/persname/corpname).
+   - Les <subject> de source "chrono"/"theme"/"Rameau" voient leur source
+     remplacée par la source de thésaurus correspondante (bnr_chrono, bnr_theme,
+     bnr_rameau). Le remappage des <geogname> ("rue"/"quartier" →
+     bnr_geo_rbx_rue/quartier) est désactivé pour l'instant (cf. code).
+   - Les valeurs de thésaurus sont écrites sous la forme
+     "thesaurus--SLASH--<nom>.xml".
+
+13. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -151,6 +161,24 @@ FAMILLES_MEDIA = {
 # en preservation:audio, dans l'ordre ci-dessous (master le plus riche d'abord).
 MOTIF_VARIANTE_AUDIO = re.compile(r"_(\d+kHz\d+B|TI)$", re.IGNORECASE)
 ORDRE_VARIANTES_AUDIO = {"96kHz24B": 0, "44kHz24B": 1, "TI": 2}
+
+# Normalisation de l'attribut source des éléments de <controlaccess> vers les
+# thésaurus BnR (cf. _update_controlaccess_source).
+# Source de thésaurus par défaut, ajoutée quand l'élément n'a pas de source :
+CONTROLACCESS_SOURCE_DEFAUT = {
+    "genreform": "thesaurus--SLASH--bnr_genreform.xml",
+    "persname": "thesaurus--SLASH--bnr_persname.xml",
+    "corpname": "thesaurus--SLASH--bnr_corpname.xml",
+}
+# Source existante (balise, valeur) remplacée par la source de thésaurus :
+CONTROLACCESS_SOURCE_REMAP = {
+    ("subject", "chrono"): "thesaurus--SLASH--bnr_chrono.xml",
+    ("subject", "theme"): "thesaurus--SLASH--bnr_theme.xml",
+    ("subject", "Rameau"): "thesaurus--SLASH--bnr_rameau.xml",
+    # geogname désactivé pour l'instant (à remettre peut-être plus tard) :
+    # ("geogname", "rue"): "thesaurus--SLASH--bnr_geo_rbx_rue.xml",
+    # ("geogname", "quartier"): "thesaurus--SLASH--bnr_geo_rbx_quartier.xml",
+}
 
 
 def famille_media(ext):
@@ -635,8 +663,22 @@ class EADbnr2mnesys:
             ):
                 repo.getparent().remove(repo)
 
-    def _update_controlaccess_source(self):
-        pass
+    def _update_controlaccess_source(self, element):
+        """Dans `<controlaccess>`, normalise l'attribut `source` vers les thésaurus BnR :
+
+        - `<genreform>`, `<persname>`, `<corpname>` sans `source` reçoivent la
+          source par défaut de leur balise (cf. CONTROLACCESS_SOURCE_DEFAUT) ;
+        - `<subject>` (source `chrono`/`theme`/`Rameau`) et `<geogname>`
+          (source `rue`/`quartier`) voient leur `source` remplacée par la source
+          de thésaurus correspondante (cf. CONTROLACCESS_SOURCE_REMAP).
+        """
+        for el in element.xpath("//controlaccess//*"):
+            defaut = CONTROLACCESS_SOURCE_DEFAUT.get(el.tag)
+            if defaut is not None and not el.get("source"):
+                el.set("source", defaut)
+            remap = CONTROLACCESS_SOURCE_REMAP.get((el.tag, el.get("source")))
+            if remap is not None:
+                el.set("source", remap)
 
     def _add_ids(self, element, ir_id):
         """
@@ -713,7 +755,7 @@ class EADbnr2mnesys:
         self._sort_daogrp(root)
         self._remove_name(root)
         self._remove_repositories(root)
-        # self._update_controlaccess_source(root)
+        self._update_controlaccess_source(root)
         self._remove_empty_attributes(root)
         self._remove_empty_elements(root)
 
@@ -738,7 +780,7 @@ class EADbnr2mnesys:
 if __name__ == "__main__":
     transformer = EADbnr2mnesys(
         names_csv_path=join(
-            "results", "ead", "indexation", "controlaccess_extraction_name2.csv"
+            "results", "ead", "indexation", "names_by_type.csv"
         ),
         oai_csv_path=join("data", "oai", "oai_records_20260430.csv.gz"),
         irs_excel_path=join(

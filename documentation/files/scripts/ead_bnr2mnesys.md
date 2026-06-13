@@ -13,7 +13,7 @@ en vue de leur import dans Mnesys.
 |---|---|
 | `data/ead/bnr/` | Fichiers EAD source |
 | `data/oai/oai_records_{date}.csv.gz` | Correspondances cote (unitid) / notices bn-r (pour liens ark)|
-| `results/ead/indexation/controlaccess_extraction_name2.csv` | Noms typés persname / corpname |
+| `results/ead/indexation/names_by_type.csv` | Noms typés persname / corpname |
 | `results/ref/_ref_files_{date}.csv.gz` | Fichiers de conservation et OCR (chemins S3) |
 | `results/ir/liste_instruments_recherche_{date}_transfert_mnesys.xlsx` | Liste des IR à traiter |
 
@@ -148,6 +148,29 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 ### 11. Suppression des `<repository>` hors contexte
 - Toutes les balises `<repository>` situées en dehors de `<archdesc/did>` sont supprimées.
 
-### 12. Nettoyage final
+### 12. Normalisation des sources de `<controlaccess>`
+Les valeurs de thésaurus sont écrites sous la forme `thesaurus--SLASH--<nom>.xml`.
+
+- `<genreform>`, `<persname>`, `<corpname>` **sans** attribut `source` reçoivent la source de thésaurus par défaut de leur balise :
+
+  | Balise | Source ajoutée |
+  |---|---|
+  | `genreform` | `bnr_genreform.xml` |
+  | `persname` | `bnr_persname.xml` |
+  | `corpname` | `bnr_corpname.xml` |
+
+- `<subject>` portant déjà une `source` connue la voit **remplacée** :
+
+  | Balise | `source` d'origine | Source de thésaurus |
+  |---|---|---|
+  | `subject` | `chrono` | `bnr_chrono.xml` |
+  | `subject` | `theme` | `bnr_theme.xml` |
+  | `subject` | `Rameau` | `bnr_rameau.xml` |
+
+  Le remappage des `<geogname>` (`rue` → `bnr_geo_rbx_rue.xml`, `quartier` → `bnr_geo_rbx_quartier.xml`) est **désactivé pour l'instant** (lignes commentées dans `CONTROLACCESS_SOURCE_REMAP`, à réactiver éventuellement plus tard).
+
+Les `<subject>`/`<geogname>` sans source, ou de source non listée, sont laissés tels quels.
+
+### 13. Nettoyage final
 - Suppression des attributs dont la valeur est une chaîne vide.
 - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant non vide).

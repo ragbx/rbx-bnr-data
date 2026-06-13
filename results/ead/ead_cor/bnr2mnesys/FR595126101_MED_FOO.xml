@@ -42,14 +42,14 @@
 &lt;p style="text-align: justify;"&gt;Les témoins : M. Francis Bohée, M. Eric Dendooven, M. Philippe Sirejacob.&lt;/p&gt;</p>
     </scopecontent>
     <controlaccess>
-      <genreform>Enregistrement sonore</genreform>
-      <subject source="theme">Sports</subject>
-      <subject source="chrono">1960-1969</subject>
-      <subject source="chrono">1970-1979</subject>
-      <subject source="chrono">1980-1989</subject>
-      <subject source="chrono">Après 1989</subject>
-      <subject source="chrono">1946-1959</subject>
-      <persname>Varlet, Mike</persname>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Enregistrement sonore</genreform>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+      <persname source="thesaurus--SLASH--bnr_persname.xml">Varlet, Mike</persname>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244638iiQGTD" role="publication:current"/>
     <dsc>

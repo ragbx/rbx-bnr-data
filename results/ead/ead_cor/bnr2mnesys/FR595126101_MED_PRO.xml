@@ -79,7 +79,7 @@
               <unitdate>1911-1990</unitdate>
             </did>
             <controlaccess>
-              <corpname>SER, Société d'Emulation de Roubaix</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">SER, Société d'Emulation de Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446408J2vaD" role="publication:current"/>
@@ -119,7 +119,7 @@
                   <p>&lt;p&gt;Prêt de locaux pour l'organisation de réunion&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Association « La Maison »</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Association « La Maison »</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446405AqbVS" role="publication:current"/>
@@ -136,8 +136,8 @@
                   <p>&lt;p&gt;Financement du déplacement de la statue de NADAUD (Gustave) vers le parc Barbieux (Roubaix, Nord)&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Caisse d'Epargne Ecureuil SOREFI Nord-Pas de Calais</corpname>
-                  <persname>Nadaud, Gustave</persname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Caisse d'Epargne Ecureuil SOREFI Nord-Pas de Calais</corpname>
+                  <persname source="thesaurus--SLASH--bnr_persname.xml">Nadaud, Gustave</persname>
                   <geogname>Barbieux, parc</geogname>
                 </controlaccess>
                 <daogrp>
@@ -153,7 +153,7 @@
                 <unitdate normal="1990">1990</unitdate>
               </did>
               <controlaccess>
-                <corpname>SER, Société d'Emulation de Roubaix</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">SER, Société d'Emulation de Roubaix</corpname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640eXjL5J" role="publication:current"/>
@@ -182,7 +182,7 @@
               </scopecontent>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <genreform>Cartes et plans</genreform>
+                <genreform source="thesaurus--SLASH--bnr_genreform.xml">Cartes et plans</genreform>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640hZL0OL" role="publication:current"/>
@@ -197,7 +197,7 @@
               <unitdate>1949-1966</unitdate>
             </did>
             <controlaccess>
-              <corpname>Economie et Humanisme</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Economie et Humanisme</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640RLjFs1" role="publication:current"/>
@@ -210,7 +210,7 @@
                 <unitdate normal="1965">]1950]-[1960[</unitdate>
               </did>
               <controlaccess>
-                <corpname>Centre d'étude Economie et Humanisme (E et H)</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">Centre d'étude Economie et Humanisme (E et H)</corpname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640B1qJ2w" role="publication:current"/>
@@ -704,7 +704,7 @@
                   </scopecontent>
                   <controlaccess>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Sciences et sciences humaines</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446405x4oBu" role="publication:current"/>
@@ -765,19 +765,19 @@
                   <controlaccess>
                     <geogname>Roubaix</geogname>
                     <geogname>Tourcoing</geogname>
-                    <subject source="theme">Sciences et sciences humaines</subject>
-                    <subject source="theme">Manufacture et industrie textile</subject>
-                    <subject source="theme">Autres industries</subject>
-                    <subject source="theme">Commerces</subject>
-                    <subject source="theme">Administration municipale</subject>
-                    <subject source="theme">Enseignement</subject>
-                    <subject source="theme">Logement</subject>
-                    <subject source="theme">Religion</subject>
-                    <subject source="theme">Santé publique</subject>
-                    <subject source="theme">Parcs, jardins et monuments</subject>
-                    <subject source="theme">Transports</subject>
-                    <subject source="theme">Urbanisme</subject>
-                    <subject source="theme">Vie politique</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Administration municipale</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406IBgSP" role="publication:current"/>
@@ -794,7 +794,7 @@
               <unitdate normal="1980">1973-1992</unitdate>
             </did>
             <controlaccess>
-              <corpname>Commission historique du Nord</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Commission historique du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640vxXlcO" role="publication:current"/>
@@ -857,7 +857,7 @@
                 </scopecontent>
                 <controlaccess>
                   <geogname>Nord-Pas-de-Calais (France)</geogname>
-                  <subject source="theme">Sciences et sciences humaines</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640WiawrI" role="publication:current"/>
@@ -923,7 +923,7 @@
               <unitdate normal="1950">1953-1969</unitdate>
             </did>
             <controlaccess>
-              <corpname>Comité de Roubaix-Tourcoing d'Etude et d'action Economiques et Sociales (CERT)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Comité de Roubaix-Tourcoing d'Etude et d'action Economiques et Sociales (CERT)</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446402izSLH" role="publication:current"/>
@@ -994,7 +994,7 @@
                   <geogname>Roubaix</geogname>
                   <geogname>Tourcoing</geogname>
                   <geogname>Halluin (Nord)</geogname>
-                  <subject source="theme">Enseignement</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446408WJFQp" role="publication:current"/>
@@ -1043,7 +1043,7 @@
                 <controlaccess>
                   <geogname>Roubaix</geogname>
                   <geogname>Tourcoing</geogname>
-                  <subject source="theme">Manufacture et industrie textile</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640qSHimE" role="publication:current"/>
@@ -1060,7 +1060,7 @@
                   <geogname>Roubaix</geogname>
                   <geogname>Tourcoing</geogname>
                   <geogname>Halluin (Nord)</geogname>
-                  <subject source="theme">Enseignement</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ocRRFE" role="publication:current"/>
@@ -1079,7 +1079,7 @@
                 <controlaccess>
                   <geogname>Roubaix</geogname>
                   <geogname>Tourcoing</geogname>
-                  <subject source="theme">Sciences et sciences humaines</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640wwcYBv" role="publication:current"/>
@@ -1180,7 +1180,7 @@
                 <p>&lt;p&gt;REncontre avec un adjoint au Maire de Roubaix, ladirectrice de Service Santé et Action sociale en mairie de Roubaix et l'inspecteur principale de la DDASS : compte rendu&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <subject source="theme">Vie politique</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640F3Dudw" role="publication:current"/>
@@ -1212,7 +1212,7 @@
               <p>&lt;p&gt;Activité de la section : tract, coupure de presse, correspondance, compte rendu de réunion&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Atelier Chantier d'Insertion Roubaix</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Atelier Chantier d'Insertion Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640UhF6HS" role="publication:current"/>
@@ -1312,7 +1312,7 @@
               <unitdate normal="1970">1965-1975</unitdate>
             </did>
             <controlaccess>
-              <corpname>Centre d'Etude et d'Action Sociale (CEAS)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Centre d'Etude et d'Action Sociale (CEAS)</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640bWBJqM" role="publication:current"/>
@@ -1379,7 +1379,7 @@
               <p>&lt;p&gt;Coupure de presse&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <persname>Prouvost, Jacques</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Prouvost, Jacques</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640QgcXtD" role="publication:current"/>
@@ -1521,7 +1521,7 @@
                   <unitdate normal="1957">1957-1958</unitdate>
                 </did>
                 <controlaccess>
-                  <corpname>Centre des Jeunes Patrons</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Centre des Jeunes Patrons</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446400DpC9u" role="publication:current"/>
@@ -1536,7 +1536,7 @@
                 </did>
                 <controlaccess>
                   <geogname>Roubaix</geogname>
-                  <corpname>Mairie</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Mairie</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640MZRJtQ" role="publication:current"/>
@@ -1551,7 +1551,7 @@
                 </did>
                 <controlaccess>
                   <geogname>Roubaix</geogname>
-                  <corpname>Office du tourisme de Roubaix</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Office du tourisme de Roubaix</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640y3s7tl" role="publication:current"/>
@@ -1648,7 +1648,7 @@
               </scopecontent>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <subject source="theme">Sciences et sciences humaines</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640y2U7ht" role="publication:current"/>
@@ -1746,9 +1746,9 @@
             </did>
             <controlaccess>
               <geogname>Roubaix</geogname>
-              <subject source="theme">Manufacture et industrie textile</subject>
-              <subject source="theme">Autres industries</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446401HaGr8" role="publication:current"/>
@@ -1789,9 +1789,9 @@
                 </scopecontent>
                 <controlaccess>
                   <geogname>Roubaix</geogname>
-                  <subject source="theme">Autres industries</subject>
-                  <subject source="theme">Manufacture et industrie textile</subject>
-                  <genreform>Cartes et plans</genreform>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+                  <genreform source="thesaurus--SLASH--bnr_genreform.xml">Cartes et plans</genreform>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ZWr0FR" role="publication:current"/>
@@ -1815,7 +1815,7 @@
                     <unitdate normal="1965">1965</unitdate>
                   </did>
                   <controlaccess>
-                    <subject source="theme">Autres industries</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
                     <geogname>Roubaix</geogname>
                   </controlaccess>
                   <daogrp>
@@ -1830,7 +1830,7 @@
                     <unitdate normal="1965">1965</unitdate>
                   </did>
                   <controlaccess>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                     <geogname>Roubaix</geogname>
                   </controlaccess>
                   <daogrp>
@@ -1849,9 +1849,9 @@
                   <p>&lt;p&gt;Coupure de presse, liste, notes, statistiques.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Trois-suisses (Les)</corpname>
-                  <subject source="theme">Autres industries</subject>
-                  <subject source="theme">Manufacture et industrie textile</subject>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Trois-suisses (Les)</corpname>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640tJFRW7" role="publication:current"/>
@@ -1882,8 +1882,8 @@
                   <p>&lt;p&gt;Crédit mutuel ; Caisse d'épargne : coupure de presse&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Crédit mutuel</corpname>
-                  <corpname>Caisse d'épargne de Roubaix</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Crédit mutuel</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Caisse d'épargne de Roubaix</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640r0dQIv" role="publication:current"/>
@@ -1961,7 +1961,7 @@
                   <unitdate normal="1975">1951-1990</unitdate>
                 </did>
                 <controlaccess>
-                  <subject source="theme">Manufacture et industrie textile</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   <geogname>Roubaix</geogname>
                 </controlaccess>
                 <daogrp>
@@ -2011,7 +2011,7 @@
                     <p>&lt;p&gt;Enquête, photographie, coupure de presse, plan.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>Etablissements Miellet</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">Etablissements Miellet</corpname>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640A46O2H" role="publication:current"/>
@@ -2053,9 +2053,9 @@
                     <p>&lt;p&gt;Célébration du cinquantenaire : coupure de presse.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>La Lainière</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Lainière</corpname>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640w7guJ3" role="publication:current"/>
@@ -2072,9 +2072,9 @@
                     <p>&lt;p&gt;Revente : coupure de presse.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>Groupe Willot</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">Groupe Willot</corpname>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464002XzxV" role="publication:current"/>
@@ -2091,9 +2091,9 @@
                     <p>&lt;p&gt;Document de travail.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>Groupe Floris Toulemonde-Destombe</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">Groupe Floris Toulemonde-Destombe</corpname>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640r2rIpw" role="publication:current"/>
@@ -2110,9 +2110,9 @@
                     <p>&lt;p&gt;Notes, notice.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>Etablissements Wibaux Florin</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">Etablissements Wibaux Florin</corpname>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406ZaWRG" role="publication:current"/>
@@ -2129,9 +2129,9 @@
                     <p>&lt;p&gt;Cheminée ; Histoire ; Fonctionnement : coupure de presse, chronologie, liste des biens.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <corpname>Société Cavrois Mahieu</corpname>
+                    <corpname source="thesaurus--SLASH--bnr_corpname.xml">Société Cavrois Mahieu</corpname>
                     <geogname>Roubaix</geogname>
-                    <subject source="theme">Manufacture et industrie textile</subject>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640FZUfJM" role="publication:current"/>
@@ -2222,7 +2222,7 @@
                   <p>&lt;p&gt;Evolution de l'agglomération : notes.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Syndicat patronal textile de Roubaix-Tourcoing</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Syndicat patronal textile de Roubaix-Tourcoing</corpname>
                   <geogname>Roubaix</geogname>
                   <geogname>Tourcoing</geogname>
                 </controlaccess>
@@ -2241,7 +2241,7 @@
                   <p>&lt;p&gt;Conseil d'adminstration : registre des séances.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Société coopérative L'Avenir</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Société coopérative L'Avenir</corpname>
                   <geogname>Roubaix</geogname>
                 </controlaccess>
                 <daogrp>
@@ -2323,8 +2323,8 @@
             </did>
             <controlaccess>
               <geogname>Roubaix</geogname>
-              <subject source="Rameau">Démographie</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Démographie</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640OLOa61" role="publication:current"/>
@@ -2352,7 +2352,7 @@
               </did>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <subject source="Rameau">Immigration</subject>
+                <subject source="thesaurus--SLASH--bnr_rameau.xml">Immigration</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dumE2z" role="publication:current"/>
@@ -2443,9 +2443,9 @@
               <controlaccess>
                 <geogname>Roubaix</geogname>
                 <geogname>Tourcoing</geogname>
-                <subject source="theme">Vie politique</subject>
-                <subject source="Rameau">Elections</subject>
-                <persname>Guesde, Jules (1845-1922)</persname>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
+                <subject source="thesaurus--SLASH--bnr_rameau.xml">Elections</subject>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Guesde, Jules (1845-1922)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640bbtgW8" role="publication:current"/>
@@ -2498,9 +2498,9 @@
                 <p>&lt;p&gt;Contacts ; Nord Demain ; L'information socialiste.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <corpname>Contacts</corpname>
-                <corpname>Nord Demain</corpname>
-                <corpname>L'information socialiste</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">Contacts</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">Nord Demain</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">L'information socialiste</corpname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640WaTRQo" role="publication:current"/>
@@ -2517,8 +2517,8 @@
                 <p>&lt;p&gt;Activité : coupure de presse, compte rendu de réunion, tract.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <corpname>Groupe d'action pour l'avenir de Roubaix (GAR)</corpname>
-                <subject source="theme">Vie politique</subject>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">Groupe d'action pour l'avenir de Roubaix (GAR)</corpname>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640djbdb0" role="publication:current"/>
@@ -2532,7 +2532,7 @@
                 <unitdate normal="1955">1904-1995</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Vie politique</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
                 <geogname>Roubaix</geogname>
               </controlaccess>
               <daogrp>
@@ -2549,7 +2549,7 @@
                   <p>&lt;p&gt;Municipales, cantonales, référendum, présidentielles : coupure de presse.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <subject source="theme">Vie politique</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ZszP3f" role="publication:current"/>
@@ -2687,7 +2687,7 @@
                 <unitdate normal="1975">1952-1990</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Administration municipale</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Administration municipale</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640VFdcUd" role="publication:current"/>
@@ -2769,7 +2769,7 @@
                     <p>&lt;p&gt;Coupure de presse, correspondance.&lt;/p&gt;</p>
                   </scopecontent>
                   <controlaccess>
-                    <persname>Prouvost, Denise</persname>
+                    <persname source="thesaurus--SLASH--bnr_persname.xml">Prouvost, Denise</persname>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640wo9mOV" role="publication:current"/>
@@ -2786,7 +2786,7 @@
               <unitdate>1869-1992</unitdate>
             </did>
             <controlaccess>
-              <subject source="theme">Urbanisme</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640zxFfma" role="publication:current"/>
@@ -2802,7 +2802,7 @@
                 <p>&lt;p&gt;Auchan ; Courée ; Quartier de l'Alma.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <corpname>Auchan</corpname>
+                <corpname source="thesaurus--SLASH--bnr_corpname.xml">Auchan</corpname>
                 <geogname source="quartier" coord="[ [ 50.70842631527916, 3.168360168101307 ], [ 50.70838148720242, 3.168280768810226 ], [ 50.70839047643433, 3.168280924751934 ], [ 50.70827561437514, 3.167995800230816 ], [ 50.70822267681295, 3.167853316389352 ], [ 50.70817833070127, 3.167767608327672 ], [ 50.70807245576843, 3.16748264198337 ], [ 50.70795759182599, 3.167197519686281 ], [ 50.70766603320733, 3.166470491673567 ], [ 50.70763926758215, 3.166441714613915 ], [ 50.70757724104586, 3.166313235151754 ], [ 50.70749704101792, 3.166212747975316 ], [ 50.70741664424531, 3.166140575468568 ], [ 50.70739886598524, 3.166111955685136 ], [ 50.70733674122971, 3.16599762945417 ], [ 50.70728330757786, 3.16592592264299 ], [ 50.70723007046145, 3.165825907393349 ], [ 50.70705199155237, 3.165582169030428 ], [ 50.70698966888044, 3.165496152701003 ], [ 50.70682097050047, 3.165195956756338 ], [ 50.70656416822511, 3.164639429989342 ], [ 50.70649403948885, 3.164383411336184 ], [ 50.70642381257492, 3.164141543939258 ], [ 50.70638815653336, 3.164098461710187 ], [ 50.70629027520998, 3.163955210158364 ], [ 50.70625461909861, 3.163912126763412 ], [ 50.70624555294758, 3.163900181845329 ], [ 50.70577017236153, 3.163961449673126 ], [ 50.70526723121023, 3.164027102808507 ], [ 50.70489535562198, 3.16408421057798 ], [ 50.70435961694069, 3.164174428643143 ], [ 50.70401337402041, 3.164238348548189 ], [ 50.70364006467786, 3.16430217888611 ], [ 50.70329524538612, 3.164366100246747 ], [ 50.70286635322776, 3.164449934097979 ], [ 50.70238614756548, 3.164556029428995 ], [ 50.70211256612417, 3.164611210258758 ], [ 50.70179198897149, 3.164655019954498 ], [ 50.7014272796627, 3.164678497088821 ], [ 50.70090017611292, 3.164699196754846 ], [ 50.70053550493778, 3.164693512986086 ], [ 50.70017371438816, 3.164663164737321 ], [ 50.69976208570562, 3.16461695294759 ], [ 50.69939320521095, 3.164561910225605 ], [ 50.69893783849219, 3.16446565016802 ], [ 50.69851537239239, 3.16435585546489 ], [ 50.69801328809313, 3.164191177453778 ], [ 50.69788308817869, 3.164582031980312 ], [ 50.6976954781202, 3.165024611233127 ], [ 50.69720288127402, 3.165902472582425 ], [ 50.69783735520139, 3.166993715781954 ], [ 50.69812170661516, 3.167465711933187 ], [ 50.69848645293332, 3.168009874444245 ], [ 50.69854897355315, 3.168067572811038 ], [ 50.69878917329616, 3.168425583903607 ], [ 50.69911826029123, 3.168926681222141 ], [ 50.69909887495972, 3.168947858895944 ], [ 50.69867294419193, 3.169413615661015 ], [ 50.69825314604199, 3.170427211640312 ], [ 50.69891628384125, 3.170809723670042 ], [ 50.69900619111149, 3.170807184316581 ], [ 50.6997404244057, 3.171216280984697 ], [ 50.70002926892511, 3.172325331706714 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.70795313930936, 3.168669283101528 ] ]">Alma gare</geogname>
               </controlaccess>
               <daogrp>
@@ -3135,7 +3135,7 @@
                 <unitdate normal="1970">1956-1982</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Commerces</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640XfPnv8" role="publication:current"/>
@@ -3205,7 +3205,7 @@
                 <unitdate normal="1970">1956-1987</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Rues et places</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Fbf0D3" role="publication:current"/>
@@ -3303,7 +3303,7 @@
                 <unitdate normal="1970">1957-1987</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Transports</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640cCGPMG" role="publication:current"/>
@@ -3373,7 +3373,7 @@
                 <unitdate normal="1940">1863-1991</unitdate>
               </did>
               <controlaccess>
-                <subject source="theme">Parcs, jardins et monuments</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640rEBw6h" role="publication:current"/>
@@ -5107,10 +5107,10 @@
                   <p>&lt;p&gt;Motte-Bossut ; La Lainière ; Grande Brasserie Moderne ; Le Poutre : photographie, exposé.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Motte-Bossut</corpname>
-                  <corpname>La Lainière</corpname>
-                  <corpname>Grande Brasserie Moderne</corpname>
-                  <corpname>Le Poutre</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Motte-Bossut</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Lainière</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Le Poutre</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640m1q2ep" role="publication:current"/>
@@ -5610,7 +5610,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Anseele, Edmond</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Anseele, Edmond</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Oxsmqs" role="publication:current"/>
@@ -5624,7 +5624,7 @@
                 <unitdate normal="1975">1958-1984</unitdate>
               </did>
               <controlaccess>
-                <persname>Bayart (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Bayart (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640cFasm9" role="publication:current"/>
@@ -5654,7 +5654,7 @@
                   <p>&lt;p&gt;Documents de travail.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <persname>Bayart, Pierre</persname>
+                  <persname source="thesaurus--SLASH--bnr_persname.xml">Bayart, Pierre</persname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446408FYuew" role="publication:current"/>
@@ -5669,7 +5669,7 @@
                 <unitdate normal="1960">1791-1979</unitdate>
               </did>
               <controlaccess>
-                <persname>Bodart-Timal, Charles</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Bodart-Timal, Charles</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640O90EF9" role="publication:current"/>
@@ -5714,7 +5714,7 @@
                 <p>&lt;p&gt;Arbre généalogique, coupure de presse, correspondance, note, photographie.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Colomb (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Colomb (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640hA46Gy" role="publication:current"/>
@@ -5731,7 +5731,7 @@
                 <p>&lt;p&gt;Documents de travail.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Bossut (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Bossut (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640BQlGQp" role="publication:current"/>
@@ -5745,7 +5745,7 @@
                 <unitdate normal="1960">1921-1980</unitdate>
               </did>
               <controlaccess>
-                <persname>Bossut-Cuvelier (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Bossut-Cuvelier (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640HTJFom" role="publication:current"/>
@@ -5762,7 +5762,7 @@
                 <p>&lt;p&gt;Documents de travail.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Courouble (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Courouble (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640I8pVnP" role="publication:current"/>
@@ -5779,7 +5779,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Cuvelier (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Cuvelier (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Bu6L04" role="publication:current"/>
@@ -5796,7 +5796,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Diligent, André</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Diligent, André</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640iLsBF5" role="publication:current"/>
@@ -5813,7 +5813,7 @@
                 <p>&lt;p&gt;Notes&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Dumortier, Jacques</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Dumortier, Jacques</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406OC5iG" role="publication:current"/>
@@ -5830,7 +5830,7 @@
                 <p>&lt;p&gt;Commémoration : coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Glorieux, Jean-Baptiste</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Glorieux, Jean-Baptiste</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640AEeg1Y" role="publication:current"/>
@@ -5844,7 +5844,7 @@
                 <unitdate normal="1938">1938</unitdate>
               </did>
               <controlaccess>
-                <persname>Gosselet, Docteur</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Gosselet, Docteur</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640DdZRRT" role="publication:current"/>
@@ -5858,7 +5858,7 @@
                 <unitdate normal="1970">sd</unitdate>
               </did>
               <controlaccess>
-                <persname>Lagache, Julie</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Lagache, Julie</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406MD9sa" role="publication:current"/>
@@ -5872,7 +5872,7 @@
                 <unitdate normal="1962">1962</unitdate>
               </did>
               <controlaccess>
-                <persname>Lebas, Jean-Baptiste (1878-1944)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640rs7xqh" role="publication:current"/>
@@ -5911,7 +5911,7 @@
                 <p>&lt;p&gt;Fédération Républicaine Anti-Collectiviste ; Union Social et Patriotique ; Elections municipales : tract, coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Motte, Edouard</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Motte, Edouard</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446404xl1yS" role="publication:current"/>
@@ -5928,7 +5928,7 @@
                 <p>&lt;p&gt;Correspondance, coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Motte, Gaston</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Motte, Gaston</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640fu4sXU" role="publication:current"/>
@@ -5945,7 +5945,7 @@
                 <p>&lt;p&gt;Extraits des lettres : correspondance.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Motte-Grimonprez, Alfred</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Motte-Grimonprez, Alfred</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640aPQBWp" role="publication:current"/>
@@ -5962,7 +5962,7 @@
                 <p>&lt;p&gt;Correspondance.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Mulliez, Paul</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Mulliez, Paul</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640aBbx8Y" role="publication:current"/>
@@ -5979,7 +5979,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Nadaud, Gustave</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Nadaud, Gustave</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640A35qvF" role="publication:current"/>
@@ -5996,7 +5996,7 @@
                 <p>&lt;p&gt;Sortie de "Histoire de Roubaix" : coupure de presse, notes.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Piat, Jean</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Piat, Jean</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ZDc5Pr" role="publication:current"/>
@@ -6013,7 +6013,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Provo, Victor</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640PBR13i" role="publication:current"/>
@@ -6027,7 +6027,7 @@
                 <unitdate normal="1980">1975-1984</unitdate>
               </did>
               <controlaccess>
-                <persname>Prouvost, Pierre</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Prouvost, Pierre</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Ot9dTz" role="publication:current"/>
@@ -6069,7 +6069,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Samain, Paul</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Samain, Paul</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464073bq63" role="publication:current"/>
@@ -6086,7 +6086,7 @@
                 <p>&lt;p&gt;Coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Sauvy, Alfred</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Sauvy, Alfred</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446401pM39z" role="publication:current"/>
@@ -6103,8 +6103,8 @@
                 <p>&lt;p&gt;Affaire Troppmann, Chevalier De Preville : coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Troppmann, Jean-Baptiste</persname>
-                <persname>Chevalier De Preville</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Troppmann, Jean-Baptiste</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Chevalier De Preville</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dQgHm8" role="publication:current"/>
@@ -6121,7 +6121,7 @@
                 <p>&lt;p&gt;Association ; Eléments biographiques ; Exposition : notes, correspondance, tract, coupure de presse, bulletin de liaison.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Van der Meersch, Maxence (1907-1951)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Van der Meersch, Maxence (1907-1951)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640OWCnc2" role="publication:current"/>
@@ -6330,7 +6330,7 @@
               </scopecontent>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <persname>Isabeau de Roubaix</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Isabeau de Roubaix</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Hu8ILS" role="publication:current"/>
@@ -6348,7 +6348,7 @@
               </scopecontent>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <subject source="theme">Administration municipale</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Administration municipale</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446403qzMgv" role="publication:current"/>
@@ -6365,8 +6365,8 @@
                 <p>&lt;p&gt;Sorti de l'ouvrage de Marseille, Jacques : correspondance, coupure de presse.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <persname>Marseille, Jacques</persname>
-                <subject source="theme">Conflits sociaux</subject>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Marseille, Jacques</persname>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640tethS1" role="publication:current"/>
@@ -6381,8 +6381,8 @@
               </did>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <subject source="theme">Guerres</subject>
-                <subject source="chrono">1914-1918</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+                <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640v61OR5" role="publication:current"/>
@@ -6408,11 +6408,11 @@
                     <unitdate normal="1915">1915-1968</unitdate>
                   </did>
                   <controlaccess>
-                    <genreform>Affiches</genreform>
-                    <genreform>Cartes et plans</genreform>
-                    <genreform>Images</genreform>
-                    <subject source="theme">Guerres</subject>
-                    <subject source="chrono">1914-1918</subject>
+                    <genreform source="thesaurus--SLASH--bnr_genreform.xml">Affiches</genreform>
+                    <genreform source="thesaurus--SLASH--bnr_genreform.xml">Cartes et plans</genreform>
+                    <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+                    <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+                    <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
                   </controlaccess>
                   <daogrp>
                     <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640t3mVHS" role="publication:current"/>
@@ -6529,7 +6529,7 @@
                   <p>&lt;p&gt;Organe bi hebdomadaire publié sous le contrôle de l'autorité allemande.&lt;/p&gt;</p>
                 </scopecontent>
                 <controlaccess>
-                  <corpname>Bulletin de Roubaix</corpname>
+                  <corpname source="thesaurus--SLASH--bnr_corpname.xml">Bulletin de Roubaix</corpname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640qVlhw0" role="publication:current"/>
@@ -6548,8 +6548,8 @@
               </scopecontent>
               <controlaccess>
                 <geogname>Roubaix</geogname>
-                <subject source="theme">Guerres</subject>
-                <subject source="chrono">1939-1945</subject>
+                <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+                <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ae6GbC" role="publication:current"/>
@@ -6563,7 +6563,7 @@
                 </did>
                 <controlaccess>
                   <geogname>Roubaix</geogname>
-                  <genreform>Objets</genreform>
+                  <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640AZAn12" role="publication:current"/>
@@ -6578,8 +6578,8 @@
                 </did>
                 <controlaccess>
                   <geogname>Roubaix</geogname>
-                  <subject source="chrono">1939-1945</subject>
-                  <subject source="theme">Guerres</subject>
+                  <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+                  <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640z6uW1m" role="publication:current"/>
@@ -7426,7 +7426,7 @@
                 <unitdate normal="1984">1984</unitdate>
               </did>
               <controlaccess>
-                <persname>Dubard (famille)</persname>
+                <persname source="thesaurus--SLASH--bnr_persname.xml">Dubard (famille)</persname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640jUU38F" role="publication:current"/>
@@ -7530,7 +7530,7 @@
               <p>&lt;p&gt;Techniques et tactiques électorales : brochure, liste électorale, notes&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie politique</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640SBmWPb" role="publication:current"/>
@@ -7549,7 +7549,7 @@
             <controlaccess>
               <geogname>France</geogname>
               <geogname>Algérie</geogname>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640PzH4MA" role="publication:current"/>
@@ -8506,7 +8506,7 @@
       </c>
     </dsc>
     <controlaccess>
-      <persname normal="Prouvost, Jacques" role="auteur">Jacques Prouvost</persname>
+      <persname normal="Prouvost, Jacques" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jacques Prouvost</persname>
     </controlaccess>
   </archdesc>
 </ead>

@@ -42,8 +42,8 @@
     </acqinfo>
     <controlaccess>
       <geogname>Roubaix</geogname>
-      <genreform>Objets</genreform>
-      <persname>Vaissier, Victor</persname>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
+      <persname source="thesaurus--SLASH--bnr_persname.xml">Vaissier, Victor</persname>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244643xbapi2" role="publication:current"/>
     <dsc>
@@ -68,7 +68,7 @@
             <p>&lt;p&gt;Le château doit une part de sa popularité au très grand nombre de cartes postales dont il fut le sujet, quantité d’autant plus remarquable qu’il resta debout moins de quarante années. C’est la quantité qui permet la grande variété des points de vue, en toute saison, et qui donne à voir la demeure de façon quasi panoramique, outil précieux pour la connaissance de l’édifice et de son insertion urbaine.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Images</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643tyQJD1" role="publication:current"/>
@@ -1349,7 +1349,7 @@
             <p>&lt;p&gt;Les photographies du château ont été tirées, au printemps 1926, à l’occasion d’une vente de tapis orientaux, organisée au château Vaissier. La demeure avait été vendue l’année précédente par la veuve de Victor Vaissier. Dès cette année, les menaces de démolition planèrent et le château fut exploité jusqu’en 1929 à diverses fins, comme pour cette exposition-vente ou pour des banquets. Témoignages de l’état du bâtiment avant sa démolition, elles montrent un décor en excellent état.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Images</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643MvIzUE" role="publication:current"/>
@@ -1562,7 +1562,7 @@
             <unittitle>Dessins et tableau du château Vaissier</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643b0aOId" role="publication:current"/>
@@ -1641,7 +1641,7 @@
             <unitdate normal="1892">1892</unitdate>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643OsAL9L" role="publication:current"/>
@@ -1699,7 +1699,7 @@
             <unittitle>Mobilier du château Vaissier</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643Y3G4fJ" role="publication:current"/>
@@ -2025,7 +2025,7 @@
             <unittitle>Documents administratifs</unittitle>
           </did>
           <controlaccess>
-            <genreform>Documents d'archives</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Documents d'archives</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446439LytCz" role="publication:current"/>
@@ -2158,7 +2158,7 @@
             <unittitle>Distinctions</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643R9UARH" role="publication:current"/>
@@ -2197,7 +2197,7 @@
           <p>&lt;p&gt;La collection Vaissier du musée, après de récents achats, permet de présenter un échantillon significatif de la production de la Savonnerie du Congo, sans pouvoir toutefois prétendre à l’exhaustivité. En effet, les lignes de produits et leurs dérivés semblent innombrables et l’on trouve dans des catalogues de prix ou de nouveautés un grand nombre de noms de parfums ou de savons, dont on ne connaît pas les visuels.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <genreform>Objets</genreform>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643b0GLIC" role="publication:current"/>
@@ -10205,7 +10205,7 @@
             <unittitle>Boîte souvenir</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643S01i5R" role="publication:current"/>
@@ -10243,7 +10243,7 @@
             <unittitle>Calendriers</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643Buzgru" role="publication:current"/>
@@ -10392,7 +10392,7 @@
             <unittitle>Sablier</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643H0xcaX" role="publication:current"/>
@@ -10426,7 +10426,7 @@
             <unittitle>Buvards</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446433u3Ot5" role="publication:current"/>
@@ -10525,7 +10525,7 @@
             <unittitle>Affiches</unittitle>
           </did>
           <controlaccess>
-            <genreform>Affiches</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Affiches</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643v6dfLq" role="publication:current"/>
@@ -10634,7 +10634,7 @@
             <p>&lt;p&gt;Ces supports publicitaires n’ont pas été créés spécifiquement pour la Savonnerie du Congo mais seulement marqués après achat. On en trouve en effet d’identiques portant d’autres noms de fabricants. De la même manière, l’album de représentant propose une série d’emballages (boîtes-cadeaux par exemple) non labellisés Savonnerie du Congo, probablement achetés en gros auprès de cartonniers ou imprimeurs. Tous les objets vendus par Vaissier n’étaient donc pas systématiquement dessinés pour la Savonnerie du Congo.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Affiches</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Affiches</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643BRiyB6" role="publication:current"/>
@@ -10655,7 +10655,7 @@
               <p>&lt;p&gt;Don de M. et M&lt;sup&gt;me&lt;/sup&gt; Bernard Crombez en 2012.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <genreform>Affiches</genreform>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Affiches</genreform>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_VAI/RBX_MUS_VAI4_D06_F01_001.tif" role="preservation:image"/>
@@ -10756,7 +10756,7 @@
             <unittitle>Cartes parfumées</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643yxlOay" role="publication:current"/>
@@ -10894,7 +10894,7 @@
             <unittitle>Dépliant touristique illustré</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643AcSvsG" role="publication:current"/>
@@ -10933,7 +10933,7 @@
             <unittitle>Vignettes et étiquettes publicitaires</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643Txlfa0" role="publication:current"/>
@@ -11071,7 +11071,7 @@
             <unittitle>Médailles publicitaires</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446431lL6Tz" role="publication:current"/>
@@ -11111,7 +11111,7 @@
             <unittitle>Carnet de bal</unittitle>
           </did>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446433rnEq6" role="publication:current"/>
@@ -11157,7 +11157,7 @@
           <p>&lt;p&gt;Les représentants des Savons du Congo pouvaient proposer à leurs clients toute la gamme des produits grâce à la malle ainsi qu'à des catalogues de démonstration.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <genreform>Objets</genreform>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643dRotuO" role="publication:current"/>
@@ -11259,7 +11259,7 @@
             <p>&lt;p&gt;Don de la Société des amis du musée d’art et d’industrie de Roubaix, la S.A.M.A.I.R. en 2014.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <genreform>Images</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244643VdTW1C" role="publication:current"/>

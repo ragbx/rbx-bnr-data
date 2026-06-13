@@ -38,9 +38,9 @@
       <p>&lt;p&gt;Les documents du FLRS sont issus de dons ou d'achats. Certains d'entre eux ont été rassemblés par des collectionneurs.&lt;/p&gt;</p>
     </acqinfo>
     <controlaccess>
-      <subject source="theme">Musique</subject>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
       <geogname>Nord-Pas-de-Calais (France)</geogname>
-      <genreform>Enregistrement sonore</genreform>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Enregistrement sonore</genreform>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446384m0yAm" role="publication:current"/>
     <dsc>
@@ -63,8 +63,8 @@
           <p>&lt;p&gt;Fonds Local et Régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Deprince, Adolphe (1901-1995)" role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Deprince, Adolphe (1901-1995)" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -102,9 +102,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -141,8 +141,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -179,8 +179,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -217,8 +217,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daoloc href="MED/MED_FLRS/DES_25_0150/RBX_MED_DES_25_0150_A_01_96kHz24B.wav" role="preservation:audio"/>
@@ -250,8 +250,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -288,8 +288,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -326,8 +326,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -364,8 +364,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -402,8 +402,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -440,8 +440,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -478,8 +478,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -516,8 +516,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -554,8 +554,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -592,8 +592,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -630,8 +630,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -668,8 +668,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons</subject>
-          <persname normal="Gustave Nadaud" role="Chansonnier">Gustave Nadaud</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
+          <persname normal="Gustave Nadaud" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Gustave Nadaud</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -706,8 +706,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -744,8 +744,8 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verschueren, Marceau" role="accordéoniste">Marceau Verschueren </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verschueren, Marceau" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Marceau Verschueren </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -782,11 +782,11 @@
           <p>&lt;p&gt;Fonds Local et Régional Sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Dubois, Alfred" role="carillonneur">Alfred Dubois</persname>
-          <persname normal="Michel, Bernard" role="carillonneur">Bernard Michel</persname>
-          <persname normal="Lerouge, Gilles" role="carillonneur">Gilles Lerouge</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Dubois, Alfred" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Alfred Dubois</persname>
+          <persname normal="Michel, Bernard" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Bernard Michel</persname>
+          <persname normal="Lerouge, Gilles" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Gilles Lerouge</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -830,11 +830,11 @@
           <p>&lt;p&gt;Fonds Local et Régional Sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons</subject>
-          <persname normal="Nobre, João" role="Directeur artistique">João Nobre</persname>
-          <persname normal="Faria, Clarice Fatima" role="Chanteur">Clarice Fatima Faria</persname>
-          <persname normal="Azevedo, Paulino de" role="Chanteur">Paulino de Azevedo</persname>
-          <corpname normal="Rancho folclorico portugues (Roubaix, Nord)" role="Groupe folklorique">Rancho folclorico portugues de Roubaix</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
+          <persname normal="Nobre, João" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">João Nobre</persname>
+          <persname normal="Faria, Clarice Fatima" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Clarice Fatima Faria</persname>
+          <persname normal="Azevedo, Paulino de" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Paulino de Azevedo</persname>
+          <corpname normal="Rancho folclorico portugues (Roubaix, Nord)" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Rancho folclorico portugues de Roubaix</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -880,11 +880,11 @@
           <p>&lt;p&gt;Fonds Local et Régional Sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons</subject>
-          <corpname normal="As cantarinhas de Portugal" role="Groupe folklorique">As cantarinhas de Portugal</corpname>
-          <persname normal="Monteiro, Jorge" role="Auteur-compositeur">Jorge Monteiro</persname>
-          <persname normal="Soares, Guelhermina" role="Auteur-compositeur">Guelhermina Soares</persname>
-          <persname normal="Moreira, Jose" role="Auteur-compositeur">Jose Moreira</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
+          <corpname normal="As cantarinhas de Portugal" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">As cantarinhas de Portugal</corpname>
+          <persname normal="Monteiro, Jorge" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Jorge Monteiro</persname>
+          <persname normal="Soares, Guelhermina" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Guelhermina Soares</persname>
+          <persname normal="Moreira, Jose" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Jose Moreira</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -923,9 +923,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Drapier, Alfred" role="carillonneur">Alfred Drapier</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Drapier, Alfred" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Alfred Drapier</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -964,9 +964,9 @@
           <p>&lt;p&gt;Fonds local et régional Sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons</subject>
-          <persname normal="Delmulle, Léon" role="Chanteur">Léon Delmulle</persname>
-          <persname normal="Gustave Nadaud" role="Chansonnier">Gustave Nadaud</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
+          <persname normal="Delmulle, Léon" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Léon Delmulle</persname>
+          <persname normal="Gustave Nadaud" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Gustave Nadaud</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1009,8 +1009,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1057,8 +1057,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1105,8 +1105,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1153,9 +1153,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carnaval</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnaval</subject>
           <geogname>Dunkerque</geogname>
-          <persname normal="Vermet, Ernest" role="Arrangeur">Ernest Vermet</persname>
+          <persname normal="Vermet, Ernest" role="Arrangeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Vermet</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1190,9 +1190,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Staf Nees" role="carillonneur">Nees, Staf </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Staf Nees" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Nees, Staf </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1243,8 +1243,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carnavals</subject>
-          <persname normal="Bertein, Edmond" role="Directeur artistique">Edmond Bertein</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnavals</subject>
+          <persname normal="Bertein, Edmond" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Edmond Bertein</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1276,8 +1276,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Harmonies</subject>
-          <persname normal="Pennelle, Gaston" role="Directeur artistique">Gaston Pennelle</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Harmonies</subject>
+          <persname normal="Pennelle, Gaston" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Gaston Pennelle</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1324,12 +1324,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
           <geogname>Pologne</geogname>
-          <persname normal="Pochciol, Piotr" role="Chanteur">Piotr Pochciol</persname>
-          <persname normal="Kapusta, Alex" role="Chanteur">Alex Kapusta</persname>
-          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique">Orchestre Stanislas Ratajski</corpname>
+          <persname normal="Pochciol, Piotr" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Piotr Pochciol</persname>
+          <persname normal="Kapusta, Alex" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Alex Kapusta</persname>
+          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Stanislas Ratajski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1376,12 +1376,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
           <geogname>Pologne</geogname>
-          <persname normal="Pochciol, Piotr" role="Chanteur">Piotr Pochciol</persname>
-          <persname normal="Kapusta, Alex" role="Chanteur">Alex Kapusta</persname>
-          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique">Orchestre Stanislas Ratajski</corpname>
+          <persname normal="Pochciol, Piotr" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Piotr Pochciol</persname>
+          <persname normal="Kapusta, Alex" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Alex Kapusta</persname>
+          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Stanislas Ratajski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1428,11 +1428,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique">Orchestre Rudy Krakowski</corpname>
-          <persname normal="Krakowski, Rudy" role="Directeur artistique">Rudy Krakowski</persname>
+          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Rudy Krakowski</corpname>
+          <persname normal="Krakowski, Rudy" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Rudy Krakowski</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1479,12 +1479,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
           <geogname>Pologne</geogname>
-          <persname normal="Kapusta, Alex" role="Chanteur">Alex Kapusta</persname>
-          <corpname normal="Orchestre Alex Flament" role="Groupe folklorique">Orchestre Alex Flament</corpname>
-          <persname normal="Flament, Alex" role="Directeur artistique">Alex Flament</persname>
+          <persname normal="Kapusta, Alex" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Alex Kapusta</persname>
+          <corpname normal="Orchestre Alex Flament" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Alex Flament</corpname>
+          <persname normal="Flament, Alex" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Alex Flament</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1531,10 +1531,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique">K.S.M.P. "Wiosna"</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">K.S.M.P. "Wiosna"</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1581,10 +1581,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="Rameau">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
           <geogname>Pologne</geogname>
-          <persname normal="Novak, Boleslaw " role="Chanteur">Boleslaw Novak</persname>
+          <persname normal="Novak, Boleslaw " role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Boleslaw Novak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1624,9 +1624,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique">Orchestre Stanislas Ratajski</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Orchestre Stanislas Ratajski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Stanislas Ratajski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1667,10 +1667,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1716,9 +1716,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1980-1989</subject>
-          <persname normal="Yvart, Jacques" role="Chanteur">Jacques Yvart</persname>
-          <corpname normal="Les Corsaires dunkerquois" role="Groupe folklorique">Les Corsaires dunkerquois</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <persname normal="Yvart, Jacques" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Jacques Yvart</persname>
+          <corpname normal="Les Corsaires dunkerquois" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Les Corsaires dunkerquois</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1763,8 +1763,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carnaval</subject>
-          <subject source="chrono">1980-1989</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnaval</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1804,10 +1804,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Orchestre Edeck Kwiatkowski" role="Groupe folklorique">Orchestre Edeck Kwiatkowski</corpname>
+          <corpname normal="Orchestre Edeck Kwiatkowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Edeck Kwiatkowski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1856,9 +1856,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="Rameau">Folklores</subject>
-          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique">Orchestre Rudy Krakowski</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Rudy Krakowski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1906,10 +1906,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Abscon, Les éclaireurs polonais d'" role="Groupe folklorique">Les éclaireurs polonais d'Abscon</corpname>
-          <corpname normal="Soir de Mai" role="Groupe folklorique">Soir de Mai</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Abscon, Les éclaireurs polonais d'" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Les éclaireurs polonais d'Abscon</corpname>
+          <corpname normal="Soir de Mai" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -1957,10 +1957,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique">Orchestre Rudy Krakowski</corpname>
+          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Rudy Krakowski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2010,9 +2010,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2062,8 +2062,8 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2111,10 +2111,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <corpname normal="Soir de Mai" role="Groupe folklorique">Soir de Mai</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <corpname normal="Soir de Mai" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2163,10 +2163,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique">Club des mandolinistes d'Houdain</corpname>
+          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Club des mandolinistes d'Houdain</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2214,9 +2214,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carnaval</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnaval</subject>
           <geogname>Dunkerque</geogname>
-          <persname normal="Ernest Vermet et sa formation dunkerquoise" role="Groupe folklorique">Ernest Vermet et sa formation dunkerquoise</persname>
+          <persname normal="Ernest Vermet et sa formation dunkerquoise" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Ernest Vermet et sa formation dunkerquoise</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2266,9 +2266,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Staf Nees" role="carillonneur">Nees, Staf </persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Staf Nees" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Nees, Staf </persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2321,9 +2321,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Novak, Boleslaw " role="Chanteur">Boleslaw Novak</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Novak, Boleslaw " role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Boleslaw Novak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2372,9 +2372,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="Rameau">Folklores</subject>
-          <persname normal="Novak, Boleslaw " role="Chanteur">Boleslaw Novak</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <persname normal="Novak, Boleslaw " role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Boleslaw Novak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2421,9 +2421,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2471,11 +2471,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Kaszowski, Les frères " role="Groupe folklorique">Les frères Kaszowski</corpname>
-          <persname normal="Adam, Lucy" role="Chanteur">Lucy Adam</persname>
+          <corpname normal="Kaszowski, Les frères " role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Les frères Kaszowski</corpname>
+          <persname normal="Adam, Lucy" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Lucy Adam</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2521,12 +2521,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
           <geogname>Roubaix</geogname>
-          <subject source="chrono">1980-1989</subject>
-          <persname normal="Juillet, Yvon" role="accordéoniste">Yvon Juillet</persname>
-          <persname normal="Prez, Jean" role="Compositeur">Jean Prez</persname>
-          <persname normal="Soubrie, Denyse" role="auteur">Denyse Soubrie</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <persname normal="Juillet, Yvon" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Yvon Juillet</persname>
+          <persname normal="Prez, Jean" role="Compositeur" source="thesaurus--SLASH--bnr_persname.xml">Jean Prez</persname>
+          <persname normal="Soubrie, Denyse" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Denyse Soubrie</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2566,10 +2566,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <persname normal="Novak, Boleslaw " role="Groupe folklorique">Boleslaw Novak</persname>
+          <persname normal="Novak, Boleslaw " role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Boleslaw Novak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2620,12 +2620,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
-          <persname normal="Duda, Joseph" role="Directeur artistique">Joseph Duda</persname>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
+          <persname normal="Duda, Joseph" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2662,8 +2662,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Sinzewski, Eugène" role="accordéoniste">Eugène Sinzewski</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Sinzewski, Eugène" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Eugène Sinzewski</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2711,10 +2711,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carnaval</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnaval</subject>
           <geogname>Dunkerque</geogname>
-          <persname normal="Ernest Vermet et sa formation dunkerquoise" role="Groupe folklorique">Ernest Vermet et sa formation dunkerquoise</persname>
-          <persname normal="Vermet, Ernest" role="Directeur artistique">Ernest Vermet</persname>
+          <persname normal="Ernest Vermet et sa formation dunkerquoise" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Ernest Vermet et sa formation dunkerquoise</persname>
+          <persname normal="Vermet, Ernest" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Ernest Vermet</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2753,9 +2753,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Baselli, Joss" role="accordéoniste">Joss Baselli</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Baselli, Joss" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Joss Baselli</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2794,9 +2794,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Baselli, Joss" role="accordéoniste">Joss Baselli</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Baselli, Joss" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Joss Baselli</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2838,9 +2838,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2892,9 +2892,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2943,10 +2943,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Krakowski, Rudy" role="Directeur artistique">Rudy Krakowski</persname>
-          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique">Orchestre Rudy Krakowski</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Krakowski, Rudy" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Rudy Krakowski</persname>
+          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Rudy Krakowski</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -2993,10 +2993,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique">K.S.M.P. "Wiosna"</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">K.S.M.P. "Wiosna"</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3045,10 +3045,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <corpname>Pologne</corpname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Pologne</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3096,11 +3096,11 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
-          <persname normal="Duda, Joseph" role="Directeur artistique">Joseph Duda</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
+          <persname normal="Duda, Joseph" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3148,11 +3148,11 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname role="Directeur artistique">Joseph Duda</persname>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3201,10 +3201,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="Rameau">Folklores</subject>
-          <corpname normal="Orchestre Edeck Kwiatkowski" role="Groupe folklorique">Orchestre Edeck Kwiatkowski</corpname>
-          <persname normal="Kwiatkowski, Edeck" role="Chanteur">Edeck Kwiatkowski</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <corpname normal="Orchestre Edeck Kwiatkowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Edeck Kwiatkowski</corpname>
+          <persname normal="Kwiatkowski, Edeck" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Edeck Kwiatkowski</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3251,9 +3251,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3300,10 +3300,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique">K.S.M.P. "Wiosna"</corpname>
+          <corpname normal="K.S.M.P. &quot;Wiosna&quot;" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">K.S.M.P. "Wiosna"</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3351,10 +3351,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Stanislas Kozierski et son orchestre" role="Groupe folklorique">Stanislas Kozierski et son orchestre</corpname>
+          <corpname normal="Stanislas Kozierski et son orchestre" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Stanislas Kozierski et son orchestre</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3404,9 +3404,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Belina" role="Chanteur">Belina</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Belina" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Belina</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3467,10 +3467,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Mielcarek, Czeslaw" role="Directeur artistique">Czeslaw Mielcarek</persname>
-          <persname normal="Czeslaw Mielcarek  et son ensemble Iskra Jazz" role="Groupe folklorique">Czeslaw Mielcarek  et son ensemble Iskra Jazz</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Mielcarek, Czeslaw" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Czeslaw Mielcarek</persname>
+          <persname normal="Czeslaw Mielcarek  et son ensemble Iskra Jazz" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Czeslaw Mielcarek  et son ensemble Iskra Jazz</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3520,10 +3520,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Echo Houdain" role="Groupe folklorique">Echo Houdain</persname>
-          <persname normal="Slominski, Alex" role="Directeur artistique">Alex Slominski</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Echo Houdain" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Echo Houdain</persname>
+          <persname normal="Slominski, Alex" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Alex Slominski</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3573,11 +3573,11 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
-          <persname normal="Duda, Joseph" role="Directeur artistique">Joseph Duda</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
+          <persname normal="Duda, Joseph" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3626,10 +3626,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique">Orchestre Rudy Krakowski</corpname>
-          <persname normal="Krakowski, Rudy" role="Directeur artistique">Rudy Krakowski</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Orchestre Rudy Krakowski" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Rudy Krakowski</corpname>
+          <persname normal="Krakowski, Rudy" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Rudy Krakowski</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3678,11 +3678,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique">Club des mandolinistes d'Houdain</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Club des mandolinistes d'Houdain</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3729,10 +3729,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Dekerle, Eugène" role="carillonneur">Eugène Dekerle</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Dekerle, Eugène" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Eugène Dekerle</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3783,9 +3783,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3829,10 +3829,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons</subject>
-          <corpname normal="Les Joyeux Gavroches" role="Chorale">Les Joyeux Gavroches</corpname>
-          <persname normal="Bodart-Timal, Charles" role="Auteur-compositeur">Charles Bodart-Timal</persname>
-          <persname normal="Clément, Jean" role="Chanteur">Jean Clément</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons</subject>
+          <corpname normal="Les Joyeux Gavroches" role="Chorale" source="thesaurus--SLASH--bnr_corpname.xml">Les Joyeux Gavroches</corpname>
+          <persname normal="Bodart-Timal, Charles" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Charles Bodart-Timal</persname>
+          <persname normal="Clément, Jean" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Jean Clément</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3882,10 +3882,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique">Club des mandolinistes d'Houdain</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Houdain, Club des mandolinistes d'" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Club des mandolinistes d'Houdain</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3934,12 +3934,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <persname role="Directeur artistique">Joseph Duda</persname>
-          <corpname role="Groupe folklorique">Soir de Mai</corpname>
+          <persname role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
+          <corpname role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -3986,9 +3986,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4036,10 +4036,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Bailleul</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <persname normal="De Kadullen" role="Groupe folklorique">De Kadullen</persname>
+          <persname normal="De Kadullen" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">De Kadullen</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4102,8 +4102,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="Rameau">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4150,9 +4150,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4200,8 +4200,8 @@
           <p>&lt;p&gt;&lt;span class="lettrine"&gt;F&lt;/span&gt;ondée en 1922, la société "les Pères la Joie" perpétue une tradition datant de... 1793 ! En costume de meunier Saint Polois d'autrefois, ils sont les vedettes incontournables des fêtes de Saint-Pol-sur-Ternoise mais aussi partout où ils se produisent (Lille, Boulogne-sur-mer, Arras, et surtout à Paris en 1925 pour prendre part à la fête du muguet).&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Carnaval</subject>
-          <corpname normal="Les Pères-La-Joie" role="Groupe folklorique">Les Pères-La-Joie</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carnaval</subject>
+          <corpname normal="Les Pères-La-Joie" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Les Pères-La-Joie</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4240,9 +4240,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Larcange, Maurice" role="accordéoniste">Maurice Larcange</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Larcange, Maurice" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Maurice Larcange</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4289,8 +4289,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4362,9 +4362,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Kmielcik, François" role="Auteur-compositeur">François Kmielcik</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Kmielcik, François" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">François Kmielcik</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4427,8 +4427,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4500,9 +4500,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Kmielcik, François" role="Auteur-compositeur">François Kmielcik</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Kmielcik, François" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">François Kmielcik</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4574,10 +4574,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Kubiak, Stéphane" role="Auteur-compositeur">Stéphane Kubiak</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Kubiak, Stéphane" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Stéphane Kubiak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4645,9 +4645,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="chrono">1960-1969</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4719,10 +4719,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Kubiak, Stéphane" role="Auteur-compositeur">Stéphane Kubiak</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Kubiak, Stéphane" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Stéphane Kubiak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4782,9 +4782,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname normal="Kmielcik, François" role="Auteur-compositeur">François Kmielcik</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname normal="Kmielcik, François" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">François Kmielcik</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4847,8 +4847,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4908,12 +4908,12 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
-          <corpname normal="Soir de Mai" role="Groupe folklorique">Soir de Mai</corpname>
-          <persname role="Directeur artistique">Joseph Duda</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
+          <corpname normal="Soir de Mai" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
+          <persname role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -4984,9 +4984,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Baselli, Joss" role="accordéoniste">Joss Baselli</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Baselli, Joss" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Joss Baselli</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5058,12 +5058,12 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <persname role="Directeur artistique">Joseph Duda</persname>
-          <corpname role="Groupe folklorique">Soir de Mai</corpname>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <persname role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
+          <corpname role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5100,10 +5100,10 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Novak, Boleslaw" role="Guitariste">Boleslaw Novak</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Novak, Boleslaw" role="Guitariste" source="thesaurus--SLASH--bnr_persname.xml">Boleslaw Novak</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5174,8 +5174,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5254,8 +5254,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5288,8 +5288,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5361,12 +5361,12 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname role="Groupe folklorique">Soir de Mai</corpname>
-          <persname role="Directeur artistique">Joseph Duda</persname>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
+          <persname role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5437,8 +5437,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5509,8 +5509,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5581,8 +5581,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5665,11 +5665,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandolines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandolines</subject>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique">Iskra, Orchestre de mandolines</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Iskra, Orchestre de mandolines" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Iskra, Orchestre de mandolines</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5708,9 +5708,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Baselli, Joss" role="accordéoniste">Joss Baselli</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Baselli, Joss" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Joss Baselli</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5781,8 +5781,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5843,8 +5843,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Baselli, Joss" role="accordéoniste">Joss Baselli</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Baselli, Joss" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Joss Baselli</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5919,9 +5919,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -5992,9 +5992,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6065,8 +6065,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6125,8 +6125,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6196,8 +6196,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Aimable" role="accordéoniste">Aimable</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Aimable" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Aimable</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6236,10 +6236,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <subject source="chrono">1970-1979</subject>
-          <persname normal="Lannoy, Jacques" role="carillonneur">Jacques Lannoy</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+          <persname normal="Lannoy, Jacques" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Jacques Lannoy</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6346,11 +6346,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Devernay, Yves" role="organiste">Yves Devernay</persname>
-          <persname normal="Faucheur, Jérôme" role="organiste">Jérôme Faucheur</persname>
-          <persname normal="François, André" role="organiste">André François</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Devernay, Yves" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">Yves Devernay</persname>
+          <persname normal="Faucheur, Jérôme" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">Jérôme Faucheur</persname>
+          <persname normal="François, André" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">André François</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6409,11 +6409,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Dekyndt, Jean" role="organiste">Jean Dekyndt</persname>
-          <persname normal="Leroy, Vincent" role="organiste">Vincent Leroy</persname>
-          <persname normal="Lefebvre, Philippe" role="organiste">Philippe Lefebvre</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Dekyndt, Jean" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">Jean Dekyndt</persname>
+          <persname normal="Leroy, Vincent" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">Vincent Leroy</persname>
+          <persname normal="Lefebvre, Philippe" role="organiste" source="thesaurus--SLASH--bnr_persname.xml">Philippe Lefebvre</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6470,9 +6470,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <persname normal="De Kreupelaer" role="Groupe folklorique">De Kreupelaer</persname>
+          <persname normal="De Kreupelaer" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">De Kreupelaer</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6551,10 +6551,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1970-1979</subject>
-          <corpname normal="Marieke en Bart" role="Groupe folklorique">Marieke en Bart</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+          <corpname normal="Marieke en Bart" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Marieke en Bart</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6641,10 +6641,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1970-1979</subject>
-          <corpname normal="Marieke en Bart" role="Groupe folklorique">Marieke en Bart</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+          <corpname normal="Marieke en Bart" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Marieke en Bart</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6728,9 +6728,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Flandre</geogname>
-          <subject source="Rameau">Chansons flamandes</subject>
-          <subject source="chrono">1980-1989</subject>
-          <corpname normal="Marieke en Bart" role="Groupe folklorique">Marieke en Bart</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <corpname normal="Marieke en Bart" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Marieke en Bart</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6791,9 +6791,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
           <geogname>Roubaix</geogname>
-          <persname normal="Prez, Jean" role="accordéoniste">Jean Prez</persname>
+          <persname normal="Prez, Jean" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Jean Prez</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6860,10 +6860,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1980-1989</subject>
-          <corpname normal="Marieke en Bart" role="Groupe folklorique">Marieke en Bart</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <corpname normal="Marieke en Bart" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Marieke en Bart</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6927,9 +6927,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillon</subject>
-          <subject source="Rameau">Orgue</subject>
-          <persname normal="Lannoy, Jacques" role="carillonneur">Jacques Lannoy</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <persname normal="Lannoy, Jacques" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Jacques Lannoy</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -6994,9 +6994,9 @@
         </acqinfo>
         <controlaccess>
           <geogname>Flandre</geogname>
-          <subject source="Rameau">Chansons flamandes</subject>
-          <subject source="chrono">1980-1989</subject>
-          <corpname normal="Marieke en Bart" role="Groupe folklorique">Marieke en Bart</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <corpname normal="Marieke en Bart" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Marieke en Bart</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7064,8 +7064,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Harmonies</subject>
-          <subject source="Rameau">Fanfares</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Harmonies</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Fanfares</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7135,9 +7135,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7240,9 +7240,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7309,11 +7309,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Carillons</subject>
-          <subject source="Rameau">Orgue</subject>
-          <subject source="chrono">1980-1989</subject>
-          <persname normal="Mulier, Jean-Baptiste" role="carillonneur">Jean-Baptiste Mulier</persname>
-          <persname normal="Mulier, Jean-Francis" role="carillonneur">Jean-Francis Mullier</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carillons</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Orgue</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <persname normal="Mulier, Jean-Baptiste" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Jean-Baptiste Mulier</persname>
+          <persname normal="Mulier, Jean-Francis" role="carillonneur" source="thesaurus--SLASH--bnr_persname.xml">Jean-Francis Mullier</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7413,8 +7413,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Harmonies et fanfares</subject>
-          <persname normal="Fanfare d'Haspres" role="Groupe folklorique">Fanfare d'Haspres</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Harmonies et fanfares</subject>
+          <persname normal="Fanfare d'Haspres" role="Groupe folklorique" source="thesaurus--SLASH--bnr_persname.xml">Fanfare d'Haspres</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7463,9 +7463,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1970-1979</subject>
-          <corpname normal="Société des Accordéonistes Andrésiens" role="Groupe folklorique">Société des Accordéonistes Andrésiens</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+          <corpname normal="Société des Accordéonistes Andrésiens" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Société des Accordéonistes Andrésiens</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7510,12 +7510,12 @@
         </acqinfo>
         <controlaccess>
           <geogname>Pologne</geogname>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Mandoline</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
-          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique">Mandoline Club Polonais d'Abscon</corpname>
-          <corpname role="Groupe folklorique">Soir de Mai</corpname>
-          <persname normal="Duda, Joseph" role="Directeur artistique">Joseph Duda</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mandoline</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
+          <corpname normal="Mandoline Club Polonais d'Abscon" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Mandoline Club Polonais d'Abscon</corpname>
+          <corpname role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Soir de Mai</corpname>
+          <persname normal="Duda, Joseph" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Joseph Duda</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7594,11 +7594,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Folklores</subject>
-          <subject source="Rameau">Chansons polonaises</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Folklores</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons polonaises</subject>
           <geogname>Pologne</geogname>
-          <corpname normal="Houdain, L'Ensemble Polonais de " role="Groupe folklorique">L'Ensemble Polonais de Houdain</corpname>
-          <persname normal="Pastucha, F." role="Compositeur">F. Pastucha</persname>
+          <corpname normal="Houdain, L'Ensemble Polonais de " role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">L'Ensemble Polonais de Houdain</corpname>
+          <persname normal="Pastucha, F." role="Compositeur" source="thesaurus--SLASH--bnr_persname.xml">F. Pastucha</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7666,9 +7666,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons flamandes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons flamandes</subject>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1980-1989</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7819,10 +7819,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
           <geogname>Roubaix</geogname>
-          <persname normal="Prez, Jean" role="accordéoniste">Jean Prez</persname>
-          <persname normal="Prez, Christine">Christine Prez</persname>
+          <persname normal="Prez, Jean" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Jean Prez</persname>
+          <persname normal="Prez, Christine" source="thesaurus--SLASH--bnr_persname.xml">Christine Prez</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -7885,8 +7885,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Harmonies</subject>
-          <subject source="Rameau">Fanfares</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Harmonies</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Fanfares</subject>
           <geogname>Flandre</geogname>
         </controlaccess>
         <daogrp>
@@ -7948,8 +7948,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Duleu, Edouard" role="accordéoniste">Edouard Duleu</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Duleu, Edouard" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Edouard Duleu</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8015,9 +8015,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8091,8 +8091,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <corpname role="Groupe folklorique">Accordéon Club Calaisien</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <corpname role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Accordéon Club Calaisien</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8144,9 +8144,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <subject source="chrono">1946-1959</subject>
-          <persname normal="Verstraete, Charles" role="accordéoniste">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <persname normal="Verstraete, Charles" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8216,8 +8216,8 @@
           <p>&lt;p&gt;Adolphe Deprince (1901-1995) est un accordéoniste, né à Roubaix.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8271,7 +8271,7 @@
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23287" role="publication:previous"/>
         </daogrp>
         <controlaccess>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
       </c>
       <c level="file" id="m0178124463861h387">
@@ -8291,8 +8291,8 @@
           <p>&lt;p&gt;Fonds Local et Régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8329,8 +8329,8 @@
           <p>&lt;p&gt;Fonds Local et Régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname role="accordéoniste">Adolphe Deprince</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Adolphe Deprince</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8366,9 +8366,9 @@
           <p>&lt;p&gt;Fonds Charles Verstraete&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Variétés</subject>
-          <subject source="Rameau">Musique populaire</subject>
-          <persname normal="Verstraete, Charles" role="Musicien">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Variétés</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Musique populaire</subject>
+          <persname normal="Verstraete, Charles" role="Musicien" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8413,9 +8413,9 @@
           <p>&lt;p&gt;Fonds Charles Verstraete&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Musique populaire</subject>
-          <subject source="Rameau">Variétés</subject>
-          <persname normal="Verstraete, Charles" role="Musicien">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Musique populaire</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Variétés</subject>
+          <persname normal="Verstraete, Charles" role="Musicien" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8460,9 +8460,9 @@
           <p>&lt;p&gt;Fonds Charles Verstraete&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Variétés</subject>
-          <subject source="Rameau">Musique populaire</subject>
-          <persname normal="Verstraete, Charles" role="Musicien">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Variétés</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Musique populaire</subject>
+          <persname normal="Verstraete, Charles" role="Musicien" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8501,8 +8501,8 @@
           <p>&lt;p&gt;Fonds Charles Verstraete&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Accordéon</subject>
-          <persname normal="Bultiau, Simone" role="accordéoniste">Simone Bultiau</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Accordéon</subject>
+          <persname normal="Bultiau, Simone" role="accordéoniste" source="thesaurus--SLASH--bnr_persname.xml">Simone Bultiau</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8539,8 +8539,8 @@
           <p>&lt;p&gt;Fonds Charles Verstraete&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Musique populaire</subject>
-          <persname normal="Verstraete, Charles" role="Musicien">Charles Verstraete</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Musique populaire</subject>
+          <persname normal="Verstraete, Charles" role="Musicien" source="thesaurus--SLASH--bnr_persname.xml">Charles Verstraete</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8578,9 +8578,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8614,9 +8614,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8653,9 +8653,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="Rameau">Dialectes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8692,9 +8692,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8731,9 +8731,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8767,9 +8767,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8803,9 +8803,9 @@
           <p>&lt;p&gt;Fonds Desette&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="Rameau">Dialectes</subject>
-          <persname normal="Watteeuw, Jules" role="Chansonnier">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <persname normal="Watteeuw, Jules" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8839,9 +8839,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Simons, Léopold" role="Chansonnier">Léopold Simons</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Simons, Léopold" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Léopold Simons</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8874,9 +8874,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Simons, Léopold" role="Chansonnier">Léopold Simons</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Simons, Léopold" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Léopold Simons</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8925,9 +8925,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Simons, Léopold" role="Chansonnier">Léopold Simons</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Simons, Léopold" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Léopold Simons</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8962,8 +8962,8 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <persname normal="Simons, Léopold" role="Chansonnier">Léopold Simons</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <persname normal="Simons, Léopold" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Léopold Simons</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -8998,10 +8998,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Simons, Léopold" role="Chansonnier">Léopold Simons</persname>
-          <persname normal="Dariel, Line" role="Chansonnier">Line Dariel</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Simons, Léopold" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Léopold Simons</persname>
+          <persname normal="Dariel, Line" role="Chansonnier" source="thesaurus--SLASH--bnr_persname.xml">Line Dariel</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9048,9 +9048,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Watteeuw, Jules" role="Auteur-compositeur">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Watteeuw, Jules" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9087,9 +9087,9 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <persname normal="Desrousseaux, Alexandre" role="Auteur-compositeur">Alexandre Desrousseaux</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <persname normal="Desrousseaux, Alexandre" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Alexandre Desrousseaux</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9190,10 +9190,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <corpname normal="Gallopin, Jo (Orchestre)" role="Groupe folklorique">Orchestre Jo Gallopin</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <corpname normal="Gallopin, Jo (Orchestre)" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Orchestre Jo Gallopin</corpname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9244,11 +9244,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9287,11 +9287,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9350,11 +9350,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9398,11 +9398,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9438,11 +9438,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9478,11 +9478,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9514,11 +9514,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9554,11 +9554,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9596,11 +9596,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9636,11 +9636,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9676,11 +9676,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Ch'Guss" role="Narrateur">Ch'Guss</persname>
-          <persname normal="Jordens, Robert" role="Narrateur">Robert Jordens</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Ch'Guss" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Ch'Guss</persname>
+          <persname normal="Jordens, Robert" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Robert Jordens</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9712,10 +9712,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Hanon, Auguste" role="auteur">Auguste Hanon</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Hanon, Auguste" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Auguste Hanon</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9766,11 +9766,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9809,11 +9809,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9860,11 +9860,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
-          <persname normal="Fougni, Félix" role="Narrateur">Félix Fougnie</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
+          <persname normal="Fougni, Félix" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Félix Fougnie</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9924,10 +9924,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1980-1989</subject>
-          <persname normal="Balle, André" role="Narrateur">André Balle</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+          <persname normal="Balle, André" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">André Balle</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -9964,12 +9964,12 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Mousseron, Jules" role="auteur">Jules Mousseron</persname>
-          <corpname normal="Gueules Noires (Les)" role="Groupe folklorique">Les Gueules Noires</corpname>
-          <persname normal="Faidherbe, Fernand" role="Directeur artistique">Fernand Faidherbe</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Mousseron, Jules" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Jules Mousseron</persname>
+          <corpname normal="Gueules Noires (Les)" role="Groupe folklorique" source="thesaurus--SLASH--bnr_corpname.xml">Les Gueules Noires</corpname>
+          <persname normal="Faidherbe, Fernand" role="Directeur artistique" source="thesaurus--SLASH--bnr_persname.xml">Fernand Faidherbe</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10005,10 +10005,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Bertal" role="Chanteur">Bertal</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Bertal" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Bertal</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10052,10 +10052,10 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="Bertal" role="Chanteur">Bertal</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="Bertal" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Bertal</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10099,11 +10099,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1960-1969</subject>
-          <persname normal="François-Lamart, Marie" role="Narrateur">Marie François-Lamart</persname>
-          <persname normal="Hagnere, Pierre Joseph" role="Narrateur">Pierre Joseph Hagnere</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <persname normal="François-Lamart, Marie" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Marie François-Lamart</persname>
+          <persname normal="Hagnere, Pierre Joseph" role="Narrateur" source="thesaurus--SLASH--bnr_persname.xml">Pierre Joseph Hagnere</persname>
         </controlaccess>
         <daogrp>
           <daodesc>
@@ -10138,11 +10138,11 @@
           <p>&lt;p&gt;Fonds local et régional sonore.&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="Rameau">Dialectes</subject>
-          <subject source="Rameau">Chansons picardes</subject>
-          <subject source="chrono">1970-1979</subject>
-          <persname normal="Henry, Robert" role="Chanteur">Robert Henry</persname>
-          <persname normal="Watteeuw, Jules" role="Auteur-compositeur">Jules Watteeuw</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Dialectes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chansons picardes</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+          <persname normal="Henry, Robert" role="Chanteur" source="thesaurus--SLASH--bnr_persname.xml">Robert Henry</persname>
+          <persname normal="Watteeuw, Jules" role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Jules Watteeuw</persname>
         </controlaccess>
         <daogrp>
           <daodesc>

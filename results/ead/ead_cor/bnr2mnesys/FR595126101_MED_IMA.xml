@@ -50,7 +50,7 @@
           <p>&lt;p&gt;Achat à la librairie la Voix au chapitre en 2007&lt;/p&gt;</p>
         </acqinfo>
         <controlaccess>
-          <subject source="theme">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638I4Iy5M" role="publication:current"/>
@@ -1386,7 +1386,7 @@
               <p>Les métiers liés au textile et au filage : fileuse, femme au fuseau, fileuse morvandelle, fileuse des Pyrénées, fileuses, fileuse chinoise, quenouille et rouet. </p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -1410,7 +1410,7 @@
               <p>Les métiers liés au textile et à la couture : couseuse, couturière, tailleur, fil et ciseaux, machine à coudre, aiguille et dé à coudre. </p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2472,7 +2472,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>Laine Rugby, laine Derby.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Sports</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2508,9 +2508,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Emballages de savon Victor Vaissier représentant un couple au milieu de fleurs roses et jaunes.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Savonnerie du Congo</corpname>
-              <corpname>Vaissier frères</corpname>
-              <subject source="theme">Autres industries</subject>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_ETI3_LAN_001.jpg" role="access:image"/>
@@ -2528,9 +2528,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Emballage de savon Victor Vaissier représentant deux antilopes dans la savane.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Vaissier frères</corpname>
-              <corpname>Savonnerie du Congo</corpname>
-              <subject source="theme">Autres industries</subject>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_ETI3_ANT_001.jpg" role="access:image"/>
@@ -2548,9 +2548,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Emballage cartonné de savon avec un portrait d'un prince sur un paysage de jungle.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Savonnerie du Congo</corpname>
-              <corpname>Vaissier frères</corpname>
-              <subject source="theme">Autres industries</subject>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_ETI3_PRI_001.jpg" role="access:image"/>
@@ -3860,7 +3860,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR136800" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Luda</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Luda</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638rl0rHL">
@@ -3883,7 +3883,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR136801" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Rabier, Benjamin</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Rabier, Benjamin</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638g03F3Q">
@@ -5943,7 +5943,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR136901" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Raylambert</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Raylambert</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m0178124463873ReF5">
@@ -6534,7 +6534,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR136927" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Bussière, Gaston</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Bussière, Gaston</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638ac7I6x">
@@ -10656,7 +10656,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137129" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Rabier, Benjamin</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Rabier, Benjamin</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638Sstn6Z">
@@ -11774,7 +11774,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137181" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Prangey, Marcel</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Prangey, Marcel</persname>
                 </controlaccess>
               </c>
             </c>
@@ -12658,7 +12658,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137226" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Leloir, Maurice</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Leloir, Maurice</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638YQsXiD">
@@ -12769,7 +12769,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137231" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Raylambert</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Raylambert</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638csnVt5">
@@ -12854,7 +12854,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137235" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Leloir, Maurice</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Leloir, Maurice</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638PRIF0H">
@@ -12877,7 +12877,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137236" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Leloir, Maurice</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Leloir, Maurice</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m017812446386W5U8I">
@@ -13462,7 +13462,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137267" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Moloch</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Moloch</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638WHytvo">
@@ -13899,7 +13899,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
                   <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137290" role="publication:previous"/>
                 </daogrp>
                 <controlaccess>
-                  <persname role="illustrateur">Bouret, Germaine</persname>
+                  <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Bouret, Germaine</persname>
                 </controlaccess>
               </c>
               <c level="item" id="m01781244638UDbvwt">
@@ -14961,7 +14961,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
           <p>&lt;p style="text-align: justify;" title="Papier"&gt;Le papier buvard (ou plus simplement buvard) est un papier poreux capable d'absorber une petite quantité de liquide. Il servait principalement à sécher l'écriture lorsqe l'on écrivait à l'encre avec une plume : l'encre pouvant être déposée irrégulièrement et séchant lentement pouvait provoquer taches et maculatures, l'usage du buvard était souvent nécessaire.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Papier Buvard</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Papier Buvard</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638BLmuUl" role="publication:current"/>
@@ -14978,7 +14978,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             <p>&lt;p&gt;Collection achetée à un collectionneur roubaisien.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="Rameau">Publicité</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Publicité</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638BAQpW0" role="publication:current"/>
@@ -15066,7 +15066,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;La colle du textile qui colle et répare toile, sacs, bâches et tous textiles.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_005.tif" role="preservation:image"/>
@@ -15392,7 +15392,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tout l'habillement par correspondance, sans frais inutiles et sans dérangement.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_025.tif" role="preservation:image"/>
@@ -15427,7 +15427,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tous les tricots.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_027.tif" role="preservation:image"/>
@@ -15446,7 +15446,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tous les tricots.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_028.tif" role="preservation:image"/>
@@ -15465,7 +15465,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tous les tricots.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_029.tif" role="preservation:image"/>
@@ -15484,7 +15484,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tous les tricots.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_030.tif" role="preservation:image"/>
@@ -15503,7 +15503,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tous les tricots.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_031.tif" role="preservation:image"/>
@@ -15731,7 +15731,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
 &lt;p&gt; &lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_045.tif" role="preservation:image"/>
@@ -15750,7 +15750,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Gabardines, popelines, velours, lodens, nylons : hommes, femmes et enfants.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_046.tif" role="preservation:image"/>
@@ -15833,7 +15833,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Gabardines, popelines, velours, lodens : hommes, femmes et enfants le spécialiste connu du monde entier.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_051.tif" role="preservation:image"/>
@@ -15852,7 +15852,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tissu garanti Boussac : c'est un plaisir de pleurer dans un joli mouchoir...&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_052.tif" role="preservation:image"/>
@@ -15913,7 +15913,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tissu sans défaut, vichy supérieur.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_056.tif" role="preservation:image"/>
@@ -15932,7 +15932,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tissu sans défaut vichy supérieur.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_057.tif" role="preservation:image"/>
@@ -15951,7 +15951,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Tissu sans défaut vichy supérieur.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_058.tif" role="preservation:image"/>
@@ -16049,7 +16049,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Le meilleur tricot, le seul vendu avec garantie d'échange. Offert par les tricots Janpi.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_IMA/RBX_MED_IMA_BUV1_064.tif" role="preservation:image"/>
@@ -17148,8 +17148,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 78 x 27 cm. Technique : offset sur plastique. Cote : Ka004.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="illustrateur">Poulet, R.</persname>
-              <corpname role="imprimeur">Imprimerie Vernay - Vichy</corpname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Poulet, R.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Vernay - Vichy</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_A_004_001.jpg" audience="internal" role="access:image"/>
@@ -17181,7 +17181,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 77 x 31 cm. Technique : offset sur plastique. Cote : Ka006.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_A_006_001.jpg" audience="internal" role="access:image"/>
@@ -17197,8 +17197,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 53 x 37.5 cm. Technique : offset sur carton. Cote : Ka007.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="artiste peintre">Heretynski, Witold</persname>
-              <corpname role="imprimeur">Imprimerie Collin</corpname>
+              <persname role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Heretynski, Witold</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Collin</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638CXsvzm" role="publication:current"/>
@@ -17307,7 +17307,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 61 x 47.5 cm. Technique : offset sur coton. Cote : Kb009.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_009_001.jpg" audience="internal" role="access:image"/>
@@ -17323,7 +17323,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 62 x 44 cm. Technique : offset sur coton. Cote : Kb010.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_010_001.jpg" audience="internal" role="access:image"/>
@@ -17339,7 +17339,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33.5 x 47 cm. Technique : offset collé sur carton. Cote : Kb012.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_012_001.jpg" role="access:image"/>
@@ -17364,8 +17364,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128811" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="artiste peintre">Heretynski, Witold</persname>
-              <corpname role="imprimeur">Imprimerie Collin</corpname>
+              <persname role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Heretynski, Witold</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Collin</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638wggi03">
@@ -17376,9 +17376,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 44 x 32 cm. Technique : offset. Cote : Kb014.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -17407,9 +17407,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128813" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="illustrateur">Lefebvre, Pascale</persname>
-              <persname role="illustrateur">Laur, François</persname>
-              <corpname role="imprimeur">Imprimerie Decoster - Sequedin</corpname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Lefebvre, Pascale</persname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Laur, François</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Decoster - Sequedin</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638xmWmeJ">
@@ -17423,9 +17423,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 007.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_016_001.jpg" audience="internal" role="access:image"/>
@@ -17441,9 +17441,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 39 x 64 cm. Technique : offset. Cote : Kb017.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_017_001.jpg" audience="internal" role="access:image"/>
@@ -17472,9 +17472,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 39 x 64 cm. Technique : offset. Cote : Kb019.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_019_001.jpg" audience="internal" role="access:image"/>
@@ -17506,9 +17506,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 868.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_021_001.jpg" audience="internal" role="access:image"/>
@@ -17527,9 +17527,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 083.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_025_001.jpg" audience="internal" role="access:image"/>
@@ -17545,9 +17545,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 64 x 49 cm. Technique : lithographie encollée sur carton. Cote : Kb026.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname>Vaissier, Victor (1851-1923)</persname>
-              <corpname>Savonnerie du Congo</corpname>
-              <subject source="chrono">1871-1913</subject>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Vaissier, Victor (1851-1923)</persname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_026_001.jpg" role="access:image"/>
@@ -17566,9 +17566,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 919.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_028_001.jpg" audience="internal" role="access:image"/>
@@ -17587,9 +17587,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 887.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_029_001.jpg" audience="internal" role="access:image"/>
@@ -17608,9 +17608,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 86.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_B_030_001.jpg" audience="internal" role="access:image"/>
@@ -17635,7 +17635,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128825" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638SZ1osj">
@@ -17655,7 +17655,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128826" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638FAqqSn">
@@ -17686,9 +17686,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 911.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638bwlUto" role="publication:current"/>
@@ -17706,9 +17706,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 912.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638VMW98p" role="publication:current"/>
@@ -17726,9 +17726,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 913.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638iHBema" role="publication:current"/>
@@ -17746,9 +17746,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Exemplaire numéroté 2123.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <persname role="illustrateur">Vayssieres, J.-J.</persname>
-              <corpname role="imprimeur">Imprimerie Silic</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Vayssieres, J.-J.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Silic</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446384iOuaq" role="publication:current"/>
@@ -17763,8 +17763,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 31.5 cm. Technique : offset. Cote : Kb031.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="photographe">Larmuseau, Gilbert</persname>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Larmuseau, Gilbert</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638nSdpHF" role="publication:current"/>
@@ -17779,8 +17779,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 31.5 cm. Technique : offset. Cote : Kb032.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="photographe">Larmuseau, Gilbert</persname>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Larmuseau, Gilbert</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638LZG3V7" role="publication:current"/>
@@ -17795,8 +17795,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 60 x 31.5 cm. Technique : offset. Cote : Kb033.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="photographe">Larmuseau, Gilbert</persname>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Larmuseau, Gilbert</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638zJX6xD" role="publication:current"/>
@@ -17811,8 +17811,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p&gt;Dimensions : 25 x 38 cm plié. Technique : Offset. Cote : Kb034.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1970-1979</subject>
-              <corpname>Grande Brasserie Moderne</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638DgFjsW" role="publication:current"/>
@@ -17837,7 +17837,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 20 cm. Technique : lithographie sur carton moulé. Cote : Kc001.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie L&amp;A Nisse - Croix</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie L&amp;A Nisse - Croix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_001_001.jpg" role="access:image"/>
@@ -17854,7 +17854,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_002_001.jpg" role="access:image"/>
@@ -17871,7 +17871,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_003_001.jpg" role="access:image"/>
@@ -17888,7 +17888,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_004_001.jpg" role="access:image"/>
@@ -17904,8 +17904,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33 x 25 cm. Technique : lithographie. Cote : Kc005.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_005_001.jpg" role="access:image"/>
@@ -17921,8 +17921,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 33 cm. Technique : lithographie. Cote : Kc006.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <subject source="chrono">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_006_001.jpg" role="access:image"/>
@@ -17938,8 +17938,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 33 cm. Technique : lithographie. Cote : Kc007.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_007_001.jpg" role="access:image"/>
@@ -17956,7 +17956,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6855265, 3.1610963 ]">Croix, rue de</geogname>
-              <corpname role="imprimeur">Imprimerie Craynest - Roubaix</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Craynest - Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_008_001.jpg" audience="internal" role="access:image"/>
@@ -17972,7 +17972,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 42 cm. Technique : offset. Cote : Kc009.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_009_001.jpg" audience="internal" role="access:image"/>
@@ -17988,7 +17988,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 42 cm. Technique : offset. Cote : Kc010.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_010_001.jpg" audience="internal" role="access:image"/>
@@ -18007,8 +18007,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Calendrier acquis chez Bohée en 1998.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <corpname>Etablissements Alfred Reboux</corpname>
-              <subject source="chrono">1871-1913</subject>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Etablissements Alfred Reboux</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_011_001.jpg" role="access:image"/>
@@ -18036,7 +18036,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 29 x 42 cm. Technique : offset. Cote : Kc014.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>La Redoute</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Redoute</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18059,8 +18059,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Calendrier acquis au Salon du Livre de Wasquehal en 2009 auprès de Monsieur W. Legry.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <corpname role="imprimeur">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_016_001.jpg" role="access:image"/>
@@ -18079,8 +18079,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Calendrier acquis au Salon du Livre de Wasquehal en 2009 auprès de Monsieur W. Legry.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <corpname role="imprimeur">Imprimerie M. Descamps - La Madeleine</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie M. Descamps - La Madeleine</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_017_001.jpg" role="access:image"/>
@@ -18096,7 +18096,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33.5 x 42.5 cm. Technique : offset. Cote : Kc018.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_018_001.jpg" role="access:image"/>
@@ -18112,9 +18112,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 33 cm. Technique : lithographie. Cote : Kc019.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
-              <persname role="illustrateur">Desplanques, Alfred</persname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Desplanques, Alfred</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_019_001.jpg" role="access:image"/>
@@ -18130,8 +18130,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33 x 25 cm. Technique : lithographie et typographie. Cote : Kc020.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_020_001.jpg" role="access:image"/>
@@ -18147,9 +18147,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 31 cm. Technique : lithographie et typographie. Cote : Kc021.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1871-1913</subject>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie L'Avenir de Roubaix-Tourcoing</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie L'Avenir de Roubaix-Tourcoing</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18169,7 +18169,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 26.5 cm. Technique : lithographie et typographie. Cote : Kc022.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1914-1918</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18189,8 +18189,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 20 x 25 cm. Technique : offset. Cote : Kc024.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <corpname role="imprimeur">Imprimerie Oberthur - Rennes</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Oberthur - Rennes</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_024_001.jpg" audience="internal" role="access:image"/>
@@ -18209,8 +18209,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Bernard Grelle en 2002.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <corpname role="imprimeur">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_025_001.jpg" role="access:image"/>
@@ -18226,7 +18226,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 9 x 6 cm. Technique : lithographie. Cote : Kc026.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18255,7 +18255,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128859" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Studio graphique SGDF</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Studio graphique SGDF</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638PzpUtT">
@@ -18266,8 +18266,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 28 x 21 cm. Technique : lithographie. Cote : Kc028.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <corpname role="imprimeur">Imprimerie Martin Mamy, Crouan &amp; Roques - Lille Paris</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Martin Mamy, Crouan &amp; Roques - Lille Paris</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18312,7 +18312,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128862" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="Graphiste">B.L. Graphisme</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">B.L. Graphisme</persname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638fnnUdX">
@@ -18343,9 +18343,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc032.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
-              <persname role="Graphiste">Leplus, Hervé</persname>
-              <corpname role="imprimeur">Imprimerie Almag'Art</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Leplus, Hervé</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Almag'Art</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18365,9 +18365,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 22 cm. Technique : offset. Cote : Kc033.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Grande Brasserie Moderne</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Grande Brasserie Moderne</corpname>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <subject source="chrono">1970-1979</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18396,7 +18396,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128866" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Les amis du Parc Barbieux</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Les amis du Parc Barbieux</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m017812446385JacEC">
@@ -18416,11 +18416,11 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128867" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Depecker, Vincent</persname>
-              <corpname role="photographe">Nord-Eclair (périodique)</corpname>
-              <persname role="photographe">Mortagne, Stéphane</persname>
-              <corpname role="photographe">La Voix du Nord (périodique)</corpname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Depecker, Vincent</persname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Nord-Eclair (périodique)</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Mortagne, Stéphane</persname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">La Voix du Nord (périodique)</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638eaPoVC">
@@ -18440,11 +18440,11 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128868" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Mortagne, Stéphane</persname>
-              <corpname role="photographe">La Voix du Nord (périodique)</corpname>
-              <persname role="photographe">Patrick, James</persname>
-              <persname role="photographe">Charles, Bernard</persname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Mortagne, Stéphane</persname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">La Voix du Nord (périodique)</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Patrick, James</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Charles, Bernard</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638Wf47UD">
@@ -18464,8 +18464,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128869" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Portrait Sensible</corpname>
-              <corpname role="Graphiste">Harpet Associés</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Portrait Sensible</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Harpet Associés</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638o5FHEM">
@@ -18485,9 +18485,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128870" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="Graphiste">Macedo, Pata</persname>
-              <persname role="photographe">Solé, Anne</persname>
-              <corpname role="imprimeur">Imprimerie Collin</corpname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Macedo, Pata</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Solé, Anne</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Collin</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m017812446381QCsdZ">
@@ -18498,8 +18498,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 23 x 23 cm. Technique : offset. Cote : Kc039.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Conservatoire National de Roubaix</corpname>
-              <corpname role="Graphiste">Idenka Communication Lille</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Conservatoire National de Roubaix</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Idenka Communication Lille</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18528,8 +18528,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128872" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Renard, Alain</persname>
-              <corpname role="Graphiste">Quelle Belle Idée</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Renard, Alain</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Quelle Belle Idée</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638nuajjV">
@@ -18549,7 +18549,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128873" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Portrait Sensible</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Portrait Sensible</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638e7Tusf">
@@ -18569,8 +18569,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128874" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Service communication municipal</corpname>
-              <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Service communication municipal</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie municipale de Roubaix</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638x6er3Z">
@@ -18590,8 +18590,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128875" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Bernard, J.-C.</persname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bernard, J.-C.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638UOu91r">
@@ -18602,12 +18602,12 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset sur carton. Cote : Kc044.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>La Piscine, Musée d'art et d'industrie André Diligent (Roubaix, Nord)</corpname>
-              <persname role="photographe">Leprince, Alain</persname>
-              <persname role="photographe">Loubry, Arnaud</persname>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
-              <persname role="photographe">Kleinefenn, Florian</persname>
-              <corpname role="imprimeur">Imprimerie Jean-Bernard</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Piscine, Musée d'art et d'industrie André Diligent (Roubaix, Nord)</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Leprince, Alain</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Loubry, Arnaud</persname>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Kleinefenn, Florian</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Jean-Bernard</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18636,9 +18636,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128877" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Jarry, Sébastien</persname>
-              <persname role="photographe">Loubry, Arnaud</persname>
-              <corpname role="imprimeur">Imprimerie municipale de Roubaix</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Jarry, Sébastien</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Loubry, Arnaud</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie municipale de Roubaix</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638ASiG9M">
@@ -18658,9 +18658,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128878" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Bernard, J.-C.</persname>
-              <corpname role="Graphiste">STE Project Com</corpname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bernard, J.-C.</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">STE Project Com</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638VxM3OY">
@@ -18671,8 +18671,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 33.5 x 24.5 cm. Technique : offset sur carton. Cote : Kc047.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>La Redoute</corpname>
-              <persname role="Graphiste">Atelier Gérard Nouri</persname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Redoute</corpname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Atelier Gérard Nouri</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18721,9 +18721,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128881" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="Graphiste">Macedo, Pata</persname>
-              <corpname role="imprimeur">Imprimerie Imprimatur - Lille</corpname>
-              <persname role="photographe">Solé, Anne</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Macedo, Pata</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Imprimatur - Lille</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Solé, Anne</persname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638SaWpUA">
@@ -18736,7 +18736,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             <controlaccess>
               <geogname source="quartier" coord="[ [ 50.69162749972451, 3.159239009596599 ], [ 50.69143351978217, 3.158919533773008 ], [ 50.69128190721562, 3.158653674247769 ], [ 50.69107343471747, 3.158292326427639 ], [ 50.6909028669298, 3.157994641453245 ], [ 50.69075836356346, 3.157738154684537 ], [ 50.69061029095458, 3.1574872650441 ], [ 50.69044801729496, 3.157200823815911 ], [ 50.69031060939749, 3.156964920799213 ], [ 50.69014003116997, 3.156672851646173 ], [ 50.68997537642884, 3.156390146176634 ], [ 50.68980834610415, 3.156108556807393 ], [ 50.68966737586465, 3.15587077981154 ], [ 50.6895086411218, 3.155599311470862 ], [ 50.68935583472035, 3.155333468510182 ], [ 50.68918832904758, 3.155049642845499 ], [ 50.68903196589394, 3.15477818560717 ], [ 50.68886255264419, 3.154500337347049 ], [ 50.68869195756299, 3.154217627961619 ], [ 50.68854387739146, 3.153966759049486 ], [ 50.68837210216168, 3.153676575603266 ], [ 50.68814890705099, 3.153304011320128 ], [ 50.68796528759438, 3.152991370068673 ], [ 50.68777811029603, 3.152674984000186 ], [ 50.68760514465738, 3.152384804388375 ], [ 50.68738649676966, 3.152006417298455 ], [ 50.68733354589496, 3.152125678283392 ], [ 50.68731639656627, 3.15216448322078 ], [ 50.68747467746189, 3.15246570588378 ], [ 50.68739154954535, 3.152789745631532 ], [ 50.68732659173075, 3.15308579603277 ], [ 50.68730735134397, 3.153269420685581 ], [ 50.68728791601608, 3.153481343992569 ], [ 50.68727649529098, 3.153834904444988 ], [ 50.68727581362305, 3.153933944548416 ], [ 50.68727503537373, 3.154047134044671 ], [ 50.68727211355651, 3.154471591791618 ], [ 50.68727133482108, 3.154584778446005 ], [ 50.68725267528063, 3.154683514481159 ], [ 50.68723392087689, 3.154796392768051 ], [ 50.68721555454719, 3.15485268194327 ], [ 50.68718800635435, 3.154937112101406 ], [ 50.68715098189173, 3.155092132624363 ], [ 50.68710487106036, 3.155261147311279 ], [ 50.68707722414059, 3.155359724977958 ], [ 50.68704039427352, 3.155486449024287 ], [ 50.68703101626745, 3.155542888494185 ], [ 50.68703062597603, 3.155599481540205 ], [ 50.68703052839606, 3.155613632273428 ], [ 50.68703932187599, 3.155642081697272 ], [ 50.68703893153944, 3.155698674751785 ], [ 50.68707410353752, 3.15581247964271 ], [ 50.68708299367631, 3.155826781200733 ], [ 50.68710947065732, 3.155897984595883 ], [ 50.68714454484766, 3.156025936313533 ], [ 50.68713555621192, 3.15602578263697 ], [ 50.68709921384704, 3.156081762471449 ], [ 50.68709022521075, 3.156081608784916 ], [ 50.68703571116673, 3.15616557554311 ], [ 50.686781311772, 3.156557428361413 ], [ 50.68669045471707, 3.156697373017741 ], [ 50.68663603793038, 3.156767193468011 ], [ 50.68658162110363, 3.156837010941772 ], [ 50.68657233930088, 3.156879303276333 ], [ 50.68655407063589, 3.156921441765478 ], [ 50.6865176301045, 3.156991566650518 ], [ 50.68649027501705, 3.157047698950555 ], [ 50.68647190764922, 3.157103985054447 ], [ 50.68644465026348, 3.157145968089562 ], [ 50.68641729510333, 3.157202100223842 ], [ 50.68639902542909, 3.157244237049812 ], [ 50.68638065886889, 3.157300521569607 ], [ 50.6863532058598, 3.157370801261717 ], [ 50.68632575280982, 3.157441080876902 ], [ 50.68628940976361, 3.15749705878231 ], [ 50.68627104218675, 3.15755334449618 ], [ 50.6862528701934, 3.157581331973968 ], [ 50.6862346012817, 3.157623469939082 ], [ 50.68621633145968, 3.157665606458127 ], [ 50.68617989048824, 3.157735731742889 ], [ 50.68614335075207, 3.157820003164151 ], [ 50.68611609310928, 3.157861986947776 ], [ 50.68608873761239, 3.157918118323944 ], [ 50.68607085995244, 3.157903661259126 ], [ 50.68602523449356, 3.158001928797988 ], [ 50.68597970681528, 3.158086047138616 ], [ 50.68593417997433, 3.158170165329383 ], [ 50.68588855429367, 3.15826843377065 ], [ 50.68584302732309, 3.15835255164304 ], [ 50.68577922928548, 3.158478805215625 ], [ 50.68575187349621, 3.158534935878382 ], [ 50.68566980597331, 3.158703324674571 ], [ 50.68564254801468, 3.158745306169356 ], [ 50.68560620434401, 3.158801282367479 ], [ 50.68556986064797, 3.158857257071953 ], [ 50.68556067609629, 3.15888539927997 ], [ 50.68553341807176, 3.158927380584596 ], [ 50.68542438581888, 3.159095306759197 ], [ 50.6853697716175, 3.159193416299295 ], [ 50.68529708381755, 3.159305365943832 ], [ 50.68527881339977, 3.159347501062835 ], [ 50.68518795299609, 3.15948743929923 ], [ 50.6851334364965, 3.159571399172119 ], [ 50.685096994391, 3.159641521558756 ], [ 50.68506064939157, 3.159697495083438 ], [ 50.68488791533449, 3.159977520114089 ], [ 50.68487882949562, 3.159991513032036 ], [ 50.68484248432495, 3.160047487472236 ], [ 50.68476061084284, 3.160187574810777 ], [ 50.68470609383377, 3.160271534620076 ], [ 50.68466056542718, 3.160355648691753 ], [ 50.68464239275733, 3.16038363566831 ], [ 50.68457937847281, 3.160396701742705 ], [ 50.68437987392135, 3.160647961051263 ], [ 50.68435281156287, 3.160661644711285 ], [ 50.68431646696106, 3.160717616669409 ], [ 50.68428031776139, 3.160745294298558 ], [ 50.68420802113239, 3.160800649443047 ], [ 50.68416288413972, 3.160828169602461 ], [ 50.68411774713242, 3.160855693949738 ], [ 50.68399942968201, 3.161065897763011 ], [ 50.68392664183688, 3.161191987245858 ], [ 50.68384466872166, 3.161346218570005 ], [ 50.68382649580477, 3.161374206145033 ], [ 50.68349899438752, 3.161934535570858 ], [ 50.68344437779174, 3.162032635429604 ], [ 50.68338964894419, 3.162096335692869 ], [ 50.6837464476808, 3.163087995018862 ], [ 50.68402554846653, 3.163838759394576 ], [ 50.68483538717932, 3.166041276285417 ], [ 50.68501100637815, 3.166561458658209 ], [ 50.68606306323779, 3.16946556543833 ], [ 50.68679243619878, 3.168135528438616 ], [ 50.68754124633825, 3.166779894734078 ], [ 50.68824863629877, 3.165452948989037 ], [ 50.68890847751619, 3.164235371229754 ], [ 50.68927860378032, 3.163570731202315 ], [ 50.68975406116421, 3.162688981760156 ], [ 50.6902727694068, 3.161713711822845 ], [ 50.69055707871198, 3.16123704041998 ], [ 50.69109113752162, 3.160249974734315 ], [ 50.69149274823057, 3.15951392433581 ], [ 50.69153198691574, 3.159442428673638 ] ]">Epeule</geogname>
               <geogname source="quartier" coord="[ [ 50.69278172096475, 3.161933961112095 ], [ 50.69307372430512, 3.161138839622621 ], [ 50.69311643889674, 3.160993504954587 ], [ 50.69287362710407, 3.160731879885371 ], [ 50.69270670717938, 3.160556414789002 ], [ 50.69254642486467, 3.160388446768991 ], [ 50.69237191809982, 3.160203989009129 ], [ 50.69221355223446, 3.160022573317816 ], [ 50.69204628309145, 3.159822592919166 ], [ 50.69187657403337, 3.159599281040219 ], [ 50.69162749972451, 3.159239009596599 ], [ 50.69153198691574, 3.159442428673638 ], [ 50.69149274823057, 3.15951392433581 ], [ 50.69109113752162, 3.160249974734315 ], [ 50.69055707871198, 3.16123704041998 ], [ 50.6902727694068, 3.161713711822845 ], [ 50.68975406116421, 3.162688981760156 ], [ 50.68927860378032, 3.163570731202315 ], [ 50.68890847751619, 3.164235371229754 ], [ 50.68824863629877, 3.165452948989037 ], [ 50.68754124633825, 3.166779894734078 ], [ 50.68679243619878, 3.168135528438616 ], [ 50.68606306323779, 3.16946556543833 ], [ 50.68627217339267, 3.170042831212639 ], [ 50.68699076111535, 3.172027160038913 ], [ 50.68728587256312, 3.172023845402551 ], [ 50.68875139805061, 3.172241253050665 ], [ 50.68941158282105, 3.17013947043601 ], [ 50.68979092112801, 3.168650189663184 ], [ 50.69017616628342, 3.168971044784929 ], [ 50.69043579459434, 3.16922981837154 ], [ 50.69139204020971, 3.169887216432677 ], [ 50.69134786302364, 3.16921721486125 ], [ 50.69136588027654, 3.168669025865059 ], [ 50.69160198435249, 3.167120276700072 ], [ 50.69173344297731, 3.166240062559865 ], [ 50.69222065631178, 3.16311242858091 ] ]">Trichon</geogname>
-              <corpname role="imprimeur">Imprimerie Reproflash</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Reproflash</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18765,9 +18765,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128883" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Jarry, Sébastien</persname>
-              <corpname role="Graphiste">Service communication municipal</corpname>
-              <corpname role="imprimeur">Imprimerie Calingaert</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Jarry, Sébastien</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Service communication municipal</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Calingaert</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638e0VZFs">
@@ -18778,7 +18778,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc052.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Studio Leroy - Roubaix</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Studio Leroy - Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -18807,7 +18807,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128885" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie S. Méplont - Roubaix</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie S. Méplont - Roubaix</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638Ue3xhI">
@@ -18830,7 +18830,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128886" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie Lefévère Tourcoing</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lefévère Tourcoing</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638jopbS9">
@@ -18853,8 +18853,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128887" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Bayard Service Edition</corpname>
-              <corpname role="imprimeur">Imprimerie LBC</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Bayard Service Edition</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie LBC</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638EyXInf">
@@ -18918,7 +18918,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128891" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Les amis du Parc Barbieux</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Les amis du Parc Barbieux</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m017812446387F8dIx">
@@ -18938,8 +18938,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128892" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Charles, Bernard</persname>
-              <persname role="photographe">Depecker, Vincent</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Charles, Bernard</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Depecker, Vincent</persname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638cZZQ9P">
@@ -18976,9 +18976,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128894" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Desplechin, Christian</persname>
-              <persname role="photographe">Charles, Bernard</persname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Desplechin, Christian</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Charles, Bernard</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638DnLWOR">
@@ -18998,7 +18998,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128895" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Les amis du Parc Barbieux</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Les amis du Parc Barbieux</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638tUn9cw">
@@ -19021,7 +19021,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128896" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="photographe">Les amis du Parc Barbieux</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Les amis du Parc Barbieux</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638h4YlMA">
@@ -19035,9 +19035,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Bernard Grelle.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <persname>Van Hecke, Arthur (1924-2003)</persname>
-              <corpname role="Graphiste">Atelier photographic</corpname>
-              <corpname role="imprimeur">Atelier Galerie Editions</corpname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Van Hecke, Arthur (1924-2003)</persname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Atelier Galerie Editions</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19060,8 +19060,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de la Société d'Emulation de Roubaix.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <corpname>SER, Société d'Emulation de Roubaix</corpname>
-              <persname role="Graphiste">Carteland</persname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">SER, Société d'Emulation de Roubaix</corpname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Carteland</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19090,8 +19090,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128899" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Charles, Bernard</persname>
-              <corpname role="imprimeur">Imprimerie NPC - Palais-sur-Vienne</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Charles, Bernard</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie NPC - Palais-sur-Vienne</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638DP5gji">
@@ -19114,8 +19114,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128900" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
-              <corpname role="imprimeur">Atelier Galerie Editions</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Atelier Galerie Editions</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638PRcAUV">
@@ -19135,7 +19135,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128901" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638u6vrL1">
@@ -19158,7 +19158,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128902" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638cLnM9Z">
@@ -19181,7 +19181,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128903" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638g1qmBr">
@@ -19204,7 +19204,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128904" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638e0T2Aa">
@@ -19227,7 +19227,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128905" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638Q54e6t">
@@ -19250,7 +19250,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128906" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638tSXxec">
@@ -19273,7 +19273,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128907" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638pjMmJb">
@@ -19296,7 +19296,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128908" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Atelier photographic</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Atelier photographic</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638sY8UhJ">
@@ -19307,8 +19307,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 14 x 10.5 cm. Technique : offset sur carton. Cote : Kc077.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="illustrateur">Lebeau</persname>
-              <corpname role="imprimeur">Imprimerie Buromac</corpname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Lebeau</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Buromac</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638sY8UhJ" role="publication:current"/>
@@ -19326,8 +19326,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Bernard Grelle en 1998.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <persname role="éditeur">Editions Marianni</persname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Editions Marianni</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_078_001.jpg" audience="internal" role="access:image"/>
@@ -19343,7 +19343,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 26.5 cm. Technique : lithographie Cote : Kc015.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19366,8 +19366,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Ce calendrier a été offert en supplément du journal PG-CATM tenu par l'Association Départementale des Prisonniers de Guerre de Roubaix.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie G. Frére</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie G. Frére</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19396,7 +19396,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128913" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638TiDfLt">
@@ -19410,8 +19410,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Ce calendrier a été offert en complément du journal PG-CATM tenu par l'Assocition Départementale des Prisionniers de Guerre de Roubaix.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie G. Frére</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie G. Frére</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19431,7 +19431,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 42 cm. Technique : offset. Cote : Kc082.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname role="Graphiste">Aqueduc Associés Roubaix</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Aqueduc Associés Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_082_001.jpg" audience="internal" role="access:image"/>
@@ -19447,8 +19447,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 33.5 cm. Technique : offset. Cote : Kc083.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie commerciale Douai</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie commerciale Douai</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19468,8 +19468,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 33.5 cm. Technique : offset. Cote : Kc084.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie commerciale Douai</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie commerciale Douai</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19498,7 +19498,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128918" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie Lefévère Tourcoing</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Lefévère Tourcoing</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638sQECTn">
@@ -19543,7 +19543,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc088.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
             </controlaccess>
             <daogrp>
@@ -19564,7 +19564,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 30 cm. Technique : offset. Cote : Kc089.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
             </controlaccess>
             <daogrp>
@@ -19585,11 +19585,11 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 25 x 27.5 cm. Technique : offset. Cote : Kc090.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <persname role="photographe">Bringé</persname>
-              <persname role="photographe">Bingen</persname>
-              <persname role="photographe">Hermann</persname>
-              <persname role="photographe">Lavalette</persname>
-              <persname role="photographe">Vloo</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bringé</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bingen</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Hermann</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Lavalette</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Vloo</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638o4PLtt" role="publication:current"/>
@@ -19604,11 +19604,11 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 30 cm. Technique : offset. Cote : Kc091.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <persname role="photographe">Sadet, Guy</persname>
-              <persname role="photographe">Barthouil, Philippe</persname>
-              <corpname role="imprimeur">Imprimerie Cosmos SA</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Sadet, Guy</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Barthouil, Philippe</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Cosmos SA</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19628,9 +19628,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 30 cm. Technique : offset. Cote : Kc092.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <corpname role="imprimeur">Imprimerie Cosmos SA</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Cosmos SA</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19650,9 +19650,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 30 cm. Technique : offset. Cote : Kc093.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <corpname role="imprimeur">Imprimerie G. Frére</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie G. Frére</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19672,7 +19672,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 21 cm. Technique : offset. Cote : Kc094.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Leers</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Leers</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19692,8 +19692,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21.5 x 28 cm. Technique : offset. Cote : Kc095.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19713,7 +19713,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 21 cm. Technique : offset. Cote : Kc096.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19742,7 +19742,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128930" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Lucas, David</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Lucas, David</persname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638X2bvev">
@@ -19753,7 +19753,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc098.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Syndicat Force Ouvrière</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Syndicat Force Ouvrière</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19776,7 +19776,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Bernard Grelle.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19796,7 +19796,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc100.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Leers</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Leers</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19816,7 +19816,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 20 x 30 cm. Technique : offset. Cote : Kc101.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Leers</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Leers</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19836,7 +19836,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc102.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Leers</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Leers</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19856,7 +19856,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p&gt;Dimensions : 21 x 21 cm. Technique : Offset. Cote : Kc103.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19876,7 +19876,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc104.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Leers</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Leers</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19896,7 +19896,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc105.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Wasquehal</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Wasquehal</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19916,8 +19916,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc106.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19937,8 +19937,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc107.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19958,8 +19958,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc108.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -19979,8 +19979,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 32.5 x 24 cm. Technique : lithographie. Cote : Kc109.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_109_001.jpg" role="access:image"/>
@@ -20002,9 +20002,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Calendrier acquis auprès de Monsieur Dubar-Ferré à Lille.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <subject source="chrono">1919-1938</subject>
-              <corpname role="imprimeur">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Journaux et imprimeries du Nord - Lille</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_110_001.jpg" role="access:image"/>
@@ -20020,9 +20020,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 21 cm. Technique : offset. Cote : Kc111.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Wasquehal</corpname>
-              <persname role="photographe">Liétart, Sandrine</persname>
-              <persname role="Graphiste">Walter-Treffel, Véronique</persname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Wasquehal</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Liétart, Sandrine</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Walter-Treffel, Véronique</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20042,7 +20042,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 21 cm. Technique : offset. Cote : Kc112.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20088,7 +20088,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128947" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie Mordacq</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Mordacq</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638CynLLt">
@@ -20099,12 +20099,12 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc115.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Wambrechies</corpname>
-              <persname role="illustrateur">Deloux, Louis</persname>
-              <persname role="photographe">Barbary, Jean-Michel</persname>
-              <persname role="photographe">Hollebecq, Christian</persname>
-              <persname role="Graphiste">Gallois, Jean</persname>
-              <corpname role="imprimeur">Imprimerie Bernard Six - Wambrechies</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Wambrechies</corpname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Deloux, Louis</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Barbary, Jean-Michel</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Hollebecq, Christian</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Gallois, Jean</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Bernard Six - Wambrechies</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20124,8 +20124,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc116.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20162,8 +20162,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc118.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20183,8 +20183,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 20 x 26.5 cm. Technique : offset. Cote : Kc119.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20204,8 +20204,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc120.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20225,10 +20225,10 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc121.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Wattrelos</corpname>
-              <persname role="photographe">Demey, Eric</persname>
-              <persname role="photographe">Santamaria, Nazzario</persname>
-              <corpname role="imprimeur">Imprimerie Atelier Téléscopique</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Wattrelos</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Demey, Eric</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Santamaria, Nazzario</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Atelier Téléscopique</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20265,8 +20265,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc123.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20286,7 +20286,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 21 cm. Technique : offset. Cote : Kc124.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20315,7 +20315,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128958" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="imprimeur">Imprimerie P. Doise</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie P. Doise</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638YrhvGO">
@@ -20338,8 +20338,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128959" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="Graphiste">Vieillé, J.-F.</persname>
-              <corpname role="imprimeur">Imprimeries Monsoises</corpname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Vieillé, J.-F.</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimeries Monsoises</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m017812446386woaPx">
@@ -20350,7 +20350,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc127.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20370,8 +20370,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc128.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20400,9 +20400,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR128962" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <persname role="photographe">Demey, Eric</persname>
-              <persname role="Graphiste">Hemera</persname>
-              <corpname role="imprimeur">Imprimerie Douriez-Bataille</corpname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Demey, Eric</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Hemera</persname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Douriez-Bataille</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638nTF2yz">
@@ -20413,8 +20413,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc130.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20434,8 +20434,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 30 cm. Technique : offset. Cote : Kc131.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie La Voix du Nord</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie La Voix du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20456,7 +20456,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <corpname role="imprimeur">Imprimerie OPN - Lille</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie OPN - Lille</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20477,7 +20477,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.706988, 3.17463 ]">Anvers, quai d\'</geogname>
-              <corpname role="imprimeur">Imprimerie OPN - Lille</corpname>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie OPN - Lille</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20497,9 +20497,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 36 x 27 cm. Technique : offset. Cote : Kc134.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_134_001.jpg" audience="internal" role="access:image"/>
@@ -20515,9 +20515,9 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 36 x 27 cm. Technique : offset. Cote : Kc135.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <subject source="theme">Presse</subject>
-              <corpname role="imprimeur">Imprimerie Nord Eclair Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Nord Eclair Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20537,7 +20537,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 21 x 21 cm. Technique : offset. Cote : Kc136.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Ville de Hem</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ville de Hem</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20557,8 +20557,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 31 x 24 cm. Technique : offset. Cote : Kc137.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1789-1870</subject>
-              <persname role="illustrateur">Troost, Albert</persname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Troost, Albert</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_137_001.jpg" role="access:image"/>
@@ -20574,7 +20574,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 21 cm. Technique : offset. Cote : Kc138.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20597,7 +20597,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Don de la photothèque Augustin Boutique Grard en 2002.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20617,7 +20617,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 30 x 21 cm. Technique : offset. Cote : Kc140.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20637,7 +20637,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 15.5 x 15.5 cm. Technique : offset. Cote : Kc141.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20657,7 +20657,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 15.5 x 15.5 cm. Technique : offset. Cote : Kc142.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20677,7 +20677,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 15.5 x 15.5 cm. Technique : offset. Cote : Kc143.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20697,7 +20697,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 15.5 x 15.5 cm. Technique : offset. Cote : Kc144.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <corpname>Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Photothèque Augustin Boutique Grard (Douai, Nord)</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20740,7 +20740,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Dans le cadre des élections municipales et cantonales de Croix.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie politique</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20763,7 +20763,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Par la fédération régionale des courses du Nord.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Fédération régionale des courses du Nord</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération régionale des courses du Nord</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20783,8 +20783,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 15 x 10 cm. Technique : offset. Cote : Kc148.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Sports</subject>
-              <corpname role="imprimeur">Imprimerie Hourrai</corpname>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+              <corpname role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Imprimerie Hourrai</corpname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20804,8 +20804,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p style="text-align: justify;"&gt;Dimensions : 10.5 x 14 cm. Technique : offset. Cote : Kc149.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
-              <persname role="illustrateur">Pasche, Ch.</persname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Pasche, Ch.</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -20834,7 +20834,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR137340" role="publication:previous"/>
             </daogrp>
             <controlaccess>
-              <corpname role="Graphiste">Quelle Belle Idée</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Quelle Belle Idée</corpname>
             </controlaccess>
           </c>
           <c level="file" id="m01781244638PYBPRz">
@@ -20845,7 +20845,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p&gt;Dimensions : 34 x 23.5 cm. Technique : Chromolithographie. Cote : Kc150.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638PYBPRz" role="publication:current"/>
@@ -20863,8 +20863,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Edité par Commerces et Quartiers de Roubaix.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname role="photographe">Portrait Sensible</corpname>
-              <corpname role="Graphiste">Harpet Associés</corpname>
+              <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Portrait Sensible</corpname>
+              <corpname role="Graphiste" source="thesaurus--SLASH--bnr_corpname.xml">Harpet Associés</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638vds2sn" role="publication:current"/>
@@ -20882,7 +20882,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Achat auprès de Monsieur Etienne Prouvost en octobre 2017.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638cr8l7M" role="publication:current"/>
@@ -20913,7 +20913,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
-              <persname role="illustrateur">Baudoin</persname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Baudoin</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638Y88aMR" role="publication:current"/>
@@ -21018,8 +21018,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p style="text-align: justify;"&gt;Edité dans le cadre de la campagne de communication autour de Lille 2004 Roubaix, capitale européenne de la culture.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <persname role="photographe">Knoff</persname>
-              <persname role="Graphiste">Altavia Lille</persname>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Knoff</persname>
+              <persname role="Graphiste" source="thesaurus--SLASH--bnr_persname.xml">Altavia Lille</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MED_IMA_CAL_C_162.jpg" audience="internal" role="access:image"/>
@@ -21098,7 +21098,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p&gt;Dimensions : 11 x 19 cm. Technique : Offset. Cote : Kc167.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1980-1989</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638zg661f" role="publication:current"/>
@@ -21128,7 +21128,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <physdesc>&lt;p&gt;Dimensions : 14 x 11 cm. Technique : Chromolithographie. Cote : Kc169.&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638zSbBza" role="publication:current"/>
@@ -21156,7 +21156,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-              <persname normal="Franquin" role="illustrateur">Franquin</persname>
+              <persname normal="Franquin" role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Franquin</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446384A7m71" role="publication:current"/>
@@ -21172,8 +21172,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
             </did>
             <controlaccess>
               <geogname source="rue" coord="[ 50.6894042, 3.1737939 ]">Maréchal Foch, rue du</geogname>
-              <subject source="chrono">1939-1945</subject>
-              <persname role="photographe">Dubure, P.</persname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Dubure, P.</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446384c0XiT" role="publication:current"/>
@@ -21194,8 +21194,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1960-1969</subject>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244638hmMULI" role="publication:current"/>
@@ -21216,8 +21216,8 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Don de la famille Prouvost en 2018.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <corpname normal="Journal de Roubaix" role="imprimeur">Journal de Roubaix</corpname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <corpname normal="Journal de Roubaix" role="imprimeur" source="thesaurus--SLASH--bnr_corpname.xml">Journal de Roubaix</corpname>
             </controlaccess>
             <daogrp>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446383d7SuU" role="publication:current"/>
@@ -21235,7 +21235,7 @@ Représentation de personnages mythologiques : génie des Alpes et un berger. </
               <p>&lt;p&gt;Offert par le Commerce de Bois Georges Lehoucq.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1871-1913</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             </controlaccess>
             <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244638VPx1xG" role="publication:current"/>
           </c>

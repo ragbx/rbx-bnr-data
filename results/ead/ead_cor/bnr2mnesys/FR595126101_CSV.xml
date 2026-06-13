@@ -33,13 +33,13 @@
       <p>&lt;p&gt;L'Académie municipale de musique de Roubaix a été créée en 1857. Dès 1858, sont mis en place des examens et concours pour mesurer les progrès des élèves. Dès lors, tous les ans, l'Académie de musique publie le palmarès de ces concours sous la forme d'un livret broché. Cette collection complète depuis l'origine des palmarès annuels permet de retrouver les noms des enseignants du conservatoire, ainsi que celui des élèves ayant reçu un prix, et de suivre l'évolution de l'enseignement de la musique à Roubaix.&lt;/p&gt;</p>
     </scopecontent>
     <controlaccess>
-      <genreform>Livres et revues</genreform>
-      <subject source="theme">Musique</subject>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
       <geogname source="rue">Soubise, rue de</geogname>
       <geogname source="rue">Lille, rue de</geogname>
-      <subject source="chrono">1871-1913</subject>
-      <subject source="Rameau">Etude et enseignement</subject>
-      <subject source="Rameau">Concerts</subject>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Etude et enseignement</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Concerts</subject>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zWUSMQ" role="publication:current"/>
     <dsc>

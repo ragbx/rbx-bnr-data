@@ -55,8 +55,8 @@
       <p>&lt;p style="text-align: justify;"&gt;[Modalités d'entrée] Les archives de la communauté juive de Roubaix, rassemblées par Joseph Flescher (président d'association(s)), ont été données par Danielle Delmaire à la ville de Roubaix en 2015. Ces archives avaient été préalablement remises à Jean-Marie et Danielle Delmaire, universitaires, par la veuve de Joseph Flescher.&lt;/p&gt;</p>
     </acqinfo>
     <controlaccess>
-      <genreform>Documents d\'archives</genreform>
-      <subject source="theme">Religion</subject>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Documents d\'archives</genreform>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244636R2wEMW" role="publication:current"/>
     <dsc>
@@ -81,9 +81,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier, réalisé par Dany Decleve et Cathy Louvaert et intitulé &lt;em&gt;La communauté juive de Roubaix&lt;/em&gt;, présente l'association pour la période 1964-1983.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636xdwAqz" role="publication:current"/>
@@ -101,7 +101,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient les statuts de l'association, la déclaration dans le &lt;em&gt;Journal officiel&lt;/em&gt;.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636osF7bm" role="publication:current"/>
@@ -119,9 +119,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Notes correspondant à des comptes-rendus de réunion, des conférences extérieures, des débats.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MbSTwb" role="publication:current"/>
@@ -136,7 +136,7 @@
             <physdesc>&lt;p&gt;4 numéros du bulletin, correspondances.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636EcDWFu" role="publication:current"/>
@@ -154,8 +154,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient notamment le relevé des dons et cotisations.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636AsUXdg" role="publication:current"/>
@@ -173,7 +173,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient notamment les récépissés de donation.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446360rmq7Y" role="publication:current"/>
@@ -191,9 +191,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient des programmes de fête.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636shiRFM" role="publication:current"/>
@@ -211,7 +211,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient des pièces relatives à l'inscription de Victor Provo et son épouse au livre d'or du fonds national Keren Kayement Leisrael (KKL).&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446366fWmmD" role="publication:current"/>
@@ -226,10 +226,10 @@
             <physdesc>&lt;p&gt;1 dossier contenant des photographies.&lt;/p&gt;</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1946-1959</subject>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636x8BdSq" role="publication:current"/>
@@ -247,9 +247,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient notamment des lettres d'invitation aux fêtes, aux excursions, des lettres de mobilisation en faveur d'Israël, des courriers échangés entre le Cercle Culturel Israélite Roubaisien et d'autres organes juifs de France et d'Israël.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636Fo9D2S" role="publication:current"/>
@@ -267,9 +267,9 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient notamment des invitations et des ordres du jour.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="chrono">1970-1979</subject>
-            <subject source="chrono">1980-1989</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636MZieDf" role="publication:current"/>
@@ -299,8 +299,8 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient : paroles de chant, correspondance, invitations à des activités, charte, projet de statuts, liste des membres de la communauté, cahier des rapports de réunion (photocopies), cahier de photos des membres (photocopies).&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
-            <subject source="chrono">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636caxQSB" role="publication:current"/>
@@ -330,7 +330,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient notamment des cartes d'adhérent, des programmes d'activités, de la correspondance.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463674Ypar" role="publication:current"/>
@@ -360,7 +360,7 @@
             <p>&lt;p style="text-align: justify;"&gt;Ce dossier contient des comptes-rendus de réunion.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1970-1979</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636dZ9y1D" role="publication:current"/>
@@ -393,9 +393,9 @@
 &lt;p style="text-align: justify;"&gt;Les Mémoires de Roger Pick s'achèvent sur des pensées affectueuses pour ses petits-enfants.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Guerres</subject>
-            <subject source="chrono">1939-1945</subject>
-            <subject source="chrono">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244636cy6auX" role="publication:current"/>

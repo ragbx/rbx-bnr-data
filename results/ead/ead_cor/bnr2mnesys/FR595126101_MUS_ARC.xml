@@ -45,12 +45,12 @@
         </did>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Sports</subject>
-          <subject source="theme">Bâtiments publics</subject>
-          <subject source="theme">Santé publique</subject>
-          <subject source="Rameau">Bains publics</subject>
-          <subject source="Rameau">Piscines</subject>
-          <subject source="Rameau">Hygiène</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Bains publics</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Piscines</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Hygiène</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FoACuV" role="publication:current"/>
@@ -65,10 +65,10 @@
             <p>Construite entre 1927 et 1932 dans le style art déco par l'architecte lillois Albert Baert et à l'initiative du maire Jean Lebas, les bains roubaisiens offraient à la population de Roubaix un service sportif et hygiénique de qualité, doué d'un fonctionnement social innovant qui présentait l'image d'une équipe municipale issue du monde ouvrier et capable de promouvoir des projets d'exception et de prestige.</p>
           </scopecontent>
           <controlaccess>
-            <persname>Lebas, Jean-Baptiste (1878-1944)</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
             <geogname source="rue">Champs, rue des</geogname>
-            <subject source="chrono">1919-1938</subject>
-            <persname role="auteur">Baert, Albert</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Baert, Albert</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641z6Mnye" role="publication:current"/>
@@ -86,7 +86,7 @@ N° inventaire  : 20023910</physdesc>
               <p>Photographie prise par la Compagnie générale d'hygiène.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_20023910.jpg" role="access:image"/>
@@ -105,8 +105,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Emile Fievet.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname role="photographe">Fievet, Emile</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Fievet, Emile</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.tif" role="preservation:image"/>
@@ -126,8 +126,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Émile Fievet.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname role="photographe">Fievet, Emile</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Fievet, Emile</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.tif" role="preservation:image"/>
@@ -147,7 +147,7 @@ N° inventaire  : 20023910</physdesc>
               <p>Ce brevet de natation a été décerné à Marguerite Gallois le 6 juillet 1937.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988712.jpg" role="access:image"/>
@@ -166,8 +166,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Émile Fievet.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname role="photographe">Fievet, Emile</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Fievet, Emile</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.tif" role="preservation:image"/>
@@ -187,8 +187,8 @@ N° inventaire  : 20023910</physdesc>
               <p>&lt;p&gt;Cliché Maurice Fievet.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Fievet, Maurice" role="photographe">Fievet, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Fievet, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Fievet, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -213,8 +213,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.tif" role="preservation:image"/>
@@ -234,8 +234,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.tif" role="preservation:image"/>
@@ -255,8 +255,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.tif" role="preservation:image"/>
@@ -276,8 +276,8 @@ N° inventaire  : 20023910</physdesc>
               <p>&lt;p&gt;Clichés Maurice Rucquois.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -302,8 +302,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.tif" role="preservation:image"/>
@@ -323,8 +323,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.tif" role="preservation:image"/>
@@ -344,8 +344,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.tif" role="preservation:image"/>
@@ -365,8 +365,8 @@ N° inventaire  : 20023910</physdesc>
               <p>&lt;p&gt;Cliché Maurice Rucquois.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -391,8 +391,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.tif" role="preservation:image"/>
@@ -412,8 +412,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.tif" role="preservation:image"/>
@@ -433,8 +433,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.tif" role="preservation:image"/>
@@ -454,8 +454,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.tif" role="preservation:image"/>
@@ -475,8 +475,8 @@ N° inventaire  : 20023910</physdesc>
               <p>Cliché Maurice Rucquois.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <persname normal="Rucquois, Maurice" role="photographe">Rucquois, Maurice</persname>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <persname normal="Rucquois, Maurice" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.tif" role="preservation:image"/>
@@ -492,7 +492,7 @@ N° inventaire  : 20023910</physdesc>
               <unitdate normal="1932">1932</unitdate>
             </did>
             <controlaccess>
-              <genreform>Images</genreform>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988711.jpg" role="access:image"/>
@@ -525,7 +525,7 @@ N° inventaire  : 20023910</physdesc>
               <physdesc>&lt;p&gt;Plaque de cuivre - Matrice. 2 vues&lt;/p&gt;</physdesc>
             </did>
             <controlaccess>
-              <genreform>Images</genreform>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -550,10 +550,10 @@ N° inventaire  : 20023910</physdesc>
           </scopecontent>
           <controlaccess>
             <geogname source="rue">Pierre Motte, rue</geogname>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="Rameau">Prisons</subject>
-            <genreform>Images</genreform>
-            <persname role="architecte">Bouvy, Albert</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Prisons</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+            <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Bouvy, Albert</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641pfUyhJ" role="publication:current"/>
@@ -589,10 +589,10 @@ N° inventaire  : 20023910</physdesc>
 Les corridas se déroulaient dans des arènes, aujourd'hui disparues, qui avait été érigées en 1888 rue Pergolèse, à côté de l'actuel vélodrome.</p>
         </scopecontent>
         <controlaccess>
-          <genreform>Images</genreform>
-          <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Spectacles</subject>
-          <subject source="theme">Sports</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
           <geogname source="rue">Pergolèse, rue</geogname>
         </controlaccess>
         <daogrp>
@@ -673,9 +673,9 @@ Roubaix : 15, 16, 17août 1924 : couronnement de la Muse du Peuple : fêtes du t
         </scopecontent>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <persname>Charpentier, Gustave</persname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Fêtes et cérémonies</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Charpentier, Gustave</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641sPAvm9" role="publication:current"/>
@@ -696,8 +696,8 @@ Seule la couverture est numérisée pour le moment.</physdesc>
             <p>Collection de M. Thiebaut.</p>
           </acqinfo>
           <controlaccess>
-            <genreform>Livres et revues</genreform>
-            <persname role="auteur">Desbarbieux, H.</persname>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Desbarbieux, H.</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -724,7 +724,7 @@ Techniques diverses sur papier. N° inventaires : 988537 à 988583&#13;
 L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581).</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Images</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -747,11 +747,11 @@ L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581)
           <p>&lt;p&gt;Exposition Internationale du Nord de la France - Roubaix 1911 ; 29 avril 1911. En 1911, la ville de Roubaix organisa une importante exposition internationale, sur le modèle des expositions universelles qui avaient connu grand succès, à Paris notamment dans la seconde moitié du XIXe siècle et en 1900. Un village éphémère, constitué de pavillons parfois spectaculaires, fut créé de toutes pièces, à cette occasion, en bordure du Parc de Barbieux et l’Hôtel de Ville, conçu par Victor Laloux, fut bâti pour affirmer devant les nombreux visiteurs attendus la richesse de Roubaix, capitale mondiale de la laine peignée. D'une superficie de 34 hectares, l'exposition comprenait le grand Palais des Industries Textiles, le palais des Machines, le palais des Industries Diverses, le palais de l'Économie et de l'Hygiène Sociale, le palais de la Chambre de Commerce de Roubaix, le palais des Mines, le palais de la Chasse et de la Pêche etc. On a pu y admirer un Luna Park pittoresque, ainsi qu’un Village Sénégalais et un Village Flamand. Elle fut inaugurée le 29 avril en présence du ministre du commerce Massé et du maire de Roubaix Motte. Le grand public y accède le lendemain. Il lui est donné de voir différents palais et attractions qui éveillent la curiosité de tous. Ainsi, les dioramas des fourrures Révillon permettent aux Roubaisiens et aux populations qui travaillent dans le textile de voir le cheminement des fourrures à travers monts et lacs lointains jusqu’à l’usine de fabrication finale. L’Australie, grande puissance textile, est présente avec ses présentations de laines diverses mais aussi ses vins et ses céréales. Les visiteurs peuvent s’encanailler dans un grand casino qui se trouve dans l’enceinte de l’exposition, ils peuvent reposer leurs pieds en empruntant le train miniature qui leur offre sans s’épuiser un parcours dans l’exposition, ils peuvent aussi se distraire en découvrant le Village flamand typique reconstitué ou en s’amusant dans le Luna Park remplit d’attractions inédites. Le président Armand Fallières vient visiter l’exposition de Roubaix le 9 juillet 1911. Il est accueilli avec les honneurs dus à son rang et avec la liesse des Roubaisiens dans les rues. Une chorale chante même au président un petit hymne de circonstance : « Hourra au président et pour la vie. En ce grand jour les Roubaisiens. Jurent au nom de la patrie. De rester bons républicains ». Le président peut apprécier les stands des quelques 3357 exposants présents. Parmi eux, six pays étrangers (Belgique, Pays Bas, Argentine, Italie, Australie, Nouvelle Zélande) font de cette exposition une expo internationale. Les visiteurs se pressent dans les sections coloniales (Algérie, Tunisie, Afrique occidentale et équatoriale, Indochine, Madagascar, Martinique, Guyane) pour découvrir les territoires lointains et évocateurs de dépaysement. Ainsi, 115 sénégalais avec cors et tambours sont regroupés dans un village africain reconstitué. Durant l’exposition, de grandes fêtes aériennes marquent particulièrement les esprits avec les évolutions au dessus du centre de la Ville de ces merveilleux fous volants. Au total, 1.702.977 entrées sont totalisées dont 837403 payantes.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Fêtes et cérémonies</subject>
-          <subject source="theme">Vie économique</subject>
-          <subject source="theme">Parcs, jardins et monuments</subject>
-          <genreform>Images</genreform>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           <geogname source="rue">Parc Barbieux</geogname>
         </controlaccess>
         <daogrp>
@@ -774,7 +774,7 @@ N° inventaire : 20045701</physdesc>
             <p>Don de la Société des Amis du Musée de Roubaix en 2004</p>
           </acqinfo>
           <controlaccess>
-            <genreform>Objets</genreform>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Objets</genreform>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -799,7 +799,7 @@ N° inventaire : 2007002</physdesc>
             <p>Dessin de Paul Steck</p>
           </scopecontent>
           <controlaccess>
-            <persname role="auteur">Steck, Paul</persname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Steck, Paul</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007002.jpg" role="access:image"/>
@@ -819,8 +819,8 @@ N° inventaire : 2007003</physdesc>
             <p>Caricature du Président de la République Armand Fallières, signée Pol Pitt.</p>
           </scopecontent>
           <controlaccess>
-            <persname>Fallières, Armand</persname>
-            <persname role="auteur">Pitt, Pol</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Fallières, Armand</persname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Pitt, Pol</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007003.jpg" role="access:image"/>
@@ -879,8 +879,8 @@ N° inventaire : 988710</physdesc>
             <p>Photographie de Victor Champier (Directeur de lEcole Nationale des Industries Textiles) et de Eugène Motte (Maire de Roubaix) devant le Pavillon des transports coloniaux à lexposition de Roubaix 1911.</p>
           </scopecontent>
           <controlaccess>
-            <persname>Champier, Victor</persname>
-            <persname>Motte, Eugène</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Champier, Victor</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Motte, Eugène</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988710.jpg" role="access:image"/>
@@ -963,14 +963,14 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
 </p>
         </scopecontent>
         <controlaccess>
-          <corpname>Vaissier frères</corpname>
-          <genreform>Images</genreform>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
           <geogname>Roubaix</geogname>
-          <subject source="chrono">1871-1913</subject>
-          <subject source="theme">Fêtes et cérémonies</subject>
-          <subject source="theme">Vie économique</subject>
-          <subject source="Rameau">Défilés</subject>
-          <subject source="Rameau">Chars décorés</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Défilés</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Chars décorés</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641j6WVTT" role="publication:current"/>
@@ -1061,7 +1061,7 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
               <p>&lt;p&gt;Le passage des chars et du cortège devant la Condition Publique.&lt;/p&gt;</p>
             </scopecontent>
             <controlaccess>
-              <corpname>Condition Publique (Roubaix, Nord)</corpname>
+              <corpname source="thesaurus--SLASH--bnr_corpname.xml">Condition Publique (Roubaix, Nord)</corpname>
               <geogname source="rue" coord="[ 50.6909898, 3.1968434 ]">Beaurepaire, boulevard</geogname>
             </controlaccess>
             <daogrp>
@@ -1084,7 +1084,7 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
         </did>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641CyrfAt" role="publication:current"/>
@@ -1101,8 +1101,8 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
             <p>Album souvenir retraçant lhistoire de lentreprise Leclercq-Dupire et détaillant les différentes phases de la production : filature, tissage, teinture, apprêts etcIllustré de nombreuses photographies et luxueusement décoré, ce volume était destiné à être offert aux clients et « amis » de la société.</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Livres et revues</genreform>
-            <subject source="chrono">1919-1938</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1126,8 +1126,8 @@ N° inventaire : 988708</physdesc>
             <p>Album de prestige retraçant lhistoire de lentreprise Masurel et présentant les différentes activités de la production.  Illustré de nombreuses photographies et luxueusement décoré, ce volume était destiné à être offert aux clients et « amis » de la société, il renseigne de manière précise, avec chiffres à lappui.</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Livres et revues</genreform>
-            <subject source="chrono">1919-1938</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1151,8 +1151,8 @@ N° inventaire : 988709</physdesc>
             <p>Album de prestige du Peignage Amédée-Prouvost &amp; Cie, souvenir de la célébration du centenaire du Peignage. Seule la couverture a été numérisée.</p>
           </scopecontent>
           <controlaccess>
-            <genreform>Livres et revues</genreform>
-            <subject source="chrono">1946-1959</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_988709_01.jpg" role="access:image"/>
@@ -1178,7 +1178,7 @@ N° inventaire : 988709</physdesc>
 &lt;p style="text-align: justify;"&gt;Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2018.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_D04_001.jpg" role="access:image"/>
@@ -1200,8 +1200,8 @@ N° inventaire : 988709</physdesc>
 &lt;p style="text-align: justify;"&gt;Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2017.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1960-1969</subject>
-            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1227,7 +1227,7 @@ N° inventaire : 988709</physdesc>
             <p>&lt;p style="text-align: justify;"&gt;Don de Monsieur Jean-François Boudailliez.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1256,9 +1256,9 @@ N° inventaire : 988709</physdesc>
             <p>&lt;p&gt;Don de la Société des Amis du Musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
-            <subject source="chrono">1946-1959</subject>
-            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_D07_001.jpg" role="access:image"/>
@@ -1309,8 +1309,8 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
             </acqinfo>
             <controlaccess>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
-              <persname>Courier, Josée</persname>
-              <persname normal="D'hulst, Noël" role="artiste peintre">Noël D'hulst</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Courier, Josée</persname>
+              <persname normal="D'hulst, Noël" role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Noël D'hulst</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.tif" role="preservation:image"/>
@@ -1344,7 +1344,7 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
             </acqinfo>
             <controlaccess>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
-              <persname role="illustrateur">Roulland, Jean</persname>
+              <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Roulland, Jean</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.tif" role="preservation:image"/>
@@ -1368,8 +1368,8 @@ H. 45 ; L. 37 cm</physdesc>
               <p>Legs Michel Delporte au musée de Roubaix en 2001</p>
             </acqinfo>
             <controlaccess>
-              <persname>Delporte, Michel</persname>
-              <persname>Leclercq, Pierre</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Delporte, Michel</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Leclercq, Pierre</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1393,8 +1393,8 @@ H. 45 ; L. 37 cm</physdesc>
               <p>Don Monsieur Pierre-André Copin au musée de Roubaix en 2005</p>
             </acqinfo>
             <controlaccess>
-              <persname>Copin, André</persname>
-              <persname>Leclercq, Pierre</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Copin, André</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Leclercq, Pierre</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg" role="preservation:image"/>
@@ -1476,7 +1476,7 @@ En octobre 1973, la galerie Dujardin déménage et ouvre ses portes au 39, rue d
 L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à Roubaix.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Chabanian, Arsène</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Chabanian, Arsène</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1496,7 +1496,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de L. Masson à la galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Masson, L.</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Masson, L.</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1517,7 +1517,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
 14, boulevard de Paris à Roubaix.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Davids, Renée</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Davids, Renée</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1537,7 +1537,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de G. Dumoulin qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Dumoulin, G.</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Dumoulin, G.</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D04_001.jpg" role="access:image"/>
@@ -1556,7 +1556,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de René Jaudon qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <persname>René, Jaudon</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">René, Jaudon</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1649,7 +1649,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition d'Eugène Declercq qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Declercq, Eugène</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Declercq, Eugène</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1697,7 +1697,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
-              <persname>Montezin, Pierre</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Montezin, Pierre</persname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D11_001.jpg" role="access:image"/>
@@ -1755,7 +1755,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Ancien fonds du musée</p>
             </acqinfo>
             <controlaccess>
-              <persname>Pailler, Henri</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Pailler, Henri</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1808,7 +1808,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Ancien fonds du musée</p>
             </acqinfo>
             <controlaccess>
-              <persname>Neveux, Germaine</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Neveux, Germaine</persname>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
@@ -1838,7 +1838,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </acqinfo>
             <controlaccess>
               <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
-              <persname>Foreau, Henri</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Foreau, Henri</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -1877,7 +1877,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p&gt;Commande de la ville de Roubaix&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="artiste peintre">Defrenne, Emile</persname>
+            <persname role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Defrenne, Emile</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.tif" role="preservation:image"/>
@@ -1918,8 +1918,8 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p&gt;Reversement de la ville de Roubaix pour son musée en 1910.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="auteur">Lefebvre, Hippolyte</persname>
-            <persname role="auteur">Laoust, André</persname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lefebvre, Hippolyte</persname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Laoust, André</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.tif" role="preservation:image"/>
@@ -1981,7 +1981,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p&gt;Donation Jean-Joseph Weerts à la ville de Roubaix en 1924.(Inv. JJW.4)&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname role="artiste peintre">Weerts, Jean-Joseph</persname>
+            <persname role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Weerts, Jean-Joseph</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.tif" role="preservation:image"/>
@@ -2010,9 +2010,9 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p&gt;Don d'Antoine et Martine Flipo-Motte, héritier d'Eugène Motte, en 2018.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>Motte, Eugène</corpname>
-            <subject source="chrono">1871-1913</subject>
-            <subject source="theme">Bâtiments publics</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Motte, Eugène</corpname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2049,7 +2049,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du Musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Logement</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2097,7 +2097,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="theme">Vie quotidienne</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2123,8 +2123,8 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
-            <persname>Neveux, Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Neveux, Pierre</persname>
           </controlaccess>
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641jZCSlM" role="publication:current"/>
         </c>
@@ -2154,7 +2154,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>N'Diaye, Mamadou</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">N'Diaye, Mamadou</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D01_001.jpg" role="access:image"/>
@@ -2179,8 +2179,8 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de Madame Decokam.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>Motte, Eugène</corpname>
-            <subject source="theme">Vie politique</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Motte, Eugène</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D02_001.jpg" role="access:image"/>
@@ -2202,9 +2202,9 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
-            <corpname>Motte, Eugène</corpname>
-            <subject source="theme">Vie politique</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Motte, Eugène</corpname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2233,7 +2233,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <corpname>Guesde, Jules (1845-1922)</corpname>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">Guesde, Jules (1845-1922)</corpname>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D04_001.jpg" role="access:image"/>
@@ -2255,8 +2255,8 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <subject source="chrono">1946-1959</subject>
-            <subject source="theme">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D05_001.jpg" role="access:image"/>
@@ -2278,7 +2278,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             <p>&lt;p style="text-align: justify;"&gt;Don de la Société des Amis du musée.&lt;/p&gt;</p>
           </acqinfo>
           <controlaccess>
-            <persname>N'Diaye, Mamadou</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">N'Diaye, Mamadou</persname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -2299,7 +2299,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
           <p>&lt;p style="text-align: justify;"&gt;Cette série rassemble les documents du musée relatifs aux transports.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Transports</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641d7X2WT" role="publication:current"/>
         <c level="file" id="m01781244641VJTmjm">
@@ -2341,7 +2341,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
 &lt;p&gt;Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.&lt;/p&gt;</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
         </controlaccess>
         <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641IrUlz9" role="publication:current"/>
       </c>
@@ -2366,7 +2366,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
 &lt;p&gt;Description d'après la note d'opportunité scientifique du musée pour la commission d'acquisition 2019.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_AUT_D01_001.jpg" role="access:image"/>

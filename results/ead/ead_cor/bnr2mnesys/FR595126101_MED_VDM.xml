@@ -35,8 +35,8 @@
       <p>&lt;p style="text-align: justify;"&gt;Ce fonds a été donné par Sarah Van der Meersch, la fille de l'écrivain, à l'association "Sarah et Maxence Van der Meersch" de Wasquehal. Il est conservé à la mairie de Wasquehal. En 2007, une convention entre les villes de Roubaix et de Wasquehal a permis la numérisation intégrale et la mise en ligne de ce fonds sur la Bibliothèque numérique de Roubaix.&lt;/p&gt;</p>
     </acqinfo>
     <controlaccess>
-      <genreform>Manuscrits</genreform>
-      <subject source="theme">Littérature</subject>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
     </controlaccess>
     <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OPte7v" role="publication:current"/>
     <dsc>
@@ -50,10 +50,10 @@
           <p>Femmes à l'encan est un essai contre la prostitution.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Prostituées</subject>
-          <subject source="theme">Littérature</subject>
-          <subject source="chrono">1939-1945</subject>
-          <genreform>Manuscrits</genreform>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Prostituées</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634813GPh" role="publication:current"/>
@@ -298,13 +298,13 @@
           <p>Après la libération, Van der Meersch prépare un roman intitulé Invasion 40 pour faire le pendant à Invasion 14. Ce roman n'a jamais été achevé, et les documents préparatoires ont été, semble-t-il, largement dispersés. Ce projet de roman a néanmoins suscité de l'intérêt car il mettait en cause le rôle de certains notables du Nord dans la collaboration avec les allemands. </p>
         </scopecontent>
         <controlaccess>
-          <genreform>Manuscrits</genreform>
-          <subject source="chrono">1939-1945</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
           <geogname>Nord (France)</geogname>
-          <subject source="theme">Guerres</subject>
-          <subject source="theme">Vie quotidienne</subject>
-          <subject source="Rameau">Occupation allemande</subject>
-          <subject source="Rameau">Mouvements de résistance</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Occupation allemande</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mouvements de résistance</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634x29tos" role="publication:current"/>
@@ -414,7 +414,7 @@ n°128 à 129a : article sur l'action d'un groupe de Franciscains pendant la gue
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR26638" role="publication:previous"/>
           </daogrp>
           <controlaccess>
-            <persname role="auteur">Duhem, Paul</persname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Duhem, Paul</persname>
           </controlaccess>
         </c>
         <c level="file" id="m01781244634n7uzrv">
@@ -507,13 +507,13 @@ n°128 à 129a : article sur l'action d'un groupe de Franciscains pendant la gue
           <p>Le premier roman de Van der Meersch se déroule dans le pays de Dunkerque, tout au bord de la mer, de part et d'autre de la frontière belge. Ici s'affrontent les passeurs de tabac et les douaniers qui les pourchassent. Le héros, Sylvain, est déchiré entre sa vie brutale de fraudeur et ses aspirations à une vie bucolique faite de joies simples et de rêves purs.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Contrebande</subject>
-          <subject source="Rameau">Tabac</subject>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Contrebande</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Tabac</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           <geogname>Belgique</geogname>
           <geogname>Flandre</geogname>
           <geogname>Dunkerque (Nord)</geogname>
-          <subject source="theme">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634gXY8b3" role="publication:current"/>
@@ -671,13 +671,13 @@ C'est une fresque imposante, d'un réalisme sobre et solide, débordante de coul
         <controlaccess>
           <geogname source="rue">Longues Haies, rue des</geogname>
           <geogname source="rue">Fosse aux Chênes, place de la</geogname>
-          <corpname>Cercle de l'Industrie (Roubaix, Nord)</corpname>
-          <subject source="Rameau">Grève</subject>
-          <subject source="Rameau">Textiles et tissus</subject>
-          <subject source="Rameau">Usines</subject>
-          <subject source="theme">Conflits sociaux</subject>
-          <subject source="theme">Manufacture et industrie textile</subject>
-          <subject source="chrono">1919-1938</subject>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Cercle de l'Industrie (Roubaix, Nord)</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Grève</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Textiles et tissus</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Usines</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347leTw0" role="publication:current"/>
@@ -880,10 +880,10 @@ Van der Meersch s'attache à décrire l'évolution psychologique de ce garçon d
           <geogname>Lille (Nord)</geogname>
           <geogname source="rue">Epeule, rue de l'</geogname>
           <geogname>Paris</geogname>
-          <genreform>Manuscrits</genreform>
-          <subject source="theme">Religion</subject>
-          <subject source="Rameau">Athéisme</subject>
-          <subject source="chrono">1946-1959</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Athéisme</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634jYI4ed" role="publication:current"/>
@@ -1074,15 +1074,15 @@ Le titre inital du roman était "L'or dans la fournaise".</p>
           <geogname>Lille (Nord)</geogname>
           <geogname>Belgique</geogname>
           <subject>Guerre mondiale (1914-1918)</subject>
-          <subject source="Rameau">Occupation allemande</subject>
-          <subject source="Rameau">Mouvements de résistance</subject>
-          <subject source="Rameau">Déportation</subject>
-          <persname>Pinte, Jules (abbé)</persname>
-          <persname>Dubar, Firmin</persname>
-          <persname>Willot, Joseph</persname>
-          <corpname>Oiseau de France</corpname>
-          <subject source="chrono">1914-1918</subject>
-          <subject source="theme">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Occupation allemande</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Mouvements de résistance</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Déportation</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Pinte, Jules (abbé)</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Dubar, Firmin</persname>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Willot, Joseph</persname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Oiseau de France</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634BnQDG3" role="publication:current"/>
@@ -1617,8 +1617,8 @@ C'est aussi un roman qui exalte la Flandre, ses étendues de lande nue et humide
         </scopecontent>
         <controlaccess>
           <geogname>Amsterdam</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EOnYVp" role="publication:current"/>
@@ -1828,10 +1828,10 @@ C'est aussi un roman qui exalte la Flandre, ses étendues de lande nue et humide
           <p>Maxence Van der Meersch a voulu "dépoussiérer" l'image de Sainte Thérèse de Lisieux, dans cette biographie très personnelle, qui s'éloigne sensiblement de la tradition populaire. Il met en évidence la force d'âme de la petite sainte, son opiniâtreté qui touche à l'audace, et il insiste sur les conflits et les tensions qui règnent au sein du Carmel, entre la jeune Thérèse, et la Mère Supérieure, Marie de Gonzagues. A sa parution, ce récit a suscité une polémique assez vive dans le milieu catholique.</p>
         </scopecontent>
         <controlaccess>
-          <persname>Thérèse de l'Enfant-Jésus,  sainte (1873-1897)</persname>
-          <subject source="chrono">1871-1913</subject>
-          <corpname>Carmel de Lisieux</corpname>
-          <subject source="theme">Religion</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Thérèse de l'Enfant-Jésus,  sainte (1873-1897)</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Carmel de Lisieux</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634uPDtR0" role="publication:current"/>
@@ -2247,15 +2247,15 @@ Le premier titre du roman était « Médecine », et le sous-tite « Il n'y a qu
           <geogname>Aix les Bains (Savoie)</geogname>
           <geogname>Amiens</geogname>
           <geogname>Nord (France)</geogname>
-          <persname>Carton, Paul</persname>
-          <subject source="Rameau">Médecine</subject>
-          <subject source="Rameau">Tuberculose</subject>
-          <subject source="Rameau">Hôpital</subject>
-          <subject source="Rameau">Psychiatrie</subject>
-          <subject source="Rameau">Médecines parallèles</subject>
-          <subject source="Rameau">Diététique</subject>
-          <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Santé publique</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Tuberculose</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Hôpital</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Psychiatrie</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecines parallèles</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Diététique</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634DaHIo9" role="publication:current"/>
@@ -2831,9 +2831,9 @@ n°434 à 444: Camille&#13;
 C'est la longue et émouvante confession d'Emmanuel, jeune homme issu d'une riche famille flamande, enfant mal-aimé et trop sensible. Pour le lecteur, il lève le masque pour  montrer le conflit intérieur qui le déchire, entre ses penchants sexuels qu'il appelle « vice » et son aspiration à une vie « normale », conforme aux valeurs chrétiennes.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Homosexualité</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Homosexualité</subject>
           <geogname>Flandre</geogname>
-          <subject source="chrono">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346Oxp5C" role="publication:current"/>
@@ -3384,11 +3384,11 @@ C'est la longue et émouvante confession d'Emmanuel, jeune homme issu d'une rich
           <p>Cette pièce de théâtre, créée en novembre 1950, au Théâtre du Parc de Bruxelles, est une adaptation du roman éponyme. L'action met aux prises différents personnages du milieu médical, tour à tour partagés entre "deux amours", l'égoïsme et la charité.</p>
         </scopecontent>
         <controlaccess>
-          <persname>Carton, Paul</persname>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Santé publique</subject>
-          <subject source="theme">Religion</subject>
-          <subject source="Rameau">Médecine</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zegvzO" role="publication:current"/>
@@ -3874,10 +3874,10 @@ n°15= lettre d'Albin Michel</p>
 Van der Meersch y trace un hommage vibrant à son maître spirituel, le docteur Paul Carton, et développe ses théories médicales, déjà largement esquissées dans « Corps et Ames » : contre la médecine officielle, qualifiée de « chimique », Paul Carton prône une médecine naturiste, basée sur la diététique et des règles de vie ascétiques.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
-          <subject source="theme">Santé publique</subject>
-          <persname>Carton, Paul</persname>
-          <subject source="Rameau">Médecine</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347QSDez" role="publication:current"/>
@@ -4064,13 +4064,13 @@ Van der Meersch y trace un hommage vibrant à son maître spirituel, le docteur 
           <p>Le second roman de Van der Meersch se déroule au Mont noir, en pleine campagne flamande. « Car ils ne savent ce qu'ils font » est la confession de Blaise Rameau, jeune bourgeois de Lille, qui a épousé une petite ouvrière de tissage insignifiante et tuberculeuse. On suit pas à pas la déchéance physique et morale de cet homme qui a fait, certes, un choix courageux, mais qui est rattrapé par le poids des illusions, la misère et le lot de mesquineries et d'amertume qu'elle entraîne.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           <geogname>Lille (Nord)</geogname>
           <geogname>Flandre</geogname>
-          <subject source="theme">Vie quotidienne</subject>
-          <subject source="Rameau">Pauvreté</subject>
-          <subject source="Rameau">Couple</subject>
-          <subject source="Rameau">Tuberculose</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pauvreté</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Couple</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Tuberculose</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634vEADSb" role="publication:current"/>
@@ -4468,8 +4468,8 @@ Cet homme athée et imprégné des idées de rationalité et de progrès, expér
         </scopecontent>
         <controlaccess>
           <geogname>Lens (Pas de Calais)</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634A31Zws" role="publication:current"/>
@@ -4820,13 +4820,13 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
         </scopecontent>
         <controlaccess>
           <geogname>Asie</geogname>
-          <subject source="Rameau">Armées</subject>
-          <subject source="Rameau">Médecine militaire</subject>
-          <subject source="Rameau">Morphine</subject>
-          <subject source="Rameau">Toxicomanie</subject>
-          <subject source="Rameau">Colonies</subject>
-          <subject source="chrono">1939-1945</subject>
-          <subject source="theme">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Armées</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine militaire</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Morphine</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Toxicomanie</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Colonies</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446348GVrfW" role="publication:current"/>
@@ -4956,9 +4956,9 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
         </scopecontent>
         <controlaccess>
           <geogname>Lille (Nord)</geogname>
-          <subject source="theme">Guerres</subject>
-          <subject source="Rameau">Prisonniers de guerre</subject>
-          <subject source="chrono">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Prisonniers de guerre</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XHGjhH" role="publication:current"/>
@@ -5079,8 +5079,8 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
             </scopecontent>
             <controlaccess>
               <geogname>Pays-Bas</geogname>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Urbanisme</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5105,8 +5105,8 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
               <p>Le journal Lille universitaire. Sous-titre : Méditations d'un chien savant.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5132,8 +5132,8 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
             </scopecontent>
             <controlaccess>
               <geogname>Lille (Nord)</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5159,7 +5159,7 @@ C'est le dilemme d'un médecin morphinomane, tiraillé entre sa dépendance à l
             </scopecontent>
             <controlaccess>
               <geogname>Blois</geogname>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_VDM/RBX_MED_VDM_ART1_D04_001.tif" role="preservation:image"/>
@@ -5204,8 +5204,8 @@ Sous-titre : Van der Meersch dénonce les responsables de la crise que nous subi
             </scopecontent>
             <controlaccess>
               <geogname>Paris</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_VDM/RBX_MED_VDM_ART1_D06_001.tif" role="preservation:image"/>
@@ -5226,9 +5226,9 @@ Sous-titre : Van der Meersch dénonce les responsables de la crise que nous subi
 Réflexion sur la capacité des hommes à accepter le changement.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_VDM/RBX_MED_VDM_ART1_D07_001.tif" role="preservation:image"/>
@@ -5249,8 +5249,8 @@ Réflexion sur la capacité des hommes à accepter le changement.</p>
 Il analyse la perception de la couleur, par les yeux et par un photocolorimètre.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5275,8 +5275,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Source probable : Paris-Soir.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5301,8 +5301,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Aucune indication sur la publication de cet article.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Spectacles</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5327,8 +5327,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Article écrit pour la Fête des mères. Il n'y a aucune indication sur la publication de cet article.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Fêtes et cérémonies</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5373,8 +5373,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
             </did>
             <controlaccess>
               <geogname>Paris</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5399,8 +5399,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Source probable : Le Journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Autres industries</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5425,8 +5425,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Article pour Monsieur Sabatier.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5448,8 +5448,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <physdesc>Texte tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5471,8 +5471,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <physdesc>Texte tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Enseignement</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5494,8 +5494,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <physdesc>1 feuille manuscrite</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_VDM/RBX_MED_VDM_ART1_D19_001.tif" role="preservation:image"/>
@@ -5515,8 +5515,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Commentaire de Van der Meersch sur son roman L'Elu.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5541,8 +5541,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Ce texte est extrait de La vie intellectuelle daté du 25 novembre au 10 décembre 1936.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5568,8 +5568,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
             </scopecontent>
             <controlaccess>
               <geogname>Flandre</geogname>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Urbanisme</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5591,8 +5591,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <physdesc>Texte manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5617,8 +5617,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Source probable : Automobile Club du Nord de la France.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5643,8 +5643,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
               <p>Source probable : Automobile-Club du Nord de la France.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5670,8 +5670,8 @@ Il analyse la perception de la couleur, par les yeux et par un photocolorimètre
 Article sur les méfaits de l'alcool.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5693,8 +5693,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5719,8 +5719,8 @@ Article sur les méfaits de l'alcool.</p>
               <p>Source probable : Le Journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5746,8 +5746,8 @@ Article sur les méfaits de l'alcool.</p>
             </scopecontent>
             <controlaccess>
               <geogname>Belgique</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie politique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5769,8 +5769,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5792,8 +5792,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5815,8 +5815,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5838,8 +5838,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5861,8 +5861,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>texte manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5884,8 +5884,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>texte manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5907,8 +5907,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5933,8 +5933,8 @@ Article sur les méfaits de l'alcool.</p>
               <p>Ce texte a été écrit par Sarah Van der Meersch.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5956,8 +5956,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte tapuscrit et manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -5982,8 +5982,8 @@ Article sur les méfaits de l'alcool.</p>
               <p>Source probable : L'Automobile-club du Nord de la France.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6005,8 +6005,8 @@ Article sur les méfaits de l'alcool.</p>
               <physdesc>Texte tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie économique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6031,8 +6031,8 @@ Article sur les méfaits de l'alcool.</p>
               <p>Cet article a été publié dans Paris-Soir.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie politique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6058,8 +6058,8 @@ Article sur les méfaits de l'alcool.</p>
 Van der Meersch explicite sa méthode de travail et sa conception du métier d'écrivain.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6081,8 +6081,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6107,8 +6107,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Ce texte est une réponse à la lettre de la jeune CT, envoyée au courrier des lecteurs du journal féminin Claudine.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6133,8 +6133,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Cet article a été publié dans le Figaro du 2 décembre 1935.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6156,8 +6156,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <physdesc>texte tapuscrit et manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
-              <subject source="theme">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6179,8 +6179,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <physdesc>manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6205,7 +6205,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Ces feuilles ont été retrouvées classées dans la série Articles mais elles ne sont pas rattachées à un projet en particulier.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6236,8 +6236,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
 6. La foire commerciale : synthèse</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6262,8 +6262,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Maxence Van der Meersch est rédacteur en chef de ce journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
               <geogname>Lille (Nord)</geogname>
             </controlaccess>
             <daogrp>
@@ -6289,8 +6289,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Maxence Van der Meersch est rédacteur en chef de ce journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
               <geogname>Lille (Nord)</geogname>
             </controlaccess>
             <daogrp>
@@ -6316,9 +6316,9 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Maxence Van der Meersch est rédacteur en chef de ce journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
               <geogname>Lille (Nord)</geogname>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6344,8 +6344,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
             </scopecontent>
             <controlaccess>
               <geogname>Lille (Nord)</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6371,8 +6371,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
             </scopecontent>
             <controlaccess>
               <geogname>Lille (Nord)</geogname>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Presse</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6397,8 +6397,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
 </p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daoloc href="MED/MED_VDM/RBX_MED_VDM_ART1_D56_001.tif" role="preservation:image"/>
@@ -6418,8 +6418,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Source probable : Le Journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Spectacles</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6441,8 +6441,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6467,11 +6467,11 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Dissertations en histoire de l'art sur Thémistocle, Raphaël, Rubens et Tite-Live.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Sciences et sciences humaines</subject>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
               <geogname>Rome</geogname>
               <geogname>Italie</geogname>
-              <subject source="chrono">Avant 1789</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6510,8 +6510,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>La veuve Rosina, pour nourrir ses sept enfants, décide un soir de vendre chez elle douze gaufres. Le lendemain elle en fit vingt quatre...</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
               <geogname>Roubaix</geogname>
             </controlaccess>
             <daogrp>
@@ -6537,8 +6537,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Pièce de théâtre, suivie d'un un texte non identifié : ouvrage en préparation.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6563,8 +6563,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Un départ à la guerre.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6611,8 +6611,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Texte à rapprocher de Péché du Monde.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6637,7 +6637,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>A trente cinq ans, Jean Delpierre était déjà un musicien célèbre...</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
               <geogname>Cassel (Nord)</geogname>
             </controlaccess>
             <daogrp>
@@ -6663,8 +6663,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Source : Lille universitaire.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Transports</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
               <geogname>Lille (Nord)</geogname>
             </controlaccess>
             <daogrp>
@@ -6690,8 +6690,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Récit du tournage.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Spectacles</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6738,8 +6738,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Dialogue entre un Don Juan et son ami.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie quotidienne</subject>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6764,7 +6764,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Un homme, assis sur un banc public, est plongé dans ses pensées quand un quidam vient s'assoir à côté de lui. Une conversation s'engage...</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6789,8 +6789,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Ce texte a été publié dans Le Journal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6815,8 +6815,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Cet article a été rédigé pour la Revue du Médecin à propos de La Lys.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Urbanisme</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6845,8 +6845,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
 5. Tige brisée.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1914-1918</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6868,8 +6868,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <physdesc>Texte manuscrit et tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Urbanisme</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
               <geogname>Anvers (Pays-Bas)</geogname>
             </controlaccess>
             <daogrp>
@@ -6896,8 +6896,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
             </scopecontent>
             <controlaccess>
               <geogname>Lille (Nord)</geogname>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6922,8 +6922,8 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Similitudes avec la pièce de théâtre Morphine, de Van der Meersch.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6948,7 +6948,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Démêlés conjugaux entre les époux Merlier.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6972,7 +6972,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>La souffrance de l'homme qui se trouve dans chaque soldat.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -6997,7 +6997,7 @@ Van der Meersch explicite sa méthode de travail et sa conception du métier d'�
               <p>Arrêt d'une cour d'appel recopié par Maxence Van der Meersh.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Justice</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Justice</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7024,7 +7024,7 @@ Pas de signature. &#13;
 L'écriture ne semble pas être celle de M. Van der Meersch.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Médecine</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7049,7 +7049,7 @@ L'écriture ne semble pas être celle de M. Van der Meersch.</p>
               <p>Retour de réception du Goncourt et du brouhaha parisien.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
               <geogname>Roubaix</geogname>
             </controlaccess>
             <daogrp>
@@ -7073,7 +7073,7 @@ L'écriture ne semble pas être celle de M. Van der Meersch.</p>
             </did>
             <controlaccess>
               <geogname>Ypres (Belgique)</geogname>
-              <subject source="Rameau">Histoire</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Histoire</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7098,8 +7098,8 @@ L'écriture ne semble pas être celle de M. Van der Meersch.</p>
               <p>La femme et la voiture.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie quotidienne</subject>
-              <subject source="Rameau">Automobiles</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Automobiles</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7150,7 +7150,7 @@ L'écriture ne semble pas être celle de M. Van der Meersch.</p>
               <p>Les vélos d'ouvriers.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Bicyclettes</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Bicyclettes</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7172,7 +7172,7 @@ L'écriture ne semble pas être celle de M. Van der Meersch.</p>
               <physdesc>Tapuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7263,10 +7263,10 @@ Souvenir d'enfance et gratitude de M. Van der Meersch envers ses maîtres. </p>
               <p>Mort de Marceau, invalide de la guerre 14-18 par le gaz.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
               <geogname>Roubaix</geogname>
               <geogname source="rue">Barbe d'or, rue</geogname>
-              <subject source="chrono">1914-1918</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7294,7 +7294,7 @@ Meersch?</p>
             </scopecontent>
             <controlaccess>
               <geogname>Nord (France)</geogname>
-              <subject source="theme">Manufacture et industrie textile</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7319,7 +7319,7 @@ Meersch?</p>
               <p>Biographie de Cyprien Roy : crise de conscience.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7382,8 +7382,8 @@ Meersch?</p>
               <physdesc>Manuscrit</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
-              <subject source="Rameau">Guerre mondiale (1939-1945)</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1939-1945)</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7405,8 +7405,8 @@ Meersch?</p>
               <physdesc>manuscrit, tapuscrit et article</physdesc>
             </did>
             <controlaccess>
-              <persname>Van Metsen, entreprise de halage</persname>
-              <subject source="Rameau">Navigation intérieure</subject>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Van Metsen, entreprise de halage</persname>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Navigation intérieure</subject>
               <geogname>Nord (France)</geogname>
               <geogname>Belgique</geogname>
             </controlaccess>
@@ -7434,7 +7434,7 @@ Meersch?</p>
 Où on ramène un soir à Mme Tavel Duplat son mari ivre mort... et un autre à l'aube...</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7459,8 +7459,8 @@ Où on ramène un soir à Mme Tavel Duplat son mari ivre mort... et un autre à 
               <p>La foi console de la misère.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
-              <subject source="theme">Littérature</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7486,7 +7486,7 @@ Où on ramène un soir à Mme Tavel Duplat son mari ivre mort... et un autre à 
 Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père Cyprien Varriège est mobilisé.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7511,8 +7511,8 @@ Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père C
               <p>Adaptation théâtrale de la nouvelle Maman de guerre parue dans Candide.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
-              <subject source="chrono">1914-1918</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7559,7 +7559,7 @@ Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père C
               <p>Article pour Englbert magazine.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Automobiles</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Automobiles</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7584,8 +7584,8 @@ Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père C
               <p>Article pour Magazine Englebert.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Sports</subject>
-              <subject source="Rameau">Voitures de sport</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Voitures de sport</subject>
               <geogname>Belgique</geogname>
             </controlaccess>
             <daogrp>
@@ -7611,7 +7611,7 @@ Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père C
               <p>Un abbé raconte à de jeunes enfants l'histoire du combat du bon chevalier contre le cruel cavalier noir, sauvé finalement par le baiser de paix du Christ et par la charité de son vainqueur.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7635,7 +7635,7 @@ Jeanne se propose de prendre le petit Michel lorsqu'elle apprend que son père C
               <p>Maître Chambry, avocat, rend visite en prison à Andrioux qui est condamné à mort.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Justice</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Justice</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7662,7 +7662,7 @@ Maître Brauwer, peintre, sort de son atelier et s'en va dans le port d'Anvers b
             </scopecontent>
             <controlaccess>
               <geogname>Anvers</geogname>
-              <subject source="chrono">Avant 1789</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7710,8 +7710,8 @@ Un médecin bien en place est appelé au chevet d'une mourrante veillée par sa 
               <p>Notes trouvées dans Invasion 40. Un médecin auxiliaire veille à la santé des bataillons de Sénégalais.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
-              <subject source="chrono">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7737,7 +7737,7 @@ Un médecin bien en place est appelé au chevet d'une mourrante veillée par sa 
 Madame Germeaux vient de perdre sa jeune fille Claire. Elle cesse alors de voir le monde. Elle doit tout de même sortir pour consulter son médecin...</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7762,7 +7762,7 @@ Madame Germeaux vient de perdre sa jeune fille Claire. Elle cesse alors de voir 
             </scopecontent>
             <controlaccess>
               <geogname>Belgique</geogname>
-              <subject source="theme">Conflits sociaux</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7788,7 +7788,7 @@ Un médecin auxiliaire veille à la santé des bataillons de Sénégalais sur un
             </scopecontent>
             <controlaccess>
               <subject>Guerres</subject>
-              <subject source="Rameau">Médecine</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7813,8 +7813,8 @@ Un médecin auxiliaire veille à la santé des bataillons de Sénégalais sur un
               <p>Combat de boxe.Textes écrits par Thérèse et Maxence Van der Meersch.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Sports</subject>
-              <subject source="Rameau">Boxe</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Boxe</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7839,7 +7839,7 @@ Un médecin auxiliaire veille à la santé des bataillons de Sénégalais sur un
               <p>Article écrit pour l'Automobile Club.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Vie quotidienne</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7865,7 +7865,7 @@ Un médecin auxiliaire veille à la santé des bataillons de Sénégalais sur un
 Hubert Fonteyne sort de prison.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Justice</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Justice</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7890,7 +7890,7 @@ Hubert Fonteyne sort de prison.</p>
 Antoinette va fleurir la tombe de Pierrot, son bébé mort... </p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Religion</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7915,8 +7915,8 @@ Antoinette va fleurir la tombe de Pierrot, son bébé mort... </p>
               <p>Le talent du chirurgien imite au plus près l'art du créateur. Or, Jean-Marie Le Tranin est un très grand chirurgien qui règne en maître sur son hôpital.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="theme">Santé publique</subject>
-              <subject source="Rameau">Médecine</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -7941,7 +7941,7 @@ Antoinette va fleurir la tombe de Pierrot, son bébé mort... </p>
               <p>Article sur les joies du vélo en tandem.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Cyclisme</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Cyclisme</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -8062,7 +8062,7 @@ Antoinette va fleurir la tombe de Pierrot, son bébé mort... </p>
               <p>Le genre humain à travers les yeux de Maxence Van der Meersch après le bilan de la seconde guerre mondiale.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Guerre mondiale (1939-1945)</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1939-1945)</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -8171,7 +8171,7 @@ Antoinette va fleurir la tombe de Pierrot, son bébé mort... </p>
               <p>Elucubrations d'un séminariste qui signe Etienne, aux alentours de Noël.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Séminaristes</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Séminaristes</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -8199,9 +8199,9 @@ On trouve dans cette série des dossiers portant d'autres titres : "Les fours à
         </scopecontent>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Vie quotidienne</subject>
-          <subject source="theme">Vie économique</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pGFDgV" role="publication:current"/>
@@ -8351,8 +8351,8 @@ Sous-titre : "l'amour de la mécanique Jacquard".</p>
         </scopecontent>
         <controlaccess>
           <geogname>Amiens</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634r3hbC1" role="publication:current"/>
@@ -8470,11 +8470,11 @@ Sous-titre : "l'amour de la mécanique Jacquard".</p>
 Cette oeuvre de jeunesse a été partiellement reprise dans la trilogie "La fille pauvre".</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           <geogname>Lille (Nord)</geogname>
-          <subject source="theme">Logement</subject>
-          <subject source="theme">Vie quotidienne</subject>
-          <subject source="Rameau">Pauvreté</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pauvreté</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446340uA6xX" role="publication:current"/>
@@ -8581,11 +8581,11 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
         </scopecontent>
         <controlaccess>
           <geogname>Roubaix</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Religion</subject>
-          <subject source="theme">Manufacture et industrie textile</subject>
-          <subject source="theme">Conflits sociaux</subject>
-          <corpname>Jeunesse Ouvrière Chrétienne</corpname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Jeunesse Ouvrière Chrétienne</corpname>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346sg6RR" role="publication:current"/>
@@ -8832,7 +8832,7 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
           <p>Comédie en 5 actes, inédite.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Jr5XSF" role="publication:current"/>
@@ -9073,10 +9073,10 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
           <p>Notes personnelles, courrier et dossiers de presse généralistes et scientifiques sur la médecine et ses innovations dans les années 1930. Pour des raisons juridiques, les coupures de presse ne peuvent pas être rendues publiques. Un inventaire précis de chaque article est accessible à la Médiathèque de Roubaix.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Santé publique</subject>
-          <subject source="Rameau">Médecine</subject>
-          <subject source="Rameau">Santé</subject>
-          <subject source="theme">Sciences et sciences humaines</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Santé</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346EDf2A" role="publication:current"/>
@@ -9089,8 +9089,8 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
             <physdesc>2 dossiers de feuilles manuscrites</physdesc>
           </did>
           <controlaccess>
-            <subject source="theme">Sciences et sciences humaines</subject>
-            <subject source="chrono">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634DySeF1" role="publication:current"/>
@@ -9678,11 +9678,11 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
           <p>Reportage sur la contrebande basé sur des faits divers et des témoignages de fraudeurs et de douaniers. </p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Contrebande</subject>
-          <subject source="Rameau">Douane</subject>
-          <subject source="Rameau">Frontière</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Contrebande</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Douane</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Frontière</subject>
           <geogname>France; Belgique</geogname>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634O0roBv" role="publication:current"/>
@@ -9763,7 +9763,7 @@ Le jeune Pierre Mardyck est chômeur, qui traîne par désoeuvrement dans un gra
             <p>Coupures de presse. </p>
           </scopecontent>
           <controlaccess>
-            <subject source="chrono">1919-1938</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             <subject>Contrebande</subject>
           </controlaccess>
           <daogrp>
@@ -9830,8 +9830,8 @@ Une jeune femme malmenée par la vie, Clémence Gondebault, s'efforce de survivr
               <physdesc>5 feuilles manuscrites</physdesc>
             </did>
             <controlaccess>
-              <subject source="theme">Guerres</subject>
-              <subject source="Rameau">Guerre mondiale (1939-1945)</subject>
+              <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1939-1945)</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -9981,9 +9981,9 @@ Une jeune femme malmenée par la vie, Clémence Gondebault, s'efforce de survivr
         </scopecontent>
         <controlaccess>
           <subject>Médecine</subject>
-          <subject source="Rameau">Soins médicaux</subject>
-          <subject source="theme">Santé publique</subject>
-          <subject source="chrono">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Soins médicaux</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WbcZbD" role="publication:current"/>
@@ -10093,7 +10093,7 @@ Une jeune femme malmenée par la vie, Clémence Gondebault, s'efforce de survivr
           <p>Un oncle Don Juan, Jean Rosendale, séduit sa jeune nièce. Madame Rosendale, compatissante, sauvera la jeune fille.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
           <subject>Donjuanisme</subject>
           <geogname>Boulogne-sur-Mer</geogname>
         </controlaccess>
@@ -10279,11 +10279,11 @@ Une jeune femme malmenée par la vie, Clémence Gondebault, s'efforce de survivr
 Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fautes. De passage dans sa famille,il va amener les siens à s'interroger sur la morale de leurs actions...</p>
         </scopecontent>
         <controlaccess>
-          <subject source="chrono">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
           <subject>Catholicisme</subject>
           <subject>Morale chrétienne</subject>
           <subject>Charité</subject>
-          <subject source="theme">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ePTBRQ" role="publication:current"/>
@@ -10407,7 +10407,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
             <physdesc>3 dossiers</physdesc>
           </did>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634y1nqt1" role="publication:current"/>
@@ -10478,7 +10478,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
             <unitdate normal="1944">1944</unitdate>
           </did>
           <controlaccess>
-            <subject source="chrono">1939-1945</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634n7T4oT" role="publication:current"/>
@@ -10585,7 +10585,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <unittitle>Pages isolées concernant des personnages</unittitle>
             </did>
             <controlaccess>
-              <subject source="Rameau">Personnages littéraires</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Personnages littéraires</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -10612,10 +10612,10 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
         </scopecontent>
         <controlaccess>
           <geogname>Ars-sur-Formans</geogname>
-          <subject source="theme">Religion</subject>
-          <subject source="Rameau">Hagiographie</subject>
-          <persname>Vianney, Jean-Marie</persname>
-          <subject source="chrono">1789-1870</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Hagiographie</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Vianney, Jean-Marie</persname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WHLaPC" role="publication:current"/>
@@ -10729,8 +10729,8 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
         </scopecontent>
         <controlaccess>
           <subject>Médecine</subject>
-          <subject source="theme">Sciences et sciences humaines</subject>
-          <subject source="theme">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sciences et sciences humaines</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634y25FMM" role="publication:current"/>
@@ -10762,7 +10762,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
             </scopecontent>
             <controlaccess>
               <subject>Tuberculose</subject>
-              <subject source="chrono">1939-1945</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -10833,8 +10833,8 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <p>Notes de lecture sur La tuberculose par arthritisme du docteur Paul Carton, paru en 1945.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1939-1945</subject>
-              <persname>Carton, Paul</persname>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
               <subject>Tuberculose</subject>
               <subject>Arthritique</subject>
             </controlaccess>
@@ -10877,7 +10877,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <p>Notes de lecture sur Enseignement et traitement naturistes pratiques du Dr. Carton.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Carton, Paul</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -10901,7 +10901,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <p>Notes de lecture sur Traité de médecine et d'alimentation et d'hygiène naturistes de Paul Carton.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Carton, Paul</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -10925,7 +10925,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <p>Notes de lecture sur Apprentissage de la santé du docteur Paul Carton paru en 1937.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Carton, Paul</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -10949,7 +10949,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
               <p>Notes de lecture sur Règles du traitement mental du docteur Paul Carton, paru en 1937.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Carton, Paul</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
               <subject>Santé mentale</subject>
             </controlaccess>
             <daogrp>
@@ -11040,7 +11040,7 @@ Un abbé, ex-médecin veuf, pratique une charité sans borne pour expier ses fau
 Paul Carton s'oppose à la médecine conventionnelle dite allopathique en identifiant différemment les causes de la maladie. Selon lui, elles proviennent toutes d'un déficit immunitaire qu'il faut renforcer avec une alimentation et un mode de vie appropriés. Il met donc au point un régime alimentaire pécis. Sa médecine est aussi appelée "naturisme". Il fonde en janvier 1922 la Revue naturiste.</p>
           </scopecontent>
           <controlaccess>
-            <persname>Carton, Paul</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zHCOpt" role="publication:current"/>
@@ -11057,7 +11057,7 @@ Paul Carton s'oppose à la médecine conventionnelle dite allopathique en identi
             </scopecontent>
             <controlaccess>
               <subject>Exorcisme</subject>
-              <subject source="chrono">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11081,7 +11081,7 @@ Paul Carton s'oppose à la médecine conventionnelle dite allopathique en identi
 Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
             </scopecontent>
             <controlaccess>
-              <persname>Van der Meersch, Maxence (1907-1951)</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Van der Meersch, Maxence (1907-1951)</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11177,7 +11177,7 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
               <p>Profils de personnages. </p>
             </scopecontent>
             <controlaccess>
-              <persname>Personnages littéraires</persname>
+              <persname source="thesaurus--SLASH--bnr_persname.xml">Personnages littéraires</persname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11240,8 +11240,8 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
               <p>Photographie qui peut être celle de A. Demblon en 1917 et brouillon.</p>
             </scopecontent>
             <controlaccess>
-              <genreform>Images</genreform>
-              <subject source="chrono">1914-1918</subject>
+              <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11266,7 +11266,7 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
               <p>Lettre en anglais et extrait de l'ouvrage de R.P. Sertilanges : Le problème du mal.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Philosophie</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Philosophie</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11304,7 +11304,7 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
               <p>Profils de personnages fictifs.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Personnages littéraires</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Personnages littéraires</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -11405,8 +11405,8 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
         </scopecontent>
         <controlaccess>
           <geogname>Bruges (Belgique)</geogname>
-          <subject source="chrono">1919-1938</subject>
-          <subject source="theme">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634rD4uh2" role="publication:current"/>
@@ -11632,11 +11632,11 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
           <p>Titre d'une trilogie composée de "Le péché du monde", "Le coeur pur" et "La compagne", dernier volet édité après la mort de l'auteur. Cette trilogie raconte l'élévation d'une jeune ouvrière pauvre appelée Denise. C'est en fait l'histoire de l'épouse de M. Van der Meersch, Thérèse.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="theme">Logement</subject>
-          <subject source="theme">Manufacture et industrie textile</subject>
-          <subject source="theme">Vie quotidienne</subject>
-          <subject source="Rameau">Pauvreté</subject>
-          <subject source="chrono">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pauvreté</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           <geogname>Roubaix</geogname>
           <geogname>Nord (France)</geogname>
         </controlaccess>
@@ -12069,7 +12069,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <unitdate normal="1946">4 juillet 1946</unitdate>
             </did>
             <controlaccess>
-              <subject source="chrono">1946-1959</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12245,7 +12245,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
             <p>Concerne divers engagements tels que la Légion des Volontaires Français, la bombe atomique, l'objection de conscience.</p>
           </scopecontent>
           <controlaccess>
-            <subject source="Rameau">Militantisme</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Militantisme</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EmfzDg" role="publication:current"/>
@@ -12279,8 +12279,8 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
             <p>Courrier adressé à M. Van der Meersch contenant de la documentation  comme le travail scientifique de Marcel Pagnol ou des témoignages de malades des Hôpitaux de Paris.</p>
           </scopecontent>
           <controlaccess>
-            <subject source="theme">Santé publique</subject>
-            <subject source="Rameau">Tuberculose</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Tuberculose</subject>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634M0yXFV" role="publication:current"/>
@@ -12346,7 +12346,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
             <p>Paul Carton (1875-1947) fonde une "médecine naturelle" qui s'oppose à la médecine académique. Il base ses soins sur le renforcement du système immunitaire résultat d'un régime alimentaire draconien. Pour lui le microbe n'est rien. Il a de nombreux détracteurs et sa correspondance est trop polémique pour que ces documents puissent être communiqués au public. Pour plus de renseignements, veuillez vous adresser à l'établissement détenteur.</p>
           </scopecontent>
           <controlaccess>
-            <persname>Carton, Paul</persname>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634gdF7Qz" role="publication:current"/>
@@ -12528,7 +12528,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <unitdate normal="1936">avant 1936</unitdate>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12552,7 +12552,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <p>Roman élu prix Goncourt en 1936.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12573,7 +12573,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <unitdate normal="1937">1937</unitdate>
             </did>
             <controlaccess>
-              <subject source="chrono">1919-1938</subject>
+              <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12787,7 +12787,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <unitdate normal="1951">1951</unitdate>
             </did>
             <controlaccess>
-              <subject source="Rameau">Mort</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Mort</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12811,7 +12811,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
               <p>Commémoration du premier anniversaire de sa mort.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Commémoration</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Commémoration</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12836,7 +12836,7 @@ Pour des raisons juridiques ce dossier ne peut encore être communiqué au publi
 Une lettre de 1992 adressée à Sarah.</p>
             </scopecontent>
             <controlaccess>
-              <subject source="Rameau">Successions et héritages</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Successions et héritages</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -12896,9 +12896,9 @@ Une lettre de 1992 adressée à Sarah.</p>
         <controlaccess>
           <geogname>Roubaix</geogname>
           <geogname>Nord (France)</geogname>
-          <subject source="theme">Manufacture et industrie textile</subject>
-          <subject source="theme">Logement</subject>
-          <subject source="chrono">1939-1945</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634303zZG" role="publication:current"/>
@@ -12940,7 +12940,7 @@ Une lettre de 1992 adressée à Sarah.</p>
               <physdesc>Feuilles manuscrites</physdesc>
             </did>
             <controlaccess>
-              <subject source="Rameau">Personnages fictifs</subject>
+              <subject source="thesaurus--SLASH--bnr_rameau.xml">Personnages fictifs</subject>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -13093,11 +13093,11 @@ Une lettre de 1992 adressée à Sarah.</p>
 Note : les articles des numéros 1,3,4,6,7 et 9 numérisés n'ont pu être reconstitués. Pour plus d'informations, contacter la Médiathèque de Roubaix.</p>
         </scopecontent>
         <controlaccess>
-          <persname>Carton, Paul</persname>
-          <subject source="theme">Santé publique</subject>
-          <subject source="Rameau">Médecine naturelle</subject>
-          <subject source="chrono">1946-1959</subject>
-          <genreform>Livres et revues</genreform>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine naturelle</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SbjoF1" role="publication:current"/>
@@ -13352,10 +13352,10 @@ Note : les articles des numéros 1,3,4,6,7 et 9 numérisés n'ont pu être recon
           <p>Volonté de continuer la revue naturiste en hommage au Docteur Paul Carton après la mort de celui-ci.</p>
         </scopecontent>
         <controlaccess>
-          <persname>Carton, Paul</persname>
-          <subject source="Rameau">Médecine naturelle</subject>
-          <subject source="chrono">1946-1959</subject>
-          <genreform>Livres et revues</genreform>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Carton, Paul</persname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Médecine naturelle</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ZlCbH4" role="publication:current"/>
@@ -13638,9 +13638,9 @@ Manque quelques notes</physdesc>
           <p>Notes médicales et philosophiques pour la rédaction éventuelle d'une biographie consacrée au Dr Paul Carton.</p>
         </scopecontent>
         <controlaccess>
-          <subject source="Rameau">Carton, Paul</subject>
-          <subject source="chrono">1946-1959</subject>
-          <genreform>Manuscrits</genreform>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Carton, Paul</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Poy3Jv" role="publication:current"/>
