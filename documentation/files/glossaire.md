@@ -49,7 +49,7 @@ de référence.
 
 **OAI-PMH** — Protocole de moissonnage de métadonnées. Le serveur OAI de la bn-r
 expose les notices des documents numérisés ; son moissonnage permet de relier
-les `osiros_id` aux cotes des IR. Voir [Sources de données](donnees/sources.md).
+les `osiros_id` aux cotes des IR. Voir [Fichier de référence](donnees/fichier_ref.md).
 
 **osiros_id** — Identifiant d'une notice dans l'outil bn-r. Sert à construire
 les anciens ARK.
