@@ -35,7 +35,10 @@ Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
-→ [Script ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md) · [Diagnostic des liens sans conservation](files/scripts/dao_sans_conservation.md) · [Appariement des orphelins](files/scripts/dao_appariement_conservation.md)
+→ **[Chaîne d'appariement des DAO](files/scripts/dao_appariement.md)** — vue d'ensemble, flux et enchaînement des scripts
+
+Détail par script :
+→ [ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md) · [Liens sans conservation](files/scripts/dao_sans_conservation.md) · [Appariement des orphelins](files/scripts/dao_appariement_conservation.md) · [Développement des plages](files/scripts/dao_first_last_developpe.md) · [Vérification dans le référentiel](files/scripts/dao_first_last_verif_ref.md) · [Plages non contiguës](files/scripts/dao_first_last_plages_lacunaires.md) · [Accès sans conservation](files/scripts/dao_first_last_access_sans_conservation.md)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.
