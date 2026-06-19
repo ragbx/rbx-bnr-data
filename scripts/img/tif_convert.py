@@ -30,9 +30,17 @@ import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
-vips_bin = r"C:\Users\pichenotf\vips-dev-x64-all-8.18.3\vips-dev-8.18\bin"
-os.environ["PATH"] = vips_bin + os.pathsep + os.environ["PATH"]
-os.add_dll_directory(vips_bin)
+# Sous Windows, libvips est fournie comme DLL autonome : on ajoute son dossier au PATH et
+# aux répertoires de recherche de DLL AVANT d'importer pyvips. Sur Linux/macOS, libvips est
+# installée par le gestionnaire de paquets (ou conda) et trouvée automatiquement : rien à faire.
+if os.name == "nt":
+    vips_bin = os.environ.get(
+        "VIPS_BIN",
+        r"C:\Users\pichenotf\vips-dev-x64-all-8.18.3\vips-dev-8.18\bin",
+    )
+    if os.path.isdir(vips_bin):
+        os.environ["PATH"] = vips_bin + os.pathsep + os.environ["PATH"]
+        os.add_dll_directory(vips_bin)
 import pyvips
 
 # 1 seul thread libvips par processus : on parallélise au niveau des fichiers (voir ProcessPoolExecutor).
