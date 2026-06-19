@@ -1,0 +1,12 @@
+# Artefacts PyInstaller / build
+/dist/
+/build/EditeurEAD/
+/build/*.toc
+*.spec.bak
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Sauvegardes créées par l'application
+*.bak

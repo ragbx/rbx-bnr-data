@@ -1,0 +1,8 @@
+# Dépendances d'exécution de l'Éditeur EAD BnR.
+# Tkinter est fourni avec Python (pas de paquet pip).
+lxml>=5,<6
+
+# Pour générer le .exe Windows (build uniquement) :
+#   pip install pyinstaller
+# Pour lancer les tests :
+#   pip install pytest

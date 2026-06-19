@@ -1,0 +1,40 @@
+name: Build Windows EXE (Éditeur EAD)
+
+on:
+  push:
+    paths:
+      - "ead_editor/**"
+      - ".github/workflows/build-windows.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: ead_editor
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pyinstaller pytest
+
+      - name: Lancer les tests
+        run: python -m pytest -q
+
+      - name: Construire l'exécutable
+        run: pyinstaller build/ead_editor.spec
+
+      - name: Publier l'artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EditeurEAD-windows
+          path: ead_editor/dist/EditeurEAD.exe
+          if-no-files-found: error
