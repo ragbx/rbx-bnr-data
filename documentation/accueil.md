@@ -51,6 +51,11 @@ Préparer les données en vue de leur publication en ligne.
 
 → [Données : corpus](files/donnees/corpus.md) · [Génération des EAD de corpus océrisés](files/scripts/corpusocr2ead.md)
 
+→ **[Chaîne images de diffusion](files/scripts/images_diffusion.md)** — constitution des corpus d'images, copie des fichiers maîtres et conversion pour le web
+
+Détail par script :
+→ [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md)
+
 
 ## TODO
 Les tâches à réaliser sur ce dépôt sont listées dans le fichier [TODO](files/todo.md)

@@ -24,6 +24,7 @@ Sortie : un manifeste CSV.gz par corpus dans results/corpus/, reprenant les
 colonnes du referentiel pour les fichiers retenus.
 """
 
+import argparse
 from datetime import datetime
 from os.path import join
 
@@ -33,7 +34,7 @@ import pandas as pd
 DATE_REF = "20260502"
 MAX_SIZE_GO = 200
 MAX_DOCS_TOTAL = 600
-SEED = 42
+SEED = 42  # graine par defaut : reproduit le corpus d'origine
 
 # Definition des trois corpus. La cle est le slug utilise pour nommer le fichier.
 CORPORA = {
@@ -53,6 +54,15 @@ def codes_of(tif: pd.DataFrame, spec: dict) -> list:
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Construit les trois corpus d'images tif (memes contraintes ; "
+                    "changer --seed pour un nouveau tirage)."
+    )
+    parser.add_argument("--seed", type=int, default=SEED,
+                        help=f"graine du tirage aleatoire (defaut : {SEED}). "
+                             "Une graine differente produit un autre corpus a contraintes egales.")
+    args = parser.parse_args()
+
     today = datetime.now().strftime("%Y%m%d")
 
     ref = pd.read_csv(
@@ -74,7 +84,8 @@ def main():
     corpus_codes = {name: codes_of(tif, spec) for name, spec in CORPORA.items()}
     all_codes = [c for codes in corpus_codes.values() for c in codes]
 
-    rng = np.random.default_rng(SEED)
+    print(f"Graine aleatoire : {args.seed}")
+    rng = np.random.default_rng(args.seed)
     shuffled = {}
     cumsizes = {}
     for code in all_codes:
