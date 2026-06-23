@@ -25,12 +25,14 @@ Exemples (PowerShell ou cmd, Python 64 bits requis) :
 """
 
 import argparse
+import csv
 import logging
 import os
 import sys
 import time
 import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from datetime import datetime
 from pathlib import Path
 
 # Sous Windows, libvips est fournie comme DLL autonome : on ajoute son dossier au PATH et
@@ -74,7 +76,11 @@ OUT_EXT = {"jp2": ".jp2", "jpeg": ".jpg", "ptiff": ".tif"}
 
 
 def convert_one(src_str, dst_str, fmt, quality, tile, facteur, plancher):
-    """Convertit un fichier. Retourne (src, statut, message)."""
+    """Convertit un fichier.
+
+    Retourne un dict décrivant l'entrée et la sortie (statut, message, et pour
+    chacune format/taille/largeur/hauteur).
+    """
     import pyvips  # ré-import local (process pool)
 
     src = Path(src_str)
@@ -82,8 +88,13 @@ def convert_one(src_str, dst_str, fmt, quality, tile, facteur, plancher):
     try:
         dst.parent.mkdir(parents=True, exist_ok=True)
 
+        # Caractéristiques du fichier d'entrée (avant toute transformation).
+        src_size = src.stat().st_size
+        src_format = src.suffix.lstrip(".").lower()
+
         # Lecture en flux : faible mémoire même sur des images de plusieurs centaines de Mpx
         image = pyvips.Image.new_from_file(src_str, access="sequential")
+        src_width, src_height = image.width, image.height
 
         # Réduction de résolution éventuelle (facteur < 1). Le plancher garantit qu'on ne
         # descend pas sous `plancher` px de large ; les images déjà plus petites sont laissées
@@ -92,6 +103,9 @@ def convert_one(src_str, dst_str, fmt, quality, tile, facteur, plancher):
             s = min(1.0, max(facteur, plancher / image.width))
             if s < 1.0:
                 image = image.resize(s)
+
+        # Dimensions finales (après réduction éventuelle), reportées dans le CSV.
+        width, height = image.width, image.height
 
         if fmt == "jp2":
             # jp2ksave écrit TOUJOURS une pyramide ; subsampling désactivé par défaut (4:4:4).
@@ -125,12 +139,18 @@ def convert_one(src_str, dst_str, fmt, quality, tile, facteur, plancher):
                 subifd=True,            # overviews en sous-IFD (lecture plus propre par les serveurs)
             )
         else:
-            return (src_str, "error", f"format inconnu : {fmt}")
+            return {"src": src_str, "dst": dst_str, "status": "error",
+                    "msg": f"format inconnu : {fmt}"}
 
-        return (src_str, "ok", "")
+        return {
+            "src": src_str, "dst": dst_str, "status": "ok", "msg": "",
+            "src_format": src_format, "src_size": src_size,
+            "src_width": src_width, "src_height": src_height,
+            "dst_width": width, "dst_height": height, "dst_size": dst.stat().st_size,
+        }
     except Exception:  # noqa: BLE001 — on attrape tout pour ne pas tuer le lot
         # repr(exc) donnait des messages vides (ex. AttributeError()) : on renvoie la trace complète.
-        return (src_str, "error", traceback.format_exc())
+        return {"src": src_str, "dst": dst_str, "status": "error", "msg": traceback.format_exc()}
 
 
 def check_format_support(fmt):
@@ -149,35 +169,73 @@ def check_format_support(fmt):
     return None
 
 
-def target_path(src, in_root, out_root, fmt, quality, facteur):
+def target_path(src, in_root, out_root, fmt, quality, facteur, plancher):
     """Calcule le chemin de sortie en miroir de l'arborescence d'entrée.
 
     Le facteur Q est inséré dans le nom : page001.tif -> page001_q50.jp2
-    Si une réduction de résolution est demandée (facteur < 1), elle est aussi
-    inscrite : page001.tif -> page001_q50_f65.jpg. Ainsi des runs à des qualités
-    ou des niveaux différents ne s'écrasent pas mutuellement.
+    Si une réduction de résolution est demandée (facteur < 1), le facteur et le
+    seuil de résolution minimale sont aussi inscrits :
+        page001.tif -> page001_q50_f65_rmin2000.jpg
+    Ainsi des runs à des qualités, des niveaux ou des seuils différents ne
+    s'écrasent pas mutuellement.
     """
     rel = src.relative_to(in_root)
     ext = OUT_EXT[fmt]
     suffix = f"_q{quality}"
     if facteur < 1.0:
-        suffix += f"_f{round(facteur * 100)}"
+        suffix += f"_f{round(facteur * 100)}_rmin{plancher}"
     new_name = f"{rel.stem}{suffix}{ext}"
     return out_root / rel.parent / new_name
 
 
-def build_jobs(in_root, out_root, fmt, quality, facteur, overwrite):
+def build_jobs(in_root, out_root, fmt, quality, facteur, plancher, overwrite):
     """Liste les conversions à faire (en sautant celles déjà présentes si overwrite=False)."""
     jobs, skipped = [], 0
     for src in sorted(in_root.rglob("*")):
         if not (src.is_file() and src.suffix in TIFF_EXTS):
             continue
-        dst = target_path(src, in_root, out_root, fmt, quality, facteur)
+        dst = target_path(src, in_root, out_root, fmt, quality, facteur, plancher)
         if dst.exists() and not overwrite:
             skipped += 1
             continue
         jobs.append((str(src), str(dst)))
     return jobs, skipped
+
+
+class _SimpleProgress:
+    """Barre de progression minimale (repli quand tqdm n'est pas installé).
+
+    Affiche, sur une seule ligne réécrite, le pourcentage, le compteur, le
+    débit et une estimation du temps restant.
+    """
+
+    def __init__(self, total, width=30):
+        self.total = total
+        self.width = width
+        self.n = 0
+        self.t0 = time.time()
+        self._render()
+
+    def _render(self):
+        frac = self.n / self.total if self.total else 1.0
+        filled = int(self.width * frac)
+        bar = "#" * filled + "-" * (self.width - filled)
+        dt = time.time() - self.t0
+        rate = self.n / dt if dt else 0.0
+        eta = (self.total - self.n) / rate if rate else 0.0
+        sys.stdout.write(
+            f"\r[{bar}] {frac * 100:5.1f}% {self.n}/{self.total} "
+            f"{rate:5.2f} img/s ETA {eta:4.0f}s"
+        )
+        sys.stdout.flush()
+
+    def update(self, k=1):
+        self.n += k
+        self._render()
+
+    def close(self):
+        sys.stdout.write("\n")
+        sys.stdout.flush()
 
 
 def main():
@@ -194,7 +252,7 @@ def main():
                              + " (défaut : aucune réduction)")
     parser.add_argument("--facteur", type=float,
                         help="facteur de réduction f explicite (0 < f <= 1) ; surcharge --niveau")
-    parser.add_argument("--plancher", type=int, default=DEFAULT_PLANCHER,
+    parser.add_argument("--plancher", "--resolution-min", dest="plancher", type=int, default=DEFAULT_PLANCHER,
                         help=f"largeur minimale en px sous laquelle on ne réduit pas (défaut : {DEFAULT_PLANCHER})")
     parser.add_argument("--tile", type=int, default=DEFAULT_TILE,
                         help=f"taille de tuile en px (défaut : {DEFAULT_TILE})")
@@ -204,6 +262,9 @@ def main():
                         help="reconvertir même si le fichier de sortie existe")
     parser.add_argument("--log", type=Path, default=Path("tif_convert.log"),
                         help="fichier journal (défaut : tif_convert.log)")
+    parser.add_argument("--csv", type=Path, default=None,
+                        help="récapitulatif CSV des fichiers produits "
+                             "(défaut : tif_convert_AAAAMMJJ_HHMMSS_mmm.csv à la racine du dossier de sortie)")
     args = parser.parse_args()
 
     # Console Windows souvent en cp1252 : on force l'UTF-8 pour les messages accentués.
@@ -228,6 +289,14 @@ def main():
         logging.error("Dossier d'entrée introuvable : %s", in_root)
         sys.exit(1)
 
+    # Récapitulatif CSV par défaut : nom horodaté AAAAMMJJ_HHMMSS_mmm (à la milliseconde,
+    # pour ne jamais écraser le récapitulatif d'un run précédent), placé à la racine
+    # du dossier de sortie.
+    if args.csv is None:
+        now = datetime.now()
+        stamp = now.strftime("%Y%m%d_%H%M%S_") + f"{now.microsecond // 1000:03d}"
+        args.csv = out_root / f"tif_convert_{stamp}.csv"
+
     # Facteur de réduction : --facteur explicite l'emporte sur --niveau ; sinon, si un niveau
     # est donné on prend sa valeur ; à défaut 1.0 (aucune réduction).
     if args.facteur is not None:
@@ -249,20 +318,22 @@ def main():
         logging.error(problem)
         sys.exit(1)
 
-    jobs, skipped = build_jobs(in_root, out_root, args.format, args.quality, facteur, args.overwrite)
+    jobs, skipped = build_jobs(in_root, out_root, args.format, args.quality, facteur, args.plancher, args.overwrite)
     logging.info("%d fichier(s) à convertir, %d déjà présent(s) et sauté(s).", len(jobs), skipped)
     if not jobs:
         logging.info("Rien à faire.")
         return
 
-    # Barre de progression optionnelle
+    # Barre de progression : tqdm si disponible, sinon barre de secours intégrée
+    # (sans dépendance) pour toujours afficher un avancement.
     try:
         from tqdm import tqdm
         progress = tqdm(total=len(jobs), unit="img")
     except ImportError:
-        progress = None
+        progress = _SimpleProgress(len(jobs))
 
     ok = err = 0
+    rows = []  # lignes du récapitulatif CSV (fichiers produits avec succès)
     t0 = time.time()
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
         futures = [
@@ -270,17 +341,46 @@ def main():
             for src, dst in jobs
         ]
         for fut in as_completed(futures):
-            src, status, msg = fut.result()
-            if status == "ok":
+            res = fut.result()
+            if res["status"] == "ok":
                 ok += 1
+                rows.append({
+                    # Fichier d'entrée
+                    "source": res["src"],
+                    "source_format": res["src_format"],
+                    "source_taille_octets": res["src_size"],
+                    "source_largeur_px": res["src_width"],
+                    "source_hauteur_px": res["src_height"],
+                    # Fichier de sortie
+                    "fichier": res["dst"],
+                    "format": args.format,
+                    "qualite": args.quality,
+                    "taille_octets": res["dst_size"],
+                    "largeur_px": res["dst_width"],
+                    "hauteur_px": res["dst_height"],
+                })
             else:
                 err += 1
-                logging.error("ECHEC %s :\n%s", src, msg)
+                logging.error("ECHEC %s :\n%s", res["src"], res["msg"])
             if progress:
                 progress.update(1)
 
     if progress:
         progress.close()
+
+    # Récapitulatif CSV des fichiers produits (trié par chemin pour un ordre stable).
+    if rows:
+        rows.sort(key=lambda r: r["fichier"])
+        fieldnames = [
+            "source", "source_format", "source_taille_octets",
+            "source_largeur_px", "source_hauteur_px",
+            "fichier", "format", "qualite", "taille_octets", "largeur_px", "hauteur_px",
+        ]
+        with open(args.csv, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+        logging.info("Récapitulatif CSV écrit : %s (%d ligne(s)).", args.csv, len(rows))
 
     dt = time.time() - t0
     logging.info("Terminé : %d réussis, %d en erreur, en %.1f s (%.2f img/s).",

@@ -1,7 +1,8 @@
-name: bnr-data
+name: rbx-bnr-data
+# Env unifié du projet : 100 % conda-forge (impératif pour pyvips/libvips avec
+# support JPEG2000 ; les canaux defaults/anaconda cassent la chaîne libstdc++).
 channels:
-  - anaconda
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.11
   - jupyterlab=4.3.4
@@ -11,8 +12,17 @@ dependencies:
   - pandas=2.2.3
   - pyyaml=6.0.2
   - tqdm=4.67.1
+  # Conversion d'images (TIF -> JP2/JPEG/TIFF pyramidal) : libvips avec OpenJPEG.
+  - pyvips
+  # AWS S3
+  - boto3
+  # EAD / RDF
+  - rdflib
+  # pyexiftool nécessite le binaire exiftool
+  - exiftool
+  # Tests (ead_editor)
+  - pytest
+  - pip
   - pip:
-    - boto3==1.35.13
     - oaipmh-scythe==0.13.0
     - pyexiftool==0.5.6
-    - rdflib==7.0.0
