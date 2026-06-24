@@ -1,21 +1,24 @@
-"""Copie sur disque dur des fichiers des trois corpus d'images.
+"""Copie sur disque dur des fichiers d'un corpus d'images.
 
-A partir des manifestes produits par extraction_corpus_tif.py
-(results/corpus/corpus_<nom>_<date>.csv.gz), copie chaque fichier depuis son
-emplacement d'origine (colonnes `path` + `name`) vers un disque dur.
+A partir d'un manifeste produit par extraction_corpus_tif.py
+(results/corpus/corpus_<nom>_<date>_<seed>.csv.gz), copie chaque fichier depuis
+son emplacement d'origine (colonnes `path` + `name`) vers un disque dur.
 
 Les fichiers ne sont PAS recuperes depuis S3 : la source est le stockage
-d'origine, ou chaque fichier se trouve a <racine_source>/<path>/<name>.
+d'origine, ou chaque fichier se trouve a <source>/<path>/<name>.
 
 Usage (Windows) :
-    conda run -n ds python scripts\\img\\telechargement_corpus.py ^
-        --source \\\\srvbnr.ntrbx.local\\BNR --dest E:\\corpus [--date 20260619]
+    conda run -n rbx-bnr-data python scripts\\img\\telechargement_corpus.py ^
+        --csv results\\corpus\\corpus_presse_20260502_1.csv.gz ^
+        --source \\\\srvbnr.ntrbx.local\\BNR --dest E:\\corpus
 
 Les separateurs de `path` (/ dans le referentiel) sont convertis vers ceux du
 systeme, et les chemins longs Windows (> 260 caracteres) sont geres via le
 prefixe \\\\?\\ : le script fonctionne aussi bien sous Windows que sous Linux.
 
-Arborescence de sortie : <dest>/<corpus>/<corpus_code>/<name>
+Arborescence de sortie : <dest>/<nom_du_csv>/conservation/<path>/<name>
+ou <nom_du_csv> est le nom du fichier CSV sans extension
+(ex. corpus_presse_20260502_1).
 
 Un journal CSV par execution est ecrit dans results/corpus/ (fichiers copies,
 ignores, en erreur). La copie est reprenable : un fichier deja present a la
@@ -24,7 +27,6 @@ bonne taille est saute.
 
 import argparse
 import csv
-import glob
 import os
 import shutil
 from datetime import datetime
@@ -39,16 +41,14 @@ except ImportError:  # tqdm est optionnel
     def tqdm(it, **kwargs):
         return it
 
-CORPORA = ["presse", "iconographie", "manuscrits_plans"]
 
-
-def find_manifest(corpus: str, date: str | None) -> str | None:
-    """Chemin du manifeste le plus recent pour un corpus (ou date donnee)."""
-    if date:
-        path = join("results", "corpus", f"corpus_{corpus}_{date}.csv.gz")
-        return path if exists(path) else None
-    matches = sorted(glob.glob(join("results", "corpus", f"corpus_{corpus}_*.csv.gz")))
-    return matches[-1] if matches else None
+def manifest_stem(csv_path: str) -> str:
+    """Nom du manifeste sans extension (corpus_presse_..._1.csv.gz -> ...1)."""
+    stem = basename(csv_path)
+    for suffix in (".gz", ".csv"):
+        if stem.endswith(suffix):
+            stem = stem[: -len(suffix)]
+    return stem
 
 
 def long_path(p: str) -> str:
@@ -83,51 +83,50 @@ def copy_one(src: str, dst: str) -> tuple[str, str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Copie des corpus d'images sur disque dur.")
+    parser = argparse.ArgumentParser(description="Copie d'un corpus d'images sur disque dur.")
+    parser.add_argument("--csv", required=True,
+                        help="Manifeste CSV (.csv ou .csv.gz) listant les fichiers a copier.")
     parser.add_argument("--source", required=True,
                         help="Racine du stockage source (path+name s'y resolvent).")
     parser.add_argument("--dest", required=True,
                         help="Racine de destination sur le disque dur.")
-    parser.add_argument("--date", default=None,
-                        help="Date des manifestes (AAAAMMJJ). Defaut : le plus recent.")
     args = parser.parse_args()
 
+    if not exists(args.csv):
+        parser.error(f"Manifeste introuvable : {args.csv}")
+
+    stem = manifest_stem(args.csv)
+
     today = datetime.now().strftime("%Y%m%d%H%M%S")
-    log_path = join("results", "corpus", f"telechargement_{today}.csv")
+    log_path = join("results", "corpus", f"telechargement_{stem}_{today}.csv")
     totaux = {"copie": 0, "deja_present": 0, "absent": 0, "erreur": 0}
+
+    df = pd.read_csv(args.csv, low_memory=False)
+    print(f"=== Manifeste '{stem}' : {len(df)} fichiers ===")
 
     with open(log_path, "w", newline="", encoding="utf-8") as logf:
         writer = csv.DictWriter(
-            logf, fieldnames=["corpus", "corpus_code", "name", "statut", "src", "dst", "erreur"]
+            logf, fieldnames=["corpus_code", "name", "statut", "src", "dst", "erreur"]
         )
         writer.writeheader()
 
-        for corpus in CORPORA:
-            manifest = find_manifest(corpus, args.date)
-            if not manifest:
-                print(f"[!] Aucun manifeste pour le corpus '{corpus}' — ignore.")
-                continue
-
-            df = pd.read_csv(manifest, low_memory=False)
-            print(f"\n=== Corpus '{corpus}' : {len(df)} fichiers ({basename(manifest)}) ===")
-
-            for row in tqdm(df.to_dict("records"), desc=corpus, unit="f"):
-                # `path` utilise / dans le referentiel : on convertit vers le
-                # separateur du systeme (indispensable sous Windows).
-                rel_path = str(row["path"]).replace("/", os.sep)
-                src = join(args.source, rel_path, str(row["name"]))
-                dst = join(args.dest, corpus, str(row["corpus_code"]), str(row["name"]))
-                erreur = ""
-                try:
-                    statut, _ = copy_one(src, dst)
-                except OSError as e:
-                    statut, erreur = "erreur", str(e)
-                totaux[statut] = totaux.get(statut, 0) + 1
-                writer.writerow({
-                    "corpus": corpus, "corpus_code": row["corpus_code"],
-                    "name": row["name"], "statut": statut,
-                    "src": src, "dst": dst, "erreur": erreur,
-                })
+        for row in tqdm(df.to_dict("records"), desc=stem, unit="f"):
+            # `path` utilise / dans le referentiel : on convertit vers le
+            # separateur du systeme (indispensable sous Windows).
+            rel_path = str(row["path"]).replace("/", os.sep)
+            src = join(args.source, rel_path, str(row["name"]))
+            dst = join(args.dest, stem, "conservation", rel_path, str(row["name"]))
+            erreur = ""
+            try:
+                statut, _ = copy_one(src, dst)
+            except OSError as e:
+                statut, erreur = "erreur", str(e)
+            totaux[statut] = totaux.get(statut, 0) + 1
+            writer.writerow({
+                "corpus_code": row.get("corpus_code", ""),
+                "name": row["name"], "statut": statut,
+                "src": src, "dst": dst, "erreur": erreur,
+            })
 
     print(f"\nBilan : {totaux['copie']} copies, {totaux['deja_present']} deja presents, "
           f"{totaux['absent']} absents, {totaux['erreur']} erreurs")
