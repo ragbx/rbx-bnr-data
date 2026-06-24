@@ -34,7 +34,7 @@ import pandas as pd
 DATE_REF = "20260502"
 MAX_SIZE_GO = 200
 MAX_DOCS_TOTAL = 600
-SEED = 42  # graine par defaut : reproduit le corpus d'origine
+SEED = 5  # graine par defaut : reproduit le corpus d'origine
 
 # Definition des trois corpus. La cle est le slug utilise pour nommer le fichier.
 CORPORA = {
@@ -122,7 +122,7 @@ def main():
         print(f"  {'TOTAL':12s} {len(selected):5d} docs  "
               f"{selected['size'].sum() / 1e9:7.2f} Go")
 
-        out = join("results", "corpus", f"corpus_{name}_{today}.csv.gz")
+        out = join("results", "corpus", f"corpus_{name}_{DATE_REF}_{SEED}.csv.gz")
         selected.to_csv(out, index=False)
         print(f"  -> {out}")
 
