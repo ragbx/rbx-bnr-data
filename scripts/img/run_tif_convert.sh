@@ -2,13 +2,14 @@
 #
 # run_tif_convert.sh — Lanceur de tests pour tif_convert.py.
 #
-# Pour chaque dossier d'entrée, convertit les TIF rangés sous
-#   <entree>/conservation/<type>/...
+# Pour chaque dossier de corpus, convertit RÉCURSIVEMENT les TIF rangés sous
+#   <corpus>/conservation/...
 # vers
-#   <entree>/diffusion/<type>/...
-# en appliquant un FACTEUR de réduction PROPRE À CHAQUE TYPE de document
-# (cf. FACTEUR_PAR_TYPE) et en balayant plusieurs qualités (Q) et plusieurs
-# seuils de résolution minimale (--resolution-min).
+#   <corpus>/diffusion/...        (arborescence reproduite à l'identique)
+# Le TYPE de document — donc le FACTEUR de réduction (cf. FACTEUR_PAR_TYPE) — est
+# DÉDUIT DU NOM du dossier de corpus (ex. corpus_presse_..._1 -> presse), et on
+# balaie plusieurs qualités (Q) et plusieurs seuils de résolution minimale
+# (--resolution-min).
 #
 # Q, facteur et seuil étant inscrits dans le nom de sortie
 # (ex. page001_q85_f65_rmin2000.jpg), toutes les combinaisons cohabitent dans le
@@ -27,15 +28,17 @@ set -euo pipefail
 
 # Dossiers d'entrée à traiter (chacun contient un sous-dossier conservation/).
 INPUT_DIRS=(
-  "/media/fpichenot/ragbx512/bnr-images/test1"
-  "/media/fpichenot/ragbx512/bnr-images/test2"
+  "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_1"
+  "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_2"
+  "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_3"
 )
 
 # Sous-dossier source (où sont les TIF) et sous-dossier de sortie (miroir).
 SOURCE_SUBDIR="conservation"
 OUT_SUBDIR="diffusion"
 
-# Facteur de réduction par type de document (= nom du sous-dossier sous conservation/).
+# Facteur de réduction par type de document. Le type est déduit du nom du dossier
+# de corpus, qui doit contenir l'une de ces clés (ex. « corpus_presse_… » -> presse).
 # Reprend les niveaux du script : manuscrits/plans=haut, iconographie=moyen, presse=bas.
 declare -A FACTEUR_PAR_TYPE=(
   ["manuscrits_plans"]=0.80
@@ -71,13 +74,24 @@ if [[ ! -f "$PY_SCRIPT" ]]; then
   exit 1
 fi
 
-# Décompte des essais réellement présents (types existants × Q × résolution-min).
+# Déduit le type de document à partir du nom du dossier de corpus : renvoie la
+# première clé de FACTEUR_PAR_TYPE contenue dans ce nom (ex. « corpus_presse_..._1 »
+# -> « presse »). Échoue (code 1) si aucune clé ne correspond.
+type_de() {
+  local base="$1" t
+  for t in "${!FACTEUR_PAR_TYPE[@]}"; do
+    [[ "$base" == *"$t"* ]] && { printf '%s\n' "$t"; return 0; }
+  done
+  return 1
+}
+
+# Décompte des essais réellement lançables (corpus dont le type est reconnu et qui
+# possèdent un sous-dossier conservation/) × Q × résolution-min.
 total=0
 for in_dir in "${INPUT_DIRS[@]}"; do
-  for type in "${!FACTEUR_PAR_TYPE[@]}"; do
-    [[ -d "$in_dir/$SOURCE_SUBDIR/$type" ]] || continue
-    total=$(( total + ${#QUALITIES[@]} * ${#RESMINS[@]} ))
-  done
+  [[ -d "$in_dir/$SOURCE_SUBDIR" ]] || continue
+  type_de "$(basename "$in_dir")" >/dev/null || continue
+  total=$(( total + ${#QUALITIES[@]} * ${#RESMINS[@]} ))
 done
 n=0
 echo "=== $total essai(s) à lancer (format=$FORMAT) ==="
@@ -88,41 +102,46 @@ for in_dir in "${INPUT_DIRS[@]}"; do
     continue
   fi
 
-  for type in "${!FACTEUR_PAR_TYPE[@]}"; do
-    src="$in_dir/$SOURCE_SUBDIR/$type"
-    if [[ ! -d "$src" ]]; then
-      echo "!! Type absent, ignoré : $src" >&2
-      continue
-    fi
-    out="$in_dir/$OUT_SUBDIR/$type"
-    facteur="${FACTEUR_PAR_TYPE[$type]}"
+  src="$in_dir/$SOURCE_SUBDIR"
+  if [[ ! -d "$src" ]]; then
+    echo "!! Sous-dossier source absent, ignoré : $src" >&2
+    continue
+  fi
 
-    for q in "${QUALITIES[@]}"; do
-      for rmin in "${RESMINS[@]}"; do
-        n=$(( n + 1 ))
-        echo
-        echo "--- [$n/$total] $(basename "$in_dir")/$type : Q=$q, f=$facteur, resolution-min=$rmin"
-        echo "    $src  ->  $out"
+  base="$(basename "$in_dir")"
+  if ! doctype="$(type_de "$base")"; then
+    echo "!! Type indéterminé pour « $base » (aucune clé parmi : ${!FACTEUR_PAR_TYPE[*]}), ignoré." >&2
+    continue
+  fi
 
-        # CSV récapitulatif distinct par essai (sinon ils s'écraseraient dans le
-        # dossier de sortie commun au type). Nom horodaté à la milliseconde.
-        stamp="$(date +%Y%m%d_%H%M%S_%3N)"
-        cmd=(conda run -n "$CONDA_ENV" python "$PY_SCRIPT"
-             "$src" "$out"
-             --format "$FORMAT"
-             --quality "$q"
-             --facteur "$facteur"
-             --resolution-min "$rmin"
-             --csv "$out/recap_q${q}_rmin${rmin}_${stamp}.csv")
-        if [[ -n "$WORKERS" ]]; then
-          cmd+=(--workers "$WORKERS")
-        fi
+  out="$in_dir/$OUT_SUBDIR"
+  facteur="${FACTEUR_PAR_TYPE[$doctype]}"
 
-        # On n'interrompt pas le balayage si un essai échoue.
-        if ! "${cmd[@]}"; then
-          echo "!! Essai en erreur ($type, Q=$q, resolution-min=$rmin) — on continue." >&2
-        fi
-      done
+  for q in "${QUALITIES[@]}"; do
+    for rmin in "${RESMINS[@]}"; do
+      n=$(( n + 1 ))
+      echo
+      echo "--- [$n/$total] $base [$doctype] : Q=$q, f=$facteur, resolution-min=$rmin"
+      echo "    $src  ->  $out"
+
+      # CSV récapitulatif distinct par essai (sinon ils s'écraseraient dans le
+      # dossier de sortie commun aux essais). Nom horodaté à la milliseconde.
+      stamp="$(date +%Y%m%d_%H%M%S_%3N)"
+      cmd=(conda run -n "$CONDA_ENV" python "$PY_SCRIPT"
+           "$src" "$out"
+           --format "$FORMAT"
+           --quality "$q"
+           --facteur "$facteur"
+           --resolution-min "$rmin"
+           --csv "$out/recap_q${q}_rmin${rmin}_${stamp}.csv")
+      if [[ -n "$WORKERS" ]]; then
+        cmd+=(--workers "$WORKERS")
+      fi
+
+      # On n'interrompt pas le balayage si un essai échoue.
+      if ! "${cmd[@]}"; then
+        echo "!! Essai en erreur ($doctype, Q=$q, resolution-min=$rmin) — on continue." >&2
+      fi
     done
   done
 done

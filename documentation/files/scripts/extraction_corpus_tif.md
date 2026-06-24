@@ -27,7 +27,7 @@ d'exécution (`presse`, `iconographie`, `manuscrits_plans`).
 
 Depuis la racine du projet :
 
-    conda run -n ds python scripts/img/extraction_corpus_tif.py [--seed N]
+    conda run -n rbx-bnr-data python scripts/img/extraction_corpus_tif.py [--seed N]
 
 | Option | Description |
 |---|---|
@@ -36,7 +36,7 @@ Depuis la racine du projet :
 Pour générer un corpus de test supplémentaire avec les mêmes contraintes, relancer
 avec une autre graine, par exemple :
 
-    conda run -n ds python scripts/img/extraction_corpus_tif.py --seed 43
+    conda run -n rbx-bnr-data python scripts/img/extraction_corpus_tif.py --seed 43
 
 Le nombre de documents par corpus reste le même (il ne dépend que des effectifs et
 des plafonds, pas de la graine) ; seuls les fichiers tirés changent. Les manifestes

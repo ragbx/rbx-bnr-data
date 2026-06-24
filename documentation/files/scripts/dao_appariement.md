@@ -86,20 +86,20 @@ dans `bnr2mnesys/*.xml`. Depuis la racine du dépôt :
 
     bash scripts/ead/dao_appariement.sh
 
-Il appelle les scripts via `conda run -n ds`, dans l'ordre du flux. Les
+Il appelle les scripts via `conda run -n rbx-bnr-data`, dans l'ordre du flux. Les
 sous-chaînes A et B partent toutes deux de `bnr2mnesys/*.xml` et sont
 indépendantes. Pour rejouer une étape seule, les scripts se lancent aussi un à
 un :
 
     # prérequis (lourd, rarement rejoué)
-    conda run -n ds python scripts/ead/ead_bnr2mnesys.py
+    conda run -n rbx-bnr-data python scripts/ead/ead_bnr2mnesys.py
 
     # A. liens isolés
-    conda run -n ds python scripts/ead/dao_sans_conservation.py
-    conda run -n ds python scripts/ead/dao_appariement_conservation.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_sans_conservation.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_appariement_conservation.py
 
     # B. plages first/last
-    conda run -n ds python scripts/ead/dao_first_last_developpe.py
-    conda run -n ds python scripts/ead/dao_first_last_verif_ref.py
-    conda run -n ds python scripts/ead/dao_first_last_plages_lacunaires.py
-    conda run -n ds python scripts/ead/dao_first_last_access_sans_conservation.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_first_last_developpe.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_first_last_verif_ref.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_first_last_plages_lacunaires.py
+    conda run -n rbx-bnr-data python scripts/ead/dao_first_last_access_sans_conservation.py

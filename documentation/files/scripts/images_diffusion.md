@@ -45,14 +45,15 @@ Les trois corpus retenus pour la mise au point sont :
 résolution par corpus et calibre la réduction (niveaux par corpus, plancher en
 pixels). Voir le notebook pour le détail.
 
+Pour la **mise au point** des réglages, [run_tif_convert.sh](run_tif_convert.md)
+balaie automatiquement plusieurs qualités et seuils de résolution en appelant
+`tif_convert.py` par type de document.
+
 ---
 
-## Environnements conda
+## Environnement conda
 
-Attention, deux environnements distincts :
-
-- `extraction_corpus_tif.py` et `telechargement_corpus.py` se lancent avec
-  **`conda run -n ds`** (comme la plupart des scripts du dépôt) ;
-- `tif_convert.py` se lance avec **`conda run -n vips`** : c'est le seul
-  environnement disposant d'une `libvips` compilée avec le support JPEG2000
-  (`.jp2`). Voir [sa fiche](tif_convert.md).
+Toute la chaîne se lance avec l'environnement unifié du projet
+**`conda run -n rbx-bnr-data`**. Il inclut une `libvips` compilée avec le support
+JPEG2000 (`.jp2`) requis par `tif_convert.py` (voir [sa fiche](tif_convert.md)) ;
+il n'y a donc plus d'environnement séparé pour la conversion.

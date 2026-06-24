@@ -6,11 +6,11 @@
 set -euo pipefail
 
 # A. liens isolés : orphelins puis appariement au référentiel
-conda run -n ds python scripts/ead/dao_sans_conservation.py
-conda run -n ds python scripts/ead/dao_appariement_conservation.py
+conda run -n rbx-bnr-data python scripts/ead/dao_sans_conservation.py
+conda run -n rbx-bnr-data python scripts/ead/dao_appariement_conservation.py
 
 # B. plages first/last : développement, vérification, puis analyses
-conda run -n ds python scripts/ead/dao_first_last_developpe.py
-conda run -n ds python scripts/ead/dao_first_last_verif_ref.py
-conda run -n ds python scripts/ead/dao_first_last_plages_lacunaires.py
-conda run -n ds python scripts/ead/dao_first_last_access_sans_conservation.py
+conda run -n rbx-bnr-data python scripts/ead/dao_first_last_developpe.py
+conda run -n rbx-bnr-data python scripts/ead/dao_first_last_verif_ref.py
+conda run -n rbx-bnr-data python scripts/ead/dao_first_last_plages_lacunaires.py
+conda run -n rbx-bnr-data python scripts/ead/dao_first_last_access_sans_conservation.py

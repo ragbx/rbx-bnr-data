@@ -13,11 +13,10 @@ bas).
 
 ## Environnement
 
-À lancer avec **`conda run -n vips`**, et non `-n ds` comme les autres scripts :
-c'est le seul environnement disposant d'une `libvips` compilée avec le support
-**JPEG2000**. Le script vérifie ce support au démarrage et s'arrête avec un
-message explicite si `.jp2` n'est pas disponible (replier alors sur
-`--format ptiff`).
+À lancer avec l'environnement unifié du projet **`conda run -n rbx-bnr-data`** :
+il dispose d'une `libvips` compilée avec le support **JPEG2000**. Le script vérifie
+ce support au démarrage et s'arrête avec un message explicite si `.jp2` n'est pas
+disponible (replier alors sur `--format ptiff`).
 
 Sous Windows, la `libvips` autonome est cherchée dans le dossier indiqué par la
 variable d'environnement `VIPS_BIN` (sinon un chemin par défaut) ; ce bloc est
@@ -41,7 +40,7 @@ ignoré hors Windows.
 
 Depuis la racine du projet :
 
-    conda run -n vips python scripts/img/tif_convert.py <dossier_entree> <dossier_sortie> [options]
+    conda run -n rbx-bnr-data python scripts/img/tif_convert.py <dossier_entree> <dossier_sortie> [options]
 
 | Argument / option | Description |
 |---|---|
@@ -59,8 +58,8 @@ Depuis la racine du projet :
 
 Exemples :
 
-    conda run -n vips python scripts/img/tif_convert.py masters/ diffusion/ --format jp2 --quality 50 --workers 8
-    conda run -n vips python scripts/img/tif_convert.py masters/ diffusion/ --format jpeg --quality 80 --niveau moyen
+    conda run -n rbx-bnr-data python scripts/img/tif_convert.py masters/ diffusion/ --format jp2 --quality 50 --workers 8
+    conda run -n rbx-bnr-data python scripts/img/tif_convert.py masters/ diffusion/ --format jpeg --quality 80 --niveau moyen
 
 ---
 
@@ -103,3 +102,11 @@ Pour une image de largeur `w`, le facteur d'échelle appliqué est :
 
 Sans `--niveau` ni `--facteur`, aucune réduction n'est appliquée (`f = 1,0`) :
 le comportement par défaut reste une simple conversion de format.
+
+---
+
+## Tests de paramètres
+
+Pour comparer le compromis poids / qualité avant de figer les réglages, le lanceur
+[run_tif_convert.sh](run_tif_convert.md) appelle ce script en boucle sur plusieurs
+qualités et seuils de résolution, par type de document.

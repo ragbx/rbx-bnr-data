@@ -31,7 +31,7 @@ de la date passée en option.
 
 Depuis la racine du projet :
 
-    conda run -n ds python scripts/img/telechargement_corpus.py \
+    conda run -n rbx-bnr-data python scripts/img/telechargement_corpus.py \
         --source <racine_source> --dest <disque_dur> [--date AAAAMMJJ]
 
 | Option | Description |
@@ -42,7 +42,7 @@ Depuis la racine du projet :
 
 Exemple sous Windows (partage réseau de la bn-r) :
 
-    conda run -n ds python scripts\img\telechargement_corpus.py ^
+    conda run -n rbx-bnr-data python scripts\img\telechargement_corpus.py ^
         --source \\srvbnr.ntrbx.local\BNR --dest E:\corpus
 
 ---
