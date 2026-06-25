@@ -16,7 +16,11 @@
 # même dossier sans s'écraser, et une relance saute ce qui est déjà produit.
 #
 # Usage :
-#   ./run_tif_convert.sh
+#   ./run_tif_convert.sh                       # traite la liste DEFAULT_INPUT_DIRS
+#   ./run_tif_convert.sh DIR1 DIR2 ...         # traite les dossiers passés en argument
+#
+# Les dossiers passés en argument (utilisés par chaine_corpus.sh) priment sur la
+# liste DEFAULT_INPUT_DIRS codée plus bas.
 #
 # Prérequis : env conda « rbx-bnr-data » (env unifié du projet, support JP2).
 
@@ -26,8 +30,9 @@ set -euo pipefail
 # Configuration — à adapter
 # --------------------------------------------------------------------------- #
 
-# Dossiers d'entrée à traiter (chacun contient un sous-dossier conservation/).
-INPUT_DIRS=(
+# Dossiers d'entrée par défaut (chacun contient un sous-dossier conservation/).
+# Utilisés seulement si aucun dossier n'est passé en argument (cf. plus bas).
+DEFAULT_INPUT_DIRS=(
   "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_1"
   "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_2"
   "/media/fpichenot/ragbx512/corpus/bnr-images/corpus_presse_20260502_3"
@@ -72,6 +77,13 @@ PY_SCRIPT="$SCRIPT_DIR/tif_convert.py"
 if [[ ! -f "$PY_SCRIPT" ]]; then
   echo "Script introuvable : $PY_SCRIPT" >&2
   exit 1
+fi
+
+# Dossiers à traiter : arguments positionnels s'il y en a, sinon la liste par défaut.
+if [[ $# -gt 0 ]]; then
+  INPUT_DIRS=("$@")
+else
+  INPUT_DIRS=("${DEFAULT_INPUT_DIRS[@]}")
 fi
 
 # Déduit le type de document à partir du nom du dossier de corpus : renvoie la

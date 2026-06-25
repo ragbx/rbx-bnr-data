@@ -63,8 +63,6 @@ def main():
                              "Une graine differente produit un autre corpus a contraintes egales.")
     args = parser.parse_args()
 
-    today = datetime.now().strftime("%Y%m%d")
-
     ref = pd.read_csv(
         join("results", "ref", f"_ref_files_{DATE_REF}.csv.gz"), low_memory=False
     )
@@ -122,7 +120,7 @@ def main():
         print(f"  {'TOTAL':12s} {len(selected):5d} docs  "
               f"{selected['size'].sum() / 1e9:7.2f} Go")
 
-        out = join("results", "corpus", f"corpus_{name}_{DATE_REF}_{SEED}.csv.gz")
+        out = join("results", "corpus", f"corpus_{name}_{DATE_REF}_{args.seed}.csv.gz")
         selected.to_csv(out, index=False)
         print(f"  -> {out}")
 
