@@ -19,8 +19,8 @@ donc :
     len(az) == len(new_ref_az_ok) + len(new_ref_az_ko_left)
 """
 
-old_ref_date = '20251226'
-new_ref_date = '20260502'
+old_ref_date = '20260502'
+new_ref_date = '20260630'
 
 ref = pd.read_csv(join("results", "ref", f"_ref_files_{old_ref_date}.csv.gz"))
 ref = ref[~ref['name'].str[-3:].isin(['.db', 'lnk'])]
