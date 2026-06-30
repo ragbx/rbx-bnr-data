@@ -22,7 +22,7 @@ Deux colonnes dérivées sont ajoutées avant le pivot et utilisables comme vale
 
 Exemples :
   python pivot_recap.py results/img/recap_global_20260630.csv
-  python pivot_recap.py recap.csv --values taille_octets --aggfunc mean median
+  python pivot_recap.py recap.csv --values taille_Mo --aggfunc mean median
   python pivot_recap.py recap.csv --index source --columns format qualite \
       --values ratio_taille --output pivot.xlsx
 """
@@ -75,8 +75,8 @@ def main() -> None:
                         help="colonne(s) en index (défaut : source)")
     parser.add_argument("--columns", nargs="+", default=["format", "qualite"],
                         help="colonne(s) en colonnes (défaut : format qualite)")
-    parser.add_argument("--values", nargs="+", default=["taille_octets", "ratio_taille"],
-                        help="colonne(s) de valeurs (défaut : taille_octets ratio_taille)")
+    parser.add_argument("--values", nargs="+", default=["taille_Mo", "ratio_taille"],
+                        help="colonne(s) de valeurs (défaut : taille_Mo ratio_taille)")
     parser.add_argument("--aggfunc", nargs="+", default=["mean"],
                         help="fonction(s) d'agrégation (défaut : mean ; ex. mean median sum count)")
     parser.add_argument("--decimales", type=int, default=3,
