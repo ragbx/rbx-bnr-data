@@ -3,6 +3,8 @@ from os.path import join
 
 import pandas as pd
 
+from _pipeline import NEW_REF_DATE, OLD_REF_DATE, REF_DIR, ref_file
+
 
 def get_mimetype(filename, fillna="N/A"):
     if filename:
@@ -13,12 +15,13 @@ def get_mimetype(filename, fillna="N/A"):
         return mimetype
 
 
-old_ref_date = "20251226"
-new_ref_date = "20260502"
+old_ref_date = OLD_REF_DATE
+new_ref_date = NEW_REF_DATE
 
-ref = pd.read_csv(join("results", "ref", f"_ref_files_{old_ref_date}.csv.gz"))
+ref = pd.read_csv(ref_file(old_ref_date))
+# interface externe : produit par le maillon d'enrichissement s3/dao/oai (hors dépôt)
 tmp = pd.read_csv(
-    join("results", "ref", f"_ref_files_{new_ref_date}_tmp_s3_dao_oai.csv.gz")
+    join(REF_DIR, f"_ref_files_{new_ref_date}_tmp_s3_dao_oai.csv.gz")
 )
 tmp = tmp[~tmp["name"].isna()]
 
@@ -189,4 +192,4 @@ for c in m1.columns:
 m1.columns = new_names
 m1 = m1[ref.columns]
 
-m1.to_csv(join("results", "ref", f"_ref_files_{new_ref_date}.csv.gz"), index=False)
+m1.to_csv(ref_file(new_ref_date), index=False)
