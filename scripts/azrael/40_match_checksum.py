@@ -1,18 +1,35 @@
-from os.path import join
+"""Étape 4 — appariement sur le checksum (cas sans doublons) + nouveaux fichiers.
+
+On apparie les az résiduels désormais checksummés (s3_cs__az) avec les ref résiduels
+(s2_size__ref) sur (name, checksum_md5). Les fichiers réellement nouveaux (créés et
+modifiés en 2026) reçoivent un uuid neuf.
+
+Entrées :
+    - extraction az  : bnr_azrael_{NEW_REF_DATE}.csv.gz
+    - s2_size__ref   : ref résiduels (étape 2)
+    - s3_cs__az      : az résiduels avec checksum (étape 3)
+    - s1_meta__ok, s2_size__ok : « ok » déjà résolus (étapes 1 et 2), pour le cumul
+
+Sorties (results/ref/tmp/) :
+    - _ok_cumul_s4     : cumul des « ok » jusqu'à l'étape 4 (.csv.gz)  -> étape 5
+    - s4_cs__az        : az non résolus, sans doublon (.csv)           -> étape 5 (info)
+    - s4_cs__ref       : ref candidats restants, sans doublon (.csv)
+    - s4_csdupl__az    : az à doublons de checksum (.csv)              -> étape 5
+    - s4_csdupl__ref   : ref à doublons de checksum (.csv)            -> étape 5
+"""
+
 from uuid import uuid4
+
 import pandas as pd
 
-old_ref_date = "20251226"
-new_ref_date = "20260502"
+from _pipeline import NEW_REF_DATE, az_file, tmp_file
 
-az = pd.read_csv(join("data", "az", f"bnr_azrael_{new_ref_date}.csv.gz"))
+az = pd.read_csv(az_file(NEW_REF_DATE))
 az = az[~az['name'].str[-3:].isin(['.db', 'lnk'])]
 az['path'] = az['path'].str.replace("\\", "/")
 
-# on charge les fichiers présents dans le ref précédent et non trouvé dans le nouvel az
-new_ref_az_ko_right = pd.read_csv(
-    join("results", "ref", "tmp", f"new_ref_az_ko_right_it1_{new_ref_date}.csv.gz")
-)
+# ref résiduels de l'étape 2 (non trouvés dans le nouvel az par métadonnées/taille)
+new_ref_az_ko_right = pd.read_csv(tmp_file("s2_size__ref"))
 new_ref_az_ko_right = new_ref_az_ko_right[~new_ref_az_ko_right['name'].str[-3:].isin(['.db', 'lnk'])]
 
 new_ref_az_ko_right.columns = [
@@ -27,14 +44,11 @@ new_ref_az_ko_right.columns = [
     "ref_uuid"
 ]
 
-# on charge les fichiers du nouvel az non trouvés dans le ref précédent, pour lesquels on a calcué le checksum
-new_ref_az_ko_left_cs = pd.read_csv(
-    join("data", "az", f"bnr_azrael_{new_ref_date}_nouuid-cs.csv.gz")
-)
+# az résiduels avec checksum calculé à l'étape 3
+new_ref_az_ko_left_cs = pd.read_csv(tmp_file("s3_cs__az"))
 new_ref_az_ko_left_cs = new_ref_az_ko_left_cs[~new_ref_az_ko_left_cs['name'].str[-3:].isin(['.db', 'lnk'])]
-# new_ref_az_ko_left_cs = new_ref_az_ko_left_cs.drop(columns=['filename'])
 
-# on traite les nouveaux fichiers
+# on traite les nouveaux fichiers (créés ET modifiés en 2026)
 new_files = new_ref_az_ko_left_cs[(new_ref_az_ko_left_cs['last_metadata_modification_date_'].str[0:4] == '2026') &
          (new_ref_az_ko_left_cs['last_content_modification_date_'].str[0:4] == '2026')]
 new_ref_az_ko_left_cs['filename'] = new_ref_az_ko_left_cs['path'] + "/" + new_ref_az_ko_left_cs['name']
@@ -109,72 +123,35 @@ new_ref_az_ko = new_ref_az_ko[
 print( len(new_ref_az_ko_left_csnodupl) == len(new_ref_az_ok) + len(new_ref_az_ko))
 
 
-# on essaie de gérer les doublons
-# new_ref_az2 = new_ref_az_ko_left_cs_csdupl.merge(
-#     new_ref_az_ko_right_csdupl,
-#     left_on=["name", "checksum_md5"],
-#     right_on=["ref_name", "ref_checksum_md5"],
-#     how="left",
-# )
-# new_ref_az2_ok = new_ref_az2[
-#     (~new_ref_az2["ref_uuid"].isna()) & (~new_ref_az2["name"].isna())
-# ]
-# new_ref_az2_ok["uuid"] = new_ref_az2_ok["ref_uuid"]
-# new_ref_az2_ok = new_ref_az2_ok[
-#     [
-#         "name",
-#         "path",
-#         "size",
-#         "last_content_modification_date",
-#         "last_metadata_modification_date",
-#         "checksum_md5",
-#         "uuid",
-#     ]
-# ]
-# new_ref_az2_ko = new_ref_az2[
-#     (new_ref_az2["ref_uuid"].isna()) & (~new_ref_az2["name"].isna())
-# ]
-# new_ref_az2_ko = new_ref_az2_ko[
-#     [
-#         "name",
-#         "path",
-#         "size",
-#         "last_content_modification_date",
-#         "last_metadata_modification_date",
-#         "checksum_md5",
-#         "uuid",
-#     ]
-# ]
-
-new_ref_az_ok_tmp = pd.read_csv(join("results", "ref", "tmp", f"new_ref_az_ok_it1_{new_ref_date}.csv.gz"))
-new_ref_az_ok_it2 = pd.concat([new_ref_az_ok_tmp, new_ref_az_ok, new_files])
-new_ref_az_ok_it2.to_csv(join("results", "ref", "tmp", f"new_ref_az_ok_it2_{new_ref_date}.csv.gz"), index=False)
-print(f"new_ref_az_ok_it2 : {len(new_ref_az_ok_it2)}")
+# cumul des « ok » : étape 1 + étape 2 + étape 4 (sans doublon) + nouveaux fichiers
+new_ref_az_ok_s1 = pd.read_csv(tmp_file("s1_meta__ok"))
+new_ref_az_ok_s2 = pd.read_csv(tmp_file("s2_size__ok"))
+new_ref_az_ok_it2 = pd.concat([new_ref_az_ok_s1, new_ref_az_ok_s2, new_ref_az_ok, new_files])
+new_ref_az_ok_it2.to_csv(tmp_file("_ok_cumul_s4"), index=False)
+print(f"_ok_cumul_s4 : {len(new_ref_az_ok_it2)}")
 
 new_ref_az_ko_left_no_dupl_it2 = new_ref_az_ko
-new_ref_az_ko_left_no_dupl_it2.to_csv(join("results", "ref", "tmp", f"new_ref_az_ko_left_no_dupl_it2_{new_ref_date}.csv"), index=False)
-print(f"new_ref_az_ko_left_no_dupl_it2 : {len(new_ref_az_ko_left_no_dupl_it2)}")
+new_ref_az_ko_left_no_dupl_it2.to_csv(tmp_file("s4_cs__az", ext="csv"), index=False)
+print(f"s4_cs__az : {len(new_ref_az_ko_left_no_dupl_it2)}")
 
 new_ref_az_ko_right_no_dupl_it2 = new_ref_az_ko_right_csnodupl[~new_ref_az_ko_right_csnodupl['ref_uuid'].isin(new_ref_az_ok_it2['uuid'])]
 new_ref_az_ko_right_no_dupl_it2 = new_ref_az_ko_right_no_dupl_it2[
     ( new_ref_az_ko_right_no_dupl_it2['ref_checksum_md5'].isin(new_ref_az_ok_it2['checksum_md5']) )
   | ( new_ref_az_ko_right_no_dupl_it2['ref_checksum_md5'].isin(new_ref_az_ko_left_no_dupl_it2['checksum_md5']) )
 ]
-new_ref_az_ko_right_no_dupl_it2.to_csv(join("results", "ref", "tmp", f"new_ref_az_ko_right_no_dupl_it2_{new_ref_date}.csv"), index=False)
-print(f"new_ref_az_ko_right_no_dupl_it2 : {len(new_ref_az_ko_right_no_dupl_it2)}")
+new_ref_az_ko_right_no_dupl_it2.to_csv(tmp_file("s4_cs__ref", ext="csv"), index=False)
+print(f"s4_cs__ref : {len(new_ref_az_ko_right_no_dupl_it2)}")
 
 new_ref_az_ko_left_csdupl_it2 = new_ref_az_ko_left_csdupl
-new_ref_az_ko_left_csdupl_it2.to_csv(join("results", "ref", "tmp", f"new_ref_az_ko_left_csdupl_it2_{new_ref_date}.csv"), index=False)
-print(f"new_ref_az_ko_left_csdupl_it2: {len(new_ref_az_ko_left_csdupl_it2)}")
+new_ref_az_ko_left_csdupl_it2.to_csv(tmp_file("s4_csdupl__az", ext="csv"), index=False)
+print(f"s4_csdupl__az : {len(new_ref_az_ko_left_csdupl_it2)}")
 
 new_ref_az_ko_right_csdupl_it2 = new_ref_az_ko_right_csdupl
 new_ref_az_ko_right_csdupl_it2 = new_ref_az_ko_right_csdupl_it2[
     ( new_ref_az_ko_right_csdupl_it2['ref_checksum_md5'].isin(new_ref_az_ok_it2['checksum_md5']) )
   | ( new_ref_az_ko_right_csdupl_it2['ref_checksum_md5'].isin(new_ref_az_ko_left_csdupl_it2['checksum_md5']) )
 ]
-new_ref_az_ko_right_csdupl_it2.to_csv(join("results", "ref", "tmp", f"new_ref_az_ko_right_csdupl_it2_{new_ref_date}.csv"), index=False)
-print(f"new_ref_az_ko_right_csdupl_it2: {len(new_ref_az_ko_right_csdupl_it2)}")
+new_ref_az_ko_right_csdupl_it2.to_csv(tmp_file("s4_csdupl__ref", ext="csv"), index=False)
+print(f"s4_csdupl__ref : {len(new_ref_az_ko_right_csdupl_it2)}")
 
 print(len(az) == len(new_ref_az_ok_it2) + len(new_ref_az_ko_left_no_dupl_it2) + len(new_ref_az_ko_left_csdupl))
-
-#len(new_ref_az_ok) + len(new_ref_az_ko) + len(new_ref_az_ko_left_cs_csdupl)
