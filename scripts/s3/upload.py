@@ -9,9 +9,8 @@ import concurrent.futures
 from tqdm import tqdm
 
 input_folder = join('results', 's3', 'transfert')
-prefix = "D:\\"
-prefix = "\\\\srvbnr.ntrbx.local\BNR"
-
+#prefix = "\\\\srvbnr.ntrbx.local\BNR"
+prefix = "/home/kibini/bnr"
 
 USER = 'user_rw'
 bucket = 'mediatheque-patarch-communicable'
