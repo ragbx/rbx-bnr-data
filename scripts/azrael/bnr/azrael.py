@@ -137,6 +137,7 @@ class Azrael2list:
         j = 0
         n = 1000
 
+        all_new_checksum = []
         while i < len(checksum_ko):
             df_data = checksum_ko[i : i + n]
             new_checksum = []
@@ -155,6 +156,8 @@ class Azrael2list:
             j += 1
             new_checksum_df = pd.DataFrame(new_checksum)
             if "filename" in new_checksum_df:
+                # on conserve filename (clé de réinjection) avant de l'écarter du chunk
+                all_new_checksum.append(new_checksum_df[["filename", "checksum_md5"]])
                 new_checksum_df = new_checksum_df.drop(columns=["filename"])
             new_checksum_df.to_csv(
                 join("data", "az", "tmp", f"{new_checksum_file_name}_{j}.csv.gz"),
@@ -162,6 +165,15 @@ class Azrael2list:
             )
 
             i += n
+
+        # réinjection des checksums calculés dans self.az (sinon save_list sauve des NaN)
+        if all_new_checksum:
+            computed = pd.concat(all_new_checksum, ignore_index=True).drop_duplicates(
+                subset="filename"
+            )
+            cs_map = computed.set_index("filename")["checksum_md5"]
+            mask = self.az["checksum_md5"].isna()
+            self.az.loc[mask, "checksum_md5"] = self.az.loc[mask, "filename"].map(cs_map)
 
     def save_list(self, filename=None):
         if filename:

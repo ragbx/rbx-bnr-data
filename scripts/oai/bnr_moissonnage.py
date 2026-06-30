@@ -1,12 +1,21 @@
 from oaipmh_scythe import Scythe
 import pandas as pd
-from os.path import join
+from os.path import join, isfile
 from os import listdir
 import re
 from datetime import datetime
+import argparse
 import concurrent.futures
 
-date = datetime.today().strftime('%Y%m%d')
+# Date d'horodatage des fichiers produits. Par défaut aujourd'hui ; passer
+# --date AAAAMMJJ pour aligner le moissonnage sur le NEW_REF_DATE d'un run ref
+# (cf. scripts/azrael/_pipeline.py) et chaîner avec oai_join_ref.py.
+parser = argparse.ArgumentParser(description="Moissonnage OAI-PMH BnR")
+parser.add_argument("--date", default=datetime.today().strftime('%Y%m%d'),
+                    help="Horodatage des fichiers de sortie (AAAAMMJJ, défaut: aujourd'hui)")
+args = parser.parse_args()
+date = args.date
+
 baseURL = 'http://oai.bn-r.fr/oai.php'
 scythe = Scythe(baseURL)
 
@@ -83,70 +92,18 @@ def get_selected_metadata(setname, identifier):
 # In[7]:
 
 
-for setname in [
-     'RBX_MED_AFF',
-     'RBX_MED_PAR',
-     'RBX_MED_CP',
-     'RBX_AMR_VIC',
-     'RBX_MED_DIL',
-     'RBX_AMR_AMD',
-     'RBX_MED_PIA',
-     'RBX_MED_MEU',
-     'RBX_MED_IMA',
-     'RBX_AMR_AME',
-     'RBX_AMR_AFF',
-     'RBX_MED_PHO',
-     'RBX_MED_VDM',
-     'RBX_MED_EPH',
-     'RBX_MED_PRO',
-     'RBX_AMR_AMK',
-     'RBX_MED_LET',
-     'RBX_OBS_JOU',
-     'RBX_MUS_VAI',
-     'RES_WEB',
-     'RBX_AMR_PR',
-     'RBX_MED_MS',
-     'DEPOT_PUBLIC',
-     'RBX_AMR_2F1',
-     'RBX_MED_CHA',
-     'RBX_AMR_AMF',
-     'RBX_MED_PUB',
-     'RBX_AMR_GUE',
-     'RBX_MED_CAT',
-     'RBX_MED_PLA',
-     'RBX_MED_FLR',
-     'RBX_AMR_LEB',
-     'RBX_AMR_AMR',
-     'RBX_AMR_DEL',
-     'RBX_ARA_CPS',
-     'RBX_MUS_ARC',
-     'RBX_MED_MAR',
-     'RBX_AMR_PLA',
-     'RBX_LAI',
-     'RBX_AMR_OBJ',
-     'RBX_AMR_RAM',
-     'RBX_VAH_PUB',
-     'RBX_AMR_PHO',
-     'RBX_LAR_PUB',
-     'RBX_MED_MON',
-     'RBX_CSV_PAL',
-     'RBX_AMR_CAD',
-     'RBX_MDF_MTX',
-     'RBX_MED_COM',
-     'RBX_AMR_PUV',
-     'RBX_MED_FOO',
-     'RBX_PRA_RTG',
-     'RBX_PRA_CTG',
-     'RBX_PRA_ERT',
-     'RBX_PRA_AVE',
-     'RBX_PRA_JRX',
-     'RBX_PRA_CRT',
-     'RBX_PRA_IND',
-]:
+# liste dynamique : tous les sets réellement moissonnés (nb_notices > 0),
+# au lieu d'une liste figée qui ignorait silencieusement les nouveaux sets.
+for setname in setnames:
     print(setname)
     i = 0
     data =[]
     res_file = join("data", "oai", "sets_identifiers", f"identifiers_{date}_{setname}.csv.gz")
+    if not isfile(res_file):
+        # nb_notices > 0 mais fichier d'identifiants absent (échec à l'étape 2) :
+        # on ne plante pas tout le run, on signale et on passe.
+        print(f"  identifiants absents pour {setname}, set ignoré")
+        continue
     identifiers_df = pd.read_csv(res_file)
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = []
