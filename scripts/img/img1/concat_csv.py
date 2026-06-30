@@ -52,7 +52,7 @@ def find_csv_files(root, pattern, output):
             continue
         if path.resolve() == output:
             continue
-        if path.match("tif_convert_concat_*.csv"):
+        if path.match(".csv"):
             continue
         files.append(path)
     return files

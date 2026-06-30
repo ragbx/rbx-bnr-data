@@ -49,29 +49,28 @@ DEFAULT_INPUT_DIRS=(
 
 # Sous-dossier source (où sont les TIF) et sous-dossier de sortie (miroir).
 SOURCE_SUBDIR="conservation"
-OUT_SUBDIR="diffusion"
+OUT_SUBDIR="jp2b"
 
 # Facteur de réduction par type de document. Le type est déduit du nom du dossier
 # de corpus, qui doit contenir l'une de ces clés (ex. « corpus_presse_… » -> presse).
 # Reprend les niveaux du script : manuscrits/plans=haut, iconographie=moyen, presse=bas.
 declare -A FACTEUR_PAR_TYPE=(
-  ["manuscrits_plans"]=0.80
-  ["iconographie"]=0.65
-  ["presse"]=0.50
+  ["manuscrits_plans"]=1 #0.80
+  ["iconographie"]=1 #0.65
+  ["presse"]=1 #0.50
 )
 
 # Format de sortie : jp2 | jpeg | ptiff
-FORMAT="jpeg"
+FORMAT="jp2"
 
 # Qualités (Q) à tester.
-#QUALITIES=(80 85 90)
-QUALITIES=(95)
+QUALITIES=(25 30 40 45)
 
 # Seuils de résolution minimale (largeur en px) à tester.
-RESMINS=(2000 2500 3000)
+RESMINS=(1000)
 
 # Nombre de processus parallèles (vide = nb de cœurs).
-WORKERS=""
+WORKERS="4"
 
 # Env conda du projet (unifié, inclut libvips/pyvips avec support JP2).
 CONDA_ENV="rbx-bnr-data"
