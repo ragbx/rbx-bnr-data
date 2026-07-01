@@ -19,6 +19,9 @@ old_ref_date = OLD_REF_DATE
 new_ref_date = NEW_REF_DATE
 
 ref = pd.read_csv(ref_file(old_ref_date))
+# L'ancien ref contient ~2135 lignes dupliquées sur (uuid, checksum_md5) ; sans
+# dédoublonnage le merge ci-dessous les multiplierait dans le nouveau ref.
+ref = ref.drop_duplicates(subset=["uuid", "checksum_md5"])
 # interface externe : produit par le maillon d'enrichissement s3/dao/oai (hors dépôt)
 tmp = pd.read_csv(
     join(REF_DIR, f"_ref_files_{new_ref_date}_tmp_s3_dao_oai.csv.gz")
@@ -111,18 +114,13 @@ m1.loc[m1["source2s3_new"].isna(), "source2s3_new"] = "az"
 
 # bloc s3
 # 's3_key', 's3_uploaded', 's3_uploaded_date', 's3_bucket'
-m1.loc[~m1["s3_key_"].isna(), "s3_key_new"] = m1["s3_key_"]
-m1.loc[~m1["s3_uploaded_date_"].isna(), "s3_uploaded_date_new"] = m1[
-    "s3_uploaded_date_"
-]
-m1["s3_uploaded_new"] = False
-m1.loc[~m1["s3_uploaded_date_"].isna(), "s3_uploaded_new"] = True
-m1["s3_bucket_new"] = None
-m1.loc[m1["s3_uploaded_new"], "s3_bucket_new"] = "mediatheque-patarch_communicable"
-m1.loc[
-    (~m1["s3_key_new"].isna()) & (m1["s3_key_new"].str.contains("AMR_EC")),
-    "s3_bucket_new",
-] = "mediatheque-patarch_incommunicable"
+# Le maillon (scripts/s3/s3_join_ref.py) écrit désormais directement ces 4 colonnes
+# depuis le listing S3 courant (autoritaire). Après le merge uuid+checksum, leurs
+# valeurs fraîches sont donc déjà dans les colonnes *_new : rien à recopier ni à
+# hériter de l'ancien ref, et le bucket réel (communicable/incommunicable) vient
+# du listing (plus besoin de l'heuristique AMR_EC).
+# On restaure juste s3_uploaded_date en entier AAAAMMJJ (relu en float depuis le CSV).
+m1["s3_uploaded_date_new"] = m1["s3_uploaded_date_new"].astype("Int64")
 
 # bloc oai et dao
 # 'oai_set', 'finding_aid', 'unitid', 'osiros_id'
