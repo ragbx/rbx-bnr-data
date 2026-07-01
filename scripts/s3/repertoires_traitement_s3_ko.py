@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
 
-ref_date = "20260502"
+ref_date = "20260630"
 
 ref = pd.read_csv(
     join("results", "ref", f"_ref_files_{ref_date}.csv.gz"),
