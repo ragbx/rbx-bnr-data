@@ -6,7 +6,7 @@ from openpyxl.formatting.rule import ColorScaleRule
 from openpyxl.styles import Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 
-ref_date = "20260502"
+ref_date = "20260630"
 
 ref = pd.read_csv(
     join("results", "ref", f"_ref_files_{ref_date}.csv.gz"),
