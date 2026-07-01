@@ -144,6 +144,12 @@ from lxml import etree
 
 from mnesys_id import nouvel_id
 
+# --- Dates des sources (à mettre à jour à chaque nouvelle itération) ---
+# Centralisées ici pour éviter les dates codées en dur dans __main__.
+REF_DATE = "20260630"   # référentiel des fichiers de conservation (_ref_files_{date})
+OAI_DATE = "20260630"   # notices OAI (oai_records_{date})
+IR_DATE = "20260521"    # liste des IR à transférer (liste_..._{date}_transfert_mnesys)
+
 # Familles de médias pour l'appariement access/preservation : un lien de diffusion
 # ne peut être apparié qu'à un fichier de conservation de la même famille (un jpg
 # ne peut pas pointer vers un wav). L'ordre des extensions donne la priorité du
@@ -782,12 +788,12 @@ if __name__ == "__main__":
         names_csv_path=join(
             "results", "ead", "indexation", "names_by_type.csv"
         ),
-        oai_csv_path=join("data", "oai", "oai_records_20260430.csv.gz"),
+        oai_csv_path=join("data", "oai", f"oai_records_{OAI_DATE}.csv.gz"),
         irs_excel_path=join(
             "results",
             "ir",
-            "liste_instruments_recherche_20260521_transfert_mnesys.xlsx",
+            f"liste_instruments_recherche_{IR_DATE}_transfert_mnesys.xlsx",
         ),
-        files_csv_path=join("results", "ref", "_ref_files_20260502.csv.gz"),
+        files_csv_path=join("results", "ref", f"_ref_files_{REF_DATE}.csv.gz"),
     )
     transformer.run()
