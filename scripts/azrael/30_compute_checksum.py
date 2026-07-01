@@ -21,10 +21,13 @@ from _pipeline import NEW_REF_DATE, tmp_file
 root_path = "../bnr"
 print(root_path)
 
-# on repart du résiduel de l'étape 2 et on (ré)initialise les colonnes attendues
+# on repart du résiduel de l'étape 2 et on (ré)initialise les colonnes attendues.
+# On CONSERVE les colonnes de dates formatées `_` : l'étape 40 en a besoin pour
+# repérer les fichiers créés+modifiés en 2026 (les jeter cassait 40).
 df = pd.read_csv(tmp_file("s2_size__az"))
 df = df[["name", "path", "size",
-         "last_content_modification_date", "last_metadata_modification_date"]].copy()
+         "last_content_modification_date", "last_metadata_modification_date",
+         "last_content_modification_date_", "last_metadata_modification_date_"]].copy()
 df["checksum_md5"] = pd.NA
 df["uuid"] = pd.NA
 

@@ -40,6 +40,10 @@ ref_notaz = ref[ref['source2s3'] != 'az']
 ref_notaz.to_csv(tmp_file("ref_notaz"), index=False)
 ref_az = ref_az[["name", "path", "size", "last_content_modification_date",
         "last_metadata_modification_date", "checksum_md5", "uuid"]]
+# Le ref précédent contient des doublons (même fichier, même uuid, dupliqué par le
+# maillon s3/dao/oai) : sans ça le merge outer multiplie les lignes « ok » (~2100
+# lignes en double, même uuid) qui se propageaient jusqu'au ref final.
+ref_az = ref_az.drop_duplicates()
 
 ref_az.columns = ["ref_name", "ref_path", "ref_size", "ref_last_content_modification_date",
         "ref_last_metadata_modification_date", "ref_checksum_md5", "ref_uuid"]
