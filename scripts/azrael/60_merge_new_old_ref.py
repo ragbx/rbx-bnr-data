@@ -1,3 +1,31 @@
+"""Fusion finale : produit le nouveau référentiel `_ref_files_{NEW}.csv.gz`.
+
+Dernière étape du pipeline (voir scripts/azrael/README.md). Deux entrées :
+    - l'ancien ref `_ref_files_{OLD}.csv.gz` (dédoublonné sur uuid+checksum_md5 :
+      il porte ~2135 doublons qui, sans ça, seraient multipliés par le merge) ;
+    - `_ref_files_{NEW}_tmp_s3_dao_oai.csv.gz`, sortie du maillon d'enrichissement
+      s3/dao/oai (interface externe, hors dépôt).
+
+On joint les deux sur (uuid, checksum_md5) — jointure `left` sur le tmp, qui fait
+donc foi pour l'inventaire des fichiers. Après le merge, les colonnes homonymes
+sont suffixées `_new` (valeur courante) / `_old` (ancien ref), puis reconstruites
+par bloc :
+    - az   : extension/file_type/mimetype recalculés depuis le nom ; source2s3
+             manquant → 'az' ;
+    - s3   : s3_key/s3_uploaded/s3_uploaded_date/s3_bucket viennent déjà du listing
+             courant (autoritaire, colonnes *_new) ; on ne restaure que le type
+             Int64 AAAAMMJJ de s3_uploaded_date (relu en float depuis le CSV) ;
+    - oai/dao : coalesce — valeur neuve (oai_setname/dao_finding_aid/dao_unitid/
+             oai_osiros_id) sinon héritage de l'ancien ref (couvre la presse PRA) ;
+    - mix  : hérités de l'ancien ref ;
+    - traitement : conservation_statut/corpus_code/publication_statut hérités.
+
+Enfin on retire les suffixes `_new`, on réordonne sur le schéma de l'ancien ref et
+on écrit `_ref_files_{NEW}.csv.gz`. Les dates sont lues depuis `_pipeline.py`.
+
+À lancer depuis la racine du dépôt : `python scripts/azrael/60_merge_new_old_ref.py`.
+"""
+
 import mimetypes
 from os.path import join
 

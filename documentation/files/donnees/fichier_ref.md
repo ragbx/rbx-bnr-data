@@ -54,21 +54,23 @@ les balises `<unitid>` des instruments de recherche EAD.
 
 ### Création
 
-Depuis la racine du projet, exécuter les scripts dans l'ordre :
+La construction se fait en deux temps, à partir de la dernière extraction Azrael
+et du ref précédent (dont on récupère `uuid` + `checksum_md5` sans relire les
+fichiers autant que possible).
 
-```bash
-python scripts/azrael/01a_azrael_list.py
-python scripts/azrael/01b_azrael_list_detailed.py
-python scripts/azrael/add_checksum.py
-python scripts/azrael/02_compare_ref_az_it1.py
-python scripts/azrael/02_compare_ref_az_it2.py
-python scripts/azrael/02_compare_ref_az_it3.py
-python scripts/azrael/03_merge_new_old_ref.py
-```
+1. **Chaîne d'appariement azrael** (`scripts/azrael/`, étapes `10` → `55`) —
+   apparie l'extraction courante au ref précédent (métadonnées, taille, puis MD5
+   pour le résiduel) et réinjecte la partie non-azrael. Détail, convention de
+   nommage et lancement : **`scripts/azrael/README.md`**.
+2. **Maillon d'enrichissement s3/dao/oai** — attache l'état S3, la cote DAO et les
+   identifiants OAI : voir **[Enrichissement du référentiel](../scripts/enrichissement_ref.md)**.
+3. **Fusion finale** (`scripts/azrael/60_merge_new_old_ref.py`) — coalesce les
+   valeurs neuves avec l'ancien ref pour produire `_ref_files_{date}.csv.gz`.
+
+Les dates (`OLD_REF_DATE`, `NEW_REF_DATE`) sont centralisées dans
+`scripts/azrael/_pipeline.py` — à modifier à chaque nouveau ref.
 
 Vérification de l'intégrité (optionnel) : `scripts/azrael/04_ref_integrité.ipynb`
-
-Attention, cette séquence est indicative, les scripts et itération sont à adaptér à chaque nouvelle itération.
 
 ---
 

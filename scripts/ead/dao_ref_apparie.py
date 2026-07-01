@@ -41,6 +41,8 @@ MOTIF_NOMBRE = re.compile(r"\d+")
 
 
 def stem(nom):
+    """Nom d'œuvre partagé diffusion/conservation : nom sans extension, et sans
+    extension média intermédiaire (RBX_X_001.tif / .jpg / .alto -> RBX_X_001)."""
     s = splitext(str(nom))[0]
     bas = s.lower()
     for e in EXT_MEDIA:
@@ -65,6 +67,9 @@ def depadde(c):
 
 
 def main():
+    """Apparie les liens dao (dao_ref_link_brut.csv) aux fichiers du ref par stem,
+    en cascade exacte -> normalisée -> padding, et écrit la table d'association
+    fichier <-> unitid (results/ead/ead_cor/dao_ref_link.csv, Stage B)."""
     p = argparse.ArgumentParser(description="Appariement dao -> fichiers du ref (table séparée)")
     p.add_argument("--ref", default=REF, help="référentiel de fichiers (colonnes name, uuid)")
     p.add_argument("--brut", default=BRUT, help="dao_ref_link_brut.csv (sortie de dao_ref_link.py)")

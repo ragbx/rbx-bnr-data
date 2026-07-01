@@ -134,6 +134,9 @@ def extrait_ir(source, path):
     lignes = []
 
     def ligne(el, href, position, taille, role):
+        """Ajoute une ligne de lien à `lignes` : résout le contexte (composant,
+        unitid, profondeur) de l'élément `el` et fige les métadonnées du lien
+        (href, href_base=basename, position dans la plage, taille, role)."""
         cid, unitid, profondeur = contexte(el)
         lignes.append({
             "source": source, "ir": ir, "finding_aid": finding_aid,
@@ -186,6 +189,8 @@ def extrait_ir(source, path):
 
 
 def main():
+    """Parcourt les IR de data/ead/{bnr,mnesys} (hors IR de test), extrait tous les
+    liens dao et écrit results/ead/ead_cor/dao_ref_link_brut.csv (Stage A)."""
     champs = ["source", "ir", "finding_aid", "id_composant", "unitid", "profondeur",
               "role", "href", "href_base", "position", "taille_plage"]
     total = []
