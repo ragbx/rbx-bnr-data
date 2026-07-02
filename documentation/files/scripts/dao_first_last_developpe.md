@@ -68,6 +68,11 @@ Depuis la racine du projet :
 
 ## Développement des plages
 
+La logique de développement vit dans le module partagé
+`scripts/ead/dao_plage.py` (`segment_variable` + `developpe`), également utilisé
+par `dao_ref_link.py` (maillon DAO de
+l'[enrichissement du ref](enrichissement_ref.md)).
+
 La borne `first` et la borne `last` ne diffèrent en général que par un unique
 segment numérique. Le nom de base est découpé en tokens (suites de chiffres /
 suites de non-chiffres) ; l'énumération porte sur l'unique token numérique qui

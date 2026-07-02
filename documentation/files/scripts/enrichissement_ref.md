@@ -59,9 +59,17 @@ fichiers de conservation par `s3_key`.
 Objectif : savoir quels fichiers sont reliés à un lien de diffusion (`<dao>`) et
 donc à un `unitid`, **sans retransformer les IR**. Trois scripts.
 
+> Ne pas confondre avec la [chaîne de diagnostic DAO](dao_appariement.md)
+> (`dao_appariement.sh` : orphelins, plages lacunaires, fichiers manquants), qui
+> analyse les IR transformés sans alimenter le ref. Les méthodes « exacte /
+> normalisée / padding » y portent les mêmes noms mais pas les mêmes
+> définitions : les statistiques des deux chaînes ne sont pas comparables. Le
+> développement des plages first/last est partagé (module
+> `scripts/ead/dao_plage.py`).
+
 | Script | Entrée | Sortie | Rôle |
 |---|---|---|---|
-| `scripts/ead/dao_ref_link.py` | `data/ead/bnr/` + `data/ead/mnesys/` | `ead_cor/dao_ref_link_brut.csv` | **Extraction** : parcourt les IR, développe les plages `first`/`last`, extrait pour chaque lien `href` + `unitid` + `finding_aid` |
+| `scripts/ead/dao_ref_link.py` | `data/ead/bnr/` + `data/ead/mnesys/` + `ead_cor/bnr2mnesys/` (audio) | `ead_cor/dao_ref_link_brut.csv` | **Extraction** : parcourt les IR, développe les plages `first`/`last`, extrait pour chaque lien `href` + `unitid` + `finding_aid` |
 | `scripts/ead/dao_ref_apparie.py` | `dao_ref_link_brut.csv` + ref (`_tmp_s3`) | `ead_cor/dao_ref_link.csv` | **Table d'association** fichier ↔ `unitid`, appariée par *stem* (nom sans extension). Un fichier peut avoir plusieurs `unitid` |
 | `scripts/ead/dao_join_ref.py` | fichiers (`_tmp_s3`) + `dao_ref_link.csv` | `tmp/_ref_files_{date}_tmp_s3_dao.csv.gz` | **Injection** : n'attache qu'**un seul** couple par fichier (colonnes `dao_finding_aid`, `dao_unitid`) |
 
@@ -78,9 +86,19 @@ Points de conception :
   catalogage assumées.
 - **Une seule valeur injectée** : `dao_join_ref.py` priorise la source **bnr** puis
   le premier couple (ordre déterministe).
-- **Périmètre** : corpus décrits par une DAO (**AMR + MED**). La presse (**PRA**)
-  tire son `unitid` du chemin, hors DAO — elle est reprise de l'ancien ref par le
-  coalesce de `60_merge` (via `uuid` + `checksum_md5`).
+- **Audio : noms de conservation via les IR transformés** (source `bnr2mnesys`) —
+  les IR sources ne portent que le mp3 de diffusion (`RBX_MED_FLRS_X.mp3`) alors
+  que la conservation est nommée `RBX_MED_X_{96kHz24B,44kHz24B,TI}.{wav,mp3}` :
+  l'appariement par stem échoue (92 % des liens audio perdus, mesuré sur le run
+  du 20260630). On extrait donc en plus les liens `preservation:audio` des IR
+  transformés (`results/ead/ead_cor/bnr2mnesys/`, où `ead_bnr2mnesys.py` a déjà
+  fait l'appariement contre le ref), et rien d'autre (le reste est couvert par
+  les sources bnr/mnesys). Le `finding_aid` émis est celui de l'IR **source**,
+  résolu via l'Excel de transfert (`results/ir/liste_instruments_recherche_*_
+  transfert_mnesys.xlsx`, ex. `FR595126101_MED_FLRS.xml` ← `FR595129901_MED_15.xml`).
+  Suppose les IR transformés régénérés contre le ref courant. Effet mesuré :
+  couverture `unitid` de l'audio 1,2 % → 44,8 % (3 291/7 347 fichiers, avec
+  notice OAI dans la foulée).
 
 > La table `dao_ref_link.csv` (toutes les paires fichier ↔ `unitid`) est conservée
 > à part : le référentiel ne reçoit qu'un `unitid` choisi, mais l'association

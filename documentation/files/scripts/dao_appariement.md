@@ -9,6 +9,21 @@ les entrées et les sorties. Pour les structures EAD en amont (`<dao>`,
 `<daogrp>`, rôles, plages), voir
 [Les liens DAO : structures et cas de figure](../donnees/dao_daogrp.md).
 
+> **Deux chaînes DAO distinctes.** La chaîne décrite ici fait du **diagnostic
+> qualité** sur les IR transformés (`bnr2mnesys/*.xml`) : orphelins, plages
+> lacunaires, fichiers manquants. Elle n'alimente pas le référentiel. La cote
+> (`unitid`) injectée dans le fichier de référence vient du maillon DAO de
+> l'[enrichissement du ref](enrichissement_ref.md) (`dao_ref_link.py` →
+> `dao_ref_apparie.py` → `dao_join_ref.py`), qui lit les IR **sources**
+> (`data/ead/`) plus l'audio de conservation des IR transformés.
+>
+> Attention : les deux chaînes affichent des méthodes « exacte / normalisée /
+> padding » **qui n'ont pas la même définition** (ici, « exacte » inclut déjà le
+> renommage FLRS et le retrait de la variante audio ; côté enrichissement,
+> « exacte » est l'égalité brute des stems et FLRS n'intervient qu'au niveau
+> « normalisée ») — leurs statistiques ne sont pas comparables. Le développement
+> des plages first/last est en revanche partagé (module `dao_plage.py`).
+
 ---
 
 ## Flux

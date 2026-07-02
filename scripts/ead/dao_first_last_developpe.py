@@ -12,7 +12,8 @@ sont aussi concernés _02 à _07, soit huit fichiers.
 Ce script reconstitue, pour chaque couple first/last, la liste de tous les
 fichiers de la plage. La borne first et la borne last ne diffèrent en général
 que par un unique segment numérique, sur lequel porte l'énumération ; le
-préfixe de chemin, l'extension et le reste du nom sont conservés tels quels.
+préfixe de chemin, l'extension et le reste du nom sont conservés tels quels
+(logique de développement partagée avec dao_ref_link.py : module dao_plage.py).
 
 Dans un même groupe, les bornes access:<média> et preservation:<média>
 décrivent les mêmes fichiers ; on ne développe l'access que si le preservation
@@ -27,17 +28,16 @@ results/ead/ead_cor/dao_first_last_ambigus.csv. Affiche une synthèse.
 """
 
 import csv
-import re
 from glob import glob
-from os.path import basename, dirname, join, splitext
+from os.path import basename, join
 
 from lxml import etree
+
+from dao_plage import developpe
 
 DOSSIER = join("results", "ead", "ead_cor", "bnr2mnesys")
 SORTIE = join("results", "ead", "ead_cor", "dao_first_last_developpe.csv")
 AMBIGUS = join("results", "ead", "ead_cor", "dao_first_last_ambigus.csv")
-
-MOTIF_TOKENS = re.compile(r"\d+|\D+")
 
 
 def composant_parent(element):
@@ -57,46 +57,6 @@ def contexte(element):
     unitid_elem = c.find("did/unitid")
     unitid = (unitid_elem.text or "") if unitid_elem is not None else ""
     return cid, unitid
-
-
-def segment_variable(stem_first, stem_last):
-    """Index du segment numérique qui diffère entre deux noms de base découpés
-    en tokens (nombres / non-nombres). Renvoie None si l'énumération est
-    ambiguë : nombre de tokens différent, ou autre chose qu'un unique segment
-    numérique qui change."""
-    tf = MOTIF_TOKENS.findall(stem_first)
-    tl = MOTIF_TOKENS.findall(stem_last)
-    if len(tf) != len(tl):
-        return None
-    diffs = [i for i, (a, b) in enumerate(zip(tf, tl)) if a != b]
-    if len(diffs) != 1:
-        return None
-    i = diffs[0]
-    if not (tf[i].isdigit() and tl[i].isdigit()):
-        return None
-    return tf, tl, i
-
-
-def developpe(href_first, href_last):
-    """Liste des href de la plage [first, last] incluse, ou None si ambiguë.
-    Conserve dossier et extension de first ; seul le segment numérique varie."""
-    dir_f = dirname(href_first)
-    base_f, ext = splitext(basename(href_first))
-    base_l = splitext(basename(href_last))[0]
-    seg = segment_variable(base_f, base_l)
-    if seg is None:
-        return None
-    tf, tl, i = seg
-    debut, fin = int(tf[i]), int(tl[i])
-    if fin < debut:
-        return None
-    largeur = len(tf[i])
-    hrefs = []
-    for n in range(debut, fin + 1):
-        tf[i] = str(n).zfill(largeur)
-        nom = "".join(tf) + ext
-        hrefs.append(join(dir_f, nom) if dir_f else nom)
-    return hrefs
 
 
 lignes = []

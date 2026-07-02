@@ -45,9 +45,9 @@ corpus depuis le fichier de référence. Il est régénéré en place par le scr
 
 Pour préparer la publication d'un corpus, on en extrait les données depuis les
 sources consolidées. Exemple pour le corpus `VAH_PUB`
-(script `scripts/corpus/extraction_vah_pub.py`) :
+(script `scripts/ead/corpus/extraction_vah_pub.py`) :
 
 | Fichier | Contenu |
 |---|---|
-| `vah_pub_files_{date}.csv.gz` | Fichiers du corpus, extraits du fichier de référence (filtre sur `corpus_code`) |
-| `vah_pub_dao_{date}.csv.gz` | Liens `<dao>` du corpus, extraits de la liste à plat des dao (`results/dao/liste_dao_flat_{date}.csv.gz`) |
+| `vah_pub_files_{date}.csv.gz` | Fichiers du corpus, extraits du dernier fichier de référence (filtre sur `corpus_code`) |
+| `vah_pub_dao_{date}.csv.gz` | Liens `<dao>` du corpus, extraits de `results/ead/ead_cor/dao_ref_link_brut.csv` (filtre sur `href_base` ; remplace l'ancienne `liste_dao_flat_{date}.csv.gz`, dont le producteur `dao_liste_flat.py` a été supprimé le 13/06/2026) |

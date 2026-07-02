@@ -14,10 +14,23 @@ Deux formats sources, deux vocabulaires de rôle (sur <dao> et <daoloc>) :
     <dao|daoloc href="Dossier/RBX_....jpg"/>  (role absent)   fichier isolé
     <daoloc role="first_image"/> + <daoloc role="last_image"/>  plage (daogrp)
 
+S'y ajoute une troisième source, restreinte à l'AUDIO :
+
+  results/ead/ead_cor/bnr2mnesys (IR transformés par ead_bnr2mnesys.py)
+    <daoloc role="preservation:audio" href=".../RBX_MED_X_96kHz24B.wav"/>
+
+  Les IR sources ne portent que le mp3 de diffusion (RBX_MED_FLRS_X.mp3) alors
+  que la conservation est nommée RBX_MED_X_{96kHz24B,44kHz24B,TI}.{wav,mp3} :
+  l'appariement par stem échoue. Les liens preservation:audio des IR transformés
+  portent les vrais noms de conservation (appariement déjà fait par
+  ead_bnr2mnesys.py contre le ref). Le finding_aid émis est celui de l'IR SOURCE
+  (résolu via l'Excel de transfert Mnesys), pour rester cohérent avec la source
+  bnr et l'ancien ref.
+
 Le contexte (unitid) est celui du composant <c> le plus proche (did/unitid) ; le
 finding_aid est l'IR (sous-dossier + eadid). Les plages first/last sont
-développées (tous les fichiers intermédiaires implicites), en réutilisant la
-logique de dao_first_last_developpe.py.
+développées (tous les fichiers intermédiaires implicites) via le module partagé
+dao_plage.py (même logique que dao_first_last_developpe.py).
 
 Stage A (ce script pour l'instant) : produit results/ead/ead_cor/dao_ref_link_brut.csv
     colonnes : source, ir, finding_aid, id_composant, unitid, role, href, href_base,
@@ -29,20 +42,25 @@ au référentiel (stage B, à venir).
 """
 
 import csv
-import re
 from glob import glob
-from os.path import basename, dirname, join, splitext
+from os.path import basename, join, splitext
 
 from lxml import etree
 
-SOURCES = [("bnr", join("data", "ead", "bnr")),
-           ("mnesys", join("data", "ead", "mnesys"))]
+from dao_plage import developpe
+
+# (source, dossier, roles) : roles=None -> tous les liens ; sinon seuls les
+# éléments dont le role figure dans l'ensemble sont extraits (les IR transformés
+# ne fournissent que les noms de conservation audio, le reste est déjà couvert
+# par les sources bnr/mnesys).
+SOURCES = [("bnr", join("data", "ead", "bnr"), None),
+           ("mnesys", join("data", "ead", "mnesys"), None),
+           ("bnr2mnesys", join("results", "ead", "ead_cor", "bnr2mnesys"),
+            {"preservation:audio"})]
 SORTIE = join("results", "ead", "ead_cor", "dao_ref_link_brut.csv")
 
 # XML source parfois mal formé (& non échappés dans certains IR mnesys)
 PARSER = etree.XMLParser(recover=True)
-
-MOTIF_TOKENS = re.compile(r"\d+|\D+")
 
 
 def composant_parent(element):
@@ -84,52 +102,18 @@ def position_role(role):
     return None
 
 
-def segment_variable(stem_first, stem_last):
-    """Index de l'unique segment numérique qui diffère entre deux stems, ou None
-    si ambigu (nombre de tokens différent, ou != un seul segment numérique)."""
-    tf = MOTIF_TOKENS.findall(stem_first)
-    tl = MOTIF_TOKENS.findall(stem_last)
-    if len(tf) != len(tl):
-        return None
-    diffs = [i for i, (a, b) in enumerate(zip(tf, tl)) if a != b]
-    if len(diffs) != 1:
-        return None
-    i = diffs[0]
-    if not (tf[i].isdigit() and tl[i].isdigit()):
-        return None
-    return tf, tl, i
+def extrait_ir(source, path, roles=None, finding_aid=None):
+    """Lignes (dict) extraites d'un IR : fichiers isolés + plages développées.
 
-
-def developpe(href_first, href_last):
-    """Liste des href de la plage [first, last] incluse, ou None si ambiguë.
-    Conserve dossier et extension de first ; seul le segment numérique varie."""
-    dir_f = dirname(href_first)
-    base_f, ext = splitext(basename(href_first))
-    base_l = splitext(basename(href_last))[0]
-    seg = segment_variable(base_f, base_l)
-    if seg is None:
-        return None
-    tf, tl, i = seg
-    debut, fin = int(tf[i]), int(tl[i])
-    if fin < debut:
-        return None
-    largeur = len(tf[i])
-    hrefs = []
-    for n in range(debut, fin + 1):
-        tf[i] = str(n).zfill(largeur)
-        nom = "".join(tf) + ext
-        hrefs.append(join(dir_f, nom) if dir_f else nom)
-    return hrefs
-
-
-def extrait_ir(source, path):
-    """Lignes (dict) extraites d'un IR : fichiers isolés + plages développées."""
+    roles : ensemble de roles à extraire (None = tous). finding_aid : valeur à
+    émettre (None = dérivée du nom de fichier de l'IR)."""
     ir = basename(path)
     root = etree.parse(path, PARSER).getroot()
     # finding_aid basé sur le NOM DE FICHIER de l'IR, pas sur l'eadid : 249 IR
     # mnesys ont un eadid générique (FRAM59100_0000XX) voire un placeholder de
     # test (TEST_EADMOUL_01) ; l'ancien ref indexe par nom de fichier.
-    finding_aid = f"{source}_{splitext(ir)[0]}.xml"
+    if finding_aid is None:
+        finding_aid = f"{source}_{splitext(ir)[0]}.xml"
 
     lignes = []
 
@@ -148,10 +132,17 @@ def extrait_ir(source, path):
 
     # 1) plages first/last, regroupées par daogrp puis par préfixe de média
     groupes = list(root.iter("daogrp"))
+    # On garde les ÉLÉMENTS bornes (pas leurs id()) : les proxies lxml sont créés
+    # à la demande et recyclés dès qu'ils ne sont plus référencés — un id() de
+    # proxy mort peut être réattribué à un autre nœud (exclusions/réémissions
+    # aléatoires constatées). Le set maintient les proxies en vie, et lxml
+    # garantit un proxy unique par nœud tant qu'il est référencé.
     bornes_traitees = set()
     for groupe in groupes:
         bornes = {}
         for el in groupe.iter("daoloc", "dao"):
+            if roles is not None and el.get("role") not in roles:
+                continue
             pr = position_role(el.get("role"))
             if pr is not None:
                 prefixe, pos = pr
@@ -160,8 +151,8 @@ def extrait_ir(source, path):
             el_first, el_last = paire.get("first"), paire.get("last")
             if el_first is None or el_last is None:
                 continue
-            bornes_traitees.add(id(el_first))
-            bornes_traitees.add(id(el_last))
+            bornes_traitees.add(el_first)
+            bornes_traitees.add(el_last)
             hf, hl = el_first.get("href", ""), el_last.get("href", "")
             hrefs = developpe(hf, hl)
             role = f"{prefixe}:plage"
@@ -178,7 +169,9 @@ def extrait_ir(source, path):
     # 2) fichiers isolés : tout <dao>/<daoloc> avec href, hors bornes de plage
     for tag in ("dao", "daoloc"):
         for el in root.iter(tag):
-            if id(el) in bornes_traitees:
+            if el in bornes_traitees:
+                continue
+            if roles is not None and el.get("role") not in roles:
                 continue
             href = el.get("href")
             if not href:
@@ -188,14 +181,34 @@ def extrait_ir(source, path):
     return lignes
 
 
+def concordance_bnr2mnesys():
+    """nouveau_nom_fichier (IR transformé) -> finding_aid de l'IR SOURCE
+    (bnr_<nom sans extension>.xml), d'après le dernier Excel de transfert Mnesys.
+    Les IR transformés viennent tous de data/ead/bnr (ex. FR595126101_MED_FLRS.xml
+    <- FR595129901_MED_15.xml) : on émet le finding_aid de l'IR source pour rester
+    cohérent avec la source bnr et l'ancien ref."""
+    cands = sorted(glob(join("results", "ir",
+                             "liste_instruments_recherche_*_transfert_mnesys.xlsx")))
+    if not cands:
+        return {}
+    import pandas as pd
+    x = pd.read_excel(cands[-1], usecols=["nom_fichier", "nouveau_nom_fichier"])
+    x = x.dropna().drop_duplicates("nouveau_nom_fichier")
+    return {nouveau: f"bnr_{splitext(str(src))[0]}.xml"
+            for nouveau, src in zip(x["nouveau_nom_fichier"], x["nom_fichier"])}
+
+
 def main():
-    """Parcourt les IR de data/ead/{bnr,mnesys} (hors IR de test), extrait tous les
-    liens dao et écrit results/ead/ead_cor/dao_ref_link_brut.csv (Stage A)."""
+    """Parcourt les IR de data/ead/{bnr,mnesys} et les IR transformés de
+    results/ead/ead_cor/bnr2mnesys (audio de conservation seulement), hors IR de
+    test, et écrit results/ead/ead_cor/dao_ref_link_brut.csv (Stage A)."""
     champs = ["source", "ir", "finding_aid", "id_composant", "unitid", "profondeur",
               "role", "href", "href_base", "position", "taille_plage"]
     total = []
     exclus = []
-    for source, dossier in SOURCES:
+    sans_concordance = []
+    for source, dossier, roles in SOURCES:
+        conc = concordance_bnr2mnesys() if source == "bnr2mnesys" else {}
         n_ir = 0
         n_lignes = 0
         for path in sorted(glob(join(dossier, "*.xml"))):
@@ -204,11 +217,18 @@ def main():
             if "test" in basename(path).lower():
                 exclus.append(basename(path))
                 continue
-            lignes = extrait_ir(source, path)
+            finding_aid = conc.get(basename(path))
+            if source == "bnr2mnesys" and finding_aid is None:
+                sans_concordance.append(basename(path))
+            lignes = extrait_ir(source, path, roles=roles, finding_aid=finding_aid)
             total.extend(lignes)
             n_ir += 1
             n_lignes += len(lignes)
-        print(f"{source:7} : {n_ir:4d} IR -> {n_lignes:8d} liens dao")
+        print(f"{source:10} : {n_ir:4d} IR -> {n_lignes:8d} liens dao")
+    if sans_concordance:
+        print(f"IR transformés absents de l'Excel de transfert "
+              f"({len(sans_concordance)}, finding_aid par défaut) : "
+              f"{', '.join(sans_concordance)}")
 
     with open(SORTIE, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=champs)

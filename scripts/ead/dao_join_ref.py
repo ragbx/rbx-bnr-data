@@ -28,8 +28,9 @@ import pandas as pd
 
 DAO = join("results", "ead", "ead_cor", "dao_ref_link.csv")
 
-# priorité de source : bnr avant mnesys
-RANG_SOURCE = {"bnr": 0, "mnesys": 1}
+# priorité de source : bnr avant mnesys, avant les liens audio de conservation
+# extraits des IR transformés (mêmes IR que bnr, donc mêmes unitid en pratique)
+RANG_SOURCE = {"bnr": 0, "mnesys": 1, "bnr2mnesys": 2}
 
 
 def charger_dao(dao_path=DAO):
