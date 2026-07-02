@@ -58,5 +58,5 @@ les anciens ARK.
 pérenne des fichiers numérisés. Voir [Scripts S3](scripts/s3.md).
 
 **UUID** — Identifiant unique stable attribué à chaque fichier numérisé dans le
-fichier de référence. Reporté en tag sur les objets S3, il fait le lien entre
+fichier de référence. C'est la version 4 qui est utilisée dans le cadre de ce projet. Reporté en tag sur les objets S3, il fait le lien entre
 les supports et le fichier de référence.
