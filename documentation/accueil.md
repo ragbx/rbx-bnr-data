@@ -27,8 +27,6 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 
 → [Données : corpus](files/donnees/corpus.md) · [Fichier de référence](files/donnees/fichier_ref.md)
 
-→ **[Enrichissement du référentiel](files/scripts/enrichissement_ref.md)** — maillon s3/dao/oai entre la chaîne azrael et la fusion finale
-
 ### 2. Transférer les fichiers vers le stockage S3
 Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 
