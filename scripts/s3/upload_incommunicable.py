@@ -8,10 +8,9 @@ from datetime import datetime
 import concurrent.futures
 from tqdm import tqdm
 
-input_folder = join('data', 'transfert')
-prefix = "D:\\"
-prefix = "\\\\srvbnr.ntrbx.local\BNR"
-
+input_folder = join('results', 's3', 'transfert')
+#prefix = "\\\\srvbnr.ntrbx.local\BNR"
+prefix = "/home/kibini/bnr"
 
 USER = 'user_rw'
 bucket = 'mediatheque-patarch-incommunicable'
@@ -90,7 +89,7 @@ for file_info in files2proceed:
     data_file_name = file_info[1]
     print(data_file_name)
     dt = datetime.now().strftime("%Y%m%d%H%M%S")
-    result_file = join("result", f"{data_file_name}_upload_{dt}.csv")
+    result_file = join("results", "s3", "result", f"{data_file_name}_upload_{dt}.csv")
     with open(result_file, 'w', newline='') as logfile:
         fieldnames = ['name', 'path', 'checksum_md5', 'uuid', 'size', 'key', 'uploaded',
                       'uploaded_file_size', 'uploaded_file_lastmodified', 'error']
