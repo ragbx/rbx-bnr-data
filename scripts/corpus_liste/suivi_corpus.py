@@ -21,8 +21,12 @@ def repartition(s):
     return " ; ".join(f"{k} ({v})" for k, v in vc.items())
 
 
-# chaînes de caractères marquant, dans conservation_statut, un traitement s3 réalisé
-STATUTS_TRAITES_S3 = ("TRANSFERT_S3_OK", "CORBEILLE", "SUPPRIMER", "NE PAS GARDER")
+# chaînes marquant, dans conservation_statut, un traitement s3 ACCOMPLI
+# (harmonisation 2026-07-11 : 18 libellés) : versé sur S3 ou voué à suppression.
+# Les « À TRANSFERER* » (dont APRES VALIDATION) restent NON traités tant que
+# l'upload n'est pas fait, comme INCONNU*, EN LIGNE - À TRANSFERER ?,
+# S3_KEY À CONSTRUIRE, DOUBLON - À VOIR et *VOIR MARIE.
+STATUTS_TRAITES_S3 = ("TRANSFERT_S3_OK", "À SUPPRIMER")
 
 
 def traitement_s3(s):
