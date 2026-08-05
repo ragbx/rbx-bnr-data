@@ -50,8 +50,13 @@ pyinstaller build\ead_dao_converter.spec --distpath ..\dist
 ```
 
 → `app\dist\ConvertisseurEAD.exe` (autonome). Un workflow GitHub Actions
-(`.github/workflows/build-windows-dao-converter.yml`) produit aussi automatiquement
-le `.exe` en artefact téléchargeable à chaque modification de `app/ead_dao_converter/`.
+(`.github/workflows/build-windows-dao-converter.yml`) reconstruit aussi
+automatiquement le `.exe` à chaque modification de `app/ead_dao_converter/`,
+disponible à deux endroits :
+
+- **Lien stable** (toujours le dernier build réussi) :
+  https://github.com/ragbx/rbx-bnr-data/releases/download/build-ead-dao-converter/ConvertisseurEAD.exe
+- Artefact du run CI (onglet *Actions*, section *Artifacts* du run) — rétention limitée.
 
 ## Fonctionnalités UI
 

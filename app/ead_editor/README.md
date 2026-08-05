@@ -48,8 +48,12 @@ pyinstaller build\ead_editor.spec --distpath ..\dist
 ```
 
 → `app\dist\EditeurEAD.exe` (autonome). Un workflow GitHub Actions
-(`.github/workflows/build-windows.yml`) produit aussi automatiquement le `.exe` en
-artefact téléchargeable.
+(`.github/workflows/build-windows.yml`) produit aussi automatiquement le `.exe`,
+disponible à deux endroits :
+
+- **Lien stable** (toujours le dernier build réussi) :
+  https://github.com/ragbx/rbx-bnr-data/releases/download/build-ead-editor/EditeurEAD.exe
+- Artefact du run CI (onglet *Actions*, section *Artifacts* du run) — rétention limitée.
 
 ## Structure
 

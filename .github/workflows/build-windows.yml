@@ -7,6 +7,9 @@ on:
       - ".github/workflows/build-windows.yml"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
@@ -32,9 +35,30 @@ jobs:
       - name: Construire l'exécutable
         run: pyinstaller build/ead_editor.spec --distpath ../dist
 
-      - name: Publier l'artefact
+      - name: Publier l'artefact (rétention limitée, run CI)
         uses: actions/upload-artifact@v4
         with:
           name: EditeurEAD-windows
           path: app/dist/EditeurEAD.exe
           if-no-files-found: error
+
+      - name: Publier en release "dernier build" (lien stable et permanent)
+        shell: bash
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=build-ead-editor
+          REPO="${{ github.repository }}"
+          NOTES="Généré automatiquement par CI depuis app/ead_editor.
+          Commit : ${{ github.sha }}
+          Date : $(date -u +%Y-%m-%dT%H:%MZ)"
+          if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
+            gh release edit "$TAG" --repo "$REPO" --notes "$NOTES"
+          else
+            gh release create "$TAG" --repo "$REPO" \
+              --title "Éditeur EAD — dernier build" \
+              --notes "$NOTES" \
+              --target "${{ github.sha }}"
+          fi
+          gh release upload "$TAG" app/dist/EditeurEAD.exe --repo "$REPO" --clobber
