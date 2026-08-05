@@ -13,13 +13,13 @@ Deux options : build manuel (ci-dessous) ou build automatique via GitHub Actions
 1. Installer Python 3.10+ (https://www.python.org/downloads/windows/),
    en cochant **« Add Python to PATH »**.
 2. Ouvrir un terminal (PowerShell ou CMD) **à la racine du dépôt**
-   (`ead_dao_converter/ead_preprocess.py` importe un module partagé situé dans
+   (`app/ead_dao_converter/ead_preprocess.py` importe un module partagé situé dans
    `scripts/ead/`, il faut donc que l'arborescence complète du dépôt soit présente).
 
 ## Build manuel
 
 ```bat
-cd ead_dao_converter
+cd app/ead_dao_converter
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt pyinstaller

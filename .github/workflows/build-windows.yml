@@ -3,7 +3,7 @@ name: Build Windows EXE (Éditeur EAD)
 on:
   push:
     paths:
-      - "ead_editor/**"
+      - "app/ead_editor/**"
       - ".github/workflows/build-windows.yml"
   workflow_dispatch:
 
@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        working-directory: ead_editor
+        working-directory: app/ead_editor
 
     steps:
       - uses: actions/checkout@v4
@@ -36,5 +36,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: EditeurEAD-windows
-          path: ead_editor/dist/EditeurEAD.exe
+          path: app/ead_editor/dist/EditeurEAD.exe
           if-no-files-found: error

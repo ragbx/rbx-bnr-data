@@ -34,7 +34,7 @@ python -m ead_editor
 ## Tests
 
 ```bash
-cd ead_editor
+cd app/ead_editor
 python -m pytest -q          # ou : conda run -n ds python -m pytest -q
 ```
 

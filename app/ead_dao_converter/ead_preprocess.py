@@ -10,7 +10,8 @@ from lxml import etree
 
 # Réutilise la mécanique d'insertion des liens ARK partagée avec
 # scripts/ead/ead_bnr2mnesys.py (dedup, cf. scripts/ead/dao_ark.py).
-_SCRIPTS_EAD = Path(__file__).resolve().parents[1] / "scripts" / "ead"
+# parents[2] : app/ead_dao_converter/ead_preprocess.py -> app/ead_dao_converter -> app -> racine du dépôt.
+_SCRIPTS_EAD = Path(__file__).resolve().parents[2] / "scripts" / "ead"
 if str(_SCRIPTS_EAD) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_EAD))
 

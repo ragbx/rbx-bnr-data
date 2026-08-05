@@ -2,7 +2,7 @@
 Fusion des <daogrp> et insertion de liens ARK (<dao>/<daoloc>) dans un EAD.
 
 Logique partagée entre ead_bnr2mnesys.py (pipeline complet BnR -> Mnesys) et
-ead_dao_converter (pré-traitement avant publication).
+app/ead_dao_converter (pré-traitement avant publication).
 """
 from lxml import etree
 

@@ -9,7 +9,7 @@ Résultat :
 
 from pathlib import Path
 
-# Le .spec est exécuté depuis la racine du projet (dossier ead_dao_converter/).
+# Le .spec est exécuté depuis la racine du projet (dossier app/ead_dao_converter/).
 PROJECT_ROOT = Path(SPECPATH).resolve().parent
 ENTRY = str(PROJECT_ROOT / "app.py")
 
@@ -17,7 +17,8 @@ ENTRY = str(PROJECT_ROOT / "app.py")
 # ead_bnr2mnesys.py) via un sys.path.insert basé sur son propre chemin ; il faut
 # aussi le déclarer ici pour que l'analyse statique de PyInstaller le trouve et
 # l'embarque dans l'exécutable.
-SCRIPTS_EAD = PROJECT_ROOT.parent / "scripts" / "ead"
+# PROJECT_ROOT.parent.parent : app/ead_dao_converter -> app -> racine du dépôt.
+SCRIPTS_EAD = PROJECT_ROOT.parent.parent / "scripts" / "ead"
 
 block_cipher = None
 

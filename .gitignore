@@ -32,7 +32,7 @@ MANIFEST
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 #   Exception : les .spec de ce dépôt sont écrits à la main et versionnés
-#   (ead_editor/build/, ead_dao_converter/build/) — la règle n'est donc pas globale.
+#   (app/ead_editor/build/, app/ead_dao_converter/build/) — la règle n'est donc pas globale.
 *.manifest
 /*.spec
 
