@@ -17,6 +17,25 @@ if str(_SCRIPTS_EAD) not in sys.path:
 
 from dao_ark import add_ark_links  # noqa: E402
 
+# Rôles EAD reconnus dans les <p> d'un <odd> (cf. apply_odd_to_daoloc), tels que
+# listés dans documentation/files/donnees/dao_daogrp.md (« Grammaire des role »).
+ODD_ROLES = (
+    "publication:current",
+    "publication:previous",
+    "access:image",
+    "preservation:image",
+    "access:image:first",
+    "access:image:last",
+    "preservation:image:first",
+    "preservation:image:last",
+    "preservation:audio",
+    "access:audio",
+    "access:pdf",
+    "preservation:pdf",
+    "access:video",
+    "preservation:video",
+)
+
 
 class EAD_preprocess:
     """
@@ -89,45 +108,39 @@ class EAD_preprocess:
 
     def apply_odd_to_daoloc(self) -> int:
         """
-        Pour chaque <c> dont le <odd> contient un <p> commençant par 'dao_first <fichier>',
-        copie ce nom de fichier dans l'attribut href du <daoloc role="image:first"> du <daogrp>
-        du même <c>. Fait de même pour 'dao_last' → role="image:last".
-        Supprime le <odd> traité dans tous les cas.
-        Retourne le nombre de <daoloc> modifiés.
+        Pour chaque <p> d'un <odd> commençant par un rôle EAD reconnu (cf. ODD_ROLES,
+        « Grammaire des role » de documentation/files/donnees/dao_daogrp.md) suivi d'un
+        espace puis d'un nom de fichier, ajoute un lien href="<fichier>" role="<rôle>"
+        au <c> parent du <odd> — délègue à dao_ark.add_ark_links (scripts/ead/dao_ark.py),
+        partagée avec ead_bnr2mnesys.py et add_dao_ark : <daogrp> déjà présent → nouveau
+        <daoloc> dans ce groupe (sans doublon de role) ; <dao> isolé déjà présent → converti
+        en <daoloc> dans un nouveau <daogrp> avec les nouveaux liens ; ni l'un ni l'autre →
+        nouveau <dao> (lien unique) ou <daogrp> (plusieurs liens).
+        Supprime le <odd> traité (si au moins un <p> a été reconnu).
+        Retourne le nombre de liens ajoutés.
         """
         if self.tree is None:
             raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
 
-        count = 0
-        root = self.tree.getroot()
-        role_map = {"dao_first": "image:first", "dao_last": "image:last"}
-
-        for c_elem in root.iter("c"):
+        def link_builder(c_elem):
             odd = c_elem.find("odd")
             if odd is None:
-                continue
+                return []
 
-            filenames = {}
+            liens = []
             for p in odd.iter("p"):
                 text = (p.text or "").strip()
-                for prefix in role_map:
-                    if text.startswith(prefix + " "):
-                        filenames[prefix] = text[len(prefix) + 1:].strip()
+                for role in ODD_ROLES:
+                    if text.startswith(role + " "):
+                        filename = text[len(role) + 1:].strip()
+                        liens.append((filename, role))
+                        break
 
-            if not filenames:
-                continue
+            if liens:
+                c_elem.remove(odd)
+            return liens
 
-            daogrp = c_elem.find("daogrp")
-            if daogrp is not None:
-                for prefix, filename in filenames.items():
-                    daoloc = daogrp.find(f"daoloc[@role='{role_map[prefix]}']")
-                    if daoloc is not None:
-                        daoloc.set("href", filename)
-                        count += 1
-
-            c_elem.remove(odd)
-
-        return count
+        return add_ark_links(self.tree.getroot(), link_builder, tags=("c",))
 
     def add_dao_ark(self) -> int:
         """

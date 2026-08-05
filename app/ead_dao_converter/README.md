@@ -34,7 +34,12 @@ python app.py
 La logique métier se trouve dans `ead_preprocess.py`, classe `EAD_preprocess` :
 
 1. `convert_dao_to_daoloc()` — convertit les éléments `<dao>` en `<daoloc>` dans un `<daogrp>`
-2. `apply_odd_to_daoloc()` — transfère les métadonnées `<odd>` vers les attributs `href` des `<daoloc>`
+2. `apply_odd_to_daoloc()` — pour chaque `<p>` d'un `<odd>` commençant par un rôle EAD
+   reconnu (cf. `ODD_ROLES`, grammaire documentée dans
+   `documentation/files/donnees/dao_daogrp.md`) suivi d'un espace puis d'un nom de
+   fichier, ajoute le lien au `<c>` parent : nouveau `<daoloc>` dans le `<daogrp>`
+   existant, ou `<dao>` isolé existant converti en `<daoloc>` dans un nouveau
+   `<daogrp>`, ou nouveau `<dao>`/`<daogrp>` si aucun des deux n'existe encore
 3. `add_dao_ark()` — ajoute un lien ARK (`https://www.bn-r.fr/ark:/20179/BNR{id}`) pour chaque `<c>` identifié.
 
 Ces trois étapes sont enchaînées par `transform(progress_callback)`.
