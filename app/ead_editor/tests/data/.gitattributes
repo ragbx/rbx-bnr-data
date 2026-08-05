@@ -1,0 +1,4 @@
+# Fixture comparée octet à octet dans test_roundtrip_preserves_bytes : la fin de
+# ligne doit rester LF au checkout, y compris sur le runner Windows (sinon git y
+# convertit \n en \r\n et le test échoue en CI).
+*.xml text eol=lf
