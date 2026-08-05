@@ -33,11 +33,11 @@ jobs:
           python -c "import ast; ast.parse(open('ead_preprocess.py').read())"
 
       - name: Construire l'exécutable
-        run: pyinstaller build/ead_dao_converter.spec
+        run: pyinstaller build/ead_dao_converter.spec --distpath ../dist
 
       - name: Publier l'artefact
         uses: actions/upload-artifact@v4
         with:
           name: ConvertisseurEAD-windows
-          path: app/ead_dao_converter/dist/ConvertisseurEAD.exe
+          path: app/dist/ConvertisseurEAD.exe
           if-no-files-found: error

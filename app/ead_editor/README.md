@@ -44,10 +44,10 @@ Voir **`build/BUILD_WINDOWS.md`**. En résumé, sur une machine Windows :
 
 ```bat
 pip install -r requirements.txt pyinstaller
-pyinstaller build\ead_editor.spec
+pyinstaller build\ead_editor.spec --distpath ..\dist
 ```
 
-→ `dist\EditeurEAD.exe` (autonome). Un workflow GitHub Actions
+→ `app\dist\EditeurEAD.exe` (autonome). Un workflow GitHub Actions
 (`.github/workflows/build-windows.yml`) produit aussi automatiquement le `.exe` en
 artefact téléchargeable.
 

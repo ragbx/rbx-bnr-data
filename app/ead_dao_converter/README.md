@@ -46,10 +46,10 @@ Voir **`build/BUILD_WINDOWS.md`**. En résumé, sur une machine Windows :
 ```bat
 cd app/ead_dao_converter
 pip install -r requirements.txt pyinstaller
-pyinstaller build\ead_dao_converter.spec
+pyinstaller build\ead_dao_converter.spec --distpath ..\dist
 ```
 
-→ `dist\ConvertisseurEAD.exe` (autonome). Un workflow GitHub Actions
+→ `app\dist\ConvertisseurEAD.exe` (autonome). Un workflow GitHub Actions
 (`.github/workflows/build-windows-dao-converter.yml`) produit aussi automatiquement
 le `.exe` en artefact téléchargeable à chaque modification de `app/ead_dao_converter/`.
 

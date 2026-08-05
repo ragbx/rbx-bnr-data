@@ -1,0 +1,3 @@
+# Sortie partagée des builds PyInstaller (ead_editor + ead_dao_converter),
+# produite via `pyinstaller ... --distpath ../dist` depuis chaque app.
+/dist/

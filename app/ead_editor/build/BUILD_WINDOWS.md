@@ -12,7 +12,7 @@ Deux options : build manuel (ci-dessous) ou build automatique via GitHub Actions
 
 1. Installer Python 3.10+ (https://www.python.org/downloads/windows/),
    en cochant **« Add Python to PATH »**.
-2. Ouvrir un terminal (PowerShell ou CMD) dans le dossier `ead_editor/`.
+2. Ouvrir un terminal (PowerShell ou CMD) dans le dossier `app\ead_editor\`.
 
 ## Build manuel
 
@@ -20,15 +20,16 @@ Deux options : build manuel (ci-dessous) ou build automatique via GitHub Actions
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt pyinstaller
-pyinstaller build\ead_editor.spec
+pyinstaller build\ead_editor.spec --distpath ..\dist
 ```
 
-Le binaire est produit dans **`dist\EditeurEAD.exe`**. Il est autonome : on peut le
-copier sur n'importe quel poste Windows et le lancer par double-clic.
+Le binaire est produit dans **`app\dist\EditeurEAD.exe`** (dossier partagé avec
+`ead_dao_converter`, cf. `--distpath ..\dist`). Il est autonome : on peut le copier
+sur n'importe quel poste Windows et le lancer par double-clic.
 
 ## Vérification
 
-- Double-cliquer sur `dist\EditeurEAD.exe`.
+- Double-cliquer sur `app\dist\EditeurEAD.exe`.
 - *Fichier → Ouvrir…* et charger un fichier EAD (ex. un fichier de
   `results/ead/ead_cor/bnr2mnesys/`).
 - Sélectionner un composant dans l'arbre de gauche, éditer un `dao` ou un terme

@@ -30,11 +30,11 @@ jobs:
         run: python -m pytest -q
 
       - name: Construire l'exécutable
-        run: pyinstaller build/ead_editor.spec
+        run: pyinstaller build/ead_editor.spec --distpath ../dist
 
       - name: Publier l'artefact
         uses: actions/upload-artifact@v4
         with:
           name: EditeurEAD-windows
-          path: app/ead_editor/dist/EditeurEAD.exe
+          path: app/dist/EditeurEAD.exe
           if-no-files-found: error

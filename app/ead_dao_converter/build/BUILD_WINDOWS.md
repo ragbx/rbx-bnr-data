@@ -23,15 +23,16 @@ cd app/ead_dao_converter
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt pyinstaller
-pyinstaller build\ead_dao_converter.spec
+pyinstaller build\ead_dao_converter.spec --distpath ..\dist
 ```
 
-Le binaire est produit dans **`dist\ConvertisseurEAD.exe`**. Il est autonome : on
-peut le copier sur n'importe quel poste Windows et le lancer par double-clic.
+Le binaire est produit dans **`app\dist\ConvertisseurEAD.exe`** (dossier partagé
+avec `ead_editor`, cf. `--distpath ..\dist`). Il est autonome : on peut le copier
+sur n'importe quel poste Windows et le lancer par double-clic.
 
 ## Vérification
 
-- Double-cliquer sur `dist\ConvertisseurEAD.exe`.
+- Double-cliquer sur `app\dist\ConvertisseurEAD.exe`.
 - Sélectionner un fichier EAD source, vérifier que le nom de sortie est suggéré
   automatiquement, lancer la conversion.
 - Vérifier que le logo s'affiche bien dans l'en-tête (il est embarqué dans
