@@ -17,6 +17,25 @@ NEW_REF_DATE = "20260630"   # extraction azrael courante
 codée en dur ailleurs. `_pipeline.py` fournit aussi les helpers de chemins
 (`ref_file`, `az_file`, `tmp_file`) et la convention de nommage.
 
+## Étape 0 — extraction azrael brute
+
+`01a_azrael_list.py` parcourt le serveur Azraël (`root_path`, à adapter en tête de
+script à chaque lancement) et liste tous les fichiers (`name`, `path`, `size`,
+2 dates — sans `uuid` ni `checksum_md5`). `save_list()` écrit directement
+`data/az/bnr_azrael_{date}.csv.gz` (date du jour), soit l'entrée attendue par
+`az_file()` / `10_match_meta.py`. Se lance depuis le serveur Azraël lui-même
+(hors dépôt / notebook), avant le reste de la chaîne :
+
+```bash
+conda run -n rbx-bnr-data python scripts/azrael/01a_azrael_list.py
+```
+
+> `01b_azrael_list_detailed.py` **ne fait pas partie de cette chaîne** : c'est un
+> enrichissement à part (mimetype, `bnr_file_id`, éclatement du chemin…) sur une
+> date figée en dur, dont la sortie va dans `data/` (pas `data/az/`). Conservé
+> pour mémoire, comme `azrael_compare_01.py` / `azrael_compare_02_withCS.py`
+> (voir en bas de page).
+
 ## Lancement
 
 Depuis la **racine du dépôt** (les chemins de données sont relatifs à la racine ;
@@ -29,7 +48,8 @@ conda run -n rbx-bnr-data python scripts/azrael/30_compute_checksum.py   # ⚠ l
 conda run -n rbx-bnr-data python scripts/azrael/40_match_checksum.py
 conda run -n rbx-bnr-data python scripts/azrael/50_match_checksum_dupl.py
 conda run -n rbx-bnr-data python scripts/azrael/55_inject_notaz.py
-# … enrichissement s3/dao/oai (hors dépôt) …
+# … enrichissement s3/dao/oai (scripts/s3, scripts/ead, scripts/oai — voir
+#   documentation/files/scripts/enrichissement_ref.md) …
 conda run -n rbx-bnr-data python scripts/azrael/60_merge_new_old_ref.py
 ```
 
@@ -37,6 +57,7 @@ conda run -n rbx-bnr-data python scripts/azrael/60_merge_new_old_ref.py
 
 | # | Script | Clé d'appariement | Disque | Entrées → sorties |
 |---|--------|-------------------|:------:|-------------------|
+| 0 | `01a_azrael_list.py` | — (parcours disque) | **oui** | serveur Azraël → `data/az/bnr_azrael_{NEW}.csv.gz` |
 | 1 | `10_match_meta.py` | name, path, size, **2 dates** | non | ref + az → `s1_meta__ok` / `s1_meta__az` / `s1_meta__ref` / `ref_notaz` |
 | 2 | `20_match_size.py` | name, path, size | non | `s1_meta__az`+`s1_meta__ref` → `s2_size__ok` / `s2_size__az` / `s2_size__ref` |
 | 3 | `30_compute_checksum.py` | — (calcul MD5) | **oui** | `s2_size__az` → `s3_cs__az` |
@@ -45,11 +66,15 @@ conda run -n rbx-bnr-data python scripts/azrael/60_merge_new_old_ref.py
 | 5.5 | `55_inject_notaz.py` | — (concat) | non | `_az_ok_all` + `ref_notaz` → **`_az_notaz_ok_all`** (az + non-az) |
 | 6 | `60_merge_new_old_ref.py` | uuid, checksum_md5 | non | `_ref_files_{NEW}_tmp_s3_dao_oai` + ref → `_ref_files_{NEW}` |
 
-Entre l'étape 5.5 et l'étape 6 s'intercale le **maillon d'enrichissement s3/dao/oai
-(hors dépôt)** : il consomme `_az_notaz_ok_all` et produit `_ref_files_{NEW}_tmp_s3_dao_oai`.
+Entre l'étape 5.5 et l'étape 6 s'intercale le **maillon d'enrichissement s3/dao/oai**
+(`scripts/s3/`, `scripts/ead/`, `scripts/oai/` — détaillé dans
+[Enrichissement du référentiel](../../documentation/files/scripts/enrichissement_ref.md)) :
+il consomme `_az_notaz_ok_all` et produit `_ref_files_{NEW}_tmp_s3_dao_oai`.
 
-L'étape **3 est la seule à relire les fichiers** : grâce aux étapes 1 et 2, son volume
-est fortement réduit (seuls les fichiers réellement nouveaux ou modifiés y passent).
+Dans la chaîne de matching (étapes 1 à 6), l'étape **3 est la seule à relire les
+fichiers** : grâce aux étapes 1 et 2, son volume est fortement réduit (seuls les
+fichiers réellement nouveaux ou modifiés y passent). L'étape 0, en amont, relit
+nécessairement tout le serveur Azraël (parcours + métadonnées, pas de checksum).
 
 ## Convention de nommage (fichiers intermédiaires, `results/ref/tmp/`)
 
@@ -64,10 +89,11 @@ s{n}_{quoi}__{rôle}_{date}.csv[.gz]
 Fichiers `_`-préfixés = agrégats : `_ok_cumul_s4` (cumul partiel), `_az_ok_all`
 (tous les fichiers az résolus = sortie finale de la chaîne de matching).
 
-## Interfaces externes (NE PAS renommer sans reconnecter le maillon)
+## Interfaces avec le maillon s3/dao/oai (NE PAS renommer sans reconnecter le maillon)
 
-Ces fichiers sont produits ou consommés **hors de ce dépôt** (enrichissement
-s3/dao/oai manuel/notebook) :
+Ces fichiers font la jonction avec le **maillon d'enrichissement s3/dao/oai**
+(`scripts/s3/`, `scripts/ead/`, `scripts/oai/`, détaillé dans
+[Enrichissement du référentiel](../../documentation/files/scripts/enrichissement_ref.md)) :
 
 - entrées : `data/az/bnr_azrael_{NEW}.csv.gz`, `results/ref/_ref_files_{OLD}.csv.gz`
 - sortie chaîne de matching : `results/ref/tmp/_az_ok_all_{NEW}.csv.gz`
@@ -83,9 +109,12 @@ s3/dao/oai manuel/notebook) :
 > ref[~ref.uuid.isin(m1.uuid)]` qui y est calculé n'est **pas** utilisé (vestige),
 > la réinjection du non-az ayant lieu en amont (étape 5.5).
 
-> ⚠ Le maillon d'enrichissement **s3/dao/oai** (entre `_az_ok_all` et
-> `_ref_files_{NEW}_tmp_s3_dao_oai`) n'est pas versionné ici : il doit pointer en
-> entrée sur `_az_ok_all_{NEW}.csv.gz` (anciennement `new_ref_az_ok_it3`).
+> ⚠ Le maillon d'enrichissement **s3/dao/oai** (entre `_az_notaz_ok_all` et
+> `_ref_files_{NEW}_tmp_s3_dao_oai`) est versionné ailleurs dans le dépôt
+> (`scripts/s3/`, `scripts/ead/`, `scripts/oai/`, exécution détaillée dans
+> [Enrichissement du référentiel](../../documentation/files/scripts/enrichissement_ref.md)) :
+> il doit pointer en entrée sur `_az_notaz_ok_all_{NEW}.csv.gz` (anciennement
+> `new_ref_az_ok_it3`).
 
 ## Correspondance avec l'ancienne nomenclature
 

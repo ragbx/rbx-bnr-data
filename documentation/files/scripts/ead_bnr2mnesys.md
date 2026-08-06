@@ -68,12 +68,16 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 
 ### 5. Fusion des `<daogrp>` multiples
 - Quand un même `<archdesc>`/`<c>` contient plusieurs `<daogrp>` directs, leurs contenus
-  sont fusionnés dans le premier. Les `<daodesc>` de même texte et les `<daoloc>` de
-  même couple (href, role) ne sont pas dupliqués.
+  sont fusionnés dans le premier (`merge_daogrp`, cf. [scripts/ead/dao_ark.py](dao_ark.md),
+  module partagé avec `app/ead_dao_converter`). Les `<daodesc>` de même texte et les
+  `<daoloc>` de même couple (href, role) ne sont pas dupliqués.
 - La fusion est réappliquée après l'étape 8 : la conversion d'un `<dao>` isolé en
   `<daogrp>` peut recréer un doublon dans un `<c>` qui possédait déjà un `<daogrp>`.
 
 ### 6. Ajout des liens ARK BnR
+- La mécanique d'insertion des liens (`add_ark_links`, cf.
+  [scripts/ead/dao_ark.py](dao_ark.md), module partagé avec `app/ead_dao_converter`)
+  est appelée ici avec un `link_builder` propre à bn-r → Mnesys.
 - Pour chaque `<archdesc>` et `<c>` portant un attribut `id`, l'ARK actuel construit à
   partir de cet id (`https://www.bn-r.fr/ark:/20179/BNR<id>`) est ajouté avec
   `role="publication:current"`.

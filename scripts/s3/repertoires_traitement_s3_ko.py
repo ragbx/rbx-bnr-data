@@ -14,7 +14,8 @@ ref = pd.read_csv(
 )
 
 # chaînes de caractères marquant, dans conservation_statut, un traitement s3 réalisé
-STATUTS_TRAITES_S3 = ("TRANSFERT_S3_OK", "CORBEILLE", "SUPPRIMER", "NE PAS GARDER")
+# (aligné sur suivi_corpus.py — harmonisation 2026-07-11 : plus de CORBEILLE / NE PAS GARDER)
+STATUTS_TRAITES_S3 = ("TRANSFERT_S3_OK", "À SUPPRIMER")
 
 
 def repartition(s):

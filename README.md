@@ -12,11 +12,12 @@ Les objectifs, méthodes et résultats sont détaillés dans la partie [document
 
 ## Organisation du dépôt :
 
-Le dépôt contient 4 répertoires principaux :
+Le dépôt contient 5 répertoires principaux :
 - *data* : données sources utilisées dans les différents travaux,
 - *scripts* : scripts qui permettent d'obtenir, manipuler ou analyser les différentes sources,
 - *results* : ensemble des analyses ou des transformations effectuées sur les données sources :
 - *documentation* : documentation du projet
+- *app* : applications de bureau (éditeur EAD, prétraitement EAD) — voir leurs README respectifs
 
 ## Aspects techniques
 
@@ -30,7 +31,7 @@ Les scripts utilisent Python 3.11 dans un environnement conda. Pour créer et ac
 
 ```bash
 conda env create -f environment.yml
-conda activate bnr-data
+conda activate rbx-bnr-data
 ```
 
 `pyexiftool` requiert l'installation préalable d'[ExifTool](https://exiftool.org/) sur le système.
