@@ -5,13 +5,13 @@ Dans les instruments de recherche EAD transformés
 (Digital Archival Objects) relient un composant `<c>` à ses fichiers : images
 de diffusion et de conservation, audio, vidéo, PDF, et liens de publication en
 ligne. Cette page recense les structures et les cas de figure réellement
-présents (37 IR), pour comprendre ce que les scripts d'appariement consomment.
+présents (37 IR), pour comprendre ce que les scripts d'appariement utilisent.
 
 ---
 
-## Deux conteneurs
+## Deux éléments
 
-| Conteneur | Nb | Description |
+| Elément | Nb | Description |
 |---|---|---|
 | `<daogrp>` | 34 083 | Groupe de plusieurs `<daoloc>` décrivant **un même document** (ses versions accès / conservation / publication) |
 | `<dao>` isolé | 1 709 | Un lien unique, **hors** `<daogrp>` |
@@ -125,6 +125,86 @@ Deux constats transversaux :
   `previous` ; un sous-ensemble n'a que `current` ;
 - environ un tiers des groupes images n'ont **pas** de `preservation` (orphelins
   unitaires ou plages), ce que la chaîne d'appariement cherche à résoudre.
+
+---
+
+## Exemples par cas de figure
+
+Un `<daogrp>` réel pour chacun des principaux cas du tableau ci-dessus.
+
+**Publication seule** (12 202) — aucun fichier référencé, juste les liens en ligne :
+
+    <daogrp>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ZB0IOD" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59358" role="publication:previous"/>
+    </daogrp>
+
+**Image unitaire avec conservation** (6 684) — cas nominal :
+
+    <daogrp>
+      <daoloc href="MED/MED_CHA/RBX_MED_CHA_0091.tif" role="preservation:image"/>
+      <daoloc href="MED/MED_CHA/RBX_MED_CHA_0091.jpg" role="access:image"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TPOobF" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR22820" role="publication:previous"/>
+    </daogrp>
+
+**Image unitaire sans conservation** (5 670) — orphelin, à résoudre par la chaîne
+d'appariement :
+
+    <daogrp>
+      <daoloc href="RBX_MED_AFF_001_C_2_011.jpg" role="access:image"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446364GCJyr" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR57391" role="publication:previous"/>
+    </daogrp>
+
+**Plage d'images sans conservation** (2 099) :
+
+    <daogrp>
+      <daodesc><p>La Gare</p></daodesc>
+      <daoloc href="RBX_MED_CP_A01_L1_S1_078.jpg" role="access:image:first"/>
+      <daoloc href="RBX_MED_CP_A01_L1_S1_081.jpg" role="access:image:last"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244637UUXitF" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR48281" role="publication:previous"/>
+    </daogrp>
+
+**Fonds sonore** (185) — audio + images associées (pochette, livret), avec
+conservation des deux médias :
+
+    <daogrp>
+      <daodesc><p>Valse favorite/Caprice d'oiseau</p></daodesc>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLR_78_0101_A_01_96kHz24B.wav" role="preservation:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLR_78_0101_A_01_44kHz24B.wav" role="preservation:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLR_78_0101_B_02_96kHz24B.wav" role="preservation:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLR_78_0101_B_02_44kHz24B.wav" role="preservation:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_3.tif" role="preservation:image:first"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_4.tif" role="preservation:image:last"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_A_01.mp3" role="access:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_B_02.mp3" role="access:audio"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_3.jpg" role="access:image:first"/>
+      <daoloc href="MED/MED_FLRS/FLR_78_0101/RBX_MED_FLRS_FLR_78_0101_4.jpg" role="access:image:last"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446381dZtjQ" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23141" role="publication:previous"/>
+    </daogrp>
+
+**PDF** (31) :
+
+    <daogrp>
+      <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_001.pdf" role="preservation:pdf"/>
+      <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_001.pdf" role="access:pdf"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641l7J5O7" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR25856" role="publication:previous"/>
+    </daogrp>
+
+**Vidéo** (16/2) — accès et conservation dans des formats différents (`.mov` /
+`.mp4`), avec une image d'illustration :
+
+    <daogrp>
+      <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D01.mov" role="preservation:video"/>
+      <daoloc href="MDF/MDF_MTX/RBX_MDF_MTX_2014_D01.mp4" role="access:video"/>
+      <daoloc href="RBX_MDF_MTX_1409_D01.jpg" role="access:image"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634p2FaYj" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR3" role="publication:previous"/>
+    </daogrp>
 
 ---
 
