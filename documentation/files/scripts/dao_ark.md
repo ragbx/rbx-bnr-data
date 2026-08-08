@@ -5,10 +5,11 @@
 Module utilitaire (pas de point d'entrée en ligne de commande) portant la
 mécanique d'insertion des liens DAO/ARK dans un EAD. Partagé entre
 [ead_bnr2mnesys.py](ead_bnr2mnesys.md) (pipeline complet bn-r → Mnesys) et
-l'application de bureau **`app/ead_dao_converter`** (pré-traitement avant
-publication), qui l'importe via un ajout de `scripts/ead/` à `sys.path`
-(déclaré aussi dans son spec PyInstaller, pour que l'exécutable autonome
-l'embarque).
+l'application de bureau **`app/ead_dao_converter`** (synchronisation des
+`<dao>`/`<daogrp>` à partir du `<odd>` maître, cf.
+[Les liens DAO : structures et cas de figure](../donnees/dao_daogrp.md#le-résumé-odd-donnée-maître)),
+qui l'importe via un ajout de `scripts/ead/` à `sys.path` (déclaré aussi dans
+son spec PyInstaller, pour que l'exécutable autonome l'embarque).
 
 ---
 
@@ -21,8 +22,8 @@ l'embarque).
 
 `link_builder` est fourni par l'appelant : `ead_bnr2mnesys.py` y construit les
 ARK bn-r (`publication:current` / `publication:previous`, voir son étape 6) ;
-`app/ead_dao_converter` y construit d'autres liens selon son propre besoin de
-pré-traitement.
+`app/ead_dao_converter` (`sync_dao_from_odd()`) y construit les liens présents
+dans le `<odd>` mais absents des `<dao>`/`<daoloc>` existants.
 
 ## Cas traités par `add_ark_links`
 

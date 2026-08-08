@@ -1,6 +1,11 @@
-# EAD 
+# EAD
 
-Application Python avec interface graphique pour pré-traiter des fichiers EAD avant publication (en particulier, insertion des dao).
+Application Python avec interface graphique pour maintenir à jour les `<dao>`/`<daogrp>`
+d'un fichier EAD à partir de son `<odd>`, considéré comme la donnée maître.
+Destinée aux fichiers de `results/ead/ead_cor/bnr2mnesys/` (sortie de
+`ead_bnr2mnesys.py`) : quand un `<odd>` y est corrigé à la main (ajout, modification
+ou suppression d'un lien), cette app répercute la correction sur les
+`<dao>`/`<daoloc>` correspondants.
 
 ## Structure
 
@@ -31,41 +36,27 @@ python app.py
 
 ## Transformations appliquées
 
-La logique métier se trouve dans `ead_preprocess.py`, classe `EAD_preprocess` :
-
-1. `convert_dao_to_daoloc()` — convertit les éléments `<dao>` en `<daoloc>` dans un `<daogrp>`
-2. `apply_odd_to_daoloc()` — pour chaque `<p>` d'un `<odd>` commençant par un rôle EAD
-   reconnu (cf. `ODD_ROLES`, grammaire documentée dans
-   `documentation/files/donnees/dao_daogrp.md`) suivi d'un espace puis d'un nom de
-   fichier, ajoute le lien au `<c>` parent : nouveau `<daoloc>` dans le `<daogrp>`
-   existant, ou `<dao>` isolé existant converti en `<daoloc>` dans un nouveau
-   `<daogrp>`, ou nouveau `<dao>`/`<daogrp>` si aucun des deux n'existe encore.
-   Consomme le `<odd>` (le supprime une fois ses `<p>` reconnus traités).
-3. `add_dao_ark()` — ajoute un lien ARK (`https://www.bn-r.fr/ark:/20179/BNR{id}`) pour chaque `<c>` identifié.
-
-Ces trois étapes sont enchaînées par `transform(progress_callback)`.
-
-### Cas particulier : fichiers `results/ead/ead_cor/bnr2mnesys/`
-
-Dans ces fichiers (déjà transformés par `ead_bnr2mnesys.py`, étape 10), le `<odd>`
-de chaque `<c>` résume déjà ses liens dao/daoloc en clair et est considéré comme
-**la donnée maître** — cf.
-[Les liens DAO : structures et cas de figure](../../documentation/files/donnees/dao_daogrp.md#le-résumé-odd-donnée-maître).
-Pour répercuter une correction faite à la main dans un `<odd>` (ajout,
-modification, suppression d'un `<p>`) sur les `<dao>`/`<daoloc>` correspondants,
-utiliser plutôt :
+La logique métier se trouve dans `ead_preprocess.py`, classe `EAD_preprocess`, et
+tient en une seule opération :
 
 - `sync_dao_from_odd()` — pour chaque `<c>` possédant un `<odd>`, apparie ses `<p>`
-  (format `role href [audience]`) aux `<dao>`/`<daoloc>` existants **par `href`** :
-  mise à jour du `role`/`audience` si le `href` existe déjà, création sinon (même
-  mécanique d'insertion que `apply_odd_to_daoloc`), suppression du `<dao>`/`<daoloc>`
-  dont le `href` a disparu du `<odd>`. Le `<odd>` n'est jamais modifié ni supprimé :
-  il reste réutilisable aux exécutions suivantes. Retourne
-  `{"ajoutes": int, "modifies": int, "supprimes": int}`.
+  reconnus (format `role href [audience]`, rôle EAD parmi `ODD_ROLES`, grammaire
+  documentée dans
+  [Les liens DAO : structures et cas de figure](../../documentation/files/donnees/dao_daogrp.md#le-résumé-odd-donnée-maître))
+  aux `<dao>`/`<daoloc>` existants **par `href`** :
+  - `href` déjà présent → `role`/`audience` mis à jour si besoin ;
+  - `href` absent → nouveau `<daoloc>`/`<dao>` créé (`<daogrp>` existant, `<dao>`
+    isolé converti en `<daogrp>`, ou nouveau `<dao>`/`<daogrp>` si aucun des deux
+    n'existe encore — mécanique de `dao_ark.add_ark_links`) ;
+  - `<dao>`/`<daoloc>` existant dont le `href` a disparu du `<odd>` → supprimé.
 
-Cette méthode n'est pas enchaînée par `transform()` (qui vise le pré-traitement
-avant première publication, cas différent) : elle s'utilise séparément, sur un
-fichier déjà présent dans `results/ead/ead_cor/bnr2mnesys/`.
+  Les `<p>` qui ne commencent par aucun rôle reconnu sont ignorés (notes
+  éditoriales éventuelles du `<odd>`, sans rapport avec les dao). Le `<odd>`
+  lui-même n'est jamais modifié ni supprimé : il reste la référence pour les
+  exécutions suivantes. Retourne `{"ajoutes": int, "modifies": int, "supprimes": int}`.
+
+`transform(progress_callback)` appelle cette méthode et sérialise le résultat ;
+c'est ce qu'utilise l'interface graphique.
 
 ## Exécutable Windows (sans installer Python)
 

@@ -69,7 +69,10 @@ opérations manuelles sur les fichiers EAD :
   transforme les fichiers EAD par formulaires guidés, en particulier les balises
   `<dao>` / `<daoloc>` et `<controlaccess>`.
 - **[EAD DAO Converter](../app/ead_dao_converter/README.md)** (`app/ead_dao_converter/`) —
-  pré-traite les fichiers EAD avant publication, notamment l'insertion des `<dao>`.
+  pour les fichiers de `results/ead/ead_cor/bnr2mnesys/`, synchronise les
+  `<dao>`/`<daogrp>` d'un `<c>` sur son `<odd>` (donnée maître, cf.
+  [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md#le-résumé-odd-donnée-maître)) :
+  ajout, modification ou suppression d'un lien selon les `<p>` du `<odd>`.
   Réutilise pour cela le module [dao_ark.py](files/scripts/dao_ark.md)
   (`scripts/ead/dao_ark.py`), partagé avec `ead_bnr2mnesys.py`.
 

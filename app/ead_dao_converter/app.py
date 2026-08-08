@@ -52,7 +52,7 @@ class Theme:
     window_title: str  = "Convertisseur EAD"
     org_name: str      = "Médiathèque et Archives de Roubaix"
     org_tag: str       = "LA Grand-Plage"   # badge coloré dans l'en-tête
-    app_subtitle: str  = "Préparation des fichiers EAD avant publication"
+    app_subtitle: str  = "Synchronisation des liens <dao> à partir des <odd>"
     logo_path: Optional[str] = field(default_factory=lambda: _resource_path("img", "logo.png"))
 
     # Dimensions
@@ -224,14 +224,14 @@ class EADConverterApp(tk.Tk):
 
         self._build_file_section(
             root, "Fichier source",
-            "Sélectionnez le fichier EAD à convertir :",
+            "Sélectionnez le fichier EAD (results/ead/ead_cor/bnr2mnesys/) à synchroniser :",
             self._source_path, self._browse_source, accent=t.primary)
 
         tk.Frame(root, bg=t.bg, height=10).pack()
 
         self._build_file_section(
             root, "Fichier de sortie",
-            "Chemin d'enregistrement du fichier converti :",
+            "Chemin d'enregistrement du fichier synchronisé :",
             self._output_path, self._browse_output, accent=t.secondary)
 
         tk.Frame(root, bg=t.bg, height=18).pack()
@@ -319,7 +319,7 @@ class EADConverterApp(tk.Tk):
         btn_row = tk.Frame(parent, bg=t.bg)
         btn_row.pack(fill="x")
         self._run_btn = make_button(btn_row,
-                                    text="Lancer la conversion",
+                                    text="Lancer la synchronisation",
                                     command=self._start_conversion,
                                     w=210, h=38, primary=True, theme=t)
         self._run_btn.pack(side="left")
@@ -387,7 +387,7 @@ class EADConverterApp(tk.Tk):
                                  "Veuillez définir le fichier de sortie.")
             return
         self._run_btn.set_state(False)
-        self._set_status(0, "Initialisation de la conversion…")
+        self._set_status(0, "Initialisation de la synchronisation…")
         threading.Thread(target=self._run, args=(src, out), daemon=True).start()
 
     def _run(self, src, out):
@@ -397,18 +397,22 @@ class EADConverterApp(tk.Tk):
             conv = EAD_preprocess(src)
             self.after(0, self._set_status, 10, "Lecture du fichier…")
             conv.load()
-            self.after(0, self._set_status, 20, "Application des transformations EAD…")
-            self._log_append("Transformation en cours…")
-            conv.transform(
+            self.after(0, self._set_status, 20, "Synchronisation des <dao>/<daoloc>…")
+            self._log_append("Synchronisation à partir des <odd>…")
+            stats = conv.transform(
                 progress_callback=lambda v, m: self.after(0, self._set_status, v, m)
+            )
+            self._log_append(
+                f"{stats['ajoutes']} ajoutés, {stats['modifies']} modifiés, "
+                f"{stats['supprimes']} supprimés."
             )
             self.after(0, self._set_status, 95, "Écriture du fichier de sortie…")
             self._log_append(f"Enregistrement : {out}")
             conv.save(out)
-            self.after(0, self._set_status, 100, "Conversion terminée avec succès.")
+            self.after(0, self._set_status, 100, "Synchronisation terminée avec succès.")
             self._log_append("Opération terminée.")
             self.after(0, lambda: messagebox.showinfo(
-                "Conversion réussie", f"Fichier converti enregistré :\n\n{out}"))
+                "Synchronisation réussie", f"Fichier enregistré :\n\n{out}"))
         except Exception as e:
             self.after(0, self._set_status, 0, f"Erreur : {e}")
             self._log_append(f"ERREUR : {e}")

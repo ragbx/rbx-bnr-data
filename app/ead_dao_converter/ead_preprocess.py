@@ -17,7 +17,7 @@ if str(_SCRIPTS_EAD) not in sys.path:
 
 from dao_ark import add_ark_links  # noqa: E402
 
-# Rôles EAD reconnus dans les <p> d'un <odd> (cf. apply_odd_to_daoloc), tels que
+# Rôles EAD reconnus dans les <p> d'un <odd> (cf. sync_dao_from_odd), tels que
 # listés dans documentation/files/donnees/dao_daogrp.md (« Grammaire des role »).
 ODD_ROLES = (
     "publication:current",
@@ -45,7 +45,8 @@ ODD_AUDIENCES = ("internal",)
 
 class EAD_preprocess:
     """
-    Classe de prétraitement EAD Mnesys.
+    Classe de maintien des <dao>/<daoloc> d'un EAD à partir des <odd> (donnée maître),
+    pour les fichiers de results/ead/ead_cor/bnr2mnesys/ (cf. sync_dao_from_odd).
     """
 
     def __init__(self, filepath: str):
@@ -85,74 +86,10 @@ class EAD_preprocess:
 
         return results
 
-    def convert_dao_to_daoloc(self) -> int:
-        """
-        Pour chaque <c> possédant un enfant direct <dao>, convertit cet élément en <daoloc>
-        et l'insère dans le <daogrp> du même <c> (créé si absent).
-        Retourne le nombre d'éléments convertis.
-        """
-        if self.tree is None:
-            raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
-
-        count = 0
-        for c_elem in self.tree.getroot().iter("c"):
-            dao = c_elem.find("dao")
-            if dao is None:
-                continue
-
-            daogrp = c_elem.find("daogrp")
-            if daogrp is None:
-                daogrp = etree.SubElement(c_elem, "daogrp")
-
-            daoloc = etree.SubElement(daogrp, "daoloc")
-            daoloc.attrib.update(dao.attrib)
-
-            c_elem.remove(dao)
-            count += 1
-
-        return count
-
-    def apply_odd_to_daoloc(self) -> int:
-        """
-        Pour chaque <p> d'un <odd> commençant par un rôle EAD reconnu (cf. ODD_ROLES,
-        « Grammaire des role » de documentation/files/donnees/dao_daogrp.md) suivi d'un
-        espace puis d'un nom de fichier, ajoute un lien href="<fichier>" role="<rôle>"
-        au <c> parent du <odd> — délègue à dao_ark.add_ark_links (scripts/ead/dao_ark.py),
-        partagée avec ead_bnr2mnesys.py et add_dao_ark : <daogrp> déjà présent → nouveau
-        <daoloc> dans ce groupe (sans doublon de role) ; <dao> isolé déjà présent → converti
-        en <daoloc> dans un nouveau <daogrp> avec les nouveaux liens ; ni l'un ni l'autre →
-        nouveau <dao> (lien unique) ou <daogrp> (plusieurs liens).
-        Supprime le <odd> traité (si au moins un <p> a été reconnu).
-        Retourne le nombre de liens ajoutés.
-        """
-        if self.tree is None:
-            raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
-
-        def link_builder(c_elem):
-            odd = c_elem.find("odd")
-            if odd is None:
-                return []
-
-            liens = []
-            for p in odd.iter("p"):
-                text = (p.text or "").strip()
-                for role in ODD_ROLES:
-                    if text.startswith(role + " "):
-                        filename = text[len(role) + 1:].strip()
-                        liens.append((filename, role))
-                        break
-
-            if liens:
-                c_elem.remove(odd)
-            return liens
-
-        return add_ark_links(self.tree.getroot(), link_builder, tags=("c",))
-
     def sync_dao_from_odd(self) -> dict:
         """
         Pour chaque <c> possédant un <odd>, synchronise ses <dao>/<daoloc> pour qu'ils
-        reflètent exactement les <p> reconnus du <odd> (l'<odd> devient la donnée
-        maître, à la différence de apply_odd_to_daoloc qui le consomme et le supprime) :
+        reflètent exactement les <p> reconnus du <odd> (l'<odd> est la donnée maître) :
 
         - chaque <p> commençant par un rôle EAD reconnu (cf. ODD_ROLES) suivi d'un
           espace, d'un href puis, optionnellement, d'un espace et d'une audience
@@ -250,44 +187,22 @@ class EAD_preprocess:
 
         return stats
 
-    def add_dao_ark(self) -> int:
+    def transform(self, progress_callback=None) -> dict:
         """
-        Pour chaque <c> possédant un attribut 'id', ajoute un lien ARK
-        (https://www.bn-r.fr/ark:/20179/BNR<id>, role="ark") sous forme de
-        <dao>/<daoloc> — cf. dao_ark.add_ark_links (scripts/ead/dao_ark.py),
-        partagée avec ead_bnr2mnesys.py : un rôle déjà présent dans un <daogrp>
-        existant n'est pas dupliqué, et le lien est inséré avant les <c>/<dsc>
-        enfants s'il y en a.
-        Retourne le nombre de liens ARK ajoutés.
-        """
-        if self.tree is None:
-            raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
-
-        def link_builder(c_elem):
-            ark = c_elem.get("id")
-            if not ark:
-                return []
-            return [(f"https://www.bn-r.fr/ark:/20179/BNR{ark}", "ark")]
-
-        return add_ark_links(self.tree.getroot(), link_builder, tags=("c",))
-
-    def transform(self, progress_callback=None) -> None:
-        """
-        Applique les transformations EAD de pré-traitement.
+        Synchronise les <dao>/<daoloc> à partir des <odd> (cf. sync_dao_from_odd).
         progress_callback(value: int, message: str) permet de mettre à jour l'UI.
+        Retourne les statistiques de sync_dao_from_odd.
         """
         if self.tree is None:
             raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
 
         if progress_callback:
-            progress_callback(25, "Analyse de la structure EAD…")
+            progress_callback(25, "Analyse des <odd>…")
 
-        self.convert_dao_to_daoloc()
-        self.apply_odd_to_daoloc()
-        self.add_dao_ark()
+        stats = self.sync_dao_from_odd()
 
         if progress_callback:
-            progress_callback(60, "Application des règles de conversion…")
+            progress_callback(60, "Synchronisation des <dao>/<daoloc>…")
 
         docinfo = self.tree.docinfo
         self.result = etree.tostring(
@@ -300,6 +215,8 @@ class EAD_preprocess:
         if progress_callback:
             progress_callback(90, "Finalisation du document…")
 
+        return stats
+
     def save(self, output_path: str) -> None:
         """Enregistre le fichier transformé."""
         if self.result is None:
@@ -311,4 +228,4 @@ class EAD_preprocess:
     def output_filename(self) -> str:
         """Suggère un nom de fichier de sortie."""
         name, ext = os.path.splitext(self.filename)
-        return f"{name}_mnesys{ext}"
+        return f"{name}_sync{ext}"
