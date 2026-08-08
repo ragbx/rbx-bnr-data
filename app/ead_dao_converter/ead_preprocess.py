@@ -36,6 +36,12 @@ ODD_ROLES = (
     "preservation:video",
 )
 
+# Valeurs reconnues de l'attribut audience (cf. documentation/files/donnees/dao_daogrp.md :
+# "internal" est la seule valeur observée dans tout le corpus). Utilisé pour distinguer,
+# dans un <p> "role href [audience]" de sync_dao_from_odd, l'audience d'un href qui
+# contiendrait lui-même un espace (cas réel : noms de fichiers mal saisis).
+ODD_AUDIENCES = ("internal",)
+
 
 class EAD_preprocess:
     """
@@ -141,6 +147,108 @@ class EAD_preprocess:
             return liens
 
         return add_ark_links(self.tree.getroot(), link_builder, tags=("c",))
+
+    def sync_dao_from_odd(self) -> dict:
+        """
+        Pour chaque <c> possédant un <odd>, synchronise ses <dao>/<daoloc> pour qu'ils
+        reflètent exactement les <p> reconnus du <odd> (l'<odd> devient la donnée
+        maître, à la différence de apply_odd_to_daoloc qui le consomme et le supprime) :
+
+        - chaque <p> commençant par un rôle EAD reconnu (cf. ODD_ROLES) suivi d'un
+          espace, d'un href puis, optionnellement, d'un espace et d'une audience
+          ("role href" ou "role href audience") ;
+        - les <p> qui ne commencent par aucun rôle reconnu sont ignorés (notes
+          éditoriales éventuelles du <odd>, non liées aux dao) ;
+        - un <dao>/<daoloc> existant est apparié à un <p> par son href (clé unique) :
+          role/audience sont mis à jour si besoin ;
+        - un href présent dans le <odd> mais sans <dao>/<daoloc> correspondant est
+          créé (délègue à dao_ark.add_ark_links pour l'insertion : <daogrp> existant,
+          <dao> isolé converti en <daogrp>, ou nouveau <dao>/<daogrp>) ;
+        - un <dao>/<daoloc> existant dont le href n'apparaît plus dans le <odd> est
+          supprimé.
+
+        Le <odd> lui-même n'est jamais modifié ni supprimé : il reste la référence
+        pour les exécutions suivantes.
+
+        Retourne {"ajoutes": int, "modifies": int, "supprimes": int}.
+        """
+        if self.tree is None:
+            raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
+
+        stats = {"ajoutes": 0, "modifies": 0, "supprimes": 0}
+
+        for c_elem in self.tree.getroot().iter("c"):
+            odd = c_elem.find("odd")
+            if odd is None:
+                continue
+
+            odd_liens = {}
+            for p in odd.iter("p"):
+                text = (p.text or "").strip()
+                for role in ODD_ROLES:
+                    if not text.startswith(role + " "):
+                        continue
+                    reste = text[len(role) + 1:].strip()
+                    audience = None
+                    for valeur in ODD_AUDIENCES:
+                        if reste.endswith(" " + valeur) and len(reste) > len(valeur) + 1:
+                            audience = valeur
+                            reste = reste[: -(len(valeur) + 1)]
+                            break
+                    href = reste.strip()
+                    if href:
+                        odd_liens[href] = (role, audience)
+                    break
+
+            existants = [child for child in c_elem if child.tag == "dao"]
+            for daogrp in c_elem.findall("daogrp"):
+                existants.extend(daogrp.findall("daoloc"))
+            existants_par_href = {e.get("href"): e for e in existants}
+
+            for href, elem in existants_par_href.items():
+                if href not in odd_liens:
+                    elem.getparent().remove(elem)
+                    stats["supprimes"] += 1
+
+            a_ajouter = {}
+            for href, (role, audience) in odd_liens.items():
+                elem = existants_par_href.get(href)
+                if elem is None or elem.getparent() is None:
+                    a_ajouter[href] = (role, audience)
+                    continue
+                change = False
+                if elem.get("role") != role:
+                    elem.set("role", role)
+                    change = True
+                if elem.get("audience") != audience:
+                    if audience:
+                        elem.set("audience", audience)
+                    else:
+                        elem.attrib.pop("audience", None)
+                    change = True
+                if change:
+                    stats["modifies"] += 1
+
+            if not a_ajouter:
+                continue
+
+            stats["ajoutes"] += add_ark_links(
+                c_elem,
+                lambda el, liens=a_ajouter: [
+                    (href, role) for href, (role, _) in liens.items()
+                ],
+                tags=("c",),
+            )
+
+            for href, (_, audience) in a_ajouter.items():
+                if not audience:
+                    continue
+                for elem in c_elem.iter("dao", "daoloc"):
+                    if elem.get("href") == href:
+                        elem.set("audience", audience)
+                        break
+
+        return stats
 
     def add_dao_ark(self) -> int:
         """

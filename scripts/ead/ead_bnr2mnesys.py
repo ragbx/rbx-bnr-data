@@ -109,14 +109,19 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Dans chaque <daogrp>, <daodesc> est placé en premier, puis les <daoloc> sont
      réordonnés : preservation: d'abord, access: ensuite, publication: en dernier.
 
-10. Reclassement des balises <name>
+10. Ajout des <odd> résumant les liens dao/daoloc
+   - Pour chaque <c> contenant un <dao> isolé ou un <daogrp>, un <odd> est inséré juste
+     après cet élément, avec un <p> par lien au format "role href audience" (le segment
+     audience est omis quand l'attribut est absent).
+
+11. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
      selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
 
-11. Suppression des <repository> hors contexte
+12. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-12. Normalisation des sources de <controlaccess>
+13. Normalisation des sources de <controlaccess>
    - Les <genreform>, <persname>, <corpname> sans attribut source reçoivent la
      source de thésaurus par défaut de leur balise (bnr_genreform/persname/corpname).
    - Les <subject> de source "chrono"/"theme"/"Rameau" voient leur source
@@ -126,7 +131,7 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Les valeurs de thésaurus sont écrites sous la forme
      "thesaurus--SLASH--<nom>.xml".
 
-13. Nettoyage final
+14. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -444,6 +449,36 @@ class EADbnr2mnesys:
                     new_daoloc.set("href", ajout_href)
                     new_daoloc.set("role", ajout_role)
 
+    def _add_odd_liens(self, element):
+        """
+        Pour chaque <c> contenant un <dao> isolé ou un <daogrp>, insère juste après
+        cet élément un <odd> avec un <p> par lien dao/daoloc, au format
+        "role href audience" (le segment audience est omis quand l'attribut est absent).
+        """
+        for c in element.iter("c"):
+            liens = []
+            insert_after = None
+            for child in c:
+                if child.tag == "dao":
+                    liens.append(child)
+                    insert_after = child
+                elif child.tag == "daogrp":
+                    liens.extend(child.findall("daoloc"))
+                    insert_after = child
+
+            if not liens:
+                continue
+
+            odd = etree.Element("odd")
+            for lien in liens:
+                parts = [
+                    v for v in (lien.get("role"), lien.get("href"), lien.get("audience")) if v
+                ]
+                p = etree.SubElement(odd, "p")
+                p.text = " ".join(parts)
+
+            c.insert(list(c).index(insert_after) + 1, odd)
+
     def _sort_daogrp(self, element):
         """Trie les enfants de chaque <daogrp> : <daodesc> toujours en premier, puis les
         <daoloc> par role (preservation: d'abord, access: ensuite, publication: en dernier)."""
@@ -664,6 +699,7 @@ class EADbnr2mnesys:
         self._add_conservation_daoloc(root)
         merge_daogrp(root)
         self._sort_daogrp(root)
+        self._add_odd_liens(root)
         self._remove_name(root)
         self._remove_repositories(root)
         self._update_controlaccess_source(root)

@@ -39,10 +39,33 @@ La logique métier se trouve dans `ead_preprocess.py`, classe `EAD_preprocess` :
    `documentation/files/donnees/dao_daogrp.md`) suivi d'un espace puis d'un nom de
    fichier, ajoute le lien au `<c>` parent : nouveau `<daoloc>` dans le `<daogrp>`
    existant, ou `<dao>` isolé existant converti en `<daoloc>` dans un nouveau
-   `<daogrp>`, ou nouveau `<dao>`/`<daogrp>` si aucun des deux n'existe encore
+   `<daogrp>`, ou nouveau `<dao>`/`<daogrp>` si aucun des deux n'existe encore.
+   Consomme le `<odd>` (le supprime une fois ses `<p>` reconnus traités).
 3. `add_dao_ark()` — ajoute un lien ARK (`https://www.bn-r.fr/ark:/20179/BNR{id}`) pour chaque `<c>` identifié.
 
 Ces trois étapes sont enchaînées par `transform(progress_callback)`.
+
+### Cas particulier : fichiers `results/ead/ead_cor/bnr2mnesys/`
+
+Dans ces fichiers (déjà transformés par `ead_bnr2mnesys.py`, étape 10), le `<odd>`
+de chaque `<c>` résume déjà ses liens dao/daoloc en clair et est considéré comme
+**la donnée maître** — cf.
+[Les liens DAO : structures et cas de figure](../../documentation/files/donnees/dao_daogrp.md#le-résumé-odd-donnée-maître).
+Pour répercuter une correction faite à la main dans un `<odd>` (ajout,
+modification, suppression d'un `<p>`) sur les `<dao>`/`<daoloc>` correspondants,
+utiliser plutôt :
+
+- `sync_dao_from_odd()` — pour chaque `<c>` possédant un `<odd>`, apparie ses `<p>`
+  (format `role href [audience]`) aux `<dao>`/`<daoloc>` existants **par `href`** :
+  mise à jour du `role`/`audience` si le `href` existe déjà, création sinon (même
+  mécanique d'insertion que `apply_odd_to_daoloc`), suppression du `<dao>`/`<daoloc>`
+  dont le `href` a disparu du `<odd>`. Le `<odd>` n'est jamais modifié ni supprimé :
+  il reste réutilisable aux exécutions suivantes. Retourne
+  `{"ajoutes": int, "modifies": int, "supprimes": int}`.
+
+Cette méthode n'est pas enchaînée par `transform()` (qui vise le pré-traitement
+avant première publication, cas différent) : elle s'utilise séparément, sur un
+fichier déjà présent dans `results/ead/ead_cor/bnr2mnesys/`.
 
 ## Exécutable Windows (sans installer Python)
 

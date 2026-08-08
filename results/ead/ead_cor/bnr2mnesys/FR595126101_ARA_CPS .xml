@@ -46,6 +46,10 @@
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634loe4Uw" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51328" role="publication:previous"/>
         </daogrp>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634loe4Uw</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51328</p>
+        </odd>
         <c level="subseries" id="m01781244634SJbCE1">
           <did>
             <unitid>ARA_CPS_VI2_PIL</unitid>
@@ -63,6 +67,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SJbCE1" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51329" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634SJbCE1</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51329</p>
+          </odd>
           <c level="file" id="m01781244634ZBhzld">
             <did>
               <unitid>ARA_CPS_VI2_PIL_001</unitid>
@@ -70,12 +78,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore. &lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ZBhzld" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51330" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634ZBhzld</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51330</p>
+            </odd>
           </c>
           <c level="file" id="m017812446346CD55p">
             <did>
@@ -84,12 +102,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346CD55p" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51331" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446346CD55p</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51331</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634aPSCqf">
             <did>
@@ -98,12 +126,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634aPSCqf" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51332" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634aPSCqf</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51332</p>
+            </odd>
           </c>
           <c level="file" id="m017812446341mdf7n">
             <did>
@@ -112,12 +150,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446341mdf7n" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51333" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446341mdf7n</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51333</p>
+            </odd>
           </c>
           <c level="file" id="m017812446343MTBim">
             <did>
@@ -126,12 +174,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343MTBim" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51334" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446343MTBim</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51334</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634FuOcXv">
             <did>
@@ -140,12 +198,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PIL_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_PIL_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634FuOcXv" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51335" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_PIL_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634FuOcXv</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51335</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634aBqmV1">
@@ -165,6 +233,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634aBqmV1" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51336" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634aBqmV1</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51336</p>
+          </odd>
           <c level="file" id="m01781244634wC1QUS">
             <did>
               <unitid>ARA_CPS_VI2_MAI_001</unitid>
@@ -172,12 +244,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634wC1QUS" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51337" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634wC1QUS</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51337</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634PObcmW">
             <did>
@@ -186,12 +268,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634PObcmW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51338" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634PObcmW</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51338</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634g37lAy">
             <did>
@@ -200,12 +292,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634g37lAy" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51339" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634g37lAy</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51339</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634Cr9bQO">
             <did>
@@ -215,10 +317,17 @@
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Cr9bQO" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51340" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_004.jpg</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634Cr9bQO</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51340</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634JY9Ozy">
             <did>
@@ -227,12 +336,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JY9Ozy" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51341" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634JY9Ozy</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51341</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634xQcAhE">
             <did>
@@ -241,12 +360,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xQcAhE" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51342" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634xQcAhE</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51342</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634027zbs">
             <did>
@@ -255,12 +384,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_MAI_007.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_MAI_007.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634027zbs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51343" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_MAI_007.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634027zbs</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51343</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634os71E7">
@@ -280,6 +419,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634os71E7" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51344" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634os71E7</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51344</p>
+          </odd>
           <c level="file" id="m01781244634UTpX5y">
             <did>
               <unitid>ARA_CPS_VI2_VER_001</unitid>
@@ -287,12 +430,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634UTpX5y" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51345" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634UTpX5y</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51345</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634IIJEnX">
             <did>
@@ -301,12 +454,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634IIJEnX" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51346" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634IIJEnX</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51346</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634OttdUt">
             <did>
@@ -315,12 +478,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OttdUt" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51347" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634OttdUt</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51347</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634EnpqrG">
             <did>
@@ -329,12 +502,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EnpqrG" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51348" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634EnpqrG</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51348</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634SrYm3z">
             <did>
@@ -343,12 +526,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SrYm3z" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51349" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634SrYm3z</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51349</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634ttg5Ux">
             <did>
@@ -357,12 +550,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ttg5Ux" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51350" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634ttg5Ux</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51350</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634BIvObe">
             <did>
@@ -371,12 +574,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_007.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_007.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634BIvObe" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51351" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_007.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634BIvObe</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51351</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634e5X0IA">
             <did>
@@ -385,12 +598,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_VER_008.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_VER_008.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634e5X0IA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51352" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_VER_008.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634e5X0IA</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51352</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634zy7VMH">
@@ -410,6 +633,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634zy7VMH" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51353" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634zy7VMH</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51353</p>
+          </odd>
           <c level="file" id="m01781244634JPZuRg">
             <did>
               <unitid>ARA_CPS_VI2_HOR_001</unitid>
@@ -417,12 +644,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JPZuRg" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51354" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634JPZuRg</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51354</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634cb7Mih">
             <did>
@@ -431,12 +668,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634cb7Mih" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51355" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634cb7Mih</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51355</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634SuBAuc">
             <did>
@@ -445,12 +692,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SuBAuc" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51356" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634SuBAuc</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51356</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634WMorGh">
             <did>
@@ -459,12 +716,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634WMorGh" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51357" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634WMorGh</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51357</p>
+            </odd>
           </c>
           <c level="file" id="m017812446346DynXU">
             <did>
@@ -473,12 +740,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346DynXU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51358" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446346DynXU</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51358</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634fl7HFQ">
             <did>
@@ -487,12 +764,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634fl7HFQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51359" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634fl7HFQ</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51359</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634SZTUnl">
             <did>
@@ -501,12 +788,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_007.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_007.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SZTUnl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51360" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_007.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634SZTUnl</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51360</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634jzbuYf">
             <did>
@@ -515,12 +812,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_008.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_008.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634jzbuYf" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51361" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_008.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634jzbuYf</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51361</p>
+            </odd>
           </c>
           <c level="file" id="m017812446343jTA33">
             <did>
@@ -529,12 +836,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_009.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_009.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343jTA33" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51362" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_009.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446343jTA33</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51362</p>
+            </odd>
           </c>
           <c level="file" id="m017812446345a62ub">
             <did>
@@ -543,12 +860,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_010.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_010.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345a62ub" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51363" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_010.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446345a62ub</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51363</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634EW2wRV">
             <did>
@@ -557,12 +884,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_011.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_011.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634EW2wRV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51364" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_011.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634EW2wRV</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51364</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634IyhXME">
             <did>
@@ -571,12 +908,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_012.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_012.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634IyhXME" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51365" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_012.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634IyhXME</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51365</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634lT8vM8">
             <did>
@@ -585,12 +932,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_013.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_013.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634lT8vM8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51366" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_013.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634lT8vM8</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51366</p>
+            </odd>
           </c>
           <c level="file" id="m017812446341vm6Vn">
             <did>
@@ -599,12 +956,22 @@
               <physdesc>&lt;p&gt;1 carte postale en papier.&lt;/p&gt;&#13;
 &lt;p&gt;1 enregistrement sonore.&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_HOR_014.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_HOR_014.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446341vm6Vn" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51367" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_HOR_014.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446341vm6Vn</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51367</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634re4F8g">
@@ -624,6 +991,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634re4F8g" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51368" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634re4F8g</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51368</p>
+          </odd>
           <c level="file" id="m017812446345miG6G">
             <did>
               <unitid>ARA_CPS_VI2_LEO_001</unitid>
@@ -631,12 +1002,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345miG6G" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51369" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446345miG6G</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51369</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634vqhq38">
             <did>
@@ -645,12 +1026,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634vqhq38" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51370" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634vqhq38</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51370</p>
+            </odd>
           </c>
           <c level="file" id="m017812446340p47Wb">
             <did>
@@ -659,12 +1050,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446340p47Wb" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51371" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446340p47Wb</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51371</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634t1lpRM">
             <did>
@@ -673,12 +1074,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634t1lpRM" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51372" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634t1lpRM</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51372</p>
+            </odd>
           </c>
           <c level="file" id="m017812446344rZWAs">
             <did>
@@ -687,12 +1098,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446344rZWAs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51373" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446344rZWAs</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51373</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634JmIJWq">
             <did>
@@ -701,12 +1122,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JmIJWq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51374" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634JmIJWq</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51374</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634ilaQDz">
             <did>
@@ -715,12 +1146,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_007.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_007.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ilaQDz" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51375" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_007.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634ilaQDz</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51375</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634sMZcEL">
             <did>
@@ -729,12 +1170,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_008.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_008.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634sMZcEL" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51376" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_008.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634sMZcEL</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51376</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634Yhhfga">
             <did>
@@ -743,12 +1194,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_009.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_009.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Yhhfga" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51377" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_009.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634Yhhfga</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51377</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634annZqj">
             <did>
@@ -757,12 +1218,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_010.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_010.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634annZqj" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51378" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_010.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634annZqj</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51378</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634XDMDQl">
             <did>
@@ -771,12 +1242,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_011.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_011.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XDMDQl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51379" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_011.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634XDMDQl</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51379</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634SS1Vus">
             <did>
@@ -785,12 +1266,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_012.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_012.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634SS1Vus" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51380" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_012.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634SS1Vus</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51380</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634HyH2Hs">
             <did>
@@ -799,12 +1290,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_013.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_013.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634HyH2Hs" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51381" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_013.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634HyH2Hs</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51381</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634vuo5Yl">
             <did>
@@ -813,12 +1314,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_014.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_014.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634vuo5Yl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51382" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_014.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634vuo5Yl</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51382</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634xv2lJV">
             <did>
@@ -827,12 +1338,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_015.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_015.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634xv2lJV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51383" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_015.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634xv2lJV</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51383</p>
+            </odd>
           </c>
           <c level="file" id="m017812446346dwf9u">
             <did>
@@ -841,12 +1362,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_016.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_016.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446346dwf9u" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51384" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_016.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446346dwf9u</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51384</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634mxyp7a">
             <did>
@@ -855,12 +1386,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_017.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_017.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634mxyp7a" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51385" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_017.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634mxyp7a</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51385</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634Qiw3GU">
             <did>
@@ -869,12 +1410,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_018.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_018.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Qiw3GU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51386" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_018.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634Qiw3GU</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51386</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634iw58EE">
             <did>
@@ -883,12 +1434,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_019.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_019.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634iw58EE" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51387" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_019.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634iw58EE</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51387</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634GblxD8">
             <did>
@@ -897,12 +1458,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_LEO_020.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_LEO_020.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634GblxD8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51388" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_LEO_020.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634GblxD8</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51388</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634eOv4Xe">
@@ -922,6 +1493,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634eOv4Xe" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51389" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634eOv4Xe</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51389</p>
+          </odd>
           <c level="file" id="m017812446345h0fpZ">
             <did>
               <unitid>ARA_CPS_VI2_TRO_001</unitid>
@@ -929,12 +1504,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_001.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446345h0fpZ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51390" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446345h0fpZ</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51390</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634OUqj2A">
             <did>
@@ -943,12 +1528,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634OUqj2A" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51391" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634OUqj2A</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51391</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634j4eAAV">
             <did>
@@ -957,12 +1552,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634j4eAAV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51392" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634j4eAAV</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51392</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634CyR3dW">
             <did>
@@ -971,12 +1576,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634CyR3dW" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51393" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634CyR3dW</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51393</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634Mtifn0">
             <did>
@@ -985,12 +1600,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_005.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Mtifn0" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51394" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634Mtifn0</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51394</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634hprpmA">
             <did>
@@ -999,12 +1624,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_006.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_006.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634hprpmA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51395" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_006.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634hprpmA</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51395</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634DgoLyO">
             <did>
@@ -1013,12 +1648,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_007.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_007.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634DgoLyO" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51396" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_007.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634DgoLyO</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51396</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634ATHfiT">
             <did>
@@ -1027,12 +1672,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_008.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_008.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634ATHfiT" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51397" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_008.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634ATHfiT</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51397</p>
+            </odd>
           </c>
           <c level="file" id="m017812446340CD1X5">
             <did>
@@ -1042,10 +1697,17 @@
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
             <daogrp>
-              <daoloc href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_009.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_009.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_009.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446340CD1X5" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51398" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_009.wav</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_009.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446340CD1X5</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51398</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634pGBQgq">
             <did>
@@ -1054,12 +1716,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_010.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_010.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pGBQgq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51399" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_010.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634pGBQgq</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51399</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634Rf1iJY">
             <did>
@@ -1068,12 +1740,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_TRO_011.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_TRO_011.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634Rf1iJY" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51400" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_TRO_011.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634Rf1iJY</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51400</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634pxZrwu">
@@ -1093,6 +1775,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634pxZrwu" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51401" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634pxZrwu</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51401</p>
+          </odd>
           <c level="file" id="m017812446347BaIUl">
             <did>
               <unitid>ARA_CPS_VI2_PAT_001</unitid>
@@ -1104,12 +1790,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_001_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446347BaIUl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51402" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_001.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_001.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446347BaIUl</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51402</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634LVeuHn">
             <did>
@@ -1122,12 +1821,25 @@
               <daodesc>
                 <p>Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_002_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634LVeuHn" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51403" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_002.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_002.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634LVeuHn</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51403</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634P8TplZ">
             <did>
@@ -1140,12 +1852,25 @@
               <daodesc>
                 <p>RBX_ARA_CPS_VI2_PAT_001_001.jpg</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_003_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634P8TplZ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51404" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_003.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_003.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634P8TplZ</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51404</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634JHib99">
             <did>
@@ -1158,12 +1883,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_004_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634JHib99" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51405" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_004.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_004.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634JHib99</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51405</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634LBADLf">
             <did>
@@ -1176,12 +1914,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_005_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634LBADLf" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51406" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_005.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_005.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634LBADLf</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51406</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634CdGosr">
             <did>
@@ -1194,12 +1945,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_006_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634CdGosr" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51407" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_006.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_006.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634CdGosr</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51407</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634cgvBGi">
             <did>
@@ -1212,12 +1976,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_007_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634cgvBGi" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51408" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_007.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_007.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634cgvBGi</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51408</p>
+            </odd>
           </c>
           <c level="file" id="m017812446343RuI5f">
             <did>
@@ -1230,12 +2007,25 @@
               <daodesc>
                 <p>Carte postale sonore de l'Association Temps de vie, Multi-accueil Pataponts</p>
               </daodesc>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_001.jpg" role="access:image:first"/>
-              <daoloc href="RBX_ARA_CPS_VI2_PAT_008_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_001.jpg" role="preservation:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_003.jpg" role="preservation:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_001.jpg" role="access:image:first"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_003.jpg" role="access:image:last"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008.mp3" role="access:audio"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446343RuI5f" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51409" role="publication:previous"/>
             </daogrp>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_PAT_008.mp3" role="access:audio"/>
+            <odd>
+              <p>preservation:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_001.jpg</p>
+              <p>preservation:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_003.jpg</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008.wav</p>
+              <p>access:image:first ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_001.jpg</p>
+              <p>access:image:last ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_PAT_008.mp3</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446343RuI5f</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51409</p>
+            </odd>
           </c>
         </c>
         <c level="subseries" id="m01781244634p0rutZ">
@@ -1255,6 +2045,10 @@
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634p0rutZ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51410" role="publication:previous"/>
           </daogrp>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634p0rutZ</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51410</p>
+          </odd>
           <c level="file" id="m0178124463428PZMg">
             <did>
               <unitid>ARA_CPS_VI2_SAI_001</unitid>
@@ -1262,13 +2056,26 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;2 enregistrements sonores.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_001_001.mp3" role="access:audio"/>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_001_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_SAI_001.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124463428PZMg" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51411" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_001.wav</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_001.mp3</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_001.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm0178124463428PZMg</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51411</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634XRGVWA">
             <did>
@@ -1277,12 +2084,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_SAI_002.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634XRGVWA" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51412" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_002.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634XRGVWA</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51412</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634csfizQ">
             <did>
@@ -1291,12 +2108,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_003.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_SAI_003.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634csfizQ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51413" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_003.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634csfizQ</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51413</p>
+            </odd>
           </c>
           <c level="file" id="m017812446342uxlIa">
             <did>
@@ -1305,12 +2132,22 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 enregistrement sonore.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_004.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_SAI_004.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446342uxlIa" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51414" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_004.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446342uxlIa</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51414</p>
+            </odd>
           </c>
           <c level="file" id="m01781244634i2TP28">
             <did>
@@ -1319,13 +2156,26 @@
               <physdesc>&lt;p&gt;&lt;span style="font-family: Calibri;"&gt;1 carte postale en papier.&lt;/span&gt;&lt;/p&gt;&#13;
 &lt;p&gt;&lt;span style="font-family: Calibri;"&gt;2 enregistrements sonores.&lt;/span&gt;&lt;/p&gt;</physdesc>
             </did>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_005_001.mp3" role="access:audio"/>
-            <dao href="http://www.bn-r.fr/musique/RBX_ARA_CPS_VI2_SAI_005_002.mp3" role="access:audio"/>
             <daogrp>
-              <daoloc href="RBX_ARA_CPS_VI2_SAI_005.jpg" role="access:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_001.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_002.wav" role="preservation:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005.jpg" role="preservation:image"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_001.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_002.mp3" role="access:audio"/>
+              <daoloc href="ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005.jpg" role="access:image"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634i2TP28" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR51415" role="publication:previous"/>
             </daogrp>
+            <odd>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_001.wav</p>
+              <p>preservation:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_002.wav</p>
+              <p>preservation:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005.jpg</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_001.mp3</p>
+              <p>access:audio ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005_002.mp3</p>
+              <p>access:image ARA/ARA_CPS/RBX_ARA_CPS_VI2_SAI_005.jpg</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634i2TP28</p>
+              <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51415</p>
+            </odd>
           </c>
         </c>
       </c>

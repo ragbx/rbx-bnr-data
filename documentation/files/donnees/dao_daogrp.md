@@ -300,6 +300,51 @@ conservation des deux médias :
 
 ---
 
+## Le résumé `<odd>` (donnée maître)
+
+Depuis [ead_bnr2mnesys.py](../scripts/ead_bnr2mnesys.md) (étape 10), chaque `<c>`
+possédant un `<dao>` isolé ou un `<daogrp>` reçoit, juste après, un `<odd>` qui
+résume ses liens en clair, un `<p>` par lien :
+
+    <daogrp>
+      <daoloc href="MED/MED_CHA/RBX_MED_CHA_0091.tif" role="preservation:image"/>
+      <daoloc href="MED/MED_CHA/RBX_MED_CHA_0091.jpg" role="access:image"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TPOobF" role="publication:current"/>
+      <daoloc href="https://www.bn-r.fr/ark:/20179/BNR22820" role="publication:previous"/>
+    </daogrp>
+    <odd>
+      <p>preservation:image MED/MED_CHA/RBX_MED_CHA_0091.tif</p>
+      <p>access:image MED/MED_CHA/RBX_MED_CHA_0091.jpg</p>
+      <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641TPOobF</p>
+      <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR22820</p>
+    </odd>
+
+Chaque `<p>` suit le format **`role href [audience]`** (le segment `audience` est
+omis quand l'attribut est absent ; dans tout le corpus, `audience` ne prend
+d'ailleurs que la valeur `internal`).
+
+**Dans les fichiers de `results/ead/ead_cor/bnr2mnesys/`, ce `<odd>` est
+considéré comme la donnée maître** : une correction faite à la main sur ses
+`<p>` (ajout, modification, suppression d'un lien) doit être répercutée sur
+`<dao>`/`<daogrp>` avec `sync_dao_from_odd()`
+(`app/ead_dao_converter/ead_preprocess.py`, cf.
+[EAD DAO Converter](../../../app/ead_dao_converter/README.md)) :
+
+- un `href` du `<odd>` déjà présent sur un `<dao>`/`<daoloc>` → son `role`/`audience`
+  est mis à jour ;
+- un `href` du `<odd>` absent → un nouveau `<daoloc>`/`<dao>` est créé (mécanique de
+  `dao_ark.add_ark_links`, cf. [dao_ark.py](../scripts/dao_ark.md)) ;
+- un `<dao>`/`<daoloc>` existant dont le `href` n'apparaît plus dans le `<odd>` →
+  supprimé.
+
+Le `<odd>` lui-même n'est jamais modifié ni supprimé par cette synchronisation :
+il reste la référence pour les exécutions suivantes. Les `<p>` qui ne commencent
+pas par un `role` reconnu (cf. grammaire ci-dessus) sont ignorés — ce sont
+d'éventuelles notes éditoriales, sans rapport avec les dao, qui peuvent cohabiter
+dans le même `<odd>`.
+
+---
+
 ## Voir aussi
 
 - [Chaîne d'appariement des DAO](../scripts/dao_appariement.md) — les scripts qui
