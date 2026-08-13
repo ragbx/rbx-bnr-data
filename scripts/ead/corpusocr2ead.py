@@ -21,6 +21,8 @@ sert de base au lien ARK actuel (role="publication:current"), ajouté à chaque
 dont l'unitid est connu de l'ancien référencement OAI (colonne osiros_id du
 ref, cf. dict_osiros et ajouter_ark).
 
+TODO : ajouter AMR_PUV, AMR_PVC, MED_PER ?
+
 Usage
 -----
     python scripts/ead/corpusocr2ead.py
