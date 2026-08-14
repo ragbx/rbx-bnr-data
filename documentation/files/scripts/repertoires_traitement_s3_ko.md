@@ -41,7 +41,10 @@ Depuis la racine du projet :
 
 Un fichier est considéré en traitement S3 **KO** si sa valeur
 `conservation_statut` ne contient aucune des chaînes de caractères
-`TRANSFERT_S3_OK`, `CORBEILLE`, `SUPPRIMER`, `NE PAS GARDER` — c'est la règle
-inverse de la colonne `traitement_s3` du [suivi des corpus](suivi_corpus.md).
-Les statuts concernés sont donc `INCONNU`, `À TRANSFERER` et
-`EN LIGNE - À TRANSFERER ?`.
+`TRANSFERT_S3_OK` ou `À SUPPRIMER` — c'est la règle inverse de la colonne
+`traitement_s3` du [suivi des corpus](suivi_corpus.md) (mêmes deux chaînes,
+alignées le 2026-07-11 avec l'harmonisation des statuts — voir le
+[détail des statuts](../donnees/fichier_ref.md)). Les statuts concernés sont
+donc `À TRANSFERER APRES VALIDATION` (et les autres `À TRANSFERER*`),
+`INCONNU` (et ses variantes), `EN LIGNE - À TRANSFERER ?`, `S3_KEY À
+CONSTRUIRE` et `DOUBLON - À VOIR`.

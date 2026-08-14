@@ -68,12 +68,16 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 
 ### 5. Fusion des `<daogrp>` multiples
 - Quand un même `<archdesc>`/`<c>` contient plusieurs `<daogrp>` directs, leurs contenus
-  sont fusionnés dans le premier. Les `<daodesc>` de même texte et les `<daoloc>` de
-  même couple (href, role) ne sont pas dupliqués.
+  sont fusionnés dans le premier (`merge_daogrp`, cf. [scripts/ead/dao_ark.py](dao_ark.md),
+  module partagé avec `app/ead_dao_converter`). Les `<daodesc>` de même texte et les
+  `<daoloc>` de même couple (href, role) ne sont pas dupliqués.
 - La fusion est réappliquée après l'étape 8 : la conversion d'un `<dao>` isolé en
   `<daogrp>` peut recréer un doublon dans un `<c>` qui possédait déjà un `<daogrp>`.
 
 ### 6. Ajout des liens ARK BnR
+- La mécanique d'insertion des liens (`add_ark_links`, cf.
+  [scripts/ead/dao_ark.py](dao_ark.md), module partagé avec `app/ead_dao_converter`)
+  est appelée ici avec un `link_builder` propre à bn-r → Mnesys.
 - Pour chaque `<archdesc>` et `<c>` portant un attribut `id`, l'ARK actuel construit à
   partir de cet id (`https://www.bn-r.fr/ark:/20179/BNR<id>`) est ajouté avec
   `role="publication:current"`.
@@ -141,14 +145,27 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 - Dans chaque `<daogrp>`, `<daodesc>` est placé en premier, puis les `<daoloc>` sont
   réordonnés : `preservation:` d'abord, `access:` ensuite, `publication:` en dernier.
 
-### 10. Reclassement des balises `<name>`
+### 10. Ajout des `<odd>` résumant les liens dao/daoloc
+- Pour chaque `<c>` possédant un `<dao>` isolé ou un `<daogrp>`, un `<odd>` est inséré
+  juste après cet élément, avec un `<p>` par lien au format `role href audience`
+  (le segment `audience` est omis quand l'attribut est absent).
+- Ce `<odd>` documente en clair, pour chaque composant, l'état final des liens une
+  fois toutes les étapes précédentes (ARK, rôles, conservation) appliquées. Dans les
+  fichiers de `results/ead/ead_cor/bnr2mnesys/`, **le `<odd>` est désormais considéré
+  comme la donnée maître** : toute correction apportée à la main sur ses `<p>` (ajout,
+  modification, suppression d'un lien) doit être répercutée sur `<dao>`/`<daogrp>` via
+  `sync_dao_from_odd()` (module `app/ead_dao_converter/ead_preprocess.py`, cf.
+  [EAD DAO Converter](../../../app/ead_dao_converter/README.md)) — un traitement
+  indépendant de ce pipeline, à lancer sur le fichier déjà transformé.
+
+### 11. Reclassement des balises `<name>`
 - Dans `<controlaccess>`, les balises `<name>` sont remplacées par `<persname>` ou `<corpname>`
   selon la liste CSV. Les `<name>` sans correspondance sont laissés tels quels.
 
-### 11. Suppression des `<repository>` hors contexte
+### 12. Suppression des `<repository>` hors contexte
 - Toutes les balises `<repository>` situées en dehors de `<archdesc/did>` sont supprimées.
 
-### 12. Normalisation des sources de `<controlaccess>`
+### 13. Normalisation des sources de `<controlaccess>`
 Les valeurs de thésaurus sont écrites sous la forme `thesaurus--SLASH--<nom>.xml`.
 
 - `<genreform>`, `<persname>`, `<corpname>` **sans** attribut `source` reçoivent la source de thésaurus par défaut de leur balise :
@@ -171,6 +188,6 @@ Les valeurs de thésaurus sont écrites sous la forme `thesaurus--SLASH--<nom>.x
 
 Les `<subject>`/`<geogname>` sans source, ou de source non listée, sont laissés tels quels.
 
-### 13. Nettoyage final
+### 14. Nettoyage final
 - Suppression des attributs dont la valeur est une chaîne vide.
 - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant non vide).

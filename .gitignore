@@ -10,7 +10,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+/build/
 develop-eggs/
 dist/
 downloads/
@@ -31,8 +31,10 @@ MANIFEST
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
+#   Exception : les .spec de ce dépôt sont écrits à la main et versionnés
+#   (app/ead_editor/build/, app/ead_dao_converter/build/) — la règle n'est donc pas globale.
 *.manifest
-*.spec
+/*.spec
 
 # Installer logs
 pip-log.txt

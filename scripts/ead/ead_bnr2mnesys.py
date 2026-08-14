@@ -109,14 +109,19 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Dans chaque <daogrp>, <daodesc> est placé en premier, puis les <daoloc> sont
      réordonnés : preservation: d'abord, access: ensuite, publication: en dernier.
 
-10. Reclassement des balises <name>
+10. Ajout des <odd> résumant les liens dao/daoloc
+   - Pour chaque <c> contenant un <dao> isolé ou un <daogrp>, un <odd> est inséré juste
+     après cet élément, avec un <p> par lien au format "role href audience" (le segment
+     audience est omis quand l'attribut est absent).
+
+11. Reclassement des balises <name>
    - Dans <controlaccess>, les balises <name> sont remplacées par <persname> ou <corpname>
      selon la liste CSV. Les <name> sans correspondance sont laissés tels quels.
 
-11. Suppression des <repository> hors contexte
+12. Suppression des <repository> hors contexte
    - Toutes les balises <repository> situées en dehors de <archdesc/did> sont supprimées.
 
-12. Normalisation des sources de <controlaccess>
+13. Normalisation des sources de <controlaccess>
    - Les <genreform>, <persname>, <corpname> sans attribut source reçoivent la
      source de thésaurus par défaut de leur balise (bnr_genreform/persname/corpname).
    - Les <subject> de source "chrono"/"theme"/"Rameau" voient leur source
@@ -126,7 +131,7 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Les valeurs de thésaurus sont écrites sous la forme
      "thesaurus--SLASH--<nom>.xml".
 
-13. Nettoyage final
+14. Nettoyage final
    - Suppression des attributs dont la valeur est une chaîne vide.
    - Suppression récursive des éléments XML vides (sans texte, sans attribut, sans enfant
      non vide).
@@ -142,6 +147,7 @@ from os.path import basename, dirname, exists, join, splitext
 import pandas as pd
 from lxml import etree
 
+from dao_ark import add_ark_links, merge_daogrp
 from mnesys_id import nouvel_id
 
 # --- Dates des sources (à mettre à jour à chaque nouvelle itération) ---
@@ -321,64 +327,18 @@ class EADbnr2mnesys:
                 return False
         return True
 
-    def _merge_daogrp(self, element):
-        """
-        Fusionne dans le premier <daogrp> le contenu des <daogrp> suivants quand un
-        même <archdesc>/<c> en contient plusieurs en enfants directs.
-
-        Les doublons ne sont pas repris : <daodesc> de même texte, <dao>/<daoloc>
-        de même couple (href, role).
-        """
-        for el in element.iter("archdesc", "c"):
-            daogrps = [child for child in el if child.tag == "daogrp"]
-            if len(daogrps) < 2:
-                continue
-
-            cible = daogrps[0]
-            descs = {"".join(d.itertext()).strip() for d in cible.findall("daodesc")}
-            liens = {
-                (d.get("href"), d.get("role")) for d in cible if d.tag != "daodesc"
-            }
-
-            for daogrp in daogrps[1:]:
-                for enfant in list(daogrp):
-                    if enfant.tag == "daodesc":
-                        texte = "".join(enfant.itertext()).strip()
-                        if texte in descs:
-                            continue
-                        descs.add(texte)
-                    else:
-                        lien = (enfant.get("href"), enfant.get("role"))
-                        if lien in liens:
-                            continue
-                        liens.add(lien)
-                    cible.append(enfant)
-                el.remove(daogrp)
-
     def _add_dao_ark(self, element):
         """
         Ajoute pour chaque <archdesc> et <c> les liens ARK BnR sous forme de
-        <dao>/<daoloc> :
+        <dao>/<daoloc> (cf. dao_ark.add_ark_links pour la mécanique d'insertion) :
 
         - l'ARK actuel (role="publication:current"), construit à partir de
           l'attribut id de l'élément : https://www.bn-r.fr/ark:/20179/BNR<id> ;
         - l'ancien ARK (role="publication:previous") pour les <c> dont le
           <unitid> figure dans la table de correspondance OAI :
           https://www.bn-r.fr/ark:/20179/<osiros_id>.
-
-        Trois cas selon la structure existante :
-
-        - <daogrp> présent : ajout d'un <daoloc> par lien dans le groupe existant
-          (sans doublon de role).
-        - <dao> présent (sans <daogrp>) : transformation en <daogrp> avec un <daoloc>
-          reprenant les attributs de l'ancienne <dao> et un <daoloc> par lien.
-        - Ni <dao> ni <daogrp> : création d'un <dao> (lien unique) ou d'un <daogrp>
-          (plusieurs liens).
-
-        Dans les cas 2 et 3, la balise est insérée avant le premier enfant <c> ou
-        <dsc> s'il existe.
         """
-        for el in element.iter("archdesc", "c"):
+        def link_builder(el):
             liens = []
             if el.get("id"):
                 liens.append(
@@ -395,59 +355,9 @@ class EADbnr2mnesys:
                         "publication:previous",
                     )
                 )
-            if not liens:
-                continue
+            return liens
 
-            insert_before = next(
-                (child for child in el if child.tag in ("c", "dsc")), None
-            )
-
-            # Cas 1 : <daogrp> existe déjà
-            daogrp = el.find("daogrp")
-            if daogrp is not None:
-                roles_presents = {d.get("role") for d in daogrp.findall("daoloc")}
-                for url, role in liens:
-                    if role not in roles_presents:
-                        new_daoloc = etree.SubElement(daogrp, "daoloc")
-                        new_daoloc.set("href", url)
-                        new_daoloc.set("role", role)
-                continue
-
-            # Cas 2 : <dao> existe mais pas <daogrp> → conversion en <daogrp>
-            if (old_dao := el.find("dao")) is not None:
-                nouveau = etree.Element("daogrp")
-
-                # Reprendre les attributs de l'ancienne <dao> dans un <daoloc>
-                daoloc_from_dao = etree.SubElement(nouveau, "daoloc")
-                for attr, value in old_dao.attrib.items():
-                    daoloc_from_dao.set(attr, value)
-
-                for url, role in liens:
-                    new_daoloc = etree.SubElement(nouveau, "daoloc")
-                    new_daoloc.set("href", url)
-                    new_daoloc.set("role", role)
-
-                el.remove(old_dao)
-
-            # Cas 3 : ni <dao> ni <daogrp>
-            elif len(liens) == 1:
-                url, role = liens[0]
-                nouveau = etree.Element("dao")
-                nouveau.set("href", url)
-                nouveau.set("role", role)
-            else:
-                nouveau = etree.Element("daogrp")
-                for url, role in liens:
-                    new_daoloc = etree.SubElement(nouveau, "daoloc")
-                    new_daoloc.set("href", url)
-                    new_daoloc.set("role", role)
-
-            # Insérer avant le premier enfant <c>/<dsc> ou à la fin
-            if insert_before is not None:
-                el.insert(list(el).index(insert_before), nouveau)
-            else:
-                el.append(nouveau)
-
+        add_ark_links(element, link_builder)
 
     def _update_dao_roles(self, element):
         """Préfixe 'access:' au role des <dao> et <daoloc> dont le role commence par
@@ -538,6 +448,36 @@ class EADbnr2mnesys:
                     new_daoloc = etree.SubElement(parent, "daoloc")
                     new_daoloc.set("href", ajout_href)
                     new_daoloc.set("role", ajout_role)
+
+    def _add_odd_liens(self, element):
+        """
+        Pour chaque <c> contenant un <dao> isolé ou un <daogrp>, insère juste après
+        cet élément un <odd> avec un <p> par lien dao/daoloc, au format
+        "role href audience" (le segment audience est omis quand l'attribut est absent).
+        """
+        for c in element.iter("c"):
+            liens = []
+            insert_after = None
+            for child in c:
+                if child.tag == "dao":
+                    liens.append(child)
+                    insert_after = child
+                elif child.tag == "daogrp":
+                    liens.extend(child.findall("daoloc"))
+                    insert_after = child
+
+            if not liens:
+                continue
+
+            odd = etree.Element("odd")
+            for lien in liens:
+                parts = [
+                    v for v in (lien.get("role"), lien.get("href"), lien.get("audience")) if v
+                ]
+                p = etree.SubElement(odd, "p")
+                p.text = " ".join(parts)
+
+            c.insert(list(c).index(insert_after) + 1, odd)
 
     def _sort_daogrp(self, element):
         """Trie les enfants de chaque <daogrp> : <daodesc> toujours en premier, puis les
@@ -753,12 +693,13 @@ class EADbnr2mnesys:
         self._strip_whitespace(root)
         self._move_origination(root)
         self._add_ids(root, str(ir["nouveau_ead_id"]))
-        self._merge_daogrp(root)
+        merge_daogrp(root)
         self._add_dao_ark(root)
         self._update_dao_roles(root)
         self._add_conservation_daoloc(root)
-        self._merge_daogrp(root)
+        merge_daogrp(root)
         self._sort_daogrp(root)
+        self._add_odd_liens(root)
         self._remove_name(root)
         self._remove_repositories(root)
         self._update_controlaccess_source(root)

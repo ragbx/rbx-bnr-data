@@ -1,31 +1,22 @@
-"""Extrait, depuis les IR sources de data/ead, le lien dao -> fichier + unitid.
+"""Extrait, depuis les IR bn-r de data/ead/bnr, le lien dao -> fichier + unitid.
 
 Objectif : savoir quels fichiers sont reliés à un lien de diffusion (dao) et donc
-à un unitid, pour les instruments de recherche présents dans data/ead — SANS
-retransformer les IR (contrairement à ead_bnr2mnesys.py).
+à un unitid, pour les instruments de recherche bn-r — SANS retransformer les IR
+(contrairement à ead_bnr2mnesys.py).
 
-Deux formats sources, deux vocabulaires de rôle (sur <dao> et <daoloc>) :
-
-  data/ead/bnr (format bn-r natif)
+Entrée : uniquement data/ead/bnr (format bn-r natif), deux vocabulaires de rôle
+sur <dao> et <daoloc> :
     <dao role="image|mp3|pdf|mp4" href="RBX_....jpg"/>   fichier isolé
     <daoloc role="image:first"/> + <daoloc role="image:last"/>  plage (daogrp)
 
-  data/ead/mnesys (format Mnesys)
-    <dao|daoloc href="Dossier/RBX_....jpg"/>  (role absent)   fichier isolé
-    <daoloc role="first_image"/> + <daoloc role="last_image"/>  plage (daogrp)
-
-S'y ajoute une troisième source, restreinte à l'AUDIO :
-
-  results/ead/ead_cor/bnr2mnesys (IR transformés par ead_bnr2mnesys.py)
-    <daoloc role="preservation:audio" href=".../RBX_MED_X_96kHz24B.wav"/>
-
-  Les IR sources ne portent que le mp3 de diffusion (RBX_MED_FLRS_X.mp3) alors
-  que la conservation est nommée RBX_MED_X_{96kHz24B,44kHz24B,TI}.{wav,mp3} :
-  l'appariement par stem échoue. Les liens preservation:audio des IR transformés
-  portent les vrais noms de conservation (appariement déjà fait par
-  ead_bnr2mnesys.py contre le ref). Le finding_aid émis est celui de l'IR SOURCE
-  (résolu via l'Excel de transfert Mnesys), pour rester cohérent avec la source
-  bnr et l'ancien ref.
+Exception : FR595129901_MED_15.xml est remplacé par sa version transformée
+results/ead/ead_cor/bnr2mnesys/FR595126101_MED_FLRS.xml (produite par
+ead_bnr2mnesys.py). L'IR bnr ne porte que le mp3 de diffusion (RBX_MED_FLRS_X.mp3)
+alors que la conservation est nommée RBX_MED_X_{96kHz24B,44kHz24B,TI}.{wav,mp3} :
+la version transformée porte ces vrais noms de conservation (appariés au ref par
+ead_bnr2mnesys.py). Le finding_aid émis reste celui de l'IR SOURCE
+(bnr_FR595129901_MED_15.xml, résolu via l'Excel de transfert Mnesys), pour rester
+cohérent avec l'ancien ref.
 
 Le contexte (unitid) est celui du composant <c> le plus proche (did/unitid) ; le
 finding_aid est l'IR (sous-dossier + eadid). Les plages first/last sont
@@ -35,8 +26,12 @@ dao_plage.py (même logique que dao_first_last_developpe.py).
 Stage A (ce script pour l'instant) : produit results/ead/ead_cor/dao_ref_link_brut.csv
     colonnes : source, ir, finding_aid, id_composant, unitid, role, href, href_base,
                position, taille_plage
+               + colonnes de compatibilité avec l'ancien dao_flat (superset) :
+               dao, daoloc_first, daoloc_last, nom_fichier, nom_fichier_base
 href_base = nom de fichier de diffusion sans dossier (basename), pour l'appariement
-au référentiel (stage B, à venir).
+au référentiel (stage B, à venir). dao = href du fichier isolé ; daoloc_first /
+daoloc_last = hrefs des bornes de la plage (rappelés sur chaque ligne développée) ;
+nom_fichier = basename(href) (= href_base) ; nom_fichier_base = idem sans extension.
 
 À lancer depuis la racine du dépôt.
 """
@@ -49,14 +44,19 @@ from lxml import etree
 
 from dao_plage import developpe
 
-# (source, dossier, roles) : roles=None -> tous les liens ; sinon seuls les
-# éléments dont le role figure dans l'ensemble sont extraits (les IR transformés
-# ne fournissent que les noms de conservation audio, le reste est déjà couvert
-# par les sources bnr/mnesys).
-SOURCES = [("bnr", join("data", "ead", "bnr"), None),
-           ("mnesys", join("data", "ead", "mnesys"), None),
-           ("bnr2mnesys", join("results", "ead", "ead_cor", "bnr2mnesys"),
-            {"preservation:audio"})]
+# Entrée : uniquement les IR bn-r natifs de data/ead/bnr, à une exception près.
+DOSSIER_BNR = join("data", "ead", "bnr")
+
+# FR595129901_MED_15.xml (bnr) est remplacé par sa version transformée
+# results/ead/ead_cor/bnr2mnesys/FR595126101_MED_FLRS.xml : cette dernière porte
+# les vrais noms de conservation audio (RBX_MED_X_{96kHz24B,44kHz24B,TI}.{wav,mp3}),
+# appariés au ref par ead_bnr2mnesys.py, alors que l'IR bnr ne liste que le mp3 de
+# diffusion. Le finding_aid émis reste celui de l'IR SOURCE (bnr_FR595129901_MED_15.xml,
+# résolu via l'Excel de transfert Mnesys), pour rester cohérent avec l'ancien ref.
+BNR_EXCLUS = "FR595129901_MED_15.xml"
+REMPLACEMENT = join("results", "ead", "ead_cor", "bnr2mnesys",
+                    "FR595126101_MED_FLRS.xml")
+
 SORTIE = join("results", "ead", "ead_cor", "dao_ref_link_brut.csv")
 
 # XML source parfois mal formé (& non échappés dans certains IR mnesys)
@@ -117,17 +117,26 @@ def extrait_ir(source, path, roles=None, finding_aid=None):
 
     lignes = []
 
-    def ligne(el, href, position, taille, role):
+    def ligne(el, href, position, taille, role,
+              dao="", daoloc_first="", daoloc_last=""):
         """Ajoute une ligne de lien à `lignes` : résout le contexte (composant,
         unitid, profondeur) de l'élément `el` et fige les métadonnées du lien
-        (href, href_base=basename, position dans la plage, taille, role)."""
+        (href, href_base=basename, position dans la plage, taille, role).
+
+        Colonnes de compatibilité avec l'ancien dao_flat (superset) :
+        dao = href du fichier isolé (vide pour une plage) ; daoloc_first /
+        daoloc_last = hrefs des bornes de la plage (vides pour un isolé) ;
+        nom_fichier = basename(href) ; nom_fichier_base = idem sans extension."""
         cid, unitid, profondeur = contexte(el)
+        nom_fichier = basename(href) if href else ""
         lignes.append({
             "source": source, "ir": ir, "finding_aid": finding_aid,
             "id_composant": cid, "unitid": unitid, "profondeur": profondeur,
             "role": role, "href": href,
-            "href_base": basename(href) if href else "",
+            "href_base": nom_fichier,
             "position": position, "taille_plage": taille,
+            "dao": dao, "daoloc_first": daoloc_first, "daoloc_last": daoloc_last,
+            "nom_fichier": nom_fichier, "nom_fichier_base": splitext(nom_fichier)[0],
         })
 
     # 1) plages first/last, regroupées par daogrp puis par préfixe de média
@@ -157,14 +166,17 @@ def extrait_ir(source, path, roles=None, finding_aid=None):
             hrefs = developpe(hf, hl)
             role = f"{prefixe}:plage"
             if hrefs is None:  # ambiguë : on garde au moins les deux bornes
-                ligne(el_first, hf, "first", "", role + ":ambigu")
-                ligne(el_last, hl, "last", "", role + ":ambigu")
+                ligne(el_first, hf, "first", "", role + ":ambigu",
+                      daoloc_first=hf, daoloc_last=hl)
+                ligne(el_last, hl, "last", "", role + ":ambigu",
+                      daoloc_first=hf, daoloc_last=hl)
                 continue
             for rang, href in enumerate(hrefs):
                 pos = ("first" if rang == 0
                        else "last" if rang == len(hrefs) - 1
                        else "intermediaire")
-                ligne(el_first, href, pos, len(hrefs), role)
+                ligne(el_first, href, pos, len(hrefs), role,
+                      daoloc_first=hf, daoloc_last=hl)
 
     # 2) fichiers isolés : tout <dao>/<daoloc> avec href, hors bornes de plage
     for tag in ("dao", "daoloc"):
@@ -176,7 +188,7 @@ def extrait_ir(source, path, roles=None, finding_aid=None):
             href = el.get("href")
             if not href:
                 continue
-            ligne(el, href, "isole", 1, el.get("role"))
+            ligne(el, href, "isole", 1, el.get("role"), dao=href)
 
     return lignes
 
@@ -199,36 +211,40 @@ def concordance_bnr2mnesys():
 
 
 def main():
-    """Parcourt les IR de data/ead/{bnr,mnesys} et les IR transformés de
-    results/ead/ead_cor/bnr2mnesys (audio de conservation seulement), hors IR de
-    test, et écrit results/ead/ead_cor/dao_ref_link_brut.csv (Stage A)."""
+    """Parcourt les IR bn-r de data/ead/bnr (hors IR de test), en remplaçant
+    FR595129901_MED_15.xml par sa version transformée FR595126101_MED_FLRS.xml
+    (audio de conservation), et écrit results/ead/ead_cor/dao_ref_link_brut.csv
+    (Stage A)."""
     champs = ["source", "ir", "finding_aid", "id_composant", "unitid", "profondeur",
-              "role", "href", "href_base", "position", "taille_plage"]
+              "role", "href", "href_base", "position", "taille_plage",
+              "dao", "daoloc_first", "daoloc_last", "nom_fichier", "nom_fichier_base"]
     total = []
     exclus = []
-    sans_concordance = []
-    for source, dossier, roles in SOURCES:
-        conc = concordance_bnr2mnesys() if source == "bnr2mnesys" else {}
-        n_ir = 0
-        n_lignes = 0
-        for path in sorted(glob(join(dossier, "*.xml"))):
-            # on écarte les IR de test (ex. « test 1.xml », eadid TEST_EADMOUL_01) :
-            # cotes malformées, non représentatives du fonds.
-            if "test" in basename(path).lower():
-                exclus.append(basename(path))
-                continue
-            finding_aid = conc.get(basename(path))
-            if source == "bnr2mnesys" and finding_aid is None:
-                sans_concordance.append(basename(path))
-            lignes = extrait_ir(source, path, roles=roles, finding_aid=finding_aid)
-            total.extend(lignes)
-            n_ir += 1
-            n_lignes += len(lignes)
-        print(f"{source:10} : {n_ir:4d} IR -> {n_lignes:8d} liens dao")
-    if sans_concordance:
-        print(f"IR transformés absents de l'Excel de transfert "
-              f"({len(sans_concordance)}, finding_aid par défaut) : "
-              f"{', '.join(sans_concordance)}")
+    n_ir = 0
+    for path in sorted(glob(join(DOSSIER_BNR, "*.xml"))):
+        # on écarte les IR de test (ex. « test 1.xml », eadid TEST_EADMOUL_01) :
+        # cotes malformées, non représentatives du fonds.
+        if "test" in basename(path).lower():
+            exclus.append(basename(path))
+            continue
+        # FR595129901_MED_15.xml : remplacé par sa version transformée (cf. plus bas)
+        if basename(path) == BNR_EXCLUS:
+            continue
+        total.extend(extrait_ir("bnr", path))
+        n_ir += 1
+    print(f"bnr        : {n_ir:4d} IR")
+
+    # remplacement : la version transformée de FR595129901_MED_15.xml, tous roles,
+    # finding_aid résolu vers l'IR source bnr via l'Excel de transfert Mnesys.
+    conc = concordance_bnr2mnesys()
+    finding_aid = conc.get(basename(REMPLACEMENT))
+    if finding_aid is None:
+        print(f"ATTENTION : {basename(REMPLACEMENT)} absent de l'Excel de transfert, "
+              f"finding_aid par défaut")
+    lignes_repl = extrait_ir("bnr2mnesys", REMPLACEMENT, finding_aid=finding_aid)
+    total.extend(lignes_repl)
+    print(f"remplacement {basename(REMPLACEMENT)} (finding_aid={finding_aid}) : "
+          f"{len(lignes_repl)} liens dao")
 
     with open(SORTIE, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=champs)

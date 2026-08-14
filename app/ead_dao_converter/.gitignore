@@ -1,0 +1,8 @@
+# Artefacts PyInstaller / build
+/dist/
+/build/ConvertisseurEAD/
+/build/*.toc
+*.spec.bak
+__pycache__/
+*.pyc
+.venv/

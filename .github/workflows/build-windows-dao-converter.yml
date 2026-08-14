@@ -1,0 +1,67 @@
+name: Build Windows EXE (Convertisseur EAD DAO)
+
+on:
+  push:
+    paths:
+      - "app/ead_dao_converter/**"
+      - "scripts/ead/dao_ark.py"
+      - ".github/workflows/build-windows-dao-converter.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: app/ead_dao_converter
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pyinstaller
+
+      - name: Vérifier la syntaxe
+        run: |
+          python -c "import ast; ast.parse(open('app.py').read())"
+          python -c "import ast; ast.parse(open('ead_preprocess.py').read())"
+
+      - name: Construire l'exécutable
+        run: pyinstaller build/ead_dao_converter.spec --distpath ../dist
+
+      - name: Publier l'artefact (rétention limitée, run CI)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ConvertisseurEAD-windows
+          path: app/dist/ConvertisseurEAD.exe
+          if-no-files-found: error
+
+      - name: Publier en release "dernier build" (lien stable et permanent)
+        shell: bash
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=build-ead-dao-converter
+          REPO="${{ github.repository }}"
+          NOTES="Généré automatiquement par CI depuis app/ead_dao_converter.
+          Commit : ${{ github.sha }}
+          Date : $(date -u +%Y-%m-%dT%H:%MZ)"
+          if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
+            gh release edit "$TAG" --repo "$REPO" --notes "$NOTES"
+          else
+            gh release create "$TAG" --repo "$REPO" \
+              --title "Convertisseur EAD DAO — dernier build" \
+              --notes "$NOTES" \
+              --target "${{ github.sha }}"
+          fi
+          gh release upload "$TAG" app/dist/ConvertisseurEAD.exe --repo "$REPO" --clobber

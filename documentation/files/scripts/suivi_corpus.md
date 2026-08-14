@@ -47,10 +47,16 @@ sont reprises telles quelles.
 ### Règle de calcul de `traitement_s3`
 
 Un fichier est compté comme traité si sa valeur `conservation_statut` **contient**
-l'une des chaînes de caractères suivantes (toutes variantes incluses) :
-`TRANSFERT_S3_OK`, `CORBEILLE`, `SUPPRIMER`, `NE PAS GARDER`.
-Les statuts `INCONNU`, `À TRANSFERER` et `EN LIGNE - À TRANSFERER ?` sont donc
-les seuls comptés comme non traités.
+l'une des deux chaînes de caractères suivantes : `TRANSFERT_S3_OK` ou
+`À SUPPRIMER` (donc toutes les variantes `À SUPPRIMER (…)`, y compris
+`À SUPPRIMER (DOUBLON SOURCE - À VERIFIER)` — voir le
+[détail des statuts](../donnees/fichier_ref.md)).
+
+Restent comptés comme **non traités** : `À TRANSFERER APRES VALIDATION` (et les
+autres `À TRANSFERER*`) — décidé, mais versement pas encore effectué —, `INCONNU`
+et ses variantes (`INCONNU FRAD59`, `INCONNU VOIR MARIE`), `EN LIGNE - À
+TRANSFERER ?`, `S3_KEY À CONSTRUIRE`, `DOUBLON - À VOIR` et `À TRANSFERER VOIR
+MARIE`.
 
 ---
 

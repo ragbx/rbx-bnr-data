@@ -34,7 +34,7 @@ python -m ead_editor
 ## Tests
 
 ```bash
-cd ead_editor
+cd app/ead_editor
 python -m pytest -q          # ou : conda run -n ds python -m pytest -q
 ```
 
@@ -44,12 +44,16 @@ Voir **`build/BUILD_WINDOWS.md`**. En résumé, sur une machine Windows :
 
 ```bat
 pip install -r requirements.txt pyinstaller
-pyinstaller build\ead_editor.spec
+pyinstaller build\ead_editor.spec --distpath ..\dist
 ```
 
-→ `dist\EditeurEAD.exe` (autonome). Un workflow GitHub Actions
-(`.github/workflows/build-windows.yml`) produit aussi automatiquement le `.exe` en
-artefact téléchargeable.
+→ `app\dist\EditeurEAD.exe` (autonome). Un workflow GitHub Actions
+(`.github/workflows/build-windows.yml`) produit aussi automatiquement le `.exe`,
+disponible à deux endroits :
+
+- **Lien stable** (toujours le dernier build réussi) :
+  https://github.com/ragbx/rbx-bnr-data/releases/download/build-ead-editor/EditeurEAD.exe
+- Artefact du run CI (onglet *Actions*, section *Artifacts* du run) — rétention limitée.
 
 ## Structure
 

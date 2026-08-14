@@ -32,6 +32,8 @@ Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 
 → [Données : fichiers de conservation](files/donnees/fichiers.md) · [Scripts S3](files/scripts/s3.md)
 
+→ [Campagne s3_key_cible](files/scripts/s3_key_cible.md) — résorption ponctuelle (07/2026) du backlog de corpus hors pipeline standard
+
 ### 3. Transférer les instruments de recherche vers Mnesys
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
@@ -56,6 +58,23 @@ Préparer les données en vue de leur publication en ligne.
 Détail par script :
 → [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md)
 
+---
+
+## Applications
+
+En complément des scripts, deux applications de bureau (`app/`) couvrent des
+opérations manuelles sur les fichiers EAD :
+
+- **[Éditeur EAD](../app/ead_editor/README.md)** (`app/ead_editor/`) — corrige et
+  transforme les fichiers EAD par formulaires guidés, en particulier les balises
+  `<dao>` / `<daoloc>` et `<controlaccess>`.
+- **[EAD DAO Converter](../app/ead_dao_converter/README.md)** (`app/ead_dao_converter/`) —
+  pour les fichiers de `results/ead/ead_cor/bnr2mnesys/`, synchronise les
+  `<dao>`/`<daogrp>` d'un `<c>` sur son `<odd>` (donnée maître, cf.
+  [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md#le-résumé-odd-donnée-maître)) :
+  ajout, modification ou suppression d'un lien selon les `<p>` du `<odd>`.
+  Réutilise pour cela le module [dao_ark.py](files/scripts/dao_ark.md)
+  (`scripts/ead/dao_ark.py`), partagé avec `ead_bnr2mnesys.py`.
 
 ## TODO
 Les tâches à réaliser sur ce dépôt sont listées dans le fichier [TODO](files/todo.md)

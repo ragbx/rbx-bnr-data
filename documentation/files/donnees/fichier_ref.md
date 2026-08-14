@@ -127,27 +127,34 @@ Vérification de l'intégrité (optionnel) : `scripts/azrael/04_ref_integrité.i
 |---|---|
 | `conservation_statut` | Statut de conservation |
 
-Valeurs possibles :
+Valeurs possibles (19, harmonisées le 2026-07-11 — la famille `CORBEILLE` et les
+libellés `DDE - NE PAS GARDER (*)` ont été repliés dans `À SUPPRIMER (*)`) :
 
 | Valeur | Signification |
 |---|---|
 | `TRANSFERT_S3_OK` | Versé sur S3 |
-| `À TRANSFERER` | À verser sur S3 |
+| `À TRANSFERER APRES VALIDATION` | À verser sur S3, décision prise mais versement pas encore réalisé (témoin de l'accompli réel : `s3_uploaded`) |
 | `EN LIGNE - À TRANSFERER ?` | Accessible en ligne, statut S3 à confirmer |
-| `INCONNU` | Statut non déterminé |
-| `CORBEILLE` | À supprimer |
-| `CORBEILLE (DIFFUSION)` | Fichier de diffusion à supprimer |
-| `À SUPPRIMER` | Suppression planifiée |
-| `À SUPPRIMER (remplacement par Verif / Tampon)` | Remplacé par une version vérifiée |
-| `À SUPPRIMER (doublons S3 - az)` | Doublon entre S3 et Azrael |
+| `INCONNU` | Statut non déterminé (backlog à trier) |
+| `INCONNU FRAD59` | Statut non déterminé, fonds versé par les Archives départementales (FRAD59), à trancher avec elles |
+| `INCONNU VOIR MARIE` | Statut non déterminé, à trancher avec Marie |
+| `À TRANSFERER VOIR MARIE` | À verser sur S3 sous réserve de l'avis de Marie |
+| `S3_KEY À CONSTRUIRE` | Clé S3 cible restant à construire |
+| `DOUBLON - À VOIR` | Doublon suspecté, à examiner manuellement |
+| `À SUPPRIMER (DIFFUSION)` | Fichier de diffusion à supprimer (inclut l'ancienne famille `CORBEILLE` / `CORBEILLE (DIFFUSION)`) |
+| `À SUPPRIMER (DOUBLON)` | Doublon confirmé par checksum |
+| `À SUPPRIMER (DOUBLON AZ)` | Doublon au sein d'Azrael |
+| `À SUPPRIMER (DOUBLON S3-AZ)` | Doublon entre S3 et Azrael |
+| `À SUPPRIMER (DOUBLON SOURCE - À VERIFIER)` | Doublon à la source (zone grise AMR_EC / AMR_GUE) — **alerte** : contrôle documentaire par échantillon requis avant purge |
+| `À SUPPRIMER (REMPLACEMENT)` | Remplacé par une version vérifiée |
 | `À SUPPRIMER (RENOMMAGE)` | Fichier renommé, ancienne version à supprimer |
-| `À SUPPRIMER (Tests)` | Fichier de test |
 | `À SUPPRIMER (FILE_TYPE)` | Type de fichier non conservable |
-| `DDE - NE PAS GARDER (DIFFUSION)` | Fichier de diffusion, non destiné à la conservation |
-| `DDE - NE PAS GARDER (FILE_TYPE)` | Type de fichier exclu de la conservation |
-| `DDE - NE PAS GARDER (DOUBLONS AZ)` | Doublon dans Azrael |
+| `À SUPPRIMER (TESTS)` | Fichier de test |
+| `À SUPPRIMER (MED_PAR)` | Suppression spécifique au corpus MED_PAR |
 
-Valeurs à adapter selon les situations.
+Seuls `TRANSFERT_S3_OK` et `À SUPPRIMER (*)` comptent comme traitement S3 **accompli**
+(voir [suivi_corpus.py](../scripts/suivi_corpus.md)) ; `À TRANSFERER*` reste du décidé,
+pas de l'accompli.
 
 #### Stockage S3
 | Colonne | Description |
@@ -157,3 +164,4 @@ Valeurs à adapter selon les situations.
 | `s3_key` | Clé dans le bucket S3 |
 | `s3_uploaded` | Versement effectué (booléen) |
 | `s3_uploaded_date` | Date du versement (AAAAMMJJ) |
+| `s3_stem_profil` | Profil documentaire du fichier : extensions présentes pour le même document (même *stem* de `s3_key`), normalisées et jointes par `+` (ex. `pdf+tif+txt+xml`). Calculé par `scripts/s3/ref_stem_profil_20260711.py` : rattache aussi, par (`corpus_code`, nom sans extension), les fichiers `À SUPPRIMER (*)` sans `s3_key` au profil de leur document, avec l'extension marquée `(sup)` (ex. `jpg+jpg(sup)+tif`). Vide si le fichier n'a pas de `s3_key` et n'a pas pu être rattaché. Script idempotent, à rejouer après tout ajout/modification de clés |
