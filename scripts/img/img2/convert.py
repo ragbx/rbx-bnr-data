@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-r"""convert.py — Convertit en JPEG les fichiers deja copies en conservation/,
+r"""convert.py — Convertit en JPEG les fichiers deja copies par download.py,
 a un ou plusieurs taux de compression par fichier (colonne `taux` du CSV,
 qualites separees par ';', ex. "80;85;90").
 
 Resolution native : aucun redimensionnement, seule la compression varie.
-Chaque taux produit son propre fichier (page001_q80.jpg, page001_q85.jpg, ...)
-afin de pouvoir comparer les compressions apres coup.
+Chaque taux produit son propre fichier, depose a cote du TIFF source (meme
+repertoire, calque sur la cle S3) : page001.tif -> page001_q80.jpg,
+page001_q85.jpg, ... afin de pouvoir comparer les compressions apres coup.
 
 Colonnes utilisees du CSV : path (non utilise ici), name, s3_key, corpus_code
 (pour retrouver le fichier source, cf. common.relkey), taux.
@@ -73,8 +74,9 @@ def convert_one(src_str: str, dst_str: str, quality: int) -> dict:
 
 
 def dst_path(dest_root: str, rel: str, quality: int) -> str:
+    """Chemin de sortie, dans le meme repertoire que le TIFF source."""
     stem, _ = splitext(rel)
-    return join(dest_root, "diffusion", f"{stem}_q{quality}.jpg")
+    return join(dest_root, f"{stem}_q{quality}.jpg")
 
 
 def build_jobs(df, dest_root: str, overwrite: bool):
@@ -83,7 +85,7 @@ def build_jobs(df, dest_root: str, overwrite: bool):
     jobs, skipped, absents = [], 0, 0
     for row in df.to_dict("records"):
         rel = relkey(row).replace("/", os.sep)
-        src = join(dest_root, "conservation", rel)
+        src = join(dest_root, rel)
         if not exists(src):
             absents += 1
             continue
@@ -104,12 +106,12 @@ def build_jobs(df, dest_root: str, overwrite: bool):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Convertit en JPEG (taux de la colonne `taux`) les fichiers de "
-                    "conservation/ vers diffusion/."
+        description="Convertit en JPEG (taux de la colonne `taux`) les fichiers deja "
+                    "copies par download.py, a cote de leur TIFF source."
     )
     parser.add_argument("csv_path", help="manifeste CSV (.csv ou .csv.gz)")
     parser.add_argument("--dest", required=True,
-                        help="racine contenant conservation/ (recevra diffusion/)")
+                        help="racine contenant les TIFF (deja copies par download.py)")
     parser.add_argument("--workers", type=int, default=os.cpu_count())
     parser.add_argument("--overwrite", action="store_true",
                         help="reconvertir meme si le fichier de sortie existe")
@@ -121,7 +123,7 @@ def main():
 
     jobs, skipped, absents = build_jobs(df, args.dest, args.overwrite)
     print(f"{len(jobs)} conversion(s) a faire, {skipped} deja presente(s) sautee(s), "
-          f"{absents} source(s) introuvable(s) en conservation/.")
+          f"{absents} source(s) TIFF introuvable(s) sous {args.dest}.")
     if not jobs:
         return
 
