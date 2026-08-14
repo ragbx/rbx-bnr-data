@@ -8,10 +8,10 @@ from datetime import datetime
 import concurrent.futures
 from tqdm import tqdm
 
-input_folder = join('results', 's3', 'transfert')
+input_folder = join('results', 's3', 'transfert_cadn_318-1000')
 #prefix = "\\\\srvbnr.ntrbx.local\BNR"
-prefix = "/home/kibini/bnr"
-#prefix = "/media/fpichenot/CADN_165-0500/2018.06.101_N - VILLE DE ROUBAIX"
+#prefix = "/home/kibini/bnr"
+prefix = "/media/fpichenot/CADN_165-0500/2018.06.101_N - VILLE DE ROUBAIX"
 
 USER = 'user_rw'
 bucket = 'mediatheque-patarch-communicable'
