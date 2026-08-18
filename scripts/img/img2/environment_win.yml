@@ -1,0 +1,47 @@
+name: vips
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - libvips
+  - pyvips
+  - numpy
+  - pandas
+  - python-dateutil
+  - six
+  - tqdm
+  - cairo
+  - pango
+  - harfbuzz
+  - fontconfig
+  - freetype
+  - gtk3
+  - gdk-pixbuf
+  - graphviz
+  - gts
+  - imagemagick
+  - ghostscript
+  - poppler
+  - poppler-data
+  - openjpeg
+  - openjph
+  - libheif
+  - openslide
+  - libraw
+  - libjpeg-turbo
+  - libpng
+  - libtiff
+  - libwebp-base
+  - lcms2
+  - jasper
+  - giflib
+  - hdf5
+  - cfitsio
+  - libdicom
+  - libmatio
+  - fftw
+  - zstd
+  - bzip2
+  - liblzma
+  - zlib
