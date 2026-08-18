@@ -48,10 +48,6 @@ def get_files2upload(data_file_path, rbx_client, bucket, prefix):
 # Fonction d'upload
 def rbx_upload_file(file_data):
     print(file_data['file_name'])
-    upload_res = rbx_client.upload(file_data['file_name'],
-                           file_data['bucket'],
-                           file_data['s3_key'],
-                           ExtraArgs = {"Tagging": file_data['tags_str']})
 
     res2log = {
         'name': file_data['name'],
@@ -60,20 +56,30 @@ def rbx_upload_file(file_data):
         'uuid': file_data['uuid'],
         'key': file_data['s3_key'],
         'size': file_data['size'],
-        'uploaded': upload_res['result'],
+        'uploaded': False,
         'uploaded_file_size': None,
         'uploaded_file_lastmodified': None,
         'error': None
     }
 
-    if 'error' in upload_res:
-        res2log['error'] = upload_res['error']
-    if 'LastModified' in upload_res:
-        res2log['uploaded_file_lastmodified'] = upload_res['LastModified']
-    if 'size' in upload_res:
-        res2log['uploaded_file_size'] = upload_res['size']
-        if res2log['uploaded_file_size'] != res2log['size']:
-            res2log['error'] = 'cohérence tailles'
+    try:
+        upload_res = rbx_client.upload(file_data['file_name'],
+                               file_data['bucket'],
+                               file_data['s3_key'],
+                               ExtraArgs = {"Tagging": file_data['tags_str']})
+
+        res2log['uploaded'] = upload_res['result']
+        if 'error' in upload_res:
+            res2log['error'] = str(upload_res['error'])
+        if 'LastModified' in upload_res:
+            res2log['uploaded_file_lastmodified'] = upload_res['LastModified']
+        if 'size' in upload_res:
+            res2log['uploaded_file_size'] = upload_res['size']
+            if res2log['uploaded_file_size'] != res2log['size']:
+                res2log['error'] = 'cohérence tailles'
+    except Exception as e:
+        # Un fichier en erreur ne doit jamais interrompre l'upload des autres fichiers du lot
+        res2log['error'] = f"exception non gérée : {e}"
 
     return(res2log)
 
@@ -108,10 +114,29 @@ for file_info in files2proceed:
             #progress_bar = tqdm(total=len(files2upload), desc="Processing")
             #for future in tqdm(concurrent.futures.as_completed(futures)):
             i = 0
+            n_ok = 0
+            n_ko = 0
             for future in concurrent.futures.as_completed(futures):
-                res2log = future.result()
+                try:
+                    res2log = future.result()
+                except Exception as e:
+                    # Ne devrait pas arriver (rbx_upload_file capture déjà ses erreurs),
+                    # mais on ne veut jamais perdre le reste du lot pour un thread en échec.
+                    res2log = {
+                        'name': None, 'path': None, 'checksum_md5': None, 'uuid': None,
+                        'key': None, 'size': None, 'uploaded': False,
+                        'uploaded_file_size': None, 'uploaded_file_lastmodified': None,
+                        'error': f"exception thread : {e}"
+                    }
+
                 writer.writerow(res2log)
+                logfile.flush()
+
                 i += 1
-                #if i % 10 == 0:
-                print(i)
-                #progress_bar.update(1)
+                if res2log.get('uploaded'):
+                    n_ok += 1
+                else:
+                    n_ko += 1
+                print(f"{i}/{len(files2upload)} (ok={n_ok}, ko={n_ko})")
+
+        print(f"{data_file_name} : terminé — {n_ok} ok / {n_ko} en erreur (log : {result_file})")
