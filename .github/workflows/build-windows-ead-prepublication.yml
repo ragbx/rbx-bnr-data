@@ -1,11 +1,11 @@
-name: Build Windows EXE (Convertisseur EAD DAO)
+name: Build Windows EXE (EAD Pré-publication)
 
 on:
   push:
     paths:
-      - "app/ead_dao_converter/**"
+      - "app/ead_prepublication/**"
       - "scripts/ead/dao_ark.py"
-      - ".github/workflows/build-windows-dao-converter.yml"
+      - ".github/workflows/build-windows-ead-prepublication.yml"
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        working-directory: app/ead_dao_converter
+        working-directory: app/ead_prepublication
 
     steps:
       - uses: actions/checkout@v4
@@ -36,13 +36,13 @@ jobs:
           python -c "import ast; ast.parse(open('ead_preprocess.py').read())"
 
       - name: Construire l'exécutable
-        run: pyinstaller build/ead_dao_converter.spec --distpath ../dist
+        run: pyinstaller build/ead_prepublication.spec --distpath ../dist
 
       - name: Publier l'artefact (rétention limitée, run CI)
         uses: actions/upload-artifact@v4
         with:
-          name: ConvertisseurEAD-windows
-          path: app/dist/ConvertisseurEAD.exe
+          name: PrepublicationEAD-windows
+          path: app/dist/PrepublicationEAD.exe
           if-no-files-found: error
 
       - name: Publier en release "dernier build" (lien stable et permanent)
@@ -51,17 +51,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TAG=build-ead-dao-converter
+          TAG=build-ead-prepublication
           REPO="${{ github.repository }}"
-          NOTES="Généré automatiquement par CI depuis app/ead_dao_converter.
+          NOTES="Généré automatiquement par CI depuis app/ead_prepublication.
           Commit : ${{ github.sha }}
           Date : $(date -u +%Y-%m-%dT%H:%MZ)"
           if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
             gh release edit "$TAG" --repo "$REPO" --notes "$NOTES"
           else
             gh release create "$TAG" --repo "$REPO" \
-              --title "Convertisseur EAD DAO — dernier build" \
+              --title "EAD Pré-publication — dernier build" \
               --notes "$NOTES" \
               --target "${{ github.sha }}"
           fi
-          gh release upload "$TAG" app/dist/ConvertisseurEAD.exe --repo "$REPO" --clobber
+          gh release upload "$TAG" app/dist/PrepublicationEAD.exe --repo "$REPO" --clobber

@@ -1,4 +1,4 @@
-# Sortie partagée des builds PyInstaller (ead_editor + ead_dao_converter),
+# Sortie partagée des builds PyInstaller (ead_editor + ead_prepublication),
 # produite via `pyinstaller ... --distpath ../dist` depuis chaque app.
 # Jamais commitée : le CI publie les .exe comme assets de release GitHub
 # (cf. workflows build-windows*.yml) plutôt que de les versionner ici.

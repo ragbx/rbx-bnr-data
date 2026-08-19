@@ -1,5 +1,8 @@
 """
-Classe EAD_preprocess.
+Classe EAD_preprocess : opérations de préparation d'un EAD Mnesys en vue de sa
+publication. Pour l'instant, une seule opération est implémentée
+(sync_dao_from_odd, synchronisation des <dao>/<daogrp> à partir des <odd>) ;
+d'autres pourront s'y ajouter par la suite sans changer cette classe d'accueil.
 """
 
 import os
@@ -10,7 +13,7 @@ from lxml import etree
 
 # Réutilise la mécanique d'insertion des liens ARK partagée avec
 # scripts/ead/ead_bnr2mnesys.py (dedup, cf. scripts/ead/dao_ark.py).
-# parents[2] : app/ead_dao_converter/ead_preprocess.py -> app/ead_dao_converter -> app -> racine du dépôt.
+# parents[2] : app/ead_prepublication/ead_preprocess.py -> app/ead_prepublication -> app -> racine du dépôt.
 _SCRIPTS_EAD = Path(__file__).resolve().parents[2] / "scripts" / "ead"
 if str(_SCRIPTS_EAD) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_EAD))
@@ -45,8 +48,9 @@ ODD_AUDIENCES = ("internal",)
 
 class EAD_preprocess:
     """
-    Classe de maintien des <dao>/<daoloc> d'un EAD à partir des <odd> (donnée maître),
-    pour les fichiers de results/ead/ead_cor/bnr2mnesys/ (cf. sync_dao_from_odd).
+    Classe de préparation d'un EAD Mnesys en vue de sa publication. Aujourd'hui,
+    ne traite que les <dao>/<daoloc> : synchronisation à partir des <odd> (donnée
+    maître) pour les fichiers de results/ead/ead_cor/bnr2mnesys/, cf. sync_dao_from_odd.
     """
 
     def __init__(self, filepath: str):
@@ -96,30 +100,37 @@ class EAD_preprocess:
           ("role href" ou "role href audience") ;
         - les <p> qui ne commencent par aucun rôle reconnu sont ignorés (notes
           éditoriales éventuelles du <odd>, non liées aux dao) ;
-        - un <dao>/<daoloc> existant est apparié à un <p> par son href (clé unique) :
-          role/audience sont mis à jour si besoin ;
-        - un href présent dans le <odd> mais sans <dao>/<daoloc> correspondant est
+        - un <dao>/<daoloc> existant est apparié à un <p> par le triplet complet
+          (href, role, audience) — pas par le href seul, qui peut légitimement se
+          répéter dans un même <daogrp> sous des role différents (ex. un même pdf en
+          preservation:pdf et access:pdf, cf. documentation/files/donnees/dao_daogrp.md) ;
+        - un triplet présent dans le <odd> mais sans <dao>/<daoloc> correspondant est
           créé (délègue à dao_ark.add_ark_links pour l'insertion : <daogrp> existant,
           <dao> isolé converti en <daogrp>, ou nouveau <dao>/<daogrp>) ;
-        - un <dao>/<daoloc> existant dont le href n'apparaît plus dans le <odd> est
-          supprimé.
+        - un <dao>/<daoloc> existant dont le triplet n'apparaît plus dans le <odd> est
+          supprimé. Un simple changement de role/audience sur un href se traduit donc
+          par une suppression de l'ancien triplet et un ajout du nouveau (pas de
+          modification en place).
 
         Le <odd> lui-même n'est jamais modifié ni supprimé : il reste la référence
         pour les exécutions suivantes.
 
-        Retourne {"ajoutes": int, "modifies": int, "supprimes": int}.
+        Retourne {"ajoutes": int, "supprimes": int}.
         """
         if self.tree is None:
             raise ValueError("Le fichier n'a pas été chargé. Appelez load() d'abord.")
 
-        stats = {"ajoutes": 0, "modifies": 0, "supprimes": 0}
+        def cle(e):
+            return (e.get("href"), e.get("role"), e.get("audience"))
+
+        stats = {"ajoutes": 0, "supprimes": 0}
 
         for c_elem in self.tree.getroot().iter("c"):
             odd = c_elem.find("odd")
             if odd is None:
                 continue
 
-            odd_liens = {}
+            odd_cles = set()
             for p in odd.iter("p"):
                 text = (p.text or "").strip()
                 for role in ODD_ROLES:
@@ -134,54 +145,34 @@ class EAD_preprocess:
                             break
                     href = reste.strip()
                     if href:
-                        odd_liens[href] = (role, audience)
+                        odd_cles.add((href, role, audience))
                     break
 
             existants = [child for child in c_elem if child.tag == "dao"]
             for daogrp in c_elem.findall("daogrp"):
                 existants.extend(daogrp.findall("daoloc"))
-            existants_par_href = {e.get("href"): e for e in existants}
+            existants_cles = {cle(e) for e in existants}
 
-            for href, elem in existants_par_href.items():
-                if href not in odd_liens:
+            for elem in existants:
+                if cle(elem) not in odd_cles:
                     elem.getparent().remove(elem)
                     stats["supprimes"] += 1
 
-            a_ajouter = {}
-            for href, (role, audience) in odd_liens.items():
-                elem = existants_par_href.get(href)
-                if elem is None or elem.getparent() is None:
-                    a_ajouter[href] = (role, audience)
-                    continue
-                change = False
-                if elem.get("role") != role:
-                    elem.set("role", role)
-                    change = True
-                if elem.get("audience") != audience:
-                    if audience:
-                        elem.set("audience", audience)
-                    else:
-                        elem.attrib.pop("audience", None)
-                    change = True
-                if change:
-                    stats["modifies"] += 1
-
+            a_ajouter = odd_cles - existants_cles
             if not a_ajouter:
                 continue
 
             stats["ajoutes"] += add_ark_links(
                 c_elem,
-                lambda el, liens=a_ajouter: [
-                    (href, role) for href, (role, _) in liens.items()
-                ],
+                lambda el, liens=a_ajouter: [(href, role) for href, role, _ in liens],
                 tags=("c",),
             )
 
-            for href, (_, audience) in a_ajouter.items():
+            for href, role, audience in a_ajouter:
                 if not audience:
                     continue
                 for elem in c_elem.iter("dao", "daoloc"):
-                    if elem.get("href") == href:
+                    if elem.get("href") == href and elem.get("role") == role and not elem.get("audience"):
                         elem.set("audience", audience)
                         break
 

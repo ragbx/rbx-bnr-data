@@ -327,15 +327,21 @@ d'ailleurs que la valeur `internal`).
 considéré comme la donnée maître** : une correction faite à la main sur ses
 `<p>` (ajout, modification, suppression d'un lien) doit être répercutée sur
 `<dao>`/`<daogrp>` avec `sync_dao_from_odd()`
-(`app/ead_dao_converter/ead_preprocess.py`, cf.
-[EAD DAO Converter](../../../app/ead_dao_converter/README.md)) :
+(`app/ead_prepublication/ead_preprocess.py`, cf.
+[EAD Pré-publication](../../../app/ead_prepublication/README.md)) :
 
-- un `href` du `<odd>` déjà présent sur un `<dao>`/`<daoloc>` → son `role`/`audience`
-  est mis à jour ;
-- un `href` du `<odd>` absent → un nouveau `<daoloc>`/`<dao>` est créé (mécanique de
+L'appariement se fait sur le triplet complet `(href, role, audience)`, pas sur le
+`href` seul, qui peut légitimement se répéter dans un même `<daogrp>` sous des
+`role` différents (ex. un même pdf en `preservation:pdf`/`access:pdf`, cf.
+« PDF » ci-dessus) :
+
+- un triplet du `<odd>` déjà présent parmi les `<dao>`/`<daoloc>` → rien à faire ;
+- un triplet du `<odd>` absent → un nouveau `<daoloc>`/`<dao>` est créé (mécanique de
   `dao_ark.add_ark_links`, cf. [dao_ark.py](../scripts/dao_ark.md)) ;
-- un `<dao>`/`<daoloc>` existant dont le `href` n'apparaît plus dans le `<odd>` →
-  supprimé.
+- un `<dao>`/`<daoloc>` existant dont le triplet n'apparaît plus dans le `<odd>` →
+  supprimé. Un simple changement de `role`/`audience` sur un `href` se traduit
+  donc par une suppression de l'ancien triplet et un ajout du nouveau (pas de
+  modification en place).
 
 Le `<odd>` lui-même n'est jamais modifié ni supprimé par cette synchronisation :
 il reste la référence pour les exécutions suivantes. Les `<p>` qui ne commencent

@@ -1,6 +1,7 @@
 """
-EAD Converter — Charte Médiathèque de Roubaix · La Grand-Plage
-Transforme des fichiers EAD BnR vers le format Mnesys.
+EAD Pré-publication — Charte Médiathèque de Roubaix · La Grand-Plage
+Prépare les fichiers EAD Mnesys en vue de leur publication (aujourd'hui :
+synchronisation des <dao>/<daogrp> à partir des <odd>, cf. ead_preprocess.py).
 """
 
 import os
@@ -49,7 +50,7 @@ class Theme:
     font_mono:   str = ""   # auto → Consolas / DejaVu Sans Mono / Liberation Mono
 
     # Identité / Logo
-    window_title: str  = "Convertisseur EAD"
+    window_title: str  = "EAD Pré-publication"
     org_name: str      = "Médiathèque et Archives de Roubaix"
     org_tag: str       = "LA Grand-Plage"   # badge coloré dans l'en-tête
     app_subtitle: str  = "Synchronisation des liens <dao> à partir des <odd>"
@@ -188,7 +189,7 @@ def make_section_header(parent, title, w=712, accent=None, theme=THEME):
 # ─────────────────────────────────────────────
 # Application principale
 # ─────────────────────────────────────────────
-class EADConverterApp(tk.Tk):
+class EADPrepublicationApp(tk.Tk):
     def __init__(self, theme: Theme = THEME):
         super().__init__()
         # Résolution des polices après init de tkinter (families() indisponible avant)
@@ -403,8 +404,7 @@ class EADConverterApp(tk.Tk):
                 progress_callback=lambda v, m: self.after(0, self._set_status, v, m)
             )
             self._log_append(
-                f"{stats['ajoutes']} ajoutés, {stats['modifies']} modifiés, "
-                f"{stats['supprimes']} supprimés."
+                f"{stats['ajoutes']} ajoutés, {stats['supprimes']} supprimés."
             )
             self.after(0, self._set_status, 95, "Écriture du fichier de sortie…")
             self._log_append(f"Enregistrement : {out}")
@@ -450,12 +450,12 @@ if __name__ == "__main__":
     #     font_family   = "Georgia",
     #     org_name      = "Médiathèque de Lyon",
     #     org_tag       = "LYON",
-    #     app_subtitle  = "Conversion EAD · BnR → Mnesys",
-    #     window_title  = "Convertisseur EAD · Lyon",
+    #     app_subtitle  = "Pré-publication EAD · BnR → Mnesys",
+    #     window_title  = "EAD Pré-publication · Lyon",
     #     logo_path     = "logo.png",  # PNG ou GIF supporté nativement par tkinter
     # )
-    # app = EADConverterApp(theme=mon_theme)
+    # app = EADPrepublicationApp(theme=mon_theme)
     #
     # ─────────────────────────────────────────────────────────────────────
-    app = EADConverterApp()
+    app = EADPrepublicationApp()
     app.mainloop()

@@ -69,14 +69,14 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
 ### 5. Fusion des `<daogrp>` multiples
 - Quand un même `<archdesc>`/`<c>` contient plusieurs `<daogrp>` directs, leurs contenus
   sont fusionnés dans le premier (`merge_daogrp`, cf. [scripts/ead/dao_ark.py](dao_ark.md),
-  module partagé avec `app/ead_dao_converter`). Les `<daodesc>` de même texte et les
+  module partagé avec `app/ead_prepublication`). Les `<daodesc>` de même texte et les
   `<daoloc>` de même couple (href, role) ne sont pas dupliqués.
 - La fusion est réappliquée après l'étape 8 : la conversion d'un `<dao>` isolé en
   `<daogrp>` peut recréer un doublon dans un `<c>` qui possédait déjà un `<daogrp>`.
 
 ### 6. Ajout des liens ARK BnR
 - La mécanique d'insertion des liens (`add_ark_links`, cf.
-  [scripts/ead/dao_ark.py](dao_ark.md), module partagé avec `app/ead_dao_converter`)
+  [scripts/ead/dao_ark.py](dao_ark.md), module partagé avec `app/ead_prepublication`)
   est appelée ici avec un `link_builder` propre à bn-r → Mnesys.
 - Pour chaque `<archdesc>` et `<c>` portant un attribut `id`, l'ARK actuel construit à
   partir de cet id (`https://www.bn-r.fr/ark:/20179/BNR<id>`) est ajouté avec
@@ -154,8 +154,8 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   fichiers de `results/ead/ead_cor/bnr2mnesys/`, **le `<odd>` est désormais considéré
   comme la donnée maître** : toute correction apportée à la main sur ses `<p>` (ajout,
   modification, suppression d'un lien) doit être répercutée sur `<dao>`/`<daogrp>` via
-  `sync_dao_from_odd()` (module `app/ead_dao_converter/ead_preprocess.py`, cf.
-  [EAD DAO Converter](../../../app/ead_dao_converter/README.md)) — un traitement
+  `sync_dao_from_odd()` (module `app/ead_prepublication/ead_preprocess.py`, cf.
+  [EAD Pré-publication](../../../app/ead_prepublication/README.md)) — un traitement
   indépendant de ce pipeline, à lancer sur le fichier déjà transformé.
 
 ### 11. Reclassement des balises `<name>`

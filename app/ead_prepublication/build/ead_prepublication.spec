@@ -1,15 +1,15 @@
 # -*- mode: python ; coding: utf-8 -*-
-"""Spec PyInstaller pour produire ConvertisseurEAD.exe (Windows, autonome).
+"""Spec PyInstaller pour produire PrepublicationEAD.exe (Windows, autonome).
 
 Génération :
-    pyinstaller build/ead_dao_converter.spec
+    pyinstaller build/ead_prepublication.spec
 Résultat :
-    dist/ConvertisseurEAD.exe   (aucune installation Python requise sur la cible)
+    dist/PrepublicationEAD.exe   (aucune installation Python requise sur la cible)
 """
 
 from pathlib import Path
 
-# Le .spec est exécuté depuis la racine du projet (dossier app/ead_dao_converter/).
+# Le .spec est exécuté depuis la racine du projet (dossier app/ead_prepublication/).
 PROJECT_ROOT = Path(SPECPATH).resolve().parent
 ENTRY = str(PROJECT_ROOT / "app.py")
 
@@ -17,7 +17,7 @@ ENTRY = str(PROJECT_ROOT / "app.py")
 # ead_bnr2mnesys.py) via un sys.path.insert basé sur son propre chemin ; il faut
 # aussi le déclarer ici pour que l'analyse statique de PyInstaller le trouve et
 # l'embarque dans l'exécutable.
-# PROJECT_ROOT.parent.parent : app/ead_dao_converter -> app -> racine du dépôt.
+# PROJECT_ROOT.parent.parent : app/ead_prepublication -> app -> racine du dépôt.
 SCRIPTS_EAD = PROJECT_ROOT.parent.parent / "scripts" / "ead"
 
 block_cipher = None
@@ -44,7 +44,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name="ConvertisseurEAD",
+    name="PrepublicationEAD",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

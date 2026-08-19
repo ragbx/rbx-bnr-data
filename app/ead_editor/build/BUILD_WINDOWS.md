@@ -24,7 +24,7 @@ pyinstaller build\ead_editor.spec --distpath ..\dist
 ```
 
 Le binaire est produit dans **`app\dist\EditeurEAD.exe`** (dossier partagé avec
-`ead_dao_converter`, cf. `--distpath ..\dist`). Il est autonome : on peut le copier
+`ead_prepublication`, cf. `--distpath ..\dist`). Il est autonome : on peut le copier
 sur n'importe quel poste Windows et le lancer par double-clic.
 
 ## Vérification
