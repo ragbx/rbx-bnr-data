@@ -23,6 +23,10 @@ Colonnes utilisees du CSV : path (non utilise ici), name, s3_key, corpus_code
 La conversion est reprenable (fichier de sortie deja present -> saute, sauf
 --overwrite) et isole les erreurs par fichier (et par taux).
 
+Le recap CSV produit inclut une colonne `manifest` (nom du fichier manifeste
+donne en entree), pour pouvoir distinguer/regrouper les stats quand plusieurs
+manifestes ont ete convertis vers le meme --dest (cf. stats.py).
+
 Usage :
   python convert.py manifest.csv --dest E:\corpus\corpus_presse_1
 """
@@ -35,7 +39,7 @@ import time
 import traceback
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
-from os.path import dirname, exists, getsize, join, splitext
+from os.path import basename, dirname, exists, getsize, join, splitext
 
 import pandas as pd
 
@@ -191,16 +195,18 @@ def main():
     csv_out = args.csv_out or join(args.dest, f"conversion_{datetime.now():%Y%m%d%H%M%S}.csv")
     if rows:
         rows.sort(key=lambda r: (r["src"], r["quality"]))
+        manifest_name = basename(args.csv_path)
         with open(csv_out, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(
-                f, fieldnames=["src", "corpus_code", "src_size", "dst", "quality", "dst_size", "width", "height"]
+                f, fieldnames=["src", "corpus_code", "manifest", "src_size", "dst", "quality",
+                              "dst_size", "width", "height"]
             )
             writer.writeheader()
             for r in rows:
                 writer.writerow({
-                    "src": r["src"], "corpus_code": r["corpus_code"], "src_size": r["src_size"],
-                    "dst": r["dst"], "quality": r["quality"], "dst_size": r["dst_size"],
-                    "width": r["width"], "height": r["height"],
+                    "src": r["src"], "corpus_code": r["corpus_code"], "manifest": manifest_name,
+                    "src_size": r["src_size"], "dst": r["dst"], "quality": r["quality"],
+                    "dst_size": r["dst_size"], "width": r["width"], "height": r["height"],
                 })
         print(f"Recapitulatif : {csv_out}")
 

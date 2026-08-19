@@ -3,11 +3,16 @@ r"""stats.py — Statistiques de conversion : pour chaque fichier source, la tai
 du TIFF de depart et la taille du JPEG produit a chaque taux de compression.
 
 Lit un (ou plusieurs) CSV recap produit par convert.py (colonnes : src, corpus_code,
-src_size, dst, quality, dst_size, width, height) et construit un tableau pivote,
-une ligne par fichier source (stem) et une colonne par taux (taille du JPEG, puis
-ratio de compression src_size/taille_qXX) :
+manifest, src_size, dst, quality, dst_size, width, height) et construit un tableau
+pivote, une ligne par fichier source (stem) et une colonne par taux (taille du
+JPEG, puis ratio de compression src_size/taille_qXX) :
 
-  stem, src, corpus_code, src_size, taille_q80, taille_q85, ..., ratio_q80, ratio_q85, ...
+  stem, src, corpus_code, manifest, src_size, taille_q80, ..., ratio_q80, ...
+
+La colonne `manifest` (nom du manifeste ayant produit chaque conversion) permet
+de distinguer/regrouper les stats quand plusieurs manifestes ont ete convertis
+vers le meme --dest : passer tous leurs recaps en entree ici les concatene sans
+ambiguite (les recaps anterieurs a l'ajout de cette colonne ont manifest vide).
 
 Usage :
   python stats.py conversion_20260818.csv --output stats.csv
@@ -36,8 +41,13 @@ def main():
 
     df = pd.concat([pd.read_csv(p) for p in args.recap_csv], ignore_index=True)
     df["stem"] = df["src"].map(lambda p: Path(p).stem)
+    if "manifest" not in df.columns:
+        df["manifest"] = ""
+    df["manifest"] = df["manifest"].fillna("")
 
-    pivot = df.pivot_table(index=["stem", "src", "corpus_code", "src_size"], columns="quality", values="dst_size")
+    pivot = df.pivot_table(
+        index=["stem", "src", "corpus_code", "manifest", "src_size"], columns="quality", values="dst_size"
+    )
     qualites = list(pivot.columns)
     pivot.columns = [f"taille_q{q}" for q in qualites]
     pivot = pivot.reset_index()
@@ -52,6 +62,10 @@ def main():
     pivot.to_csv(output, index=False)
 
     print(f"{len(pivot)} fichier(s) source, taux : {sorted(int(q) for q in df['quality'].unique())}")
+    par_manifest = pivot["manifest"].value_counts()
+    if len(par_manifest) > 1:
+        for nom, n in par_manifest.items():
+            print(f"  - {nom or '(sans nom, recap anterieur)'} : {n} fichier(s)")
     print(f"Stats ecrites : {output}")
 
 
