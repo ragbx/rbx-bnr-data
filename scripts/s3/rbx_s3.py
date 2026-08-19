@@ -1,7 +1,7 @@
 from yaml import safe_load
 import os.path
 import boto3
-from botocore.exceptions import ClientError
+from botocore.exceptions import ClientError, BotoCoreError
 from datetime import datetime
 
 class Config():
@@ -88,9 +88,12 @@ class Rbx_client():
                 if 'ContentLength' in response:
                     upload_res['size'] = response['ContentLength']
                 upload_res['result'] = True
-            except ClientError as e:
+            except (ClientError, BotoCoreError) as e:
                 upload_res["result"] = False
-                upload_res["error"] = e
+                upload_res["error"] = str(e)
+            except Exception as e:
+                upload_res["result"] = False
+                upload_res["error"] = f"erreur inattendue : {e}"
         else:
             upload_res["result"] = False
             upload_res["error"] = "fichier absent"

@@ -8,10 +8,11 @@ from datetime import datetime
 import concurrent.futures
 from tqdm import tqdm
 
-input_folder = join('results', 's3', 'transfert_cadn_314-1000')
+input_folder = join('results', 's3', 'transfert_cadn_378-1000')
 #prefix = "\\\\srvbnr.ntrbx.local\BNR"
 #prefix = "/home/kibini/bnr"
-prefix = "/media/fpichenot/CADN_165-0500/2018.06.101_N - VILLE DE ROUBAIX"
+#prefix = "/media/fpichenot/CADN_165-0500/2018.06.101_N - VILLE DE ROUBAIX"
+prefix = "D:\\"
 
 USER = 'user_rw'
 bucket = 'mediatheque-patarch-communicable'
@@ -81,6 +82,7 @@ def rbx_upload_file(file_data):
         # Un fichier en erreur ne doit jamais interrompre l'upload des autres fichiers du lot
         res2log['error'] = f"exception non gérée : {e}"
 
+    print(res2log)
     return(res2log)
 
 # Exécution
