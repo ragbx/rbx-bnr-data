@@ -53,9 +53,11 @@ seule opération y est implémentée à ce jour :
   `preservation:pdf`/`access:pdf`) :
   - triplet déjà présent → rien à faire, le lien est inchangé ;
   - triplet absent des `<dao>`/`<daoloc>` existants → nouveau `<daoloc>`/`<dao>`
-    créé (`<daogrp>` existant, `<dao>` isolé converti en `<daogrp>`, ou nouveau
-    `<dao>`/`<daogrp>` si aucun des deux n'existe encore — mécanique de
-    `dao_ark.add_ark_links`) ;
+    créé : directement dans le `<daogrp>` s'il existe déjà (**pas** via
+    `dao_ark.add_ark_links`, dont la dédup par `role` seul rejetterait à tort un
+    `role` déjà présent sous un autre `href` — ex. une 2ᵉ piste `access:audio`
+    d'un même fonds sonore) ; sinon délègue à `add_ark_links` (`<dao>` isolé
+    converti en `<daogrp>`, ou nouveau `<dao>`/`<daogrp>`) ;
   - `<dao>`/`<daoloc>` existant dont le triplet a disparu du `<odd>` → supprimé.
     Un simple changement de `role`/`audience` sur un `href` se traduit donc par
     une suppression de l'ancien triplet et un ajout du nouveau (pas de

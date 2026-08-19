@@ -105,8 +105,11 @@ class EAD_preprocess:
           répéter dans un même <daogrp> sous des role différents (ex. un même pdf en
           preservation:pdf et access:pdf, cf. documentation/files/donnees/dao_daogrp.md) ;
         - un triplet présent dans le <odd> mais sans <dao>/<daoloc> correspondant est
-          créé (délègue à dao_ark.add_ark_links pour l'insertion : <daogrp> existant,
-          <dao> isolé converti en <daogrp>, ou nouveau <dao>/<daogrp>) ;
+          créé : directement dans le <daogrp> s'il existe déjà (pas via
+          dao_ark.add_ark_links, dont la dédup par role seul rejetterait à tort un
+          role déjà présent sous un autre href — ex. deux pistes access:audio d'un
+          même fonds sonore) ; sinon délègue à add_ark_links (<dao> isolé converti
+          en <daogrp>, ou nouveau <dao>/<daogrp>) ;
         - un <dao>/<daoloc> existant dont le triplet n'apparaît plus dans le <odd> est
           supprimé. Un simple changement de role/audience sur un href se traduit donc
           par une suppression de l'ancien triplet et un ajout du nouveau (pas de
@@ -162,19 +165,33 @@ class EAD_preprocess:
             if not a_ajouter:
                 continue
 
-            stats["ajoutes"] += add_ark_links(
-                c_elem,
-                lambda el, liens=a_ajouter: [(href, role) for href, role, _ in liens],
-                tags=("c",),
-            )
-
-            for href, role, audience in a_ajouter:
-                if not audience:
-                    continue
-                for elem in c_elem.iter("dao", "daoloc"):
-                    if elem.get("href") == href and elem.get("role") == role and not elem.get("audience"):
-                        elem.set("audience", audience)
-                        break
+            daogrp = c_elem.find("daogrp")
+            if daogrp is not None:
+                # Insertion directe : a_ajouter ne contient déjà que des triplets
+                # absents, donc pas besoin (et pas de risque) de passer par la
+                # dédup par role seul de add_ark_links.
+                for href, role, audience in a_ajouter:
+                    new_daoloc = etree.SubElement(daogrp, "daoloc")
+                    new_daoloc.set("href", href)
+                    new_daoloc.set("role", role)
+                    if audience:
+                        new_daoloc.set("audience", audience)
+                    stats["ajoutes"] += 1
+            else:
+                # Ni <dao> isolé ni <daogrp> : ces cas de add_ark_links ajoutent
+                # systématiquement tous les liens, donc aucun risque de dédup indue.
+                stats["ajoutes"] += add_ark_links(
+                    c_elem,
+                    lambda el, liens=a_ajouter: [(href, role) for href, role, _ in liens],
+                    tags=("c",),
+                )
+                for href, role, audience in a_ajouter:
+                    if not audience:
+                        continue
+                    for elem in c_elem.iter("dao", "daoloc"):
+                        if elem.get("href") == href and elem.get("role") == role and not elem.get("audience"):
+                            elem.set("audience", audience)
+                            break
 
         return stats
 

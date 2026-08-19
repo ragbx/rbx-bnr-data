@@ -321,7 +321,7 @@ class EADPrepublicationApp(tk.Tk):
         btn_row.pack(fill="x")
         self._run_btn = make_button(btn_row,
                                     text="Lancer la synchronisation",
-                                    command=self._start_conversion,
+                                    command=self._start_sync,
                                     w=210, h=38, primary=True, theme=t)
         self._run_btn.pack(side="left")
         tk.Label(btn_row,
@@ -364,7 +364,7 @@ class EADPrepublicationApp(tk.Tk):
         name = EAD_preprocess(path).output_filename
         self._output_path.set(os.path.join(os.path.dirname(path), name))
         self._log_append(f"Source sélectionnée : {path}")
-        self._set_status(0, "Fichier source chargé. Prêt pour la conversion.")
+        self._set_status(0, "Fichier source chargé. Prêt pour la synchronisation.")
 
     def _browse_output(self):
         path = filedialog.asksaveasfilename(
@@ -376,7 +376,7 @@ class EADPrepublicationApp(tk.Tk):
             self._output_path.set(path)
             self._log_append(f"Destination définie : {path}")
 
-    def _start_conversion(self):
+    def _start_sync(self):
         src = self._source_path.get()
         out = self._output_path.get()
         if not src or not os.path.isfile(src):
@@ -398,6 +398,9 @@ class EADPrepublicationApp(tk.Tk):
             conv = EAD_preprocess(src)
             self.after(0, self._set_status, 10, "Lecture du fichier…")
             conv.load()
+            c_infos = conv.check_odd_in_c()
+            n_odd = sum(1 for c in c_infos if c["has_odd"])
+            self._log_append(f"{n_odd}/{len(c_infos)} <c> possèdent un <odd>.")
             self.after(0, self._set_status, 20, "Synchronisation des <dao>/<daoloc>…")
             self._log_append("Synchronisation à partir des <odd>…")
             stats = conv.transform(
