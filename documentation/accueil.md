@@ -39,6 +39,7 @@ Transformer les fichiers EAD produits par la bn-r pour les importer dans le logi
 d'archivistique Mnesys.
 
 → [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md) — `<dao>` / `<daogrp>` dans les IR
+· [Guide pratique : corriger un lien via `<odd>`](files/donnees/guide_odd_publication.md)
 
 → **[Chaîne d'appariement des DAO](files/scripts/dao_appariement.md)** — vue d'ensemble, flux et enchaînement des scripts
 

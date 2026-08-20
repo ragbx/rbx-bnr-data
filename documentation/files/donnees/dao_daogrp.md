@@ -302,6 +302,9 @@ conservation des deux médias :
 
 ## Le résumé `<odd>` (donnée maître)
 
+> Pour la marche à suivre pas à pas (corriger un lien, lancer l'app), voir le
+> [Guide pratique : corriger un lien via `<odd>`](guide_odd_publication.md).
+
 Depuis [ead_bnr2mnesys.py](../scripts/ead_bnr2mnesys.md) (étape 10), chaque `<c>`
 possédant un `<dao>` isolé ou un `<daogrp>` reçoit, juste après, un `<odd>` qui
 résume ses liens en clair, un `<p>` par lien :

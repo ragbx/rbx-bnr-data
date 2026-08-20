@@ -11,6 +11,10 @@ considéré comme la donnée maître : quand il est corrigé à la main (ajout,
 modification ou suppression d'un lien), cette app répercute la correction sur
 les `<dao>`/`<daoloc>` correspondants.
 
+**Pour la marche à suivre pas à pas** (comment corriger un lien dans le `<odd>`,
+puis lancer l'app), voir le
+[Guide pratique : corriger un lien via `<odd>`](../../documentation/files/donnees/guide_odd_publication.md).
+
 ## Structure
 
 ```
