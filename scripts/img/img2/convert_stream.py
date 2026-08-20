@@ -115,7 +115,12 @@ def build_jobs(df, source_root: str, dest_root: str, overwrite: bool):
     Retourne une liste de (src, corpus_code, [(dst, quality), ...])."""
     groups = {}
     skipped, absents = 0, 0
-    for row in df.to_dict("records"):
+    records = df.to_dict("records")
+    # exists() sur la source interroge le partage reseau a chaque appel : sur un
+    # gros manifeste, ce seul balayage peut prendre plusieurs minutes sans rien
+    # afficher si on ne montre pas de progression ici (avant meme la conversion).
+    iterator = tqdm(records, unit="f", desc="verification source") if tqdm else records
+    for row in iterator:
         rel_src = str(row["path"]).replace("/", os.sep)
         src = join(source_root, rel_src, str(row["name"]))
         if not exists(src):
@@ -153,6 +158,9 @@ def main():
     parser.add_argument("--workers", type=int, default=os.cpu_count())
     parser.add_argument("--overwrite", action="store_true",
                         help="reconvertir meme si le JPEG de sortie existe deja")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="verifie les sources et affiche le bilan (fichiers a traiter, "
+                             "deja presents, introuvables) sans convertir")
     parser.add_argument("--csv-out", default=None,
                         help="recapitulatif CSV (defaut : <dest>/conversion_stream_AAAAMMJJHHMMSS.csv)")
     args = parser.parse_args()
@@ -163,6 +171,9 @@ def main():
     n_outputs = sum(len(outputs) for _, _, outputs in jobs)
     print(f"{len(jobs)} fichier(s) source a traiter ({n_outputs} sortie(s) JPEG au total), "
           f"{skipped} deja presente(s) sautee(s), {absents} source(s) TIFF introuvable(s) sous {args.source}.")
+    if args.dry_run:
+        print("--dry-run : aucune conversion effectuee.")
+        return
     if not jobs:
         return
 
