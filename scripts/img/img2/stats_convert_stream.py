@@ -25,8 +25,35 @@ import posixpath as pp
 from pathlib import Path
 
 import pandas as pd
+from openpyxl.styles import Font
+from openpyxl.utils import get_column_letter
 
 MO = 1024 * 1024
+
+
+def exporter_xlsx(df: pd.DataFrame, xlsx_path: Path, sheet_name: str, cols_ratio: list):
+    """Ecrit un DataFrame en xlsx : police Calibri, en-tetes en gras, colonnes
+    auto-ajustees, ratios formates en 'x'."""
+    with pd.ExcelWriter(xlsx_path, engine="openpyxl") as writer:
+        df.to_excel(writer, sheet_name=sheet_name, index=False)
+        ws = writer.sheets[sheet_name]
+
+        header_font = Font(name="Calibri", bold=True)
+        body_font = Font(name="Calibri")
+        for cell in ws[1]:
+            cell.font = header_font
+
+        for row in ws.iter_rows(min_row=2, max_row=ws.max_row):
+            for cell in row:
+                cell.font = body_font
+            for c in cols_ratio:
+                if c in df.columns:
+                    row[df.columns.get_loc(c)].number_format = '0.00"x"'
+
+        for i, col in enumerate(df.columns, start=1):
+            maxlen = max(df[col].astype(str).map(len).max(), len(col))
+            ws.column_dimensions[get_column_letter(i)].width = min(maxlen + 2, 30)
+        ws.freeze_panes = "A2"
 
 
 def lister_jpeg(dest: Path) -> pd.DataFrame:
@@ -164,8 +191,15 @@ def main():
     piv_stem.to_csv(out_stem, index=False)
     piv_corpus.to_csv(out_corpus, index=False)
 
-    print(f"Pivot par document : {out_stem} ({len(piv_stem)} lignes)")
-    print(f"Pivot par corpus   : {out_corpus} ({len(piv_corpus)} lignes)")
+    ratio_cols_stem = [c for c in piv_stem.columns if c.startswith("ratio_source_")]
+    ratio_cols_corpus = [c for c in piv_corpus.columns if c.startswith("ratio_source_")]
+    out_stem_xlsx = out_dir / f"pivot_taille_qualite_{tag}.xlsx"
+    out_corpus_xlsx = out_dir / f"pivot_taille_qualite_par_corpus_{tag}.xlsx"
+    exporter_xlsx(piv_stem, out_stem_xlsx, "pivot", ratio_cols_stem)
+    exporter_xlsx(piv_corpus, out_corpus_xlsx, "par_corpus", ratio_cols_corpus)
+
+    print(f"Pivot par document : {out_stem} / {out_stem_xlsx} ({len(piv_stem)} lignes)")
+    print(f"Pivot par corpus   : {out_corpus} / {out_corpus_xlsx} ({len(piv_corpus)} lignes)")
 
 
 if __name__ == "__main__":
