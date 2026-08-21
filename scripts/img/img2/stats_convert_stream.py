@@ -51,16 +51,32 @@ def deduire_stem_qualite(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def charger_ref_tailles(ref_path: str, corpus_list: list) -> pd.DataFrame:
+    """Charge les masters TIFF du ref avec DEUX cles de rapprochement possibles,
+    calquees sur common.relkey (download.py/convert_stream.py) :
+      - stem_key       : depuis s3_key quand il existe (cas normal)
+      - stem_key_repli : depuis <fonds>/<corpus_code>/<name>, pour les lignes du
+        ref qui n'ont PAS de s3_key (fichiers pas encore "keyes" mais bien
+        presents et convertis via le repli de relkey)."""
     ref = pd.read_csv(ref_path, dtype=str, low_memory=False,
                        usecols=["path", "name", "s3_key", "corpus_code", "uuid", "extension", "size"])
     ref = ref[ref["extension"].str.lower().isin([".tif", ".tiff"])]
     if corpus_list:
         ref = ref[ref["corpus_code"].isin(corpus_list)]
-    ref = ref[ref["s3_key"].notna()]
     ref["size"] = ref["size"].astype(float)
-    ref["stem_key"] = ref["s3_key"].apply(lambda s: pp.splitext(s)[0]).str.lower()
-    ref = ref.drop_duplicates(subset="stem_key", keep="first")
-    return ref[["stem_key", "size", "corpus_code", "uuid"]]
+
+    avec_s3 = ref[ref["s3_key"].notna()].copy()
+    avec_s3["stem_key"] = avec_s3["s3_key"].apply(lambda s: pp.splitext(s)[0]).str.lower()
+    avec_s3 = avec_s3.drop_duplicates(subset="stem_key", keep="first")
+
+    sans_s3 = ref[ref["s3_key"].isna()].copy()
+    sans_s3["stem_key"] = (
+        sans_s3["corpus_code"].str.split("_").str[0] + "/" + sans_s3["corpus_code"] + "/"
+        + sans_s3["name"].apply(lambda n: pp.splitext(n)[0])
+    ).str.lower()
+    sans_s3 = sans_s3.drop_duplicates(subset="stem_key", keep="first")
+
+    cols = ["stem_key", "size", "corpus_code", "uuid"]
+    return avec_s3[cols], sans_s3[cols]
 
 
 def construire_pivots(df: pd.DataFrame):
@@ -116,15 +132,30 @@ def main():
     print(f"{len(df)} JPEG trouves ({df['stem_key'].nunique()} documents distincts).")
 
     print("Chargement du ref (taille des TIFF source) ...")
-    ref = charger_ref_tailles(args.ref, args.corpus)
-    ref["size_source_Mo"] = ref["size"] / MO
+    ref_s3, ref_repli = charger_ref_tailles(args.ref, args.corpus)
+    ref_s3["size_source_Mo"] = ref_s3["size"] / MO
+    ref_repli["size_source_Mo"] = ref_repli["size"] / MO
 
-    df = df.merge(ref[["stem_key", "size_source_Mo", "corpus_code"]], on="stem_key", how="left")
+    # 1ere passe : rapprochement par s3_key
+    df = df.merge(ref_s3[["stem_key", "size_source_Mo", "corpus_code"]], on="stem_key", how="left")
+
+    # 2e passe : pour les non-apparies, repli <fonds>/<corpus_code>/<name> (comme relkey)
+    manque = df["size_source_Mo"].isna()
+    if manque.any():
+        repli = df.loc[manque, ["stem_key"]].merge(
+            ref_repli[["stem_key", "size_source_Mo", "corpus_code"]], on="stem_key", how="left"
+        )
+        df.loc[manque, "size_source_Mo"] = repli["size_source_Mo"].to_numpy()
+        df.loc[manque, "corpus_code"] = repli["corpus_code"].to_numpy()
+
     df["match"] = df["size_source_Mo"].notna()
     n_non_apparies = (~df["match"]).sum()
     if n_non_apparies:
         print(f"ATTENTION : {n_non_apparies} JPEG sans TIFF source retrouve dans le ref "
               f"(exclus des ratios, gardes dans le detail par stem).")
+        out_manquants = out_dir / f"non_apparies_{tag}.csv"
+        df.loc[~df["match"], ["rel_path", "stem_key", "qualite", "taille"]].to_csv(out_manquants, index=False)
+        print(f"Liste des non-apparies : {out_manquants}")
 
     piv_stem, piv_corpus = construire_pivots(df)
 
