@@ -1,4 +1,4 @@
-# Corriger un lien d'un IR via `<odd>` : guide pratique
+# Corriger un lien d'un IR via l'élément `<odd>` : guide pratique
 
 Ce guide s'adresse à qui doit **corriger un lien de fichier (dao) sur un
 instrument de recherche déjà importé dans Mnesys**, sans toucher au XML
@@ -8,23 +8,17 @@ structures `<dao>` / `<daogrp>` / `<odd>`, voir
 
 ---
 
-## 1. Le principe : `<odd>` est la donnée maître
+## 1. Le principe :  l'élément `<odd>` est la donnée maître
 
-Sur un `<c>` qui a des fichiers associés, deux éléments coexistent :
+Sur un élément `<c>` qui a des fichiers associés, deux éléments coexistent :
 
-- un `<dao>` (lien unique) ou un `<daogrp>` (plusieurs `<daoloc>`) : la
-  structure XML **réellement utilisée** par Mnesys pour afficher les liens ;
-- juste après, un `<odd>` qui **résume ces mêmes liens en texte lisible**, un
-  `<p>` par lien.
+- un élément `<dao>` (lien unique) ou un élément `<daogrp>` (plusieurs éléments `<daoloc>`) : la
+  structure XML réellement utilisée par l'EAD pour stocker les liens ;
+- juste après, un élément `<odd>` qui **reprend ces mêmes liens en texte lisible**, chaque lien se trouvant dans un élément `<p>`.
 
-**On ne corrige jamais le `<dao>`/`<daogrp>` directement : on corrige le
+**On ne corrige jamais les éléments `<dao>`/`<daogrp>` directement : on corrige l'élément
 `<odd>`**, puis on répercute la correction avec l'application
 **[EAD Pré-publication](../../../app/ead_prepublication/README.md)**.
-
-Pourquoi passer par le `<odd>` plutôt que d'éditer le `<daogrp>` directement ?
-Parce que c'est du texte simple, sans risque de casser une balise XML, et parce
-que ça garde une trace lisible de l'état voulu — utile pour relire ou faire
-relire une notice sans connaître le XML.
 
 ---
 
@@ -32,23 +26,22 @@ relire une notice sans connaître le XML.
 
 Une correction de lien se fait toujours dans cet ordre :
 
-1. **Corriger le `<odd>` dans Mnesys** — dans l'interface d'édition de la
+1. **Corriger l'élément `<odd>` dans Mnesys** — dans l'interface d'édition de la
    notice, sur le composant concerné.
 2. **Exporter puis synchroniser** — exporter l'IR complet depuis Mnesys, puis
    lancer l'application **EAD Pré-publication** sur ce fichier exporté : elle
-   répercute la correction du `<odd>` sur le `<dao>`/`<daogrp>`.
+   répercute la correction de l'élément `<odd>` sur l'élément `<dao>`/`<daogrp>`.
 3. **Réimporter dans Mnesys** le fichier produit par l'application — **sous le
    même nom** que le fichier exporté à l'étape 2.
 
-Tant que les étapes 2 et 3 n'ont pas été faites, le `<dao>`/`<daogrp>` affiché
-dans Mnesys ne reflète **pas encore** la correction du `<odd>` : c'est normal,
-la synchronisation ne se fait pas en direct.
+Tant que les étapes 2 et 3 n'ont pas été faites, l'élément `<dao>`/`<daogrp>` affiché
+dans Mnesys ne reflète **pas encore** la correction de l'élément `<odd>` : la synchronisation ne se fait pas en direct.
 
 ---
 
-## 3. Étape 1 — corriger le `<odd>` dans Mnesys
+## 3. Étape 1 — corriger l'élément `<odd>` dans Mnesys
 
-Chaque lien tient sur un `<p>`, au format :
+Chaque lien tient sur un élément `<p>`, au format :
 
     role href [audience]
 
@@ -81,7 +74,7 @@ Exemple, pour une image avec conservation et publication :
 | `publication:current` | ARK de publication actuel |
 | `publication:previous` | Ancien ARK de publication (bn-r) |
 
-Détail complet de cette grammaire (`usage:média[:position]`) dans
+Détail complet de cette syntaxe (`usage:média[:position]`) dans
 [Grammaire des role](dao_daogrp.md#grammaire-des-role).
 
 Une ligne qui ne commence pas par un de ces rôles est **ignorée** par l'app :
@@ -90,9 +83,9 @@ soit prise pour un lien.
 
 ### Cas d'ajout, modification, suppression
 
-- **Ajouter un lien** : ajouter une ligne `<p>role href</p>` (ou
-  `<p>role href audience</p>`).
-- **Supprimer un lien** : supprimer la ligne `<p>` correspondante.
+- **Ajouter un lien** : ajouter une ligne `role href` (ou
+  `role href audience`).
+- **Supprimer un lien** : supprimer la ligne correspondante.
 - **Changer le fichier d'un lien** (même rôle, autre `href`) : remplacer le
   `href` dans la ligne existante.
 - **Changer le rôle ou l'audience d'un lien** : remplacer la ligne. Techniquement,
@@ -105,21 +98,20 @@ soit prise pour un lien.
 - Le `href` doit être **exact** (aucune correction automatique de faute de
   frappe). Un `href` mal recopié crée un nouveau lien au lieu de corriger l'ancien,
   et laisse l'ancien lien orphelin dans le `<daogrp>` (l'app le supprimera au
-  passage suivant, puisqu'il n'est plus dans le `<odd>`).
+  passage suivant, puisqu'il n'est plus dans l'élément `<odd>`).
 - Un même `href` peut légitimement apparaître **deux fois avec des rôles
   différents** (ex. un pdf qui sert à la fois de master de conservation et de
   fichier de diffusion : `preservation:pdf` et `access:pdf` sur le même
   fichier). C'est normal, ce n'est pas un doublon à corriger.
-- N'éditez **que** le `<odd>`. Le `<dao>`/`<daogrp>` est régénéré par l'app à
-  partir du `<odd>` : le modifier directement n'aurait pas d'effet durable (et
+- N'éditez **que** l'élément `<odd>`. L'élément `<dao>`/`<daogrp>` est régénéré par l'app à
+  partir de l'élément `<odd>` : le modifier directement n'aurait pas d'effet durable (et
   serait écrasé au prochain passage de l'app).
 
 ---
 
 ## 4. Étape 2 — exporter et lancer la synchronisation
 
-1. Dans Mnesys, **exporter l'IR complet** (pas seulement le `<c>` corrigé) au
-   format XML EAD standard, et récupérer le fichier téléchargé.
+1. Dans Mnesys, **exporter l'IR complet** et récupérer le fichier téléchargé.
 2. Ouvrir **EAD Pré-publication** (`app/ead_prepublication/`, voir son
    [README](../../../app/ead_prepublication/README.md) pour le lancement ou
    l'exécutable Windows).
@@ -131,7 +123,7 @@ soit prise pour un lien.
    le nom suggéré puis **renommer** le fichier produit pour qu'il soit
    identique au fichier exporté, avant l'étape 3.
 5. Cliquer **Lancer la synchronisation**.
-6. Lire le journal : il indique combien de `<c>` ont un `<odd>`
+6. Lire le journal : il indique combien d'éléments `<c>` ont un élément `<odd>`
    (`N/M <c> possèdent un <odd>`), puis le résultat
    (`X ajoutés, Y supprimés`).
 
@@ -154,11 +146,11 @@ aligné sur le fichier exporté à l'étape 2).
 - Les compteurs affichés dans le journal de l'app doivent correspondre à ce
   que vous attendiez (un ajout et une suppression pour un rôle changé, par
   exemple — voir « changer le rôle » ci-dessus).
-- Avant réimport, on peut ouvrir le fichier de sortie et vérifier le
-  `<daogrp>` du `<c>` corrigé : le lien doit refléter exactement le `<odd>`.
+- Avant réimport, on peut ouvrir le fichier de sortie et vérifier l'élément
+  `<daogrp>` de l'élément `<c>` corrigé : le lien doit refléter exactement l'élément `<odd>`.
 - Relancer la synchronisation sur ce même fichier de sortie ne doit plus rien
-  changer (`0 ajoutés, 0 supprimés`) : c'est le signe que le `<dao>`/`<daogrp>`
-  est bien aligné sur le `<odd>`.
+  changer (`0 ajoutés, 0 supprimés`) : c'est le signe que l'élément `<dao>`/`<daogrp>`
+  est bien aligné sur l'élément `<odd>`.
 - Après réimport, vérifier dans Mnesys que le lien du composant corrigé
   s'affiche comme attendu.
 
@@ -172,5 +164,5 @@ aligné sur le fichier exporté à l'étape 2).
 - [README de EAD Pré-publication](../../../app/ead_prepublication/README.md) —
   détail de l'implémentation (`sync_dao_from_odd()`).
 - [ead_bnr2mnesys.py](../scripts/ead_bnr2mnesys.md) — étape 10, génération
-  initiale du `<odd>` à partir du `<dao>`/`<daogrp>`, lors de la première
+  initiale de l'élément `<odd>` à partir de l'élément `<dao>`/`<daogrp>`, lors de la première
   transformation d'un IR (avant son premier import dans Mnesys).
