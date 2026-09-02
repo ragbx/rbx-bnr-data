@@ -77,6 +77,12 @@ ws = wb.active
 colonnes = [cell.value for cell in ws[1]]
 derniere = ws.max_row
 
+# fond blanc systématique (au lieu du fond transparent par défaut), avant les
+# fonds spécifiques (en-tête gris) qui l'écrasent volontairement ci-dessous
+for row in ws.iter_rows():
+    for cell in row:
+        cell.fill = PatternFill("solid", fgColor="FFFFFFFF")
+
 # en-tête : gras sur fond gris, ligne figée
 for cell in ws[1]:
     cell.font = Font(bold=True)

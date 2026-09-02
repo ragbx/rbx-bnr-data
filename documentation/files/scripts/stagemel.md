@@ -54,26 +54,37 @@ statuts `INCONNU`.
    | `CHEMIN` | `path` du REF | vide | `path` du REF |
    | `PROBLEMES` | « Pas de format tif » si `.jpg` sans `.tif` de même clé dans le corpus | « Fichier non retrouvé dans REF » / « Clé proche d'un fichier connu » | vide |
    | `À FAIRE` | déduit du statut (table `ACTION_SUR`, tous les statuts harmonisés sauf la famille `INCONNU*`) | « À numériser » pour SEUL DAO, vide pour un candidat ERREUR DAO | vide |
-   | `REF_PROCHE` (+ `_UUID`/`_CHEMIN`/`_SIMILARITE`) | — | pour un SEUL DAO sans correspondance exacte : la clé cas1/cas3 la plus ressemblante (`difflib`, seuil `SIMILARITE_MIN = 0.75`), sinon vide | — |
 
-   Les candidats ERREUR DAO, les `REF_PROCHE` et tout statut `INCONNU*` restent
-   **volontairement non résolus** (cellule `À FAIRE` vide) : ce sont des pistes
-   proposées, à confirmer par l'utilisateur (notice EAD, contexte métier) —
-   jamais une politique transfert/suppression inventée par le script.
+   **Priorité anti-« À SUPPRIMER »** : la correspondance exacte cherche d'abord
+   parmi les fichiers cas1/cas3 dont le statut n'est **pas** `À SUPPRIMER (*)`,
+   et seulement s'il n'y a rien là-dedans, un repli sur les fichiers
+   `À SUPPRIMER (*)`. Pointer un DAO SEUL vers un fichier voué à disparaître
+   serait trompeur s'il existe un autre candidat plus pertinent. Un repli est
+   toujours signalé explicitement : `STATUT` devient « ERREUR DAO (candidat,
+   fichier À SUPPRIMER) ».
 
-   **Précision de `REF_PROCHE`** dépend fortement de la forme des identifiants
-   du corpus. Pour des clés à segments peu nombreux et distinctifs (ex.
-   `RBX_MUS_ARC_EINF_001A`), un score élevé est un vrai indice de typo. Pour des
-   corpus à foliotation dense (ex. `RBX_MED_MS_<manuscrit>_<folio>`, des milliers
-   de folios à 3 chiffres par manuscrit), deux numéros voisins sont presque
-   toujours similaires à >0.85 sans lien réel — le folio manquant proposé est
-   souvent juste un autre folio du même manuscrit, pas une erreur de nommage du
-   folio recherché. Traiter `REF_PROCHE` comme un point de départ pour l'œil
-   humain, pas comme un score de confiance. Pour rester rapide sur ces gros
-   corpus, le rapprochement ne regarde que les clés cas1/cas3 partageant le même
-   « squelette » (identifiant parent identique, dernier groupe de chiffres
-   neutralisé) ; un squelette regroupant plus de `TAILLE_BUCKET_MAX` (2000) clés
-   est ignoré plutôt que comparé (trop générique, trop coûteux).
+   Les candidats ERREUR DAO et tout statut `INCONNU*` restent **volontairement
+   non résolus** (cellule `À FAIRE` vide) : ce sont des pistes proposées, à
+   confirmer par l'utilisateur (notice EAD, contexte métier) — jamais une
+   politique transfert/suppression inventée par le script.
+
+   **Pas de rapprochement flou** sur les SEUL DAO sans correspondance exacte
+   (« Fichier non retrouvé dans REF ») : une colonne `REF_PROCHE*` (clé la
+   plus ressemblante par `difflib`) a existé brièvement mais a été retirée le
+   2026-08-22 — sur les corpus à foliotation dense (ex. MED_MS, des milliers
+   de folios à 3 chiffres par manuscrit), presque tout folio voisin ressortait
+   à une similarité >0.85 sans lien réel : trop de faux positifs pour rester
+   une piste utile.
+
+   **Exclusion des `À SUPPRIMER` déjà réglés** : une ligne APPARIÉ dont le
+   statut commence par `À SUPPRIMER` n'apparaît dans le recap que si son
+   document n'a **pas** de master (`.tif`/`.tiff`) déjà `TRANSFERT_S3_OK` —
+   recherché sur **tout le ref, tous corpus confondus** (pas seulement celui en
+   cours de traitement : cf. le cas MED_MS/AMR_PR ci-dessous, où le master d'un
+   fichier étiqueté MED_MS peut être classé sous un tout autre `corpus_code`).
+   Rien à trancher sur une suppression déjà sécurisée par un master existant —
+   ça n'encombre pas le recap. Le nombre exclu est indiqué dans les
+   avertissements affichés en fin d'exécution.
    → `results/corpus/stagemel/recap/<corpus>_recap_draft_<date>.xlsx`
 
 `stagemel_pipeline.sh` enchaîne `dao_ref_link.py` puis les trois scripts

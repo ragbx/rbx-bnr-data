@@ -326,12 +326,17 @@ Chaque `<p>` suit le format **`role href [audience]`** (le segment `audience` es
 omis quand l'attribut est absent ; dans tout le corpus, `audience` ne prend
 d'ailleurs que la valeur `internal`).
 
-**Dans les fichiers de `results/ead/ead_cor/bnr2mnesys/`, ce `<odd>` est
-considéré comme la donnée maître** : une correction faite à la main sur ses
-`<p>` (ajout, modification, suppression d'un lien) doit être répercutée sur
-`<dao>`/`<daogrp>` avec `sync_dao_from_odd()`
+**Ce `<odd>` est considéré comme la donnée maître** : une correction faite à la
+main sur ses `<p>` (ajout, modification, suppression d'un lien) doit être
+répercutée sur `<dao>`/`<daogrp>` avec `sync_dao_from_odd()`
 (`app/ead_prepublication/ead_preprocess.py`, cf.
-[EAD Pré-publication](../../../app/ead_prepublication/README.md)) :
+[EAD Pré-publication](../../../app/ead_prepublication/README.md)). Deux cas se
+présentent selon le moment du cycle de vie de l'IR : sur le fichier de
+`results/ead/ead_cor/bnr2mnesys/` (sortie initiale d'`ead_bnr2mnesys.py`), avant
+le tout premier import dans Mnesys ; ou, une fois l'IR déjà dans Mnesys, sur un
+export XML fraîchement récupéré depuis Mnesys après correction du `<odd>`
+**dans Mnesys même** (cycle détaillé dans le
+[Guide pratique](guide_odd_publication.md#2-le-cycle-en-3-étapes)) :
 
 L'appariement se fait sur le triplet complet `(href, role, audience)`, pas sur le
 `href` seul, qui peut légitimement se répéter dans un même `<daogrp>` sous des

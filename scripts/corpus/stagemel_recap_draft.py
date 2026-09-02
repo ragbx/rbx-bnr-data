@@ -23,6 +23,9 @@ qui est mécaniquement dérivable :
            laissée vide et un avertissement est affiché : la politique à
            appliquer (transférer ? supprimer ? cf. CONFIG de med_s3_key_cible.py)
            doit être validée au cas par cas, elle n'est pas inventée ici.
+           Exclues du recap : les lignes À SUPPRIMER (*) dont le master (.tif)
+           est déjà TRANSFERT_S3_OK — recherché sur tout le ref, tous corpus
+           confondus (pas seulement celui traité), rien à trancher dessus.
 
   - cas2 (DAO SEUL) : STATUT = « SEUL DAO » par défaut (DAO attribuée mais fichier
            introuvable dans REF) ; sauf si sa clé normalisée (casse/ponctuation
@@ -31,12 +34,16 @@ qui est mécaniquement dérivable :
            méthodologie du stage (les cas d'erreur de nommage réels doivent être
            confirmés à la main, ce script ne fait que proposer le rapprochement).
            À FAIRE = « À numériser » pour les SEUL DAO, vide pour les candidats
-           ERREUR DAO (dépend de la confirmation).
-           Pour les SEUL DAO restants (pas de correspondance exacte), colonnes
-           REF_PROCHE / REF_PROCHE_UUID / REF_PROCHE_CHEMIN / REF_PROCHE_SIMILARITE :
-           la clé cas1/cas3 la plus ressemblante (difflib, seuil SIMILARITE_MIN),
-           proposée comme piste, sans changer le STATUT ni l'À FAIRE — un
-           rapprochement plausible n'est pas une confirmation.
+           ERREUR DAO (dépend de la confirmation). La correspondance exacte
+           cherche d'abord parmi les fichiers pas encore À SUPPRIMER, et ne se
+           rabat sur un fichier À SUPPRIMER que si rien d'autre n'a matché
+           (STATUT le signale alors explicitement) : pointer vers un fichier
+           voué à disparaître serait trompeur si un autre candidat existe.
+           Pas de rapprochement flou/approchant : un fichier « non retrouvé
+           dans REF » reste tel quel, sans piste automatique proposée — trop
+           de faux positifs sur les corpus à foliotation dense (cf. mémoire :
+           tout folio voisin d'un manuscrit MED_MS ressortait à >0.85 sans lien
+           réel), retiré le 2026-08-22.
 
   - cas3 (REF SEUL) : laissé tel quel (rare), sans STATUT/À FAIRE dérivé.
 
@@ -49,12 +56,16 @@ Usage
   conda run -n rbx-bnr-data python scripts/corpus/stagemel_recap_draft.py MUS_ARC --date 20260821
 """
 import argparse
-import difflib
 import re
+import sys
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+from openpyxl.styles import PatternFill
+
+sys.path.insert(0, str(Path(__file__).parent))
+from stagemel_extraction_corpus import dernier_ref  # noqa: E402
 
 CAS_DIR = Path("results/corpus/stagemel/cas")
 OUT_DIR = Path("results/corpus/stagemel/recap")
@@ -80,17 +91,14 @@ ACTION_SUR = {
     "À SUPPRIMER (MED_PAR)": "À supprimer",
     "À SUPPRIMER (TESTS)": "À supprimer",
     "À SUPPRIMER (DOUBLON SOURCE - À VERIFIER)": "À supprimer (vérifier échantillon avant purge)",
+    "À SUPPRIMER (DIFFUSION - MASTER DÉJÀ SUR S3)": "À supprimer",
     "À CHERCHER": "À chercher",
     "S3_KEY À CONSTRUIRE": "S3 key à construire",
     "DOUBLON - À VOIR": "À examiner (doublon)",
 }
 
 
-COLONNES = ["CAS", "UUID", "STATUT", "CHEMIN", "PROBLEMES", "À FAIRE",
-            "REF_PROCHE", "REF_PROCHE_UUID", "REF_PROCHE_CHEMIN", "REF_PROCHE_SIMILARITE"]
-
-# En dessous de ce seuil (ratio difflib, 0-1), pas de proposition : trop de bruit.
-SIMILARITE_MIN = 0.75
+COLONNES = ["CAS", "UUID", "STATUT", "CHEMIN", "PROBLEMES", "À FAIRE"]
 
 # Noms courts pour la colonne CAS, plus parlants que "CAS 1/2/3" (cf. définition
 # des cas dans stagemel_cas_merge.py : présence croisée uuid REF / clé DAO).
@@ -103,53 +111,23 @@ def norm_key(k):
     return re.sub(r"[^A-Z0-9]", "", str(k).upper())
 
 
-DERNIER_GROUPE_CHIFFRES = re.compile(r"\d+(?!.*\d)")
-
-# Une clé plate MED_MS_<manuscrit>_<folio> normalisée en RBXMEDMS<manuscrit><folio>
-# perd la frontière entre ses deux groupes de chiffres : neutraliser tous les
-# chiffres regrouperait 45 000 clés dans un seul bucket. On calcule donc le
-# squelette sur la clé BRUTE (séparateurs conservés), en ne neutralisant que le
-# dernier groupe de chiffres (le niveau le plus fin, ex. le folio) ; l'identifiant
-# parent (ex. le manuscrit) reste discriminant. Bucket max observé sur MED_MS :
-# ~1 900 (contre 45 337 sans cette précaution).
-def skeleton(key_brute):
-    return DERNIER_GROUPE_CHIFFRES.sub(lambda m: "#" * len(m.group()), str(key_brute).upper())
+def est_a_supprimer(statut):
+    return isinstance(statut, str) and statut.startswith("À SUPPRIMER")
 
 
-# Au-delà, le bucket est trop générique pour qu'un rapprochement soit fiable
-# (et trop coûteux à comparer un par un) : on l'ignore plutôt que de proposer du bruit.
-TAILLE_BUCKET_MAX = 2000
-
-
-def index_ref(cas1, cas3):
-    """Index skeleton(clé brute) -> {key_norm: {key, uuid, path}}, pour cas1+cas3 (fichiers du REF)."""
-    parts = [df_[["key", "uuid", "path"]] for df_ in (cas1, cas3) if not df_.empty]
-    buckets = {}
+def connus_ref(cas1, cas3):
+    """key/uuid/path/conservation_statut de cas1+cas3 (fichiers du REF), scindés en
+    deux lots : les fichiers pas-encore-supprimés (prioritaires pour un rapprochement)
+    et ceux déjà marqués À SUPPRIMER (recours seulement si rien d'autre ne matche —
+    proposer comme correspondance un fichier voué à disparaître serait trompeur)."""
+    cols = ["key", "uuid", "path", "conservation_statut"]
+    parts = [df_[cols] for df_ in (cas1, cas3) if not df_.empty]
+    vide = pd.DataFrame(columns=cols)
     if not parts:
-        return buckets
+        return vide, vide
     ref = pd.concat(parts, ignore_index=True)
-    for key, uuid, path in zip(ref["key"], ref["uuid"], ref["path"]):
-        buckets.setdefault(skeleton(key), {}).setdefault(norm_key(key), {"key": key, "uuid": uuid, "path": path})
-    return buckets
-
-
-def plus_proche(key_brute, buckets, avertissements):
-    """Meilleure correspondance REF par similarité de clé (difflib), restreinte au même skeleton."""
-    bucket = buckets.get(skeleton(key_brute))
-    if not bucket:
-        return None
-    if len(bucket) > TAILLE_BUCKET_MAX:
-        msg = f"cas2 : bucket « {skeleton(key_brute)} » ignoré ({len(bucket)} clés, trop générique/coûteux)"
-        if msg not in avertissements:
-            avertissements.append(msg)
-        return None
-    key_norm = norm_key(key_brute)
-    proches = difflib.get_close_matches(key_norm, bucket.keys(), n=1, cutoff=SIMILARITE_MIN)
-    if not proches:
-        return None
-    meilleur = proches[0]
-    score = difflib.SequenceMatcher(None, key_norm, meilleur).ratio()
-    return {**bucket[meilleur], "similarite": round(score, 2)}
+    a_supprimer = ref["conservation_statut"].map(est_a_supprimer)
+    return ref[~a_supprimer], ref[a_supprimer]
 
 
 def charger(corpus_code, date):
@@ -174,7 +152,18 @@ def tif_sibling_absent(df_cas1):
     return ~df_cas1["key"].isin(tif_keys)
 
 
-def build_cas1(df, corpus_code, avertissements):
+def masters_tif_stems():
+    """Stems (nom sans extension, MAJ) des .tif déjà TRANSFERT_S3_OK, tout le ref
+    confondu (tous corpus) — un À SUPPRIMER dont le master est déjà en sécurité sur
+    S3 n'a pas besoin d'être revu, même si ce master est dans un autre corpus_code
+    (cf. mémoire project_stagemel_recap : cas MED_MS/AMR_PR, volontaire, pas un bug)."""
+    ref_path = dernier_ref()
+    ref = pd.read_csv(ref_path, usecols=["name", "extension", "conservation_statut"], low_memory=False)
+    tif_ok = ref["extension"].str.lower().isin([".tif", ".tiff"]) & (ref["conservation_statut"] == "TRANSFERT_S3_OK")
+    return set(ref.loc[tif_ok, "name"].str.rsplit(".", n=1).str[0].str.upper())
+
+
+def build_cas1(df, corpus_code, masters, avertissements):
     if df.empty:
         return pd.DataFrame(columns=["CAS", corpus_code] + COLONNES[1:])
 
@@ -188,62 +177,61 @@ def build_cas1(df, corpus_code, avertissements):
         "CHEMIN": df["path"],
         "PROBLEMES": sans_tif.map({True: "Pas de format tif", False: ""}),
         "À FAIRE": df["conservation_statut"].map(ACTION_SUR).fillna(""),
-        **{c: None for c in COLONNES[6:]},  # REF_PROCHE* : sans objet pour un APPARIÉ
     })
 
     a_valider = sorted(set(df["conservation_statut"].dropna()) - set(ACTION_SUR))
     for s in a_valider:
         avertissements.append(f"cas1 : action à valider pour le statut « {s} » (politique non définie)")
-    return out
+
+    # À SUPPRIMER dont le master est déjà sur S3 : rien à décider, on n'encombre pas le recap.
+    a_master = df["name"].str.rsplit(".", n=1).str[0].str.upper().isin(masters)
+    exclure = df["conservation_statut"].map(est_a_supprimer) & a_master
+    if exclure.any():
+        avertissements.append(
+            f"cas1 : {int(exclure.sum())} ligne(s) À SUPPRIMER exclue(s) du recap (master déjà TRANSFERT_S3_OK)"
+        )
+    return out[~exclure.to_numpy()]
 
 
 def build_cas2(df, corpus_code, cas1, cas3, avertissements):
     if df.empty:
         return pd.DataFrame(columns=["CAS", corpus_code] + COLONNES[1:])
 
-    # uuid indexé par clé normalisée, pour les candidats ERREUR DAO uniquement
-    # (un vrai cas2 n'a par définition pas d'uuid : le fichier n'est pas dans REF).
-    cle_uuid = [df_[["key", "uuid"]] for df_ in (cas1, cas3) if not df_.empty]
-    connus = pd.concat(cle_uuid, ignore_index=True) if cle_uuid else pd.DataFrame(columns=["key", "uuid"])
-    uuid_par_cle_norm = {norm_key(k): u for k, u in zip(connus["key"], connus["uuid"])}
+    # Fichiers connus du REF (cas1+cas3), scindés prioritaire / À SUPPRIMER (cf.
+    # connus_ref) — un rapprochement, exact ou flou, ne doit pointer vers un
+    # fichier déjà marqué À SUPPRIMER que si aucun autre candidat n'existe.
+    prioritaire, secours = connus_ref(cas1, cas3)
+    uuid_prioritaire = {norm_key(k): u for k, u in zip(prioritaire["key"], prioritaire["uuid"])}
+    uuid_secours = {norm_key(k): u for k, u in zip(secours["key"], secours["uuid"])}
 
     key_norm = df["key"].map(norm_key)
-    candidat = key_norm.isin(uuid_par_cle_norm)
-    n_candidats = int(candidat.sum())
+    dans_prioritaire = key_norm.isin(uuid_prioritaire)
+    dans_secours = key_norm.isin(uuid_secours) & ~dans_prioritaire
+    candidat = dans_prioritaire | dans_secours
+    n_candidats, n_candidats_secours = int(candidat.sum()), int(dans_secours.sum())
     if n_candidats:
-        avertissements.append(
-            f"cas2 : {n_candidats} candidat(s) ERREUR DAO (clé proche d'un cas1/cas3) — à confirmer via la notice EAD"
-        )
+        msg = f"cas2 : {n_candidats} candidat(s) ERREUR DAO (clé proche d'un cas1/cas3) — à confirmer via la notice EAD"
+        if n_candidats_secours:
+            msg += f" (dont {n_candidats_secours} vers un fichier déjà À SUPPRIMER — vérifier en priorité)"
+        avertissements.append(msg)
 
-    statut = candidat.map({True: "ERREUR DAO (candidat)", False: "SEUL DAO"})
+    statut = pd.Series("SEUL DAO", index=df.index)
+    statut = statut.mask(dans_prioritaire, "ERREUR DAO (candidat)")
+    statut = statut.mask(dans_secours, "ERREUR DAO (candidat, fichier À SUPPRIMER)")
     a_faire = candidat.map({True: "", False: "À numériser"})
-
-    # Pour les SEUL DAO restants, propose la clé REF la plus ressemblante (piste,
-    # pas une confirmation) — cf. mémoire feedback_recap_diagnostic_pas_resolution :
-    # ça n'écrase ni STATUT ni À FAIRE.
-    buckets = index_ref(cas1, cas3)
-    proches = df["key"].where(~candidat).map(lambda k: plus_proche(k, buckets, avertissements) if pd.notna(k) else None)
-    n_proches = int(proches.notna().sum())
-    if n_proches:
-        avertissements.append(
-            f"cas2 : {n_proches} rapprochement(s) possible(s) avec le REF (similarité >= {SIMILARITE_MIN}) — à vérifier, non confirmés"
-        )
+    uuid_col = key_norm.map(uuid_prioritaire)
+    uuid_col = uuid_col.where(uuid_col.notna(), key_norm.map(uuid_secours))
 
     problemes = candidat.map({True: "Clé proche d'un fichier connu (casse/ponctuation ?)", False: "Fichier non retrouvé dans REF"})
-    problemes = problemes.mask(proches.notna(), problemes + " (rapprochement possible : voir REF_PROCHE)")
 
     out = pd.DataFrame({
         "CAS": CAS_DAO_SEUL,
         corpus_code: df["nom_fichier_base"],
-        "UUID": key_norm.map(uuid_par_cle_norm),
+        "UUID": uuid_col,
         "STATUT": statut,
         "CHEMIN": "",
         "PROBLEMES": problemes,
         "À FAIRE": a_faire,
-        "REF_PROCHE": proches.map(lambda p: p["key"] if p else None),
-        "REF_PROCHE_UUID": proches.map(lambda p: p["uuid"] if p else None),
-        "REF_PROCHE_CHEMIN": proches.map(lambda p: p["path"] if p else None),
-        "REF_PROCHE_SIMILARITE": proches.map(lambda p: p["similarite"] if p else None),
     })
     return out
 
@@ -259,8 +247,17 @@ def build_cas3(df, corpus_code):
         "CHEMIN": df["path"],
         "PROBLEMES": "",
         "À FAIRE": "",
-        **{c: None for c in COLONNES[6:]},
     })
+
+
+FOND_BLANC = PatternFill(fill_type="solid", fgColor="FFFFFFFF")
+
+
+def appliquer_fond_blanc(ws):
+    """Fond blanc systématique (au lieu du fond transparent par défaut d'Excel/openpyxl)."""
+    for row in ws.iter_rows():
+        for cell in row:
+            cell.fill = FOND_BLANC
 
 
 def main():
@@ -271,8 +268,9 @@ def main():
 
     dfs = charger(args.corpus_code, args.date)
     avertissements = []
+    masters = masters_tif_stems()
 
-    cas1 = build_cas1(dfs["cas1"], args.corpus_code, avertissements)
+    cas1 = build_cas1(dfs["cas1"], args.corpus_code, masters, avertissements)
     cas2 = build_cas2(dfs["cas2"], args.corpus_code, dfs["cas1"], dfs["cas3"], avertissements)
     cas3 = build_cas3(dfs["cas3"], args.corpus_code)
 
@@ -281,9 +279,11 @@ def main():
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OUT_DIR / f"{args.corpus_code.lower()}_recap_draft_{args.date}.xlsx"
-    with pd.ExcelWriter(out_path) as writer:
+    with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
         recap.to_excel(writer, sheet_name="recap", index=False)
         pivot.to_excel(writer, sheet_name="pivot", index=False)
+        appliquer_fond_blanc(writer.sheets["recap"])
+        appliquer_fond_blanc(writer.sheets["pivot"])
 
     print(f"Recap brouillon écrit : {out_path}  ({len(recap)} lignes)")
     print(pivot.to_string(index=False))

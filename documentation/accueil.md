@@ -30,6 +30,8 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 → [Recap d'audit par corpus (`stagemel_*`)](files/scripts/stagemel.md) — diagnostic
 REF/DAO par corpus (21 corpus hors pipeline standard), sans résolution automatique
 
+→ [corpus → instrument de recherche](files/scripts/corpus_ir.md) — `results/ead/corpus_ir.csv`, matérialise le lien corpus_code ↔ notice EAD (déduit, pas déclaré ailleurs)
+
 ### 2. Transférer les fichiers vers le stockage S3
 Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 

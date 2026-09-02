@@ -33,6 +33,7 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from openpyxl.styles import PatternFill
 
 MO = 1024 * 1024  # octets par Mio
 # Dossier de sortie par défaut, ancré à la racine du projet (scripts/img/ -> ../../).
@@ -118,9 +119,14 @@ def main() -> None:
     # Sortie dans results/img, nom dérivé du fichier d'entrée.
     output = args.output or RESULTS_DIR / f"{args.input_csv.stem}_pivot.xlsx"
     output.parent.mkdir(parents=True, exist_ok=True)
-    with pd.ExcelWriter(output) as writer:
+    with pd.ExcelWriter(output, engine="openpyxl") as writer:
         pivot.to_excel(writer, sheet_name="pivot")
         pivot_corpus.to_excel(writer, sheet_name="par_corpus")
+        fond_blanc = PatternFill(fill_type="solid", fgColor="FFFFFFFF")
+        for ws in writer.sheets.values():
+            for row in ws.iter_rows():
+                for cell in row:
+                    cell.fill = fond_blanc
 
     print(f"Tableau croisé écrit : {output}")
     print(f"  onglet « pivot »     : {pivot.shape[0]} ligne(s) × {pivot.shape[1]} colonne(s) "

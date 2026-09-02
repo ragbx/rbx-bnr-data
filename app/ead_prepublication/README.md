@@ -5,11 +5,14 @@ Mnesys en vue de leur publication. **Pour l'instant, seule la synchronisation
 des `<dao>`/`<daogrp>` est implémentée** : d'autres opérations de préparation
 pourront s'y ajouter par la suite, sans changer l'architecture de l'app.
 
-Destinée aux fichiers de `results/ead/ead_cor/bnr2mnesys/` (sortie de
-`ead_bnr2mnesys.py`), où le `<odd>` de chaque `<c>` résume ses liens et est
-considéré comme la donnée maître : quand il est corrigé à la main (ajout,
-modification ou suppression d'un lien), cette app répercute la correction sur
-les `<dao>`/`<daoloc>` correspondants.
+Destinée aux fichiers EAD Mnesys où le `<odd>` de chaque `<c>` résume ses liens
+et est considéré comme la donnée maître : quand il est corrigé à la main
+(ajout, modification ou suppression d'un lien), cette app répercute la
+correction sur les `<dao>`/`<daoloc>` correspondants. Deux cas selon le moment
+du cycle de vie de l'IR : le fichier de `results/ead/ead_cor/bnr2mnesys/`
+(sortie initiale d'`ead_bnr2mnesys.py`), avant le tout premier import dans
+Mnesys ; ou, une fois l'IR déjà dans Mnesys, un export XML fraîchement
+récupéré depuis Mnesys après correction du `<odd>` **dans Mnesys même**.
 
 **Pour la marche à suivre pas à pas** (comment corriger un lien dans le `<odd>`,
 puis lancer l'app), voir le
