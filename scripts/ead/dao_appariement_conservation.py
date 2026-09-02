@@ -35,6 +35,7 @@ FAMILLES_MEDIA = {
     "audio": [".wav", ".flac", ".mp3"],
     "video": [".mov", ".mp4", ".wmv"],
     "pdf": [".pdf"],
+    "ocr_alto": [".xml"],
 }
 EXT2FAMILLE = {ext: fam for fam, exts in FAMILLES_MEDIA.items() for ext in exts}
 

@@ -76,6 +76,19 @@ But : distinguer les orphelins dont le fichier de conservation existe (sous un
 nom légèrement différent, ou pas encore versé sur S3) de ceux qui n'ont
 vraiment aucune correspondance.
 
+La détection des orphelins (`dao_sans_conservation.py`) est générique par
+famille de média déduite du `role` (cf.
+[Grammaire des `role`](../donnees/dao_daogrp.md#grammaire-des-role)) : elle
+couvre donc aussi `ocr_alto` sans changement de script. À ne pas confondre
+avec `access:ocr` (sans `_alto`), un rôle préexistant dérivé des liens
+image/pdf plutôt qu'un fichier propre, explicitement exclu de ce diagnostic.
+
+L'étape suivante, `dao_appariement_conservation.py`, déduit elle la famille
+d'un fichier du référentiel par son **extension** (`FAMILLES_MEDIA`, codée en
+dur). `ocr_alto` y est mappé à l'extension `.xml` des fichiers ALTO (même
+convention que sur les versements AMR_DEL/AMR_PVC) : le réappariement élargi
+couvre donc lui aussi `ocr_alto`.
+
 ---
 
 ## B. Plages first/last

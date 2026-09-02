@@ -1,6 +1,6 @@
-# Corriger un lien d'un IR via l'élément `<odd>` : guide pratique
+# Corriger un lien d'un IR via l'élément `<odd>`
 
-Ce guide s'adresse à qui doit **corriger un lien de fichier (dao) sur un
+Ce document explique comment **corriger un lien de fichier (dao) sur un
 instrument de recherche déjà importé dans Mnesys**, sans toucher au XML
 `<dao>`/`<daogrp>` à la main. Pour la référence technique complète des
 structures `<dao>` / `<daogrp>` / `<odd>`, voir
@@ -71,13 +71,14 @@ Exemple, pour une image avec conservation et publication :
 | `access:audio` / `preservation:audio` | Audio de diffusion / conservation |
 | `access:video` / `preservation:video` | Vidéo de diffusion / conservation |
 | `access:pdf` / `preservation:pdf` | PDF de diffusion / conservation |
+| `access:ocr_alto` / `preservation:ocr_alto` | Fichier ALTO d'océrisation de diffusion / conservation |
 | `publication:current` | ARK de publication actuel |
 | `publication:previous` | Ancien ARK de publication (bn-r) |
 
 Détail complet de cette syntaxe (`usage:média[:position]`) dans
 [Grammaire des role](dao_daogrp.md#grammaire-des-role).
 
-Une ligne qui ne commence pas par un de ces rôles est **ignorée** par l'app :
+Une ligne qui ne commence pas par un de ces rôles est **ignorée** par l'application :
 elle peut donc aussi servir de note éditoriale ordinaire, sans risque qu'elle
 soit prise pour un lien.
 
@@ -97,13 +98,13 @@ soit prise pour un lien.
 
 - Le `href` doit être **exact** (aucune correction automatique de faute de
   frappe). Un `href` mal recopié crée un nouveau lien au lieu de corriger l'ancien,
-  et laisse l'ancien lien orphelin dans le `<daogrp>` (l'app le supprimera au
+  et laisse l'ancien lien orphelin dans le `<daogrp>` (l'application le supprimera au
   passage suivant, puisqu'il n'est plus dans l'élément `<odd>`).
 - Un même `href` peut légitimement apparaître **deux fois avec des rôles
   différents** (ex. un pdf qui sert à la fois de master de conservation et de
   fichier de diffusion : `preservation:pdf` et `access:pdf` sur le même
   fichier). C'est normal, ce n'est pas un doublon à corriger.
-- N'éditez **que** l'élément `<odd>`. L'élément `<dao>`/`<daogrp>` est régénéré par l'app à
+- N'éditez **que** l'élément `<odd>`. L'élément `<dao>`/`<daogrp>` est régénéré par l'application à
   partir de l'élément `<odd>` : le modifier directement n'aurait pas d'effet durable (et
   serait écrasé au prochain passage de l'app).
 
@@ -118,7 +119,7 @@ soit prise pour un lien.
 3. **Fichier source** : sélectionner le fichier XML tout juste exporté.
 4. **Fichier de sortie** — **point d'attention** : Mnesys exige au réimport
    que le fichier porte **exactement le même nom** que celui qui a été
-   exporté. L'app suggère par défaut `<nom>_sync.xml` : soit remplacer ce nom
+   exporté. L'application suggère par défaut `<nom>_sync.xml` : soit remplacer ce nom
    suggéré par le nom exact du fichier exporté avant de lancer, soit laisser
    le nom suggéré puis **renommer** le fichier produit pour qu'il soit
    identique au fichier exporté, avant l'étape 3.
@@ -138,12 +139,12 @@ nouveau fichier.
 
 ## 5. Étape 3 — réimporter dans Mnesys
 
-Réimporter dans Mnesys le fichier produit par l'app (celui dont le nom a été
+Réimporter dans Mnesys le fichier produit par l'application (celui dont le nom a été
 aligné sur le fichier exporté à l'étape 2).
 
 ### Vérifier le résultat
 
-- Les compteurs affichés dans le journal de l'app doivent correspondre à ce
+- Les compteurs affichés dans le journal de l'application doivent correspondre à ce
   que vous attendiez (un ajout et une suppression pour un rôle changé, par
   exemple — voir « changer le rôle » ci-dessus).
 - Avant réimport, on peut ouvrir le fichier de sortie et vérifier l'élément
@@ -163,6 +164,3 @@ aligné sur le fichier exporté à l'étape 2).
   réels du corpus.
 - [README de EAD Pré-publication](../../../app/ead_prepublication/README.md) —
   détail de l'implémentation (`sync_dao_from_odd()`).
-- [ead_bnr2mnesys.py](../scripts/ead_bnr2mnesys.md) — étape 10, génération
-  initiale de l'élément `<odd>` à partir de l'élément `<dao>`/`<daogrp>`, lors de la première
-  transformation d'un IR (avant son premier import dans Mnesys).

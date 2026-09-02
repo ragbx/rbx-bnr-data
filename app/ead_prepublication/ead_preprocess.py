@@ -37,6 +37,8 @@ ODD_ROLES = (
     "preservation:pdf",
     "access:video",
     "preservation:video",
+    "access:ocr_alto",
+    "preservation:ocr_alto",
 )
 
 # Valeurs reconnues de l'attribut audience (cf. documentation/files/donnees/dao_daogrp.md :

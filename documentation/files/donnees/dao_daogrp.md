@@ -78,8 +78,9 @@ Le `role` suit le motif **`usage:média[:position]`** :
 
 - **usage** : `access` (diffusion), `preservation` (conservation), `publication`
   (mise en ligne) ;
-- **média** : `image`, `audio`, `video`, `pdf` ; pour `publication`, ce champ
-  vaut `current` (lien courant) ou `previous` (ancien lien) ;
+- **média** : `image`, `audio`, `video`, `pdf`, `ocr_alto` (fichier ALTO
+  d'océrisation) ; pour `publication`, ce champ vaut `current` (lien courant)
+  ou `previous` (ancien lien) ;
 - **position** (images uniquement) : `first` / `last`, bornes d'une **plage**
   (cf. ci-dessous).
 
