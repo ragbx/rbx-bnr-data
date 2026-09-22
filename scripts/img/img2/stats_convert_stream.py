@@ -22,6 +22,7 @@ Usage :
 
 import argparse
 import posixpath as pp
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -145,13 +146,17 @@ def main():
     parser.add_argument("--corpus", nargs="*", default=None,
                         help="restreindre le rapprochement ref a ces corpus_code (defaut : tous)")
     parser.add_argument("--out-dir", default="results/img", help="dossier de sortie des CSV")
-    parser.add_argument("--tag", default=None, help="suffixe des fichiers de sortie (defaut : nom du dossier --dest)")
+    parser.add_argument("--tag", default=None,
+                        help="prefixe du suffixe des fichiers de sortie, avant l'horodatage "
+                             "(defaut : nom du dossier --dest)")
     args = parser.parse_args()
 
     dest = Path(args.dest)
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    tag = args.tag or dest.name
+    # horodatage systematique : un run n'ecrase jamais les resultats du precedent
+    horodatage = datetime.now().strftime("%Y%m%d%H%M%S")
+    tag = f"{args.tag or dest.name}_{horodatage}"
 
     print(f"Scan de {dest} ...")
     df = lister_jpeg(dest)
