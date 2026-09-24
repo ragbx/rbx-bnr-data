@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 r"""
-stagemel_recap_draft.py — Brouillon de recap Excel par corpus, à partir de cas1/cas2/cas3.
+stagemel_recap.py — Recap Excel par corpus, à partir de cas1/cas2/cas3.
+-> results/corpus/stagemel/recap/<corpus>_recap_<date>.xlsx (colonnes à la largeur du texte, filtres sur les en-têtes, en-tête figé)
 
 Reproduit la même structure que les recap_<code>_<date>.xlsx de la stagiaire
 (CAS / <CODE> / STATUT / CHEMIN / PROBLEMES / À FAIRE), mais seulement pour ce
@@ -13,19 +14,20 @@ qui est mécaniquement dérivable :
   - CAS : renommé en libellés courts plutôt que « CAS 1/2/3 » — APPARIÉ (cas1,
           dans REF+DAO), DAO SEUL (cas2), REF SEUL (cas3).
 
-  - cas1 (APPARIÉ) : STATUT = conservation_statut du REF (libellé simplifié) ;
+  - cas1 (APPARIÉ) : STATUT = conservation_statut du REF, tel quel ;
            CHEMIN = path du REF ;
-           PROBLEMES = « Pas de format tif » si le fichier est un .jpg sans .tif
-           de même clé ailleurs dans le corpus, sinon vide ;
-           À FAIRE = rempli UNIQUEMENT pour les statuts dont l'action est sans
-           ambiguïté (aujourd'hui : TRANSFERT_S3_OK -> « Rien à faire »). Pour
-           tout autre statut (CORBEILLE, EN LIGNE, INCONNU...), la cellule est
-           laissée vide et un avertissement est affiché : la politique à
-           appliquer (transférer ? supprimer ? cf. CONFIG de med_s3_key_cible.py)
-           doit être validée au cas par cas, elle n'est pas inventée ici.
+           PROBLEMES = « Pas de format tif » si le fichier est un .jpg/.jpeg sans
+           .tif/.tiff de même clé parmi les fichiers REF du corpus (cas1+cas3,
+           casse des extensions et des clés ignorée), sinon vide ;
+           À FAIRE = déduit du statut via ACTION_SUR (statuts harmonisés du ref,
+           qui sont déjà des décisions). La famille INCONNU* en est absente :
+           cellule vide et avertissement, la politique à appliquer (cf. CONFIG
+           de med_s3_key_cible.py) doit être validée, elle n'est pas inventée ici.
            Exclues du recap : les lignes À SUPPRIMER (*) dont le master (.tif)
            est déjà TRANSFERT_S3_OK — recherché sur tout le ref, tous corpus
-           confondus (pas seulement celui traité), rien à trancher dessus.
+           confondus (pas seulement celui traité), rien à trancher dessus. Le
+           ref consulté est celui de l'extraction (_ref_<date>.txt), à défaut
+           le plus récent.
 
   - cas2 (DAO SEUL) : STATUT = « SEUL DAO » par défaut (DAO attribuée mais fichier
            introuvable dans REF) ; sauf si sa clé normalisée (casse/ponctuation
@@ -45,15 +47,20 @@ qui est mécaniquement dérivable :
            tout folio voisin d'un manuscrit MED_MS ressortait à >0.85 sans lien
            réel), retiré le 2026-08-22.
 
-  - cas3 (REF SEUL) : laissé tel quel (rare), sans STATUT/À FAIRE dérivé.
+  - cas3 (REF SEUL) : fichier du REF référencé par aucune notice EAD.
+           STATUT = conservation_statut du REF ; CHEMIN = path du REF ;
+           PROBLEMES = « Absent des notices EAD » (+ « Pas de format tif », même
+           règle que cas1) ; À FAIRE volontairement vide (notice à créer ?
+           fichier hors périmètre ? — décision de l'utilisateur). Même exclusion
+           des À SUPPRIMER dont le master est déjà TRANSFERT_S3_OK.
 
   - Non couvert : les fichiers « Zébulon » (aucune source de données dans le
-    dépôt pour ce dossier partagé) -- absent de ce brouillon.
+    dépôt pour ce dossier partagé) -- absent de ce recap.
 
 Usage
 -----
-  conda run -n rbx-bnr-data python scripts/corpus/stagemel_recap_draft.py MUS_ARC
-  conda run -n rbx-bnr-data python scripts/corpus/stagemel_recap_draft.py MUS_ARC --date 20260821
+  conda run -n rbx-bnr-data python scripts/corpus/stagemel_recap.py MUS_ARC
+  conda run -n rbx-bnr-data python scripts/corpus/stagemel_recap.py MUS_ARC --date 20260821
 """
 import argparse
 import re
@@ -63,9 +70,10 @@ from pathlib import Path
 
 import pandas as pd
 from openpyxl.styles import PatternFill
+from openpyxl.utils import get_column_letter
 
 sys.path.insert(0, str(Path(__file__).parent))
-from stagemel_extraction_corpus import dernier_ref  # noqa: E402
+from stagemel_extraction_corpus import dernier_ref, ref_trace_path  # noqa: E402
 
 CAS_DIR = Path("results/corpus/stagemel/cas")
 OUT_DIR = Path("results/corpus/stagemel/recap")
@@ -135,39 +143,61 @@ def charger(corpus_code, date):
         cas: CAS_DIR / f"{corpus_code}_{cas}_{date}.csv.gz"
         for cas in ("cas1", "cas2", "cas3")
     }
-    dfs = {}
-    for cas, p in paths.items():
-        dfs[cas] = pd.read_csv(p, low_memory=False) if p.exists() else pd.DataFrame()
-    if dfs["cas1"].empty and dfs["cas2"].empty:
+    if not any(p.exists() for p in paths.values()):
         raise FileNotFoundError(
-            f"Aucun cas1/cas2 pour {corpus_code} à la date {date} dans {CAS_DIR} "
+            f"Aucun fichier cas pour {corpus_code} à la date {date} dans {CAS_DIR} "
             "— lancer stagemel_cas_merge.py d'abord."
         )
-    return dfs
+    # Un corpus vide (ni REF ni DAO) donne un recap vide plutôt qu'une erreur :
+    # le pipeline enchaîne tous les corpus et ne doit pas s'arrêter sur l'un d'eux.
+    return {
+        cas: pd.read_csv(p, low_memory=False) if p.exists() else pd.DataFrame()
+        for cas, p in paths.items()
+    }
 
 
-def tif_sibling_absent(df_cas1):
-    """Clés .jpg de cas1 n'ayant pas de .tif de même clé dans le même cas1."""
-    tif_keys = set(df_cas1.loc[df_cas1["extension"] == ".tif", "key"])
-    return ~df_cas1["key"].isin(tif_keys)
+def ref_de_l_extraction(date, avertissements):
+    """Ref utilisé par stagemel_extraction_corpus.py pour cette date, à défaut le plus récent."""
+    trace = ref_trace_path(date)
+    if trace.exists():
+        return trace.read_text(encoding="utf-8").strip()
+    avertissements.append(f"{trace} introuvable : masters cherchés dans le ref le plus récent")
+    return dernier_ref()
 
 
-def masters_tif_stems():
+def cles_tif(ref_corpus):
+    """Clés (MAJ) des .tif/.tiff parmi les fichiers REF du corpus."""
+    est_tif = ref_corpus["extension"].str.lower().isin([".tif", ".tiff"])
+    return set(ref_corpus.loc[est_tif, "key"].str.upper())
+
+
+def jpg_sans_tif(df, tif_keys):
+    """.jpg/.jpeg n'ayant pas de .tif/.tiff de même clé dans le corpus."""
+    est_jpg = df["extension"].str.lower().isin([".jpg", ".jpeg"])
+    return est_jpg & ~df["key"].str.upper().isin(tif_keys)
+
+
+def a_supprimer_deja_master(df, masters):
+    """Lignes À SUPPRIMER (*) dont le master .tif est déjà TRANSFERT_S3_OK."""
+    a_master = df["name"].str.rsplit(".", n=1).str[0].str.upper().isin(masters)
+    return df["conservation_statut"].map(est_a_supprimer) & a_master
+
+
+def masters_tif_stems(ref_path):
     """Stems (nom sans extension, MAJ) des .tif déjà TRANSFERT_S3_OK, tout le ref
     confondu (tous corpus) — un À SUPPRIMER dont le master est déjà en sécurité sur
     S3 n'a pas besoin d'être revu, même si ce master est dans un autre corpus_code
     (cf. mémoire project_stagemel_recap : cas MED_MS/AMR_PR, volontaire, pas un bug)."""
-    ref_path = dernier_ref()
     ref = pd.read_csv(ref_path, usecols=["name", "extension", "conservation_statut"], low_memory=False)
     tif_ok = ref["extension"].str.lower().isin([".tif", ".tiff"]) & (ref["conservation_statut"] == "TRANSFERT_S3_OK")
     return set(ref.loc[tif_ok, "name"].str.rsplit(".", n=1).str[0].str.upper())
 
 
-def build_cas1(df, corpus_code, masters, avertissements):
+def build_cas1(df, corpus_code, masters, tif_keys, avertissements):
     if df.empty:
         return pd.DataFrame(columns=["CAS", corpus_code] + COLONNES[1:])
 
-    sans_tif = tif_sibling_absent(df) & (df["extension"] == ".jpg")
+    sans_tif = jpg_sans_tif(df, tif_keys)
 
     out = pd.DataFrame({
         "CAS": CAS_APPARIE,
@@ -184,8 +214,7 @@ def build_cas1(df, corpus_code, masters, avertissements):
         avertissements.append(f"cas1 : action à valider pour le statut « {s} » (politique non définie)")
 
     # À SUPPRIMER dont le master est déjà sur S3 : rien à décider, on n'encombre pas le recap.
-    a_master = df["name"].str.rsplit(".", n=1).str[0].str.upper().isin(masters)
-    exclure = df["conservation_statut"].map(est_a_supprimer) & a_master
+    exclure = a_supprimer_deja_master(df, masters)
     if exclure.any():
         avertissements.append(
             f"cas1 : {int(exclure.sum())} ligne(s) À SUPPRIMER exclue(s) du recap (master déjà TRANSFERT_S3_OK)"
@@ -198,7 +227,7 @@ def build_cas2(df, corpus_code, cas1, cas3, avertissements):
         return pd.DataFrame(columns=["CAS", corpus_code] + COLONNES[1:])
 
     # Fichiers connus du REF (cas1+cas3), scindés prioritaire / À SUPPRIMER (cf.
-    # connus_ref) — un rapprochement, exact ou flou, ne doit pointer vers un
+    # connus_ref) — un rapprochement ne doit pointer vers un
     # fichier déjà marqué À SUPPRIMER que si aucun autre candidat n'existe.
     prioritaire, secours = connus_ref(cas1, cas3)
     uuid_prioritaire = {norm_key(k): u for k, u in zip(prioritaire["key"], prioritaire["uuid"])}
@@ -236,18 +265,32 @@ def build_cas2(df, corpus_code, cas1, cas3, avertissements):
     return out
 
 
-def build_cas3(df, corpus_code):
+def build_cas3(df, corpus_code, masters, tif_keys, avertissements):
     if df.empty:
         return pd.DataFrame(columns=["CAS", corpus_code] + COLONNES[1:])
-    return pd.DataFrame({
+
+    problemes = jpg_sans_tif(df, tif_keys).map({
+        True: "Absent des notices EAD ; Pas de format tif",
+        False: "Absent des notices EAD",
+    })
+    # À FAIRE volontairement vide : notice à créer ou fichier hors périmètre,
+    # c'est à l'utilisateur de trancher.
+    out = pd.DataFrame({
         "CAS": CAS_REF_SEUL,
         corpus_code: df["name"],
         "UUID": df["uuid"],
-        "STATUT": "",
+        "STATUT": df["conservation_statut"],
         "CHEMIN": df["path"],
-        "PROBLEMES": "",
+        "PROBLEMES": problemes,
         "À FAIRE": "",
     })
+
+    exclure = a_supprimer_deja_master(df, masters)
+    if exclure.any():
+        avertissements.append(
+            f"cas3 : {int(exclure.sum())} ligne(s) À SUPPRIMER exclue(s) du recap (master déjà TRANSFERT_S3_OK)"
+        )
+    return out[~exclure.to_numpy()]
 
 
 FOND_BLANC = PatternFill(fill_type="solid", fgColor="FFFFFFFF")
@@ -260,6 +303,13 @@ def appliquer_fond_blanc(ws):
             cell.fill = FOND_BLANC
 
 
+def ajuster_largeurs(ws, df):
+    """Largeur de chaque colonne = texte le plus long (en-tête compris), plafonnée à la limite Excel."""
+    for i, col in enumerate(df.columns, start=1):
+        longueur = max([len(str(col))] + df[col].dropna().astype(str).str.len().tolist())
+        ws.column_dimensions[get_column_letter(i)].width = min(longueur + 2, 255)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("corpus_code")
@@ -268,24 +318,30 @@ def main():
 
     dfs = charger(args.corpus_code, args.date)
     avertissements = []
-    masters = masters_tif_stems()
+    masters = masters_tif_stems(ref_de_l_extraction(args.date, avertissements))
+    ref_corpus = [d for d in (dfs["cas1"], dfs["cas3"]) if not d.empty]
+    tif_keys = cles_tif(pd.concat(ref_corpus)) if ref_corpus else set()
+    if all(d.empty for d in dfs.values()):
+        avertissements.append(f"{args.corpus_code} : aucun fichier REF ni DAO — recap vide")
 
-    cas1 = build_cas1(dfs["cas1"], args.corpus_code, masters, avertissements)
+    cas1 = build_cas1(dfs["cas1"], args.corpus_code, masters, tif_keys, avertissements)
     cas2 = build_cas2(dfs["cas2"], args.corpus_code, dfs["cas1"], dfs["cas3"], avertissements)
-    cas3 = build_cas3(dfs["cas3"], args.corpus_code)
+    cas3 = build_cas3(dfs["cas3"], args.corpus_code, masters, tif_keys, avertissements)
 
     recap = pd.concat([cas1, cas2, cas3], ignore_index=True)
     pivot = recap.groupby(["CAS", "STATUT"], dropna=False).size().rename("nombre").reset_index()
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUT_DIR / f"{args.corpus_code.lower()}_recap_draft_{args.date}.xlsx"
+    out_path = OUT_DIR / f"{args.corpus_code.lower()}_recap_{args.date}.xlsx"
     with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
-        recap.to_excel(writer, sheet_name="recap", index=False)
-        pivot.to_excel(writer, sheet_name="pivot", index=False)
-        appliquer_fond_blanc(writer.sheets["recap"])
-        appliquer_fond_blanc(writer.sheets["pivot"])
+        for nom, df in (("recap", recap), ("pivot", pivot)):
+            df.to_excel(writer, sheet_name=nom, index=False)
+            appliquer_fond_blanc(writer.sheets[nom])
+            ajuster_largeurs(writer.sheets[nom], df)
+            writer.sheets[nom].auto_filter.ref = writer.sheets[nom].dimensions  # filtres actifs sur les en-têtes
+            writer.sheets[nom].freeze_panes = "A2"  # ligne d'en-tête figée
 
-    print(f"Recap brouillon écrit : {out_path}  ({len(recap)} lignes)")
+    print(f"Recap écrit : {out_path}  ({len(recap)} lignes)")
     print(pivot.to_string(index=False))
     if avertissements:
         print("\nÀ valider avant de considérer ce recap comme définitif :")

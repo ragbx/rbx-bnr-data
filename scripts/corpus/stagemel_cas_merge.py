@@ -7,17 +7,22 @@ stage de Mélanie (2026), cf. stage/Méthodologie/Méthodologie.docx et
 stage/Notebook/<corpus>/*.ipynb. Prend en entrée les fichiers produits par
 stagemel_extraction_corpus.py.
 
-Méthode (identique à la méthodologie du stage, reproduite telle quelle) :
+Méthode (reprise de la méthodologie du stage, corrigée sur deux points) :
   1. clé 'key' = nom de fichier sans extension, côté REF (colonne name) et côté
      DAO (colonne nom_fichier_base) ;
-  2. merge outer des deux tables sur 'key' ;
-  3. cas1 = uuid ET key présents (fichier dans REF et DAO) ;
-     cas2 = uuid manquant, key présent (fichier seulement dans DAO -> probablement
+  2. DAO dédoublonnées sur 'key' : un même fichier référencé par plusieurs
+     notices ne doit donner qu'une ligne (sinon les lignes REF sont dupliquées
+     par le merge et gonflent les comptes du recap) ;
+  3. merge outer des deux tables sur 'key' ;
+  4. cas1 = uuid ET nom_fichier_base présents (fichier dans REF et DAO) ;
+     cas2 = uuid manquant (fichier seulement dans DAO -> probablement
             manquant/non numérisé, ou erreur de nommage à rapprocher d'un cas1/cas3) ;
-     cas3 = uuid présent, key manquant.
-  cas3 ne peut survenir que si le calcul de 'key' échoue d'un côté du merge (ex.
-  'name' absent) ; en pratique il est donc quasi toujours vide, comme dans les
-  notebooks d'origine (peu de corpus ont un fichier cas3 non vide).
+     cas3 = uuid présent, nom_fichier_base manquant (fichier dans REF, référencé
+            par aucune notice EAD).
+  La présence côté DAO se teste sur nom_fichier_base et non sur 'key' : 'key' est
+  la colonne de jointure, donc jamais vide après le merge — les notebooks du stage
+  testaient 'key', ce qui classait tous les fichiers REF sans DAO en cas1 et
+  laissait cas3 toujours vide.
 
 Usage
 -----
@@ -56,12 +61,14 @@ def merge_corpus(corpus_code, date):
 
     ref["key"] = ref["name"].apply(lambda x: Path(x).stem)
     dao["key"] = dao["nom_fichier_base"].apply(lambda x: Path(x).stem)
+    dao = dao.drop_duplicates(subset="key")
 
     merged = pd.merge(ref, dao, on="key", how="outer")
 
-    cas1 = merged[merged["uuid"].notna() & merged["key"].notna()]
-    cas2 = merged[merged["uuid"].isna() & merged["key"].notna()]
-    cas3 = merged[merged["uuid"].notna() & merged["key"].isna()]
+    dans_dao = merged["nom_fichier_base"].notna()
+    cas1 = merged[merged["uuid"].notna() & dans_dao]
+    cas2 = merged[merged["uuid"].isna()]
+    cas3 = merged[merged["uuid"].notna() & ~dans_dao]
     return cas1, cas2, cas3
 
 
@@ -84,8 +91,9 @@ def main():
 
         cas1.to_csv(OUT_DIR / f"{corpus_code}_cas1_{args.date}.csv.gz", index=False)
         cas2.to_csv(OUT_DIR / f"{corpus_code}_cas2_{args.date}.csv.gz", index=False)
-        if len(cas3):
-            cas3.to_csv(OUT_DIR / f"{corpus_code}_cas3_{args.date}.csv.gz", index=False)
+        # toujours écrit, même vide : un cas3 d'un lancement antérieur à la même date
+        # serait sinon relu par stagemel_recap.py
+        cas3.to_csv(OUT_DIR / f"{corpus_code}_cas3_{args.date}.csv.gz", index=False)
 
 
 if __name__ == "__main__":

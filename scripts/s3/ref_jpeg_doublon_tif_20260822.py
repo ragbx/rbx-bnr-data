@@ -4,7 +4,8 @@
 Reclassifie les jpeg de diffusion `EN LIGNE - À TRANSFERER ?` qui ont déjà un
 tif de même nom `TRANSFERT_S3_OK` : leur maître est déjà en sécurité sur S3,
 transférer le jpeg séparément n'a pas de sens (règle utilisateur, 2026-08-22 —
-cf. le diagnostic mené sur `results/corpus/stagemel/recap/med_ms_recap_draft_*.xlsx`,
+cf. le diagnostic mené sur les recaps MED_MS stagemel des 21-22/08/2026
+(med_ms_recap_draft_*.xlsx, supprimés depuis — récupérables dans l'historique git),
 qui a mis au jour le trou : `s3_stem_profil` (ref_stem_profil_20260711.py) ne
 couvre que les lignes déjà keyées ou les À SUPPRIMER rattachées, jamais les
 EN LIGNE - À TRANSFERER ?).

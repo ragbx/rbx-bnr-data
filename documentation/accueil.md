@@ -29,6 +29,7 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 
 → [Recap d'audit par corpus (`stagemel_*`)](files/scripts/stagemel.md) — diagnostic
 REF/DAO par corpus (21 corpus hors pipeline standard), sans résolution automatique
+· [lire un récapitulatif : colonnes CAS et STATUT](files/scripts/stagemel_recap_colonnes.md)
 
 → [corpus → instrument de recherche](files/scripts/corpus_ir.md) — `results/ead/corpus_ir.csv`, matérialise le lien corpus_code ↔ notice EAD (déduit, pas déclaré ailleurs)
 
