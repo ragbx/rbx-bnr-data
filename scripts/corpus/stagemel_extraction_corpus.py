@@ -10,16 +10,16 @@ les plus récentes plutôt que des chemins figés — cf. extraction_vah_pub.py)
 Pour chaque corpus_code, extrait :
   - les lignes du DERNIER results/ref/_ref_files_AAAAMMJJ.csv.gz (auto-détecté,
     comme dans extraction_vah_pub.py) dont corpus_code == code
-    -> results/corpus/stagemel/<code>_files_<today>.csv.gz
+    -> results/corpus/stagemel/<date>/travail/<code>_files_<date>.csv.gz
   - les lignes de results/ead/ead_cor/dao_ref_link_brut.csv (généré depuis
     data/ead/bnr par scripts/ead/dao_ref_link.py — relancer ce script après
     tout ajout/modif de notice EAD, avant de relancer celui-ci) dont
     nom_fichier_base commence par le code, éventuellement précédé d'un seul
     segment de préfixe (RBX_, mais aussi les coquilles RBx_, BX_...) :
     un simple « contient » rattachait à tort RBX_VAH_PUB_LAI_* au corpus LAI
-    -> results/corpus/stagemel/<code>_dao_<today>.csv.gz
+    -> results/corpus/stagemel/<date>/travail/<code>_dao_<date>.csv.gz
 
-Le chemin du ref utilisé est noté dans results/corpus/stagemel/_ref_<today>.txt,
+Le chemin du ref utilisé est noté dans results/corpus/stagemel/<date>/travail/_ref_<date>.txt,
 relu par stagemel_recap.py (recherche des masters) pour travailler sur le
 même ref que l'extraction, y compris avec --ref-path.
 
@@ -53,7 +53,20 @@ CORPUS_CODES = [
     "MDF_MTX", "MUS_ARC", "OBS_JOU",
 ]
 
-OUT_DIR = Path("results/corpus/stagemel")
+# Un dossier par date de lancement : recaps Excel à la racine de <date>/,
+# fichiers intermédiaires (_files, _dao, cas1/2/3, _ref_<date>.txt) dans <date>/travail/.
+BASE_DIR = Path("results/corpus/stagemel")
+
+
+def dossier_date(date):
+    """Dossier du lancement <date> : reçoit les recaps Excel."""
+    return BASE_DIR / date
+
+
+def dossier_travail(date):
+    """Fichiers intermédiaires du lancement <date>."""
+    return dossier_date(date) / "travail"
+
 DAO_PATH = join("results", "ead", "ead_cor", "dao_ref_link_brut.csv")
 
 
@@ -69,7 +82,7 @@ def dernier_ref():
 
 def ref_trace_path(date):
     """Fichier où l'extraction note le ref utilisé pour la date donnée."""
-    return OUT_DIR / f"_ref_{date}.txt"
+    return dossier_travail(date) / f"_ref_{date}.txt"
 
 
 def main():
@@ -81,7 +94,8 @@ def main():
 
     codes = args.corpus_codes or CORPUS_CODES
     today = args.date
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = dossier_travail(today)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     ref_path = args.ref_path or dernier_ref()
     ref_trace_path(today).write_text(str(ref_path), encoding="utf-8")
@@ -94,11 +108,11 @@ def main():
     for corpus_code in codes:
         print(f"Traitement du corpus {corpus_code}")
         v_files = ref[ref["corpus_code"] == corpus_code]
-        v_files.to_csv(OUT_DIR / f"{corpus_code}_files_{today}.csv.gz", index=False)
+        v_files.to_csv(out_dir / f"{corpus_code}_files_{today}.csv.gz", index=False)
         print(f"-- {len(v_files)} fichiers")
 
         v_dao = dao[dao["nom_fichier_base"].str.match(rf"(?:[A-Za-z]+_)?{re.escape(corpus_code)}")]
-        v_dao.to_csv(OUT_DIR / f"{corpus_code}_dao_{today}.csv.gz", index=False)
+        v_dao.to_csv(out_dir / f"{corpus_code}_dao_{today}.csv.gz", index=False)
         print(f"-- {len(v_dao)} dao")
         if v_dao.empty:
             print(f"-- attention : aucune DAO pour {corpus_code} (corpus sans notice EAD ?)")

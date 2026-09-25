@@ -18,6 +18,8 @@ dependencies:
   - boto3
   # EAD / RDF
   - rdflib
+  # Synthèse Word des recaps stagemel
+  - python-docx
   # pyexiftool nécessite le binaire exiftool
   - exiftool
   # Tests (ead_editor)

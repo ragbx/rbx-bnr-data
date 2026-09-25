@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 r"""
 stagemel_recap.py — Recap Excel par corpus, à partir de cas1/cas2/cas3.
--> results/corpus/stagemel/recap/<corpus>_recap_<date>.xlsx (colonnes à la largeur du texte, filtres sur les en-têtes, en-tête figé)
+-> results/corpus/stagemel/<date>/<corpus>_recap_<date>.xlsx (colonnes à la largeur du texte, filtres sur les en-têtes, en-tête figé)
 
 Reproduit la même structure que les recap_<code>_<date>.xlsx de la stagiaire
 (CAS / <CODE> / STATUT / CHEMIN / PROBLEMES / À FAIRE), mais seulement pour ce
@@ -35,8 +35,9 @@ qui est mécaniquement dérivable :
            « ERREUR DAO (candidat) » — À VALIDER contre la notice EAD, cf.
            méthodologie du stage (les cas d'erreur de nommage réels doivent être
            confirmés à la main, ce script ne fait que proposer le rapprochement).
-           À FAIRE = « À numériser » pour les SEUL DAO, vide pour les candidats
-           ERREUR DAO (dépend de la confirmation). La correspondance exacte
+           À FAIRE toujours vide : ni « À numériser » pour les SEUL DAO (fichier
+           introuvable ≠ document non numérisé, retiré le 2026-09-25), ni pour
+           les candidats ERREUR DAO (dépend de la confirmation). La correspondance exacte
            cherche d'abord parmi les fichiers pas encore À SUPPRIMER, et ne se
            rabat sur un fichier À SUPPRIMER que si rien d'autre n'a matché
            (STATUT le signale alors explicitement) : pointer vers un fichier
@@ -73,10 +74,8 @@ from openpyxl.styles import PatternFill
 from openpyxl.utils import get_column_letter
 
 sys.path.insert(0, str(Path(__file__).parent))
-from stagemel_extraction_corpus import dernier_ref, ref_trace_path  # noqa: E402
+from stagemel_extraction_corpus import dernier_ref, dossier_date, dossier_travail, ref_trace_path  # noqa: E402
 
-CAS_DIR = Path("results/corpus/stagemel/cas")
-OUT_DIR = Path("results/corpus/stagemel/recap")
 
 # Actions sans ambiguïté : les statuts harmonisés du ref (fusion 2026-07-11) sont
 # déjà des décisions prises, pas des diagnostics à interpréter — cf. mémoire
@@ -140,12 +139,12 @@ def connus_ref(cas1, cas3):
 
 def charger(corpus_code, date):
     paths = {
-        cas: CAS_DIR / f"{corpus_code}_{cas}_{date}.csv.gz"
+        cas: dossier_travail(date) / f"{corpus_code}_{cas}_{date}.csv.gz"
         for cas in ("cas1", "cas2", "cas3")
     }
     if not any(p.exists() for p in paths.values()):
         raise FileNotFoundError(
-            f"Aucun fichier cas pour {corpus_code} à la date {date} dans {CAS_DIR} "
+            f"Aucun fichier cas pour {corpus_code} à la date {date} dans {dossier_travail(date)} "
             "— lancer stagemel_cas_merge.py d'abord."
         )
     # Un corpus vide (ni REF ni DAO) donne un recap vide plutôt qu'une erreur :
@@ -160,7 +159,8 @@ def ref_de_l_extraction(date, avertissements):
     """Ref utilisé par stagemel_extraction_corpus.py pour cette date, à défaut le plus récent."""
     trace = ref_trace_path(date)
     if trace.exists():
-        return trace.read_text(encoding="utf-8").strip()
+        # la trace peut venir d'un lancement sous Windows (séparateurs \)
+        return trace.read_text(encoding="utf-8").strip().replace("\\", "/")
     avertissements.append(f"{trace} introuvable : masters cherchés dans le ref le plus récent")
     return dernier_ref()
 
@@ -247,7 +247,6 @@ def build_cas2(df, corpus_code, cas1, cas3, avertissements):
     statut = pd.Series("SEUL DAO", index=df.index)
     statut = statut.mask(dans_prioritaire, "ERREUR DAO (candidat)")
     statut = statut.mask(dans_secours, "ERREUR DAO (candidat, fichier À SUPPRIMER)")
-    a_faire = candidat.map({True: "", False: "À numériser"})
     uuid_col = key_norm.map(uuid_prioritaire)
     uuid_col = uuid_col.where(uuid_col.notna(), key_norm.map(uuid_secours))
 
@@ -260,7 +259,7 @@ def build_cas2(df, corpus_code, cas1, cas3, avertissements):
         "STATUT": statut,
         "CHEMIN": "",
         "PROBLEMES": problemes,
-        "À FAIRE": a_faire,
+        "À FAIRE": "",
     })
     return out
 
@@ -331,8 +330,7 @@ def main():
     recap = pd.concat([cas1, cas2, cas3], ignore_index=True)
     pivot = recap.groupby(["CAS", "STATUT"], dropna=False).size().rename("nombre").reset_index()
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUT_DIR / f"{args.corpus_code.lower()}_recap_{args.date}.xlsx"
+    out_path = dossier_date(args.date) / f"{args.corpus_code.lower()}_recap_{args.date}.xlsx"
     with pd.ExcelWriter(out_path, engine="openpyxl") as writer:
         for nom, df in (("recap", recap), ("pivot", pivot)):
             df.to_excel(writer, sheet_name=nom, index=False)

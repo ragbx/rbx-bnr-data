@@ -33,24 +33,25 @@ Usage
 """
 import argparse
 from datetime import datetime
+import sys
 from pathlib import Path
 
 import pandas as pd
 
-IN_DIR = Path("results/corpus/stagemel")
-OUT_DIR = IN_DIR / "cas"
+sys.path.insert(0, str(Path(__file__).parent))
+from stagemel_extraction_corpus import dossier_travail  # noqa: E402
 
 
 def discover_corpus_codes(date):
     return sorted(
         p.name[: -len(f"_files_{date}.csv.gz")]
-        for p in IN_DIR.glob(f"*_files_{date}.csv.gz")
+        for p in dossier_travail(date).glob(f"*_files_{date}.csv.gz")
     )
 
 
 def merge_corpus(corpus_code, date):
-    ref_path = IN_DIR / f"{corpus_code}_files_{date}.csv.gz"
-    dao_path = IN_DIR / f"{corpus_code}_dao_{date}.csv.gz"
+    ref_path = dossier_travail(date) / f"{corpus_code}_files_{date}.csv.gz"
+    dao_path = dossier_travail(date) / f"{corpus_code}_dao_{date}.csv.gz"
     if not ref_path.exists() or not dao_path.exists():
         raise FileNotFoundError(
             f"{ref_path} ou {dao_path} introuvable — lancer d'abord stagemel_extraction_corpus.py"
@@ -80,20 +81,20 @@ def main():
 
     codes = args.corpus_codes or discover_corpus_codes(args.date)
     if not codes:
-        raise SystemExit(f"Aucun fichier {IN_DIR}/*_files_{args.date}.csv.gz trouvé — lancer stagemel_extraction_corpus.py, ou préciser --date")
+        raise SystemExit(f"Aucun fichier {dossier_travail(args.date)}/*_files_{args.date}.csv.gz trouvé — lancer stagemel_extraction_corpus.py, ou préciser --date")
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = dossier_travail(args.date)
 
     for corpus_code in codes:
         print(f"Traitement du corpus {corpus_code}")
         cas1, cas2, cas3 = merge_corpus(corpus_code, args.date)
         print(f"-- cas1: {len(cas1)}  cas2: {len(cas2)}  cas3: {len(cas3)}")
 
-        cas1.to_csv(OUT_DIR / f"{corpus_code}_cas1_{args.date}.csv.gz", index=False)
-        cas2.to_csv(OUT_DIR / f"{corpus_code}_cas2_{args.date}.csv.gz", index=False)
+        cas1.to_csv(out_dir / f"{corpus_code}_cas1_{args.date}.csv.gz", index=False)
+        cas2.to_csv(out_dir / f"{corpus_code}_cas2_{args.date}.csv.gz", index=False)
         # toujours écrit, même vide : un cas3 d'un lancement antérieur à la même date
         # serait sinon relu par stagemel_recap.py
-        cas3.to_csv(OUT_DIR / f"{corpus_code}_cas3_{args.date}.csv.gz", index=False)
+        cas3.to_csv(out_dir / f"{corpus_code}_cas3_{args.date}.csv.gz", index=False)
 
 
 if __name__ == "__main__":

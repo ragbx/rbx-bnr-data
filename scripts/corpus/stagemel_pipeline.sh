@@ -19,13 +19,16 @@ CORPUS=$($PY -c "import sys; sys.path.insert(0, 'scripts/corpus'); from stagemel
 # A. DAO à jour depuis les notices EAD (data/ead/bnr) -> results/ead/ead_cor/dao_ref_link_brut.csv
 $PY scripts/ead/dao_ref_link.py
 
-# B. extraction REF + DAO par corpus -> results/corpus/stagemel/
+# B. extraction REF + DAO par corpus -> results/corpus/stagemel/<date>/travail/
 $PY scripts/corpus/stagemel_extraction_corpus.py $CORPUS --date "$DATE"
 
-# C. merge cas1/cas2/cas3 par corpus -> results/corpus/stagemel/cas/
+# C. merge cas1/cas2/cas3 par corpus -> results/corpus/stagemel/<date>/travail/
 $PY scripts/corpus/stagemel_cas_merge.py $CORPUS --date "$DATE"
 
-# D. recap Excel par corpus -> results/corpus/stagemel/recap/
+# D. recap Excel par corpus -> results/corpus/stagemel/<date>/
 for corpus in $CORPUS; do
     $PY scripts/corpus/stagemel_recap.py "$corpus" --date "$DATE"
 done
+
+# E. synthèse de tous les recaps -> results/corpus/stagemel/<date>/00_synthese_<date>.xlsx
+$PY scripts/corpus/stagemel_synthese.py --date "$DATE"
