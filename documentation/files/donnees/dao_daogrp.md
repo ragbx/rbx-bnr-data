@@ -13,12 +13,13 @@ présents (37 IR), pour comprendre ce que les scripts d'appariement utilisent.
 
 | Elément | Nb | Description |
 |---|---|---|
-| `<daogrp>` | 34 083 | Groupe de plusieurs `<daoloc>` décrivant **un même document** (ses versions accès / conservation / publication) |
-| `<dao>` isolé | 1 709 | Un lien unique, **hors** `<daogrp>` |
+| `<daogrp>` | 34 234 | Groupe de plusieurs `<daoloc>` décrivant **un même document** (ses versions accès / conservation / publication) |
+| `<dao>` isolé | 1 668 | Un lien unique, **hors** `<daogrp>` |
 
 Les `<dao>` isolés sont presque toujours un simple lien de publication
-(`publication:current`, 1 614), parfois un accès audio (90) ; ils n'ont pas de
-fichier de conservation à apparier.
+(`publication:current`, 1 657) ; ils n'ont pas de fichier de conservation à
+apparier. Une poignée reste un lien d'accès isolé sans conservation ni
+publication (`access:audio` 8, `access:image` 2, `access:video` 1).
 
 Ce lien n'existe pas dans la source : c'est le cas d'un `<archdesc>`/`<c>` qui
 n'avait **aucun** `<dao>`/`<daogrp>` dans l'IR bn-r d'origine (ici la racine de
@@ -30,7 +31,7 @@ la collection ARA_CPS) — [ead_bnr2mnesys.py](../scripts/ead_bnr2mnesys.md) (é
 
       <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244634uwtxd1" role="publication:current"/>
 
-Un `<daogrp>` contient des `<daoloc>` et, dans 6 664 cas, un `<daodesc>`
+Un `<daogrp>` contient des `<daoloc>` et, dans 6 762 cas, un `<daodesc>`
 optionnel portant une légende. Départ / arrivée pour un exemple avec plage
 d'images et conservation :
 
@@ -88,16 +89,22 @@ Fréquence des `role` rencontrés :
 
 | role | Occurrences |
 |---|--:|
-| `publication:current` | 35 697 |
+| `publication:current` | 35 891 |
 | `publication:previous` | 30 003 |
-| `access:image` | 15 190 |
-| `preservation:image` | 6 697 |
-| `access:image:first` / `:last` | 6 666 / 6 666 |
-| `preservation:image:first` / `:last` | 3 290 / 3 234 |
-| `preservation:audio` | 2 764 |
+| `access:image` | 15 241 |
+| `preservation:image` | 13 218 |
+| `access:image:first` / `:last` | 6 764 / 6 764 |
+| `preservation:image:first` / `:last` | 4 886 / 4 827 |
+| `preservation:audio` | 2 847 |
 | `access:audio` | 1 111 |
 | `access:pdf` / `preservation:pdf` | 31 / 31 |
 | `access:video` / `preservation:video` | 22 / 19 |
+
+`publication:previous`, `access:audio`, `access:pdf`/`preservation:pdf` et
+`access:video`/`preservation:video` sont identiques à la précédente mise à
+jour de cette page : ce sont `preservation:image` et
+`preservation:image:first`/`:last` qui ont le plus progressé (référentiel de
+conservation enrichi entre-temps, cf. section suivante).
 
 ---
 
@@ -124,31 +131,50 @@ La présence (ou non) du `preservation` est l'axe structurant des cas ci-dessous
 
 ## Les cas de figure (signatures de `<daogrp>`)
 
-En condensant les bornes `first`/`last`, 17 combinaisons de rôles existent. Les
-principales :
+21 combinaisons distinctes de `role` existent dans les `<daogrp>` du corpus.
+Classées par famille de média, présence de conservation et présence du lien
+`publication:previous`, elles se répartissent **intégralement** dans les 12
+catégories suivantes (la somme des effectifs vaut 34 234, soit tous les
+`<daogrp>` du corpus) :
 
 | Nb | Composition | Lecture |
 |--:|---|---|
 | 12 202 | `publication:current` + `previous` | **Publication seule** : aucun fichier référencé dans l'IR, juste les liens en ligne |
-| 6 684 | `access:image` + `preservation:image` + publications | Image **unitaire avec conservation** (cas nominal) |
-| 5 670 | `access:image` + publications | Image **unitaire sans conservation** → orphelin |
-| 3 107 | `access:image:[first/last]` + `preservation:image:[first/last]` + publications | **Plage** d'images avec conservation |
-| 2 803 | `access:image` + `publication:current` | Image unitaire sans conservation, sans lien `previous` |
-| 2 099 | `access:image:[first/last]` + publications | Plage d'images **sans conservation** |
-| 1 270 | `access:image:[first/last]` + `publication:current` | Plage d'images sans conservation, sans `previous` |
-| 185 | `access:audio` + `access:image:[first/last]` + `preservation:audio` + `preservation:image:[first/last]` + publications | **Fonds sonore** : audio + images associées (pochette, livret) |
-| 31 | `access:pdf` + `preservation:pdf` + publications | Document **PDF** |
-| 16 / 2 | `access:video` (+ `preservation:video`) + publications | **Vidéo** |
+| 11 767 | `access:image` + `preservation:image` + `publication:current` + `previous` | Image **unitaire avec conservation** (cas nominal) |
+| 4 275 | `access:image:[first/last]` + `preservation:image:[first/last]` + `publication:current` + `previous` | **Plage** d'images avec conservation |
+| 1 490 | `access:image` + `publication:current` | Image unitaire **sans conservation**, sans lien `previous` → orphelin |
+| 1 373 | `access:image` + `preservation:image` + `publication:current` | Image unitaire avec conservation, sans lien `previous` |
+| 946 | `access:image:[first/last]` + `publication:current` | Plage d'images sans conservation, sans lien `previous` |
+| 923 | `access:image:[first/last]` + `publication:current` + `previous` | Plage d'images **sans conservation** |
+| 515 | `access:image` + `publication:current` + `previous` | Image unitaire sans conservation → orphelin |
+| 422 | `access:image:[first/last]` + `preservation:image:[first/last]` + `publication:current` | Plage d'images avec conservation, sans lien `previous` |
+| 270 | `access:audio` (+ `access:image:[first/last]`) + `preservation:audio` (+ `preservation:image:[first/last]`) + `publication:current` + `previous` | **Fonds sonore** : audio, seul ou avec images associées (pochette, livret) |
+| 31 | `access:pdf` + `preservation:pdf` + `publication:current` + `previous` | Document **PDF** |
+| 20 | `access:video` (+ `access:image`) + `preservation:video` (+ `preservation:image`) + `publication:current` + `previous` | **Vidéo** |
 
-(Le reste : quelques combinaisons mixtes rares — audio sans conservation, image
-+ vidéo, audio + image unitaire.)
+Deux anomalies ponctuelles, noyées dans les lignes ci-dessus mais à connaître :
+
+- **71 plages d'images à conservation asymétrique**, comptées dans les deux
+  lignes « Plage … avec conservation » (4 275 + 422) : une seule des deux
+  bornes `first`/`last` a son fichier de conservation apparié (64 cas où seul
+  `first` l'a, 6 où seul `last` l'a, 1 cumulant cette asymétrie à l'absence de
+  `publication:previous`) — signe que le référentiel de conservation ne
+  couvre pas encore les deux extrémités de la plage ;
+- **2 vidéos atypiques**, comptées dans la ligne « Vidéo » (20) : une
+  orpheline (`access:video` + publications, aucune conservation, comme un
+  `access:image` isolé) et une à conservation complète (image ET vidéo toutes
+  deux appariées à leur fichier de conservation).
 
 Deux constats transversaux :
 
-- la grande majorité des groupes portent un couple `publication:current` +
-  `previous` ; un sous-ensemble n'a que `current` ;
-- environ un tiers des groupes images n'ont **pas** de `preservation` (orphelins
-  unitaires ou plages), ce que la chaîne d'appariement cherche à résoudre.
+- 30 003 `<daogrp>` sur 34 234 (88 %) portent le couple `publication:current` +
+  `previous` ; les 4 231 restants (12 %) n'ont que `current` — un lien
+  `previous` suppose que le composant existait déjà dans l'ancien bn-r, ce qui
+  n'est pas le cas d'un contenu nouvellement décrit ;
+- sur les 21 711 groupes portant une image (unitaire ou en plage), 17 837
+  (82 %) ont désormais leur fichier de conservation apparié ; les 3 874
+  restants (18 %) sont orphelins, ce que détecte
+  [dao_sans_conservation.py](../scripts/dao_sans_conservation.md).
 
 ---
 
@@ -172,7 +198,7 @@ publication) et son arrivée dans l'IR transformé
         <daoloc href="https://www.bn-r.fr/ark:/20179/BNR59358" role="publication:previous"/>
       </daogrp>
 
-**Image unitaire avec conservation** (6 684) — cas nominal :
+**Image unitaire avec conservation** (11 767, ou 1 373 sans lien `previous`) — cas nominal :
 
 - Départ (`data/ead/bnr/FR595129901_MED_16.xml`) :
 
@@ -189,7 +215,7 @@ publication) et son arrivée dans l'IR transformé
         <daoloc href="https://www.bn-r.fr/ark:/20179/BNR22820" role="publication:previous"/>
       </daogrp>
 
-**Image unitaire sans conservation** (5 670) — orphelin, à résoudre par la chaîne
+**Image unitaire sans conservation** (515, ou 1 490 sans lien `previous`) — orphelin, à résoudre par la chaîne
 d'appariement :
 
 - Départ (`data/ead/bnr/FR595129901_MED_07.xml`) :
@@ -206,7 +232,7 @@ d'appariement :
         <daoloc href="https://www.bn-r.fr/ark:/20179/BNR57391" role="publication:previous"/>
       </daogrp>
 
-**Plage d'images sans conservation** (2 099) :
+**Plage d'images sans conservation** (923, ou 946 sans lien `previous`) :
 
 - Départ (`data/ead/bnr/FR595129901_MED_04.xml`) :
 
@@ -226,7 +252,7 @@ d'appariement :
         <daoloc href="https://www.bn-r.fr/ark:/20179/BNR48281" role="publication:previous"/>
       </daogrp>
 
-**Fonds sonore** (185) — audio + images associées (pochette, livret), avec
+**Fonds sonore** (270) — audio + images associées (pochette, livret), avec
 conservation des deux médias :
 
 - Départ (`data/ead/bnr/FR595129901_MED_15.xml`) : deux `<dao>` isolés pour
@@ -278,8 +304,10 @@ conservation des deux médias :
         <daoloc href="https://www.bn-r.fr/ark:/20179/BNR25856" role="publication:previous"/>
       </daogrp>
 
-**Vidéo** (16/2) — accès et conservation dans des formats différents (`.mov` /
-`.mp4`), avec une image d'illustration :
+**Vidéo** (20 au total : 16 avec une image d'illustration sans conservation +
+2 sans image + 2 cas rares — une vidéo orpheline sans conservation, une avec
+conservation complète image et vidéo) — accès et conservation dans des formats
+différents (`.mov` / `.mp4`), avec une image d'illustration :
 
 - Départ (`data/ead/bnr/FR595129901_MDF_01.xml`) : deux `<dao>` isolés, dont
   une ancienne URL absolue du site `bn-r.fr/video/` :
