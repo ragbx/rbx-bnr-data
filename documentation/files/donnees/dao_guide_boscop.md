@@ -2,7 +2,7 @@
 
 date : 25/09/2026
 
-Ce document, rédigé à destination de la société Boscop, explique comment lire le contenu des éléments `<dao>` / `<daogrp>`  présents dans les composants `c` des instruments de recherche encodé en EAD par la Grand-PLage à l'aide du logiciel Mnesys.aogrp.md).
+Ce document, rédigé à destination de la société Boscop, explique comment lire le contenu des éléments `<dao>` / `<daogrp>`  présents dans les composants `c` des instruments de recherche encodé en EAD par la Grand-PLage à l'aide du logiciel Mnesys.
 
 À la date de rédaction de ce document, les règles qui suivent ne sont pas encore en production au sein de la Grand-Plage. En cas d'incompatibilité majeure avec le fonctionnement de Ligeo diffusion, elles peuvent encore être amendées.
 
