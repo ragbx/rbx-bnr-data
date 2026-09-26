@@ -67,7 +67,10 @@ Sorties :
     une extraction de rbx-bnr.geojson, régénérée à chaque exécution — mêmes
     propriétés que le GeoJSON (hors source, constante dans chaque fichier),
     plus coordinates, le contenu brut de geometry.coordinates (JSON), donc
-    la géométrie complète, pas un point simplifié.
+    la géométrie complète, pas un point simplifié ;
+  - results/ead/indexation/rbx-bnr_concordance_rue.csv : concordance
+    ancien/nouveau nom de rue (nom, rue_autre_forme, coordinates), sans
+    doublons — sous-ensemble de rbx-bnr_rue.csv centré sur cet usage.
 
 À lancer depuis la racine du dépôt.
 """
@@ -333,6 +336,36 @@ def creer_csv(geojson):
     return fichiers
 
 
+def creer_csv_concordance_rue(geojson):
+    """Concordance ancien/nouveau nom de rue : nom (officiel du filaire si
+    aligné, sinon texte BnR reconstruit), rue_autre_forme (texte brut de
+    l'IR), geometrie_officielle (bool, cf. GeoJSON), coordinates (géométrie
+    complète, JSON) — une ligne par rue unique, sans doublons."""
+    chemin = join("results", "ead", "indexation", "rbx-bnr_concordance_rue.csv")
+    vues = set()
+    lignes = []
+    for feature in geojson["features"]:
+        p = feature["properties"]
+        if p["source"] != "rue":
+            continue
+        ligne = (
+            p["name"],
+            p["rue_autre_forme"],
+            p["geometrie_officielle"],
+            json.dumps(feature["geometry"]["coordinates"]),
+        )
+        if ligne in vues:
+            continue
+        vues.add(ligne)
+        lignes.append(ligne)
+
+    with open(chemin, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["nom", "rue_autre_forme", "geometrie_officielle", "coordinates"])
+        writer.writerows(lignes)
+    return chemin, len(lignes)
+
+
 toponymes, occurrences, instruments = extraire_geogname()
 geometries, officielles, noms_officiels = construire_geometries(toponymes)
 
@@ -355,6 +388,7 @@ subprocess.run(
 )
 
 csv_fichiers = creer_csv(geojson)
+concordance_chemin, concordance_n = creer_csv_concordance_rue(geojson)
 
 print(f"{len(toponymes)} toponymes uniques → {GEOJSON_SORTIE}, {GEOJSON_27561_SORTIE}")
 for source in sorted({s for _, s in toponymes}):
@@ -362,3 +396,4 @@ for source in sorted({s for _, s in toponymes}):
     print(f"{n:6d}  {source}")
 for chemin, n in sorted(csv_fichiers):
     print(f"{n:6d}  {chemin}")
+print(f"{concordance_n:6d}  {concordance_chemin}")

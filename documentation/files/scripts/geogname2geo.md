@@ -99,6 +99,15 @@ texte BnR reconstruit à l'endroit (pas de nom officiel disponible) et
 brut de `geometry.coordinates` (JSON), donc la géométrie complète (point,
 polygone, ligne ou multi-ligne selon la source), pas un point simplifié.
 
+**Concordance rue** — `results/ead/indexation/rbx-bnr_concordance_rue.csv` :
+sous-ensemble de `rbx-bnr_rue.csv` centré sur l'ancien/nouveau nom —
+`nom`, `rue_autre_forme`, `geometrie_officielle`, `coordinates`, sans
+doublons. Une même rue
+officielle peut apparaître plusieurs fois si l'IR porte plusieurs formes
+brutes distinctes pour elle (ex. deux graphies d'échappement différentes
+pour "Rue d'Alger" : `"Alger, rue d'"` et `"Alger, rue d\'"`) — ce n'est
+pas un doublon, chaque forme brute a sa propre ligne.
+
 ---
 
 ## Utilisation
