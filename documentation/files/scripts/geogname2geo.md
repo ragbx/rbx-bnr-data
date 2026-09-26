@@ -16,7 +16,11 @@ fichiers d'entrée.
 | `data/geo/filaire_voies_roubaix.geojson` | Référentiel officiel des voies de Roubaix, export WFS de Lille Métropole (couche `ville_roubaix:filaire_des_voies_de_la_ville_de_roubaix`, récupéré le 2026-09-22) |
 
 `coord` est soit un point `[lat, lon]` (source `rue`/`adresse`), soit un
-polygone `[[lat, lon], ...]` (source `quartier`). GeoJSON attend l'ordre
+polygone `[[lat, lon], ...]` (source `quartier`), soit — pour une rue
+alignée dans les IR depuis le 2026-09-26, cf.
+[geogname2csv](geogname2csv.md) — le tracé de la voie dans le filaire :
+`[[lat, lon], ...]` ou `[[[lat, lon], ...], ...]`, lu comme `LineString` /
+`MultiLineString`. GeoJSON attend l'ordre
 `lon,lat` ; la conversion est faite par le script. Les `geogname` sans
 `coord` (non géoréférencés) sont ignorés.
 

@@ -18,6 +18,9 @@ dependencies:
   - boto3
   # EAD / RDF
   - rdflib
+  # Indexation géographique (géométries, reprojection Lambert 93 -> WGS84)
+  - shapely
+  - pyproj
   # Synthèse Word des recaps stagemel
   - python-docx
   # pyexiftool nécessite le binaire exiftool

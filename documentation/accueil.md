@@ -55,7 +55,8 @@ Détail par script :
 → [Liste des IR à traiter](files/scripts/ead_liste_ir.md) · [ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md) (id Mnesys : [mnesys_id](files/scripts/mnesys_id.md)) · [Liens sans conservation](files/scripts/dao_sans_conservation.md) · [Appariement des orphelins](files/scripts/dao_appariement_conservation.md) · [Développement des plages](files/scripts/dao_first_last_developpe.md) · [Vérification dans le référentiel](files/scripts/dao_first_last_verif_ref.md) · [Plages non contiguës](files/scripts/dao_first_last_plages_lacunaires.md) · [Accès sans conservation](files/scripts/dao_first_last_access_sans_conservation.md)
 
 **Indexation** — à partir des `<controlaccess>` des IR transformés :
-→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Export géographique GeoJSON](files/scripts/geogname2geo.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md)
+→ **[Indexation géographique : état des travaux et reprise](files/scripts/indexation_geographique.md)**
+→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Export géographique GeoJSON](files/scripts/geogname2geo.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Concordance des noms de voies](files/scripts/geogname_concordance.md) · [Référentiel des geogname](files/scripts/geogname_referentiel.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.

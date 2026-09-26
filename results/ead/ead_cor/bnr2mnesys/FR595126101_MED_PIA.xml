@@ -4916,8 +4916,8 @@ Chapitre XVIII : Deux voix ouvrières</p>
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Junker, Charles</persname>
-                <geogname>Paris, boulevard de</geogname>
-                <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+                <geogname source="rue">Paris, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Gorget, Rémy</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Junker, Charles</persname>
               </controlaccess>
@@ -5281,7 +5281,7 @@ Chapitre XVIII : Deux voix ouvrières</p>
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
@@ -5430,7 +5430,7 @@ Chapitre XVIII : Deux voix ouvrières</p>
                 <physdesc>&lt;p&gt;2 documents ; reproductions d'une oeuvre.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.691604, 3.173126 ], [ 50.691662, 3.173059 ], [ 50.692597, 3.170782 ], [ 50.693204, 3.169297 ], [ 50.693691, 3.168116 ], [ 50.694074, 3.167178 ], [ 50.694317, 3.166587 ], [ 50.694533, 3.166063 ], [ 50.694841, 3.165306 ], [ 50.695084, 3.164743 ], [ 50.695302, 3.164196 ] ]">Jean Lebas, avenue</geogname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Barian, Paul-Joseph</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Weerts, Jean-Joseph (1846-1927)</persname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
@@ -6065,7 +6065,7 @@ Chapitre XVIII : Deux voix ouvrières</p>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Duvillier-Paquet</persname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
-                <geogname source="rue" coord="[ 50.6994013, 3.1747313 ]">Fosse aux chênes, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.699341, 3.174704 ], [ 50.699595, 3.174167 ] ]">Fosse aux chênes, place de la</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640bvStws" role="publication:current"/>
@@ -8653,7 +8653,7 @@ Portrait de Jules Guesde à l'âge de 18 ans (1864).</p>
               </scopecontent>
               <controlaccess>
                 <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Guesde, Jules (1845-1922)</persname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
@@ -8942,7 +8942,7 @@ Annotations manuscrites : "OPUSCULE. Louis Catrice - par/pour? La muse de Nadaud
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
-                <geogname source="rue" coord="[ 50.6898351, 3.1853235 ]">Belfort, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.688545, 3.182698 ], [ 50.688754, 3.183132 ], [ 50.68899, 3.183636 ], [ 50.68899, 3.183638 ], [ 50.689083, 3.183838 ], [ 50.689276, 3.184252 ], [ 50.689392, 3.1845 ], [ 50.689394, 3.184503 ], [ 50.690251, 3.186337 ], [ 50.690403, 3.186686 ], [ 50.691092, 3.188161 ] ]">Belfort, boulevard de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -12455,9 +12455,9 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Motte, Léon (1842-1903),</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Descamps, Augusta (1846-1926)</persname>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
-                <geogname source="rue" coord="[ 50.6898729, 3.1791572 ]">Tuilerie, rue de la</geogname>
-                <geogname source="rue" coord="[ 50.6868788, 3.1967421 ]">Mulhouse, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.689505, 3.178125 ], [ 50.689565, 3.178147 ], [ 50.689846, 3.178949 ], [ 50.689852, 3.179081 ] ], [ [ 50.691137, 3.179275 ], [ 50.69048, 3.179807 ], [ 50.690274, 3.179973 ], [ 50.6902, 3.179992 ], [ 50.690116, 3.17984 ], [ 50.689852, 3.179081 ], [ 50.689852, 3.179081 ] ] ]">Tuilerie, rue de la</geogname>
+                <geogname source="rue" coord="[ [ 50.683862, 3.191256 ], [ 50.684636, 3.192654 ], [ 50.684655, 3.192689 ], [ 50.685178, 3.193614 ], [ 50.685672, 3.194512 ], [ 50.686296, 3.195645 ], [ 50.686864, 3.196771 ], [ 50.68697, 3.196991 ], [ 50.687094, 3.197243 ], [ 50.687324, 3.197712 ], [ 50.687534, 3.198143 ], [ 50.687881, 3.198841 ], [ 50.688184, 3.199464 ], [ 50.689109, 3.201345 ], [ 50.689256, 3.201648 ] ]">Mulhouse, boulevard de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
               </controlaccess>
               <daogrp>
@@ -12746,7 +12746,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
                 <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
               </controlaccess>
               <daogrp>
@@ -14269,7 +14269,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Blum, Léon (1872-1950)</persname>
               </controlaccess>
@@ -15410,7 +15410,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6771537, 3.1882551 ]">Linne, avenue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.676751, 3.187801 ], [ 50.676178, 3.187125 ], [ 50.675898, 3.186808 ], [ 50.67523, 3.186021 ], [ 50.674529, 3.185279 ], [ 50.674446, 3.185201 ], [ 50.674127, 3.184929 ] ], [ [ 50.68107, 3.192949 ], [ 50.680979, 3.192735 ], [ 50.680361, 3.192013 ], [ 50.680049, 3.191646 ], [ 50.679082, 3.190527 ], [ 50.678512, 3.18986 ], [ 50.678301, 3.189612 ], [ 50.677161, 3.188277 ], [ 50.676756, 3.187808 ] ] ]">Linne, avenue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640HW6S1X" role="publication:current"/>
@@ -15603,7 +15603,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.695298, 3.180381 ]">Pellart, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.695027, 3.179842 ], [ 50.695239, 3.180187 ], [ 50.695896, 3.182146 ], [ 50.695896, 3.182146 ] ], [ [ 50.695896, 3.182146 ], [ 50.696605, 3.184314 ] ] ]">Pellart, rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640VqwCsl" role="publication:current"/>
@@ -15692,7 +15692,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
-                <geogname source="rue" coord="[ 50.6988899, 3.1691485 ]">Archimède, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.697739, 3.171625 ], [ 50.698259, 3.170423 ], [ 50.698692, 3.169407 ], [ 50.698824, 3.169206 ], [ 50.698883, 3.169154 ], [ 50.699117, 3.168927 ], [ 50.700033, 3.168107 ], [ 50.700644, 3.167562 ] ]">Archimède, rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640sc80jj" role="publication:current"/>
@@ -15828,7 +15828,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Clérambeau, Léon</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Reboux, Alfred</persname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640sw2WJa" role="publication:current"/>
@@ -15962,7 +15962,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406jB7mB" role="publication:current"/>
@@ -15985,7 +15985,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640z9M3Cp" role="publication:current"/>
@@ -16008,7 +16008,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446400mvGU8" role="publication:current"/>
@@ -16031,7 +16031,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640q3e9pC" role="publication:current"/>
@@ -16055,7 +16055,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Pleven, René (1901-1993)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640x9dMe2" role="publication:current"/>
@@ -16079,7 +16079,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Pleven, René (1901-1993)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640RMc5ni" role="publication:current"/>
@@ -16191,7 +16191,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640DzEIpR" role="publication:current"/>
@@ -16258,7 +16258,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640fJUR3G" role="publication:current"/>
@@ -16281,7 +16281,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640MXCgn8" role="publication:current"/>
@@ -16392,7 +16392,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname>Chaptal, place</geogname>
+                <geogname source="rue" coord="[ [ 50.694781, 3.190967 ], [ 50.694783, 3.19133 ] ]">Chaptal, place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446406T601y" role="publication:current"/>
@@ -16459,7 +16459,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname>Chaptal, place</geogname>
+                <geogname source="rue" coord="[ [ 50.694781, 3.190967 ], [ 50.694783, 3.19133 ] ]">Chaptal, place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640UydTfa" role="publication:current"/>
@@ -16483,7 +16483,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Mayer, Daniel (1909-1996)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446401aPeJp" role="publication:current"/>
@@ -16506,7 +16506,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640YeWzZp" role="publication:current"/>
@@ -16529,9 +16529,9 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
-                <geogname source="rue" coord="[ 50.6868788, 3.1967421 ]">Mulhouse, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.683862, 3.191256 ], [ 50.684636, 3.192654 ], [ 50.684655, 3.192689 ], [ 50.685178, 3.193614 ], [ 50.685672, 3.194512 ], [ 50.686296, 3.195645 ], [ 50.686864, 3.196771 ], [ 50.68697, 3.196991 ], [ 50.687094, 3.197243 ], [ 50.687324, 3.197712 ], [ 50.687534, 3.198143 ], [ 50.687881, 3.198841 ], [ 50.688184, 3.199464 ], [ 50.689109, 3.201345 ], [ 50.689256, 3.201648 ] ]">Mulhouse, boulevard de</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640Wpvzuo" role="publication:current"/>
@@ -16576,7 +16576,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640IPpOT2" role="publication:current"/>
@@ -16600,7 +16600,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor (1903-1983)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Sory, Kléber</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640vsV71B" role="publication:current"/>
@@ -16622,7 +16622,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie d'un défilé avec banderoles sur lesquelles sont inscrits « Méfions-nous des mouvements fascistes au masque républicain » et « Le parti socialiste contre les affameurs du peuple ! », datant du 14 juillet 1945. 1 photographie d'une foule face à l'Hôtel de Ville de Roubaix sur lequel est inscrit « Vive la république sociale », datant du 14 juillet 1945.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446403Xc0ez" role="publication:current"/>
@@ -16644,7 +16644,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie de la Grand'Place de Roubaix datant du 14 juillet 1945.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640CZA6il" role="publication:current"/>
@@ -16666,7 +16666,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie d'individus non identifiés à l'intérieur de l'Hôtel de Ville de Roubaix, datant du 14 juillet 1945. 1 photographie d'un défilé (une Marianne) devant l'Hôtel de Ville de Roubaix, datant du 14 juillet 1945.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -16794,7 +16794,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor (1903-1983)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
               </controlaccess>
               <daogrp>
@@ -17083,8 +17083,8 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;3 photographies de courées : fort Frasez, rue des Ogiers.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.7003834, 3.1688344 ]">Frasez, rue</geogname>
-                <geogname source="rue" coord="[ 50.687084, 3.1566169 ]">Ogiers, rue des</geogname>
+                <geogname source="rue" coord="[ [ 50.701187, 3.168019 ], [ 50.700386, 3.1688 ], [ 50.699703, 3.169465 ], [ 50.699598, 3.169515 ] ]">Frasez, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687076, 3.156614 ], [ 50.688108, 3.157818 ] ], [ [ 50.687853, 3.15839 ], [ 50.687929, 3.158289 ], [ 50.68809, 3.157937 ], [ 50.688115, 3.157816 ], [ 50.688255, 3.157278 ] ] ]">Ogiers, rue des</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Courées (Roubaix, Nord)</subject>
               </controlaccess>
               <daogrp>
@@ -17107,8 +17107,8 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 photographies de courées : rue Archimède et Alma gare.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6988899, 3.1691485 ]">Archimède, rue</geogname>
-                <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ 50.697739, 3.171625 ], [ 50.698259, 3.170423 ], [ 50.698692, 3.169407 ], [ 50.698824, 3.169206 ], [ 50.698883, 3.169154 ], [ 50.699117, 3.168927 ], [ 50.700033, 3.168107 ], [ 50.700644, 3.167562 ] ]">Archimède, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.697207, 3.165909 ], [ 50.696481, 3.165029 ], [ 50.696012, 3.164443 ], [ 50.695774, 3.164165 ], [ 50.695539, 3.164032 ], [ 50.695526, 3.163906 ], [ 50.69547, 3.163812 ], [ 50.695383, 3.163765 ], [ 50.695248, 3.163663 ], [ 50.694954, 3.163439 ], [ 50.694334, 3.163004 ], [ 50.694035, 3.162681 ], [ 50.693769, 3.162123 ], [ 50.693016, 3.161342 ] ], [ [ 50.697207, 3.165909 ], [ 50.69784, 3.166988 ], [ 50.698124, 3.167471 ], [ 50.698489, 3.168013 ], [ 50.698546, 3.168065 ], [ 50.698786, 3.168422 ], [ 50.699117, 3.168927 ], [ 50.699566, 3.169427 ], [ 50.699598, 3.169515 ], [ 50.700119, 3.170105 ], [ 50.700463, 3.170492 ], [ 50.701338, 3.171494 ], [ 50.702151, 3.172429 ] ] ]">Alma, rue de l\'</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Courées (Roubaix, Nord)</subject>
               </controlaccess>
               <daogrp>
@@ -17154,7 +17154,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;3 photographies de courées dont l'ilot Anseele et la rue de Lannoy en cours de destruction en 1962. 1 coupure de presse avec photographie de la cour ou naquit Jean Lebas.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
                 <geogname source="quartier" coord="[ [ 50.68561487037336, 3.176427102842095 ], [ 50.68733854619703, 3.180156631928429 ], [ 50.68775657502504, 3.181069212202035 ], [ 50.68854508431108, 3.182722297194385 ], [ 50.68906687012189, 3.183848541274204 ], [ 50.68938349027729, 3.184537680027141 ], [ 50.69040385172184, 3.186700784996512 ], [ 50.69194842078358, 3.185071029622803 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68750406599419, 3.174984193955031 ], [ 50.68713918001467, 3.17544490888863 ], [ 50.68603984448065, 3.17587760193396 ], [ 50.68587748955579, 3.176029225672839 ] ]">Anseele</geogname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Courées (Roubaix, Nord)</subject>
@@ -17204,7 +17204,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor (1903-1983)</persname>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446401EsC7s" role="publication:current"/>
@@ -17563,7 +17563,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Coecilia Roubaisienne (Roubaix, Nord)</corpname>
-                <geogname>Gare, rue de la</geogname>
+                <geogname source="rue">Gare, rue de la</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640y5XRoJ" role="publication:current"/>
@@ -17585,7 +17585,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 tract annonçant un grand concert au grand salon de l'Hôtel de Ville, le 22 octobre 1872.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
               </controlaccess>
               <daogrp>
@@ -18012,7 +18012,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 dessin de Jean Piat (d'après une photographie de la réception de Napoléon III en 1867) sur les types populaires à Roubaix à la fin du Second Empire. 1 photographie et son négatif de l'école des carmélites, rue Saint Antoine, par Jean Piat.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6964336, 3.1763059 ]">Saint-Antoine, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.694374, 3.177659 ], [ 50.694959, 3.177285 ], [ 50.696575, 3.176187 ], [ 50.697598, 3.175486 ], [ 50.698011, 3.174303 ] ]">Saint-Antoine, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -18035,7 +18035,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 photographies et négatifs de la banque de France, rue de Tourcoing, réalisés par Jean Piat.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.7031664, 3.1718189 ]">Tourcoing, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.699595, 3.174167 ], [ 50.699833, 3.173929 ], [ 50.7, 3.173822 ] ], [ [ 50.7, 3.173822 ], [ 50.700399, 3.173568 ], [ 50.700642, 3.173406 ] ], [ [ 50.702151, 3.172429 ], [ 50.702464, 3.17223 ], [ 50.703117, 3.171803 ], [ 50.703543, 3.171525 ], [ 50.704462, 3.17093 ], [ 50.705577, 3.17021 ] ], [ [ 50.705577, 3.17021 ], [ 50.705661, 3.170166 ], [ 50.705789, 3.170086 ], [ 50.705918, 3.170001 ], [ 50.705936, 3.169982 ] ] ]">Tourcoing, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -18358,10 +18358,10 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 photographies et négatifs de Jean Piat du Cercle Musical, rue du chemin de fer à Roubaix. 1 reproduction d'une photographie sur laquelle il y a une file d'attente à l'entrée de la salle Watremez. Notes manuscrites au dos de cette reproduction : Roubaix 1939-1945, les services de ravitaillement se trouvaient salle Watremez.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6944746, 3.1648702 ]">Chemin de fer, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.694954, 3.163439 ], [ 50.694591, 3.164224 ], [ 50.694546, 3.164349 ], [ 50.694454, 3.164861 ], [ 50.694277, 3.165858 ], [ 50.694165, 3.166526 ], [ 50.694255, 3.166739 ] ]">Chemin de fer, rue du</geogname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Cercle Musical (Roubaix, Nord)</corpname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Salle Watremez (Roubaix, Nord)</corpname>
-                <geogname source="rue" coord="[ 50.6921388, 3.1704496 ]">Hospice, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691398, 3.16992 ], [ 50.691478, 3.169939 ], [ 50.691932, 3.170262 ], [ 50.692345, 3.170565 ], [ 50.692508, 3.170686 ], [ 50.692597, 3.170782 ] ], [ [ 50.692597, 3.170782 ], [ 50.693192, 3.171219 ] ] ]">Hospice, rue de l\'</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1939-1945)</subject>
               </controlaccess>
               <daogrp>
@@ -18385,7 +18385,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Théâtre Deschamps (Roubaix, Nord)</corpname>
-                <geogname source="rue" coord="[ 50.6978067, 3.1716274 ]">Richard Lenoir, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.698838, 3.171825 ], [ 50.697739, 3.171625 ], [ 50.696817, 3.171465 ], [ 50.69676, 3.171367 ] ]">Richard Lenoir, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
               </controlaccess>
               <daogrp>
@@ -18516,7 +18516,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Condition publique (Roubaix, Nord)</corpname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6910317, 3.1888503 ]">Général Faidherbe, place du</geogname>
+                <geogname source="rue" coord="[ [ 50.691092, 3.188161 ], [ 50.691165, 3.188359 ], [ 50.691143, 3.188988 ] ]">Général Faidherbe, place du</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640HCexno" role="publication:current"/>
@@ -18563,7 +18563,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Institut Technique (Roubaix, Nord)</corpname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6962554, 3.1783729 ]">College, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.69483, 3.17922 ], [ 50.694298, 3.179447 ], [ 50.692736, 3.180182 ] ], [ [ 50.697192, 3.177812 ], [ 50.696232, 3.178408 ], [ 50.695662, 3.178759 ], [ 50.69483, 3.17922 ] ], [ [ 50.699341, 3.174704 ], [ 50.698609, 3.176915 ], [ 50.69856, 3.176961 ], [ 50.698045, 3.177288 ], [ 50.697192, 3.177812 ] ] ]">College, rue du</geogname>
                 <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Simons, Léopold (1901-1979)</persname>
               </controlaccess>
               <daogrp>
@@ -18633,7 +18633,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Liebknecht, Wilhelm (1826-1900)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -18702,9 +18702,9 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie et ses négatifs de la fédération des associations, rue d'Alsace à Roubaix. 1 menu du banquet du 17 février 1924 de la Fédération des Amicales Laïques de Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6988661, 3.1626108 ]">Alsace, rue d\'</geogname>
+                <geogname source="rue" coord="[ [ 50.698164, 3.163811 ], [ 50.698299, 3.163546 ], [ 50.699956, 3.161112 ], [ 50.700157, 3.161099 ] ]">Alsace, rue d\'</geogname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération des Amicales Laïques de Roubaix</corpname>
-                <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446402O9ORM" role="publication:current"/>
@@ -18727,7 +18727,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-                <geogname source="rue" coord="[ 50.703708, 3.184059 ]">Marseille, quai de</geogname>
+                <geogname source="rue" coord="[ [ 50.701285, 3.185708 ], [ 50.702342, 3.184949 ], [ 50.703714, 3.184055 ], [ 50.703805, 3.184111 ], [ 50.703999, 3.183984 ], [ 50.704579, 3.183438 ], [ 50.705224, 3.182635 ], [ 50.706042, 3.181276 ], [ 50.706213, 3.180883 ], [ 50.706372, 3.180518 ] ]">Marseille, quai de</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640GqYqnM" role="publication:current"/>
@@ -18857,7 +18857,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Maison Lemaire-Dillies (Roubaix, Nord)</corpname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
-                <geogname source="rue" coord="[ 50.688661, 3.180874 ]">Winston Churchill, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.689852, 3.179081 ], [ 50.689778, 3.179164 ], [ 50.68955, 3.179526 ], [ 50.689111, 3.179919 ], [ 50.688323, 3.18065 ], [ 50.688236, 3.180716 ], [ 50.688087, 3.180723 ], [ 50.688006, 3.180636 ], [ 50.687819, 3.180172 ], [ 50.687755, 3.180026 ], [ 50.687659, 3.179912 ] ]">Winston Churchill, rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640GzbY5Y" role="publication:current"/>
@@ -18973,7 +18973,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Canal</subject>
-                <geogname source="rue" coord="[ 50.7018077, 3.1798709 ]">Daubenton, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.699606, 3.175224 ], [ 50.700243, 3.176484 ], [ 50.700819, 3.177733 ], [ 50.701318, 3.178833 ], [ 50.701822, 3.179912 ], [ 50.702164, 3.180657 ], [ 50.702816, 3.182089 ], [ 50.703566, 3.183718 ] ]">Daubenton, rue</geogname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Dubois, Claire</persname>
               </controlaccess>
               <daogrp>
@@ -18996,7 +18996,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;7 cartes illustrant l'Hôtel de Ville de Roubaix réalisées par Abel Leblanc, dont une signée par Victor Provo.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor (1903-1983)</persname>
                 <persname role="peintre" source="thesaurus--SLASH--bnr_persname.xml">Leblanc, Abel (1919-....)</persname>
@@ -19138,7 +19138,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Floreal, l'hebdomadaire illustré du monde du travail (périodique)</corpname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640uAaTza" role="publication:current"/>
@@ -19160,9 +19160,9 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie de Guy Michel du beffroi de l'Hôtel de Ville de Roubaix. 1 photographie de l'église Notre-Dame à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6942566, 3.1728881 ]">Nations Unies, avenue des</geogname>
+                <geogname source="rue" coord="[ [ [ 50.693946, 3.173473 ], [ 50.69375, 3.173936 ], [ 50.693665, 3.174401 ], [ 50.693661, 3.174781 ], [ 50.693713, 3.175084 ], [ 50.694057, 3.176172 ], [ 50.694202, 3.176628 ], [ 50.694286, 3.176908 ], [ 50.69435, 3.177411 ], [ 50.694374, 3.177659 ], [ 50.694474, 3.178135 ], [ 50.69483, 3.17922 ], [ 50.694913, 3.179489 ], [ 50.695027, 3.179842 ], [ 50.695134, 3.180502 ], [ 50.695188, 3.181619 ], [ 50.695122, 3.18223 ], [ 50.694956, 3.182545 ], [ 50.69493, 3.182633 ], [ 50.694748, 3.182835 ], [ 50.694234, 3.183174 ], [ 50.693939, 3.183385 ], [ 50.693458, 3.183789 ], [ 50.693352, 3.183884 ], [ 50.692945, 3.184268 ], [ 50.69244, 3.184618 ] ], [ [ 50.694362, 3.172529 ], [ 50.693946, 3.173472 ] ], [ [ 50.698164, 3.163811 ], [ 50.6981, 3.163936 ], [ 50.697943, 3.164396 ], [ 50.69788, 3.164573 ], [ 50.697775, 3.16488 ], [ 50.697662, 3.165115 ], [ 50.697207, 3.165909 ], [ 50.697072, 3.166143 ], [ 50.696352, 3.167462 ], [ 50.695881, 3.168689 ], [ 50.6954, 3.169948 ], [ 50.694769, 3.171539 ], [ 50.694362, 3.172529 ] ] ]">Nations Unies, avenue des</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Michel, Guy (1936-2010)</persname>
               </controlaccess>
@@ -19186,7 +19186,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 photographies identiques de la fête de la Muse, boulevard Gambetta à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
               </controlaccess>
               <daogrp>
@@ -19280,7 +19280,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Pick, Jean-Louis</persname>
-                <geogname source="rue" coord="[ 50.6942566, 3.1728881 ]">Nations Unies, avenue des</geogname>
+                <geogname source="rue" coord="[ [ [ 50.693946, 3.173473 ], [ 50.69375, 3.173936 ], [ 50.693665, 3.174401 ], [ 50.693661, 3.174781 ], [ 50.693713, 3.175084 ], [ 50.694057, 3.176172 ], [ 50.694202, 3.176628 ], [ 50.694286, 3.176908 ], [ 50.69435, 3.177411 ], [ 50.694374, 3.177659 ], [ 50.694474, 3.178135 ], [ 50.69483, 3.17922 ], [ 50.694913, 3.179489 ], [ 50.695027, 3.179842 ], [ 50.695134, 3.180502 ], [ 50.695188, 3.181619 ], [ 50.695122, 3.18223 ], [ 50.694956, 3.182545 ], [ 50.69493, 3.182633 ], [ 50.694748, 3.182835 ], [ 50.694234, 3.183174 ], [ 50.693939, 3.183385 ], [ 50.693458, 3.183789 ], [ 50.693352, 3.183884 ], [ 50.692945, 3.184268 ], [ 50.69244, 3.184618 ] ], [ [ 50.694362, 3.172529 ], [ 50.693946, 3.173472 ] ], [ [ 50.698164, 3.163811 ], [ 50.6981, 3.163936 ], [ 50.697943, 3.164396 ], [ 50.69788, 3.164573 ], [ 50.697775, 3.16488 ], [ 50.697662, 3.165115 ], [ 50.697207, 3.165909 ], [ 50.697072, 3.166143 ], [ 50.696352, 3.167462 ], [ 50.695881, 3.168689 ], [ 50.6954, 3.169948 ], [ 50.694769, 3.171539 ], [ 50.694362, 3.172529 ] ] ]">Nations Unies, avenue des</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
               </controlaccess>
@@ -19388,7 +19388,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photocopie d'une affiche de l'exposition "La vie quotidienne des ouvriers du textile dans le Nord en 1900" : Lille, du 12 février au 10 juin 1979. 1 photocopie d'une carte postale de l'extérieur de l'usine Motte-Bossut et du boulevard Gambetta.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
               </controlaccess>
               <daogrp>
@@ -19413,7 +19413,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Partitions</subject>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Cercle de l'Industrie (Roubaix, Nord)</subject>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Jeux et concours</subject>
               </controlaccess>
               <daogrp>
@@ -19897,7 +19897,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Cercle de l'industrie (Roubaix, Nord)</corpname>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Jeux et concours</subject>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Correspondance</subject>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
@@ -19926,7 +19926,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Lille (Nord)</subject>
-                <geogname source="rue" coord="[ 50.702735, 3.1702236 ]">Jacquard, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.703117, 3.171803 ], [ 50.703629, 3.173734 ] ], [ [ 50.702717, 3.17028 ], [ 50.702619, 3.170128 ], [ 50.702306, 3.169647 ], [ 50.701911, 3.169036 ], [ 50.701613, 3.16858 ], [ 50.701299, 3.168099 ], [ 50.701187, 3.168019 ], [ 50.700644, 3.167562 ] ], [ [ 50.703117, 3.171803 ], [ 50.702717, 3.17028 ] ] ]">Jacquard, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Roussel, Ernest</persname>
                 <persname role="lithographe" source="thesaurus--SLASH--bnr_persname.xml">Boldoduc, Edouard</persname>
@@ -20012,7 +20012,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-                <geogname source="rue" coord="[ 50.6816792, 3.1854196 ]">Potennerie, rue de la</geogname>
+                <geogname source="rue" coord="[ [ [ 50.681553, 3.185797 ], [ 50.68131, 3.186444 ], [ 50.681133, 3.186943 ], [ 50.680877, 3.187653 ], [ 50.680696, 3.188146 ], [ 50.68053, 3.188601 ], [ 50.680166, 3.189605 ] ], [ [ 50.681553, 3.185797 ], [ 50.681791, 3.185124 ], [ 50.68235, 3.183565 ], [ 50.682492, 3.183162 ], [ 50.682631, 3.182782 ], [ 50.682866, 3.182128 ], [ 50.683125, 3.181404 ] ] ]">Potennerie, rue de la</geogname>
                 <persname role="dessinateur" source="thesaurus--SLASH--bnr_persname.xml">Piat, Jean (1911-2002)</persname>
               </controlaccess>
               <daogrp>
@@ -20105,7 +20105,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photocopie d'un plan de l'établissement de laine, rue Saint Antoine à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6964336, 3.1763059 ]">Saint-Antoine, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.694374, 3.177659 ], [ 50.694959, 3.177285 ], [ 50.696575, 3.176187 ], [ 50.697598, 3.175486 ], [ 50.698011, 3.174303 ] ]">Saint-Antoine, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
               </controlaccess>
               <daogrp>
@@ -20300,7 +20300,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Duburcq, Gaston</persname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6962554, 3.1783729 ]">College, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.69483, 3.17922 ], [ 50.694298, 3.179447 ], [ 50.692736, 3.180182 ] ], [ [ 50.697192, 3.177812 ], [ 50.696232, 3.178408 ], [ 50.695662, 3.178759 ], [ 50.69483, 3.17922 ] ], [ [ 50.699341, 3.174704 ], [ 50.698609, 3.176915 ], [ 50.69856, 3.176961 ], [ 50.698045, 3.177288 ], [ 50.697192, 3.177812 ] ] ]">College, rue du</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640r9P184" role="publication:current"/>
@@ -21064,7 +21064,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Verstraete, Charles (1924-....)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Verstraete, Henri</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Provo, Victor (1903-1983)</persname>
-                <geogname source="rue" coord="[ 50.7031664, 3.1718189 ]">Tourcoing, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.699595, 3.174167 ], [ 50.699833, 3.173929 ], [ 50.7, 3.173822 ] ], [ [ 50.7, 3.173822 ], [ 50.700399, 3.173568 ], [ 50.700642, 3.173406 ] ], [ [ 50.702151, 3.172429 ], [ 50.702464, 3.17223 ], [ 50.703117, 3.171803 ], [ 50.703543, 3.171525 ], [ 50.704462, 3.17093 ], [ 50.705577, 3.17021 ] ], [ [ 50.705577, 3.17021 ], [ 50.705661, 3.170166 ], [ 50.705789, 3.170086 ], [ 50.705918, 3.170001 ], [ 50.705936, 3.169982 ] ] ]">Tourcoing, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Vanderzyppe, P.</persname>
@@ -21093,7 +21093,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Verstraete, Charles (1924-....)</persname>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Ventura, Ray (1908-1979)</persname>
                 <geogname source="quartier" coord="[ [ 50.70656718032193, 3.171915662889459 ], [ 50.70678587403667, 3.171494794787695 ], [ 50.70730494364999, 3.170541221772304 ], [ 50.70765095210781, 3.169910212415647 ], [ 50.70771476146575, 3.169783915496594 ], [ 50.70776938309846, 3.169685772360534 ], [ 50.7078058314281, 3.169615625573175 ], [ 50.70788781366105, 3.169461332658334 ], [ 50.70853131044468, 3.168708067932296 ], [ 50.70854039604769, 3.168694068576886 ], [ 50.70852301553217, 3.168608828635077 ], [ 50.70847027676852, 3.16843803133872 ], [ 50.70842631527916, 3.168360168101307 ], [ 50.70795313930936, 3.168669283101528 ], [ 50.70721600108878, 3.169124052770183 ], [ 50.7062021341454, 3.169802276542126 ], [ 50.70556905769415, 3.170254645433345 ], [ 50.7044687299612, 3.170972807022609 ], [ 50.70397937252904, 3.171269775813008 ], [ 50.70355571047632, 3.171552570489587 ], [ 50.70312453654016, 3.171829709436788 ], [ 50.70215930610979, 3.172441009281731 ], [ 50.70117240091286, 3.173092632771438 ], [ 50.70049163673384, 3.173522917017334 ], [ 50.70035908269561, 3.173608323952361 ], [ 50.69984021830979, 3.173942635120342 ], [ 50.69920844373406, 3.174539205978833 ], [ 50.69932806641137, 3.174741168000441 ], [ 50.69961287213008, 3.175228652845089 ], [ 50.70024260625833, 3.176490369396818 ], [ 50.70082897018816, 3.177734576186047 ], [ 50.7013351053286, 3.178860342572451 ], [ 50.70182329560901, 3.179934729562123 ], [ 50.70216112958511, 3.180652802942828 ], [ 50.70282056563072, 3.182094211546052 ], [ 50.70364309911905, 3.183911133363542 ], [ 50.70417483399346, 3.183523745879145 ], [ 50.70460948103226, 3.18307845873136 ], [ 50.70511723808883, 3.182464586477828 ], [ 50.70540206470304, 3.182046205383516 ], [ 50.70573152184618, 3.181437542053157 ], [ 50.70615715491508, 3.180331262069745 ], [ 50.70621301895212, 3.180219429402808 ], [ 50.7062149889285, 3.180215485449038 ], [ 50.70634223277408, 3.180217727532595 ], [ 50.70646486270995, 3.180138088789871 ], [ 50.70655708595481, 3.179951574202666 ], [ 50.70660498982618, 3.179784827762465 ], [ 50.70660501868364, 3.179784728948011 ], [ 50.70717249945901, 3.179234386997841 ], [ 50.70709244908133, 3.179002903370038 ], [ 50.70719201792969, 3.178905563512489 ], [ 50.70720110649148, 3.178891567798591 ], [ 50.70737308027815, 3.178724717809843 ], [ 50.70742750950182, 3.17865489232232 ], [ 50.70754515488078, 3.178543711615267 ], [ 50.70754525506617, 3.178529556550723 ], [ 50.70755434268345, 3.178515560666876 ], [ 50.70755444286561, 3.178501405599578 ], [ 50.70755464412034, 3.178473096881373 ], [ 50.7075457559647, 3.178458784053368 ], [ 50.70751919345046, 3.1784016919619 ], [ 50.70751040634899, 3.178373225518003 ], [ 50.70744809256861, 3.17828719250442 ], [ 50.70740355420081, 3.178229783766858 ], [ 50.70738577872292, 3.178201159704784 ], [ 50.70737689053368, 3.178186846973187 ], [ 50.70736790309525, 3.178186689265071 ], [ 50.70735911504927, 3.178158220115254 ], [ 50.70735931622394, 3.178129912918997 ], [ 50.70735072932655, 3.178073136592476 ], [ 50.70734214150583, 3.17801636028211 ], [ 50.70734234265024, 3.177988051681822 ], [ 50.70733355455438, 3.177959585407529 ], [ 50.70734274312503, 3.177931434474088 ], [ 50.70734284324075, 3.177917279465465 ], [ 50.70734294335481, 3.17790312445668 ], [ 50.70736112024692, 3.177875132576045 ], [ 50.70737030790279, 3.177846980195317 ], [ 50.70737939634299, 3.177832984239668 ], [ 50.70737949644745, 3.177818829220501 ], [ 50.70737969664954, 3.177790520595148 ], [ 50.70737989684525, 3.177762211969464 ], [ 50.70737999783897, 3.177748056953194 ], [ 50.70738009793174, 3.17773390334684 ], [ 50.70738908537057, 3.17773406097373 ], [ 50.70739817379985, 3.177720063579325 ], [ 50.70741624876856, 3.177706223798653 ], [ 50.70746199021428, 3.177593778646473 ], [ 50.70748006695986, 3.177579940222172 ], [ 50.70752530616, 3.177538265871256 ], [ 50.70757014596371, 3.17755320891675 ], [ 50.70758822180451, 3.177539370444796 ], [ 50.70760649778057, 3.177497221795131 ], [ 50.7076244744452, 3.177497538385267 ], [ 50.70765163777661, 3.177469703777584 ], [ 50.70769677776754, 3.177442182884271 ], [ 50.70770576609982, 3.177442340463149 ], [ 50.70771485359457, 3.177428342924181 ], [ 50.70772394198297, 3.17741434679658 ], [ 50.70772404203973, 3.177400191679204 ], [ 50.70772414209289, 3.177386037975037 ], [ 50.70770676751617, 3.177300794995265 ], [ 50.70770696760224, 3.17727248476991 ], [ 50.70770786879911, 3.177145094408619 ], [ 50.70769908051711, 3.177116626661496 ], [ 50.70769029312383, 3.177088160340578 ], [ 50.70768150572587, 3.177059692616582 ], [ 50.70773723486085, 3.176805855376814 ], [ 50.70775581052146, 3.176721245191294 ], [ 50.70778547523169, 3.176339544416258 ], [ 50.7078043521398, 3.176212467142956 ], [ 50.70786057897222, 3.17588785395898 ], [ 50.70787925388009, 3.175789086647761 ], [ 50.70790761691989, 3.1755913959763 ], [ 50.70788994159344, 3.17554861598401 ], [ 50.70788115204904, 3.175520149823366 ], [ 50.7077580194816, 3.175135771349633 ], [ 50.70769630307944, 3.174964814079268 ], [ 50.70745862010583, 3.174252838937032 ], [ 50.7073354826457, 3.173868466811682 ], [ 50.70724749772884, 3.173597959721617 ], [ 50.70714173559715, 3.173298832809381 ], [ 50.7070714265285, 3.17307110615764 ], [ 50.70703597362839, 3.172999705748893 ], [ 50.70692072405558, 3.172771194894072 ], [ 50.70690304683543, 3.172728416734883 ], [ 50.70678739873497, 3.172556526559942 ], [ 50.70668044027232, 3.172427254105656 ], [ 50.70663599862876, 3.172355698045276 ], [ 50.70645793236242, 3.172111937967106 ] ]">Cul de Four</geogname>
-                <geogname source="rue" coord="[ 50.7031664, 3.1718189 ]">Tourcoing, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.699595, 3.174167 ], [ 50.699833, 3.173929 ], [ 50.7, 3.173822 ] ], [ [ 50.7, 3.173822 ], [ 50.700399, 3.173568 ], [ 50.700642, 3.173406 ] ], [ [ 50.702151, 3.172429 ], [ 50.702464, 3.17223 ], [ 50.703117, 3.171803 ], [ 50.703543, 3.171525 ], [ 50.704462, 3.17093 ], [ 50.705577, 3.17021 ] ], [ [ 50.705577, 3.17021 ], [ 50.705661, 3.170166 ], [ 50.705789, 3.170086 ], [ 50.705918, 3.170001 ], [ 50.705936, 3.169982 ] ] ]">Tourcoing, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Cinéma</subject>
               </controlaccess>
@@ -21266,7 +21266,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 photographies identiques avec notes manuscrites au dos : "104, rue de l'Alma. La brasserie sociale Henri Carrette".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.697837, 3.1669806 ]">Alma, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ [ 50.697207, 3.165909 ], [ 50.696481, 3.165029 ], [ 50.696012, 3.164443 ], [ 50.695774, 3.164165 ], [ 50.695539, 3.164032 ], [ 50.695526, 3.163906 ], [ 50.69547, 3.163812 ], [ 50.695383, 3.163765 ], [ 50.695248, 3.163663 ], [ 50.694954, 3.163439 ], [ 50.694334, 3.163004 ], [ 50.694035, 3.162681 ], [ 50.693769, 3.162123 ], [ 50.693016, 3.161342 ] ], [ [ 50.697207, 3.165909 ], [ 50.69784, 3.166988 ], [ 50.698124, 3.167471 ], [ 50.698489, 3.168013 ], [ 50.698546, 3.168065 ], [ 50.698786, 3.168422 ], [ 50.699117, 3.168927 ], [ 50.699566, 3.169427 ], [ 50.699598, 3.169515 ], [ 50.700119, 3.170105 ], [ 50.700463, 3.170492 ], [ 50.701338, 3.171494 ], [ 50.702151, 3.172429 ] ] ]">Alma, rue de l\'</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
               </controlaccess>
               <daogrp>
@@ -21502,7 +21502,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Prouvost, Amédée</persname>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640SEnJEJ" role="publication:current"/>
@@ -21571,7 +21571,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Bossut, Jean Baptiste (1790-1874)</persname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
               </controlaccess>
@@ -22425,7 +22425,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 dessin de l'église Saint-Martin.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
               </controlaccess>
               <daogrp>
@@ -22543,7 +22543,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 dessin représentant la mairie de Roubaix en 1812. Notes manuscrites.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -22636,7 +22636,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 dessin du Temple, rue de La Redoute. Notes manuscrites.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname>Redoute, rue de la</geogname>
+                <geogname source="rue">Redoute, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
               </controlaccess>
               <daogrp>
@@ -22683,7 +22683,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 coupure de presse illustrant la Grand'Place de Roubaix quasi déserte en juillet 1936, parue dans le Nord Eclair du 28 août 1976.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Nord Eclair (périodique)</corpname>
               </controlaccess>
               <daogrp>
@@ -22823,7 +22823,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photocopie d'un plan de bâtiment de Dewarles, rue de La Redoute.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname>Redoute, rue de la</geogname>
+                <geogname source="rue">Redoute, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -22870,7 +22870,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 coupure de presse avec une photo de marionnettes, de personnages du théâtre Louis Richard.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.690566, 3.174891 ], [ 50.689659, 3.175048 ] ], [ [ 50.689193, 3.175128 ], [ 50.689659, 3.175048 ] ] ]">Chateau, rue du</geogname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Théâtre de marionnettes (Roubaix, Nord)</corpname>
               </controlaccess>
               <daogrp>
@@ -22915,7 +22915,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;2 coupures de presse avec photos de la place Nadaud à Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname>Nadaud, place</geogname>
+                <geogname source="rue" coord="[ [ 50.694068, 3.187586 ], [ 50.694086, 3.18788 ] ]">Nadaud, place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
               </controlaccess>
               <daogrp>
@@ -23046,7 +23046,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Sculpture (Roubaix, Nord)</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
               </controlaccess>
               <daogrp>
@@ -24171,7 +24171,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Correspondance</subject>
-                <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.691768, 3.173345 ], [ 50.692247, 3.17299 ], [ 50.692398, 3.172922 ], [ 50.692783, 3.173198 ], [ 50.692895, 3.173382 ], [ 50.692959, 3.173567 ], [ 50.692991, 3.174098 ] ]">Vieil abreuvoir, rue du</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dD45cg" role="publication:current"/>
@@ -24301,8 +24301,8 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie et deux négatifs des numéros 3, 5 et 7, rue du général Sarrail. 1 photographie et deux négatifs de la porte de l'ancienne mairie, rue du Fort.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6915338, 3.1715781 ]">Général Sarrail, rue du</geogname>
-                <geogname source="rue" coord="[ 50.6971777, 3.1778664 ]">Fort, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691597, 3.172199 ], [ 50.691429, 3.170282 ], [ 50.691398, 3.16992 ] ], [ [ 50.691597, 3.172199 ], [ 50.691638, 3.172561 ], [ 50.691672, 3.17281 ], [ 50.691604, 3.173126 ] ] ]">Général Sarrail, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.697192, 3.177812 ], [ 50.697017, 3.177358 ], [ 50.696575, 3.176187 ] ]">Fort, rue du</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               </controlaccess>
               <daogrp>
@@ -24325,7 +24325,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 plan collé sur une feuille comportant des notes manuscrites et ayant pour titre : les métamorphoses de la place de la Liberté. &lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
               </controlaccess>
               <daogrp>
@@ -24416,8 +24416,8 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <p>&lt;p&gt;1 photographie de la ferme Cruque.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6771922, 3.1779897 ]">Travail, place du</geogname>
-                <geogname source="rue" coord="[ 50.6800121, 3.1749813 ]">Beaumont, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.677563, 3.17849 ], [ 50.677569, 3.177402 ] ]">Travail, place du</geogname>
+                <geogname source="rue" coord="[ [ 50.682223, 3.176099 ], [ 50.681638, 3.17556 ], [ 50.681059, 3.175319 ], [ 50.680265, 3.174985 ], [ 50.680017, 3.17498 ], [ 50.679627, 3.175081 ], [ 50.679286, 3.17531 ], [ 50.678995, 3.175678 ], [ 50.678416, 3.176661 ], [ 50.67797, 3.176942 ], [ 50.677801, 3.177321 ] ]">Beaumont, rue de</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640qrz0D6" role="publication:current"/>
@@ -24499,7 +24499,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <geogname source="quartier" coord="[ [ 50.6938834044699, 3.183455624673561 ], [ 50.69427305387669, 3.18315745594337 ], [ 50.69457530689792, 3.182974569869002 ], [ 50.69477418374475, 3.18283529032306 ], [ 50.69492808740947, 3.182643287441854 ], [ 50.69506165619431, 3.182411983343802 ], [ 50.69511758209863, 3.182254383782216 ], [ 50.69514862423249, 3.182133012131683 ], [ 50.69517377042924, 3.181985451212993 ], [ 50.69519183981384, 3.181806092213355 ], [ 50.69519028599134, 3.181624111932458 ], [ 50.69513081004252, 3.180510649030505 ], [ 50.69508741557217, 3.180146035708085 ], [ 50.69502319431064, 3.179837937548683 ], [ 50.69491621728599, 3.179500616277249 ], [ 50.69484165501802, 3.179249268409972 ], [ 50.69480040157988, 3.179110205068847 ], [ 50.69445374675765, 3.178063533569542 ], [ 50.69436233303633, 3.177667755390755 ], [ 50.6942148614387, 3.176800119325671 ], [ 50.69411454096654, 3.176365837468632 ], [ 50.69380510150517, 3.175425612206491 ], [ 50.69369276385683, 3.175019029831106 ], [ 50.69364839225037, 3.174608988739519 ], [ 50.69369899566686, 3.174135498256326 ], [ 50.69330531714797, 3.174139793698378 ], [ 50.69299858120009, 3.174179062156491 ], [ 50.69296674185266, 3.173666930615996 ], [ 50.69290648509359, 3.17341474231069 ], [ 50.69275758324554, 3.173165657469711 ], [ 50.69241652774024, 3.172936472283046 ], [ 50.69222115970341, 3.172993519086548 ], [ 50.69170424041786, 3.173407695280584 ], [ 50.69166518196878, 3.173081475574756 ], [ 50.69013066689788, 3.173547259363733 ], [ 50.68969845681023, 3.173676691372965 ], [ 50.68926332705088, 3.17381201298172 ], [ 50.68876471382303, 3.174077825184146 ], [ 50.68821376521539, 3.174371582034362 ], [ 50.68786704308644, 3.174652595752659 ], [ 50.68763792593472, 3.174885175810837 ], [ 50.68785672863798, 3.175274967383933 ], [ 50.68815403115033, 3.175842847461152 ], [ 50.68851958842811, 3.176783948321305 ], [ 50.6887940433916, 3.177239835820267 ], [ 50.68936810225617, 3.177519627815379 ], [ 50.68965868874491, 3.177551246858093 ], [ 50.68983448646279, 3.177569665585108 ], [ 50.69037930301536, 3.177807101045692 ], [ 50.69072175394295, 3.178254906689957 ], [ 50.69095675012879, 3.178858945896353 ], [ 50.6912171390939, 3.179630857132186 ], [ 50.69162385819683, 3.180875014462973 ], [ 50.69188777594555, 3.181731253580857 ], [ 50.69222603411654, 3.183541154134205 ], [ 50.69243625898734, 3.184618178642756 ], [ 50.69244198377907, 3.184650406780292 ], [ 50.69335652145724, 3.183920115076954 ] ]">Centre</geogname>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Drapeaux (Roubaix, Nord)</subject>
@@ -24777,7 +24777,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
                 <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Boldoduc, Edouard-Joseph (1823-18..?)</persname>
               </controlaccess>
@@ -24821,7 +24821,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
               </scopecontent>
               <controlaccess>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Le Journal de Roubaix (périodique)</corpname>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244640VYcrXS" role="publication:current"/>
@@ -25186,7 +25186,7 @@ Le Général Lepetit et le nouveau Bureau de l'Assemblée Nationale rendent homm
                 <persname source="thesaurus--SLASH--bnr_persname.xml">Derreumaux, Louis (1850-1907)</persname>
                 <corpname source="thesaurus--SLASH--bnr_corpname.xml">Derreumaux (famille)</corpname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Correspondance</subject>
-                <geogname>Chaptal, place</geogname>
+                <geogname source="rue" coord="[ [ 50.694781, 3.190967 ], [ 50.694783, 3.19133 ] ]">Chaptal, place</geogname>
                 <subject source="thesaurus--SLASH--bnr_rameau.xml">Cimetières (Roubaix, Nord)</subject>
               </controlaccess>
               <daogrp>

@@ -70,7 +70,7 @@
           </scopecontent>
           <controlaccess>
             <persname source="thesaurus--SLASH--bnr_persname.xml">Lebas, Jean-Baptiste (1878-1944)</persname>
-            <geogname source="rue">Champs, rue des</geogname>
+            <geogname source="rue" coord="[ [ 50.694079, 3.167181 ], [ 50.693245, 3.166846 ], [ 50.692582, 3.166583 ], [ 50.692457, 3.166535 ], [ 50.691734, 3.166242 ] ]">Champs, rue des</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Baert, Albert</persname>
           </controlaccess>
@@ -692,7 +692,7 @@ N° inventaire  : 20023910</physdesc>
             <p>En 1894 fut déposée une demande d'autorisation pour la construction d'un établissement de bains et d'une école de natation. Conçu par l'architecte Albert Bouvy, ce bâtiment fait partie de l'histoire roubaisienne. Durant les guerres 1914-1918 et 1939-1945, l'armée allemande d'occupation en fit une prison pour les otages et les résistants arrêtés. L'établissement fut démoli en 1966.</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue">Pierre Motte, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.690934, 3.176484 ], [ 50.690913, 3.176463 ], [ 50.690925, 3.176115 ], [ 50.690941, 3.175516 ], [ 50.690952, 3.175369 ] ], [ [ 50.690918, 3.176492 ], [ 50.690893, 3.177947 ] ] ]">Pierre Motte, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
             <subject source="thesaurus--SLASH--bnr_rameau.xml">Prisons</subject>
             <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
@@ -939,7 +939,7 @@ L'affiche qui a finalement été retenue est celle de H. Desbarbieux (n°988581)
           <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
           <genreform source="thesaurus--SLASH--bnr_genreform.xml">Images</genreform>
-          <geogname source="rue">Parc Barbieux</geogname>
+          <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Parc Barbieux</geogname>
         </controlaccess>
         <daogrp>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446418liTTP" role="publication:current"/>
@@ -1333,7 +1333,7 @@ Les frères Vaissier, savonniers de leur état et industriels roubaisiens avisé
             </scopecontent>
             <controlaccess>
               <corpname source="thesaurus--SLASH--bnr_corpname.xml">Condition Publique (Roubaix, Nord)</corpname>
-              <geogname source="rue" coord="[ 50.6909898, 3.1968434 ]">Beaurepaire, boulevard</geogname>
+              <geogname source="rue" coord="[ [ [ 50.691143, 3.188988 ], [ 50.691128, 3.189707 ], [ 50.691128, 3.189708 ], [ 50.691119, 3.190049 ], [ 50.691088, 3.191351 ], [ 50.691067, 3.192656 ], [ 50.691034, 3.19433 ], [ 50.690981, 3.196935 ], [ 50.690959, 3.198395 ], [ 50.690948, 3.198896 ], [ 50.690915, 3.200473 ], [ 50.690879, 3.20245 ], [ 50.69093, 3.202809 ], [ 50.691, 3.203052 ], [ 50.691001, 3.203058 ], [ 50.691382, 3.203808 ], [ 50.69151, 3.204219 ], [ 50.6915, 3.2045 ] ], [ [ 50.691641, 3.204867 ], [ 50.691641, 3.204867 ] ], [ [ 50.690851, 3.204031 ], [ 50.690843, 3.20452 ], [ 50.690824, 3.205648 ], [ 50.690916, 3.20584 ] ] ]">Beaurepaire, boulevard</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -1632,7 +1632,7 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
               <p>Ancien fonds de la ville de Roubaix, reversement au musée (Inv. 988-5-43)</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Courier, Josée</persname>
               <persname normal="D'hulst, Noël" role="artiste peintre" source="thesaurus--SLASH--bnr_persname.xml">Noël D'hulst</persname>
             </controlaccess>
@@ -1677,7 +1677,7 @@ Signé en bas à gauche : N. D'Hulst</physdesc>
               <p>&lt;p&gt;Legs Michel Delporte au musée de Roubaix en 2001.&lt;/p&gt;</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
               <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Roulland, Jean</persname>
             </controlaccess>
             <daogrp>
@@ -1710,7 +1710,7 @@ H. 45 ; L. 37 cm</physdesc>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Delporte, Michel</persname>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Leclercq, Pierre</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.tif" role="preservation:image"/>
@@ -1770,7 +1770,7 @@ Cette exposition s'est tenue dans le cadre de l'exposition annuelle dite du "Pet
               <p>Don Monsieur Pierre-André Copin en 2005</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+              <geogname source="rue" coord="[ [ 50.691768, 3.173345 ], [ 50.692247, 3.17299 ], [ 50.692398, 3.172922 ], [ 50.692783, 3.173198 ], [ 50.692895, 3.173382 ], [ 50.692959, 3.173567 ], [ 50.692991, 3.174098 ] ]">Vieil abreuvoir, rue du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg" role="preservation:image"/>
@@ -1800,7 +1800,7 @@ En octobre 1973, la galerie Dujardin déménage et ouvre ses portes au 39, rue d
               <p>Don Monsieur André-Pierre Copin en 2005</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+              <geogname source="rue" coord="[ [ 50.691768, 3.173345 ], [ 50.692247, 3.17299 ], [ 50.692398, 3.172922 ], [ 50.692783, 3.173198 ], [ 50.692895, 3.173382 ], [ 50.692959, 3.173567 ], [ 50.692991, 3.174098 ] ]">Vieil abreuvoir, rue du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg" role="preservation:image"/>
@@ -1845,7 +1845,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Chabanian, Arsène</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D01_001.jpg" role="access:image"/>
@@ -1870,7 +1870,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Masson, L.</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D02_001.jpg" role="access:image"/>
@@ -1896,7 +1896,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Davids, Renée</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D03_001.jpg" role="access:image"/>
@@ -1945,7 +1945,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">René, Jaudon</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -1974,7 +1974,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de Marius F. de Buzon qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2003,7 +2003,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de l'Abbé Calès qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2032,7 +2032,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de Désiré-Lucas qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2062,7 +2062,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </scopecontent>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Declercq, Eugène</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2091,7 +2091,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition d'un groupe "d'Artistes du Salon des Indépendants" qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2120,7 +2120,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Carton d'invitation à l'exposition de Pierre Montezin qui a lieu à la Galerie Dujardin située 14, boulevard de Paris.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Montezin, Pierre</persname>
             </controlaccess>
             <daogrp>
@@ -2162,7 +2162,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Ancien fonds du musée </p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2195,7 +2195,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </acqinfo>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Pailler, Henri</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2227,7 +2227,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Ancien fonds du musée</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2260,7 +2260,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
             </acqinfo>
             <controlaccess>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Neveux, Germaine</persname>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
             </controlaccess>
             <daogrp>
               <daodesc>
@@ -2296,7 +2296,7 @@ L'exposition se tient à la Galerie Dujardin située 14, boulevard de Paris à R
               <p>Ancien fonds du musée</p>
             </acqinfo>
             <controlaccess>
-              <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+              <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
               <persname source="thesaurus--SLASH--bnr_persname.xml">Foreau, Henri</persname>
             </controlaccess>
             <daogrp>

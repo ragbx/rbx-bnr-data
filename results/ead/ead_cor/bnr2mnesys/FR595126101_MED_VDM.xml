@@ -898,7 +898,7 @@ C'est une fresque imposante, d'un réalisme sobre et solide, débordante de coul
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Longues Haies, rue des</geogname>
-          <geogname source="rue">Fosse aux Chênes, place de la</geogname>
+          <geogname source="rue" coord="[ [ 50.699341, 3.174704 ], [ 50.699595, 3.174167 ] ]">Fosse aux Chênes, place de la</geogname>
           <corpname source="thesaurus--SLASH--bnr_corpname.xml">Cercle de l'Industrie (Roubaix, Nord)</corpname>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Grève</subject>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Textiles et tissus</subject>
@@ -1180,7 +1180,7 @@ Van der Meersch s'attache à décrire l'évolution psychologique de ce garçon d
         <controlaccess>
           <geogname>Roubaix</geogname>
           <geogname>Lille (Nord)</geogname>
-          <geogname source="rue">Epeule, rue de l'</geogname>
+          <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
           <geogname>Paris</geogname>
           <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
@@ -1441,7 +1441,7 @@ Van der Meersch a manqué d'une voix, en 1935, le prix Goncourt pour « Invasion
 Le titre inital du roman était "L'or dans la fournaise".</p>
         </scopecontent>
         <controlaccess>
-          <geogname source="rue">Epeule, rue de l'</geogname>
+          <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
           <geogname>Bondues (Nord)</geogname>
           <geogname>Lille (Nord)</geogname>
           <geogname>Belgique</geogname>
@@ -9879,7 +9879,7 @@ Souvenir d'enfance et gratitude de M. Van der Meersch envers ses maîtres. </p>
             <controlaccess>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
               <geogname>Roubaix</geogname>
-              <geogname source="rue">Barbe d'or, rue</geogname>
+              <geogname source="rue" coord="[ [ 50.702787, 3.170558 ], [ 50.703069, 3.170124 ], [ 50.703359, 3.169952 ] ]">Barbe d'or, rue</geogname>
               <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
             </controlaccess>
             <daogrp>
@@ -15971,7 +15971,7 @@ Lien entre la mort de M. Van der Meersch et le cartonisme.</p>
             <p>Rue de la Barbe d'or est l'ancien titre de "Le coeur pur".</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue">Barbe d'or, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.702787, 3.170558 ], [ 50.703069, 3.170124 ], [ 50.703359, 3.169952 ] ]">Barbe d'or, rue</geogname>
           </controlaccess>
           <daogrp>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244634RQr9Jf" role="publication:current"/>

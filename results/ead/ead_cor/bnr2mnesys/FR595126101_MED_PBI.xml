@@ -919,7 +919,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-                <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -4560,7 +4560,7 @@
                 <physdesc>&lt;p&gt;1 carte postale en couleurs représentant 2 vues du Parc Barbieux et 1 vue du tramway.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Floriscope</persname>
               </controlaccess>
               <daogrp>
@@ -4582,7 +4582,7 @@
                 <physdesc>&lt;p&gt;2 cartes postales en couleurs. 1 photographie en couleurs prise en décembre 2013.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Devemy, Luc</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Europ - Pierron</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">CAP</corpname>
@@ -4617,7 +4617,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 représente la Laiterie et date de 1914. la vue 3 représente des soldats allemands près du lac du Parc Barbieux. Les vues 9 à 10 date de décembre 2010.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
@@ -4669,7 +4669,7 @@
                 <p>&lt;p&gt;"Le Jeu de COurse des tout petits. - ROUBAIX, rue de la Sagesse."&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6899252, 3.1764635 ]">Sagesse, rue de la</geogname>
+                <geogname source="rue" coord="[ [ 50.689659, 3.175048 ], [ 50.689912, 3.176382 ], [ 50.690029, 3.177003 ] ]">Sagesse, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
               </controlaccess>
               <daogrp>
@@ -4694,7 +4694,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La première vue date de 2012 et une note manuscrite au dos précise : "ancienne demeure d'Emile ROussel / au [...] rue de Barbieux / 16 juin 2012 / rencontré Yves Roussel et Odile Chombart / descendants directs d'Emile Roussel." La deuxième date de février 2014.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6794298, 3.1691514 ]">Barbieux, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.683077, 3.17422 ], [ 50.683042, 3.174078 ], [ 50.682579, 3.173341 ], [ 50.682116, 3.172967 ], [ 50.681962, 3.172753 ], [ 50.681134, 3.170936 ], [ 50.680948, 3.170752 ], [ 50.680473, 3.170285 ], [ 50.680178, 3.169986 ], [ 50.680139, 3.169941 ], [ 50.679754, 3.169499 ], [ 50.678891, 3.168524 ], [ 50.678704, 3.16832 ], [ 50.678519, 3.168157 ], [ 50.677104, 3.167064 ], [ 50.676963, 3.166943 ], [ 50.676276, 3.166325 ], [ 50.676073, 3.166085 ], [ 50.675552, 3.165251 ] ]">Barbieux, rue de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -4716,7 +4716,7 @@
                 <physdesc>&lt;p style="text-align: justify;"&gt;1 photographie reproduisant une carte postale en noir et blanc conservée aux Archives. 3 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -4748,7 +4748,7 @@
                 <p>&lt;p&gt;La vue 1 date de 2011. La vue 2 date de 2015.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -4780,7 +4780,7 @@
                 <p>&lt;p&gt;Les vues 2 et 3 datent de 2013. Les vues 4 et 5 datent de 1993.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6909188, 3.1767203 ]">Pierre Motte, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.690934, 3.176484 ], [ 50.690913, 3.176463 ], [ 50.690925, 3.176115 ], [ 50.690941, 3.175516 ], [ 50.690952, 3.175369 ] ], [ [ 50.690918, 3.176492 ], [ 50.690893, 3.177947 ] ] ]">Pierre Motte, rue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname normal="Rucquois, Maurice" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
               </controlaccess>
@@ -4806,7 +4806,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 représente l'Ecole des Beaux-Arts, aujourd'hui l'ENSAIT. La vue 2 représente le Monument à Jules Guesde. Les vues 3 et 4 représentent le Monument aux Martyrs de la Résistance. La vue 5 représente la Chapellerie des Beaux-Arts.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.691604, 3.173126 ], [ 50.691662, 3.173059 ], [ 50.692597, 3.170782 ], [ 50.693204, 3.169297 ], [ 50.693691, 3.168116 ], [ 50.694074, 3.167178 ], [ 50.694317, 3.166587 ], [ 50.694533, 3.166063 ], [ 50.694841, 3.165306 ], [ 50.695084, 3.164743 ], [ 50.695302, 3.164196 ] ]">Jean Lebas, avenue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
@@ -4841,7 +4841,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;"Centre de Rééducation Professionnelle / "André Maginot" / 35, rue du Gal Sarrail ROUBAIX (Nord)".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6915338, 3.1715781 ]">Général Sarrail, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691597, 3.172199 ], [ 50.691429, 3.170282 ], [ 50.691398, 3.16992 ] ], [ [ 50.691597, 3.172199 ], [ 50.691638, 3.172561 ], [ 50.691672, 3.17281 ], [ 50.691604, 3.173126 ] ] ]">Général Sarrail, rue du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Maesen, Henry</persname>
               </controlaccess>
               <daogrp>
@@ -4866,11 +4866,11 @@
                 <p>&lt;p&gt;Le cachet de la poste de la vue 2 indique 1920.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-                <geogname source="rue" coord="[ 50.692974, 3.1741722 ]">Curé, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.692355, 3.17427 ], [ 50.692997, 3.174193 ], [ 50.693344, 3.174134 ], [ 50.693523, 3.174271 ], [ 50.693554, 3.174814 ], [ 50.693713, 3.175084 ] ], [ [ 50.693794, 3.173831 ], [ 50.693629, 3.173973 ], [ 50.693556, 3.174161 ], [ 50.693523, 3.174271 ] ] ]">Curé, rue du</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">CAP</corpname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Europe - Pierron</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Estel</corpname>
@@ -4910,7 +4910,7 @@
                 <p>&lt;p&gt;Il s'agit de l'intérieur de la Caisse d'Epargne de Roubaix.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6904853, 3.1740953 ]">Hotel de ville, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ 50.690429, 3.173458 ], [ 50.690566, 3.174891 ] ]">Hotel de ville, rue de l\'</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Shettle </persname>
               </controlaccess>
               <daogrp>
@@ -4935,7 +4935,7 @@
                 <p>&lt;p&gt;Elle représente les Bains Municipaux.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6927143, 3.1666447 ]">Champs, rue des</geogname>
+                <geogname source="rue" coord="[ [ 50.694079, 3.167181 ], [ 50.693245, 3.166846 ], [ 50.692582, 3.166583 ], [ 50.692457, 3.166535 ], [ 50.691734, 3.166242 ] ]">Champs, rue des</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Estel</corpname>
@@ -4959,7 +4959,7 @@
                 <physdesc>&lt;p&gt;1 carte postale en couleurs. 5 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6921871, 3.1730191 ]">Vieil abreuvoir, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.691768, 3.173345 ], [ 50.692247, 3.17299 ], [ 50.692398, 3.172922 ], [ 50.692783, 3.173198 ], [ 50.692895, 3.173382 ], [ 50.692959, 3.173567 ], [ 50.692991, 3.174098 ] ]">Vieil abreuvoir, rue du</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Europ - Pierron</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -4989,7 +4989,7 @@
                 <physdesc>&lt;p&gt;2 cartes postales en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6846788, 3.1689366 ]">Andre Chenier, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.683884, 3.167439 ], [ 50.684848, 3.169255 ], [ 50.685711, 3.16848 ] ]">Andre Chenier, avenue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
               </controlaccess>
               <daogrp>
@@ -5021,7 +5021,7 @@
                 <p>&lt;p&gt;La 4e et la 5e vues datent de 2005.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894042, 3.1737939 ]">Maréchal Foch, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.68895, 3.173927 ], [ 50.688765, 3.174078 ], [ 50.688156, 3.174411 ], [ 50.68788, 3.174601 ], [ 50.687638, 3.174916 ] ], [ [ 50.691604, 3.173126 ], [ 50.691535, 3.173152 ], [ 50.691257, 3.173223 ], [ 50.690429, 3.173458 ], [ 50.690131, 3.173547 ], [ 50.68895, 3.173927 ] ] ]">Maréchal Foch, rue du</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -5054,7 +5054,7 @@
                 <p>&lt;p&gt;Les 2 premières vues datent de 2015. La vue 3 date de 1990.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
@@ -5095,7 +5095,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6966455, 3.1679837 ]">Blanchemaille, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.694454, 3.164861 ], [ 50.694723, 3.165184 ], [ 50.694841, 3.165306 ], [ 50.695304, 3.165938 ], [ 50.695652, 3.166437 ], [ 50.696022, 3.166982 ], [ 50.696352, 3.167462 ], [ 50.696409, 3.167631 ], [ 50.696683, 3.168079 ], [ 50.696786, 3.168437 ], [ 50.696948, 3.169045 ], [ 50.697502, 3.169808 ], [ 50.697547, 3.169884 ], [ 50.698259, 3.170423 ], [ 50.698329, 3.170454 ], [ 50.698959, 3.170838 ] ]">Blanchemaille, rue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -5120,7 +5120,7 @@
                 <p>&lt;p&gt;La vue 8 date de 2003. La vue 9 et la vue 10 datent de 2015.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Europe - Pierron</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
@@ -5191,7 +5191,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6902183, 3.1714873 ]">Fabricants, rue des</geogname>
+                <geogname source="rue" coord="[ [ [ 50.690131, 3.173547 ], [ 50.690186, 3.172502 ] ], [ [ 50.690186, 3.172502 ], [ 50.69019, 3.172438 ], [ 50.690212, 3.171975 ], [ 50.690239, 3.171456 ], [ 50.690273, 3.170807 ], [ 50.690356, 3.169995 ], [ 50.690425, 3.169227 ] ] ]">Fabricants, rue des</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -5213,7 +5213,7 @@
                 <physdesc>&lt;p&gt;3 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6901009, 3.1769034 ]">Halle, rue de la</geogname>
+                <geogname source="rue" coord="[ [ 50.689861, 3.177308 ], [ 50.690028, 3.177004 ], [ 50.690029, 3.177003 ], [ 50.690933, 3.176483 ] ]">Halle, rue de la</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -5245,7 +5245,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Une note manuscrite au dos de la vue 7 précise : " Ex pâtisserie Montagne en 1958 / puis RA 1976 Pâtissier Tiberghien-Huysmans". Les vues 8 à 11 datent de 2015.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
@@ -5281,7 +5281,7 @@
                 <physdesc>&lt;p style="text-align: justify;"&gt;Une photographie argentique en noir et blanc, 10 x 15 cm. Deux cartes postales en noir et blanc, 9 x 14 cm. Cinq cartes postales en couleur, 10 x 15 cm. Une photographie en couleurs datant de 1999.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Prévost, Bernard</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Mage</corpname>
@@ -5314,7 +5314,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6752355, 3.1619113 ]">Le notre, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.68083, 3.166811 ], [ 50.680723, 3.166901 ], [ 50.680626, 3.167085 ], [ 50.680473, 3.167249 ], [ 50.680227, 3.167319 ], [ 50.679948, 3.1673 ], [ 50.679694, 3.167242 ], [ 50.679426, 3.167105 ], [ 50.67915, 3.166834 ], [ 50.678798, 3.166405 ], [ 50.678613, 3.166154 ], [ 50.678446, 3.165929 ], [ 50.678202, 3.165537 ], [ 50.677727, 3.164764 ], [ 50.677717, 3.164747 ], [ 50.67756, 3.164496 ], [ 50.677269, 3.16412 ], [ 50.677111, 3.163924 ], [ 50.676258, 3.163037 ], [ 50.675474, 3.162147 ], [ 50.675064, 3.16173 ], [ 50.673861, 3.160593 ], [ 50.673488, 3.160169 ], [ 50.671606, 3.157539 ], [ 50.671389, 3.157247 ], [ 50.67117, 3.156946 ], [ 50.67076, 3.156472 ], [ 50.67028, 3.155758 ], [ 50.669971, 3.155571 ] ]">Le notre, avenue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -5339,7 +5339,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Pour la vue 1, le logo de l'éditeur a été utilisé jusqu'en 1908 et la correspondance est datée de 1907. Le cachet de la poste apparaissant sur la vue 3 est daté de 1910.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.695386, 3.164246 ], [ 50.695365, 3.163726 ] ]">Gare, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
@@ -5378,7 +5378,7 @@
                 <p>&lt;p&gt;Le verso vert indique qu'il s'agit d'une réédition postérieure à 1913.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6898351, 3.1853235 ]">Belfort, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.688545, 3.182698 ], [ 50.688754, 3.183132 ], [ 50.68899, 3.183636 ], [ 50.68899, 3.183638 ], [ 50.689083, 3.183838 ], [ 50.689276, 3.184252 ], [ 50.689392, 3.1845 ], [ 50.689394, 3.184503 ], [ 50.690251, 3.186337 ], [ 50.690403, 3.186686 ], [ 50.691092, 3.188161 ] ]">Belfort, boulevard de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
@@ -5405,7 +5405,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Le cachet de la poste sur la première carte postale indique 1907. Une note manuscrite au dos de la deuxième carte postale précise : "d'après l'annuaire Havas de 1930 / A. LOUAGE-DUBRUNFAUT était / situé : 56-58 rue de Lille / Il était poëlier / la maison existe encore en 2019." La vue 4 date du 15 mai 2004 et une note manuscrite au dos précise : "Roubaix. Angle rue de Lille, rue du Maréchal Foch /  à proximité de la Station "Mongy". / fin du tournage d'un film [...] Il y avait / une baraque à frites des années 50, un tramway et / surtout l'acteur José Garcia qui signait des autographes. [...]".. La vue 5 date de mai 2015.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
@@ -5461,7 +5461,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Mage</corpname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">CAP</corpname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
@@ -5495,7 +5495,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Cailteux, Edmond - Lille</corpname>
               </controlaccess>
               <daogrp>
@@ -5524,7 +5524,7 @@
                 <physdesc>&lt;p&gt;Deux cartes postales en couleur, 10 x 15 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Mage</corpname>
               </controlaccess>
@@ -5558,7 +5558,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -5584,7 +5584,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Canal</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
@@ -5616,7 +5616,7 @@
                 <physdesc>&lt;p&gt;Deux cartes postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6901009, 3.1769034 ]">Halle, rue de la</geogname>
+                <geogname source="rue" coord="[ [ 50.689861, 3.177308 ], [ 50.690028, 3.177004 ], [ 50.690029, 3.177003 ], [ 50.690933, 3.176483 ] ]">Halle, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Laffineur-Samin, Hautmont</corpname>
               </controlaccess>
@@ -5646,7 +5646,7 @@
                 <physdesc>&lt;p&gt;Une carte postale colorisée, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6899649, 3.1750162 ]">Chateau, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.690566, 3.174891 ], [ 50.689659, 3.175048 ] ], [ [ 50.689193, 3.175128 ], [ 50.689659, 3.175048 ] ] ]">Chateau, rue du</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">C.S.</persname>
               </controlaccess>
               <daogrp>
@@ -5673,7 +5673,7 @@
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
-                <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.695386, 3.164246 ], [ 50.695365, 3.163726 ] ]">Gare, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Gorlier, Frères et Soeurs</persname>
@@ -5718,7 +5718,7 @@
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
-                <geogname source="rue" coord="[ 50.6794298, 3.1691514 ]">Barbieux, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.683077, 3.17422 ], [ 50.683042, 3.174078 ], [ 50.682579, 3.173341 ], [ 50.682116, 3.172967 ], [ 50.681962, 3.172753 ], [ 50.681134, 3.170936 ], [ 50.680948, 3.170752 ], [ 50.680473, 3.170285 ], [ 50.680178, 3.169986 ], [ 50.680139, 3.169941 ], [ 50.679754, 3.169499 ], [ 50.678891, 3.168524 ], [ 50.678704, 3.16832 ], [ 50.678519, 3.168157 ], [ 50.677104, 3.167064 ], [ 50.676963, 3.166943 ], [ 50.676276, 3.166325 ], [ 50.676073, 3.166085 ], [ 50.675552, 3.165251 ] ]">Barbieux, rue de</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -5743,7 +5743,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Pour la vue 1, le logo de l'éditeur a été utilisé de 1908 à 1913. La vue 2 représente "LESNA, gagnat de la course PARIS-ROUBAIX 1901-1902".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Bauchart, J.</persname>
@@ -5778,9 +5778,9 @@
                 <p>&lt;p&gt;Ce logo de l'éditeur Ernest Le Deley a été utilisé jusqu'en 1908.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname>Général de Gaulle, boulevard du</geogname>
-                <geogname>Jean Jaurès, avenue</geogname>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général de Gaulle, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ 50.68083, 3.166811 ], [ 50.680707, 3.165931 ], [ 50.680599, 3.165161 ], [ 50.680513, 3.164793 ], [ 50.680353, 3.16447 ], [ 50.679457, 3.163487 ], [ 50.677889, 3.161765 ], [ 50.675787, 3.159575 ], [ 50.674784, 3.158542 ], [ 50.672586, 3.156248 ], [ 50.672349, 3.155998 ], [ 50.671946, 3.155576 ], [ 50.67159, 3.15534 ], [ 50.671189, 3.15522 ], [ 50.670793, 3.155258 ], [ 50.670438, 3.155248 ], [ 50.67008, 3.155155 ], [ 50.669949, 3.155121 ] ]">Jean Jaurès, avenue</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">S.W.</corpname>
@@ -5830,7 +5830,7 @@
                 <p>&lt;p&gt;La vue 3 représente le "Service Hygiène d'Enlèvement de Chevaux Mort".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.69312, 3.160967 ], [ 50.693373, 3.160098 ], [ 50.693605, 3.159318 ], [ 50.693959, 3.158079 ], [ 50.694115, 3.157749 ], [ 50.694437, 3.157111 ], [ 50.694547, 3.156734 ], [ 50.694568, 3.156576 ], [ 50.694637, 3.15531 ] ]">Mouvaux, rue de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Planque, H.</persname>
                 <persname normal="Rucquois, Maurice" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Rucquois, Maurice</persname>
               </controlaccess>
@@ -5853,7 +5853,7 @@
                 <physdesc>&lt;p&gt;1 carte postale en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
               </controlaccess>
               <daogrp>
@@ -5875,7 +5875,7 @@
                 <physdesc>&lt;p&gt;2 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6901659, 3.1684697 ]">Trichon, place du</geogname>
+                <geogname source="rue" coord="[ [ 50.690045, 3.168786 ], [ 50.690047, 3.168193 ] ]">Trichon, place du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
               </controlaccess>
@@ -5901,7 +5901,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Une note manuscrite au dos précise : "Roubaix. 30 bd Montesquieu / Impasse Petit. / Mr PINTE (originaire des mines, / vit depuis 22 ans dans cette maison / qui possède la dernière porte à / double battant. Mr PINTE n'a / vsiblement pas froid car / nous sommes le 24 janviers 2001. / [...] / Cette porte en 2 parties permettait / de laisser entrer air et lumière sans / laisser sortir ni enfant, ni animal domestique / les "coupés en 2" voilà comment nos voisins / belges surnommaient les français en vouant / accoudés ainsi à la porte de leur maison.".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
+                <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -5949,7 +5949,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-                <geogname source="rue" coord="[ 50.6876054, 3.1640901 ]">Industrie, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ 50.685666, 3.168352 ], [ 50.686091, 3.167428 ], [ 50.686721, 3.166073 ], [ 50.68763, 3.164103 ], [ 50.687691, 3.164002 ], [ 50.688186, 3.162922 ], [ 50.68873, 3.161749 ], [ 50.689406, 3.160286 ] ]">Industrie, rue de l\'</geogname>
               </controlaccess>
               <daogrp>
                 <daodesc>
@@ -5977,7 +5977,7 @@
                 <physdesc>&lt;p&gt;Trois cartes postales en noir et blanc, 9 x 14 cm. Une photographie en couleur datée de 2015, 10 x 15 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6893549, 3.1601969 ]">Epeule, rue de l\'</geogname>
+                <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l\'</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">L.R.</persname>
@@ -6016,7 +6016,7 @@
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-                <geogname source="rue" coord="[ 50.6917351, 3.1661363 ]">Grand chemin, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.691398, 3.16992 ], [ 50.69133, 3.169057 ], [ 50.691334, 3.168847 ], [ 50.691595, 3.167123 ], [ 50.691729, 3.16624 ], [ 50.691977, 3.164643 ], [ 50.692198, 3.163109 ], [ 50.692562, 3.162365 ], [ 50.692862, 3.161773 ], [ 50.693016, 3.161342 ], [ 50.69312, 3.160967 ] ]">Grand chemin, rue du</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -6038,7 +6038,7 @@
                 <physdesc>&lt;p&gt;Deux cartes postales en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6917351, 3.1661363 ]">Grand chemin, rue du</geogname>
+                <geogname source="rue" coord="[ [ 50.691398, 3.16992 ], [ 50.69133, 3.169057 ], [ 50.691334, 3.168847 ], [ 50.691595, 3.167123 ], [ 50.691729, 3.16624 ], [ 50.691977, 3.164643 ], [ 50.692198, 3.163109 ], [ 50.692562, 3.162365 ], [ 50.692862, 3.161773 ], [ 50.693016, 3.161342 ], [ 50.69312, 3.160967 ] ]">Grand chemin, rue du</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Berthaud Frères - Paris</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">La Pensée</corpname>
               </controlaccess>
@@ -6068,7 +6068,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.687271, 3.1685279 ]">Soubise, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.686781, 3.168137 ], [ 50.686091, 3.167428 ] ], [ [ 50.686091, 3.167428 ], [ 50.684925, 3.166237 ], [ 50.684849, 3.166101 ] ], [ [ 50.686781, 3.168137 ], [ 50.687397, 3.168628 ], [ 50.687818, 3.168967 ] ], [ [ 50.687818, 3.168967 ], [ 50.689423, 3.170136 ] ] ]">Soubise, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Cailteux, Edmond - Lille</corpname>
               </controlaccess>
@@ -6094,7 +6094,7 @@
                 <p>&lt;p&gt;Ce logo de l'éditeur a été utilisé jusqu'en 1908.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.7020227, 3.1608479 ]">République, boulevard de la</geogname>
+                <geogname source="rue" coord="[ [ 50.700157, 3.161099 ], [ 50.702062, 3.160785 ], [ 50.702864, 3.160656 ], [ 50.703491, 3.160554 ] ]">République, boulevard de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
@@ -6122,7 +6122,7 @@
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-                <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.69312, 3.160967 ], [ 50.693373, 3.160098 ], [ 50.693605, 3.159318 ], [ 50.693959, 3.158079 ], [ 50.694115, 3.157749 ], [ 50.694437, 3.157111 ], [ 50.694547, 3.156734 ], [ 50.694568, 3.156576 ], [ 50.694637, 3.15531 ] ]">Mouvaux, rue de</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -6144,7 +6144,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6988661, 3.1626108 ]">Alsace, rue d\'</geogname>
+                <geogname source="rue" coord="[ [ 50.698164, 3.163811 ], [ 50.698299, 3.163546 ], [ 50.699956, 3.161112 ], [ 50.700157, 3.161099 ] ]">Alsace, rue d\'</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Laffineur-Samin, Hautmont</corpname>
               </controlaccess>
               <daogrp>
@@ -6176,7 +6176,7 @@
                 <physdesc>&lt;p&gt;3 cartes postales en couleurs. 2 cartes postales en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">La Cigogne - Lille</corpname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
               </controlaccess>
@@ -6206,7 +6206,7 @@
                 <physdesc>&lt;p&gt;2 cartes postales en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Lapie</persname>
               </controlaccess>
               <daogrp>
@@ -6263,7 +6263,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Laffineur-Samin, Hautmont</corpname>
               </controlaccess>
               <daogrp>
@@ -6354,7 +6354,7 @@
                 <physdesc>&lt;p&gt;1 photographie en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_ROU_EVE_003_01.tif" role="preservation:image"/>
@@ -6669,7 +6669,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -6726,7 +6726,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Elles présentent Dominique Baert, député et maire de Wattrelos, René Vandierendonck, maire de Roubaix et Rémy Pautrat, préfet du Nord devant l'ex Usine Roussel.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6889646, 3.1641144 ]">Arts, rue des</geogname>
+                <geogname source="rue" coord="[ [ 50.686066, 3.169457 ], [ 50.686781, 3.168137 ], [ 50.686928, 3.167868 ], [ 50.687527, 3.166752 ], [ 50.688245, 3.165457 ], [ 50.688634, 3.164732 ], [ 50.688903, 3.164231 ], [ 50.689054, 3.163955 ], [ 50.689274, 3.163554 ], [ 50.689764, 3.162638 ], [ 50.69029, 3.161721 ], [ 50.690557, 3.161237 ], [ 50.691091, 3.16025 ], [ 50.691493, 3.159514 ], [ 50.691532, 3.159442 ], [ 50.691651, 3.159233 ] ]">Arts, rue des</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -6758,7 +6758,7 @@
                 <p>&lt;p&gt;Les vues 1 et 2 datent de 2005. La vue 3 date de 2000.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -6790,8 +6790,8 @@
                 <p>&lt;p style="text-align: justify;"&gt;Une note manuscrite au dos précise : "Roubaix. le boulevard de Cambrai / la journée sans voitures et de l'Environnement. / "L'entre deux Parcs". association des bd de Cambrai / et Montesquieu. 22 sept 2002.".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6824949, 3.1656437 ]">Cambai, boulevard de</geogname>
-                <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
+                <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.683591, 3.163435 ], [ 50.683231, 3.164178 ], [ 50.682504, 3.165654 ], [ 50.682401, 3.165871 ], [ 50.681414, 3.167871 ] ]">Cambai, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -6842,7 +6842,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -6865,7 +6865,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -6917,7 +6917,7 @@
                 <physdesc>&lt;p&gt;3 photographies.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.703708, 3.184059 ]">Marseille, quai de</geogname>
+                <geogname source="rue" coord="[ [ 50.701285, 3.185708 ], [ 50.702342, 3.184949 ], [ 50.703714, 3.184055 ], [ 50.703805, 3.184111 ], [ 50.703999, 3.183984 ], [ 50.704579, 3.183438 ], [ 50.705224, 3.182635 ], [ 50.706042, 3.181276 ], [ 50.706213, 3.180883 ], [ 50.706372, 3.180518 ] ]">Marseille, quai de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -6947,7 +6947,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -6969,7 +6969,7 @@
                 <physdesc>&lt;p&gt;Trois cartes postales en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Houben, F.</persname>
               </controlaccess>
               <daogrp>
@@ -7023,7 +7023,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 3 date de 1990. Le photographe de la vue 4 est Jean-Luc Bayeux. La vue 5 date de 2005. La vue 6 date de 2010.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
@@ -7077,7 +7077,7 @@
                 <p>&lt;p&gt;"Architectes : M. Bourget et Lecroart". Le HLM est construit en 1957 et détruit en 2003.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6742778, 3.1806071 ]">Henri Regnault, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.671195, 3.183139 ], [ 50.671509, 3.182845 ], [ 50.672639, 3.181923 ], [ 50.673227, 3.181438 ], [ 50.673791, 3.180987 ] ], [ [ 50.673791, 3.180987 ], [ 50.674272, 3.180599 ], [ 50.675564, 3.179546 ], [ 50.67619, 3.179032 ], [ 50.677212, 3.178209 ] ] ]">Henri Regnault, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Estel</corpname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
@@ -7123,7 +7123,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
-                <geogname source="rue" coord="[ 50.673745, 3.1932704 ]">Alfred Motte, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.66998, 3.187094 ], [ 50.67067, 3.188187 ], [ 50.6715, 3.189502 ], [ 50.671883, 3.190107 ], [ 50.672211, 3.190622 ], [ 50.672393, 3.19092 ], [ 50.67257, 3.191202 ], [ 50.672882, 3.19169 ], [ 50.673112, 3.192066 ], [ 50.673464, 3.19262 ], [ 50.673805, 3.193167 ], [ 50.674487, 3.194267 ], [ 50.675347, 3.195634 ], [ 50.675745, 3.196263 ], [ 50.676634, 3.197668 ], [ 50.677505, 3.199054 ] ]">Alfred Motte, avenue</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Charier, Emile</persname>
               </controlaccess>
               <daogrp>
@@ -7152,7 +7152,7 @@
                 <physdesc>&lt;p&gt;3 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.673745, 3.1932704 ]">Alfred Motte, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.66998, 3.187094 ], [ 50.67067, 3.188187 ], [ 50.6715, 3.189502 ], [ 50.671883, 3.190107 ], [ 50.672211, 3.190622 ], [ 50.672393, 3.19092 ], [ 50.67257, 3.191202 ], [ 50.672882, 3.19169 ], [ 50.673112, 3.192066 ], [ 50.673464, 3.19262 ], [ 50.673805, 3.193167 ], [ 50.674487, 3.194267 ], [ 50.675347, 3.195634 ], [ 50.675745, 3.196263 ], [ 50.676634, 3.197668 ], [ 50.677505, 3.199054 ] ]">Alfred Motte, avenue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -7182,7 +7182,7 @@
                 <physdesc>&lt;p&gt;2 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6732289, 3.1887184 ]">Jean Honoré Fragonard, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.674392, 3.186484 ], [ 50.674091, 3.18707 ], [ 50.673646, 3.187921 ], [ 50.673198, 3.188746 ], [ 50.672766, 3.189573 ], [ 50.672211, 3.190622 ] ]">Jean Honoré Fragonard, rue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -7214,7 +7214,7 @@
                 <p>&lt;p&gt;Avenue Alfred Motte - Cité du C.I.L.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.673745, 3.1932704 ]">Alfred Motte, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.66998, 3.187094 ], [ 50.67067, 3.188187 ], [ 50.6715, 3.189502 ], [ 50.671883, 3.190107 ], [ 50.672211, 3.190622 ], [ 50.672393, 3.19092 ], [ 50.67257, 3.191202 ], [ 50.672882, 3.19169 ], [ 50.673112, 3.192066 ], [ 50.673464, 3.19262 ], [ 50.673805, 3.193167 ], [ 50.674487, 3.194267 ], [ 50.675347, 3.195634 ], [ 50.675745, 3.196263 ], [ 50.676634, 3.197668 ], [ 50.677505, 3.199054 ] ]">Alfred Motte, avenue</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
               </controlaccess>
               <daogrp>
@@ -7265,7 +7265,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
-                <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
               </controlaccess>
               <daogrp>
@@ -7303,7 +7303,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;"Agence Générale de Transports / Transports Internationaux / Emballages / Joseph Ruffelet &amp; Co / Roubaix : 9, rue Isabeau. [...]".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6963433, 3.1652726 ]">Isabeau de roubaix, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.695652, 3.166437 ], [ 50.696481, 3.165029 ], [ 50.696673, 3.164682 ] ]">Isabeau de roubaix, rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_ROU_OBJ_001_01.tif" role="preservation:image"/>
@@ -7459,7 +7459,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Les vues ont été prises à l'occasion de la Braderie d'Amiens en avril 2011 et concernent les commerces ou produits suivants : Marga, Laines du Chat Botté, Picardy, Le Mandarin, Laines Welcome - Moro, Raffigaz, Cigarettes Nationales, Totaliment, Grande Brasserie Moderne, Bières Sapelier, Laines du Pingouin. La vue 4 a été prise au musée de Wattrelos.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6881027, 3.1603991 ]">Amiens, place d\'</geogname>
+                <geogname source="rue" coord="[ [ 50.688165, 3.160897 ], [ 50.688166, 3.160387 ], [ 50.687834, 3.160416 ] ]">Amiens, place d\'</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -7552,7 +7552,7 @@
                 <physdesc>&lt;p&gt;Buvard publicitaire, 13.5 x 11 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.686828, 3.1979446 ]">Beaumarchais, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.68697, 3.196991 ], [ 50.686607, 3.199084 ] ]">Beaumarchais, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
               </controlaccess>
               <daogrp>
@@ -7574,7 +7574,7 @@
                 <physdesc>&lt;p&gt;Une carte de visite pour une galerie d'art et d'antiquités, 10.5 x 7.5 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
               </controlaccess>
               <daogrp>
@@ -7634,7 +7634,7 @@
                 <physdesc>&lt;p&gt;1 carte postale en couleurs. 1 carte psotale en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6872542, 3.1956988 ]">Bourdaloue, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.68677, 3.194297 ], [ 50.686858, 3.194563 ], [ 50.686934, 3.194794 ], [ 50.687012, 3.195033 ], [ 50.687393, 3.19625 ], [ 50.687394, 3.19625 ] ], [ [ 50.687394, 3.19625 ], [ 50.687555, 3.196726 ] ] ]">Bourdaloue, rue</geogname>
                 <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Studio Francis</corpname>
               </controlaccess>
               <daogrp>
@@ -7663,7 +7663,7 @@
                 <physdesc>&lt;p&gt;1 carte postale en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6797125, 3.206107 ]">Maxence Van Der Meersch, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.681056, 3.204705 ], [ 50.679578, 3.206307 ], [ 50.678496, 3.207498 ] ]">Maxence Van Der Meersch, avenue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Phot'R</persname>
               </controlaccess>
@@ -7689,7 +7689,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Sur la permière carte postale, le logo de l'éditeur a été utilisé entre 1908 et 1913. Le deuxième visuel représente le centre commercial Roubaix 2000. La vue 10 représente la mercerie Demeyere.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
@@ -7729,7 +7729,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-                <geogname source="rue" coord="[ 50.6891549, 3.1968743 ]">Pile, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688158, 3.19315 ], [ 50.688552, 3.194204 ], [ 50.68898, 3.195185 ] ], [ [ 50.68922, 3.196515 ], [ 50.689141, 3.195817 ], [ 50.689071, 3.19548 ], [ 50.68898, 3.195185 ] ], [ [ 50.68922, 3.196515 ], [ 50.689283, 3.197024 ], [ 50.689331, 3.197409 ], [ 50.689495, 3.197944 ], [ 50.689573, 3.198193 ], [ 50.689945, 3.199408 ], [ 50.690094, 3.199933 ], [ 50.690358, 3.200783 ] ] ]">Pile, rue du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -7751,7 +7751,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -7775,7 +7775,7 @@
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-                <geogname source="rue" coord="[ 50.6831468, 3.1973835 ]">Julien Lagache, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.681918, 3.194061 ], [ 50.682306, 3.195064 ], [ 50.683137, 3.197239 ], [ 50.683171, 3.197328 ], [ 50.683566, 3.198353 ], [ 50.683798, 3.198959 ], [ 50.684355, 3.200419 ], [ 50.684616, 3.201121 ] ]">Julien Lagache, avenue</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
               </controlaccess>
               <daogrp>
@@ -7830,7 +7830,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-                <geogname source="rue" coord="[ 50.6831468, 3.1973835 ]">Julien Lagache, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.681918, 3.194061 ], [ 50.682306, 3.195064 ], [ 50.683137, 3.197239 ], [ 50.683171, 3.197328 ], [ 50.683566, 3.198353 ], [ 50.683798, 3.198959 ], [ 50.684355, 3.200419 ], [ 50.684616, 3.201121 ] ]">Julien Lagache, avenue</geogname>
               </controlaccess>
               <daogrp>
                 <daodesc>
@@ -7858,7 +7858,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.687816, 3.1893295 ]">Pierre de Roubaix, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.685952, 3.191298 ], [ 50.685226, 3.192045 ], [ 50.684636, 3.192654 ], [ 50.683599, 3.19372 ], [ 50.683257, 3.194084 ], [ 50.682826, 3.194525 ], [ 50.682306, 3.195064 ] ], [ [ 50.689818, 3.187321 ], [ 50.689267, 3.187875 ], [ 50.688714, 3.188448 ], [ 50.688283, 3.188893 ], [ 50.687832, 3.189362 ], [ 50.686857, 3.190351 ], [ 50.685952, 3.191298 ] ], [ [ 50.689818, 3.187321 ], [ 50.689818, 3.187321 ] ], [ [ 50.69244, 3.184618 ], [ 50.692207, 3.184759 ], [ 50.691951, 3.184977 ], [ 50.691157, 3.185813 ], [ 50.690394, 3.186667 ], [ 50.690114, 3.18698 ], [ 50.689818, 3.187321 ] ] ]">Pierre de Roubaix, rue</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
               </controlaccess>
               <daogrp>
@@ -7883,7 +7883,7 @@
                 <p>&lt;p&gt;Le verso vert indique qu'il s'agit d'une réédition postérieure à 1913.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6909898, 3.1968434 ]">Beaurepaire, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691143, 3.188988 ], [ 50.691128, 3.189707 ], [ 50.691128, 3.189708 ], [ 50.691119, 3.190049 ], [ 50.691088, 3.191351 ], [ 50.691067, 3.192656 ], [ 50.691034, 3.19433 ], [ 50.690981, 3.196935 ], [ 50.690959, 3.198395 ], [ 50.690948, 3.198896 ], [ 50.690915, 3.200473 ], [ 50.690879, 3.20245 ], [ 50.69093, 3.202809 ], [ 50.691, 3.203052 ], [ 50.691001, 3.203058 ], [ 50.691382, 3.203808 ], [ 50.69151, 3.204219 ], [ 50.6915, 3.2045 ] ], [ [ 50.691641, 3.204867 ], [ 50.691641, 3.204867 ] ], [ [ 50.690851, 3.204031 ], [ 50.690843, 3.20452 ], [ 50.690824, 3.205648 ], [ 50.690916, 3.20584 ] ] ]">Beaurepaire, boulevard</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
@@ -7937,7 +7937,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.693131, 3.196838 ]">Wattrelos, quai de</geogname>
+                <geogname source="rue" coord="[ [ 50.692892, 3.191582 ], [ 50.692777, 3.191885 ], [ 50.692745, 3.192175 ], [ 50.692749, 3.192414 ], [ 50.692721, 3.193204 ], [ 50.692741, 3.193748 ], [ 50.692773, 3.194177 ], [ 50.692892, 3.195078 ], [ 50.692936, 3.195608 ], [ 50.692957, 3.195828 ], [ 50.693078, 3.196577 ], [ 50.69318, 3.197128 ], [ 50.693468, 3.198968 ], [ 50.693789, 3.201069 ], [ 50.693771, 3.201161 ], [ 50.693805, 3.201465 ], [ 50.693834, 3.201682 ], [ 50.693834, 3.20205 ], [ 50.693747, 3.20259 ], [ 50.693642, 3.202932 ], [ 50.693406, 3.203397 ], [ 50.693039, 3.203901 ], [ 50.6927, 3.204315 ], [ 50.692055, 3.205112 ], [ 50.691637, 3.205681 ], [ 50.691357, 3.206388 ], [ 50.691251, 3.207068 ] ]">Wattrelos, quai de</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Grand Bazar</corpname>
               </controlaccess>
               <daogrp>
@@ -7959,7 +7959,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.692916, 3.1978111 ]">Sartel, quai du</geogname>
+                <geogname source="rue" coord="[ [ 50.692872, 3.190682 ], [ 50.692481, 3.190939 ], [ 50.692441, 3.191386 ], [ 50.692442, 3.19152 ], [ 50.692328, 3.192712 ], [ 50.69232, 3.193223 ], [ 50.692323, 3.193778 ], [ 50.692378, 3.194247 ], [ 50.692649, 3.196098 ], [ 50.692756, 3.196805 ], [ 50.693198, 3.19954 ], [ 50.693405, 3.200825 ], [ 50.69361, 3.201317 ], [ 50.693641, 3.201624 ], [ 50.693621, 3.201763 ], [ 50.693568, 3.202155 ], [ 50.693478, 3.20249 ], [ 50.693313, 3.202931 ], [ 50.69315, 3.203233 ], [ 50.692882, 3.203604 ], [ 50.692073, 3.204635 ], [ 50.691919, 3.204846 ], [ 50.691491, 3.205414 ], [ 50.691307, 3.205829 ], [ 50.691244, 3.206088 ], [ 50.691193, 3.206304 ], [ 50.691121, 3.206915 ] ]">Sartel, quai du</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Lévy et Fils</corpname>
               </controlaccess>
               <daogrp>
@@ -8004,7 +8004,7 @@
                 <physdesc>&lt;p&gt;Deux cartes postales en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6829972, 3.1929896 ]">Lannoy, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.688545, 3.182698 ], [ 50.688604, 3.182408 ], [ 50.688662, 3.18203 ], [ 50.688704, 3.181814 ], [ 50.688768, 3.181674 ], [ 50.688918, 3.181467 ], [ 50.689175, 3.181141 ], [ 50.689247, 3.180925 ], [ 50.689321, 3.180808 ], [ 50.689614, 3.180442 ], [ 50.689805, 3.180218 ], [ 50.68991, 3.180074 ], [ 50.68991, 3.179974 ], [ 50.689802, 3.179688 ], [ 50.68976, 3.179618 ], [ 50.68955, 3.179526 ] ], [ [ 50.688545, 3.182698 ], [ 50.687781, 3.183718 ], [ 50.68744, 3.184152 ], [ 50.686825, 3.185442 ], [ 50.68616, 3.186851 ], [ 50.686087, 3.186979 ], [ 50.685698, 3.187622 ], [ 50.685352, 3.188248 ], [ 50.68484, 3.189104 ], [ 50.684672, 3.189439 ], [ 50.684481, 3.189842 ], [ 50.684322, 3.190195 ], [ 50.684262, 3.190324 ], [ 50.684094, 3.190699 ], [ 50.683955, 3.191002 ], [ 50.683862, 3.191256 ], [ 50.683586, 3.191981 ], [ 50.683378, 3.192549 ], [ 50.683078, 3.192935 ], [ 50.682808, 3.193196 ], [ 50.682254, 3.193714 ], [ 50.681918, 3.194061 ], [ 50.681653, 3.194324 ], [ 50.681234, 3.194738 ], [ 50.679796, 3.196127 ], [ 50.678832, 3.197077 ], [ 50.67862, 3.197282 ], [ 50.677505, 3.199054 ], [ 50.677495, 3.19907 ], [ 50.67686, 3.200082 ], [ 50.676133, 3.201233 ], [ 50.676044, 3.20138 ], [ 50.675346, 3.202484 ] ] ]">Lannoy, rue de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Pollet, Lucien</persname>
               </controlaccess>
@@ -8034,7 +8034,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_ROU_EST_017_01.tif" role="preservation:image"/>
@@ -8300,7 +8300,7 @@
                 <p>&lt;p&gt;"Monastère de la Visitation / ROUBAIX (Nord) /  [...] Les Moniales au travail".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6973781, 3.1860411 ]">Strasbourg, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.694242, 3.187905 ], [ 50.694715, 3.187631 ], [ 50.695623, 3.18712 ], [ 50.695769, 3.18704 ], [ 50.696438, 3.186658 ], [ 50.697023, 3.186323 ], [ 50.697423, 3.186094 ], [ 50.697552, 3.186022 ], [ 50.6986, 3.185415 ], [ 50.699146, 3.185098 ], [ 50.699482, 3.18491 ], [ 50.700175, 3.184513 ], [ 50.700908, 3.184105 ] ]">Strasbourg, boulevard de</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
               </controlaccess>
               <daogrp>
@@ -8376,8 +8376,8 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6942566, 3.1728881 ]">Nations Unies, avenue des</geogname>
-                <geogname source="rue" coord="[ 50.6988661, 3.1626108 ]">Alsace, rue d\'</geogname>
+                <geogname source="rue" coord="[ [ [ 50.693946, 3.173473 ], [ 50.69375, 3.173936 ], [ 50.693665, 3.174401 ], [ 50.693661, 3.174781 ], [ 50.693713, 3.175084 ], [ 50.694057, 3.176172 ], [ 50.694202, 3.176628 ], [ 50.694286, 3.176908 ], [ 50.69435, 3.177411 ], [ 50.694374, 3.177659 ], [ 50.694474, 3.178135 ], [ 50.69483, 3.17922 ], [ 50.694913, 3.179489 ], [ 50.695027, 3.179842 ], [ 50.695134, 3.180502 ], [ 50.695188, 3.181619 ], [ 50.695122, 3.18223 ], [ 50.694956, 3.182545 ], [ 50.69493, 3.182633 ], [ 50.694748, 3.182835 ], [ 50.694234, 3.183174 ], [ 50.693939, 3.183385 ], [ 50.693458, 3.183789 ], [ 50.693352, 3.183884 ], [ 50.692945, 3.184268 ], [ 50.69244, 3.184618 ] ], [ [ 50.694362, 3.172529 ], [ 50.693946, 3.173472 ] ], [ [ 50.698164, 3.163811 ], [ 50.6981, 3.163936 ], [ 50.697943, 3.164396 ], [ 50.69788, 3.164573 ], [ 50.697775, 3.16488 ], [ 50.697662, 3.165115 ], [ 50.697207, 3.165909 ], [ 50.697072, 3.166143 ], [ 50.696352, 3.167462 ], [ 50.695881, 3.168689 ], [ 50.6954, 3.169948 ], [ 50.694769, 3.171539 ], [ 50.694362, 3.172529 ] ] ]">Nations Unies, avenue des</geogname>
+                <geogname source="rue" coord="[ [ 50.698164, 3.163811 ], [ 50.698299, 3.163546 ], [ 50.699956, 3.161112 ], [ 50.700157, 3.161099 ] ]">Alsace, rue d\'</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>
@@ -8399,7 +8399,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6973781, 3.1860411 ]">Strasbourg, boulevard de</geogname>
+                <geogname source="rue" coord="[ [ 50.694242, 3.187905 ], [ 50.694715, 3.187631 ], [ 50.695623, 3.18712 ], [ 50.695769, 3.18704 ], [ 50.696438, 3.186658 ], [ 50.697023, 3.186323 ], [ 50.697423, 3.186094 ], [ 50.697552, 3.186022 ], [ 50.6986, 3.185415 ], [ 50.699146, 3.185098 ], [ 50.699482, 3.18491 ], [ 50.700175, 3.184513 ], [ 50.700908, 3.184105 ] ]">Strasbourg, boulevard de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -8421,7 +8421,7 @@
                 <physdesc>&lt;p&gt;1 photographie en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.7003735, 3.1615373 ]">Armentières, boulevard d\'</geogname>
+                <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d\'</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
               </controlaccess>
               <daogrp>
@@ -8447,7 +8447,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-                <geogname source="rue" coord="[ 50.6994013, 3.1747313 ]">Fosse aux chênes, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.699341, 3.174704 ], [ 50.699595, 3.174167 ] ]">Fosse aux chênes, place de la</geogname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">La Pensée</corpname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Laffineur-Samin, Hautmont</corpname>
               </controlaccess>
@@ -8503,7 +8503,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
-                <geogname source="rue" coord="[ 50.6961514, 3.1940174 ]">Conference, rue de la</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694998, 3.193849 ], [ 50.695983, 3.193997 ], [ 50.696835, 3.194119 ], [ 50.697666, 3.194248 ], [ 50.697815, 3.194371 ] ], [ [ 50.694699, 3.193806 ], [ 50.694998, 3.193849 ] ] ]">Conference, rue de la</geogname>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Frankart-Chrétien - Roubaix</persname>
               </controlaccess>
               <daogrp>
@@ -8526,7 +8526,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-                <geogname source="rue" coord="[ 50.7013137, 3.1903994 ]">Cartigny, rue de</geogname>
+                <geogname source="rue" coord="[ [ 50.701285, 3.185708 ], [ 50.701288, 3.186352 ], [ 50.7013, 3.187518 ], [ 50.7013, 3.187741 ], [ 50.701304, 3.188825 ], [ 50.701312, 3.189607 ], [ 50.701321, 3.190628 ], [ 50.701332, 3.191682 ], [ 50.702234, 3.193741 ], [ 50.702421, 3.194061 ], [ 50.702595, 3.194308 ], [ 50.702801, 3.194635 ], [ 50.702942, 3.194869 ] ]">Cartigny, rue de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -8548,7 +8548,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_ROU_NOR_011_01.tif" role="preservation:image"/>
@@ -8572,7 +8572,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Ce logo de l'éditeur a été utilisé jusqu'en 1908. Le cachet de la poste de la troisième carte postale indique 1911.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.700553, 3.1828331 ]">Vigne, rue de la</geogname>
+                <geogname source="rue" coord="[ [ 50.699816, 3.180082 ], [ 50.700269, 3.181741 ], [ 50.700618, 3.183039 ], [ 50.700908, 3.184105 ], [ 50.701208, 3.185257 ] ]">Vigne, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Canal</subject>
                 <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Ernest Le Deley, Paris</persname>
@@ -8606,7 +8606,7 @@
                 <physdesc>&lt;p&gt;Une carte postale en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.695298, 3.180381 ]">Pellart, rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.695027, 3.179842 ], [ 50.695239, 3.180187 ], [ 50.695896, 3.182146 ], [ 50.695896, 3.182146 ] ], [ [ 50.695896, 3.182146 ], [ 50.696605, 3.184314 ] ] ]">Pellart, rue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_ROU_NOR_013_01.tif" role="preservation:image"/>
@@ -8630,7 +8630,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La première représente "Institut Turgot - Ecole Pratique de Commerce et d'Industrie - Ecole Primaire Supérieure - Cour de l'Ecole Elémentaire" et la deuxième représente "Salle de dessin linéaire".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6968014, 3.1801739 ]">Paix, rue de la</geogname>
+                <geogname source="rue" coord="[ [ [ 50.696849, 3.180282 ], [ 50.697051, 3.180795 ], [ 50.697529, 3.181995 ] ], [ [ 50.696232, 3.178408 ], [ 50.696441, 3.179273 ], [ 50.696849, 3.180282 ] ] ]">Paix, rue de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
               </controlaccess>
               <daogrp>
@@ -8662,7 +8662,7 @@
                 <p>&lt;p&gt;Place Nadaud - C.I.L. du Galon d'Eau.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6933668, 3.1883684 ]">Nadaud, rue</geogname>
+                <geogname source="rue" coord="[ [ 50.694034, 3.188033 ], [ 50.692881, 3.188696 ] ]">Nadaud, rue</geogname>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Combier - Imp. Macon</corpname>
               </controlaccess>
@@ -8800,7 +8800,7 @@
                 <p>&lt;p&gt;La vue 1 date de 2004. Les vues 2 et 3 datent de 1993. La vue 4 date de 2004. Les vues 5 à 7 datent de 1993.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -8832,7 +8832,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 date de 2000. La vue 2 date de 1990. La vue 3 date de 1993. La vue 4 date de 1994 et est attribuée à Jean-Luc Bayeux. La vue 5 date de 1990. La vue 6 date de 1991. La vue 7 date de 1990. Les vues 8 à 10 datent de 1993. La vue 11 date de 1994 et est attribuée à Jean-Luc Bayeux. Les vues 12 et 13 datent de 1994 et sont attribuées à Jean-Luc Bayeux. La vue 14 date de 1994 et est attribuée à Jean-Luc Bayeux. La vue 15 date de 1992 et est attribuée à Jean-Luc Bayeux. La vue 16 date de 1993 et est attribuée à Jean-Luc Bayeux. La vue 17 date de 1994 et est attribuée à Jean-Luc Bayeux.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
@@ -8863,7 +8863,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 date de 1990. Les vues 2 et 3 datent de 1991. La vue 4 date de 1990. La vue 5 date de 1989. La vue 6 date de mai 1986. La vue 7 date de 1988. Les vues 8 à 13 datent de 1990. La vue 14 date de 1982 et est attribuée à Jean-Luc Bayeux. La vue 15 date de 1971 et est attribuée à Jean-Luc Bayeux. La vue 15 n'est pas datée. La vue 16 date de 1991 et est attribuée à Jean-Luc Bayeux. La vue 17 date de 1982. La vue 18 date de 1991. La vue 19 date de 1969. Les vues 20 et 21 datent de 1953. La vue 20 a été prise par Jacques Bazin. Les vues 22 et 23 datent de 1949. La vue 24 date de 1956.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Knoerr</persname>
                 <corpname role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">La Cigogne - Lille</corpname>
@@ -8949,7 +8949,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 date de 1962. Les vues 2 et 3 datent de 1972 et ont été prises par Jean-Luc Bayeux. La vue 4 date de 1980. La vue 5 date de 1981 et a été prise par Jean-Luc Bayeux. Les vues 6 à 8 datent de 1981. la vue 9 date de 1989. Les vues 10 à 13 datent de 1991. La vue 14 date de 1992 et a été prise par Jean-Luc Bayeux. Les vues 15 à 21 datent de 1993. La vue 22 date de 1994 et a été prise par Jean-Luc Bayeux. Les vues 23 à 25 datent de 1994. Les vues 26 à 32 datent de 2010. Les vues 33 et 34 date de 2011. Les vues 35 à 41 ne sont pas datées.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
@@ -9017,7 +9017,7 @@
                 <p>&lt;p&gt;.&lt;/p&gt;</p>
               </acqinfo>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1970-1979</subject>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
@@ -9053,7 +9053,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;Les vues 1 et 2 datent de 1990. Les vues 3 et 4 datent de 1991. La vue 5 date de 1993 et a été prise par Jean-Luc Bayeux. La vue 6 date de 1996. La vue 7 date de 1998. La vue 8 date de 2000. La vue 9 date de 2010 et a été prise par Jean-Luc Bayeux.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
@@ -9086,7 +9086,7 @@
                 <p>&lt;p style="text-align: justify;"&gt;La vue 1 date de 1994. La vue 2 date de 1993. La vue 3 date de 1994. La vue 4 date de 1998. La vue 5 date de 1990. Les vues 6 et 7 datent de 1991.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6918677, 3.1789956 ]">Liberté, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.692444, 3.178374 ], [ 50.69228, 3.178621 ], [ 50.691411, 3.179438 ], [ 50.691221, 3.179545 ] ]">Liberté, place de la</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Baliziaux, Serge</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
@@ -9119,7 +9119,7 @@
                 <p>&lt;p&gt;La vue 1 date de 1993. La vue 2 date de 1994 et est attribuée à Jean-Luc Bayeux. La vue 3 date de 1994. La vue 4 date de 1993.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
@@ -9149,7 +9149,7 @@
                 <physdesc>&lt;p&gt;10 photographies.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6939696, 3.1877159 ]">Grande rue</geogname>
+                <geogname source="rue" coord="[ [ [ 50.694034, 3.188033 ], [ 50.69433, 3.189838 ], [ 50.694366, 3.190057 ], [ 50.694403, 3.1903 ], [ 50.69454, 3.191083 ], [ 50.694737, 3.192251 ], [ 50.694795, 3.192629 ], [ 50.694876, 3.193108 ], [ 50.694998, 3.193849 ], [ 50.695388, 3.196221 ], [ 50.695898, 3.199312 ], [ 50.695941, 3.199568 ], [ 50.695989, 3.19986 ] ], [ [ 50.691915, 3.175156 ], [ 50.692015, 3.175776 ], [ 50.692394, 3.178082 ], [ 50.692444, 3.178374 ], [ 50.692464, 3.178493 ], [ 50.692519, 3.178842 ], [ 50.692736, 3.180182 ], [ 50.692906, 3.181193 ], [ 50.692992, 3.181706 ], [ 50.693343, 3.183828 ], [ 50.693587, 3.185293 ], [ 50.693756, 3.186312 ], [ 50.693901, 3.187207 ], [ 50.693932, 3.187464 ], [ 50.694034, 3.188033 ] ] ]">Grande rue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>
@@ -9181,7 +9181,7 @@
                 <p>&lt;p&gt;Les vues 2 à 4 datent de 1990. La vue 5 date de 1991 et est attribuée à Jean-Lux Bayeux.&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6923452, 3.184918 ]">Gambetta, boulevard</geogname>
+                <geogname source="rue" coord="[ [ [ 50.691219, 3.179537 ], [ 50.691253, 3.179653 ], [ 50.69151, 3.18045 ], [ 50.691619, 3.180767 ], [ 50.69173, 3.181147 ], [ 50.691855, 3.181581 ], [ 50.691915, 3.18182 ], [ 50.692439, 3.184663 ] ], [ [ 50.69244, 3.184618 ], [ 50.69244, 3.184618 ], [ 50.692713, 3.186167 ], [ 50.692877, 3.187039 ], [ 50.692954, 3.187866 ], [ 50.692881, 3.188694 ], [ 50.69288, 3.188695 ] ], [ [ 50.69288, 3.188695 ], [ 50.692653, 3.189027 ], [ 50.692616, 3.189563 ], [ 50.692552, 3.190112 ], [ 50.692552, 3.190114 ], [ 50.692481, 3.190939 ] ] ]">Gambetta, boulevard</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
@@ -9211,7 +9211,7 @@
                 <physdesc>&lt;p&gt;1 photographie en noir et blanc.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6761559, 3.159971 ]">Jean Jaures, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.68083, 3.166811 ], [ 50.680707, 3.165931 ], [ 50.680599, 3.165161 ], [ 50.680513, 3.164793 ], [ 50.680353, 3.16447 ], [ 50.679457, 3.163487 ], [ 50.677889, 3.161765 ], [ 50.675787, 3.159575 ], [ 50.674784, 3.158542 ], [ 50.672586, 3.156248 ], [ 50.672349, 3.155998 ], [ 50.671946, 3.155576 ], [ 50.67159, 3.15534 ], [ 50.671189, 3.15522 ], [ 50.670793, 3.155258 ], [ 50.670438, 3.155248 ], [ 50.67008, 3.155155 ], [ 50.669949, 3.155121 ] ]">Jean Jaures, avenue</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>
@@ -9233,7 +9233,7 @@
                 <physdesc>&lt;p&gt;2 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894042, 3.1737939 ]">Maréchal Foch, rue du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.68895, 3.173927 ], [ 50.688765, 3.174078 ], [ 50.688156, 3.174411 ], [ 50.68788, 3.174601 ], [ 50.687638, 3.174916 ] ], [ [ 50.691604, 3.173126 ], [ 50.691535, 3.173152 ], [ 50.691257, 3.173223 ], [ 50.690429, 3.173458 ], [ 50.690131, 3.173547 ], [ 50.68895, 3.173927 ] ] ]">Maréchal Foch, rue du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>
@@ -9313,7 +9313,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-                <geogname source="rue" coord="[ 50.678507, 3.163549 ]">Barbieux, parc</geogname>
+                <geogname source="adresse" coord="[50.67722273760695, 3.1625329346302813]">Barbieux, parc</geogname>
               </controlaccess>
               <daogrp>
                 <daodesc>
@@ -9782,7 +9782,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
-                <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+                <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bazin, Jacques</persname>
               </controlaccess>
               <daogrp>
@@ -9808,7 +9808,7 @@
               </scopecontent>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-                <geogname source="rue" coord="[ 50.693312, 3.1691886 ]">Jean Lebas, avenue</geogname>
+                <geogname source="rue" coord="[ [ 50.691604, 3.173126 ], [ 50.691662, 3.173059 ], [ 50.692597, 3.170782 ], [ 50.693204, 3.169297 ], [ 50.693691, 3.168116 ], [ 50.694074, 3.167178 ], [ 50.694317, 3.166587 ], [ 50.694533, 3.166063 ], [ 50.694841, 3.165306 ], [ 50.695084, 3.164743 ], [ 50.695302, 3.164196 ] ]">Jean Lebas, avenue</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_TRA_TMW_037_01.tif" role="preservation:image"/>
@@ -9829,7 +9829,7 @@
                 <physdesc>&lt;p&gt;Trois photographies en noir et blanc, 9 x 14 cm.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.695386, 3.164246 ], [ 50.695365, 3.163726 ] ]">Gare, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
               </controlaccess>
               <daogrp>
@@ -9859,7 +9859,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
-                <geogname source="rue" coord="[ 50.6771922, 3.1779897 ]">Travail, place du</geogname>
+                <geogname source="rue" coord="[ [ 50.677563, 3.17849 ], [ 50.677569, 3.177402 ] ]">Travail, place du</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_TRA_TMW_039_01.tif" role="preservation:image"/>
@@ -10132,7 +10132,7 @@
                 <physdesc>&lt;p&gt;3 photographies en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
               </controlaccess>
               <daogrp>
@@ -10196,7 +10196,7 @@
                 <p>&lt;p&gt;Une note manuscrite au dos précise : "Dernier jour des autobus / CBM / 11/05/2001 / Ligne 25".&lt;/p&gt;</p>
               </scopecontent>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>
@@ -10887,7 +10887,7 @@
               </did>
               <controlaccess>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-                <geogname source="rue" coord="[ 50.6894208, 3.1772863 ]">Général Leclerc, boulevard du</geogname>
+                <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687747, 3.175053 ], [ 50.688055, 3.17557 ], [ 50.688584, 3.176854 ], [ 50.688853, 3.177219 ], [ 50.68923, 3.177477 ], [ 50.689491, 3.177522 ] ], [ [ 50.689846, 3.177568 ], [ 50.690061, 3.177612 ], [ 50.690447, 3.177871 ], [ 50.690785, 3.17827 ], [ 50.691172, 3.179378 ], [ 50.691219, 3.179537 ] ] ]">Général Leclerc, boulevard du</geogname>
               </controlaccess>
               <daogrp>
                 <daoloc href="MED/MED_PBI/RBX_MED_PBI_LAB_TRA_BUS_029_01.tif" role="preservation:image"/>
@@ -11102,7 +11102,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6955266, 3.1641206 ]">Gare, place de la</geogname>
+                <geogname source="rue" coord="[ [ 50.695386, 3.164246 ], [ 50.695365, 3.163726 ] ]">Gare, place de la</geogname>
                 <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
                 <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Labbé, Daniel</persname>
@@ -11126,7 +11126,7 @@
                 <physdesc>&lt;p&gt;1 photographie en couleurs.&lt;/p&gt;</physdesc>
               </did>
               <controlaccess>
-                <geogname source="rue" coord="[ 50.6916938, 3.1739163 ]">Grand place</geogname>
+                <geogname source="rue" coord="[ [ 50.691411, 3.173287 ], [ 50.691496, 3.175089 ] ]">Grand place</geogname>
                 <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Bayeux, Jean-Luc</persname>
               </controlaccess>
               <daogrp>

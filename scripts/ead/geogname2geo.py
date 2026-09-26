@@ -14,7 +14,9 @@ documents (nombre de balises <geogname> pour ce toponyme, tous IR confondus)
 et instruments_de_recherche (nombre d'IR distincts où il apparaît).
 
 coord est soit un point [lat, lon] (source rue/adresse), soit un polygone
-[[lat, lon], ...] (source quartier).
+[[lat, lon], ...] (source quartier), soit — pour une rue alignée dans les IR
+depuis le 2026-09-26 — le tracé de la voie dans le filaire officiel :
+[[lat, lon], ...] (un tronçon) ou [[[lat, lon], ...], ...] (plusieurs).
 
 Alignement des rues sur le filaire officiel
 --------------------------------------------
@@ -37,6 +39,13 @@ fausse piste automatique vers "Denain", mais "Alsace" est bien "Avenue
 d'Alsace" et pas une "Rue d'Alsace" distincte) ; les 17 restants n'ont
 aucune correspondance fiable dans le filaire actuel (rue disparue/renommée,
 ou toponyme trop ambigu comme "Notre-Dame") et gardent leur point géocodé.
+
+Le 2026-09-26, 10 graphies de plus ont été ajoutées à CORRECTIONS_RUE,
+apparues quand des geogname sans source sont passés en rue (cf.
+documentation/files/scripts/geogname2csv.md) : 6 variantes (apostrophe non
+échappée, tiret, majuscule) de corrections déjà validées, et 4 qui ne
+diffèrent du filaire que par l'article (Vivier, Audenaerde, Lannes,
+Lafontaine) — validées à la main.
 
 Pour une rue appariée, name porte le nom officiel du filaire (cohérent avec
 la géométrie alignée) et non plus le texte brut de l'IR ; ce dernier reste
@@ -100,7 +109,10 @@ RECHERCHE_URL = "https://www.bn-r.fr/resultat.php"
 CORRECTIONS_RUE = {
     "Alexandre Fleming, rue": "Rue Alexander Fleming",
     "Alsace, rue d\\'": "Avenue d'Alsace",
+    "Alsace, rue d'": "Avenue d'Alsace",
+    "Audenaerde, place d'": "Place Audenaerde",
     "Barbe d\\'or, rue": "Rue de la Barbe d'Or",
+    "Barbe d'or, rue": "Rue de la Barbe d'Or",
     "Beaurepaire, boulevard": "Boulevard de Beaurepaire",
     "Beaurewaert, rue": "Rue de Beaurewaert",
     "Belfort, allée": "Allée de Belfort",
@@ -120,8 +132,11 @@ CORRECTIONS_RUE = {
     "Halluin, boulevard d\\'": "Cour d'Halluin",
     "Henri Carette, rue": "Rue Henri Carrette",
     "Inkermann, rue d\\'": "Rue Inkermann",
+    "Inkermann, rue d'": "Rue Inkermann",
     "Jean Baptiste Vercoutère, rue": "Rue J-B. Vercoutère",
     "La Rochefoucault, rue": "Rue Larochefoucauld",
+    "Lafontaine, rue": "Rue La Fontaine",
+    "Lannes, rue de": "Rue Lannes",
     "Malplaquet, rue de": "Passage Malplaquet",
     "Maxenxe Van Der Meersch, avenue": "Avenue Maxence Van der Meersch",
     "Mulbhouse, boulevard de": "Boulevard de Mulhouse",
@@ -129,11 +144,15 @@ CORRECTIONS_RUE = {
     "Président  Auriol, rue du": "Rue du Président Vincent Auriol",
     "Rouget De L\\'isle, rue": "Rue Rouget de Lisle",
     "Saint Hubert, rue": "Rue de Saint Hubert",
+    "Saint-Hubert, rue": "Rue de Saint Hubert",
     "Saint-Roch, rue": "Rue St Roch",
     "Sainte Elisabeth, place": "Place Ste Elisabeth",
     "Salomon De Caux, rue": "Rue Salomon de Caus",
     "Sept ponts, rue des": "Rue des 7 Ponts",
+    "Sept-Ponts, rue des": "Rue des 7 Ponts",
+    "Sept-Ponts, Rue des": "Rue des 7 Ponts",
     "Sergent Betremieux, rue": "Rue du Sergent Louis Bettremieux",
+    "Vivier, rue de": "Rue du Vivier",
 }
 
 
@@ -236,13 +255,19 @@ def extraire_geogname():
     return toponymes, occurrences, instruments
 
 
-def coord_en_geometrie(coord):
-    """Convertit un coord [lat, lon] ou [[lat, lon], ...] en géométrie
-    GeoJSON (dict), en refermant l'anneau du polygone si besoin."""
+def coord_en_geometrie(coord, source):
+    """Convertit un coord en géométrie GeoJSON (dict) : [lat, lon] -> Point ;
+    pour une rue, [[lat, lon], ...] -> LineString et [[[lat, lon], ...], ...]
+    -> MultiLineString (tracé du filaire) ; sinon [[lat, lon], ...] ->
+    Polygon, en refermant l'anneau si besoin."""
     valeurs = ast.literal_eval(coord)
     if isinstance(valeurs[0], (int, float)):
         lat, lon = valeurs
         return {"type": "Point", "coordinates": [lon, lat]}
+    if source == "rue":
+        if isinstance(valeurs[0][0], (int, float)):
+            return {"type": "LineString", "coordinates": [[lon, lat] for lat, lon in valeurs]}
+        return {"type": "MultiLineString", "coordinates": [[[lon, lat] for lat, lon in seg] for seg in valeurs]}
     anneau = [[lon, lat] for lat, lon in valeurs]
     if anneau[0] != anneau[-1]:
         anneau.append(anneau[0])
@@ -268,7 +293,7 @@ def construire_geometries(toponymes):
             noms_officiels[(texte, source)] = nom_officiel
             appariements += 1
         else:
-            geometries[(texte, source)] = coord_en_geometrie(coord)
+            geometries[(texte, source)] = coord_en_geometrie(coord, source)
             officielles[(texte, source)] = False
             noms_officiels[(texte, source)] = None
     print(f"{appariements}/{sum(1 for _, s in toponymes if s == 'rue')} rues appariées au filaire officiel")

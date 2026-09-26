@@ -514,8 +514,8 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue" coord="[ 50.6744893, 3.1837779 ]">Fourmies, boulevard de</geogname>
-            <geogname source="rue" coord="[ 50.6808682, 3.1899063 ]">Reims, boulevard de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.677268, 3.17841 ], [ 50.676907, 3.179084 ], [ 50.676592, 3.1797 ], [ 50.676242, 3.180362 ], [ 50.675306, 3.182178 ], [ 50.675107, 3.182562 ], [ 50.674742, 3.183257 ], [ 50.674464, 3.183809 ], [ 50.674051, 3.184608 ] ], [ [ 50.673801, 3.185079 ], [ 50.67329, 3.186052 ], [ 50.672841, 3.186892 ], [ 50.67241, 3.187738 ], [ 50.67235, 3.187863 ], [ 50.67198, 3.188573 ], [ 50.6715, 3.189502 ] ] ]">Fourmies, boulevard de</geogname>
+            <geogname source="rue" coord="[ [ 50.683862, 3.191256 ], [ 50.683767, 3.191185 ], [ 50.682707, 3.190719 ], [ 50.682276, 3.190535 ], [ 50.681966, 3.190396 ], [ 50.681735, 3.190294 ], [ 50.680906, 3.189936 ], [ 50.680416, 3.189716 ], [ 50.680166, 3.189605 ], [ 50.679677, 3.189393 ], [ 50.67889, 3.189047 ], [ 50.678795, 3.188667 ], [ 50.678399, 3.186977 ], [ 50.678247, 3.186332 ], [ 50.67805, 3.185496 ] ]">Reims, boulevard de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
           </controlaccess>
           <daogrp>
@@ -589,7 +589,7 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-            <geogname source="rue" coord="[ 50.683002, 3.179833 ]">Denain, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.684129, 3.177205 ], [ 50.683335, 3.179103 ], [ 50.682541, 3.181002 ] ]">Denain, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -627,7 +627,7 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
-            <geogname source="rue" coord="[ 50.684058, 3.179511 ]">Ma campagne, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.685231, 3.176897 ], [ 50.685262, 3.177023 ], [ 50.684773, 3.178002 ], [ 50.684415, 3.178677 ] ], [ [ 50.684415, 3.178677 ], [ 50.684045, 3.179601 ], [ 50.683739, 3.180416 ], [ 50.683441, 3.18122 ], [ 50.683297, 3.181591 ] ] ]">Ma campagne, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -664,7 +664,7 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
-            <geogname source="rue" coord="[ 50.683002, 3.179833 ]">Denain, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.684129, 3.177205 ], [ 50.683335, 3.179103 ], [ 50.682541, 3.181002 ] ]">Denain, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -805,7 +805,7 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
-            <geogname source="rue" coord="[ 50.684058, 3.179511 ]">Ma campagne, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.685231, 3.176897 ], [ 50.685262, 3.177023 ], [ 50.684773, 3.178002 ], [ 50.684415, 3.178677 ] ], [ [ 50.684415, 3.178677 ], [ 50.684045, 3.179601 ], [ 50.683739, 3.180416 ], [ 50.683441, 3.18122 ], [ 50.683297, 3.181591 ] ] ]">Ma campagne, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -914,7 +914,7 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
-            <geogname source="rue">Saint Louis, impasse</geogname>
+            <geogname source="rue" coord="[ [ [ 50.689168, 3.152944 ], [ 50.689832, 3.151989 ] ], [ [ 50.682222, 3.179174 ], [ 50.681794, 3.180489 ] ] ]">Saint Louis, impasse</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -950,7 +950,7 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.684058, 3.179511 ]">Ma campagne, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.685231, 3.176897 ], [ 50.685262, 3.177023 ], [ 50.684773, 3.178002 ], [ 50.684415, 3.178677 ] ], [ [ 50.684415, 3.178677 ], [ 50.684045, 3.179601 ], [ 50.683739, 3.180416 ], [ 50.683441, 3.18122 ], [ 50.683297, 3.181591 ] ] ]">Ma campagne, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
           </controlaccess>
           <daogrp>
@@ -1094,7 +1094,7 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
-            <geogname source="rue" coord="[ 50.6744893, 3.1837779 ]">Fourmies, boulevard de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.677268, 3.17841 ], [ 50.676907, 3.179084 ], [ 50.676592, 3.1797 ], [ 50.676242, 3.180362 ], [ 50.675306, 3.182178 ], [ 50.675107, 3.182562 ], [ 50.674742, 3.183257 ], [ 50.674464, 3.183809 ], [ 50.674051, 3.184608 ] ], [ [ 50.673801, 3.185079 ], [ 50.67329, 3.186052 ], [ 50.672841, 3.186892 ], [ 50.67241, 3.187738 ], [ 50.67235, 3.187863 ], [ 50.67198, 3.188573 ], [ 50.6715, 3.189502 ] ] ]">Fourmies, boulevard de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1463,7 +1463,7 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1496,7 +1496,7 @@
             <p>&lt;p&gt;- Présentation du nouveau bureau du comité de quartier Moulin-Potennerie. - Le Ramadan. - Résultat de l'enquête sur la rue Jules Guesde, bientôt une stratégie.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
@@ -1529,7 +1529,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
             <geogname source="rue" coord="[ 50.6805167, 3.1824417 ]">Potennerie, parc de la</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
@@ -1595,7 +1595,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
@@ -1628,7 +1628,7 @@
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue" coord="[ 50.6850306, 3.1768797 ]">Jean Moulin, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687638, 3.174916 ], [ 50.687531, 3.175007 ], [ 50.687387, 3.175236 ] ], [ [ 50.684064, 3.176695 ], [ 50.683531, 3.176619 ], [ 50.682825, 3.17642 ], [ 50.682586, 3.176313 ], [ 50.682223, 3.176099 ] ], [ [ 50.687387, 3.175236 ], [ 50.6873, 3.175268 ], [ 50.68714, 3.175436 ], [ 50.686004, 3.175882 ], [ 50.685878, 3.176054 ], [ 50.685608, 3.176433 ], [ 50.68542, 3.176694 ], [ 50.685231, 3.176897 ], [ 50.68507, 3.176906 ], [ 50.684444, 3.176767 ], [ 50.684064, 3.176695 ] ] ]">Jean Moulin, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
           </controlaccess>
@@ -1730,11 +1730,11 @@
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <geogname source="rue" coord="[ 50.6805167, 3.1824417 ]">Potennerie, parc de la</geogname>
-            <geogname source="rue" coord="[ 50.6779508, 3.1807539 ]">Paul Demulder, rue</geogname>
-            <geogname source="rue" coord="[ 50.679073, 3.183244 ]">Jean Baptiste Notte, rue</geogname>
-            <geogname source="rue" coord="[ 50.6772721, 3.1868707 ]">Paul Wante, rue</geogname>
-            <geogname source="rue" coord="[ 50.6802746, 3.1803225 ]">Jean Baptiste Vercoutère, rue</geogname>
-            <geogname source="rue" coord="[ 50.6785935, 3.1887049 ]">Armand Meeschaert, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.677891, 3.180711 ], [ 50.67948, 3.182214 ] ]">Paul Demulder, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.679079, 3.183261 ], [ 50.678867, 3.183894 ], [ 50.678679, 3.184328 ], [ 50.678578, 3.184562 ], [ 50.678373, 3.184924 ], [ 50.6782, 3.185231 ], [ 50.67805, 3.185496 ], [ 50.677849, 3.185856 ] ], [ [ 50.680094, 3.180582 ], [ 50.68001, 3.180969 ], [ 50.679954, 3.181238 ], [ 50.67948, 3.182214 ], [ 50.679311, 3.182559 ], [ 50.679079, 3.183261 ] ] ]">Jean Baptiste Notte, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.677849, 3.185856 ], [ 50.67727, 3.186881 ], [ 50.676751, 3.187801 ] ]">Paul Wante, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.680926, 3.179884 ], [ 50.680828, 3.17992 ], [ 50.680696, 3.18002 ], [ 50.68026, 3.180337 ], [ 50.680094, 3.180582 ] ]">Jean Baptiste Vercoutère, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.67727, 3.186881 ], [ 50.678628, 3.188743 ], [ 50.678827, 3.188795 ] ]">Armand Meeschaert, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
           </controlaccess>
           <daogrp>
@@ -1768,8 +1768,8 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue">Artois, rue d'</geogname>
-            <geogname source="rue" coord="[ 50.6821598, 3.1775762 ]">Bouvines, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.68131, 3.186444 ], [ 50.680831, 3.186011 ] ]">Artois, rue d'</geogname>
+            <geogname source="rue" coord="[ [ 50.681365, 3.180188 ], [ 50.681929, 3.178401 ], [ 50.682407, 3.176874 ], [ 50.682586, 3.176313 ], [ 50.68283, 3.175524 ], [ 50.682903, 3.175287 ], [ 50.682942, 3.17517 ], [ 50.683183, 3.174849 ] ]">Bouvines, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -1802,7 +1802,7 @@
             <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue" coord="[ 50.6858937, 3.186095 ]">Jules Guesde, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684449, 3.183198 ], [ 50.684676, 3.183521 ], [ 50.684851, 3.183923 ], [ 50.685078, 3.184443 ], [ 50.685305, 3.184741 ], [ 50.685562, 3.185067 ], [ 50.685786, 3.185635 ], [ 50.685973, 3.186337 ], [ 50.68616, 3.186851 ] ], [ [ 50.683297, 3.181591 ], [ 50.683504, 3.181849 ], [ 50.683923, 3.182452 ], [ 50.684149, 3.182777 ], [ 50.684449, 3.183198 ] ], [ [ 50.69002, 3.194032 ], [ 50.689124, 3.191959 ] ], [ [ 50.687832, 3.189362 ], [ 50.688179, 3.189972 ], [ 50.688393, 3.190357 ], [ 50.688522, 3.190578 ], [ 50.6886, 3.190754 ], [ 50.689124, 3.191959 ] ], [ [ 50.682537, 3.180999 ], [ 50.682541, 3.181002 ], [ 50.68294, 3.181276 ], [ 50.683125, 3.181404 ], [ 50.683297, 3.181591 ] ], [ [ 50.680926, 3.179884 ], [ 50.681365, 3.180188 ], [ 50.681794, 3.180486 ], [ 50.682537, 3.180999 ] ], [ [ 50.68616, 3.186851 ], [ 50.686235, 3.18687 ], [ 50.686531, 3.187139 ], [ 50.686821, 3.187637 ], [ 50.687035, 3.188003 ], [ 50.68734, 3.188532 ], [ 50.687832, 3.189362 ] ] ]">Jules Guesde, rue</geogname>
             <geogname source="rue" coord="[ 50.6805167, 3.1824417 ]">Potennerie, parc de la</geogname>
           </controlaccess>
           <daogrp>
@@ -1838,7 +1838,7 @@
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <geogname source="rue" coord="[ 50.6805167, 3.1824417 ]">Potennerie, parc de la</geogname>
-            <geogname source="rue" coord="[ 50.6810795, 3.1853151 ]">Montgolfier, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684481, 3.189842 ], [ 50.68351, 3.188494 ], [ 50.683115, 3.187943 ], [ 50.682873, 3.187617 ], [ 50.682434, 3.187015 ] ], [ [ 50.677484, 3.181625 ], [ 50.677777, 3.181933 ], [ 50.679079, 3.183261 ], [ 50.679472, 3.183663 ], [ 50.680104, 3.184312 ], [ 50.680552, 3.184772 ], [ 50.681075, 3.18531 ], [ 50.681553, 3.185797 ], [ 50.681969, 3.186366 ], [ 50.682434, 3.187015 ] ] ]">Montgolfier, rue</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
@@ -1871,8 +1871,8 @@
             <p>&lt;p&gt;- Compte rendu d'assemblée générale. - Le logement est un sujet important. Reprécisons la loi. - L'alimentation et la santé. - Les travaux de voirie de la rue Jean Goujon à la Place du Travail.&lt;/p&gt;</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue" coord="[ 50.6804099, 3.1795143 ]">Jean Goujon, rue</geogname>
-            <geogname source="rue" coord="[ 50.6771922, 3.1779897 ]">Travail, place du</geogname>
+            <geogname source="rue" coord="[ [ 50.679861, 3.179158 ], [ 50.68049, 3.179581 ], [ 50.680925, 3.179885 ] ]">Jean Goujon, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.677563, 3.17849 ], [ 50.677569, 3.177402 ] ]">Travail, place du</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
@@ -3976,7 +3976,7 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue" coord="[ 50.687514, 3.1705008 ]">Crouy, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.687276, 3.172031 ], [ 50.687554, 3.170504 ], [ 50.687682, 3.169783 ], [ 50.687818, 3.168967 ] ]">Crouy, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
@@ -4008,8 +4008,8 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue" coord="[ 50.687514, 3.1705008 ]">Crouy, rue de</geogname>
-            <geogname source="rue" coord="[ 50.687271, 3.1685279 ]">Soubise, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.687276, 3.172031 ], [ 50.687554, 3.170504 ], [ 50.687682, 3.169783 ], [ 50.687818, 3.168967 ] ]">Crouy, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.686781, 3.168137 ], [ 50.686091, 3.167428 ] ], [ [ 50.686091, 3.167428 ], [ 50.684925, 3.166237 ], [ 50.684849, 3.166101 ] ], [ [ 50.686781, 3.168137 ], [ 50.687397, 3.168628 ], [ 50.687818, 3.168967 ] ], [ [ 50.687818, 3.168967 ], [ 50.689423, 3.170136 ] ] ]">Soubise, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
           <daogrp>
@@ -4070,7 +4070,7 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
           </controlaccess>
           <daogrp>
@@ -4128,7 +4128,7 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue" coord="[ 50.687271, 3.1685279 ]">Soubise, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.686781, 3.168137 ], [ 50.686091, 3.167428 ] ], [ [ 50.686091, 3.167428 ], [ 50.684925, 3.166237 ], [ 50.684849, 3.166101 ] ], [ [ 50.686781, 3.168137 ], [ 50.687397, 3.168628 ], [ 50.687818, 3.168967 ] ], [ [ 50.687818, 3.168967 ], [ 50.689423, 3.170136 ] ] ]">Soubise, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_rameau.xml">Espaces verts</subject>
           </controlaccess>
           <daogrp>
@@ -4343,7 +4343,7 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue" coord="[ 50.685714, 3.164383 ]">Perche, rue de la</geogname>
+            <geogname source="rue" coord="[ [ [ 50.686567, 3.162391 ], [ 50.686507, 3.162571 ], [ 50.686462, 3.162704 ], [ 50.6863, 3.163164 ], [ 50.686247, 3.163264 ], [ 50.685953, 3.163905 ], [ 50.685718, 3.164414 ], [ 50.685621, 3.164622 ], [ 50.68549, 3.165042 ] ], [ [ 50.68549, 3.165042 ], [ 50.685489, 3.165046 ], [ 50.685431, 3.165293 ], [ 50.685299, 3.165474 ], [ 50.684992, 3.165901 ], [ 50.684794, 3.165956 ] ] ]">Perche, rue de la</geogname>
           </controlaccess>
           <daogrp>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_013.pdf" role="preservation:pdf"/>
@@ -4406,7 +4406,7 @@ Siège actuel : 196 rue des Arts</p>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Jeux et concours</subject>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments religieux</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
@@ -4471,7 +4471,7 @@ Siège actuel : 196 rue des Arts</p>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Jeux et concours</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
-            <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_018.pdf" role="preservation:pdf"/>
@@ -4596,9 +4596,9 @@ Siège actuel : 196 rue des Arts</p>
 - A l'école Victor Hugo, rue des Arts : enquête sur le quartier.</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue" coord="[ 50.6889646, 3.1641144 ]">Arts, rue des</geogname>
+            <geogname source="rue" coord="[ [ 50.686066, 3.169457 ], [ 50.686781, 3.168137 ], [ 50.686928, 3.167868 ], [ 50.687527, 3.166752 ], [ 50.688245, 3.165457 ], [ 50.688634, 3.164732 ], [ 50.688903, 3.164231 ], [ 50.689054, 3.163955 ], [ 50.689274, 3.163554 ], [ 50.689764, 3.162638 ], [ 50.69029, 3.161721 ], [ 50.690557, 3.161237 ], [ 50.691091, 3.16025 ], [ 50.691493, 3.159514 ], [ 50.691532, 3.159442 ], [ 50.691651, 3.159233 ] ]">Arts, rue des</geogname>
           </controlaccess>
           <daogrp>
             <daoloc href="OBS/OBS_JOU/RBX_OBS_JOU_QLI_023.pdf" role="preservation:pdf"/>
@@ -4659,8 +4659,8 @@ Siège actuel : 196 rue des Arts</p>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
-            <geogname source="rue">Brondeloire, rue du</geogname>
-            <geogname source="rue" coord="[ 50.6909318, 3.1668666 ]">Mimerel, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.690648, 3.160096 ], [ 50.69031, 3.159586 ], [ 50.689847, 3.158873 ] ], [ [ 50.689444, 3.158261 ], [ 50.689847, 3.158873 ] ] ]">Brondeloire, rue du</geogname>
+            <geogname source="rue" coord="[ [ 50.691595, 3.167123 ], [ 50.690602, 3.166705 ], [ 50.690049, 3.166477 ] ]">Mimerel, rue</geogname>
             <persname source="thesaurus--SLASH--bnr_persname.xml">Desroches, Louis</persname>
           </controlaccess>
           <daogrp>
@@ -4784,8 +4784,8 @@ Siège actuel : 196 rue des Arts</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
-            <geogname source="rue">Inkermann, rue d'</geogname>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684303, 3.164253 ], [ 50.684518, 3.16423 ], [ 50.684628, 3.164316 ], [ 50.68467, 3.164354 ], [ 50.685486, 3.165039 ], [ 50.686124, 3.165573 ], [ 50.686718, 3.166067 ] ], [ [ 50.686721, 3.166073 ], [ 50.687527, 3.166752 ], [ 50.687931, 3.167092 ], [ 50.689817, 3.168671 ] ] ]">Inkermann, rue d'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
             <persname source="thesaurus--SLASH--bnr_persname.xml">Vander Meiren, Victor</persname>
           </controlaccess>
@@ -5112,8 +5112,8 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
-            <geogname source="rue">Abreuvoir, place de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.691564, 3.162764 ], [ 50.691236, 3.162502 ] ]">Abreuvoir, place de l'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5158,8 +5158,8 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
-            <geogname source="rue">Abreuvoir, place de l'</geogname>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.691564, 3.162764 ], [ 50.691236, 3.162502 ] ]">Abreuvoir, place de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5236,7 +5236,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue" coord="[ 50.6901659, 3.1684697 ]">Trichon, place du</geogname>
+            <geogname source="rue" coord="[ [ 50.690045, 3.168786 ], [ 50.690047, 3.168193 ] ]">Trichon, place du</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
           </controlaccess>
@@ -5278,9 +5278,9 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5432,7 +5432,7 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5473,8 +5473,8 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
-            <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5511,8 +5511,8 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
-            <geogname source="rue" coord="[ 50.684453, 3.1712407 ]">Général De Gaulle, boulevard du</geogname>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.687638, 3.174916 ], [ 50.686563, 3.173715 ], [ 50.684619, 3.17152 ], [ 50.684422, 3.171292 ], [ 50.683237, 3.169941 ], [ 50.682761, 3.169404 ], [ 50.681897, 3.168419 ], [ 50.681417, 3.167874 ], [ 50.681414, 3.167871 ], [ 50.680944, 3.167234 ], [ 50.68083, 3.166811 ] ]">Général De Gaulle, boulevard du</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5671,8 +5671,8 @@ Prochaine assemblée générale : quelle place pour les habitants dans le centre
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments industriels</subject>
-            <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5938,9 +5938,9 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue">Abreuvoir, place de l'</geogname>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.691564, 3.162764 ], [ 50.691236, 3.162502 ] ]">Abreuvoir, place de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -5978,8 +5978,8 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue">Abreuvoir, place de l'</geogname>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.691564, 3.162764 ], [ 50.691236, 3.162502 ] ]">Abreuvoir, place de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
           </controlaccess>
@@ -6095,7 +6095,7 @@ Cahier de doléances sur le cadre de vie à l'Epeule-Alouette-Trichon.</p>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
-            <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
+            <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -6396,8 +6396,8 @@ quelle est votre opinion sur la vie quotidienne dans le quartier ?&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue">Abreuvoir, place de l'</geogname>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.691564, 3.162764 ], [ 50.691236, 3.162502 ] ]">Abreuvoir, place de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -6816,7 +6816,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -6856,7 +6856,7 @@ Quelles activités cet été sur notre quartier pour les jeunes ?&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
-            <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7184,7 +7184,7 @@ Fusion des deux structures sociales du quartier (Centre social Crouy-Epeule - et
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
-            <geogname source="rue" coord="[ 50.687271, 3.1685279 ]">Soubise, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.686781, 3.168137 ], [ 50.686091, 3.167428 ] ], [ [ 50.686091, 3.167428 ], [ 50.684925, 3.166237 ], [ 50.684849, 3.166101 ] ], [ [ 50.686781, 3.168137 ], [ 50.687397, 3.168628 ], [ 50.687818, 3.168967 ] ], [ [ 50.687818, 3.168967 ], [ 50.689423, 3.170136 ] ] ]">Soubise, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7340,7 +7340,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
-            <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7621,7 +7621,7 @@ Compte rendu de l'assemblée générale mensuelle : &#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
+            <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7826,7 +7826,7 @@ Informations aux habitants :&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
-            <geogname source="rue" coord="[ 50.6888182, 3.1592836 ]">Brezin, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.688166, 3.160387 ], [ 50.688724, 3.15945 ], [ 50.689444, 3.158261 ] ]">Brezin, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7878,7 +7878,7 @@ Objectifs du Comité de quartier :&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
-            <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -7959,7 +7959,7 @@ Objectifs du Comité de quartier :&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
-            <geogname source="rue" coord="[ 50.6877079, 3.1548602 ]">Bell, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.688191, 3.15392 ], [ 50.687547, 3.155184 ] ]">Bell, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -8229,7 +8229,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
           </controlaccess>
@@ -8307,8 +8307,8 @@ Inauguration du Centre Social "Le Nautilus"&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
-            <geogname source="rue">Epeule, rue de l'</geogname>
-            <geogname source="rue">Alouette, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.692198, 3.163109 ], [ 50.69237, 3.163017 ], [ 50.692989, 3.163314 ], [ 50.693726, 3.163768 ], [ 50.694546, 3.164349 ], [ 50.695084, 3.164743 ] ]">Alouette, rue de l'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -8465,7 +8465,7 @@ Inauguration du Centre Social "Le Nautilus"&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6872319, 3.1547926 ]">Wasquehal, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.687476, 3.152452 ], [ 50.687408, 3.152701 ], [ 50.687316, 3.153059 ], [ 50.687292, 3.15319 ], [ 50.687267, 3.153837 ], [ 50.687249, 3.154437 ], [ 50.687234, 3.154671 ], [ 50.687216, 3.154839 ], [ 50.687182, 3.15497 ], [ 50.687053, 3.155423 ], [ 50.687026, 3.155589 ], [ 50.687183, 3.156066 ] ], [ [ 50.688255, 3.157278 ], [ 50.687978, 3.156869 ], [ 50.687711, 3.1566 ], [ 50.687186, 3.156068 ] ] ]">Wasquehal, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -8948,7 +8948,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue" coord="[ 50.6883856, 3.1633103 ]">Edouard Roussel, place</geogname>
+            <geogname source="rue" coord="[ [ 50.687926, 3.164294 ], [ 50.688384, 3.163285 ] ]">Edouard Roussel, place</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9070,9 +9070,9 @@ Plate-forme de soutien aux initiatives locales.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
-            <geogname source="rue">Epeule, rue de l'</geogname>
-            <geogname source="rue" coord="[ 50.6901659, 3.1684697 ]">Trichon, place du</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.690045, 3.168786 ], [ 50.690047, 3.168193 ] ]">Trichon, place du</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9107,7 +9107,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
           </scopecontent>
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
-            <geogname source="rue" coord="[ 50.685446, 3.162547 ]">Saint-Roch, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.685526, 3.162409 ], [ 50.685948, 3.16152 ] ], [ [ 50.685526, 3.162409 ], [ 50.684631, 3.164323 ] ] ]">Saint-Roch, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9146,8 +9146,8 @@ Plate-forme de soutien aux initiatives locales.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-            <geogname source="rue">Epeule, rue de l'</geogname>
-            <geogname source="rue" coord="[ 50.685446, 3.162547 ]">Saint-Roch, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.685526, 3.162409 ], [ 50.685948, 3.16152 ] ], [ [ 50.685526, 3.162409 ], [ 50.684631, 3.164323 ] ] ]">Saint-Roch, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9185,9 +9185,9 @@ Plate-forme de soutien aux initiatives locales.&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
-            <geogname source="rue" coord="[ 50.6861411, 3.1581136 ]">Montesquieu, boulevard</geogname>
-            <geogname source="rue" coord="[ 50.6824949, 3.1656437 ]">Cambai, boulevard de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.684213, 3.162312 ], [ 50.68462, 3.161607 ], [ 50.685031, 3.160888 ], [ 50.685979, 3.158834 ], [ 50.686011, 3.158656 ] ]">Montesquieu, boulevard</geogname>
+            <geogname source="rue" coord="[ [ 50.683757, 3.163112 ], [ 50.683591, 3.163435 ], [ 50.683231, 3.164178 ], [ 50.682504, 3.165654 ], [ 50.682401, 3.165871 ], [ 50.681414, 3.167871 ] ]">Cambai, boulevard de</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
@@ -9229,8 +9229,8 @@ Plate-forme de soutien aux initiatives locales.&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
-            <geogname>Trichon, place du</geogname>
-            <geogname>Brezin, rue</geogname>
+            <geogname source="rue" coord="[ [ 50.690045, 3.168786 ], [ 50.690047, 3.168193 ] ]">Trichon, place du</geogname>
+            <geogname source="rue" coord="[ [ 50.688166, 3.160387 ], [ 50.688724, 3.15945 ], [ 50.689444, 3.158261 ] ]">Brezin, rue</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9277,7 +9277,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-            <geogname source="rue">Epeule, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.692198, 3.163109 ], [ 50.692014, 3.163074 ], [ 50.691821, 3.163033 ], [ 50.691532, 3.162946 ], [ 50.691409, 3.162904 ], [ 50.691279, 3.162838 ], [ 50.690616, 3.162209 ], [ 50.690464, 3.162014 ], [ 50.690326, 3.161819 ], [ 50.69029, 3.161721 ], [ 50.68998, 3.161206 ], [ 50.689697, 3.160745 ], [ 50.689456, 3.160348 ], [ 50.689406, 3.160286 ], [ 50.689208, 3.160038 ], [ 50.688724, 3.15945 ], [ 50.68799, 3.158548 ], [ 50.687893, 3.158431 ], [ 50.687853, 3.15839 ] ], [ [ 50.685867, 3.158493 ], [ 50.685726, 3.158583 ], [ 50.685569, 3.158597 ] ], [ [ 50.687853, 3.15839 ], [ 50.687624, 3.158408 ], [ 50.687079, 3.158465 ], [ 50.686302, 3.15853 ], [ 50.686165, 3.158512 ] ] ]">Epeule, rue de l'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9398,8 +9398,8 @@ Plate-forme de soutien aux initiatives locales.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
-            <geogname source="rue" coord="[ 50.688282, 3.171035 ]">Tour, rue de la</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.688578, 3.172221 ], [ 50.688422, 3.171423 ], [ 50.688391, 3.171182 ], [ 50.688395, 3.171119 ], [ 50.687554, 3.170504 ] ]">Tour, rue de la</geogname>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
           </controlaccess>
           <daogrp>
@@ -9519,7 +9519,7 @@ Plate-forme de soutien aux initiatives locales.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_rameau.xml">Recyclage (déchets,etc.)</subject>
-            <geogname source="rue" coord="[ 50.6856176, 3.1682235 ]">Lille, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ] ], [ [ 50.684026, 3.163839 ], [ 50.684026, 3.163839 ], [ 50.683755, 3.163105 ], [ 50.683753, 3.1631 ], [ 50.683386, 3.162073 ] ], [ [ 50.684026, 3.163839 ], [ 50.684176, 3.164266 ], [ 50.684303, 3.164253 ] ], [ [ 50.684303, 3.164253 ], [ 50.684299, 3.164098 ], [ 50.684026, 3.163839 ] ], [ [ 50.68788, 3.174601 ], [ 50.687771, 3.174178 ], [ 50.687243, 3.172734 ], [ 50.686974, 3.171985 ], [ 50.686307, 3.170132 ], [ 50.686268, 3.170021 ], [ 50.686066, 3.169457 ], [ 50.685711, 3.16848 ], [ 50.685666, 3.168352 ], [ 50.684794, 3.165956 ], [ 50.684767, 3.165886 ], [ 50.684577, 3.16535 ], [ 50.684313, 3.164643 ], [ 50.684303, 3.164253 ] ] ]">Lille, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -9683,7 +9683,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
 - Informations pratiques.</p>
           </scopecontent>
           <controlaccess>
-            <geogname source="rue">Epinal, rue d'</geogname>
+            <geogname source="rue" coord="[ [ 50.697694, 3.159784 ], [ 50.697303, 3.16081 ], [ 50.696694, 3.162434 ] ]">Epinal, rue d'</geogname>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
@@ -9796,7 +9796,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.69312, 3.160967 ], [ 50.693373, 3.160098 ], [ 50.693605, 3.159318 ], [ 50.693959, 3.158079 ], [ 50.694115, 3.157749 ], [ 50.694437, 3.157111 ], [ 50.694547, 3.156734 ], [ 50.694568, 3.156576 ], [ 50.694637, 3.15531 ] ]">Mouvaux, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10071,8 +10071,8 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
-            <geogname source="rue">Armentières, boulevard d'</geogname>
-            <geogname source="rue" coord="[ 50.6912726, 3.1604226 ]">Vivier, rue du</geogname>
+            <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d'</geogname>
+            <geogname source="rue" coord="[ [ 50.691846, 3.161272 ], [ 50.691091, 3.16025 ], [ 50.6908, 3.159848 ] ]">Vivier, rue du</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10139,7 +10139,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
-            <geogname source="rue">Ouest, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.695796, 3.161849 ], [ 50.695907, 3.161934 ], [ 50.696694, 3.162434 ] ], [ [ 50.693605, 3.159318 ], [ 50.693684, 3.159516 ], [ 50.694409, 3.160312 ], [ 50.694769, 3.160715 ], [ 50.695796, 3.161849 ] ], [ [ 50.696694, 3.162434 ], [ 50.698021, 3.163291 ], [ 50.698131, 3.163402 ] ] ]">Ouest, rue de l'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10204,8 +10204,8 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.7003735, 3.1615373 ]">Armentières, boulevard d\'</geogname>
-            <geogname source="rue" coord="[ 50.6969396, 3.1595075 ]">Fresnoy, rue du</geogname>
+            <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d\'</geogname>
+            <geogname source="rue" coord="[ [ [ 50.696926, 3.159499 ], [ 50.697246, 3.159092 ], [ 50.697484, 3.158777 ], [ 50.698224, 3.157917 ] ], [ [ 50.695796, 3.161849 ], [ 50.696315, 3.160751 ], [ 50.696702, 3.159957 ], [ 50.696926, 3.159499 ] ] ]">Fresnoy, rue du</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10535,7 +10535,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-            <geogname source="rue" coord="[ 50.6952931, 3.1585519 ]">Naples, rue de</geogname>
+            <geogname source="rue" coord="[ [ [ 50.694409, 3.160312 ], [ 50.695062, 3.159046 ] ], [ [ 50.695062, 3.159046 ], [ 50.695625, 3.157985 ], [ 50.696146, 3.156963 ], [ 50.696419, 3.15643 ] ] ]">Naples, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10636,9 +10636,9 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
-            <geogname source="rue" coord="[ 50.7003735, 3.1615373 ]">Armentières, boulevard d\'</geogname>
-            <geogname source="rue" coord="[ 50.6743116, 3.200831 ]">Albert Thomas, rue</geogname>
-            <geogname source="rue">Ouest, rue de l'</geogname>
+            <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d\'</geogname>
+            <geogname source="rue" coord="[ [ 50.674467, 3.201032 ], [ 50.67365, 3.199749 ] ]">Albert Thomas, rue</geogname>
+            <geogname source="rue" coord="[ [ [ 50.695796, 3.161849 ], [ 50.695907, 3.161934 ], [ 50.696694, 3.162434 ] ], [ [ 50.693605, 3.159318 ], [ 50.693684, 3.159516 ], [ 50.694409, 3.160312 ], [ 50.694769, 3.160715 ], [ 50.695796, 3.161849 ] ], [ [ 50.696694, 3.162434 ], [ 50.698021, 3.163291 ], [ 50.698131, 3.163402 ] ] ]">Ouest, rue de l'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10670,7 +10670,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
-            <geogname source="rue" coord="[ 50.6958073, 3.1581985 ]">Rome, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.694547, 3.156734 ], [ 50.694786, 3.157004 ], [ 50.6951, 3.15738 ], [ 50.695625, 3.157985 ], [ 50.696926, 3.159499 ] ]">Rome, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10706,7 +10706,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
-            <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.69312, 3.160967 ], [ 50.693373, 3.160098 ], [ 50.693605, 3.159318 ], [ 50.693959, 3.158079 ], [ 50.694115, 3.157749 ], [ 50.694437, 3.157111 ], [ 50.694547, 3.156734 ], [ 50.694568, 3.156576 ], [ 50.694637, 3.15531 ] ]">Mouvaux, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10769,7 +10769,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
-            <geogname source="rue" coord="[ 50.6938798, 3.1583071 ]">Mouvaux, rue de</geogname>
+            <geogname source="rue" coord="[ [ 50.69312, 3.160967 ], [ 50.693373, 3.160098 ], [ 50.693605, 3.159318 ], [ 50.693959, 3.158079 ], [ 50.694115, 3.157749 ], [ 50.694437, 3.157111 ], [ 50.694547, 3.156734 ], [ 50.694568, 3.156576 ], [ 50.694637, 3.15531 ] ]">Mouvaux, rue de</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10801,7 +10801,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
-            <geogname source="rue">Armentières, boulevard d'</geogname>
+            <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10832,7 +10832,7 @@ Ecole Littré - Jeunes et adolescents.&#13;
           <controlaccess>
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-            <geogname source="rue">Armentières, boulevard d'</geogname>
+            <geogname source="rue" coord="[ [ 50.698224, 3.157917 ], [ 50.698396, 3.158213 ], [ 50.699207, 3.159365 ], [ 50.699406, 3.159745 ], [ 50.699856, 3.160547 ], [ 50.700157, 3.161099 ], [ 50.701344, 3.16329 ], [ 50.701757, 3.16405 ], [ 50.70206, 3.164358 ] ]">Armentières, boulevard d'</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>
@@ -10924,8 +10924,8 @@ Ecole Littré - Jeunes et adolescents.&#13;
             <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
             <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
-            <geogname source="rue" coord="[ 50.6889646, 3.1641144 ]">Arts, rue des</geogname>
-            <geogname source="rue" coord="[ 50.6912726, 3.1604226 ]">Vivier, rue du</geogname>
+            <geogname source="rue" coord="[ [ 50.686066, 3.169457 ], [ 50.686781, 3.168137 ], [ 50.686928, 3.167868 ], [ 50.687527, 3.166752 ], [ 50.688245, 3.165457 ], [ 50.688634, 3.164732 ], [ 50.688903, 3.164231 ], [ 50.689054, 3.163955 ], [ 50.689274, 3.163554 ], [ 50.689764, 3.162638 ], [ 50.69029, 3.161721 ], [ 50.690557, 3.161237 ], [ 50.691091, 3.16025 ], [ 50.691493, 3.159514 ], [ 50.691532, 3.159442 ], [ 50.691651, 3.159233 ] ]">Arts, rue des</geogname>
+            <geogname source="rue" coord="[ [ 50.691846, 3.161272 ], [ 50.691091, 3.16025 ], [ 50.6908, 3.159848 ] ]">Vivier, rue du</geogname>
           </controlaccess>
           <daogrp>
             <daodesc>

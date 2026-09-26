@@ -204,8 +204,8 @@
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Vie quotidienne</subject>
-          <geogname source="rue">Hoche, rue</geogname>
-          <geogname source="rue" coord="[ 50.6864523, 3.188693 ]">Nabuchodonosor, rue</geogname>
+          <geogname source="rue" coord="[ [ 50.689331, 3.197409 ], [ 50.687881, 3.198841 ] ]">Hoche, rue</geogname>
+          <geogname source="rue" coord="[ [ [ 50.6865, 3.188656 ], [ 50.685384, 3.190177 ] ], [ [ 50.686821, 3.187637 ], [ 50.686806, 3.187775 ], [ 50.686517, 3.18813 ], [ 50.6865, 3.188656 ] ] ]">Nabuchodonosor, rue</geogname>
           <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
           <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Patin, Louis</persname>
         </controlaccess>
@@ -1199,7 +1199,7 @@
           <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
           <genreform source="thesaurus--SLASH--bnr_genreform.xml">Manuscrits</genreform>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-          <geogname source="rue" coord="[ 50.6806672, 3.1688346 ]">Douai, boulevard de</geogname>
+          <geogname source="rue" coord="[ [ 50.681414, 3.167871 ], [ 50.680866, 3.168434 ], [ 50.680656, 3.168783 ], [ 50.680362, 3.169563 ], [ 50.680178, 3.169986 ] ]">Douai, boulevard de</geogname>
           <corpname source="thesaurus--SLASH--bnr_corpname.xml">Collège de jeunes filles</corpname>
           <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Vandoorsselaere, Henriette</persname>
         </controlaccess>
