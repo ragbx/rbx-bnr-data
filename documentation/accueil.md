@@ -44,8 +44,8 @@ Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
-→ [Guide de lecture des liens `<dao>`](files/donnees/dao_guide_boscop.md) —
-pour qui reçoit et exploite les IR (sans a priori sur leur production)
+→ [Guide de lecture des liens `<dao>`](files/donnees/dao_guide_boscop.docx?raw=true) —
+pour qui reçoit et exploite les IR (sans a priori sur leur production ; rédigé pour Boscop/Ligeo diffusion, maintenu directement en `.docx`)
 · [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md) — `<dao>` / `<daogrp>` dans les IR, côté production
 · [Guide pratique : corriger un lien via `<odd>`](files/donnees/guide_odd_publication.md)
 
