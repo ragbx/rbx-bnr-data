@@ -65,6 +65,15 @@ deja_envoye) : le METS part en dernier, sa presence vaut fascicule complet. Les
 recapitulatifs sont alors la seule trace locale des uuid et MD5 des JPEG (colonnes
 envoi et envoi_date en plus) : les conserver.
 
+Durees : le recapitulatif par fascicule porte duree_s (fascicule entier, dans
+son processus), le detail t_controle_s (MD5 des TIFF), t_conversion_s (lecture
+du TIFF, JPEG et son controle), t_mets_s (METS et validation), t_envoi_s (envoi,
+controle sur S3, suppression), et tiff_octets / jpeg_octets. Pendant le lot, une
+ligne d'avancement (--avancement, 60 s) donne l'ecoule et le reste estime. En fin
+de lot, le bilan donne la cadence (s/page, pages/h, Go de TIFF/h) et, avec
+--estimer-pages N, la duree estimee pour N pages a cette cadence : elle ne vaut
+que pour la meme machine, le meme --workers et les memes options.
+
 Un fascicule qui echoue en cours de conversion ne laisse rien de la tentative : ses
 JPEG deja ecrits sont supprimes (cf. process_fascicule). Un arret brutal du
 traitement echappe a ce nettoyage : le METS fait foi, ne deposer que les
@@ -110,6 +119,7 @@ EAD_OCR_DIR = join(ROOT, "results", "ead", "corpus_ocr")
 XSD_DIR = join(ROOT, "data", "xsd")  # copies locales des schemas loc.gov
 QUALITY = 80
 BUCKET = "mediatheque-patarch-communicable"  # celui de tous les fichiers presse du ref
+T_PHASES = ("t_controle_s", "t_conversion_s", "t_mets_s", "t_envoi_s")
 LIBELLES = {"invalide": "INVALIDE", "erreur_envoi": "ECHEC ENVOI"}
 # titres corriges la ou le setName OAI s'ecarte du titre du journal
 TITRES = {"PRA_AVE": "L’Avenir de Roubaix-Tourcoing"}
@@ -443,7 +453,10 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
     res = {"fascicule": job["fasc"], "corpus_code": job["corpus"], "pages": len(job["pages"]),
            "jpeg_crees": 0, "couleur_sans_profil": 0, "pages_incompletes": len(incompletes),
            "manques": " ; ".join(f"{p}: {', '.join(m)}" for p, m in incompletes.items()),
-           "mets": "", "status": "ok", "msg": "", "jpegs": []}
+           "mets": "", "status": "ok", "msg": "", "jpegs": [],
+           "tiff_octets": sum(f["tif"]["size"] for f in job["pages"].values() if "tif" in f), "jpeg_octets": 0,
+           "t_controle_s": 0.0, "t_conversion_s": 0.0, "t_mets_s": 0.0, "t_envoi_s": 0.0}
+    t = time.perf_counter()
     try:
         manquants = [p for p, f in job["pages"].items() if "tif" in f and not exists(f["tif"]["local"])]
         if manquants:
@@ -454,6 +467,7 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
             if tif and md5_file(tif["local"]) != tif["md5"]:
                 raise ValueError(f"MD5 du TIFF local different du ref : {tif['local']}")
 
+        res["t_controle_s"], t = time.perf_counter() - t, time.perf_counter()
         software = (basename(__file__), version)
         for page in sorted(job["pages"]):
             files = job["pages"][page]
@@ -492,11 +506,14 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
                 "size": files["jpg"]["size"], "checksum_md5": files["jpg"]["md5"],
                 "uuid": mix.findtext(".//mix:objectIdentifierValue", namespaces=NS), "s3_key": jpg_key})
 
+        res["jpeg_octets"] = sum(j["size"] for j in res["jpegs"])
+        res["t_conversion_s"], t = time.perf_counter() - t, time.perf_counter()
         tree = build_mets(job, job["pages"], version)
         os.makedirs(dirname(mets_path), exist_ok=True)
         tree.write(mets_path + ".part", encoding="utf-8", xml_declaration=True, pretty_print=True)
         os.replace(mets_path + ".part", mets_path)
         res["mets"] = mets_path
+        res["t_mets_s"] = time.perf_counter() - t
     except Exception as e:  # erreur isolee par fascicule
         res.update(status="erreur", msg=f"{e}\n{traceback.format_exc()}" if not isinstance(e, ValueError) else str(e),
                    jpegs=[])
@@ -544,6 +561,18 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
     fichiers locaux. Le METS part en dernier : sa presence sur S3 signifie que
     le fascicule y est complet, et une relance le saute (statut deja_envoye)."""
     global _SCHEMA, _CLIENT
+    t0 = time.perf_counter()
+    res = _run_fascicule(job, out_dir, quality, overwrite, version, validate, upload)
+    res["duree_s"] = time.perf_counter() - t0
+    for k in ("duree_s", *T_PHASES):
+        if k in res:
+            res[k] = round(res[k], 2)
+    return res
+
+
+def _run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, version: str, validate: bool,
+                   upload: dict) -> dict:
+    global _SCHEMA, _CLIENT
     mets_key = f"{job['prefix']}.mets.xml"
     if upload:
         import presse_upload
@@ -560,9 +589,11 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
 
     res = process_fascicule(job, out_dir, quality, overwrite, version)
     if validate and res["status"] == "ok":
+        t = time.perf_counter()
         if _SCHEMA is None:
             _SCHEMA = load_schema()
         msg = validation_errors(_SCHEMA, res["mets"])
+        res["t_mets_s"] += time.perf_counter() - t
         if msg:
             res.update(status="invalide", msg=msg, jpegs=[])
     if res["status"] != "ok":
@@ -571,10 +602,12 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
     if not upload:
         return res
 
+    t = time.perf_counter()
     for row in res["jpegs"]:  # JPEG d'abord, METS en dernier ; arret au premier echec
         sent = presse_upload.send_one(row, out_dir, _CLIENT, upload["bucket"], overwrite)
         row.update(envoi=sent["status"], envoi_date=sent["uploaded_file_lastmodified"])
         if sent["status"] not in ("envoye", "deja_present"):
+            res["t_envoi_s"] = time.perf_counter() - t
             res.update(status="erreur_envoi", jpegs=[],
                        msg=f"{sent['key']} : {sent['error']} [fichiers du fascicule laisses sous {out_dir}]")
             return res
@@ -587,7 +620,42 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
         res["msg"] = f"envoye, mais suppression locale impossible : {e}"
     if not upload["keep_mets"]:
         res["mets"] = mets_key
+    res["t_envoi_s"] = time.perf_counter() - t  # envoi, controle sur S3 et suppression locale
     return res
+
+
+def hms(seconds: float) -> str:
+    """Duree lisible : 45 s, 12 min 05 s, 3 h 20 min, 4 j 07 h."""
+    s = int(round(seconds))
+    if s < 60:
+        return f"{s} s"
+    if s < 3600:
+        return f"{s // 60} min {s % 60:02d} s"
+    if s < 86400:
+        return f"{s // 3600} h {s % 3600 // 60:02d} min"
+    return f"{s // 86400} j {s % 86400 // 3600:02d} h"
+
+
+def bilan_durees(rows: list, elapsed: float, workers: int, total_pages: int) -> str:
+    """Bilan des durees du lot et cadence, d'apres les fascicules au statut ok ;
+    avec total_pages, duree estimee pour ce nombre de pages a la meme cadence
+    (meme machine, meme --workers, memes options)."""
+    ok = [r for r in rows if r["status"] == "ok"]
+    pages = sum(r["pages"] for r in ok)
+    if not pages:
+        return "Durees : aucun fascicule au statut ok, pas de cadence mesuree."
+    go = sum(r["tiff_octets"] for r in ok) / 1e9
+    travail = sum(r["duree_s"] for r in ok)
+    lines = [f"Durees : {hms(elapsed)} pour {len(ok)} fascicule(s), {pages} page(s), {go:.2f} Go de TIFF, "
+             f"{sum(r['jpeg_octets'] for r in ok) / 1e9:.2f} Go de JPEG ({workers} processus).",
+             f"  cadence du lot : {elapsed / pages:.2f} s/page, {pages / elapsed * 3600:.0f} pages/h, "
+             f"{go / elapsed * 3600:.1f} Go de TIFF/h",
+             f"  travail par page (un processus) : {travail / pages:.2f} s, dont "
+             + ", ".join(f"{lib} {sum(r[k] for r in ok) / pages:.2f} s"
+                         for k, lib in zip(T_PHASES, ("controle MD5 du TIFF", "conversion", "METS", "envoi S3")))]
+    if total_pages:
+        lines.append(f"  estimation pour {total_pages} pages a cette cadence : {hms(elapsed / pages * total_pages)}")
+    return "\n".join(lines)
 
 
 def mets_row(res: dict, out_dir: str) -> dict:
@@ -688,6 +756,11 @@ def main():
     ap.add_argument("--keep-mets", action="store_true", help="avec --upload : garder les METS sous --out-dir")
     ap.add_argument("--max-echecs-envoi", type=int, default=5,
                     help="avec --upload : arreter le lot apres ce nombre de fascicules en echec d'envoi")
+    ap.add_argument("--avancement", type=float, default=60,
+                    help="secondes entre deux lignes d'avancement (ecoule, reste estime du lot)")
+    ap.add_argument("--estimer-pages", type=int, default=0,
+                    help="nombre total de pages a convertir : la duree en est estimee en fin de lot, "
+                         "a la cadence mesuree")
     ap.add_argument("--csv-out", help="recapitulatif par fascicule "
                                       "(defaut : <out-dir>/presse_mets_AAAAMMJJHHMMSS.csv)")
     ap.add_argument("--jpeg-csv-out", help="recapitulatif par JPEG, entree de presse_upload.py "
@@ -712,13 +785,15 @@ def main():
     csv_out = args.csv_out or join(args.out_dir, f"presse_mets_{stamp}.csv")
     jpeg_csv_out = args.jpeg_csv_out or join(args.out_dir, f"presse_jpeg_{stamp}.csv")
     fields = ["fascicule", "corpus_code", "status", "pages", "jpeg_crees", "couleur_sans_profil",
-              "pages_incompletes", "manques", "mets", "msg"]
+              "pages_incompletes", "manques", "mets", "tiff_octets", "jpeg_octets", "duree_s", *T_PHASES, "msg"]
     jpeg_fields = ["fascicule", "corpus_code", "type", "name", "path", "size", "checksum_md5", "uuid", "s3_key"]
     if upload:
         jpeg_fields += ["envoi", "envoi_date"]
     jpeg_rows = []
     rows = [{"fascicule": f, "corpus_code": c, "status": "refuse", "msg": m} for f, c, m in refused]
     echecs_envoi = 0
+    total = sum(len(j["pages"]) for j in jobs)  # pages du lot, pour l'avancement
+    faites, dernier = 0, 0.0
     t0 = time.time()
     # recapitulatifs ecrits au fil de l'eau, a chaque fascicule termine : une
     # interruption du lot en laisse l'etat sur disque
@@ -745,6 +820,12 @@ def main():
                 rows.append(res)
                 w.writerow(res)
                 f.flush()
+                faites += res["pages"]
+                if time.time() - dernier >= args.avancement or faites == total:
+                    dernier, ecoule = time.time(), time.time() - t0
+                    print(f"[{datetime.now():%H:%M:%S}] {len(rows) - len(refused)}/{len(jobs)} fascicules, "
+                          f"{faites}/{total} pages, ecoule {hms(ecoule)}, "
+                          f"reste estime {hms(ecoule / faites * (total - faites))}", file=sys.stderr)
                 if res["status"] == "ok":  # seuls les fascicules complets et valides sont a deposer
                     jpeg_rows.extend(jpegs)
                     wj.writerows(jpegs)
@@ -772,6 +853,8 @@ def main():
           + f"{len(rows) - ok - deja} fascicule(s) en echec/refuse(s)/invalide(s), "
           f"{len(jobs) + len(refused) - len(rows)} abandonne(s), "
           f"en {time.time() - t0:.1f}s. Recapitulatif : {csv_out}")
+    elapsed = time.time() - t0
+    print(bilan_durees(rows, elapsed, args.workers, args.estimer_pages))
     print(f"{len(jpeg_rows)} fichiers (JPEG + METS) {'deposes' if upload else 'a deposer'}, decrits dans {jpeg_csv_out}")
     incomplets = sum(bool(r.get("pages_incompletes")) for r in rows)
     if incomplets:
