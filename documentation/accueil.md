@@ -29,6 +29,7 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 
 → [Recap d'audit par corpus (`stagemel_*`)](files/scripts/stagemel.md) — diagnostic
 REF/DAO par corpus (21 corpus hors pipeline standard), sans résolution automatique
+· [lire un récapitulatif : colonnes CAS et STATUT](files/scripts/stagemel_recap_colonnes.md)
 
 → [corpus → instrument de recherche](files/scripts/corpus_ir.md) — `results/ead/corpus_ir.csv`, matérialise le lien corpus_code ↔ notice EAD (déduit, pas déclaré ailleurs)
 
@@ -43,7 +44,9 @@ Verser les fichiers de conservation sur le stockage S3 et en assurer le suivi.
 Transformer les fichiers EAD produits par la bn-r pour les importer dans le logiciel
 d'archivistique Mnesys.
 
-→ [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md) — `<dao>` / `<daogrp>` dans les IR
+→ [Guide de lecture des liens `<dao>`](files/donnees/dao_guide_boscop.docx?raw=true) —
+pour qui reçoit et exploite les IR (sans a priori sur leur production ; rédigé pour Boscop/Ligeo diffusion, maintenu directement en `.docx`)
+· [Les liens DAO : structures et cas de figure](files/donnees/dao_daogrp.md) — `<dao>` / `<daogrp>` dans les IR, côté production
 · [Guide pratique : corriger un lien via `<odd>`](files/donnees/guide_odd_publication.md)
 
 → **[Chaîne d'appariement des DAO](files/scripts/dao_appariement.md)** — vue d'ensemble, flux et enchaînement des scripts
@@ -52,7 +55,8 @@ Détail par script :
 → [Liste des IR à traiter](files/scripts/ead_liste_ir.md) · [ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md) (id Mnesys : [mnesys_id](files/scripts/mnesys_id.md)) · [Liens sans conservation](files/scripts/dao_sans_conservation.md) · [Appariement des orphelins](files/scripts/dao_appariement_conservation.md) · [Développement des plages](files/scripts/dao_first_last_developpe.md) · [Vérification dans le référentiel](files/scripts/dao_first_last_verif_ref.md) · [Plages non contiguës](files/scripts/dao_first_last_plages_lacunaires.md) · [Accès sans conservation](files/scripts/dao_first_last_access_sans_conservation.md)
 
 **Indexation** — à partir des `<controlaccess>` des IR transformés :
-→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md)
+→ **[Indexation géographique : état des travaux et reprise](files/scripts/indexation_geographique.md)**
+→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Export géographique GeoJSON](files/scripts/geogname2geo.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Concordance des noms de voies](files/scripts/geogname_concordance.md) · [Référentiel des geogname](files/scripts/geogname_referentiel.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.

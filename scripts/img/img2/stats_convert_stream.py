@@ -111,10 +111,14 @@ def construire_pivots(df: pd.DataFrame):
     df = df.copy()
     df["taille_Mo"] = df["taille"] / MO
 
-    qualites = sorted(
+    # toutes les qualites reconnues (qNN), triees numeriquement, PUIS "inconnue" en
+    # dernier si des jpg ne matchent pas le motif _qNN attendu : on ne les ecarte
+    # plus silencieusement, pour que tout jpg trouve sur disque reste visible.
+    qualites_num = sorted(
         [q for q in df["qualite"].unique() if q != "inconnue"],
         key=lambda q: int(q[1:]),
     )
+    qualites = qualites_num + (["inconnue"] if "inconnue" in df["qualite"].unique() else [])
 
     piv = df.pivot_table(index="stem_key", columns="qualite", values="taille_Mo", aggfunc="first")
     piv = piv.reindex(columns=qualites)
