@@ -29,7 +29,7 @@ from os.path import basename, dirname, exists, getsize, join, splitext
 
 import pandas as pd
 
-from common import relkey
+from common import jpegsave_tagged, prepare_for_jpeg, relkey
 
 # Sous Windows, libvips est fournie comme DLL autonome : on ajoute son dossier au PATH
 # AVANT d'importer pyvips. Sur Linux/macOS, libvips est installee par le gestionnaire
@@ -64,11 +64,8 @@ def convert_group(src_str: str, corpus_code: str, outputs: list) -> list:
 
     try:
         image = pyvips.Image.new_from_file(src_str, access="sequential")
-        # Conversion vers sRGB uniquement si l'image a un profil embarque et
-        # au moins 3 bandes (une image en niveaux de gris n'a pas de teinte
-        # a corriger, et la conversion la ferait passer inutilement en RGB).
-        if image.bands >= 3 and image.get_typeof("icc-profile-data") != 0:
-            image = image.icc_transform("srgb")
+        # ICC -> sRGB et passage en 8 bits si besoin (cf. common.prepare_for_jpeg).
+        image, steps = prepare_for_jpeg(image)
         if len(outputs) > 1:
             # Materialise les pixels en memoire : en access="sequential", l'image
             # ne peut etre lue qu'une fois en flux, donc un 2e jpegsave planterait
@@ -84,8 +81,8 @@ def convert_group(src_str: str, corpus_code: str, outputs: list) -> list:
     for dst_str, quality in outputs:
         try:
             os.makedirs(dirname(dst_str), exist_ok=True)
-            # JPEG progressif (meilleur rendu au chargement web).
-            image.jpegsave(dst_str, Q=quality, interlace=True)
+            # JPEG progressif (meilleur rendu au chargement web), trace XMP.
+            jpegsave_tagged(image, dst_str, quality, steps)
             results.append({
                 "src": src_str, "corpus_code": corpus_code, "dst": dst_str, "quality": quality,
                 "status": "ok", "msg": "",
