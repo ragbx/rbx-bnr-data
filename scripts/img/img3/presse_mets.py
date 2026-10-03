@@ -48,9 +48,10 @@ pages_incompletes et manques signalent les pages auxquelles il manque au ref un
 TIFF, un ALTO, un texte ou un PDF (ex. « 003: alto, txt ; 007: pdf ») : le METS
 est produit avec ce qui existe, le statut reste ok.
 
-Un second recapitulatif (presse_jpeg_*.csv) donne une ligne par JPEG des
-fascicules au statut ok : name, path (relatif a <out-dir>), size, checksum_md5,
-uuid, s3_key. C'est l'entree de presse_upload.py, qui envoie les JPEG sur S3.
+Un second recapitulatif (presse_jpeg_*.csv) donne une ligne par fichier a
+deposer des fascicules au statut ok, JPEG (type jpeg) et METS (type mets, sans
+uuid) : name, path (relatif a <out-dir>), size, checksum_md5, uuid, s3_key. C'est
+l'entree de presse_upload.py, qui envoie sur S3 les JPEG puis le METS.
 
 Un fascicule qui echoue en cours de conversion ne laisse rien de la tentative : ses
 JPEG deja ecrits sont supprimes (cf. process_fascicule). Un arret brutal du
@@ -78,7 +79,7 @@ import traceback
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
-from os.path import basename, dirname, exists, getsize, join
+from os.path import basename, dirname, exists, getsize, join, relpath
 from uuid import uuid4
 
 import pandas as pd
@@ -471,7 +472,7 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
             files["jpg"] = {"key": jpg_key, "size": getsize(dst), "md5": md5_file(dst),
                             "admid": f"TECH_JPG_{page}", "mix": mix, "created": created}
             res["jpegs"].append({
-                "fascicule": job["fasc"], "corpus_code": job["corpus"],
+                "fascicule": job["fasc"], "corpus_code": job["corpus"], "type": "jpeg",
                 "name": posixpath.basename(jpg_key), "path": posixpath.dirname(jpg_key),
                 "size": files["jpg"]["size"], "checksum_md5": files["jpg"]["md5"],
                 "uuid": mix.findtext(".//mix:objectIdentifierValue", namespaces=NS), "s3_key": jpg_key})
@@ -501,6 +502,14 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
             res["jpeg_crees"] = 0
             res["msg"] += f" [nettoyage : {' ; '.join(bilan)}]"
     return res
+
+
+def mets_row(res: dict, out_dir: str) -> dict:
+    """Ligne du METS d'un fascicule ok, au recapitulatif a deposer (sans uuid : il n'est pas au ref)."""
+    rel = relpath(res["mets"], out_dir).replace(os.sep, "/")
+    return {"fascicule": res["fascicule"], "corpus_code": res["corpus_code"], "type": "mets",
+            "name": posixpath.basename(rel), "path": posixpath.dirname(rel), "size": getsize(res["mets"]),
+            "checksum_md5": md5_file(res["mets"]), "uuid": "", "s3_key": rel}
 
 
 def load_extract(path: str) -> pd.DataFrame:
@@ -605,7 +614,7 @@ def main():
     jpeg_csv_out = args.jpeg_csv_out or join(args.out_dir, f"presse_jpeg_{stamp}.csv")
     fields = ["fascicule", "corpus_code", "status", "pages", "jpeg_crees", "couleur_sans_profil",
               "pages_incompletes", "manques", "mets", "msg"]
-    jpeg_fields = ["fascicule", "corpus_code", "name", "path", "size", "checksum_md5", "uuid", "s3_key"]
+    jpeg_fields = ["fascicule", "corpus_code", "type", "name", "path", "size", "checksum_md5", "uuid", "s3_key"]
     jpeg_rows = []
     rows = [{"fascicule": f, "corpus_code": c, "status": "refuse", "msg": m} for f, c, m in refused]
     t0 = time.time()
@@ -637,6 +646,7 @@ def main():
                 w.writerow(res)
                 f.flush()
                 if res["status"] == "ok":  # seuls les fascicules complets et valides sont a deposer
+                    jpegs.append(mets_row(res, args.out_dir))
                     jpeg_rows.extend(jpegs)
                     wj.writerows(jpegs)
                     fj.flush()
@@ -652,7 +662,7 @@ def main():
     ok = sum(r["status"] == "ok" for r in rows)
     print(f"Termine : {ok} METS, {len(rows) - ok} fascicule(s) en echec/refuse(s)/invalide(s), "
           f"en {time.time() - t0:.1f}s. Recapitulatif : {csv_out}")
-    print(f"{len(jpeg_rows)} JPEG a deposer, decrits dans {jpeg_csv_out}")
+    print(f"{len(jpeg_rows)} fichiers (JPEG + METS) a deposer, decrits dans {jpeg_csv_out}")
     incomplets = sum(bool(r.get("pages_incompletes")) for r in rows)
     if incomplets:
         print(f"{incomplets} fascicule(s) avec des pages incompletes (colonnes pages_incompletes et manques).")
