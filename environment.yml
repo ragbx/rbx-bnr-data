@@ -14,6 +14,8 @@ dependencies:
   - tqdm=4.67.1
   # Conversion d'images (TIF -> JP2/JPEG/TIFF pyramidal) : libvips avec OpenJPEG.
   - pyvips
+  # Lecture des tags TIFF/profils ICC (presse_mets.py : MIX du TIFF)
+  - pillow
   # AWS S3
   - boto3
   # EAD / RDF
