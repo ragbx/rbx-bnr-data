@@ -14,11 +14,12 @@ Pour chaque fichier :
 1. controle local : le fichier existe, sa taille et son MD5 sont ceux du
    recapitulatif (sinon erreur, rien n'est envoye) ;
 2. sans --execute, on s'arrete la (simulation : aucun appel a S3) ;
-3. un objet deja present a cette s3_key n'est pas ecrase (sauf --overwrite) ;
+3. un objet deja present a cette s3_key n'est pas ecrase (sauf --overwrite) :
+   il doit avoir la taille et le MD5 du fichier local, sinon erreur ;
 4. envoi a sa s3_key, avec les etiquettes uuid et checksum_md5 comme
-   scripts/s3/upload.py, et le type image/jpeg ; la taille de l'objet depose est
-   comparee a celle du fichier (METS : etiquette checksum_md5 seule, type
-   application/xml).
+   scripts/s3/upload.py, et le type image/jpeg (METS : etiquette checksum_md5
+   seule, type application/xml) ; l'objet depose est ensuite controle : taille
+   et MD5 (ETag, ou relecture de l'objet s'il a ete envoye en plusieurs parties).
 
 L'acces S3 est celui de scripts/s3/rbx_s3.py (conf.yml, utilisateur user_rw).
 
@@ -34,6 +35,7 @@ import argparse
 import csv
 import hashlib
 import os
+import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -63,29 +65,56 @@ def md5_file(path: str) -> str:
     return h.hexdigest()
 
 
-def remote_exists(client, bucket: str, key: str) -> bool:
+def remote_head(client, bucket: str, key: str):
+    """head_object de la cle, None si l'objet n'existe pas."""
     from botocore.exceptions import ClientError
 
     try:
-        client.s3_client.head_object(Bucket=bucket, Key=key)
-        return True
+        return client.s3_client.head_object(Bucket=bucket, Key=key)
     except ClientError as e:
         if e.response.get("Error", {}).get("Code") in ("404", "NoSuchKey", "NotFound"):
-            return False
+            return None
         raise
 
 
+def remote_exists(client, bucket: str, key: str) -> bool:
+    return remote_head(client, bucket, key) is not None
+
+
+def verify_remote(client, bucket: str, key: str, size: int, md5: str, head=None) -> dict:
+    """Controle l'objet depose : taille et MD5 du fichier local. Le MD5 est lu dans
+    l'ETag quand c'en est un (envoi en une partie) ; sinon (envoi en plusieurs
+    parties) l'objet est relu en entier. Leve ValueError au moindre ecart."""
+    head = head or remote_head(client, bucket, key)
+    if head is None:
+        raise ValueError("objet absent de S3 apres l'envoi")
+    if head["ContentLength"] != size:
+        raise ValueError(f"taille sur S3 {head['ContentLength']} differente du fichier ({size})")
+    etag = head.get("ETag", "").strip('"').lower()
+    if not re.fullmatch(r"[0-9a-f]{32}", etag):
+        h = hashlib.md5()
+        for chunk in client.s3_client.get_object(Bucket=bucket, Key=key)["Body"].iter_chunks(1 << 20):
+            h.update(chunk)
+        etag = h.hexdigest()
+    if etag != md5:
+        raise ValueError(f"MD5 sur S3 {etag} different du fichier ({md5})")
+    return head
+
+
 def send_one(row: dict, source: str, client, bucket: str, overwrite: bool) -> dict:
-    """Controle puis envoie un JPEG ; client=None : simulation, aucun appel a S3."""
+    """Controle puis envoie un fichier ; client=None : simulation, aucun appel a S3.
+    Statut envoye ou deja_present : l'objet sur S3 a la taille et le MD5 du fichier."""
     kind = row.get("type") or "jpeg"  # anciens recapitulatifs : JPEG seuls
-    res = {"fascicule": row.get("fascicule", ""), "type": kind, "name": row["name"], "path": row["path"], "checksum_md5": row["checksum_md5"], "uuid": row["uuid"],
+    res = {"fascicule": row.get("fascicule", ""), "type": kind, "name": row["name"], "path": row["path"],
+           "checksum_md5": row["checksum_md5"], "uuid": row["uuid"],
            "size": row["size"], "key": row["s3_key"], "uploaded": False, "uploaded_file_size": None,
            "uploaded_file_lastmodified": None, "error": None, "status": "erreur"}
     try:
+        size = int(row["size"])
         local = join(source, *row["path"].split("/"), row["name"])
         if not exists(local):
             raise ValueError(f"fichier absent : {local}")
-        if getsize(local) != int(row["size"]):
+        if getsize(local) != size:
             raise ValueError(f"taille locale {getsize(local)} differente du recapitulatif")
         if md5_file(local) != row["checksum_md5"]:
             raise ValueError("MD5 local different du recapitulatif")
@@ -94,19 +123,24 @@ def send_one(row: dict, source: str, client, bucket: str, overwrite: bool) -> di
         if client is None:
             res["status"] = "simule"
             return res
-        if not overwrite and remote_exists(client, bucket, row["s3_key"]):
-            res["status"] = "deja_present"
+        head = None if overwrite else remote_head(client, bucket, row["s3_key"])
+        if head is not None:
+            try:
+                verify_remote(client, bucket, row["s3_key"], size, row["checksum_md5"], head)
+            except ValueError as e:
+                raise ValueError(f"objet deja present et different, relancer avec --overwrite ({e})") from e
+            res.update(status="deja_present", uploaded_file_size=head["ContentLength"],
+                       uploaded_file_lastmodified=head["LastModified"].isoformat())
             return res
         tags = f"checksum_md5={row['checksum_md5']}"
         if row["uuid"]:
             tags = f"uuid={row['uuid']}&{tags}"
         up = client.upload(local, bucket, row["s3_key"], ExtraArgs={"Tagging": tags, "ContentType": CONTENT_TYPES[kind]})
-        res.update(uploaded=bool(up.get("result")), uploaded_file_size=up.get("size"),
-                   uploaded_file_lastmodified=up.get("LastModified"), error=up.get("error"))
-        if res["uploaded"] and res["uploaded_file_size"] != int(row["size"]):
-            res["error"] = "cohérence tailles"
-        if res["uploaded"] and not res["error"]:
-            res["status"] = "envoye"
+        if not up.get("result"):
+            raise ValueError(up.get("error") or "envoi en echec")
+        head = verify_remote(client, bucket, row["s3_key"], size, row["checksum_md5"])
+        res.update(uploaded=True, uploaded_file_size=head["ContentLength"],
+                   uploaded_file_lastmodified=head["LastModified"].isoformat(), status="envoye")
     except Exception as e:  # erreur isolee par fichier
         res["error"] = str(e)
     return res

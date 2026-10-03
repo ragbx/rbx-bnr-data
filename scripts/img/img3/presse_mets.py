@@ -53,6 +53,18 @@ deposer des fascicules au statut ok, JPEG (type jpeg) et METS (type mets, sans
 uuid) : name, path (relatif a <out-dir>), size, checksum_md5, uuid, s3_key. C'est
 l'entree de presse_upload.py, qui envoie sur S3 les JPEG puis le METS.
 
+Avec --upload (ENVOI REEL, pour une machine a peu d'espace disque), chaque
+fascicule va au bout avant le suivant (cf. run_fascicule) : JPEG et METS,
+validation, envoi sur S3 des JPEG puis du METS (presse_upload.send_one), controle
+de chaque objet depose (taille et MD5), puis suppression des fichiers locaux
+(--keep-mets garde les METS). Le disque ne porte donc que les fascicules en
+cours (--workers). Rien n'est supprime si un envoi echoue (statut erreur_envoi,
+fichiers laisses sur place) ; apres --max-echecs-envoi echecs, le lot s'arrete.
+Une relance saute les fascicules dont le METS est deja sur S3 (statut
+deja_envoye) : le METS part en dernier, sa presence vaut fascicule complet. Les
+recapitulatifs sont alors la seule trace locale des uuid et MD5 des JPEG (colonnes
+envoi et envoi_date en plus) : les conserver.
+
 Un fascicule qui echoue en cours de conversion ne laisse rien de la tentative : ses
 JPEG deja ecrits sont supprimes (cf. process_fascicule). Un arret brutal du
 traitement echappe a ce nettoyage : le METS fait foi, ne deposer que les
@@ -64,6 +76,7 @@ et de fin. PRA_BDR (pas de set OAI, ALTO/TXT/PDF sans s3_key) n'est pas couvert.
 
 Usage :
   python presse_mets.py extrait_ref.csv --source /mnt/bnr --out-dir /chemin/sortie [--workers 8] [--validate]
+  python presse_mets.py extrait_ref.csv --source /mnt/bnr --out-dir /chemin/sortie --validate --upload   # envoi reel
 """
 
 import argparse
@@ -96,6 +109,8 @@ SETS_PATH = join(ROOT, "results", "oai", f"bnr_sets_{REF_DATE}.csv")
 EAD_OCR_DIR = join(ROOT, "results", "ead", "corpus_ocr")
 XSD_DIR = join(ROOT, "data", "xsd")  # copies locales des schemas loc.gov
 QUALITY = 80
+BUCKET = "mediatheque-patarch-communicable"  # celui de tous les fichiers presse du ref
+LIBELLES = {"invalide": "INVALIDE", "erreur_envoi": "ECHEC ENVOI"}
 # titres corriges la ou le setName OAI s'ecarte du titre du journal
 TITRES = {"PRA_AVE": "L’Avenir de Roubaix-Tourcoing"}
 AGENT = "Médiathèque et Archives de Roubaix"
@@ -504,6 +519,77 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
     return res
 
 
+_SCHEMA = None  # par processus de travail : schema XSD et client S3, crees au premier besoin
+_CLIENT = None
+
+
+def remove_sent(paths: list, out_dir: str):
+    """Supprime les fichiers envoyes et leurs repertoires devenus vides (sous out_dir)."""
+    for path in paths:
+        os.remove(path)
+    for folder in {dirname(p) for p in paths}:
+        while folder != out_dir and folder.startswith(out_dir):
+            try:
+                os.rmdir(folder)  # echoue si non vide (autre fascicule en cours) : on s'arrete la
+            except OSError:
+                break
+            folder = dirname(folder)
+
+
+def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, version: str, validate: bool,
+                  upload: dict) -> dict:
+    """Un fascicule de bout en bout : conversion et METS (process_fascicule),
+    validation XSD, puis, si upload (bucket, keep_mets) est fourni, envoi sur S3
+    des JPEG puis du METS, controle des objets deposes et suppression des
+    fichiers locaux. Le METS part en dernier : sa presence sur S3 signifie que
+    le fascicule y est complet, et une relance le saute (statut deja_envoye)."""
+    global _SCHEMA, _CLIENT
+    mets_key = f"{job['prefix']}.mets.xml"
+    if upload:
+        import presse_upload
+
+        try:
+            if _CLIENT is None:
+                _CLIENT = presse_upload.make_client()
+            if not overwrite and presse_upload.remote_exists(_CLIENT, upload["bucket"], mets_key):
+                return {"fascicule": job["fasc"], "corpus_code": job["corpus"], "pages": len(job["pages"]),
+                        "status": "deja_envoye", "mets": mets_key, "msg": "METS deja sur S3", "jpegs": []}
+        except Exception as e:  # S3 injoignable : ne rien convertir
+            return {"fascicule": job["fasc"], "corpus_code": job["corpus"], "pages": len(job["pages"]),
+                    "status": "erreur_envoi", "msg": f"S3 : {e}", "jpegs": []}
+
+    res = process_fascicule(job, out_dir, quality, overwrite, version)
+    if validate and res["status"] == "ok":
+        if _SCHEMA is None:
+            _SCHEMA = load_schema()
+        msg = validation_errors(_SCHEMA, res["mets"])
+        if msg:
+            res.update(status="invalide", msg=msg, jpegs=[])
+    if res["status"] != "ok":
+        return res
+    res["jpegs"].append(mets_row(res, out_dir))
+    if not upload:
+        return res
+
+    for row in res["jpegs"]:  # JPEG d'abord, METS en dernier ; arret au premier echec
+        sent = presse_upload.send_one(row, out_dir, _CLIENT, upload["bucket"], overwrite)
+        row.update(envoi=sent["status"], envoi_date=sent["uploaded_file_lastmodified"])
+        if sent["status"] not in ("envoye", "deja_present"):
+            res.update(status="erreur_envoi", jpegs=[],
+                       msg=f"{sent['key']} : {sent['error']} [fichiers du fascicule laisses sous {out_dir}]")
+            return res
+    # tout le fascicule est sur S3, taille et MD5 controles : les fichiers locaux peuvent partir
+    locaux = [join(out_dir, *r["s3_key"].split("/")) for r in res["jpegs"]
+              if r["type"] == "jpeg" or not upload["keep_mets"]]
+    try:
+        remove_sent(locaux, out_dir)
+    except OSError as e:
+        res["msg"] = f"envoye, mais suppression locale impossible : {e}"
+    if not upload["keep_mets"]:
+        res["mets"] = mets_key
+    return res
+
+
 def mets_row(res: dict, out_dir: str) -> dict:
     """Ligne du METS d'un fascicule ok, au recapitulatif a deposer (sans uuid : il n'est pas au ref)."""
     rel = relpath(res["mets"], out_dir).replace(os.sep, "/")
@@ -595,19 +681,32 @@ def main():
     ap.add_argument("--overwrite", action="store_true", help="regenerer les JPEG deja presents")
     ap.add_argument("--validate", action="store_true",
                     help="valider chaque METS contre les XSD METS/MODS/MIX de data/xsd")
+    ap.add_argument("--upload", action="store_true",
+                    help="ENVOI REEL : envoyer chaque fascicule sur S3 des qu'il est pret (JPEG puis METS), "
+                         "controler les objets deposes, puis supprimer les fichiers locaux")
+    ap.add_argument("--bucket", default=BUCKET)
+    ap.add_argument("--keep-mets", action="store_true", help="avec --upload : garder les METS sous --out-dir")
+    ap.add_argument("--max-echecs-envoi", type=int, default=5,
+                    help="avec --upload : arreter le lot apres ce nombre de fascicules en echec d'envoi")
     ap.add_argument("--csv-out", help="recapitulatif par fascicule "
                                       "(defaut : <out-dir>/presse_mets_AAAAMMJJHHMMSS.csv)")
     ap.add_argument("--jpeg-csv-out", help="recapitulatif par JPEG, entree de presse_upload.py "
                                            "(defaut : <out-dir>/presse_jpeg_AAAAMMJJHHMMSS.csv)")
     args = ap.parse_args()
 
+    out_dir = os.path.abspath(args.out_dir)
     jobs, refused, anomalies = build_jobs(load_extract(args.extrait), args.source, load_titles(args.sets))
     for a in anomalies:
         print(f"ANOMALIE ref : {a}", file=sys.stderr)
     print(f"{len(jobs)} fascicule(s) a traiter, {len(refused)} refuse(s) d'emblee.")
 
     version = script_version()
-    schema = load_schema() if args.validate else None
+    if args.validate:
+        load_schema()  # echoue ici, avant le lot, si les XSD manquent
+    upload = {"bucket": args.bucket, "keep_mets": args.keep_mets} if args.upload else None
+    if upload:
+        print(f"ENVOI REEL vers {args.bucket} : chaque fascicule est envoye, controle sur S3 puis supprime "
+              f"de {args.out_dir}.")
     os.makedirs(args.out_dir, exist_ok=True)
     stamp = f"{datetime.now():%Y%m%d%H%M%S}"
     csv_out = args.csv_out or join(args.out_dir, f"presse_mets_{stamp}.csv")
@@ -615,8 +714,11 @@ def main():
     fields = ["fascicule", "corpus_code", "status", "pages", "jpeg_crees", "couleur_sans_profil",
               "pages_incompletes", "manques", "mets", "msg"]
     jpeg_fields = ["fascicule", "corpus_code", "type", "name", "path", "size", "checksum_md5", "uuid", "s3_key"]
+    if upload:
+        jpeg_fields += ["envoi", "envoi_date"]
     jpeg_rows = []
     rows = [{"fascicule": f, "corpus_code": c, "status": "refuse", "msg": m} for f, c, m in refused]
+    echecs_envoi = 0
     t0 = time.time()
     # recapitulatifs ecrits au fil de l'eau, a chaque fascicule termine : une
     # interruption du lot en laisse l'etat sur disque
@@ -630,26 +732,30 @@ def main():
         wj.writeheader()
         fj.flush()
         with ProcessPoolExecutor(max_workers=args.workers) as pool:
-            futures = [pool.submit(process_fascicule, j, args.out_dir, args.quality, args.overwrite, version)
-                       for j in jobs]
+            futures = [pool.submit(run_fascicule, j, out_dir, args.quality, args.overwrite, version,
+                                   args.validate, upload) for j in jobs]
             for fut in as_completed(futures):
+                if fut.cancelled():
+                    continue
                 res = fut.result()
                 jpegs = res.pop("jpegs")
-                if schema is not None and res["status"] == "ok":
-                    msg = validation_errors(schema, res["mets"])
-                    if msg:
-                        res.update(status="invalide", msg=msg)
-                if res["status"] != "ok":
-                    print(f"{'INVALIDE' if res['status'] == 'invalide' else 'ECHEC'} {res['fascicule']} : "
-                          f"{res['msg']}", file=sys.stderr)
+                if res["status"] not in ("ok", "deja_envoye"):
+                    print(f"{LIBELLES.get(res['status'], 'ECHEC')} {res['fascicule']} : {res['msg']}",
+                          file=sys.stderr)
                 rows.append(res)
                 w.writerow(res)
                 f.flush()
                 if res["status"] == "ok":  # seuls les fascicules complets et valides sont a deposer
-                    jpegs.append(mets_row(res, args.out_dir))
                     jpeg_rows.extend(jpegs)
                     wj.writerows(jpegs)
                     fj.flush()
+                if res["status"] == "erreur_envoi":
+                    echecs_envoi += 1
+                    if echecs_envoi == args.max_echecs_envoi:  # ne pas remplir le disque si S3 ne repond plus
+                        print(f"{echecs_envoi} fascicules en echec d'envoi : arret du lot, les fascicules "
+                              f"non commences sont abandonnes.", file=sys.stderr)
+                        for other in futures:
+                            other.cancel()
 
     # fin de lot : memes recapitulatifs, tries
     for path, names, data, key in ((csv_out, fields, rows, lambda r: r["fascicule"]),
@@ -660,9 +766,13 @@ def main():
             w.writerows(sorted(data, key=key))
         os.replace(path + ".part", path)
     ok = sum(r["status"] == "ok" for r in rows)
-    print(f"Termine : {ok} METS, {len(rows) - ok} fascicule(s) en echec/refuse(s)/invalide(s), "
+    deja = sum(r["status"] == "deja_envoye" for r in rows)
+    print(f"Termine : {ok} METS{' envoyes avec leurs JPEG' if upload else ''}, "
+          + (f"{deja} fascicule(s) deja sur S3, " if deja else "")
+          + f"{len(rows) - ok - deja} fascicule(s) en echec/refuse(s)/invalide(s), "
+          f"{len(jobs) + len(refused) - len(rows)} abandonne(s), "
           f"en {time.time() - t0:.1f}s. Recapitulatif : {csv_out}")
-    print(f"{len(jpeg_rows)} fichiers (JPEG + METS) a deposer, decrits dans {jpeg_csv_out}")
+    print(f"{len(jpeg_rows)} fichiers (JPEG + METS) {'deposes' if upload else 'a deposer'}, decrits dans {jpeg_csv_out}")
     incomplets = sum(bool(r.get("pages_incompletes")) for r in rows)
     if incomplets:
         print(f"{incomplets} fascicule(s) avec des pages incompletes (colonnes pages_incompletes et manques).")
