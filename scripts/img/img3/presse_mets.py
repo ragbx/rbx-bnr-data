@@ -102,6 +102,7 @@ import subprocess
 import sys
 import time
 import traceback
+import warnings
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from datetime import datetime
@@ -213,8 +214,11 @@ def tiff_mix(path: str, size: int, uuid: str, ref_created: str = ""):
 
     with open(path, "rb") as f:
         byte_order = {b"II": "little endian", b"MM": "big endian"}.get(f.read(2))
-    with Image.open(path) as im:
-        tags = dict(im.tag_v2)
+    with warnings.catch_warnings():
+        # Pillow signale les tags au nombre de valeurs inattendu (IPTC 33723 des TIFF presse) : non utilises ici
+        warnings.filterwarnings("ignore", message="Metadata Warning", category=UserWarning)
+        with Image.open(path) as im:
+            tags = dict(im.tag_v2)
     root = etree.Element(q("mix", "mix"), nsmap={"mix": NS["mix"]})
 
     bdoi = sub(root, "mix", "BasicDigitalObjectInformation")
