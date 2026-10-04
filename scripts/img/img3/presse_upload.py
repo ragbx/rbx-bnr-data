@@ -17,8 +17,8 @@ Pour chaque fichier :
 3. un objet deja present a cette s3_key n'est pas ecrase (sauf --overwrite) :
    il doit avoir la taille et le MD5 du fichier local, sinon erreur ;
 4. envoi a sa s3_key, avec les etiquettes uuid et checksum_md5 comme
-   scripts/s3/upload.py, et le type image/jpeg (METS : etiquette checksum_md5
-   seule, type application/xml) ; l'objet depose est ensuite controle : taille
+   scripts/s3/upload.py, et le type image/jpeg (METS : memes etiquettes, type
+   application/xml) ; l'objet depose est ensuite controle : taille
    et MD5 (ETag, ou relecture de l'objet s'il a ete envoye en plusieurs parties).
 
 L'acces S3 est celui de scripts/s3/rbx_s3.py (conf.yml, utilisateur user_rw).
@@ -118,7 +118,7 @@ def send_one(row: dict, source: str, client, bucket: str, overwrite: bool) -> di
             raise ValueError(f"taille locale {getsize(local)} differente du recapitulatif")
         if md5_file(local) != row["checksum_md5"]:
             raise ValueError("MD5 local different du recapitulatif")
-        if kind == "jpeg" and not row["uuid"]:
+        if not row["uuid"]:
             raise ValueError("uuid vide au recapitulatif")
         if client is None:
             res["status"] = "simule"

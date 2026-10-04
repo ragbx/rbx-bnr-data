@@ -25,19 +25,24 @@ Pour chaque fascicule de l'extrait :
    fascicule est en erreur. Chaque JPEG recoit a sa creation un uuid (32 hexa,
    comme au ref), inscrit dans son XMP (dc:identifier) : une reprise le relit
    au lieu d'en creer un autre ;
-3. METS <out-dir>/<repertoire>/<fascicule>.mets.xml :
+3. METS <out-dir>/<repertoire>/<fascicule>_mets.xml :
    - dmdSec : deux MODS minimaux, l'un pour le titre de presse (titre d'apres le
      set OAI RBX_<corpus>, code du corpus), l'autre pour le fascicule (langue,
      date d'emission tiree de l'identifiant, identifiant local, recordIdentifier
      = debut de s3_key commun aux fichiers du fascicule, ARK actuel et ancien
      s'ils sont dans l'EAD results/ead/corpus_ocr/RBX_<corpus>.xml) ; l'OBJID
-     du METS est l'ARK actuel, a defaut l'identifiant local ;
+     du METS est sa propre s3_key sans l'extension (.../<fascicule>_mets) ;
+   - metsHdr : le METS recoit a sa creation un uuid (32 hexa, comme au ref),
+     inscrit en altRecordID TYPE="uuid" ; un METS regenere reprend l'uuid du
+     METS deja present sous <out-dir> au lieu d'en creer un autre ;
    - amdSec : un techMD MIX 2.0 par TIFF (relu dans le fichier : tags TIFF, sans
      decodage des pixels) et par JPEG (jpeg_to_mix.build_mix : uuid et trace
      XMP, sourceData = s3_key du TIFF, ce script et sa version git en
      ProcessingSoftware) ; pas de metadonnees techniques pour ALTO/TXT/PDF ;
    - fileSec : fileGrp master (TIFF), access (JPEG), alto, text, pdf ; MD5 et
      taille du ref (TIFF verifie, JPEG calcule) ; FLocat = s3_key complete ;
+     OWNERID = uuid du fichier (celui du ref ; pour le JPEG, celui de sa trace
+     XMP), repris aussi au MIX des TIFF et JPEG ;
    - structMap physique : issue > page (ORDER), un fptr par fichier de la page.
 
 Le recapitulatif CSV (une ligne par fascicule : ok, erreur, refuse, invalide) est
@@ -49,8 +54,7 @@ TIFF, un ALTO, un texte ou un PDF (ex. « 003: alto, txt ; 007: pdf ») : le MET
 est produit avec ce qui existe, le statut reste ok.
 
 Un second recapitulatif (presse_jpeg_*.csv) donne une ligne par fichier a
-deposer des fascicules au statut ok, JPEG (type jpeg) et METS (type mets, sans
-uuid) : name, path (relatif a <out-dir>), size, checksum_md5, uuid, s3_key. C'est
+deposer des fascicules au statut ok, JPEG (type jpeg) et METS (type mets) : name, path (relatif a <out-dir>), size, checksum_md5, uuid, s3_key. C'est
 l'entree de presse_upload.py, qui envoie sur S3 les JPEG puis le METS.
 
 Avec --upload (ENVOI REEL, pour une machine a peu d'espace disque), chaque
@@ -152,6 +156,10 @@ REF_EXT = {"tif": "tif", "tiff": "tif", "xml": "xml", "txt": "txt", "pdf": "pdf"
 # nom de fichier : <fascicule>_<page>.<ext> (espace parasite toleree avant l'extension)
 PAGE_RE = re.compile(r"^(?P<fasc>PRA_[A-Z]+_\S+?)_(?P<page>\d+)\s*\.(?P<ext>\w+)$")
 DATE_RE = re.compile(r"^PRA_[A-Z]+_(\d{4})(\d{2})(\d{2})(?:-(\d{2}))?")
+UUID_RE = re.compile(r"[0-9a-f]{32}")
+# terme de forme RAMEAU (data.bnf.fr, vocabulaire rameau/form, notice FRBNF11933071)
+GENRE = "Périodique"
+GENRE_URI = "http://data.bnf.fr/ark:/12148/cb11933071q"
 
 PHOTOMETRIC = {0: "WhiteIsZero", 1: "BlackIsZero", 2: "RGB", 3: "PaletteColor",
                4: "TransparencyMask", 5: "CMYK", 6: "YCbCr", 8: "CIELab"}
@@ -306,7 +314,7 @@ def mods_title(corpus: str, title: str):
     root = etree.Element(q("mods", "mods"), nsmap={"mods": NS["mods"]})
     sub(sub(root, "mods", "titleInfo"), "mods", "title", title)
     sub(root, "mods", "typeOfResource", "text")
-    sub(root, "mods", "genre", "newspaper", authority="marcgt")
+    sub(root, "mods", "genre", GENRE, authority="rameau", valueURI=GENRE_URI)
     sub(root, "mods", "identifier", corpus, type="local")
     return root
 
@@ -316,7 +324,7 @@ def mods(fasc: str, title: str, arks: dict, n_pages: int, prefix: str):
     root = etree.Element(q("mods", "mods"), nsmap={"mods": NS["mods"]})
     sub(sub(root, "mods", "titleInfo"), "mods", "title", title)
     sub(root, "mods", "typeOfResource", "text")
-    sub(root, "mods", "genre", "newspaper", authority="marcgt")
+    sub(root, "mods", "genre", GENRE, authority="rameau", valueURI=GENRE_URI)
     sub(sub(root, "mods", "language"), "mods", "languageTerm", LANGUE, type="code", authority="iso639-2b")
     m = DATE_RE.match(fasc)
     if m:
@@ -336,13 +344,21 @@ def mods(fasc: str, title: str, arks: dict, n_pages: int, prefix: str):
     return root
 
 
-def build_mets(job: dict, pages: dict, version: str):
-    """pages : {page: {ext: {key, size, md5, admid?, created?}}}"""
+def read_mets_uuid(path: str) -> str:
+    """uuid d'un METS deja ecrit (metsHdr/altRecordID TYPE="uuid") ; '' si absent ou illisible."""
+    try:
+        found = etree.parse(path).findtext("mets:metsHdr/mets:altRecordID[@TYPE='uuid']", namespaces=NS)
+    except (OSError, etree.XMLSyntaxError):
+        return ""
+    return found.strip() if found and UUID_RE.fullmatch(found.strip()) else ""
+
+
+def build_mets(job: dict, pages: dict, version: str, uuid: str):
+    """pages : {page: {ext: {key, size, md5, admid?, created?}}} ; uuid : celui du METS"""
     fasc = job["fasc"]
     mets = etree.Element(q("mets", "mets"), nsmap={k: NS[k] for k in ("mets", "mods", "mix", "xlink", "xsi")})
     mets.set(q("xsi", "schemaLocation"), SCHEMA_LOCATION)
-    mets.set("OBJID", job["arks"].get("current") or fasc)  # ARK actuel, sinon identifiant local
-    mets.set("TYPE", "newspaper issue")
+    mets.set("OBJID", f"{job['prefix']}_mets")  # s3_key du METS sans l'extension
     m = DATE_RE.match(fasc)
     date = f"{int(m[3])}{'-' + str(int(m[4])) if m[4] else ''} {MOIS[int(m[2]) - 1]} {m[1]}" if m else fasc
     mets.set("LABEL", f"{job['title']}, {date}")
@@ -352,6 +368,7 @@ def build_mets(job: dict, pages: dict, version: str):
     agent = sub(hdr, "mets", "agent", ROLE="CREATOR", TYPE="OTHER", OTHERTYPE="SOFTWARE")
     sub(agent, "mets", "name", basename(__file__))
     sub(agent, "mets", "note", f"version {version}")
+    sub(hdr, "mets", "altRecordID", uuid, TYPE="uuid")
 
     dmd = sub(mets, "mets", "dmdSec", ID="DMD_TITLE")
     sub(sub(dmd, "mets", "mdWrap", MDTYPE="MODS", LABEL="Titre de presse"), "mets", "xmlData").append(
@@ -384,6 +401,8 @@ def build_mets(job: dict, pages: dict, version: str):
                 attrs["CREATED"] = f["created"]
             if f.get("admid"):
                 attrs["ADMID"] = f["admid"]
+            if f.get("uuid"):  # uuid du ref ; pour le JPEG, celui de sa trace XMP (aussi au MIX)
+                attrs["OWNERID"] = f["uuid"]
             el = sub(grp, "mets", "file", **attrs)
             loc = sub(el, "mets", "FLocat", LOCTYPE="OTHER", OTHERLOCTYPE="SYSTEM")
             loc.set(q("xlink", "href"), f["key"])
@@ -448,7 +467,7 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
     pendant la tentative sont supprimes, ainsi que le METS d'un lot precedent
     (il ne decrit plus les JPEG presents) ; les JPEG deja la avant sont laisses."""
     ecrits = []  # JPEG ecrits pendant cette tentative
-    mets_path = join(out_dir, *f"{job['prefix']}.mets.xml".split("/"))
+    mets_path = join(out_dir, *f"{job['prefix']}_mets.xml".split("/"))
     incompletes = incomplete_pages(job["pages"])
     res = {"fascicule": job["fasc"], "corpus_code": job["corpus"], "pages": len(job["pages"]),
            "jpeg_crees": 0, "couleur_sans_profil": 0, "pages_incompletes": len(incompletes),
@@ -499,16 +518,18 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
             mix = jpeg_mix(dst, tif["key"], software, quality)
             created = mix.findtext(".//mix:dateTimeProcessed", namespaces=NS)
             files["jpg"] = {"key": jpg_key, "size": getsize(dst), "md5": md5_file(dst),
-                            "admid": f"TECH_JPG_{page}", "mix": mix, "created": created}
+                            "admid": f"TECH_JPG_{page}", "mix": mix, "created": created,
+                            "uuid": mix.findtext(".//mix:objectIdentifierValue", namespaces=NS)}
             res["jpegs"].append({
                 "fascicule": job["fasc"], "corpus_code": job["corpus"], "type": "jpeg",
                 "name": posixpath.basename(jpg_key), "path": posixpath.dirname(jpg_key),
                 "size": files["jpg"]["size"], "checksum_md5": files["jpg"]["md5"],
-                "uuid": mix.findtext(".//mix:objectIdentifierValue", namespaces=NS), "s3_key": jpg_key})
+                "uuid": files["jpg"]["uuid"], "s3_key": jpg_key})
 
         res["jpeg_octets"] = sum(j["size"] for j in res["jpegs"])
         res["t_conversion_s"], t = time.perf_counter() - t, time.perf_counter()
-        tree = build_mets(job, job["pages"], version)
+        # le METS est reecrit a chaque lot : il garde l'uuid de sa premiere creation
+        tree = build_mets(job, job["pages"], version, read_mets_uuid(mets_path) or uuid4().hex)
         os.makedirs(dirname(mets_path), exist_ok=True)
         tree.write(mets_path + ".part", encoding="utf-8", xml_declaration=True, pretty_print=True)
         os.replace(mets_path + ".part", mets_path)
@@ -573,7 +594,7 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
 def _run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, version: str, validate: bool,
                    upload: dict) -> dict:
     global _SCHEMA, _CLIENT
-    mets_key = f"{job['prefix']}.mets.xml"
+    mets_key = f"{job['prefix']}_mets.xml"
     if upload:
         import presse_upload
 
@@ -659,11 +680,11 @@ def bilan_durees(rows: list, elapsed: float, workers: int, total_pages: int) -> 
 
 
 def mets_row(res: dict, out_dir: str) -> dict:
-    """Ligne du METS d'un fascicule ok, au recapitulatif a deposer (sans uuid : il n'est pas au ref)."""
+    """Ligne du METS d'un fascicule ok, au recapitulatif a deposer (uuid relu dans le METS)."""
     rel = relpath(res["mets"], out_dir).replace(os.sep, "/")
     return {"fascicule": res["fascicule"], "corpus_code": res["corpus_code"], "type": "mets",
             "name": posixpath.basename(rel), "path": posixpath.dirname(rel), "size": getsize(res["mets"]),
-            "checksum_md5": md5_file(res["mets"]), "uuid": "", "s3_key": rel}
+            "checksum_md5": md5_file(res["mets"]), "uuid": read_mets_uuid(res["mets"]), "s3_key": rel}
 
 
 def load_extract(path: str) -> pd.DataFrame:
