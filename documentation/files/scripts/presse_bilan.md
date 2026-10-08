@@ -25,7 +25,7 @@ seule.
 
 | Entrée | Obligatoire | Contenu |
 |---|---|---|
-| `extrait` | oui | L'extrait du fichier de référence passé à `presse_mets.py` (`.csv` ou `.csv.gz`). Il donne la liste des fascicules attendus, lue exactement comme le fait `presse_mets.py` (mêmes filtres, même découpage en fascicules). |
+| `extrait` | oui | L'extrait du fichier de référence passé à `presse_mets.py` (`.csv` ou `.csv.gz`), par exemple `results/presse/manifeste_1000_fascicules.csv`. Il donne la liste des fascicules attendus, lue exactement comme le fait `presse_mets.py` (mêmes filtres, même découpage en fascicules). |
 | `recaps` | oui (un ou plusieurs) | Les récapitulatifs par fascicule `presse_mets_*.csv` de **tous** les lancements. On peut passer des fichiers, ou des dossiers (les `--out-dir`) dans lesquels ils sont cherchés. |
 | `--uploads` | non | Les résultats de `presse_upload.py --execute` (`*_upload_*.csv`), si l'envoi a été fait à part. Les simulations sont ignorées. |
 | `--s3` | non | Vérifie sur S3 la présence du METS de chaque fascicule. |

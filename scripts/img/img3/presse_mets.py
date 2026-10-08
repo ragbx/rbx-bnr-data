@@ -703,7 +703,8 @@ def load_extract(path: str) -> pd.DataFrame:
 
 def load_titles(path: str) -> dict:
     sets = pd.read_csv(path, dtype=str)
-    titles = {s.removeprefix("RBX_"): n for s, n in zip(sets.setSpec, sets.setName)}
+    # re.sub plutot que str.removeprefix : celui-ci demande Python 3.9
+    titles = {re.sub(r"^RBX_", "", s): n for s, n in zip(sets.setSpec, sets.setName)}
     return {**titles, **{c: n for c, n in TITRES.items() if c in titles}}
 
 
