@@ -242,10 +242,11 @@ temps moyen par étape. Cette cadence ne vaut que pour la même machine, le mêm
 - **Relancer le même manifeste est sans risque.** Avec `--upload`, les fascicules dont
   le METS est déjà sur S3 sont sautés. Sans `--upload`, un JPEG déjà présent est repris
   s'il passe le contrôle et porte la trace à la qualité demandée ; il garde son uuid.
-- **Un échec peut être passager.** Lors de l'essai sur 1 000 fascicules (octobre 2026),
-  deux fascicules sont sortis en erreur (« unable to call jpegsave ») puis sont passés
-  sans changement à la relance. Avant de conclure à un TIFF abîmé, rejouer le
-  fascicule seul.
+- **« unable to call jpegsave » n'est pas forcément un TIFF abîmé** : lire la suite du
+  message dans la colonne `msg`. Jusqu'au 8 octobre 2026, `--upload` pouvait échouer
+  sur « unable to open for write … No such file or directory » : un processus
+  supprimait un répertoire vide qu'un autre venait de créer. Les répertoires vides ne
+  sont plus supprimés qu'en fin de lot. Les fascicules touchés passent à la relance.
 - **Après un arrêt brutal**, le METS fait foi : ne déposer que les fascicules au
   statut `ok`.
 - Pour savoir où en est un lot après plusieurs lancements, utiliser

@@ -565,17 +565,16 @@ _SCHEMA = None  # par processus de travail : schema XSD et client S3, crees au p
 _CLIENT = None
 
 
-def remove_sent(paths: list, out_dir: str):
-    """Supprime les fichiers envoyes et leurs repertoires devenus vides (sous out_dir)."""
-    for path in paths:
-        os.remove(path)
-    for folder in {dirname(p) for p in paths}:
-        while folder != out_dir and folder.startswith(out_dir):
+def remove_empty_dirs(out_dir: str):
+    """Supprime les repertoires vides sous out_dir (pas out_dir lui-meme). En fin de
+    lot seulement : pendant le lot, un autre processus peut venir de creer un
+    repertoire encore vide et s'appreter a y ecrire son premier JPEG."""
+    for folder, _, _ in os.walk(out_dir, topdown=False):
+        if folder != out_dir:
             try:
-                os.rmdir(folder)  # echoue si non vide (autre fascicule en cours) : on s'arrete la
+                os.rmdir(folder)  # echoue si non vide : on le laisse
             except OSError:
-                break
-            folder = dirname(folder)
+                pass
 
 
 def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, version: str, validate: bool,
@@ -640,7 +639,8 @@ def _run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versi
     locaux = [join(out_dir, *r["s3_key"].split("/")) for r in res["jpegs"]
               if r["type"] == "jpeg" or not upload["keep_mets"]]
     try:
-        remove_sent(locaux, out_dir)
+        for path in locaux:  # les repertoires vides sont supprimes en fin de lot (remove_empty_dirs)
+            os.remove(path)
     except OSError as e:
         res["msg"] = f"envoye, mais suppression locale impossible : {e}"
     if not upload["keep_mets"]:
@@ -864,6 +864,8 @@ def main():
                         for other in futures:
                             other.cancel()
 
+    if upload:
+        remove_empty_dirs(out_dir)
     # fin de lot : memes recapitulatifs, tries
     for path, names, data, key in ((csv_out, fields, rows, lambda r: r["fascicule"]),
                                    (jpeg_csv_out, jpeg_fields, jpeg_rows, lambda r: r["s3_key"])):
