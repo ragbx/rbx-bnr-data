@@ -127,6 +127,13 @@ def mets_on_s3(keys: list, bucket: str, workers: int) -> dict:
         return dict(zip(keys, pool.map(present, keys)))
 
 
+def resume(msg: str) -> str:
+    """Message d'erreur sur une ligne, sans la trace Python qui le suit. Une erreur
+    libvips tient sur plusieurs lignes, le motif apres « unable to call ... »."""
+    lines = msg.split("Traceback (most recent call last)")[0].splitlines()
+    return " ; ".join(line.strip() for line in lines if line.strip())
+
+
 def etat(recap: dict, upload: tuple, on_s3) -> tuple:
     """(etat, cause) d'un fascicule ; on_s3 : True, False, ou None sans --s3."""
     if on_s3:
@@ -184,7 +191,7 @@ def main():
         rows.append({"fascicule": job["fasc"], "corpus_code": job["corpus"], "pages": len(job["pages"]),
                      "etat": e, "mets_s3": {True: "oui", False: "non", None: ""}[on_s3],
                      "dernier_status": recap.get("status", ""), "dernier_recap": recap.get("recap", ""),
-                     "passages": recap.get("passages", 0), "cause": cause.splitlines()[0] if cause else ""})
+                     "passages": recap.get("passages", 0), "cause": resume(cause)})
     for fasc, corpus, msg in refused:
         recap = recaps.get(fasc, {})
         rows.append({"fascicule": fasc, "corpus_code": corpus, "etat": "refuse", "dernier_status": recap.get("status", ""),

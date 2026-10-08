@@ -98,7 +98,7 @@ Un CSV, une ligne par fascicule de l'extrait, trié par fascicule :
 | `dernier_status` | Statut de sa dernière ligne aux récapitulatifs (`ok`, `erreur_envoi`, `deja_envoye`…). |
 | `dernier_recap` | Récapitulatif qui porte cette ligne. |
 | `passages` | Nombre de récapitulatifs où le fascicule apparaît. |
-| `cause` | Message d'erreur (première ligne). |
+| `cause` | Message d'erreur ramené sur une ligne, sans la trace Python (ex. « unable to call jpegsave ; » suivi du motif donné par libvips). |
 
 À l'écran : le décompte par état, en fascicules et en pages. Les fascicules présents
 dans les récapitulatifs mais absents de l'extrait sont ignorés et signalés.
