@@ -65,6 +65,8 @@ Préparer les données en vue de leur publication en ligne.
 
 → **[Chaîne images de diffusion](files/scripts/images_diffusion.md)** — constitution des corpus d'images, copie des fichiers maîtres et conversion pour le web
 
+→ **[Chaîne presse](files/scripts/presse_mets.md)** — JPEG de diffusion et METS par fascicule de presse ancienne, envoi sur S3
+
 Détail par script :
 → [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md) · [Bilan des envois presse](files/scripts/presse_bilan.md)
 

@@ -10,6 +10,10 @@ allégé destiné à la consultation en ligne.
 Pour la distinction conservation / diffusion, voir
 [Fichiers de conservation](../donnees/fichiers.md).
 
+Cette page décrit les **essais de mise au point** (dossier `img1`). La chaîne de
+production retenue pour la presse ancienne est décrite dans
+[Chaîne presse](presse_mets.md).
+
 ---
 
 ## Flux

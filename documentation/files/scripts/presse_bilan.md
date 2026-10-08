@@ -2,8 +2,8 @@
 
 **Emplacement :** `scripts/img/img3/presse_bilan.py`
 
-Bilan **a posteriori** de la chaîne presse ancienne (TIFF → JPEG de diffusion et
-METS par fascicule, `scripts/img/img3/presse_mets.py` puis envoi sur S3). Il répond
+Bilan **a posteriori** de la [chaîne presse](presse_mets.md) (TIFF → JPEG de
+diffusion et METS par fascicule, puis envoi sur S3). Il répond
 à la question : **où en est chaque fascicule de l'extrait ?** Envoyé, en erreur (et
 pourquoi), ou jamais traité.
 
@@ -121,5 +121,5 @@ Le code de sortie vaut **2** dès qu'un fascicule n'est pas `envoye`.
 
 ## Voir aussi
 
-- [Chaîne images de diffusion](images_diffusion.md) — vue d'ensemble des scripts `scripts/img/`.
+- [Chaîne presse](presse_mets.md) — la chaîne dont ce script fait le bilan.
 - [Scripts S3](s3.md) — accès au stockage.
