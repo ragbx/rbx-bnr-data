@@ -38,6 +38,7 @@ manifeste (extrait du fichier de référence)     TIFF sous <source>
 | `jpeg_to_mix.py` | Relit la trace d'un JPEG et la restitue en MIX 2.0 ; utilisable seul. |
 | `presse_upload.py` | Envoi sur S3 des JPEG et METS déjà produits, quand `--upload` n'a pas été utilisé. |
 | [presse_bilan.py](presse_bilan.md) | Bilan a posteriori : envoyé, en erreur, jamais traité. |
+| `presse_download.py` | Récupère depuis S3 les JPEG et les ALTO des fascicules d'un manifeste. |
 
 ---
 
@@ -251,6 +252,36 @@ temps moyen par étape. Cette cadence ne vaut que pour la même machine, le mêm
   statut `ok`.
 - Pour savoir où en est un lot après plusieurs lancements, utiliser
   [presse_bilan.py](presse_bilan.md).
+
+---
+
+## Récupérer les JPEG et les ALTO
+
+`presse_download.py` télécharge depuis S3, pour les fascicules d'un ou plusieurs
+manifestes, **uniquement** les JPEG de diffusion et les ALTO (ni TIFF, ni texte, ni
+PDF, ni METS). Les fichiers sont écrits sous `<out-dir>/<s3_key>`.
+
+    python scripts/img/img3/presse_download.py results/presse/manifeste_PRA_RTG.csv \
+        results/presse/manifeste_PRA_CTG.csv --out-dir /chemin/sortie
+
+| Option | Rôle |
+|---|---|
+| `--types` | `jpeg`, `alto` ou les deux (défaut : les deux). |
+| `--simulation` | Liste ce qui serait téléchargé, sans appel à S3. |
+| `--overwrite` | Retélécharge les fichiers déjà présents. |
+| `--workers` | Téléchargements simultanés (défaut : 8). |
+
+- Chaque fichier est contrôlé avant d'être rangé sous son nom : taille, et empreinte
+  (MD5 du fichier de référence pour l'ALTO ; ETag de S3 pour le JPEG, recalculé sur le
+  fichier quand il a été envoyé en plusieurs parties). La colonne `controle` dit lequel
+  a servi.
+- Un fichier déjà présent à la bonne taille est gardé : **relancer reprend** là où le
+  téléchargement s'est arrêté.
+- Un JPEG absent de S3 (fascicule pas encore converti) est signalé au statut `absent`.
+- Le résultat, une ligne par fichier (`telecharge`, `deja_present`, `absent`,
+  `erreur`), est écrit dans `<out-dir>/presse_download_AAAAMMJJHHMMSS.csv`.
+
+L'accès S3 se fait en lecture seule (`user_ro`).
 
 ---
 
