@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595126101_MED_RAD</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Radio à La Grand-Plage</titleproper>
+        <subtitle>Inventaire numérique</subtitle>
+        <author>Cet inventaire a été réalisé par Lucas Chirlias.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2023">2023</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>&lt;p style="text-align: justify;"&gt;Cet inventaire a été réalisé par Lucas Chirlias en 2023, suite à la première session du projet radio en 2022.&lt;/p&gt;</creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" id="m01781244640ifVTQE">
+    <did>
+      <unitid>MED_RAD</unitid>
+      <unittitle>Radio à La Grand-Plage</unittitle>
+      <unitdate normal="2022">Première diffusion 2022</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <repository>Médiathèque de Roubaix</repository>
+    </did>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640ifVTQE" role="publication:current"/>
+    <dsc>
+      <c level="series" id="m01781244640u9rM3H">
+        <did>
+          <unitid>RAD_S01</unitid>
+          <unittitle>Session 2022</unittitle>
+          <unitdate normal="2022">Première diffusion décembre 2022</unitdate>
+        </did>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640u9rM3H" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640u9rM3H</p>
+        </odd>
+        <c level="file" id="m01781244640dbL39H">
+          <did>
+            <unitid>RAD_S01_D01</unitid>
+            <unittitle>Jingle de l'émission Radio La Grand-Plage</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dbL39H" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640dbL39H</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640lXuRpy">
+          <did>
+            <unitid>RAD_S01_D02</unitid>
+            <unittitle>Micro-trottoir : Qu'est-ce que vous aimez lire ?</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640lXuRpy" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640lXuRpy</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640SHw1PU">
+          <did>
+            <unitid>RAD_S01_D04</unitid>
+            <unittitle>Portrait de Anne-Sophie Dutertre</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640UT3pyT">
+          <did>
+            <unitid>RAD_S01_D03</unitid>
+            <unittitle>Interview de Benjamin Flao</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640UT3pyT" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640UT3pyT</p>
+          </odd>
+        </c>
+        <c level="file" id="m017812446402TZGQ7">
+          <did>
+            <unitid>RAD_S01_D05</unitid>
+            <unittitle>Reportage sur le Zèbre</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446402TZGQ7" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446402TZGQ7</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640AAH45n">
+          <did>
+            <unitid>RAD_S01_D06</unitid>
+            <unittitle>Portrait de Nordine Fiouane</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640AAH45n" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640AAH45n</p>
+          </odd>
+        </c>
+        <c level="file" id="m017812446409n323x">
+          <did>
+            <unitid>RAD_S01_D07</unitid>
+            <unittitle>Interview de Shéhérazade (Association Saphirmer)</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446409n323x" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446409n323x</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640dxHiig">
+          <did>
+            <unitid>RAD_S01_D08</unitid>
+            <unittitle>Interview de Louiza (écrivaine publique)</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640dxHiig" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640dxHiig</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640iuhS2l">
+          <did>
+            <unitid>RAD_S01_D09</unitid>
+            <unittitle>Reportage sur la Journée des Oiseaux</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640iuhS2l" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640iuhS2l</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640xIJal2">
+          <did>
+            <unitid>RAD_S01_D10</unitid>
+            <unittitle>Micro-trottoire : Pourquoi la médiathèque s'appelle La Grand Plage ?</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640xIJal2" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640xIJal2</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640CfLzzr">
+          <did>
+            <unitid>RAD_S01_D11</unitid>
+            <unittitle>Micro-trottoire : Pourquoi la médiathèque s'appelle La Grand Plage ? (réponse d'Esther De Climmer)</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640CfLzzr" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640CfLzzr</p>
+          </odd>
+        </c>
+      </c>
+      <c level="series" id="m017812446405Sm8yy">
+        <did>
+          <unitid>RAD S02</unitid>
+          <unittitle>Session 2024</unittitle>
+        </did>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446405Sm8yy" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446405Sm8yy</p>
+        </odd>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

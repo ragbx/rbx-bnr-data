@@ -14,11 +14,11 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>&lt;p style="text-align: justify;"&gt;Cet inventaire a été réalisé par Lucas Chirlias en 2023, suite à la première session du projet radio en 2022.&lt;/p&gt;</creation>
+      <creation>Cet inventaire a été réalisé par Lucas Chirlias en 2023, suite à la première session du projet radio en 2022.</creation>
       <langusage>
         <language langcode="fre">français</language>
       </langusage>
-      <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
     </profiledesc>
   </eadheader>
   <archdesc level="collection" id="m01781244640ifVTQE">
@@ -63,16 +63,6 @@
             <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640lXuRpy</p>
           </odd>
         </c>
-        <c level="file" id="m01781244640SHw1PU">
-          <did>
-            <unitid>RAD_S01_D04</unitid>
-            <unittitle>Portrait de Anne-Sophie Dutertre</unittitle>
-          </did>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU" role="publication:current"/>
-          <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU</p>
-          </odd>
-        </c>
         <c level="file" id="m01781244640UT3pyT">
           <did>
             <unitid>RAD_S01_D03</unitid>
@@ -81,6 +71,16 @@
           <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640UT3pyT" role="publication:current"/>
           <odd>
             <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640UT3pyT</p>
+          </odd>
+        </c>
+        <c level="file" id="m01781244640SHw1PU">
+          <did>
+            <unitid>RAD_S01_D04</unitid>
+            <unittitle>Portrait de Anne-Sophie Dutertre</unittitle>
+          </did>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU" role="publication:current"/>
+          <odd>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640SHw1PU</p>
           </odd>
         </c>
         <c level="file" id="m017812446402TZGQ7">

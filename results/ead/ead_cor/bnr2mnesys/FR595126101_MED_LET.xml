@@ -14,11 +14,11 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>&lt;p style="text-align: justify;"&gt;Ce catalogue a été saisi en EAD par Thierry Caillier en 2007.&lt;/p&gt;</creation>
+      <creation>Ce catalogue a été saisi en EAD par Thierry Caillier en 2007.</creation>
       <langusage>
         <language langcode="fre">français</language>
       </langusage>
-      <descrules>&lt;p&gt;Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.&lt;/p&gt;</descrules>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
     </profiledesc>
   </eadheader>
   <archdesc level="collection" id="m017812446395odYmy">
@@ -33,9 +33,7 @@
       <repository>Médiathèque de Roubaix</repository>
     </did>
     <scopecontent>
-      <p>Ces «papiers» étaient utilisés par des entreprises ou des commerces pour la correspondance ou la facturation, à une époque ancienne où nexistaient ni fax, ni courriels.&#13;
-Souvent illustrées de vignettes représentant ces sociétés, elles se révèlent parfois être le dernier témoin visuel de ces entreprises disparues. Très prisées des collectionneurs, pour leur esthétique soignée et leur valeur patrimoniale, elles sont également recherchées par les historiens, pour les informations (adresse, spécialité,&#13;
-changement de raison sociale) et les détails iconographiques quelles recèlent. </p>
+      <p>Ces «papiers» étaient utilisés par des entreprises ou des commerces pour la correspondance ou la facturation, à une époque ancienne où n'existaient ni fax, ni courriels. Souvent illustrées de vignettes représentant ces sociétés, elles se révèlent parfois être le dernier témoin visuel de ces entreprises disparues. Très prisées des collectionneurs, pour leur esthétique soignée et leur valeur patrimoniale, elles sont également recherchées par les historiens, pour les informations (adresse, spécialité, changement de raison sociale…) et les détails iconographiques qu'elles recèlent.</p>
     </scopecontent>
     <controlaccess>
       <subject source="thesaurus--SLASH--bnr_theme.xml">Vie économique</subject>
@@ -48,10 +46,10 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0001</unitid>
           <unittitle>Entreprise roubaisienne de pompes funèbres Emile Alençon</unittitle>
           <unitdate normal="1949">Date de rédaction : 1949</unitdate>
-          <physdesc>&lt;p&gt;Facture&lt;/p&gt;</physdesc>
+          <physdesc>Facture</physdesc>
         </did>
         <scopecontent>
-          <p>&lt;p&gt;Spécialité de chapelles ardentes et tentures de toutes classes, Cercueils plombés et capitonnés en tous genres&lt;/p&gt;</p>
+          <p>Spécialité de chapelles ardentes et tentures de toutes classes, Cercueils plombés et capitonnés en tous genres</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Pellart, rue</geogname>
@@ -71,6 +69,32 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <p>access:image MED/MED_LET/RBX_MED_LET_0001.jpg</p>
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446393H4Daf</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52077</p>
+        </odd>
+      </c>
+      <c level="item" id="m017812446397rIeut">
+        <did>
+          <unitid>Let_0002</unitid>
+          <unittitle>Peinture, décors, vitrerie Calixte Algoet</unittitle>
+          <unitdate normal="1929">date de rédaction : 1929</unitdate>
+        </did>
+        <controlaccess>
+          <geogname source="rue">Collège, rue du</geogname>
+          <subject>Peinture industrielle</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+          <persname normal="Algoet, Calixte" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Algoet, Calixte</persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0002.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0002.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446397rIeut" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52582" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0002.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446397rIeut</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52582</p>
         </odd>
       </c>
       <c level="item" id="m01781244639FrVi1s">
@@ -105,7 +129,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
       <c level="item" id="m0178124463915Aem8">
         <did>
           <unitid>Let_0004</unitid>
-          <unittitle>Amicale des anciens élèves et sympathisants des écoles de la paroisse St-Martin </unittitle>
+          <unittitle>Amicale des anciens élèves et sympathisants des écoles de la paroisse St-Martin</unittitle>
           <unitdate normal="1940">Date d'impression du formulaire : ca. 1940</unitdate>
           <physdesc>Modèle de lettre d'invitation à une réunion (papier vierge)</physdesc>
           <origination>
@@ -257,14 +281,14 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <physdesc>Facture</physdesc>
         </did>
         <scopecontent>
-          <p>Spécialité de continus à filer et à retordre pour laine et coton... </p>
+          <p>Spécialité de continus à filer et à retordre pour laine et coton...</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Métiers à tisser</subject>
           <geogname source="rue">Collège, rue du</geogname>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
-          <corpname normal="Ast, Just " role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Ast, Just </corpname>
+          <corpname normal="Ast, Just" role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">Ast, Just</corpname>
         </controlaccess>
         <daogrp>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0009.tif" role="preservation:image"/>
@@ -317,7 +341,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
       <c level="item" id="m017812446392Bc2vt">
         <did>
           <unitid>Let_0011</unitid>
-          <unittitle>Au Broutteux : Brasserie des familles </unittitle>
+          <unittitle>Au Broutteux : Brasserie des familles</unittitle>
           <unitdate normal="1953">Date de rédaction : 1953</unitdate>
           <origination>
             <corpname normal="Wattez, Raoul" role="éditeur">Wattez, Raoul</corpname>
@@ -387,7 +411,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           </origination>
         </did>
         <scopecontent>
-          <p>&lt;p style="text-align: justify;"&gt;Usine mécanique Un internaute pense que le propriétaire, Liévin Bailleul, est, de son vrai nom, Augustin Liévin Bailliu (1869-1947).&lt;/p&gt;</p>
+          <p>Usine mécanique Un internaute pense que le propriétaire, Liévin Bailleul, est, de son vrai nom, Augustin Liévin Bailliu (1869-1947).</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Fabricants, rue des</geogname>
@@ -598,7 +622,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitdate normal="1923">Date de rédaction : 1923</unitdate>
           <origination>
             <corpname normal="Bernard, C." role="éditeur">Bernard, C.</corpname>
-            <corpname normal="Bernard, J. " role="éditeur">Bernard, J. </corpname>
+            <corpname normal="Bernard, J." role="éditeur">Bernard, J.</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -689,13 +713,13 @@ changement de raison sociale) et les détails iconographiques quelles recèl
         <did>
           <unitid>Let_0023</unitid>
           <unittitle>Bobinage Joseph Bernard</unittitle>
-          <physdesc>Papier buvard, format 12x8cm     </physdesc>
+          <physdesc>Papier buvard, format 12x8cm</physdesc>
           <origination>
             <corpname normal="Bernard, Joseph" role="éditeur">Bernard, Joseph</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Ourdissage, Dressage et Réunissage Encollage en tous genres à façon    </p>
+          <p>Ourdissage, Dressage et Réunissage Encollage en tous genres à façon</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Boucicaut, rue</geogname>
@@ -752,7 +776,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
       <c level="item" id="m01781244639zvLip9">
         <did>
           <unitid>Let_0025</unitid>
-          <unittitle>Vins et liqueurs Champagne Edouard Bernard-Vannieuwenhuyse  </unittitle>
+          <unittitle>Vins et liqueurs Champagne Edouard Bernard-Vannieuwenhuyse</unittitle>
           <unitdate normal="1884">Date de rédaction : 1884</unitdate>
           <origination>
             <corpname normal="Bernard-Vannieuwenhuyse, Edouard" role="éditeur">Bernard-Vannieuwenhuyse, Edouard</corpname>
@@ -784,7 +808,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
       <c level="item" id="m01781244639Zuvj19">
         <did>
           <unitid>Let_0026</unitid>
-          <unittitle>Vins et liqueurs Champagne Edouard Bernard-Vannieuwenhuyse    </unittitle>
+          <unittitle>Vins et liqueurs Champagne Edouard Bernard-Vannieuwenhuyse</unittitle>
           <unitdate normal="1886">Date de rédaction : 1886</unitdate>
           <physdesc>Format 21x18</physdesc>
           <origination>
@@ -825,7 +849,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           </origination>
         </did>
         <scopecontent>
-          <p>Outillage français, anglais et américain. Dépôt exclusif pour le département du Nord </p>
+          <p>Outillage français, anglais et américain. Dépôt exclusif pour le département du Nord</p>
         </scopecontent>
         <controlaccess>
           <subject>Machines-outils</subject>
@@ -977,13 +1001,13 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0032</unitid>
           <unittitle>Tissus Bocquet fils et J.Cuvelier</unittitle>
           <unitdate normal="1935">1920-1947</unitdate>
-          <physdesc>&lt;p&gt;Papier vierge, Format 21x14 cm, Accusé de réception&lt;/p&gt;</physdesc>
+          <physdesc>Papier vierge, Format 21x14 cm, Accusé de réception</physdesc>
           <origination>
             <corpname normal="Bocquet fils, Cuvelier J." role="éditeur">Bocquet fils, Cuvelier J.</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>&lt;p style="text-align: justify;"&gt;Un internaute nous précise : "&lt;span&gt;M. Eugène Bocquet successeur de son père Emile négociant à Roubaix 75 rue du Moulin s'associa à son ami Joseph Cuvelier, grand mutilé de guerre, en 1919. Ils reprirent la Société Natalis et Levy 5 rue Blanchemaille en 1920, Edouard Natalis étant le beau-père d'Eugène Bocquet. L'affaire prospéra jusque la Deuxième Guerre mondiale et M. Bocquet décéda en juillet 44, alors réfugié avec sa famille. Celle-ci rentra à Roubaix à la Libération.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Mais l'affaire se scinda en 1948, Mme Bocquet s'associant avec M. Jules Flipo pour former la S.a.r.l Bocquet Fils &amp; Cie. Son fils Jacques âgé de 19 ans s'occupa immédiatement, malgré son jeune âge, des ventes. M. Flipo prit sa retraite en 1955 et un nouvel associé, ancien de Bocquet fils &amp; J. Cuvelier, Désiré Samain, entra dans la Société qui prit pour raison sociale Bocquet Samain &amp; Cie.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;L'affaire qui était sise rue de l'Alouette s'installa dans des locaux mieux adaptés rue des Champs. Mais, rattrapée par la crise du textile, elle ferma ses portes en 1969.&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Jacques Bocquet continua ses activités en tant que chef de ventes chez Wolff &amp; Descourtis à Paris."&lt;/span&gt;&lt;/p&gt;</p>
+          <p>Un internaute nous précise : "M. Eugène Bocquet successeur de son père Emile négociant à Roubaix 75 rue du Moulin s'associa à son ami Joseph Cuvelier, grand mutilé de guerre, en 1919. Ils reprirent la Société Natalis et Levy 5 rue Blanchemaille en 1920, Edouard Natalis étant le beau-père d'Eugène Bocquet. L'affaire prospéra jusque la Deuxième Guerre mondiale et M. Bocquet décéda en juillet 44, alors réfugié avec sa famille. Celle-ci rentra à Roubaix à la Libération.<lb/>Mais l'affaire se scinda en 1948, Mme Bocquet s'associant avec M. Jules Flipo pour former la S.a.r.l Bocquet Fils &amp; Cie. Son fils Jacques âgé de 19 ans s'occupa immédiatement, malgré son jeune âge, des ventes. M. Flipo prit sa retraite en 1955 et un nouvel associé, ancien de Bocquet fils &amp; J. Cuvelier, Désiré Samain, entra dans la Société qui prit pour raison sociale Bocquet Samain &amp; Cie.<lb/>L'affaire qui était sise rue de l'Alouette s'installa dans des locaux mieux adaptés rue des Champs. Mais, rattrapée par la crise du textile, elle ferma ses portes en 1969.<lb/>Jacques Bocquet continua ses activités en tant que chef de ventes chez Wolff &amp; Descourtis à Paris."</p>
         </scopecontent>
         <controlaccess>
           <subject>Tissus</subject>
@@ -1012,7 +1036,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitdate normal="1931">Date de rédaction : 1931</unitdate>
         </did>
         <scopecontent>
-          <p>Fabrique de registres perfectionnés,  Lithographie, Typographie</p>
+          <p>Fabrique de registres perfectionnés, Lithographie, Typographie</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Gare, rue de la</geogname>
@@ -1253,7 +1277,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitdate normal="1924">Date de rédaction : 1924</unitdate>
         </did>
         <scopecontent>
-          <p>Spécialité d'engrenages taillés par nouvelle méthode, modeleur, accessoires spéciaux pour l'industrie textile </p>
+          <p>Spécialité d'engrenages taillés par nouvelle méthode, modeleur, accessoires spéciaux pour l'industrie textile</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Flandre, rue de</geogname>
@@ -1280,7 +1304,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
         <did>
           <unitid>Let_0042</unitid>
           <unittitle>Quincaillerie Bossu-Cuvelier</unittitle>
-          <unitdate normal="1900">Date de rédaction :  ca. 1900</unitdate>
+          <unitdate normal="1900">Date de rédaction : ca. 1900</unitdate>
         </did>
         <scopecontent>
           <p>Fers, tôles, fontes, cuivres, zincs, aciers</p>
@@ -1342,7 +1366,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unittitle>Fabrique de chaussures A la Fauvette Boucau-Vereecke</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
           <origination>
-            <corpname normal="Boucau-Vereecke " role="éditeur">Boucau-Vereecke </corpname>
+            <corpname normal="Boucau-Vereecke" role="éditeur">Boucau-Vereecke</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -1371,7 +1395,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unittitle>Fabrique de chaussures A la Fauvette Boucau-Vereecke</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
           <origination>
-            <corpname normal="Boucau-Vereecke " role="éditeur">Boucau-Vereecke </corpname>
+            <corpname normal="Boucau-Vereecke" role="éditeur">Boucau-Vereecke</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -1429,7 +1453,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0047</unitid>
           <unittitle>Etablissements Boulangé frères</unittitle>
           <unitdate normal="1950">Date de rédaction : ca. 1950</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Boulangé frères" role="éditeur">Boulangé frères</corpname>
           </origination>
@@ -1458,7 +1482,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0048</unitid>
           <unittitle>Etablissements Boulangé frères</unittitle>
           <unitdate normal="1952">Date de rédaction : 1952</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Boulangé, Henri &amp; frères" role="éditeur">Boulangé, Henri &amp; frères</corpname>
           </origination>
@@ -1545,7 +1569,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0051</unitid>
           <unittitle>Fabrique de forges portatives à ventilation François Bourlet</unittitle>
           <unitdate normal="1926">Date de rédaction : 1926</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
         </did>
         <scopecontent>
           <p>Spécialité de pièces forgées pour toutes industries mécaniques à la main ou au pilon</p>
@@ -1575,7 +1599,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0052</unitid>
           <unittitle>Filatures de lins, d'étoupes, de chanvre et de ramie Boutemy frères</unittitle>
           <unitdate normal="1923">Date de rédaction : 1923</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Boutemy frères" role="éditeur">Boutemy frères</corpname>
           </origination>
@@ -1611,7 +1635,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0053</unitid>
           <unittitle>Entreprise Henri Brandt</unittitle>
           <unitdate normal="1921">Date de rédaction : 1921</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Brandt, Henri" role="éditeur">Brandt, Henri</corpname>
           </origination>
@@ -1741,7 +1765,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0057</unitid>
           <unittitle>Brasserie la Mutuelle</unittitle>
           <unitdate normal="1925">Date supposée de rédaction : 1925</unitdate>
-          <physdesc>Convocation à l'assemblée générale extraordinaire, Format 14x21 cm </physdesc>
+          <physdesc>Convocation à l'assemblée générale extraordinaire, Format 14x21 cm</physdesc>
         </did>
         <controlaccess>
           <geogname source="rue">Ouest, rue de l'</geogname>
@@ -1798,7 +1822,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0059</unitid>
           <unittitle>La Grande Brasserie Moderne</unittitle>
           <unitdate normal="1950">Date supposée d'édition : 1950</unitdate>
-          <physdesc>Buvard Format 21x12cm    </physdesc>
+          <physdesc>Buvard Format 21x12cm</physdesc>
           <origination>
             <corpname normal="La grande brasserie moderne" role="éditeur">La grande brasserie moderne</corpname>
           </origination>
@@ -1830,7 +1854,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0060</unitid>
           <unittitle>Union de Roubaix Tourcoing, Société anonyme coopérative pour l'exploitation de la brasserie et le commerce des spiritueux</unittitle>
           <unitdate normal="1908">Date de rédaction : 1908</unitdate>
-          <physdesc>Facture Format 21x18cm   </physdesc>
+          <physdesc>Facture Format 21x18cm</physdesc>
         </did>
         <controlaccess>
           <geogname source="rue">Meyerbeer, rue</geogname>
@@ -1886,13 +1910,13 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0062</unitid>
           <unittitle>Huiles et graisses industrielles Jean Browayes-Brame</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture Format 21x18cm   </physdesc>
+          <physdesc>Facture Format 21x18cm</physdesc>
           <origination>
             <corpname normal="Browayes-Brame, Jean" role="éditeur">Browayes-Brame, Jean</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Articles de brasserie         </p>
+          <p>Articles de brasserie</p>
         </scopecontent>
         <controlaccess>
           <subject>Brasserie</subject>
@@ -1920,7 +1944,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unittitle>Teintures et Apprêts Ed. Browayes-de Geyter</unittitle>
           <unitdate normal="1906">Date de rédaction : 1906</unitdate>
           <origination>
-            <corpname normal="Browayes-de Geyter, Edmond " role="éditeur">Browayes-de Geyter, Edmond </corpname>
+            <corpname normal="Browayes-de Geyter, Edmond" role="éditeur">Browayes-de Geyter, Edmond</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -1951,7 +1975,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unittitle>Teintures et Apprêts Robes Ed. Browayes-de Geyter</unittitle>
           <unitdate normal="1900">Date de rédaction : 1900</unitdate>
           <origination>
-            <corpname normal="Browayes-de Geyter, Edmond " role="éditeur">Browayes-de Geyter, Edmond </corpname>
+            <corpname normal="Browayes-de Geyter, Edmond" role="éditeur">Browayes-de Geyter, Edmond</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -1987,7 +2011,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           </origination>
         </did>
         <scopecontent>
-          <p>Vente en gros de carbure de calcium </p>
+          <p>Vente en gros de carbure de calcium</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Mouvaux, rue de</geogname>
@@ -2208,7 +2232,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0072</unitid>
           <unittitle>Caisse commerciale de Roubaix Jules Decroix, Vernier, Verley &amp; Cie</unittitle>
           <unitdate normal="1884">Date de rédaction : 1884</unitdate>
-          <physdesc>Reçu  Format 18x11 cm    </physdesc>
+          <physdesc>Reçu Format 18x11 cm</physdesc>
           <origination>
             <corpname normal="Decroix, Jules     Vernier               Verley &amp; Cie" role="éditeur">Decroix, Jules     Vernier               Verley &amp; Cie</corpname>
           </origination>
@@ -2270,7 +2294,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0074</unitid>
           <unittitle>Cafés Grand Mère</unittitle>
           <unitdate>Sans date</unitdate>
-          <physdesc>Buvard Format 21x12cm      </physdesc>
+          <physdesc>Buvard Format 21x12cm</physdesc>
         </did>
         <scopecontent>
           <p>Imprimerie G. Hasboueq, Tourcoing</p>
@@ -2299,7 +2323,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0075</unitid>
           <unittitle>Tapissier-décorateur Edgard Candelier-de Vuyst</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
-          <physdesc>Facture Format 21x14cm   </physdesc>
+          <physdesc>Facture Format 21x14cm</physdesc>
           <origination>
             <corpname normal="Candelier-de Vuyst, Edgar" role="éditeur">Candelier-de Vuyst, Edgar</corpname>
           </origination>
@@ -2338,13 +2362,13 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           <unitid>Let_0076</unitid>
           <unittitle>Fabrique de parapluies Carette-Lussiez</unittitle>
           <unitdate>Sans date</unitdate>
-          <physdesc>Format 12x8cm   </physdesc>
+          <physdesc>Format 12x8cm</physdesc>
           <origination>
             <corpname normal="Carrette-Lussiez" role="éditeur">Carrette-Lussiez</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Cannes, ombrelles, cravaches           </p>
+          <p>Cannes, ombrelles, cravaches</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Saint-Martin, contour</geogname>
@@ -2464,7 +2488,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
       <c level="item" id="m01781244639hQfFwA">
         <did>
           <unitid>Let_0080</unitid>
-          <unittitle>Henri Carré </unittitle>
+          <unittitle>Henri Carré</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
@@ -2503,8 +2527,7 @@ changement de raison sociale) et les détails iconographiques quelles recèl
           </origination>
         </did>
         <scopecontent>
-          <p>Aciers, Poutrelles et U, Tôles, Zinc, Cuivre, Fonte&#13;
-Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
+          <p>Aciers, Poutrelles et U, Tôles, Zinc, Cuivre, Fonte Dépôt de la société métallurgique de Senelle-Maubeuge</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Fonderie</subject>
@@ -2529,9 +2552,9 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
       <c level="item" id="m01781244639RV58vx">
         <did>
           <unitid>Let_0082</unitid>
-          <unittitle>Epiceries Savons mous Eugène Carrez-Bernard </unittitle>
+          <unittitle>Epiceries Savons mous Eugène Carrez-Bernard</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture Format 14x22cm   </physdesc>
+          <physdesc>Facture Format 14x22cm</physdesc>
           <origination>
             <corpname normal="Carrez-Bernard, Eugène" role="éditeur">Carrez-Bernard, Eugène</corpname>
           </origination>
@@ -2653,12 +2676,39 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52160</p>
         </odd>
       </c>
+      <c level="item" id="m01781244639EBdhms">
+        <did>
+          <unitid>Let_0086</unitid>
+          <unittitle>Etablissements Jean Catel</unittitle>
+          <unitdate normal="1951">date de rédaction : 1951</unitdate>
+          <physdesc>Facture</physdesc>
+        </did>
+        <controlaccess>
+          <geogname source="rue">Henri Carette, rue</geogname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Automobiles</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+          <persname normal="Catel, Jean" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Catel, Jean</persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0086.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0086.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639EBdhms" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52584" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0086.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0086.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639EBdhms</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52584</p>
+        </odd>
+      </c>
       <c level="item" id="m01781244639eiF1B8">
         <did>
           <unitid>Let_0087</unitid>
           <unittitle>Etablissements Cabour Citroën Lille-Roubaix</unittitle>
           <unitdate normal="1951">Date de rédaction : 1951</unitdate>
-          <physdesc>Facture     </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Cabour, Etablissements" role="éditeur">Cabour, Etablissements</corpname>
           </origination>
@@ -2688,7 +2738,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <unittitle>Peignage et filature de laines M. Caulliez et A.Delaoutre</unittitle>
           <unitdate normal="1896">Date de rédaction : 1896</unitdate>
           <origination>
-            <corpname normal="Caulliez, M. " role="éditeur">Caulliez, M.</corpname>
+            <corpname normal="Caulliez, M." role="éditeur">Caulliez, M.</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -2716,7 +2766,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <unitid>Let_0089</unitid>
           <unittitle>Cercle de l'industrie</unittitle>
           <unitdate normal="1900">Date d'édition : ca. 1900</unitdate>
-          <physdesc>Format 25x18cm   </physdesc>
+          <physdesc>Format 25x18cm</physdesc>
           <origination>
             <corpname normal="Cercle de l'industrie" role="éditeur">Cercle de l'industrie</corpname>
           </origination>
@@ -2748,13 +2798,13 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <unitid>Let_0090</unitid>
           <unittitle>Cercle horticole de Roubaix</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
-          <physdesc>Diplôme. Format 22x16cm </physdesc>
+          <physdesc>Diplôme. Format 22x16cm</physdesc>
           <origination>
             <corpname normal="Cercle horticole de Roubaix" role="éditeur">Cercle horticole de Roubaix</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Remise de diplôme de la "Médaille de vermeil" à M. Louage-Dubrumfaut lors du Grand marché aux fleurs du 1er mai 1920        </p>
+          <p>Remise de diplôme de la "Médaille de vermeil" à M. Louage-Dubrumfaut lors du Grand marché aux fleurs du 1er mai 1920</p>
         </scopecontent>
         <controlaccess>
           <subject>Horticulture</subject>
@@ -2806,7 +2856,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
       <c level="item" id="m0178124463958HCWB">
         <did>
           <unitid>Let_0092</unitid>
-          <unittitle>Café-laiterie (Parc Barbieux)  Alfred Charlet</unittitle>
+          <unittitle>Café-laiterie (Parc Barbieux) Alfred Charlet</unittitle>
           <unitdate normal="1939">Date de rédaction : 1939</unitdate>
           <origination>
             <corpname normal="Charlet, Alfred" role="éditeur">Charlet, Alfred</corpname>
@@ -2846,7 +2896,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           </origination>
         </did>
         <scopecontent>
-          <p>Laines à tricoter  </p>
+          <p>Laines à tricoter</p>
         </scopecontent>
         <controlaccess>
           <subject>Bonneterie</subject>
@@ -2954,68 +3004,6 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52170</p>
         </odd>
       </c>
-      <c level="item" id="m01781244639c4zMQe">
-        <did>
-          <unitid>Let_0424</unitid>
-          <unittitle>Club olympique Roubaix-Tourcoing</unittitle>
-          <unitdate normal="1958">Date de rédaction :  ca. 1958</unitdate>
-          <origination>
-            <corpname normal="Club olympique Roubaix-Tourcoing" role="éditeur">Club olympique Roubaix-Tourcoing</corpname>
-          </origination>
-        </did>
-        <scopecontent>
-          <p>Football-association, Champion de France 1946-47</p>
-        </scopecontent>
-        <controlaccess>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Football</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-          <geogname source="rue">Grand Place</geogname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0424.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0424.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639c4zMQe" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52171" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0424.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0424.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639c4zMQe</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52171</p>
-        </odd>
-      </c>
-      <c level="item" id="m01781244639q1Pzru">
-        <did>
-          <unitid>Let_0425</unitid>
-          <unittitle>Club olympique Roubaix-Tourcoing</unittitle>
-          <unitdate normal="1965">Date de rédaction : 1965</unitdate>
-          <origination>
-            <corpname normal="Club olympique Roubaix-Tourcoing" role="éditeur">Club olympique Roubaix-Tourcoing</corpname>
-          </origination>
-        </did>
-        <scopecontent>
-          <p>Football-association, champion de France 1946-47     </p>
-        </scopecontent>
-        <controlaccess>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Football</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-          <geogname source="rue">Grand Place</geogname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0425.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0425.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639q1Pzru" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52172" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0425.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0425.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639q1Pzru</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52172</p>
-        </odd>
-      </c>
       <c level="item" id="m01781244639aMQiMF">
         <did>
           <unitid>Let_0097</unitid>
@@ -3054,7 +3042,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           </origination>
         </did>
         <scopecontent>
-          <p>Soies, coton, lin, jute etc   </p>
+          <p>Soies, coton, lin, jute etc</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Teinture</subject>
@@ -3077,7 +3065,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
       <c level="item" id="m01781244639ZEpDiP">
         <did>
           <unitid>Let_0099</unitid>
-          <unittitle>Foulage Teinture et  Apprêts Coget et Lotar</unittitle>
+          <unittitle>Foulage Teinture et Apprêts Coget et Lotar</unittitle>
           <unitdate normal="1896">Date de rédaction : 1896</unitdate>
           <origination>
             <corpname normal="Coget                Lotar" role="éditeur">Coget                Lotar</corpname>
@@ -3289,7 +3277,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           <unittitle>Comptoir général des textiles manufacturés Succursale de Roubaix</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
           <origination>
-            <corpname normal="Comptoir général des textiles manufacturés " role="éditeur">Comptoir général des textiles manufacturés </corpname>
+            <corpname normal="Comptoir général des textiles manufacturés" role="éditeur">Comptoir général des textiles manufacturés</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -3429,7 +3417,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
       <c level="item" id="m01781244639l39HgA">
         <did>
           <unitid>Let_0111</unitid>
-          <unittitle>Suprême café, Société coopérative - L'Epicerie, Société anonyme à capital variable </unittitle>
+          <unittitle>Suprême café, Société coopérative - L'Epicerie, Société anonyme à capital variable</unittitle>
           <unitdate normal="1908">Date de rédaction : 1908</unitdate>
         </did>
         <controlaccess>
@@ -3520,8 +3508,7 @@ Dépôt de la société métallurgique de Senelle-Maubeuge  </p>
           </origination>
         </did>
         <scopecontent>
-          <p>Papiers peints, glaces&#13;
-Anciennement Cordonnier-Coget</p>
+          <p>Papiers peints, glaces Anciennement Cordonnier-Coget</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Notre-Dame, rue</geogname>
@@ -3551,7 +3538,7 @@ Anciennement Cordonnier-Coget</p>
           <unitdate normal="1899">Date de rédaction : 1899</unitdate>
         </did>
         <scopecontent>
-          <p>Corbillards de toutes classes, Chapelles ardentes, couronnes, fleurs, immortelles </p>
+          <p>Corbillards de toutes classes, Chapelles ardentes, couronnes, fleurs, immortelles</p>
         </scopecontent>
         <controlaccess>
           <subject>Cercueils</subject>
@@ -3583,8 +3570,7 @@ Anciennement Cordonnier-Coget</p>
           </origination>
         </did>
         <scopecontent>
-          <p>Anciennce maison E.Carpentier&#13;
-Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, Installation de stations centrales, Charbons pour arc, Volmètres et ampéremètres, Câbles et fils  </p>
+          <p>Anciennce maison E.Carpentier Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, Installation de stations centrales, Charbons pour arc, Volmètres et ampéremètres, Câbles et fils</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Industrie électrique</subject>
@@ -3610,7 +3596,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <unitid>Let_0117</unitid>
           <unittitle>Comptoir drapier du Nord Corteville &amp; Cie</unittitle>
           <unitdate normal="1962">Date de rédaction : 1962</unitdate>
-          <physdesc>Lettre de change Format 27x11 cm       </physdesc>
+          <physdesc>Lettre de change Format 27x11 cm</physdesc>
           <origination>
             <corpname normal="Corteville &amp; Cie" role="éditeur">Corteville &amp; Cie</corpname>
           </origination>
@@ -3669,7 +3655,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
         <did>
           <unitid>Let_0119</unitid>
           <unittitle>Manufacture de caoutchouc G.Coustou</unittitle>
-          <unitdate normal="1900">date de rédaction : ca 1900 </unitdate>
+          <unitdate normal="1900">date de rédaction : ca 1900</unitdate>
           <origination>
             <corpname normal="Coustou G." role="éditeur">Coustou G.</corpname>
           </origination>
@@ -3724,6 +3710,34 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52196</p>
         </odd>
       </c>
+      <c level="item" id="m01781244639aqHj9l">
+        <did>
+          <unitid>Let_0121</unitid>
+          <unittitle>Pharmacie Henri Couvreur</unittitle>
+          <unitdate normal="1900">Date de rédaction : 1900</unitdate>
+          <origination>
+            <corpname normal="Couvreur, Henri" role="éditeur">Couvreur, Henri</corpname>
+          </origination>
+        </did>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pharmacies d'officine</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+          <geogname>Roubaix</geogname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0121.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0121.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639aqHj9l" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52198" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0121.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0121.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639aqHj9l</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52198</p>
+        </odd>
+      </c>
       <c level="item" id="m01781244639xLgzL8">
         <did>
           <unitid>Let_0122</unitid>
@@ -3753,34 +3767,6 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52197</p>
         </odd>
       </c>
-      <c level="item" id="m01781244639aqHj9l">
-        <did>
-          <unitid>Let_0121</unitid>
-          <unittitle>Pharmacie Henri Couvreur</unittitle>
-          <unitdate normal="1900">Date de rédaction : 1900</unitdate>
-          <origination>
-            <corpname normal="Couvreur, Henri" role="éditeur">Couvreur, Henri</corpname>
-          </origination>
-        </did>
-        <controlaccess>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pharmacies d'officine</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
-          <geogname>Roubaix</geogname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0121.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0121.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639aqHj9l" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52198" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0121.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0121.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639aqHj9l</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52198</p>
-        </odd>
-      </c>
       <c level="item" id="m01781244639lHMod4">
         <did>
           <unitid>Let_0123</unitid>
@@ -3792,7 +3778,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Comptoirs à Lannoy et Croix       </p>
+          <p>Comptoirs à Lannoy et Croix</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Banques</subject>
@@ -3852,7 +3838,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Produits chimiques, Fourniture générale pour la photographie    </p>
+          <p>Produits chimiques, Fourniture générale pour la photographie</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Nain, rue</geogname>
@@ -3939,7 +3925,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Tissus pour robes et confections, Agences: Paris-Londres-Bruxelles-Amsterdam, etc.   </p>
+          <p>Tissus pour robes et confections, Agences: Paris-Londres-Bruxelles-Amsterdam, etc.</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Union, rue de l'</geogname>
@@ -3966,7 +3952,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <unitid>Let_0129</unitid>
           <unittitle>Filature de coton Dazin-Motte fils</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Dazin-Motte, fils" role="éditeur">Dazin-Motte, fils</corpname>
           </origination>
@@ -4069,7 +4055,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Pour lin, laine, coton et soie    </p>
+          <p>Pour lin, laine, coton et soie</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Latérale, rue</geogname>
@@ -4100,10 +4086,10 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <unitid>Let_0133</unitid>
           <unittitle>Manufacture générale de caoutchouc Usine du Coq français Emile Degrave</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
         </did>
         <scopecontent>
-          <p>Bourrages de tous systèmes en coton chanvre et amiante, Courroies      </p>
+          <p>Bourrages de tous systèmes en coton chanvre et amiante, Courroies</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Tilleul, rue du</geogname>
@@ -4163,7 +4149,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           <unitid>Let_0135</unitid>
           <unittitle>Manufacture générale de caoutchouc Usine du Coq français Emile Degrave</unittitle>
           <unitdate normal="1923">Date de rédaction : 1923</unitdate>
-          <physdesc>Mandat timbré, Format 28x11cm    </physdesc>
+          <physdesc>Mandat timbré, Format 28x11cm</physdesc>
           <origination>
             <corpname normal="Degrave, Emile   Prouvost" role="éditeur">Degrave, Emile   Prouvost</corpname>
           </origination>
@@ -4249,15 +4235,15 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
       <c level="item" id="m01781244639lQfeaE">
         <did>
           <unitid>Let_0138</unitid>
-          <unittitle>Achat et vente de vieux métaux  Emile de Jumné</unittitle>
+          <unittitle>Achat et vente de vieux métaux Emile de Jumné</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
-          <physdesc>Facture, Format 21x18cm   </physdesc>
+          <physdesc>Facture, Format 21x18cm</physdesc>
           <origination>
             <corpname normal="De Jumné, Emile" role="éditeur">De Jumné, Emile</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Entreprise de démolitions, Transmissions, machines à vapeur et outillages </p>
+          <p>Entreprise de démolitions, Transmissions, machines à vapeur et outillages</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Descartes, rue</geogname>
@@ -4289,7 +4275,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Vis, tourillons, axes </p>
+          <p>Vis, tourillons, axes</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Sept-Ponts, rue des</geogname>
@@ -4416,8 +4402,7 @@ Téléphone, Eclairage électrique, Accumulteurs, Transmission de l'énergie, In
           </origination>
         </did>
         <scopecontent>
-          <p>Les fils Pierre Deldique-Lerouge&#13;
-Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-peignages et pour toutes industries</p>
+          <p>Les fils Pierre Deldique-Lerouge Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-peignages et pour toutes industries</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Gambetta, boulevard</geogname>
@@ -4544,7 +4529,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Guimauve, gomme, crême, etc.., Spécialité de bonbons anglais et fourrés                 </p>
+          <p>Guimauve, gomme, crême, etc.., Spécialité de bonbons anglais et fourrés</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Confiserie</subject>
@@ -4570,14 +4555,14 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0148</unitid>
           <unittitle>Etablissements Delgrange et Gruet</unittitle>
-          <unitdate>Pas de date mentionnée : </unitdate>
-          <physdesc>Buvard Format 22x14cm    </physdesc>
+          <unitdate>Pas de date mentionnée :</unitdate>
+          <physdesc>Buvard Format 22x14cm</physdesc>
           <origination>
             <corpname normal="Delgrange et Gruet" role="éditeur">Delgrange et Gruet</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Chauffage central, Chauffage d'usines </p>
+          <p>Chauffage central, Chauffage d'usines</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Daubenton, rue</geogname>
@@ -4635,13 +4620,13 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0150</unitid>
           <unittitle>Charbons pour industrie et ménage L.Delomel-Béguin</unittitle>
           <unitdate normal="1931">Date de rédaction : 1931</unitdate>
-          <physdesc>Facture Format 21x18cm   </physdesc>
+          <physdesc>Facture Format 21x18cm</physdesc>
           <origination>
             <corpname normal="Delomel-Béguin, L." role="éditeur">Delomel-Béguin, L.</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Maingain-Gery successeur </p>
+          <p>Maingain-Gery successeur</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Charbon</subject>
@@ -4759,7 +4744,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m017812446390HwrFF">
         <did>
           <unitid>Let_0154</unitid>
-          <unittitle>Spécialité de teintures et apprêts  A. Denis </unittitle>
+          <unittitle>Spécialité de teintures et apprêts A. Denis</unittitle>
           <unitdate normal="1909">Date de rédaction : 1909</unitdate>
         </did>
         <scopecontent>
@@ -4818,7 +4803,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Etablissement horticole Deplechin-Dubar successeur</unittitle>
           <unitdate normal="1900">Date de rédaction : ca 1900</unitdate>
           <origination>
-            <corpname normal="Deplechin-Dubar " role="éditeur">Deplechin-Dubar </corpname>
+            <corpname normal="Deplechin-Dubar" role="éditeur">Deplechin-Dubar</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -4853,7 +4838,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Apprêts et filatures </p>
+          <p>Apprêts et filatures</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Lannoy, rue de</geogname>
@@ -5123,7 +5108,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Maison du papier peint E.Desoutter-Hourez</unittitle>
           <unitdate normal="1926">Date de rédaction : 1926</unitdate>
           <origination>
-            <corpname normal="Desoutter-Hourez E. ">Desoutter-Hourez E. </corpname>
+            <corpname normal="Desoutter-Hourez E.">Desoutter-Hourez E.</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -5218,14 +5203,14 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0169</unitid>
           <unittitle>Etablissements Devilaine &amp; Rougé</unittitle>
-          <unitdate>Pas de date mentionnée : </unitdate>
-          <physdesc>Buvard, Format 21x14cm   </physdesc>
+          <unitdate>Pas de date mentionnée :</unitdate>
+          <physdesc>Buvard, Format 21x14cm</physdesc>
           <origination>
             <corpname normal="Devilaine &amp; Rougé">Devilaine &amp; Rougé</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Entreprises générales d'électricité, Agence de Roubaix bureaux &amp; magasins: 61, rue de la Fosse-aux-Chênes                </p>
+          <p>Entreprises générales d'électricité, Agence de Roubaix bureaux &amp; magasins: 61, rue de la Fosse-aux-Chênes</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Henri Carette, rue</geogname>
@@ -5252,11 +5237,11 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Planchers à l'épreuve du feu P.D'Halluin &amp; A.Bayart</unittitle>
           <unitdate normal="1907">Date de rédaction : 1907</unitdate>
           <origination>
-            <corpname normal="D'Halluin, Paul ">D'Halluin, Paul </corpname>
+            <corpname normal="D'Halluin, Paul">D'Halluin, Paul</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Bayart père &amp; fils successeurs, Montage de chaudières et cheminées d'usines </p>
+          <p>Bayart père &amp; fils successeurs, Montage de chaudières et cheminées d'usines</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Moulin, rue du</geogname>
@@ -5317,7 +5302,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Tissages mécanique,  Paris: 4, rue Feydeau, Londres: Salters Court</p>
+          <p>Tissages mécanique, Paris: 4, rue Feydeau, Londres: Salters Court</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Textiles et tissus</subject>
@@ -5345,7 +5330,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0173</unitid>
           <unittitle>Estaminet du paradis des chevaux Alphonse Dhédenne</unittitle>
-          <unitdate normal="1923">Date de rédaction : 1923 </unitdate>
+          <unitdate normal="1923">Date de rédaction : 1923</unitdate>
         </did>
         <scopecontent>
           <p>Boucherie chevaline</p>
@@ -5407,7 +5392,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0175</unitid>
           <unittitle>Draperies, Lainages, Nouveautés Dewaele frères</unittitle>
           <unitdate normal="1951">Date de rédaction : 1951</unitdate>
-          <physdesc>Ordre, Format 20x13cm   </physdesc>
+          <physdesc>Ordre, Format 20x13cm</physdesc>
           <origination>
             <corpname normal="Dewaele, frères">Dewaele, frères</corpname>
           </origination>
@@ -5503,7 +5488,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0178</unitid>
           <unittitle>Achat et vente de vieux métaux en tous genres André Dobigies</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Dobigies, André">Dobigies, André</corpname>
           </origination>
@@ -5538,7 +5523,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>lithographie, typographie, fabrique de registres               </p>
+          <p>lithographie, typographie, fabrique de registres</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Fabricants, rue des</geogname>
@@ -5564,7 +5549,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0180</unitid>
           <unittitle>Manufacture de taquets Louis Dorpe &amp; Cie</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture, Format 14x21cm </physdesc>
+          <physdesc>Facture, Format 14x21cm</physdesc>
           <origination>
             <corpname normal="Dorpe, Louis &amp; Cie">Dorpe, Louis &amp; Cie</corpname>
           </origination>
@@ -5654,7 +5639,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Distillerie de Roubaix Ch.Droulers-Prouvost</unittitle>
           <unitdate normal="1887">Date de rédaction : 1887</unitdate>
           <origination>
-            <corpname normal="Droulers-Prouvost, Ch. ">Droulers-Prouvost, Ch. </corpname>
+            <corpname normal="Droulers-Prouvost, Ch.">Droulers-Prouvost, Ch.</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -5853,7 +5838,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Inventeur de la persienne de Roubaix, Applications spéciales de la menuiserie &amp; de la mécanique dans les bâtiments </p>
+          <p>Inventeur de la persienne de Roubaix, Applications spéciales de la menuiserie &amp; de la mécanique dans les bâtiments</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Blanchemaille, rue</geogname>
@@ -5885,7 +5870,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Inventeur de la persienne de Roubaix, Applications spéciales de la menuiserie &amp; de la mécanique dans les bâtiments </p>
+          <p>Inventeur de la persienne de Roubaix, Applications spéciales de la menuiserie &amp; de la mécanique dans les bâtiments</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Blanchemaille, rue</geogname>
@@ -5914,7 +5899,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1937">Date de rédaction : 1937</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
-            <corpname normal="Dubois, Edouard &amp; fils ">Dubois, Edouard &amp; fils </corpname>
+            <corpname normal="Dubois, Edouard &amp; fils">Dubois, Edouard &amp; fils</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -6002,7 +5987,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639Idt3c2">
         <did>
           <unitid>Let_0196</unitid>
-          <unittitle>Fabrique de bâches imperméables  location Dufour &amp; Houziaux</unittitle>
+          <unittitle>Fabrique de bâches imperméables – location Dufour &amp; Houziaux</unittitle>
           <unitdate normal="1939">Date de rédaction : 1939</unitdate>
           <origination>
             <corpname normal="Dufour              Houziaux">Dufour              Houziaux</corpname>
@@ -6033,9 +6018,9 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639WXJOt0">
         <did>
           <unitid>Let_0197</unitid>
-          <unittitle>Fabrique de baches imperméables  location Dufour &amp; Houziaux</unittitle>
+          <unittitle>Fabrique de baches imperméables – location Dufour &amp; Houziaux</unittitle>
           <unitdate normal="1932">Date de rédaction : 1932</unitdate>
-          <physdesc>Facture </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Dufour              Houziaux">Dufour              Houziaux</corpname>
           </origination>
@@ -6067,7 +6052,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Ancienne Ménage Orfèvrerie </p>
+          <p>Ancienne Ménage Orfèvrerie</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Horlogeries</subject>
@@ -6100,7 +6085,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Bronze, fer forgé, ébenisterie, sculpture, éclairage, tapisserie, menuiserie,  peinture            </p>
+          <p>Bronze, fer forgé, ébenisterie, sculpture, éclairage, tapisserie, menuiserie, peinture</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Paris, boulevard de</geogname>
@@ -6162,7 +6147,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Usine du Château Blanc.Wasquehal </p>
+          <p>Usine du Château Blanc.Wasquehal</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Fosse aux Chênes, rue de la</geogname>
@@ -6221,7 +6206,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Appartements, châteaux et villas,  Meubles de styles anciens et modernes</p>
+          <p>Appartements, châteaux et villas, Meubles de styles anciens et modernes</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Neuve, rue</geogname>
@@ -6361,7 +6346,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0208</unitid>
           <unittitle>L'Egalité de Roubaix-Tourcoing</unittitle>
           <unitdate normal="1923">Date de rédaction : 1923</unitdate>
-          <physdesc>Facture , Format 21x18cm  </physdesc>
+          <physdesc>Facture , Format 21x18cm</physdesc>
         </did>
         <controlaccess>
           <geogname source="rue">Gare, rue de la</geogname>
@@ -6388,9 +6373,9 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0209</unitid>
           <unittitle>Filature de cardés en tous genres Jules Ernoult &amp; Dubois</unittitle>
           <unitdate normal="1923">Date de rédaction : 1923</unitdate>
-          <physdesc>Facture  </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
-            <corpname normal="Ernoult, Jules    ">Ernoult, Jules    </corpname>
+            <corpname normal="Ernoult, Jules">Ernoult, Jules</corpname>
             <corpname normal="Dubois">Dubois</corpname>
           </origination>
         </did>
@@ -6420,7 +6405,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Fils cardés en tous genres J.Ernoult &amp; Dubois</unittitle>
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
           <origination>
-            <corpname normal="Ernoult, Jules    ">Ernoult, Jules    </corpname>
+            <corpname normal="Ernoult, Jules">Ernoult, Jules</corpname>
             <corpname normal="Dubois">Dubois</corpname>
           </origination>
         </did>
@@ -6503,7 +6488,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639QXxAly">
         <did>
           <unitid>Let_0213</unitid>
-          <unittitle>Poissonnerie Fassiaux  Au saumon d'or </unittitle>
+          <unittitle>Poissonnerie Fassiaux Au saumon d'or</unittitle>
           <unitdate normal="1940">Date de rédaction : 194.</unitdate>
           <origination>
             <corpname normal="Fassiaux">Fassiaux</corpname>
@@ -6535,7 +6520,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0214</unitid>
           <unittitle>Tissage mécanique Jules Fauvarque Père</unittitle>
-          <unitdate normal="1912">Date de rédaction : 1912 </unitdate>
+          <unitdate normal="1912">Date de rédaction : 1912</unitdate>
         </did>
         <scopecontent>
           <p>Ancienne maison Fauvarque Frères, fondée en 1860.</p>
@@ -6572,7 +6557,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Tailleurs      </p>
+          <p>Tailleurs</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Grande Rue</geogname>
@@ -6723,7 +6708,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Scieries mécaniques, moulures </p>
+          <p>Scieries mécaniques, moulures</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Bouvines, rue de</geogname>
@@ -6750,9 +6735,9 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0221</unitid>
           <unittitle>Mercerie en gros A la navette d'or Fournier &amp; Gransir</unittitle>
           <unitdate normal="1893">Date de rédaction : 1893</unitdate>
-          <physdesc>Facture, Format 21x19cm   </physdesc>
+          <physdesc>Facture, Format 21x19cm</physdesc>
           <origination>
-            <corpname normal="Fournier             ">Fournier             </corpname>
+            <corpname normal="Fournier">Fournier</corpname>
             <corpname normal="Gransir">Gransir</corpname>
           </origination>
         </did>
@@ -6790,7 +6775,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Constructions d'appareils à vapeur, Tuyauterie en cuivre et en fer, Robinetterie en tous genres   </p>
+          <p>Constructions d'appareils à vapeur, Tuyauterie en cuivre et en fer, Robinetterie en tous genres</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Lille, rue de</geogname>
@@ -6824,7 +6809,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Constructions d'appareils à vapeur, Tuyauterie en cuivre et en fer, Robinetterie en tous genres   </p>
+          <p>Constructions d'appareils à vapeur, Tuyauterie en cuivre et en fer, Robinetterie en tous genres</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Lille, rue de</geogname>
@@ -6855,9 +6840,9 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639B70jol">
         <did>
           <unitid>Let_0224</unitid>
-          <unittitle>Administration générale de déménagements pour tous pays Henri François </unittitle>
+          <unittitle>Administration générale de déménagements pour tous pays Henri François</unittitle>
           <unitdate normal="1889">Date de rédaction : 1889</unitdate>
-          <physdesc>Reçu, Format 21x13cm   </physdesc>
+          <physdesc>Reçu, Format 21x13cm</physdesc>
           <origination>
             <corpname normal="François, Henri">François, Henri</corpname>
           </origination>
@@ -6921,7 +6906,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0226</unitid>
           <unittitle>Retordage de laine et coton François Fruy</unittitle>
           <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <physdesc>Facture                  </physdesc>
+          <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Fruy, François">Fruy, François</corpname>
           </origination>
@@ -6977,6 +6962,36 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52301</p>
         </odd>
       </c>
+      <c level="item" id="m01781244639vAtI13">
+        <did>
+          <unitid>Let_0228</unitid>
+          <unittitle>Ateliers de construction de mécaniques Jacquard Gaillard Père et fils</unittitle>
+          <unitdate normal="1894">Date de rédaction : 1894</unitdate>
+        </did>
+        <scopecontent>
+          <p>Exploitation de la nouvelle Jacquard économique, système Vincenzi. Ancienne maison Vincenzi, Gaillard, Père &amp; Fils</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="rue">Vivier, rue de</geogname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Métiers à tisser</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Textiles et tissus</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <persname normal="Gaillard père &amp; fils" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Gaillard père &amp; fils</persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0228.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0228.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639vAtI13" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52585" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0228.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0228.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639vAtI13</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52585</p>
+        </odd>
+      </c>
       <c level="item" id="m01781244639UyIZIw">
         <did>
           <unitid>Let_0229</unitid>
@@ -7019,7 +7034,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Spécialité de mécaniques Jacquard et mécaniques armures en tous genres et pour toutes espèces de tissus                    </p>
+          <p>Spécialité de mécaniques Jacquard et mécaniques armures en tous genres et pour toutes espèces de tissus</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Vivier, rue de</geogname>
@@ -7134,6 +7149,36 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52306</p>
         </odd>
       </c>
+      <c level="item" id="m017812446394nRCZY">
+        <did>
+          <unitid>Let_0234</unitid>
+          <unittitle>Granit belge Gault Père et Fils, successeurs</unittitle>
+          <unitdate normal="1910">Date de rédaction : 1910</unitdate>
+        </did>
+        <scopecontent>
+          <p>Ancienne maison A. Pachy. Spécialités de chapelles et monuments funéraires.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="rue">Grande Rue</geogname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pierre, taille</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Marbre</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Gault Père et fils</persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0234.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0234.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446394nRCZY" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52586" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0234.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0234.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446394nRCZY</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52586</p>
+        </odd>
+      </c>
       <c level="item" id="m017812446397aZCjS">
         <did>
           <unitid>Let_0235</unitid>
@@ -7229,13 +7274,13 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0238</unitid>
           <unittitle>Location de services de table &amp; argenterie Maison J. Goethals-Desbarbieux</unittitle>
           <unitdate normal="1900">Date de rédaction : ca. 1900</unitdate>
-          <physdesc>&lt;p style="text-align: justify;"&gt;Facture, format 18 x 21 cm.&lt;/p&gt;</physdesc>
+          <physdesc>Facture, format 18 x 21 cm.</physdesc>
           <origination>
             <corpname normal="Goethals-Desbarbieux, J.">Goethals-Desbarbieux, J.</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>&lt;p style="text-align: justify;"&gt;Porcelaines, faïences, cristaux, objets d'art, ustensiles de ménage, articles de fantaisie et de piété.&lt;/p&gt;</p>
+          <p>Porcelaines, faïences, cristaux, objets d'art, ustensiles de ménage, articles de fantaisie et de piété.</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Services de table</subject>
@@ -7357,7 +7402,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0242</unitid>
           <unittitle>Etablissements Fernard Guelton vins et spiritueux</unittitle>
-          <unitdate normal="1960"> : </unitdate>
+          <unitdate normal="1960">:</unitdate>
           <origination>
             <corpname normal="Guelton, Fernand">Guelton, Fernand</corpname>
           </origination>
@@ -7395,7 +7440,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Propriétaire  </p>
+          <p>Propriétaire</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Gare, rue de la</geogname>
@@ -7427,7 +7472,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Brosserie pour filatures et apprêts,  spécialité pour peignage de laine lin, soie et coton</p>
+          <p>Brosserie pour filatures et apprêts, spécialité pour peignage de laine lin, soie et coton</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Daubenton, rue</geogname>
@@ -7516,7 +7561,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0247</unitid>
           <unittitle>Imprimerie Chevalier Etablissements Hazebrouck-Capon</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Hazebrouck-Capon">Hazebrouck-Capon</corpname>
@@ -7707,7 +7752,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Machines préparatoires pour tissages mécaniques, armures      </p>
+          <p>Machines préparatoires pour tissages mécaniques, armures</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Bernard, rue</geogname>
@@ -7823,14 +7868,14 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0257</unitid>
           <unittitle>Entreprise Ad.Hubert fils</unittitle>
-          <unitdate> : </unitdate>
-          <physdesc>Buvard </physdesc>
+          <unitdate>:</unitdate>
+          <physdesc>Buvard</physdesc>
           <origination>
             <corpname normal="Hubert, Ad. Fils">Hubert, Ad. Fils</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Fabricant de cylindres cannelés et non cannelés pour toutes espèces de filatures             </p>
+          <p>Fabricant de cylindres cannelés et non cannelés pour toutes espèces de filatures</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Moulin, rue du</geogname>
@@ -7857,7 +7902,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1920">Date de rédaction : 1920</unitdate>
           <physdesc>Changement d'adresse inscrit à la main : 34 rue Newton</physdesc>
           <origination>
-            <corpname normal="Huybens-Dupuis, J. H. ">Huybens-Dupuis, J. H. </corpname>
+            <corpname normal="Huybens-Dupuis, J. H.">Huybens-Dupuis, J. H.</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -8045,7 +8090,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0264</unitid>
           <unittitle>Jean-Bart cirage imperméable</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Publicité pleine-page parue dans un magazine (page découpée)</physdesc>
           <origination>
             <corpname normal="Jean-Bart">Jean-Bart</corpname>
@@ -8073,7 +8118,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0265</unitid>
           <unittitle>Jean-Bart cirage imperméable</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Publicité pleine-page parue dans un magazine (page découpée)</physdesc>
           <origination>
             <corpname normal="Jean-Bart">Jean-Bart</corpname>
@@ -8130,7 +8175,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0267</unitid>
           <unittitle>Jean-Bart cirage imperméable</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Publicité pleine-page parue dans un magazine (page découpée)</physdesc>
           <origination>
             <corpname normal="Jean-Bart">Jean-Bart</corpname>
@@ -8159,7 +8204,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0268</unitid>
           <unittitle>Jean-Bart cirage imperméable</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Buvard (A5), format horizontal</physdesc>
           <origination>
             <corpname normal="Jean-Bart">Jean-Bart</corpname>
@@ -8196,7 +8241,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Béreaud-Jonville Successeur. </p>
+          <p>Béreaud-Jonville Successeur.</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Inkermann, rue d'</geogname>
@@ -8221,7 +8266,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0270</unitid>
           <unittitle>Minoterie Jonville Frères</unittitle>
-          <unitdate>Date imprimée non renseignée : </unitdate>
+          <unitdate>Date imprimée non renseignée :</unitdate>
           <physdesc>Format A5</physdesc>
           <origination>
             <corpname normal="Jonville frères">Jonville frères</corpname>
@@ -8383,7 +8428,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0275</unitid>
           <unittitle>G. Jouret &amp; Fils &amp; Cie</unittitle>
           <unitdate normal="1923">Date du tapuscrit : 1923</unitdate>
-          <physdesc>2/3 de page A4 sup. </physdesc>
+          <physdesc>2/3 de page A4 sup.</physdesc>
           <origination>
             <corpname normal="Jouret, G.">Jouret, G.</corpname>
           </origination>
@@ -8417,7 +8462,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0276</unitid>
           <unittitle>Imprimerie du Journal de Roubaix</unittitle>
           <unitdate normal="1913">Date de rédaction : 1913</unitdate>
-          <physdesc>2/3 de page A4 sup. </physdesc>
+          <physdesc>2/3 de page A4 sup.</physdesc>
           <origination>
             <corpname normal="Journal de Roubaix">Journal de Roubaix</corpname>
             <corpname normal="Reboux, maison">Reboux, maison</corpname>
@@ -8451,7 +8496,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0277</unitid>
           <unittitle>Journal de Roubaix</unittitle>
           <unitdate normal="1910">Date de rédaction : 1910</unitdate>
-          <physdesc>2/3 de page A4 sup. </physdesc>
+          <physdesc>2/3 de page A4 sup.</physdesc>
           <origination>
             <corpname normal="Journal de Roubaix">Journal de Roubaix</corpname>
             <corpname normal="Reboux, Alfred">Reboux, Alfred</corpname>
@@ -8482,7 +8527,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0278</unitid>
           <unittitle>Journal de Roubaix</unittitle>
           <unitdate normal="1931">Date de rédaction : 1931</unitdate>
-          <physdesc>2/3 de page A4 sup. </physdesc>
+          <physdesc>2/3 de page A4 sup.</physdesc>
           <origination>
             <corpname normal="Journal de Roubaix">Journal de Roubaix</corpname>
           </origination>
@@ -8656,7 +8701,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0284</unitid>
           <unittitle>Ets. Robert Kérekes</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
             <corpname normal="Kérekes, Robert">Kérekes, Robert</corpname>
@@ -8738,7 +8783,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         </controlaccess>
         <daogrp>
           <daodesc>
-            <p> Lambert-Desmazure Grains &amp; graines</p>
+            <p>Lambert-Desmazure Grains &amp; graines</p>
           </daodesc>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0286.tif" role="preservation:image:first"/>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0286.jpg" role="access:image:first"/>
@@ -8966,7 +9011,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0294</unitid>
           <unittitle>Leclercq-Dupire Roubaix</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <origination>
             <corpname normal="Leclercq-Dupire">Leclercq-Dupire</corpname>
           </origination>
@@ -8993,7 +9038,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639vpOxHW">
         <did>
           <unitid>Let_0295</unitid>
-          <unittitle>Lecomte  &amp; Déprès</unittitle>
+          <unittitle>Lecomte &amp; Déprès</unittitle>
           <unitdate normal="1898">Date de rédaction : 1898</unitdate>
           <origination>
             <corpname normal="Lecomte &amp; Déprès">Lecomte &amp; Déprès</corpname>
@@ -9267,7 +9312,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0304</unitid>
           <unittitle>Roubaix stylo G. Lehembre</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Buvard (143 x 184 mm)</physdesc>
           <origination>
             <corpname normal="Lehembre, G.">Lehembre, G.</corpname>
@@ -9460,7 +9505,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Lavage et épaillage de laine, teinturerie </p>
+          <p>Lavage et épaillage de laine, teinturerie</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Industrie lainière</subject>
@@ -9484,14 +9529,14 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639QgEzrj">
         <did>
           <unitid>Let_0311</unitid>
-          <unittitle>Filature de cardés en tous genres Lemaire &amp; Dillies  </unittitle>
+          <unittitle>Filature de cardés en tous genres Lemaire &amp; Dillies</unittitle>
           <unitdate normal="1921">Date du tapuscrit : 1921</unitdate>
           <origination>
             <corpname normal="Lemaire &amp; Dillies">Lemaire &amp; Dillies</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Lavage et épaillage de laine, teinturerie </p>
+          <p>Lavage et épaillage de laine, teinturerie</p>
         </scopecontent>
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Industrie textile</subject>
@@ -9516,7 +9561,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639VnQnU4">
         <did>
           <unitid>Let_0312</unitid>
-          <unittitle>Laines à tricoter Sacré Cur</unittitle>
+          <unittitle>Laines à tricoter Sacré Cœur</unittitle>
           <unitdate normal="1947">Date du tapuscrit : 1947</unitdate>
           <origination>
             <corpname normal="Lepoutre, A.">Lepoutre, A.</corpname>
@@ -9796,7 +9841,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Travaux de serrurerie d'art </p>
+          <p>Travaux de serrurerie d'art</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Neuve, rue</geogname>
@@ -9947,7 +9992,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0326</unitid>
           <unittitle>Librairie du Colisée</unittitle>
-          <unitdate>Pas de date sur le document : </unitdate>
+          <unitdate>Pas de date sur le document :</unitdate>
           <physdesc>papier à lettres vierge, format 14x21 cm</physdesc>
         </did>
         <controlaccess>
@@ -10090,7 +10135,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1897">Date de rédaction : 1897</unitdate>
           <physdesc>Gravure signée "Jenicot, grav., Roubaix</physdesc>
           <origination>
-            <corpname normal="Lortimois, Jules ">Lortimois, Jules </corpname>
+            <corpname normal="Lortimois, Jules">Lortimois, Jules</corpname>
             <corpname normal="Lortimois, Floris">Lortimois, Floris</corpname>
           </origination>
         </did>
@@ -10121,7 +10166,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0332</unitid>
           <unittitle>Magasins de nouveautés A la pensée Loucheur &amp; fils</unittitle>
-          <unitdate>Pas de date sur le document : </unitdate>
+          <unitdate>Pas de date sur le document :</unitdate>
           <physdesc>Buvard-réclame, Format 13x21 cm</physdesc>
           <origination>
             <corpname normal="Loucheur &amp; fils">Loucheur &amp; fils</corpname>
@@ -10256,7 +10301,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0336</unitid>
           <unittitle>Pierres, marbres et granits Louvieaux-Deberdt</unittitle>
-          <unitdate>Pas de date sur le document : </unitdate>
+          <unitdate>Pas de date sur le document :</unitdate>
           <physdesc>Facture vierge</physdesc>
           <origination>
             <corpname normal="Louvieaux-Debert">Louvieaux-Debert</corpname>
@@ -10570,7 +10615,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Lainages, draperies G. Masurel-Leclercq &amp; fils</unittitle>
           <unitdate normal="1929">Date de rédaction : 1929</unitdate>
           <origination>
-            <corpname normal="Masurel-Leclercq, G. ">Masurel-Leclercq, G. </corpname>
+            <corpname normal="Masurel-Leclercq, G.">Masurel-Leclercq, G.</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -10814,7 +10859,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0357</unitid>
           <unittitle>Articles industriels pour tissages et filatures P. Monbel</unittitle>
           <unitdate normal="1921">Date de rédaction : 1921</unitdate>
-          <physdesc>Facture (14 x 29 cm) </physdesc>
+          <physdesc>Facture (14 x 29 cm)</physdesc>
           <origination>
             <corpname normal="Monbel, P.">Monbel, P.</corpname>
           </origination>
@@ -10844,7 +10889,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639UYdveF">
         <did>
           <unitid>Let_0358</unitid>
-          <unittitle>Mercerisage du coton et du lin Lucien Monnet </unittitle>
+          <unittitle>Mercerisage du coton et du lin Lucien Monnet</unittitle>
           <unitdate normal="1904">Date de rédaction : 1904</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
@@ -11141,7 +11186,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0368</unitid>
           <unittitle>Linge de maison, couvertures 2 gendarmes groupe Motte</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Buvard (14 x21 cm)</physdesc>
           <origination>
             <corpname normal="Motte">Motte</corpname>
@@ -11204,7 +11249,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0370</unitid>
           <unittitle>Motte-Bossut : filature de coton, filature de laine, tissages de coton, velours</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Buvard (15 x 22 cm)</physdesc>
           <origination>
             <corpname normal="Motte-Bossut">Motte-Bossut</corpname>
@@ -11291,7 +11336,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639Wzyn5O">
         <did>
           <unitid>Let_0373</unitid>
-          <unittitle>Etablissements Motte-Bossut fils : filature de coton, filature de laine, tissage de coton, manufacture de velours </unittitle>
+          <unittitle>Etablissements Motte-Bossut fils : filature de coton, filature de laine, tissage de coton, manufacture de velours</unittitle>
           <unitdate normal="1930">Date de l'émission : 1930</unitdate>
           <physdesc>Format (33 x 35 cm) Obligation au porteur</physdesc>
           <origination>
@@ -11306,7 +11351,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         </controlaccess>
         <daogrp>
           <daodesc>
-            <p>Etablissements Motte-Bossut fils : filature de coton, filature de laine, tissage de coton, manufacture de velours </p>
+            <p>Etablissements Motte-Bossut fils : filature de coton, filature de laine, tissage de coton, manufacture de velours</p>
           </daodesc>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0373.tif" role="preservation:image:first"/>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0373.jpg" role="access:image:first"/>
@@ -11397,7 +11442,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639jo427F">
         <did>
           <unitid>Let_0376</unitid>
-          <unittitle>Motte-Bossut S.A. : filature d'écrus, filature de laine, tissages de coton, manufactures de velours </unittitle>
+          <unittitle>Motte-Bossut S.A. : filature d'écrus, filature de laine, tissages de coton, manufactures de velours</unittitle>
           <unitdate normal="1971">Date du tapuscrit : 1971</unitdate>
           <origination>
             <corpname normal="Motte-Bossut S.A.">Motte-Bossut S.A.</corpname>
@@ -11553,7 +11598,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639TDaFRm">
         <did>
           <unitid>Let_0385</unitid>
-          <unittitle>Teintures &amp; apprêts de lainages Motte, Delescluse frères &amp; Cie </unittitle>
+          <unittitle>Teintures &amp; apprêts de lainages Motte, Delescluse frères &amp; Cie</unittitle>
           <unitdate normal="1899">Date de rédaction : 1899</unitdate>
           <origination>
             <corpname normal="Motte">Motte</corpname>
@@ -11585,7 +11630,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639h3o39c">
         <did>
           <unitid>Let_0386</unitid>
-          <unittitle>Teintures &amp; apprêts de lainages Motte, Delescluse frères </unittitle>
+          <unittitle>Teintures &amp; apprêts de lainages Motte, Delescluse frères</unittitle>
           <unitdate normal="1903">Date du tapuscrit : 1903</unitdate>
           <origination>
             <corpname normal="Motte">Motte</corpname>
@@ -11773,7 +11818,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           </origination>
         </did>
         <scopecontent>
-          <p>Ancienne  maison Naessens frères</p>
+          <p>Ancienne maison Naessens frères</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Nain, rue</geogname>
@@ -12051,14 +12096,14 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639RwaeYA">
         <did>
           <unitid>Let_0401</unitid>
-          <unittitle>R. Oliver Frères « Au jardin de Valence, Espagne » </unittitle>
+          <unittitle>R. Oliver Frères « Au jardin de Valence, Espagne »</unittitle>
           <unitdate normal="1910">Date de rédaction : 1910</unitdate>
           <origination>
             <corpname normal="Oliver frères, R.">Oliver frères, R.</corpname>
           </origination>
         </did>
         <scopecontent>
-          <p>Produits d'Espagne et des Antilles. Spécialité d'oranges, citrons &amp; mandarines </p>
+          <p>Produits d'Espagne et des Antilles. Spécialité d'oranges, citrons &amp; mandarines</p>
         </scopecontent>
         <controlaccess>
           <geogname source="rue">Grande rue</geogname>
@@ -12377,7 +12422,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0411</unitid>
           <unittitle>Palais du vêtement</unittitle>
-          <unitdate normal="1950"> : ca. 1950</unitdate>
+          <unitdate normal="1950">: ca. 1950</unitdate>
           <physdesc>Prospectus de 4 pages (36 x 27 cm)</physdesc>
           <origination>
             <corpname normal="Palais du vêtement">Palais du vêtement</corpname>
@@ -12513,7 +12558,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0415</unitid>
           <unittitle>Charcuterie fine A. Pascal-Debruyne, successeur</unittitle>
-          <unitdate>Date de rédaction : </unitdate>
+          <unitdate>Date de rédaction :</unitdate>
           <origination>
             <corpname normal="Pascal-Debruyne, A.">Pascal-Debruyne, A.</corpname>
           </origination>
@@ -12576,7 +12621,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0417</unitid>
           <unittitle>« Au Nouveau siècle » : articles funéraires Louis Paurisse</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <origination>
             <corpname normal="Paurisse, Louis">Paurisse, Louis</corpname>
           </origination>
@@ -12721,7 +12766,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0422</unitid>
           <unittitle>Les Bonnes laines Phildar</unittitle>
-          <unitdate normal="1950"> : ca. 1950</unitdate>
+          <unitdate normal="1950">: ca. 1950</unitdate>
           <physdesc>Découpe (28 x 11 cm)</physdesc>
           <origination>
             <corpname normal="Phildar">Phildar</corpname>
@@ -12755,7 +12800,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0423</unitid>
           <unittitle>Les Bonnes laines Phildar</unittitle>
-          <unitdate normal="1950"> : ca. 1950</unitdate>
+          <unitdate normal="1950">: ca. 1950</unitdate>
           <origination>
             <corpname normal="Phildar">Phildar</corpname>
           </origination>
@@ -12782,6 +12827,68 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>access:image:last RBX_MED_LET_0423a.jpg</p>
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446394A3S6m</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52488</p>
+        </odd>
+      </c>
+      <c level="item" id="m01781244639c4zMQe">
+        <did>
+          <unitid>Let_0424</unitid>
+          <unittitle>Club olympique Roubaix-Tourcoing</unittitle>
+          <unitdate normal="1958">Date de rédaction : ca. 1958</unitdate>
+          <origination>
+            <corpname normal="Club olympique Roubaix-Tourcoing" role="éditeur">Club olympique Roubaix-Tourcoing</corpname>
+          </origination>
+        </did>
+        <scopecontent>
+          <p>Football-association, Champion de France 1946-47</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Football</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+          <geogname source="rue">Grand Place</geogname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0424.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0424.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639c4zMQe" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52171" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0424.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0424.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639c4zMQe</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52171</p>
+        </odd>
+      </c>
+      <c level="item" id="m01781244639q1Pzru">
+        <did>
+          <unitid>Let_0425</unitid>
+          <unittitle>Club olympique Roubaix-Tourcoing</unittitle>
+          <unitdate normal="1965">Date de rédaction : 1965</unitdate>
+          <origination>
+            <corpname normal="Club olympique Roubaix-Tourcoing" role="éditeur">Club olympique Roubaix-Tourcoing</corpname>
+          </origination>
+        </did>
+        <scopecontent>
+          <p>Football-association, champion de France 1946-47</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Football</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+          <geogname source="rue">Grand Place</geogname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0425.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0425.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639q1Pzru" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52172" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0425.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0425.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639q1Pzru</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52172</p>
         </odd>
       </c>
       <c level="item" id="m01781244639DsrZs7">
@@ -12879,7 +12986,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0429</unitid>
           <unittitle>Tricotez les laines du Pingouin</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Buvard (14 x 21 cm)</physdesc>
           <origination>
             <corpname normal="Pingouin">Pingouin</corpname>
@@ -13097,7 +13204,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unittitle>Tannerie &amp; corroierie E. Poullet-Demeestère</unittitle>
           <unitdate normal="1907">Date de rédaction : 1907</unitdate>
           <origination>
-            <corpname normal="Poullet-Demeestère, E. ">Poullet-Demeestère, E. </corpname>
+            <corpname normal="Poullet-Demeestère, E.">Poullet-Demeestère, E.</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -13261,7 +13368,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0441</unitid>
           <unittitle>Probitas : lait vendu sous le contôle... du Syndicat des marchands laitiers de Roubaix et environs</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>17 x 24 cm</physdesc>
           <origination>
             <corpname normal="Syndicat des marchands laitiers de Roubaix et environs">Syndicat des marchands laitiers de Roubaix et environs</corpname>
@@ -13288,7 +13395,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0442</unitid>
           <unittitle>Les postes Philips F. Porniez et Cie</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Brochure publicitaire (12 x 20 cm)</physdesc>
           <origination>
             <corpname normal="Proniez, F.">Proniez, F.</corpname>
@@ -13352,7 +13459,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639mDIysU">
         <did>
           <unitid>Let_0444</unitid>
-          <unittitle>Tissage mécanique Henri Prouvost </unittitle>
+          <unittitle>Tissage mécanique Henri Prouvost</unittitle>
           <unitdate normal="1908">Date de rédaction : 1908</unitdate>
           <origination>
             <corpname normal="Prouvost, Henri">Prouvost, Henri</corpname>
@@ -13541,7 +13648,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0450</unitid>
           <unittitle>Tissus Ratel</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Calculs ms.</physdesc>
           <origination>
             <corpname normal="Ratel">Ratel</corpname>
@@ -13637,7 +13744,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0453</unitid>
           <unittitle>Filatures de la Redoute</unittitle>
-          <unitdate> : </unitdate>
+          <unitdate>:</unitdate>
           <physdesc>Bulletin de commande</physdesc>
           <origination>
             <corpname normal="La Redoute">La Redoute</corpname>
@@ -14795,6 +14902,40 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52552</p>
         </odd>
       </c>
+      <c level="item" id="m01781244639RedAV9">
+        <did>
+          <unitid>Let_0491</unitid>
+          <unittitle>Fonderies, ateliers de constructions Skene &amp; Devallée</unittitle>
+          <unitdate normal="1919">Date de rédaction : 1919</unitdate>
+          <origination>
+            <corpname normal="Skene &amp; Devallée">Skene &amp; Devallée</corpname>
+          </origination>
+        </did>
+        <scopecontent>
+          <p>Spécialité de gill-box</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="rue">Watt, rue</geogname>
+          <geogname source="rue">Montesquieu, boulevard</geogname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Fonderie</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Machines textiles</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0491.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0491.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639RedAV9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52561" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0491.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0491.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639RedAV9</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52561</p>
+        </odd>
+      </c>
       <c level="item" id="m01781244639Pt3LuO">
         <did>
           <unitid>Let_0492</unitid>
@@ -14830,7 +14971,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639qeLOP4">
         <did>
           <unitid>Let_0493</unitid>
-          <unittitle>A Sainte Marie : lingerie, mercerie, bonneterie G. Snauwaert-Baudet </unittitle>
+          <unittitle>A Sainte Marie : lingerie, mercerie, bonneterie G. Snauwaert-Baudet</unittitle>
           <unitdate normal="1921">Date de rédaction : 1921</unitdate>
           <origination>
             <corpname normal="Snauwaert-Baudet, G.">Snauwaert-Baudet, G.</corpname>
@@ -14923,9 +15064,9 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0496</unitid>
           <unittitle>Tissage du Nouveau Roubaix</unittitle>
           <unitdate normal="1952">Date du tapuscrit : 1952</unitdate>
-          <physdesc>Lettre de change; 11 x 28 cm </physdesc>
+          <physdesc>Lettre de change; 11 x 28 cm</physdesc>
           <origination>
-            <corpname normal="Tissage du Nouveau Roubaix ">Tissage du Nouveau Roubaix </corpname>
+            <corpname normal="Tissage du Nouveau Roubaix">Tissage du Nouveau Roubaix</corpname>
           </origination>
         </did>
         <scopecontent>
@@ -14958,7 +15099,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1952">Date du tapuscrit : 1952</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
-            <corpname normal="Tissage du Nouveau Roubaix ">Tissage du Nouveau Roubaix </corpname>
+            <corpname normal="Tissage du Nouveau Roubaix">Tissage du Nouveau Roubaix</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -14988,7 +15129,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1952">Date du tapuscrit : 1952</unitdate>
           <physdesc>Relevé de factures</physdesc>
           <origination>
-            <corpname normal="Tissage du Nouveau Roubaix ">Tissage du Nouveau Roubaix </corpname>
+            <corpname normal="Tissage du Nouveau Roubaix">Tissage du Nouveau Roubaix</corpname>
           </origination>
         </did>
         <controlaccess>
@@ -15015,7 +15156,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
         <did>
           <unitid>Let_0499</unitid>
           <unittitle>Sport ouvrier roubaisien</unittitle>
-          <unitdate normal="1920"> vers 1922</unitdate>
+          <unitdate normal="1920">vers 1922</unitdate>
           <origination>
             <corpname normal="Sport ouvrier roubaisien">Sport ouvrier roubaisien</corpname>
           </origination>
@@ -15040,38 +15181,32 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52560</p>
         </odd>
       </c>
-      <c level="item" id="m01781244639RedAV9">
+      <c level="item" id="m017812446394SIWRF">
         <did>
-          <unitid>Let_0491</unitid>
-          <unittitle>Fonderies, ateliers de constructions Skene &amp; Devallée</unittitle>
-          <unitdate normal="1919">Date de rédaction : 1919</unitdate>
-          <origination>
-            <corpname normal="Skene &amp; Devallée">Skene &amp; Devallée</corpname>
-          </origination>
+          <unitid>Let_0500</unitid>
+          <unittitle>U.S.S.G.T. Sport ouvrier roubaisien</unittitle>
+          <unitdate normal="1934">date de rédaction probable : 1934</unitdate>
         </did>
         <scopecontent>
-          <p>Spécialité de gill-box</p>
+          <p>Course à pied : réglement du challenge "de Brabander"</p>
         </scopecontent>
         <controlaccess>
-          <geogname source="rue">Watt, rue</geogname>
-          <geogname source="rue">Montesquieu, boulevard</geogname>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Fonderie</subject>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Machines textiles</subject>
+          <geogname source="rue">Belfort, boulevard de</geogname>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+          <corpname normal="U.S.S.G.T." role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">U.S.S.G.T.</corpname>
         </controlaccess>
         <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0491.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0491.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639RedAV9" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52561" role="publication:previous"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0500.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_LET/RBX_MED_LET_0500.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446394SIWRF" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52588" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0491.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0491.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639RedAV9</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52561</p>
+          <p>preservation:image MED/MED_LET/RBX_MED_LET_0500.tif</p>
+          <p>access:image MED/MED_LET/RBX_MED_LET_0500.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446394SIWRF</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52588</p>
         </odd>
       </c>
       <c level="item" id="m01781244639Mv3OB1">
@@ -15352,7 +15487,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitdate normal="1952">Date de rédaction : 1952</unitdate>
           <physdesc>Bordereau de livraison</physdesc>
           <origination>
-            <corpname normal="Dubois, Edouard &amp; fils ">Dubois, Edouard &amp; fils </corpname>
+            <corpname normal="Dubois, Edouard &amp; fils">Dubois, Edouard &amp; fils</corpname>
             <corpname normal="Théodore">Théodore</corpname>
           </origination>
         </did>
@@ -15535,7 +15670,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639gu0L5a">
         <did>
           <unitid>Let_0516</unitid>
-          <unittitle>Draperies  Confections A. Titécat fils ainé </unittitle>
+          <unittitle>Draperies – Confections A. Titécat fils ainé</unittitle>
           <unitdate normal="1930">Date du tapuscrit : 1930</unitdate>
           <origination>
             <corpname normal="Titécat fils ainé, A.">Titécat fils ainé, A.</corpname>
@@ -15566,7 +15701,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0517</unitid>
           <unittitle>Tobie Tailleur</unittitle>
           <unitdate normal="1884">Date de rédaction : 1884</unitdate>
-          <physdesc>Facture (14 x 29 cm) </physdesc>
+          <physdesc>Facture (14 x 29 cm)</physdesc>
           <origination>
             <corpname normal="Tobie">Tobie</corpname>
           </origination>
@@ -15596,7 +15731,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
       <c level="item" id="m01781244639sbfLWt">
         <did>
           <unitid>Let_0518</unitid>
-          <unittitle>Victor &amp; René Tonneau, constructeurs </unittitle>
+          <unittitle>Victor &amp; René Tonneau, constructeurs</unittitle>
           <unitdate normal="1922">Date de rédaction : 1922</unitdate>
           <physdesc>Facture</physdesc>
           <origination>
@@ -15632,7 +15767,7 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <unitid>Let_0519</unitid>
           <unittitle>Constructions mécaniques Victor &amp; René Tonneau</unittitle>
           <unitdate normal="1922">Date de rédaction : 1922</unitdate>
-          <physdesc>Reçu; 13x19 cm    </physdesc>
+          <physdesc>Reçu; 13x19 cm</physdesc>
           <origination>
             <corpname normal="Tonneau, Victor">Tonneau, Victor</corpname>
             <corpname normal="Tonneau, René">Tonneau, René</corpname>
@@ -15683,37 +15818,11 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52581</p>
         </odd>
       </c>
-      <c level="item" id="m017812446397rIeut">
-        <did>
-          <unitid>Let_0002</unitid>
-          <unittitle>Peinture, décors, vitrerie Calixte Algoet</unittitle>
-          <unitdate normal="1929">date de rédaction : 1929</unitdate>
-        </did>
-        <controlaccess>
-          <geogname source="rue">Collège, rue du</geogname>
-          <subject>Peinture industrielle</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
-          <persname normal="Algoet, Calixte" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Algoet, Calixte</persname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0002.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0002.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446397rIeut" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52582" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0002.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0002.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446397rIeut</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52582</p>
-        </odd>
-      </c>
       <c level="item" id="m01781244639FnQ5eF">
         <did>
           <unitid>Let_0521</unitid>
           <unittitle>Préparation du tissage à façon Joseph Tournoy</unittitle>
-          <unitdate normal="1938">Date de rédaction  : 1938</unitdate>
+          <unitdate normal="1938">Date de rédaction : 1938</unitdate>
         </did>
         <scopecontent>
           <p>Ancienne Maison Pamart, Declercq et Tournoys</p>
@@ -15737,95 +15846,6 @@ Appareils pour distilleries-brasseries-teintureries-apprêts-tissages-filatures-
           <p>access:image MED/MED_LET/RBX_MED_LET_0521.jpg</p>
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639FnQ5eF</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52583</p>
-        </odd>
-      </c>
-      <c level="item" id="m01781244639EBdhms">
-        <did>
-          <unitid>Let_0086</unitid>
-          <unittitle>Etablissements Jean Catel</unittitle>
-          <unitdate normal="1951">date de rédaction : 1951</unitdate>
-          <physdesc>Facture</physdesc>
-        </did>
-        <controlaccess>
-          <geogname source="rue">Henri Carette, rue</geogname>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Automobiles</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
-          <persname normal="Catel, Jean" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Catel, Jean</persname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0086.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0086.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639EBdhms" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52584" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0086.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0086.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639EBdhms</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52584</p>
-        </odd>
-      </c>
-      <c level="item" id="m01781244639vAtI13">
-        <did>
-          <unitid>Let_0228</unitid>
-          <unittitle>Ateliers de construction de mécaniques Jacquard Gaillard Père et fils</unittitle>
-          <unitdate normal="1894">Date de rédaction : 1894</unitdate>
-        </did>
-        <scopecontent>
-          <p>Exploitation de la nouvelle Jacquard économique, système Vincenzi.&#13;
-Ancienne maison Vincenzi, Gaillard, Père &amp; Fils</p>
-        </scopecontent>
-        <controlaccess>
-          <geogname source="rue">Vivier, rue de</geogname>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Métiers à tisser</subject>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Textiles et tissus</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
-          <persname normal="Gaillard père &amp; fils" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Gaillard père &amp; fils</persname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0228.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0228.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244639vAtI13" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52585" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0228.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0228.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244639vAtI13</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52585</p>
-        </odd>
-      </c>
-      <c level="item" id="m017812446394nRCZY">
-        <did>
-          <unitid>Let_0234</unitid>
-          <unittitle>Granit belge Gault Père et Fils, successeurs</unittitle>
-          <unitdate normal="1910">Date de rédaction : 1910</unitdate>
-        </did>
-        <scopecontent>
-          <p>Ancienne maison A. Pachy.&#13;
-Spécialités de chapelles et monuments funéraires.</p>
-        </scopecontent>
-        <controlaccess>
-          <geogname source="rue">Grande Rue</geogname>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Pierre, taille</subject>
-          <subject source="thesaurus--SLASH--bnr_rameau.xml">Marbre</subject>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
-          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Gault Père et fils</persname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0234.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0234.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446394nRCZY" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52586" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0234.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0234.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446394nRCZY</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52586</p>
         </odd>
       </c>
       <c level="item" id="m017812446391FzZgu">
@@ -15853,34 +15873,6 @@ Spécialités de chapelles et monuments funéraires.</p>
           <p>access:image MED/MED_LET/RBX_MED_LET_0522.jpg</p>
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446391FzZgu</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52587</p>
-        </odd>
-      </c>
-      <c level="item" id="m017812446394SIWRF">
-        <did>
-          <unitid>Let_0500</unitid>
-          <unittitle>U.S.S.G.T. Sport ouvrier roubaisien</unittitle>
-          <unitdate normal="1934">date de rédaction probable : 1934</unitdate>
-        </did>
-        <scopecontent>
-          <p>Course à pied : réglement du challenge "de Brabander"</p>
-        </scopecontent>
-        <controlaccess>
-          <geogname source="rue">Belfort, boulevard de</geogname>
-          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
-          <corpname normal="U.S.S.G.T." role="éditeur" source="thesaurus--SLASH--bnr_corpname.xml">U.S.S.G.T.</corpname>
-        </controlaccess>
-        <daogrp>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0500.tif" role="preservation:image"/>
-          <daoloc href="MED/MED_LET/RBX_MED_LET_0500.jpg" role="access:image"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446394SIWRF" role="publication:current"/>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52588" role="publication:previous"/>
-        </daogrp>
-        <odd>
-          <p>preservation:image MED/MED_LET/RBX_MED_LET_0500.tif</p>
-          <p>access:image MED/MED_LET/RBX_MED_LET_0500.jpg</p>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446394SIWRF</p>
-          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52588</p>
         </odd>
       </c>
       <c level="item" id="m017812446392oDTqw">
@@ -16971,7 +16963,7 @@ Spécialités de chapelles et monuments funéraires.</p>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Articles de sport</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
-          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Vroman, J. </persname>
+          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Vroman, J.</persname>
         </controlaccess>
         <daogrp>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0559.tif" role="preservation:image"/>
@@ -17228,7 +17220,7 @@ Spécialités de chapelles et monuments funéraires.</p>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Manufacture et industrie textile</subject>
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Pansements et bandages</subject>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
-          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">M. &amp; J. Willot &amp; Cie </persname>
+          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">M. &amp; J. Willot &amp; Cie</persname>
         </controlaccess>
         <daogrp>
           <daoloc href="MED/MED_LET/RBX_MED_LET_0568.tif" role="preservation:image"/>
