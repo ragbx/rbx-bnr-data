@@ -53,6 +53,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446423FAl8B</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23378</p>
         </odd>
+        <controlaccess>
+          <persname role="collectionneur" source="thesaurus--SLASH--bnr_persname.xml">Bohée, Francis</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244642PblWFB">
           <did>
             <unitid>BOH_SPO</unitid>
@@ -3115,9 +3118,6 @@
             </odd>
           </c>
         </c>
-        <controlaccess>
-          <persname role="collectionneur" source="thesaurus--SLASH--bnr_persname.xml">Bohée, Francis</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244642QSgsz9">
         <did>
@@ -8217,7 +8217,7 @@
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244642p31jRl</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR139518</p>
             </odd>
-            <c level="subfile" id="m01782934501VBDtSF">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501VBDtSF">
               <did>
                 <unitid>CAT_FAM1_MC</unitid>
                 <unittitle>Manuscrits complémentaires</unittitle>
@@ -8301,7 +8301,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501B50sbn">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501B50sbn">
               <did>
                 <unitid>CAT_FAM1_MJ</unitid>
                 <unittitle>Manuscrit du journal</unittitle>
@@ -8336,7 +8336,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m0178124464281hqW1">
+            <c level="otherlevel" otherlevel="subfile" id="m0178124464281hqW1">
               <did>
                 <unitid>CAT_FAM1_TT</unitid>
                 <unittitle>Transcription tapuscrite</unittitle>
@@ -8672,7 +8672,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017829345018aw1xV</p>
             </odd>
-            <c level="subfile" id="m017829345015C47VE">
+            <c level="otherlevel" otherlevel="subfile" id="m017829345015C47VE">
               <did>
                 <unitid>CAT_FAM2_CO</unitid>
                 <unittitle>Correspondances adressées à M. Paul Delmasure</unittitle>
@@ -8780,7 +8780,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501u91MB8">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501u91MB8">
               <did>
                 <unitid>CAT_FAM2_PH</unitid>
                 <unittitle>Photos</unittitle>
@@ -10503,7 +10503,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01782934501wDHGvq</p>
             </odd>
-            <c level="subfile" id="m017829345018UA41q">
+            <c level="otherlevel" otherlevel="subfile" id="m017829345018UA41q">
               <did>
                 <unitid>CAT_SOU1_CA</unitid>
                 <unittitle>famille Catrice-Delmasure</unittitle>
@@ -10562,7 +10562,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501uJ86hc">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501uJ86hc">
               <did>
                 <unitid>CAT_SOU1_DD</unitid>
                 <unittitle>famille Deledalle-Dazin</unittitle>
@@ -10722,7 +10722,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501Y49m7Y">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501Y49m7Y">
               <did>
                 <unitid>CAT_SOU1_DM</unitid>
                 <unittitle>famille Delmasure-Deledalle</unittitle>
@@ -10815,7 +10815,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01782934501Cye10r</p>
             </odd>
-            <c level="subfile" id="m01782934501yUbg22">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501yUbg22">
               <did>
                 <unitid>CAT_SOU2_CB</unitid>
                 <unittitle>Carnets de bal</unittitle>
@@ -10896,7 +10896,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501q0tB5M">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501q0tB5M">
               <did>
                 <unitid>CAT_SOU2_SP</unitid>
                 <unittitle>Programmes de spectacle</unittitle>
@@ -10964,7 +10964,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01782934501j5CpDD</p>
             </odd>
-            <c level="subfile" id="m01782934501DXIzmE">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501DXIzmE">
               <did>
                 <unitid>CAT_SOU3_AU</unitid>
                 <unittitle>Autres lieux</unittitle>
@@ -11219,7 +11219,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501ijxYAq">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501ijxYAq">
               <did>
                 <unitid>CAT_SOU3_LD</unitid>
                 <unittitle>Images reçues par Lisette Delmasure</unittitle>
@@ -11675,7 +11675,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501txcwQA">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501txcwQA">
               <did>
                 <unitid>CAT_SOU3_NO</unitid>
                 <unittitle>Dans le Nord</unittitle>
@@ -11818,7 +11818,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01782934501lRulhg">
+            <c level="otherlevel" otherlevel="subfile" id="m01782934501lRulhg">
               <did>
                 <unitid>CAT_SOU3_RX</unitid>
                 <unittitle>A Roubaix</unittitle>
@@ -106357,6 +106357,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244642FTBJRp</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR138663</p>
         </odd>
+        <controlaccess>
+          <persname role="collectionneur" source="thesaurus--SLASH--bnr_persname.xml">Prévost, Bernard</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244642JWR8hU">
           <did>
             <unitid>PRE_CP</unitid>
@@ -131137,9 +131140,6 @@
             </c>
           </c>
         </c>
-        <controlaccess>
-          <persname role="collectionneur" source="thesaurus--SLASH--bnr_persname.xml">Prévost, Bernard</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244642eAx6p1">
         <did>

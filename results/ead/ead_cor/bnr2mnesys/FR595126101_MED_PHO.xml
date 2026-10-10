@@ -62,6 +62,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446404n8uvC</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51619</p>
         </odd>
+        <controlaccess>
+          <persname normal="Delvarre, Lucien" source="thesaurus--SLASH--bnr_persname.xml">Lucien Delvarre</persname>
+        </controlaccess>
         <c level="subseries" id="m017812446409mJGgH">
           <did>
             <unitid>PHO_DIA_DEL1</unitid>
@@ -10707,7 +10710,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640REgEQ5</p>
             </odd>
-            <c level="subfile" id="m01781244640UzeCFY">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640UzeCFY">
               <did>
                 <unitid>PHO_DIA_DEL2_R1_M01</unitid>
                 <unittitle>Circuit A</unittitle>
@@ -11730,7 +11733,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446400bcVWh">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446400bcVWh">
               <did>
                 <unitid>PHO_DIA_DEL2_R1_M02</unitid>
                 <unittitle>Circuit B</unittitle>
@@ -12352,7 +12355,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640j02cIu">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640j02cIu">
               <did>
                 <unitid>PHO_DIA_DEL2_R1_M03</unitid>
                 <unittitle>Circuit C</unittitle>
@@ -12969,7 +12972,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446406MxCbf</p>
             </odd>
-            <c level="subfile" id="m0178124464098Ar0x">
+            <c level="otherlevel" otherlevel="subfile" id="m0178124464098Ar0x">
               <did>
                 <unitid>PHO_DIA_DEL2_R2_M01</unitid>
                 <unittitle>Cavalcade de 1903</unittitle>
@@ -13521,7 +13524,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640iH2b0n">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640iH2b0n">
               <did>
                 <unitid>PHO_DIA_DEL2_R2_M02</unitid>
                 <unittitle>Exposition de 1911</unittitle>
@@ -14019,7 +14022,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446407qCbMh">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446407qCbMh">
               <did>
                 <unitid>PHO_DIA_DEL2_R2_M03</unitid>
                 <unittitle>Exposition de 1939</unittitle>
@@ -14592,7 +14595,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640rIRdyL</p>
             </odd>
-            <c level="subfile" id="m01781244640R3pWIV">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640R3pWIV">
               <did>
                 <unitid>PHO_DIA_DEL2_R3_M01</unitid>
                 <unittitle>La guerre de 1914-1918</unittitle>
@@ -15307,7 +15310,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446400WQHPl">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446400WQHPl">
               <did>
                 <unitid>PHO_DIA_DEL2_R3_M02</unitid>
                 <unittitle>La guerre de 1939-1945</unittitle>
@@ -16112,7 +16115,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640TuHSvV</p>
             </odd>
-            <c level="subfile" id="m01781244640VdaSl8">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640VdaSl8">
               <did>
                 <unitid>PHO_DIA_DEL2_R4_M01</unitid>
                 <unittitle>Sports et loisirs</unittitle>
@@ -17236,7 +17239,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446404XUwhQ">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446404XUwhQ">
               <did>
                 <unitid>PHO_DIA_DEL2_R4_M02</unitid>
                 <unittitle>Usines et travail</unittitle>
@@ -18384,7 +18387,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640P47H7O">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640P47H7O">
               <did>
                 <unitid>PHO_DIA_DEL2_R4_M03</unitid>
                 <unittitle>Vivre à Roubaix</unittitle>
@@ -22687,7 +22690,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640wudR5P</p>
             </odd>
-            <c level="subfile" id="m01781244640DgYLn4">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640DgYLn4">
               <did>
                 <unitid>PHO_DIA_DEL2_R5_M01</unitid>
                 <unittitle>Portraits de groupes</unittitle>
@@ -23189,7 +23192,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640UlCbOE">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640UlCbOE">
               <did>
                 <unitid>PHO_DIA_DEL2_R5_M02</unitid>
                 <unittitle>Hommes de marque</unittitle>
@@ -23748,7 +23751,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640GlJRDQ</p>
             </odd>
-            <c level="subfile" id="m01781244640OQPjVY">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640OQPjVY">
               <did>
                 <unitid>PHO_DIA_DEL2_R6_M01</unitid>
                 <unittitle>Eglises roubaisiennes</unittitle>
@@ -23863,7 +23866,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640D55rfl</p>
             </odd>
-            <c level="subfile" id="m017812446405FIBLc">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446405FIBLc">
               <did>
                 <unitid>PHO_DIA_DEL3_R1_M01</unitid>
                 <unittitle>Prises de vue du Roubaisis</unittitle>
@@ -26562,7 +26565,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640u7yVCR">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640u7yVCR">
               <did>
                 <unitid>PHO_DIA_DEL3_R1_M03</unitid>
                 <unittitle>Autres vues du Roubaisis</unittitle>
@@ -27005,7 +27008,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640FGoj2F</p>
             </odd>
-            <c level="subfile" id="m01781244640H6X9Jf">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640H6X9Jf">
               <did>
                 <unitid>PHO_DIA_DEL3_R2_M01</unitid>
                 <unittitle>Les environs de Roubaix autrefois</unittitle>
@@ -27635,7 +27638,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640jiIiin</p>
             </odd>
-            <c level="subfile" id="m01781244640ccle5w">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640ccle5w">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M01</unitid>
                 <unittitle>Le Paris-Roubaix à Templeuve</unittitle>
@@ -27671,7 +27674,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640ogslYL">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640ogslYL">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M02</unitid>
                 <unittitle>Le Blockhaus d'Eperlecques</unittitle>
@@ -27708,7 +27711,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446400Mddom">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446400Mddom">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M03</unitid>
                 <unittitle>La fête de la moisson</unittitle>
@@ -27746,7 +27749,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640sr43PC">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640sr43PC">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M04</unitid>
                 <unittitle>La fête de Gayant</unittitle>
@@ -27782,7 +27785,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640i5yTuc">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640i5yTuc">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M05</unitid>
                 <unittitle>Prises de vue de Lille</unittitle>
@@ -27876,7 +27879,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640TwjQX7">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640TwjQX7">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M06</unitid>
                 <unittitle>Maubeuge et le forum de Bavay</unittitle>
@@ -27943,7 +27946,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640jvygdd">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640jvygdd">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M07</unitid>
                 <unittitle>Le Nord vu du ciel</unittitle>
@@ -27977,7 +27980,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640LnBzVU">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640LnBzVU">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M08</unitid>
                 <unittitle>Le lac Saint-Jean</unittitle>
@@ -28015,7 +28018,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640u9HTG6">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640u9HTG6">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M09</unitid>
                 <unittitle>Reflets</unittitle>
@@ -28051,7 +28054,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640fSWvFx">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640fSWvFx">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M10</unitid>
                 <unittitle>Meeting aérien</unittitle>
@@ -28087,7 +28090,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640HLQhoE">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640HLQhoE">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M11</unitid>
                 <unittitle>L'Audomarois</unittitle>
@@ -28140,7 +28143,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640PVlQCF">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640PVlQCF">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M12</unitid>
                 <unittitle>Défilé historique</unittitle>
@@ -28178,7 +28181,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640S8aQxO">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640S8aQxO">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M13</unitid>
                 <unittitle>Le jardin des plantes</unittitle>
@@ -28214,7 +28217,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640Cp4DIx">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640Cp4DIx">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M14</unitid>
                 <unittitle>Communes du Nord</unittitle>
@@ -28248,7 +28251,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640f1sjDI">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640f1sjDI">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M15</unitid>
                 <unittitle>Un carnaval</unittitle>
@@ -28284,7 +28287,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640aosetq">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640aosetq">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M16</unitid>
                 <unittitle>Promenade sauvage</unittitle>
@@ -28317,7 +28320,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640L3pmMd">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640L3pmMd">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M17</unitid>
                 <unittitle>Douai</unittitle>
@@ -28355,7 +28358,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640m1q7dW">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640m1q7dW">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M18</unitid>
                 <unittitle>Cambrai et ses environs</unittitle>
@@ -28393,7 +28396,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m0178124464086zEeM">
+            <c level="otherlevel" otherlevel="subfile" id="m0178124464086zEeM">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M19</unitid>
                 <unittitle>Le Quesnoy, Valenciennes et Saint-Amand-les-Eaux</unittitle>
@@ -28483,7 +28486,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640B82pwB">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640B82pwB">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M20</unitid>
                 <unittitle>La marche verte</unittitle>
@@ -28522,7 +28525,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640irMo6e">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640irMo6e">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M21</unitid>
                 <unittitle>Dunkerque</unittitle>
@@ -28559,7 +28562,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640qcrFpa">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640qcrFpa">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M22</unitid>
                 <unittitle>Musées du Nord</unittitle>
@@ -28648,7 +28651,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640771ezg">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640771ezg">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M23</unitid>
                 <unittitle>Le Pas-de-Calais</unittitle>
@@ -28723,7 +28726,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640mAW7s5">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640mAW7s5">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M24</unitid>
                 <unittitle>Boulogne-sur-Mer</unittitle>
@@ -28774,7 +28777,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640RT9X37">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640RT9X37">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M25</unitid>
                 <unittitle>L'Avesnois</unittitle>
@@ -28811,7 +28814,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640xdMAwt">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640xdMAwt">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M26</unitid>
                 <unittitle>Divers Nord</unittitle>
@@ -28869,7 +28872,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m0178124464073yq5J">
+            <c level="otherlevel" otherlevel="subfile" id="m0178124464073yq5J">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M27</unitid>
                 <unittitle>Le Nouvion-en-Thiérache</unittitle>
@@ -28903,7 +28906,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640syQhx2">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640syQhx2">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M28</unitid>
                 <unittitle>Le carnaval de Binche</unittitle>
@@ -28952,7 +28955,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m017812446403D3qP8">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446403D3qP8">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M29</unitid>
                 <unittitle>Spectacle de cirque</unittitle>
@@ -29005,7 +29008,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m0178124464069hTu9">
+            <c level="otherlevel" otherlevel="subfile" id="m0178124464069hTu9">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M30</unitid>
                 <unittitle>En attente</unittitle>
@@ -29015,7 +29018,7 @@
                 <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm0178124464069hTu9</p>
               </odd>
             </c>
-            <c level="subfile" id="m017812446408vvUpC">
+            <c level="otherlevel" otherlevel="subfile" id="m017812446408vvUpC">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M31</unitid>
                 <unittitle>En attente</unittitle>
@@ -29025,7 +29028,7 @@
                 <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446408vvUpC</p>
               </odd>
             </c>
-            <c level="subfile" id="m01781244640Duvz55">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640Duvz55">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M32</unitid>
                 <unittitle>En attente</unittitle>
@@ -29035,7 +29038,7 @@
                 <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640Duvz55</p>
               </odd>
             </c>
-            <c level="subfile" id="m01781244640BOGtG4">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640BOGtG4">
               <did>
                 <unitid>PHO_DIA_DEL4_R1_M33</unitid>
                 <unittitle>En attente</unittitle>
@@ -29060,7 +29063,7 @@
             <odd>
               <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446405y1aR6</p>
             </odd>
-            <c level="subfile" id="m01781244640EMJxnO">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640EMJxnO">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M01</unitid>
                 <unittitle>Vues diverses du Nord</unittitle>
@@ -29093,7 +29096,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640onApcm">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640onApcm">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M02</unitid>
                 <unittitle>Lille</unittitle>
@@ -29167,7 +29170,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640i34xcM">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640i34xcM">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M03</unitid>
                 <unittitle>Liévin</unittitle>
@@ -29200,7 +29203,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640Q8Z8ve">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640Q8Z8ve">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M04</unitid>
                 <unittitle>Publicités anciennes</unittitle>
@@ -29236,7 +29239,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640oHsm20">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640oHsm20">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M05</unitid>
                 <unittitle>Portraits</unittitle>
@@ -29272,7 +29275,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640Jj3EqE">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640Jj3EqE">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M06</unitid>
                 <unittitle>Les plages du Nord</unittitle>
@@ -29305,7 +29308,7 @@
                 </odd>
               </c>
             </c>
-            <c level="subfile" id="m01781244640sQSnhB">
+            <c level="otherlevel" otherlevel="subfile" id="m01781244640sQSnhB">
               <did>
                 <unitid>PHO_DIA_DEL4_R2_M07</unitid>
                 <unittitle>Le Pas-de-Calais</unittitle>
@@ -29340,9 +29343,6 @@
             </c>
           </c>
         </c>
-        <controlaccess>
-          <persname normal="Delvarre, Lucien" source="thesaurus--SLASH--bnr_persname.xml">Lucien Delvarre</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244640gynR4A">
         <did>
@@ -31312,6 +31312,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640IrZjns</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR51421</p>
         </odd>
+        <controlaccess>
+          <persname normal="Leduc, Octave" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Octave Leduc</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244640Rfibqn">
           <did>
             <unitid>PHO_PDV_LED1</unitid>
@@ -36929,9 +36932,6 @@
             </odd>
           </c>
         </c>
-        <controlaccess>
-          <persname normal="Leduc, Octave" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Octave Leduc</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244640vYpmhh">
         <did>
@@ -37571,6 +37571,10 @@
             <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640ZZfU5n</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137369</p>
           </odd>
+          <controlaccess>
+            <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Oeil photographique</corpname>
+            <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Duponchel, Béatrice</persname>
+          </controlaccess>
           <c level="file" id="m017812446409YA5VV">
             <did>
               <unitid>PHO_PNU_DUP01_D01</unitid>
@@ -38437,10 +38441,6 @@
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137400</p>
             </odd>
           </c>
-          <controlaccess>
-            <corpname role="photographe" source="thesaurus--SLASH--bnr_corpname.xml">Oeil photographique</corpname>
-            <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Duponchel, Béatrice</persname>
-          </controlaccess>
         </c>
       </c>
       <c level="series" id="m01781244640p8xxSx">
@@ -38456,6 +38456,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640p8xxSx</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137401</p>
         </odd>
+        <controlaccess>
+          <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Dorval, Hervé</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244640IaDqt0">
           <did>
             <unitid>PHO_TIR_DOR01</unitid>
@@ -38784,9 +38787,6 @@
             </odd>
           </c>
         </c>
-        <controlaccess>
-          <persname role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Dorval, Hervé</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244640heFWs7">
         <did>
@@ -39385,6 +39385,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640gCq6Tr</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137450</p>
         </odd>
+        <controlaccess>
+          <persname normal="Pasquiers, Olivier" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Pasquiers, Olivier</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244640qjjwcr">
           <did>
             <unitid>PHO_TIR_PAS01</unitid>
@@ -39409,9 +39412,6 @@
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137451</p>
           </odd>
         </c>
-        <controlaccess>
-          <persname normal="Pasquiers, Olivier" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Pasquiers, Olivier</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244640m0G2O3">
         <did>
@@ -39426,6 +39426,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244640m0G2O3</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR137452</p>
         </odd>
+        <controlaccess>
+          <persname normal="Petit, Christian" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Petit, Christian</persname>
+        </controlaccess>
         <c level="subseries" id="m01781244640d1DS34">
           <did>
             <unitid>PHO_TIR_PET01</unitid>
@@ -39956,9 +39959,6 @@
             </odd>
           </c>
         </c>
-        <controlaccess>
-          <persname normal="Petit, Christian" role="photographe" source="thesaurus--SLASH--bnr_persname.xml">Petit, Christian</persname>
-        </controlaccess>
       </c>
     </dsc>
   </archdesc>

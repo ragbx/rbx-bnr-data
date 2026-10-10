@@ -236,6 +236,9 @@
           <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244634RPYco4</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120437</p>
         </odd>
+        <controlaccess>
+          <persname normal="Michel David" role="Directeur de publication" source="thesaurus--SLASH--bnr_persname.xml">David, Michel</persname>
+        </controlaccess>
         <c level="file" id="m01781244634ERagIE">
           <did>
             <unitid>PUB_CDR_001</unitid>
@@ -890,9 +893,6 @@
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR123629</p>
           </odd>
         </c>
-        <controlaccess>
-          <persname normal="Michel David" role="Directeur de publication" source="thesaurus--SLASH--bnr_persname.xml">David, Michel</persname>
-        </controlaccess>
       </c>
       <c level="series" id="m01781244634Rsi0by">
         <did>
