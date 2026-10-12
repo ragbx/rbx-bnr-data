@@ -67,6 +67,8 @@ Préparer les données en vue de leur publication en ligne.
 
 → **[Chaîne presse](files/scripts/presse_mets.md)** — JPEG de diffusion et METS par fascicule de presse ancienne, envoi sur S3
 
+→ **[Chaîne délibérations](files/scripts/del_mets.md)** — la même chaîne pour les registres de délibérations (`AMR_DEL`), JPEG qualité 75 et METS par registre
+
 Détail par script :
 → [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md) · [Bilan des envois presse](files/scripts/presse_bilan.md)
 
