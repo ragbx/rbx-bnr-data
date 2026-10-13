@@ -6,7 +6,9 @@ propre version (meme trace XMP), sans la lecture stricte (load_master) ni
 l'ecriture controlee (jpegsave_checked).
 
 pyvips n'est importe que dans les fonctions : l'appelant doit pouvoir poser
-VIPS_CONCURRENCY avant le premier import.
+VIPS_CONCURRENCY avant le premier import. Le cache d'operations de libvips est
+desactive au premier master ouvert (regle_vips) : il ne sert a rien ici et fait
+croitre le RSS du processus de vue en vue.
 """
 
 
@@ -37,6 +39,28 @@ def tool_versions() -> str:
     return f"libvips {pyvips.version(0)}.{pyvips.version(1)}.{pyvips.version(2)} / {_libjpeg_version()}"
 
 
+_VIPS_REGLE = False
+
+
+def regle_vips() -> None:
+    """Desactive le cache d'operations de libvips, une fois par processus.
+
+    Ce cache memorise les resultats d'operations pour les reutiliser : il ne
+    sert a rien dans cette chaine, ou chaque vue est lue, convertie et ecrite
+    une seule fois, mais il retient les images decodees. Mesure sur 60 vues de
+    50 Mo enchainees dans un processus : RSS stable a 355 Mo sans le cache,
+    contre une montee de 178 a 960 Mo avec (un registre de plusieurs centaines
+    de vues finit par faire tuer le processus faute de memoire).
+    """
+    global _VIPS_REGLE
+    import pyvips
+
+    if not _VIPS_REGLE:
+        pyvips.cache_set_max_mem(0)
+        pyvips.cache_set_max(0)
+        _VIPS_REGLE = True
+
+
 def load_master(path: str):
     """Ouvre un master en flux, en refusant les fichiers abimes.
 
@@ -47,6 +71,7 @@ def load_master(path: str):
     """
     import pyvips
 
+    regle_vips()
     return pyvips.Image.new_from_file(path, access="sequential", fail_on="error")
 
 
