@@ -72,7 +72,10 @@ envoi et envoi_date en plus) : les conserver.
 Durees : le recapitulatif par fascicule porte duree_s (fascicule entier, dans
 son processus), le detail t_controle_s (MD5 des TIFF), t_conversion_s (lecture
 du TIFF, JPEG et son controle), t_mets_s (METS et validation), t_envoi_s (envoi,
-controle sur S3, suppression), et tiff_octets / jpeg_octets. Pendant le lot, une
+controle sur S3, suppression), et tiff_octets / jpeg_octets. La colonne
+rss_max_mo donne le pic de memoire du processus qui a traite le fascicule : c'est
+elle qui dimensionne --workers, un processus tue faute de memoire arretant le
+lot. Pendant le lot, une
 ligne d'avancement (--avancement, 60 s) donne l'ecoule et le reste estime. En fin
 de lot, le bilan donne la cadence (s/page, pages/h, Go de TIFF/h) et, avec
 --estimer-pages N, la duree estimee pour N pages a cette cadence : elle ne vaut
@@ -94,8 +97,10 @@ Usage :
 
 import argparse
 import csv
+import gc
 import hashlib
 import os
+import resource
 import posixpath
 import re
 import subprocess
@@ -589,6 +594,10 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
     t0 = time.perf_counter()
     res = _run_fascicule(job, out_dir, quality, overwrite, version, validate, upload)
     res["duree_s"] = time.perf_counter() - t0
+    # pic de memoire du processus depuis son demarrage (il enchaine les
+    # fascicules) : c'est ce qui dimensionne --workers, un processus tue faute
+    # de memoire arretant le lot
+    res["rss_max_mo"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024)
     for k in ("duree_s", *T_PHASES):
         if k in res:
             res[k] = round(res[k], 2)
@@ -679,6 +688,10 @@ def bilan_durees(rows: list, elapsed: float, workers: int, total_pages: int) -> 
              f"  travail par page (un processus) : {travail / pages:.2f} s, dont "
              + ", ".join(f"{lib} {sum(r[k] for r in ok) / pages:.2f} s"
                          for k, lib in zip(T_PHASES, ("controle MD5 du TIFF", "conversion", "METS", "envoi S3")))]
+    pic = max((r.get("rss_max_mo") or 0 for r in rows), default=0)
+    if pic:
+        lines.append(f"  pic memoire d'un processus : {pic} Mo, soit {pic * workers / 1024:.1f} Go pour "
+                     f"{workers} processus (ce que la machine doit avoir de libre)")
     if total_pages:
         lines.append(f"  estimation pour {total_pages} pages a cette cadence : {hms(elapsed / pages * total_pages)}")
     return "\n".join(lines)
@@ -812,7 +825,8 @@ def main():
     csv_out = args.csv_out or join(args.out_dir, f"presse_mets_{stamp}.csv")
     jpeg_csv_out = args.jpeg_csv_out or join(args.out_dir, f"presse_jpeg_{stamp}.csv")
     fields = ["fascicule", "corpus_code", "status", "pages", "jpeg_crees", "couleur_sans_profil",
-              "pages_incompletes", "manques", "mets", "tiff_octets", "jpeg_octets", "duree_s", *T_PHASES, "msg"]
+              "pages_incompletes", "manques", "mets", "tiff_octets", "jpeg_octets", "duree_s", *T_PHASES,
+              "rss_max_mo", "msg"]
     jpeg_fields = ["fascicule", "corpus_code", "type", "name", "path", "size", "checksum_md5", "uuid", "s3_key"]
     if upload:
         jpeg_fields += ["envoi", "envoi_date"]
@@ -834,6 +848,11 @@ def main():
         wj = csv.DictWriter(fj, fieldnames=jpeg_fields)
         wj.writeheader()
         fj.flush()
+        # les jobs du lot restent en memoire du processus principal : sans
+        # gc.freeze(), le ramasse-miettes de chaque processus fils les parcourt
+        # et en recopie les pages (copie sur ecriture), d'ou autant de fois leur
+        # taille en memoire
+        gc.freeze()
         with ProcessPoolExecutor(max_workers=args.workers) as pool:
             futures = [pool.submit(run_fascicule, j, out_dir, args.quality, args.overwrite, version,
                                    args.validate, upload) for j in jobs]
@@ -866,9 +885,11 @@ def main():
                 faites += res["pages"]
                 if time.time() - dernier >= args.avancement or faites == total:
                     dernier, ecoule = time.time(), time.time() - t0
+                    pic = max((r.get("rss_max_mo") or 0 for r in rows), default=0)
                     print(f"[{datetime.now():%H:%M:%S}] {len(rows) - len(refused)}/{len(jobs)} fascicules, "
                           f"{faites}/{total} pages, ecoule {hms(ecoule)}, "
-                          f"reste estime {hms(ecoule / faites * (total - faites))}", file=sys.stderr)
+                          f"reste estime {hms(ecoule / faites * (total - faites))}, "
+                          f"pic memoire d'un processus {pic} Mo", file=sys.stderr)
                 if res["status"] == "ok":  # seuls les fascicules complets et valides sont a deposer
                     jpeg_rows.extend(jpegs)
                     wj.writerows(jpegs)

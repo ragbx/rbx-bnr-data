@@ -245,6 +245,12 @@ En fin de lot, le script affiche la cadence (s/page, pages/h, Go de TIFF/h) et l
 temps moyen par étape. Cette cadence ne vaut que pour la même machine, le même
 `--workers` et les mêmes options.
 
+**Mémoire.** La colonne `rss_max_mo` donne le pic de mémoire du processus qui a traité
+le fascicule ; la ligne d'avancement et le bilan de fin de lot reprennent le plus
+élevé, et le bilan le multiplie par `--workers` : c'est ce que la machine doit avoir
+de libre. Un processus tué faute de mémoire arrête le lot (voir
+[Traitement d'un fascicule](#traitement-dun-fascicule)).
+
 ---
 
 ## Reprise et erreurs
