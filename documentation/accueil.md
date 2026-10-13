@@ -69,6 +69,8 @@ Préparer les données en vue de leur publication en ligne.
 
 → **[Chaîne délibérations](files/scripts/del_mets.md)** — la même chaîne pour les registres de délibérations (`AMR_DEL`), JPEG qualité 75 et METS par registre
 
+→ **[Chaîne rapports du maire](files/scripts/ram_mets.md)** — la même chaîne pour les rapports du maire (`AMR_RAM`), JPEG qualité 80 et METS par rapport
+
 Détail par script :
 → [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md) · [Bilan des envois presse](files/scripts/presse_bilan.md)
 

@@ -68,6 +68,10 @@ CORPUS = "AMR_DEL"
 TITRE = "Conseil municipal. Registres des procès-verbaux des délibérations"
 EAD_PATH = join(pm.EAD_OCR_DIR, f"RBX_{CORPUS}.xml")
 MANUSCRITS = "DEL_MS"
+# nom du script cite par le METS et libelles de ses deux dmdSec : remplaces par
+# les scripts qui reprennent build_mets pour un autre corpus (ram_mets.py)
+SCRIPT = basename(__file__)
+LIBELLES = {"ensemble": "Ensemble des registres", "unite": "Registre", "dmd": "DMD_REGISTRE"}
 
 KEY_RE = re.compile(r"^AMR/AMR_DEL/(?P<serie>DEL_MS|DEL_TAP)/(?P<dir>[^/]+)/(?P<stem>[^/]+?)\s*\.(?P<ext>\w+)$")
 COTE_RE = re.compile(r"^(\d+)\s*([A-Z]+)\s*0*(\d+)$")  # 1D144 -> 1 D 144 ; 1D001 -> 1 D 1
@@ -230,15 +234,15 @@ def build_mets(job: dict, pages: dict, version: str, uuid: str):
     hdr = sub(mets, "mets", "metsHdr", CREATEDATE=datetime.now().astimezone().isoformat(timespec="seconds"))
     sub(sub(hdr, "mets", "agent", ROLE="CUSTODIAN", TYPE="ORGANIZATION"), "mets", "name", pm.AGENT)
     agent = sub(hdr, "mets", "agent", ROLE="CREATOR", TYPE="OTHER", OTHERTYPE="SOFTWARE")
-    sub(agent, "mets", "name", basename(__file__))
+    sub(agent, "mets", "name", SCRIPT)
     sub(agent, "mets", "note", f"version {version}")
     sub(hdr, "mets", "altRecordID", uuid, TYPE="uuid")
 
     dmd = sub(mets, "mets", "dmdSec", ID="DMD_SERIE")
-    sub(sub(dmd, "mets", "mdWrap", MDTYPE="MODS", LABEL="Ensemble des registres"), "mets", "xmlData").append(
+    sub(sub(dmd, "mets", "mdWrap", MDTYPE="MODS", LABEL=LIBELLES["ensemble"]), "mets", "xmlData").append(
         mods_serie(job))
-    dmd = sub(mets, "mets", "dmdSec", ID="DMD_REGISTRE")
-    sub(sub(dmd, "mets", "mdWrap", MDTYPE="MODS", LABEL="Registre"), "mets", "xmlData").append(
+    dmd = sub(mets, "mets", "dmdSec", ID=LIBELLES["dmd"])
+    sub(sub(dmd, "mets", "mdWrap", MDTYPE="MODS", LABEL=LIBELLES["unite"]), "mets", "xmlData").append(
         mods_registre(job, len(pages)))
 
     amd = sub(mets, "mets", "amdSec", ID="AMD")
@@ -272,7 +276,7 @@ def build_mets(job: dict, pages: dict, version: str, uuid: str):
             loc.set(q("xlink", "href"), f["key"])
 
     smap = sub(mets, "mets", "structMap", TYPE="physical")
-    volume = sub(smap, "mets", "div", TYPE="volume", DMDID="DMD_SERIE DMD_REGISTRE", LABEL=job["fasc"])
+    volume = sub(smap, "mets", "div", TYPE="volume", DMDID=f"DMD_SERIE {LIBELLES['dmd']}", LABEL=job["fasc"])
     for order, page in enumerate(sorted(pages), 1):
         label = int(page) if page.isdigit() else page  # 0152 -> 152 ; 0001_0694 et 0022_1 tels quels
         div = sub(volume, "mets", "div", ID=f"PAGE_{page}", TYPE="page", ORDER=order, ORDERLABEL=label)
