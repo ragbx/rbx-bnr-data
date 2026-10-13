@@ -101,9 +101,10 @@ import ctypes
 import gc
 import hashlib
 import os
-import resource
 import posixpath
 import re
+import resource
+import signal
 import subprocess
 import sys
 import time
@@ -138,9 +139,33 @@ def rendre_memoire() -> None:
 
 
 try:
-    _MALLOC_TRIM = ctypes.CDLL("libc.so.6", use_errno=False).malloc_trim
+    _LIBC = ctypes.CDLL("libc.so.6", use_errno=False)
+    _MALLOC_TRIM = _LIBC.malloc_trim
 except (OSError, AttributeError):  # pas de glibc
-    _MALLOC_TRIM = None
+    _LIBC, _MALLOC_TRIM = None, None
+
+PR_SET_PDEATHSIG = 1  # prctl(2)
+
+
+def init_processus() -> None:
+    """Initialisation d'un processus du lot : il doit mourir avec le processus
+    principal.
+
+    Sans cela, un arret brutal du principal (tue faute de memoire, kill -9,
+    erreur non rattrapee) laisse ses processus vivants, bloques en lecture
+    d'une file de travail que plus personne n'alimente : le 2026-10-12, trois
+    processus orphelins d'un lot interrompu ont garde 3,3 Go pendant 26 heures,
+    au point de faire manquer de memoire le lot suivant. PR_SET_PDEATHSIG
+    demande au noyau de leur envoyer SIGTERM des que le thread qui les a crees
+    disparait ; les fichiers du fascicule en cours restent alors sur place, et
+    une relance les reprend (cf. process_fascicule). Hors Linux/glibc, l'appel
+    n'existe pas : on ne fait rien.
+    """
+    if _LIBC is not None:
+        try:
+            _LIBC.prctl(PR_SET_PDEATHSIG, signal.SIGTERM)
+        except (OSError, AttributeError):
+            pass
 
 REF_DATE = "20260630"
 ROOT = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))  # racine du depot
@@ -874,7 +899,7 @@ def main():
         # et en recopie les pages (copie sur ecriture), d'ou autant de fois leur
         # taille en memoire
         gc.freeze()
-        with ProcessPoolExecutor(max_workers=args.workers) as pool:
+        with ProcessPoolExecutor(max_workers=args.workers, initializer=init_processus) as pool:
             futures = [pool.submit(run_fascicule, j, out_dir, args.quality, args.overwrite, version,
                                    args.validate, upload) for j in jobs]
             for fut in as_completed(futures):
