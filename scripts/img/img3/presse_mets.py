@@ -105,6 +105,7 @@ import traceback
 import warnings
 from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from concurrent.futures.process import BrokenProcessPool
 from datetime import datetime
 from os.path import basename, dirname, exists, getsize, join, relpath
 from uuid import uuid4
@@ -818,6 +819,7 @@ def main():
     jpeg_rows = []
     rows = [{"fascicule": f, "corpus_code": c, "status": "refuse", "msg": m} for f, c, m in refused]
     echecs_envoi = 0
+    tue = ""  # message si un processus du lot a ete tue (lot interrompu)
     total = sum(len(j["pages"]) for j in jobs)  # pages du lot, pour l'avancement
     faites, dernier = 0, 0.0
     t0 = time.time()
@@ -838,7 +840,22 @@ def main():
             for fut in as_completed(futures):
                 if fut.cancelled():
                     continue
-                res = fut.result()
+                try:
+                    res = fut.result()
+                except BrokenProcessPool:
+                    # un processus a ete tue sans remonter d'erreur (le plus
+                    # souvent faute de memoire, cf. dmesg) : le pool est perdu,
+                    # les autres fascicules en cours avec lui. Les
+                    # recapitulatifs des fascicules termines sont deja sur
+                    # disque ; une relance reprend le lot (--upload : les
+                    # fascicules deja sur S3 sont sautes).
+                    tue = ("ARRET BRUTAL : un processus du lot a ete tue (memoire ? cf. dmesg). "
+                           "Les fascicules qu'il traitait sont perdus, les suivants abandonnes : "
+                           "relancer le lot avec moins de --workers.")
+                    print(tue, file=sys.stderr)
+                    for other in futures:
+                        other.cancel()
+                    break
                 jpegs = res.pop("jpegs")
                 if res["status"] not in ("ok", "deja_envoye"):
                     print(f"{LIBELLES.get(res['status'], 'ECHEC')} {res['fascicule']} : {res['msg']}",
@@ -881,13 +898,15 @@ def main():
           + f"{len(rows) - ok - deja} fascicule(s) en echec/refuse(s)/invalide(s), "
           f"{len(jobs) + len(refused) - len(rows)} abandonne(s), "
           f"en {time.time() - t0:.1f}s. Recapitulatif : {csv_out}")
+    if tue:
+        print(tue, file=sys.stderr)
     elapsed = time.time() - t0
     print(bilan_durees(rows, elapsed, args.workers, args.estimer_pages))
     print(f"{len(jpeg_rows)} fichiers (JPEG + METS) {'deposes' if upload else 'a deposer'}, decrits dans {jpeg_csv_out}")
     incomplets = sum(bool(r.get("pages_incompletes")) for r in rows)
     if incomplets:
         print(f"{incomplets} fascicule(s) avec des pages incompletes (colonnes pages_incompletes et manques).")
-    if ok < len(rows):
+    if tue or ok < len(rows):
         sys.exit(2)
 
 

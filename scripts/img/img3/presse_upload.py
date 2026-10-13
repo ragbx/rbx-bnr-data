@@ -20,6 +20,10 @@ Pour chaque fichier :
    scripts/s3/upload.py, et le type image/jpeg (METS : memes etiquettes, type
    application/xml) ; l'objet depose est ensuite controle : taille
    et MD5 (ETag, ou relecture de l'objet s'il a ete envoye en plusieurs parties).
+   Un echec d'envoi passager du stockage objet (conflit momentane sur la cle,
+   bridage, 5xx, coupure reseau : cf. ENVOI_PASSAGER) est repris jusqu'a ESSAIS
+   fois, apres une pause doublee a chaque tentative ; toute autre erreur echoue
+   d'emblee.
 
 L'acces S3 est celui de scripts/s3/rbx_s3.py (conf.yml, utilisateur user_rw).
 
@@ -37,6 +41,7 @@ import hashlib
 import os
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from os.path import dirname, exists, getsize, join, splitext
@@ -47,6 +52,17 @@ ROOT = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))  # racine d
 CONTENT_TYPES = {"jpeg": "image/jpeg", "mets": "application/xml"}
 FIELDS = ["fascicule", "type", "name", "path", "checksum_md5", "uuid", "size", "key", "uploaded", "uploaded_file_size",
           "uploaded_file_lastmodified", "error", "status"]
+
+# echecs d'envoi passagers du stockage objet, a reprendre tels quels : conflit
+# momentane sur la cle (OperationAborted, rencontre sur un lot de registres),
+# bridage, erreur 5xx, coupure reseau. Le message est celui remonte par
+# rbx_s3.upload (l'exception y est deja convertie en texte).
+ENVOI_PASSAGER = re.compile(
+    r"OperationAborted|conflicting conditional operation|SlowDown|ServiceUnavailable|InternalError"
+    r"|RequestTimeout|RequestTimeTooSkewed|\(50[0234]\)|Connection(Error|Closed|Reset)|ReadTimeout"
+    r"|EndpointConnectionError|BrokenPipe", re.I)
+ESSAIS = 4  # tentatives d'envoi d'un meme fichier
+PAUSE_S = 5  # pause avant la 2e tentative, doublee a chaque fois (5, 10, 20 s)
 
 
 def make_client():
@@ -135,9 +151,19 @@ def send_one(row: dict, source: str, client, bucket: str, overwrite: bool) -> di
         tags = f"checksum_md5={row['checksum_md5']}"
         if row["uuid"]:
             tags = f"uuid={row['uuid']}&{tags}"
-        up = client.upload(local, bucket, row["s3_key"], ExtraArgs={"Tagging": tags, "ContentType": CONTENT_TYPES[kind]})
-        if not up.get("result"):
-            raise ValueError(up.get("error") or "envoi en echec")
+        extra = {"Tagging": tags, "ContentType": CONTENT_TYPES[kind]}
+        pause = PAUSE_S
+        for essai in range(1, ESSAIS + 1):
+            up = client.upload(local, bucket, row["s3_key"], ExtraArgs=extra)
+            if up.get("result"):
+                break
+            erreur = up.get("error") or "envoi en echec"
+            if essai == ESSAIS or not ENVOI_PASSAGER.search(erreur):
+                raise ValueError(erreur if essai == 1 else f"{erreur} ({essai} tentatives)")
+            print(f"REPRISE ENVOI {row['s3_key']} : {erreur} [tentative {essai}/{ESSAIS}, "
+                  f"nouvel essai dans {pause} s]", file=sys.stderr)
+            time.sleep(pause)
+            pause *= 2
         head = verify_remote(client, bucket, row["s3_key"], size, row["checksum_md5"])
         res.update(uploaded=True, uploaded_file_size=head["ContentLength"],
                    uploaded_file_lastmodified=head["LastModified"].isoformat(), status="envoye")

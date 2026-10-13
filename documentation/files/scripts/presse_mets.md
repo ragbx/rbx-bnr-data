@@ -89,6 +89,11 @@ Une erreur est **isolée par fascicule** : le lot continue. Un fascicule qui éc
 cours de conversion ne laisse rien de la tentative (ses JPEG sont supprimés).
 
 Les fascicules sont traités en parallèle (`--workers`, un processus par fascicule).
+Si l'un de ces processus est **tué** sans remonter d'erreur (le plus souvent faute de
+mémoire : voir `dmesg`), le lot s'arrête — le message `ARRET BRUTAL` le dit, les
+fascicules qu'il traitait sont perdus et les suivants abandonnés. Les récapitulatifs
+des fascicules terminés restent sur disque et une relance reprend le lot ; relancer
+avec moins de `--workers`.
 
 ---
 
@@ -199,6 +204,10 @@ Règles communes aux deux modes :
 - Un objet déjà présent n'est pas écrasé (sauf `--overwrite`) : il doit avoir la
   taille et le MD5 du fichier local, sinon c'est une erreur.
 - Chaque objet reçoit les étiquettes `uuid` et `checksum_md5`.
+- Un échec d'envoi **passager** du stockage objet (conflit momentané sur la clé —
+  `OperationAborted` —, bridage, erreur 5xx, coupure réseau) est **repris** jusqu'à
+  quatre fois, après une pause doublée à chaque tentative (5, 10, 20 s) ; la reprise
+  est signalée par une ligne `REPRISE ENVOI`. Toute autre erreur échoue d'emblée.
 - En cas d'échec d'envoi, rien n'est supprimé : les fichiers restent sous `--out-dir`.
 
 L'accès S3 est celui de `scripts/s3/rbx_s3.py` (`conf.yml`, utilisateur `user_rw`) ;
