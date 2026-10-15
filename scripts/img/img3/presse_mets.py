@@ -103,7 +103,6 @@ import hashlib
 import os
 import posixpath
 import re
-import resource
 import signal
 import subprocess
 import sys
@@ -121,6 +120,11 @@ import pandas as pd
 from lxml import etree
 
 from jpeg_encode import check_jpeg, jpegsave_checked, load_master, prepare_for_jpeg
+
+try:
+    import resource  # Unix seulement
+except ImportError:  # Windows : presse_download.py y importe ce module, sans convertir
+    resource = None
 
 # 1 seul thread libvips par processus : on parallelise au niveau des fascicules.
 os.environ.setdefault("VIPS_CONCURRENCY", "1")
@@ -643,7 +647,8 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
     # pic de memoire du processus depuis son demarrage (il enchaine les
     # fascicules) : c'est ce qui dimensionne --workers, un processus tue faute
     # de memoire arretant le lot
-    res["rss_max_mo"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024)
+    if resource is not None:
+        res["rss_max_mo"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024)
     for k in ("duree_s", *T_PHASES):
         if k in res:
             res[k] = round(res[k], 2)

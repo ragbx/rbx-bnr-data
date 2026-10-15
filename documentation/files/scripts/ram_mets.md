@@ -133,8 +133,8 @@ rapport.
 - **Un rapport est traité d'un bloc** : un seul TIFF absent, différent du fichier de
   référence ou illisible met tout le rapport en erreur.
 - **PDF des volumes** : absents des METS.
-- **Bilan et téléchargement** : `presse_bilan.py` et `presse_download.py` ne
-  connaissent pas les rapports.
+- **Bilan** : `presse_bilan.py` ne connaît pas les rapports. `presse_download.py`,
+  lui, sait télécharger leurs JPEG et leurs ALTO (depuis le 15 octobre 2026).
 
 ---
 

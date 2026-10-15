@@ -38,7 +38,7 @@ manifeste (extrait du fichier de référence)     TIFF sous <source>
 | `jpeg_to_mix.py` | Relit la trace d'un JPEG et la restitue en MIX 2.0 ; utilisable seul. |
 | `presse_upload.py` | Envoi sur S3 des JPEG et METS déjà produits, quand `--upload` n'a pas été utilisé. |
 | [presse_bilan.py](presse_bilan.md) | Bilan a posteriori : envoyé, en erreur, jamais traité. |
-| `presse_download.py` | Récupère depuis S3 les JPEG et les ALTO des fascicules d'un manifeste. |
+| `presse_download.py` | Récupère depuis S3 les JPEG et les ALTO des fascicules d'un manifeste ; accepte aussi les manifestes des délibérations et des rapports du maire. |
 
 ---
 
