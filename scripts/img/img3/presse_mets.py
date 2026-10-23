@@ -97,12 +97,13 @@ Usage :
 
 import argparse
 import csv
+import ctypes
 import gc
 import hashlib
 import os
-import resource
 import posixpath
 import re
+import signal
 import subprocess
 import sys
 import time
@@ -120,8 +121,55 @@ from lxml import etree
 
 from jpeg_encode import check_jpeg, jpegsave_checked, load_master, prepare_for_jpeg
 
+try:
+    import resource  # Unix seulement
+except ImportError:  # Windows : presse_download.py y importe ce module, sans convertir
+    resource = None
+
 # 1 seul thread libvips par processus : on parallelise au niveau des fascicules.
 os.environ.setdefault("VIPS_CONCURRENCY", "1")
+
+
+def rendre_memoire() -> None:
+    """Rend au systeme la memoire liberee mais conservee par l'allocateur
+    (malloc_trim). Les buffers d'image, de taille toujours un peu differente
+    d'une vue a l'autre, fragmentent le tas : sans cet appel le RSS d'un
+    processus croit de vue en vue (mesure sur 60 vues de 50 Mo : 178 -> 960 Mo ;
+    avec : stable autour de 650 Mo, sans cout de temps), et un registre de
+    plusieurs centaines de vues finit par faire tuer le processus faute de
+    memoire. Sans glibc, l'appel n'existe pas : on ne fait rien."""
+    if _MALLOC_TRIM is not None:
+        _MALLOC_TRIM(0)
+
+
+try:
+    _LIBC = ctypes.CDLL("libc.so.6", use_errno=False)
+    _MALLOC_TRIM = _LIBC.malloc_trim
+except (OSError, AttributeError):  # pas de glibc
+    _LIBC, _MALLOC_TRIM = None, None
+
+PR_SET_PDEATHSIG = 1  # prctl(2)
+
+
+def init_processus() -> None:
+    """Initialisation d'un processus du lot : il doit mourir avec le processus
+    principal.
+
+    Sans cela, un arret brutal du principal (tue faute de memoire, kill -9,
+    erreur non rattrapee) laisse ses processus vivants, bloques en lecture
+    d'une file de travail que plus personne n'alimente : le 2026-10-12, trois
+    processus orphelins d'un lot interrompu ont garde 3,3 Go pendant 26 heures,
+    au point de faire manquer de memoire le lot suivant. PR_SET_PDEATHSIG
+    demande au noyau de leur envoyer SIGTERM des que le thread qui les a crees
+    disparait ; les fichiers du fascicule en cours restent alors sur place, et
+    une relance les reprend (cf. process_fascicule). Hors Linux/glibc, l'appel
+    n'existe pas : on ne fait rien.
+    """
+    if _LIBC is not None:
+        try:
+            _LIBC.prctl(PR_SET_PDEATHSIG, signal.SIGTERM)
+        except (OSError, AttributeError):
+            pass
 
 REF_DATE = "20260630"
 ROOT = dirname(dirname(dirname(dirname(os.path.abspath(__file__)))))  # racine du depot
@@ -535,6 +583,8 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
                 "name": posixpath.basename(jpg_key), "path": posixpath.dirname(jpg_key),
                 "size": files["jpg"]["size"], "checksum_md5": files["jpg"]["md5"],
                 "uuid": files["jpg"]["uuid"], "s3_key": jpg_key})
+            del image
+            rendre_memoire()  # cf. sa documentation : sinon le RSS croit de vue en vue
 
         res["jpeg_octets"] = sum(j["size"] for j in res["jpegs"])
         res["t_conversion_s"], t = time.perf_counter() - t, time.perf_counter()
@@ -597,7 +647,8 @@ def run_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, versio
     # pic de memoire du processus depuis son demarrage (il enchaine les
     # fascicules) : c'est ce qui dimensionne --workers, un processus tue faute
     # de memoire arretant le lot
-    res["rss_max_mo"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024)
+    if resource is not None:
+        res["rss_max_mo"] = round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024)
     for k in ("duree_s", *T_PHASES):
         if k in res:
             res[k] = round(res[k], 2)
@@ -853,7 +904,7 @@ def main():
         # et en recopie les pages (copie sur ecriture), d'ou autant de fois leur
         # taille en memoire
         gc.freeze()
-        with ProcessPoolExecutor(max_workers=args.workers) as pool:
+        with ProcessPoolExecutor(max_workers=args.workers, initializer=init_processus) as pool:
             futures = [pool.submit(run_fascicule, j, out_dir, args.quality, args.overwrite, version,
                                    args.validate, upload) for j in jobs]
             for fut in as_completed(futures):

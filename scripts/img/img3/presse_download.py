@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 r"""presse_download.py — Telecharge depuis S3 les JPEG de diffusion et les ALTO des
-fascicules de presse d'un ou plusieurs manifestes (ni TIFF, ni texte, ni PDF, ni METS).
+fascicules de presse, des registres de deliberations (AMR_DEL) et des rapports du
+maire (AMR_RAM) d'un ou plusieurs manifestes (ni TIFF, ni texte, ni PDF, ni METS).
 
-Entree : le ou les manifestes passes a presse_mets.py (extraits du ref, .csv ou
-.csv.gz), lus comme lui (build_jobs). Pour chaque page :
-- JPEG : la s3_key du TIFF, extension .jpg (la cle sous laquelle presse_mets.py
-  le depose) ;
+Entree : le ou les manifestes passes a presse_mets.py, del_mets.py ou ram_mets.py
+(extraits du ref, .csv ou .csv.gz), lus comme eux (load_extract et build_jobs de
+chaque chaine, cf. CHAINES) ; un meme lancement peut meler les trois. La colonne
+« fascicule » du resultat designe alors aussi un registre ou un rapport. Pour
+chaque page :
+- JPEG : la s3_key du TIFF, extension .jpg (la cle sous laquelle la chaine le
+  depose) ;
 - ALTO : la s3_key du .xml au ref.
 
 Chaque fichier est ecrit sous <out-dir>/<s3_key> (arborescence de S3). Pour chacun :
@@ -44,7 +48,14 @@ from os.path import dirname, exists, getsize, join
 
 import pandas as pd
 
-from presse_mets import BUCKET, ROOT, SETS_PATH, build_jobs, load_extract, load_titles
+import del_mets
+import presse_mets
+import ram_mets
+from presse_mets import BUCKET, ROOT, SETS_PATH, load_titles
+
+# lecture des manifestes par chaine : presse (PRA_*), deliberations (AMR_DEL), rapports du maire
+# (AMR_RAM) ; chaque load_extract ne retient que les lignes de son corpus
+CHAINES = (presse_mets, del_mets, ram_mets)
 
 USER = "user_ro"
 TYPES = ("jpeg", "alto")
@@ -156,8 +167,14 @@ def main():
     ap.add_argument("--csv-out", help="resultat (defaut : <out-dir>/presse_download_AAAAMMJJHHMMSS.csv)")
     args = ap.parse_args()
 
-    ref = pd.concat([load_extract(m) for m in args.manifestes]).drop_duplicates("s3_key")
-    jobs, refused, _ = build_jobs(ref, "", load_titles(args.sets))
+    titles = load_titles(args.sets)
+    jobs, refused = [], []
+    for chaine in CHAINES:
+        ref = pd.concat([chaine.load_extract(m) for m in args.manifestes]).drop_duplicates("s3_key")
+        if len(ref):
+            j, r, _ = chaine.build_jobs(ref, "", titles)
+            jobs += j
+            refused += r
     todo = targets(jobs, args.types)
     par_type = {k: sum(t["type"] == k for t in todo) for k in args.types}
     print(f"{len(jobs)} fascicule(s), {len(refused)} refuse(s) ; "

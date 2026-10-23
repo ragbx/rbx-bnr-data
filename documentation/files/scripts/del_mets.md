@@ -194,8 +194,8 @@ des ALTO, l'ALTO. Le fichier de référence du 30 juin 2026 n'en contient aucune
 - **Avancement** : il n'évolue qu'à la fin de chaque registre.
 - **Place disque avec `--upload`** : le disque porte les JPEG des registres en
   cours, soit plusieurs centaines de JPEG par processus.
-- **Bilan et téléchargement** : `presse_bilan.py` et `presse_download.py` ne
-  connaissent pas les registres.
+- **Bilan** : `presse_bilan.py` ne connaît pas les registres. `presse_download.py`,
+  lui, sait télécharger leurs JPEG et leurs ALTO (depuis le 15 octobre 2026).
 
 ---
 

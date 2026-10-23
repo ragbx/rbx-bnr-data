@@ -38,7 +38,7 @@ manifeste (extrait du fichier de référence)     TIFF sous <source>
 | `jpeg_to_mix.py` | Relit la trace d'un JPEG et la restitue en MIX 2.0 ; utilisable seul. |
 | `presse_upload.py` | Envoi sur S3 des JPEG et METS déjà produits, quand `--upload` n'a pas été utilisé. |
 | [presse_bilan.py](presse_bilan.md) | Bilan a posteriori : envoyé, en erreur, jamais traité. |
-| `presse_download.py` | Récupère depuis S3 les JPEG et les ALTO des fascicules d'un manifeste. |
+| `presse_download.py` | Récupère depuis S3 les JPEG et les ALTO des fascicules d'un manifeste ; accepte aussi les manifestes des délibérations et des rapports du maire. |
 
 ---
 
@@ -94,6 +94,11 @@ mémoire : voir `dmesg`), le lot s'arrête — le message `ARRET BRUTAL` le dit,
 fascicules qu'il traitait sont perdus et les suivants abandonnés. Les récapitulatifs
 des fascicules terminés restent sur disque et une relance reprend le lot ; relancer
 avec moins de `--workers`.
+
+Dans l'autre sens, un processus du lot **meurt avec le processus principal**
+(`PR_SET_PDEATHSIG`) : un arrêt brutal du principal (tué faute de mémoire, `kill -9`,
+erreur non rattrapée) ne laisse donc plus de processus orphelins, qui resteraient
+bloqués en lecture d'une file de travail sans écrivain tout en gardant leur mémoire.
 
 ---
 
@@ -248,7 +253,12 @@ temps moyen par étape. Cette cadence ne vaut que pour la même machine, le mêm
 **Mémoire.** La colonne `rss_max_mo` donne le pic de mémoire du processus qui a traité
 le fascicule ; la ligne d'avancement et le bilan de fin de lot reprennent le plus
 élevé, et le bilan le multiplie par `--workers` : c'est ce que la machine doit avoir
-de libre. Un processus tué faute de mémoire arrête le lot (voir
+de libre. Compter **~350 Mo par processus**, quel que soit le nombre de vues du
+fascicule : le cache d'opérations de libvips est désactivé (`jpeg_encode.regle_vips`)
+et la mémoire libérée est rendue au système après chaque vue
+(`presse_mets.rendre_memoire`). Sans ces deux mesures, le pic d'un processus passait
+de 178 Mo à la 1re vue à 960 Mo à la 60e et continuait de croître (mesuré sur des vues
+de 50 Mo), jusqu'à faire tuer le processus. Un processus tué faute de mémoire arrête le lot (voir
 [Traitement d'un fascicule](#traitement-dun-fascicule)).
 
 ---
