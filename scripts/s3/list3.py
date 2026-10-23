@@ -24,18 +24,18 @@ bucket_name = "mediatheque-patarch-communicable"
 
 bucket = s3_resource.Bucket(bucket_name)
 for prefix in [
-    "AMR/AMR_2I",
-    "AMR/AMR_6H",
-    "AMR/AMR_AFF",
-    "AMR/AMR_AVI",
-    "AMR/AMR_CIM",
+    #"AMR/AMR_2I",
+    #"AMR/AMR_6H",
+    #"AMR/AMR_AFF",
+    #"AMR/AMR_AVI",
+    #"AMR/AMR_CIM",
     "AMR/AMR_DEL",
-    "AMR/AMR_Obj",
-    "AMR/AMR_PHO",
-    "AMR/AMR_POP",
-    "AMR/AMR_PR",
+    #"AMR/AMR_Obj",
+    #"AMR/AMR_PHO",
+    #"AMR/AMR_POP",
+    #"AMR/AMR_PR",
     "AMR/AMR_RAM",
-    "AMR/PAR_LAB",
+    #"AMR/PAR_LAB",
 ]:
     prefix_path = prefix.replace("/", "__")
     metadata = []
