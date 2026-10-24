@@ -5,6 +5,7 @@
       « À SUPPRIMER* » sans clé sont rattachés par (corpus_code, stem de name) et
       marqués `(sup)` ; rattachements ambigus exclus ;
     - retrait de la colonne de travail maj_{NEW} ;
+    - s3_uploaded_date au format AAAAMMJJ (sans le « .0 » hérité des relectures CSV) ;
     - colonnes dans l'ordre de l'ancien ref.
 
 Lecture/écriture en texte (dtype=str) : les valeurs reprises de l'ancien ref gardent
@@ -70,6 +71,10 @@ assert (ref.loc[keyed, "s3_stem_profil"] != "").all()
 
 print("\n== distribution s3_stem_profil (top 12) ==")
 print(ref.loc[ref["s3_stem_profil"] != "", "s3_stem_profil"].value_counts().head(12).to_string())
+
+# s3_uploaded_date au format AAAAMMJJ (relu en float depuis le CSV : « 20241116.0 »)
+ref["s3_uploaded_date"] = ref["s3_uploaded_date"].str.replace(r"\.0$", "", regex=True)
+assert ref["s3_uploaded_date"].str.fullmatch(r"(\d{8})?").all()
 
 assert set(ref.columns) == set(colonnes)
 ref = ref[colonnes]

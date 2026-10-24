@@ -519,6 +519,11 @@ def incomplete_pages(pages: dict) -> dict:
     return out
 
 
+def jpeg_key(tif_key: str) -> str:
+    """s3_key du JPEG : celle du TIFF, extension .jpg (remplacee par med_mets.py)."""
+    return posixpath.splitext(tif_key)[0] + ".jpg"
+
+
 def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, version: str) -> dict:
     """Controle, conversion et METS d'un fascicule. Rien n'est ecrit si un TIFF
     manque ou differe du ref. Si le fascicule echoue ensuite, les JPEG ecrits
@@ -554,7 +559,7 @@ def process_fascicule(job: dict, out_dir: str, quality: int, overwrite: bool, ve
             tif["admid"] = f"TECH_TIF_{page}"
             tif["mix"] = tiff_mix(tif["local"], tif["size"], tif["uuid"], tif["created_ref"])
 
-            jpg_key = posixpath.splitext(tif["key"])[0] + ".jpg"
+            jpg_key = jpeg_key(tif["key"])
             dst = join(out_dir, *jpg_key.split("/"))
             image = load_master(tif["local"])
             if image.bands >= 3 and not image.get_typeof("icc-profile-data"):

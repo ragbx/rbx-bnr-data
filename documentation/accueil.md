@@ -71,6 +71,8 @@ Préparer les données en vue de leur publication en ligne.
 
 → **[Chaîne rapports du maire](files/scripts/ram_mets.md)** — la même chaîne pour les rapports du maire (`AMR_RAM`), JPEG qualité 80 et METS par rapport
 
+→ **[Chaîne fonds de la médiathèque](files/scripts/med_mets.md)** — la même chaîne pour les manuscrits, le fonds Van der Meersch et les collections de particuliers (`MED_MS`, `MED_VDM`, `MED_PAR`), JPEG qualité 80 et METS par notice
+
 Détail par script :
 → [Extraction des corpus TIFF](files/scripts/extraction_corpus_tif.md) · [Téléchargement des corpus](files/scripts/telechargement_corpus.md) · [Conversion TIFF → JP2](files/scripts/tif_convert.md) · [Bilan des envois presse](files/scripts/presse_bilan.md)
 
