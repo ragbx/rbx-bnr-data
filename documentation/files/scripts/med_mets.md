@@ -150,6 +150,19 @@ Fonds complet, avec envoi réel sur S3 :
 python scripts/img/img3/med_mets.py results/med_ms/manifeste_MED_MS.csv.gz --source /chemin/racine --out-dir /chemin/sortie --validate --upload
 ```
 
+Les trois fonds à la suite, avec envoi réel (`MED_MS`, puis `MED_VDM`, puis
+`MED_PAR` ; environ 12 h avec 4 processus, à lancer dans `tmux` ou `screen`) :
+
+```bash
+bash scripts/img/img3/med_lot.sh
+```
+
+`scripts/img/img3/med_lot.sh` écrit chaque fonds sous `~/med_ms`, `~/med_vdm`,
+`~/med_par`, avec un journal `med_lot_<date>.log`. Un fonds en échec n'arrête pas
+les suivants ; une relance reprend là où le lot s'était arrêté. Réglages par
+variables d'environnement : `SOURCE`, `OUT`, `WORKERS`, `UPLOAD=0` (sans envoi),
+`FONDS` (par exemple `FONDS=MED_PAR`).
+
 Dans les récapitulatifs et les messages du lot, le mot « fascicule » désigne une
 notice.
 
