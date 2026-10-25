@@ -13,9 +13,12 @@ C'est la [chaîne presse](presse_mets.md) appliquée à ces fonds, avec le METS 
 `presse_mets.py` et la construction du METS de `del_mets.py`, et ne définit que ce
 qui est propre à ces fonds. Cette page décrit ces différences.
 
-**État au 24 octobre 2026** : le script n'a tourné que sur 28 images de synthèse
-(15 notices des trois fonds, METS validés contre les XSD). Aucun TIFF réel n'a été
-converti, aucun fichier n'a été envoyé sur S3.
+**État au 25 octobre 2026** : le lot complet (`med_lot.sh`, envoi réel sur S3) a tourné
+du 24 octobre 15 h 45 au 25 octobre 3 h 03. 77 553 vues sur 79 981 sont converties
+(`MED_MS` 32 339 sur 32 410, `MED_VDM` 28 923 sur 30 952, `MED_PAR` 16 291 sur 16 299),
+soit 117,5 Go de JPEG pour 2 211 Go de TIFF. 30 notices n'ont pas été traitées
+(voir [Relance](#relance)). Le fichier de référence `_ref_files_20261023` précède ce lot
+et ne le reflète pas.
 
 ---
 
@@ -168,10 +171,50 @@ notice.
 
 ---
 
+## Relance
+
+Le lot du 24-25 octobre 2026 a laissé 30 notices (2 428 vues, sans compter les 320 vues
+des notices refusées). `scripts/img/img3/med_relance.py` les relève dans le journal du
+lot (`nohup.out`) et les classe par cause :
+
+```bash
+python scripts/img/img3/med_relance.py ~/Téléchargements/nohup.out
+```
+
+Il écrit sous `results/med_relance/` la liste `notices_a_relancer.csv` (fonds, notice,
+vues, volume, cause, correctif, action) et, pour les notices relançables, un extrait
+du manifeste à passer à `med_mets.py` (`manifeste_<FONDS>_<action>.csv.gz`).
+
+| Cause | Notices | Vues | Correctif | Action |
+|---|---|---|---|---|
+| Balises du TIFF > 50 Mo cumulés (limite libtiff) | 7 `MED_VDM` | 1 506 | `load_master` : `unlimited=True` | relancer |
+| Image > 179 Mpx (garde anti-bombe de Pillow dans `tiff_mix`) | 5 `MED_PAR` (`NAJ_VRO_001` à `005`) | 5 | `tiff_mix` : `MAX_IMAGE_PIXELS = None` | relancer |
+| Un JPEG différent est déjà sur S3 | 3 `MED_PAR` (`LAB_PH02_036`, `PH05_048`, `PH12_002`) | 3 | aucun | décider, puis `--overwrite` |
+| Un master est un JPEG nommé `.tif` | 3 `MED_VDM` (`CAR1_D01`, `CAT4_D02`, `COR1_D01`) | 79 | aucun | bloqué |
+| TIFF à JPEG old-style (« pseudo-tag 65538 ») | 1 `MED_VDM` (`ALS1_D01`) | 175 | aucun | bloqué |
+| Master illisible | `MED_MS` `306`, `MED_VDM` `MDC3_D02` | 340 | aucun | bloqué |
+| Refusées d'emblée (original et photocopie) | 9 `MED_VDM` | 320 | aucun | bloqué |
+
+Les deux correctifs ont été vérifiés sur des TIFF de synthèse reproduisant les deux
+limites (balise de 60 Mo, image de 266 Mpx, 840 Mo de pic de mémoire) : ils n'ont pas
+encore été essayés sur les vrais masters. Commencer par les 5 notices `MED_PAR` puis
+une notice `MED_VDM` :
+
+```bash
+python scripts/img/img3/med_mets.py results/med_relance/manifeste_MED_PAR_relancer.csv.gz --source /chemin/racine --out-dir /chemin/sortie --validate --upload
+```
+
+Le JPEG déjà sur S3 des trois notices `LAB` pèse 1,7 à 2,5 Mo, le nouveau 0,2 à 0,5 Mo :
+comparer leur résolution avant d'écraser (`manifeste_MED_PAR_relancer_overwrite.csv.gz`,
+avec `--overwrite`).
+
+---
+
 ## Limites
 
-- **Jamais lancé sur de vrais TIFF** : cadence, poids des JPEG et comportement sur
-  les TIFF en couleur restent à mesurer sur un lot d'essai.
+- **Cadence mesurée au lot du 24 octobre 2026** (4 processus) : 0,5 à 0,6 s par vue,
+  soit 6 000 à 7 000 vues et 180 Go de TIFF à l'heure ; 12 h 16 pour les trois fonds.
+  Les JPEG pèsent environ 5 % des TIFF. Pic de mémoire : 926 Mo par processus.
 - **9 notices `MED_VDM` refusées** : `VDM_MAI2_D01` à `_D03`, `VDM_MAI5_D01`,
   `_D02`, `_D04`, `VDM_MAI8_D01` à `_D03`, sous `VDM_a_traiter/`. Leurs TIFF sont
   répartis entre un répertoire d'original (`VDM_MAI2`) et un répertoire de

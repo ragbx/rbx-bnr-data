@@ -117,6 +117,14 @@ bloqués en lecture d'une file de travail sans écrivain tout en gardant leur m�
 abîmé donnerait une image fausse, sans erreur. Ici le TIFF est lu en mode strict : au
 moindre défaut de décodage, le fascicule est en erreur.
 
+**Limites de sécurité levées.** Les masters sont ceux de l'archive, dont le MD5 est
+contrôlé avant lecture ; deux garde-fous contre les fichiers piégés sont donc
+désactivés (depuis le 25 octobre 2026). `unlimited=True` au chargement libvips : libtiff
+refusait sinon un TIFF dont les balises dépassent 50 Mo cumulés. `MAX_IMAGE_PIXELS =
+None` dans `tiff_mix` : Pillow, qui ne lit là que les balises, refusait au-delà de
+179 Mpx. Les deux avaient fait échouer 12 notices au lot des fonds de la médiathèque
+([Relance](med_mets.md#relance)).
+
 **Écriture contrôlée.** Le JPEG est écrit sous `<nom>.jpg.part`, relu et redécodé en
 entier, ses dimensions comparées à celles du TIFF, puis renommé. Un traitement
 interrompu ne laisse donc jamais de JPEG partiel sous son nom final.

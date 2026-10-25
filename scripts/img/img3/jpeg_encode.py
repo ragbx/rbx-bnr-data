@@ -68,11 +68,16 @@ def load_master(path: str):
     donne une image aux lignes fausses, sans erreur. Avec fail_on="error",
     l'erreur est levee a la lecture des pixels, donc pendant l'encodage (isolee
     par fascicule dans presse_mets.py).
+
+    unlimited=True leve les limites anti-DoS du chargeur : libtiff refuse sinon
+    un master dont les balises depassent 50 Mo cumules (MED_VDM : 7 notices en
+    echec au lot du 24/10/2026, balises de 32 a 86 Mo). Les masters sont ceux de
+    l'archive, dont le MD5 est controle avant lecture.
     """
     import pyvips
 
     regle_vips()
-    return pyvips.Image.new_from_file(path, access="sequential", fail_on="error")
+    return pyvips.Image.new_from_file(path, access="sequential", fail_on="error", unlimited=True)
 
 
 def prepare_for_jpeg(image):

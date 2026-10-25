@@ -266,6 +266,9 @@ def tiff_mix(path: str, size: int, uuid: str, ref_created: str = ""):
     DateTime, dateTimeCreated est repris du ref (mix_dateTimeCreated)."""
     from PIL import Image, ImageCms
 
+    # Seuls les tags sont lus, jamais les pixels : la garde anti-bombe de Pillow n'a pas
+    # d'objet ici (elle refusait au-dela de 179 Mpx les masters de MED_PAR_NAJ_VRO)
+    Image.MAX_IMAGE_PIXELS = None
     with open(path, "rb") as f:
         byte_order = {b"II": "little endian", b"MM": "big endian"}.get(f.read(2))
     with warnings.catch_warnings():
