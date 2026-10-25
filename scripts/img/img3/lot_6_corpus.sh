@@ -2,8 +2,8 @@
 # Lot de six corpus convertibles sans probleme connu (MED_IMA, MED_CP, MED_AFF, MUS_VAI,
 # MED_MON, MED_PUB ; 18 174 TIFF, 529 Go) : lot_mets.py sur results/img/manifeste_6_corpus.csv.gz,
 # avec validation XSD et ENVOI RÉEL sur S3. À lancer depuis la racine du dépôt, env vips-convert
-# actif, dans tmux ou screen (environ 3 h avec 4 processus, d'après la cadence du lot MED du
-# 24/10/2026 : 180 Go de TIFF/h) :
+# actif, dans tmux ou screen (3 h 05 avec 4 processus au lot du 25/10/2026 : 172 Go de TIFF/h,
+# 7 891 notices ok, aucun échec) :
 #   bash scripts/img/img3/lot_6_corpus.sh
 #
 # Avant de lancer, les TIFF doivent être sous <SOURCE>/<path>/<name> : la liste est
@@ -14,7 +14,8 @@
 # Réglages (variables d'environnement) :
 #   SOURCE=/home/kibini/bnr  préfixe des chemins du ref
 #   OUT=~                    sortie sous <OUT>/lot_6_corpus
-#   WORKERS=4                processus de conversion (~900 Mo de pic chacun, MED_AFF : TIFF de 75 Mo en moyenne)
+#   WORKERS=4                processus de conversion (pic de 1,9 Go chacun, soit 7,6 Go pour 4 : les
+#                            affiches MED_AFF vont jusqu'à 324 Mpx et 1,1 Go par TIFF)
 #   UPLOAD=1                 0 : conversion et METS seulement, sans envoi sur S3
 #   QUALITY=80               qualité JPEG
 #   PY=python                interpréteur

@@ -216,8 +216,17 @@ avec `--overwrite`).
 `MED_CP`, `MED_AFF`, `MUS_VAI`, `MED_MON` et `MED_PUB` (18 174 TIFF, 529 Go). Il ne
 change que la liste des corpus acceptés. Le manifeste est
 `results/img/manifeste_6_corpus.csv.gz`, produit par `manifestes_lot.py` ; le lot
-complet se lance avec `bash scripts/img/img3/lot_6_corpus.sh` (environ 3 h, envoi réel
-sur S3, contrôle préalable de la présence des TIFF).
+complet se lance avec `bash scripts/img/img3/lot_6_corpus.sh` (envoi réel sur S3,
+contrôle préalable de la présence des TIFF).
+
+**État au 25 octobre 2026** : le lot a tourné de 13 h 23 à 16 h 28 (3 h 05, 4 processus).
+Les 7 891 notices et les 18 174 vues sont converties et envoyées, sans aucun échec :
+35,3 Go de JPEG pour 529,2 Go de TIFF (6,7 %), 26 065 fichiers déposés (18 174 JPEG et
+7 891 METS). Cadence : 0,61 s par vue, 172 Go de TIFF à l'heure. Le pic de mémoire monte à
+1,9 Go par processus (7,6 Go pour 4), dès les premières affiches `MED_AFF` : le manifeste
+compte 51 TIFF de plus de 179 Mpx (jusqu'à 324 Mpx), tous passés sans la garde de Pillow
+([correctif du 25 octobre](presse_mets.md)). Le fichier de référence `_ref_files_20261023`
+ne reflète pas ce lot.
 
 Ces six corpus sont ceux du manifeste des dix corpus (`manifeste_10_corpus.csv.gz`) qui
 passent sans anomalie dans `build_jobs` (aucune notice refusée, toutes dans l'IR). Les
