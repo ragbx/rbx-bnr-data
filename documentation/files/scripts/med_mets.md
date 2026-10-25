@@ -210,6 +210,31 @@ avec `--overwrite`).
 
 ---
 
+## Autres corpus : `lot_mets.py`
+
+`scripts/img/img3/lot_mets.py` applique `med_mets.py` à six corpus de plus, `MED_IMA`,
+`MED_CP`, `MED_AFF`, `MUS_VAI`, `MED_MON` et `MED_PUB` (18 174 TIFF, 529 Go). Il ne
+change que la liste des corpus acceptés. Le manifeste est
+`results/img/manifeste_6_corpus.csv.gz`, produit par `manifestes_lot.py` ; le lot
+complet se lance avec `bash scripts/img/img3/lot_6_corpus.sh` (environ 3 h, envoi réel
+sur S3, contrôle préalable de la présence des TIFF).
+
+Ces six corpus sont ceux du manifeste des dix corpus (`manifeste_10_corpus.csv.gz`) qui
+passent sans anomalie dans `build_jobs` (aucune notice refusée, toutes dans l'IR). Les
+quatre autres sont écartés :
+
+| Corpus | TIFF | Raison |
+|---|---|---|
+| `LAR_PUB` | 3 731 | 3 127 TIFF à JPEG old-style, que libtiff refuse (comme `VDM_ALS1_D01`) |
+| `LAI` | 1 145 | `unit_id` suppose un `_` dans le `corpus_code` : `IndexError` |
+| `AMR_PHO`, `AMR_AFF` | 1 194, 1 005 | pas d'IR `bnr2mnesys/FR595126101_AMR_*.xml` : METS sans intitulé, date ni ARK |
+
+Une notice `MED_CP` (`CP_A05_L5_S2_001`, un TIFF) est aussi écartée : le fichier de
+référence n'a ni dimensions ni compression pour ce TIFF. Pour `MUS_VAI`, l'`unitid`
+commence déjà par `MUS_VAI1` : le METS s'appelle `RBX_MUS_VAI_MUS_VAI1_D01_F19_mets.xml`.
+
+---
+
 ## Limites
 
 - **Cadence mesurée au lot du 24 octobre 2026** (4 processus) : 0,5 à 0,6 s par vue,
