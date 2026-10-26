@@ -1,3 +1,4 @@
+import sys
 from os.path import join
 
 import pandas as pd
@@ -23,17 +24,19 @@ bucket_name = "mediatheque-patarch-communicable"
 
 
 bucket = s3_resource.Bucket(bucket_name)
-for prefix in [
+for prefix in sys.argv[1:] or [  # préfixes en argument : relancer certains seulement
      'AMR/PAR_LAB',
      'MED/MED_AFF',
      'MED/MED_CP',
      'MED/MED_IMA',
      'MED/MED_MON',
      'MED/MED_MS',
+     'MED/MED_PAR',
      'MED/MED_PUB',
      'MED/MED_VDM',
      'MUS/MUS_VAI',
-     'PAR'
+     'PAR',
+     'MED/MED_PAR'
 ]:
     prefix_path = prefix.replace("/", "__")
     metadata = []

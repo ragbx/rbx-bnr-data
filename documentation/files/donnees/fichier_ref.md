@@ -72,6 +72,24 @@ Les dates (`OLD_REF_DATE`, `NEW_REF_DATE`) sont centralisées dans
 
 Vérification de l'intégrité (optionnel) : `scripts/azrael/04_ref_integrité.ipynb`
 
+### Ref 20261026 : ajout des fichiers de la conversion, sans extraction Azrael
+
+`_ref_files_20261026` est le ref 20261023 auquel on a ajouté 109 577 lignes : les JPEG de
+diffusion (97 238) et les METS (12 339) déposés sur S3 les 24 et 25 octobre 2026 par la
+chaîne de conversion (`MED_MS`, `MED_VDM`, `MED_PAR`, `MED_AFF`, `MED_IMA`, `MED_CP`,
+`MUS_VAI`, `MED_MON`, `MED_PUB` ; voir [med_mets](../scripts/med_mets.md)). Script :
+`scripts/azrael/ref_20261026_img3.py`, à partir du listing S3
+`data/s3/listing9-mediatheque-patarch-communicable_20261026.csv.gz`.
+
+- Les lignes ajoutées ont `source2s3 = conversion_tif`, ni `name` ni `path` (fichiers absents
+  d'Azrael), `file_type` `jpeg` ou `mets`. Le JPEG hérite du TIFF de même clé
+  (`corpus_code`, `unitid`, `publication_statut`, `finding_aid`, `osiros_id`, `oai_set`), le
+  METS de la notice dont il porte le nom.
+- Les lignes du ref 20261023 sont inchangées, sauf `s3_stem_profil`, recalculé (124 479
+  lignes, de `tif` à `jpg+tif` le plus souvent).
+- 76 TIFF `MED_VDM` à clé irrégulière (« `_001 .tif` », « `_320..tif` ») gardent le profil
+  `tif` : leur JPEG, à clé nettoyée, n'a pas le même stem et porte le profil `jpg`.
+
 ---
 
 ### Description des colonnes
