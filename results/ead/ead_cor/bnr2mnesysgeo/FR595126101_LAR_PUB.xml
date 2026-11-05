@@ -1,0 +1,1367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595126101_LAR_PUB</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Publications de Lire à Roubaix</titleproper>
+        <author>Cet inventaire a été réalisé par Charlotte Saison-Pouly.</author>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2015">12/2015</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Cet inventaire a été réalisé par Charlotte Saison-Pouly.<lb/>Cet inventaire a été saisi en EAD par Charlotte Saison-Pouly en 2015.</creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" id="a011782977510ArMtsL">
+    <did>
+      <unitid>LAR_PUB</unitid>
+      <unittitle>Publications de Lire à Roubaix</unittitle>
+      <unitdate normal="2000">20e siècle</unitdate>
+      <langmaterial>
+        <language langcode="Fra">Français</language>
+      </langmaterial>
+      <repository>Lire à Roubaix</repository>
+    </did>
+    <scopecontent>
+      <p>Lire à Roubaix est une association roubaisienne qui mène des actions de développement de la lecture publique. Outre ces actions culturelles, elle publie des revues qui ont été numérisées : Lire à Roubaix regroupe les <emph render="italic">Cahiers de Roubaix</emph>, dont Michel David est directeur de publication, ainsi que Le<emph render="italic"> Vrai Polichinelle Roubaisien</emph>, dont Bernard Grelle est directeur de publication, et <emph render="italic">Ateliers mémoire, mémoire des Ateliers</emph>, dont Philippe Waret est directeur de publication.</p>
+    </scopecontent>
+    <acqinfo>
+      <p><emph render="italic">Lire à Roubaix </emph>met à disposition sur la Bibliothèque numérique de Roubaix l'intégralité de ses publications sous leur forme numérisée.</p>
+    </acqinfo>
+    <controlaccess>
+      <geogname source="thesaurus--SLASH--bnr_geo_territoires.xml" coord="POINT (3.1843 50.6887)">Roubaix (Nord)</geogname>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+      <corpname source="thesaurus--SLASH--bnr_corpname.xml">Association Lire à Roubaix</corpname>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Histoire de Roubaix</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Roubaix (Nord)</subject>
+    </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977510ArMtsL" role="publication:current"/>
+    <dsc>
+      <c level="series" id="a011782977510mj379i">
+        <did>
+          <unitid>PUB_AMM</unitid>
+          <unittitle>Ateliers Mémoire, Mémoires des Ateliers</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>4 revues papier.</physdesc>
+        </did>
+        <scopecontent>
+          <p>Les ateliers mémoire se sont constitués dans le cadre de l’animation du patrimoine et de la politique de la ville. Les participants sont des habitants qui évoquent ensemble et avec plaisir l’histoire de leur quartier. Ils expriment leurs souvenirs, apportent leur témoignage ou amènent des documents. Puis ils choisissent des thèmes communs, et partent à la recherche d’informations, de compléments, de précisions. Ensuite ils lisent la presse aux Archives, interrogent d’autres personnes du quartier, retrouvent des témoins ou des photos. Enfin ils mettent en commun toutes ces informations sous la forme de textes, d’interviews, de montages diapos et de blogs, afin que la transmission de la mémoire collective se fasse de manière documentée et attractive, notamment à l’occasion de rencontres avec les enfants des écoles, ou par la parution d’articles dans la presse. La revue <emph render="italic">Ateliers Mémoire, Mémoires des Ateliers</emph> présente la compilation thématique de leurs échanges.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Ateliers Mémoire</corpname>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Animation du patrimoine</subject>
+          <persname normal="Philippe Waret" role="Directeur de publication" source="thesaurus--SLASH--bnr_persname.xml">Waret, Philippe</persname>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510mj379i" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120470" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510mj379i</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120470</p>
+        </odd>
+        <c level="file" id="a011782977510gPT6ZX">
+          <did>
+            <unitid>PUB_AMM_001</unitid>
+            <unittitle>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années soixante</unittitle>
+            <unitdate normal="2008">2008</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années soixante.</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Urbanisme</subject>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.174885 50.687638, 3.174984 50.687504, 3.175445 50.687139, 3.175878 50.68604, 3.176029 50.685877, 3.176427 50.685615, 3.180157 50.687339, 3.182722 50.688545, 3.183849 50.689067, 3.184538 50.689383, 3.186701 50.690404, 3.185071 50.691948, 3.18465 50.692442, 3.184644 50.69245, 3.184618 50.692436, 3.183541 50.692226, 3.181731 50.691888, 3.180875 50.691624, 3.179631 50.691217, 3.178859 50.690957, 3.178255 50.690722, 3.177807 50.690379, 3.17757 50.689834, 3.17752 50.689368, 3.17724 50.688794, 3.176784 50.68852, 3.175843 50.688154, 3.175275 50.687857, 3.174885 50.687638))">Anseele Motte-Bossut</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.192774 50.671411, 3.192821 50.671367, 3.1936 50.670633, 3.193917 50.670334, 3.193564 50.670131, 3.193458 50.670051, 3.193695 50.669891, 3.193851 50.669783, 3.193955 50.669705, 3.194096 50.669587, 3.194317 50.669397, 3.194558 50.669248, 3.194949 50.669007, 3.195341 50.668751, 3.195417 50.668817, 3.195447 50.668839, 3.196066 50.669283, 3.196236 50.669405, 3.196257 50.669421, 3.196376 50.669481, 3.196378 50.66954, 3.196957 50.669756, 3.197322 50.66991, 3.197604 50.670119, 3.197764 50.67025, 3.198082 50.670577, 3.198177 50.670677, 3.19835 50.670866, 3.198557 50.6711, 3.198736 50.671265, 3.198927 50.671441, 3.199008 50.671474, 3.199314 50.671605, 3.199411 50.671644, 3.199876 50.671836, 3.199944 50.671864, 3.199999 50.671894, 3.200214 50.671985, 3.200545 50.672125, 3.200557 50.672129, 3.200527 50.67215, 3.199485 50.672833, 3.197814 50.6739, 3.195615 50.675322, 3.193156 50.673789, 3.191701 50.67288, 3.192575 50.672391, 3.1922 50.672086, 3.192194 50.671968, 3.19272 50.671469, 3.192774 50.671411))">Hauts Champs</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.189484 50.671494, 3.19027 50.671991, 3.191191 50.672568, 3.191701 50.67288, 3.193156 50.673789, 3.192256 50.674297, 3.189363 50.67589, 3.187807 50.676747, 3.18683 50.675917, 3.186022 50.675238, 3.185188 50.674452, 3.184804 50.673941, 3.186055 50.673304, 3.186892 50.672841, 3.187738 50.67241, 3.188573 50.67198, 3.189484 50.671494))">Nouveau Roubaix</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.203182 50.682553, 3.204904 50.683558, 3.206006 50.684194, 3.204412 50.686014, 3.203486 50.687082, 3.202722 50.687965, 3.202168 50.688605, 3.201628 50.689237, 3.199453 50.688186, 3.198169 50.687561, 3.199936 50.685789, 3.199731 50.685715, 3.199673 50.685644, 3.199736 50.685431, 3.199796 50.685314, 3.198814 50.684933, 3.198708 50.684129, 3.198944 50.6838, 3.200458 50.681785, 3.200684 50.681866, 3.201363 50.681459, 3.203182 50.682553))">Trois Ponts</geogname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Urbanisme et évolution des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années soixante</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_101.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_101.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510gPT6ZX" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120471" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_101.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_001_101.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510gPT6ZX</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120471</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510AIE1P0">
+          <did>
+            <unitid>PUB_AMM_002</unitid>
+            <unittitle>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années quatre-vingt</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Commerces et développement commercial des quartiers Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années 1980.</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Commerce</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Développement commercial</subject>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.174885 50.687638, 3.174984 50.687504, 3.175445 50.687139, 3.175878 50.68604, 3.176029 50.685877, 3.176427 50.685615, 3.180157 50.687339, 3.182722 50.688545, 3.183849 50.689067, 3.184538 50.689383, 3.186701 50.690404, 3.185071 50.691948, 3.18465 50.692442, 3.184644 50.69245, 3.184618 50.692436, 3.183541 50.692226, 3.181731 50.691888, 3.180875 50.691624, 3.179631 50.691217, 3.178859 50.690957, 3.178255 50.690722, 3.177807 50.690379, 3.17757 50.689834, 3.17752 50.689368, 3.17724 50.688794, 3.176784 50.68852, 3.175843 50.688154, 3.175275 50.687857, 3.174885 50.687638))">Anseele Motte-Bossut</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.192774 50.671411, 3.192821 50.671367, 3.1936 50.670633, 3.193917 50.670334, 3.193564 50.670131, 3.193458 50.670051, 3.193695 50.669891, 3.193851 50.669783, 3.193955 50.669705, 3.194096 50.669587, 3.194317 50.669397, 3.194558 50.669248, 3.194949 50.669007, 3.195341 50.668751, 3.195417 50.668817, 3.195447 50.668839, 3.196066 50.669283, 3.196236 50.669405, 3.196257 50.669421, 3.196376 50.669481, 3.196378 50.66954, 3.196957 50.669756, 3.197322 50.66991, 3.197604 50.670119, 3.197764 50.67025, 3.198082 50.670577, 3.198177 50.670677, 3.19835 50.670866, 3.198557 50.6711, 3.198736 50.671265, 3.198927 50.671441, 3.199008 50.671474, 3.199314 50.671605, 3.199411 50.671644, 3.199876 50.671836, 3.199944 50.671864, 3.199999 50.671894, 3.200214 50.671985, 3.200545 50.672125, 3.200557 50.672129, 3.200527 50.67215, 3.199485 50.672833, 3.197814 50.6739, 3.195615 50.675322, 3.193156 50.673789, 3.191701 50.67288, 3.192575 50.672391, 3.1922 50.672086, 3.192194 50.671968, 3.19272 50.671469, 3.192774 50.671411))">Hauts Champs</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.189484 50.671494, 3.19027 50.671991, 3.191191 50.672568, 3.191701 50.67288, 3.193156 50.673789, 3.192256 50.674297, 3.189363 50.67589, 3.187807 50.676747, 3.18683 50.675917, 3.186022 50.675238, 3.185188 50.674452, 3.184804 50.673941, 3.186055 50.673304, 3.186892 50.672841, 3.187738 50.67241, 3.188573 50.67198, 3.189484 50.671494))">Nouveau Roubaix</geogname>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.203182 50.682553, 3.204904 50.683558, 3.206006 50.684194, 3.204412 50.686014, 3.203486 50.687082, 3.202722 50.687965, 3.202168 50.688605, 3.201628 50.689237, 3.199453 50.688186, 3.198169 50.687561, 3.199936 50.685789, 3.199731 50.685715, 3.199673 50.685644, 3.199736 50.685431, 3.199796 50.685314, 3.198814 50.684933, 3.198708 50.684129, 3.198944 50.6838, 3.200458 50.681785, 3.200684 50.681866, 3.201363 50.681459, 3.203182 50.682553))">Trois Ponts</geogname>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1960-1969</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Commerces et développement commercial des quartiers Edouard Anseele, Hauts Champs, Nouveau Roubaix et Trois Ponts, de l'après-guerre aux années quatre-vingt</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_097.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510AIE1P0" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120472" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_097.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_002_097.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510AIE1P0</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120472</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510jnxjYx">
+          <did>
+            <unitid>PUB_AMM_003</unitid>
+            <unittitle>Regards et témoignages sur l'évolution des écoles des quartiers sud et Edouard Anseele</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <controlaccess>
+            <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="POLYGON ((3.174885 50.687638, 3.174984 50.687504, 3.175445 50.687139, 3.175878 50.68604, 3.176029 50.685877, 3.176427 50.685615, 3.180157 50.687339, 3.182722 50.688545, 3.183849 50.689067, 3.184538 50.689383, 3.186701 50.690404, 3.185071 50.691948, 3.18465 50.692442, 3.184644 50.69245, 3.184618 50.692436, 3.183541 50.692226, 3.181731 50.691888, 3.180875 50.691624, 3.179631 50.691217, 3.178859 50.690957, 3.178255 50.690722, 3.177807 50.690379, 3.17757 50.689834, 3.17752 50.689368, 3.17724 50.688794, 3.176784 50.68852, 3.175843 50.688154, 3.175275 50.687857, 3.174885 50.687638))">Anseele Motte-Bossut</geogname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Enseignement</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Regards et témoignages sur l'évolution des écoles des quartiers sud et Edouard Anseele</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_087.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_087.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510jnxjYx" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120473" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_087.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_003_087.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510jnxjYx</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120473</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510QhY2eB">
+          <did>
+            <unitid>PUB_AMM_004</unitid>
+            <unittitle>Contribution à l'histoire des jardins ouvriers roubaisiens</unittitle>
+            <unitdate>20e siècle</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Jardins ouvriers</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Santé publique</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Contribution à l'histoire des jardins ouvriers roubaisiens</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_089.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_089.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510QhY2eB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120474" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_089.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_AMM_004_089.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510QhY2eB</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120474</p>
+          </odd>
+        </c>
+      </c>
+      <c level="series" id="a011782977510jowWTz">
+        <did>
+          <unitid>PUB_CDR</unitid>
+          <unittitle>Cahiers de Roubaix</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>18 revues papier.</physdesc>
+        </did>
+        <scopecontent>
+          <p>Les Cahiers de Roubaix sont écrits par des historiens, conservateurs, habitants de roubaix etc. et nous permettent de retracer l'histoire de la ville et de sa population.</p>
+          <p>Directeur de la publication : Michel DAVID</p>
+        </scopecontent>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510jowWTz" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120437" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510jowWTz</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120437</p>
+        </odd>
+        <controlaccess>
+          <persname normal="Michel David" role="Directeur de publication" source="thesaurus--SLASH--bnr_persname.xml">David, Michel</persname>
+        </controlaccess>
+        <c level="file" id="a011782977510shYCo1">
+          <did>
+            <unitid>PUB_CDR_001</unitid>
+            <unittitle>La Société d'Émulation de Roubaix au siècle dernier [XIXe]</unittitle>
+            <unitdate normal="1995">1995</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Grelle, Bernard, <emph render="italic">La Société d’Émulation de Roubaix au siècle dernier </emph>[XIX<emph render="super">e</emph>], Roubaix, Lire à Roubaix, 1995, 51 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 1</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <corpname source="thesaurus--SLASH--bnr_corpname.xml">SER, Société d'Emulation de Roubaix</corpname>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>La Société d'Émulation de Roubaix au siècle dernier [XIXe]</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_055.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_055.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510shYCo1" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120438" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_055.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_001_055.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510shYCo1</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120438</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510n3YBz0">
+          <did>
+            <unitid>PUB_CDR_002</unitid>
+            <unittitle>Louis Decottignies, poète ouvrier méconnu</unittitle>
+            <unitdate normal="1998">1998</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Piat, Jean, <emph render="italic">Louis Decottignies, poète ouvrier méconnu</emph>, Roubaix, Lire à Roubaix, [ca 1998], 46 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 2</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Decottignies, Louis</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Poète</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Piat, Jean (1911-2002)</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Louis Decottignies, poète ouvrier méconnu</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_048.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_048.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510n3YBz0" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120439" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_048.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_002_048.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510n3YBz0</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120439</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510A7Xdst">
+          <did>
+            <unitid>PUB_CDR_003</unitid>
+            <unittitle>L'intégration des Belges à Roubaix</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>David, Michel, Guillemin, Alain, Waret, Philippe, <emph render="italic">L’intégration des Belges à Roubaix</emph>, Roubaix, Lire à Roubaix, [S. d.], 71 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 3</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Immigration des Belges</subject>
+            <persname normal="David, Michel" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">David, Michel</persname>
+            <persname normal="Alain Guillemin" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Guillemin, Alain</persname>
+            <persname normal="Philippe Waret" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Waret, Philippe</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>L'intégration des Belges à Roubaix</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_073.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_073.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510A7Xdst" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120440" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_073.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_003_073.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510A7Xdst</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120440</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510uxuSCc">
+          <did>
+            <unitid>PUB_CDR_004</unitid>
+            <unittitle>Le métier de maire à Roubaix : étude d'un apprentissage à travers la succession d'André Diligent (mai 1994 - juin 1995)</unittitle>
+            <unitdate normal="2001">2001</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Lefebvre, Rémi, <emph render="italic">Le métier de maire à Roubaix : étude d’un apprentissage à travers la succession d’André Diligent (mai 1994 - juin 1995)</emph>, Rémi Lefebvre, dessins de Teel, Roubaix, Lire à Roubaix, [2001], 69 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 4</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Vie politique</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Diligent, André</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Vie politique</subject>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">Après 1989</subject>
+            <persname normal="Rémi Lefebvre" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lefebvre, Rémi</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Le métier de maire à Roubaix : étude d'un apprentissage à travers la succession d'André Diligent (mai 1994 - juin 1995)</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_069.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_069.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510uxuSCc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120441" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_069.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_004_069.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510uxuSCc</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120441</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510WSurFc">
+          <did>
+            <unitid>PUB_CDR_005</unitid>
+            <unittitle>Témoignage d'un vieux Roubaisien</unittitle>
+            <unitdate normal="2001">2001</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Lepoutre, Marcel, <emph render="italic">Témoignage d’un vieux Roubaisien</emph>, dessins de Vincent Lepoutre, Roubaix, Lire à Roubaix, [2001], 141 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 5</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Témoignage d'un vieux Roubaisien</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_143.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510WSurFc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120442" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_143.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_005_143.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510WSurFc</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120442</p>
+          </odd>
+          <controlaccess>
+            <persname normal="Marcel Lepoutre" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lepoutre, Marcel</persname>
+            <persname normal="Vincent Lepoutre" role="dessinateur" source="thesaurus--SLASH--bnr_persname.xml">Lepoutre, Vincent</persname>
+          </controlaccess>
+        </c>
+        <c level="file" id="a011782977510Q2oCuB">
+          <did>
+            <unitid>PUB_CDR_006</unitid>
+            <unittitle>Histoire de l'enseignement primaire à Roubaix</unittitle>
+            <unitdate normal="2005">2005</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Ravier, Joël, <emph render="italic">Histoire de l’enseignement primaire à Roubaix : l’école au cœur de la lutte des classes</emph>, Roubaix, Lire à Roubaix, [2005]. 93 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 6</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Enseignement</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Enseignement</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Lutte des classes</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Conflits sociaux</subject>
+            <persname normal="Joël Ravier" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Ravier, Joël</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Histoire de l'enseignement primaire à Roubaix</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_097.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_097.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510Q2oCuB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120443" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_097.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_006_097.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510Q2oCuB</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120443</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510zLwlgZ">
+          <did>
+            <unitid>PUB_CDR_007</unitid>
+            <unittitle>Le commerce des imprimés à Roubaix au XIXe siècle</unittitle>
+            <unitdate normal="2002">2002</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Grelle Bernard, <emph render="italic">Le commerce des imprimés à Roubaix au XIX<emph render="super">e</emph> siècle</emph>, Roubaix, Lire à Roubaix, [mai 2002.]. 199 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 7</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Imprimés</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Le commerce des imprimés à Roubaix au XIXe siècle</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_201.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510zLwlgZ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120444" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_201.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_007_201.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510zLwlgZ</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120444</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510bGYZPf">
+          <did>
+            <unitid>PUB_CDR_008</unitid>
+            <unittitle>Parcours d'un prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</unittitle>
+            <unitdate normal="2006">2006</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Duhamel, <emph render="italic">Émile, Parcours d’un prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</emph>, Roubaix, Lire à Roubaix, [2006]. 109 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 8</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <persname source="thesaurus--SLASH--bnr_persname.xml">Morant, Jean-Pierre</persname>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Industries textiles</subject>
+            <persname normal="Émile Duhamel" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Duhamel, Émile</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Parcours d'un prolétaire du textile roubaisien : entretiens avec Jean-Pierre Morant</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_111.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_111.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510bGYZPf" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120445" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_111.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_008_111.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510bGYZPf</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120445</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510f9FDRc">
+          <did>
+            <unitid>PUB_CDR_009</unitid>
+            <unittitle>Les métamorphoses d'une identité locale : genèse de la « Roubaisien-ité »</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Lefebvre, Rémi, <emph render="italic">Les métamorphoses d’une identité locale : genèse de la « Roubaisien-ité »</emph>, &amp; <emph render="italic">Inventaire bibliographique des travaux universitaires portant sur Roubaix</emph>, Roubaix, Lire à Roubaix, [S. d.], 64 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 9</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Les métamorphoses d'une identité locale : genèse de la « Roubaisien-ité »</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_067.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_067.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510f9FDRc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120446" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_067.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_009_067.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510f9FDRc</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120446</p>
+          </odd>
+          <controlaccess>
+            <persname normal="Rémi Lefebvre" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lefebvre, Rémi</persname>
+          </controlaccess>
+        </c>
+        <c level="file" id="a011782977510FEU1Zt">
+          <did>
+            <unitid>PUB_CDR_010</unitid>
+            <unittitle>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914</unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Grelle Bernard, <emph render="italic">Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914</emph> [<emph render="italic">Catalogue commenté de la presse roubaisienne 1829-1914</emph>]<emph render="italic">, </emph>Roubaix, Lire à Roubaix, [2004]. 221 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 10</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Presse</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Presse</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Grelle, Bernard</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Catalogue de la presse roubaisienne et des villes avoisinantes 1829-1914</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_223.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_223.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510FEU1Zt" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120447" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_223.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_010_223.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510FEU1Zt</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120447</p>
+          </odd>
+        </c>
+        <c level="file" id="a0117829775107Flm8I">
+          <did>
+            <unitid>PUB_CDR_011</unitid>
+            <unittitle>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p><emph render="italic">Verbatim : Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</emph>, Roubaix, Lire à Roubaix, [2004]. 198 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 11</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Urbanisme</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Mutations sociales</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Roubaix, 50 ans de transformations urbaines et de mutations sociales : colloque 28 et 29 novembre 2003</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_143.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829775107Flm8I" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120448" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_143.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_011_143.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829775107Flm8I</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120448</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510SyjgLr">
+          <did>
+            <unitid>PUB_CDR_012</unitid>
+            <unittitle>Miscellanées : quatre textes inédits de Jean Piat</unittitle>
+            <unitdate normal="2004">2004</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Piat (Jean), <emph render="italic">Miscellanées : quatre textes inédits de Jean Piat, précédés d’une note biographique sur l’auteur par Pierre Pierrard</emph>, Roubaix, Lire à Roubaix, [2004]. 198 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 12</p>
+            <p>Contient : <emph render="italic">The Flowers of Sullivan street</emph> ; <emph render="italic">Jean Lebas et la guerre de 1914-1918</emph> ; <emph render="italic">Soldats de la liberté : les socialistes du Nord dans la Résistance 1940-1944</emph> ; <emph render="italic">Parti Ouvrier français : une page d’histoire à rectifier</emph>.</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Piat, Jean (1911-2002)</persname>
+            <persname normal="Pierre Pierrard" role="Second auteur" source="thesaurus--SLASH--bnr_persname.xml">Pierrard, Pierre</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Miscellanées : quatre textes inédits de Jean Piat</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_201.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_201.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510SyjgLr" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120449" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_201.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_012_201.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510SyjgLr</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120449</p>
+          </odd>
+        </c>
+        <c level="file" id="a0117829775107R2WCG">
+          <did>
+            <unitid>PUB_CDR_013</unitid>
+            <unittitle>Roubaix 1870-1908 : la question laïque</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Waret (Philippe), <emph render="italic">Roubaix 1870-1908 : la question laïque, Roubaix</emph>, Lire à Roubaix, [S. d.], 207 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n° 13</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+            <p>NB : une première édition de ce numéro 13 a été diffusée en premier lieu. Elle présentait, en 84 pages, la première partie du document : <emph render="italic">La question laïque à Roubaix : 1870-1892</emph>.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Laïcité</subject>
+            <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+            <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Religion</subject>
+            <persname normal="Philippe Waret" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Waret, Philippe</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Roubaix 1870-1908 : la question laïque</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_212.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_212.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829775107R2WCG" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120450" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_212.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_013_212.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829775107R2WCG</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120450</p>
+          </odd>
+        </c>
+        <c level="file" id="a0117829775108MFDjq">
+          <did>
+            <unitid>PUB_CDR_014</unitid>
+            <unittitle>Mémoires de Jean Soudan [Résistant]</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Soudan (Jean), <emph render="italic">Mémoires de Jean Soudan [Résistant]</emph>, avec la collab. de Francis Carlier, Roubaix, Lire à Roubaix, [S. d.]. 221 p., <emph render="italic">Les Cahiers de Roubaix, </emph>n°14</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Résistants</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1939-1945)</subject>
+            <persname normal="Jean Soudan" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Soudan, Jean</persname>
+            <persname normal="Francis Carlier" role="Second auteur" source="thesaurus--SLASH--bnr_persname.xml">Carlier, Francis</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Mémoires de Jean Soudan [Résistant]</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_085.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_085.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829775108MFDjq" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120451" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_085.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_014_085.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829775108MFDjq</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120451</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510FQ0uJM">
+          <did>
+            <unitid>PUB_CDR_015</unitid>
+            <unittitle>Témoignage d'un vieux Roubaisien (suite)</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Lepoutre, Marcel, <emph render="italic">Témoignage d’un vieux Roubaisien (suite)</emph>, Roubaix, Lire à Roubaix, [S. d.], 104 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 15</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Témoignage d'un vieux Roubaisien (suite),</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_105.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_105.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510FQ0uJM" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120452" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_105.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_015_105.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510FQ0uJM</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120452</p>
+          </odd>
+          <controlaccess>
+            <persname normal="Marcel Lepoutre" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lepoutre, Marcel</persname>
+          </controlaccess>
+        </c>
+        <c level="file" id="a011782977510OMhWYj">
+          <did>
+            <unitid>PUB_CDR_016</unitid>
+            <unittitle>Journal de guerre 1914-1918</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Vibaux (Joseph), <emph render="italic">Journal de guerre 1914-1918</emph>, Roubaix, Lire à Roubaix, [S. d.]. 141 p., <emph render="italic">Cahiers de Roubaix</emph>, n° 16</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Guerre mondiale (1914-1918)</subject>
+            <persname normal="Joseph Wibaux" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Wibaux, Joseph</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Journal de guerre 1914-1918</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_093.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_093.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510OMhWYj" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120453" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_093.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_016_093.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510OMhWYj</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120453</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510zIIMUo">
+          <did>
+            <unitid>PUB_CDR_017</unitid>
+            <unittitle>Une politique publique locale à l'épreuve de l'Immigration : le cas de Roubaix</unittitle>
+            <unitdate normal="2009">2009</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>David, (Michel), <emph render="italic">Une politique publique locale à l’épreuve de l’Immigration : le cas de Roubaix</emph>, Roubaix, Lire à Roubaix, [S. d.], 117 p., <emph render="italic">Cahiers de Roubaix, </emph>n° 17</p>
+            <p>Édité par l'association Lire à Roubaix en collaboration avec la Médiathèque de Roubaix et la Ville de Roubaix.</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Population, immigration</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Immigration</subject>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Politique publique</subject>
+            <persname normal="David, Michel" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">David, Michel</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Une politique publique locale à l'épreuve de l'Immigration : le cas de Roubaix</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_119.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_119.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510zIIMUo" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120454" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_119.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_017_119.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510zIIMUo</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120454</p>
+          </odd>
+        </c>
+        <c level="file" id="a0117829775103V4VIA">
+          <did>
+            <unitid>PUB_CDR_018</unitid>
+            <unittitle>Autant qu'il m'en souvienne...</unittitle>
+            <unitdate normal="2015">2015</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Piat (Jean), <emph render="italic">Autant qu’il m’en souvienne… : autobiographie</emph>, texte établi et annoté par Bernard Grelle, Roubaix, Lire à Roubaix, 2015, 178 p.+ i cahier photos, <emph render="italic">Cahiers de Roubaix, </emph>[n° 17]</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
+            <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Piat, Jean (1911-2002)</persname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Autant qu'il m'en souvienne…</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_179.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_179.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829775103V4VIA" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR123629" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_179.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_CDR_018_179.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829775103V4VIA</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR123629</p>
+          </odd>
+        </c>
+      </c>
+      <c level="series" id="a011782977510vLc5im">
+        <did>
+          <unitid>PUB_VPR</unitid>
+          <unittitle>Au Vrai Polichinelle Roubaisien</unittitle>
+          <unitdate>20e siècle</unitdate>
+          <physdesc>13 revues papier.</physdesc>
+        </did>
+        <scopecontent>
+          <p><emph render="bold">Informations sur ce périodique</emph></p>
+          <p>Au temps où le cinéma et la télévision n’existaient pas, le théâtre était roi, et chaque petite ville avait son théâtre et sa troupe permanente. Mais le théâtre revient cher : les acteurs veulent être payés ; salle, éclairage et décors coûtent. Pour diminuer les coûts, pourquoi ne pas faire jouer des acteurs de bois ?</p>
+          <p><emph render="bold"><emph render="italic">Les théâtres de marionnettes ambulants</emph></emph></p>
+          <p>Bon nombre de théâtres, tant d’acteurs que de marionnettes, couraient alors les fêtes patronales avec leurs baraques et leurs pantins. La lecture de la presse montre qu’ils revenaient régulièrement chaque année. Le répertoire était peu varié et s’inspirait de vieilles légendes telles <emph render="italic">Ourson et Valentin</emph> ou les aventures de Saint Antoine et son cochon ; répertoire si peu varié qu’on parlait couramment de « baraques Saint-Antoine » pour désigner ces stands.</p>
+          <p><emph render="bold"><emph render="italic">Les théâtres ouvriers</emph></emph></p>
+          <p>Mais il existait aussi des théâtres permanents dans toutes les villes ouvrières, Roubaix, Lille, Amiens, Tournai, Liège, etc. Pour gagner quelques sous, des montreurs plus ou moins improvisés donnaient « la comédie » à leurs collègues et aux enfants dans des estaminets, des caves ou des greniers. Alain Guillemin et Andrée Leroux en ont recensé près d’une soixantaine à Roubaix, et près d’une quarantaine à Lille. L’existence de ces « théâtres » était souvent précaire, les spectacles de plus ou moins bonne qualité. Mais à Roubaix le « Théât’ Louis » se détache du lot. Créé par Louis Richard, repris par son fils Léopold, perpétué jusqu’à nos jours par son petit-fils Florian aidé d’Andrée Leroux et d’Alain Guillemin, Le Théâtre Louis Richard a dû malheureusement s’exiler à Wasquehal.</p>
+          <p><emph render="bold"><emph render="italic">Au Vrai Polichinelle Roubaisien</emph></emph></p>
+          <p>La médiathèque ne pouvait rester indifférente à ce pan de la culture roubaisienne. Aussi créa-t-elle un fonds marionnette, qui recueille tout ce qui peut concerner cet art, manuscrits, livres, disques, objets, de provenance locale, régionale ou internationale. Une partie de ce matériel a été montré en 1997 dans une exposition intitulée « Papiers et marionnettes ». Roubaix comptait alors encore quatre compagnies de marionnettiste. Aucune aujourd’hui.</p>
+          <p>Pour favoriser sa collecte, et faire connaître cette collection, la médiathèque s’associa à Lire à Roubaix et au Théâtre Louis Richard pour lancer la revue <emph render="italic">Au Vrai Polichinelle Roubaisien</emph> en 1987. Treize numéros ont paru. Ont collaboré au fanzine, outre des « locaux », des écrivains français, un marionnettiste italien, un autre portugais, et quelques Belges.</p>
+          <p>Les promoteurs espéraient une collaboration active des marionnettistes de la région, espoirs en grande partie déçus. Mais cet effort tout de même permis de ramener à Roubaix, une précieuse collection de manuscrits dus à Louis et Léopold Richard (voir <emph render="italic">Au vrai Polichinelle Roubaisien</emph> n° 8).</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Marionnettes</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Théâtre de marionnettes</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Spectacles</subject>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510vLc5im" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120456" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510vLc5im</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120456</p>
+        </odd>
+        <c level="file" id="a011782977510mQ6bdJ">
+          <did>
+            <unitid>PUB_VPR_001</unitid>
+            <unittitle>Numéro 1</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« La marionnette dans le dessin d’humour » / Bernard Grelle</p>
+            <p>Dossier : les marionnettes siciliennes. « Une enfance sicilienne » / Edmonde Charles-Roux ; « Mère méditerranée » / Dominique Fernandez ; « Des marionnettes sicilienne fabriquées à Roubaix » / Alain Guillemin (Roubaix)</p>
+            <p>« Portugal : <emph render="italic">Les Bonecos de Santos</emph> » / Alain Guillemin</p>
+            <p>« Guignol et tréteaux » / Louis Guilloux</p>
+            <p>« Guignol : nouvelle » / Charles Étienne</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 1</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_078.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_078.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510mQ6bdJ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120457" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_078.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_001_078.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510mQ6bdJ</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120457</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510SRm3E9">
+          <did>
+            <unitid>PUB_VPR_002</unitid>
+            <unittitle>Numéro 2</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« Libres propos » / Pierre Gripari (Paris)</p>
+            <p>De Goethe et des marionnettes, dossier. « Éléments biographiques » / Charles Magnin ; « Du statut paradoxal des marionnettes dans les années d’apprentissage de <emph render="italic">Wilhem Meister</emph> de Goethe » / Fabienne Thiéffry (Roubaix)</p>
+            <p>« À propos de <emph render="italic">Don Quichotte</emph> et de marionnettes » Pierre-Jacques Lamblin (Villeneuve-d’Ascq)</p>
+            <p>« Quand Gustave Doré voyageait en Espagne » / Ch. Davilliers</p>
+            <p>Dossier : Géants et marionnettes : Reuze et Gayant sont-ils des marionnettes ? « Introduction » / Bernard Grelle ; Premières réponses : B. Coussée (Raimbeaucourt), Robert Henry (Tourcoing), Alain Guillemin</p>
+            <p>Notes de lecture : Roger L. Simon, <emph render="italic">Marionnette : une jeunesse manipulée</emph> ; M. Meurant, <emph render="italic">Géants de Wallonie</emph> / Eugène Morel (alias Bernard Grelle)</p>
+            <p>« Les Géants : une bibliographie » / Anne-Laure Dodey (Roubaix)</p>
+            <p>« Lille et Roubaix au XIX<emph render="super">e</emph> siècle : l’âge des spectateurs » / Alain Guillemin</p>
+            <p>« Les petits pages de musique » / Paul Arène</p>
+          </scopecontent>
+          <controlaccess>
+            <geogname source="thesaurus--SLASH--bnr_geo_territoires.xml" coord="POINT (3.1843 50.6887)">Roubaix (Nord)</geogname>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 2</p>
+            </daodesc>
+            <daoloc href="RBX_LAR_PUB_VPR_002_000" role="access:image:first"/>
+            <daoloc href="RBX_LAR_PUB_VPR_002_085" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510SRm3E9" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120458" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>access:image:first RBX_LAR_PUB_VPR_002_000</p>
+            <p>access:image:last RBX_LAR_PUB_VPR_002_085</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510SRm3E9</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120458</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510c7OQIA">
+          <did>
+            <unitid>PUB_VPR_003</unitid>
+            <unittitle>Numéro 3</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« <emph render="italic">La tentation de saint Antoine</emph> : tradition populaire ou pièce savante ? » / Alain Guillemin</p>
+            <p>Dossier : « La Marionnette et le cinéma ». « La marionnette et le 7<emph render="super">e</emph> art » / Alberto Bagno (Parme) ; « Marionnettes à l’écran : pour un inventaire permanent » / Bernard Grelle ; « Petite grammaire de l’utilisation de la marionnette dans le dessin d’humour et la caricature » / Bernard Grelle</p>
+            <p>« Géants et marionnettes : la suite du débat ». Les réponses d’Émilie Valentin, Jean Gérardy, Albert Bagno</p>
+            <p>« Note de lecture : sur le <emph render="italic">Croquemitaine</emph> de J. Vandenheede » / Jean Sadyn (Flandres)</p>
+            <p>Marionnettes d’ici : « Les marionnettes à la planchette à Roubaix » / Bernard Grelle ; « Lucien Lafleur, montreur de marionnettes à Raimbeaucourt / Bernard Coussée ; « Une cave lilloise » / Jean Vindevogel</p>
+            <p>« Revue antespective de l’art dramatique » / Jean Moréas</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 3</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_103.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_103.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510c7OQIA" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120459" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_103.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_003_103.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510c7OQIA</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120459</p>
+          </odd>
+        </c>
+        <c level="file" id="a0117829775108Fm2uW">
+          <did>
+            <unitid>PUB_VPR_004</unitid>
+            <unittitle>Numéro 4</unittitle>
+            <unitdate normal="1989">janvier 1989</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Marionnette et publicité : « La marionnette publicitaire » / Alberto Bagno ; « Bochum : une ville qui ose faire sa publicité sur son amour des marionnettes » : trad. Catherine Martinache (Lille)</p>
+            <p>« Marionnettes et dessins d’humour : les fils » / Bernard Grelle</p>
+            <p>Marionnettes d’ici, Nord de la France et sud de la Belgique : autour de Léopold Richard. « Le don de Robert Henri à la bibliothèque municipale » / Anne-Laure Dodey ; « Robert Henri, un Tourquennois à Roubaix » ; « Note sur les théâtres de marionnettes dans le Nord après 1900 » : Alain Guillemin ; « Léopold Delannoy et Léopold Richard : le journaliste et l’ouvrier » / Alain Guillemin ; « Grand Jean se promène » / Jacques Coulardeau (Roubaix)</p>
+            <p>Notes de lecture : « <emph render="italic">Le Montreur de marionnette</emph>, de Paul Tillard ; <emph render="italic">Les sabots de Paris</emph> et <emph render="italic">Le Grand Guignol</emph>, de Georges Coulonges » / Bernard Grelle</p>
+            <p>Bonnes pages : « Les Marionnettes au salon… » ; « Polichinelle, raconté par Émile Zola » ; « <emph render="italic">Le cirque de Piggy Logan</emph>, par Thomas Wolfe » / D.D. Br. (Paris)</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 4</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_094.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_094.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829775108Fm2uW" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120460" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_094.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_004_094.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829775108Fm2uW</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120460</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510tRAyLI">
+          <did>
+            <unitid>PUB_VPR_005</unitid>
+            <unittitle>Numéro 5</unittitle>
+            <unitdate normal="1990">juillet 1990</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« Rigoler et parvenir : les marionnettes dans la chanson de carnaval en patois de Lille » / Anne-Marie Poncet (Lille)</p>
+            <p>« Gianduja, marionnette piémontaise » / Paolo Conte, Albert Bagno, Maurice Sand</p>
+            <p>« Quand la marionnette se révolte » : dessins rassemblés par le docteur Bertin (La Meignanne)</p>
+            <p>« SF et marionnettes : dossier » / Bernard Grelle</p>
+            <p>« Un organisme discret : le ministère du temps libre » / Gébé</p>
+            <p>« Deux ouvrages pour les enfants portugais » / Manuel Durand-Barthez (Toulouse)</p>
+            <p>Glanes : Georges Motte,<emph render="italic"> Les 20 000 de Radinghem </emph>; Ann Tyler,<emph render="italic"> Voyageur malgré lui </emph>; Marc Angenot, <emph render="italic">Ce que l’on dit des juifs en 1889 </emph>; Romain Roussel, <emph render="italic">L’herbe d’avril</emph> ; Jan Doat, <emph render="italic">Valéry vivant</emph></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 5</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_074.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_074.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510tRAyLI" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120461" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_074.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_005_074.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510tRAyLI</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120461</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510M1sM2v">
+          <did>
+            <unitid>PUB_VPR_006</unitid>
+            <unittitle>Numéro 6</unittitle>
+            <unitdate normal="1991">septembre 1991</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« Marionnettes et national-socialisme en Allemagne » / Pierre Fouché (Roubaix)</p>
+            <p>« Des bandes de marionnettes : des marionnettes dans la BD » / Albert Bagno (Italie)</p>
+            <p>« Manipulation » / B. D. de Jean-Paul Lété (Belgique)</p>
+            <p>« Petite grammaire de la marionnette dans le dessin d’humour IV. Des ventriloques et de leurs poupées » dessins rassemblés par le Docteur Bertin</p>
+            <p>À propos de Polichinelle : dossier. « La langue de Polichinelle » Alain Guillemin ; « La Polichinelle » / Lezin-Raynal ; « Polichinelle » : Théodore de Banville ; « Guignol et Polichinelle » / Nizier Tafusoir ; « Polichinelle » / Léon Broutin père ; « La Polichinelle : chanson » ; « Polichinelle en 1860 » / Ourry ; « Les malédictions de Polichinelle » / Émile Gachet</p>
+            <p>« Marionnette d’ici : Louis Richard et les marionnettes de Gand » / Alain Guillemin</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 6</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_082.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_082.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510M1sM2v" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120462" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_082.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_006_082.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510M1sM2v</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120462</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510mOgwFQ">
+          <did>
+            <unitid>PUB_VPR_007</unitid>
+            <unittitle>Numéro 7</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Numéro spécial : « 1880-1914 : langues et culture à Roubaix » / Alain Guillemin</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 7</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_062.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_062.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510mOgwFQ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120463" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_062.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_007_062.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510mOgwFQ</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120463</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510BMMixp">
+          <did>
+            <unitid>PUB_VPR_008</unitid>
+            <unittitle>Numéro 8</unittitle>
+            <unitdate normal="1996">1996</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Numéro spécial : <emph render="italic">Une famille de marionnettistes : les Richard et leurs alliés. Catalogue des documents les concernant conservés à la Médiathèque de Roubaix</emph> / Bernard Grelle</p>
+          </scopecontent>
+          <controlaccess>
+            <subject source="thesaurus--SLASH--bnr_rameau.xml">Théâtre Louis Richard</subject>
+          </controlaccess>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 8</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_143.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_143.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510BMMixp" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120464" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_143.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_008_143.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510BMMixp</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120464</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510JuVXmf">
+          <did>
+            <unitid>PUB_VPR_009</unitid>
+            <unittitle>Numéro 9</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Numéro spécial <emph render="italic">: Marionnettes en images, images de marionnettes : une rencontre entre les étudiants du Lycée d’art appliqués de Roubaix et des marionnettes du Théâtre Louis Richard</emph></p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 9</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_076.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_076.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510JuVXmf" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120465" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_076.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_009_076.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510JuVXmf</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120465</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510PI0e9E">
+          <did>
+            <unitid>PUB_VPR_010</unitid>
+            <unittitle>Numéro 10</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Numéro spécial : <emph render="italic">Le Castelet lillois : l’âme des marionnettes</emph> / Jacques Wessels (Lille)</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 10</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_137.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_137.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510PI0e9E" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120466" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_137.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_010_137.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510PI0e9E</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120466</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510TQxers">
+          <did>
+            <unitid>PUB_VPR_011</unitid>
+            <unittitle>Numéro 11</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>Numéro spécial : porte-folio « Polichinelle » : illustrations de David Gomez ; textes d’Alain Guillemin</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 11</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510TQxers" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120467" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_011_012.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510TQxers</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120467</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510EG6L5F">
+          <did>
+            <unitid>PUB_VPR_012</unitid>
+            <unittitle>Numéro 12</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« L’infortune de Kasper », Pierre Foucher (Lille)</p>
+            <p>« Cinéma et marionnettes : « Daragouz » et « Un marionnettiste mal dans sa peau…dans celle du comédien John Malkovich » / Alain Guillemin</p>
+            <p>« Friponnot photographe : scène de Guignol » / Gringoire</p>
+            <p>« Quand le <emph render="italic">Journal Officiel</emph> s’intéresse à la marionnette » / M. le ministre de la Culture</p>
+            <p>« Le Théâtre Holden à Roubaix »</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 12</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_057.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_057.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510EG6L5F" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120468" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_057.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_012_057.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510EG6L5F</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120468</p>
+          </odd>
+        </c>
+        <c level="file" id="a011782977510qBi7JE">
+          <did>
+            <unitid>PUB_VPR_013</unitid>
+            <unittitle>Numéro 13, Polichinelle s'en va</unittitle>
+            <unitdate>Sans date</unitdate>
+            <physdesc>1 revue papier.</physdesc>
+          </did>
+          <scopecontent>
+            <p>« Les quatre pères du Petit Morveux » / Alain Guillemin</p>
+            <p>« Tentations » / Alain Guillemin</p>
+            <p>« Roubaix 1900, Louis Richard et les enfants » / Alain Guillemin</p>
+            <p>« Être marionnettiste en 1792 »</p>
+            <p>« La Bande noire du Chat blanc [de Lille] » / A.F.</p>
+            <p>« La Chasse aux canards » / Margaret Maron</p>
+            <p>« Marionnettes et cinéma » / Bernard Grelle et al.</p>
+            <p>« La médiathèque et les marionnettes : trente-deux ans d’activités diverses » / Bernard Grelle</p>
+          </scopecontent>
+          <daogrp>
+            <daodesc>
+              <p>Numéro 13, Polichinelle s'en va</p>
+            </daodesc>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_000.tif" role="preservation:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_099.tif" role="preservation:image:last"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_000.jpg" role="access:image:first"/>
+            <daoloc href="LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_099.jpg" role="access:image:last"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977510qBi7JE" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNR120469" role="publication:previous"/>
+          </daogrp>
+          <odd>
+            <p>preservation:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_000.tif</p>
+            <p>preservation:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_099.tif</p>
+            <p>access:image:first LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_000.jpg</p>
+            <p>access:image:last LAR/LAR_PUB/RBX_LAR_PUB_VPR_013_099.jpg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977510qBi7JE</p>
+            <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR120469</p>
+          </odd>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

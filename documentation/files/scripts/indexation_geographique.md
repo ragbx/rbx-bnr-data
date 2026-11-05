@@ -1,185 +1,126 @@
 # Indexation géographique : état des travaux et reprise
 
 Page de reprise du chantier « indexation géographique » des `<geogname>`
-des IR (état au **2026-09-26**). Elle résume l'objectif, la chaîne de
-scripts, ce qui a été fait, les décisions prises et ce qui reste à faire,
-et indique comment reprendre le travail sur une autre machine.
+des IR (état au **2026-10-29**).
 
 ---
 
-## 1. Objectif
+## Règle de travail
 
-Fiabiliser les `<geogname>` des IR transformés
-(`results/ead/ead_cor/bnr2mnesys/*.xml`) : bonne `@source` (`rue`,
-`quartier`, `adresse`…), géométrie (`@coord`) cohérente, et rattachement de
-chaque toponyme à un **objet de référence actuel** (voie, espace public,
-quartier, commune) doté d'un identifiant pérenne.
+**Le référentiel des lieux est désormais la seule source** des lieux de
+Roubaix : `data/geo/referentiel_lieux_roubaix.csv` (980 lieux validés : 31
+quartiers, 936 rues, 13 points ; 487 lieux écartés dans
+`referentiel_lieux_roubaix_ecartes.csv`), construit par
+[referentiel_lieux_roubaix.py](referentiel_lieux_roubaix.md) à partir des
+seules sources de référence (BAN, BD TOPO, TOPO, filaire et quartiers MEL,
+OpenStreetMap). Les sources brutes ne se consultent plus que pour discuter
+des cas complexes.
 
-Démarche retenue en fin de journée : **un référentiel en amont**
-(`data/geo/referentiel_geogname.csv`, une ligne par forme BnR), validé à la
-main, dont découleront les corrections des IR — au lieu de corrections
-ponctuelles appliquées directement aux IR.
+L'alignement des IR se fait **sur le texte des `<geogname>`** (chaîne de
+caractères du libellé), comparé aux libellés du référentiel ; les
+`@coord` existants des IR sont ignorés.
 
-## 2. Reprendre sur une autre machine
+## Fichiers en service
 
-1. **Récupérer le dépôt à jour**, *après* avoir commité et poussé depuis la
-   machine d'origine (voir § 7 la liste des fichiers à ne pas oublier).
-2. **Git LFS est indispensable** : tous les `*.csv` sont en LFS
-   (`.gitattributes`). Sans lui, les CSV ne sont que des pointeurs de
-   trois lignes.
-
-        git lfs install
-        git lfs pull
-
-3. **Environnement Python** : `environment.yml` (conda-forge) contient ce
-   qu'il faut, y compris `shapely` et `pyproj` ajoutés pour ce chantier.
-
-        conda env create -f environment.yml      # ou : conda env update -f environment.yml
-
-   Sur le poste d'origine, l'env `rbx-bnr-data` n'existait pas : les
-   scripts ont été lancés avec l'env `ds` (pandas, lxml, shapely, pyproj).
-4. **Accès réseau** : seulement pour retélécharger les sources (option
-   `--maj` de `geogname_concordance.py`). Les copies locales sont dans
-   `data/geo/` : sans `--maj`, tout fonctionne hors ligne.
-5. **BD TOPO** : pas nécessaire. Les extraits utiles sont dans `data/geo/`.
-   Le GeoPackage complet (`BDT_3-5_GPKG_LAMB93_D059-ED2026-06-15.gpkg`,
-   4,4 Go, BD TOPO 3.5 IGN du Nord, édition 2026-06-15) ne sert qu'à
-   réextraire, avec `geogname_referentiel.py --bdtopo <chemin>`.
-6. **`ogr2ogr`** (GDAL) n'est requis que par `geogname2geo.py` (reprojection
-   du GeoJSON en EPSG:27561). Il n'était pas installé sur le poste
-   d'origine.
-
-Tous les scripts se lancent **depuis la racine du dépôt**.
-
-## 3. Chaîne des scripts
-
-| Ordre | Script | Rôle | Fiche |
-|---|---|---|---|
-| 1 | `scripts/ead/geogname2csv.py` | Extraction des `<geogname>` des IR, une ligne par élément, avec l'état d'origine | [geogname2csv](geogname2csv.md) |
-| 2 | `scripts/ead/geogname_concordance.py [--maj]` | Sources TOPO + OSM, concordance des anciens noms, appariements anachroniques | [geogname_concordance](geogname_concordance.md) |
-| 3 | `scripts/ead/geogname_referentiel.py [--bdtopo <gpkg>]` | Proposition du référentiel des formes | [geogname_referentiel](geogname_referentiel.md) |
-| – | `scripts/ead/geogname2geo.py` | Export GeoJSON / CSV des toponymes géoréférencés (antérieur ; **pas relancé** depuis les corrections) | [geogname2geo](geogname2geo.md) |
-
-### Fichiers de données (`data/geo/`)
-
-| Fichier | Nature | Produit par |
-|---|---|---|
-| `filaire_voies_roubaix.geojson` | Filaire des voies MEL (WFS, 2026-09-22) | téléchargé à la main (cf. geogname2geo) |
-| `topo_roubaix.csv` | TOPO DGFiP, Roubaix | `geogname_concordance.py` |
-| `osm_roubaix_noms.json` | Noms de voies OSM (ODbL) | `geogname_concordance.py` |
-| `bdtopo_roubaix_voies.geojson`, `bdtopo_roubaix_zones.geojson`, `bdtopo_nord_communes.csv` | Extraits BD TOPO (WGS84) | `geogname_referentiel.py --bdtopo` |
-| `concordance_renommages.csv` | **Tenu à la main** (le script n'ajoute que des lignes) | `geogname_concordance.py` + édition manuelle |
-| `referentiel_geogname.csv` | Proposition ; colonnes `validation` / `remarque` **tenues à la main** et conservées | `geogname_referentiel.py` |
-
-### Résultats (`results/ead/indexation/`)
-
-| Fichier | Contenu |
+| Fichier | Rôle |
 |---|---|
-| `rbx-bnr_geogname.csv` | Tous les `<geogname>` des IR actuels + valeurs d'origine + `nom_officiel` / `filaire_id` (filaire MEL) |
-| `rbx-bnr_geogname_origine.csv` | **État de référence figé** (IR du commit `d6ea6ad`) — **ne jamais régénérer** |
-| `rbx-bnr_appariements_a_verifier.csv` | Formes au rattachement potentiellement anachronique |
+| `data/geo/referentiel_lieux_roubaix.csv` / `_ecartes.csv` / `.gpkg` | Référentiel des lieux (colonnes manuelles saisies dans les CSV) |
+| `data/geo/ban_roubaix.csv`, `bdtopo_roubaix_extrait.csv`, `topo_roubaix.csv`, `filaire_voies_roubaix.geojson`, `quartiers_historiques_mel.geojson`, `osm_roubaix_noms.json` | Sources du référentiel |
+| `results/ead/indexation/rbx-bnr_geogname_origine.csv` | Formes des `<geogname>` des IR dans leur état d'avant corrections (extraction figée du 2026-09-26, `c_id` réalignés sur Mnesys par [ead_ids_mnesys.py](ead_ids_mnesys.md)) : base de l'alignement |
+| `data/geo/referentiel_communes_pays.csv` / `.gpkg` | Thésaurus communes_pays : lieux hors de Roubaix (communes, départements, pays…), tenu à la main |
+| `data/geo/concordance_geogname_lieux.csv` | Concordance des formes des IR avec les lieux, cf. [geogname_concordance_lieux](geogname_concordance_lieux.md) |
+| `results/ead/ead_cor/bnr2mnesysgeo/` + `results/ead/indexation/bnr2mnesysgeo_rapport.csv` | IR de test avec la concordance appliquée, cf. [geogname_applique_concordance](geogname_applique_concordance.md) |
+| `results/ead/indexation/bnr2mnesysgeo_lieux.kml` | KML des lieux indexés dans les IR de test (un repère par lieu, occurrences et documents), cf. [geogname_ir2kml](geogname_ir2kml.md) |
+| `scripts/ead/geogname2csv.py` | Script d'extraction des `<geogname>` (fonction `extraire`) ; cf. [geogname2csv](geogname2csv.md) |
 
-## 4. Ce qui a été fait le 2026-09-26
+## Archive de l'ancienne méthode
 
-Le détail est dans l'historique de la fiche [geogname2csv](geogname2csv.md).
+Tout ce qui a précédé le référentiel (méthode « depuis les IR », jusqu'au
+2026-10-27) est rangé dans
+`archives/indexation_geo_avant_referentiel/`, chemins d'origine conservés :
+concordance formes ↔ lieux (`concordance_geogname_lieux.csv`), ancien
+référentiel (`referentiel_geogname.csv`), concordance des renommages,
+extraits BD TOPO de septembre, exports GeoJSON/CSV, IR de test
+`bnr2mnesysgeo*`, scripts `geogname2geo`, `geogname_concordance`,
+`geogname_concordance_lieux`, `geogname_referentiel_lieux`,
+`geogname_applique_referentiel`, `geogname_ir2geojson`, `geogname_brut`, et
+leur documentation (dont l'ancienne version de cette page). Ces scripts ne
+sont plus exécutables tels quels depuis l'archive.
 
-**Directement dans les IR bnr2mnesys** (22 IR modifiés, non commités à la
-date de rédaction) :
+Les fichiers de travail de la validation du référentiel (2026-10-28) sont
+rangés dans `archives/indexation_geo_validation_20261028/data/geo/` :
+fichiers de propositions (`propositions_*_20261028.csv`), projets QGIS de
+validation (`validation_*_20261028.qgz` + `.gpkg`, `symbology-style.db`) et
+sauvegardes successives du référentiel (`referentiel_lieux_roubaix*_avant_*`,
+`*.backup_20261028_*`). Toutes les décisions qu'ils portent sont reportées
+dans le référentiel.
 
-1. Corrections manuelles : suppression des 55 `<geogname>` vides de
-   `MED_LET` ; `1946-1959` de `MED_CP` passé de `<geogname source="chrono">`
-   en `<subject>`.
-2. 3 328 `<geogname>` de voie sans `@source` passés en `source="rue"`
-   (statuts 1-2-3 : forme déjà en `rue` dans le corpus, forme voisine, ou
-   présente dans le filaire MEL).
-3. `@coord` de toutes les rues appariées au filaire MEL (9 365) remplacé par
-   le **tracé** de la voie, au format `[[lat, lon], …]` (un tronçon) ou
-   `[[[lat, lon], …], …]` (plusieurs) ; `geogname2geo.py` sait les lire.
-4. `CORRECTIONS_RUE` (dans `geogname2geo.py`) complété de 10 graphies.
-5. Parc Barbieux (329 `<geogname>`) : `source="adresse"`, point
-   `[50.67722273760695, 3.1625329346302813]` ; le `Barbieux` isolé de
-   `MED_CP` renommé `Parc Barbieux` (seule modification de libellé).
+## Reste à faire
 
-Ces corrections ont été faites par des scripts ponctuels, non versionnés :
-elles sont documentées mais **pas rejouables**. Et comme les IR BnR sources
-(`data/ead/bnr/`) n'ont pas été corrigés, **relancer `ead_bnr2mnesys.py`
-les effacerait toutes** : c'est l'une des raisons du passage au référentiel.
-
-**Sources explorées** (et verdict) :
-
-- **Filaire MEL** : les voies actuelles, sans parcs ni quartiers ; les
-  identifiants (`filaire_des_voies_de_la_ville_de_roubaix.N`) sont des
-  numéros d'export, peu pérennes.
-- **BD TOPO IGN** : voies (917 objets à Roubaix, dont des morceaux « sans
-  BAN » qui complètent la voie BAN de même nom — aucun homonyme), espaces
-  publics, quartiers, communes. Retenue comme base géométrique.
-- **TOPO DGFiP** (successeur de FANTOIR) : 1 624 entrées pour Roubaix, sans
-  géométrie ; donne l'identifiant **`59512_<code voie>`**, commun à la BAN
-  et à la BD TOPO, et conserve des voies disparues du terrain (quai
-  d'Anvers, rue Darbo…). Aucune voie annulée dans l'export.
-- **OSM** : 4 renommages utiles (Boulevard de Paris → Boulevard du Général
-  de Gaulle, Rue Neuve → Rue du Maréchal Foch, Rue de l'Alma → Rue Tela
-  Tchaï, Rue Émile Moreau → Rue de la Redoute) et quelques variantes.
-
-## 5. Décisions prises
-
-- Le référentiel ne couvre **pas** les `<geogname>` vides ni le chrono.
-- Ordre des coordonnées dans les IR : **`[lat, lon]`** (l'inverse du
-  GeoJSON) ; toute valeur fournie au format GeoJSON est à inverser.
-- Pour une rue appariée, `@coord` = **tracé** de la voie, pas un point.
-- Parcs : `source="adresse"` (parc Barbieux, avec un point fourni à la main).
-- Groupes A et B des rues non appariées (variantes de graphie et d'article)
-  : validés. Groupe C (type de voie différent : `Fosse aux Chênes, rue de
-  la` → Avenue…, `Union, rue de l'` → Avenue…, etc.) : **écarté**.
-- Anciennes valeurs toujours conservées (colonnes `_origine` du CSV).
-- Scripts Python pour toute étape, par reproductibilité.
-
-## 6. Reste à faire
-
-1. **Relire et valider le référentiel** (`validation`, `remarque`), en
-   commençant par la colonne `alerte` :
-   - 85 voies absentes des référentiels actuels (427 `<geogname>`) : noms
-     anciens — rue de la Gare, rue du Moulin, rue Saint-Georges, rue
-     Pauvrée, rue des Longues Haies, rue de la Fosse aux Chênes… ;
-   - voies actuelles plus récentes que les documents, renommages partiels
-     (rue de l'Alma, rue Émile Moreau), rue de la Redoute (voie créée en
-     2024, documents de 1884-1929), rue Neuve ;
-   - 7 quartiers non trouvés, dont des équivalents évidents : `Centre` →
-     Centre Ville, `Sainte Elisabeth` → Sainte-Élizabeth, `Anseele` →
-     Anseele Motte-Bossut, `Linne` → Linne Boulevards, `Oran Cartigny` →
-     Hutin Oran Cartigny ;
-   - 46 formes « à identifier » (départements, régions, communes anciennes
-     ou fusionnées : `Lomme`, `Annappes`, `Ascq`…).
-2. **Établir la convention d'indexation de la BnR** : l'index emploie
-   parfois le nom actuel pour des documents anciens (rond-point de l'Europe
-   sur des documents de 1910) ; cela conditionne le traitement des
-   renommages.
-3. **Compléter la concordance** (`data/geo/concordance_renommages.csv`)
-   pour les noms anciens : pistes — l'ancien fichier FANTOIR (avril 2023,
-   134 Mo, sur data.economie.gouv.fr, garde les voies annulées), les
-   Archives municipales de Roubaix, et surtout **le géocodage d'origine**
-   des `coord` (fait en amont, dans Mnesys / l'index « Plan de Roubaix » de
-   bn-r.fr, y compris pour des rues disparues).
-4. **Écrire le script d'application** du référentiel aux IR (libellé,
-   `@source`, `@coord` depuis la géométrie de référence), rejouable après
-   `ead_bnr2mnesys.py`.
-5. Faire lire à `geogname2geo.py` les appariements du référentiel plutôt que
-   `CORRECTIONS_RUE`, puis le relancer (GeoJSON, CSV).
-6. Vérifier sur bn-r.fr le lien de recherche du parc Barbieux, désormais
-   dans l'index « adresse ».
-
-## 7. Pièges connus
-
-- **Ne jamais régénérer** `results/ead/indexation/rbx-bnr_geogname_origine.csv`.
-- **Git LFS** pour les CSV (cf. § 2).
-- **`rbx-bnr_geogname_origine.csv` et les nouveaux fichiers de `data/geo/`
-  étaient non suivis** au moment de la rédaction : penser à les ajouter au
-  commit, avec les deux nouveaux scripts et leurs fiches.
-- `python` n'est pas dans le PATH de Git Bash sur le poste d'origine :
-  appeler l'interpréteur de l'env conda explicitement.
-- L'API **Overpass** renvoie souvent des erreurs 504 : le script réessaie et
-  bascule sur un miroir.
-- `curl` (Git Bash) échoue en TLS sur Overpass : les téléchargements passent
-  par Python (`urllib`).
-- Rattacher un **nom ancien** à la voie **actuelle** homonyme peut être
-  faux (rue Neuve, rue de la Redoute) : voir les alertes.
+1. **Traiter la concordance des formes avec les lieux**
+   (`data/geo/concordance_geogname_lieux.csv`, produite par
+   [geogname_concordance_lieux.py](geogname_concordance_lieux.md), alignement
+   par le texte) : au 2026-10-29, après report des propositions « sûr » et
+   « probable » (`data/geo/propositions_concordance_20261029.csv`), 1 047
+   formes alignées (10 985 `<geogname>`), 16 sans lieu (21) après la reprise
+   de la couche historique de rbx-geo2 ; 205 formes hors référentiel
+   (communes, pays), 1 à retirer.
+   Le 2026-10-29, les 23 formes alignées autrement que par le libellé exact
+   ou avec une `@source` d'un autre thésaurus ont été validées dans QGIS
+   (`data/geo/propositions_concordance_20261029_lots_AB.csv`, projet
+   `validation_concordance_AB_20261029.qgz`) : toutes « validé », « Barbieux »
+   [rue] rattaché au Parc Barbieux ; libellé du référentiel corrigé en
+   « Avenue du Onze Novembre ». Le même jour, le sondage des alignements
+   par libellé exact (lot E : 64 formes, 3 292 `<geogname>`,
+   `data/geo/propositions_concordance_20261029_lot_E.csv`, projet
+   `validation_concordance_E_20261029.qgz`) a donné 64 « validé », aucune
+   erreur. Restent : 16 formes sans lieu, les formes hors référentiel
+   (thésaurus communes_pays).
+   **Lot D (communes_pays), validé et reporté le 2026-10-29** : 201 formes
+   rattachées à 178 concepts (`data/geo/referentiel_communes_pays.csv`) ;
+   reliquat de 7 formes tranché le même jour (Flandre (France), Ostrebosc,
+   Centre-Ville, La Vaux-Marie, Ravin de la Hayette ; Laussage et Tolbecq
+   retirés) : 182 concepts ; cf.
+   [geogname_concordance_lieux](geogname_concordance_lieux.md#thésaurus-communes_pays--lot-d-2026-10-29).
+   Propositions :
+   `data/geo/propositions_concordance_20261029_lot_D.csv` (209 formes →
+   184 concepts), projet `validation_concordance_D_20261029.qgz`.
+   Conventions décidées le 2026-10-29 :
+   - libellé RAMEAU (« Lille (Nord) », « Nord (France) »,
+     « Bruxelles (Belgique) », « Belgique ») ;
+   - un point (centre de commune geo.api.gouv.fr, sinon Wikidata) ;
+   - « Roubaix (Nord) » est un concept de communes_pays ;
+   - voies et quartiers hors Roubaix rattachés à leur commune ;
+   - communes disparues (Ascq, Lomme, Malo-les-Bains…) rattachées à la
+     commune actuelle.
+   Deux `<geogname>` corrigés dans les IR source `bnr2mnesys` :
+   - MED_PAR, « Le quai d'Anvers » (1999) : « Anvers » → « Anvers, quai d' » ;
+   - MED_VDM, contrebande 1936-1937 : « France; Belgique » scindé en
+     « France » + « Belgique ».
+   **Application aux IR en sortie de test faite le 2026-10-29** :
+   [geogname_applique_concordance.py](geogname_applique_concordance.md) →
+   `results/ead/ead_cor/bnr2mnesysgeo/` (10 985 `<geogname>` réécrits, dont
+   62 sans géométrie ; 203 doublons gardés) ; `bnr2mnesys` non remplacé.
+   Le 2026-11-05, `@coord` passe en **WKT** (géométrie complète du lieu,
+   lon lat, 6 décimales) à la place de l'ancien JSON `[lat, lon]` ;
+   textes et `@source` inchangés, cf.
+   [geogname_applique_concordance](geogname_applique_concordance.md).
+2. SKOS des thésaurus quartiers / rues / points. Mnesys ne lit ni ne gère
+   l'indexation géographique (précisé le 2026-11-05) : aucune question à
+   l'éditeur, aucune contrainte Mnesys sur `@coord` ni sur les libellés.
+3. Thésaurus communes_pays : construit le 2026-10-29 (182 concepts), toutes les
+   formes hors référentiel tranchées ; 183 concepts depuis l'ajout de Mouvaux
+   (Nord) le 2026-10-30 (Rue des Duriez).
+   Lot C revu le 2026-10-29 : 2 formes alignées (Rue Nabuchodonosor, Place Verte),
+   14 laissées sans lieu (19 `<geogname>`) avec pistes en remarque, pour la couche historique.
+4. Couche historique : commencée le 2026-10-29 (`noms_anciens.csv`,
+   `lieux_disparus.csv`, règle « un concept par voie physique », cf.
+   [referentiel_lieux_roubaix](referentiel_lieux_roubaix.md)) ; lieux sans
+   tracé validés dans QGIS le 2026-10-30 (14 géométries ajoutées, 2 voies
+   de Wattrelos écartées) ; 14 formes sans lieu revues dans QGIS le
+   2026-10-30 (`validation_sans_lieu_20261030.qgz`) : « Duriez, rue des » →
+   Mouvaux (Nord) ; 4 laissées sans lieu faute de piste (Balance, Latérale,
+   Pergolèse, Paraboles) ; 9 à revoir (Saint-André ×2, Union ×2, Chapelle
+   Carette ×2, Dunkerque, Jeanne d'Arc, Téléphone), pistes en remarque de la
+   concordance. Restent 13 formes sans lieu (18 `<geogname>`) et 29 rues sans
+   géométrie (7 citées par les IR).

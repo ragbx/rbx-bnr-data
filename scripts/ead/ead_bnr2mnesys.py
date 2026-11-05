@@ -48,6 +48,9 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
      entrée existe pour (ir, unitid), l'id qu'elle contient est repris : les id
      restent stables d'une itération à l'autre. Les éléments sans <did>/<unitid>
      reçoivent un id nouveau à chaque exécution (pas de clé de concordance).
+   - Le 2026-10-27, la concordance a été alignée sur les id attribués par Mnesys
+     à l'import (préfixe "a01", relevés dans l'export des IR) : @id et ARK BnR
+     reprennent donc les id Mnesys. Seuls les éléments nouveaux reçoivent un "m0".
 
 5. Fusion des <daogrp> multiples
    - Quand un même <archdesc>/<c> contient plusieurs <daogrp> directs, leurs contenus
@@ -127,7 +130,7 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
    - Les <subject> de source "chrono"/"theme"/"Rameau" voient leur source
      remplacée par la source de thésaurus correspondante (bnr_chrono, bnr_theme,
      bnr_rameau). Le remappage des <geogname> ("rue"/"quartier" →
-     bnr_geo_rbx_rue/quartier) est désactivé pour l'instant (cf. code).
+     bnr_geo_rbx_voies/quartiers) est désactivé pour l'instant (cf. code).
    - Les valeurs de thésaurus sont écrites sous la forme
      "thesaurus--SLASH--<nom>.xml".
 
@@ -188,8 +191,8 @@ CONTROLACCESS_SOURCE_REMAP = {
     ("subject", "theme"): "thesaurus--SLASH--bnr_theme.xml",
     ("subject", "Rameau"): "thesaurus--SLASH--bnr_rameau.xml",
     # geogname désactivé pour l'instant (à remettre peut-être plus tard) :
-    # ("geogname", "rue"): "thesaurus--SLASH--bnr_geo_rbx_rue.xml",
-    # ("geogname", "quartier"): "thesaurus--SLASH--bnr_geo_rbx_quartier.xml",
+    # ("geogname", "rue"): "thesaurus--SLASH--bnr_geo_rbx_voies.xml",
+    # ("geogname", "quartier"): "thesaurus--SLASH--bnr_geo_rbx_quartiers.xml",
 }
 
 

@@ -111,8 +111,9 @@ respecté.
 - L'`<eadid>` de `ARA_CPS` a perdu son espace finale
   (`FR595126101_ARA_CPS`). La colonne `ir` de
   `results/ead/ead_cor/concordance_id.csv` la contient toujours.
-- Les formes de `<geogname>` écrites avec `\'` ont changé. Le référentiel
-  `data/geo/referentiel_geogname.csv` et les extractions de
+- Les formes de `<geogname>` écrites avec `\'` ont changé. La concordance
+  formes ↔ lieux `data/geo/concordance_geogname_lieux.csv` (alors nommée
+  `referentiel_geogname.csv`) et les extractions de
   `results/ead/indexation/` (cf.
   [Indexation géographique](indexation_geographique.md)), établis sur les
   anciennes formes, sont à régénérer avant d'être réutilisés.

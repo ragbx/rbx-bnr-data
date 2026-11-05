@@ -4,7 +4,7 @@
 
 Extrait tous les `<geogname>` des instruments de recherche dans un CSV
 unique, **une ligne par élément** `<geogname>` — sans dédoublonnage ni
-filtrage, contrairement à [geogname2geo.py](geogname2geo.md) qui ne garde
+filtrage, contrairement à [geogname2geo.py](../../../archives/indexation_geo_avant_referentiel/documentation/files/scripts/geogname2geo.md) qui ne garde
 que les toponymes géoréférencés, regroupés par toponyme unique.
 
 ---
@@ -15,7 +15,7 @@ que les toponymes géoréférencés, regroupés par toponyme unique.
 |---|---|
 | `results/ead/ead_cor/bnr2mnesys/*.xml` | IR transformés ; tous les `<geogname>` sont retenus, avec ou sans `source`/`coord` |
 | `results/ead/indexation/rbx-bnr_geogname_origine.csv` | État de référence **figé** : même extraction (colonnes `eadid` à `coord`), faite sur les IR du commit `d6ea6ad`, avant les corrections automatiques du 2026-09-26. À ne pas régénérer |
-| `data/geo/filaire_voies_roubaix.geojson` | Filaire officiel des voies de Roubaix (cf. [geogname2geo.py](geogname2geo.md)), pour retrouver l'`id` des tronçons |
+| `data/geo/filaire_voies_roubaix.geojson` | Filaire officiel des voies de Roubaix (cf. [geogname2geo.py](../../../archives/indexation_geo_avant_referentiel/documentation/files/scripts/geogname2geo.md)), pour retrouver l'`id` des tronçons |
 
 Dans le corpus actuel, tous les `<geogname>` sont enfants d'un
 `<controlaccess>`.
@@ -99,7 +99,7 @@ Au 2026-09-26, 4 717 `<geogname>` n'avaient pas de `@source`, dont environ
 3 500 libellés de voie (repérés par un mot de voie : rue, boulevard, place,
 parc…). Chaque libellé a été comparé, après remise à l'endroit et
 normalisation (accents, casse, ponctuation — mêmes règles que
-[geogname2geo.py](geogname2geo.md)), aux `<geogname source="rue">` du
+[geogname2geo.py](../../../archives/indexation_geo_avant_referentiel/documentation/files/scripts/geogname2geo.md)), aux `<geogname source="rue">` du
 corpus et au filaire officiel des voies de Roubaix :
 
 | Statut | Valeurs | Lignes | Traitement |
@@ -128,7 +128,7 @@ officiel — `coord` venus de Mnesys, statuts 1-2 ci-dessus, et les 196 du
 statut 3, qui ont reçu `source="rue"` à cette occasion — le `coord` a été
 remplacé par le tracé complet de la voie dans le filaire, au lieu d'un
 point. L'appariement suit exactement la règle de
-[geogname2geo.py](geogname2geo.md) (nom remis à l'endroit et normalisé,
+[geogname2geo.py](../../../archives/indexation_geo_avant_referentiel/documentation/files/scripts/geogname2geo.md) (nom remis à l'endroit et normalisé,
 plus `CORRECTIONS_RUE`) ; aucun nom officiel ambigu n'était en jeu.
 
 Format, dans l'ordre `[lat, lon]` des IR (inverse du GeoJSON) et avec les

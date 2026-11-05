@@ -21,7 +21,7 @@
       <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
     </profiledesc>
   </eadheader>
-  <archdesc level="collection" id="m01781244641oX6h7D">
+  <archdesc level="collection" id="a0117829782978xqc2Q">
     <did>
       <unitid>MUS_ARC</unitid>
       <unittitle>Archives du Musée La Piscine</unittitle>
@@ -34,9 +34,9 @@
     <scopecontent>
       <p>Outre ses collections temporaires et permanentes, le Musée La Piscine a collectionné au fil du temps des documents divers (photographies, affiches, plans, croquis, dessins, etc.), qui ont rejoint son fonds d'archives. Ces documents ont souvent un intérêt graphique ou historique, mais ils ne relèvent pas de l'exposition permanente du musée. Aussi est-ce l'occasion de les présenter ici, sous une forme numérique.</p>
     </scopecontent>
-    <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oX6h7D" role="publication:current"/>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRa0117829782978xqc2Q" role="publication:current"/>
     <dsc>
-      <c level="series" id="m017812446413qolFq">
+      <c level="series" id="a011782978297j4eZQS">
         <did>
           <unitid>MUS_ARC_AUT</unitid>
           <unittitle>Autour du travail</unittitle>
@@ -44,11 +44,11 @@
         <scopecontent>
           <p>Cette série comporte des documents du musée relatifs au monde du travail.</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446413qolFq" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297j4eZQS" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446413qolFq</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297j4eZQS</p>
         </odd>
-        <c level="file" id="m01781244641cysp50">
+        <c level="file" id="a011782978297RoR4DF">
           <did>
             <unitid>MUS_ARC_AUT_D01</unitid>
             <unittitle>Caisse de Retraites Prévoyants de l'Industrie et du Commerce roubaisiens</unittitle>
@@ -64,15 +64,15 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_AUT_D01_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cysp50" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297RoR4DF" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_AUT_D01_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641cysp50</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297RoR4DF</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641j6WVTT">
+      <c level="series" id="a011782978297QxILHA">
         <did>
           <unitid>MUS_ARC_CAV</unitid>
           <unittitle>Les Cavalcades à Roubaix</unittitle>
@@ -92,28 +92,28 @@
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Chars décorés</subject>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641j6WVTT" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297QxILHA" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19610" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641j6WVTT</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297QxILHA</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19610</p>
         </odd>
-        <c level="subseries" id="m01781244641lpbsGc">
+        <c level="subseries" id="a011782978297QqVlDP">
           <did>
             <unitid>MUS_ARC_CAV1</unitid>
             <unittitle>La cavalcade de 1899</unittitle>
             <unitdate normal="1899">1899</unitdate>
           </did>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641lpbsGc" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297QqVlDP" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19620" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641lpbsGc</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297QqVlDP</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19620</p>
           </odd>
-          <c level="item" id="m01781244641bWUdxe">
+          <c level="item" id="a011782978297fjbPWI">
             <did>
               <unitid>MUS_ARC_CAV1_001</unitid>
               <unittitle>Les chars</unittitle>
@@ -133,18 +133,18 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_CAV_988703.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_CAV_988705.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bWUdxe" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297fjbPWI" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29328" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_CAV_988703.jpg</p>
               <p>access:image:last RBX_MUS_ARC_CAV_988705.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641bWUdxe</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297fjbPWI</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29328</p>
             </odd>
           </c>
         </c>
-        <c level="subseries" id="m01781244641vS227C">
+        <c level="subseries" id="a011782978297P4ladG">
           <did>
             <unitid>MUS_ARC_CAV2</unitid>
             <unittitle>La grande cavalcade de 1903</unittitle>
@@ -154,14 +154,14 @@
             <p>La munificence de la cavalcade de 1903 est incontestable. Défilèrent dans les rues des éléphants et des lions parmi la quarantaine de chars décorés que comptait le cortège. Parrainée par l'entreprise Vaissier, la cavalcade devait rehausser les cérémonies de la pause de la première pierre, la même année, du premier hôpital public de la ville, l'Hôpital de la Fraternité.</p>
           </scopecontent>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641vS227C" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297P4ladG" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19614" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641vS227C</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297P4ladG</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19614</p>
           </odd>
-          <c level="item" id="m01781244641U3ISy9">
+          <c level="item" id="a011782978297xDuJF9">
             <did>
               <unitid>MUS_ARC_CAV2_001</unitid>
               <unittitle>Masques de la grande cavalcade</unittitle>
@@ -182,7 +182,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_002.jpg" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_001.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641U3ISy9" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297xDuJF9" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29327" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -190,11 +190,11 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_CAV2_002.jpg</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_CAV2_001.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_CAV2_002.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641U3ISy9</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297xDuJF9</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29327</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641FgDlzQ">
+          <c level="item" id="a011782978297DyaGu3">
             <did>
               <unitid>MUS_ARC_CAV2_003</unitid>
               <unittitle>Livret-programme de la Cavalcade roubaisienne</unittitle>
@@ -215,7 +215,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_070.tif" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_003.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_CAV2_070.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FgDlzQ" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297DyaGu3" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29326" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -223,13 +223,13 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_CAV2_070.tif</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_CAV2_003.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_CAV2_070.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641FgDlzQ</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297DyaGu3</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29326</p>
             </odd>
           </c>
         </c>
       </c>
-      <c level="series" id="m01781244641JrL4R9">
+      <c level="series" id="a0117829782975v5lv8">
         <did>
           <unitid>MUS_ARC_COR</unitid>
           <unittitle>Les corridas à Roubaix</unittitle>
@@ -247,14 +247,14 @@
           <geogname source="rue">Pergolèse, rue</geogname>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641JrL4R9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782975v5lv8" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19580" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641JrL4R9</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782975v5lv8</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19580</p>
         </odd>
-        <c level="item" id="m01781244641TRElY9">
+        <c level="item" id="a011782978297afuimu">
           <did>
             <unitid>MUS_ARC_COR_001</unitid>
             <unittitle>Gran corrida espanola</unittitle>
@@ -266,16 +266,16 @@
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_2004241.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TRElY9" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297afuimu" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19584" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_COR_2004241.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641TRElY9</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297afuimu</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19584</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641UtZUmU">
+        <c level="item" id="a011782978297Bz5ECQ">
           <did>
             <unitid>MUS_ARC_COR_002</unitid>
             <unittitle>Plaza de Toros de Roubaix</unittitle>
@@ -287,16 +287,16 @@
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_988701.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UtZUmU" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297Bz5ECQ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19585" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_COR_988701.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641UtZUmU</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297Bz5ECQ</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19585</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641Ygpa2m">
+        <c level="item" id="a011782978297vHPTvF">
           <did>
             <unitid>MUS_ARC_COR_003</unitid>
             <unittitle>Photographie d'une corrida</unittitle>
@@ -308,17 +308,17 @@
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_COR_988702.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Ygpa2m" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297vHPTvF" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19586" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_COR_988702.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Ygpa2m</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297vHPTvF</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19586</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m017812446418liTTP">
+      <c level="series" id="a011782978297pyPo8l">
         <did>
           <unitid>MUS_ARC_EINF</unitid>
           <unittitle>Exposition Internationale du Nord de la France - Roubaix 1911</unittitle>
@@ -336,14 +336,14 @@
           <geogname source="rue">Parc Barbieux</geogname>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446418liTTP" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297pyPo8l" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19592" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446418liTTP</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297pyPo8l</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19592</p>
         </odd>
-        <c level="item" id="m017812446416O8pHv">
+        <c level="item" id="a0117829782973uUGgi">
           <did>
             <unitid>MUS_ARC_EINF_001</unitid>
             <unittitle>Service de verres et sa cruche</unittitle>
@@ -366,18 +366,18 @@
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.tif" role="preservation:image:first"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_EINF_001A.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446416O8pHv" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782973uUGgi" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19601" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image:first MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.tif</p>
             <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_EINF_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_EINF_001A.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446416O8pHv</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782973uUGgi</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19601</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641Opys7M">
+        <c level="item" id="a011782978297cGIySo">
           <did>
             <unitid>MUS_ARC_EINF_002</unitid>
             <unittitle>Carte postale : Roubaix 1911</unittitle>
@@ -392,16 +392,16 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007002.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Opys7M" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297cGIySo" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19602" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_EINF_2007002.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Opys7M</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297cGIySo</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19602</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641UCxUBJ">
+        <c level="item" id="a011782978297IuWi1P">
           <did>
             <unitid>MUS_ARC_EINF_003</unitid>
             <unittitle>Souvenir de la visite présidentielle</unittitle>
@@ -417,16 +417,16 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_2007003.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UCxUBJ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297IuWi1P" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19603" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_EINF_2007003.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641UCxUBJ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297IuWi1P</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19603</p>
           </odd>
         </c>
-        <c level="item" id="m017812446415bWypq">
+        <c level="item" id="a011782978297dADhvB">
           <did>
             <unitid>MUS_ARC_EINF_004</unitid>
             <unittitle>Affiche publicitaire de la Société du Chemin de Fer du Nord</unittitle>
@@ -445,17 +445,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_004.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_004.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446415bWypq" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297dADhvB" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19604" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_EINF_004.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_EINF_004.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446415bWypq</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297dADhvB</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19604</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641GpWu0f">
+        <c level="item" id="a011782978297CP6g28">
           <did>
             <unitid>MUS_ARC_EINF_005</unitid>
             <unittitle>Carte postale : Souvenir de l'exposition Roubaix 1911</unittitle>
@@ -464,16 +464,16 @@
           </did>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988706.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GpWu0f" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297CP6g28" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19605" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_EINF_988706.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641GpWu0f</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297CP6g28</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19605</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641Da0AbB">
+        <c level="item" id="a011782978297xVxjsC">
           <did>
             <unitid>MUS_ARC_EINF_006</unitid>
             <unittitle>Photographie de Victor Champier et Eugène Motte</unittitle>
@@ -489,16 +489,16 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988710.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Da0AbB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297xVxjsC" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19606" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_EINF_988710.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Da0AbB</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297xVxjsC</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19606</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641G1amGZ">
+        <c level="item" id="a011782978297sw91WX">
           <did>
             <unitid>MUS_ARC_EINF_007</unitid>
             <unittitle>Affiche de l'exposition internationale du Nord de la France</unittitle>
@@ -510,16 +510,16 @@
           </scopecontent>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_EINF_988711bis.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641G1amGZ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297sw91WX" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19607" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_EINF_988711bis.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641G1amGZ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297sw91WX</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19607</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641IPcMdQ">
+        <c level="item" id="a011782978297jBj8Je">
           <did>
             <unitid>MUS_ARC_EINF_008</unitid>
             <unittitle>Médaille</unittitle>
@@ -540,7 +540,7 @@
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_008A.tif" role="preservation:image:last"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_008.jpg" role="access:image:first"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_008A.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641IPcMdQ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297jBj8Je" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19608" role="publication:previous"/>
           </daogrp>
           <odd>
@@ -548,11 +548,11 @@
             <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_EINF_008A.tif</p>
             <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_EINF_008.jpg</p>
             <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_EINF_008A.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641IPcMdQ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297jBj8Je</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19608</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641oMOUUu">
+        <c level="item" id="a011782978297RSFo41">
           <did>
             <unitid>MUS_ARC_EINF_009</unitid>
             <unittitle>Plateau</unittitle>
@@ -568,18 +568,18 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_009.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_EINF_009.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oMOUUu" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297RSFo41" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19609" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_EINF_009.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_EINF_009.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641oMOUUu</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297RSFo41</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19609</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641sPAvm9">
+      <c level="series" id="a011782978297xAtlQj">
         <did>
           <unitid>MUS_ARC_FDT</unitid>
           <unittitle>Fête du Travail</unittitle>
@@ -597,14 +597,14 @@
           <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641sPAvm9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297xAtlQj" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19587" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641sPAvm9</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297xAtlQj</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19587</p>
         </odd>
-        <c level="item" id="m01781244641mPYUg8">
+        <c level="item" id="a011782978297HJECX5">
           <did>
             <unitid>MUS_ARC_FDT_D01</unitid>
             <unittitle>Programme officiel de la fête du travail</unittitle>
@@ -627,17 +627,17 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_FDT_D01_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_FDT_D01_054.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641mPYUg8" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297HJECX5" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19590" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_FDT_D01_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_FDT_D01_054.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641mPYUg8</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297HJECX5</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19590</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641FoIWzh">
+        <c level="item" id="a011782978297FXe08r">
           <did>
             <unitid>MUS_ARC_FDT_D02</unitid>
             <unittitle>Projets d'affiches de la fête du travail</unittitle>
@@ -656,18 +656,18 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_FDT_D02_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_FDT_D02_021.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FoIWzh" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297FXe08r" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19591" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_FDT_D02_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_FDT_D02_021.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641FoIWzh</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297FXe08r</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19591</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641gsOPXP">
+      <c level="series" id="a011782978297HL6uUC">
         <did>
           <unitid>MUS_ARC_GDU</unitid>
           <unittitle>Galerie Dujardin</unittitle>
@@ -681,27 +681,27 @@
           <p>Ancien fonds du musée de Roubaix</p>
         </acqinfo>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gsOPXP" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297HL6uUC" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19631" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641gsOPXP</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297HL6uUC</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19631</p>
         </odd>
-        <c level="subseries" id="m01781244641jBlaDD">
+        <c level="subseries" id="a011782978297LFjawH">
           <did>
             <unitid>MUS_ARC_GDU1</unitid>
             <unittitle>Portrait</unittitle>
           </did>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641jBlaDD" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297LFjawH" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19632" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641jBlaDD</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297LFjawH</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19632</p>
           </odd>
-          <c level="item" id="m01781244641qITg3q">
+          <c level="item" id="a011782978297zWbo16">
             <did>
               <unitid>MUS_ARC_GDU1_D01</unitid>
               <unittitle>Portrait de Josée Courier par Noël D'Hulst (1916-1981)</unittitle>
@@ -722,31 +722,31 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qITg3q" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297zWbo16" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19633" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU1_D01_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641qITg3q</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297zWbo16</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19633</p>
             </odd>
           </c>
         </c>
-        <c level="subseries" id="m01781244641ssalze">
+        <c level="subseries" id="a011782978297GF06pZ">
           <did>
             <unitid>MUS_ARC_GDU2</unitid>
             <unittitle>Affiches</unittitle>
           </did>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ssalze" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297GF06pZ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19634" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641ssalze</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297GF06pZ</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19634</p>
           </odd>
-          <c level="item" id="m01781244641qBXUJs">
+          <c level="item" id="a0117829782977vQbB2">
             <did>
               <unitid>MUS_ARC_GDU2_D01</unitid>
               <unittitle>Exposition du Groupe de Roubaix</unittitle>
@@ -766,17 +766,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qBXUJs" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782977vQbB2" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19635" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D01_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641qBXUJs</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782977vQbB2</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19635</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641bbE581">
+          <c level="item" id="a011782978297T9CPwq">
             <did>
               <unitid>MUS_ARC_GDU2_D02</unitid>
               <unittitle>Exposition Michel Delporte et Pierre Leclercq</unittitle>
@@ -797,17 +797,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bbE581" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297T9CPwq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19636" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D02_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641bbE581</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297T9CPwq</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19636</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641Enis5l">
+          <c level="item" id="a011782978297m9Zvdl">
             <did>
               <unitid>MUS_ARC_GDU2_D03</unitid>
               <unittitle>Exposition André Copin et Pierre Leclercq</unittitle>
@@ -827,17 +827,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Enis5l" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297m9Zvdl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19637" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D03_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Enis5l</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297m9Zvdl</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19637</p>
             </odd>
           </c>
-          <c level="item" id="m017812446413P1prW">
+          <c level="item" id="a0117829782973Bd8Q8">
             <did>
               <unitid>MUS_ARC_GDU2_D04</unitid>
               <unittitle>Quand les peintres deviennent orfèvres...</unittitle>
@@ -856,17 +856,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413P1prW" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782973Bd8Q8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19638" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D04_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446413P1prW</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782973Bd8Q8</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19638</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641DLfMCJ">
+          <c level="item" id="a0117829782978qEYqU">
             <did>
               <unitid>MUS_ARC_GDU2_D05</unitid>
               <unittitle>Exposition Copin à la Galerie Dujardin</unittitle>
@@ -885,18 +885,18 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641DLfMCJ" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782978qEYqU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19639" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_GDU2_D05_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641DLfMCJ</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782978qEYqU</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19639</p>
             </odd>
           </c>
         </c>
-        <c level="subseries" id="m01781244641GMuDuU">
+        <c level="subseries" id="a011782978297JnitsJ">
           <did>
             <unitid>MUS_ARC_GDU3</unitid>
             <unittitle>Cartons d'invitation</unittitle>
@@ -905,14 +905,14 @@
             <p>Ancien fonds du musée de Roubaix</p>
           </acqinfo>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GMuDuU" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297JnitsJ" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19640" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641GMuDuU</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297JnitsJ</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19640</p>
           </odd>
-          <c level="item" id="m017812446410WoxyH">
+          <c level="item" id="a011782978297mbOTUb">
             <did>
               <unitid>MUS_ARC_GDU3_D01</unitid>
               <unittitle>Exposition d'Arsène Chabanian</unittitle>
@@ -928,16 +928,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D01_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410WoxyH" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297mbOTUb" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19641" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_GDU3_D01_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446410WoxyH</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297mbOTUb</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19641</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641WCWxu2">
+          <c level="item" id="a01178297829795e0ui">
             <did>
               <unitid>MUS_ARC_GDU3_D02</unitid>
               <unittitle>Exposition de L. Masson</unittitle>
@@ -953,16 +953,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D02_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641WCWxu2" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa01178297829795e0ui" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19642" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_GDU3_D02_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641WCWxu2</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa01178297829795e0ui</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19642</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641MSG5xC">
+          <c level="item" id="a011782978297asJhqt">
             <did>
               <unitid>MUS_ARC_GDU3_D03</unitid>
               <unittitle>Exposition de Renée Davids</unittitle>
@@ -978,16 +978,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D03_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MSG5xC" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297asJhqt" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19643" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_GDU3_D03_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641MSG5xC</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297asJhqt</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19643</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641OWQts8">
+          <c level="item" id="a011782978297gpILg0">
             <did>
               <unitid>MUS_ARC_GDU3_D04</unitid>
               <unittitle>Exposition de G. Dumoulin</unittitle>
@@ -1002,16 +1002,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D04_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641OWQts8" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297gpILg0" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19644" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_GDU3_D04_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641OWQts8</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297gpILg0</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19644</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641eDfclu">
+          <c level="item" id="a011782978297wXgGeD">
             <did>
               <unitid>MUS_ARC_GDU3_D05</unitid>
               <unittitle>Exposition de René Jaudon</unittitle>
@@ -1031,17 +1031,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D05_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D05_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641eDfclu" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297wXgGeD" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19645" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D05_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D05_003.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641eDfclu</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297wXgGeD</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19645</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641XPL7Jz">
+          <c level="item" id="a011782978297luE2ho">
             <did>
               <unitid>MUS_ARC_GDU3_D06</unitid>
               <unittitle>Exposition de Marius F. de Buzon</unittitle>
@@ -1060,17 +1060,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D06_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D06_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641XPL7Jz" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297luE2ho" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19646" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D06_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D06_003.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641XPL7Jz</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297luE2ho</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19646</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641iv5t8v">
+          <c level="item" id="a0117829782974go86H">
             <did>
               <unitid>MUS_ARC_GDU3_D07</unitid>
               <unittitle>Exposition de l'Abbé Calès</unittitle>
@@ -1089,17 +1089,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D07_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D07_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641iv5t8v" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782974go86H" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19647" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D07_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D07_003.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641iv5t8v</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782974go86H</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19647</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641ae0vAV">
+          <c level="item" id="a011782978297la0Whl">
             <did>
               <unitid>MUS_ARC_GDU3_D08</unitid>
               <unittitle>Exposition de Désiré-Lucas</unittitle>
@@ -1118,17 +1118,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D08_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D08_003.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ae0vAV" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297la0Whl" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19648" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D08_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D08_003.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641ae0vAV</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297la0Whl</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19648</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641DEA6x0">
+          <c level="item" id="a011782978297hsDX3J">
             <did>
               <unitid>MUS_ARC_GDU3_D09</unitid>
               <unittitle>Exposition d'Eugène Declercq</unittitle>
@@ -1148,17 +1148,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D09_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D09_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641DEA6x0" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297hsDX3J" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19649" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D09_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D09_002.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641DEA6x0</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297hsDX3J</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19649</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641qUwaa4">
+          <c level="item" id="a011782978297LryX2E">
             <did>
               <unitid>MUS_ARC_GDU3_D10</unitid>
               <unittitle>Exposition d'Artistes du Salon des Indépendants</unittitle>
@@ -1177,17 +1177,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU3_D10_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU3_D10_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qUwaa4" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297LryX2E" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19650" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU3_D10_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU3_D10_002.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641qUwaa4</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297LryX2E</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19650</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641yjg1Se">
+          <c level="item" id="a011782978297pc3Y9a">
             <did>
               <unitid>MUS_ARC_GDU3_D11</unitid>
               <unittitle>Exposition de Pierre Montezin</unittitle>
@@ -1203,30 +1203,30 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_GDU3_D11_001.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641yjg1Se" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297pc3Y9a" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19651" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_GDU3_D11_001.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641yjg1Se</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297pc3Y9a</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19651</p>
             </odd>
           </c>
         </c>
-        <c level="subseries" id="m017812446417HGHoQ">
+        <c level="subseries" id="a011782978297g7lu5l">
           <did>
             <unitid>MUS_ARC_GDU4</unitid>
             <unittitle>Livrets d'exposition</unittitle>
           </did>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446417HGHoQ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297g7lu5l" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19652" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446417HGHoQ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297g7lu5l</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19652</p>
           </odd>
-          <c level="item" id="m01781244641gXnHsV">
+          <c level="item" id="a0117829782976lpZ9B">
             <did>
               <unitid>MUS_ARC_GDU4_D01</unitid>
               <unittitle>Livret de l'exposition A. Dequêne et de P. Huguet</unittitle>
@@ -1248,17 +1248,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU4_D01_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D01_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gXnHsV" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782976lpZ9B" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19653" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU4_D01_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU4_D01_002.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641gXnHsV</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782976lpZ9B</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19653</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641p1hPth">
+          <c level="item" id="a011782978297bhUE3O">
             <did>
               <unitid>MUS_ARC_GDU4_D02</unitid>
               <unittitle>Livret de l'exposition Henri Pailler</unittitle>
@@ -1281,17 +1281,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU4_D02_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D02_006.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641p1hPth" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297bhUE3O" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19654" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU4_D02_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU4_D02_006.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641p1hPth</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297bhUE3O</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19654</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641xZHHcY">
+          <c level="item" id="a011782978297eH8Ez1">
             <did>
               <unitid>MUS_ARC_GDU4_D03</unitid>
               <unittitle>Livret de l'exposition de D.-H. Ponchon et de E. Van Overbecke</unittitle>
@@ -1313,17 +1313,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_GDU4_D03_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_GDU4_D03_008.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641xZHHcY" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297eH8Ez1" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19655" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_GDU4_D03_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_GDU4_D03_008.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641xZHHcY</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297eH8Ez1</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19655</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641pQCiZm">
+          <c level="item" id="a011782978297bQ7qd7">
             <did>
               <unitid>MUS_ARC_GDU4_D04</unitid>
               <unittitle>Livret de l'exposition Henri Foreau</unittitle>
@@ -1348,7 +1348,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_008.jpg" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_001.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_008.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641pQCiZm" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297bQ7qd7" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19657" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -1356,11 +1356,11 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_008.jpg</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_001.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D04_008.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641pQCiZm</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297bQ7qd7</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19657</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641cQQ0rs">
+          <c level="item" id="a011782978297dS7aIa">
             <did>
               <unitid>MUS_ARC_GDU4_D05</unitid>
               <unittitle>Livret de l'exposition de Germaine Neveux</unittitle>
@@ -1385,7 +1385,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_007.jpg" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_001.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_007.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cQQ0rs" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297dS7aIa" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19656" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -1393,26 +1393,26 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_007.jpg</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_001.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_GDU4_D05_007.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641cQQ0rs</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297dS7aIa</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19656</p>
             </odd>
           </c>
         </c>
       </c>
-      <c level="series" id="m01781244641gDQL7w">
+      <c level="series" id="a011782978297BahV1g">
         <did>
           <unitid>MUS_ARC_HDV</unitid>
           <unittitle>Hôtel de Ville</unittitle>
         </did>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641gDQL7w" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297BahV1g" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19658" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641gDQL7w</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297BahV1g</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19658</p>
         </odd>
-        <c level="item" id="m01781244641TpwEGd">
+        <c level="item" id="a011782978297m6s6Ap">
           <did>
             <unitid>MUS_ARC_HDV_001</unitid>
             <unittitle>La bénédiction des Eaux de la Lys par Emile Defrenne</unittitle>
@@ -1431,17 +1431,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641TpwEGd" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297m6s6Ap" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19659" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641TpwEGd</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297m6s6Ap</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19659</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641CQGoW9">
+        <c level="item" id="a011782978297II1Lhp">
           <did>
             <unitid>MUS_ARC_HDV_002</unitid>
             <unittitle>Vue panoramique de la Grand'Place à Roubaix</unittitle>
@@ -1455,15 +1455,15 @@
             <p>Ancien fonds Ville de Roubaix</p>
           </acqinfo>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641CQGoW9" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297II1Lhp" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19660" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641CQGoW9</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297II1Lhp</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19660</p>
           </odd>
         </c>
-        <c level="item" id="m017812446414x2GJf">
+        <c level="item" id="a011782978297FpaHqI">
           <did>
             <unitid>MUS_ARC_HDV_003</unitid>
             <unittitle>Maquette de la façade de l'hôtel de ville</unittitle>
@@ -1483,17 +1483,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446414x2GJf" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297FpaHqI" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19661" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_003.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446414x2GJf</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297FpaHqI</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19661</p>
           </odd>
         </c>
-        <c level="item" id="m017812446413MICZO">
+        <c level="item" id="a011782978297HvtFLx">
           <did>
             <unitid>MUS_ARC_HDV_004</unitid>
             <unittitle>Canevas</unittitle>
@@ -1509,17 +1509,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_004.jpg" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_004.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413MICZO" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297HvtFLx" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19662" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_004.jpg</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_004.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446413MICZO</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297HvtFLx</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19662</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641e3tyQL">
+        <c level="item" id="a011782978297CgAJ2v">
           <did>
             <unitid>MUS_ARC_HDV_005</unitid>
             <unittitle>Représentation de l'hôtel de ville</unittitle>
@@ -1534,17 +1534,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_005.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_005.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641e3tyQL" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297CgAJ2v" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19663" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_005.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_005.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641e3tyQL</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297CgAJ2v</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19663</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641EjI99X">
+        <c level="item" id="a011782978297VhrddS">
           <did>
             <unitid>MUS_ARC_HDV_006</unitid>
             <unittitle>Portrait de Victor Laloux (1850-1937)</unittitle>
@@ -1563,17 +1563,17 @@
           <daogrp>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.tif" role="preservation:image"/>
             <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641EjI99X" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297VhrddS" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19664" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.tif</p>
             <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_HDV_006.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641EjI99X</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297VhrddS</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19664</p>
           </odd>
         </c>
-        <c level="item" id="m01781244641MxntQO">
+        <c level="item" id="a011782978297xRvosC">
           <did>
             <unitid>MUS_ARC_HDV_007</unitid>
             <unittitle>Truelle et pioche pour la pose de la première pierre</unittitle>
@@ -1602,16 +1602,16 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_HDV_007_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_HDV_007_003.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MxntQO" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297xRvosC" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_HDV_007_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_HDV_007_003.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641MxntQO</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297xRvosC</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641yxC7nm">
+      <c level="series" id="a011782978297LOqzjU">
         <did>
           <unitid>MUS_ARC_HIS</unitid>
           <unittitle>Histoire de Roubaix par les oeuvres</unittitle>
@@ -1620,11 +1620,11 @@
         <scopecontent>
           <p>Cette série regroupe les documents relatifs à l'Histoire de Roubaix par les oeuvres du musée La Piscine. Ces oeuvres font partie de l'exposition permanente du musée, notamment la salle appelée "Histoire de Roubaix par les oeuvres", d'expositions temporaires, notamment l'espace d'exposition temporaire de la salle "Histoire de Roubaix par les oeuvres" que l'on surnomme le "Podium". Elles peuvent également refléter les collections au sens large, qui ne sont pas ou plus exposées.</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641yxC7nm" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297LOqzjU" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641yxC7nm</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297LOqzjU</p>
         </odd>
-        <c level="file" id="m01781244641bJyz0x">
+        <c level="file" id="a011782978297vtXZZt">
           <did>
             <unitid>MUS_ARC_HIS_D01</unitid>
             <unittitle>Mamadou N'Diaye - Vitrail</unittitle>
@@ -1643,14 +1643,14 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D01_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bJyz0x" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297vtXZZt" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_HIS_D01_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641bJyz0x</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297vtXZZt</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641hP8Af9">
+        <c level="file" id="a0117829782970Mtd67">
           <did>
             <unitid>MUS_ARC_HIS_D02</unitid>
             <unittitle>Eugène Motte - Portrait</unittitle>
@@ -1673,14 +1673,14 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D02_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641hP8Af9" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782970Mtd67" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_HIS_D02_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641hP8Af9</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782970Mtd67</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641Uog8YD">
+        <c level="file" id="a011782978297nMADP6">
           <did>
             <unitid>MUS_ARC_HIS_D03</unitid>
             <unittitle>Cadeau à Eugène Motte</unittitle>
@@ -1705,15 +1705,15 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_HIS_D03_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_HIS_D03_012.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Uog8YD" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297nMADP6" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_HIS_D03_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_HIS_D03_012.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Uog8YD</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297nMADP6</p>
           </odd>
         </c>
-        <c level="file" id="m017812446415590sI">
+        <c level="file" id="a0117829782973zW9F9">
           <did>
             <unitid>MUS_ARC_HIS_D04</unitid>
             <unittitle>Jules Guesde - Portrait</unittitle>
@@ -1735,14 +1735,14 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D04_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446415590sI" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782973zW9F9" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_HIS_D04_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446415590sI</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782973zW9F9</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641cqMYIp">
+        <c level="file" id="a011782978297AlMRI0">
           <did>
             <unitid>MUS_ARC_HIS_D05</unitid>
             <unittitle>L'entrée de la Lainière à Roubaix</unittitle>
@@ -1762,14 +1762,14 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_HIS_D05_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cqMYIp" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297AlMRI0" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_HIS_D05_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641cqMYIp</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297AlMRI0</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641Qq1RGg">
+        <c level="file" id="a011782978297E8oqXa">
           <did>
             <unitid>MUS_ARC_HIS_D06</unitid>
             <unittitle>Mamadou N'Diaye - Portraits</unittitle>
@@ -1792,16 +1792,16 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_HIS_D06_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_HIS_D06_003.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Qq1RGg" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297E8oqXa" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_HIS_D06_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_HIS_D06_003.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Qq1RGg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297E8oqXa</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641CyrfAt">
+      <c level="series" id="a011782978297iCGzDJ">
         <did>
           <unitid>MUS_ARC_IND</unitid>
           <unittitle>Industries roubaisiennes</unittitle>
@@ -1812,14 +1812,14 @@
           <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641CyrfAt" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297iCGzDJ" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19624" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641CyrfAt</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297iCGzDJ</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19624</p>
         </odd>
-        <c level="file" id="m01781244641cccJDB">
+        <c level="file" id="a0117829782979bd9Mz">
           <did>
             <unitid>MUS_ARC_IND_D01</unitid>
             <unittitle>Leclercq-Dupire, Société anonyme - Album souvenir</unittitle>
@@ -1839,17 +1839,17 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_IND_2001551_01.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_IND_2001551_26.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641cccJDB" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782979bd9Mz" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19628" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_IND_2001551_01.jpg</p>
             <p>access:image:last RBX_MUS_ARC_IND_2001551_26.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641cccJDB</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782979bd9Mz</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19628</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641Bpt45S">
+        <c level="file" id="a011782978297696uIB">
           <did>
             <unitid>MUS_ARC_IND_D02</unitid>
             <unittitle>Etablissement François Masurel Frères</unittitle>
@@ -1869,17 +1869,17 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_IND_988708_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_IND_988708_029.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Bpt45S" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297696uIB" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19629" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_IND_988708_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_IND_988708_029.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Bpt45S</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297696uIB</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19629</p>
           </odd>
         </c>
-        <c level="file" id="m017812446410juIjg">
+        <c level="file" id="a011782978297tsTeGq">
           <did>
             <unitid>MUS_ARC_IND_D03</unitid>
             <unittitle>Peignage Amédée Prouvost &amp; Cie</unittitle>
@@ -1895,16 +1895,16 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_988709_01.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410juIjg" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297tsTeGq" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19630" role="publication:previous"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_IND_988709_01.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446410juIjg</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297tsTeGq</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19630</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641df1Av2">
+        <c level="file" id="a011782978297ZMyYut">
           <did>
             <unitid>MUS_ARC_IND_D04</unitid>
             <unittitle>Laines du Pingouin - Affiche</unittitle>
@@ -1926,14 +1926,14 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_D04_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641df1Av2" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297ZMyYut" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_IND_D04_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641df1Av2</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297ZMyYut</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641UM4458">
+        <c level="file" id="a011782978297ACX71t">
           <did>
             <unitid>MUS_ARC_IND_D05</unitid>
             <unittitle>Laines du Pingouin - Présentoir à aiguilles</unittitle>
@@ -1957,15 +1957,15 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_IND_D05_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_IND_D05_004.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UM4458" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297ACX71t" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_IND_D05_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_IND_D05_004.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641UM4458</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297ACX71t</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641Jql8EP">
+        <c level="file" id="a011782978297L0wP3b">
           <did>
             <unitid>MUS_ARC_IND_D06</unitid>
             <unittitle>Tissus de Roubaix - Enseigne</unittitle>
@@ -1988,15 +1988,15 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_IND_D06_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_IND_D06_002.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641Jql8EP" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297L0wP3b" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_IND_D06_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_IND_D06_002.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641Jql8EP</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297L0wP3b</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641MTjrjy">
+        <c level="file" id="a011782978297g3acnO">
           <did>
             <unitid>MUS_ARC_IND_D07</unitid>
             <unittitle>Laines du Marin - Affiche</unittitle>
@@ -2020,15 +2020,15 @@
           </controlaccess>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_IND_D07_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641MTjrjy" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297g3acnO" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_IND_D07_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641MTjrjy</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297g3acnO</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m01781244641JQvgHy">
+      <c level="series" id="a0117829782974dlJbb">
         <did>
           <unitid>MUS_ARC_MUS</unitid>
           <unittitle>Musique au musée</unittitle>
@@ -2037,11 +2037,11 @@
         <scopecontent>
           <p>Cette série rassemble les instruments ainsi que les documents concernant la Grande Harmonie de Roubaix présents dans les collections muséales.</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641JQvgHy" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa0117829782974dlJbb" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641JQvgHy</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782974dlJbb</p>
         </odd>
-        <c level="subseries" id="m01781244641siE85Q">
+        <c level="subseries" id="a011782978297naeBvQ">
           <did>
             <unitid>MUS_ARC_MUS_HAR</unitid>
             <unittitle>La Grande Harmonie</unittitle>
@@ -2050,12 +2050,12 @@
           <scopecontent>
             <p>Il s'agit des objets et documents relatifs à la Grande Harmonie de Roubaix conservés dans les collections ou exposés dans les salles du musée La Piscine.</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641siE85Q" role="publication:current"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297naeBvQ" role="publication:current"/>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641siE85Q</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297naeBvQ</p>
           </odd>
         </c>
-        <c level="subseries" id="m01781244641bmPHuQ">
+        <c level="subseries" id="a011782978297uRjT1S">
           <did>
             <unitid>MUS_ARC_MUS_INS</unitid>
             <unittitle>Instruments</unittitle>
@@ -2064,11 +2064,11 @@
           <scopecontent>
             <p>Cette sous-série rassemble les instruments de musique conservés dans les collections du musée La Piscine.</p>
           </scopecontent>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641bmPHuQ" role="publication:current"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297uRjT1S" role="publication:current"/>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641bmPHuQ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297uRjT1S</p>
           </odd>
-          <c level="file" id="m01781244641zGsw9Z">
+          <c level="file" id="a011782978297MbRV2v">
             <did>
               <unitid>MUS_ARC_MUS_INS_D01</unitid>
               <unittitle>Accordéon Scandali Waeterloos</unittitle>
@@ -2090,15 +2090,15 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_MUS_INS_D01_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_MUS_INS_D01_009.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641zGsw9Z" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297MbRV2v" role="publication:current"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_MUS_INS_D01_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_MUS_INS_D01_009.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641zGsw9Z</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297MbRV2v</p>
             </odd>
           </c>
-          <c level="file" id="m01781244641qiRIyZ">
+          <c level="file" id="a011782978297CMOiGg">
             <did>
               <unitid>MUS_ARC_MUS_INS_D02</unitid>
               <unittitle>Tambour Luna Jazz</unittitle>
@@ -2112,12 +2112,12 @@
             <acqinfo>
               <p>Don de la Société des Amis de La Piscine en 2017.</p>
             </acqinfo>
-            <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qiRIyZ" role="publication:current"/>
+            <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297CMOiGg" role="publication:current"/>
             <odd>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641qiRIyZ</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297CMOiGg</p>
             </odd>
           </c>
-          <c level="file" id="m01781244641ftpIqa">
+          <c level="file" id="a011782978297TEp7jq">
             <did>
               <unitid>MUS_ARC_MUS_INS_D03</unitid>
               <unittitle>Accordéon chromatique Scandali Waeterloos</unittitle>
@@ -2137,17 +2137,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_MUS_INS_D03_001.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_MUS_INS_D03_002.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641ftpIqa" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297TEp7jq" role="publication:current"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_MUS_INS_D03_001.jpg</p>
               <p>access:image:last RBX_MUS_ARC_MUS_INS_D03_002.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641ftpIqa</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297TEp7jq</p>
             </odd>
           </c>
         </c>
       </c>
-      <c level="series" id="m01781244641FoACuV">
+      <c level="series" id="a011782978297VWir0L">
         <did>
           <unitid>MUS_ARC_PIS</unitid>
           <unittitle>Les bains roubaisiens</unittitle>
@@ -2163,14 +2163,14 @@
           <subject source="thesaurus--SLASH--bnr_rameau.xml">Hygiène</subject>
         </controlaccess>
         <daogrp>
-          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641FoACuV" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297VWir0L" role="publication:current"/>
           <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19509" role="publication:previous"/>
         </daogrp>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641FoACuV</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297VWir0L</p>
           <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19509</p>
         </odd>
-        <c level="subseries" id="m01781244641z6Mnye">
+        <c level="subseries" id="a011782978297AGDrec">
           <did>
             <unitid>MUS_ARC_PIS1</unitid>
             <unittitle>Piscine - Rue des Champs</unittitle>
@@ -2185,14 +2185,14 @@
             <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Baert, Albert</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641z6Mnye" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297AGDrec" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19510" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641z6Mnye</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297AGDrec</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19510</p>
           </odd>
-          <c level="item" id="m0178124464159E1Ba">
+          <c level="item" id="a011782978297P53yO2">
             <did>
               <unitid>MUS_ARC_PIS1_001</unitid>
               <unittitle>Photographie de la piscine</unittitle>
@@ -2207,16 +2207,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_20023910.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm0178124464159E1Ba" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297P53yO2" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19555" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_PIS1_20023910.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm0178124464159E1Ba</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297P53yO2</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19555</p>
             </odd>
           </c>
-          <c level="item" id="m017812446418GSHII">
+          <c level="item" id="a0117829782974aAdvr">
             <did>
               <unitid>MUS_ARC_PIS1_002</unitid>
               <unittitle>Brevet scolaire de natation</unittitle>
@@ -2231,16 +2231,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988712.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446418GSHII" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782974aAdvr" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19558" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_PIS1_988712.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446418GSHII</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782974aAdvr</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19558</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641AyYpTQ">
+          <c level="item" id="a011782978297Qf5rY2">
             <did>
               <unitid>MUS_ARC_PIS1_003</unitid>
               <unittitle>Vue du bassin en cours de construction</unittitle>
@@ -2257,17 +2257,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641AyYpTQ" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297Qf5rY2" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19556" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_003.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641AyYpTQ</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297Qf5rY2</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19556</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641g1RfiT">
+          <c level="item" id="a011782978297AyZHqH">
             <did>
               <unitid>MUS_ARC_PIS1_004</unitid>
               <unittitle>Vue de la salle des machines</unittitle>
@@ -2284,17 +2284,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641g1RfiT" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297AyZHqH" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19557" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_004.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641g1RfiT</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297AyZHqH</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19557</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641EheXwu">
+          <c level="item" id="a011782978297TXYmh7">
             <did>
               <unitid>MUS_ARC_PIS1_005</unitid>
               <unittitle>Salle des filtres en construction</unittitle>
@@ -2311,17 +2311,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641EheXwu" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297TXYmh7" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19559" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_005.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641EheXwu</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297TXYmh7</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19559</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641mYfJra">
+          <c level="item" id="a011782978297sX6lqI">
             <did>
               <unitid>MUS_ARC_PIS1_006</unitid>
               <unittitle>Vue de l'entrée de la rue des Champs</unittitle>
@@ -2343,7 +2343,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_007.tif" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_006.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_007.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641mYfJra" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297sX6lqI" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29321" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -2351,11 +2351,11 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_007.tif</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_PIS1_006.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_007.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641mYfJra</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297sX6lqI</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29321</p>
             </odd>
           </c>
-          <c level="item" id="m017812446413rsavI">
+          <c level="item" id="a011782978297d5TcqF">
             <did>
               <unitid>MUS_ARC_PIS1_008</unitid>
               <unittitle>Section masculine de natation du sport ouvrier roubaisien</unittitle>
@@ -2372,17 +2372,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413rsavI" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297d5TcqF" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19561" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_008.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446413rsavI</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297d5TcqF</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19561</p>
             </odd>
           </c>
-          <c level="item" id="m017812446417ptrMW">
+          <c level="item" id="a0117829782974R6Rpq">
             <did>
               <unitid>MUS_ARC_PIS1_009</unitid>
               <unittitle>Section féminine de natation du sport ouvrier roubaisien</unittitle>
@@ -2399,17 +2399,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446417ptrMW" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782974R6Rpq" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19562" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_009.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446417ptrMW</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782974R6Rpq</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19562</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641C8tqLa">
+          <c level="item" id="a011782978297oirQqR">
             <did>
               <unitid>MUS_ARC_PIS1_010</unitid>
               <unittitle>L'entrée de la rue des Champs</unittitle>
@@ -2426,17 +2426,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641C8tqLa" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297oirQqR" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19563" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_010.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641C8tqLa</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297oirQqR</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19563</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641RD26WJ">
+          <c level="item" id="a011782978297a9G2pP">
             <did>
               <unitid>MUS_ARC_PIS1_011</unitid>
               <unittitle>Galerie des machines</unittitle>
@@ -2458,7 +2458,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_014.tif" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_011.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_014.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641RD26WJ" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297a9G2pP" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29322" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -2466,11 +2466,11 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_014.tif</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_PIS1_011.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_014.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641RD26WJ</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297a9G2pP</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29322</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641hL8c3U">
+          <c level="item" id="a0117829782973HD0TU">
             <did>
               <unitid>MUS_ARC_PIS1_015</unitid>
               <unittitle>Le grand plongeoir</unittitle>
@@ -2487,17 +2487,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641hL8c3U" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782973HD0TU" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19565" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_015.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641hL8c3U</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782973HD0TU</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19565</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641R78D69">
+          <c level="item" id="a011782978297w0Th29">
             <did>
               <unitid>MUS_ARC_PIS1_016</unitid>
               <unittitle>Hall de la rue intérieure</unittitle>
@@ -2514,17 +2514,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641R78D69" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297w0Th29" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19566" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_016.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641R78D69</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297w0Th29</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19566</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641fPW9yG">
+          <c level="item" id="a011782978297SZQSG8">
             <did>
               <unitid>MUS_ARC_PIS1_017</unitid>
               <unittitle>Le jardin anglais</unittitle>
@@ -2541,17 +2541,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641fPW9yG" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297SZQSG8" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19567" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_017.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641fPW9yG</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297SZQSG8</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19567</p>
             </odd>
           </c>
-          <c level="item" id="m017812446410W71Iz">
+          <c level="item" id="a01178297829780htIB">
             <did>
               <unitid>MUS_ARC_PIS1_018</unitid>
               <unittitle>La piscine : éclairage nocturne</unittitle>
@@ -2573,7 +2573,7 @@
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_019.tif" role="preservation:image:last"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_018.jpg" role="access:image:first"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_019.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446410W71Iz" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa01178297829780htIB" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29323" role="publication:previous"/>
             </daogrp>
             <odd>
@@ -2581,11 +2581,11 @@
               <p>preservation:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_019.tif</p>
               <p>access:image:first MUS/MUS_ARC/RBX_MUS_ARC_PIS1_018.jpg</p>
               <p>access:image:last MUS/MUS_ARC/RBX_MUS_ARC_PIS1_019.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446410W71Iz</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa01178297829780htIB</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29323</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641B0TJJe">
+          <c level="item" id="a0117829782979IAFAR">
             <did>
               <unitid>MUS_ARC_PIS1_020</unitid>
               <unittitle>Nageurs dans le bassin</unittitle>
@@ -2602,17 +2602,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641B0TJJe" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782979IAFAR" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19569" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_020.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641B0TJJe</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782979IAFAR</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19569</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641qisu3F">
+          <c level="item" id="a011782978297jusTje">
             <did>
               <unitid>MUS_ARC_PIS1_021</unitid>
               <unittitle>La buvette</unittitle>
@@ -2629,17 +2629,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641qisu3F" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297jusTje" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19570" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_021.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641qisu3F</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297jusTje</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19570</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641vW3h01">
+          <c level="item" id="a011782978297BM5lY1">
             <did>
               <unitid>MUS_ARC_PIS1_022</unitid>
               <unittitle>Vestibule d'entrée</unittitle>
@@ -2656,17 +2656,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641vW3h01" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297BM5lY1" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19571" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_022.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641vW3h01</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297BM5lY1</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19571</p>
             </odd>
           </c>
-          <c level="item" id="m017812446413HyoOx">
+          <c level="item" id="a011782978297oFS3np">
             <did>
               <unitid>MUS_ARC_PIS1_023</unitid>
               <unittitle>Jardin français, restaurant, salle de repos</unittitle>
@@ -2683,17 +2683,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446413HyoOx" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297oFS3np" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19572" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_023.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446413HyoOx</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297oFS3np</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19572</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641GjrBI5">
+          <c level="item" id="a0117829782972lidDS">
             <did>
               <unitid>MUS_ARC_PIS1_024</unitid>
               <unittitle>Baignoire du 1er étage</unittitle>
@@ -2710,17 +2710,17 @@
             <daogrp>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.tif" role="preservation:image"/>
               <daoloc href="MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641GjrBI5" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782972lidDS" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19573" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>preservation:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.tif</p>
               <p>access:image MUS/MUS_ARC/RBX_MUS_ARC_PIS1_024.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641GjrBI5</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782972lidDS</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19573</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641aSdRBC">
+          <c level="item" id="a011782978297EHqadV">
             <did>
               <unitid>MUS_ARC_PIS1_025</unitid>
               <unittitle>Carton d'invitation à l'inauguration</unittitle>
@@ -2731,16 +2731,16 @@
             </controlaccess>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS1_988711.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641aSdRBC" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297EHqadV" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19574" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_PIS1_988711.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641aSdRBC</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297EHqadV</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19574</p>
             </odd>
           </c>
-          <c level="item" id="m017812446412v3WQu">
+          <c level="item" id="a011782978297Vsecas">
             <did>
               <unitid>MUS_ARC_PIS1_026</unitid>
               <unittitle>Projet de construction des établissements de bains</unittitle>
@@ -2753,17 +2753,17 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_PIS1_988713.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_PIS1_988717.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm017812446412v3WQu" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297Vsecas" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29324" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_PIS1_988713.jpg</p>
               <p>access:image:last RBX_MUS_ARC_PIS1_988717.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446412v3WQu</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297Vsecas</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29324</p>
             </odd>
           </c>
-          <c level="item" id="m01781244641oDjITW">
+          <c level="item" id="a011782978297gF9fRZ">
             <did>
               <unitid>MUS_ARC_PIS1_031</unitid>
               <unittitle>Vues de la piscine sur plaque de cuivre</unittitle>
@@ -2779,18 +2779,18 @@
               </daodesc>
               <daoloc href="RBX_MUS_ARC_PIS1_988718.jpg" role="access:image:first"/>
               <daoloc href="RBX_MUS_ARC_PIS1_988719.jpg" role="access:image:last"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641oDjITW" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297gF9fRZ" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR29325" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image:first RBX_MUS_ARC_PIS1_988718.jpg</p>
               <p>access:image:last RBX_MUS_ARC_PIS1_988719.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641oDjITW</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297gF9fRZ</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR29325</p>
             </odd>
           </c>
         </c>
-        <c level="subseries" id="m01781244641pfUyhJ">
+        <c level="subseries" id="a011782978297b4xT2J">
           <did>
             <unitid>MUS_ARC_PIS2</unitid>
             <unittitle>Piscine - rue Pierre Motte</unittitle>
@@ -2808,14 +2808,14 @@
             <persname role="architecte" source="thesaurus--SLASH--bnr_persname.xml">Bouvy, Albert</persname>
           </controlaccess>
           <daogrp>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641pfUyhJ" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297b4xT2J" role="publication:current"/>
             <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19577" role="publication:previous"/>
           </daogrp>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641pfUyhJ</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297b4xT2J</p>
             <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19577</p>
           </odd>
-          <c level="item" id="m01781244641UPXvCB">
+          <c level="item" id="a011782978297bUWj1z">
             <did>
               <unitid>MUS_ARC_PIS2_001</unitid>
               <unittitle>Les bains roubaisiens</unittitle>
@@ -2827,18 +2827,18 @@
             </scopecontent>
             <daogrp>
               <daoloc href="RBX_MUS_ARC_PIS2_988720.jpg" role="access:image"/>
-              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641UPXvCB" role="publication:current"/>
+              <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297bUWj1z" role="publication:current"/>
               <daoloc href="https://www.bn-r.fr/ark:/20179/BNR19579" role="publication:previous"/>
             </daogrp>
             <odd>
               <p>access:image RBX_MUS_ARC_PIS2_988720.jpg</p>
-              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641UPXvCB</p>
+              <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297bUWj1z</p>
               <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR19579</p>
             </odd>
           </c>
         </c>
       </c>
-      <c level="series" id="m01781244641IrUlz9">
+      <c level="series" id="a011782978297rEulD4">
         <did>
           <unitid>MUS_ARC_PRO</unitid>
           <unittitle>Exposition Progrès Social</unittitle>
@@ -2852,12 +2852,12 @@
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641IrUlz9" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297rEulD4" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641IrUlz9</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297rEulD4</p>
         </odd>
       </c>
-      <c level="series" id="m01781244641d7X2WT">
+      <c level="series" id="a011782978297JQM3ZH">
         <did>
           <unitid>MUS_ARC_TRA</unitid>
           <unittitle>Transports</unittitle>
@@ -2868,11 +2868,11 @@
         <controlaccess>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Transports</subject>
         </controlaccess>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641d7X2WT" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297JQM3ZH" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641d7X2WT</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297JQM3ZH</p>
         </odd>
-        <c level="file" id="m01781244641VJTmjm">
+        <c level="file" id="a0117829782975dpvG3">
           <did>
             <unitid>MUS_ARC_TRA_D01</unitid>
             <unittitle>Tramways - Roubaix - Tourcoing</unittitle>
@@ -2895,16 +2895,16 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_TRA_D01_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_TRA_D01_002.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641VJTmjm" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782975dpvG3" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_TRA_D01_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_TRA_D01_002.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641VJTmjm</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782975dpvG3</p>
           </odd>
         </c>
       </c>
-      <c level="series" id="m017812446416Y2Y49">
+      <c level="series" id="a011782978297G2TGy8">
         <did>
           <unitid>MUS_ARC_VIV</unitid>
           <unittitle>Vivre et habiter</unittitle>
@@ -2913,11 +2913,11 @@
         <scopecontent>
           <p>Cette série rassemble des documents relatifs à l'architecture, à la décoration intérieure et au mobilier des secteurs public et privé.</p>
         </scopecontent>
-        <dao href="https://www.bn-r.fr/ark:/20179/BNRm017812446416Y2Y49" role="publication:current"/>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297G2TGy8" role="publication:current"/>
         <odd>
-          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm017812446416Y2Y49</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297G2TGy8</p>
         </odd>
-        <c level="file" id="m01781244641x9fwh7">
+        <c level="file" id="a011782978297f8zwHc">
           <did>
             <unitid>MUS_ARC_VIV_D01</unitid>
             <unittitle>Demeure de A. Wattine-Lorthiois</unittitle>
@@ -2940,15 +2940,15 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_VIV_D01_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_VIV_D01_003.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641x9fwh7" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297f8zwHc" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_VIV_D01_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_VIV_D01_003.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641x9fwh7</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297f8zwHc</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641YIn1h6">
+        <c level="file" id="a0117829782970aoqPj">
           <did>
             <unitid>MUS_ARC_VIV_D02</unitid>
             <unittitle>Porte - Allégorie de la Ville de Roubaix</unittitle>
@@ -2963,14 +2963,14 @@
           </acqinfo>
           <daogrp>
             <daoloc href="RBX_MUS_ARC_VIV_D02_001.jpg" role="access:image"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641YIn1h6" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829782970aoqPj" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image RBX_MUS_ARC_VIV_D02_001.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641YIn1h6</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829782970aoqPj</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641YDaWAq">
+        <c level="file" id="a011782978297Rwr7Fv">
           <did>
             <unitid>MUS_ARC_VIV_D03</unitid>
             <unittitle>Porte de la Barque d'Or - Gambrinus sur son tonneau</unittitle>
@@ -2997,15 +2997,15 @@
             </daodesc>
             <daoloc href="RBX_MUS_ARC_VIV_D03_001.jpg" role="access:image:first"/>
             <daoloc href="RBX_MUS_ARC_VIV_D03_002.jpg" role="access:image:last"/>
-            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRm01781244641YDaWAq" role="publication:current"/>
+            <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782978297Rwr7Fv" role="publication:current"/>
           </daogrp>
           <odd>
             <p>access:image:first RBX_MUS_ARC_VIV_D03_001.jpg</p>
             <p>access:image:last RBX_MUS_ARC_VIV_D03_002.jpg</p>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641YDaWAq</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297Rwr7Fv</p>
           </odd>
         </c>
-        <c level="file" id="m01781244641jZCSlM">
+        <c level="file" id="a011782978297U3bigz">
           <did>
             <unitid>MUS_ARC_VIV_D04</unitid>
             <unittitle>Pierre Neveux - Mobilier</unittitle>
@@ -3023,9 +3023,9 @@
             <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
             <persname source="thesaurus--SLASH--bnr_persname.xml">Neveux, Pierre</persname>
           </controlaccess>
-          <dao href="https://www.bn-r.fr/ark:/20179/BNRm01781244641jZCSlM" role="publication:current"/>
+          <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978297U3bigz" role="publication:current"/>
           <odd>
-            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRm01781244641jZCSlM</p>
+            <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782978297U3bigz</p>
           </odd>
         </c>
       </c>

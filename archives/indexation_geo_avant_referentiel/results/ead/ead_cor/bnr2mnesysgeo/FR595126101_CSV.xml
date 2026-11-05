@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595126101_CSV</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection de palmarès du Conservatoire</titleproper>
+        <subtitle>Inventaire numérique</subtitle>
+        <author>Cet Inventaire a été réalisé par Isabelle Leupe</author>
+      </titlestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Ce catalogue a été saisi en EAD par Solenn Bihan en 2008.</creation>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" id="a011782977473zBJGB7">
+    <did>
+      <unitid>CSV</unitid>
+      <unittitle>Palmarès annuels du Conservatoire de Roubaix</unittitle>
+      <unitdate normal="1865">1858-...</unitdate>
+      <langmaterial>
+        <language langcode="fre"/>
+      </langmaterial>
+      <physdesc>Livrets brochés, de format A5.</physdesc>
+      <repository>Conservatoire de Roubaix</repository>
+    </did>
+    <scopecontent>
+      <p>L'Académie municipale de musique de Roubaix a été créée en 1857. Dès 1858, sont mis en place des examens et concours pour mesurer les progrès des élèves. Dès lors, tous les ans, l'Académie de musique publie le palmarès de ces concours sous la forme d'un livret broché. Cette collection complète depuis l'origine des palmarès annuels permet de retrouver les noms des enseignants du conservatoire, ainsi que celui des élèves ayant reçu un prix, et de suivre l'évolution de l'enseignement de la musique à Roubaix.</p>
+    </scopecontent>
+    <controlaccess>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+      <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
+      <geogname source="thesaurus--SLASH--bnr_geo_rbx_rues.xml" coord="[[50.6894187, 3.1701254], [50.6891489, 3.1699296], [50.6891328, 3.1699182], [50.6889364, 3.1697777], [50.6884245, 3.1694158], [50.6884048, 3.1694016], [50.6878418, 3.16899], [50.6878194, 3.1689716], [50.6873981, 3.1686439], [50.6872861, 3.1685573], [50.6868782, 3.1682212], [50.6867832, 3.1681432], [50.6863755, 3.1677138], [50.6860923, 3.1674388], [50.686086, 3.1674303], [50.6851137, 3.1664228], [50.6850653, 3.1663901], [50.6850429, 3.1663816], [50.6850196, 3.1663801], [50.6849971, 3.1663829], [50.6849433, 3.1663996]]">Rue de Soubise</geogname>
+      <geogname source="thesaurus--SLASH--bnr_geo_rbx_rues.xml" coord="[[[50.6833759, 3.1620794], [50.6834412, 3.1622632], [50.6837041, 3.1629759], [50.6837541, 3.1631188], [50.6838006, 3.1632573], [50.6838078, 3.1632743], [50.6839643, 3.163659], [50.6840698, 3.1639447]], [[50.6840698, 3.1639447], [50.6840993, 3.1640676], [50.6841538, 3.1642175], [50.6841717, 3.1642473], [50.6842067, 3.1642728], [50.6842498, 3.1642729], [50.6843108, 3.164276]], [[50.6840698, 3.1639447], [50.6841003, 3.1639462], [50.6841434, 3.1639703], [50.6842348, 3.1640314], [50.6842635, 3.1640639], [50.6842859, 3.1641007], [50.6842886, 3.1641106], [50.6842957, 3.1641361], [50.684301, 3.1641757], [50.6843072, 3.1642364], [50.6843108, 3.164276]], [[50.6877137, 3.1740523], [50.6876029, 3.1737468], [50.687273, 3.1728105], [50.6872471, 3.1727426], [50.6870058, 3.1720737], [50.6869754, 3.1719902], [50.686751, 3.1713806], [50.6863621, 3.1702916], [50.6863246, 3.170187], [50.6862861, 3.1700823], [50.68627, 3.1700357], [50.6860501, 3.1694374], [50.6860117, 3.1693328], [50.6856987, 3.1684842], [50.6856487, 3.1683456], [50.685587, 3.1681773], [50.6852312, 3.1671916], [50.6849522, 3.1664223], [50.6849433, 3.1663996], [50.6848387, 3.1661111], [50.6847814, 3.1659542], [50.6846661, 3.165636], [50.6845561, 3.1653291], [50.6843255, 3.1646828], [50.6843165, 3.164663], [50.6843076, 3.1646376], [50.6842942, 3.164574], [50.6842952, 3.1645273], [50.6842979, 3.1644807], [50.6843108, 3.1642873], [50.6843108, 3.164276]], [[50.6878754, 3.1745939], [50.6878593, 3.1745204], [50.6878415, 3.1744299], [50.6878156, 3.1743337], [50.6877137, 3.1740523]], [[50.6877137, 3.1740523], [50.6877818, 3.1740935], [50.687927, 3.1742268], [50.6880113, 3.1743033], [50.6881376, 3.1744239]]]">Rue de Lille</geogname>
+      <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Etude et enseignement</subject>
+      <subject source="thesaurus--SLASH--bnr_rameau.xml">Concerts</subject>
+    </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977473zBJGB7" role="publication:current"/>
+    <dsc>
+      <c level="file" id="a011782977473EOrdxm">
+        <did>
+          <unitid>PAL_1858</unitid>
+          <unittitle>1858 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1858">30 août 1858</unitdate>
+          <physdesc>Les livrets des années 1858 à 1883 sont rassemblés dans un seul volume relié.</physdesc>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1858 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1858_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1858_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1858_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1858_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473EOrdxm" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52641" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1858_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1858_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1858_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1858_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473EOrdxm</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52641</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473Wod7o1">
+        <did>
+          <unitid>PAL_1859</unitid>
+          <unittitle>1859 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1859">21 août 1859</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1859 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1859_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1859_07.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1859_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1859_07.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473Wod7o1" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52642" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1859_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1859_07.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1859_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1859_07.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473Wod7o1</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52642</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473CLR6hL">
+        <did>
+          <unitid>PAL_1860</unitid>
+          <unittitle>1860 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1860">12 août 1860</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1860 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1860_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1860_07.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1860_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1860_07.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473CLR6hL" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52643" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1860_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1860_07.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1860_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1860_07.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473CLR6hL</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52643</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473Q9jWc3">
+        <did>
+          <unitid>PAL_1861</unitid>
+          <unittitle>1861 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1861">11 août 1861</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1861 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1861_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1861_05.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1861_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1861_05.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473Q9jWc3" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52644" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1861_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1861_05.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1861_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1861_05.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473Q9jWc3</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52644</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473SPTBsq">
+        <did>
+          <unitid>PAL_1862</unitid>
+          <unittitle>1862 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1862">10 août 1862</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1862 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1862_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1862_05.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1862_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1862_05.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473SPTBsq" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52645" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1862_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1862_05.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1862_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1862_05.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473SPTBsq</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52645</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473MZ745t">
+        <did>
+          <unitid>PAL_1863</unitid>
+          <unittitle>1863 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1863">9 août 1863</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1863 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1863_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1863_06.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1863_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1863_06.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473MZ745t" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52646" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1863_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1863_06.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1863_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1863_06.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473MZ745t</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52646</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473fUMnX4">
+        <did>
+          <unitid>PAL_1864</unitid>
+          <unittitle>1864 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1864">7 août 1864</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1864 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1864_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1864_07.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1864_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1864_07.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473fUMnX4" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52647" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1864_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1864_07.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1864_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1864_07.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473fUMnX4</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52647</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473doFUoS">
+        <did>
+          <unitid>PAL_1865</unitid>
+          <unittitle>1865 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1865">6 août 1865</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1865 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1865_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1865_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1865_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1865_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473doFUoS" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52648" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1865_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1865_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1865_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1865_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473doFUoS</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52648</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473w7VH01">
+        <did>
+          <unitid>PAL_1866</unitid>
+          <unittitle>1866 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1866">13 août 1866</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1866 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1866_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1866_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1866_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1866_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473w7VH01" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52649" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1866_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1866_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1866_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1866_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473w7VH01</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52649</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473EHEr9Z">
+        <did>
+          <unitid>PAL_1867</unitid>
+          <unittitle>1867 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1867">12 août 1867</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1867 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1867_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1867_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1867_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1867_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473EHEr9Z" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52650" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1867_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1867_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1867_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1867_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473EHEr9Z</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52650</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473MQPIIO">
+        <did>
+          <unitid>PAL_1868</unitid>
+          <unittitle>1868 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1868">10 août 1868</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1868 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1868_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1868_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1868_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1868_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473MQPIIO" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52651" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1868_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1868_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1868_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1868_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473MQPIIO</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52651</p>
+        </odd>
+      </c>
+      <c level="file" id="a0117829774737TAI5q">
+        <did>
+          <unitid>PAL_1869</unitid>
+          <unittitle>1869 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1869">9 août 1869</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1869 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1869_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1869_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1869_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1869_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829774737TAI5q" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52652" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1869_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1869_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1869_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1869_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829774737TAI5q</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52652</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473G8HgXZ">
+        <did>
+          <unitid>PAL_1870</unitid>
+          <unittitle>1870 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1870">22 août 1870</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1870 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1870_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1870_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1870_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1870_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473G8HgXZ" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52653" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1870_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1870_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1870_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1870_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473G8HgXZ</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52653</p>
+        </odd>
+      </c>
+      <c level="file" id="a0117829774732jYOZP">
+        <did>
+          <unitid>PAL_1871</unitid>
+          <unittitle>1871 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1871">7 août 1871</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1871 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1871_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1871_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1871_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1871_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829774732jYOZP" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52654" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1871_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1871_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1871_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1871_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829774732jYOZP</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52654</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473DvmdOp">
+        <did>
+          <unitid>PAL_1872</unitid>
+          <unittitle>1872 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1872">12 août 1872</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1872 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1872_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1872_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1872_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1872_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473DvmdOp" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52655" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1872_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1872_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1872_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1872_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473DvmdOp</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52655</p>
+        </odd>
+      </c>
+      <c level="file" id="a0117829774734p8H2M">
+        <did>
+          <unitid>PAL_1873</unitid>
+          <unittitle>1873 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1873">4 août 1873</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1873 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1873_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1873_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1873_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1873_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829774734p8H2M" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52656" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1873_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1873_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1873_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1873_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829774734p8H2M</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52656</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473pWwVBu">
+        <did>
+          <unitid>PAL_1874</unitid>
+          <unittitle>1874 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1874">3 août 1874</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1874 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1874_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1874_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1874_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1874_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473pWwVBu" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52657" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1874_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1874_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1874_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1874_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473pWwVBu</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52657</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473adxIjn">
+        <did>
+          <unitid>PAL_1875</unitid>
+          <unittitle>1875 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1875">2 août 1875</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1875 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1875_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1875_13.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1875_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1875_13.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473adxIjn" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52658" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1875_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1875_13.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1875_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1875_13.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473adxIjn</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52658</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473ycAnUr">
+        <did>
+          <unitid>PAL_1876</unitid>
+          <unittitle>1876 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1876">23 juillet 1876</unitdate>
+        </did>
+        <scopecontent>
+          <p>Une internaute remarque que plusieurs noms célèbres sont mentionnés dans le document : le sculpteur roubaisien Jean-Joseph Weerts (vue n°4), l'architecte Auguste Dupire (vue n°4) né en 1845 à Roubaix et mort en 1916, et le peintre roubaisien Rémy Cogghe (vue n°5) né en 1854 et mort en 1935.</p>
+        </scopecontent>
+        <daogrp>
+          <daodesc>
+            <p>1876 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1876_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1876_13.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1876_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1876_13.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473ycAnUr" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52659" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1876_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1876_13.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1876_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1876_13.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473ycAnUr</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52659</p>
+        </odd>
+      </c>
+      <c level="file" id="a0117829774731rOguq">
+        <did>
+          <unitid>PAL_1877</unitid>
+          <unittitle>1877 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1877">6 août 1877</unitdate>
+        </did>
+        <scopecontent>
+          <p>Une internaute remarque que plusieurs noms célèbres sont mentionnés dans le document : le peintre académique Jean-Joseph Weerts (vue n°4) né en 1846 à Roubaix et mort en 1927 à Paris, le peintre Rémy Cogghe (vue n°4) né en 1854 à Mouscron et mort à Roubaix en 1935, et Pierre Destombes (vue n°14) né en 1846 et mort en 1915.</p>
+        </scopecontent>
+        <daogrp>
+          <daodesc>
+            <p>1877 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1877_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1877_14.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1877_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1877_14.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829774731rOguq" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52660" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1877_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1877_14.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1877_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1877_14.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829774731rOguq</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52660</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473ypIw1A">
+        <did>
+          <unitid>PAL_1878</unitid>
+          <unittitle>1878 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1878">21 juillet 1878</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1878 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1878_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1878_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1878_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1878_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473ypIw1A" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52661" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1878_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1878_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1878_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1878_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473ypIw1A</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52661</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473aluw5X">
+        <did>
+          <unitid>PAL_1879</unitid>
+          <unittitle>1879 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1879">10 août 1879</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1879 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1879_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1879_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1879_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1879_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473aluw5X" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52662" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1879_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1879_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1879_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1879_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473aluw5X</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52662</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473Z93oHd">
+        <did>
+          <unitid>PAL_1880</unitid>
+          <unittitle>1880 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1880">5 août 1880</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1880 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1880_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1880_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1880_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1880_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473Z93oHd" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52663" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1880_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1880_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1880_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1880_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473Z93oHd</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52663</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473Ebj9t7">
+        <did>
+          <unitid>PAL_1881</unitid>
+          <unittitle>1881 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1881">11 août 1881</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1881 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1881_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1881_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1881_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1881_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473Ebj9t7" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52664" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1881_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1881_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1881_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1881_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473Ebj9t7</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52664</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473roo4yI">
+        <did>
+          <unitid>PAL_1882</unitid>
+          <unittitle>1882 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1882">20 juillet 1882</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1882 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1882_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1882_08.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1882_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1882_08.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473roo4yI" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52665" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1882_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1882_08.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1882_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1882_08.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473roo4yI</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52665</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473jW2ZrZ">
+        <did>
+          <unitid>PAL_1883</unitid>
+          <unittitle>1883 - Distribution solennelle des prix aux élèves des écoles académiques</unittitle>
+          <unitdate normal="1883">9 août 1883</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1883 - Distribution solennelle des prix aux élèves des écoles académiques</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1883_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1883_11.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1883_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1883_11.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473jW2ZrZ" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52666" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1883_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1883_11.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1883_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1883_11.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473jW2ZrZ</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52666</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473nv7GW6">
+        <did>
+          <unitid>PAL_1884</unitid>
+          <unittitle>1884 - Ecole nationale de musique de Roubaix - Distribution solennelle des prix</unittitle>
+          <unitdate normal="1884">7 août 1884</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1884 - Ecole nationale de musique de Roubaix - Distribution solennelle des prix</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1884_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1884_11.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1884_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1884_11.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473nv7GW6" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52667" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1884_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1884_11.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1884_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1884_11.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473nv7GW6</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52667</p>
+        </odd>
+      </c>
+      <c level="file" id="a011782977473zQ6q7H">
+        <did>
+          <unitid>PAL_1885</unitid>
+          <unittitle>1885 - Ecole nationale de musique de Roubaix - Distribution solennelle des prix</unittitle>
+          <unitdate normal="1885">6 août 1885</unitdate>
+        </did>
+        <daogrp>
+          <daodesc>
+            <p>1885 - Ecole nationale de musique de Roubaix - Distribution solennelle des prix</p>
+          </daodesc>
+          <daoloc href="CSV/RBX_CSV_PAL_1885_01.tif" role="preservation:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1885_09.tif" role="preservation:image:last"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1885_01.jpg" role="access:image:first"/>
+          <daoloc href="CSV/RBX_CSV_PAL_1885_09.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977473zQ6q7H" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR52668" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first CSV/RBX_CSV_PAL_1885_01.tif</p>
+          <p>preservation:image:last CSV/RBX_CSV_PAL_1885_09.tif</p>
+          <p>access:image:first CSV/RBX_CSV_PAL_1885_01.jpg</p>
+          <p>access:image:last CSV/RBX_CSV_PAL_1885_09.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977473zQ6q7H</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR52668</p>
+        </odd>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

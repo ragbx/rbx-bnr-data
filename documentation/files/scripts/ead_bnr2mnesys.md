@@ -26,7 +26,19 @@ Les fichiers EAD transformés sont stockés dans `results/ead/ead_cor/bnr2mnesys
 
 La concordance ir / unitid / id (cf. étape 4) est tenue dans
 `results/ead/ead_cor/concordance_id.csv` : créée à la première exécution, elle est
-rechargée aux exécutions suivantes pour réattribuer les mêmes id.
+rechargée aux exécutions suivantes pour réattribuer les mêmes id. **Depuis le
+2026-10-27, elle contient les id attribués par Mnesys** (cf. étape 4).
+
+**Attention : `results/ead/ead_cor/bnr2mnesys/` est aussi une base de travail.**
+Plusieurs correctifs la modifient en place après ce script
+([ead_nettoie_texte](ead_nettoie_texte.md), [ead_tri_unitid](ead_tri_unitid.md),
+[ead_otherlevel](ead_otherlevel.md),
+[ead_remonte_controlaccess](ead_remonte_controlaccess.md),
+[ead_ids_mnesys](ead_ids_mnesys.md)), ainsi que deux retouches manuelles
+(2026-09-02 : noms d'images de MED_MS à quatre chiffres, conformes à S3 ;
+2026-09-26 : suppression des 55 `<geogname>` vides de MED_LET). Une
+régénération ne reproduit donc les fichiers actuels qu'après avoir rejoué ces
+correctifs et ces retouches : ne pas écraser `bnr2mnesys/` sans comparer.
 
 ---
 
@@ -65,6 +77,11 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   existe pour (ir, unitid), l'id qu'elle contient est repris : les id restent stables
   d'une itération à l'autre. Les éléments sans `<did>/<unitid>` reçoivent un id nouveau
   à chaque exécution (pas de clé de concordance).
+- **Mnesys réattribue les id à chaque import** (préfixe `a01`) et ignore ceux qu'on lui
+  fournit. Depuis le 2026-10-27, la concordance contient donc les **id Mnesys**, relevés
+  dans un export des IR par [ead_ids_mnesys.py](ead_ids_mnesys.md) : une régénération
+  reprend ces id, et l'ARK (étape 6) est construit sur eux. Seuls les composants nouveaux
+  reçoivent encore un id `m0`, remplacé par celui de Mnesys au prochain alignement.
 
 ### 5. Fusion des `<daogrp>` multiples
 - Quand un même `<archdesc>`/`<c>` contient plusieurs `<daogrp>` directs, leurs contenus
@@ -80,7 +97,8 @@ Les transformations sont appliquées dans l'ordre suivant sur chaque fichier EAD
   est appelée ici avec un `link_builder` propre à bn-r → Mnesys.
 - Pour chaque `<archdesc>` et `<c>` portant un attribut `id`, l'ARK actuel construit à
   partir de cet id (`https://www.bn-r.fr/ark:/20179/BNR<id>`) est ajouté avec
-  `role="publication:current"`.
+  `role="publication:current"`. Depuis le 2026-10-27, cet id est celui de Mnesys
+  (`BNRa01…`) ; les ARK `BNRm0…` antérieurs ont été remplacés dans les IR.
 - Pour chaque `<c>` dont le `<unitid>` figure dans la table de correspondance OAI,
   l'ancien ARK BnR (`https://www.bn-r.fr/ark:/20179/<osiros_id>`) est ajouté avec
   `role="publication:previous"`.
@@ -184,7 +202,7 @@ Les valeurs de thésaurus sont écrites sous la forme `thesaurus--SLASH--<nom>.x
   | `subject` | `theme` | `bnr_theme.xml` |
   | `subject` | `Rameau` | `bnr_rameau.xml` |
 
-  Le remappage des `<geogname>` (`rue` → `bnr_geo_rbx_rue.xml`, `quartier` → `bnr_geo_rbx_quartier.xml`) est **désactivé pour l'instant** (lignes commentées dans `CONTROLACCESS_SOURCE_REMAP`, à réactiver éventuellement plus tard).
+  Le remappage des `<geogname>` (`rue` → `bnr_geo_rbx_voies.xml`, `quartier` → `bnr_geo_rbx_quartiers.xml`) est **désactivé pour l'instant** (lignes commentées dans `CONTROLACCESS_SOURCE_REMAP`, à réactiver éventuellement plus tard).
 
 Les `<subject>`/`<geogname>` sans source, ou de source non listée, sont laissés tels quels.
 

@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead2002/ead.dtd">
+<ead>
+  <eadheader>
+    <eadid>FR595126101_MED_MON</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Collection de monographies</titleproper>
+        <subtitle>Catalogue numérique</subtitle>
+      </titlestmt>
+      <publicationstmt>
+        <date normal="2008">2008</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <langusage>
+        <language langcode="fre">français</language>
+      </langusage>
+      <descrules>Cet inventaire a été rédigé conformément à la norme ISAD(G) et aux règles d'application de la DTD EAD dans la bibliothèque numérique de Roubaix. L'indexation des mots-sujets est conforme au vocabulaire RAMEAU. L'indexation des noms de personnes est conforme à la norme Z44-061. Le découpage de Roubaix en 13 quartiers est conforme au plan établi par la Direction Générale du Cadre de Vie de la Ville de Roubaix.</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection" id="a011782977963Ly77mQ">
+    <did>
+      <unitid>MED_MON</unitid>
+      <unittitle>Livres et brochures</unittitle>
+      <unitdate normal="1920">19e-20e siècles</unitdate>
+      <langmaterial>
+        <language langcode="fre">français</language>
+      </langmaterial>
+      <physdesc>Ensemble de livres et brochures collectés par le service patrimoine de la Médiathèque.</physdesc>
+      <repository>Médiathèque de Roubaix</repository>
+    </did>
+    <controlaccess>
+      <genreform source="thesaurus--SLASH--bnr_genreform.xml">Livres et revues</genreform>
+    </controlaccess>
+    <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963Ly77mQ" role="publication:current"/>
+    <dsc>
+      <c level="item" id="a011782977963wjxGv0">
+        <did>
+          <unitid>MON_4_207931</unitid>
+          <unittitle>L'industrie lainière : son organisation corporative nationale et internationale</unittitle>
+          <unitdate normal="1935">1935</unitdate>
+          <physdesc>XIV-398 pages illustrées en noir et blanc ; 25 cm ; cote physique : MAG L/P 4/207 931</physdesc>
+        </did>
+        <scopecontent>
+          <p>Imprimé à Paris chez F. Paillart ; Bibliographie</p>
+        </scopecontent>
+        <acqinfo>
+          <p>Don de Mme Françoise Bonte, le 30 janvier 1999.</p>
+        </acqinfo>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <name role="auteur">Despature, Paul</name>
+          <name role="Préfacier">Gignoux, Claude-Joseph</name>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963wjxGv0" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963wjxGv0</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963dPu4Th">
+        <did>
+          <unitid>MON_4_209906</unitid>
+          <unittitle>Etablissements François Masurel frères</unittitle>
+          <unitdate normal="1949">environ 1949</unitdate>
+          <physdesc>[65] pages dont 2 dépliants illustrées en noir et en couleur ; 28 cm ; cote physique : MAG L/P 4/209 906</physdesc>
+        </did>
+        <scopecontent>
+          <p>Illustrations en couleurs légèrement collées ; reliure spirale</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Tourcoing (Nord)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963dPu4Th" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963dPu4Th</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963OqgOYE">
+        <did>
+          <unitid>MON_4_210000</unitid>
+          <unittitle>Cretonnes, percales et lins imprimés</unittitle>
+          <unitdate normal="1940">vers 1940</unitdate>
+          <physdesc>44 pages illustrées en noir et en couleur, 28 x 43 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Catalogue commercial contenant des échantillons de tissus collés.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Belgique</geogname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Cretonnes, percales et lins imprimés</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210000_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210000_022.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210000_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210000_022.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963OqgOYE" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23349" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_4_210000_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_4_210000_022.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_4_210000_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_4_210000_022.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963OqgOYE</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23349</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963f1Agrv">
+        <did>
+          <unitid>MON_4_210001</unitid>
+          <unittitle>La teinture du coton et des fibres similaires</unittitle>
+          <unitdate normal="1902">1902</unitdate>
+          <physdesc>446 pages illustrées ; 26 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>La teinture du coton et des fibres similaires avec les colorants de Léopold Cassella. Contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Francfort (Allemagne)</geogname>
+          <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Cassella, Léopold</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>La teinture du coton et des fibres similaires</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210001_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210001_054.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210001_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210001_054.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963f1Agrv" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23350" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_4_210001_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_4_210001_054.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_4_210001_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_4_210001_054.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963f1Agrv</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23350</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963WLBvSI">
+        <did>
+          <unitid>MON_4_210002</unitid>
+          <unittitle>La teinture du coton et des fibres similaires, supplément</unittitle>
+          <unitdate normal="1904">1904</unitdate>
+          <physdesc>VII-191 pages illustrées ; 26 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>La teinture du coton et des fibres similaires, supplément, avec les colorants de Léopold Cassella. Contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Francfort (Allemagne)</geogname>
+          <persname role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Cassella, Léopold</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>La teinture du coton et des fibres similaires, supplément</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210002_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210002_011.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210002_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_4_210002_011.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963WLBvSI" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23351" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_4_210002_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_4_210002_011.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_4_210002_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_4_210002_011.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963WLBvSI</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23351</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963vgsTTS">
+        <did>
+          <unitid>MON_4_210150</unitid>
+          <unittitle>Balayeuse peluche garantie pure laine</unittitle>
+          <unitdate normal="1905">1905</unitdate>
+          <physdesc>[1] dépliant de [6] pages contenant des échantillons en couleur ; 28 cm ; cote physique : MAG L/P 4/210 150</physdesc>
+        </did>
+        <scopecontent>
+          <p>Pliage accordéon ; contient des échantillons de tissus</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963vgsTTS" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963vgsTTS</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963Meoron">
+        <did>
+          <unitid>MON_4_210151</unitid>
+          <unittitle>Balayeuse peluche garantie pure laine</unittitle>
+          <unitdate normal="1903">1903</unitdate>
+          <physdesc>[1] dépliant de [6] pages contenant des échantillons en couleur ; 28 cm ; document fragile (couverture abîmée) ; cote physique : MAG L/P 4/210 151</physdesc>
+        </did>
+        <scopecontent>
+          <p>Pliage accordéon ; contient des échantillons de tissus</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963Meoron" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963Meoron</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963prs2Zr">
+        <did>
+          <unitid>MON_4_210790</unitid>
+          <unittitle>Travail au crochet : [modèles d'une grande finesse d'exécution ]</unittitle>
+          <unitdate normal="1920">Vers 1920</unitdate>
+          <physdesc>[38] planches ; 28 x 36 cm ; cote physique : MAG L/P 4/210 790</physdesc>
+        </did>
+        <scopecontent>
+          <p>Les différents modèles sont cousus sauf deux qui sont dans une enveloppe ; "classeur Kuyl, Bruxelles" d'après une note manuscrite ; deux planches sont vides.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963prs2Zr" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963prs2Zr</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779630v4T8w">
+        <did>
+          <unitid>MON_4_210793</unitid>
+          <unittitle>Album de crochet</unittitle>
+          <unitdate normal="1925">Vers 1925</unitdate>
+          <physdesc>[52] pages ; couverture illustrée en couleur ; 29 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Contient des échantillons de modèles au crochet collés ou cousus et 1 non cousu ; échantillons collés dans un album pour cartes postales</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa0117829779630v4T8w" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779630v4T8w</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963efdDeX">
+        <did>
+          <unitid>MON_4_210981</unitid>
+          <unittitle>Modèles de travail au crochet</unittitle>
+          <unitdate normal="1920">Vers 1920</unitdate>
+          <physdesc>[18] pages ; 31 x 40 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Les différents modèles sont collés ou retenus par une aiguille</p>
+        </scopecontent>
+        <acqinfo>
+          <p>Don de Aurore Janon (Claude Vicente), juin 2019</p>
+        </acqinfo>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <name role="donateur">Janon, Aurore</name>
+          <name role="donateur">Vicente, Claude</name>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963efdDeX" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963efdDeX</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779632yWcHr">
+        <did>
+          <unitid>MON_8_116627</unitid>
+          <unittitle>Carte de nuances, printemps 1936 : Fédération de la soie</unittitle>
+          <unitdate normal="1936">1936</unitdate>
+          <physdesc>7 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Cartes de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116627_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116627_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116627_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116627_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829779632yWcHr" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23352" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116627_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116627_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116627_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116627_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779632yWcHr</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23352</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963vLABeI">
+        <did>
+          <unitid>MON_8_116685</unitid>
+          <unittitle>Carte de nuances, automne 1932 : Fédération de la soie</unittitle>
+          <unitdate normal="1932">1932</unitdate>
+          <physdesc>7 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Cartes de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116685_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116685_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116685_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116685_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963vLABeI" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23353" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116685_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116685_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116685_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116685_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963vLABeI</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23353</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963BX3MwR">
+        <did>
+          <unitid>MON_8_116686</unitid>
+          <unittitle>Carte de nuances, printemps 1933 : Fédération de la soie</unittitle>
+          <unitdate normal="1933">1933</unitdate>
+          <physdesc>7 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Cartes de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116686_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116686_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116686_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116686_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963BX3MwR" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23354" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116686_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116686_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116686_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116686_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963BX3MwR</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23354</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963hHGMT2">
+        <did>
+          <unitid>MON_8_116687</unitid>
+          <unittitle>Carte de nuances, automne 1934 : Fédération de la soie</unittitle>
+          <unitdate normal="1934">1934</unitdate>
+          <physdesc>7 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116687_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116687_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116687_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116687_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963hHGMT2" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23355" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116687_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116687_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116687_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116687_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963hHGMT2</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23355</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779638LDy7p">
+        <did>
+          <unitid>MON_8_116688</unitid>
+          <unittitle>Carte de nuances, automne 1936 : Fédération de la soie</unittitle>
+          <unitdate normal="1936">1936</unitdate>
+          <physdesc>4 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116688_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116688_002.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116688_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116688_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829779638LDy7p" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23356" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116688_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116688_002.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116688_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116688_002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779638LDy7p</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23356</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963cWP11q">
+        <did>
+          <unitid>MON_8_116689</unitid>
+          <unittitle>Carte de nuances, automne 1931 : Fédération de la soie</unittitle>
+          <unitdate normal="1931">1931</unitdate>
+          <physdesc>7 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116689_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116689_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116689_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116689_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963cWP11q" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23357" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116689_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116689_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116689_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116689_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963cWP11q</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23357</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963nm5STa">
+        <did>
+          <unitid>MON_8_116690</unitid>
+          <unittitle>Carte de nuances, printemps 1945 : Fédération de la soie</unittitle>
+          <unitdate normal="1945">1945</unitdate>
+          <physdesc>5 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116690_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116690_002.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116690_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116690_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963nm5STa" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23358" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116690_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116690_002.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116690_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116690_002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963nm5STa</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23358</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963qo0i0p">
+        <did>
+          <unitid>MON_8_116691</unitid>
+          <unittitle>Carte de nuances, printemps 1946 : Fédération de la soie</unittitle>
+          <unitdate normal="1946">1946</unitdate>
+          <physdesc>5 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116691_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116691_002.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116691_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116691_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963qo0i0p" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23359" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116691_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116691_002.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116691_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116691_002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963qo0i0p</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23359</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779633b1DPJ">
+        <did>
+          <unitid>MON_8_116692</unitid>
+          <unittitle>Carte de nuances, printemps 1948 : Fédération de la soie</unittitle>
+          <unitdate normal="1948">1948</unitdate>
+          <physdesc>5 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116692_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116692_002.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116692_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116692_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829779633b1DPJ" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23360" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116692_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116692_002.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116692_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116692_002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779633b1DPJ</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23360</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963xRl4jm">
+        <did>
+          <unitid>MON_8_116693</unitid>
+          <unittitle>Carte de nuances, printemps-été 1950 : Fédération de la soie</unittitle>
+          <unitdate normal="1950">1950</unitdate>
+          <physdesc>5 pages illustrées en couleur, dépliant ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Carte de nuances de la Fédération de la soie, nuances adoptées et recommandées par les fabricants de soieries et rubans par la Fédération de la soie à Lyon. Catalogue commercial, contient des échantillons de tissus.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Fédération de la soie</corpname>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Lyon (Rhône)</geogname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Carte de nuances de la Fédération de la soie</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116693_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116693_002.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116693_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_8_116693_002.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963xRl4jm" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23361" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_8_116693_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_8_116693_002.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_8_116693_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_8_116693_002.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963xRl4jm</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23361</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963xGLe97">
+        <did>
+          <unitid>MON_BR8_1002</unitid>
+          <unittitle>Guide professionnel du délainage</unittitle>
+          <unitdate normal="1951">1951</unitdate>
+          <physdesc>63 pages illustrées en noir et blanc ; 23 cm<lb/>Document abîmé</physdesc>
+        </did>
+        <scopecontent>
+          <p>Edité chez Havas.</p>
+          <p>Ouvrage en français, anglais et espagnol.</p>
+          <p>Ex-libris manuscrit et imprimeur Achille Bayart, Roubaix.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1946-1959</subject>
+          <name role="auteur">Mazamet, Tarn</name>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963xGLe97" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963xGLe97</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779638Rz8q9">
+        <did>
+          <unitid>MON_BR8_2709</unitid>
+          <unittitle>Souvenir de la grande cavalcade roubaisienne</unittitle>
+          <unitdate normal="1903">31 mai 1903</unitdate>
+          <physdesc>36 feuilles illustrées ; 23 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Souvenir de la grande cavalcade roubaisienne du 31 mai 1903 à l'occasion de la pose de la première pierre du nouvel hôpital "La Fraternité".</p>
+          <p>Contient 24 illustrations de chars (dont 3 de la Savonnerie du Congo), une de la reine des reines et une de l'ensemble des candidates ainsi que le plan du parcours de la cavalcade.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Souvenir de la grande cavalcade roubaisienne</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_BR8_2709_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_BR8_2709_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_BR8_2709_041.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829779638Rz8q9" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23374" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_BR8_2709_001.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_BR8_2709_001.jpg</p>
+          <p>access:image:last RBX_MED_MON_BR8_2709_041.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779638Rz8q9</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23374</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963I2eWGy">
+        <did>
+          <unitid>MON_FOL_300166</unitid>
+          <unittitle>Cavalcade roubaisienne de 1903</unittitle>
+          <unitdate normal="1903">31 mai 1903</unitdate>
+          <physdesc>8 pages et 38 planches illustrées ; 32 x 41 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Souvenir de la grande cavalcade roubaisienne du 31 mai 1903 à l'occasion de la pose de la première pierre du nouvel hôpital "La Fraternité".</p>
+          <p>Contient 35 illustrations de chars (dont 4 de la Savonnerie du Congo), une de la reine des reines, une de la reine des reines et ses demoiselles d'honneur et une du Comité d'organisation. Un encart de 8 pages explique la décision de construction de l'hôpital par Alfred Motte et la constitution de l'équipe pour l'organisation de la cavalcade.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
+          <persname source="thesaurus--SLASH--bnr_persname.xml">Motte, Alfred</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Cavalcade roubaisienne de 1903</p>
+          </daodesc>
+          <daoloc href="RBX_MED_MON_FOL_300166_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_FOL_300166_050.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963I2eWGy" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23375" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>access:image:first RBX_MED_MON_FOL_300166_001.jpg</p>
+          <p>access:image:last RBX_MED_MON_FOL_300166_050.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963I2eWGy</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23375</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963wGdufS">
+        <did>
+          <unitid>MON_FOL_300689</unitid>
+          <unittitle>Arnolds Kriegsflugblaetter der Liller Kriegszeitung</unittitle>
+          <unitdate normal="1915">1915</unitdate>
+          <physdesc>105 pages illustrées ; 32 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Arnolds Kriegsflugblaetter der Liller Kriegszeitung : ein Album mit hundert Zeichnungenszeitung par Karl Arnold aux éditions Liller Kriegszeitung à Lille.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_rameau.xml">Caricatures et dessins humoristiques</subject>
+          <persname normal="Arnold, Karl" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Arnold, Karl</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Arnolds Kriegsflugblaetter der Liller Kriegszeitung</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_300689_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_300689_105.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_300689_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_300689_105.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963wGdufS" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23365" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_300689_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_300689_105.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_300689_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_300689_105.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963wGdufS</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23365</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963yRVyR6">
+        <did>
+          <unitid>MON_FOL_301013</unitid>
+          <unittitle>Documents de l'histoire : 24 estampes sur la guerre</unittitle>
+          <unitdate normal="1917">environ 1917</unitdate>
+          <physdesc>24 pages illustrées en couleur ; 37 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>24 estampes sur la guerre par Georges Bruyer dans la collection Les documents de l'histoire chez "L'édition de Luxe" à Paris. Exemplaire n°98/150.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <persname normal="Bruyer, Georges" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Bruyer, Georges</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>24 estampes sur la guerre</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301013_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301013_026.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301013_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301013_026.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963yRVyR6" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23367" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_301013_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_301013_026.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_301013_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_301013_026.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963yRVyR6</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23367</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963v7vDiB">
+        <did>
+          <unitid>MON_FOL_301022</unitid>
+          <unittitle>Pages &amp; croquis, 1914-1918</unittitle>
+          <unitdate normal="1918">1918</unitdate>
+          <physdesc>5 albums de dessins et textes illustrés en noir et blanc, reliure cartonnée ; 35 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Pages &amp; croquis 1914-1918 illustrés par Henri Marret, Raymond Bigot, Pierre Mourier, Paul-Elie Gernez,... édité chez Deville à Lisieux. Contient : - I, Autour du clocher ; Les gardes-voies ; la mobilisation ; les belges ; - II, Le front occidental ; - III, Le front oriental ; - IV, Les anglais, l'arrière ; prisonniers allemands ; - V, Musique.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Bigot, Raymond</persname>
+          <persname role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Mourier, Pierre</persname>
+          <persname normal="Gernez, Paul-Elie" role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Gernez, Paul-Elie</persname>
+          <persname normal="Marret, Henri" role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Marret, Henri</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Pages &amp; croquis 1914-1918</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301022_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301022_128.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301022_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301022_128.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963v7vDiB" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23368" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_301022_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_301022_128.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_301022_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_301022_128.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963v7vDiB</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23368</p>
+        </odd>
+      </c>
+      <c level="item" id="a0117829779638FznDH">
+        <did>
+          <unitid>MON_FOL_301034</unitid>
+          <unittitle>Allons, enfants de la patrie !</unittitle>
+          <unitdate normal="1920">environ 1920</unitdate>
+          <physdesc>146 pages illustrées en noir et en couleur ; 35 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Allons, enfants de la patrie ! : 33 poèmes par Jean Richepin et des images de Job aux éditions Mame et Fils à Tours.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Littérature</subject>
+          <persname normal="Richepin, Jean" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Richepin, Jean</persname>
+          <persname normal="Job" role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Job</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Allons, enfants de la patrie !</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301034_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301034_111.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301034_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301034_111.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa0117829779638FznDH" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23366" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_301034_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_301034_111.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_301034_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_301034_111.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa0117829779638FznDH</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23366</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963zC6FHJ">
+        <did>
+          <unitid>MON_FOL_301052</unitid>
+          <unittitle>Jusqu'au bout</unittitle>
+          <unitdate normal="1914">1914</unitdate>
+          <physdesc>Planche de jeu de l'oie, illustrée en couleur ; 40 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Jusqu'au bout : nouveau jeu de la guerre de 1914 édité chez H. Bouquet à Paris.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Jeux et concours</subject>
+        </controlaccess>
+        <daogrp>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301052_001.tif" role="preservation:image"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301052_001.jpg" role="access:image"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963zC6FHJ" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23369" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image MED/MED_MON/RBX_MED_MON_FOL_301052_001.tif</p>
+          <p>access:image MED/MED_MON/RBX_MED_MON_FOL_301052_001.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963zC6FHJ</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23369</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963nna6h2">
+        <did>
+          <unitid>MON_FOL_301059</unitid>
+          <unittitle>Modèles de dentelles</unittitle>
+          <unitdate normal="1940">environ 1940</unitdate>
+          <physdesc>46 pages illustrées en couleur, dépliant ; 43 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Contient des échantillons de dentelles.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1939-1945</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Modèles de dentelles</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301059_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301059_020.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301059_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301059_020.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963nna6h2" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23362" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_301059_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_301059_020.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_301059_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_301059_020.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963nna6h2</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23362</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963qwhmg0">
+        <did>
+          <unitid>MON_FOL_301072</unitid>
+          <unittitle>Galerie française de femmes célèbres</unittitle>
+          <unitdate normal="1827">1827</unitdate>
+          <physdesc>147 pages illustrées en couleur ; 36 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Galerie française de femmes célèbres par leurs talens, leur rang ou leur beauté. Portraits en pied, dessinés par M. Lanté, gravés par M. Gatine, et coloriés ; avec des notices biographiques et des remarques sur les habillemens, à Paris chez l'éditeur.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1789-1870</subject>
+          <persname normal="Lanté, Louis-Marie" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Lanté, Louis-Marie</persname>
+          <persname normal="Gatine, Georges-Jacques" role="Graveur" source="thesaurus--SLASH--bnr_persname.xml">Gatine, Georges-Jacques</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Galerie française de femmes célèbres</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301072_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301072_147.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301072_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_FOL_301072_147.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963qwhmg0" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23363" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_FOL_301072_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_FOL_301072_147.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_FOL_301072_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_FOL_301072_147.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963qwhmg0</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23363</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963HbmQvv">
+        <did>
+          <unitid>MON_PLA_350072</unitid>
+          <unittitle>Croquis de guerre</unittitle>
+          <unitdate normal="1914">environ 1914</unitdate>
+          <physdesc>27 pages illustrées en noir et blanc et en couleur ; 48 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Croquis de guerre de Mathurin Méheut ; préface de Gustave Geffroy et reproduits par Léon Marotte édités par Devambez à Paris. Exemplaire n°242/300.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Guerres</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <persname normal="Geffroy, Gustave" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Geffroy, Gustave</persname>
+          <persname normal="Marotte, Léon" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Marotte, Léon</persname>
+          <persname normal="Méheut, Mathurin" role="illustrateur" source="thesaurus--SLASH--bnr_persname.xml">Méheut, Mathurin</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Croquis de guerre</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350072_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350072_027.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350072_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350072_027.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963HbmQvv" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23370" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_PLA_350072_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_PLA_350072_027.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_PLA_350072_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_PLA_350072_027.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963HbmQvv</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23370</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963qAhfPc">
+        <did>
+          <unitid>MON_PLA_350073</unitid>
+          <unittitle>Nouveau choix de broderies anciennes</unittitle>
+          <unitdate normal="1910">environ 1910</unitdate>
+          <physdesc>65 planches illustrées en couleur, emboîtage cartonné, 62 photographies en noir et blanc ; 31 x 29 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Broderies anciennes des XVI, XVII et XVIIIe siècles Edité chez A. Calavas à Paris.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Mode</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1914-1918</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Nouveau choix de broderies anciennes</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350073_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350073_061.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350073_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_PLA_350073_061.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963qAhfPc" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23364" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_PLA_350073_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_PLA_350073_061.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_PLA_350073_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_PLA_350073_061.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963qAhfPc</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23364</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963x9elyX">
+        <did>
+          <unitid>MON_RES4_0569</unitid>
+          <unittitle>Historique de la Roubaisienne</unittitle>
+          <unitdate normal="1901">1901</unitdate>
+          <physdesc>47 pages illustrées ; 27 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Historique de la Roubaisienne, société municipale de gymnastique et de tir : souvenir du 25e anniversaire les 22 et 23 décembre 1900 par Clément Durant, éditée par l'imprimerie Alfred Reboux à Roubaix.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">La Roubaisienne</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Sports</subject>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
+          <geogname source="thesaurus--SLASH--bnr_geo_rbx_rues.xml" coord="[[50.6908299, 3.1781062], [50.6908533, 3.1780497], [50.6908668, 3.1780102], [50.6908767, 3.1779693], [50.6908831, 3.1779185], [50.690918, 3.1766952], [50.690919, 3.1766048], [50.6909165, 3.1765384], [50.6909121, 3.1764635], [50.6909096, 3.1762996], [50.6909332, 3.1755143], [50.6909369, 3.1754211], [50.6909432, 3.1753928], [50.6909531, 3.1753688], [50.6909639, 3.1753576]]">Rue Pierre Motte</geogname>
+          <geogname source="thesaurus--SLASH--bnr_geo_rbx_quartiers.xml" coord="[[50.69245, 3.184644], [50.693357, 3.18392], [50.693705, 3.183613], [50.693883, 3.183456], [50.69397, 3.18339], [50.694006, 3.183362], [50.694119, 3.183275], [50.694161, 3.183243], [50.694273, 3.183157], [50.694575, 3.182975], [50.694774, 3.182835], [50.694928, 3.182643], [50.695062, 3.182412], [50.695118, 3.182254], [50.695149, 3.182133], [50.695174, 3.181985], [50.695192, 3.181806], [50.69519, 3.181624], [50.695131, 3.180511], [50.695087, 3.180146], [50.695023, 3.179838], [50.694916, 3.179501], [50.694842, 3.179249], [50.6948, 3.17911], [50.694454, 3.178064], [50.694362, 3.177668], [50.694215, 3.1768], [50.694115, 3.176366], [50.693693, 3.175019], [50.693648, 3.174609], [50.693699, 3.174136], [50.693305, 3.17414], [50.692999, 3.174179], [50.692967, 3.173667], [50.692906, 3.173415], [50.692758, 3.173166], [50.692417, 3.172936], [50.692221, 3.172994], [50.691704, 3.173408], [50.691665, 3.173081], [50.690131, 3.173547], [50.689263, 3.173812], [50.688214, 3.174372], [50.687867, 3.174653], [50.687638, 3.174885], [50.687857, 3.175275], [50.688154, 3.175843], [50.68852, 3.176784], [50.688794, 3.17724], [50.689368, 3.17752], [50.689834, 3.17757], [50.690379, 3.177807], [50.690722, 3.178255], [50.690957, 3.178859], [50.691217, 3.179631], [50.691624, 3.180875], [50.691888, 3.181731], [50.692226, 3.183541], [50.692436, 3.184618], [50.69245, 3.184644]]">Centre Ville</geogname>
+          <persname normal="Durant, Clément" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Durant, Clément</persname>
+          <persname normal="Reboux, Alfred" role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Reboux, Alfred</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Historique de la Roubaisienne</p>
+          </daodesc>
+          <daoloc href="RBX_MED_MON_RES4_0569_003.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RES4_0569_029.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963x9elyX" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23372" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>access:image:first RBX_MED_MON_RES4_0569_003.jpg</p>
+          <p>access:image:last RBX_MED_MON_RES4_0569_029.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963x9elyX</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23372</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963EMWOAx">
+        <did>
+          <unitid>MON_RES8_0313_001.tif</unitid>
+          <unittitle>Le triage des laines à Roubaix-Tourcoing</unittitle>
+          <unitdate normal="1944">1944</unitdate>
+          <physdesc>106 pages illustrées ; 24 cm ; document fragile (ouvrabilité limitée) ; cote physique: RES 8/313</physdesc>
+        </did>
+        <scopecontent>
+          <p>Edité par G. Frère ;</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Commerces</subject>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963EMWOAx" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963EMWOAx</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963hVTCs5">
+        <did>
+          <unitid>MON_RES8_1192</unitid>
+          <unittitle>Chansons de Nadaud</unittitle>
+          <unitdate normal="1887">20 et 21 mars 1887</unitdate>
+          <physdesc>4 pages ; 22 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Chansons composées spécialement par Gustave Nadaud pour les fêtes de charité données à Roubaix par MM. Vaissier frères les 20 et 21 mars 1887.</p>
+          <p>Contient 4 chansons : Vivat roubaisien, Le savon du Congo, Les Roubaignos, Savonniers &amp; chansonniers.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Fêtes et cérémonies</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+          <persname role="Auteur-compositeur" source="thesaurus--SLASH--bnr_persname.xml">Nadaud, Gustave</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Chansons de Nadaud</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RES8_1192_001.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RES8_1192_003.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RES8_1192_001.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RES8_1192_003.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963hVTCs5" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23373" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_RES8_1192_001.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_RES8_1192_003.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_RES8_1192_001.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_RES8_1192_003.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963hVTCs5</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23373</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963j4ZeUz">
+        <did>
+          <unitid>MON_RESFOL_0002</unitid>
+          <unittitle>Savonnerie &amp; parfumerie du Congo Victor Vaissier</unittitle>
+          <unitdate normal="1900">Environ 1900</unitdate>
+          <physdesc>59 planches illustrées en couleur ; 41 cm.<lb/>Un exemplaire à la Médiathèque et un exemplaire au musée La Piscine, Musée d'art et d'industrie André Diligent. N° d'inventaire : 2006-06-1.</physdesc>
+        </did>
+        <scopecontent>
+          <p>Savonnerie &amp; parfumerie du Congo Victor Vaissier, 2 rue de Mouveaux à Roubaix ; 16 maisons de vente dans les principales capitales de l'Europe.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Vaissier frères</corpname>
+          <corpname source="thesaurus--SLASH--bnr_corpname.xml">Savonnerie du Congo</corpname>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Savonnerie &amp; parfumerie du Congo Victor Vaissier</p>
+          </daodesc>
+          <daoloc href="RBX_MED_MON_RESFOL_0002_001.jpg" role="access:image:first"/>
+          <daoloc href="RBX_MED_MON_RESFOL_0002_063.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963j4ZeUz" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23376" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>access:image:first RBX_MED_MON_RESFOL_0002_001.jpg</p>
+          <p>access:image:last RBX_MED_MON_RESFOL_0002_063.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963j4ZeUz</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23376</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963zt1VFu">
+        <did>
+          <unitid>MON_RESFOL_0047</unitid>
+          <unittitle>Descrittione di tutti i Paesi Bassi = Description des Pays-Bas</unittitle>
+          <unitdate normal="1588">1588</unitdate>
+          <physdesc>531 pages illustrées en couleur avec gravures peintes ; 36 cm</physdesc>
+        </did>
+        <scopecontent>
+          <p>Descrittione di tutti i Paesi Bassi = Description des Pays-Bas di M. Lodovico Guicciardini aux éditions Christophe Plantin à Anvers.</p>
+        </scopecontent>
+        <controlaccess>
+          <geogname source="thesaurus--SLASH--bnr_geo_communes_pays.xml">Pays-Bas</geogname>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">Avant 1789</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Arts graphiques</subject>
+          <persname normal="Guicciardini, Lodovico" role="auteur" source="thesaurus--SLASH--bnr_persname.xml">Guicciardini, Lodovico</persname>
+          <persname role="éditeur" source="thesaurus--SLASH--bnr_persname.xml">Plantin, Christophe</persname>
+        </controlaccess>
+        <daogrp>
+          <daodesc>
+            <p>Descrittione di tutti i Paesi Bassi = Description des Pays-Bas</p>
+          </daodesc>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RESFOL_0047_000.tif" role="preservation:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RESFOL_0047_546.tif" role="preservation:image:last"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RESFOL_0047_000.jpg" role="access:image:first"/>
+          <daoloc href="MED/MED_MON/RBX_MED_MON_RESFOL_0047_546.jpg" role="access:image:last"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNRa011782977963zt1VFu" role="publication:current"/>
+          <daoloc href="https://www.bn-r.fr/ark:/20179/BNR23371" role="publication:previous"/>
+        </daogrp>
+        <odd>
+          <p>preservation:image:first MED/MED_MON/RBX_MED_MON_RESFOL_0047_000.tif</p>
+          <p>preservation:image:last MED/MED_MON/RBX_MED_MON_RESFOL_0047_546.tif</p>
+          <p>access:image:first MED/MED_MON/RBX_MED_MON_RESFOL_0047_000.jpg</p>
+          <p>access:image:last MED/MED_MON/RBX_MED_MON_RESFOL_0047_546.jpg</p>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963zt1VFu</p>
+          <p>publication:previous https://www.bn-r.fr/ark:/20179/BNR23371</p>
+        </odd>
+      </c>
+      <c level="item" id="a011782977963dbOE97">
+        <did>
+          <unitid>MON_RESFOL_0233</unitid>
+          <unittitle>Filatures, tissages, teintureries, apprêts, doublure, alpaga, draperie, robe</unittitle>
+          <unitdate normal="1930">environ 1930</unitdate>
+          <physdesc>[41] pages illustrées en noir et blanc, couverture illustrée en noir et blanc ; 39 cm<lb/>Document abîmé.</physdesc>
+        </did>
+        <scopecontent>
+          <p>Edité par Leclercq-Dupire et imprimé à Tourcoing chez G. Frère.</p>
+          <p>Contient 1 photographie.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
+          <subject source="thesaurus--SLASH--bnr_theme.xml">Manufacture et industrie textile</subject>
+          <name normal="Leclercq-Dupire" role="auteur">Leclercq-Dupire</name>
+        </controlaccess>
+        <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782977963dbOE97" role="publication:current"/>
+        <odd>
+          <p>publication:current https://www.bn-r.fr/ark:/20179/BNRa011782977963dbOE97</p>
+        </odd>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

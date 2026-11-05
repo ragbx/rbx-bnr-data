@@ -7,6 +7,10 @@ Module utilitaire de génération d'identifiants au format Mnesys pour les
 [ead_bnr2mnesys.py](ead_bnr2mnesys.md) et
 [corpusocr2ead.py](corpusocr2ead.md) ; peut aussi se lancer seul pour un test.
 
+À savoir : Mnesys **remplace** à l'import les id fournis par les siens
+(`a01…`). Les id générés ici ne servent que jusqu'au premier import ; ils sont
+ensuite réalignés sur ceux de Mnesys par [ead_ids_mnesys.py](ead_ids_mnesys.md).
+
 ---
 
 ## Format des identifiants
