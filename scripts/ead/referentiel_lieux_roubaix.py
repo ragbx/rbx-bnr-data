@@ -232,15 +232,18 @@ FUSIONS = {
 }
 # Espaces publics de la BD TOPO sans voie dans aucune source, traités comme des rues
 # (les squares sont des rues, décision du 2026-10-29) : cleabs. Square Pierre Catteau
-# en est sorti le 2026-10-30 (voir ESPACES_EN_POINTS).
-ESPACES_EN_RUES = set()
+# en est sorti le 2026-10-30 (voir ESPACES_EN_POINTS) et y est revenu le 2026-11-06 ;
+# sans tracé de voie, sa géométrie est une ligne minuscule saisie dans coord_manuel.
+ESPACES_EN_RUES = {
+    "SURFACTI0000000056485508",  # Square Pierre Catteau
+}
 # Squares sans tracé de voie traités comme des points (décision du 2026-10-30) : le
 # lieu gardé par FUSIONS (voie TOPO, dont il garde l'identifiant) passe dans le
 # thésaurus des points avec l'emprise de l'espace public BD TOPO qu'il absorbe.
-# Square Pierre Catteau, connu de la seule BD TOPO, y est déjà en tant qu'espace public.
+# Square de l'Armistice du 8 Mai 1945 (59512_2686) en est sorti le 2026-11-06 : rue,
+# avec une ligne minuscule dans coord_manuel, comme Square Pierre Catteau.
 ESPACES_EN_POINTS = {
     "59512_3203",  # Square Louis Suzanne et Andrée Herbeaux
-    "59512_2686",  # Square de l'Armistice du 8 Mai 1945
 }
 # Catégories fixées à la main (décisions du 2026-10-28), là où ni la BD TOPO ni le
 # premier mot du libellé ne donnent la bonne.

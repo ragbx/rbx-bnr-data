@@ -26,8 +26,8 @@ d'URI (`https://www.bn-r.fr/thesaurus/<nom>#<libellé normalisé>`) :
 | Fichier | Schéma | Concepts au 2026-11-06 |
 |---|---|---|
 | `bnr_geo_rbx_quartiers.xml` | `…/thesaurus/geo_rbx_quartiers` | 31 |
-| `bnr_geo_rbx_voies.xml` | `…/thesaurus/geo_rbx_voies` | 936 |
-| `bnr_geo_rbx_sites.xml` | `…/thesaurus/geo_rbx_sites` | 13 |
+| `bnr_geo_rbx_voies.xml` | `…/thesaurus/geo_rbx_voies` | 938 (2 squares venus des sites le 2026-11-06) |
+| `bnr_geo_rbx_sites.xml` | `…/thesaurus/geo_rbx_sites` | 3 (Parc Barbieux, Hôtel de ville, Gare de Roubaix) |
 | `bnr_geo_territoires.xml` | `…/thesaurus/geo_territoires` | 207 |
 
 Les noms de fichier sont ceux du `@source` des `<geogname>` des IR
@@ -72,7 +72,7 @@ Exemple :
 
 ## Contrôles du 2026-11-06
 
-- 1 187 concepts ; aucun `broader`, `narrower`, `related` ou `isReplacedBy`
+- 1 187 concepts (1 179 après la réduction des sites à 3, même jour) ; aucun `broader`, `narrower`, `related` ou `isReplacedBy`
   vers un concept absent ; aucun libellé en double dans un schéma ; aucun
   concept à la fois de tête et rattaché à un parent ; tous les WKT se lisent.
 - Les 12 192 `<geogname>` des thésaurus géographiques des IR de test

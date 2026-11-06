@@ -184,6 +184,26 @@ Louis Suzanne et Andrée Herbeaux (59512_3203), Square de l'Armistice du
 8 Mai 1945 (59512_2686). Square Pierre Catteau, connu de la seule BD TOPO,
 y est un espace public ordinaire (sorti d'`ESPACES_EN_RUES`).
 
+**Squares cités par les IR : retour dans les rues (décision du 2026-11-06).**
+Square Pierre Catteau (retour dans `ESPACES_EN_RUES`) et Square de l'Armistice
+du 8 Mai 1945 (retiré d'`ESPACES_EN_POINTS`) redeviennent des rues. Faute de
+tracé de voie, leur point est transformé en **ligne minuscule** : segment de
+2 m est-ouest centré sur l'ancien point (pris dans l'emprise BD TOPO), saisi
+dans `coord_manuel` (« les points deviennent des lignes, aussi petites
+soient-elles »). Seul Square Louis Suzanne et Andrée Herbeaux, non cité dans
+les IR, reste un point. Comme pour toute géométrie seulement manuelle,
+`quartiers` et `source_geometrie` restent vides pour ces deux squares.
+Référentiel : 31 quartiers, 938 rues, 11 points ; backups
+`*_backup_20261106_avant_squares`.
+
+**Points réduits aux sites utiles (décision du 2026-11-06).** Le thésaurus
+des points (sites) ne garde que Parc Barbieux et Hôtel de ville, cités dans
+les IR, et Gare de Roubaix, gardée bien que non citée. Les 8 autres (3 églises,
+2 hôpitaux, théâtre, conservatoire, Square Louis Suzanne et Andrée Herbeaux)
+sont validés « ne pas conserver » et passent dans `_ecartes.csv`.
+Référentiel : **972 lieux (31 quartiers, 938 rues, 3 points)**, 495 écartés ;
+backups `*_backup_20261106_avant_sites`.
+
 ### Couche historique (2026-10-29)
 
 Deux tables tenues à la main, relues à chaque exécution (après les fusions) :

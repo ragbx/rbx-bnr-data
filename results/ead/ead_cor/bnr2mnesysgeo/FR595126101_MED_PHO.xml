@@ -2796,7 +2796,7 @@
               <p>Le tribunal situé dans un parc arboré square Pierre Catteau.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.165176 50.690598)">Square Pierre Catteau</geogname>
+              <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.165162 50.690598, 3.16519 50.690598)">Square Pierre Catteau</geogname>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Bâtiments publics</subject>
               <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             </controlaccess>
@@ -5194,7 +5194,7 @@
               <p>Parc et son écrin de verdure en face du Tribunal, le petit pont.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.165176 50.690598)">Square Pierre Catteau</geogname>
+              <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.165162 50.690598, 3.16519 50.690598)">Square Pierre Catteau</geogname>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
               <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
             </controlaccess>
@@ -12753,7 +12753,7 @@
                 </scopecontent>
                 <controlaccess>
                   <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-                  <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.165176 50.690598)">Square Pierre Catteau</geogname>
+                  <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.165162 50.690598, 3.16519 50.690598)">Square Pierre Catteau</geogname>
                   <subject source="thesaurus--SLASH--bnr_chrono.xml">1871-1913</subject>
                 </controlaccess>
                 <dao href="https://www.bn-r.fr/ark:/20179/BNRa011782978112BBrXsv" role="publication:current"/>
@@ -18452,7 +18452,7 @@
                 </scopecontent>
                 <controlaccess>
                   <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
-                  <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.165176 50.690598)">Square Pierre Catteau</geogname>
+                  <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.165162 50.690598, 3.16519 50.690598)">Square Pierre Catteau</geogname>
                 </controlaccess>
                 <daogrp>
                   <daoloc href="RBX_MED_PHO_DIA_DEL2_R4_M03_003_01.jpg" role="access:image"/>

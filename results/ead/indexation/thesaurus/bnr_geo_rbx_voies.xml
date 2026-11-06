@@ -921,6 +921,7 @@
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#sentier_de_la_brasserie"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#sentier_du_pignon_noir"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_bartholdi"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_de_larmistice_du_8_mai_1945"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_de_la_savonnerie_victor_vaissier"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_des_acacias"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_des_chaussettes_noires"/>
@@ -938,6 +939,7 @@
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_jean_baptiste_corot"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_leo_lagrange"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_leon_jouhaux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_catteau"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_destombes"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#allee_antoine_watteau">
@@ -15359,6 +15361,21 @@
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING (3.161343 50.694048, 3.160613 50.693355)</geo:asWKT>
   </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_de_larmistice_du_8_mai_1945">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Square de l'Armistice du 8 Mai 1945</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies"/>
+    <skos:notation>59512_2686</skos:notation>
+    <dct:type xml:lang="fr">square</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Armistice du 8 Mai 1945, square de l'</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_de_larmistice_du_8_mai_1945_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_de_larmistice_du_8_mai_1945_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING (3.201667 50.687181, 3.201695 50.687181)</geo:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_des_acacias">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
@@ -15581,6 +15598,21 @@
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_leon_jouhaux_geometrie">
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING (3.187992 50.696175, 3.18796 50.696217, 3.187665 50.696683)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_catteau">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Square Pierre Catteau</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies"/>
+    <skos:notation>bdtopo:SURFACTI0000000056485508</skos:notation>
+    <dct:type xml:lang="fr">square</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Pierre Catteau, square</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_catteau_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_voies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_catteau_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING (3.165162 50.690598, 3.16519 50.690598)</geo:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_voies#square_pierre_destombes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>

@@ -65294,7 +65294,7 @@
             </scopecontent>
             <controlaccess>
               <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="MULTILINESTRING ((3.164106 50.68988, 3.163471 50.689837, 3.16264 50.689763), (3.164532 50.68991, 3.164455 50.689904, 3.164106 50.68988), (3.166701 50.69005, 3.166821 50.690064, 3.166927 50.690074, 3.167366 50.6901, 3.167534 50.690112, 3.167642 50.690111, 3.167818 50.690074), (3.166486 50.690037, 3.166701 50.69005), (3.165509 50.689976, 3.164687 50.689921, 3.164532 50.68991), (3.166486 50.690037, 3.165509 50.689976))">Rue Rémy Cogghe</geogname>
-              <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.165176 50.690598)">Square Pierre Catteau</geogname>
+              <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.165162 50.690598, 3.16519 50.690598)">Square Pierre Catteau</geogname>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Parcs, jardins et monuments</subject>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Musique</subject>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Rues et places</subject>
@@ -69437,7 +69437,7 @@
               <p>Des immeubles d'habitations autour du square de l'Armistice du 8 Mai 1945.</p>
             </scopecontent>
             <controlaccess>
-              <geogname source="thesaurus--SLASH--bnr_geo_rbx_sites.xml" coord="POINT (3.201681 50.687181)">Square de l'Armistice du 8 Mai 1945</geogname>
+              <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.201667 50.687181, 3.201695 50.687181)">Square de l'Armistice du 8 Mai 1945</geogname>
               <subject source="thesaurus--SLASH--bnr_chrono.xml">1980-1989</subject>
               <subject source="thesaurus--SLASH--bnr_theme.xml">Logement</subject>
             </controlaccess>

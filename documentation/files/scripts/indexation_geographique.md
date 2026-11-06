@@ -8,8 +8,8 @@ des IR (état au **2026-10-29**).
 ## Règle de travail
 
 **Le référentiel des lieux est désormais la seule source** des lieux de
-Roubaix : `data/geo/referentiel_lieux_roubaix.csv` (980 lieux validés : 31
-quartiers, 936 rues, 13 points ; 487 lieux écartés dans
+Roubaix : `data/geo/referentiel_lieux_roubaix.csv` (972 lieux validés : 31
+quartiers, 938 rues, 3 points depuis le 2026-11-06 ; 495 lieux écartés dans
 `referentiel_lieux_roubaix_ecartes.csv`), construit par
 [referentiel_lieux_roubaix.py](referentiel_lieux_roubaix.md) à partir des
 seules sources de référence (BAN, BD TOPO, TOPO, filaire et quartiers MEL,
@@ -108,7 +108,7 @@ dans le référentiel.
    [geogname_applique_concordance](geogname_applique_concordance.md).
 2. **SKOS des quatre thésaurus géographiques : fait le 2026-11-06** par
    [geogname2skos.py](geogname2skos.md) (`results/ead/indexation/thesaurus/bnr_geo_*.xml`,
-   1 187 concepts, tous les lieux des référentiels, géométrie GeoSPARQL,
+   1 187 concepts le 2026-11-06, 1 179 après la réduction des sites à 3, tous les lieux des référentiels, géométrie GeoSPARQL,
    anciens noms, formes des IR, hiérarchie des territoires). Mnesys ne lit ni ne gère
    l'indexation géographique (précisé le 2026-11-05) : aucune question à
    l'éditeur, aucune contrainte Mnesys sur `@coord` ni sur les libellés.
