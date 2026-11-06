@@ -30,6 +30,7 @@ caractères du libellé), comparé aux libellés du référentiel ; les
 | `data/geo/referentiel_communes_pays.csv` / `.gpkg` | Thésaurus communes_pays : lieux hors de Roubaix (communes, départements, pays…), tenu à la main |
 | `data/geo/concordance_geogname_lieux.csv` | Concordance des formes des IR avec les lieux, cf. [geogname_concordance_lieux](geogname_concordance_lieux.md) |
 | `results/ead/ead_cor/bnr2mnesysgeo/` + `results/ead/indexation/bnr2mnesysgeo_rapport.csv` | IR de test avec la concordance appliquée, cf. [geogname_applique_concordance](geogname_applique_concordance.md) |
+| `results/ead/indexation/thesaurus/bnr_geo_*.xml` | Thésaurus SKOS géographiques, cf. [geogname2skos](geogname2skos.md) |
 | `results/ead/indexation/bnr2mnesysgeo_lieux.kml` | KML des lieux indexés dans les IR de test (un repère par lieu, occurrences et documents), cf. [geogname_ir2kml](geogname_ir2kml.md) |
 | `scripts/ead/geogname2csv.py` | Script d'extraction des `<geogname>` (fonction `extraire`) ; cf. [geogname2csv](geogname2csv.md) |
 
@@ -105,12 +106,20 @@ dans le référentiel.
    lon lat, 6 décimales) à la place de l'ancien JSON `[lat, lon]` ;
    textes et `@source` inchangés, cf.
    [geogname_applique_concordance](geogname_applique_concordance.md).
-2. SKOS des thésaurus quartiers / rues / points. Mnesys ne lit ni ne gère
+2. **SKOS des quatre thésaurus géographiques : fait le 2026-11-06** par
+   [geogname2skos.py](geogname2skos.md) (`results/ead/indexation/thesaurus/bnr_geo_*.xml`,
+   1 187 concepts, tous les lieux des référentiels, géométrie GeoSPARQL,
+   anciens noms, formes des IR, hiérarchie des territoires). Mnesys ne lit ni ne gère
    l'indexation géographique (précisé le 2026-11-05) : aucune question à
    l'éditeur, aucune contrainte Mnesys sur `@coord` ni sur les libellés.
 3. Thésaurus communes_pays : construit le 2026-10-29 (182 concepts), toutes les
    formes hors référentiel tranchées ; 183 concepts depuis l'ajout de Mouvaux
-   (Nord) le 2026-10-30 (Rue des Duriez).
+   (Nord) le 2026-10-30 (Rue des Duriez) ; 184 depuis l'ajout d'Armentières
+   (Nord) le 2026-11-06 : la forme « Armentières » sans `@source` (MED_LBI
+   LBI_T06_L2_D001 et D002, MED_LET Let_0148) désignait la ville et avait été
+   alignée par erreur sur le quartier Armentières (libellé exact) ; « Armentières »
+   `@source="quartier"` (MED_PBI, « Quartiers Nord ») reste le quartier.
+   Thésaurus renommé `bnr_geo_territoires` dans les IR le 2026-11-05.
    Lot C revu le 2026-10-29 : 2 formes alignées (Rue Nabuchodonosor, Place Verte),
    14 laissées sans lieu (19 `<geogname>`) avec pistes en remarque, pour la couche historique.
 4. Couche historique : commencée le 2026-10-29 (`noms_anciens.csv`,

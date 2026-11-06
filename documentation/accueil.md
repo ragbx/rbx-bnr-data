@@ -56,7 +56,7 @@ Détail par script :
 
 **Indexation** — à partir des `<controlaccess>` des IR transformés :
 → **[Indexation géographique : état des travaux et reprise](files/scripts/indexation_geographique.md)**
-→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Référentiel des lieux de Roubaix](files/scripts/referentiel_lieux_roubaix.md) · [Concordance formes ↔ lieux](files/scripts/geogname_concordance_lieux.md) · [Application aux IR (test)](files/scripts/geogname_applique_concordance.md) · [KML des lieux des IR](files/scripts/geogname_ir2kml.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md) (ancienne méthode archivée dans `archives/indexation_geo_avant_referentiel/`)
+→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Référentiel des lieux de Roubaix](files/scripts/referentiel_lieux_roubaix.md) · [Concordance formes ↔ lieux](files/scripts/geogname_concordance_lieux.md) · [Application aux IR (test)](files/scripts/geogname_applique_concordance.md) · [KML des lieux des IR](files/scripts/geogname_ir2kml.md) · [SKOS des thésaurus géographiques](files/scripts/geogname2skos.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md) (ancienne méthode archivée dans `archives/indexation_geo_avant_referentiel/`)
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.

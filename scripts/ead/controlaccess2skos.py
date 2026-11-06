@@ -18,7 +18,8 @@ Deux sorties :
 
 Les accès sans source de thésaurus (geogname rue/quartier désactivés, valeurs
 sans source ou hors vocabulaire) sont ignorés pour le SKOS, mais figurent dans
-le CSV.
+le CSV. Les sources bnr_geo_* aussi : ces thésaurus sont produits depuis les
+référentiels par geogname2skos.py.
 
 À lancer depuis la racine du dépôt.
 """
@@ -36,6 +37,8 @@ EAD_FOLDER = join("results", "ead", "ead_cor", "bnr2mnesys")
 CSV_SORTIE = join("results", "ead", "indexation", "controlaccess_extraction.csv")
 DEST_THESAURUS = join("results", "ead", "indexation", "thesaurus")
 PREFIXE_SOURCE = "thesaurus--SLASH--"
+# Thésaurus géographiques produits depuis les référentiels par geogname2skos.py : ne pas les écraser.
+PREFIXE_GEO = PREFIXE_SOURCE + "bnr_geo_"
 
 
 def extraire_controlaccess():
@@ -100,7 +103,8 @@ df.to_csv(CSV_SORTIE, index=False)
 print(f"{len(df)} accès indexés → {CSV_SORTIE}")
 
 makedirs(DEST_THESAURUS, exist_ok=True)
-skos = df[df["source"].str.startswith(PREFIXE_SOURCE, na=False)].copy()
+skos = df[df["source"].str.startswith(PREFIXE_SOURCE, na=False)
+          & ~df["source"].str.startswith(PREFIXE_GEO, na=False)].copy()
 skos = skos[skos["concept"].notna()]
 skos["concept"] = skos["concept"].str.replace("\\", "", regex=False)
 skos = skos[skos["concept"].str.strip() != ""]

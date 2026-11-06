@@ -184,10 +184,21 @@ Les formes « hors référentiel » (communes, départements, pays…) sont
 rattachées au thésaurus **communes_pays**, tenu dans
 `data/geo/referentiel_communes_pays.csv`. Une version GeoPackage
 (`referentiel_communes_pays.gpkg`, couche `communes_pays`) est exportée du CSV
-par `ogr2ogr`. Pour l'instant, ce thésaurus compte 183 concepts : Champagne (France)
+par `ogr2ogr` :
+
+    ogr2ogr -f GPKG data/geo/referentiel_communes_pays.gpkg data/geo/referentiel_communes_pays.csv -oo GEOM_POSSIBLE_NAMES=coord_wkt -oo KEEP_GEOM_COLUMNS=NO -a_srs EPSG:4326 -nln communes_pays -nlt POINT
+
+(supprimer le `.gpkg` avant ; `coord_manuel` y reste une colonne texte). Pour
+l'instant, ce thésaurus compte 207 concepts : Champagne (France)
 a été retiré, Ardennes (France) ajouté, puis 4 concepts du reliquat (voir plus bas),
 puis Mouvaux (Nord) le 2026-10-30 (forme « Duriez, rue des », validée dans
-`validation_sans_lieu_20261030.qgz`).
+`validation_sans_lieu_20261030.qgz`), puis Armentières (Nord) le 2026-11-06
+(forme « Armentières » sans `@source`, 3 `<geogname>` de MED_LBI et MED_LET,
+jusque-là alignée sur le quartier Armentières par le libellé exact ;
+libelle_manuel + validé ; backups `*_backup_20261106_avant_armentieres`),
+puis le même jour 23 parents pour la hiérarchie SKOS (22 départements et
+Coudray (Eure), non cités dans les IR ; backup
+`*_backup_20261106_avant_parents_skos`), cf. [geogname2skos](geogname2skos.md).
 
 Colonnes du CSV :
 

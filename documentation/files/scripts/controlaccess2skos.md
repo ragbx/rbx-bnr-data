@@ -43,6 +43,14 @@ Thésaurus produits : `bnr_genreform`, `bnr_persname`, `bnr_corpname`,
 (geogname `rue`/`quartier` désactivés, valeurs sans source ou hors vocabulaire)
 figurent dans le CSV mais sont ignorés pour le SKOS.
 
+Les thésaurus géographiques (`bnr_geo_*`) sont produits à part, depuis les
+référentiels, par [geogname2skos.py](geogname2skos.md). Les accès dont le
+`@source` commence par `thesaurus--SLASH--bnr_geo_` sont donc exclus du SKOS
+(constante `PREFIXE_GEO`, 2026-11-06) : sans cela, le remplacement de
+`bnr2mnesys` par `bnr2mnesysgeo` ferait écraser ces fichiers par des versions
+réduites aux libellés cités. Ils restent dans le CSV d'extraction. Vérifié sur
+une copie lisant `bnr2mnesysgeo` : 6 thésaurus produits, aucun `bnr_geo_*`.
+
 ---
 
 ## Utilisation
