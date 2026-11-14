@@ -231,6 +231,11 @@ Deux tables tenues à la main, relues à chaque exécution (après les fusions) 
   Gravelines) ; Rues de l'Arc, Saint-Honoré et de la Clef ajoutées (tracés
   OpenHistoricalMap d'après le cadastre de 1845, disparues avec l'Avenue des
   Nations Unies). Saint-Vincent-de-Paul reste sans tracé.
+  Un lieu créé dont la géométrie est un `POINT` va dans le thésaurus des
+  points (sinon des rues). 12 au 2026-11-13 : ajout de l'Hôtel des Pompiers
+  (`bnr:hotel des pompiers`, caserne de 1911 à l'angle du boulevard Gambetta
+  et de la rue Pierre de Roubaix, démolie ; point à l'adresse de la CAF,
+  124 boulevard Gambetta, qui occupe son emplacement).
 
 **Règle (décision du 2026-10-29) : un concept par voie physique.** Un simple
 changement de nom (même tracé) reste un seul concept, libellé au nom
@@ -304,6 +309,24 @@ MEL seul / de la BD TOPO seule ; noms différents selon les sources (dont
 les rattachements par le tracé, à vérifier) ; abréviation dans le libellé ;
 libellé en double dans le thésaurus (calculé sur les lieux conservés, après
 `libelle_manuel`).
+
+### Projet QGIS
+
+`data/geo/referentiel_lieux_roubaix.qgz` affiche le GeoPackage sur les fonds IGN,
+OSM, cadastre, état-major et photos aériennes. Il utilise la **palette de la BnR**
+depuis le 2026-11-06 (noir `#000000`, blanc `#FFFFFF`, turquoise `#2FAAAF`,
+jaune `#E9B400`, violet `#9460A4`, gris `#ADA796`) :
+
+- quartiers : turquoise, jaune, violet, gris (fond à 40 %, contour plein) ; deux
+  quartiers voisins n'ont jamais la même couleur (coloriage de
+  [geogname_ir2kml.py](geogname_ir2kml.md), les mêmes couleurs que le KML) ;
+  style catégorisé sur `lieu_id`, à refaire si les quartiers changent ;
+- voies actuelles en noir ; voies historiques (disparues) en violet, tiretées ;
+- points (sites) en noir cerclé de blanc ;
+- écartés en gris ;
+- étiquettes en noir avec un liseré blanc.
+
+Backup : `referentiel_lieux_roubaix.backup_20261106_avant_palette.qgz`.
 
 ## État au 2026-10-30
 

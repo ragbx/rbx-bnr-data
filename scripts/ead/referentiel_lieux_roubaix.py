@@ -697,15 +697,17 @@ def fusionner(lieux):
 
 
 def charger_historique(lieux):
-    """Couche historique : voies disparues de LIEUX_DISPARUS (créées si aucune source ne les
-    connaît ; dates, voie de remplacement et tracé historique, qui prime sur les autres
+    """Couche historique : lieux disparus de LIEUX_DISPARUS (créés si aucune source ne les
+    connaît, dans le thésaurus des points si leur géométrie est un point, des rues sinon ;
+    dates, lieu de remplacement et tracé historique, qui prime sur les autres
     géométries), puis anciens noms de NOMS_ANCIENS, ajoutés à nom_ancien."""
     if exists(LIEUX_DISPARUS):
         with open(LIEUX_DISPARUS, encoding="utf-8") as f:
             for d in csv.DictReader(f):
                 l = lieux.get(d["lieu_id"])
                 if l is None:
-                    l = lieux[d["lieu_id"]] = nouveau_lieu(d["lieu_id"], "rues")
+                    point = d["trace_wkt"].lstrip().upper().startswith("POINT")
+                    l = lieux[d["lieu_id"]] = nouveau_lieu(d["lieu_id"], "points" if point else "rues")
                     l["noms"]["historique"] = d["libelle"]
                     l["categorie"] = d["categorie"]
                 l["sources"].add("historique")

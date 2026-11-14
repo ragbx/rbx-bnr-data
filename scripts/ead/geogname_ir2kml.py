@@ -1,57 +1,120 @@
 """KML des lieux indexés dans les IR réécrits (results/ead/ead_cor/bnr2mnesysgeo/).
 
-Lit les <geogname> des thésaurus géographiques (quartiers, voies, sites, territoires)
-et leur @coord (WKT), tels qu'écrits par geogname_applique_concordance.py, et produit un
+Lit les <geogname> des thésaurus géographiques de Roubaix (quartiers, voies, sites ;
+les territoires, communes et pays, sont laissés hors du KML depuis le 2026-11-08) et leur @coord (WKT), tels qu'écrits par geogname_applique_concordance.py, et produit un
 repère par lieu (thésaurus + libellé) : géométrie d'après le @coord (point, tracé,
-tracé multiple ; contour pour les quartiers), nombre d'occurrences, répartition par
-IR et liste des documents (cote, titre, date), dans un dossier par thésaurus.
+tracé multiple ; contour pour les quartiers), dans un dossier par thésaurus. La fiche
+ne montre que le libellé, le nombre d'occurrences et un lien vers la recherche de la
+BN-R (2026-11-08).
+
+Lien BN-R : la BN-R indexe les IR d'origine (data/ead/bnr), pas les IR réécrits. Les
+formes d'origine d'un lieu sont prises dans la concordance (forme + @source → lieu) ;
+le lien cherche le texte de chacune, entre guillemets, dans l'index de son @source
+(INDEX_BNR : rue, quartier, adresse ; sujet_geo pour les formes sans @source), les
+critères reliés par OR : un seul lien par lieu, quel que soit son nombre de formes.
+
+Les voies ont en plus, dans un dernier dossier « Voies : zones de clic » replié, un
+repère de même nom et même description dont la géométrie est un tampon invisible de
+TAMPON_M mètres : il rend la voie cliquable autour de la ligne. Les voies elles-mêmes
+restent de simples lignes (lisibles comme telles dans QGIS).
+
+uMap ne lit pas les styles KML (import par togeojson, tout dans la couleur par défaut,
+tampons des voies visibles) : les mêmes lieux sont donc aussi écrits au format natif
+de uMap (.umap, à côté du KML), un calque par thésaurus, couleurs dans les options
+uMap des calques et des quartiers, descriptions dans la syntaxe de uMap, sans les
+zones de clic (2026-11-08).
 
 Les <geogname> sans @coord (lieu sans géométrie ou forme sans lieu) ne peuvent pas
 être placés : ils sont comptés en fin d'exécution.
 
 Usage : python scripts/ead/geogname_ir2kml.py [--ir-dir DIR] [--sortie FICHIER.kml]
+        [--sortie-umap FICHIER.umap] [--concordance FICHIER.csv]
 """
-import argparse, re
+import argparse, csv, json, re
 from collections import Counter, defaultdict
 from glob import glob
 from html import escape
-from os.path import basename, dirname, join, realpath
+from os.path import dirname, join, realpath
+from urllib.parse import urlencode
 
 from lxml import etree
-from shapely import wkt
+from pyproj import Transformer
+from shapely import set_precision, wkt
+from shapely.geometry import mapping
+from shapely.ops import transform
 
 RACINE = dirname(dirname(dirname(realpath(__file__))))
 IR_DIR = join(RACINE, "results/ead/ead_cor/bnr2mnesysgeo")
 SORTIE = join(RACINE, "results/ead/indexation/bnr2mnesysgeo_lieux.kml")
+CONCORDANCE = join(RACINE, "data/geo/concordance_geogname_lieux.csv")
+def kml_bgr(rvb):
+    """Couleur « #RRVVBB » → « bbggrr » (ordre KML, sans l'opacité)."""
+    rvb = rvb.lstrip("#")
+    return (rvb[4:6] + rvb[2:4] + rvb[0:2]).lower()
+
+
+# Palette de la BnR (2026-11-06) : noir #000000, blanc #FFFFFF, turquoise #2FAAAF,
+# jaune #E9B400, violet #9460A4, gris #ADA796.
+NOIR, TURQUOISE, JAUNE, VIOLET, GRIS = "#000000", "#2FAAAF", "#E9B400", "#9460A4", "#ADA796"
 THESAURUS = {  # fichier @source → (clé, titre du dossier, couleur KML aabbggrr)
-    "bnr_geo_rbx_quartiers.xml": ("quartiers", "Quartiers", "ff8e24aa"),
-    "bnr_geo_rbx_voies.xml": ("rues", "Voies", "ff3935e5"),
-    "bnr_geo_rbx_sites.xml": ("points", "Sites", "ff00a5ff"),
-    "bnr_geo_territoires.xml": ("communes_pays", "Territoires", "ffe5881e"),
+    "bnr_geo_rbx_quartiers.xml": ("quartiers", "Quartiers", "ff" + kml_bgr(VIOLET)),
+    "bnr_geo_rbx_voies.xml": ("rues", "Voies", "ff" + kml_bgr(NOIR)),
+    "bnr_geo_rbx_sites.xml": ("points", "Sites", "ff" + kml_bgr(NOIR)),
 }
-MAX_DOCUMENTS = 30
+CLES = {cle for cle, _, _ in THESAURUS.values()}
+HORS_KML = {"bnr_geo_territoires.xml"}  # territoires (communes, pays) : retirés du KML le 2026-11-08
+# Recherche avancée de la BN-R (2026-11-08) : index par @source de la forme d'origine (vérifié sur
+# le site : « Mascara, rue de » 2 résultats en rue, « Hutin » 1 en quartier ; les formes sans
+# @source ne sont trouvées que par sujet_geo). Recherche par texte seulement, pas par coordonnées.
+BNR_RECHERCHE = "https://www.bn-r.fr/resultat.php"
+INDEX_BNR = {"rue": "rue", "quartier": "quartier", "adresse": "adresse", "": "sujet_geo"}
 KML = "http://www.opengis.net/kml/2.2"
-# Couleurs des quartiers (aabbggrr, sans l'opacité) : deux quartiers qui se touchent
-# n'ont jamais la même (coloriage glouton DSATUR du graphe de voisinage).
-COULEURS_QUARTIERS = ["e5881e", "3935e5", "43a047", "00a5ff", "aa248e", "8bb800", "6d4c79"]
+# Couleurs des quartiers (bbggrr, sans l'opacité), les 4 couleurs de la palette hors noir et
+# blanc : deux quartiers qui se touchent n'ont jamais la même (coloriage glouton DSATUR du
+# graphe de voisinage ; 4 couleurs sont nécessaires et suffisent).
+QUARTIERS_RVB = (TURQUOISE, JAUNE, VIOLET, GRIS)
+COULEURS_QUARTIERS = [kml_bgr(c) for c in QUARTIERS_RVB]
+# Calques uMap (même ordre que les dossiers du KML) : options de style uMap par thésaurus.
+UMAP_CALQUES = {
+    "quartiers": {"weight": 2, "opacity": 1, "fillOpacity": 0.5},
+    "rues": {"color": NOIR, "weight": 3, "opacity": 1},
+    "points": {"color": NOIR, "iconClass": "Circle"},
+}
+CENTRE_UMAP = (3.1746, 50.6942)  # Roubaix (lon, lat)
 VOISINAGE_M = 1e-5  # tolérance de contact entre contours (degrés, environ 1 m)
+# Tampon invisible des voies : une ligne fine (ou les squares, lignes de 2 m) est difficile à
+# viser ; le polygone transparent autour d'elle rend la voie cliquable à TAMPON_M mètres près.
+TAMPON_M = 30  # 15 m le 2026-11-06, porté à 30 m le même jour
+VERS_L93 = Transformer.from_crs(4326, 2154, always_xy=True).transform
+VERS_WGS84 = Transformer.from_crs(2154, 4326, always_xy=True).transform
 
 
 def texte(e):
     return re.sub(r"\s+", " ", "".join(e.itertext())).strip() if e is not None else ""
 
 
-def notice(g):
-    """(cote, titre, date) de la notice <c> qui porte le geogname."""
-    c = g.getparent()
-    while c is not None and not re.fullmatch(r"(\{.*\})?c(\d\d)?", c.tag):
-        c = c.getparent()
-    if c is None:
-        return ("", "(niveau IR)", "")
-    did = c.find("{*}did")
-    if did is None:
-        return ("", "", "")
-    return texte(did.find("{*}unitid")), texte(did.find("{*}unittitle")), texte(did.find("{*}unitdate"))
+def formes_origine(chemin):
+    """Concordance → {(thésaurus, libellé retenu): [(@source, forme d'origine), …]}, formes les
+    plus fréquentes d'abord."""
+    formes = defaultdict(list)
+    with open(chemin, encoding="utf-8") as f:
+        lignes = [r for r in csv.DictReader(f) if r["lieu_id"] and r["thesaurus"] in CLES]
+    for r in sorted(lignes, key=lambda r: -int(r["occurrences"] or 0)):
+        cle = (r["source"], r["forme"])
+        if r["source"] in INDEX_BNR and cle not in formes[(r["thesaurus"], r["libelle_retenu"])]:
+            formes[(r["thesaurus"], r["libelle_retenu"])].append(cle)
+    return formes
+
+
+def lien_bnr(libelle, formes):
+    """Recherche avancée BN-R : chaque forme d'origine dans l'index de son @source, reliées par OR."""
+    criteres = []
+    for i, (source, forme) in enumerate(formes):
+        criteres += [("bool[]", "OR" if i else ""), ("index[]", INDEX_BNR[source]), ("value[]", f'"{forme}"')]
+    return BNR_RECHERCHE + "?" + urlencode(
+        [("type_rech", "pl"), *criteres, ("spec_expand", "1"), ("typedoc", ""), ("docnum", ""),
+         ("spec_tri_annee_start", ""), ("spec_tri_annee_end", ""), ("sort_define", "score"),
+         ("sort_order", "1"), ("rows", "10"), ("fq", "1"), ("decouvrir_par_terme", libelle)])
 
 
 def coordonnees(suite):
@@ -63,19 +126,45 @@ def ligne_kml(ligne):
     return f"<LineString><tessellate>1</tessellate><coordinates>{coordonnees(ligne.coords)}</coordinates></LineString>"
 
 
+def polygone_kml(poly):
+    anneaux = "".join(f"<innerBoundaryIs><LinearRing><coordinates>{coordonnees(a.coords)}</coordinates></LinearRing></innerBoundaryIs>"
+                      for a in poly.interiors)
+    return ("<Polygon><outerBoundaryIs><LinearRing><coordinates>"
+            f"{coordonnees(poly.exterior.coords)}</coordinates></LinearRing></outerBoundaryIs>{anneaux}</Polygon>")
+
+
+def tampon_kml(coord):
+    """Tampon de TAMPON_M mètres autour d'une voie (calculé en Lambert 93, simplifié, arrondi à
+    6 décimales) → élément de géométrie KML (texte)."""
+    zone = set_precision(transform(VERS_WGS84, transform(VERS_L93, wkt.loads(coord)).buffer(TAMPON_M).simplify(1)), 1e-6)
+    if zone.geom_type == "Polygon":
+        return polygone_kml(zone)
+    return f"<MultiGeometry>{''.join(polygone_kml(p) for p in zone.geoms)}</MultiGeometry>"
+
+
 def geometrie(coord):
     """@coord (WKT, lon lat) → élément de géométrie KML (texte)."""
     geo = wkt.loads(coord)
     if geo.geom_type == "Point":
         return f"<Point><coordinates>{geo.x},{geo.y}</coordinates></Point>"
     if geo.geom_type == "Polygon":
-        return ("<Polygon><outerBoundaryIs><LinearRing><coordinates>"
-                f"{coordonnees(geo.exterior.coords)}</coordinates></LinearRing></outerBoundaryIs></Polygon>")
+        return polygone_kml(geo)
     if geo.geom_type == "LineString":
         return ligne_kml(geo)
     if geo.geom_type == "MultiLineString":
         return f"<MultiGeometry>{''.join(ligne_kml(l) for l in geo.geoms)}</MultiGeometry>"
     raise ValueError(f"géométrie non prévue : {geo.geom_type}")
+
+
+def feature_umap(lib, l, n, lien, couleur):
+    """Feature GeoJSON du format uMap : nom = libellé, description dans la syntaxe de uMap
+    (occurrences, lien [[url|texte]]), couleur du quartier dans ses options uMap (les autres
+    prennent celle du calque)."""
+    description = f"{n} occurrence{'s' if n > 1 else ''}" + (f"\n[[{lien}|Voir sur la BN-R]]" if lien else "")
+    proprietes = {"name": lib, "description": description}
+    if couleur is not None:
+        proprietes["_umap_options"] = {"color": QUARTIERS_RVB[couleur], "fillColor": QUARTIERS_RVB[couleur]}
+    return {"type": "Feature", "geometry": mapping(wkt.loads(l["coord"])), "properties": proprietes}
 
 
 def colorier_quartiers(contours):
@@ -99,17 +188,22 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--ir-dir", default=IR_DIR)
     parser.add_argument("--sortie", default=SORTIE)
+    parser.add_argument("--sortie-umap", help="défaut : le KML en .umap")
+    parser.add_argument("--concordance", default=CONCORDANCE)
     args = parser.parse_args()
+    args.sortie_umap = args.sortie_umap or re.sub(r"\.kml$", "", args.sortie) + ".umap"
 
     lieux = {}  # (thésaurus, libellé) → données
     sans_coord = Counter()
+    hors_kml = 0
     fichiers = sorted(glob(join(args.ir_dir, "*.xml")))
     for fichier in fichiers:
-        ir = re.sub(r"^FR\d+_", "", basename(fichier))[:-4]
         for g in etree.parse(fichier).iter("{*}geogname"):
             source = g.get("source", "").replace("--SLASH--", "/").split("/")[-1]
             if source not in THESAURUS:
-                if source in ("rue", ""):
+                if source in HORS_KML:
+                    hors_kml += 1
+                elif source in ("rue", ""):
                     sans_coord["forme sans lieu"] += 1
                 continue
             thesaurus = THESAURUS[source][0]
@@ -117,53 +211,78 @@ def main():
             if not coord:
                 sans_coord[f"{thesaurus} sans géométrie"] += 1
                 continue
-            l = lieux.setdefault((thesaurus, libelle), {"coord": coord, "par_ir": Counter(), "documents": []})
-            l["par_ir"][ir] += 1
-            l["documents"].append((ir,) + notice(g))
+            l = lieux.setdefault((thesaurus, libelle), {"coord": coord, "n": 0})
+            l["n"] += 1
 
     kml = ['<?xml version="1.0" encoding="UTF-8"?>', f'<kml xmlns="{KML}"><Document>',
            "<name>Lieux indexés dans les IR de la BnR (bnr2mnesysgeo)</name>",
            "<description>Un repère par lieu des thésaurus géographiques, d'après les &lt;geogname&gt; et leur @coord "
-           "dans les IR réécrits ; nombre d'occurrences et documents en description.</description>"]
+           "dans les IR réécrits ; nombre d'occurrences et lien vers la recherche de la BN-R.</description>"]
     for _, (cle, titre, couleur) in THESAURUS.items():
         kml.append(f'<Style id="{cle}"><IconStyle><color>{couleur}</color><scale>0.8</scale></IconStyle>'
                    f"<LineStyle><color>{couleur}</color><width>3</width></LineStyle>"
                    f"<PolyStyle><color>40{couleur[2:]}</color></PolyStyle></Style>")
+    # Tampons des voies : remplis mais entièrement transparents (alpha 00), sans contour ; dossier
+    # replié dans la liste (checkHideChildren).
+    kml.append('<Style id="rues_clic"><LineStyle><color>00ffffff</color><width>0</width></LineStyle>'
+               "<PolyStyle><color>00ffffff</color><fill>1</fill><outline>0</outline></PolyStyle></Style>"
+               '<Style id="dossier_clic"><ListStyle><listItemType>checkHideChildren</listItemType></ListStyle></Style>')
     couleur_quartier = colorier_quartiers({lib: l["coord"] for (th, lib), l in lieux.items() if th == "quartiers"})
     for i, c in enumerate(COULEURS_QUARTIERS):
         kml.append(f'<Style id="quartiers_{i}"><LineStyle><color>ff{c}</color><width>2</width></LineStyle>'
                    f"<PolyStyle><color>80{c}</color></PolyStyle></Style>")
+    clic = []  # repères des tampons des voies, écrits dans un dossier à part, en dernier
+    origine = formes_origine(args.concordance)
+    sans_lien = []
+    umap_features = defaultdict(list)  # thésaurus → features uMap
     for _, (cle, titre, _) in THESAURUS.items():
         du_thesaurus = sorted(((lib, l) for (th, lib), l in lieux.items() if th == cle), key=lambda x: x[0].lower())
         kml.append(f"<Folder><name>{escape(titre)} ({len(du_thesaurus)})</name>")
         for lib, l in du_thesaurus:
-            n = sum(l["par_ir"].values())
-            par_ir = ", ".join(f"{ir} {k}" for ir, k in l["par_ir"].most_common())
-            docs = "".join(f"<li>{escape(ir)} {escape(cote)} — {escape(titre_doc)}{' (' + escape(date) + ')' if date else ''}</li>"
-                           for ir, cote, titre_doc, date in l["documents"][:MAX_DOCUMENTS])
-            reste = n - min(n, MAX_DOCUMENTS)
-            description = (f"<p><b>{n} occurrence{'s' if n > 1 else ''}</b> ({escape(par_ir)})</p><ul>{docs}</ul>"
-                           + (f"<p>… et {reste} autre{'s' if reste > 1 else ''}</p>" if reste else ""))
-            style = f"quartiers_{couleur_quartier[lib]}" if cle == "quartiers" else cle
-            kml.append(f"<Placemark><name>{escape(lib)} ({n})</name><styleUrl>#{style}</styleUrl>"
-                       f"<description><![CDATA[{description}]]></description>"
-                       f'<ExtendedData><Data name="libelle"><value>{escape(lib)}</value></Data>'
-                       f'<Data name="thesaurus"><value>{cle}</value></Data>'
+            n = l["n"]
+            formes = origine.get((cle, lib))
+            lien = lien_bnr(lib, formes) if formes else ""
+            if not lien:
+                sans_lien.append(f"{titre} : {lib}")
+            umap_features[cle].append(feature_umap(lib, l, n, lien,
+                                                   couleur_quartier.get(lib) if cle == "quartiers" else None))
+            description = (f"<p>{n} occurrence{'s' if n > 1 else ''}</p>"
+                           + (f'<p><a href="{escape(lien)}">Voir sur la BN-R</a></p>' if lien else ""))
+            donnees = (f'<ExtendedData><Data name="libelle"><value>{escape(lib)}</value></Data>'
                        f'<Data name="occurrences"><value>{n}</value></Data>'
-                       f'<Data name="ir"><value>{escape(par_ir)}</value></Data>'
-                       + (f'<Data name="couleur"><value>{couleur_quartier[lib]}</value></Data>' if cle == "quartiers" else "")
-                       + "</ExtendedData>"
+                       f'<Data name="lien"><value>{escape(lien)}</value></Data></ExtendedData>')
+            style = f"quartiers_{couleur_quartier[lib]}" if cle == "quartiers" else cle
+            kml.append(f"<Placemark><name>{escape(lib)}</name><styleUrl>#{style}</styleUrl>"
+                       f"<description><![CDATA[{description}]]></description>{donnees}"
                        f"{geometrie(l['coord'])}</Placemark>")
+            if cle == "rues":
+                clic.append(f"<Placemark><name>{escape(lib)}</name><styleUrl>#rues_clic</styleUrl>"
+                            f"<description><![CDATA[{description}]]></description>{donnees}"
+                            f"{tampon_kml(l['coord'])}</Placemark>")
         kml.append("</Folder>")
+    # Dernier dossier, pour ne pas décaler le numéro des couches précédentes (projet QGIS : layerid).
+    kml.append(f"<Folder><name>Voies : zones de clic</name><styleUrl>#dossier_clic</styleUrl>{''.join(clic)}</Folder>")
     kml.append("</Document></kml>")
     with open(args.sortie, "w", encoding="utf-8") as f:
         f.write("\n".join(kml))
+    umap = {"type": "umap", "geometry": {"type": "Point", "coordinates": list(CENTRE_UMAP)},
+            "properties": {"name": "Lieux indexés dans les IR de la BnR (bnr2mnesysgeo)", "zoom": 14},
+            "layers": [{"type": "FeatureCollection", "features": umap_features[cle],
+                        # options du calque dans _umap_options : seule clé lue par uMap en
+                        # service (2026-11-08) ; la version en développement la lit encore
+                        # (rétrocompatibilité, son nouveau format met « properties »)
+                        "_umap_options": {"name": titre, **UMAP_CALQUES[cle]}}
+                       for _, (cle, titre, _) in THESAURUS.items()]}
+    with open(args.sortie_umap, "w", encoding="utf-8") as f:
+        json.dump(umap, f, ensure_ascii=False)
 
-    print(f"{len(fichiers)} IR → {args.sortie}")
+    print(f"{len(fichiers)} IR → {args.sortie}, {args.sortie_umap}")
     for _, (cle, titre, _) in THESAURUS.items():
         du = [l for (th, _), l in lieux.items() if th == cle]
-        print(f"  {titre} : {len(du)} lieux, {sum(sum(l['par_ir'].values()) for l in du)} occurrences")
+        print(f"  {titre} : {len(du)} lieux, {sum(l['n'] for l in du)} occurrences")
     print("  non placés :", dict(sans_coord))
+    print(f"  territoires laissés hors du KML : {hors_kml} occurrences")
+    print(f"  sans lien BN-R (aucune forme d'origine dans la concordance) : {len(sans_lien)}", *sans_lien[:20], sep="\n    ")
 
 
 if __name__ == "__main__":
