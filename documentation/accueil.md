@@ -12,7 +12,8 @@ Pour le vocabulaire employé, voir le [Glossaire](files/glossaire.md).
 ## Accès rapides
 
 - [Suivi des corpus](../results/corpus_liste/suivi_corpus.xlsx?raw=true) — `results/corpus_liste/suivi_corpus.xlsx`, généré par [suivi_corpus.py](files/scripts/suivi_corpus.md). C'est une liste détaillée des corpus, qui indique pour chacun le taux de transfert vers le stockage S3.
-- [Fichier de référence (dernière version)](../results/ref/_ref_files_20260630.csv.gz?raw=true) — `results/ref/_ref_files_20260630.csv.gz`
+- [Fichier de référence (dernière version)](../results/ref/_ref_files_20261026.csv.gz?raw=true) — `results/ref/_ref_files_20261026.csv.gz`
+- [Carte « Bn-r : accès par plan »](https://medrbx.github.io/carte-bnr/) — carte publique des lieux de Roubaix cités dans les inventaires (dépôt `medrbx/carte-bnr`, générée par [carte_leaflet.py](files/scripts/carte_leaflet.md))
 - [IR prêts pour Mnesys](../results/ead/ead_cor/bnr2mnesys/) — `results/ead/ead_cor/bnr2mnesys/`. Répertoire contenant les IR issus de la bn-r prêts à être intégrés dans Mnesys (renommés, nettoyés, enrichis, ...).
 - [Répertoires en traitement S3 KO](../results/s3/repertoires_traitement_s3_ko.xlsx?raw=true) — `results/s3/repertoires_traitement_s3_ko.xlsx`, généré par [repertoires_traitement_s3_ko.py](files/scripts/repertoires_traitement_s3_ko.md). Liste des répertoires contenant des fichiers qui restent à traiter en vue d'un transfert vers le stockage S3.
 - [Stats DAO par IR](../results/dao/) — `results/dao/dao_stats_ir_{date}.xlsx`, généré par [dao_stats_ir.py](files/scripts/dao_stats_ir.md)
@@ -55,8 +56,16 @@ Détail par script :
 → [Liste des IR à traiter](files/scripts/ead_liste_ir.md) · [ead_bnr2mnesys](files/scripts/ead_bnr2mnesys.md) (id Mnesys : [mnesys_id](files/scripts/mnesys_id.md), [alignement sur un export Mnesys](files/scripts/ead_ids_mnesys.md)) · [Tri des composants par cote](files/scripts/ead_tri_unitid.md) · [Nettoyage du texte](files/scripts/ead_nettoie_texte.md) · [Remontée des controlaccess](files/scripts/ead_remonte_controlaccess.md) · [Niveaux otherlevel](files/scripts/ead_otherlevel.md) · [Liens sans conservation](files/scripts/dao_sans_conservation.md) · [Appariement des orphelins](files/scripts/dao_appariement_conservation.md) · [Développement des plages](files/scripts/dao_first_last_developpe.md) · [Vérification dans le référentiel](files/scripts/dao_first_last_verif_ref.md) · [Plages non contiguës](files/scripts/dao_first_last_plages_lacunaires.md) · [Accès sans conservation](files/scripts/dao_first_last_access_sans_conservation.md)
 
 **Indexation** — à partir des `<controlaccess>` des IR transformés :
-→ **[Indexation géographique : état des travaux et reprise](files/scripts/indexation_geographique.md)**
-→ [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [Référentiel des lieux de Roubaix](files/scripts/referentiel_lieux_roubaix.md) · [Concordance formes ↔ lieux](files/scripts/geogname_concordance_lieux.md) · [Application aux IR (test)](files/scripts/geogname_applique_concordance.md) · [KML des lieux des IR](files/scripts/geogname_ir2kml.md) · [SKOS des thésaurus géographiques](files/scripts/geogname2skos.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Stats DAO par IR](files/scripts/dao_stats_ir.md) (ancienne méthode archivée dans `archives/indexation_geo_avant_referentiel/`)
+→ **[Indexation géographique : état des travaux et reprise](files/scripts/indexation_geographique.md)** — page de reprise (état, reste à faire, fichiers en service), à jour au 14/11/2026
+
+- *Référentiel et concordance* : [Référentiel des lieux de Roubaix](files/scripts/referentiel_lieux_roubaix.md) (couche historique `lieux_disparus.csv`, sites encore debout ajoutés à la main dans `lieux_ajoutes.csv`, parcs en points, squares en rues) · [Concordance formes ↔ lieux](files/scripts/geogname_concordance_lieux.md) · [Application aux IR (test)](files/scripts/geogname_applique_concordance.md) · [Extraction des geogname en CSV](files/scripts/geogname2csv.md) · [Vedettes RAMEAU de lieu](files/scripts/rameau_lieux.md)
+- *Sites (bâtiments)* : [Sites candidats dans les notices](files/scripts/sites_candidats.md) · [Sites sans point : propositions et validation QGIS](files/scripts/sites_sans_point.md) (projet `data/geo/validation_sites_sans_point_20261114.qgz`, report `--reporter` ; intégration au référentiel à faire, cf. page de reprise)
+- *Quartiers* : [Découpage à 13 quartiers](files/scripts/quartiers_13.md) · [Rattachement des rues ambiguës](files/scripts/rues_rattachement.md) · [Quartier des notices (31)](files/scripts/quartiers_31_rues_notices.md)
+- *Thésaurus et Mnesys* : [Génération des thésaurus SKOS](files/scripts/controlaccess2skos.md) · [SKOS des thésaurus géographiques](files/scripts/geogname2skos.md) (un fichier par thésaurus, quartiers en note, pour Mnesys et l'archive) · [Tests d'import Mnesys rues → quartiers](files/scripts/rues_quartiers2skos.md)
+- *Cartes* : [Carte « pros » du référentiel (uMap, KML)](files/scripts/quartiers2kml.md) · [Carte « public » des lieux des IR (uMap, KML)](files/scripts/geogname_ir2kml.md) · [Carte Leaflet « Bn-r : accès par plan »](files/scripts/carte_leaflet.md) (publication `medrbx/carte-bnr`) · [Vérification des liens BN-R](files/scripts/verifier_liens_bnr.md)
+- *Cartes et plans anciens de la BN-R* : [Liste (MED, AMR)](files/scripts/cartes_anciennes.md) · [Copie des images sur clé USB](files/scripts/cartes_vers_usb.md)
+
+Autres : [Stats DAO par IR](files/scripts/dao_stats_ir.md) ; ancienne méthode d'indexation archivée dans `archives/indexation_geo_avant_referentiel/`.
 
 ### 4. Préparer la publication des corpus
 Préparer les données en vue de leur publication en ligne.

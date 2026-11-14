@@ -204,6 +204,29 @@ sont validés « ne pas conserver » et passent dans `_ecartes.csv`.
 Référentiel : **972 lieux (31 quartiers, 938 rues, 3 points)**, 495 écartés ;
 backups `*_backup_20261106_avant_sites`.
 
+**Les parcs sont des points (décision du 2026-11-14).** Contrairement aux
+squares (des rues), un parc est un point. Règle générale du script
+(`est_parc`, dans `charger_zones`) : quand un espace public BD TOPO de nature
+« Parc » est rattaché par son nom à une voie dont le nom commence par
+« Parc », la voie passe dans le thésaurus des points ; elle garde son
+identifiant (BAN/TOPO) et reçoit l'emprise du parc (point dans l'emprise,
+`emprise_wkt`), son tracé de voie n'étant pas gardé. Seul cas au
+2026-11-14 : **Parc de la Potennerie** (`59512_4595`, 18 adresses BAN,
+espace public `SURFACTI0000000085045888`), auparavant rue de catégorie
+« parc ». Référentiel : 31 quartiers, **937 rues, 6 points** ; backups
+`*.backup_20261114_avant_parcs`. À la même exécution, trois tracés
+historiques (Quai de Calais, Rue Darbo, Rue de l'Arc) ont varié au 6ᵉ
+chiffre (moins de 15 cm) : arrondi de la reprojection sous Windows. Le script
+s'arrêtait sous Windows (`csv.field_size_limit(sys.maxsize)` déborde) :
+limite ramenée à `2**31 - 1`.
+
+**Exception hors Roubaix (décision du 2026-11-14).** Le Château Vaissier
+(« château du Congo »), à Tourcoing, très cité dans les IR, entrera comme
+point géolocalisé du référentiel malgré sa commune, comme lieu créé à
+géométrie POINT : `retirer_hors_roubaix`, qui ne traite que les rues, ne le
+concerne pas (pas de quartier de rattachement). Les autres lieux hors de
+Roubaix restent rattachés à leur commune (thésaurus des territoires).
+
 ### Couche historique (2026-10-29)
 
 Deux tables tenues à la main, relues à chaque exécution (après les fusions) :
@@ -236,6 +259,20 @@ Deux tables tenues à la main, relues à chaque exécution (après les fusions) 
   (`bnr:hotel des pompiers`, caserne de 1911 à l'angle du boulevard Gambetta
   et de la rue Pierre de Roubaix, démolie ; point à l'adresse de la CAF,
   124 boulevard Gambetta, qui occupe son emplacement).
+
+**Lieux ajoutés (décision du 2026-11-14).** Les sites **encore debout** que
+les sources ne donnent pas en point (église Sainte-Élisabeth, médiathèque,
+ENSAIT…) vont dans une table à part, **`data/geo/lieux_ajoutes.csv`**, tenue à
+la main ; `lieux_disparus.csv` reste réservé aux lieux disparus (couche
+historique). Colonnes : `lieu_id` (`bnr:<nom normalisé>`), `libelle`,
+`categorie`, `coord_wkt` (POINT, WGS84), `variantes` (autres noms, séparés par
+« | »), `source_coord` (OSM, adresse des notes, saisie…), `source`,
+`remarque`. Lue par `charger_ajouts`, après la couche historique : un point
+créé par ligne (thésaurus des points), source « ajout », `source_geometrie` =
+« saisie (lieux ajoutés) » ; si le `lieu_id` existe déjà, sa position est
+remplacée et les variantes ajoutées. Table vide au 2026-11-14 (en-tête
+seul) : référentiel inchangé, vérifié ; testée avec une ligne (point créé,
+quartier calculé), puis retirée.
 
 **Règle (décision du 2026-10-29) : un concept par voie physique.** Un simple
 changement de nom (même tracé) reste un seul concept, libellé au nom

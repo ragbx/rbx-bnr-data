@@ -76,7 +76,7 @@ from shapely import force_2d, get_dimensions, make_valid, wkb, wkt
 from shapely.geometry import MultiLineString, MultiPoint, MultiPolygon, shape
 from shapely.ops import transform, unary_union
 
-csv.field_size_limit(sys.maxsize)
+csv.field_size_limit(2**31 - 1)  # sys.maxsize déborde le long C sous Windows
 
 GEO = join("data", "geo")
 BAN_CSV = join(GEO, "ban_roubaix.csv")
@@ -92,6 +92,11 @@ SORTIE_ECARTES = join(GEO, "referentiel_lieux_roubaix_ecartes.csv")
 # voie qui les a remplacées, tracé historique).
 NOMS_ANCIENS = join(GEO, "noms_anciens.csv")
 LIEUX_DISPARUS = join(GEO, "lieux_disparus.csv")
+# Lieux encore debout ajoutés à la main (décision du 2026-11-14) : sites sans point dans les sources
+# (église Sainte-Élisabeth, médiathèque…), position OSM, adresse des notes ou saisie ; les lieux
+# disparus restent dans LIEUX_DISPARUS. Colonnes : lieu_id, libelle, categorie, coord_wkt (POINT,
+# WGS84), variantes (séparées par « | »), source_coord, source, remarque.
+LIEUX_AJOUTES = join(GEO, "lieux_ajoutes.csv")
 # Valeur de validation qui retire un lieu du référentiel (mis de côté dans SORTIE_ECARTES).
 NE_PAS_CONSERVER = "ne pas conserver"
 
@@ -390,7 +395,8 @@ def plus_proche(candidats, g, lieux, distance_max):
 
 def geometrie_l93(l):
     """(géométrie Lambert 93, source) d'un lieu : tracé ou emprise, sinon centre des adresses BAN."""
-    for source, libelle in (("historique", "tracé historique"), ("bdtopo", "BD TOPO"), ("mel", "MEL"),
+    for source, libelle in (("historique", "tracé historique"), ("ajout", "saisie (lieux ajoutés)"),
+                            ("bdtopo", "BD TOPO"), ("mel", "MEL"),
                             ("zone", "BD TOPO (emprise)")):
         if l["geoms"][source]:
             g = make_valid(unary_union(l["geoms"][source]))
@@ -603,6 +609,13 @@ def sans_article(nom):
     return ARTICLE_INITIAL.sub("", nom).strip()
 
 
+def est_parc(o, l):
+    """Espace public « Parc » de la BD TOPO rattaché à une voie qui porte le nom d'un parc
+    (« Parc de la Potennerie ») : le lieu est un parc, donc un point (décision du 2026-11-14)."""
+    noms = [l["noms"].get(s, "") for s in ("ban", "bdtopo", "topo")]
+    return (o["nature_detaillee"] or "").lower() == "parc" and any(n.lower().startswith("parc ") for n in noms)
+
+
 def charger_zones(lieux, objets):
     """Zones, équipements, constructions et cours d'eau de la BD TOPO : rattachés à un
     quartier ou à une voie de même nom, sinon lieux du thésaurus points."""
@@ -637,6 +650,14 @@ def charger_zones(lieux, objets):
             if lieu_id and plus_proche([lieu_id], g, lieux, 50):
                 l = lieux[lieu_id]
                 l["ids"]["bdtopo"].add(o["cleabs"])
+                if est_parc(o, l):
+                    # Les parcs sont des points (décision du 2026-11-14) : la voie « Parc … »
+                    # passe dans le thésaurus des points, avec l'emprise du parc ; son
+                    # tracé de voie n'est pas gardé (un point se prend dans l'emprise).
+                    l["thesaurus"] = "points"
+                    l["geoms"]["zone"].append(g)
+                    for source in ("bdtopo", "mel"):
+                        l["geoms"][source] = []
                 if nom != l["noms"].get("ban") and nom != l["noms"].get("bdtopo"):
                     l["variantes"].add(nom)
                 continue
@@ -725,6 +746,24 @@ def charger_historique(lieux):
                 lieux[n["lieu_id"]]["nom_ancien"].add(n["nom_ancien"])
 
 
+def charger_ajouts(lieux):
+    """Lieux encore debout ajoutés à la main (LIEUX_AJOUTES) : un point par ligne, créé s'il
+    n'existe pas (thésaurus des points), sinon sa position est remplacée ; variantes ajoutées."""
+    if not exists(LIEUX_AJOUTES):
+        return
+    with open(LIEUX_AJOUTES, encoding="utf-8") as f:
+        for d in csv.DictReader(f):
+            l = lieux.get(d["lieu_id"])
+            if l is None:
+                l = lieux[d["lieu_id"]] = nouveau_lieu(d["lieu_id"], "points")
+                l["noms"]["ajout"] = d["libelle"]
+                l["categorie"] = d["categorie"]
+            l["sources"].add("ajout")
+            l["variantes"] |= {v.strip() for v in d.get("variantes", "").split("|") if v.strip()}
+            if d["coord_wkt"]:
+                l["geoms"]["ajout"] = [transform(VERS_L93, wkt.loads(d["coord_wkt"]))]
+
+
 def choisir_libelle(l):
     """(libellé, reconstitué ?) : nom de la BAN, sinon de la BD TOPO, du filaire MEL ou
     de TOPO ; un nom qui n'existe qu'en majuscules est remis en forme. Quartiers :
@@ -735,7 +774,7 @@ def choisir_libelle(l):
     if l["thesaurus"] == "quartiers" and "bdtopo" in noms:
         libelle = sans_article(noms["bdtopo"])
         return libelle[0].upper() + libelle[1:], False
-    for source in ("ban", "bdtopo", "mel", "topo", "historique"):
+    for source in ("ban", "bdtopo", "mel", "topo", "historique", "ajout"):
         if source in noms:
             nom = noms[source]
             return (mettre_en_forme(nom), True) if nom.isupper() else (nom, False)
@@ -802,7 +841,7 @@ def finaliser(lieux):
             "variantes": " | ".join(sorted(variantes)), "nom_ancien": " | ".join(sorted(l["nom_ancien"])),
             "date_debut": l["date_debut"], "date_fin": l["date_fin"], "remplacee_par": l["remplacee_par"],
             "quartiers": " | ".join(rattacher_quartiers(g, quartiers)) if l["thesaurus"] != "quartiers" else "",
-            "sources": ", ".join(s for s in ("BAN", "BD TOPO", "TOPO", "MEL", "OSM", "historique") if s in l["sources"]),
+            "sources": ", ".join(s for s in ("BAN", "BD TOPO", "TOPO", "MEL", "OSM", "historique", "ajout") if s in l["sources"]),
             "nom_ban": noms.get("ban", ""), "nom_bdtopo": noms.get("bdtopo", ""), "nom_mel": noms.get("mel", ""),
             "nom_topo": noms.get("topo", ""),
             "id_ban": " | ".join(sorted(l["ids"]["ban"])), "id_topo": " | ".join(sorted(l["ids"]["topo"])),
@@ -960,6 +999,7 @@ def main():
     hors_roubaix = retirer_hors_roubaix(lieux, commune)
     fusionner(lieux)
     charger_historique(lieux)
+    charger_ajouts(lieux)
     lignes, ne_pas_conserver = ecrire(finaliser(lieux))
 
     print(f"{len(lignes)} lieux → {SORTIE} (+ {basename(SORTIE_GPKG)})")

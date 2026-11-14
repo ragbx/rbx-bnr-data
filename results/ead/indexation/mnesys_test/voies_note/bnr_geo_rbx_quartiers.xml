@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dct:title xml:lang="fr">Thésaurus BnR — geo_rbx_quartiers</dct:title>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#alma_gare"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#anseele_motte_bossut"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#armentieres"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#barbieux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#centre_ville"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#chemin_neuf"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#crouy"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#cul_de_four"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#entrepont"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#esperance"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fosse_aux_chenes"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fraternite"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fresnoy_mackellerie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hauts_champs"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hommelet"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hutin_oran_cartigny"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#justice"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#linne"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#moulin"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nations_unies"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nouveau_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#petites_haies"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#pile"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#potennerie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sainte_elisabeth"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sartel_carihem"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trichon"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trois_ponts"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#vauban"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#edouard_vaillant"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#epeule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#alma_gare">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Alma Gare</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:110</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Alma gare</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#alma_gare_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#alma_gare_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.173608 50.700359, 3.173523 50.700492, 3.173093 50.701172, 3.172441 50.702159, 3.17183 50.703125, 3.171553 50.703556, 3.17127 50.703979, 3.170973 50.704469, 3.170255 50.705569, 3.169802 50.706202, 3.169124 50.707216, 3.168403 50.708356, 3.168316 50.708317, 3.167918 50.708157, 3.16783 50.708122, 3.167553 50.70801, 3.166486 50.707577, 3.166386 50.707517, 3.165702 50.707108, 3.16558 50.707035, 3.165365 50.706906, 3.16507 50.70673, 3.164477 50.706475, 3.164128 50.706325, 3.163959 50.706208, 3.163901 50.706168, 3.163961 50.70577, 3.164027 50.705267, 3.164134 50.704599, 3.164302 50.70364, 3.164366 50.703295, 3.16445 50.702866, 3.164556 50.702386, 3.164611 50.702113, 3.164655 50.701792, 3.164679 50.701427, 3.164699 50.7009, 3.164694 50.700536, 3.164663 50.700174, 3.164617 50.699762, 3.164562 50.699393, 3.164466 50.698938, 3.164356 50.698515, 3.164191 50.698013, 3.164582 50.697883, 3.165025 50.697695, 3.16586 50.697222, 3.165902 50.697203, 3.166994 50.697837, 3.167466 50.698122, 3.16801 50.698486, 3.168068 50.698549, 3.168927 50.699118, 3.169414 50.698673, 3.170427 50.698253, 3.17081 50.698916, 3.170807 50.699006, 3.171216 50.69974, 3.173608 50.700359))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#anseele_motte_bossut">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Anseele Motte-Bossut</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:620</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Anseele</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#anseele_motte_bossut_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#anseele_motte_bossut_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.174885 50.687638, 3.174984 50.687504, 3.175445 50.687139, 3.175878 50.68604, 3.176029 50.685877, 3.176427 50.685615, 3.180157 50.687339, 3.182722 50.688545, 3.183849 50.689067, 3.184538 50.689383, 3.186701 50.690404, 3.185071 50.691948, 3.18465 50.692442, 3.184644 50.69245, 3.184618 50.692436, 3.183541 50.692226, 3.181731 50.691888, 3.180875 50.691624, 3.179631 50.691217, 3.178859 50.690957, 3.178255 50.690722, 3.177807 50.690379, 3.17757 50.689834, 3.17752 50.689368, 3.17724 50.688794, 3.176784 50.68852, 3.175843 50.688154, 3.175275 50.687857, 3.174885 50.687638))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#armentieres">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Armentières</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:160</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#armentieres_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#armentieres_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.164191 50.698013, 3.164356 50.698515, 3.164466 50.698938, 3.164562 50.699393, 3.164617 50.699762, 3.164663 50.700174, 3.164694 50.700536, 3.164699 50.7009, 3.164679 50.701427, 3.164655 50.701792, 3.164611 50.702113, 3.164556 50.702386, 3.16445 50.702866, 3.164366 50.703295, 3.164302 50.70364, 3.164134 50.704599, 3.164027 50.705267, 3.163961 50.70577, 3.163901 50.706168, 3.163747 50.706061, 3.163322 50.70577, 3.162929 50.705501, 3.162894 50.705477, 3.16285 50.705446, 3.162929 50.705289, 3.163069 50.70502, 3.163082 50.704995, 3.162901 50.704982, 3.162686 50.704965, 3.162324 50.704938, 3.161854 50.704904, 3.161465 50.704874, 3.1616 50.704577, 3.161151 50.704336, 3.160476 50.703974, 3.160502 50.703812, 3.160554 50.703491, 3.160776 50.702007, 3.161081 50.700139, 3.160925 50.700049, 3.163607 50.698265, 3.163753 50.698189, 3.1639 50.698114, 3.164191 50.698013))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#barbieux">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Barbieux</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:510</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#barbieux_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#barbieux_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.176311 50.68258, 3.17517 50.682953, 3.174834 50.683179, 3.174348 50.68381, 3.174851 50.684204, 3.175307 50.684559, 3.175907 50.685039, 3.173718 50.686553, 3.171307 50.684422, 3.167899 50.681399, 3.165859 50.682395, 3.16522 50.681984, 3.165492 50.681809, 3.165705 50.681671, 3.165108 50.681225, 3.164683 50.680934, 3.163946 50.681325, 3.163633 50.681053, 3.163451 50.680896, 3.163376 50.680832, 3.163145 50.680933, 3.162616 50.680447, 3.162411 50.680247, 3.163033 50.679946, 3.162835 50.67978, 3.162268 50.680048, 3.162067 50.67983, 3.161903 50.679647, 3.161704 50.679419, 3.161701 50.67936, 3.161532 50.679232, 3.160916 50.678781, 3.160425 50.678471, 3.160325 50.678386, 3.160279 50.678326, 3.160245 50.678296, 3.160207 50.678267, 3.15987 50.677956, 3.159638 50.677709, 3.159434 50.677552, 3.159329 50.677449, 3.159303 50.677426, 3.159286 50.677409, 3.159135 50.677269, 3.158557 50.676735, 3.158268 50.676469, 3.158429 50.676385, 3.158802 50.676183, 3.158621 50.675921, 3.158551 50.675732, 3.158356 50.675623, 3.158228 50.675489, 3.158003 50.675358, 3.157945 50.675302, 3.157856 50.675212, 3.157759 50.675107, 3.157621 50.675058, 3.155541 50.67371, 3.154974 50.673518, 3.154893 50.673457, 3.154174 50.67293, 3.154069 50.67281, 3.153417 50.67228, 3.154976 50.671489, 3.154926 50.671416, 3.154602 50.671153, 3.154381 50.670975, 3.154274 50.670888, 3.154155 50.670793, 3.153838 50.67054, 3.153648 50.670424, 3.153535 50.670321, 3.153494 50.670262, 3.153454 50.670213, 3.153429 50.670167, 3.153416 50.670122, 3.1534 50.670057, 3.153616 50.669981, 3.153736 50.669956, 3.153837 50.669937, 3.153905 50.669927, 3.154007 50.669918, 3.154101 50.669911, 3.154291 50.669908, 3.154429 50.669924, 3.154569 50.669936, 3.154758 50.66995, 3.155004 50.670002, 3.155147 50.670026, 3.155268 50.67003, 3.15545 50.670082, 3.155624 50.670119, 3.155678 50.670132, 3.156144 50.670279, 3.156552 50.67055, 3.156824 50.670706, 3.157145 50.670893, 3.157421 50.671197, 3.157581 50.67135, 3.157744 50.671502, 3.15787 50.671579, 3.157989 50.671649, 3.158166 50.671752, 3.158321 50.671853, 3.158515 50.672002, 3.158767 50.672185, 3.159037 50.672363, 3.159293 50.672534, 3.159541 50.67271, 3.15984 50.672924, 3.160114 50.673121, 3.160247 50.673216, 3.160409 50.673332, 3.160618 50.673488, 3.16091 50.673706, 3.16105 50.673865, 3.161215 50.674054, 3.161569 50.674459, 3.161689 50.674597, 3.161844 50.674772, 3.161913 50.674839, 3.162069 50.674989, 3.162275 50.675188, 3.162487 50.675395, 3.162694 50.675594, 3.162877 50.675767, 3.163065 50.675945, 3.16333 50.676178, 3.163824 50.676003, 3.164365 50.675838, 3.164704 50.675713, 3.164868 50.675669, 3.165164 50.675566, 3.165208 50.675517, 3.165295 50.675484, 3.165325 50.675473, 3.165498 50.675409, 3.165557 50.675369, 3.165702 50.675304, 3.165856 50.675234, 3.16598 50.675168, 3.166162 50.675098, 3.166354 50.675027, 3.166457 50.674999, 3.166645 50.67494, 3.166749 50.674904, 3.166817 50.674887, 3.166925 50.674845, 3.167055 50.674794, 3.167171 50.674731, 3.167295 50.674656, 3.167513 50.674546, 3.167547 50.674528, 3.167812 50.674421, 3.167924 50.67438, 3.168168 50.674302, 3.168518 50.674191, 3.167715 50.673203, 3.167541 50.672983, 3.16738 50.672784, 3.167843 50.672608, 3.169657 50.671922, 3.170517 50.671595, 3.170913 50.671459, 3.171058 50.671394, 3.171173 50.671352, 3.171795 50.671966, 3.174108 50.674421, 3.174858 50.675232, 3.175882 50.67633, 3.176971 50.677455, 3.177336 50.677809, 3.177039 50.677816, 3.176661 50.678416, 3.175678 50.678995, 3.17531 50.679286, 3.175031 50.6798, 3.174985 50.680251, 3.175309 50.68106, 3.175557 50.681648, 3.176077 50.682233, 3.176311 50.68258))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#centre_ville">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Centre-Ville</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:610</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Centre</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#centre_ville_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#centre_ville_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.184644 50.69245, 3.18392 50.693357, 3.183613 50.693705, 3.183456 50.693883, 3.18339 50.69397, 3.183362 50.694006, 3.183275 50.694119, 3.183243 50.694161, 3.183157 50.694273, 3.182975 50.694575, 3.182835 50.694774, 3.182643 50.694928, 3.182412 50.695062, 3.182254 50.695118, 3.182133 50.695149, 3.181985 50.695174, 3.181806 50.695192, 3.181624 50.69519, 3.180511 50.695131, 3.180146 50.695087, 3.179838 50.695023, 3.179501 50.694916, 3.179249 50.694842, 3.17911 50.6948, 3.178064 50.694454, 3.177668 50.694362, 3.1768 50.694215, 3.176366 50.694115, 3.175019 50.693693, 3.174609 50.693648, 3.174136 50.693699, 3.17414 50.693305, 3.174179 50.692999, 3.173667 50.692967, 3.173415 50.692906, 3.173166 50.692758, 3.172936 50.692417, 3.172994 50.692221, 3.173408 50.691704, 3.173081 50.691665, 3.173547 50.690131, 3.173812 50.689263, 3.174372 50.688214, 3.174653 50.687867, 3.174885 50.687638, 3.175275 50.687857, 3.175843 50.688154, 3.176784 50.68852, 3.17724 50.688794, 3.17752 50.689368, 3.17757 50.689834, 3.177807 50.690379, 3.178255 50.690722, 3.178859 50.690957, 3.179631 50.691217, 3.180875 50.691624, 3.181731 50.691888, 3.183541 50.692226, 3.184618 50.692436, 3.184644 50.69245))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#chemin_neuf">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Chemin Neuf</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:450</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Chemin neuf</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#chemin_neuf_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#chemin_neuf_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.193156 50.673789, 3.195615 50.675322, 3.196746 50.676038, 3.197666 50.67662, 3.194677 50.678557, 3.191647 50.680054, 3.189844 50.678505, 3.187807 50.676747, 3.189363 50.67589, 3.192256 50.674297, 3.193156 50.673789))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#crouy">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Crouy</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:640</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#crouy_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#crouy_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.172027 50.686991, 3.17393 50.687683, 3.174653 50.687867, 3.174372 50.688214, 3.173812 50.689263, 3.173547 50.690131, 3.173081 50.691665, 3.169887 50.691392, 3.16923 50.690436, 3.168971 50.690176, 3.16865 50.689791, 3.170139 50.689412, 3.172241 50.688751, 3.172024 50.687286, 3.172027 50.686991))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#cul_de_four">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Cul-de-Four</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:120</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Cul de Four</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#cul_de_four_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#cul_de_four_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.179241 50.707165, 3.179214 50.707154, 3.179049 50.707082, 3.178913 50.707185, 3.178433 50.70755, 3.17823 50.707474, 3.178143 50.707468, 3.177846 50.707476, 3.177664 50.707526, 3.177637 50.707535, 3.177592 50.707548, 3.177483 50.70761, 3.177417 50.70765, 3.177407 50.707656, 3.175596 50.70778, 3.175498 50.70775, 3.174167 50.70735, 3.173147 50.70702, 3.172955 50.706957, 3.172392 50.706585, 3.172146 50.706423, 3.17202 50.706488, 3.170466 50.707299, 3.169992 50.707545, 3.169662 50.707717, 3.168787 50.708439, 3.168718 50.708497, 3.168657 50.70847, 3.168481 50.708391, 3.168403 50.708356, 3.169124 50.707216, 3.169802 50.706202, 3.170255 50.705569, 3.170973 50.704469, 3.17127 50.703979, 3.171553 50.703556, 3.17183 50.703125, 3.172441 50.702159, 3.173093 50.701172, 3.173523 50.700492, 3.173608 50.700359, 3.173943 50.69984, 3.174539 50.699208, 3.174741 50.699328, 3.175229 50.699613, 3.17649 50.700243, 3.177735 50.700829, 3.179935 50.701823, 3.182094 50.702821, 3.183911 50.703643, 3.183764 50.703847, 3.183524 50.704175, 3.183078 50.704609, 3.182465 50.705117, 3.182046 50.705402, 3.181438 50.705732, 3.180331 50.706157, 3.180271 50.706185, 3.180219 50.706209, 3.180218 50.706342, 3.180138 50.706465, 3.179952 50.706557, 3.179785 50.706605, 3.179241 50.707165))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#edouard_vaillant">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Édouard Vaillant</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:520</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Edouard Vaillant</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#edouard_vaillant_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#edouard_vaillant_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.178558 50.677171, 3.178279 50.677063, 3.176971 50.677455, 3.175882 50.67633, 3.174858 50.675232, 3.174108 50.674421, 3.171795 50.671966, 3.171173 50.671352, 3.17124 50.671327, 3.171372 50.671279, 3.171484 50.671238, 3.171534 50.671221, 3.172529 50.670839, 3.172573 50.670822, 3.17335 50.670519, 3.17337 50.670536, 3.173452 50.670608, 3.173813 50.670922, 3.173864 50.670967, 3.173897 50.67095, 3.174131 50.670845, 3.174503 50.670641, 3.174861 50.670486, 3.176454 50.671881, 3.176408 50.672016, 3.17675 50.672255, 3.176863 50.672257, 3.176946 50.672274, 3.177045 50.672321, 3.177141 50.672391, 3.177232 50.672495, 3.177597 50.67277, 3.177691 50.672807, 3.178178 50.672523, 3.178298 50.672469, 3.178491 50.672379, 3.17867 50.672298, 3.178815 50.672232, 3.178899 50.672193, 3.17923 50.672042, 3.179403 50.671982, 3.179513 50.671939, 3.179695 50.67189, 3.179769 50.671869, 3.179804 50.671859, 3.180707 50.671552, 3.181038 50.671416, 3.181074 50.671331, 3.181105 50.671259, 3.181121 50.671226, 3.18105 50.671155, 3.181367 50.67094, 3.181447 50.670886, 3.181557 50.670812, 3.182102 50.670439, 3.182522 50.670157, 3.182711 50.670082, 3.18308 50.669918, 3.183242 50.669832, 3.183366 50.669742, 3.183393 50.669702, 3.18355 50.669525, 3.183645 50.669439, 3.183752 50.669343, 3.18389 50.66942, 3.183988 50.669475, 3.184612 50.669822, 3.184855 50.66983, 3.185115 50.669836, 3.185828 50.669813, 3.186 50.669806, 3.186246 50.669809, 3.186398 50.669821, 3.186812 50.669851, 3.186918 50.669866, 3.188202 50.670685, 3.189481 50.671493, 3.189484 50.671494, 3.188573 50.67198, 3.187738 50.67241, 3.186892 50.672841, 3.186055 50.673304, 3.184804 50.673941, 3.182576 50.675104, 3.181341 50.675725, 3.180361 50.676224, 3.179672 50.676582, 3.178558 50.677171))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#entrepont">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Entrepont</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:170</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#entrepont_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#entrepont_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.20139 50.694057, 3.201291 50.694313, 3.201081 50.694526, 3.200807 50.694626, 3.20087 50.694823, 3.200859 50.694863, 3.200837 50.694888, 3.200529 50.695235, 3.200451 50.695324, 3.200275 50.695372, 3.200134 50.695485, 3.199996 50.695654, 3.19988 50.695869, 3.199869 50.695912, 3.19988 50.695971, 3.19988 50.695987, 3.199884 50.696088, 3.199605 50.696265, 3.199249 50.696692, 3.198835 50.697155, 3.199091 50.697223, 3.19896 50.69736, 3.198879 50.697442, 3.198322 50.698023, 3.198296 50.698062, 3.198032 50.698348, 3.197776 50.698655, 3.197612 50.698862, 3.194185 50.69806, 3.189695 50.697008, 3.188931 50.696831, 3.18858 50.696749, 3.188511 50.696733, 3.190055 50.694372, 3.188061 50.694032, 3.188818 50.692703, 3.189397 50.692627, 3.190119 50.692551, 3.1908 50.692492, 3.191447 50.692831, 3.192091 50.692747, 3.19304 50.692691, 3.193892 50.692716, 3.194471 50.692779, 3.195091 50.692869, 3.195932 50.693003, 3.19725 50.693212, 3.199278 50.693525, 3.20111 50.693804, 3.201176 50.693793, 3.201451 50.69382, 3.201449 50.693879, 3.201332 50.694041, 3.20139 50.694057))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#epeule">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Épeule</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:320</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Epeule</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#epeule_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#epeule_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.169466 50.686063, 3.168136 50.686792, 3.16678 50.687541, 3.165453 50.688249, 3.164722 50.688645, 3.164235 50.688908, 3.163571 50.689279, 3.162689 50.689754, 3.161714 50.690273, 3.161237 50.690557, 3.16025 50.691091, 3.159514 50.691493, 3.159239 50.691628, 3.15892 50.691434, 3.158292 50.691073, 3.15639 50.689975, 3.154778 50.689032, 3.153677 50.688372, 3.152991 50.687965, 3.151994 50.687385, 3.152146 50.687311, 3.152351 50.687439, 3.15244 50.687468, 3.152483 50.687469, 3.152618 50.687438, 3.152712 50.687419, 3.152747 50.687411, 3.152925 50.687357, 3.153045 50.68733, 3.153145 50.687316, 3.153201 50.687311, 3.153259 50.687306, 3.153679 50.687285, 3.15385 50.687284, 3.154002 50.687283, 3.154454 50.687259, 3.154727 50.687246, 3.154809 50.68723, 3.154906 50.687213, 3.154982 50.687199, 3.155345 50.687084, 3.155424 50.687067, 3.155464 50.687062, 3.155516 50.687055, 3.155599 50.687052, 3.155656 50.68706, 3.155732 50.687073, 3.155855 50.687105, 3.155938 50.687138, 3.156015 50.687183, 3.156085 50.687092, 3.156163 50.687017, 3.156285 50.686945, 3.156299 50.686936, 3.156514 50.68681, 3.156801 50.686657, 3.156748 50.686613, 3.157365 50.68635, 3.157962 50.686046, 3.158485 50.685751, 3.158567 50.685735, 3.158604 50.685728, 3.158753 50.68563, 3.158849 50.685568, 3.158908 50.685529, 3.159273 50.685317, 3.160202 50.684755, 3.160362 50.684658, 3.160376 50.68461, 3.160409 50.684571, 3.16048 50.684501, 3.160671 50.68434, 3.160829 50.684216, 3.160833 50.684206, 3.160863 50.684124, 3.161042 50.68402, 3.161197 50.68393, 3.161947 50.683499, 3.16207 50.683423, 3.162105 50.683393, 3.163088 50.683746, 3.166041 50.684835, 3.169466 50.686063))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#esperance">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Espérance</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:650</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#esperance_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#esperance_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.173081 50.691665, 3.170792 50.692605, 3.168096 50.693713, 3.167175 50.694086, 3.166593 50.694316, 3.166059 50.694536, 3.1653 50.694838, 3.164738 50.695084, 3.164245 50.69528, 3.164101 50.695691, 3.163739 50.695721, 3.163242 50.696028, 3.163064 50.695775, 3.162861 50.695489, 3.162672 50.695227, 3.162233 50.694599, 3.162062 50.694352, 3.161888 50.694108, 3.161724 50.693892, 3.161577 50.69372, 3.161217 50.693343, 3.160994 50.693116, 3.161139 50.693074, 3.161934 50.692782, 3.163112 50.692221, 3.16624 50.691733, 3.16712 50.691602, 3.168669 50.691366, 3.169217 50.691348, 3.169887 50.691392, 3.173081 50.691665))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fosse_aux_chenes">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Fosse-aux-Chênes</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:150</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Fosse aux Chênes</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fosse_aux_chenes_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fosse_aux_chenes_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.179249 50.694842, 3.178759 50.69566, 3.178401 50.696229, 3.17781 50.697195, 3.177287 50.698044, 3.176915 50.698613, 3.174741 50.699328, 3.174539 50.699208, 3.173943 50.69984, 3.173608 50.700359, 3.171216 50.69974, 3.170807 50.699006, 3.17081 50.698916, 3.170427 50.698253, 3.169414 50.698673, 3.168927 50.699118, 3.168068 50.698549, 3.16801 50.698486, 3.167466 50.698122, 3.166994 50.697837, 3.165902 50.697203, 3.167445 50.696335, 3.169781 50.695454, 3.171153 50.694928, 3.172524 50.694365, 3.173479 50.693945, 3.173835 50.69379, 3.174136 50.693699, 3.174609 50.693648, 3.175019 50.693693, 3.176366 50.694115, 3.1768 50.694215, 3.177668 50.694362, 3.178064 50.694454, 3.17911 50.6948, 3.179249 50.694842))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fraternite">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Fraternité</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:480</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fraternite_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fraternite_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.204706 50.68105, 3.203182 50.682553, 3.201363 50.681459, 3.200684 50.681866, 3.200458 50.681785, 3.198944 50.6838, 3.198708 50.684129, 3.198814 50.684933, 3.199796 50.685314, 3.199736 50.685431, 3.199673 50.685644, 3.199731 50.685715, 3.199936 50.685789, 3.198169 50.687561, 3.196763 50.686876, 3.195655 50.686316, 3.192625 50.684647, 3.191256 50.683872, 3.190719 50.682707, 3.190624 50.682416, 3.189946 50.680899, 3.190653 50.680539, 3.191647 50.680054, 3.194677 50.678557, 3.197666 50.67662, 3.199054 50.677505, 3.201132 50.678809, 3.202134 50.679439, 3.202402 50.679604, 3.204706 50.68105))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fresnoy_mackellerie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Fresnoy-Mackellerie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:310</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Fresnoy Mackellerie</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fresnoy_mackellerie_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#fresnoy_mackellerie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.164191 50.698013, 3.1639 50.698114, 3.163753 50.698189, 3.163607 50.698265, 3.160925 50.700049, 3.161081 50.700139, 3.160776 50.702007, 3.160554 50.703491, 3.160502 50.703812, 3.160476 50.703974, 3.16013 50.703789, 3.159951 50.703692, 3.15997 50.703625, 3.159994 50.703549, 3.159237 50.703214, 3.159312 50.703168, 3.15941 50.703107, 3.15944 50.703088, 3.159666 50.702948, 3.159769 50.702885, 3.15977 50.702828, 3.159771 50.702792, 3.159771 50.70274, 3.159775 50.702701, 3.159779 50.702604, 3.159779 50.702599, 3.159785 50.702431, 3.159788 50.702387, 3.159797 50.702153, 3.1598 50.702092, 3.159803 50.702037, 3.159835 50.701878, 3.159818 50.701847, 3.159711 50.701669, 3.159691 50.701634, 3.15956 50.701412, 3.159431 50.701193, 3.159383 50.701112, 3.159303 50.700975, 3.159171 50.70075, 3.15914 50.700699, 3.158311 50.700264, 3.157099 50.699667, 3.15667 50.699456, 3.156622 50.699418, 3.156471 50.699299, 3.156424 50.699273, 3.155899 50.69889, 3.155873 50.698869, 3.155457 50.698554, 3.155148 50.698349, 3.155097 50.698314, 3.154946 50.698214, 3.15459 50.69795, 3.154901 50.69779, 3.155136 50.697679, 3.156431 50.697029, 3.156407 50.696899, 3.156403 50.696502, 3.156398 50.69646, 3.156387 50.696413, 3.156377 50.6964, 3.156336 50.696354, 3.156092 50.696136, 3.155959 50.696004, 3.155909 50.695945, 3.155871 50.695877, 3.155749 50.695723, 3.155681 50.695611, 3.155655 50.695515, 3.155646 50.695452, 3.155584 50.69528, 3.155539 50.695116, 3.155491 50.694968, 3.155421 50.694817, 3.155347 50.694642, 3.155343 50.694522, 3.155334 50.694464, 3.155314 50.694396, 3.155274 50.694318, 3.155165 50.694187, 3.155076 50.694105, 3.154969 50.694014, 3.154778 50.69386, 3.154532 50.69368, 3.154222 50.693468, 3.15415 50.693428, 3.154104 50.693403, 3.154032 50.693363, 3.153966 50.693327, 3.153752 50.693187, 3.153687 50.693144, 3.153639 50.693083, 3.153562 50.693004, 3.153376 50.692815, 3.153267 50.692708, 3.153086 50.692492, 3.153065 50.692465, 3.152828 50.692205, 3.152532 50.691892, 3.152493 50.691845, 3.15217 50.691489, 3.15204 50.691346, 3.151623 50.690882, 3.151579 50.690832, 3.151531 50.690776, 3.151493 50.690732, 3.151494 50.690573, 3.151501 50.69029, 3.151527 50.689882, 3.151529 50.689822, 3.151548 50.689559, 3.151551 50.689505, 3.151554 50.689465, 3.151566 50.689381, 3.151587 50.689307, 3.151636 50.689211, 3.151656 50.689144, 3.151659 50.689113, 3.15166 50.689079, 3.151647 50.688911, 3.151614 50.688704, 3.151592 50.688634, 3.151587 50.688614, 3.151545 50.68854, 3.15153 50.688497, 3.151393 50.688153, 3.151353 50.688038, 3.151318 50.687981, 3.15122 50.687877, 3.151135 50.687788, 3.151197 50.687753, 3.151342 50.687682, 3.151791 50.687482, 3.151878 50.687441, 3.151994 50.687385, 3.152991 50.687965, 3.153677 50.688372, 3.154778 50.689032, 3.15639 50.689975, 3.158292 50.691073, 3.15892 50.691434, 3.159239 50.691628, 3.159599 50.691877, 3.159823 50.692046, 3.160023 50.692214, 3.160388 50.692546, 3.160875 50.693006, 3.160994 50.693116, 3.161217 50.693343, 3.161577 50.69372, 3.161724 50.693892, 3.161888 50.694108, 3.162062 50.694352, 3.162233 50.694599, 3.162672 50.695227, 3.162861 50.695489, 3.163064 50.695775, 3.163242 50.696028, 3.163427 50.696296, 3.163585 50.696549, 3.163709 50.696787, 3.163842 50.697062, 3.163962 50.697345, 3.164081 50.697672, 3.164191 50.698013))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hauts_champs">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hauts Champs</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:430</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hauts_champs_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hauts_champs_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.192774 50.671411, 3.192821 50.671367, 3.1936 50.670633, 3.193917 50.670334, 3.193564 50.670131, 3.193458 50.670051, 3.193695 50.669891, 3.193851 50.669783, 3.193955 50.669705, 3.194096 50.669587, 3.194317 50.669397, 3.194558 50.669248, 3.194949 50.669007, 3.195341 50.668751, 3.195417 50.668817, 3.195447 50.668839, 3.196066 50.669283, 3.196236 50.669405, 3.196257 50.669421, 3.196376 50.669481, 3.196378 50.66954, 3.196957 50.669756, 3.197322 50.66991, 3.197604 50.670119, 3.197764 50.67025, 3.198082 50.670577, 3.198177 50.670677, 3.19835 50.670866, 3.198557 50.6711, 3.198736 50.671265, 3.198927 50.671441, 3.199008 50.671474, 3.199314 50.671605, 3.199411 50.671644, 3.199876 50.671836, 3.199944 50.671864, 3.199999 50.671894, 3.200214 50.671985, 3.200545 50.672125, 3.200557 50.672129, 3.200527 50.67215, 3.199485 50.672833, 3.197814 50.6739, 3.195615 50.675322, 3.193156 50.673789, 3.191701 50.67288, 3.192575 50.672391, 3.1922 50.672086, 3.192194 50.671968, 3.19272 50.671469, 3.192774 50.671411))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hommelet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hommelet</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:140</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hommelet_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hommelet_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.188061 50.694032, 3.188818 50.692703, 3.188652 50.692725, 3.187005 50.692867, 3.18465 50.692442, 3.18392 50.693357, 3.183613 50.693705, 3.183456 50.693883, 3.18339 50.69397, 3.183362 50.694006, 3.183275 50.694119, 3.183243 50.694161, 3.183157 50.694273, 3.182975 50.694575, 3.182835 50.694774, 3.182643 50.694928, 3.182412 50.695062, 3.182254 50.695118, 3.182133 50.695149, 3.181985 50.695174, 3.181806 50.695192, 3.181624 50.69519, 3.180511 50.695131, 3.180146 50.695087, 3.179838 50.695023, 3.179501 50.694916, 3.179249 50.694842, 3.178759 50.69566, 3.178401 50.696229, 3.17781 50.697195, 3.177287 50.698044, 3.176915 50.698613, 3.174741 50.699328, 3.175229 50.699613, 3.17649 50.700243, 3.177735 50.700829, 3.179935 50.701823, 3.182094 50.702821, 3.183911 50.703643, 3.183912 50.703643, 3.184066 50.703413, 3.184222 50.703183, 3.184836 50.702268, 3.185515 50.701257, 3.187669 50.697999, 3.187766 50.697852, 3.187996 50.697507, 3.188072 50.697393, 3.1881 50.69735, 3.18813 50.697305, 3.188511 50.696733, 3.190055 50.694372, 3.188061 50.694032))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hutin_oran_cartigny">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hutin Oran Cartigny</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:130</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Hutin</skos:hiddenLabel>
+    <skos:hiddenLabel xml:lang="fr">Oran Cartigny</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hutin_oran_cartigny_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#hutin_oran_cartigny_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.190761 50.708256, 3.190277 50.708608, 3.190177 50.708689, 3.18962 50.708448, 3.189491 50.708392, 3.189035 50.708195, 3.188704 50.708052, 3.188662 50.708084, 3.188532 50.708192, 3.188347 50.70832, 3.187664 50.708177, 3.187575 50.708183, 3.187481 50.70819, 3.187353 50.7082, 3.186983 50.708142, 3.186667 50.707874, 3.185857 50.707397, 3.185116 50.707345, 3.184521 50.707304, 3.184197 50.707294, 3.183207 50.707266, 3.182304 50.707108, 3.181979 50.707039, 3.181832 50.707008, 3.181706 50.706981, 3.18148 50.706941, 3.180561 50.707647, 3.180428 50.707595, 3.17951 50.707282, 3.179254 50.707171, 3.179241 50.707165, 3.179785 50.706605, 3.179952 50.706557, 3.180138 50.706465, 3.180218 50.706342, 3.180219 50.706209, 3.180271 50.706185, 3.180331 50.706157, 3.181438 50.705732, 3.182046 50.705402, 3.182465 50.705117, 3.183078 50.704609, 3.183524 50.704175, 3.183764 50.703847, 3.183911 50.703643, 3.183912 50.703643, 3.184066 50.703413, 3.184222 50.703183, 3.184836 50.702268, 3.185515 50.701257, 3.187669 50.697999, 3.187766 50.697852, 3.187996 50.697507, 3.188072 50.697393, 3.1881 50.69735, 3.18813 50.697305, 3.188511 50.696733, 3.188931 50.696831, 3.189695 50.697008, 3.194185 50.69806, 3.197612 50.698862, 3.19735 50.699193, 3.197318 50.699235, 3.197145 50.699452, 3.196783 50.699846, 3.19631 50.70021, 3.195863 50.700598, 3.195742 50.700645, 3.195436 50.700764, 3.195335 50.700896, 3.195132 50.70117, 3.195049 50.701269, 3.194747 50.701667, 3.194463 50.702038, 3.194152 50.702273, 3.193984 50.702386, 3.194294 50.702585, 3.194347 50.702625, 3.194534 50.70275, 3.194622 50.7028, 3.194888 50.702954, 3.194843 50.702997, 3.193792 50.704106, 3.193125 50.704825, 3.193069 50.704885, 3.193496 50.705119, 3.193575 50.705162, 3.193872 50.705327, 3.193682 50.705503, 3.193399 50.705763, 3.192669 50.70644, 3.191503 50.707511, 3.191441 50.70757, 3.191346 50.707664, 3.190761 50.708256))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#justice">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Justice</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:470</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#justice_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#justice_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.200557 50.672129, 3.200566 50.672131, 3.200727 50.672535, 3.200661 50.672627, 3.200423 50.672961, 3.200388 50.673005, 3.200364 50.673041, 3.200355 50.673053, 3.200285 50.67313, 3.200363 50.673157, 3.200456 50.673187, 3.200733 50.673277, 3.201187 50.673424, 3.201237 50.67344, 3.201668 50.673583, 3.201798 50.67363, 3.201972 50.673698, 3.202105 50.673759, 3.202169 50.673789, 3.202217 50.673818, 3.202765 50.674139, 3.203019 50.674277, 3.203116 50.674311, 3.203091 50.674427, 3.203031 50.674693, 3.202976 50.674796, 3.202912 50.674888, 3.20285 50.674972, 3.202698 50.675131, 3.202553 50.675265, 3.202459 50.675346, 3.202815 50.675518, 3.202972 50.675595, 3.203855 50.676148, 3.204393 50.676486, 3.204707 50.676685, 3.205772 50.677365, 3.206593 50.67791, 3.206681 50.677968, 3.20692 50.67811, 3.207325 50.678062, 3.207517 50.67804, 3.207728 50.678014, 3.208171 50.678277, 3.207668 50.678591, 3.207497 50.678482, 3.206307 50.679578, 3.204706 50.68105, 3.202402 50.679604, 3.202134 50.679439, 3.201132 50.678809, 3.199054 50.677505, 3.197666 50.67662, 3.196746 50.676038, 3.195615 50.675322, 3.197814 50.6739, 3.199485 50.672833, 3.200527 50.67215, 3.200557 50.672129))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#linne">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Linné</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:490</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Linne</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#linne_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#linne_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.184804 50.673941, 3.185188 50.674452, 3.186022 50.675238, 3.18683 50.675917, 3.187807 50.676747, 3.189844 50.678505, 3.191647 50.680054, 3.190653 50.680539, 3.189946 50.680899, 3.189393 50.679677, 3.189047 50.67889, 3.188667 50.678795, 3.185496 50.67805, 3.184277 50.677759, 3.18192 50.677781, 3.180569 50.677786, 3.179004 50.677795, 3.178558 50.677171, 3.179672 50.676582, 3.180361 50.676224, 3.181341 50.675725, 3.182576 50.675104, 3.184804 50.673941))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#moulin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Moulin</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:230</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#moulin_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#moulin_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.189946 50.680899, 3.189074 50.681335, 3.187028 50.682441, 3.186512 50.682693, 3.185148 50.683417, 3.184417 50.683803, 3.183198 50.684451, 3.182003 50.685289, 3.181667 50.685668, 3.180388 50.685133, 3.178666 50.684413, 3.178004 50.684777, 3.176963 50.685287, 3.176427 50.685615, 3.176029 50.685877, 3.175878 50.68604, 3.175445 50.687139, 3.174984 50.687504, 3.174885 50.687638, 3.173718 50.686553, 3.175907 50.685039, 3.175307 50.684559, 3.174851 50.684204, 3.174348 50.68381, 3.174834 50.683179, 3.17517 50.682953, 3.176311 50.68258, 3.178401 50.681929, 3.18019 50.681369, 3.180992 50.682547, 3.182927 50.681886, 3.185282 50.68108, 3.187232 50.680408, 3.188338 50.680034, 3.189393 50.679677, 3.189946 50.680899))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nations_unies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Nations Unies</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:630</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nations_unies_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nations_unies_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.173081 50.691665, 3.173408 50.691704, 3.172994 50.692221, 3.172936 50.692417, 3.173166 50.692758, 3.173415 50.692906, 3.173667 50.692967, 3.174179 50.692999, 3.17414 50.693305, 3.174136 50.693699, 3.173835 50.69379, 3.173479 50.693945, 3.172524 50.694365, 3.171153 50.694928, 3.169781 50.695454, 3.167445 50.696335, 3.165902 50.697203, 3.16586 50.697222, 3.165025 50.697695, 3.164582 50.697883, 3.164191 50.698013, 3.164081 50.697672, 3.163962 50.697345, 3.163842 50.697062, 3.163709 50.696787, 3.163585 50.696549, 3.163427 50.696296, 3.163242 50.696028, 3.163739 50.695721, 3.164101 50.695691, 3.164245 50.69528, 3.164738 50.695084, 3.1653 50.694838, 3.166059 50.694536, 3.166593 50.694316, 3.167175 50.694086, 3.168096 50.693713, 3.170792 50.692605, 3.173081 50.691665))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nouveau_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Nouveau Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:420</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nouveau_roubaix_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#nouveau_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.189484 50.671494, 3.19027 50.671991, 3.191191 50.672568, 3.191701 50.67288, 3.193156 50.673789, 3.192256 50.674297, 3.189363 50.67589, 3.187807 50.676747, 3.18683 50.675917, 3.186022 50.675238, 3.185188 50.674452, 3.184804 50.673941, 3.186055 50.673304, 3.186892 50.672841, 3.187738 50.67241, 3.188573 50.67198, 3.189484 50.671494))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#petites_haies">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Petites Haies</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:440</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#petites_haies_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#petites_haies_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.186918 50.669866, 3.187162 50.6699, 3.18736 50.669907, 3.187499 50.669911, 3.187559 50.669853, 3.187638 50.669776, 3.18769 50.669728, 3.187705 50.669712, 3.187838 50.669584, 3.187911 50.669515, 3.188082 50.669349, 3.188443 50.669541, 3.188728 50.669677, 3.189231 50.669911, 3.189501 50.670033, 3.189663 50.669924, 3.189793 50.669836, 3.189844 50.669802, 3.190065 50.669651, 3.19017 50.669592, 3.190215 50.669571, 3.190289 50.669542, 3.190331 50.669568, 3.190398 50.669609, 3.190549 50.669685, 3.19058 50.6697, 3.190969 50.669887, 3.191174 50.66999, 3.191367 50.670086, 3.191562 50.670181, 3.191646 50.670228, 3.191925 50.670471, 3.192208 50.670725, 3.19239 50.670946, 3.192542 50.671163, 3.19256 50.67119, 3.192667 50.671341, 3.192774 50.671411, 3.19272 50.671469, 3.192194 50.671968, 3.1922 50.672086, 3.192575 50.672391, 3.191701 50.67288, 3.191191 50.672568, 3.190191 50.671941, 3.189481 50.671493, 3.188202 50.670685, 3.186918 50.669866))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#pile">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Pile</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:210</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#pile_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#pile_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.18465 50.692442, 3.185071 50.691948, 3.186701 50.690404, 3.187882 50.689268, 3.188459 50.688712, 3.188893 50.688283, 3.189355 50.687827, 3.19037 50.686864, 3.1913 50.685954, 3.192062 50.685202, 3.192625 50.684647, 3.195655 50.686316, 3.196763 50.686876, 3.198169 50.687561, 3.199453 50.688186, 3.201628 50.689237, 3.202168 50.688605, 3.203757 50.689028, 3.204123 50.689135, 3.204163 50.689083, 3.204465 50.68918, 3.203349 50.691147, 3.203278 50.691186, 3.203243 50.69123, 3.202792 50.691798, 3.202566 50.692058, 3.20243 50.692217, 3.202486 50.692237, 3.201513 50.693448, 3.201408 50.69343, 3.20111 50.693804, 3.199278 50.693525, 3.19725 50.693212, 3.195932 50.693003, 3.195091 50.692869, 3.194471 50.692779, 3.193892 50.692716, 3.19304 50.692691, 3.192091 50.692747, 3.191447 50.692831, 3.1908 50.692492, 3.190119 50.692551, 3.189397 50.692627, 3.188819 50.692703, 3.188818 50.692703, 3.188652 50.692725, 3.187005 50.692867, 3.18465 50.692442))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#potennerie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Potennerie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:240</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#potennerie_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#potennerie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.189393 50.679677, 3.188338 50.680034, 3.187232 50.680408, 3.185282 50.68108, 3.182927 50.681886, 3.180992 50.682547, 3.18019 50.681369, 3.178401 50.681929, 3.176311 50.68258, 3.176077 50.682233, 3.175557 50.681648, 3.175309 50.68106, 3.174985 50.680251, 3.175031 50.6798, 3.17531 50.679286, 3.175678 50.678995, 3.176661 50.678416, 3.177039 50.677816, 3.177336 50.677809, 3.176971 50.677455, 3.178279 50.677063, 3.178558 50.677171, 3.179004 50.677795, 3.180569 50.677786, 3.18192 50.677781, 3.184277 50.677759, 3.185496 50.67805, 3.188667 50.678795, 3.189047 50.67889, 3.189393 50.679677))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sainte_elisabeth">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Sainte-Élisabeth</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:220</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Sainte Elisabeth</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sainte_elisabeth_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sainte_elisabeth_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.189946 50.680899, 3.190624 50.682416, 3.190719 50.682707, 3.191256 50.683872, 3.192625 50.684647, 3.192062 50.685202, 3.1913 50.685954, 3.19037 50.686864, 3.189355 50.687827, 3.188893 50.688283, 3.188459 50.688712, 3.187882 50.689268, 3.186701 50.690404, 3.184538 50.689383, 3.183849 50.689067, 3.182722 50.688545, 3.180157 50.687339, 3.176427 50.685615, 3.176963 50.685287, 3.178004 50.684777, 3.178666 50.684413, 3.180388 50.685133, 3.181667 50.685668, 3.182003 50.685289, 3.183198 50.684451, 3.184417 50.683803, 3.185148 50.683417, 3.186512 50.682693, 3.187028 50.682441, 3.189074 50.681335, 3.189946 50.680899))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sartel_carihem">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Sartel Carihem</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:460</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sartel_carihem_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#sartel_carihem_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.208171 50.678277, 3.208274 50.678338, 3.208377 50.6784, 3.208671 50.678574, 3.208693 50.67858, 3.209633 50.678835, 3.209875 50.678896, 3.209986 50.678955, 3.210075 50.678976, 3.210233 50.679013, 3.21041 50.67905, 3.210541 50.679086, 3.210666 50.679124, 3.210988 50.679214, 3.211932 50.679591, 3.212079 50.679667, 3.212137 50.679708, 3.212132 50.679756, 3.212092 50.6798, 3.211801 50.680053, 3.211674 50.680161, 3.211867 50.680342, 3.211986 50.680456, 3.211994 50.680642, 3.211999 50.680766, 3.212011 50.681094, 3.211574 50.681916, 3.211577 50.681989, 3.211591 50.682212, 3.211597 50.682311, 3.211623 50.682698, 3.211741 50.682885, 3.211856 50.683068, 3.212171 50.683426, 3.212321 50.683539, 3.21242 50.683598, 3.212636 50.683767, 3.212833 50.683947, 3.213081 50.684125, 3.213271 50.684277, 3.213346 50.684339, 3.213438 50.684441, 3.213486 50.684517, 3.213505 50.684582, 3.213518 50.684651, 3.213516 50.68472, 3.213506 50.684772, 3.213498 50.684826, 3.213496 50.684835, 3.213471 50.684896, 3.213432 50.684959, 3.213625 50.685133, 3.214287 50.685727, 3.214891 50.686271, 3.215649 50.686723, 3.215661 50.686732, 3.216078 50.68699, 3.216366 50.687304, 3.216266 50.68734, 3.216344 50.68738, 3.21641 50.687433, 3.216867 50.68767, 3.216954 50.687763, 3.217009 50.687818, 3.217129 50.687931, 3.217239 50.688036, 3.217367 50.688158, 3.217034 50.688333, 3.215045 50.688838, 3.215294 50.689062, 3.215565 50.68938, 3.215279 50.689419, 3.215133 50.689464, 3.214733 50.689587, 3.213309 50.689879, 3.213305 50.689944, 3.213302 50.689983, 3.213299 50.690022, 3.213297 50.690078, 3.213296 50.690105, 3.213239 50.690146, 3.213143 50.690215, 3.213068 50.690185, 3.212971 50.690146, 3.212879 50.690111, 3.212811 50.690084, 3.21274 50.690057, 3.212657 50.690024, 3.211547 50.690296, 3.211059 50.690416, 3.209923 50.690677, 3.209814 50.6907, 3.209508 50.690763, 3.209263 50.690867, 3.209141 50.690919, 3.209115 50.690949, 3.209019 50.691065, 3.208176 50.691221, 3.208067 50.691168, 3.207983 50.691128, 3.207903 50.69109, 3.207251 50.691222, 3.207158 50.691222, 3.207087 50.691212, 3.206931 50.691239, 3.20684 50.691257, 3.206588 50.69131, 3.206356 50.691373, 3.206068 50.691471, 3.20586 50.691554, 3.205669 50.691658, 3.205356 50.691813, 3.205059 50.691959, 3.204966 50.692004, 3.204356 50.692501, 3.203842 50.692896, 3.203776 50.693064, 3.203778 50.69307, 3.203791 50.693123, 3.203792 50.693127, 3.203838 50.693172, 3.203866 50.693188, 3.203993 50.693169, 3.204078 50.693168, 3.204136 50.693221, 3.204123 50.693285, 3.204069 50.693356, 3.203973 50.693412, 3.204147 50.693815, 3.204191 50.693917, 3.204204 50.693948, 3.204237 50.694174, 3.204231 50.694269, 3.204207 50.694381, 3.204197 50.694412, 3.204185 50.69445, 3.20416 50.694542, 3.20413 50.694613, 3.203506 50.694606, 3.203417 50.694596, 3.203185 50.694495, 3.20276 50.694354, 3.202564 50.694322, 3.201731 50.694114, 3.201506 50.69404, 3.201465 50.694026, 3.201418 50.693986, 3.20139 50.694057, 3.201332 50.694041, 3.201449 50.693879, 3.201451 50.69382, 3.201176 50.693793, 3.20111 50.693804, 3.201408 50.69343, 3.201513 50.693448, 3.202486 50.692237, 3.20243 50.692217, 3.202566 50.692058, 3.202792 50.691798, 3.203243 50.69123, 3.203278 50.691186, 3.203349 50.691147, 3.204465 50.68918, 3.204163 50.689083, 3.204123 50.689135, 3.203757 50.689028, 3.202168 50.688605, 3.202722 50.687965, 3.203486 50.687082, 3.204412 50.686014, 3.206006 50.684194, 3.204904 50.683558, 3.203182 50.682553, 3.204706 50.68105, 3.206307 50.679578, 3.207497 50.678482, 3.207668 50.678591, 3.208171 50.678277))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trichon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Trichon</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:330</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trichon_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trichon_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.169466 50.686063, 3.170043 50.686272, 3.172027 50.686991, 3.172024 50.687286, 3.172241 50.688751, 3.170139 50.689412, 3.16865 50.689791, 3.168971 50.690176, 3.16923 50.690436, 3.169887 50.691392, 3.169217 50.691348, 3.168669 50.691366, 3.16712 50.691602, 3.16624 50.691733, 3.163112 50.692221, 3.161934 50.692782, 3.161139 50.693074, 3.160994 50.693116, 3.160875 50.693006, 3.160388 50.692546, 3.160023 50.692214, 3.159823 50.692046, 3.159599 50.691877, 3.159239 50.691628, 3.159514 50.691493, 3.16025 50.691091, 3.161237 50.690557, 3.161714 50.690273, 3.162689 50.689754, 3.163571 50.689279, 3.164235 50.688908, 3.164722 50.688645, 3.165453 50.688249, 3.16678 50.687541, 3.168136 50.686792, 3.169466 50.686063))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trois_ponts">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Trois Ponts</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:410</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trois_ponts_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#trois_ponts_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.203182 50.682553, 3.204904 50.683558, 3.206006 50.684194, 3.204412 50.686014, 3.203486 50.687082, 3.202722 50.687965, 3.202168 50.688605, 3.201628 50.689237, 3.199453 50.688186, 3.198169 50.687561, 3.199936 50.685789, 3.199731 50.685715, 3.199673 50.685644, 3.199736 50.685431, 3.199796 50.685314, 3.198814 50.684933, 3.198708 50.684129, 3.198944 50.6838, 3.200458 50.681785, 3.200684 50.681866, 3.201363 50.681459, 3.203182 50.682553))</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#vauban">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Vauban</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+    <skos:notation>mel_quartier:530</skos:notation>
+    <dct:type xml:lang="fr">quartier</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#vauban_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#vauban_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((3.174885 50.687638, 3.174653 50.687867, 3.17393 50.687683, 3.172027 50.686991, 3.170043 50.686272, 3.169466 50.686063, 3.166041 50.684835, 3.163088 50.683746, 3.162105 50.683393, 3.162112 50.683388, 3.162174 50.683336, 3.162456 50.683145, 3.162454 50.683116, 3.162643 50.682995, 3.162708 50.682954, 3.162883 50.682866, 3.163045 50.682802, 3.16329 50.682656, 3.163455 50.682558, 3.163544 50.682504, 3.163894 50.682792, 3.164087 50.682689, 3.164672 50.682332, 3.165068 50.682082, 3.16522 50.681984, 3.165859 50.682395, 3.167899 50.681399, 3.171307 50.684422, 3.173718 50.686553, 3.174885 50.687638))</geo:asWKT>
+  </rdf:Description>
+</rdf:RDF>

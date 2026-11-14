@@ -61,7 +61,7 @@ sys.path.insert(0, dirname(__file__))
 from geogname_concordance_lieux import A_RETIRER, COMMUNES_PAYS, SORTIE as CONCORDANCE  # noqa: E402
 from referentiel_lieux_roubaix import SORTIE as REFERENTIEL  # noqa: E402
 
-csv.field_size_limit(sys.maxsize)
+csv.field_size_limit(2**31 - 1)  # sys.maxsize déborde le long C sous Windows
 
 EAD_FOLDER = join("results", "ead", "ead_cor", "bnr2mnesys")
 DESTINATION = join("results", "ead", "ead_cor", "bnr2mnesysgeo")

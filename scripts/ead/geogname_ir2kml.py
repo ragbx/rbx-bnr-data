@@ -7,11 +7,13 @@ tracé multiple ; contour pour les quartiers), dans un dossier par thésaurus. L
 ne montre que le libellé, le nombre d'occurrences et un lien vers la recherche de la
 BN-R (2026-11-08).
 
-Lien BN-R : la BN-R indexe les IR d'origine (data/ead/bnr), pas les IR réécrits. Les
-formes d'origine d'un lieu sont prises dans la concordance (forme + @source → lieu) ;
-le lien cherche le texte de chacune, entre guillemets, dans l'index de son @source
-(INDEX_BNR : rue, quartier, adresse ; sujet_geo pour les formes sans @source), les
-critères reliés par OR : un seul lien par lieu, quel que soit son nombre de formes.
+Lien BN-R (format du 2026-11-14) : la BN-R indexe les IR d'origine (data/ead/bnr), pas
+les IR réécrits. Voies et quartiers : filtre de facettes (fq) sur les formes d'origine du
+lieu prises dans la concordance (forme + @source → lieu), chacune dans l'index de son
+@source (INDEX_BNR : rue, quartier, adresse ; sujet_geo pour les formes sans @source),
+reliées par OR (lien_bnr). Sites : pas d'index « site » sur la BN-R, recherche plein texte
+des noms du site entre guillemets, avec dropFQ=1 (lien_bnr_site, noms_sites). Un seul
+lien par lieu.
 
 Les voies ont en plus, dans un dernier dossier « Voies : zones de clic » replié, un
 repère de même nom et même description dont la géométrie est un tampon invisible de
@@ -21,8 +23,9 @@ restent de simples lignes (lisibles comme telles dans QGIS).
 uMap ne lit pas les styles KML (import par togeojson, tout dans la couleur par défaut,
 tampons des voies visibles) : les mêmes lieux sont donc aussi écrits au format natif
 de uMap (.umap, à côté du KML), un calque par thésaurus, couleurs dans les options
-uMap des calques et des quartiers, descriptions dans la syntaxe de uMap, sans les
-zones de clic (2026-11-08).
+uMap des calques et des quartiers, descriptions dans la syntaxe de uMap (2026-11-08) ;
+depuis le 2026-11-14, avec un dernier calque « Voies : zones de clic » (tampons quasi
+transparents, UMAP_CLIC).
 
 Les <geogname> sans @coord (lieu sans géométrie ou forme sans lieu) ne peuvent pas
 être placés : ils sont comptés en fin d'exécution.
@@ -30,11 +33,11 @@ Les <geogname> sans @coord (lieu sans géométrie ou forme sans lieu) ne peuvent
 Usage : python scripts/ead/geogname_ir2kml.py [--ir-dir DIR] [--sortie FICHIER.kml]
         [--sortie-umap FICHIER.umap] [--concordance FICHIER.csv]
 """
-import argparse, csv, json, re
+import argparse, csv, json, re, unicodedata
 from collections import Counter, defaultdict
 from glob import glob
 from html import escape
-from os.path import dirname, join, realpath
+from os.path import dirname, exists, join, realpath
 from urllib.parse import urlencode
 
 from lxml import etree
@@ -47,6 +50,11 @@ RACINE = dirname(dirname(dirname(realpath(__file__))))
 IR_DIR = join(RACINE, "results/ead/ead_cor/bnr2mnesysgeo")
 SORTIE = join(RACINE, "results/ead/indexation/bnr2mnesysgeo_lieux.kml")
 CONCORDANCE = join(RACINE, "data/geo/concordance_geogname_lieux.csv")
+SITES = join(RACINE, "data/geo/propositions_sites_20261112.csv")  # noms des sites validés (liens plein texte)
+# Lieux dont le filtre fq ne trouve rien sur la BN-R (leurs <geogname> n'y sont pas indexés en facette) :
+# lien plein texte sur leurs formes (mode « plein texte ») ou pas de lien (mode « sans lien » : rien sur la
+# BN-R). Colonnes thesaurus, libelle, mode, motif ; tenu d'après verifier_liens_bnr.py.
+REPLI = join(RACINE, "data/geo/liens_bnr_repli.csv")
 def kml_bgr(rvb):
     """Couleur « #RRVVBB » → « bbggrr » (ordre KML, sans l'opacité)."""
     rvb = rvb.lstrip("#")
@@ -56,10 +64,13 @@ def kml_bgr(rvb):
 # Palette de la BnR (2026-11-06) : noir #000000, blanc #FFFFFF, turquoise #2FAAAF,
 # jaune #E9B400, violet #9460A4, gris #ADA796.
 NOIR, TURQUOISE, JAUNE, VIOLET, GRIS = "#000000", "#2FAAAF", "#E9B400", "#9460A4", "#ADA796"
+# Rouge des sites / points (14/11/2026), hors palette mais accordé à elle : teinte opposée au
+# turquoise, même saturation (58 %), un peu plus clair (47 %) ; partagé avec quartiers2kml.py.
+ROUGE = "#C03730"
 THESAURUS = {  # fichier @source → (clé, titre du dossier, couleur KML aabbggrr)
     "bnr_geo_rbx_quartiers.xml": ("quartiers", "Quartiers", "ff" + kml_bgr(VIOLET)),
     "bnr_geo_rbx_voies.xml": ("rues", "Voies", "ff" + kml_bgr(NOIR)),
-    "bnr_geo_rbx_sites.xml": ("points", "Sites", "ff" + kml_bgr(NOIR)),
+    "bnr_geo_rbx_sites.xml": ("points", "Sites", "ff" + kml_bgr(ROUGE)),
 }
 CLES = {cle for cle, _, _ in THESAURUS.values()}
 HORS_KML = {"bnr_geo_territoires.xml"}  # territoires (communes, pays) : retirés du KML le 2026-11-08
@@ -78,7 +89,7 @@ COULEURS_QUARTIERS = [kml_bgr(c) for c in QUARTIERS_RVB]
 UMAP_CALQUES = {
     "quartiers": {"weight": 2, "opacity": 1, "fillOpacity": 0.5},
     "rues": {"color": NOIR, "weight": 3, "opacity": 1},
-    "points": {"color": NOIR, "iconClass": "Circle"},
+    "points": {"color": ROUGE, "iconClass": "Circle"},
 }
 CENTRE_UMAP = (3.1746, 50.6942)  # Roubaix (lon, lat)
 VOISINAGE_M = 1e-5  # tolérance de contact entre contours (degrés, environ 1 m)
@@ -106,15 +117,68 @@ def formes_origine(chemin):
     return formes
 
 
-def lien_bnr(libelle, formes):
-    """Recherche avancée BN-R : chaque forme d'origine dans l'index de son @source, reliées par OR."""
-    criteres = []
-    for i, (source, forme) in enumerate(formes):
-        criteres += [("bool[]", "OR" if i else ""), ("index[]", INDEX_BNR[source]), ("value[]", f'"{forme}"')]
+def guillemets(valeurs):
+    """["A", "B"] → '"A" OR "B"' (guillemets doubles internes retirés)."""
+    return " OR ".join('"' + v.replace('"', "") + '"' for v in valeurs)
+
+
+def variantes_bnr(forme):
+    """Valeurs de facette possibles d'une forme d'origine (constaté sur la BN-R le 2026-11-14) :
+    la BN-R retire l'antislash (« Esperance, rue de l\\' » indexé « Esperance, rue de l' ») et
+    garde parfois une espace finale que l'extraction des IR a perdue (« Corneille, rue  »,
+    « Fraternité  ») : forme sans antislash, avec et sans espace finale."""
+    v = forme.replace("\\", "").strip()
+    return [v, v + " "]
+
+
+def lien_bnr(formes):
+    """Voies et quartiers (2026-11-14) : filtre de facettes de la BN-R, chaque forme d'origine dans
+    l'index de son @source, exactement telle qu'écrite (le filtre distingue casse et tirets :
+    « Grand place » 680 résultats, « Grand Place » 11), index reliés par OR :
+        fq=rue:("Jean Lebas, avenue" OR "Gare, rue de la") OR sujet_geo:("Gare, rue de la")
+    Un lien fq remplace les filtres que la BN-R garde en session."""
+    par_index = defaultdict(list)
+    for source, forme in formes:
+        for v in variantes_bnr(forme):
+            if v not in par_index[INDEX_BNR[source]]:
+                par_index[INDEX_BNR[source]].append(v)
+    fq = " OR ".join(f"{index}:({guillemets(f)})" for index, f in par_index.items())
     return BNR_RECHERCHE + "?" + urlencode(
-        [("type_rech", "pl"), *criteres, ("spec_expand", "1"), ("typedoc", ""), ("docnum", ""),
-         ("spec_tri_annee_start", ""), ("spec_tri_annee_end", ""), ("sort_define", "score"),
-         ("sort_order", "1"), ("rows", "10"), ("fq", "1"), ("decouvrir_par_terme", libelle)])
+        [("q", "deleted:(0)"), ("spec_expand", ""), ("sort_define", "score"), ("sort_order", "1"),
+         ("rows", "9"), ("fq", fq)])
+
+
+def lien_bnr_site(phrases):
+    """Sites (2026-11-14) : pas d'index « site » sur la BN-R, recherche plein texte des noms du
+    site entre guillemets (expressions exactes, accents et casse indifférents), reliés par OR.
+    dropFQ=1 vide les filtres gardés en session (sans lui, un filtre rue ou quartier posé
+    auparavant donne 0 résultat)."""
+    return BNR_RECHERCHE + "?" + urlencode(
+        [("type_rech", "rs"), ("index[]", "fulltext"), ("bool[]", ""), ("reset", "1"), ("nr", "1"),
+         ("dropFQ", "1"), ("value[]", guillemets(phrases))])
+
+
+def noms_sites(chemin, origine):
+    """{libellé du site: [noms à chercher]} : libellé, puis formes des sites validés
+    (propositions_sites, proposition « validé »), sans doublon d'accents ou de casse et sans
+    nom d'un seul mot (« mairie », « gare » : trop larges en plein texte)."""
+    noms = defaultdict(list)
+    if chemin and exists(chemin):
+        with open(chemin, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r["proposition"] == "validé" and r["libelle_propose"]:
+                    noms[r["libelle_propose"]].append(r["forme"])
+    sortie = {}
+    for (th, lib) in [k for k in origine if k[0] == "points"] + [("points", l) for l in noms]:
+        vus, liste = set(), []
+        for n in [lib, *noms.get(lib, [])]:
+            cle = unicodedata.normalize("NFD", n.lower()).encode("ascii", "ignore").decode()
+            cle = re.sub(r"\W+", " ", cle).strip()
+            if cle and cle not in vus and len(cle.split()) > 1:
+                vus.add(cle)
+                liste.append(n)
+        sortie[lib] = liste
+    return sortie
 
 
 def coordonnees(suite):
@@ -133,10 +197,21 @@ def polygone_kml(poly):
             f"{coordonnees(poly.exterior.coords)}</coordinates></LinearRing></outerBoundaryIs>{anneaux}</Polygon>")
 
 
+def tampon(coord):
+    """Tampon de TAMPON_M mètres autour d'une voie (calculé en Lambert 93, simplifié à 1 m,
+    arrondi à 6 décimales) → géométrie shapely en WGS84."""
+    return set_precision(transform(VERS_WGS84, transform(VERS_L93, wkt.loads(coord)).buffer(TAMPON_M).simplify(1)), 1e-6)
+
+
+# Calque uMap des zones de clic (2026-11-14) : polygones sans contour, remplissage quasi
+# transparent (0,01 plutôt que 0, au cas où uMap prendrait 0 pour « non renseigné ») ; un clic
+# à TAMPON_M mètres d'une voie ouvre sa fiche. Les points (marqueurs) restent au-dessus.
+UMAP_CLIC = {"stroke": False, "fill": True, "color": NOIR, "fillColor": NOIR, "fillOpacity": 0.01}
+
+
 def tampon_kml(coord):
-    """Tampon de TAMPON_M mètres autour d'une voie (calculé en Lambert 93, simplifié, arrondi à
-    6 décimales) → élément de géométrie KML (texte)."""
-    zone = set_precision(transform(VERS_WGS84, transform(VERS_L93, wkt.loads(coord)).buffer(TAMPON_M).simplify(1)), 1e-6)
+    """Tampon de TAMPON_M mètres autour d'une voie → élément de géométrie KML (texte)."""
+    zone = tampon(coord)
     if zone.geom_type == "Polygon":
         return polygone_kml(zone)
     return f"<MultiGeometry>{''.join(polygone_kml(p) for p in zone.geoms)}</MultiGeometry>"
@@ -190,6 +265,8 @@ def main():
     parser.add_argument("--sortie", default=SORTIE)
     parser.add_argument("--sortie-umap", help="défaut : le KML en .umap")
     parser.add_argument("--concordance", default=CONCORDANCE)
+    parser.add_argument("--sites", default=SITES, help="propositions de sites validées (noms des sites)")
+    parser.add_argument("--repli", default=REPLI, help="lieux à lier en plein texte (filtre fq sans résultat)")
     args = parser.parse_args()
     args.sortie_umap = args.sortie_umap or re.sub(r"\.kml$", "", args.sortie) + ".umap"
 
@@ -215,7 +292,7 @@ def main():
             l["n"] += 1
 
     kml = ['<?xml version="1.0" encoding="UTF-8"?>', f'<kml xmlns="{KML}"><Document>',
-           "<name>Lieux indexés dans les IR de la BnR (bnr2mnesysgeo)</name>",
+           "<name>Lieux de Roubaix dans les archives de la BN-R</name>",
            "<description>Un repère par lieu des thésaurus géographiques, d'après les &lt;geogname&gt; et leur @coord "
            "dans les IR réécrits ; nombre d'occurrences et lien vers la recherche de la BN-R.</description>"]
     for _, (cle, titre, couleur) in THESAURUS.items():
@@ -233,6 +310,11 @@ def main():
                    f"<PolyStyle><color>80{c}</color></PolyStyle></Style>")
     clic = []  # repères des tampons des voies, écrits dans un dossier à part, en dernier
     origine = formes_origine(args.concordance)
+    sites = noms_sites(args.sites, origine)
+    repli = set()
+    if exists(args.repli):
+        with open(args.repli, encoding="utf-8") as f:
+            repli = {(r["thesaurus"], r["libelle"]): r.get("mode") or "plein texte" for r in csv.DictReader(f)}
     sans_lien = []
     umap_features = defaultdict(list)  # thésaurus → features uMap
     for _, (cle, titre, _) in THESAURUS.items():
@@ -241,7 +323,14 @@ def main():
         for lib, l in du_thesaurus:
             n = l["n"]
             formes = origine.get((cle, lib))
-            lien = lien_bnr(lib, formes) if formes else ""
+            if cle == "points":
+                lien = lien_bnr_site(sites[lib]) if sites.get(lib) else ""
+            elif repli.get((cle, lib)) == "sans lien":
+                lien = ""  # aucune notice trouvée sur la BN-R (ni filtre ni plein texte), cf. liens_bnr_repli.csv
+            elif (cle, lib) in repli and formes:
+                lien = lien_bnr_site(list(dict.fromkeys(f.replace("\\", "").strip() for _, f in formes)))
+            else:
+                lien = lien_bnr(formes) if formes else ""
             if not lien:
                 sans_lien.append(f"{titre} : {lib}")
             umap_features[cle].append(feature_umap(lib, l, n, lien,
@@ -266,13 +355,19 @@ def main():
     with open(args.sortie, "w", encoding="utf-8") as f:
         f.write("\n".join(kml))
     umap = {"type": "umap", "geometry": {"type": "Point", "coordinates": list(CENTRE_UMAP)},
-            "properties": {"name": "Lieux indexés dans les IR de la BnR (bnr2mnesysgeo)", "zoom": 14},
+            "properties": {"name": "Lieux de Roubaix dans les archives de la BN-R", "zoom": 14},
             "layers": [{"type": "FeatureCollection", "features": umap_features[cle],
                         # options du calque dans _umap_options : seule clé lue par uMap en
                         # service (2026-11-08) ; la version en développement la lit encore
                         # (rétrocompatibilité, son nouveau format met « properties »)
                         "_umap_options": {"name": titre, **UMAP_CALQUES[cle]}}
                        for _, (cle, titre, _) in THESAURUS.items()]}
+    # Zones de clic des voies, dernier calque (2026-11-14) : même nom et même description que la voie.
+    umap["layers"].append({"type": "FeatureCollection",
+                           "features": [{"type": "Feature", "properties": f["properties"],
+                                         "geometry": mapping(tampon(lieux[("rues", f["properties"]["name"])]["coord"]))}
+                                        for f in umap_features["rues"]],
+                           "_umap_options": {"name": "Voies : zones de clic", **UMAP_CLIC}})
     with open(args.sortie_umap, "w", encoding="utf-8") as f:
         json.dump(umap, f, ensure_ascii=False)
 

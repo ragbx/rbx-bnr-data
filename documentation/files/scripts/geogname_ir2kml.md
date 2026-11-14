@@ -8,6 +8,11 @@ les IR réécrits par [geogname_applique_concordance.py](geogname_applique_conco
 `<geogname>`. Depuis le 2026-11-08, la fiche ne montre que le libellé, le
 nombre d'occurrences et un lien vers la recherche de la BN-R.
 
+Depuis le 2026-11-14, c'est la carte **« public »** (ce que l'on trouve dans
+les IR, lien vers la BN-R ; titre « Lieux de Roubaix dans les archives de la
+BN-R ») ; la carte **« pros »**, tirée du référentiel des lieux, est produite
+par [quartiers2kml.py](quartiers2kml.md) avec les mêmes couleurs de quartiers.
+
 ---
 
 ## Données d'entrée
@@ -36,39 +41,64 @@ des zones de clic des voies.
 | `description` | Nombre d'occurrences (dans les 37 IR de test), puis le lien « Voir sur la BN-R » |
 | `ExtendedData` | `libelle`, `occurrences`, `lien` (jusqu'au 2026-11-08 aussi `thesaurus`, `ir` et, pour les quartiers, `couleur`) |
 
-**Lien BN-R (2026-11-08).** La BN-R indexe les IR **d'origine**
-(`data/ead/bnr`), pas les IR réécrits : le lien cherche donc les formes
-d'origine du lieu, prises dans la concordance (toutes les lignes alignées sur
-ce lieu). Recherche **par texte seulement** : chaque forme, entre guillemets,
-dans l'index de la recherche avancée qui correspond à son `@source`
-(`INDEX_BNR`) :
+**Liens BN-R (format du 2026-11-14, sur les exemples de l'utilisateur).** La
+BN-R indexe les IR **d'origine** (`data/ead/bnr`), pas les IR réécrits : le lien
+porte sur les formes d'origine du lieu, prises dans la concordance.
 
-| `@source` d'origine | Index BN-R |
-|---|---|
-| `rue` | `rue` |
-| `quartier` | `quartier` |
-| `adresse` | `adresse` |
-| (aucun) | `sujet_geo` (seul index qui trouve ces formes : « André Diligent, avenue » 0 résultat en `rue`, 7 en `sujet_geo`) |
+| Lieu | Lien | Exemple |
+|---|---|---|
+| voie, quartier | filtre de facettes `fq` (`lien_bnr`) : chaque forme dans l'index de son `@source` (`INDEX_BNR` : `rue`, `quartier`, `adresse` ; `sujet_geo` pour les formes sans `@source`), index reliés par `OR` | `resultat.php?q=deleted:(0)&spec_expand=&sort_define=score&sort_order=1&rows=9&fq=rue:("Jean Lebas, avenue" OR "Gare, rue de la") OR sujet_geo:(…)` |
+| site | recherche plein texte (`lien_bnr_site`) : noms du site entre guillemets, reliés par `OR` (pas d'index « site » sur la BN-R actuelle) | `resultat.php?type_rech=rs&index[]=fulltext&bool[]=&reset=1&nr=1&dropFQ=1&value[]="Parc Barbieux" OR "jardin du Parc Barbieux"` |
+| voie, quartier listés dans `data/geo/liens_bnr_repli.csv` | mode « plein texte » : plein texte sur leurs formes, comme un site ; mode « sans lien » : **pas de lien** (aucune notice trouvée sur la BN-R, ni par filtre ni en plein texte, ou plein texte inutilisable) | |
 
-Les critères sont reliés par `OR` (`bool[]=OR`, vérifié : « Mascara, rue de »
-en `rue` OU « Hutin » en `quartier` = 2 + 1 = 3 résultats) : **un seul lien
-par lieu**, quel que soit son nombre de formes. `decouvrir_par_terme` = libellé
-du lieu. Les 549 lieux ont un lien. Les exemples de l'utilisateur
-cherchaient les rues et les sites par coordonnées (`coord_rue`,
-`coord_adresse`) ; écarté, car 135 rues n'ont aucune forme d'origine avec
-`@coord`.
+Constats sur la BN-R (2026-11-14) :
 
-Contrôle sur le site (14 lieux) : tous les liens donnent des résultats. Le
-nombre de résultats de la BN-R (documents, sur tous ses IR) dépasse souvent le
-nombre d'occurrences du KML (37 IR de test) : Avenue Julien Lagache 52 → 330.
-La recherche par texte est moins stricte que par coordonnées : « 17 Grand'Place »
-(Hôtel de ville, 2 occurrences) donne 46 résultats en `adresse`, contre 1 par
-`coord_adresse`.
+- le filtre `fq` compare la **valeur exacte** : casse et ponctuation comptent
+  (« Grand place » 680 résultats, « Grand Place » 11, « Fresnoy-Mackellerie »
+  0 contre « Fresnoy Mackellerie » 102) ; les formes de la concordance sont
+  donc reprises telles quelles ;
+- la BN-R **retire l'antislash** des formes (« Esperance, rue de l' » indexé
+  « Esperance, rue de l' ») et garde parfois une **espace finale** que
+  l'extraction des IR a perdue (« Corneille, rue  », « Fraternité  ») :
+  `variantes_bnr` met chaque forme sans antislash, avec et sans espace finale ;
+- `OR` fonctionne à l'intérieur d'un index et entre index (« Jean Lebas,
+  avenue » 155 + « Gare, rue de la » 10 = 165 ; avec `sujet_geo` : 229) ;
+- la BN-R **garde les filtres en session** : un lien `fq` les remplace, mais une
+  recherche plein texte en hérite (0 résultat après un filtre de rue) ; d'où
+  `dropFQ=1` dans les liens plein texte ;
+- en plein texte, les **guillemets** donnent l'expression exacte, accents et
+  casse indifférents (« Eglise du Saint Rédempteur » : 22, sans guillemets :
+  3 698) ; les noms d'un seul mot (« mairie », « gare ») sont écartés
+  (`noms_sites`), et « Hôtel de ville » reste très large (9 079) ;
+- certaines formes, présentes en plein texte, n'ont **aucune facette** sur la
+  BN-R (« Acacias, square des », « Hilarion Fremaux, rue », quartier
+  « Petites Haies »…) : `fq` ne les trouve pas → table de repli.
+
+Noms des sites : libellé, puis formes des sites validés
+(`data/geo/propositions_sites_20261112.csv`, proposition « validé »).
+
+**Vérification du 2026-11-14** : 549 liens, 521 avec résultats, 28 filtres à
+zéro (5 quartiers, 23 voies) mis en repli. Après relance : plein texte utile
+pour 5 (Rue de Turin 9, Square des Acacias 2, Rue Rouget de Lisle, Square des
+Prés, Petites Haies 1) ; **23 lieux sans lien** : 19 voies introuvables même en
+plein texte (« Hilarion Fremaux, rue », « Rue Hilarion Frémaux » : 0 ; leurs
+notices ne semblent pas en ligne) et 4 quartiers d'un mot (Armentières,
+Chemin Neuf, Espérance, Linné : plein texte de 878 à 46 516 résultats).
+
+**Vérification** : [verifier_liens_bnr.py](verifier_liens_bnr.md) interroge
+chaque lien (une requête par seconde) et écrit
+`results/ead/indexation/liens_bnr_verification.csv` ; `--repli` ajoute à
+`data/geo/liens_bnr_repli.csv` les voies et quartiers dont le filtre ne donne
+rien. Ancien format (2026-11-08 → 2026-11-14) : recherche avancée par texte
+(`type_rech=pl`, `index[]`/`value[]`/`bool[]=OR`, `decouvrir_par_terme`).
 
 **Couleurs (palette de la BnR, 2026-11-06)** : noir `#000000`, blanc `#FFFFFF`,
-turquoise `#2FAAAF`, jaune `#E9B400`, violet `#9460A4`, gris `#ADA796`. Voies et
-sites en noir ; quartiers dans les 4 couleurs hors noir et
-blanc (turquoise, jaune, violet, gris, remplissage à 50 %).
+turquoise `#2FAAAF`, jaune `#E9B400`, violet `#9460A4`, gris `#ADA796`. Voies en
+noir ; quartiers dans les 4 couleurs hors noir et
+blanc (turquoise, jaune, violet, gris, remplissage à 50 %). **Sites en rouge
+`#C03730` depuis le 2026-11-14** (noir avant) : hors palette, mais teinte
+opposée au turquoise, même saturation (58 %), un peu plus clair (47 %) ;
+constante `ROUGE`, partagée avec [quartiers2kml.py](quartiers2kml.md).
 
 **Couleurs des quartiers :** deux quartiers qui se touchent n'ont jamais la même couleur
 (coloriage glouton DSATUR du graphe de voisinage, contours en contact à 1 m près).
@@ -108,9 +138,16 @@ au **format natif de uMap** :
 |---|---|
 | Quartiers (31) | contour 2, remplissage 50 % ; couleur de chaque quartier dans ses `_umap_options` (`color`, `fillColor`), même coloriage que le KML |
 | Voies (516) | noir, épaisseur 3 |
-| Sites (2) | noir, icône `Circle` |
+| Sites (2) | rouge `#C03730`, icône `Circle` |
 
-Pas de zones de clic. Chaque objet ne porte que `name` (libellé) et
+Depuis le 2026-11-14, un dernier calque **« Voies : zones de clic »** reprend
+les tampons de 30 m (fonction `tampon`, même nom et même description que la
+voie), sans contour et remplis à 1 % (`UMAP_CLIC` ; 0,01 plutôt que 0, au cas
+où uMap prendrait 0 pour une option non renseignée) : un clic près d'une voie
+ouvre sa fiche. Les sites, marqueurs, restent au-dessus. Non vérifié dans
+uMap. 0,6 → 1,2 Mo.
+
+Chaque objet ne porte que `name` (libellé) et
 `description` : nombre d'occurrences, puis le lien BN-R dans la syntaxe de
 uMap (`[[url|Voir sur la BN-R]]`, crochets de l'URL encodés `%5B%5D`). Territoires exclus, comme dans le KML. 0,6 Mo.
 

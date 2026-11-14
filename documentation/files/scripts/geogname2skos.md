@@ -46,7 +46,8 @@ un fichier identique.
 | `skos:altLabel@fr` | Anciens noms (colonne `nom_ancien`, remplie depuis `data/geo/noms_anciens.csv`) |
 | `skos:hiddenLabel@fr` | Formes des IR alignées sur le lieu, différentes du libellé et des anciens noms (« Gare, rue de la », « Jean Lebas, avenue »…) |
 | `geo:hasGeometry` → `<concept>_geometrie` / `geo:asWKT` | GeoSPARQL : `coord_manuel` sinon `coord_wkt`, WKT longitude latitude, 6 décimales — exactement le `@coord` des IR. `geo:wktLiteral` sans CRS explicite = CRS84 (WGS84 lon lat) |
-| `skos:related` | Voies et sites → quartiers traversés (colonne `quartiers`), écrit du seul côté de la voie ou du site |
+| ~~`skos:related`~~ | **Retiré le 2026-11-14** : voies et sites → quartiers traversés. Dans Mnesys, un lien vers un autre thésaurus devient un terme associé vide (constaté à l'import du fichier d'essai) ; remplacé par la `scopeNote` |
+| `skos:scopeNote@fr` | Sites : « Quartier(s) : X » (quartier du point, colonne `quartiers`). Voies : « Quartier(s) : A, B » = quartier(s) de **rattachement** (`retenu_31` de `data/geo/rues_rattachement.csv` pour une rue ambiguë, sinon quartier principal ; fonction `quartiers_des_rues` de [quartiers2kml.py](quartiers2kml.md)). Ajouté le 2026-11-14 : Mnesys affiche la `scopeNote` en « note » et ne résout pas un `skos:related` vers un autre thésaurus |
 | `skos:historyNote@fr` | Lieux disparus : « Dates : 1877 – années 1990. » |
 | `dct:isReplacedBy` | Lieu disparu → voie qui le remplace (`remplacee_par`) |
 | `skos:broader` / `skos:narrower` | Territoires : d'après la colonne `parent` (commune → département → France) |
@@ -85,10 +86,31 @@ thésaurus des territoires : 22 départements (code, QID, BnF et point de
 Wikidata, libellé contrôlé) et Coudray (Eure), commune d'Ostrebosc ; ils ne
 sont pas cités dans les IR.
 
+## Thésaurus des voies pour Mnesys (2026-11-14)
+
+Décision : le thésaurus des rues chargé dans Mnesys **remplace
+`bnr_geo_rbx_voies`** (même fichier, même schéma, mêmes URI que celles des
+IR), avec les quartiers de rattachement en `skos:scopeNote` (pas de concepts
+quartiers dans ce fichier). Le test de [rues_quartiers2skos.py](rues_quartiers2skos.md)
+(schéma `geo_rbx_rues_quartiers`) ne sert plus que de trace.
+
+Fichier d'essai : `results/ead/indexation/mnesys_test/voies_note/bnr_geo_rbx_voies.xml`
+(`--sortie`), 937 voies, 908 notes (les 29 voies sans tracé n'en ont pas),
+mêmes URI et libellés que le thésaurus en service (seul retrait : Parc de la
+Potennerie, devenu un site). Il garde la géométrie GeoSPARQL et les
+`hiddenLabel`. Premier import (2026-11-14) : les `skos:related` vers les
+quartiers traversés apparaissaient comme termes associés vides, « gênant » :
+retirés du script le même jour (voies et sites), fichier d'essai régénéré.
+Second import (2026-11-14) : **correct** — géométrie GeoSPARQL tolérée,
+plus de termes associés vides, note des quartiers affichée. **Décision : un
+seul fichier** par thésaurus, le même pour Mnesys et pour l'archive (pas de
+version allégée).
+
 ## Utilisation
 
 ```bash
 conda run -n rbx-bnr-data python scripts/ead/geogname2skos.py
+conda run -n rbx-bnr-data python scripts/ead/geogname2skos.py --sortie results/ead/indexation/mnesys_test/voies_note   # essai, sans toucher aux thésaurus en service
 ```
 
 À relancer après toute modification des référentiels ou de la concordance.

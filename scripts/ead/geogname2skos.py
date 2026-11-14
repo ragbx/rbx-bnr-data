@@ -23,8 +23,13 @@ Par concept (décisions du 2026-11-06) :
     sinon coord_wkt,
     WKT longitude latitude (CRS84, le CRS par défaut de geo:wktLiteral),
     6 décimales, comme le @coord des IR ;
-  - voies et sites : skos:related vers les quartiers traversés (colonne
-    quartiers ; écrit d'un seul côté, la relation est symétrique) ;
+  - voies et sites : skos:scopeNote@fr « Quartier(s) : A, B » (décisions du
+    2026-11-14) ; voies : quartier(s) de rattachement (retenu_31 de
+    rues_rattachement.csv pour une rue ambiguë, sinon quartier principal ; même
+    règle que quartiers2kml.py) ; sites : quartier du point (colonne quartiers).
+    Mnesys affiche scopeNote en « note ». Plus de skos:related vers les
+    quartiers : Mnesys ne résout pas un lien vers un autre thésaurus et en fait
+    un terme associé vide ;
   - lieu disparu : skos:historyNote (dates) et dct:isReplacedBy ;
   - territoires : skos:broader / skos:narrower d'après la colonne parent,
     skos:exactMatch vers Wikidata et data.bnf.fr ;
@@ -35,7 +40,9 @@ lieux écartés (referentiel_lieux_roubaix_ecartes.csv) ne le sont pas.
 
 À lancer depuis la racine du dépôt, dans l'environnement rbx-bnr-data :
     python scripts/ead/geogname2skos.py
+    python scripts/ead/geogname2skos.py --sortie results/ead/indexation/mnesys_test   # essai
 """
+import argparse
 import csv
 import sys
 import unicodedata
@@ -50,6 +57,7 @@ from rdflib.namespace import DCTERMS, RDF, SKOS
 sys.path.insert(0, dirname(__file__))
 from geogname_applique_concordance import SOURCES, coord_ir, normaliser  # noqa: E402
 from geogname_concordance_lieux import COMMUNES_PAYS, SORTIE as CONCORDANCE  # noqa: E402
+from quartiers2kml import quartiers_des_rues  # noqa: E402
 from referentiel_lieux_roubaix import SORTIE as REFERENTIEL  # noqa: E402
 
 DEST_THESAURUS = join("results", "ead", "indexation", "thesaurus")
@@ -90,6 +98,10 @@ def ecrire_trie(g, fichier):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Thésaurus SKOS géographiques de la BnR")
+    parser.add_argument("--sortie", default=DEST_THESAURUS, help=f"dossier de sortie (défaut {DEST_THESAURUS})")
+    dest = parser.parse_args().sortie
+    rattachement = quartiers_des_rues()  # lieu_id d'une rue → quartier(s) de rattachement
     lieux = lire(REFERENTIEL) + lire(COMMUNES_PAYS)
     par_thesaurus = defaultdict(list)
     for l in lieux:
@@ -114,7 +126,7 @@ def main():
         if f["statut"] == "aligné" and f["lieu_id"]:
             formes[f["lieu_id"]].add(normaliser(f["forme"]))
 
-    makedirs(DEST_THESAURUS, exist_ok=True)
+    makedirs(dest, exist_ok=True)
     for thesaurus, liste in sorted(par_thesaurus.items()):
         nom_court, uri_schema = espaces[thesaurus]
         schema = URIRef(uri_schema)
@@ -152,9 +164,13 @@ def main():
                 g.add((noeud, GEO.asWKT, Literal(coord_ir(geometrie)[0], datatype=GEO.wktLiteral)))
                 compte["géométrie"] += 1
 
-            for q in valeurs(l.get("quartiers", "")) if thesaurus != "quartiers" else []:
-                g.add((c, SKOS.related, uri_par_libelle[("quartiers", q)]))
-                compte["related"] += 1
+            # Quartiers en note, plus de skos:related vers le thésaurus des quartiers (2026-11-14 :
+            # dans Mnesys, un lien vers un autre thésaurus devient un terme associé vide).
+            quartiers = (rattachement.get(l["lieu_id"], []) if thesaurus == "rues"
+                         else valeurs(l.get("quartiers", "")) if thesaurus == "points" else [])
+            if quartiers:
+                g.add((c, SKOS.scopeNote, Literal("Quartier(s) : " + ", ".join(quartiers), lang="fr")))
+                compte["scopeNote"] += 1
 
             if l.get("date_debut") or l.get("date_fin"):
                 g.add((c, SKOS.historyNote, Literal(
@@ -180,7 +196,7 @@ def main():
                 g.add((c, SKOS.exactMatch, URIRef(BNF + l["bnf"])))
                 compte["exactMatch"] += 1
 
-        fichier = join(DEST_THESAURUS, f"bnr_{nom_court}.xml")
+        fichier = join(dest, f"bnr_{nom_court}.xml")
         ecrire_trie(g, fichier)
         print(f"{len(liste):5d} concepts  {fichier}  {dict(compte)}")
 
