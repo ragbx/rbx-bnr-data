@@ -16,7 +16,8 @@ photographies 1950-1965, cadastre, OSM ; couches du référentiel) et écrit, da
 
 Saisie dans QGIS : décision, lieu_manuel, remarque ; déplacer le point si besoin. Puis
 `python scripts/ead/sites_sans_point.py --reporter` reporte ces saisies (et la position, si le point a
-bougé) dans le CSV.
+bougé) dans le CSV. Un point saisi dans lieu_manuel (« POINT (lon lat) ») recentre la carte dessus
+(macro de projet et action « Zoomer sur le point manuel », voir qgis_zoom_lieu_manuel.py).
 """
 import csv
 import sys
@@ -27,7 +28,10 @@ from qgis.core import (Qgis, QgsApplication, QgsCategorizedSymbolRenderer, QgsCo
                        QgsPalLayerSettings, QgsPointXY, QgsProject, QgsRectangle, QgsReferencedRectangle, QgsRendererCategory,
                        QgsVectorFileWriter, QgsVectorLayer, QgsVectorLayerSimpleLabeling, QgsWkbTypes,
                        QgsCoordinateTransformContext)
-from qgis.PyQt.QtCore import QVariant
+from qgis.PyQt.QtCore import Qt, QVariant
+
+sys.path.insert(0, dirname(abspath(__file__)))
+from qgis_zoom_lieu_manuel import ajouter_zoom  # noqa: E402
 
 RACINE = dirname(dirname(dirname(abspath(__file__))))
 GEO = join(RACINE, "data", "geo")
@@ -122,11 +126,18 @@ def configurer_sites(couche):
     couche.setLabeling(QgsVectorLayerSimpleLabeling(lab))
     couche.setLabelsEnabled(True)
     couche.setDisplayExpression('"forme"')
+    tac = couche.attributeTableConfig()  # table attributaire triée par groupe
+    tac.setSortExpression('"groupe"')
+    tac.setSortOrder(Qt.AscendingOrder)
+    couche.setAttributeTableConfig(tac)
 
 
 def main():
     with open(CSV, encoding="utf-8") as f:
         lignes = list(csv.DictReader(f))
+    # sites classés par ordre alphabétique des groupes (puis de la forme) : ordre des fid dans le GeoPackage,
+    # donc de la navigation dans le formulaire et de la table attributaire
+    lignes.sort(key=lambda l: (l["groupe"], l["forme"], l["site_cle"]))
     app = QgsApplication([], False)
     app.initQgis()
     a_placer = ecrire_couches(lignes)
@@ -149,6 +160,7 @@ def main():
     emprise.combineExtentWith(sites.extent())
     emprise.grow(0.003)
     p.viewSettings().setDefaultViewExtent(QgsReferencedRectangle(emprise, couches["Quartiers"].crs()))
+    ajouter_zoom(p)  # zoom automatique sur le point saisi dans lieu_manuel (macro + action)
     if not p.write(PROJET):
         sys.exit("écriture du projet impossible")
     print(f"{len(lignes)} sites ({a_placer} sur l'aire d'attente) → {GPKG}")

@@ -216,3 +216,48 @@ Saint Sauveur », « gare de Fives » : `TYPE_TEXTE` s'en charge) et les voies
 (« place / rue / avenue de la Gare » : décision de l'utilisateur du 2026-11-12, les cartes « Place de la Gare » restent indexées sur la voie seulement). Résultat : 181 notices citent la gare,
 dont 134 avec un lien retenu (130 sujet), au lieu de 22. Le total passe à
 2 284 notices reliées à un point.
+
+## Vélodromes (2026-11-17)
+
+Roubaix a eu trois vélodromes : le **vélodrome roubaisien** (1895-1924, dit « du Parc Barbieux », à
+l'angle de l'avenue de Flandre et de la rue d'Hem, sur le territoire de Croix ; point disparu
+`bnr:velodrome roubaisien` ajouté à `lieux_disparus.csv` à la demande de l'utilisateur), le
+**vélodrome André Pétrieux** (1936) et le **Stab**, vélodrome couvert Jean Stablinski (2012).
+Règle générale de l'utilisateur : « on est très prudents ».
+
+`VELODROME_SEUL` prend « le vélodrome » sans nom. Les formes qui ne distinguent pas le
+vélodrome (`VELODROMES_A_ATTRIBUER` : « Vélodrome de Roubaix », « Vélodrome roubaisien », « Vélodrome du
+Parc Barbieux »…) passent par `velodrome()`. Une forme qui nomme Pétrieux ou Stablinski garde sa clé.
+
+1. **Indice sûr** dans le titre, la note ou l'indexation de la notice (`VELODROMES`) : Barbieux, nouveau
+   boulevard, Jean Jaurès, rue Verte, avenue de Flandre, rue d'Hem, 1895 → vélodrome roubaisien ;
+   Pétrieux, Parc des Sports, douches → Pétrieux ; Stab, Stablinski, vélodrome couvert → Stab. L'indice
+   doit être compatible avec la date de la notice (unitdate) → groupe `velodrome <nom> (indice)`.
+2. **Rue Alexander Fleming** (Pétrieux et Stab) : tranche seulement avec une date.
+3. **Date seule** : ≤ 1924 → vélodrome roubaisien, 1936-2011 → Pétrieux → groupe `velodrome <nom> (date)`.
+4. **Sinon `velodrome (a revoir)`** (proposition « à revoir », sans point) : notices non datées ou
+   bornées (« avant 1939 »), datées de 1925-1935, après 2012 sans le Stab nommé, indices de plusieurs
+   vélodromes, indice et date en désaccord (« Vélodrome du Parc Barbieux » en 1981), « actuel vélodrome ».
+
+Les groupes avec point sont des propositions « probable », à valider (decision) groupe par groupe.
+La colonne `attribution` du fichier des notices donne le motif. Exclus : le Vélodrome d'Hiver (Paris) et
+« Stab Quatuor de saxophones » (pas de mot vélodrome).
+
+**Validation des vélodromes, notice par notice** (demande utilisateur : un projet par groupes était trop
+complexe) : `scripts/ead/qgis_validation_velodromes.py` (Python de QGIS) écrit
+`data/geo/validation_velodromes_notices_20261117.gpkg` / `.qgz` : couche Notices (un point par notice, sur le
+vélodrome proposé ; vélodrome proposé, motif, date, titre, ARK, note, indexation ; saisies `decision` : oui
+comme proposé / Barbieux / Pétrieux / Stab / aucun / à revoir, et `remarque`), couche Vélodromes, plans de
+1855, 1889 et 1899. On valide dans la table attributaire en vue formulaire. `--reporter` écrit les décisions
+dans `data/geo/velodromes_notices_manuel.csv`, que sites_candidats.py lit : un choix prime sur
+l'attribution (groupe `velodrome <nom> (choix)`, proposition « validé » ; `velodrome (aucun)` exclu).
+Relancer ensuite `sites_candidats.py --date 20261112`.
+
+**Quatrième vélodrome (2026-11-17, indication utilisateur)** : vélodrome des Quatre Villes
+(Roubaix-Croix-Tourcoing-Wattrelos), square du Laboureur à Wattrelos (`bnr:velodrome quatre villes`,
+lieux_disparus.csv) ; attesté vers 1908-1913, endommagé pendant la guerre puis démoli. Indice : « 4 / quatre
+villes ». Dates inconnues : période possible 1880-1919, jamais attribué par la date seule
+(`VELODROMES_DATES_INCERTAINES`) ; une date seule avant 1920 n'attribue plus le vélodrome roubaisien (à revoir).
+Le fichier des notices garde `groupe_auto` (proposition automatique avant le choix de validation). Dans le
+projet QGIS, le champ `alerte` signale les décisions prises avant cet ajout que la règle actuelle rend
+ambiguës (symbole orange « à revérifier ») ; la décision n'est pas modifiée.

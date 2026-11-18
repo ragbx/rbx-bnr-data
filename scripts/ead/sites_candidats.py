@@ -13,7 +13,8 @@ Trois sources dans chaque notice <c>, de la plus sûre à la moins sûre :
   - texte : unittitle et scopecontent, un mot de type suivi d'un nom
     (« église Saint-Martin », « hôpital de la Fraternité ») ; quelques sites
     sont pris sans nom (hôtel de ville, mairie, conservatoire, Condition
-    Publique, Colisée, Cave aux Poètes, ENSAIT). Un mot de type précédé d'un
+    Publique, Colisée, Cave aux Poètes, ENSAIT, la gare, le vélodrome — attribué
+    à l'un des trois vélodromes par indices et date, voir VELODROMES). Un mot de type précédé d'un
     type de voie (« rue de l'Hospice », « place de la Gare ») est ignoré.
 
 Les formes sont réduites à une clé (cle() du référentiel, sans « Roubaix »,
@@ -138,6 +139,42 @@ GARE_SEULE = re.compile(
     r"(?<![\w-])(?i:gare)(?![\w-])"
     r"(?!\s+(?:(?i:de|du|des|aux?)\s+|(?i:d)['’]\s*)?[A-ZÀ-Ý])"
     r"(?!\s+(?i:de|aux?)\s+(?i:marchandises|triage))(?!\s+(?i:routi[èe]re|d['’]eau))")
+# « Le vélodrome » sans nom (cartes postales, photos) : pris comme « La Gare », puis attribué par
+# velodrome(). Un vélodrome nommé (« Vélodrome d'Hiver », « vélodrome Stablinski ») passe par TYPE_TEXTE.
+VELODROME_SEUL = re.compile(
+    r"(?<![\w-])(?i:v[ée]lodrome)(?![\w-])(?!\s+(?:(?i:de|du|des|aux?)\s+|(?i:d)['’]\s*)?[A-ZÀ-Ý])")
+# Les vélodromes (décision utilisateur du 2026-11-17, « on est très prudents ») : nom du groupe →
+# (lieu_id, première et dernière année, indices sûrs). Un vélodrome cité sans nom explicite est attribué
+# par un indice sûr compatible avec la date de la notice, sinon par la date seule ; dans le doute
+# (indices contradictoires, indice et date en désaccord, sans date, 1925-1935, après 2012 sans le Stab
+# nommé) : à revoir. Chaque attribution reste une proposition « probable », validée par groupe.
+VELODROMES = {
+    "barbieux": ("bnr:velodrome roubaisien", 1895, 1924,
+                 r"barbieux|nouveau boulevard|jean jaur[eè]s|rue verte|avenue de flandre|rue d['’]hem|1895"),
+    "petrieux": ("bdtopo:SURFACTI0000002478333140", 1936, 9999, r"p[ée]trieux|parc des sports|douches"),
+    "stab": ("bdtopo:SURFACTI0000000331790932", 2012, 9999, r"\bstab\b|stablinski|v[ée]lodrome\s+couvert"),
+    # Quatrième vélodrome (indication utilisateur du 2026-11-17) : à Wattrelos, square du Laboureur ;
+    # attesté vers 1908-1913, endommagé pendant la guerre puis démoli. Dates inconnues : 1880-1919 est la
+    # période possible, qui rend la date seule ambiguë avec le vélodrome roubaisien jusqu'en 1919.
+    "quatre-villes": ("bnr:velodrome quatre villes", 1880, 1919, r"(?:4|quatre)\s+villes"),
+}
+# Vélodromes aux dates inconnues : jamais attribués par la date seule.
+VELODROMES_DATES_INCERTAINES = {"quatre-villes"}
+# Indice faible, commun à Pétrieux et au Stab : ne tranche qu'avec la date.
+VELODROME_FLEMING = r"alexand(?:er|re) fleming"
+# Clés des formes sans nom explicite, ou dont le nom ne distingue pas les vélodromes (le « Vélodrome du
+# Parc Barbieux » de certaines notices est daté de 1981 : l'indice est vérifié contre la date).
+VELODROMES_A_ATTRIBUER = {"velodrome", "velodrome barbieux", "velodrome parc barbieux", "velodrome au parc barbieux"}
+VELODROME_A_REVOIR = "velodrome (a revoir)"
+VELODROME_AUCUN = "velodrome (aucun)"
+# « Vélodrome du Parc Barbieux » ne désigne pas le parc (le vélodrome était avenue de Flandre, à Croix) :
+# dans une notice qui cite un vélodrome, le lien au parc n'est gardé que si le texte (titre, note) nomme
+# Barbieux ailleurs que dans le nom du vélodrome (décision utilisateur du 2026-11-17).
+PARC_BARBIEUX = "parc barbieux"
+BARBIEUX_DU_VELODROME = re.compile(r"(?i)v[ée]lodrome[^.;]{0,60}?barbieux")
+# Choix par notice saisis dans le projet QGIS de validation (qgis_validation_velodromes.py --reporter) :
+# ir, c_id, velodrome (barbieux / petrieux / stab / aucun / à revoir), remarque. Le choix prime sur velodrome().
+VELODROMES_MANUEL = join(GEO, "velodromes_notices_manuel.csv")
 VOIE_AVANT = re.compile(
     r"\b(?:rue|place|avenue|boulevard|bd|quai|chemin|impasse|all[ée]e|passage|sentier|pont|route|cour|cit[ée]"
     r"|r[ée]sidence|carrefour|contour|parvis|promenade)\s+(?:de\s+la\s+|de\s+l['’]\s*|du\s+|des\s+|de\s+|d['’]\s*)?$",
@@ -216,7 +253,43 @@ def formes_texte(texte):
         if VOIE_AVANT.search(avant) or re.search(r"(?i)(alma[- ]|chef\s+de\s+)$", avant):
             continue
         out.append((m.group(0), texte[max(0, m.start() - 60):m.start()], debut(texte, m.start())))
+    for m in VELODROME_SEUL.finditer(texte):
+        avant = texte[max(0, m.start() - 30):m.start()]
+        if VOIE_AVANT.search(avant):
+            continue
+        out.append((m.group(0), texte[max(0, m.start() - 60):m.start()], debut(texte, m.start())))
     return out
+
+
+def velodrome(texte, unitdate):
+    """(clé du groupe, motif) d'un vélodrome cité sans nom qui le distingue (voir VELODROMES)."""
+    # « avant 1939 », « après 1950 » : borne seulement, la notice n'est pas datée.
+    annees = [] if re.search(r"(?i)\b(avant|apr[eè]s)\b", unitdate) else \
+        [int(a) for a in re.findall(r"\b(1[89]\d\d|20[0-4]\d)\b", unitdate)]
+    compatibles = {n for n, (_, a, b, _) in VELODROMES.items() if not annees or all(a <= y <= b for y in annees)}
+    if re.search(r"(?i)\bactuel(?:le)?\s+v[ée]lodrome", texte):
+        return VELODROME_A_REVOIR, "« actuel vélodrome » : lequel ?"
+    forts = {n for n, (_, _, _, rx) in VELODROMES.items() if re.search(rx, texte, re.I)}
+    if forts:
+        retenus = forts & compatibles
+        if len(retenus) == 1 and len(forts) == 1:
+            n = retenus.pop()
+            return f"velodrome {n} (indice)", f"indice {n}" + (f", date {unitdate} compatible" if annees else ", sans date")
+        if len(forts) > 1:
+            return VELODROME_A_REVOIR, "indices de plusieurs vélodromes : " + ", ".join(sorted(forts))
+        return VELODROME_A_REVOIR, f"indice {forts.pop()} et date {unitdate} en désaccord"
+    if re.search(VELODROME_FLEMING, texte, re.I):
+        retenus = {"petrieux", "stab"} & compatibles
+        if annees and len(retenus) == 1:
+            n = retenus.pop()
+            return f"velodrome {n} (indice)", f"rue Alexander Fleming et date {unitdate}"
+        return VELODROME_A_REVOIR, "rue Alexander Fleming (Pétrieux ou Stab)" + (f", date {unitdate}" if annees else ", sans date")
+    if not annees:
+        return VELODROME_A_REVOIR, "sans indice ni date"
+    if len(compatibles) == 1 and not compatibles & VELODROMES_DATES_INCERTAINES:
+        n = compatibles.pop()
+        return f"velodrome {n} (date)", f"date {unitdate} seule"
+    return VELODROME_A_REVOIR, f"date {unitdate} : " + (" ou ".join(sorted(compatibles)) or "aucun vélodrome")
 
 
 def debut(texte, i):
@@ -418,6 +491,8 @@ def main():
                  for r in lire_csv(REFERENTIEL) if r["thesaurus"] == "quartiers"}
     autres = villes_autres()
 
+    choix_velodromes = {(r["ir"], r["c_id"]): r["velodrome"] for r in lire_csv(VELODROMES_MANUEL)
+                        if r["velodrome"]} if exists(VELODROMES_MANUEL) else {}
     lignes_notices, sites = [], defaultdict(lambda: {"formes": Counter(), "champs": Counter(), "ir": Counter(),
                                                      "notices": set(), "contexte": Counter(), "personne": 0,
                                                      "exemple": ""})
@@ -436,6 +511,8 @@ def main():
             ctx_autre = bool(terr - {"roubaix", "nord", "france"}) and not rbx
             personnes = [cle(txt(x)) for x in c.findall("controlaccess/persname")]
             rues = " | ".join(txt(x) for x in c.findall("controlaccess/geogname") if "voies" in x.get("source", ""))
+            unitdate = txt(did.find("unitdate"))
+            texte_velodrome = " ".join([titre, scope, *(txt(x) for x in c.findall("controlaccess/*"))])
 
             trouves = []  # (forme, champ, role, texte avant, début de titre)
             for x in c.findall("controlaccess/corpname"):
@@ -455,8 +532,19 @@ def main():
                     trouves.append((v, champ, "", avant, deb))
 
             vus = set()
+            if any(cle_site(f[0]) in VELODROMES_A_ATTRIBUER for f in trouves) \
+                    and not re.search(r"(?i)barbieux", BARBIEUX_DU_VELODROME.sub(" ", f"{titre} {scope}")):
+                trouves = [f for f in trouves if cle_site(f[0]) != PARC_BARBIEUX]
             for forme, champ, role, avant, deb in trouves:
                 k = cle_site(forme)
+                attribution, groupe_auto = "", ""
+                if k in VELODROMES_A_ATTRIBUER:
+                    k, attribution = velodrome(texte_velodrome, unitdate)
+                    groupe_auto = k
+                    choix = choix_velodromes.get((ir, c.get("id")))
+                    if choix:
+                        k, attribution = ({"aucun": VELODROME_AUCUN, "à revoir": VELODROME_A_REVOIR}.get(
+                            choix, f"velodrome {choix} (choix)"), f"choix à la validation ({choix}) ; proposé : {attribution}")
                 if not k or not famille(k) and champ != "corpname":
                     continue
                 s = sites[k]
@@ -494,7 +582,8 @@ def main():
                                        "lieu_id": "", "rues": rues, "distance_rue_m": "", "avant": avant,
                                        "debut": deb, "adresses": adresses, "adresse": "", "adresse_ban": "",
                                        "distance_adresse_m": "", "dates": " | ".join(dates),
-                                       "unittitle": titre[:300], "extrait": extrait})
+                                       "unittitle": titre[:300], "extrait": extrait, "attribution": attribution,
+                                       "groupe_auto": groupe_auto})
 
     anciennes = {}
     if exists(sortie):
@@ -513,6 +602,11 @@ def main():
         corresp, cands = aligner(k, fam, points)
         if s["contexte"]["autre ville (forme)"] == len(s["notices"]):
             corresp, cands = "autre ville", []  # « gare de Lille » : pas de point de Roubaix
+        if k.startswith("velodrome ") and k.endswith(("(indice)", "(date)", "(choix)")):
+            lieu = VELODROMES[k.split()[1]][0]
+            corresp, cands = f"vélodrome par {k.split('(')[1][:-1]}", [p for p in points if p["lieu_id"] == lieu]
+        elif k in (VELODROME_A_REVOIR, VELODROME_AUCUN):
+            corresp, cands = "vélodrome " + k.split("(")[1][:-1].replace("a revoir", "à revoir"), []
         manuel = anciennes.get(k, {}).get("lieu_manuel", "").strip()
         decision = anciennes.get(k, {}).get("decision", "").strip()
         if manuel:
@@ -559,11 +653,15 @@ def main():
             q = [lib for lib, g in quartiers_geom.items() if g.covers(p0["point"].centroid)]
             quartier = " | ".join(q) if q else "hors quartiers"
         retenus = sum(liens[x] for x in LIENS_RETENUS)
-        if decision == "non" and not manuel:
+        if k.endswith("(choix)") and p0 and decision != "non":
+            proposition = "validé"  # vélodrome choisi notice par notice à la validation
+        elif k == VELODROME_AUCUN:
+            proposition = "exclu"
+        elif decision == "non" and not manuel:
             proposition = "refusé"
         elif decision in ("oui", "autre point") and p0:
             proposition = "validé"
-        elif decision == "à revoir":
+        elif decision == "à revoir" or k == VELODROME_A_REVOIR:
             proposition = "à revoir"
         elif not p0:
             proposition = "sans point" if corresp != "autre ville" else "exclu"

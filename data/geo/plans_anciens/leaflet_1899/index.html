@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plans anciens de Roubaix</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+  #carte { position: absolute; inset: 0; background: #f2efe9; }
+  .opacite { background: #fff; padding: 6px 10px; border-radius: 6px;
+             box-shadow: 0 1px 4px rgba(0,0,0,.3); font-size: 13px; }
+  .opacite label { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .opacite label + label { margin-top: 4px; }
+  .opacite input { width: 120px; }
+  .opacite output { width: 3em; text-align: right; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<div id="carte"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // Emprises des plans géoréférencés (WGS84)
+  var emprise1899 = L.latLngBounds([50.6698, 3.1501], [50.7111, 3.2188]);
+  var emprise1855 = L.latLngBounds([50.6838, 3.1573], [50.7025, 3.1908]);
+  var emprise1811 = L.latLngBounds([50.6628, 3.1378], [50.7145, 3.2249]);
+  var emprise1889 = L.latLngBounds([50.6683, 3.1502], [50.7109, 3.2202]);
+
+  var carte = L.map('carte', { minZoom: 12, maxZoom: 19, maxBounds: emprise1811.pad(0.5) });
+  carte.fitBounds(emprise1899);
+
+  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; contributeurs <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(carte);
+
+  // Tuiles XYZ générées par gdal2tiles --xyz --tiledriver=WEBP
+  // 1899 : zooms 12 à 17 (17 = pleine résolution, 0,75 m/pixel)
+  var plan1899 = L.tileLayer('tuiles/{z}/{x}/{y}.webp', {
+    minZoom: 12, maxNativeZoom: 17, maxZoom: 19, zIndex: 1,
+    bounds: emprise1899,
+    attribution: 'Plan de la ville de Roubaix, 1899, dressé par Paul Pachy &ndash; Archives municipales de Roubaix, 6Fi024'
+  }).addTo(carte);
+
+  // Vers 1811 : zooms 12 à 17 (17 = pleine résolution, 0,8 m/pixel) ; calage polynomial
+  // d'ordre 2 sur 28 points, précision de l'ordre de 20 m
+  var plan1811 = L.tileLayer('tuiles_1811/{z}/{x}/{y}.webp', {
+    minZoom: 12, maxNativeZoom: 17, maxZoom: 19, zIndex: 2,
+    bounds: emprise1811,
+    attribution: 'Roubaix il y a un siècle (vers 1811), plan dressé par Édouard Verscheure pour l\'Exposition de 1911 &ndash; BnR, PLA_B_033'
+  }).addTo(carte);
+
+  // 1889 : 4 feuilles au 1/4000 (6Fi022) en mosaïque ; zooms 12 à 18 (18 ≈ pleine résolution, 0,4 m/pixel) ;
+  // calées par corrélation sur le plan de 1899, précision de l'ordre de 5 m (10 m en périphérie est).
+  // Placé au-dessus de 1899 et 1811, sous 1855.
+  var plan1889 = L.tileLayer('tuiles_1889/{z}/{x}/{y}.webp', {
+    minZoom: 12, maxNativeZoom: 18, maxZoom: 19, zIndex: 3,
+    bounds: emprise1889,
+    attribution: 'Plan de la ville de Roubaix dressé en 1889 par le service de la voirie &ndash; Archives municipales de Roubaix, 6Fi022'
+  }).addTo(carte);
+
+  // 1855 : zooms 12 à 18 (18 = pleine résolution, 0,43 m/pixel) ; centre-ville seulement,
+  // placé au-dessus des deux autres plans
+  var plan1855 = L.tileLayer('tuiles_1855/{z}/{x}/{y}.webp', {
+    minZoom: 12, maxNativeZoom: 18, maxZoom: 19, zIndex: 4,
+    bounds: emprise1855,
+    attribution: 'Plan de Roubaix, 1855, E. Barbotin &ndash; BnF, Ge C 3003'
+  }).addTo(carte);
+
+  L.control.layers(null, {
+    'OpenStreetMap': osm,
+    'Plan de 1899 (Pachy)': plan1899,
+    'Plan vers 1811 (Verscheure)': plan1811,
+    'Plan de 1889 (service de la voirie)': plan1889,
+    'Plan de 1855 (Barbotin)': plan1855
+  }, { collapsed: false }).addTo(carte);
+  L.control.scale({ imperial: false }).addTo(carte);
+
+  // Un curseur d'opacité par plan, pour comparer avec la ville actuelle et entre plans
+  var Opacite = L.Control.extend({
+    options: { position: 'bottomleft' },
+    onAdd: function () {
+      var div = L.DomUtil.create('div', 'opacite');
+      [['Plan de 1855', plan1855], ['Plan de 1889', plan1889], ['Plan vers 1811', plan1811], ['Plan de 1899', plan1899]].forEach(function (p) {
+        var label = L.DomUtil.create('label', '', div);
+        label.innerHTML = '<span>' + p[0] + '</span>' +
+          '<input type="range" min="0" max="100" value="100"><output>100 %</output>';
+        var input = label.querySelector('input'), sortie = label.querySelector('output');
+        input.addEventListener('input', function () {
+          p[1].setOpacity(input.value / 100);
+          sortie.textContent = input.value + ' %';
+        });
+      });
+      L.DomEvent.disableClickPropagation(div);
+      L.DomEvent.disableScrollPropagation(div);
+      return div;
+    }
+  });
+  carte.addControl(new Opacite());
+</script>
+</body>
+</html>

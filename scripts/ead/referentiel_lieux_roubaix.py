@@ -94,9 +94,13 @@ NOMS_ANCIENS = join(GEO, "noms_anciens.csv")
 LIEUX_DISPARUS = join(GEO, "lieux_disparus.csv")
 # Lieux encore debout ajoutés à la main (décision du 2026-11-14) : sites sans point dans les sources
 # (église Sainte-Élisabeth, médiathèque…), position OSM, adresse des notes ou saisie ; les lieux
-# disparus restent dans LIEUX_DISPARUS. Colonnes : lieu_id, libelle, categorie, coord_wkt (POINT,
-# WGS84), variantes (séparées par « | »), source_coord, source, remarque.
+# disparus restent dans LIEUX_DISPARUS. Colonnes : lieu_id, libelle, categorie, etat, coord_wkt
+# (POINT, WGS84), variantes (séparées par « | »), source_coord, source, remarque. etat : « actuel »,
+# ou « à classer » quand on ne sait pas encore si le lieu est debout ou disparu (décision du
+# 2026-11-18 : signalé dans a_traiter). Une ligne sans coord_wkt sur un lieu existant (point BD
+# TOPO, lieu disparu) ne lui apporte que ses variantes.
 LIEUX_AJOUTES = join(GEO, "lieux_ajoutes.csv")
+A_CLASSER = "à classer"
 # Valeur de validation qui retire un lieu du référentiel (mis de côté dans SORTIE_ECARTES).
 NE_PAS_CONSERVER = "ne pas conserver"
 
@@ -747,8 +751,9 @@ def charger_historique(lieux):
 
 
 def charger_ajouts(lieux):
-    """Lieux encore debout ajoutés à la main (LIEUX_AJOUTES) : un point par ligne, créé s'il
-    n'existe pas (thésaurus des points), sinon sa position est remplacée ; variantes ajoutées."""
+    """Lieux ajoutés à la main (LIEUX_AJOUTES) : un point par ligne, créé s'il n'existe pas
+    (thésaurus des points), sinon sa position est remplacée (si coord_wkt) ; variantes ajoutées.
+    Un lieu « à classer » (actuel ou disparu ?) est signalé dans a_traiter."""
     if not exists(LIEUX_AJOUTES):
         return
     with open(LIEUX_AJOUTES, encoding="utf-8") as f:
@@ -758,10 +763,13 @@ def charger_ajouts(lieux):
                 l = lieux[d["lieu_id"]] = nouveau_lieu(d["lieu_id"], "points")
                 l["noms"]["ajout"] = d["libelle"]
                 l["categorie"] = d["categorie"]
-            l["sources"].add("ajout")
+                l["sources"].add("ajout")
             l["variantes"] |= {v.strip() for v in d.get("variantes", "").split("|") if v.strip()}
             if d["coord_wkt"]:
+                l["sources"].add("ajout")
                 l["geoms"]["ajout"] = [transform(VERS_L93, wkt.loads(d["coord_wkt"]))]
+            if d.get("etat", "").strip() == A_CLASSER:
+                l["motifs"].append("à classer : lieu actuel ou disparu ?")
 
 
 def choisir_libelle(l):

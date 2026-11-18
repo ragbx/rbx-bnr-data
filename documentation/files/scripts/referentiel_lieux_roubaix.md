@@ -274,6 +274,31 @@ remplacée et les variantes ajoutées. Table vide au 2026-11-14 (en-tête
 seul) : référentiel inchangé, vérifié ; testée avec une ligne (point créé,
 quartier calculé), puis retirée.
 
+**Sites validés reportés (2026-11-18).** Colonne `etat` ajoutée à
+`lieux_ajoutes.csv` : « actuel », ou **« à classer »** quand on ne sait pas
+encore si le lieu est debout ou disparu (3e catégorie, décision du
+2026-11-18) ; un lieu « à classer » porte le motif « à classer : lieu actuel
+ou disparu ? » dans `a_traiter`. Une ligne sans `coord_wkt` sur un lieu qui
+existe déjà (point BD TOPO, lieu disparu) ne lui apporte que ses variantes
+(pas de source « ajout »). Le report est fait par
+`scripts/ead/sites_vers_referentiel.py`, qui lit l'onglet « à nommer » de
+`data/geo/noms_points_sites_20261117.xlsx` (libellé retenu, variantes,
+actuel / disparu) : 111 lignes → 107 lieux (4 fusions) ; 56 points BD TOPO
+écartés réintégrés (validation « validé », `libelle_manuel` si le libellé
+retenu diffère), 48 nouveaux (1 disparu : Château Vaissier dans
+`lieux_disparus.csv` ; 5 actuels et 42 à classer dans `lieux_ajoutes.csv`),
+3 déjà présents (Vélodrome roubaisien renommé « Vélodrome du Parc
+Barbieux »). Les sites hors de Roubaix sont gardés (exception Château
+Vaissier du 2026-11-14, étendue le 2026-11-18). Référentiel : 976 → 1 080
+lieux, 112 points. Sauvegardes `*.backup_20261118_avant_sites.*`.
+Même jour, **Square Destombes traité comme une rue** (décision utilisateur :
+un square qui a un tracé de voie est une rue) : le point saisi est retiré,
+« Square Destombes » devient une variante de la rue Square Pierre Destombes
+(dict `RATTACHEMENTS` de `sites_vers_referentiel.py`). Le script, corrigé,
+reconnaît les points `bnr:` qu'il a lui-même créés (relance idempotente,
+vérifiée). Référentiel : 1 079 lieux, 111 points, dont 41 « à classer » ;
+concordance inchangée. Sauvegardes `*.backup_20261118_avant_destombes.*`.
+
 **Règle (décision du 2026-10-29) : un concept par voie physique.** Un simple
 changement de nom (même tracé) reste un seul concept, libellé au nom
 actuel, l'ancien nom dans `noms_anciens.csv`. Une voie détruite ou réunie
