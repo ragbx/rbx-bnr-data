@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
 <ead audience="external">
-	<eadheader>
+	<eadheader findaidstatus="unverified-partial-draft">
 		<eadid>FRAM59100_000013</eadid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Etat civil - année 2007</titleproper>
+				<titleproper>Etat civil - année 2007 - - Eliminé en 2012 et 2019.</titleproper>
 			</titlestmt>
 			<publicationstmt>
 				<publisher>Archives de la ville de Roubaix</publisher>
@@ -25,12 +25,11 @@
 	<archdesc level="fonds" id="a011463742462oYAXM9">
 		<runner>Etat civil - année 2007</runner>
 		<did>
-			<unittitle>Etat civil - année 2007</unittitle>
-			<unitid>307W</unitid>
+			<unittitle>Etat civil - année 2007 - Eliminé en 2012 et 2019.</unittitle>
+			<unitid identifier="307W">307W</unitid>
 			<origination>Service de l'Etat Civil</origination>
 			<unitdate normal="2007-01-01/2007-12-31">2007</unitdate>
-			<physdesc>
-				<extent>
+			<physdesc>				<extent>
 					2,4 ml, 24 article(s)
 				</extent>
 				
@@ -46,7 +45,7 @@
 		
 		<controlaccess>
 			
-		</controlaccess>
+		</controlaccess><note type="mnesysinternal"><p/></note>
 		<dsc type="in-depth">
 			<c level="item" id="a011463742462HyxzVA">
 	<did>

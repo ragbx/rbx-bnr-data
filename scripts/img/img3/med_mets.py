@@ -109,9 +109,9 @@ def load_notices(corpus: str, anomalies: list) -> dict:
 
 def unit_id(corpus: str, unitid: str) -> str:
     """Ms_009 -> RBX_MED_MS_009 ; VDM_ADP1_D01 -> RBX_MED_VDM_ADP1_D01 ;
-    BOH_SPO_001 -> RBX_MED_PAR_BOH_SPO_001"""
+    BOH_SPO_001 -> RBX_MED_PAR_BOH_SPO_001 ; LAI_D02_015 (corpus LAI) -> RBX_LAI_D02_015"""
     parts = unitid.split("_")
-    if len(parts) > 1 and parts[0].upper() == corpus.split("_", 1)[1]:
+    if len(parts) > 1 and parts[0].upper() == corpus.split("_", 1)[-1]:
         parts = parts[1:]
     return f"RBX_{corpus}_{'_'.join(parts)}"
 

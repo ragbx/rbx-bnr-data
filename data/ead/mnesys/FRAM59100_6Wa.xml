@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ead audience="external">
-    <eadheader>
+    <eadheader findaidstatus="unverified-partial-draft">
         <eadid>FRAM59100_000088</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>Dossiers de demandes de subvention (demandes en 2014; attributions en 2015). </titleproper>
+                <titleproper>Dossiers de demandes de subvention (demandes en 2014; attributions en 2015).  - Elimination en 2026.</titleproper>
             </titlestmt>
             <publicationstmt>
                 <publisher>Archives de la ville de Roubaix</publisher>
@@ -15,20 +15,18 @@
         </filedesc>
         <profiledesc>
             <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
-            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language>
-</langusage>
+            <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
         </profiledesc>
     </eadheader>
     <archdesc level="fonds" id="a011742632254RZVLW1">
         <runner>Dossiers de demandes de subvention (demandes en 2014; attributions en 2015). </runner>
         <did>
-            <unittitle>Dossiers de demandes de subvention (demandes en 2014; attributions en 2015). </unittitle>
+            <unittitle>Dossiers de demandes de subvention (demandes en 2014; attributions en 2015). - Elimination en 2026.</unittitle>
             <repository>Archives de la ville de Roubaix</repository>
-            <unitid>6WA</unitid>
+            <unitid identifier="6WA">6WA</unitid>
             <origination>Suivi des associations</origination>
             <unitdate normal="2015-01-01/2015-12-31">2015</unitdate>
-            <physdesc>
-                
+            <physdesc>                
                 <extent unit="ml">1,9</extent>
                 <extent unit="article(s)">9</extent>
                 
@@ -36,15 +34,13 @@
             
         </did>
         
-        <scopecontent>
-<p>Dossiers versés par le service "Suivi et Accompagnement de la Vie Associative". DUA 10 ans avant élimination en 2026 (bordereau d'élimination 2026-001).</p>
+        <scopecontent><p>Dossiers versés par le service "Suivi et Accompagnement de la Vie Associative". DUA 10 ans avant élimination en 2026 (bordereau d'élimination 2026-001).</p>
 </scopecontent>
         
         
-        <acqinfo>
-<p>Type d'entrée : versement</p>
+        <acqinfo><p>Type d'entrée : versement</p>
 <p>Date d'entrée : 21/03/2025</p>
-</acqinfo>
+</acqinfo><note type="mnesysinternal"><p/></note>
         
         
         

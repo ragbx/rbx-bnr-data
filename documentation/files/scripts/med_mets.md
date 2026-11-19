@@ -244,6 +244,108 @@ commence déjà par `MUS_VAI1` : le METS s'appelle `RBX_MUS_VAI_MUS_VAI1_D01_F19
 
 ---
 
+## Corpus publiés restants : `manifestes_publies.py`, `publies_mets.py`
+
+**Périmètre.** Un corpus est **publié** dès qu'un de ses fichiers a `publication_statut = oui`.
+On convertit alors **tous** ses TIFF, publiés ou non. `scripts/img/img3/manifestes_publies.py`
+lit le ref 20261026 et retient les TIFF au statut `TRANSFERT_S3_OK` qui n'ont pas de JPEG
+(`s3_stem_profil` sans `jpg`). Le 19/11/2026, un échantillon de 238 de ces TIFF (5 par
+corpus) a été vérifié sur S3 : aucun n'a de JPEG.
+
+**Un METS par groupe, nommé d'après les TIFF.** Il faut pouvoir passer d'un TIFF à son METS
+et d'un METS à ses TIFF. Le METS est `<répertoire du TIFF>/<groupe>_mets.xml` et liste ses
+TIFF par clé S3 dans son `fileSec`. Le groupe d'un TIFF suit l'une de ces règles
+(colonne `regle` des manifestes) :
+
+| Règle | Quand | Groupe (nom du METS) |
+|---|---|---|
+| `notice` | le TIFF a un `unitid` | la notice de l'IR, `unit_id(corpus, unitid)`, comme `med_mets.py` |
+| `notice_rattachee` | pas d'`unitid`, mais le nom du document est celui d'une notice existante | cette notice : le TIFF en est une vue que le ref ne rattache pas |
+| `document` | pas d'`unitid`, corpus où la règle a été vérifiée, nom `RBX_…_<n° de vue>` | le nom sans le numéro de vue : `RBX_MED_MON_FOL_301337_009.tif` → `RBX_MED_MON_FOL_301337` |
+| `tiff` | sinon | le TIFF seul : `RBX_MED_LET_0464.tif` → `RBX_MED_LET_0464` |
+
+La règle `document` s'applique à `MED_VDM`, `MED_MON`, `MED_PAR`, `MED_FLR`, `AMR_AFF`,
+`MED_AFF`, `MED_IMA`, `MUS_VAI`, `MED_MS`, `OBS_JOU` et `MED_EPH`. Dans ces corpus, le nom
+sans numéro de vue redonne l'`unitid` de 89 à 100 % des TIFF qui en ont un (vérifié le
+19/11/2026). Ailleurs, une image correspond à une notice (`MED_LET`, `MED_CHA`, `MED_PHO`…),
+ou les noms ne permettent pas de regrouper : retirer le numéro y fusionnerait des documents
+distincts. `AMR_PR` et `LAI` passent donc en `tiff`. Les noms irréguliers (`1RBX_…`,
+`… (1)`, `.tif.tif`) passent aussi en `tiff`, avec les caractères hors `[A-Za-z0-9_-]`
+remplacés par `_`. Un METS de document n'a pas de notice : il porte le titre du set OAI du
+corpus, sans cote, date ni ARK.
+
+**Sorties** sous `results/img/` (état au 19/11/2026). Les manifestes reprennent les colonnes
+du ref et ajoutent `unitid_mets`, `document_mets`, `regle` et `mets_key` :
+
+| Fichier | TIFF | METS | Go | Contenu |
+|---|---|---|---|---|
+| `manifeste_corpus_publies.csv.gz` | 28 712 | — | 858 | tout le périmètre (27 corpus) |
+| `manifeste_corpus_publies_lot.csv.gz` | 15 873 | 7 657 | 463 | groupes qu'aucun JPEG ne couvre encore |
+| `manifeste_corpus_publies_partielles.csv.gz` | 9 868 | 115 | 347 | notices déjà converties en partie, dont les rattachées |
+| `corpus_publies_tiff_mets.csv` | 25 741 | — | — | table TIFF → METS des deux manifestes précédents |
+| `corpus_publies_ecarts.csv` | 9 232 | — | — | TIFF non traités, un motif par TIFF |
+
+- **Lot** : 22 corpus. `publies_mets.py --verifier` ne refuse aucun groupe ; seules les 2
+  notices `MED_PAR` en double dans l'IR ressortent (voir Limites).
+- **Partielles** : 115 notices `MED_PAR`, `MED_VDM`, `MED_MS`, `MED_AFF`, `MED_IMA`, `MED_CP`
+  et `MED_MON`, dont 100 complétées par des TIFF rattachés. Leur METS est déjà sur S3 : le
+  manifeste reprend tous leurs TIFF, y compris ceux déjà convertis, pour un METS complet. Il
+  faut les lancer avec `--overwrite`, qui remplace leurs JPEG et METS : à décider avant.
+- **Écarts** : `LAR_PUB` (JPEG old-style) ; un IR nommé autrement (`MED_FLRS`, `CSV`) ; pas
+  d'IR pour les notices `AMR_*` ; groupes contenant un TIFF douteux (1 354 TIFF) ; notices
+  réparties dans plusieurs répertoires (342 TIFF `MED_VDM`) ; `PRA_ERT`, qui relève de la
+  chaîne presse. Les TIFF sans `unitid` de `MED_FLR` et des corpus `AMR_*` sont traités :
+  ils n'ont pas besoin de l'IR.
+
+**Chaîne.** `publies_mets.py` reprend `med_mets.py` à l'identique, sauf sur trois points :
+- il lit le groupe dans le manifeste et accepte tous les corpus ;
+- il compare le nom de chaque METS à la colonne `mets_key` et refuse tout écart ;
+- il retire la cote vide du MODS d'un document.
+
+`med_mets.unit_id` accepte maintenant un corpus sans « _ » (`LAI_D02_015` →
+`RBX_LAI_D02_015`) : les notices `LAI` passent. Le 19/11/2026, 4 groupes ont été convertis
+sous Windows, hors lot et sans envoi, sur des TIFF de synthèse : un de chaque règle sauf
+`notice_rattachee`. Les 4 METS sont valides contre les XSD.
+
+**TIFF à mettre sous `<source>`.** Ils sont téléchargés depuis S3 par `tiff_depuis_s3.py`, qui
+contrôle la taille et le MD5 de chaque fichier et saute ceux déjà présents. On ne passe pas par
+le partage : les 3 446 TIFF `MED_MON` sans `unitid` ont pour `path` un dossier de livraison
+relatif, et 38 autres sont sous `E:/RBX_NUM_MEL`.
+
+Lancement, sur le serveur, depuis la racine du dépôt :
+
+```bash
+python scripts/img/img3/tiff_depuis_s3.py results/img/manifeste_corpus_publies_lot.csv.gz --source /home/kibini/bnr
+bash scripts/img/img3/lot_publies.sh
+MANIFESTE=results/img/manifeste_corpus_publies_partielles.csv.gz OVERWRITE=1 bash scripts/img/img3/lot_publies.sh
+```
+
+Après le lot, la table `corpus_publies_tiff_mets.csv` est à reporter dans le ref, au
+prochain recalcul, pour garder le lien TIFF → METS.
+
+---|---|---|---|---|
+| `manifeste_corpus_publies.csv.gz` | 28 712 | — | 858 | tout le périmètre (27 corpus) |
+| `manifeste_corpus_publies_lot.csv.gz` | 3 919 | 2 860 | 105 | convertible tel quel par `med_mets.py` |
+| `manifeste_corpus_publies_partielles.csv.gz` | 1 179 | 16 | 31 | notices déjà converties en partie |
+| `corpus_publies_ecarts.csv` | 24 771 | — | — | le reste, un motif par TIFF |
+
+- **Lot** : 13 corpus, `MED_AFF`, `MED_CHA`, `MED_CP`, `MED_EPH`, `MED_IMA`, `MED_LET`,
+  `MED_MAR`, `MED_PAR`, `MED_PHO`, `MED_PLA`, `MED_VDM`, `MUS_ARC` et `OBS_JOU`. `build_jobs`
+  ne refuse aucune notice et les retrouve toutes dans l'IR, sauf les 2 notices `MED_PAR` en
+  double (voir Limites). `lot_mets.py` ne connaît que les six corpus de son propre lot : il
+  faut lui donner cette liste dans `mm.CORPORA` avant de lancer.
+- **Partielles** (`MED_CP` 8, `MED_MON` 2, `MED_VDM` 6) : le manifeste reprend tous les TIFF
+  de ces notices, y compris ceux qui ont déjà un JPEG. Le METS est déjà sur S3, donc un lot
+  sans `--overwrite` les sauterait. Elles sont à lancer avec `--overwrite`, après décision.
+- **Écarts** : 15 129 TIFF n'ont pas d'`unitid` et ne peuvent pas être regroupés en notice,
+  dont `MED_VDM` 6 935, `MED_MON` 3 446, `AMR_PR` 3 027, `MED_PAR` 671 et `LAI` 516. Les
+  autres motifs : `LAR_PUB` (JPEG old-style), `LAI` (`unit_id`), un IR nommé autrement
+  (`MED_FLRS`, `CSV`), pas d'IR (`AMR_*`), des notices avec un TIFF douteux (594 TIFF) ou
+  réparties dans plusieurs répertoires (320 TIFF `MED_VDM`), et `PRA_ERT`, qui relève de la
+  chaîne presse.
+
+---
+
 ## Limites
 
 - **Cadence mesurée au lot du 24 octobre 2026** (4 processus) : 0,5 à 0,6 s par vue,
