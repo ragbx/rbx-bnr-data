@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
 # Corpus publies, TIFF sans JPEG (manifestes_publies.py) : publies_mets.py, avec validation XSD et
 # ENVOI RÉEL sur S3. À lancer depuis la racine du dépôt, env vips-convert actif, dans tmux ou screen :
-#   bash scripts/img/img3/lot_publies.sh                     # lot : 15 873 TIFF, 7 657 METS, 463 Go
+#   SOURCE=<montage d'az> bash scripts/img/img3/lot_publies.sh   # lot : 13 263 TIFF, 7 551 METS, 340 Go
 #   MANIFESTE=results/img/manifeste_corpus_publies_partielles.csv.gz OVERWRITE=1 bash scripts/img/img3/lot_publies.sh
 #                                                            # notices partielles : 9 868 TIFF, 115 METS,
 #                                                            # leurs JPEG et METS deja sur S3 sont REMPLACES
 #
 # Avant de lancer, les TIFF doivent être sous <SOURCE>/<path>/<name> : la liste est
-# <manifeste>_tiff.txt ; les télécharger depuis S3 avec
-#   python scripts/img/img3/tiff_depuis_s3.py <manifeste> --source <SOURCE>
-# (une partie n'a pas de chemin sur le partage). Le script la contrôle et s'arrête si des fichiers manquent (SKIP_CHECK=1
+# <manifeste>_tiff.txt. Ils sont lus sur az, sans copie : SOURCE est le montage d'az (BNR_SAUV/,
+# BNR_VERIF/) ; le manifeste hors_az (TIFF absents d'az) demande d'abord tiff_depuis_s3.py. Le script la contrôle et s'arrête si des fichiers manquent (SKIP_CHECK=1
 # pour passer outre : les METS concernés seront alors en erreur, le lot continue). Il contrôle aussi
 # les groupes (publies_mets.py --verifier) et s'arrête si l'un d'eux est refusé.
 #
 # Réglages (variables d'environnement) :
-#   SOURCE=/home/kibini/bnr  préfixe des chemins du ref
+#   SOURCE=/home/kibini/bnr  montage d'az : préfixe des chemins du ref
 #   OUT=~                    sortie sous <OUT>/lot_publies (ou lot_publies_partielles)
 #   WORKERS=4                processus de conversion (pic de 1,9 Go chacun au lot des 6 corpus)
 #   UPLOAD=1                 0 : conversion et METS seulement, sans envoi sur S3

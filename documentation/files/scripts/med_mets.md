@@ -280,9 +280,10 @@ du ref et ajoutent `unitid_mets`, `document_mets`, `regle` et `mets_key` :
 | Fichier | TIFF | METS | Go | Contenu |
 |---|---|---|---|---|
 | `manifeste_corpus_publies.csv.gz` | 28 712 | — | 858 | tout le périmètre (27 corpus) |
-| `manifeste_corpus_publies_lot.csv.gz` | 15 873 | 7 657 | 463 | groupes qu'aucun JPEG ne couvre encore |
+| `manifeste_corpus_publies_lot.csv.gz` | 13 263 | 7 551 | 340 | groupes qu'aucun JPEG ne couvre encore, TIFF tous sur az |
 | `manifeste_corpus_publies_partielles.csv.gz` | 9 868 | 115 | 347 | notices déjà converties en partie, dont les rattachées |
-| `corpus_publies_tiff_mets.csv` | 25 741 | — | — | table TIFF → METS des deux manifestes précédents |
+| `manifeste_corpus_publies_hors_az.csv.gz` | 2 610 | 106 | 123 | documents `MED_MON` livrés par l'Université de Lille, absents d'az |
+| `corpus_publies_tiff_mets.csv` | 25 741 | — | — | table TIFF → METS des trois manifestes précédents |
 | `corpus_publies_ecarts.csv` | 9 232 | — | — | TIFF non traités, un motif par TIFF |
 
 - **Lot** : 22 corpus. `publies_mets.py --verifier` ne refuse aucun groupe ; seules les 2
@@ -307,17 +308,20 @@ du ref et ajoutent `unitid_mets`, `document_mets`, `regle` et `mets_key` :
 sous Windows, hors lot et sans envoi, sur des TIFF de synthèse : un de chaque règle sauf
 `notice_rattachee`. Les 4 METS sont valides contre les XSD.
 
-**TIFF à mettre sous `<source>`.** Ils sont téléchargés depuis S3 par `tiff_depuis_s3.py`, qui
-contrôle la taille et le MD5 de chaque fichier et saute ceux déjà présents. On ne passe pas par
-le partage : les 3 446 TIFF `MED_MON` sans `unitid` ont pour `path` un dossier de livraison
-relatif, et 38 autres sont sous `E:/RBX_NUM_MEL`.
+**Les TIFF sont lus sur az**, sans copie : `<source>` est le montage d'az sur le serveur, qui
+contient `BNR_SAUV/` et `BNR_VERIF/`. Le lot et les notices partielles n'ont que des TIFF d'az
+(`source2s3 = az`, `path` sous `BNR_SAUV/` ou `BNR_VERIF/`). Les 2 610 TIFF `MED_MON` de
+`source2s3 = UnivLille` (`path` relatif ou sous `E:/RBX_NUM_MEL`) ne figurent pas dans
+l'extraction az du 23/10/2026, ni par nom ni par nom et taille : ils ne sont que sur S3, et
+leurs 106 documents forment le manifeste `hors_az`. Pour les traiter, il faut d'abord les
+déposer sur az, ou bien les télécharger depuis S3 par petits lots avec `tiff_depuis_s3.py`,
+qui contrôle la taille et le MD5 et saute les fichiers déjà présents.
 
 Lancement, sur le serveur, depuis la racine du dépôt :
 
 ```bash
-python scripts/img/img3/tiff_depuis_s3.py results/img/manifeste_corpus_publies_lot.csv.gz --source /home/kibini/bnr
-bash scripts/img/img3/lot_publies.sh
-MANIFESTE=results/img/manifeste_corpus_publies_partielles.csv.gz OVERWRITE=1 bash scripts/img/img3/lot_publies.sh
+SOURCE=<montage d'az> bash scripts/img/img3/lot_publies.sh
+SOURCE=<montage d'az> MANIFESTE=results/img/manifeste_corpus_publies_partielles.csv.gz OVERWRITE=1 bash scripts/img/img3/lot_publies.sh
 ```
 
 Après le lot, la table `corpus_publies_tiff_mets.csv` est à reporter dans le ref, au
