@@ -62,6 +62,8 @@ SITES = join(RACINE, "data/geo/sites_carte.csv")   # sites validés, hors IR (si
 SITES_NOTICES = join(RACINE, "results/ead/indexation/sites_carte_notices.csv")
 IR_ACTUELS = join(RACINE, "results/ead/ead_cor/bnr2mnesys")   # titres des IR (tels qu'en ligne)
 LIEUX_NOTICES = join(RACINE, "results/ead/indexation/lieux_carte_notices.csv")   # rues, quartiers (lieux_carte_notices.py)
+# Lieux disparus (voies et sites) : tracés en pointillés / points évidés sur la carte (2026-11-19)
+LIEUX_DISPARUS = join(RACINE, "data/geo/lieux_disparus.csv")
 ARCHIVES = join(RACINE, "results/ead/indexation/archives_carte_notices.csv")   # Archives municipales (archives_carte_notices.py)
 IR_ARCHIVES = join(RACINE, "data/ead/mnesys")   # titres des IR des Archives municipales
 AM = "AM_"   # préfixe des codes d'IR des Archives municipales dans la page (notices sans lien)
@@ -184,6 +186,27 @@ def avec_notices(o, liste):
     return o
 
 
+def lieux_disparus():
+    """lieu_id → période (« 1881 – 1954 », « ? – vers 1980 », « » si inconnue) des lieux de lieux_disparus.csv."""
+    if not exists(LIEUX_DISPARUS):
+        return {}
+    out = {}
+    with open(LIEUX_DISPARUS, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            d, fin = r["date_debut"].strip(), r["date_fin"].strip()
+            out[r["lieu_id"]] = f"{d or '?'} – {fin or '?'}" if d or fin else ""
+    return out
+
+
+def marquer_disparu(o, lieu_id, disparus):
+    """Ajoute disparu (période, éventuellement vide) à un lieu de la carte s'il figure dans lieux_disparus.csv."""
+    if lieu_id and lieu_id.startswith("sp:"):   # point validé sans point du référentiel : même clé en bnr:
+        lieu_id = lieu_id if lieu_id in disparus else "bnr:" + lieu_id[3:]
+    if lieu_id in disparus:
+        o["disparu"] = disparus[lieu_id]
+    return o
+
+
 def sites_valides():
     """Sites validés (sites_carte.py) : nom = colonne nom si remplie, sinon nom proposé ; afficher = non → absent.
     Chaque site porte la liste de ses notices [titre, date, ark] (ark vide : pas encore en ligne)."""
@@ -200,7 +223,7 @@ def sites_valides():
                 continue
             nom = r["nom"].strip() or r["nom_propose"]
             sites.append({"id": ident(nom), "nom": nom, "categorie": r["categorie"], "point_id": r["point_id"],
-                          "_liste": notices[r["point_id"]],
+                          "_liste": list(notices[r["point_id"]]),
                           "quartiers": [r["quartier"]] if r["quartier"] else [],
                           "n": len(notices[r["point_id"]]), "notices": par_ir(notices[r["point_id"]]),
                           "geom": {"type": "Point", "coordinates": [round(float(r["lon"]), 5), round(float(r["lat"]), 5)]}})
@@ -217,6 +240,7 @@ def main():
     par_lieu = notices_lieux()
     archives = notices_archives()
     par_id = {r["lieu_id"]: r for r in ref.values()}
+    disparus = lieux_disparus()
     places = set()   # lieux du référentiel déjà sur la carte
 
     def toutes(cle, lieu_id):
@@ -230,19 +254,21 @@ def main():
         nom = f["properties"]["name"]
         r = ref.get(("rues", nom), {})
         n, lien = fiche_umap(f)
-        voies.append(avec_notices({"id": ident(nom), "nom": nom,
+        voies.append(marquer_disparu(avec_notices({"id": ident(nom), "nom": nom,
                                    "anciens": [a for a in r.get("nom_ancien", "").split(" | ") if a],
                                    "quartiers": q_rues.get(r.get("lieu_id"), []),
-                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, toutes(("rues", nom), r.get("lieu_id"))))
+                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, toutes(("rues", nom), r.get("lieu_id"))),
+                                     r.get("lieu_id"), disparus))
     for lieu_id, liste in archives.items():   # rues citées seulement par les archives : tracé du référentiel
         r = par_id.get(lieu_id)
         if lieu_id in places or not r or r["thesaurus"] != "rues" or not (geom := geom_referentiel(r)):
             continue
         nom = r["libelle_manuel"].strip() or r["libelle"]
         places.add(lieu_id)
-        voies.append(avec_notices({"id": ident(nom), "nom": nom,
+        voies.append(marquer_disparu(avec_notices({"id": ident(nom), "nom": nom,
                                    "anciens": [a for a in r.get("nom_ancien", "").split(" | ") if a],
-                                   "quartiers": q_rues.get(lieu_id, []), "n": 0, "lien": "", "geom": geom}, liste))
+                                   "quartiers": q_rues.get(lieu_id, []), "n": 0, "lien": "", "geom": geom}, liste),
+                                     lieu_id, disparus))
 
     quartiers = []
     for f in quartiers_f:
@@ -253,39 +279,58 @@ def main():
                                        "voies": sum(1 for v in voies if nom in v["quartiers"])},
                                       toutes(("quartiers", nom), ref.get(("quartiers", nom), {}).get("lieu_id"))))
 
+    # Sites : validés (sites_carte.py), puis ceux de l'uMap, puis ceux cités seulement par les archives. Un lieu de
+    # même nom ou à 15 m au plus d'un site déjà placé le rejoint (ses notices sont fusionnées, sans doublon) au lieu
+    # de donner un second point (2026-11-19 : Parc de la Potennerie, site validé « sp:… » et lieu du référentiel).
     sites = sites_valides()
-    for s in sites:   # sites validés : point_id = lieu_id du référentiel
-        if s.get("point_id") in archives:
-            s["notices"] = par_ir(s.pop("_liste") + archives[s["point_id"]])
-            s["n"] = sum(len(l) for _, l in s["notices"])
-        s.pop("_liste", None)
+    for s in sites:
+        s["_valide"] = True
+        marquer_disparu(s, s.get("point_id"), disparus)
+
+    def meme_site(nom, xy):
+        return next((s for s in sites if ident(nom) == s["id"] or distance_m(xy, s["geom"]["coordinates"]) <= 15), None)
+
+    def fusionner(s, liste):
+        vus = {tuple(x[:4]) for x in s["_liste"]}   # titre, date, ark, ir
+        s["_liste"] += [x for x in liste if tuple(x[:4]) not in vus]
+
+    for s in sites:   # sites validés : point_id = lieu_id du référentiel (quand il en a un)
+        fusionner(s, archives.get(s.get("point_id"), []))
         places.add(s.get("point_id"))
-    for f in sites_f:   # sites indexés dans les IR, sauf s'ils sont déjà parmi les sites validés
+    for f in sites_f:   # sites indexés dans les IR
         nom = f["properties"]["name"]
-        lon, lat = f["geometry"]["coordinates"]
-        if any(ident(nom) == s["id"] or distance_m((lon, lat), s["geom"]["coordinates"]) <= 15 for s in sites):
-            continue
         r = ref.get(("points", nom), {})
+        liste = toutes(("points", nom), r.get("lieu_id"))
+        if (s := meme_site(nom, f["geometry"]["coordinates"])) is not None:
+            fusionner(s, liste)
+            continue
         n, lien = fiche_umap(f)
-        sites.append(avec_notices({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
-                                   "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
-                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, toutes(("points", nom), r.get("lieu_id"))))
+        sites.append(marquer_disparu({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
+                      "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
+                      "n": n, "lien": lien, "geom": arrondir(f["geometry"]), "_liste": liste}, r.get("lieu_id"), disparus))
     for lieu_id, liste in archives.items():   # sites cités seulement par les archives : point du référentiel
         r = par_id.get(lieu_id)
         if lieu_id in places or not r or r["thesaurus"] != "points" or not (geom := geom_referentiel(r, point=True)):
             continue
         nom = r["libelle_manuel"].strip() or r["libelle"]
         places.add(lieu_id)
-        sites.append(avec_notices({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
-                                   "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
-                                   "n": 0, "lien": "", "geom": geom}, liste))
+        if (s := meme_site(nom, geom["coordinates"])) is not None:
+            fusionner(s, liste)
+            continue
+        sites.append(marquer_disparu({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
+                      "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
+                      "n": 0, "lien": "", "geom": geom, "_liste": liste}, lieu_id, disparus))
+    for s in sites:
+        liste = s.pop("_liste")
+        if s.pop("_valide", False):
+            s.update(n=len(liste), notices=par_ir(liste))
+        else:
+            avec_notices(s, liste)
+        s.pop("point_id", None)
     sans_place = {i for i in archives if i not in places}
     if sans_place:
         print(f"  ! {len(sans_place)} lieu(x) des archives absents de la carte (sans géométrie ou hors thésaurus) : "
               f"{sorted(sans_place)[:10]}")
-    for s in sites:
-        s.pop("point_id", None)
-
 
     donnees = json.dumps({"quartiers": quartiers, "voies": voies, "sites": sites, "rouge": ROUGE, "ark": ARK,
                           "ir": {**titres_ir(), **titres_archives({i[len(AM):] for o in quartiers + voies + sites
@@ -301,6 +346,7 @@ def main():
           f"{len(archives)} lieux, dont {len(archives) - len(sans_place)} sur la carte")
     print(f"  voies avec ancien(s) nom(s) : {sum(1 for v in voies if v['anciens'])} ; "
           f"sans quartier : {sum(1 for v in voies if not v['quartiers'])}")
+    print(f"  disparus : {sum(1 for v in voies if 'disparu' in v)} voies, {sum(1 for s in sites if 'disparu' in s)} sites")
 
 
 PAGE = r"""<!doctype html>
@@ -427,6 +473,8 @@ input:focus, select:focus { outline: 2px solid var(--turquoise); outline-offset:
   background: linear-gradient(90deg, var(--turquoise) 25%, var(--jaune) 25% 50%, var(--violet) 50% 75%, var(--gris) 75%); }
 .leg.rue { width: 16px; height: 3px; background: var(--encre); }
 .leg.site { width: 11px; height: 11px; margin: 0 2px; border-radius: 50%; background: var(--rouge); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--rouge); }
+.leg.rue.disparu, .legende i.disparu { background: repeating-linear-gradient(90deg, var(--encre) 0 5px, transparent 5px 8px); }
+.leg.site.disparu, .legende i.site.disparu { background: #fff; box-shadow: 0 0 0 2px var(--rouge); border: 0; }
 .leaflet-popup-content { margin: 12px 14px; font-size: 14px; }
 .fiche h2 { font-size: 16px; margin: 0 0 6px; }
 .fiche p { margin: 3px 0; }
@@ -506,7 +554,7 @@ input:focus, select:focus { outline: 2px solid var(--turquoise); outline-offset:
     <select id="ir"><option value="">Tous les instruments de recherche</option></select>
     <p id="ir-compte" role="status" hidden></p>
     <div class="legende" aria-hidden="true">
-      <span><i class="quartier"></i>Quartiers</span><span><i></i>Rues</span><span><i class="site"></i>Sites</span>
+      <span><i class="quartier"></i>Quartiers</span><span><i></i>Rues</span><span><i class="site"></i>Sites</span><span><i class="disparu"></i>Rues disparues</span><span><i class="site disparu"></i>Sites disparus</span>
     </div>
   </div>
   <footer hidden>
@@ -587,6 +635,7 @@ plansAnciens.forEach(p => {
 function fiche(o, type) {
   const lignes = [`<div class="fiche"><h2>${echap(o.nom)}</h2>`];
   if (type === "site" && o.categorie) lignes.push(`<p class="meta">${echap(o.categorie)}</p>`);
+  if ("disparu" in o) lignes.push(`<p class="meta"><b>${type === "voie" ? "Voie disparue" : "Site disparu"}</b>${o.disparu ? " (" + echap(o.disparu) + ")" : ""}</p>`);
   if (o.anciens && o.anciens.length) lignes.push(`<p><b>Ancien${o.anciens.length > 1 ? "s noms" : " nom"} :</b> ${o.anciens.map(echap).join(", ")}</p>`);
   if (o.quartiers && o.quartiers.length) lignes.push(`<p><b>Quartier${o.quartiers.length > 1 ? "s" : ""} :</b> ` +
     o.quartiers.map(q => `<button class="lien" data-quartier="${echap(q)}">${echap(q)}</button>`).join(", ") + "</p>");
@@ -648,33 +697,40 @@ D.quartiers.forEach(o => {
 // Voies
 const parVoie = {};
 const coucheVoies = L.layerGroup().addTo(carte);
-const styleVoie = etat => ({ renderer: rendu, color: etat === "survol" ? "#2FAAAF" : "#1d1d1b",
-  weight: etat === "survol" ? 6 : etat === "choisi" ? 4 : 2.5, opacity: etat === "estompe" ? 0.25 : 1 });
+const coucheVoiesDisparues = L.layerGroup().addTo(carte);   // voies de lieux_disparus.csv : couche à part
+const styleVoie = (etat, v) => ({ renderer: rendu, color: etat === "survol" ? "#2FAAAF" : "#1d1d1b",
+  weight: etat === "survol" ? 6 : etat === "choisi" ? 4 : 2.5, opacity: etat === "estompe" ? 0.25 : 1,
+  dashArray: v && "disparu" in v ? "6 5" : null });   // voie disparue : pointillés
 let quartierChoisi = "";
 const etatVoie = v => quartierChoisi ? (v.quartiers.includes(quartierChoisi) ? "choisi" : "estompe") : "";
 let voieOuverte = null;   // voie dont la fiche est ouverte : reste en surbrillance
 D.voies.forEach(v => {
-  v.couche = L.geoJSON(v.geom, { style: () => styleVoie(etatVoie(v)) })
+  v.groupe = "disparu" in v ? coucheVoiesDisparues : coucheVoies;
+  v.couche = L.geoJSON(v.geom, { style: () => styleVoie(etatVoie(v), v) })
     .bindTooltip(v.nom, { sticky: true })
     .bindPopup(() => fiche(v, "voie"))
-    .on("mouseover", () => v.couche.setStyle(styleVoie("survol")))
-    .on("mouseout", () => { if (voieOuverte !== v) v.couche.setStyle(styleVoie(etatVoie(v))); })
-    .on("popupopen", () => { voieOuverte = lieuChoisi = v; v.couche.setStyle(styleVoie("survol")); v.couche.bringToFront();
+    .on("mouseover", () => v.couche.setStyle(styleVoie("survol", v)))
+    .on("mouseout", () => { if (voieOuverte !== v) v.couche.setStyle(styleVoie(etatVoie(v), v)); })
+    .on("popupopen", () => { voieOuverte = lieuChoisi = v; v.couche.setStyle(styleVoie("survol", v)); v.couche.bringToFront();
                              history.replaceState(null, "", "#voie=" + v.id); })
-    .on("popupclose", () => { voieOuverte = null; v.couche.setStyle(styleVoie(etatVoie(v))); })
-    .addTo(coucheVoies);
+    .on("popupclose", () => { voieOuverte = null; v.couche.setStyle(styleVoie(etatVoie(v), v)); })
+    .addTo(v.groupe);
   parVoie[v.id] = v;
 });
 
 // Sites
 const coucheSites = L.layerGroup().addTo(carte);
+const coucheSitesDisparus = L.layerGroup().addTo(carte);   // sites de lieux_disparus.csv : couche à part
 const parSite = {};
 D.sites.forEach(s => {
   const [lon, lat] = s.geom.coordinates;
-  s.couche = L.circleMarker([lat, lon], { renderer: rendu, radius: 8, color: "#fff", weight: 2, fillColor: D.rouge, fillOpacity: 1 })
+  s.groupe = "disparu" in s ? coucheSitesDisparus : coucheSites;
+  s.couche = L.circleMarker([lat, lon], "disparu" in s   // site disparu : point évidé
+      ? { renderer: rendu, radius: 7, color: D.rouge, weight: 3, fillColor: "#fff", fillOpacity: 1 }
+      : { renderer: rendu, radius: 8, color: "#fff", weight: 2, fillColor: D.rouge, fillOpacity: 1 })
     .bindTooltip(s.nom, { direction: "top" }).bindPopup(() => fiche(s, "site"))
     .on("popupopen", () => { lieuChoisi = s; history.replaceState(null, "", "#site=" + s.id); })
-    .addTo(coucheSites);
+    .addTo(s.groupe);
   parSite[s.id] = s;
 });
 
@@ -683,7 +739,9 @@ D.sites.forEach(s => {
 const choixCouches = L.control.layers({}, {
   '<i class="leg quartier"></i>Quartiers': coucheQuartiers,
   '<i class="leg rue"></i>Rues': coucheVoies,
+  '<i class="leg rue disparu"></i>Rues disparues': coucheVoiesDisparues,
   '<i class="leg site"></i>Sites': coucheSites,
+  '<i class="leg site disparu"></i>Sites disparus': coucheSitesDisparus,
 }, { position: "topright" }).addTo(carte);
 {
   const boite = choixCouches.getContainer();
@@ -824,7 +882,7 @@ function choisirQuartier(nom) {
   quartierChoisi = nom;
   document.getElementById("quartier").value = nom;
   D.quartiers.forEach(o => o.couche.setStyle(styleQuartier(o, etatQuartier(o))));
-  D.voies.forEach(v => v.couche.setStyle(styleVoie(etatVoie(v))));
+  D.voies.forEach(v => v.couche.setStyle(styleVoie(etatVoie(v), v)));
   document.getElementById("tous").hidden = !nom;
   if (nom) { carte.fitBounds(parQuartier[nom].couche.getBounds(), marges());
              history.replaceState(null, "", "#quartier=" + parQuartier[nom].id); }
@@ -847,8 +905,8 @@ document.getElementById("tous").addEventListener("click", () => { carte.closePop
   });
   window.choisirIr = (ir, cadrer = true) => {
     irChoisi = ir; selIr.value = ir; carte.closePopup();
-    D.voies.forEach(v => dansIr(v) ? coucheVoies.addLayer(v.couche) : coucheVoies.removeLayer(v.couche));
-    D.sites.forEach(s => dansIr(s) ? coucheSites.addLayer(s.couche) : coucheSites.removeLayer(s.couche));
+    D.voies.forEach(v => dansIr(v) ? v.groupe.addLayer(v.couche) : v.groupe.removeLayer(v.couche));
+    D.sites.forEach(s => dansIr(s) ? s.groupe.addLayer(s.couche) : s.groupe.removeLayer(s.couche));
     D.quartiers.forEach(o => o.couche.setStyle(styleQuartier(o, etatQuartier(o))));
     const n = t => D[t].filter(o => ir && dansIr(o)).length;
     const pl = (k, un, plusieurs) => k + " " + (k > 1 ? plusieurs : un);
@@ -866,7 +924,11 @@ document.getElementById("quartier").addEventListener("change", e => { carte.clos
 carte.on("popupopen", e => e.popup.getElement().querySelectorAll("button[data-quartier]")
   .forEach(b => b.addEventListener("click", () => { carte.closePopup(); choisirQuartier(b.dataset.quartier); })));
 
+// Lieu ouvert (recherche, lien) alors que sa couche est masquée : la couche est réaffichée.
+const montrer = o => { if (!carte.hasLayer(o.groupe)) carte.addLayer(o.groupe); };
+function ouvrirSite(s) { montrer(s); carte.setView(s.couche.getLatLng(), 17, { animate: false }); s.couche.openPopup(); }
 function ouvrirVoie(v) {
+  montrer(v);
   carte.fitBounds(v.couche.getBounds(), marges({ maxZoom: 17, animate: false }));   // sans animation : la fiche se cadre sur la vue finale
   const c = v.couche.getBounds().getCenter();
   v.couche.openPopup(c);
@@ -892,7 +954,7 @@ function proposer() {
 function choisir(i) {
   const e = resultats[i]; if (!e) return;
   champ.value = e.v.nom; liste.innerHTML = ""; champ.setAttribute("aria-expanded", false);
-  if (e.site) { carte.setView(e.v.couche.getLatLng(), 17, { animate: false }); e.v.couche.openPopup(); } else ouvrirVoie(e.v);
+  if (e.site) ouvrirSite(e.v); else ouvrirVoie(e.v);
 }
 champ.addEventListener("input", proposer);
 champ.addEventListener("keydown", ev => {
@@ -996,7 +1058,7 @@ function suivreLien() {
   const m = location.hash.match(/^#(voie|quartier|site)=(.+)$/); if (!m) return;
   const cible = m[1] === "site" ? parSite[m[2]] : m[1] === "voie" ? parVoie[m[2]] : null;
   if (cible && !dansIr(cible)) choisirIr("", false);
-  if (m[1] === "site" && parSite[m[2]]) { const s = parSite[m[2]]; carte.setView(s.couche.getLatLng(), 17, { animate: false }); s.couche.openPopup(); }
+  if (m[1] === "site" && parSite[m[2]]) ouvrirSite(parSite[m[2]]);
   if (m[1] === "voie" && parVoie[m[2]]) ouvrirVoie(parVoie[m[2]]);
   if (m[1] === "quartier") { const o = D.quartiers.find(q => q.id === m[2]); if (o) choisirQuartier(o.nom); }
 }

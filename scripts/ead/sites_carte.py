@@ -28,6 +28,7 @@ import json
 import re
 import sqlite3
 import struct
+import unicodedata
 from collections import Counter, defaultdict
 from glob import glob
 from math import cos, hypot, radians
@@ -49,6 +50,10 @@ SORTIE = join(GEO, "sites_carte.csv")
 # (2026-11-17) ; la colonne manuelle « nom » de SORTIE garde la priorité.
 NOMS = join(GEO, "noms_points_sites_20261117.xlsx")
 SORTIE_NOTICES = join(RACINE, "results/ead/indexation/sites_carte_notices.csv")
+# Noms d'un même site (tenu à la main, 2026-11-19) : colonnes nom, site_cle_cible, remarque. Une notice dont le titre
+# est l'un de ces noms rejoint le site cible (lien « sujet ») ; les liens retenus de la clé du nom (forme des
+# propositions) aussi. Ex. Hôpital Napoléon, Hôtel-Dieu → hospice blanchemaille.
+FUSIONS = join(GEO, "sites_fusions.csv")
 
 LIENS_RETENUS = {"sujet", "lieu"}
 DECISIONS_SANS_POINT = {"oui", "autre point"}
@@ -197,6 +202,36 @@ def noms_retenus(points):
             print(f"  ! {p['nom_propose']} : absent de la liste des noms")
 
 
+def normal(texte):
+    """« Hôtel-Dieu » → « hotel dieu » (casse, accents, ponctuation)."""
+    t = unicodedata.normalize("NFD", texte.lower()).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+def fusionner_noms(par_site, ir):
+    """Applique sites_fusions.csv : notices au titre égal à un nom, et liens de la clé du nom, vers le site cible."""
+    if not exists(FUSIONS):
+        return
+    cle_de_forme = {normal(r["forme"]): r["site_cle"] for r in lire_csv(PROPOSITIONS)}
+    for f in lire_csv(FUSIONS):
+        nom, cible = normal(f["nom"]), f["site_cle_cible"].strip()
+        deja = {(n["ir"], n["c_id"]) for n in par_site[cible]}
+        ajout = 0
+        cle = cle_de_forme.get(nom)
+        if cle and cle != cible:
+            for n in par_site.pop(cle, []):
+                if (n["ir"], n["c_id"]) not in deja:
+                    par_site[cible].append(n)
+                    deja.add((n["ir"], n["c_id"]))
+                    ajout += 1
+        for (ir_court, c_id), (date, titre, ark, _) in ir.items():
+            if normal(titre) == nom and (ir_court, c_id) not in deja:
+                par_site[cible].append({"ir": ir_court, "c_id": c_id, "unittitle": titre, "lien": "sujet"})
+                deja.add((ir_court, c_id))
+                ajout += 1
+        print(f"  fusion « {f['nom']} » → {cible} : {ajout} notice(s)")
+
+
 def main():
     points = points_valides()
     noms_retenus(points)
@@ -206,6 +241,7 @@ def main():
     for n in lire_csv(NOTICES):
         if n["lien"] in LIENS_RETENUS:
             par_site[n["site_cle"]].append(n)
+    fusionner_noms(par_site, ir)
     anciens = {r["point_id"]: r for r in lire_csv(SORTIE)} if exists(SORTIE) else {}
 
     lignes, lignes_notices = [], []

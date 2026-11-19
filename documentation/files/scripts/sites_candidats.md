@@ -261,3 +261,48 @@ villes ». Dates inconnues : période possible 1880-1919, jamais attribué par l
 Le fichier des notices garde `groupe_auto` (proposition automatique avant le choix de validation). Dans le
 projet QGIS, le champ `alerte` signale les décisions prises avant cet ajout que la règle actuelle rend
 ambiguës (symbole orange « à revérifier ») ; la décision n'est pas modifiée.
+
+## IR des Archives municipales (2026-11-19)
+
+```bash
+python scripts/ead/sites_candidats.py --ir-glob "data/ead/mnesys/FRAM59100_*.xml" --prefixe propositions_sites_mnesys
+```
+
+Options ajoutées : `--ir-glob` (IR à lire) et `--prefixe` (nom des sorties dans `data/geo`). Les IR illisibles
+sont ignorés (18 IR Mnesys aux esperluettes non échappées). Les `<subject>` du thésaurus W de Mnesys
+(`thesaurus_w`) sont ignorés : ce sont des termes de typologie (« SALLE DE SPECTACLES », « PARC NATUREL »), pas
+des sites nommés.
+
+Premier passage, 621 IR : **1 302 sites candidats**, 5 780 liens notice × site (720 en sujet, 4 937 en mention).
+Propositions : 51 sûrs, 70 probables, 881 sans point, 299 exclus. Comparaison avec la méthode BnR :
+- 70 candidats sont des sites déjà validés de la carte (2 875 notices) ;
+- 105 sont connus côté BnR mais non décidés ;
+- 809 sont nouveaux, propres aux Archives (1 366 notices, surtout « sans point »).
+
+Sorties : `data/geo/propositions_sites_mnesys_20261119.csv` et `_notices.csv`. Rien n'est validé.
+
+
+## Halles centrales (2026-11-19)
+
+Point disparu `bnr:halles centrales` (lieux_disparus.csv, indication utilisateur : îlot entre la rue de la
+Halle, la rue Pierre Motte, la rue Jeanne d'Arc et la rue de la Sagesse ; marché couvert construit en 1881,
+désaffecté en 1954 d'après les notices). Les halles sont citées sans nom propre : règle dédiée `halles()`,
+toutes les formes ramenées à la clé `halles centrales` (famille « commerce »).
+
+- **Pris** : « Halle(s) centrale(s) » ; « les / la / des / aux / l' halle(s) » seul, sans complément
+  (« les Halles de Roubaix » admis).
+- **Écartés** : voies (« place des Halles », « rue(s) de la Halle », « allée des Halles », rues énumérées
+  « rues Pierre Motte, de la Halle »), îlot et résidence de la Halle (opération des années 1980) ;
+  complément (« halle des sports », « Halles de Paris », « halle à la chaussure », « Halles centrales à
+  Tourcoing », « halles et marchés ») ; enseignes (« Auberge des Halles », « Bazar des Halles », « Super
+  Cours des Halles », « ASC Les Halles de Roubaix », « Chaussures Aux Halles centrales », « publicité pour
+  les Halles ») ; administration (service, receveur, inspecteur, surveillant, commission, personnel, gestion,
+  factage, recettes, journal, police, régisseur des halles) ; sans article (« G. Halle », « Halle Flipo »,
+  « Halles, marchés ») ; « halle(s) » seule dans une notice entièrement antérieure à 1878 (halle plus ancienne).
+- Le type de lien suit les règles générales (seuls `sujet` et `lieu` sont retenus).
+
+Résultat : BnR 44 liens (31 retenus : 30 sujet, 1 lieu), Archives 28 liens (2 retenus). `decision = oui` dans
+les deux fichiers de propositions. La forme `<geogname>` « Halles centrales » (3Fi : 5, 1Ob-voirie : 1) est
+versée dans `concordance_mnesys_lieux.csv` et appliquée (`mnesys_geo_applique.py`, séries fi et mnesys).
+Le fichier BnR `propositions_sites_20261112*.csv` n'a reçu que les lignes des halles : une relance complète
+y reporterait aussi les sites ajoutés au référentiel le 2026-11-18 (106 propositions changent).

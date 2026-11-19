@@ -53,6 +53,56 @@ Au 2026-11-19 : 7 108 notices de 23 IR, 12 028 lignes lieu × notice, 682 lieux 
 quartier Épeule (100 documents, 16 inventaires), fiche d'une rue nouvelle (Allée des Lilas, 384W), filtre
 « 3Fi » (340 rues, 17 sites, 17 quartiers).
 
+### Sites validés : notices des Archives (2026-11-19)
+
+`archives_carte_notices.py` reprend aussi le repérage des sites dans les IR Mnesys
+(`data/geo/propositions_sites_mnesys_<date>_notices.csv`, produit par `sites_candidats.py`). Une notice dont un
+**site validé de la carte** est le sujet (lien « sujet » ou « lieu », comme pour la BnR ; jamais une simple
+mention) est rattachée à ce site. Le rattachement se fait par la clé du site, colonne `site_cles` de
+`sites_carte.csv`, et par les noms de `sites_fusions.csv`. Ces lignes ont l'origine « site » ; celles tirées des
+geogname ont l'origine « geogname ».
+
+Premier passage : **344 notices pour 55 sites**, venues de 88 inventaires des Archives. Exemples : Hôpital de la
+Fraternité 44 → 77 (série M), La Piscine 54 → 89, Condition Publique 184 → 219, Conservatoire 114 → 136,
+Hôtel de ville 553 → 576.
+
+## Fusion des sites (2026-11-19)
+
+Les sites sont placés dans cet ordre : sites validés (`sites_carte.py`), sites de l'uMap, sites cités seulement
+par les archives. Un lieu de **même nom, ou à 15 m au plus** d'un site déjà placé, le rejoint : ses notices
+sont fusionnées, sans doublon (clé : titre, date, ARK, IR). Il ne donne plus de second point.
+
+Avant, deux choses posaient problème :
+- les notices d'un site uMap identique à un site validé étaient perdues (le site uMap était sauté) ;
+- les archives créaient des doublons, quand l'identifiant du site validé (`sp:…`, `bdtopo:…`) n'était pas celui
+  du référentiel.
+
+Effet au 2026-11-19 : 117 → 112 sites. Cinq doublons ont été supprimés (Parc de la Potennerie, Cimetière de
+Roubaix, Hospice Barbieux, Hospice de Blanchemaille, Église Sainte Elisabeth). Le Parc Barbieux gagne
+172 notices BnR de son site uMap, l'Hôtel de ville 1.
+
+Le même jour, `bnr2mnesysgeo` et l'uMap ont été régénérés en entier : *Parc de la Potennerie* passe des voies
+aux sites (parcs = points depuis le 14/11 ; 6 geogname, MED_AFF et OBS_JOU). La carte compte 636 voies.
+
+## Noms d'un même site (2026-11-19)
+
+`data/geo/sites_fusions.csv` est tenu à la main et lu par `sites_carte.py`. Colonnes : `nom`, `site_cle_cible`,
+`remarque`. Il sert à regrouper sur un site les notices qui le désignent sous un autre nom :
+- une notice dont le titre est l'un de ces noms (casse, accents et ponctuation ignorés) rejoint le site cible,
+  comme sujet ;
+- les liens retenus (sujet, lieu) de la clé de ce nom, dans les propositions de sites, aussi.
+
+Première entrée : *Hôtel-Dieu*, *Hôpital Napoléon* et *Hôpital Napoléon de Charles Iguel* sont un seul bâtiment
+avec l'Hospice de Blanchemaille. Résultat : +12 notices « Hôtel-Dieu » (11 MED_CP, 1 MED_PAR). Le site passe à
+16 documents. Les liens d'Hôpital Napoléon ne sont que des mentions et ne sont pas retenus.
+Les deux noms sont aussi des **variantes** du lieu `bnr:hospice blanchemaille` dans le référentiel. Ils sont
+saisis dans `lieux_ajoutes.csv` : `noms_anciens.csv` est appliqué avant les lieux ajoutés et ne peut pas les
+porter. Un geogname « Hôtel-Dieu » ou « Hôpital Napoléon » s'aligne donc désormais sur l'hospice.
+
+Le même jour, la forme BnR *l'ENAI/ENSAIT* (MED_MON) est alignée sur le site ENSAIT : ses geogname ont été
+ajoutés à l'extraction figée `rbx-bnr_geogname_origine.csv`, et elle est validée dans
+`concordance_geogname_lieux.csv`.
+
 ## Sortie
 
 `results/ead/indexation/carte_bnr/index.html` : **un seul fichier**, données
@@ -122,3 +172,15 @@ dans `../carte-bnr/`, commit et push. `test_iframe.html` n'est pas publié.
 La page peut s'ouvrir directement dans un navigateur (double-clic). Dans
 Claude Code, `.claude/launch.json` (configuration `carte-bnr`) la sert sur
 `http://localhost:8765` (`python -m http.server` sur `carte_bnr/`).
+
+## Lieux disparus (2026-11-19)
+
+Les lieux de `data/geo/lieux_disparus.csv` sont distingués sur la carte : **voies disparues en pointillés**,
+**sites disparus en point évidé** (cercle blanc cerclé de rouge), avec la mention « Voie disparue » / « Site
+disparu » et la période (`date_debut – date_fin`, « ? » pour une date inconnue) dans la fiche ; légende du
+panneau et du choix des couches. Rattachement par `lieu_id` (voies et sites de l'uMap via le référentiel,
+sites validés via `point_id`, un `sp:<clé>` valant `bnr:<clé>`). Les 41 sites « à classer » de
+`lieux_ajoutes.csv` restent affichés comme les autres. Au 2026-11-19 : 10 voies, 6 sites.
+Dans le choix des couches, les lieux disparus sont des **couches à part** (« Rues disparues », « Sites
+disparus »), cochables indépendamment des rues et sites actuels : décocher Rues et Sites ne montre que les
+disparus. Un lieu ouvert par la recherche ou un lien (#site=, #voie=) réaffiche sa couche si elle est masquée.

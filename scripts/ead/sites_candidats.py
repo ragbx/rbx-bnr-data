@@ -36,6 +36,8 @@ Sorties (data/geo/) :
 
 À lancer depuis la racine du dépôt :
     python scripts/ead/sites_candidats.py [--date AAAAMMJJ]
+IR des Archives municipales (2026-11-19), sorties à part :
+    python scripts/ead/sites_candidats.py --ir-glob "data/ead/mnesys/FRAM59100_*.xml" --prefixe propositions_sites_mnesys
 """
 import argparse
 import csv
@@ -74,6 +76,7 @@ FAMILLES = [
     ("justice", r"tribunal|prison|caserne|commissariat|palais justice"),
     ("demeure", r"chateau|villa|hotel particulier"),
     ("industrie", r"usine|filature|tissage|peignage|teinturerie|brasserie|manufacture"),
+    ("commerce", r"halles centrales"),
 ]
 # Étapes 2-3 : type de lien.
 # IR d'images (le site cité en titre est ce que montre l'image) et IR d'événements (affiches, programmes).
@@ -175,6 +178,47 @@ BARBIEUX_DU_VELODROME = re.compile(r"(?i)v[ée]lodrome[^.;]{0,60}?barbieux")
 # Choix par notice saisis dans le projet QGIS de validation (qgis_validation_velodromes.py --reporter) :
 # ir, c_id, velodrome (barbieux / petrieux / stab / aucun / à revoir), remarque. Le choix prime sur velodrome().
 VELODROMES_MANUEL = join(GEO, "velodromes_notices_manuel.csv")
+# Les Halles centrales (marché couvert construit en 1881, désaffecté en 1954 ; îlot rue de la Halle, rue
+# Pierre Motte, rue Jeanne d'Arc, rue de la Sagesse ; point disparu bnr:halles centrales, indication
+# utilisateur du 2026-11-19). « Halle(s) centrale(s) » est toujours pris ; « les / la / des / aux
+# halle(s) » seul seulement sans complément (pas « halle des sports », « Halles de Paris », « halle à la
+# chaussure ») sauf « de Roubaix », et pas dans une notice entièrement antérieure à 1878.
+HALLES_CENTRALES = re.compile(r"(?<![\w-])(?i:halles?\s+centrales?)(?![\w-])")
+HALLES_SEULES = re.compile(r"(?i)(?<![\w-])(?:les|la|des|aux|l['’])\s*(halles?)(?![\w-])")
+HALLES_APRES_EXCLU = re.compile(
+    r"(?i)^\s*(?:(?:et|&)\s+march[ée]s|(?:de|des|du|d['’]|à|aux?)\s*(?!roubaix\b)\w|\(paris\))")
+HALLES_CENTRALES_APRES_EXCLU = re.compile(r"(?i)^\s*(?:à|de)\s+(?!roubaix\b)[A-ZÀ-Ý]\w+|^\s*\(paris\)")
+HALLES_AVANT_EXCLU = re.compile(
+    r"(?i)(?:\b(?:rues?|ruelle|cours|all[ée]e|place|r[ée]sidence|[îi]l[ôo]t)\s+(?:de\s+la|des|de)\s*$"
+    r"|,\s*(?:de\s+la|des)\s*$"                                   # rues énumérées : « rues Pierre Motte, de la Halle »
+    r"|\b(?:auberge|calice|bazar|super|a\.?\s?s\.?\s?c\.?|chaussures|publicit[ée]\s+pour)\s+(?:de\s+la|des|aux|les)\s*$"
+    r"|\b(?:service|receveur|inspecteur|surveillant|commission|personnel|gestion|factage|recettes|journal|police"
+    r"|r[ée]gisseur)\b[^.;:]{0,25}$)")
+HALLES_CLES = {"halle", "halles", "halle centrale", "halles centrale", "halle centrales", "halles centrales"}
+HALLES_CLE = "halles centrales"
+HALLES_ANNEE_MIN = 1878
+
+
+def halles(texte):
+    """(forme, texte qui précède, début) des Halles centrales citées dans un titre ou une note."""
+    out, pris = [], []
+    for m in HALLES_CENTRALES.finditer(texte):
+        pris.append(m.span())   # écartée ou non, la forme longue n'est pas reprise comme « halles » seules
+        avant = texte[max(0, m.start() - 40):m.start()]
+        if HALLES_AVANT_EXCLU.search(avant) or HALLES_CENTRALES_APRES_EXCLU.search(texte[m.end():m.end() + 30]):
+            continue
+        out.append((m.group(0), texte[max(0, m.start() - 60):m.start()], debut(texte, m.start())))
+    for m in HALLES_SEULES.finditer(texte):
+        s, e = m.span(1)
+        if any(a <= s < b for a, b in pris):
+            continue
+        avant = texte[max(0, m.start() - 40):m.start() + (s - m.start())]
+        if HALLES_AVANT_EXCLU.search(avant) or HALLES_APRES_EXCLU.search(texte[e:e + 30]):
+            continue
+        out.append((m.group(1), texte[max(0, s - 60):s], debut(texte, s)))
+    return out
+
+
 VOIE_AVANT = re.compile(
     r"\b(?:rue|place|avenue|boulevard|bd|quai|chemin|impasse|all[ée]e|passage|sentier|pont|route|cour|cit[ée]"
     r"|r[ée]sidence|carrefour|contour|parvis|promenade)\s+(?:de\s+la\s+|de\s+l['’]\s*|du\s+|des\s+|de\s+|d['’]\s*)?$",
@@ -477,9 +521,13 @@ def villes_autres():
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--date", default=date.today().strftime("%Y%m%d"))
+    ap.add_argument("--ir-glob", default=IR_GLOB,
+                    help=f"IR à lire (défaut : {IR_GLOB}) ; ex. data/ead/mnesys/FRAM59100_*.xml")
+    ap.add_argument("--prefixe", default="propositions_sites",
+                    help="début du nom des sorties dans data/geo (défaut : propositions_sites)")
     a = ap.parse_args()
-    sortie = join(GEO, f"propositions_sites_{a.date}.csv")
-    sortie_notices = join(GEO, f"propositions_sites_{a.date}_notices.csv")
+    sortie = join(GEO, f"{a.prefixe}_{a.date}.csv")
+    sortie_notices = join(GEO, f"{a.prefixe}_{a.date}_notices.csv")
 
     points = charger_points()
     voies = {cle(r.get("libelle_manuel") or r["libelle"]): (r.get("libelle_manuel") or r["libelle"])
@@ -496,9 +544,15 @@ def main():
     lignes_notices, sites = [], defaultdict(lambda: {"formes": Counter(), "champs": Counter(), "ir": Counter(),
                                                      "notices": set(), "contexte": Counter(), "personne": 0,
                                                      "exemple": ""})
-    for f in sorted(glob.glob(IR_GLOB)):
-        ir = re.sub(r"^FR\d+_", "", basename(f))[:-4]
-        for c in etree.parse(f).iter("c"):
+    illisibles = []
+    for f in sorted(glob.glob(a.ir_glob)):
+        ir = re.sub(r"^FR[A-Z]*\d+_", "", basename(f))[:-4]
+        try:
+            arbre = etree.parse(f)
+        except etree.XMLSyntaxError:   # IR Mnesys aux esperluettes non échappées
+            illisibles.append(ir)
+            continue
+        for c in arbre.iter("c"):
             did = c.find("did")
             if did is None:
                 continue
@@ -520,6 +574,8 @@ def main():
                 if v:
                     trouves.append((v, "corpname", x.get("role", ""), "", False))
             for x in c.findall("controlaccess/subject"):
+                if "thesaurus_w" in x.get("source", ""):   # typologie Mnesys (« SALLE DE SPECTACLES ») : pas un site nommé
+                    continue
                 v = txt(x)
                 # Sujet qui nomme un bâtiment : « Théâtre Louis Richard », « Musée Weerts (Roubaix, Nord) »,
                 # pas un thème (« Manufacture et industrie textile », « Pièces de théâtre »).
@@ -530,6 +586,11 @@ def main():
             for champ, t in (("titre", titre), ("scope", scope)):
                 for v, avant, deb in formes_texte(t):
                     trouves.append((v, champ, "", avant, deb))
+                for v, avant, deb in halles(t):
+                    annees = [int(y) for y in re.findall(r"\b(1[5-9]\d\d|20\d\d)\b", unitdate)]
+                    if cle_site(v) in ("halle", "halles") and annees and max(annees) < HALLES_ANNEE_MIN:
+                        continue   # halle antérieure aux Halles centrales
+                    trouves.append((v, champ, "", avant, deb))
 
             vus = set()
             if any(cle_site(f[0]) in VELODROMES_A_ATTRIBUER for f in trouves) \
@@ -537,6 +598,8 @@ def main():
                 trouves = [f for f in trouves if cle_site(f[0]) != PARC_BARBIEUX]
             for forme, champ, role, avant, deb in trouves:
                 k = cle_site(forme)
+                if k in HALLES_CLES:
+                    k = HALLES_CLE
                 attribution, groupe_auto = "", ""
                 if k in VELODROMES_A_ATTRIBUER:
                     k, attribution = velodrome(texte_velodrome, unitdate)
@@ -730,6 +793,8 @@ def main():
         w.writerows(lignes_notices)
 
     print(f"{len(lignes)} sites candidats, {len(lignes_notices)} liens notice × site → {sortie}")
+    if illisibles:
+        print(f"IR illisibles (ignorés) : {len(illisibles)}")
     print("correspondance :", dict(Counter(r["correspondance"] for r in lignes)))
     print("proposition :", dict(Counter(r["proposition"] for r in lignes)))
     print("liens :", dict(Counter(n["lien"] for n in lignes_notices)))

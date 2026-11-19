@@ -19,6 +19,24 @@ Environnement : `conda run -n rbx-bnr-data python …`, depuis la racine du dép
   voie = point (comme les parcs, points depuis le 2026-11-14).
 - Rester sur le périmètre demandé ; proposer l'élargissement, ne pas le construire sans accord.
 
+## 00. Sites des Archives municipales : état au 2026-11-19 (lire en premier)
+
+- Repérage : `sites_candidats.py --ir-glob "data/ead/mnesys/FRAM59100_*.xml" --prefixe propositions_sites_mnesys`
+  → `data/geo/propositions_sites_mnesys_20261119{,_notices}.csv` : 1 302 candidats.
+- Déjà exploité : 344 notices AM rattachées à 55 sites validés de la carte (`archives_carte_notices.py`, origine
+  « site »). Carte copiée dans `~/dev/carte-bnr`, non poussée.
+- Priorités : `results/ead/indexation/sites_mnesys_priorites_20261119.csv` (933 sites à valider, par nombre de notices).
+- **En cours : validation QGIS des 37 premiers sites, notice par notice** :
+  `data/geo/validation_sites_mnesys_20261119.qgz` (676 entités). Après saisie :
+  `python3 scripts/ead/qgis_validation_sites_mnesys.py --reporter` → `data/geo/sites_mnesys_notices_manuel.csv`.
+  Ce CSV n'est pas encore lu par la carte ni par les IR : c'est l'étape suivante. Fiche :
+  [qgis_validation_sites_mnesys](scripts/qgis_validation_sites_mnesys.md).
+- Attention au rang 1 : « église Notre Dame » est proposée sur Notre-Dame de Lourdes, mais les notices parlent du
+  projet d'église de 1844.
+- Le même jour : table cumulative des décisions geogname Mnesys (`data/geo/concordance_mnesys_lieux.csv`,
+  `mnesys_geo_verse.py`), MED_MON régénéré, `sites_fusions.csv` (Hôtel-Dieu / Hôpital Napoléon → Hospice de
+  Blanchemaille, aussi en variantes au référentiel).
+
 ## 0. Geogname de tous les IR Mnesys : état au 2026-11-18, fin de journée (lire en premier)
 
 Plan, décisions de l'utilisateur et étapes : [plan_geogname_mnesys_20261118.md](plan_geogname_mnesys_20261118.md).

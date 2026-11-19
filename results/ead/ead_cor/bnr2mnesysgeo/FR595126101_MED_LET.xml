@@ -107,7 +107,7 @@
           <p>Achat et vente de futailles et bouteilles vides</p>
         </scopecontent>
         <controlaccess>
-          <geogname source="rue">Jeanne d'Arc, rue</geogname>
+          <geogname source="thesaurus--SLASH--bnr_geo_rbx_voies.xml" coord="LINESTRING (3.1758 50.690922, 3.176343 50.68989)">Rue Jeanne d'Arc</geogname>
           <subject source="thesaurus--SLASH--bnr_chrono.xml">1919-1938</subject>
           <subject>Tonnellerie</subject>
           <subject source="thesaurus--SLASH--bnr_theme.xml">Autres industries</subject>

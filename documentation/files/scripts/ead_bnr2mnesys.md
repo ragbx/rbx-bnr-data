@@ -40,6 +40,31 @@ Plusieurs correctifs la modifient en place après ce script
 régénération ne reproduit donc les fichiers actuels qu'après avoir rejoué ces
 correctifs et ces retouches : ne pas écraser `bnr2mnesys/` sans comparer.
 
+### Régénération d'un seul IR : MED_MON (2026-11-19)
+
+La source `data/ead/bnr/FR595129901_MED_10.xml` a été mise à jour : 38 → 139 notices. Seul
+`FR595126101_MED_MON.xml` a été régénéré, sans toucher aux autres IR :
+
+1. Sauvegardes : `results/ead/ead_cor/archives/bnr2mnesys_20261119_avant_med_mon/` et
+   `concordance_id.backup_20261119_avant_med_mon.csv`.
+2. Le script est lancé dans un dossier de travail, avec une copie de `concordance_id.csv` et la liste des IR
+   filtrée sur MED_10. Les quatre correctifs (`ead_nettoie_texte`, `ead_tri_unitid`, `ead_otherlevel`,
+   `ead_remonte_controlaccess`) sont rejoués sur ce dossier. Sur `bnr2mnesys/`, ils ne trouvaient plus rien à
+   corriger : ils sont donc idempotents.
+3. Comparaison composant par composant avec l'IR en place : en-tête identique, 38 anciens composants gardés
+   avec leur @id et leur ARK Mnesys et dans le même ordre. Leurs seules différences sont les corrections de la
+   source (physdesc, cote physique, ponctuation). 101 composants sont nouveaux, avec des id `m0…` :
+   ils ne sont pas encore dans Mnesys, donc leur ARK ne résout pas.
+4. Cote corrigée dans la source (`MON_RES8_0313_001.tif` → `MON_RES8_0313`, *Le triage des laines à
+   Roubaix-Tourcoing*) : l'id Mnesys `a011782977963EMWOAx` est gardé, à la main, dans l'IR et dans
+   `concordance_id.csv`, au lieu de l'id neuf que le script attribuait.
+5. Installation, puis `geogname_applique_concordance.py` lancé dans un dossier de travail : seul
+   `bnr2mnesysgeo/FR595126101_MED_MON.xml` est remplacé, et ses lignes sont reportées dans
+   `bnr2mnesysgeo_rapport.csv`.
+
+**À faire après le réimport de MED_MON dans Mnesys** : relancer `ead_ids_mnesys.py` sur l'export, pour que
+les 101 nouveaux composants prennent leur id et leur ARK Mnesys.
+
 ---
 
 ## Utilisation
