@@ -65,7 +65,7 @@ from urllib.request import Request, urlopen
 
 sys.path.insert(0, dirname(__file__))
 from mnesys_geo_commun import (  # noqa: E402
-    INDEXATION, SERIES, chemin_propositions, formes_exclues, lire_formes, propositions_a_exclure,
+    INDEXATION, SERIES, chemin_propositions, formes_decidees, formes_exclues, lire_formes, propositions_a_exclure,
 )
 from mnesys_geo_sites import nature  # noqa: E402
 from geogname_concordance_lieux import (  # noqa: E402
@@ -319,7 +319,7 @@ def main():
     sortie = chemin_propositions(args.serie, "territoires", args.date)
     src = Sources(join(INDEXATION, f"{args.serie}_territoires_sources_{args.date}.json"), args.hors_ligne)
     exclure = args.exclure if args.exclure is not None else propositions_a_exclure(args.serie, "territoires")
-    exclues = formes_exclues(exclure)
+    exclues = formes_exclues(exclure) | formes_decidees()  # + formes déjà décidées dans la table
 
     formes = lire_formes(args.serie)
     lieux, ecartes, territoires = lire(REFERENTIEL), lire(SORTIE_ECARTES), lire(COMMUNES_PAYS)

@@ -12,12 +12,17 @@ pays absents du thésaurus des territoires), dans cet ordre : chaque famille exc
 précédentes et de toutes les séries précédentes (fi avant mnesys) ; « territoires » reprend en outre les formes
 de communes ou de pays que les fichiers « sites » ont listées sans proposition (voir propositions_a_exclure).
 Les décisions (colonne decision) sont globales : mnesys_geo_applique.py les applique à tous les IR où la forme apparaît.
+
+Table de décisions cumulative : data/geo/concordance_mnesys_lieux.csv, alimentée en plusieurs fois par
+mnesys_geo_verse.py à partir des décisions saisies dans les fichiers de propositions. Elle prime sur ces fichiers
+(mnesys_geo_applique.py) et ses formes sont exclues des propositions régénérées : on peut donc régénérer des
+propositions (après un réimport Mnesys par exemple) sans perdre les décisions versées.
 """
 import csv
 import glob
 import re
 from collections import Counter, defaultdict
-from os.path import basename, join
+from os.path import basename, exists, join
 
 from lxml import etree
 
@@ -93,3 +98,23 @@ def formes_exclues(fichiers):
 def propositions_appliquees():
     """Fichiers de propositions à appliquer : le plus récent de chaque série et famille."""
     return [f for s in SERIES for fam in FAMILLES for f in [dernier(s, fam)] if f]
+
+
+# Table de décisions cumulative (mnesys_geo_verse.py) : une ligne par forme décidée (« oui » ou « non »), alimentée
+# en plusieurs fois ; elle l'emporte sur les fichiers de propositions et ses formes en sont exclues.
+TABLE = join("data", "geo", "concordance_mnesys_lieux.csv")
+COLONNES_TABLE = ["forme", "decision", "lieu_id", "libelle", "thesaurus", "lieu_rejete", "remarque", "validation", "origine",
+                  "date_versement", "date_maj"]
+
+
+def lire_table(chemin=TABLE):
+    """forme -> ligne de la table de décisions ({} si la table n'existe pas encore)."""
+    if not exists(chemin):
+        return {}
+    with open(chemin, encoding="utf-8") as f:
+        return {r["forme"]: r for r in csv.DictReader(f)}
+
+
+def formes_decidees():
+    """Formes déjà décidées dans la table : exclues des nouveaux fichiers de propositions."""
+    return set(lire_table())

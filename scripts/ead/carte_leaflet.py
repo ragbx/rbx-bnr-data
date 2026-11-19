@@ -21,12 +21,18 @@ les fonds de carte sont présentés de la même façon (liste repliée sauf le P
 en tuiles XYZ WebP lues dans plans/<année>/ à côté de la page ; ces tuiles ne sont
 pas écrites par ce script, elles se copient depuis data/geo/plans_anciens/leaflet_1899
 (tuiles → 1899, tuiles_1889 → 1889, tuiles_1855 → 1855, tuiles_1811 → 1811), cf. README de carte-bnr.
+Archives municipales (2026-11-19) : notices des inventaires Mnesys par lieu, d'après
+results/ead/indexation/archives_carte_notices.csv (archives_carte_notices.py : formes alignées sur le référentiel ou
+validées) ; ajoutées aux listes des fiches, groupées par inventaire (« Archives municipales · <cote du fonds> · titre »),
+sans lien (pas d'ARK) : titre, cote et date. Les rues et sites cités seulement par les archives sont ajoutés à la
+carte avec la géométrie du référentiel des lieux.
 Coordonnées (2026-11-17) : petit widget en bas à gauche pour copier le point cliqué (lat, lon ou WKT POINT)
 ou la géométrie WKT du lieu dont la fiche est ouverte.
 
     python scripts/ead/geogname_ir2kml.py   # d'abord, si les IR ont changé
     python scripts/ead/lieux_carte_notices.py   # notices des rues et quartiers (IR)
     python scripts/ead/sites_carte.py   # sites validés et leurs notices
+    python scripts/ead/archives_carte_notices.py   # notices des Archives municipales (IR Mnesys)
     python scripts/ead/carte_leaflet.py
 """
 import csv
@@ -41,6 +47,8 @@ from os import makedirs
 from os.path import dirname, exists, join, realpath
 
 from lxml import etree
+from shapely import wkt
+from shapely.geometry import mapping
 
 sys.path.insert(0, dirname(realpath(__file__)))
 from geogname_ir2kml import ROUGE  # noqa: E402
@@ -54,6 +62,9 @@ SITES = join(RACINE, "data/geo/sites_carte.csv")   # sites validés, hors IR (si
 SITES_NOTICES = join(RACINE, "results/ead/indexation/sites_carte_notices.csv")
 IR_ACTUELS = join(RACINE, "results/ead/ead_cor/bnr2mnesys")   # titres des IR (tels qu'en ligne)
 LIEUX_NOTICES = join(RACINE, "results/ead/indexation/lieux_carte_notices.csv")   # rues, quartiers (lieux_carte_notices.py)
+ARCHIVES = join(RACINE, "results/ead/indexation/archives_carte_notices.csv")   # Archives municipales (archives_carte_notices.py)
+IR_ARCHIVES = join(RACINE, "data/ead/mnesys")   # titres des IR des Archives municipales
+AM = "AM_"   # préfixe des codes d'IR des Archives municipales dans la page (notices sans lien)
 ARK = "https://www.bn-r.fr/ark:/20179/"   # préfixe retiré des liens dans la page (allègement), remis en JS
 LIEN = re.compile(r"\[\[(.+?)\|[^\]]*\]\]")
 OCC = re.compile(r"^(\d+) occurrence")
@@ -106,12 +117,50 @@ def titres_ir():
     return out
 
 
+def titres_archives(codes):
+    """{AM_<code>: « Archives municipales · <fonds> · <titre> »} : unittitle de l'archdesc, sinon titleproper."""
+    out = {}
+    for code in codes:
+        racine = etree.parse(join(IR_ARCHIVES, f"FRAM59100_{code}.xml")).getroot()
+        ut = racine.find("archdesc/did/unittitle")
+        ut = ut if ut is not None else racine.find(".//titleproper")
+        titre = " ".join("".join(ut.itertext()).split()) if ut is not None else ""
+        titre = re.sub(r"^\d+\s*[A-Z]+\s*-\s*", "", titre)   # « 1 N - Biens communaux. »
+        titre = re.split(r"(?<!\b[A-Z])\.\s+(?=[A-ZÉ])", titre)[0].rstrip(" .")   # 1re phrase (360W) ; « M. Lepoutre » gardé
+        fonds = code.split("_")[0]   # 3Fi_20210427_import → 3Fi
+        out[AM + code] = f"Archives municipales · {fonds}" + (f" · {titre}" if titre else "")
+    return out
+
+
+def notices_archives():
+    """{lieu_id: [[titre, date, "", AM_ir, cote], …]} des Archives municipales (pas d'ARK : pas de lien)."""
+    out = defaultdict(list)
+    if not exists(ARCHIVES):
+        print(f"  ! {ARCHIVES} absent : pas de notices des Archives municipales (archives_carte_notices.py)")
+        return out
+    with open(ARCHIVES, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            out[r["lieu_id"]].append([r["titre"], r["date"], "", AM + r["ir"], r["cote"]])
+    return out
+
+
+def geom_referentiel(r, point=False):
+    """Géométrie GeoJSON d'un lieu du référentiel (coord_manuel sinon coord_wkt) ; point=True : un point."""
+    texte = (r.get("coord_manuel") or r.get("coord_wkt") or "").strip()
+    if not texte:
+        return None
+    g = wkt.loads(texte)
+    if point and g.geom_type != "Point":
+        g = g.representative_point()
+    return arrondir(mapping(g))
+
+
 def par_ir(liste):
-    """[[titre, date, ark, ir], …] → [[ir, [[titre, date, ark], …]], …] : IR les plus fournis d'abord,
-    notices dans l'ordre reçu (date puis titre) à l'intérieur de chaque IR."""
+    """[[titre, date, ark, ir(, cote)], …] → [[ir, [[titre, date, ark(, cote)], …]], …] : IR les plus fournis
+    d'abord, notices dans l'ordre reçu (date puis titre) à l'intérieur de chaque IR."""
     groupes = defaultdict(list)
-    for titre, date, ark, ir in liste:
-        groupes[ir].append([titre, date, ark])
+    for n in liste:
+        groupes[n[3]].append(n[:3] + n[4:])
     return [[ir, l] for ir, l in sorted(groupes.items(), key=lambda x: (-len(x[1]), x[0]))]
 
 
@@ -150,7 +199,8 @@ def sites_valides():
             if r["afficher"].strip().lower() == "non":
                 continue
             nom = r["nom"].strip() or r["nom_propose"]
-            sites.append({"id": ident(nom), "nom": nom, "categorie": r["categorie"],
+            sites.append({"id": ident(nom), "nom": nom, "categorie": r["categorie"], "point_id": r["point_id"],
+                          "_liste": notices[r["point_id"]],
                           "quartiers": [r["quartier"]] if r["quartier"] else [],
                           "n": len(notices[r["point_id"]]), "notices": par_ir(notices[r["point_id"]]),
                           "geom": {"type": "Point", "coordinates": [round(float(r["lon"]), 5), round(float(r["lat"]), 5)]}})
@@ -165,6 +215,15 @@ def main():
             ref[(r["thesaurus"], r["libelle_manuel"].strip() or r["libelle"])] = r
     q_rues = quartiers_des_rues()
     par_lieu = notices_lieux()
+    archives = notices_archives()
+    par_id = {r["lieu_id"]: r for r in ref.values()}
+    places = set()   # lieux du référentiel déjà sur la carte
+
+    def toutes(cle, lieu_id):
+        """Notices de la BN-R (par libellé) puis des Archives municipales (par lieu_id)."""
+        if lieu_id:
+            places.add(lieu_id)
+        return par_lieu.get(cle, []) + archives.get(lieu_id, [])
 
     voies = []
     for f in voies_f:
@@ -174,7 +233,16 @@ def main():
         voies.append(avec_notices({"id": ident(nom), "nom": nom,
                                    "anciens": [a for a in r.get("nom_ancien", "").split(" | ") if a],
                                    "quartiers": q_rues.get(r.get("lieu_id"), []),
-                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, par_lieu.get(("rues", nom))))
+                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, toutes(("rues", nom), r.get("lieu_id"))))
+    for lieu_id, liste in archives.items():   # rues citées seulement par les archives : tracé du référentiel
+        r = par_id.get(lieu_id)
+        if lieu_id in places or not r or r["thesaurus"] != "rues" or not (geom := geom_referentiel(r)):
+            continue
+        nom = r["libelle_manuel"].strip() or r["libelle"]
+        places.add(lieu_id)
+        voies.append(avec_notices({"id": ident(nom), "nom": nom,
+                                   "anciens": [a for a in r.get("nom_ancien", "").split(" | ") if a],
+                                   "quartiers": q_rues.get(lieu_id, []), "n": 0, "lien": "", "geom": geom}, liste))
 
     quartiers = []
     for f in quartiers_f:
@@ -182,9 +250,16 @@ def main():
         n, lien = fiche_umap(f)
         quartiers.append(avec_notices({"id": ident(nom), "nom": nom, "couleur": f["properties"]["_umap_options"]["color"],
                                        "n": n, "lien": lien, "geom": arrondir(f["geometry"]),
-                                       "voies": sum(1 for v in voies if nom in v["quartiers"])}, par_lieu.get(("quartiers", nom))))
+                                       "voies": sum(1 for v in voies if nom in v["quartiers"])},
+                                      toutes(("quartiers", nom), ref.get(("quartiers", nom), {}).get("lieu_id"))))
 
     sites = sites_valides()
+    for s in sites:   # sites validés : point_id = lieu_id du référentiel
+        if s.get("point_id") in archives:
+            s["notices"] = par_ir(s.pop("_liste") + archives[s["point_id"]])
+            s["n"] = sum(len(l) for _, l in s["notices"])
+        s.pop("_liste", None)
+        places.add(s.get("point_id"))
     for f in sites_f:   # sites indexés dans les IR, sauf s'ils sont déjà parmi les sites validés
         nom = f["properties"]["name"]
         lon, lat = f["geometry"]["coordinates"]
@@ -194,9 +269,27 @@ def main():
         n, lien = fiche_umap(f)
         sites.append(avec_notices({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
                                    "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
-                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, par_lieu.get(("points", nom))))
+                                   "n": n, "lien": lien, "geom": arrondir(f["geometry"])}, toutes(("points", nom), r.get("lieu_id"))))
+    for lieu_id, liste in archives.items():   # sites cités seulement par les archives : point du référentiel
+        r = par_id.get(lieu_id)
+        if lieu_id in places or not r or r["thesaurus"] != "points" or not (geom := geom_referentiel(r, point=True)):
+            continue
+        nom = r["libelle_manuel"].strip() or r["libelle"]
+        places.add(lieu_id)
+        sites.append(avec_notices({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
+                                   "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
+                                   "n": 0, "lien": "", "geom": geom}, liste))
+    sans_place = {i for i in archives if i not in places}
+    if sans_place:
+        print(f"  ! {len(sans_place)} lieu(x) des archives absents de la carte (sans géométrie ou hors thésaurus) : "
+              f"{sorted(sans_place)[:10]}")
+    for s in sites:
+        s.pop("point_id", None)
 
-    donnees = json.dumps({"quartiers": quartiers, "voies": voies, "sites": sites, "rouge": ROUGE, "ark": ARK, "ir": titres_ir()},
+
+    donnees = json.dumps({"quartiers": quartiers, "voies": voies, "sites": sites, "rouge": ROUGE, "ark": ARK,
+                          "ir": {**titres_ir(), **titres_archives({i[len(AM):] for o in quartiers + voies + sites
+                                                                   for i, _ in o.get("notices", []) if i.startswith(AM)})}},
                          ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     makedirs(dirname(SORTIE), exist_ok=True)
     with open(SORTIE, "w", encoding="utf-8", newline="\n") as f:
@@ -204,6 +297,8 @@ def main():
 
     print(f"→ {SORTIE}")
     print(f"  {len(quartiers)} quartiers, {len(voies)} voies, {len(sites)} sites")
+    print(f"  Archives municipales : {sum(len(l) for l in archives.values())} lignes lieu × notice, "
+          f"{len(archives)} lieux, dont {len(archives) - len(sans_place)} sur la carte")
     print(f"  voies avec ancien(s) nom(s) : {sum(1 for v in voies if v['anciens'])} ; "
           f"sans quartier : {sum(1 for v in voies if not v['quartiers'])}")
 
@@ -508,14 +603,17 @@ function fiche(o, type) {
         if (o.n > k) lignes.push(`<p class="meta filtre">Documents de ${titreIr} seulement (${o.n - k} autre${o.n - k > 1 ? "s" : ""} dans d'autres inventaires)</p>`);
       } else lignes.push(`<p class="meta filtre">Aucun document de ${titreIr} : documents des autres inventaires</p>`);
     }
-    const ligne = ([titre, date, ark]) => "<li>" + (ark ? `<a href="${echap(D.ark + ark)}" target="_blank" rel="noopener">${echap(titre)}</a>`
+    // Archives municipales (IR « AM_… ») : pas de lien, la cote suit le titre
+    const ligne = (ir, [titre, date, ark, cote]) => "<li>" + (ark ? `<a href="${echap(D.ark + ark)}" target="_blank" rel="noopener">${echap(titre)}</a>`
+      : ir.startsWith("AM_") ? `${echap(titre)} <span class="meta">${echap(cote || "")}</span>`
       : `${echap(titre)} <span class="meta">(pas encore en ligne)</span>`) + (date ? ` <span class="meta">${echap(date)}</span>` : "") + "</li>";
     const ouvert = notices.length === 1 || n <= 8;
     lignes.push((filtre ? "" : `<p class="meta">${n} document${n > 1 ? "s" : ""} dans ${notices.length > 1 ? notices.length + " inventaires" : "les inventaires"}</p>`) +
       '<div class="notices">' + notices.map(([ir, l]) => {
         const titreIr = `${echap(D.ir[ir] || ir)} <span class="meta">(${l.length})</span>`;
-        return ouvert ? `<h3>${titreIr}</h3><ol>${l.map(ligne).join("")}</ol>`
-                      : `<details><summary>${titreIr}</summary><ol>${l.map(ligne).join("")}</ol></details>`;
+        const items = l.map(x => ligne(ir, x)).join("");
+        return ouvert ? `<h3>${titreIr}</h3><ol>${items}</ol>`
+                      : `<details><summary>${titreIr}</summary><ol>${items}</ol></details>`;
       }).join("") + "</div>");
     return lignes.join("") + "</div>";
   }

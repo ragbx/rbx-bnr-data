@@ -86,9 +86,13 @@ interrogé. Premier essai : 216 formes, dont environ 150 concepts à créer et 2
 
 ### Reste à faire, dans l'ordre
 
-1. L'utilisateur valide les CSV `mnesys_*` (commencer par les voies). Ne pas les régénérer ensuite.
-2. Étape 3 du plan : table de décisions partagée `data/geo/concordance_mnesys_lieux.csv` (amorcée avec le référentiel, les
-   décisions des Fi et la concordance BnR), pour que les IR BnR en profitent.
+1. L'utilisateur valide les CSV `mnesys_*` **en plusieurs fois** (voies validées en partie le 2026-11-19 : 99 oui,
+   72 non, 103 à faire). Après chaque séance : `python scripts/ead/mnesys_geo_verse.py` (versement dans la table
+   cumulative), puis `python scripts/ead/mnesys_geo_applique.py --serie mnesys`.
+2. Étape 3 du plan : table de décisions `data/geo/concordance_mnesys_lieux.csv` **amorcée le 2026-11-19** (336 formes,
+   fiche [mnesys_geo_verse](scripts/mnesys_geo_verse.md)). Elle prime sur les propositions et ses formes en sont
+   exclues : on peut régénérer les propositions (réimport Mnesys) sans perdre une décision versée, à condition
+   d'avoir versé avant. Reste : la partager avec les IR BnR et y faire entrer la concordance BnR.
 3. **Lot référentiel unique**, avec l'accord de l'utilisateur et sauvegardes `*.backup_AAAAMMJJ_avant_<objet>.*` :
    création des concepts des territoires validés (et de leurs départements ou pays parents), des 3 lieux OSM et du lieu
    écarté des Fi, des sites validés (`referentiel_lieux_roubaix.py`, comparaison avant/après).

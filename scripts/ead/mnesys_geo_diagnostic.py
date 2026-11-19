@@ -39,7 +39,7 @@ from os.path import basename, dirname, join
 from lxml import etree
 
 sys.path.insert(0, dirname(__file__))
-from mnesys_geo_commun import QUARTIER, propositions_appliquees  # noqa: E402
+from mnesys_geo_commun import QUARTIER, lire_table, propositions_appliquees  # noqa: E402
 from mnesys_geo_sites import nature  # noqa: E402
 from geogname_concordance_lieux import (  # noqa: E402
     CHAMPS, COMMUNES_PAYS, REFERENTIEL, SORTIE as CONCORDANCE, SORTIE_ECARTES, aligner, cle_voie, indexer, lire, noms,
@@ -90,18 +90,18 @@ def decisions_validees():
                 d = p["decision"].strip().lower()
                 if p["lieu_id"] and d != "non" and (d == "oui" or p["methode"] == "automatique"):
                     decisions[p["forme"]] = p["lieu_id"]
+    for forme, t in lire_table().items():  # la table de décisions (mnesys_geo_verse.py) l'emporte
+        if t["decision"] == "oui" and t["lieu_id"]:
+            decisions[forme] = t["lieu_id"]
+        else:
+            decisions.pop(forme, None)
     return decisions
 
 
-def main():
-    p = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    p.add_argument("--date", default=date.today().strftime("%Y%m%d"))
-    args = p.parse_args()
-    base = join("results", "ead", "indexation")
-    sortie_formes = join(base, f"mnesys_geo_diagnostic_formes_{args.date}.csv")
-    sortie_ir = join(base, f"mnesys_geo_diagnostic_ir_{args.date}.csv")
-
-    formes, illisibles = lire_formes()
+def classer(formes):
+    """Catégorie et lieu de chaque forme ({forme: {occ, ir, src}}) : liste de lignes du diagnostic, dans l'ordre de
+    l'en-tête (référentiel, décision validée, concordance BnR, territoires, à traiter). Utilisé aussi par
+    archives_carte_notices.py (carte)."""
     lieux, ecartes, territoires = lire(REFERENTIEL), lire(SORTIE_ECARTES), lire(COMMUNES_PAYS)
     index, index_ec = indexer(lieux), indexer(ecartes)
     cles = {l["lieu_id"]: {cle_voie(n) for ch in CHAMPS for c, _ in ch for n in noms(l, c)} for l in lieux}
@@ -149,6 +149,19 @@ def main():
             "lieu": lieu["libelle"] if lieu else "", "lieu_id": lieu["lieu_id"] if lieu else "",
             "thesaurus": lieu["thesaurus"] if lieu else "",
         })
+    return rows
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    p.add_argument("--date", default=date.today().strftime("%Y%m%d"))
+    args = p.parse_args()
+    base = join("results", "ead", "indexation")
+    sortie_formes = join(base, f"mnesys_geo_diagnostic_formes_{args.date}.csv")
+    sortie_ir = join(base, f"mnesys_geo_diagnostic_ir_{args.date}.csv")
+
+    formes, illisibles = lire_formes()
+    rows = classer(formes)
     rows.sort(key=lambda r: (CATEGORIES.index(r["categorie"]), -r["occurrences"], r["forme"]))
     with open(sortie_formes, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0]), lineterminator="\n")

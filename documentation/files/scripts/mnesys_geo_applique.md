@@ -13,6 +13,12 @@ fonctionnement, limité aux quartiers).
 python scripts/ead/mnesys_geo_applique.py [--serie fi|mnesys] [--propositions CSV ...] [--ir 3Fi_20210427_import 5Fi]
 ```
 
+## Table de décisions
+
+La table cumulative `data/geo/concordance_mnesys_lieux.csv`, alimentée par
+[mnesys_geo_verse](mnesys_geo_verse.md), est lue en premier et **l'emporte** sur les fichiers de propositions
+(méthode « table » dans le rapport). `--sans-table` permet de l'ignorer.
+
 ## Propositions lues
 
 Le plus récent de chaque famille dans `results/ead/indexation/` (ou

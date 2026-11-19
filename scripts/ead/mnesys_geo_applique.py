@@ -11,6 +11,8 @@ décisions sont globales, appliquées à tous les IR de la série où la forme a
 avec un lieu_id que dans un fichier (une ligne sans lieu_id, comme une commune listée sans proposition par
 un fichier « sites », cède la place à l'autre). Un lieu_id absent du référentiel (lieu écarté à réintégrer, lieu OSM à créer) laisse
 la forme en attente : elle est signalée dans le rapport et à l'écran.
+Table de décisions cumulative data/geo/concordance_mnesys_lieux.csv (mnesys_geo_verse.py) : lue en premier, elle
+l'emporte sur les fichiers de propositions (méthode « table » dans le rapport) ; --sans-table pour l'ignorer.
 Lignes retenues (il faut un lieu_id, qui peut être corrigé ou saisi à la main : un lieu du référentiel
 des lieux ou du thésaurus des territoires ; un identifiant copié sans son préfixe, « EQ_RESEA… » pour
 « bdtopo:EQ_RESEA… », est complété s'il est unique) :
@@ -56,7 +58,7 @@ from xml.sax.saxutils import escape
 from lxml import etree
 
 sys.path.insert(0, dirname(__file__))
-from mnesys_geo_commun import SERIES, propositions_appliquees  # noqa: E402
+from mnesys_geo_commun import SERIES, TABLE, lire_table, propositions_appliquees  # noqa: E402
 from geogname_applique_concordance import SOURCES, coord_ir  # noqa: E402
 from geogname_concordance_lieux import COMMUNES_PAYS, REFERENTIEL, lire  # noqa: E402
 
@@ -87,10 +89,10 @@ def resoudre(lieu_id, lieux):
 
 
 def action_si_laisse(p):
-    if not p["lieu_id"]:
-        return "laissé (aucune proposition)"
     if p["decision"].strip().lower() == "non":
         return "laissé (décision « non »)"
+    if not p["lieu_id"]:
+        return "laissé (aucune proposition)"
     return "laissé (à valider)"
 
 
@@ -106,6 +108,8 @@ def main():
     parser.add_argument("--serie", choices=SERIES, default="fi", help="série d'IR à traiter (défaut : fi)")
     parser.add_argument("--propositions", nargs="*", help="CSV des propositions (défaut : le plus récent de chaque série et famille)")
     parser.add_argument("--ir", nargs="*", help="IR à traiter (ex. 5Fi) ; par défaut tous ceux de la série")
+    parser.add_argument("--sans-table", action="store_true",
+                        help=f"ignorer la table de décisions {TABLE} (fichiers de propositions seuls)")
     parser.add_argument("--sortie", help="dossier des IR corrigés (défaut : celui de la série, ex. results/ead/ead_cor/fi_geo)")
     args = parser.parse_args()
     args.sortie = args.sortie or SERIES[args.serie]["destination"]
@@ -113,13 +117,16 @@ def main():
     if abspath(args.sortie).startswith(abspath("data") + "/"):
         sys.exit("La sortie ne peut pas être dans data/ (les IR Fi d'origine ne sont pas modifiés).")
     fichiers = args.propositions or propositions_appliquees()
-    if not fichiers:
+    if not fichiers and (args.sans_table or not lire_table()):
         sys.exit("Aucun fichier de propositions : lancer mnesys_geo_quartiers.py ou mnesys_geo_reprise.py d'abord.")
 
+    table = {} if args.sans_table else lire_table()
     propositions, origine = {}, {}
     for fichier in fichiers:
         with open(fichier, encoding="utf-8") as f:
             for p in csv.DictReader(f):
+                if p["forme"] in table:  # décision versée : la table l'emporte
+                    continue
                 if p["forme"] in propositions:
                     deja = propositions[p["forme"]]
                     # ligne inerte (commune ou pays listée sans proposition par un fichier « sites ») : l'autre l'emporte
@@ -128,7 +135,10 @@ def main():
                     if deja["lieu_id"]:
                         continue
                 propositions[p["forme"]], origine[p["forme"]] = p, fichier
-    lieux = {l["lieu_id"]: l for l in lire(REFERENTIEL) + lire(COMMUNES_PAYS)}
+    for forme, t in table.items():
+        propositions[forme] = {"forme": forme, "methode": "table", "decision": t["decision"], "lieu_id": t["lieu_id"]}
+        origine[forme] = TABLE
+    lieux ={l["lieu_id"]: l for l in lire(REFERENTIEL) + lire(COMMUNES_PAYS)}
     nouveau, en_attente = {}, {}
     for forme, p in propositions.items():
         if retenue(p):
@@ -207,6 +217,8 @@ def main():
         writer.writerows(rapport)
 
     print("propositions :", ", ".join(fichiers))
+    if table:
+        print(f"table de décisions : {TABLE} ({len(table)} formes, prioritaires sur les propositions)")
     print(f"{len(rapport)} <geogname> concernés dans {len(chemins)} IR ; {len(ecrits)} IR modifiés → {args.sortie}")
     print(f"actions : {dict(actions.most_common())}")
     print(f"formes appliquées : {len(nouveau)} ; doublons dans un même controlaccess : "

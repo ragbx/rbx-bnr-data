@@ -34,7 +34,7 @@ from os.path import basename, dirname, join
 from lxml import etree
 
 sys.path.insert(0, dirname(__file__))
-from mnesys_geo_commun import QUARTIER, SERIES, chemin_propositions, lire_formes, propositions_a_exclure  # noqa: E402
+from mnesys_geo_commun import QUARTIER, SERIES, chemin_propositions, lire_formes, formes_decidees, propositions_a_exclure  # noqa: E402
 from geogname_concordance_lieux import (  # noqa: E402
     CHAMPS, REFERENTIEL, SORTIE_ECARTES, aligner, cle_voie, indexer, lire, noms,
 )
@@ -70,6 +70,7 @@ def main():
     for fichier in propositions_a_exclure(args.serie, "quartiers"):
         with open(fichier, encoding="utf-8") as fh:
             exclues |= {r["forme"] for r in csv.DictReader(fh)}
+    exclues |= formes_decidees()  # formes déjà décidées dans la table (mnesys_geo_verse.py)
 
     formes = lire_formes(args.serie)
     lieux, ecartes = lire(REFERENTIEL), lire(SORTIE_ECARTES)

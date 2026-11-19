@@ -27,6 +27,32 @@ python scripts/ead/carte_leaflet.py
 Au 14/11/2026 : 31 quartiers, 516 voies (24 avec ancien nom, toutes avec un
 quartier), 2 sites ; les 549 lieux se retrouvent tous dans le référentiel.
 
+## Archives municipales (2026-11-19)
+
+Les notices des inventaires Mnesys des Archives municipales sont ajoutées aux fiches. Elles viennent de
+`results/ead/indexation/archives_carte_notices.csv`, produit par
+[archives_carte_notices.py](../../../scripts/ead/archives_carte_notices.py) à lancer avant la carte.
+
+```bash
+python scripts/ead/archives_carte_notices.py
+```
+
+- **Formes retenues** (choix de l'utilisateur) : celles alignées sur le référentiel par le texte, les décisions
+  validées (table `data/geo/concordance_mnesys_lieux.csv` et propositions automatiques non refusées) et la
+  concordance BnR. Les formes « à traiter », les « non » de la table et les communes et pays sont écartés.
+  Lecture seule des IR d'origine `data/ead/mnesys/`.
+- **Rattachement** : par `lieu_id`. Une rue ou un site cité seulement par les archives est ajouté à la carte avec
+  la géométrie du référentiel ; un lieu sans géométrie est signalé et reste absent.
+- **Présentation** : groupes « Archives municipales · <fonds> · <titre de l'IR> » (unittitle de l'archdesc, sinon
+  titleproper ; première phrase seulement). Chaque notice montre titre, cote et date, **sans lien** (pas d'ARK).
+  Les inventaires des archives figurent dans le filtre par instrument de recherche.
+
+Au 2026-11-19 : 7 108 notices de 23 IR, 12 028 lignes lieu × notice, 682 lieux dont 665 sur la carte
+(17 rues sans tracé au référentiel : Rue d'Ath, Rue Centrale, Rue Fulton…). La carte passe à 637 voies
+(+121, citées seulement par les archives) et 117 sites (+6). Vérifié dans le navigateur intégré : fiche du
+quartier Épeule (100 documents, 16 inventaires), fiche d'une rue nouvelle (Allée des Lilas, 384W), filtre
+« 3Fi » (340 rues, 17 sites, 17 quartiers).
+
 ## Sortie
 
 `results/ead/indexation/carte_bnr/index.html` : **un seul fichier**, données
