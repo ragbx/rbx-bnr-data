@@ -37,6 +37,11 @@ ligne, entités, indentation) est conservé à l'octet près, pour que le diff s
 repérés par expression régulière puis recoupés avec l'arbre XML (même nombre, même texte) ; le résultat
 est relu pour contrôle.
 
+Sites validés notice par notice (2026-11-20) : après les réécritures, geogname_ajouts.py ajoute les
+<geogname> des sites validés notice par notice (pour l'instant les trois hôtels des postes,
+results/ead/indexation/hotel_des_postes_20261120.csv) et les ajouts manuels (data/geo/geogname_ajouts_manuels.csv), dans le <controlaccess> propre au <c> (créé s'il manque) ;
+action « ajouté (validé par notice) » dans le rapport.
+
 Rapport : results/ead/indexation/<série>_geo_rapport.csv, une ligne par <geogname> concerné par une proposition
 (IR, composant, avant / après, lieu, action, doublon).
 
@@ -150,6 +155,17 @@ def main():
             geo = lieu["coord_manuel"] or lieu["coord_wkt"]
             nouveau[forme] = (lieu, *(coord_ir(geo) if geo else ("", "")))
 
+    # sites validés notice par notice (geogname_ajouts.py) : <geogname> ajoutés après les réécritures
+    from geogname_ajouts import (ACTION, ajouter_texte, charger_ajouts, dedoublonner_texte, deduire_texte,
+                                 regles_deduction)
+    _, par_id = charger_ajouts()
+    regles = regles_deduction(lieux)
+    coords = {}
+    for lieu_id, lieu in lieux.items():
+        geo = lieu["coord_manuel"] or lieu["coord_wkt"]
+        coords[lieu_id] = coord_ir(geo) if geo else ("", "")
+    ajouts_manquants = []
+
     chemins = sorted(glob.glob(SERIES[args.serie]["ir"]))
     if args.ir:
         chemins = [c for c in chemins if basename(c)[:-4].removeprefix("FRAM59100_") in args.ir]
@@ -166,6 +182,7 @@ def main():
             elements = list(etree.parse(chemin).iter("geogname"))
         except etree.XMLSyntaxError:  # esperluettes non échappées : aucun <geogname> dans ces IR
             illisibles.append(ir)
+            ajouts_manquants += [f"{ir} {c_id} (IR illisible)" for (i, c_id) in par_id if i == ir]
             continue
         trouves = list(GEOGNAME.finditer(texte_ir))
         if len(elements) != len(trouves):
@@ -197,13 +214,28 @@ def main():
                     ligne["doublon"] = "oui"
             rapport.append(ligne)
             actions[ligne["action"]] += 1
-        if remplacements:
-            for debut, fin, nouvelle in reversed(remplacements):
-                texte_ir = texte_ir[:debut] + nouvelle + texte_ir[fin:]
+        for debut, fin, nouvelle in reversed(remplacements):
+            texte_ir = texte_ir[:debut] + nouvelle + texte_ir[fin:]
+        texte_ir, ajouts, introuvables = ajouter_texte(texte_ir, ir, par_id, lieux, coords, SOURCES)
+        ajouts_manquants += [f"{ir} {c_id}" for c_id in introuvables]
+        rapport.extend(ajouts)
+        actions[ACTION] += len(ajouts)
+        # quartier (site ou rue d'un seul quartier) ou commune (site hors Roubaix) déduits, sans doublon
+        texte_ir, doublons = dedoublonner_texte(texte_ir, ir, SOURCES)
+        rapport.extend(doublons)
+        if doublons:
+            actions[doublons[0]["action"]] += len(doublons)
+        texte_ir, deduits = deduire_texte(texte_ir, ir, regles, lieux, coords, SOURCES)
+        rapport.extend(deduits)
+        for d in deduits:
+            actions[d["action"]] += 1
+        ajouts = ajouts + deduits
+        if remplacements or ajouts or doublons:
             sortie_ir = join(args.sortie, basename(chemin))
             with open(sortie_ir, "w", encoding="utf-8", newline="") as f:
                 f.write(texte_ir)
-            ecrits[sortie_ir] = (len(elements), len(remplacements))
+            ecrits[sortie_ir] = (len(elements) + len(ajouts) - len(doublons),
+                                 len(remplacements) + len(ajouts) - len(doublons))
 
     # relecture : même nombre de <geogname>, nombre de lieux réécrits attendu
     for sortie_ir, (nb, nb_reecrits) in ecrits.items():
@@ -223,6 +255,8 @@ def main():
     print(f"actions : {dict(actions.most_common())}")
     print(f"formes appliquées : {len(nouveau)} ; doublons dans un même controlaccess : "
           f"{sum(1 for l in rapport if l['doublon'])}")
+    if ajouts_manquants and not args.ir:
+        print(f"  ! notices de sites validés non indexées : {', '.join(ajouts_manquants)}")
     if en_attente:
         print(f"ATTENTION : {len(en_attente)} forme(s) validée(s) dont le lieu_id n'est pas au référentiel "
               f"(écarté à réintégrer ou lieu OSM à créer) : {en_attente}")

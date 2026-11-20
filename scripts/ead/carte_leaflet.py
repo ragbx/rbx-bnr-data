@@ -13,6 +13,7 @@ de clic (pas de zones de clic « fantômes ») ; recherche par nom actuel ou anc
 d'un quartier (zoom, ses voies mises en avant) ; lien direct #voie=<id> / #quartier=<id> / #site=<id>.
 Sites (2026-11-16) : les sites validés de data/geo/sites_carte.csv (sites_carte.py, hors IR), chacun avec la
 liste de ses notices (lien ARK publication:previous), puis les sites de l'uMap qui n'y sont pas déjà.
+Quartiers (2026-11-20) : leur fiche reprend aussi les notices des sites situés dans ce seul quartier, sans doublon.
 Rues et quartiers (2026-11-16) : même liste des notices, d'après results/ead/indexation/lieux_carte_notices.csv
 (lieux_carte_notices.py, <geogname> des IR) ; à défaut, nombre de mentions et lien de recherche de l'uMap.
 Plans anciens (ajoutés le 2026-11-16) : plans de Roubaix de 1899, 1889, 1855 et vers 1811 géoréférencés,
@@ -270,15 +271,6 @@ def main():
                                    "quartiers": q_rues.get(lieu_id, []), "n": 0, "lien": "", "geom": geom}, liste),
                                      lieu_id, disparus))
 
-    quartiers = []
-    for f in quartiers_f:
-        nom = f["properties"]["name"]
-        n, lien = fiche_umap(f)
-        quartiers.append(avec_notices({"id": ident(nom), "nom": nom, "couleur": f["properties"]["_umap_options"]["color"],
-                                       "n": n, "lien": lien, "geom": arrondir(f["geometry"]),
-                                       "voies": sum(1 for v in voies if nom in v["quartiers"])},
-                                      toutes(("quartiers", nom), ref.get(("quartiers", nom), {}).get("lieu_id"))))
-
     # Sites : validés (sites_carte.py), puis ceux de l'uMap, puis ceux cités seulement par les archives. Un lieu de
     # même nom ou à 15 m au plus d'un site déjà placé le rejoint (ses notices sont fusionnées, sans doublon) au lieu
     # de donner un second point (2026-11-19 : Parc de la Potennerie, site validé « sp:… » et lieu du référentiel).
@@ -320,6 +312,25 @@ def main():
         sites.append(marquer_disparu({"id": ident(nom), "nom": nom, "categorie": r.get("categorie", ""),
                       "quartiers": [r["quartiers"]] if r.get("quartiers") else [],
                       "n": 0, "lien": "", "geom": geom, "_liste": liste}, lieu_id, disparus))
+    # Quartiers (après les sites) : notices du quartier (IR, archives), plus celles des sites situés dans ce seul
+    # quartier (2026-11-20, demande utilisateur : la gare, La Piscine… donnent accès aux documents du quartier), sans doublon.
+    quartiers = []
+    for f in quartiers_f:
+        nom = f["properties"]["name"]
+        n, lien = fiche_umap(f)
+        liste = list(toutes(("quartiers", nom), ref.get(("quartiers", nom), {}).get("lieu_id")))
+        vus = {tuple(x[:4]) for x in liste}
+        for site in sites:
+            qs = [q for v in site.get("quartiers", []) for q in v.split(" | ") if q]
+            if qs == [nom]:
+                for x in site["_liste"]:
+                    if tuple(x[:4]) not in vus:
+                        vus.add(tuple(x[:4]))
+                        liste.append(x)
+        quartiers.append(avec_notices({"id": ident(nom), "nom": nom, "couleur": f["properties"]["_umap_options"]["color"],
+                                       "n": n, "lien": lien, "geom": arrondir(f["geometry"]),
+                                       "voies": sum(1 for v in voies if nom in v["quartiers"])}, liste))
+
     for s in sites:
         liste = s.pop("_liste")
         if s.pop("_valide", False):
@@ -612,20 +623,22 @@ fondsCarte.filter(f => f.actif).forEach(f => f.couche.addTo(carte));
 // (voir la section « Plans anciens » de la boîte des couches) ; vignette = un carré pris au milieu du plan
 // (plans/<année>/vignette.webp, produite par scripts/ead/vignettes_plans_anciens.py).
 // max = niveau de pleine résolution des tuiles (au-delà, agrandi).
+// masque: true = plan retiré de la carte, données gardées pour le remettre (décision utilisateur du 2026-11-20 :
+// seul le plan de 1889 est proposé ; les tuiles des autres restent dans plans/<année>/).
 const plansAnciens = [   // ordre chronologique par défaut (en haut de la liste = dessiné au-dessus)
-  { nom: "Roubaix vers 1811", dossier: "1811",
+  { nom: "Roubaix vers 1811", dossier: "1811", masque: true,
     sw: [50.6628, 3.1378], ne: [50.7145, 3.2249], max: 17,
     source: "Roubaix il y a un siècle (vers 1811), plan d'Édouard Verscheure pour l'Exposition de 1911 – BN-R, PLA_B_033" },
-  { nom: "Roubaix en 1855", dossier: "1855",
+  { nom: "Roubaix en 1855", dossier: "1855", masque: true,
     sw: [50.6838, 3.1573], ne: [50.7025, 3.1908], max: 18,
     source: 'Plan de Roubaix, 1855, E. Barbotin – <a href="https://gallica.bnf.fr/">BnF</a>, Ge C 3003' },
   { nom: "Roubaix en 1889", dossier: "1889",
     sw: [50.6683, 3.1502], ne: [50.7109, 3.2202], max: 18,
     source: "Plan de la ville de Roubaix dressé en 1889 par le service de la voirie – Archives municipales de Roubaix, 6Fi022" },
-  { nom: "Roubaix en 1899", dossier: "1899",
+  { nom: "Roubaix en 1899", dossier: "1899", masque: true,
     sw: [50.6698, 3.1501], ne: [50.7111, 3.2188], max: 17,
     source: "Plan de la ville de Roubaix, 1899, P. Pachy – Archives municipales de Roubaix, 6Fi024" },
-];
+].filter(p => !p.masque);
 plansAnciens.forEach(p => {
   p.vignette = "plans/" + p.dossier + "/vignette.webp";
   p.couche = L.tileLayer("plans/" + p.dossier + "/{z}/{x}/{y}.webp",
@@ -639,7 +652,7 @@ function fiche(o, type) {
   if (o.anciens && o.anciens.length) lignes.push(`<p><b>Ancien${o.anciens.length > 1 ? "s noms" : " nom"} :</b> ${o.anciens.map(echap).join(", ")}</p>`);
   if (o.quartiers && o.quartiers.length) lignes.push(`<p><b>Quartier${o.quartiers.length > 1 ? "s" : ""} :</b> ` +
     o.quartiers.map(q => `<button class="lien" data-quartier="${echap(q)}">${echap(q)}</button>`).join(", ") + "</p>");
-  if (type === "quartier") lignes.push(`<p>${o.voies} rue${o.voies > 1 ? "s" : ""} citée${o.voies > 1 ? "s" : ""} dans ce quartier</p>`);
+  // (nombre de rues citées du quartier retiré le 2026-11-20 : la fiche donne directement accès aux documents)
   if (o.notices) {   // rue, quartier ou site : la liste de ses documents, chacun vers sa notice sur la BN-R
     // classées par inventaire (IR) : les plus fournis d'abord ; repliés s'il y en a plusieurs et plus de 8 documents.
     // Filtre par instrument de recherche : seulement ses documents (tous, avec une mention, si le lieu n'en a aucun)

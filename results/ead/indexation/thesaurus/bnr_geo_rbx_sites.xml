@@ -3,9 +3,910 @@
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dct:title xml:lang="fr">Thésaurus BnR — geo_rbx_sites</dct:title>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_bd_leclerc"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_rue_nain"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#archives_nationales_du_monde_du_travail"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#bibliotheque_municipale_de_roubaix_ancien_site"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_de_beaurepaire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_celtic_robert_lemire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_moulin"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_moderne"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#chateau_vaissier"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cimetiere_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cinema_duplexe"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#clinique_descarpentries"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#colisee"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_de_jeunes_filles"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_jean_baptiste_lebas"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_madame_de_sevigne"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_pascal"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_saint_exupery"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_sainte_marie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_van_der_meersch"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#conservatoire_a_rayonnement_departemental_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_de_la_visitation"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_des_clarisses"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ensait___ecole_nationale_superieure_des_arts_et_industries_textiles_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_delattre"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_leclercq_dupire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_motte_porisse"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#galerie_dujardin"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_du_pile"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#halles_centrales"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_barbieux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_de_blanchemaille"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hopital_de_la_fraternite"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_de_ville"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_des_pompiers"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lusine"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_cave_aux_poetes"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_condition_publique"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_grand_plage__mediatheque_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_manufacture___musee_de_la_memoire_et_de_la_creation_textile"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_piscine__musee_dart_et_dindustrie_andre_diligent"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_plus_petite_galerie_du_monde_ou_presque"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#le_gymnase__centre_de_developpement_choregraphique_national_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_baudelaire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_jean_moulin"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_maxence_van_der_meersch"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_saint_remi"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#maternite_boucicaut"/>
     <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_barbieux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_potennerie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_visitation"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_des_sports_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_brondeloire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_nouveau_monde"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_amedee_prouvost_et_cie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_beaurepaire"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_la_tossee"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#poste_centrale"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#salle_watremez"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_camille_claudel"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_carihem"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_la_tour"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_amedee_prouvost"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_dubrulle"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_vandaele"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#teinturerie_rossel_motte"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_de_la_mackellerie"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_louis_richard"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_pierre_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#tissage_du_nouveau_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_allart"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_beaufil"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_cavrois_mahieu"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_de_la_lainiere_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_du_coq_francais"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_holden"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_lepoutre"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_motte_bossut"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_phildar"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_roussel"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_vanoutryve"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_andre_petrieux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_couvert_regional_jean_stablinski"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_des_quatre_villes"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_du_parc_barbieux"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_boileau_pasteur"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_condorcet"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_du_sacre_coeur_et_presbytere"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_elsa_triolet"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_jacques_prevert"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_leo_lagrange"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_maginot"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_nationale_de_police_de_roubaix_hem"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_paul_bert"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_saint_louis"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_sacre_coeur_de_jesus"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_redempteur"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_sepulcre"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_notre_dame_de_lourdes"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_reformee_de_roubaix"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_andre"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_antoine_de_padoue"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_francois_dassise"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_jean_baptiste"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_joseph"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_martin"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_michel"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_vincent_de_paul"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_elisabeth"/>
+    <skos:hasTopConcept rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_bernadette"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_bd_leclerc">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Ancien hôtel des postes (bd Leclerc)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:institut universitaire technologie</skos:notation>
+    <dct:type xml:lang="fr">Poste</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_bd_leclerc_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_bd_leclerc_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176972 50.689773)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_rue_nain">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Ancien hôtel des postes (rue Nain)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:ancien hotel des postes rue nain</skos:notation>
+    <dct:type xml:lang="fr">Poste</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_rue_nain_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Nations Unies</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ancien_hotel_des_postes_rue_nain_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.172936 50.692405)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#archives_nationales_du_monde_du_travail">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Archives Nationales du Monde du Travail</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002222498347</skos:notation>
+    <dct:type xml:lang="fr">Archives nationales</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#archives_nationales_du_monde_du_travail_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Anseele Motte-Bossut</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#archives_nationales_du_monde_du_travail_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.179056 50.690034)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#bibliotheque_municipale_de_roubaix_ancien_site">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Bibliothèque municipale de Roubaix (ancien site)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:bibliotheque municipale roubaix ancien site</skos:notation>
+    <dct:type xml:lang="fr">Bibliothèque</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#bibliotheque_municipale_de_roubaix_ancien_site_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#bibliotheque_municipale_de_roubaix_ancien_site_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.1754 50.691189)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_de_beaurepaire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Brasserie de Beaurepaire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:brasserie beaurepaire</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_de_beaurepaire_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Pile</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_de_beaurepaire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.191501 50.691195)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_celtic_robert_lemire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Brasserie du Celtic Robert Lemire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:brasserie celtic robert lemire</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_celtic_robert_lemire_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_celtic_robert_lemire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176112 50.691018)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_moulin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Brasserie du Moulin</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:brasserie moulin</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_moulin_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Anseele Motte-Bossut</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_du_moulin_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176331 50.686066)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_moderne">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Brasserie Moderne</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:brasserie moderne</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_moderne_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Cul-de-Four</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#brasserie_moderne_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.17508 50.707421)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#chateau_vaissier">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Château Vaissier</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:chateau vaissier</skos:notation>
+    <dct:type xml:lang="fr">Demeure</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#chateau_vaissier_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#chateau_vaissier_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.144005 50.695785)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cimetiere_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Cimetière de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:cimetiere roubaix</skos:notation>
+    <dct:type xml:lang="fr">Cimetière</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cimetiere_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hutin Oran Cartigny</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cimetiere_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.189783 50.698451)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cinema_duplexe">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Cinéma Duplexe</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002488750521</skos:notation>
+    <dct:type xml:lang="fr">Cinéma</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cinema_duplexe_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#cinema_duplexe_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.178323 50.692956)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#clinique_descarpentries">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Clinique Descarpentries</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:clinique descarpentries</skos:notation>
+    <dct:type xml:lang="fr">Santé</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#clinique_descarpentries_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fresnoy-Mackellerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#clinique_descarpentries_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.160532 50.702356)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#colisee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Colisée</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002005143746</skos:notation>
+    <dct:type xml:lang="fr">Théâtre</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#colisee_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Trichon</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#colisee_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.163419 50.690724)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_de_jeunes_filles">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège de Jeunes Filles</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:college jeunes filles</skos:notation>
+    <dct:type xml:lang="fr">Enseignement</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_de_jeunes_filles_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_de_jeunes_filles_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.169247 50.68048)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_jean_baptiste_lebas">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Jean-Baptiste Lebas</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483845</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_jean_baptiste_lebas_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Potennerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_jean_baptiste_lebas_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.183064 50.681062)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_madame_de_sevigne">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Madame de Sévigné</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483694</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_madame_de_sevigne_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Espérance</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_madame_de_sevigne_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.164827 50.69318)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_pascal">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Pascal</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483699</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_pascal_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_pascal_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176081 50.689627)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_saint_exupery">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Saint-Exupéry</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483853</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_saint_exupery_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Vauban</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_saint_exupery_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.167517 50.684607)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_sainte_marie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Sainte-Marie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483691</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_sainte_marie_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fosse-aux-Chênes</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_sainte_marie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176997 50.696552)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_van_der_meersch">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Collège Van Der Meersch</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223263058</skos:notation>
+    <dct:type xml:lang="fr">Collège</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_van_der_meersch_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sartel Carihem</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#college_van_der_meersch_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.206549 50.680128)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#conservatoire_a_rayonnement_departemental_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Conservatoire à rayonnement départemental de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002005143745</skos:notation>
+    <dct:type xml:lang="fr">Conservatoire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#conservatoire_a_rayonnement_departemental_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Trichon</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#conservatoire_a_rayonnement_departemental_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.16909 50.687185)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_de_la_visitation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Couvent de la Visitation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:couvent visitation</skos:notation>
+    <dct:type xml:lang="fr">Culte</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_de_la_visitation_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_de_la_visitation_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.1869 50.6975)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_des_clarisses">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Couvent des Clarisses</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002012056546</skos:notation>
+    <dct:type xml:lang="fr">Ancien couvent</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_des_clarisses_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#couvent_des_clarisses_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.1568 50.68871)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_boileau_pasteur">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Boileau Pasteur</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483679</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_boileau_pasteur_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Pile</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_boileau_pasteur_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.193147 50.687515)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_condorcet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Condorcet</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483750</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_condorcet_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_condorcet_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.158851 50.689385)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_du_sacre_coeur_et_presbytere">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École du Sacré-Coeur et Presbytère</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:ecole sacre coeur et presbytere</skos:notation>
+    <dct:type xml:lang="fr">Enseignement</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_du_sacre_coeur_et_presbytere_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_du_sacre_coeur_et_presbytere_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.184809 50.699461)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_elsa_triolet">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Elsa Triolet</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223262984</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_elsa_triolet_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Alma Gare</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_elsa_triolet_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.166737 50.699489)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_jacques_prevert">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Jacques Prévert</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483719</skos:notation>
+    <dct:type xml:lang="fr">Ecole maternelle</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_jacques_prevert_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sainte-Élisabeth</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_jacques_prevert_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.187206 50.689386)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_leo_lagrange">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Léo Lagrange</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000081771239</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_leo_lagrange_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Trois Ponts</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_leo_lagrange_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.204908 50.684621)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_maginot">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Maginot</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000319007910</skos:notation>
+    <dct:type xml:lang="fr">Lycée professionnel</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_maginot_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Crouy</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_maginot_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.17089 50.691114)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_nationale_de_police_de_roubaix_hem">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École nationale de police de Roubaix-Hem</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:ecole nationale police roubaix hem</skos:notation>
+    <dct:type xml:lang="fr">École</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_nationale_de_police_de_roubaix_hem_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hauts Champs</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_nationale_de_police_de_roubaix_hem_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.19604 50.669279)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_paul_bert">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Paul Bert</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223263015</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_paul_bert_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hutin Oran Cartigny</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_paul_bert_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.188061 50.702628)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_saint_louis">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">École Saint-Louis</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483717</skos:notation>
+    <dct:type xml:lang="fr">Ecole primaire</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_saint_louis_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ecole_saint_louis_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.178604 50.693872)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_sacre_coeur_de_jesus">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église du Sacré Coeur de Jésus</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002200124485</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_sacre_coeur_de_jesus_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_sacre_coeur_de_jesus_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.186011 50.698103)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_redempteur">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église du Saint-Rédempteur</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481668</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_redempteur_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Pile</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_redempteur_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.195009 50.686698)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_sepulcre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église du Saint-Sépulcre</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002200113815</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_sepulcre_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_du_saint_sepulcre_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.161127 50.687713)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_notre_dame_de_lourdes">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Notre-Dame de Lourdes</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481757</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_notre_dame_de_lourdes_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_notre_dame_de_lourdes_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.162994 50.680693)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_reformee_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église réformée de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:eglise reformee roubaix</skos:notation>
+    <dct:type xml:lang="fr">Culte</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_reformee_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_reformee_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.167507 50.686813)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_andre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint André</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:eglise saint andre</skos:notation>
+    <dct:type xml:lang="fr">Culte</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_andre_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_andre_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.201776 50.669701)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_antoine_de_padoue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Antoine de Padoue</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:eglise saint antoine padoue</skos:notation>
+    <dct:type xml:lang="fr">Culte</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_antoine_de_padoue_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fresnoy-Mackellerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_antoine_de_padoue_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.160647 50.697435)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_francois_dassise">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-François d'Assise</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481680</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_francois_dassise_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Cul-de-Four</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_francois_dassise_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.177928 50.70146)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_jean_baptiste">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Jean-Baptiste</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002478145775</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_jean_baptiste_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Potennerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_jean_baptiste_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.178861 50.679434)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_joseph">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Joseph</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000113489941</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_joseph_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Alma Gare</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_joseph_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.166852 50.70269)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_martin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Martin</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481676</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_martin_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_martin_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.17424 50.692089)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_michel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Michel</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481750</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_michel_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fraternité</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_michel_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.192468 50.680156)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_vincent_de_paul">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Saint-Vincent de Paul</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000259254743</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_vincent_de_paul_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fresnoy-Mackellerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_saint_vincent_de_paul_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.152391 50.690078)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_bernadette">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Sainte-Bernadette</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481754</skos:notation>
+    <dct:type xml:lang="fr">Eglise</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_bernadette_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Nouveau Roubaix</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_bernadette_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.191913 50.673369)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_elisabeth">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Église Sainte Elisabeth</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:eglise sainte elisabeth</skos:notation>
+    <dct:type xml:lang="fr">Culte</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_elisabeth_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sainte-Élisabeth</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#eglise_sainte_elisabeth_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.184432 50.687936)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ensait___ecole_nationale_superieure_des_arts_et_industries_textiles_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">ENSAIT - Ecole Nationale Supérieure des Arts et Industries Textiles de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:ensait ecole nationale superieure arts et industries textiles roubaix</skos:notation>
+    <dct:type xml:lang="fr">Enseignement</dct:type>
+    <skos:hiddenLabel xml:lang="fr">l'ENAI/ENSAIT</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ensait___ecole_nationale_superieure_des_arts_et_industries_textiles_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Nations Unies</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#ensait___ecole_nationale_superieure_des_arts_et_industries_textiles_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.168152 50.694522)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_delattre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Filature Delattre</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:filature delattre</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_delattre_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_delattre_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.17207 50.650444)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_leclercq_dupire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Filature Leclercq-Dupire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:filature leclercq dupire</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_leclercq_dupire_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_leclercq_dupire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.212107 50.697234)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_motte_porisse">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Filature Motte-Porisse</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:filature motte porisse</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_motte_porisse_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Anseele Motte-Bossut</skos:scopeNote>
+    <skos:historyNote xml:lang="fr">Dates : ? – 1987.</skos:historyNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#filature_motte_porisse_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.178509 50.687933)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#galerie_dujardin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Galerie Dujardin</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:galerie dujardin</skos:notation>
+    <dct:type xml:lang="fr">Galerie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#galerie_dujardin_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Vauban</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#galerie_dujardin_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.174155 50.687245)</geo:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_de_roubaix">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -15,12 +916,88 @@
     <skos:notation>bdtopo:EQ_RESEA0000000056480057</skos:notation>
     <dct:type xml:lang="fr">Gare</dct:type>
     <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_de_roubaix_geometrie"/>
-    <skos:related rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#esperance"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Espérance</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_de_roubaix_geometrie">
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.163272 50.69559)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_du_pile">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Gare du Pile</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:gare pile</skos:notation>
+    <dct:type xml:lang="fr">Gare</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_du_pile_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sartel Carihem</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#gare_du_pile_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.204167 50.69)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#halles_centrales">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Halles centrales</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:halles centrales</skos:notation>
+    <dct:type xml:lang="fr">Halles</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#halles_centrales_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#halles_centrales_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176397 50.690432)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hopital_de_la_fraternite">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hôpital de la Fraternité</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223322272</skos:notation>
+    <dct:type xml:lang="fr">Hôpital</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hopital_de_la_fraternite_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fraternité</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hopital_de_la_fraternite_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.196881 50.68224)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_barbieux">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hospice Barbieux</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:hospice barbieux</skos:notation>
+    <dct:type xml:lang="fr">Santé</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_barbieux_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_barbieux_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.170148 50.680122)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_de_blanchemaille">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hospice de Blanchemaille</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:hospice blanchemaille</skos:notation>
+    <dct:type xml:lang="fr">Santé</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_de_blanchemaille_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Nations Unies</skos:scopeNote>
+    <skos:historyNote xml:lang="fr">Dates : ? – 1979 ou 1981.</skos:historyNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hospice_de_blanchemaille_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.166922 50.695979)</geo:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_de_ville">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -31,12 +1008,223 @@
     <dct:type xml:lang="fr">Mairie</dct:type>
     <skos:hiddenLabel xml:lang="fr">17 Grand'Place</skos:hiddenLabel>
     <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_de_ville_geometrie"/>
-    <skos:related rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#centre_ville"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_de_ville_geometrie">
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.174072 50.690938)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_des_pompiers">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hôtel des Pompiers</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:hotel des pompiers</skos:notation>
+    <dct:type xml:lang="fr">Caserne de pompiers</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_des_pompiers_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Anseele Motte-Bossut</skos:scopeNote>
+    <skos:historyNote xml:lang="fr">Dates : 1911 – ?.</skos:historyNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#hotel_des_pompiers_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.183924 50.6921)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_cave_aux_poetes">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La Cave aux Poètes</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002488818012</skos:notation>
+    <dct:type xml:lang="fr">Salle de spectacle</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_cave_aux_poetes_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Espérance</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_cave_aux_poetes_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.169259 50.69217)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_condition_publique">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La Condition Publique</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000247284471</skos:notation>
+    <dct:type xml:lang="fr">Centre culturel</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_condition_publique_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Pile</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_condition_publique_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.189415 50.690411)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_grand_plage__mediatheque_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La Grand-Plage – Médiathèque de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:grand plage mediatheque roubaix</skos:notation>
+    <dct:type xml:lang="fr">La</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_grand_plage__mediatheque_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_grand_plage__mediatheque_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.175431 50.690339)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_manufacture___musee_de_la_memoire_et_de_la_creation_textile">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La Manufacture - Musée de la Mémoire et de la Création Textile</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000216730012</skos:notation>
+    <dct:type xml:lang="fr">Musée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_manufacture___musee_de_la_memoire_et_de_la_creation_textile_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fraternité</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_manufacture___musee_de_la_memoire_et_de_la_creation_textile_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.195946 50.68336)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_piscine__musee_dart_et_dindustrie_andre_diligent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La Piscine – Musée d'art et d'industrie André Diligent</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056485496</skos:notation>
+    <dct:type xml:lang="fr">Musée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_piscine__musee_dart_et_dindustrie_andre_diligent_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Espérance</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_piscine__musee_dart_et_dindustrie_andre_diligent_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.167702 50.692512)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_plus_petite_galerie_du_monde_ou_presque">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">La plus petite galerie du monde (ou presque)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:plus petite galerie monde ou presque</skos:notation>
+    <dct:type xml:lang="fr">La</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_plus_petite_galerie_du_monde_ou_presque_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#la_plus_petite_galerie_du_monde_ou_presque_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.165758 50.687969)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#le_gymnase__centre_de_developpement_choregraphique_national_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Le Gymnase – Centre de Développement Chorégraphique National de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223264298</skos:notation>
+    <dct:type xml:lang="fr">Salle de spectacle</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#le_gymnase__centre_de_developpement_choregraphique_national_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Moulin</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#le_gymnase__centre_de_developpement_choregraphique_national_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.174371 50.686477)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lusine">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">L'Usine</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000244026547</skos:notation>
+    <dct:type xml:lang="fr">Zone commerciale</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lusine_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Justice</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lusine_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.197708 50.67514)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_baudelaire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Lycée Baudelaire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000223262987</skos:notation>
+    <dct:type xml:lang="fr">Lycée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_baudelaire_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_baudelaire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.168022 50.679543)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_jean_moulin">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Lycée Jean Moulin</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483855</skos:notation>
+    <dct:type xml:lang="fr">Lycée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_jean_moulin_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_jean_moulin_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.173725 50.685021)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_maxence_van_der_meersch">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Lycée Maxence Van der Meersch</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483832</skos:notation>
+    <dct:type xml:lang="fr">Lycée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_maxence_van_der_meersch_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sartel Carihem</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_maxence_van_der_meersch_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.207208 50.680126)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_saint_remi">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Lycée Saint-Rémi</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056483711</skos:notation>
+    <dct:type xml:lang="fr">Lycée</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_saint_remi_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#lycee_saint_remi_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.182084 50.69412)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#maternite_boucicaut">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Maternité Boucicaut</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:maternite boucicaut</skos:notation>
+    <dct:type xml:lang="fr">Santé</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#maternite_boucicaut_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#maternite_boucicaut_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.166432 50.682005)</geo:asWKT>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_barbieux">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -48,11 +1236,549 @@
     <skos:hiddenLabel xml:lang="fr">Barbieux</skos:hiddenLabel>
     <skos:hiddenLabel xml:lang="fr">Barbieux, parc</skos:hiddenLabel>
     <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_barbieux_geometrie"/>
-    <skos:related rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_quartiers#barbieux"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_barbieux_geometrie">
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.160753 50.67547)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_potennerie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Parc de la Potennerie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>59512_4595</skos:notation>
+    <dct:type xml:lang="fr">parc</dct:type>
+    <skos:hiddenLabel xml:lang="fr">Potennerie, parc de la</skos:hiddenLabel>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_potennerie_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Potennerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_potennerie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.182467 50.680172)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_visitation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Parc de la Visitation</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000081641029</skos:notation>
+    <dct:type xml:lang="fr">Parc</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_visitation_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_de_la_visitation_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.18605 50.698934)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_des_sports_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Parc des Sports Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056481208</skos:notation>
+    <dct:type xml:lang="fr">Stade</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_des_sports_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Justice</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_des_sports_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.203798 50.678066)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_brondeloire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Parc du Brondeloire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000241890615</skos:notation>
+    <dct:type xml:lang="fr">Terrain de sport</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_brondeloire_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule, Trichon</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_brondeloire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.158803 50.690827)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_nouveau_monde">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Parc du Nouveau Monde</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000112484498</skos:notation>
+    <dct:type xml:lang="fr">Parc</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_nouveau_monde_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#parc_du_nouveau_monde_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.179362 50.698133)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_amedee_prouvost_et_cie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Peignage Amédée Prouvost et Cie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:peignage amedee prouvost et cie</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_amedee_prouvost_et_cie_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hutin Oran Cartigny</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_amedee_prouvost_et_cie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.194332 50.69963)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_beaurepaire">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Peignage de Beaurepaire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:peignage beaurepaire</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_beaurepaire_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Pile</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_beaurepaire_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.200138 50.691098)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_la_tossee">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Peignage de la Tossée</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:peignage tossee</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_la_tossee_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#peignage_de_la_tossee_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.167944 50.709354)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#poste_centrale">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Poste centrale</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000056486392</skos:notation>
+    <dct:type xml:lang="fr">Bureau de poste</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#poste_centrale_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#poste_centrale_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176174 50.690165)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#salle_watremez">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Salle Watremez</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002005143576</skos:notation>
+    <dct:type xml:lang="fr">Salle polyvalente</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#salle_watremez_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Espérance</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#salle_watremez_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.169593 50.692167)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_camille_claudel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Square Camille Claudel</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002478145777</skos:notation>
+    <dct:type xml:lang="fr">Square</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_camille_claudel_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Crouy</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_camille_claudel_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.172821 50.690345)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_carihem">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Square de Carihem</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000086328186</skos:notation>
+    <dct:type xml:lang="fr">Square</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_carihem_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sartel Carihem</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_carihem_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.2108 50.684044)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_la_tour">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Square de la Tour</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000338562768</skos:notation>
+    <dct:type xml:lang="fr">Square</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_la_tour_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Trichon</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#square_de_la_tour_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.171156 50.687826)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_amedee_prouvost">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Stade Amédée Prouvost</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:stade amedee prouvost</skos:notation>
+    <dct:type xml:lang="fr">Sport</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_amedee_prouvost_geometrie"/>
+    <skos:historyNote xml:lang="fr">Dates : 1923 – 1977.</skos:historyNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_amedee_prouvost_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.195351 50.704269)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_dubrulle">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Stade Dubrulle</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000113490008</skos:notation>
+    <dct:type xml:lang="fr">Stade</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_dubrulle_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Chemin Neuf</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_dubrulle_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.195011 50.67712)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_vandaele">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Stade Vandaele</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000241669844</skos:notation>
+    <dct:type xml:lang="fr">Terrain de sport</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_vandaele_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Linné</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#stade_vandaele_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.181642 50.676576)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#teinturerie_rossel_motte">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Teinturerie Rossel-Motte</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:teinturerie rossel motte</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#teinturerie_rossel_motte_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#teinturerie_rossel_motte_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.161909 50.685231)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_de_la_mackellerie">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Théâtre de la Mackellerie</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002005143578</skos:notation>
+    <dct:type xml:lang="fr">Théâtre</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_de_la_mackellerie_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fresnoy-Mackellerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_de_la_mackellerie_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.153367 50.689694)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_louis_richard">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Théâtre Louis Richard</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002005143575</skos:notation>
+    <dct:type xml:lang="fr">Théâtre</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_louis_richard_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Centre-Ville</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_louis_richard_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.174697 50.689592)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_pierre_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Théâtre Pierre de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002492837059</skos:notation>
+    <dct:type xml:lang="fr">Théâtre</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_pierre_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sainte-Élisabeth</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#theatre_pierre_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.186653 50.68999)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#tissage_du_nouveau_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Tissage du Nouveau Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:tissage nouveau roubaix</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#tissage_du_nouveau_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Édouard Vaillant</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#tissage_du_nouveau_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.185415 50.672745)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_allart">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Allart</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine allart</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_allart_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hommelet</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_allart_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.186366 50.69302)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_beaufil">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Beaufil</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine beaufil</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_beaufil_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Barbieux</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_beaufil_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.175467 50.685209)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_cavrois_mahieu">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Cavrois-Mahieu</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine cavrois mahieu</skos:notation>
+    <dct:type xml:lang="fr">Usine</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_cavrois_mahieu_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Moulin</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_cavrois_mahieu_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.186557 50.682014)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_de_la_lainiere_de_roubaix">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine de La Lainière de Roubaix</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine lainiere roubaix</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_de_la_lainiere_de_roubaix_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Hutin Oran Cartigny</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_de_la_lainiere_de_roubaix_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.192923 50.704891)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_du_coq_francais">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine du Coq Français</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine coq francais</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_du_coq_francais_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Sainte-Élisabeth</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_du_coq_francais_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.18518 50.686062)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_holden">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Holden</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine holden</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_holden_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_holden_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.151531 50.673808)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_lepoutre">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Lepoutre</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine lepoutre</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_lepoutre_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fosse-aux-Chênes</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_lepoutre_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.172591 50.69833)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_motte_bossut">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Motte-Bossut</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine motte bossut</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_motte_bossut_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Anseele Motte-Bossut</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_motte_bossut_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.178415 50.690457)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_phildar">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Phildar</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine phildar</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_phildar_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fosse-aux-Chênes</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_phildar_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.176883 50.696933)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_roussel">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Roussel</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine roussel</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_roussel_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Épeule</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_roussel_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.162962 50.689529)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_vanoutryve">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Usine Vanoutryve</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:usine vanoutryve</skos:notation>
+    <dct:type xml:lang="fr">Industrie</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_vanoutryve_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Fresnoy-Mackellerie</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#usine_vanoutryve_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.160086 50.699753)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_andre_petrieux">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Vélodrome André Pétrieux</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000002478333140</skos:notation>
+    <dct:type xml:lang="fr">Vélodrome</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_andre_petrieux_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Justice</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_andre_petrieux_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.205347 50.677994)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_couvert_regional_jean_stablinski">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Vélodrome Couvert Régional Jean Stablinski</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bdtopo:SURFACTI0000000331790932</skos:notation>
+    <dct:type xml:lang="fr">Vélodrome</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_couvert_regional_jean_stablinski_geometrie"/>
+    <skos:scopeNote xml:lang="fr">Quartier(s) : Justice</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_couvert_regional_jean_stablinski_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.20499 50.679825)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_des_quatre_villes">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Vélodrome des Quatre Villes</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:velodrome quatre villes</skos:notation>
+    <dct:type xml:lang="fr">Vélodrome</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_des_quatre_villes_geometrie"/>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_des_quatre_villes_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.206798 50.700811)</geo:asWKT>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_du_parc_barbieux">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Vélodrome du Parc Barbieux</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+    <skos:notation>bnr:velodrome roubaisien</skos:notation>
+    <dct:type xml:lang="fr">Vélodrome</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_du_parc_barbieux_geometrie"/>
+    <skos:historyNote xml:lang="fr">Dates : 1895 – 1924.</skos:historyNote>
+    <skos:topConceptOf rdf:resource="https://www.bn-r.fr/thesaurus/geo_rbx_sites"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_rbx_sites#velodrome_du_parc_barbieux_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.154095 50.668389)</geo:asWKT>
   </rdf:Description>
 </rdf:RDF>

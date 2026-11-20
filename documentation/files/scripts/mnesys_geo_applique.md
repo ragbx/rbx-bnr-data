@@ -112,3 +112,19 @@ Premier passage `--serie mnesys`, avec les seules décisions Fi : **1 098 `<geog
 (3Fi 311, 3D130-165 262, 7C 133, 507W 67, 310W 63…), dont 657 communes et pays, 227 voies, 184 quartiers,
 30 sites ; 11 doublons dans un même `<controlaccess>` (gardés et signalés) ; hors `<geogname>`, tous les IR
 écrits sont identiques aux originaux. Ce résultat est provisoire : le dossier est recréé à chaque exécution.
+
+## Sites validés notice par notice (2026-11-20)
+
+Après les réécritures, le script appelle `scripts/ead/geogname_ajouts.py`, qui **ajoute** un `<geogname>` aux notices validées une par une pour un site (aujourd'hui : les trois hôtels des postes, `results/ead/indexation/hotel_des_postes_20261120.csv`, décisions « validé » ; une notice « B+C » reçoit les deux lieux). Le `<geogname>` suit la convention de réécriture (libellé, `@source` = `bnr_geo_rbx_sites.xml`, `@coord` WKT) et va dans le `<controlaccess>` propre au `<c>`, créé s'il manque. Les ajouts sont refaits à chaque exécution ; ils figurent au rapport avec l'action « ajouté (validé par notice) ». Notices BnR repérées par `unitid`, notices Mnesys par IR + id du `<c>` ; une notice d'un IR illisible est signalée à l'écran.
+Ajouts manuels (2026-11-20) : `data/geo/geogname_ajouts_manuels.csv` (une ligne par notice et par lieu), lu par le même module ; premier usage : 7 notices MED_PHO de l'Église Saint-Corneille et de la Chapelle Sainte-Thérèse, sites de Hem retirés du référentiel, indexées par la commune seule « Hem (Nord) ».
+
+## Quartier ou commune déduits (2026-11-20)
+
+Après les réécritures et les ajouts, dans chaque `<controlaccess>` (module `geogname_ajouts.py`) :
+- un **site** situé dans un seul quartier reçoit le `<geogname>` de ce quartier ; un site hors Roubaix, celui de sa commune (`data/geo/sites_communes.csv`, commune du point d'après geo.api.gouv.fr) ;
+- une **rue** située dans un seul des 31 quartiers (colonne `quartiers` du référentiel) reçoit ce quartier ; une rue sur plusieurs quartiers (ambiguë) ou sans quartier ne reçoit rien ;
+- **jamais de doublon** : un lieu déjà présent dans le `<controlaccess>` (même libellé) n'est pas ajouté, et un quartier cité par plusieurs rues de la notice ne l'est qu'une fois.
+
+Actions du rapport : « ajouté (quartier déduit) », « ajouté (commune déduite) ».
+
+**Doublons de quartier ou de commune (2026-11-20)** : deux formes d'un même quartier ou d'une même commune réécrites en deux `<geogname>` identiques (même texte, même `@source`) dans un `<controlaccess>` : le second est retiré (action « retiré (doublon de quartier ou de commune) »). Les doublons de voies (ancien et nouveau nom) restent gardés (décision du 2026-10-27).

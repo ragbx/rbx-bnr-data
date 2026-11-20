@@ -16,7 +16,8 @@ repérage des sites dans les IR Mnesys (sites_candidats.py --prefixe proposition
 noms de data/geo/sites_fusions.csv) ; lieu_id = point_id du site validé, origine « site ».
 
 Sortie : results/ead/indexation/archives_carte_notices.csv — thesaurus, lieu_id, libelle, ir, c_id, cote, date,
-normal, titre, forme ; une ligne par lieu × notice. Les <geogname> hors de tout <c> (archdesc) sont comptés.
+normal, titre, forme ; une ligne par lieu × notice. Quartier déduit (2026-11-20) : une notice citant un site ou une rue
+d'un seul quartier est aussi rattachée à ce quartier (origine « quartier déduit »). Les <geogname> hors de tout <c> (archdesc) sont comptés.
 
     python scripts/ead/archives_carte_notices.py      (env conda rbx-bnr-data)
     python scripts/ead/carte_leaflet.py
@@ -136,6 +137,26 @@ def main():
                        "date": date, "normal": norm, "titre": titre, "forme": forme, "origine": "site"})
         sites += 1
 
+    # Quartier déduit (2026-11-20, même règle que geogname_ajouts.py) : une notice citant un site ou une rue situés
+    # dans un seul quartier est aussi rattachée à ce quartier (rue ambiguë : rien) ; sans doublon (clé vues).
+    ref = {l["lieu_id"]: l for l in lire(REFERENTIEL)}
+    quartier_id = {l["libelle"]: l["lieu_id"] for l in ref.values() if l["thesaurus"] == "quartiers"}
+    deduits = 0
+    for l in list(lignes):
+        lieu = ref.get(l["lieu_id"])
+        if l["thesaurus"] not in ("rues", "points") or lieu is None:
+            continue
+        qs = [q for q in lieu["quartiers"].split(" | ") if q]
+        if len(qs) != 1 or qs[0] not in quartier_id:
+            continue
+        cle = (quartier_id[qs[0]], l["ir"], l["c_id"])
+        if cle in vues:
+            continue
+        vues.add(cle)
+        lignes.append({**l, "thesaurus": "quartiers", "lieu_id": quartier_id[qs[0]],
+                       "libelle": libelle.get(quartier_id[qs[0]], qs[0]), "forme": l["libelle"], "origine": "quartier déduit"})
+        deduits += 1
+
     lignes.sort(key=lambda l: (l["thesaurus"], l["libelle"], l["ir"], l["normal"] or l["date"] or "9999", l["cote"]))
     with open(SORTIE, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, COLONNES, lineterminator="\n")
@@ -148,6 +169,7 @@ def main():
           f"notices : {len({(l['ir'], l['c_id']) for l in lignes})} dans {len({l['ir'] for l in lignes})} IR")
     print(f"  <geogname> écartés (à traiter, refusés, hors Roubaix) : {sum(ecartees.values())} ; "
           f"hors de tout <c> : {sum(hors_c.values())} {dict(hors_c) if hors_c else ''}")
+    print(f"  quartiers déduits (site ou rue d'un seul quartier) : {deduits}")
     print(f"  notices rattachées à un site validé (sujet) : {sites} "
           f"({len({l['lieu_id'] for l in lignes if l['origine'] == 'site'})} sites)")
     print(f"  sans titre : {sum(1 for l in lignes if not l['titre'])} ; sans cote : {sum(1 for l in lignes if not l['cote'])}")

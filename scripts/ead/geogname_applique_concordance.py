@@ -35,6 +35,11 @@ lieu dans un même <controlaccess> (ancien et nouveau nom d'une voie) donnent
 deux <geogname> identiques : ils sont gardés (décision du 2026-10-27) et
 signalés dans le rapport.
 
+Sites validés notice par notice (2026-11-20) : après les réécritures, geogname_ajouts.py ajoute les
+<geogname> des sites validés notice par notice (pour l'instant les trois hôtels des postes,
+results/ead/indexation/hotel_des_postes_20261120.csv) et les ajouts manuels (data/geo/geogname_ajouts_manuels.csv), dans le <controlaccess> propre au <c> (créé s'il manque) ;
+action « ajouté (validé par notice) » dans le rapport.
+
 Rapport : results/ead/indexation/<dossier de sortie>_rapport.csv, une ligne
 par <geogname> (IR, composant, avant / après, lieu, action).
 
@@ -149,6 +154,11 @@ def main():
     rapport_csv = join(INDEXATION, f"{basename(args.sortie.rstrip('/'))}_rapport.csv")
 
     formes, lieux = charger()
+    from geogname_ajouts import (ACTION, ajouter_arbre, charger_ajouts, dedoublonner_arbre, deduire_arbre,
+                                 regles_deduction)
+    par_unitid, _ = charger_ajouts()
+    regles = regles_deduction(lieux)
+    unitid_trouves = set()
     par_libelle = Counter(normaliser(l["libelle"]) for l in lieux.values())
     par_libelle = {normaliser(l["libelle"]): l for l in lieux.values() if par_libelle[normaliser(l["libelle"])] == 1}
     coords = {}
@@ -215,6 +225,20 @@ def main():
                 if vus[cle] > 1:
                     ligne["doublon"] = "oui"
             actions[ligne["action"]] += 1
+        # sites validés notice par notice (geogname_ajouts.py) : <geogname> ajoutés
+        ajouts, trouves = ajouter_arbre(root, ir, par_unitid, lieux, coords, SOURCES)
+        unitid_trouves |= trouves
+        rapport.extend(ajouts)
+        actions[ACTION] += len(ajouts)
+        # quartier (site ou rue d'un seul quartier) ou commune (site hors Roubaix) déduits, sans doublon
+        doublons = dedoublonner_arbre(root, ir, SOURCES)
+        rapport.extend(doublons)
+        for d in doublons:
+            actions[d["action"]] += 1
+        deduits = deduire_arbre(root, ir, regles, lieux, coords, SOURCES)
+        rapport.extend(deduits)
+        for d in deduits:
+            actions[d["action"]] += 1
         tree.write(join(args.sortie, basename(chemin)), encoding="UTF-8", xml_declaration=True,
                    pretty_print=True, with_comments=True)
 
@@ -227,6 +251,8 @@ def main():
     print(f"actions : {dict(actions.most_common())}")
     print(f"réécrits par thésaurus : {dict(par_thesaurus.most_common())}")
     print(f"doublons dans un même controlaccess : {sum(1 for l in rapport if l['doublon'])}")
+    if not args.ir and (manquants := sorted(set(par_unitid) - unitid_trouves)):
+        print(f"  ! notices de sites validés introuvables (unitid) : {', '.join(manquants)}")
     print(f"rapport → {rapport_csv}")
 
 

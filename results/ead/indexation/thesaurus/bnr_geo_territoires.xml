@@ -1431,6 +1431,20 @@
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
     <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (6.333333 46)</geo:asWKT>
   </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_territoires#hem_nord">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <skos:prefLabel xml:lang="fr">Hem (Nord)</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires"/>
+    <skos:notation>59299</skos:notation>
+    <dct:type xml:lang="fr">commune</dct:type>
+    <geo:hasGeometry rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#hem_nord_geometrie"/>
+    <skos:broader rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#nord_france"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_territoires#hem_nord_geometrie">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (3.1913 50.6531)</geo:asWKT>
+  </rdf:Description>
   <rdf:Description rdf:about="https://www.bn-r.fr/thesaurus/geo_territoires#hurtebise_aisne">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
@@ -2163,6 +2177,7 @@
     <skos:narrower rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#wervicq_sud_nord"/>
     <skos:narrower rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#wignehies_nord"/>
     <skos:narrower rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#willems_nord"/>
+    <skos:narrower rdf:resource="https://www.bn-r.fr/thesaurus/geo_territoires#hem_nord"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
     <skos:prefLabel xml:lang="fr">Nord (France)</skos:prefLabel>

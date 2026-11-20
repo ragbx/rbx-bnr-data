@@ -77,6 +77,7 @@ FAMILLES = [
     ("demeure", r"chateau|villa|hotel particulier"),
     ("industrie", r"usine|filature|tissage|peignage|teinturerie|brasserie|manufacture"),
     ("commerce", r"halles centrales"),
+    ("poste", r"hotel des postes|poste centrale"),
 ]
 # Étapes 2-3 : type de lien.
 # IR d'images (le site cité en titre est ce que montre l'image) et IR d'événements (affiches, programmes).
@@ -115,10 +116,12 @@ VARIANTES = {
     "conservatoire": "conservatoire a rayonnement departemental",
     "conservatoire national": "conservatoire a rayonnement departemental",
     "salle wattremez": "salle watremez",
-    "musee piscine": "piscine",
-    "piscine musee art et industrie andre diligent": "piscine",
-    "musee art et industrie": "piscine",
-    "musee art et industrie andre diligent": "piscine",
+    # La Piscine : point renommé au référentiel le 2026-11-18 (« La Piscine – Musée d'art et d'industrie
+    # André Diligent ») ; les formes courtes y sont renvoyées (correctif du 2026-11-20).
+    "piscine": "piscine musee art et industrie andre diligent",
+    "musee piscine": "piscine musee art et industrie andre diligent",
+    "musee art et industrie": "piscine musee art et industrie andre diligent",
+    "musee art et industrie andre diligent": "piscine musee art et industrie andre diligent",
 }
 MOTS_TYPE = set("""eglise chapelle basilique temple synagogue mosquee couvent hopital hospice clinique
 sanatorium maternite dispensaire hospital gare hotel ville mairie theatre salle cinema colisee casino kursaal
@@ -178,6 +181,36 @@ BARBIEUX_DU_VELODROME = re.compile(r"(?i)v[ée]lodrome[^.;]{0,60}?barbieux")
 # Choix par notice saisis dans le projet QGIS de validation (qgis_validation_velodromes.py --reporter) :
 # ir, c_id, velodrome (barbieux / petrieux / stab / aucun / à revoir), remarque. Le choix prime sur velodrome().
 VELODROMES_MANUEL = join(GEO, "velodromes_notices_manuel.csv")
+# Les trois hôtels des postes successifs (recherche et validation notice par notice du 2026-11-20, noms choisis
+# par l'utilisateur ; décision du même jour : les brancher ici comme les vélodromes). Pas de repérage
+# automatique : seules les notices « validé » du fichier sont prises, chacune sous son ou ses bâtiments
+# (colonne batiment : A, B, C, « B+C »…) ; les « à vérifier » restent de côté. Notices Mnesys repérées par
+# (IR, id), notices BnR par unitid (le fichier n'a pas leur id). Lettre → (clé du site, lieu_id, forme affichée).
+POSTES_MANUEL = join("results", "ead", "indexation", "hotel_des_postes_20261120.csv")
+POSTES = {
+    "A": ("hotel des postes rue nain (choix)", "bnr:ancien hotel des postes rue nain", "Ancien hôtel des postes (rue Nain)"),
+    "B": ("hotel des postes bd leclerc (choix)", "bnr:institut universitaire technologie",
+          "Ancien hôtel des postes (bd Leclerc)"),
+    "C": ("poste centrale (choix)", "bdtopo:SURFACTI0000000056486392", "Poste centrale"),
+}
+POSTES_CLES = {cle_: lieu for cle_, lieu, _ in POSTES.values()}
+POSTES_FORMES = {forme: cle_ for cle_, _, forme in POSTES.values()}
+
+
+def choix_postes():
+    """{("id", ir, c_id) ou ("unitid", unitid): {lettres}} des notices validées de POSTES_MANUEL."""
+    choix = defaultdict(set)
+    if not exists(POSTES_MANUEL):
+        return choix
+    for r in lire_csv(POSTES_MANUEL):
+        if r["decision"].strip() != "validé":
+            continue
+        lettres = {x.strip() for x in r["batiment"].split("+") if x.strip() in POSTES}
+        if r["id"].strip():
+            choix[("id", re.sub(r"^FR[A-Z]*\d+_", "", basename(r["ir"]))[:-4], r["id"].strip())] |= lettres
+        elif r["unitid"].strip():
+            choix[("unitid", r["unitid"].strip())] |= lettres
+    return choix
 # Les Halles centrales (marché couvert construit en 1881, désaffecté en 1954 ; îlot rue de la Halle, rue
 # Pierre Motte, rue Jeanne d'Arc, rue de la Sagesse ; point disparu bnr:halles centrales, indication
 # utilisateur du 2026-11-19). « Halle(s) centrale(s) » est toujours pris ; « les / la / des / aux
@@ -541,6 +574,7 @@ def main():
 
     choix_velodromes = {(r["ir"], r["c_id"]): r["velodrome"] for r in lire_csv(VELODROMES_MANUEL)
                         if r["velodrome"]} if exists(VELODROMES_MANUEL) else {}
+    postes = choix_postes()
     lignes_notices, sites = [], defaultdict(lambda: {"formes": Counter(), "champs": Counter(), "ir": Counter(),
                                                      "notices": set(), "contexte": Counter(), "personne": 0,
                                                      "exemple": ""})
@@ -591,13 +625,16 @@ def main():
                     if cle_site(v) in ("halle", "halles") and annees and max(annees) < HALLES_ANNEE_MIN:
                         continue   # halle antérieure aux Halles centrales
                     trouves.append((v, champ, "", avant, deb))
+            lettres = postes.get(("id", ir, c.get("id"))) or postes.get(("unitid", txt(did.find("unitid"))), set())
+            for lettre in sorted(lettres):
+                trouves.append((POSTES[lettre][2], "choix", "", "", False))
 
             vus = set()
             if any(cle_site(f[0]) in VELODROMES_A_ATTRIBUER for f in trouves) \
                     and not re.search(r"(?i)barbieux", BARBIEUX_DU_VELODROME.sub(" ", f"{titre} {scope}")):
                 trouves = [f for f in trouves if cle_site(f[0]) != PARC_BARBIEUX]
             for forme, champ, role, avant, deb in trouves:
-                k = cle_site(forme)
+                k = POSTES_FORMES[forme] if champ == "choix" else cle_site(forme)
                 if k in HALLES_CLES:
                     k = HALLES_CLE
                 attribution, groupe_auto = "", ""
@@ -670,6 +707,8 @@ def main():
             corresp, cands = f"vélodrome par {k.split('(')[1][:-1]}", [p for p in points if p["lieu_id"] == lieu]
         elif k in (VELODROME_A_REVOIR, VELODROME_AUCUN):
             corresp, cands = "vélodrome " + k.split("(")[1][:-1].replace("a revoir", "à revoir"), []
+        elif k in POSTES_CLES:
+            corresp, cands = "hôtel des postes par choix", [p for p in points if p["lieu_id"] == POSTES_CLES[k]]
         manuel = anciennes.get(k, {}).get("lieu_manuel", "").strip()
         decision = anciennes.get(k, {}).get("decision", "").strip()
         if manuel:
@@ -686,6 +725,8 @@ def main():
             if n["lieu_id"] in LIEU_SI_RUE and n["ir"] in IR_EVENEMENTS and n["lien"] in LIENS_RETENUS \
                     and not n["motif"].startswith("rue de la notice"):
                 n["lien"], n["motif"] = "lieu ou organisateur", LIEU_SI_RUE[n["lieu_id"]]
+            if k in POSTES_CLES and n["lien"] not in LIENS_RETENUS:   # notice validée une à une
+                n["lien"], n["motif"] = "sujet", f"choix à la validation ({basename(POSTES_MANUEL)})"
             liens[n["lien"]] += 1
         # Adresses des titres et des notes, géocodées par la BAN.
         adresses, geoms, dates = Counter(), {}, Counter()
